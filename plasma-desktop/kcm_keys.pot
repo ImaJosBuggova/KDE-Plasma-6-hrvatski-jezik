@@ -1,73 +1,73 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Translation of plasma-desktop into Croatian
+# Copyright (C) 2026
 # This file is distributed under the same license as the plasma-desktop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-10 00:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-23 00:34+0200\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: basemodel.cpp:158
 #, kde-format
 msgctxt "@title:group Launch app"
 msgid "Launch"
-msgstr ""
+msgstr "Pokretanje"
 
 #: basemodel.cpp:191
 #, kde-format
 msgctxt "@item:intable"
 msgid "Window Management"
-msgstr ""
+msgstr "Upravljanje prozorskim prostorom"
 
 #: basemodel.cpp:194
 #, kde-format
 msgctxt "@item:intable"
 msgid "Plasma Workspace"
-msgstr ""
+msgstr "Radni prostor Plasme"
 
 #: globalaccelmodel.cpp:281
 #, kde-format
 msgctxt ""
 "%1 is the name of the component, %2 is the action for which saving failed"
 msgid "Error while saving shortcut %1: %2"
-msgstr ""
+msgstr "Pogreška pri spremanju prečaca %1: %2"
 
 #: globalaccelmodel.cpp:395
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid "Error while adding %1, it seems it has no actions."
-msgstr ""
+msgstr "Pogreška pri dodavanju %1, čini se da nema radnji."
 
 #: globalaccelmodel.cpp:469
 #, kde-format
 msgid "Error while communicating with the global shortcuts service"
-msgstr ""
+msgstr "Pogreška pri komunikaciji s uslugom globalnih prečaca"
 
 #: kcm_keys.cpp:56
 #, kde-format
 msgid "Failed to communicate with global shortcuts daemon"
-msgstr ""
+msgstr "Komunikacija s demonom globalnih prečaca nije uspjela"
 
 #: kcm_keys.cpp:380
 #, kde-kuit-format
@@ -77,6 +77,8 @@ msgid ""
 "Shortcut <shortcut>%1</shortcut> is already assigned to the common %2 action "
 "<interface>%3</interface>.<nl/><nl/>Re-assign it to %4?"
 msgstr ""
+"Prečac <shortcut>%1</shortcut> već je dodijeljen zajedničkoj radnji %2 "
+"<interface>%3</interface>.<nl/><nl/>Želite li ga ponovno dodijeliti za %4?"
 
 #: kcm_keys.cpp:386
 #, kde-kuit-format
@@ -86,308 +88,311 @@ msgid ""
 "%2</interface> of <application>%3</application>.<nl/><nl/>Reassign it to "
 "action <interface>%4</interface> of <application>%5</application>?"
 msgstr ""
+"Prečac <shortcut>%1</shortcut> već je dodijeljen radnji <interface>%2</interface> "
+"aplikacije <application>%3</application>.<nl/><nl/>Želite li ga ponovno "
+"dodijeliti radnji <interface>%4</interface> aplikacije <application>%5</application>?"
 
 #: kcm_keys.cpp:396
 #, kde-format
 msgctxt "@title:window"
 msgid "Resolve Shortcut Conflict"
-msgstr ""
+msgstr "Riješi sukob prečaca"
 
 #: kcm_keys.cpp:406
 #, kde-format
 msgctxt "@action:button"
 msgid "Reassign"
-msgstr ""
+msgstr "Ponovno dodijeli"
 
 #: standardshortcutsmodel.cpp:34
 #, kde-format
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: standardshortcutsmodel.cpp:35
 #, kde-format
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: standardshortcutsmodel.cpp:37
 #, kde-format
 msgid "Navigation"
-msgstr ""
+msgstr "Navigacija"
 
 #: standardshortcutsmodel.cpp:38
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #: standardshortcutsmodel.cpp:39
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Postavke"
 
 #: standardshortcutsmodel.cpp:40
 #, kde-format
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: ui/main.qml:27
 #, kde-format
 msgctxt "@title:group list section name"
 msgid "Applications"
-msgstr ""
+msgstr "Aplikacije"
 
 #: ui/main.qml:27
 #, kde-format
 msgctxt "@title:group list section name"
 msgid "Commands"
-msgstr ""
+msgstr "Naredbe"
 
 #: ui/main.qml:27
 #, kde-format
 msgctxt "@title:group list section name"
 msgid "System Services"
-msgstr ""
+msgstr "Sustavske usluge"
 
 #: ui/main.qml:27
 #, kde-format
 msgctxt "@title:group list section name"
 msgid "Common Actions"
-msgstr ""
+msgstr "Zajedničke radnje"
 
 #: ui/main.qml:43
 #, kde-format
 msgctxt "@action:button Import shortcut scheme"
 msgid "Import…"
-msgstr ""
+msgstr "Uvezi…"
 
 #: ui/main.qml:44
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Import shortcut scheme"
-msgstr ""
+msgstr "Uvezi shemu prečaca"
 
 #: ui/main.qml:49
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Export"
-msgstr ""
+msgstr "Odustani od izvoza"
 
 #: ui/main.qml:50
 #, kde-format
 msgctxt "@action:button Export shortcut scheme"
 msgid "Export…"
-msgstr ""
+msgstr "Izvezi…"
 
 #: ui/main.qml:53 ui/main.qml:128
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Export shortcut scheme"
-msgstr ""
+msgstr "Izvezi shemu prečaca"
 
 #: ui/main.qml:66
 #, kde-format
 msgctxt "@action:button Add new shortcut"
 msgid "Add New"
-msgstr ""
+msgstr "Dodaj novo"
 
 #: ui/main.qml:74
 #, kde-format
 msgctxt "@action:menu End of the sentence 'Add New Application…'"
 msgid "Application…"
-msgstr ""
+msgstr "Aplikaciju…"
 
 #: ui/main.qml:75
 #, kde-format
 msgctxt "@action:menu accessible"
 msgid "Add new application"
-msgstr ""
+msgstr "Dodaj novu aplikaciju"
 
 #: ui/main.qml:82
 #, kde-format
 msgctxt "@action:menu End of the sentence 'Add New Command or Script…'"
 msgid "Command or Script…"
-msgstr ""
+msgstr "Naredbu ili skriptu…"
 
 #: ui/main.qml:83
 #, kde-format
 msgctxt "@action:menu accessible"
 msgid "Add new command or script"
-msgstr ""
+msgstr "Dodaj novu naredbu ili skriptu"
 
 #: ui/main.qml:107
 #, kde-format
 msgctxt "@info:status inlinemessage"
 msgid "Cannot export scheme while there are unsaved changes"
-msgstr ""
+msgstr "Shema se ne može izvesti dok postoje nespremljene promjene"
 
 #: ui/main.qml:120
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
 "Select the components below that should be included in the exported scheme"
-msgstr ""
+msgstr "Odaberite komponente u nastavku koje treba uključiti u izvezenu shemu"
 
 #: ui/main.qml:127
 #, kde-format
 msgctxt "@action:button Export shortcut scheme"
 msgid "Export"
-msgstr ""
+msgstr "Izvezi"
 
 #: ui/main.qml:229
 #, kde-format
 msgctxt ""
 "@option:check accessible export shortcuts %1 is application/group name"
 msgid "Export %1"
-msgstr ""
+msgstr "Izvezi %1"
 
 #: ui/main.qml:239
 #, kde-format
 msgctxt "@action:button %1 is the name of a custom command"
 msgid "Edit command for %1"
-msgstr ""
+msgstr "Uredi naredbu za %1"
 
 #: ui/main.qml:268
 #, kde-format
 msgctxt "@action:button %1 is the name of a shortcut category"
 msgid "Remove all shortcuts for %1"
-msgstr ""
+msgstr "Ukloni sve prečace za %1"
 
 #: ui/main.qml:290
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo deletion"
-msgstr ""
+msgstr "Poništi brisanje"
 
 #: ui/main.qml:357
 #, kde-format
 msgctxt "@info:status placeholdermessage"
 msgid "No items matched the search terms"
-msgstr ""
+msgstr "Nijedna stavka ne odgovara uvjetima pretraživanja"
 
 #: ui/main.qml:374
 #, kde-format
 msgctxt "@info"
 msgid "These shortcuts will be deleted when changes are applied."
-msgstr ""
+msgstr "Ovi će prečaci biti izbrisani kada se primijene promjene."
 
 #: ui/main.qml:378
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo"
-msgstr ""
+msgstr "Poništi"
 
 #: ui/main.qml:379
 #, kde-format
 msgctxt "@action:button"
 msgid "Undo deleting shortcuts"
-msgstr ""
+msgstr "Poništi brisanje prečaca"
 
 #: ui/main.qml:422
 #, kde-format
 msgctxt "@info:usagetip placeholdermessage"
 msgid "Select an item from the list to view its shortcuts here"
-msgstr ""
+msgstr "Odaberite stavku s popisa kako biste ovdje vidjeli njezine prečace"
 
 #: ui/main.qml:435
 #, kde-format
 msgctxt "@title:window dialog"
 msgid "Export Shortcut Scheme"
-msgstr ""
+msgstr "Izvezi shemu prečaca"
 
 #: ui/main.qml:435 ui/main.qml:567
 #, kde-format
 msgctxt "@title:window dialog"
 msgid "Import Shortcut Scheme"
-msgstr ""
+msgstr "Uvezi shemu prečaca"
 
 #: ui/main.qml:437
 #, kde-format
 msgctxt "Template for file dialog"
 msgid "Shortcut Scheme (*.kksrc)"
-msgstr ""
+msgstr "Shema prečaca (*.kksrc)"
 
 #: ui/main.qml:464
 #, kde-format
 msgctxt "@title:window dialog"
 msgid "Edit Command"
-msgstr ""
+msgstr "Uredi naredbu"
 
 #: ui/main.qml:464
 #, kde-format
 msgctxt "@title:window dialog"
 msgid "Add Command"
-msgstr ""
+msgstr "Dodaj naredbu"
 
 #: ui/main.qml:481
 #, kde-format
 msgctxt "@action:button in dialog, save changes to custom command"
 msgid "Save"
-msgstr ""
+msgstr "Spremi"
 
 #: ui/main.qml:481
 #, kde-format
 msgctxt "@action:button in dialog, add entry as new custom command"
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: ui/main.qml:483
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Save command"
-msgstr ""
+msgstr "Spremi naredbu"
 
 #: ui/main.qml:484
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Add command"
-msgstr ""
+msgstr "Dodaj naredbu"
 
 #: ui/main.qml:506
 #, kde-format
 msgctxt "@info:usagetip"
 msgid "Enter a command or choose a script file:"
-msgstr ""
+msgstr "Unesite naredbu ili odaberite datoteku skripte:"
 
 #: ui/main.qml:515
 #, kde-format
 msgctxt "@label:textbox A shell command"
 msgid "Command:"
-msgstr ""
+msgstr "Naredba:"
 
 #: ui/main.qml:521
 #, kde-format
 msgctxt "@label:textbox accessible"
 msgid "Command"
-msgstr ""
+msgstr "Naredba"
 
 #: ui/main.qml:528
 #, kde-format
 msgctxt "@action:button"
 msgid "Choose…"
-msgstr ""
+msgstr "Odaberi…"
 
 #: ui/main.qml:529
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Choose script file"
-msgstr ""
+msgstr "Odaberi datoteku skripte"
 
 #: ui/main.qml:537
 #, kde-format
 msgctxt "@label:textfield Human-readable name given to a shell command"
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #: ui/main.qml:538
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter name here"
-msgstr ""
+msgstr "Ovdje unesite naziv"
 
 #: ui/main.qml:550
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Script File"
-msgstr ""
+msgstr "Odaberite datoteku skripte"
 
 #: ui/main.qml:552
 #, kde-format
@@ -395,61 +400,61 @@ msgctxt ""
 "Filename filters for file dialog. Do not translate any of the filename "
 "extensions"
 msgid "Script files (.sh, .bash, .zsh, etc.) (*.*sh)"
-msgstr ""
+msgstr "Datoteke skripta (.sh, .bash, .zsh, itd.) (*.*sh)"
 
 #: ui/main.qml:575
 #, kde-format
 msgctxt "@label:listbox regarding 'shortcut schemes'"
 msgid "Select the scheme to import:"
-msgstr ""
+msgstr "Odaberite shemu za uvoz:"
 
 #: ui/main.qml:594
 #, kde-format
 msgctxt "@item:inlistbox regarding 'shortcut schemes'"
 msgid "Custom Scheme"
-msgstr ""
+msgstr "Prilagođena shema"
 
 #: ui/main.qml:602
 #, kde-format
 msgctxt "@action:button"
 msgid "Select File…"
-msgstr ""
+msgstr "Odaberi datoteku…"
 
 #: ui/main.qml:602
 #, kde-format
 msgctxt "@action:button import shortcut scheme"
 msgid "Import"
-msgstr ""
+msgstr "Uvezi"
 
 #: ui/main.qml:604
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Select shortcut scheme file"
-msgstr ""
+msgstr "Odaberi datoteku sheme prečaca"
 
 #: ui/main.qml:605
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Add shortcut scheme"
-msgstr ""
+msgstr "Dodaj shemu prečaca"
 
 #: ui/ShortcutActionDelegate.qml:31
 #, kde-format
 msgctxt "@action:button Collapse shortcuts view"
 msgid "Collapse"
-msgstr ""
+msgstr "Sažmi"
 
 #: ui/ShortcutActionDelegate.qml:32
 #, kde-format
 msgctxt "@action:button"
 msgid "Expand to configure shortcuts"
-msgstr ""
+msgstr "Proširi za podešavanje prečaca"
 
 #: ui/ShortcutActionDelegate.qml:38
 #, kde-format
 msgctxt "@info:whatsthis accessible name %1 is shortcut label (not sequence)"
 msgid "Editing shortcut: %1"
-msgstr ""
+msgstr "Uređivanje prečaca: %1"
 
 #: ui/ShortcutActionDelegate.qml:63
 #, kde-format
@@ -457,66 +462,67 @@ msgctxt ""
 "%1 is the name action that is triggered by the key sequences following "
 "after :"
 msgid "%1:"
-msgstr ""
+msgstr "%1:"
 
 #: ui/ShortcutActionDelegate.qml:85
 #, kde-format
 msgctxt "@info:status"
 msgid "No active shortcuts"
-msgstr ""
+msgstr "Nema aktivnih prečaca"
 
 #: ui/ShortcutActionDelegate.qml:135
 #, kde-format
 msgctxt "@title:column %1 decides if singular or plural will be used"
 msgid "Default shortcut"
 msgid_plural "Default shortcuts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Zadani prečac"
+msgstr[1] "Zadani prečaci"
+msgstr[2] "Zadani prečaci"
 
 #: ui/ShortcutActionDelegate.qml:137
 #, kde-format
 msgctxt "@label for shortcut with no default bindings"
 msgid "No default shortcuts"
-msgstr ""
+msgstr "Nema zadanih prečaca"
 
 #: ui/ShortcutActionDelegate.qml:146
 #, kde-format
 msgctxt "@info:whatsthis accessible name"
 msgid "Default shortcut %1 is enabled."
-msgstr ""
+msgstr "Zadani prečac %1 je omogućen."
 
 #: ui/ShortcutActionDelegate.qml:146
 #, kde-format
 msgctxt "@info:whatsthis accessible name"
 msgid "Default shortcut %1 is disabled."
-msgstr ""
+msgstr "Zadani prečac %1 je onemogućen."
 
 #: ui/ShortcutActionDelegate.qml:169
 #, kde-format
 msgctxt "@title:column"
 msgid "Custom shortcuts"
-msgstr ""
+msgstr "Prilagođeni prečaci"
 
 #: ui/ShortcutActionDelegate.qml:205
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Delete shortcut"
-msgstr ""
+msgstr "Izbriši prečac"
 
 #: ui/ShortcutActionDelegate.qml:216
 #, kde-format
 msgctxt "@action:button Add custom shortcut"
 msgid "Add…"
-msgstr ""
+msgstr "Dodaj…"
 
 #: ui/ShortcutActionDelegate.qml:217
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Add custom shortcut"
-msgstr ""
+msgstr "Dodaj prilagođeni prečac"
 
 #: ui/ShortcutActionDelegate.qml:253
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Cancel capturing shortcut"
-msgstr ""
+msgstr "Odustani od hvatanja prečaca"

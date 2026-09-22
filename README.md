@@ -2,7 +2,7 @@
 
 Ovaj repozitorij sadrži neslužbene prijevode i lokalizacijske datoteke za **KDE Plasma 6** radno okruženje na hrvatski jezik.
 
-Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Plasma 6 okruženja, uključujući sistemske postavke (`System Settings`), KCM module, prateće aplikacije te opise stavki u izbornicima i bočnim trakama.
+Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Plasma 6 okruženja.
 
 ---
 
@@ -12,7 +12,7 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | :--- | :---: | :--- |
 | **plasma-workspace** | ✅ | Pregledao Roko Tomović |
 | **systemsettings** | ✅ | Pregledao Roko Tomović |
-| **plasma-desktop** | ❌ | Prevedeno s AI-jem, čeka provjeru |
+| **plasma-desktop** | ❌ | Čeka provjeru |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru
@@ -56,9 +56,9 @@ Nakon ovoga ponovno pokrenite aplikaciju ili se odjavite i ponovno prijavite u s
 
 Svaka pomoć u obliku provjere AI prijevoda, ispravljanja tipfelera ili prevođenja novih modulā je i više nego dobrodošla!
 
-1. **Forkajte** ovaj repozitorij.
-2. Kreirajte novu granu (`git checkout -b prijevod-modula`).
-3. Napravite izmjene u `.po` datotekama koristeći alate kao što su [Poedit](https://poedit.net/) ili obični uređivač teksta.
+1. **Napantarulajte** ovaj repozitorij.
+2. Stvorite novu granu (`git checkout -b prijevod-modula`).
+3. Napravite izmjene.
 4. Otvorite **Pull Request** s opisom izmjena.
 
 ---

@@ -1,31 +1,32 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Translation of plasma-desktop into Croatian
+# Copyright (C) 2026
 # This file is distributed under the same license as the plasma-desktop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-23 00:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-23 00:31+0200\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
 #: DeviceAutomounterKCM.ui:17
@@ -36,6 +37,10 @@ msgid ""
 "\"Mount all removable media at login\" is unchecked. The same applies for "
 "\"Automount on Attach\"."
 msgstr ""
+"Ovaj popis sadrži uređaje za pohranu poznate sustavu. Ako je označeno "
+"„Automatski montiraj pri prijavi”, uređaji će se automatski montirati iako "
+"je odznačeno „Montiraj sve uklonjive medije pri prijavi”. Isto vrijedi i za "
+"„Automatski montiraj pri spajanju”."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
 #: DeviceAutomounterKCM.ui:54
@@ -47,12 +52,16 @@ msgid ""
 "system is set to only automatically mount familiar devices, the device will "
 "not be automatically mounted."
 msgstr ""
+"Klikom na ovaj gumb odabrani uređaji bit će „zaboravljeni”. Ovo je korisno "
+"samo ako je označeno „Automatski montiraj samo uklonjive medije koji su već "
+"ručno montirani”. Kada se uređaj zaboravi, a sustav je postavljen da "
+"automatski montira samo poznate uređaje, uređaj se neće automatski montirati."
 
 #. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
 #: DeviceAutomounterKCM.ui:57
 #, kde-format
 msgid "Forget Device"
-msgstr ""
+msgstr "Zaboravi uređaj"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountUnknownDevices)
 #: DeviceAutomounterKCM.ui:67
@@ -65,71 +74,77 @@ msgid ""
 "mounted the next time it is seen. Once they have been accessed, however, the "
 "device's contents will be automatically made available to the system."
 msgstr ""
+"Kada ovo nije označeno, automatski će se montirati samo zapamćeni uređaji. "
+"Uređaj je „zapamćen” ako je ikada prije bio montiran. Na primjer, priključivanje "
+"USB medijskog playera radi punjenja nije dovoljno da ga se „zapamti” – ako se "
+"ne pristupi datotekama, neće se automatski montirati sljedeći put kada se "
+"prepozna. Međutim, čim im se pristupi, sadržaj uređaja automatski će postati "
+"dostupan sustavu."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountUnknownDevices)
 #: DeviceAutomounterKCM.ui:70
 #, kde-format
 msgid "Automatically mount removable media that have never been mounted before"
-msgstr ""
+msgstr "Automatski montiraj uklonjive medije koji nikada prije nisu bili montirani"
 
 #: DeviceModel.cpp:52
 #, kde-format
 msgid "Automount Device"
-msgstr ""
+msgstr "Automatski montiraj uređaj"
 
 #: DeviceModel.cpp:54
 #, kde-format
 msgctxt "As in automount on login"
 msgid "On Login"
-msgstr ""
+msgstr "Pri prijavi"
 
 #: DeviceModel.cpp:56
 #, kde-format
 msgctxt "As in automount on attach"
 msgid "On Attach"
-msgstr ""
+msgstr "Pri spajanju"
 
 #: DeviceModel.cpp:258
 #, kde-format
 msgid "All Devices"
-msgstr ""
+msgstr "Svi uređaji"
 
 #: DeviceModel.cpp:258
 #, kde-format
 msgid "All Known Devices"
-msgstr ""
+msgstr "Svi poznati uređaji"
 
 #: DeviceModel.cpp:260
 #, kde-format
 msgid "Attached Devices"
-msgstr ""
+msgstr "Spojeni uređaji"
 
 #: DeviceModel.cpp:262
 #, kde-format
 msgid "Disconnected Devices"
-msgstr ""
+msgstr "Odspojeni uređaji"
 
 #: DeviceModel.cpp:298 DeviceModel.cpp:307
 #, kde-format
 msgid "UDI: %1"
-msgstr ""
+msgstr "UDI: %1"
 
 #: DeviceModel.cpp:318
 #, kde-format
 msgid "This device will be automatically mounted at login."
-msgstr ""
+msgstr "Ovaj uređaj će se automatski montirati pri prijavi."
 
 #: DeviceModel.cpp:318
 #, kde-format
 msgid "This device will not be automatically mounted at login."
-msgstr ""
+msgstr "Ovaj uređaj se neće automatski montirati pri prijavi."
 
 #: DeviceModel.cpp:326
 #, kde-format
 msgid "This device will be automatically mounted when attached."
-msgstr ""
+msgstr "Ovaj uređaj će se automatski montirati pri spajanju."
 
 #: DeviceModel.cpp:327
 #, kde-format
 msgid "This device will not be automatically mounted when attached."
-msgstr ""
+msgstr "Ovaj uređaj se neće automatski montirati pri spajanju."

@@ -1,33 +1,34 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Translation of plasma-desktop into Croatian
+# Copyright (C) 2026
 # This file is distributed under the same license as the plasma-desktop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-13 00:52+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-23 00:31+0200\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ui/main.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Pause Indexer"
-msgstr ""
+msgstr "Pauziraj indeksiranje"
 
 #: ui/main.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Resume Indexer"
-msgstr ""
+msgstr "Nastavi indeksiranje"
 
 #: ui/main.qml:61
 #, kde-format
@@ -36,6 +37,8 @@ msgid ""
 "This will disable file searching in KRunner and launcher menus, and remove "
 "extended metadata display from all KDE applications."
 msgstr ""
+"Ovo će onemogućiti pretraživanje datoteka u KRunneru i izbornicima pokretača "
+"te ukloniti prikaz proširenih metapodataka iz svih KDE aplikacija."
 
 #: ui/main.qml:71
 #, kde-format
@@ -46,12 +49,16 @@ msgid ""
 "from scratch. This may take some time, depending on the number of files to "
 "index."
 msgstr ""
+"Želite li izbrisati spremljene podatke indeksa? Oslobodit će se %1 "
+"prostora, ali ako se indeksiranje kasnije ponovno omogući, cijeli indeks "
+"će se morati izraditi ispočetka. Ovo može potrajati neko vrijeme, ovisno o "
+"broju datoteka za indeksiranje."
 
 #: ui/main.qml:73
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete Index Data"
-msgstr ""
+msgstr "Izbriši podatke indeksa"
 
 #: ui/main.qml:83
 #, kde-format
@@ -60,93 +67,95 @@ msgid ""
 "File Search helps you quickly locate your files. You can choose which "
 "folders and what types of file data are indexed."
 msgstr ""
+"Pretraživanje datoteka pomaže vam da brzo pronađete svoje datoteke. "
+"Možete odabrati koje se mape i koje vrste podataka datoteka indeksiraju."
 
 #: ui/main.qml:102
 #, kde-format
 msgctxt "@title:group"
 msgid "Data to index:"
-msgstr ""
+msgstr "Podaci za indeksiranje:"
 
 #: ui/main.qml:106
 #, kde-format
 msgctxt "@option:radio Data to index"
 msgid "Nothing (disable indexing entirely)"
-msgstr ""
+msgstr "Ništa (potpuno onemogući indeksiranje)"
 
 #: ui/main.qml:124
 #, kde-format
 msgctxt "@option:radio Data to index"
 msgid "File names only"
-msgstr ""
+msgstr "Samo nazivi datoteka"
 
 #: ui/main.qml:142
 #, kde-format
 msgctxt "@option:radio Data to index"
 msgid "File names and contents"
-msgstr ""
+msgstr "Nazivi i sadržaji datoteka"
 
 #: ui/main.qml:162
 #, kde-format
 msgctxt "@option:check"
 msgid "Also index hidden files and folders"
-msgstr ""
+msgstr "Također indeksiraj skrivene datoteke i mape"
 
 #: ui/main.qml:189
 #, kde-format
 msgctxt "@title:table Locations to include or exclude from indexing"
 msgid "Locations"
-msgstr ""
+msgstr "Lokacije"
 
 #: ui/main.qml:192
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Indexing a Folder…"
-msgstr ""
+msgstr "Započni indeksiranje mape…"
 
 #: ui/main.qml:200
 #, kde-format
 msgctxt "@action:button"
 msgid "Stop Indexing a Folder…"
-msgstr ""
+msgstr "Zaustavi indeksiranje mape…"
 
 #: ui/main.qml:218
 #, kde-format
 msgctxt "State and a percentage of progress"
 msgid "%1, %2% complete"
-msgstr ""
+msgstr "%1, %2% dovršeno"
 
 #: ui/main.qml:225
 #, kde-kuit-format
 msgctxt "@info Currently Indexing"
 msgid "Currently indexing: <filename>%1</filename>"
-msgstr ""
+msgstr "Trenutačno se indeksira: <filename>%1</filename>"
 
 #: ui/main.qml:276
 #, kde-format
 msgctxt "@info:status"
 msgid "Not indexed"
-msgstr ""
+msgstr "Nije indeksirano"
 
 #: ui/main.qml:277
 #, kde-format
 msgctxt "@info:status"
 msgid "Indexed"
-msgstr ""
+msgstr "Indeksirano"
 
 #: ui/main.qml:303
 #, kde-format
 msgctxt "Remove the list item for this filesystem path"
 msgid "Remove entry"
-msgstr ""
+msgstr "Ukloni stavku"
 
 #: ui/main.qml:324
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a folder to include"
-msgstr ""
+msgstr "Odaberite mapu za uključivanje"
 
 #: ui/main.qml:324
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a folder to exclude"
-msgstr ""
+msgstr "Odaberite mapu za isključivanje"

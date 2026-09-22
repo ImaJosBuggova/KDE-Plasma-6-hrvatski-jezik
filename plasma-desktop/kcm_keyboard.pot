@@ -1,76 +1,76 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Translation of plasma-desktop into Croatian
+# Copyright (C) 2026
 # This file is distributed under the same license as the plasma-desktop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-19 00:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-09-23 00:33+0200\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: bindings.cpp:24
 #, kde-format
 msgid "Keyboard Layout Switcher"
-msgstr ""
+msgstr "Prebacivač rasporeda tipkovnice"
 
 #: bindings.cpp:26
 #, kde-format
 msgid "Switch to Next Keyboard Layout"
-msgstr ""
+msgstr "Prebaci na sljedeći raspored tipkovnice"
 
 #: bindings.cpp:30
 #, kde-format
 msgid "Switch to Last-Used Keyboard Layout"
-msgstr ""
+msgstr "Prebaci na zadnje korišteni raspored tipkovnice"
 
 #: bindings.cpp:60
 #, kde-format
 msgid "Switch keyboard layout to %1"
-msgstr ""
+msgstr "Prebaci raspored tipkovnice na %1"
 
 #: keyboardmodel.cpp:35
 #, kde-format
 msgctxt "unknown keyboard model vendor"
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: keyboardmodel.cpp:39
 #, kde-format
 msgctxt "vendor | keyboard model"
 msgid "%1 | %2"
-msgstr ""
+msgstr "%1 | %2"
 
 #: tastenbrett/main.cpp:52
 #, kde-format
 msgctxt "app display name"
 msgid "Keyboard Preview"
-msgstr ""
+msgstr "Pregled tipkovnice"
 
 #: tastenbrett/main.cpp:54
 #, kde-format
 msgctxt "app description"
 msgid "Keyboard layout visualization"
-msgstr ""
+msgstr "Vizualizacija rasporeda tipkovnice"
 
 #: tastenbrett/main.cpp:139
 #, kde-format
@@ -84,54 +84,61 @@ msgid ""
 "not supported and  will also trigger this message. These might still work "
 "fine if applied"
 msgstr ""
+"Učitavanje geometrije tipkovnice nije uspjelo. To često znači da odabrani "
+"model ne podržava određeni raspored ili varijantu rasporeda. Ovaj će se "
+"problem vjerojatno pojaviti i kada pokušate upotrijebiti ovu kombinaciju "
+"modela, rasporeda i varijante.\n"
+"Pregledavanje rasporeda definiranih izvan xkb direktorija vašeg sustava "
+"nije podržano te će također uzrokovati ovu poruku. Ti bi rasporedi ipak "
+"mogli raditi ispravno ako se primijene."
 
 #: ui/KeyBindings.qml:18
 #, kde-format
 msgctxt "@title"
 msgid "Key Bindings"
-msgstr ""
+msgstr "Prečaci tipkovnice"
 
 #: ui/KeyBindings.qml:62
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Configure keyboard options"
-msgstr ""
+msgstr "Podesi opcije tipkovnice"
 
 #: ui/KeyBindings.qml:134
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset"
-msgstr ""
+msgstr "Vrati na izvorno"
 
 #: ui/KeyBindings.qml:138
 #, kde-format
 msgctxt "@info accessible"
 msgid "Reset selected options for this group"
-msgstr ""
+msgstr "Vrati odabrane opcije za ovu grupu na izvorno"
 
 #: ui/KeyBindings.qml:139
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset selected options for this group"
-msgstr ""
+msgstr "Vrati odabrane opcije za ovu grupu na izvorno"
 
 #: ui/LayoutDialog.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Set Layout"
-msgstr ""
+msgstr "Postavi raspored"
 
 #: ui/LayoutDialog.qml:22
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Layout"
-msgstr ""
+msgstr "Dodaj raspored"
 
 #: ui/LayoutDialog.qml:121
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Short layout name"
-msgstr ""
+msgstr "Skraćeni naziv rasporeda"
 
 #: ui/LayoutDialog.qml:131
 #, kde-format
@@ -140,90 +147,92 @@ msgid ""
 "The abbreviated name of the selected layout, which will be displayed in the "
 "system tray. You can change this setting yourself."
 msgstr ""
+"Skraćeni naziv odabranog rasporeda koji će biti prikazan u sistemskoj "
+"traci. Ovu postavku možete sami promijeniti."
 
 #: ui/LayoutDialog.qml:139
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Shortcut:"
-msgstr ""
+msgstr "Prečac:"
 
 #: ui/LayoutDialog.qml:150 ui/main.qml:287
 #, kde-format
 msgctxt "@action:button"
 msgid "Preview"
-msgstr ""
+msgstr "Pregled"
 
 #: ui/main.qml:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Configure Switching…"
-msgstr ""
+msgstr "Podesi prebacivanje…"
 
 #: ui/main.qml:38
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Configure Switching"
-msgstr ""
+msgstr "Podesi prebacivanje"
 
 #: ui/main.qml:44
 #, kde-format
 msgctxt "@action:button"
 msgid "Key Bindings"
-msgstr ""
+msgstr "Prečaci tipkovnice"
 
 #: ui/main.qml:45
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Key Bindings"
-msgstr ""
+msgstr "Prečaci tipkovnice"
 
 #: ui/main.qml:51
 #, kde-format
 msgctxt "@action:button Layout"
 msgid "Add…"
-msgstr ""
+msgstr "Dodaj…"
 
 #: ui/main.qml:52
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Add layout"
-msgstr ""
+msgstr "Dodaj raspored"
 
 #: ui/main.qml:59
 #, kde-format
 msgctxt "@label:checkbox configure layouts option"
 msgid "Enable"
-msgstr ""
+msgstr "Omogući"
 
 #: ui/main.qml:60
 #, kde-format
 msgctxt "@label:checkbox accessible"
 msgid "Configure Layouts"
-msgstr ""
+msgstr "Podesi rasporede"
 
 #: ui/main.qml:76
 #, kde-format
 msgctxt "@label:listbox Keyboard model"
 msgid "Model:"
-msgstr ""
+msgstr "Model:"
 
 #: ui/main.qml:104
 #, kde-format
 msgctxt "@label:listbox"
 msgid "NumLock on startup:"
-msgstr ""
+msgstr "NumLock pri pokretanju:"
 
 #: ui/main.qml:112
 #, kde-format
 msgctxt "@item:inlistbox Turn on \"NumLock\" on startup"
 msgid "Turn on"
-msgstr ""
+msgstr "Uključi"
 
 #: ui/main.qml:116
 #, kde-format
 msgctxt "@item:inlistbox Turn off \"NumLock\" on startup"
 msgid "Turn off"
-msgstr ""
+msgstr "Isključi"
 
 #: ui/main.qml:120
 #, kde-format
@@ -231,145 +240,145 @@ msgctxt ""
 "@item:inlistbox Leave \"NumLock\" at whatever it was set to before Plasma "
 "started up"
 msgid "Leave unchanged"
-msgstr ""
+msgstr "Ostavi nepromijenjeno"
 
 #: ui/main.qml:146
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Key repeat:"
-msgstr ""
+msgstr "Ponavljanje tipki:"
 
 #: ui/main.qml:155 ui/main_phone.qml:115
 #, kde-format
 msgctxt "@label:checkbox accessible"
 msgid "Key repeat"
-msgstr ""
+msgstr "Ponavljanje tipki"
 
 #: ui/main.qml:166 ui/main_phone.qml:131
 #, kde-format
 msgctxt "@label:textbox Key repeat delay"
 msgid "Delay:"
-msgstr ""
+msgstr "Odgoda:"
 
 #: ui/main.qml:180 ui/main_phone.qml:135
 #, kde-format
 msgctxt "@label:spinbox accessible"
 msgid "Key repeat delay %1"
-msgstr ""
+msgstr "Odgoda ponavljanja tipke %1"
 
 #: ui/main.qml:188 ui/main_phone.qml:143
 #, kde-format
 msgctxt "@spinbox:value Repeat delay interval"
 msgid "%1 ms"
-msgstr ""
+msgstr "%1 ms"
 
 #: ui/main.qml:192 ui/main_phone.qml:147
 #, kde-format
 msgctxt "@spinbox:value Repeat delay interval"
 msgid "ms"
-msgstr ""
+msgstr "ms"
 
 #: ui/main.qml:205 ui/main_phone.qml:162
 #, kde-format
 msgctxt "@label:textbox Key repeat rate"
 msgid "Rate:"
-msgstr ""
+msgstr "Brzina:"
 
 #: ui/main.qml:219 ui/main_phone.qml:169
 #, kde-format
 msgctxt "@label:spinbox accessible"
 msgid "Key repeat rate %1"
-msgstr ""
+msgstr "Brzina ponavljanja tipke %1"
 
 #: ui/main.qml:227 ui/main_phone.qml:177
 #, kde-format
 msgctxt "@spinbox:value  Key repeat rate"
 msgid "%1 repeats/s"
-msgstr ""
+msgstr "%1 ponavljanja/s"
 
 #: ui/main.qml:231 ui/main_phone.qml:181
 #, kde-format
 msgctxt "@spinbox:value  Key repeat rate"
 msgid "repeats/s"
-msgstr ""
+msgstr "ponavljanja/s"
 
 #: ui/main.qml:243
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Test area:"
-msgstr ""
+msgstr "Područje za testiranje:"
 
 #: ui/main.qml:245
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Type here to test settings"
-msgstr ""
+msgstr "Tipkajte ovdje za testiranje postavki"
 
 #: ui/main.qml:256
 #, kde-format
 msgctxt "@title:view"
 msgid "Layouts"
-msgstr ""
+msgstr "Rasporedi"
 
 #: ui/main.qml:270
 #, kde-format
 msgctxt "@action:button"
 msgid "Move Up"
-msgstr ""
+msgstr "Pomakni gore"
 
 #: ui/main.qml:271
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Move %1 layout up"
-msgstr ""
+msgstr "Pomakni raspored %1 prema gore"
 
 #: ui/main.qml:277
 #, kde-format
 msgctxt "@action:button"
 msgid "Move Down"
-msgstr ""
+msgstr "Pomakni dolje"
 
 #: ui/main.qml:278
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Move %1 layout Down"
-msgstr ""
+msgstr "Pomakni raspored %1 prema dolje"
 
 #: ui/main.qml:288
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Preview"
-msgstr ""
+msgstr "Pregled"
 
 #: ui/main.qml:296
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: ui/main.qml:297
 #, kde-format
 msgctxt "@action:button accessible"
 msgid "Remove layout %1"
-msgstr ""
+msgstr "Ukloni raspored %1"
 
 #: ui/main.qml:309
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Spare layouts:"
-msgstr ""
+msgstr "Rezervni rasporedi:"
 
 #: ui/main.qml:346
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Number of spared main layouts"
-msgstr ""
+msgstr "Broj pošteđenih glavnih rasporeda"
 
 #: ui/main.qml:378
 #, kde-format
 msgctxt "@label:textbox completes spinbox, x main layouts"
 msgid "main layouts"
-msgstr ""
+msgstr "glavnih rasporeda"
 
 #: ui/main.qml:382
 #, kde-format
@@ -380,126 +389,130 @@ msgid ""
 "accessed through the keyboard indicator applet or by setting a custom "
 "shortcut."
 msgstr ""
+"Možete imati do 4 glavna rasporeda, a svi ostali su rezervni. Rezervni "
+"rasporedi nisu uključeni pri kružnom izmjenjivanju rasporeda, ali im "
+"se može pristupiti putem mini-aplikacije indikatora tipkovnice ili "
+"postavljanjem prilagođenog prečaca."
 
 #: ui/main.qml:387
 #, kde-format
 msgctxt "@label:group Shortcut to change the keyboard layout. Keep it short"
 msgid "Change layout shortcut:"
-msgstr ""
+msgstr "Prečac za promjenu rasporeda:"
 
 #: ui/main.qml:410
 #, kde-format
 msgctxt "@label Change layout shortcut or \"Configure Switching\""
 msgid "or"
-msgstr ""
+msgstr "ili"
 
 #: ui/main_phone.qml:36
 #, kde-format
 msgctxt "@title form header"
 msgid "Model & Layout"
-msgstr ""
+msgstr "Model i raspored"
 
 #: ui/main_phone.qml:43
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Keyboard Model"
-msgstr ""
+msgstr "Model tipkovnice"
 
 #: ui/main_phone.qml:72
 #, kde-format
 msgctxt "@option:check"
 msgid "Custom Layout"
-msgstr ""
+msgstr "Prilagođeni raspored"
 
 #: ui/main_phone.qml:96
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Layout..."
-msgstr ""
+msgstr "Promijeni raspored…"
 
 #: ui/main_phone.qml:103
 #, kde-format
 msgctxt "@title:group"
 msgid "Key Repeat"
-msgstr ""
+msgstr "Ponavljanje tipki"
 
 #: ui/main_phone.qml:109
 #, kde-format
 msgctxt "@option:check"
 msgid "Customize Repeat"
-msgstr ""
+msgstr "Prilagodi ponavljanje"
 
 #: ui/Switching.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Configure Switching"
-msgstr ""
+msgstr "Podesi prebacivanje"
 
 #: ui/Switching.qml:23
 #, kde-format
 msgctxt "@title:group"
 msgid "Behavior"
-msgstr ""
+msgstr "Ponašanje"
 
 #: ui/Switching.qml:28
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Switching layout affects:"
-msgstr ""
+msgstr "Prebacivanje rasporeda utječe na:"
 
 #: ui/Switching.qml:35
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "All windows"
-msgstr ""
+msgstr "Sve prozore"
 
 #: ui/Switching.qml:39
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "All windows on current desktop"
-msgstr ""
+msgstr "Sve prozore na trenutačnoj radnoj površini"
 
 #: ui/Switching.qml:43
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "All windows of current application"
-msgstr ""
+msgstr "Sve prozore trenutačne aplikacije"
 
 #: ui/Switching.qml:47
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Current window only"
-msgstr ""
+msgstr "Samo trenutačni prozor"
 
 #: ui/Switching.qml:74
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "Show OSD popup on layout change"
-msgstr ""
+msgstr "Prikaži OSD skočni prozor pri promjeni rasporeda"
 
 #: ui/Switching.qml:86
 #, kde-format
 msgctxt "@title:group"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Prečaci"
 
 #: ui/Switching.qml:91 ui/Switching.qml:151
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Change layout:"
-msgstr ""
+msgstr "Promijeni raspored:"
 
 #: ui/Switching.qml:111
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Switch to last used layout:"
-msgstr ""
+msgstr "Prebaci na zadnje korišteni raspored:"
 
 #: ui/Switching.qml:131
 #, kde-format
 msgctxt "@title:group"
 msgid "Legacy Shortcuts"
-msgstr ""
+msgstr "Zastarjeli prečaci"
 
 #: ui/Switching.qml:139
 #, kde-kuit-format
@@ -510,12 +523,16 @@ msgid ""
 "Wayland.<nl/><nl/>Setting these shortcuts will take you to the Key bindings "
 "page."
 msgstr ""
+"Zastarjeli prečaci za X11 omogućuju finije upravljanje prečacima koji "
+"sadrže samo modifikatore i imaju nešto bolju podršku na X11 u graničnim "
+"slučajevima. Također se mogu koristiti i na Waylandu.<nl/><nl/>"
+"Postavljanje ovih prečaca odvest će vas na stranicu prečaca tipkovnice."
 
 #: ui/Switching.qml:180
 #, kde-format
 msgctxt "@option:textbox"
 msgid "Alternative symbols:"
-msgstr ""
+msgstr "Zamjenski simboli:"
 
 #: ui/Switching.qml:206
 #, kde-format
@@ -524,16 +541,19 @@ msgid ""
 "Modifier keys can be used to type additional characters, symbols, and "
 "diacritical marks."
 msgstr ""
+"Modifikacijske tipke mogu se koristiti za unos dodatnih Znakova, simbola i "
+"dijakritičkih oznaka."
 
 #: xkboptionsmodel.cpp:163
 #, kde-format
 msgid "%1 shortcut"
 msgid_plural "%1 shortcuts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 prečac"
+msgstr[1] "%1 prečaca"
+msgstr[2] "%1 prečaca"
 
 #: xkboptionsmodel.cpp:166
 #, kde-format
 msgctxt "no shortcuts defined"
 msgid "None"
-msgstr ""
+msgstr "Nijedan"
