@@ -1,0 +1,333 @@
+# Croatian translations for plasma-workspace package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-21 00:00+0000\n"
+"PO-Revision-Date: 2026-09-21 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. i18n: ectx: label, entry (font), group (General)
+#: fontssettings.kcfg:9
+#, kde-format
+msgid "General font"
+msgstr "Opći font"
+
+#. i18n: ectx: label, entry (fixed), group (General)
+#: fontssettings.kcfg:17
+#, kde-format
+msgid "Fixed width font"
+msgstr "Font s fiksnom širinom"
+
+#. i18n: ectx: label, entry (smallestReadableFont), group (General)
+#: fontssettings.kcfg:25
+#, kde-format
+msgid "Small font"
+msgstr "Mali font"
+
+#. i18n: ectx: label, entry (toolBarFont), group (General)
+#: fontssettings.kcfg:33
+#, kde-format
+msgid "Tool bar font"
+msgstr "Font alatne trake"
+
+#. i18n: ectx: label, entry (menuFont), group (General)
+#: fontssettings.kcfg:41
+#, kde-format
+msgid "Menu font"
+msgstr "Font izbornika"
+
+#. i18n: ectx: label, entry (activeFont), group (WM)
+#: fontssettings.kcfg:51
+#, kde-format
+msgid "Window title font"
+msgstr "Font naslova prozora"
+
+#: kxftconfig.cpp:454
+#, kde-format
+msgctxt "use system subpixel setting"
+msgid "Vendor default"
+msgstr "Zadano od dobavljača"
+
+#: kxftconfig.cpp:456
+#, kde-format
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "Nijedno"
+
+#: kxftconfig.cpp:458
+#, kde-format
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:460
+#, kde-format
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:462
+#, kde-format
+msgid "Vertical RGB"
+msgstr "Vodoravni RGB"
+
+#: kxftconfig.cpp:464
+#, kde-format
+msgid "Vertical BGR"
+msgstr "Vodoravni BGR"
+
+#: kxftconfig.cpp:492
+#, kde-format
+msgctxt "use system hinting settings"
+msgid "Vendor default"
+msgstr "Zadano od dobavljača"
+
+#: kxftconfig.cpp:494
+#, kde-format
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "Srednje"
+
+#: kxftconfig.cpp:496
+#, kde-format
+msgctxt "no hinting"
+msgid "None"
+msgstr "Nijedno"
+
+#: kxftconfig.cpp:498
+#, kde-format
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "Blago"
+
+#: kxftconfig.cpp:500
+#, kde-format
+msgctxt "full hinting"
+msgid "Full"
+msgstr "Potpuno"
+
+#: ui/FontWidget.qml:32
+#, kde-format
+msgctxt ""
+"%1 is the name of a font type, %2 is the size in points (pt). Ex: Noto Sans "
+"10pt"
+msgid "%1 %2pt"
+msgstr "%1 %2pt"
+
+#: ui/main.qml:39
+#, kde-format
+msgctxt ""
+"Sub-string in a font name; 'Display' as in display font — a type of font "
+"inappropriate for computer screens"
+msgid "Display"
+msgstr "Prikaz"
+
+#: ui/main.qml:44
+#, kde-format
+msgid "Adjust Global Scale…"
+msgstr "Prilagodi globalnu mjeru…"
+
+#: ui/main.qml:59
+#, kde-format
+msgid ""
+"Very large fonts may produce odd-looking results. Instead of using a very "
+"large font size, consider adjusting the global screen scale."
+msgstr ""
+"Vrlo velika slova mogu dati neobične rezultate. Umjesto vrlo velikog "
+"veličina slova, razmislite o prilagodbi globalne razmjere zaslona."
+
+#: ui/main.qml:77
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"“Display” fonts are <link url='https://wikipedia.org/wiki/"
+"Display_typeface'>not intended for use on computer displays</link>, and may "
+"produce odd results. Consider using a different font."
+msgstr ""
+"„Display” fontovi <link url='https://wikipedia.org/wiki/"
+"Display_typeface'>nisu namijenjeni za korištenje na računalnim zaslonima</"
+"link> i mogu dati neobične rezultate. Razmislite o upotrebi drugog fonta."
+
+#: ui/main.qml:95
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Plasma is not designed to be usable with fonts smaller than 4pt. Size has "
+"been reset to 4pt."
+msgstr ""
+"Plasma nije dizajniran za upotrebu s fontovima manjim od 4 pt. Veličina je "
+"ponovno postavljena na 4 pt."
+
+#: ui/main.qml:111
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"Very small fonts may produce odd-looking results. Instead of using a very "
+"small font size, consider adjusting the global screen scale."
+msgstr ""
+"Vrlo mala slova mogu dati neobične rezultate. Umjesto vrlo male veličine "
+"slova, razmislite o prilagodbi globalne razmjere zaslona."
+
+#: ui/main.qml:137
+#, kde-format
+msgid "&Adjust All Fonts…"
+msgstr "&Prilagodi sva pisma…"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "General:"
+msgstr "Općenito:"
+
+#: ui/main.qml:151
+#, kde-format
+msgid "Select general font"
+msgstr "Odaberi opći font"
+
+#: ui/main.qml:162
+#, kde-format
+msgid "Fixed width:"
+msgstr "Fiksna širina:"
+
+#: ui/main.qml:163
+#, kde-format
+msgid "Select fixed width font"
+msgstr "Odaberi font s fiksnom širinom"
+
+#: ui/main.qml:174
+#, kde-format
+msgid "Small:"
+msgstr "Malo:"
+
+#: ui/main.qml:175
+#, kde-format
+msgid "Select small font"
+msgstr "Odaberi mali font"
+
+#: ui/main.qml:186
+#, kde-format
+msgid "Toolbar:"
+msgstr "Alatna traka:"
+
+#: ui/main.qml:187
+#, kde-format
+msgid "Select toolbar font"
+msgstr "Odaberi font alatne trake"
+
+#: ui/main.qml:198
+#, kde-format
+msgid "Menu:"
+msgstr "Izbornik:"
+
+#: ui/main.qml:199
+#, kde-format
+msgid "Select menu font"
+msgstr "Odaberi font izbornika"
+
+#: ui/main.qml:209
+#, kde-format
+msgid "Window title:"
+msgstr "Naslov prozora:"
+
+#: ui/main.qml:210
+#, kde-format
+msgid "Select window title font"
+msgstr "Odaberi font naslova prozora"
+
+#: ui/main.qml:225
+#, kde-format
+msgid "Anti-Aliasing:"
+msgstr "Glatko crtanje:"
+
+#: ui/main.qml:230
+#, kde-format
+msgid "Enable"
+msgstr "Omogući"
+
+#: ui/main.qml:234
+#, kde-kuit-format
+msgctxt "@info:tooltip Anti-Aliasing"
+msgid ""
+"Pixels on displays are generally aligned in a grid. Therefore shapes of "
+"fonts that do not align with this grid will look blocky and wrong unless "
+"<emphasis>anti-aliasing</emphasis> techniques are used to reduce this "
+"effect. You generally want to keep this option enabled unless it causes "
+"problems."
+msgstr ""
+"Pikseli na zaslonima obično su poravnati u mreži. Stoga oblici fontova koji "
+"se ne poklapaju s tom mrežom izgledat će krupno i neispravno osim ako se "
+"koriste tehnike <emphasis>glatkog crtanja</emphasis> za smanjenje tog "
+"učinka. Općenito želite ostaviti ovu opciju uključenu osim ako uzrokuje "
+"probleme."
+
+#: ui/main.qml:248
+#, kde-format
+msgid "Exclude range from anti-aliasing"
+msgstr "Izuzmi raspon iz glatkog crtanja"
+
+#: ui/main.qml:267 ui/main.qml:291
+#, kde-format
+msgid "%1 pt"
+msgstr "%1 pt"
+
+#: ui/main.qml:282
+#, kde-format
+msgid "to"
+msgstr "do"
+
+#: ui/main.qml:314
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Sub-pixel rendering:"
+msgstr "Renderiranje podpikselima:"
+
+#: ui/main.qml:352
+#, kde-kuit-format
+msgctxt "@info:tooltip Sub-pixel rendering"
+msgid ""
+"<para>On TFT or LCD screens every single pixel is actually composed of three "
+"or four smaller monochrome lights. These <emphasis>sub-pixels</emphasis> can "
+"be changed independently to further improve the quality of displayed fonts.</"
+"para> <para>The rendering quality is only improved if the selection matches "
+"the manner in which the sub-pixels of your display are aligned. Most "
+"displays have a linear ordering of <emphasis>RGB</emphasis> sub-pixels, some "
+"have <emphasis>BGR</emphasis> and some exotic orderings are not supported by "
+"this feature.</para>This does not work with CRT monitors."
+msgstr ""
+"<para>Na TFT ili LCD zaslonima svaki pojedinačni piksel zapravo se sastoji "
+"od tri ili četiri manja monokromatska svjetla. Ti <emphasis>podpikseli</"
+"emphasis> mogu se mijenjati neovisno kako bi se dodatno poboljšala kvaliteta "
+"prikazanih fontova.</para> <para>Kvaliteta renderiranja poboljšava se samo "
+"ako odabir odgovara načinu na koji su podpikseli vašeg zaslona poravnati. "
+"Većina zaslona ima linearan raspored <emphasis>RGB</emphasis> podpiksela, "
+"neki imaju <emphasis>BGR</emphasis>, a neki egzotični rasporedi nisu "
+"podržani ovom značajkom.</para>Ovo ne funkcionira s CRT monitorima."
+
+#: ui/main.qml:357
+#, kde-format
+msgctxt "Used as a noun, and precedes a combobox full of options"
+msgid "Hinting:"
+msgstr "Hinting:"
+
+#: ui/main.qml:394
+#, kde-kuit-format
+msgctxt "@info:tooltip Hinting"
+msgid ""
+"Hinting is a technique in which hints embedded in a font are used to enhance "
+"the rendering quality especially at small sizes. Stronger hinting generally "
+"leads to sharper edges but the small letters will less closely resemble "
+"their shape at big sizes."
+msgstr ""
+"Hinting je tehnika u kojoj se ugrađeni savjeti fonta koriste za poboljšanje "
+"kvalitete renderiranja, posebno pri malim veličinama. Jači hinting općenito "
+"daje oštrije rubove, ali će mala slova manje nalikovati svojem obliku pri "
+"velikim veličinama."

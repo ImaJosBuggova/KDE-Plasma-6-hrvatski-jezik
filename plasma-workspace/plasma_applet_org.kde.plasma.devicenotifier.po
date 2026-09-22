@@ -1,0 +1,262 @@
+# Croatian translations for plasma-workspace package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-21 00:00+0000\n"
+"PO-Revision-Date: 2026-09-21 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: actions/checkaction.cpp:71
+#, kde-format
+msgctxt "@action:button check a storageAccess (i.e disk) for error"
+msgid "Check for Errors"
+msgstr "Provjeri pogreške"
+
+#: actions/mountaction.cpp:93
+#, kde-format
+msgid "Mount"
+msgstr "Priključi"
+
+#: actions/mountandopenaction.cpp:177
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Otvori u upravitelju datoteka"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Try to Fix"
+msgstr "Pokušaj popraviti"
+
+#: actions/mountandopenaction.cpp:180
+#, kde-format
+msgid "Mount and Open"
+msgstr "Priključi i otvori"
+
+#: actions/mountandopenaction.cpp:182
+#, kde-format
+msgid "Eject"
+msgstr "Izbaci"
+
+#: actions/mountandopenaction.cpp:184
+#, kde-format
+msgid "Safely remove"
+msgstr "Sigurno ukloni"
+
+#: messageinfo.cpp:108
+#, kde-format
+msgid "This device has file system errors."
+msgstr "Ovaj uređaj ima pogreške datotečnog sustava."
+
+#: messageinfo.cpp:110
+#, kde-format
+msgctxt "@label device is a storage disk"
+msgid "This device has no errors"
+msgstr "Ovaj uređaj nema pogrešaka"
+
+#: messageinfo.cpp:113
+#, kde-format
+msgid "Successfully repaired!"
+msgstr "Uspješno je popravljeno!"
+
+#: messageinfo.cpp:117
+#, kde-format
+msgid "Device Status"
+msgstr "Status uređaja"
+
+#: messageinfo.cpp:118
+#, kde-format
+msgid "A device can now be safely removed"
+msgstr "Uređaj se sada može sigurno ukloniti"
+
+#: messageinfo.cpp:122
+#, kde-format
+msgid "This device can now be safely removed."
+msgstr "Ovaj uređaj se sada može sigurno ukloniti."
+
+#: messageinfo.cpp:129
+#, kde-format
+msgid "You are not authorized to mount this device."
+msgstr "Niste ovlašteni priključiti ovaj uređaj."
+
+#: messageinfo.cpp:133
+#, kde-format
+msgid "You are not authorized to eject this disc."
+msgstr "Niste ovlašteni izbaciti ovaj disk."
+
+#: messageinfo.cpp:136
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "You are not authorized to remove this device."
+msgstr "Niste ovlašteni ukloniti ovaj uređaj."
+
+#: messageinfo.cpp:139
+#, kde-format
+msgid "You are not authorized to repair this device."
+msgstr "Niste ovlašteni popraviti ovaj uređaj."
+
+#: messageinfo.cpp:141 messageinfo.cpp:208
+#, kde-format
+msgid "Unknown error type"
+msgstr "Nepoznata vrsta pogreške"
+
+#: messageinfo.cpp:145
+#, kde-format
+msgid "Could not mount this device as it is busy."
+msgstr "Nije bilo moguće priključiti ovaj uređaj jer je zauzet."
+
+#: messageinfo.cpp:173
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr "Jedna ili više datoteka na ovom uređaju su otvorene u aplikaciji."
+
+#: messageinfo.cpp:175
+#, kde-format
+msgid "One or more files on this device are opened in application \"%2\"."
+msgid_plural ""
+"One or more files on this device are opened in following applications: %2."
+msgstr[0] ""
+"Jedna ili više datoteka na ovom uređaju je otvoreno u aplikaciji \"%2\"."
+msgstr[1] ""
+"Jedna ili više datoteka na ovom uređaju je otvoreno u sljedećim "
+"aplikacijama: %2."
+msgstr[2] ""
+"Jedna ili više datoteka na ovom uređaju je otvoreno u sljedećim "
+"aplikacijama: %2."
+
+#: messageinfo.cpp:178
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ", "
+
+#: messageinfo.cpp:197
+#, kde-format
+msgid "Could not mount this device."
+msgstr "Nije bilo moguće priključiti ovaj uređaj."
+
+#: messageinfo.cpp:201
+#, kde-format
+msgid "Could not eject this disc."
+msgstr "Nije bilo moguće izbaciti ovaj disk."
+
+#: messageinfo.cpp:203
+#, kde-format
+msgctxt "Remove is less technical for unmount"
+msgid "Could not remove this device."
+msgstr "Nije bilo moguće ukloniti ovaj uređaj."
+
+#: messageinfo.cpp:206
+#, kde-format
+msgid "Could not repair this device: %1"
+msgstr "Nije bilo moguće popraviti ovaj uređaj: %1"
+
+#: qml/DeviceItem.qml:98
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'Currently checking the device for "
+"filesystem errors'"
+msgid "Checking…"
+msgstr "Provjera…"
+
+#: qml/DeviceItem.qml:100
+#, kde-format
+msgctxt ""
+"Translation should be short and mean 'The storage device contains filesystem "
+"errors and is being repaired'"
+msgid "Repairing…"
+msgstr "Popravlja se…"
+
+#: qml/DeviceItem.qml:103
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free of %2"
+msgstr "%1 slobodno od %2"
+
+#: qml/DeviceItem.qml:107
+#, kde-format
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing…"
+msgstr "Pristupanje…"
+
+#: qml/DeviceItem.qml:110
+#, kde-format
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation should be "
+"short and mean 'Currently unmounting this device'"
+msgid "Removing…"
+msgstr "Uklanjanje…"
+
+#: qml/DeviceItem.qml:113
+#, kde-format
+msgid "Don't unplug yet! Files are still being transferred…"
+msgstr "Ne isključujte još! Datoteke se još prenose…"
+
+#: qml/FullRepresentation.qml:47 qml/main.qml:127
+#, kde-format
+msgid "Remove All"
+msgstr "Ukloni sve"
+
+#: qml/FullRepresentation.qml:48
+#, kde-format
+msgid "Click to safely remove all devices"
+msgstr "Kliknite za sigurno uklanjanje svih uređaja"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No removable devices attached"
+msgstr "Nema priključenih uklonjivih uređaja"
+
+#: qml/FullRepresentation.qml:163
+#, kde-format
+msgid "No disks available"
+msgstr "Nema dostupnih diskova"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Most Recent Device"
+msgstr "Najnoviji uređaj"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "No Devices Available"
+msgstr "Nema dostupnih uređaja"
+
+#: qml/main.qml:113
+#, kde-format
+msgctxt "Open auto mounter kcm"
+msgid "Configure Removable Devices…"
+msgstr "Konfiguriraj uklonjive uređaje…"
+
+#: qml/main.qml:135
+#, kde-format
+msgid "Removable Devices"
+msgstr "Uklonjivi uređaji"
+
+#: qml/main.qml:150
+#, kde-format
+msgid "Non Removable Devices"
+msgstr "Neuklonjivi uređaji"
+
+#: qml/main.qml:165
+#, kde-format
+msgid "All Devices"
+msgstr "Svi uređaji"
+
+#: qml/main.qml:182
+#, kde-format
+msgid "Show popup when new device is plugged in"
+msgstr "Prikaži skočni prozor kada je priključen novi uređaj"

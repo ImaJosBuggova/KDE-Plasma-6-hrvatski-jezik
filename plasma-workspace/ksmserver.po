@@ -1,0 +1,118 @@
+# Croatian translations for plasma-workspace package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-21 00:00+0000\n"
+"PO-Revision-Date: 2026-09-21 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vaša imena"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Vaši e-mailovi"
+
+#: logout.cpp:260
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "Odjava je otkazana od '%1'"
+
+#: logout.cpp:354
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr "Sesija se zatvara"
+
+#: main.cpp:69 main.cpp:77
+#, kde-format
+msgid "No write access to '%1'."
+msgstr "Nema pristupa pisanju za '%1'."
+
+#: main.cpp:71 main.cpp:79
+#, kde-format
+msgid "No read access to '%1'."
+msgstr "Nema pristupa čitanju za '%1'."
+
+#: main.cpp:84
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+"Prilikom pokretanja Plasme otkriven je sljedeći problem s instalacijom:"
+
+#: main.cpp:87
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+"\n"
+"\n"
+"Plasma se ne može pokrenuti.\n"
+
+#: main.cpp:111
+#, kde-format
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"Pouzdani upravitelj sesije za Plasma koji koristi standardni X11R6 protokol "
+"upravljanja sesijama (XSMP)."
+
+#: main.cpp:115
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "Obnavlja spremljenu korisničku sesiju ako je dostupna"
+
+#: main.cpp:118
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "Dopusti i udaljene veze"
+
+#: server.cpp:764
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr "[nepoznato]"
+
+#: server.cpp:787
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources "
+"are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+"Nije moguće upravljati nekim aplikacijama jer su resursi upravljanja "
+"sesijama sustava iscrpljeni. Evo tri najveća potrošača resursa sesije:\n"
+"%1"
+
+#: server.cpp:1042
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid ""
+"Unable to restore <application>%1</application> because it is broken and has "
+"exhausted the system's session restoration resources. Please report this to "
+"the app's developers."
+msgstr ""
+"Nije moguće obnoviti <application>%1</application> jer je oštećena i "
+"iscrpila je resurse za obnovu sesije sustava. Prijavite to programerima "
+"aplikacije."

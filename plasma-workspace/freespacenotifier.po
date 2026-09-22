@@ -1,0 +1,127 @@
+# Croatian translations for plasma-workspace package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-21 00:00+0000\n"
+"PO-Revision-Date: 2026-09-21 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: freespacenotifier.cpp:121
+#, kde-format
+msgid "Open in Filelight"
+msgstr "Otvori u Filelightu"
+
+#: freespacenotifier.cpp:127
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Otvori u upravitelju datoteka"
+
+#: freespacenotifier.cpp:134
+#, kde-format
+msgid "Configure Warning…"
+msgstr "Konfiguriraj upozorenje…"
+
+#. i18n: ectx: label, entry (minimumSpace), group (General)
+#: freespacenotifier.kcfg:9
+#, kde-format
+msgid "Minimum free space before user starts being notified."
+msgstr ""
+"Najmanja količina slobodnog prostora prije početka obavještavanja korisnika."
+
+#. i18n: ectx: label, entry (minimumSpacePercentage), group (General)
+#: freespacenotifier.kcfg:15
+#, kde-format
+msgid "Minimum percentage free space before user starts being notified."
+msgstr ""
+"Najmanji postotak slobodnog prostora prije početka obavještavanja korisnika."
+
+#. i18n: ectx: label, entry (enableNotification), group (General)
+#: freespacenotifier.kcfg:21
+#, kde-format
+msgid "Is the free space notification enabled."
+msgstr "Je li obavještavanje o slobodnom prostoru omogućeno."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableNotification)
+#: freespacenotifier_prefs_base.ui:17
+#, kde-format
+msgid "Enable low disk space warning"
+msgstr "Omogući upozorenje o nedostatku prostora na disku"
+
+#. i18n: ectx: property (text), widget (QLabel, label_minimumSpace)
+#: freespacenotifier_prefs_base.ui:27
+#, kde-format
+msgid "Warn when free space is below:"
+msgstr "Upozori kada je slobodan prostor manji od:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minimumSpace)
+#: freespacenotifier_prefs_base.ui:37
+#, kde-format
+msgid " MiB"
+msgstr " MiB"
+
+#. i18n: ectx: property (text), widget (QLabel, label_minimumSpacePercentage)
+#: freespacenotifier_prefs_base.ui:44
+#, kde-format
+msgid "And when free space is under:"
+msgstr "I kada je slobodan prostor ispod:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minimumSpacePercentage)
+#: freespacenotifier_prefs_base.ui:54
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, label_info)
+#: freespacenotifier_prefs_base.ui:67
+#, kde-format
+msgid ""
+"The system will notify you if the free space drops below the specified MiB "
+"and the specified percentage of available space."
+msgstr ""
+"Sustav će vas obavijestiti ako slobodan prostor padne ispod navedene "
+"vrijednosti u MiB ili navedenog postotka dostupnog prostora."
+
+#: module.cpp:121
+#, kde-format
+msgid ""
+"Your %1 partition is running out of disk space; %2 MiB of space remaining "
+"(%3%)."
+msgstr ""
+"Na particiji %1 ponestaje prostora na disku; preostalo je %2 MiB prostora "
+"(%3%)."
+
+#: module.cpp:123
+#, kde-format
+msgid ""
+"Your Root partition is running out of disk space; %1 MiB of space remaining "
+"(%2%)."
+msgstr ""
+"Na vašoj root particiji ponestaje prostora na disku; preostalo je %1 MiB "
+"prostora (%2%)."
+
+#: module.cpp:125
+#, kde-format
+msgid ""
+"Your Home folder is running out of disk space; %1 MiB of space remaining "
+"(%2%)."
+msgstr ""
+"U vašoj početnoj mapi ponestaje prostora na disku; preostalo je %1 MiB "
+"prostora (%2%)."
+
+#: module.cpp:150
+#, kde-format
+msgctxt "The settings dialog main page name, as in 'general settings'"
+msgid "General"
+msgstr "Općenito"

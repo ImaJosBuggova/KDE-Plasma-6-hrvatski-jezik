@@ -1,0 +1,108 @@
+# Croatian translations for plasma-workspace package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-21 00:00+0000\n"
+"PO-Revision-Date: 2026-09-21 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr "Naziv trenutačne teme ikona"
+
+#: main.cpp:147
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr "Nije moguće izraditi privremenu datoteku."
+
+#: main.cpp:158
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr "Nije moguće preuzeti arhivu teme ikona: %1"
+
+#: main.cpp:172
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr "Datoteka nije valjana arhiva teme ikona."
+
+#: main.cpp:177
+#, kde-format
+msgid ""
+"A problem occurred during the installation process; however, most of the "
+"themes in the archive have been installed"
+msgstr ""
+"Tijekom procesa instalacije pojavio se problem; međutim, većina tema u "
+"arhivi je instalirana"
+
+#: main.cpp:181
+#, kde-format
+msgid "Theme installed successfully."
+msgstr "Tema je uspješno instalirana."
+
+#: main.cpp:227
+#, kde-format
+msgid "Installing icon themes…"
+msgstr "Instaliranje tema ikona…"
+
+#: main.cpp:239
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr "Instaliranje teme %1…"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "Install from File…"
+msgstr "Instaliraj iz datoteke…"
+
+#: ui/main.qml:72
+#, kde-format
+msgid "Get New…"
+msgstr "Preuzmi novo…"
+
+#: ui/main.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove icon theme"
+msgstr "Ukloni temu ikona"
+
+#: ui/main.qml:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active icon theme"
+msgstr "Aktivnu temu ikona nije moguće izbrisati"
+
+#: ui/main.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed icon themes"
+msgstr "Sistemski instalirane teme ikona nije moguće izbrisati"
+
+#: ui/main.qml:201
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Don’t delete this icon theme"
+msgstr "Nemoj izbrisati ovu temu ikona"
+
+#: ui/main.qml:250
+#, kde-format
+msgid "Open Theme"
+msgstr "Otvori temu"
+
+#: ui/main.qml:252
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr "Datoteke tema (*.tar.gz *.tar.bz2)"
