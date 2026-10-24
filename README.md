@@ -12,7 +12,7 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | :--- | :---: | :--- |
 | **plasma-workspace** | ✅ | Pregledao Roko Tomović |
 | **systemsettings** | ✅ | Pregledao Roko Tomović |
-| **plasma-desktop** | ❌ | Čeka provjeru |
+| **plasma-desktop** | ⚠️ | Čeka provjeru |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

@@ -1,0 +1,208 @@
+# Croatian translations for plasma-desktop package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-15 00:48+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title:group for configuration dialog page"
+msgid "General"
+msgstr "Općenito"
+
+#: qml/configGeneral.qml:39
+#, kde-format
+msgctxt "@title:group prefix for checkbox group"
+msgid "General:"
+msgstr "Općenito:"
+
+#: qml/configGeneral.qml:41
+#, kde-format
+msgctxt "@option:check"
+msgid "Show window outlines"
+msgstr "Prikaži obrise prozora"
+
+#: qml/configGeneral.qml:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Show application icons on window outlines"
+msgstr "Prikaži ikone aplikacija na obrisima prozora"
+
+#: qml/configGeneral.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Show only current screen"
+msgstr "Prikaži samo trenutačni zaslon"
+
+#: qml/configGeneral.qml:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Navigation wraps around"
+msgstr "Kretanje se nastavlja od početka"
+
+#: qml/configGeneral.qml:69
+#, kde-format
+msgctxt "@title:listbox"
+msgid "Layout:"
+msgstr "Raspored:"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Default"
+msgstr "Zadano"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Horizontal"
+msgstr "Vodoravno"
+
+#: qml/configGeneral.qml:71
+#, kde-format
+msgctxt "@item:inlistbox The pager layout"
+msgid "Vertical"
+msgstr "Okomito"
+
+#: qml/configGeneral.qml:85
+#, kde-format
+msgctxt "@title:group prefix for radiobutton group"
+msgid "Text display:"
+msgstr "Prikaz teksta:"
+
+#: qml/configGeneral.qml:88
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "No text"
+msgstr "Bez teksta"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity number"
+msgstr "Broj aktivnosti"
+
+#: qml/configGeneral.qml:96
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop number"
+msgstr "Broj radne površine"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Activity name"
+msgstr "Naziv aktivnosti"
+
+#: qml/configGeneral.qml:104
+#, kde-format
+msgctxt "@option:radio text display"
+msgid "Desktop name"
+msgstr "Naziv radne površine"
+
+#: qml/configGeneral.qml:119
+#, kde-format
+msgctxt "@label Start of the sentence 'Selecting current activity does nothing/shows the desktop'"
+msgid "Selecting current Activity:"
+msgstr "Odabir trenutačne aktivnosti:"
+
+#: qml/configGeneral.qml:120
+#, kde-format
+msgctxt "@label Start of the sentence 'Selecting current virtual desktop does nothing/shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr "Odabir trenutačne virtualne radne površine:"
+
+#: qml/configGeneral.qml:123
+#, kde-format
+msgctxt "option:check completes the sentence 'Selecting current activity/virtual desktop does nothing'"
+msgid "Does nothing"
+msgstr "Ne radi ništa"
+
+#: qml/configGeneral.qml:131
+#, kde-format
+msgctxt "option:check completes the sentence 'Selecting current activity/virtual desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr "Prikazuje radnu površinu"
+
+#: qml/main.qml:87
+#, kde-format
+msgctxt "@info:tooltip overflow label"
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] "…i još %1 prozor"
+msgstr[1] "…i još %1 prozora"
+msgstr[2] "…i još %1 prozora"
+
+#: qml/main.qml:352
+#, kde-format
+msgctxt "@info:tooltip start of list"
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] "%1 prozor:"
+msgstr[1] "%1 prozora:"
+msgstr[2] "%1 prozora:"
+
+#: qml/main.qml:364
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] "%1 minimizirani prozor:"
+msgstr[1] "%1 minimizirana prozora:"
+msgstr[2] "%1 minimiziranih prozora:"
+
+#: qml/main.qml:440
+#, kde-format
+msgctxt "@info:whatsthis Accessible name for pager section"
+msgid "Desktop %1"
+msgstr "Radna površina %1"
+
+#: qml/main.qml:441
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr "Prebaci se na %1"
+
+#: qml/main.qml:593
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr "Prikaži upravitelj aktivnosti"
+
+#: qml/main.qml:599
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr "Dodaj virtualnu radnu površinu"
+
+#: qml/main.qml:605
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr "Ukloni virtualnu radnu površinu"
+
+#: qml/main.qml:612
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr "&Konfiguriraj aktivnosti…"
+
+#: qml/main.qml:617
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr "Konfiguriraj virtualne radne površine…"
