@@ -1,0 +1,163 @@
+# Croatian translations for kdeconnect-kde.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-21 00:51+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vaša imena"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Vaše adrese e-pošte"
+
+#: deviceindicator.cpp:56
+#, kde-format
+msgid "Browse device"
+msgstr "Pregledaj uređaj"
+
+#: deviceindicator.cpp:70
+#, kde-format
+msgid "Send clipboard"
+msgstr "Pošalji međuspremnik"
+
+#: deviceindicator.cpp:84
+#, kde-format
+msgctxt "@action:inmenu play bell sound"
+msgid "Ring device"
+msgstr "Zazvoni na uređaju"
+
+#: deviceindicator.cpp:98
+#, kde-format
+msgid "Send files"
+msgstr "Pošalji datoteke"
+
+#: deviceindicator.cpp:124
+#, kde-format
+msgid "SMS Messages…"
+msgstr "SMS poruke…"
+
+#: deviceindicator.cpp:137
+#, kde-format
+msgid "Run command"
+msgstr "Pokreni naredbu"
+
+#: deviceindicator.cpp:139
+#, kde-format
+msgid "Add commands"
+msgstr "Dodaj naredbe"
+
+#: indicatorhelper_mac.cpp:47 indicatorhelper_mac.cpp:58
+#, kde-format
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: indicatorhelper_mac.cpp:48
+#, kde-format
+msgid "Cannot connect to DBus\nKDE Connect will quit"
+msgstr "Nije moguće povezati se s DBusom\nKDE Connect će se zatvoriti"
+
+#: indicatorhelper_mac.cpp:58
+#, kde-format
+msgid "Cannot find kdeconnectd"
+msgstr "Nije moguće pronaći kdeconnectd"
+
+#: main.cpp:62
+#, kde-format
+msgid "KDE Connect Indicator"
+msgstr "KDE Connectov indikator"
+
+#: main.cpp:64
+#, kde-format
+msgid "KDE Connect Indicator tool"
+msgstr "Alat KDE Connectovog indikatora"
+
+#: main.cpp:66
+#, kde-format
+msgid "© 2016–2025 KDE Connect Team"
+msgstr "© 2016–2025 KDE Connectov tim"
+
+#: main.cpp:67
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: main.cpp:68
+#, kde-format
+msgid "Albert Vaca Cintora"
+msgstr "Albert Vaca Cintora"
+
+#: main.cpp:113
+#, kde-format
+msgid "Open app"
+msgstr "Otvori aplikaciju"
+
+#: main.cpp:130
+#, kde-format
+msgid "Pairing requests"
+msgstr "Zahtjevi za uparivanje"
+
+#: main.cpp:136
+#, kde-format
+msgctxt "Accept a pairing request"
+msgid "Pair"
+msgstr "Upari"
+
+#: main.cpp:137
+#, kde-format
+msgid "Reject"
+msgstr "Odbij"
+
+#: main.cpp:142 main.cpp:155
+#, kde-format
+msgid "Quit"
+msgstr "Zatvori"
+
+#: main.cpp:172 main.cpp:194
+#, kde-format
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "Povezan je %1 uređaj"
+msgstr[1] "Povezana su %1 uređaja"
+msgstr[2] "Povezano je %1 uređaja"
+
+#: systray_actions/battery_action.cpp:35
+#, kde-format
+msgid "No Battery"
+msgstr "Nema baterije"
+
+#: systray_actions/battery_action.cpp:37
+#, kde-format
+msgid "Battery: %1% (Charging)"
+msgstr "Baterija: %1% (puni se)"
+
+#: systray_actions/battery_action.cpp:39
+#, kde-format
+msgid "Battery: %1%"
+msgstr "Baterija: %1%"
+
+#: systray_actions/connectivity_action.cpp:30
+#, kde-format
+msgctxt "The fallback text to display in case the remote device does not have a cellular connection"
+msgid "No Cellular Connectivity"
+msgstr "Nema mobilne povezivosti"
+
+#: systray_actions/connectivity_action.cpp:33
+#, kde-format
+msgctxt "Display the cellular connection type and an approximate percentage of signal strength"
+msgid "%1  | ~%2%"
+msgstr "%1  | ~%2%"

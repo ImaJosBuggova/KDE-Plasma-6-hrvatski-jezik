@@ -1,0 +1,107 @@
+# Croatian translations for desktop files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-04 00:56+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/helpers/dialoghelper/org.kde.kwin.dialoghelper.desktop.in:6
+msgctxt "Name"
+msgid "KWin Dialog Helper"
+msgstr "KWinov pomoćnik za dijaloge"
+
+#: src/helpers/dialoghelper/org.kde.kwin.dialoghelper.desktop.in:43
+msgctxt "Comment"
+msgid "Provides feedback about user actions"
+msgstr "Pruža povratne informacije o radnjama korisnika"
+
+#: src/helpers/killer/org.kde.kwin.killer.desktop.in:3
+msgctxt "Name"
+msgid "KWin Kill Helper"
+msgstr "KWinov pomoćnik za prisilno zatvaranje"
+
+#: src/helpers/killer/org.kde.kwin.killer.desktop.in:52
+msgctxt "Comment"
+msgid "Prompts whether to kill an unresponsive window"
+msgstr "Pita želite li prisilno zatvoriti prozor koji ne reagira"
+
+#: src/kcms/effects/kwineffect.knsrc:2
+msgctxt "Name"
+msgid "Desktop Effects"
+msgstr "Efekti radne površine"
+
+#: src/kcms/scripts/kwinscripts.knsrc:2
+msgctxt "Name"
+msgid "Window Manager Scripts"
+msgstr "Skripte upravitelja prozora"
+
+#: src/kcms/tabbox/kwinswitcher.knsrc:2
+msgctxt "Name"
+msgid "Task Switcher Styles"
+msgstr "Stilovi prebacivača zadataka"
+
+#: src/kwin.notifyrc:3
+msgctxt "Comment"
+msgid "KWin Window Manager"
+msgstr "KWinov upravitelj prozora"
+
+#: src/kwin.notifyrc:72
+msgctxt "Name"
+msgid "Graphics Reset"
+msgstr "Vraćanje grafike na početno stanje"
+
+#: src/kwin.notifyrc:130
+msgctxt "Comment"
+msgid "A graphics reset event occurred"
+msgstr "Dogodio se događaj vraćanja grafike na početno stanje"
+
+#: src/kwin.notifyrc:190
+msgctxt "Name"
+msgid "Xwayland Crash"
+msgstr "Pad Xwaylanda"
+
+#: src/kwin.notifyrc:244
+msgctxt "Comment"
+msgid "Xwayland has crashed"
+msgstr "Xwayland se srušio"
+
+#: src/kwin.notifyrc:302
+msgctxt "Name"
+msgid "Window Switcher Broken"
+msgstr "Prebacivač prozora ne radi"
+
+#: src/kwin.notifyrc:342
+msgctxt "Comment"
+msgid "The Window Switcher installation is broken"
+msgstr "Instalacija prebacivača prozora je neispravna"
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:3
+msgctxt "Name|plasma runner"
+msgid "Windows"
+msgstr "Prozori"
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:56
+msgctxt "Comment"
+msgid "List windows and desktops and switch them"
+msgstr "Popisuje prozore i radne površine te omogućuje prebacivanje između njih"
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:120
+msgctxt "X-Plasma-Runner-Syntax-Descriptions"
+msgid ""
+"Finds windows whose name or window application match :q:. It is possible to "
+"interact with the windows by using one of the following keywords: activate\\"
+"\\, close\\\\, min(imize)\\\\, max(imize)\\\\, fullscreen\\\\, "
+"shade\\\\, keep above and keep below.,Finds windows which are on desktop "
+"named :q:,Switch to desktop named :q:,Lists all windows and allows to activate "
+"them.,Lists all other desktops and allows to switch to them."
+msgstr "Pronalazi prozore čiji se naziv ili aplikacija podudaraju s pojmom :q:. Prozorima možete upravljati pomoću sljedećih ključnih riječi: activate\\, close\\\\, min(imize)\\\\, max(imize)\\\\, fullscreen\\\\, shade\\\\, keep above and keep below.,Pronalazi prozore na radnoj površini naziva :q:,Prebacuje se na radnu površinu naziva :q:,Prikazuje sve prozore i omogućuje njihovu aktivaciju.,Prikazuje ostale radne površine i omogućuje prebacivanje na njih."

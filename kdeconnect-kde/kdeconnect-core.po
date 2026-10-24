@@ -1,0 +1,157 @@
+# Croatian translations for kdeconnect-kde.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-22 00:50+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: backends/lan/compositeuploadjob.cpp:83
+#, kde-format
+msgid "Couldn't find an available port"
+msgstr "Nije moguće pronaći slobodan priključak"
+
+#: backends/lan/compositeuploadjob.cpp:112
+#, kde-format
+msgid "Failed to send packet to %1"
+msgstr "Slanje paketa na %1 nije uspjelo"
+
+#: backends/lan/compositeuploadjob.cpp:303
+#, kde-format
+msgid "Timeout waiting for receiver to connect"
+msgstr "Isteklo je vrijeme čekanja na povezivanje primatelja"
+
+#: backends/lan/compositeuploadjob.cpp:356
+#, kde-format
+msgid "Sending to %1"
+msgstr "Slanje na %1"
+
+#: backends/lan/compositeuploadjob.cpp:356
+#, kde-format
+msgid "File"
+msgstr "Datoteka"
+
+#: backends/lan/uploadjob.cpp:102
+#, kde-format
+msgid "Could not open source file: %1"
+msgstr "Nije moguće otvoriti izvornu datoteku: %1"
+
+#: backends/pairinghandler.cpp:57
+#, kde-format
+msgid "Device clocks are out of sync"
+msgstr "Satovi uređaja nisu sinkronizirani"
+
+#: backends/pairinghandler.cpp:76
+#, kde-format
+msgid "Canceled by other peer"
+msgstr "Drugi uređaj je otkazao"
+
+#: backends/pairinghandler.cpp:100 backends/pairinghandler.cpp:119
+#, kde-format
+msgid "%1: Device not reachable"
+msgstr "%1: uređaj nije dostupan"
+
+#: backends/pairinghandler.cpp:142
+#, kde-format
+msgid "Device not reachable"
+msgstr "Uređaj nije dostupan"
+
+#: backends/pairinghandler.cpp:158
+#, kde-format
+msgid "Cancelled by user"
+msgstr "Korisnik je otkazao"
+
+#: backends/pairinghandler.cpp:178
+#, kde-format
+msgid "Timed out"
+msgstr "Isteklo je vrijeme čekanja"
+
+#: backends/pairinghandler.cpp:191
+#, kde-format
+msgid "Pairing is not in progress"
+msgstr "Uparivanje nije u tijeku"
+
+#: compositefiletransferjob.cpp:47
+#, kde-format
+msgctxt "@title job"
+msgid "Receiving file"
+msgid_plural "Receiving files"
+msgstr[0] "Primanje datoteke"
+msgstr[1] "Primanje datoteka"
+msgstr[2] "Primanje datoteka"
+
+#: compositefiletransferjob.cpp:48
+#, kde-format
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Izvor"
+
+#: compositefiletransferjob.cpp:49
+#, kde-format
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Odredište"
+
+#: device.cpp:491
+#, kde-format
+msgid "SHA256 fingerprint of your device certificate is: %1\n"
+msgstr "SHA256 otisak certifikata vašeg uređaja: %1\n"
+
+#: device.cpp:497
+#, kde-format
+msgid "SHA256 fingerprint of remote device certificate is: %1\n"
+msgstr "SHA256 otisak certifikata udaljenog uređaja: %1\n"
+
+#: device.cpp:499
+#, kde-format
+msgid "Protocol version: %1\n"
+msgstr "Verzija protokola: %1\n"
+
+#: filetransferjob.cpp:54
+#, kde-format
+msgid "Filename already present"
+msgstr "Datoteka s tim nazivom već postoji"
+
+#: filetransferjob.cpp:70
+#, kde-format
+msgid "Could not create destination file: %1"
+msgstr "Nije moguće stvoriti odredišnu datoteku: %1"
+
+#: filetransferjob.cpp:129
+#, kde-format
+msgid "Received incomplete file from: %1"
+msgstr "Primljena je nepotpuna datoteka od: %1"
+
+#: kdeconnectconfig.cpp:433 kdeconnectconfig.cpp:467
+#, kde-format
+msgid "KDE Connect failed to start"
+msgstr "Pokretanje KDE Connecta nije uspjelo"
+
+#: kdeconnectconfig.cpp:433
+#, kde-format
+msgid "Could not generate the private key."
+msgstr "Nije moguće generirati privatni ključ."
+
+#: kdeconnectconfig.cpp:452
+#, kde-format
+msgid "Could not store private key file: %1"
+msgstr "Nije moguće spremiti datoteku privatnog ključa: %1"
+
+#: kdeconnectconfig.cpp:467
+#, kde-format
+msgid "Could not generate the device certificate."
+msgstr "Nije moguće generirati certifikat uređaja."
+
+#: kdeconnectconfig.cpp:483
+#, kde-format
+msgid "Could not store certificate file: %1"
+msgstr "Nije moguće spremiti datoteku certifikata: %1"

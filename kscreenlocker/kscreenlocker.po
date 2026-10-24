@@ -1,0 +1,64 @@
+# Croatian translations for kscreenlocker.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kscreenlocker\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 17:43+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: emergencywindow.cpp:54
+#, kde-format
+msgid "The screen locker is broken and unlocking is not possible anymore.\nIn order to unlock it either ConsoleKit or LoginD is needed, neither\nof which could be found on your system."
+msgstr "Zaključavanje zaslona ne radi i više ga nije moguće otključati.\nZa otključavanje je potreban ConsoleKit ili LoginD, no nijedan\nnije pronađen na vašem sustavu."
+
+#: emergencywindow.cpp:58
+#, kde-format
+msgctxt "%1 = other terminal"
+msgid "The screen locker is broken and unlocking is not possible anymore.\nIn order to unlock it, switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\nlog in as root and execute the command:\n\n# ck-unlock-session <session-name>\n\n"
+msgstr "Zaključavanje zaslona ne radi i više ga nije moguće otključati.\nDa biste ga otključali, prijeđite na virtualni terminal (npr. Ctrl+Alt+F%1),\nprijavite se kao root i izvršite naredbu:\n\n# ck-unlock-session <session-name>\n\n"
+
+#: emergencywindow.cpp:63
+#, kde-format
+msgctxt "%1 = other terminal, %2 = session ID, %3 = this terminal"
+msgid "The screen locker is broken and unlocking is not possible anymore.\nIn order to unlock it, switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\nlog in to your account and execute the command:\n\nloginctl unlock-session %2\n\nThen log out of the virtual session by pressing Ctrl+D, and switch\nback to the running session (Ctrl+Alt+F%3).\nShould you have forgotten the instructions, you can get back to this\nscreen by pressing Ctrl+Alt+F%3\n\n"
+msgstr "Zaključavanje zaslona ne radi i više ga nije moguće otključati.\nDa biste ga otključali, prijeđite na virtualni terminal (npr. Ctrl+Alt+F%1),\nprijavite se na svoj račun i izvršite naredbu:\n\nloginctl unlock-session %2\n\nOdjavite se iz virtualne sesije pritiskom na Ctrl+D i vratite se\nu aktivnu sesiju (Ctrl+Alt+F%3).\nAko zaboravite upute, vratite se na ovaj\nzaslon pritiskom na Ctrl+Alt+F%3\n\n"
+
+#: ksldapp.cpp:117
+#, kde-format
+msgctxt "Name of a category in System Settings' Shortcuts KCM; match it exactly"
+msgid "Session Management"
+msgstr "Upravljanje sesijama"
+
+#: ksldapp.cpp:119
+#, kde-format
+msgid "Lock Session"
+msgstr "Zaključaj sesiju"
+
+#: ksldapp.cpp:335
+#, kde-format
+msgid "Screen locked"
+msgstr "Zaslon je zaključan"
+
+#: ksldapp.cpp:363
+#, kde-format
+msgid "Screen unlocked"
+msgstr "Zaslon je otključan"
+
+#: logind.cpp:162
+#, kde-format
+msgid "Screen Locker"
+msgstr "Zaključavanje zaslona"
+
+#: logind.cpp:162
+#, kde-format
+msgid "Ensuring that the screen gets locked before going to sleep"
+msgstr "Provjera zaključavanja zaslona prije prelaska u stanje mirovanja"

@@ -1,0 +1,262 @@
+# Croatian translations for sddm-kcm.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sddm-kcm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-06-07 00:47+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: sddmauthhelper.cpp:418 sddmauthhelper.cpp:438 sddmauthhelper.cpp:445
+msgid "Invalid theme package"
+msgstr "Nevaljan paket teme"
+
+#: sddmauthhelper.cpp:424
+msgid "Could not open file"
+msgstr "Nije moguće otvoriti datoteku"
+
+#: sddmauthhelper.cpp:453
+msgid "Could not decompress archive"
+msgstr "Nije moguće raspakirati arhivu"
+
+#: sddmthemeinstaller.cpp:30
+#, kde-format
+msgid "SDDM theme installer"
+msgstr "Instalacijski program tema SDDM-a"
+
+#: sddmthemeinstaller.cpp:37
+#, kde-format
+msgid "Install a theme."
+msgstr "Instaliraj temu."
+
+#: sddmthemeinstaller.cpp:38
+#, kde-format
+msgid "Uninstall a theme."
+msgstr "Deinstaliraj temu."
+
+#: sddmthemeinstaller.cpp:40
+#, kde-format
+msgid "The theme to install, must be an existing archive file."
+msgstr "Tema za instalaciju mora biti postojeća arhivska datoteka."
+
+#: sddmthemeinstaller.cpp:75
+#, kde-format
+msgid "Unable to install theme"
+msgstr "Nije moguće instalirati temu"
+
+#: src/sddmkcm.cpp:169 src/sddmkcm.cpp:308
+msgid "Cannot proceed, user 'sddm' does not exist. Please check your SDDM install."
+msgstr "Nije moguće nastaviti jer korisnik 'sddm' ne postoji. Provjerite instalaciju SDDM-a."
+
+#: src/sessionmodel.cpp:87
+#, kde-format
+msgctxt "%1 is the name of a session"
+msgid "%1 (Wayland)"
+msgstr "%1 (Wayland)"
+
+#: src/ui/Advanced.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: src/ui/Advanced.qml:23
+#, kde-format
+msgctxt "option:check"
+msgid "Automatically log in:"
+msgstr "Automatska prijava:"
+
+#: src/ui/Advanced.qml:28
+#, kde-format
+msgctxt "@label:listbox, the following combobox selects the user to log in automatically"
+msgid "as user:"
+msgstr "kao korisnik:"
+
+#: src/ui/Advanced.qml:100
+#, kde-format
+msgctxt "@label:listbox, the following combobox selects the session that is started automatically"
+msgid "with session"
+msgstr "sa sesijom"
+
+#: src/ui/Advanced.qml:131
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Auto-login does not support unlocking your KDE Wallet automatically, so it will ask you to unlock it every time you log in.<nl/><nl/>To avoid this, you can change the wallet to have a blank password. Note that this is insecure and should only be done in a trusted environment."
+msgstr "Automatska prijava ne podržava automatsko otključavanje KDE novčanika, pa ćete ga morati otključati pri svakoj prijavi.<nl/><nl/>Da biste to izbjegli, novčaniku možete postaviti praznu lozinku. To nije sigurno i trebalo bi se učiniti samo u pouzdanom okruženju."
+
+#: src/ui/Advanced.qml:136
+#, kde-format
+msgid "Open KDE Wallet Settings"
+msgstr "Otvori postavke KDE novčanika"
+
+#: src/ui/Advanced.qml:142
+#, kde-format
+msgctxt "@option:check"
+msgid "Log in again immediately after logging off"
+msgstr "Ponovno se prijavi odmah nakon odjave"
+
+#: src/ui/Advanced.qml:155
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Minimum user UID:"
+msgstr "Najniži korisnički UID:"
+
+#: src/ui/Advanced.qml:167
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum user UID:"
+msgstr "Najviši korisnički UID:"
+
+#: src/ui/Advanced.qml:182
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Halt Command:"
+msgstr "Naredba za isključivanje:"
+
+#: src/ui/Advanced.qml:215
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Reboot Command:"
+msgstr "Naredba za ponovno pokretanje:"
+
+#: src/ui/DetailsDialog.qml:28
+#, kde-format
+msgctxt "@title:window, %1 is the theme name, %2 the version"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/ui/DetailsDialog.qml:62
+#, kde-format
+msgid "No preview available"
+msgstr "Pretpregled nije dostupan"
+
+#: src/ui/DetailsDialog.qml:68
+#, kde-format
+msgctxt "%1 is a description of the theme, %2 are the authors, %3 is the license"
+msgid "%1, by %2 (%3)"
+msgstr "%1, autori: %2 (%3)"
+
+#: src/ui/main.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Behavior…"
+msgstr "Ponašanje…"
+
+#: src/ui/main.qml:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply Plasma Settings…"
+msgstr "Primijeni postavke Plasme…"
+
+#: src/ui/main.qml:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Install From File…"
+msgstr "Instaliraj iz datoteke…"
+
+#: src/ui/main.qml:39
+#, kde-format
+msgctxt "@action:button as in, \"get new SDDM themes\""
+msgid "Get New…"
+msgstr "Nabavi nove…"
+
+#: src/ui/main.qml:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View details"
+msgstr "Prikaži pojedinosti"
+
+#: src/ui/main.qml:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Change background"
+msgstr "Promijeni pozadinu"
+
+#: src/ui/main.qml:115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove login screen theme"
+msgstr "Ukloni temu zaslona za prijavu"
+
+#: src/ui/main.qml:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete the active login screen theme"
+msgstr "Nije moguće izbrisati aktivnu temu zaslona za prijavu"
+
+#: src/ui/main.qml:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot delete system-installed login screen themes"
+msgstr "Nije moguće izbrisati teme zaslona za prijavu instalirane na sustav"
+
+#: src/ui/main.qml:146
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Plasma Settings"
+msgstr "Primijeni postavke Plasme"
+
+#: src/ui/main.qml:147
+#, kde-format
+msgid "This will make the SDDM login screen reflect your customizations to the following Plasma settings:"
+msgstr "Time će se na zaslonu za prijavu SDDM-a primijeniti vaše prilagodbe sljedećih postavki Plasme:"
+
+#: src/ui/main.qml:148
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<para><list><item>Color scheme</item><item>Cursor theme and size</item><item>Font and font rendering</item><item>NumLock preference</item><item>Plasma theme</item><item>Scaling DPI</item><item>Screen configuration (Wayland only)</item></list></para>"
+msgstr "<para><list><item>Shema boja</item><item>Tema i veličina pokazivača</item><item>Font i iscrtavanje fonta</item><item>Postavka tipke NumLock</item><item>Tema Plasme</item><item>DPI skaliranja</item><item>Konfiguracija zaslona (samo Wayland)</item></list></para>"
+
+#: src/ui/main.qml:149
+#, kde-format
+msgid "Please note that theme files must be installed globally to be reflected on the SDDM login screen."
+msgstr "Imajte na umu da datoteke tema moraju biti instalirane globalno kako bi se prikazale na zaslonu za prijavu SDDM-a."
+
+#: src/ui/main.qml:153
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: src/ui/main.qml:158
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset to Default Settings"
+msgstr "Vrati zadane postavke"
+
+#: src/ui/main.qml:170
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Background"
+msgstr "Promijeni pozadinu"
+
+#: src/ui/main.qml:256
+#, kde-format
+msgid "No image selected"
+msgstr "Nijedna slika nije odabrana"
+
+#: src/ui/main.qml:261
+#, kde-format
+msgctxt "@option:check"
+msgid "Show clock"
+msgstr "Prikaži sat"
+
+#: src/ui/main.qml:269
+#, kde-format
+msgctxt "@action:button"
+msgid "Load From File…"
+msgstr "Učitaj iz datoteke…"
+
+#: src/ui/main.qml:274
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Image"
+msgstr "Ukloni sliku"

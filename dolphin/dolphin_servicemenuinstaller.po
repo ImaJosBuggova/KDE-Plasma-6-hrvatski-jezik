@@ -1,0 +1,145 @@
+# Croatian translations for dolphin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dolphin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-09 00:48+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: servicemenuinstaller.cpp:46
+#, kde-format
+msgid "Dolphin service menu installation failed"
+msgstr "Instalacija servisnog izbornika Dolphina nije uspjela"
+
+#: servicemenuinstaller.cpp:73
+#, kde-format
+msgid "Failed to install \"%1\", exited with status \"%2\""
+msgstr "Instalacija stavke „%1” nije uspjela; izlazni status: „%2”"
+
+#: servicemenuinstaller.cpp:102
+#, kde-format
+msgid "Failed to uninstall \"%1\", exited with status \"%2\""
+msgstr "Deinstalacija stavke „%1” nije uspjela; izlazni status: „%2”"
+
+#: servicemenuinstaller.cpp:114
+#, kde-format
+msgid "The file does not exist!"
+msgstr "Datoteka ne postoji!"
+
+#: servicemenuinstaller.cpp:123
+#, kde-format
+msgid "Unknown error when installing package"
+msgstr "Nepoznata pogreška pri instalaciji paketa"
+
+#: servicemenuinstaller.cpp:189
+#, kde-format
+msgid "Unsupported archive type %1: %2"
+msgstr "Nepodržana vrsta arhive %1: %2"
+
+#: servicemenuinstaller.cpp:195
+#, kde-format
+msgid "Failed to run uncompressor command for %1"
+msgstr "Nije moguće pokrenuti naredbu za raspakiravanje za %1"
+
+#: servicemenuinstaller.cpp:199
+#, kde-format
+msgid "Process did not finish in reasonable time: %1 %2"
+msgstr "Proces nije završio u razumnom roku: %1 %2"
+
+#: servicemenuinstaller.cpp:203
+#, kde-format
+msgid "Failed to uncompress %1"
+msgstr "Nije moguće raspakirati %1"
+
+#: servicemenuinstaller.cpp:240
+#, kde-format
+msgid "Failed to run installer script %1"
+msgstr "Nije moguće pokrenuti instalacijsku skriptu %1"
+
+#: servicemenuinstaller.cpp:263
+#, kde-format
+msgid "Failed to set permissions on %1: %2"
+msgstr "Nije moguće postaviti dozvole za %1: %2"
+
+#: servicemenuinstaller.cpp:279
+#, kde-format
+msgctxt "%2 = comma separated list of arguments"
+msgid "Installer script %1 failed, tried arguments \"%2\"."
+msgstr "Instalacijska skripta %1 nije uspjela; isprobani argumenti: „%2”."
+
+#: servicemenuinstaller.cpp:281
+#, kde-format
+msgctxt "Separator between arguments"
+msgid "\", \""
+msgstr "\", \""
+
+#: servicemenuinstaller.cpp:295
+#, kde-format
+msgid "Failed to create path %1"
+msgstr "Nije moguće stvoriti putanju %1"
+
+#: servicemenuinstaller.cpp:309
+#, kde-format
+msgid "Failed to copy .desktop file %1 to %2: %3"
+msgstr "Nije moguće kopirati desktop datoteku %1 u %2: %3"
+
+#: servicemenuinstaller.cpp:321 servicemenuinstaller.cpp:429
+#, kde-format
+msgid "Failed to remove directory %1"
+msgstr "Nije moguće ukloniti direktorij %1"
+
+#: servicemenuinstaller.cpp:327
+#, kde-format
+msgid "Failed to create directory %1"
+msgstr "Nije moguće stvoriti direktorij %1"
+
+#: servicemenuinstaller.cpp:366
+#, kde-format
+msgid "Failed to find an installation script in %1"
+msgstr "U %1 nije pronađena instalacijska skripta"
+
+#: servicemenuinstaller.cpp:380
+#, kde-format
+msgid "Failed to remove .desktop file %1: %2"
+msgstr "Nije moguće ukloniti desktop datoteku %1: %2"
+
+#: servicemenuinstaller.cpp:423
+#, kde-format
+msgid "Failed to find an uninstallation script in %1"
+msgstr "U %1 nije pronađena skripta za deinstalaciju"
+
+#: servicemenuinstaller.cpp:442
+#, kde-format
+msgctxt "@info:shell"
+msgid "Command to execute: install or uninstall."
+msgstr "Naredba za izvršavanje: install ili uninstall."
+
+#: servicemenuinstaller.cpp:443
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path to archive."
+msgstr "Putanja do arhive."
+
+#: servicemenuinstaller.cpp:448
+#, kde-format
+msgid "Command is required."
+msgstr "Naredba je obavezna."
+
+#: servicemenuinstaller.cpp:451
+#, kde-format
+msgid "Path to archive is required."
+msgstr "Putanja do arhive je obavezna."
+
+#: servicemenuinstaller.cpp:467
+#, kde-format
+msgid "Unsupported command %1"
+msgstr "Nepodržana naredba %1"

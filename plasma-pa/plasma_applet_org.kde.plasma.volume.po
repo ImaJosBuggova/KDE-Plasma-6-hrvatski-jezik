@@ -1,0 +1,288 @@
+# Croatian translations for plasma-pa.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-pa\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 00:50+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ListItemBase.qml:73
+#, kde-format
+msgid "Currently not recording"
+msgstr "Trenutačno ne snima"
+
+#: ListItemBase.qml:74
+#, kde-format
+msgid "Currently not playing"
+msgstr "Trenutačno ne reproducira"
+
+#: ListItemBase.qml:134
+#, kde-kuit-format
+msgctxt "@label/rich"
+msgid "%1"
+msgstr "%1"
+
+#: ListItemBase.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Additional Options"
+msgstr "Dodatne mogućnosti"
+
+#: ListItemBase.qml:210
+#, kde-format
+msgid "Show additional options for %1"
+msgstr "Prikaži dodatne mogućnosti za %1"
+
+#: ListItemBase.qml:232
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "Uključi zvuk"
+
+#: ListItemBase.qml:232
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "Isključi zvuk"
+
+#: ListItemBase.qml:234
+#, kde-format
+msgid "Unmute %1"
+msgstr "Uključi zvuk za %1"
+
+#: ListItemBase.qml:234
+#, kde-format
+msgid "Mute %1"
+msgstr "Isključi zvuk za %1"
+
+#: ListItemBase.qml:257
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "Prilagodi glasnoću za %1"
+
+#: ListItemBase.qml:321 MicrophoneTestView.qml:215
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: ListItemBase.qml:342 MicrophoneTestView.qml:228
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "100%"
+
+#: ListItemBase.qml:347
+#, kde-format
+msgctxt "Perform an audio test of the device"
+msgid "Test…"
+msgstr "Testiraj…"
+
+#: main.qml:36
+#, kde-format
+msgid "Audio Volume"
+msgstr "Glasnoća zvuka"
+
+#: main.qml:60 main.qml:62
+#, kde-format
+msgctxt "@label"
+msgid "Connection to the Sound Service Lost"
+msgstr "Veza sa zvučnim servisom je prekinuta"
+
+#: main.qml:64
+#, kde-format
+msgid "No output or input devices found"
+msgstr "Nisu pronađeni ulazni ni izlazni uređaji"
+
+#: main.qml:68
+#, kde-format
+msgctxt "@info reconnecting to pulseaudio"
+msgid "Trying to reconnect…"
+msgstr "Pokušaj ponovnog povezivanja…"
+
+#: main.qml:94
+#, kde-format
+msgid "Audio Muted"
+msgstr "Zvuk je isključen"
+
+#: main.qml:96
+#, kde-format
+msgid "Volume at %1%"
+msgstr "Glasnoća je na %1%"
+
+#: main.qml:107
+#, kde-format
+msgid "Middle-click to unmute"
+msgstr "Kliknite srednjom tipkom za uključivanje zvuka"
+
+#: main.qml:108
+#, kde-format
+msgid "Middle-click to mute all audio"
+msgstr "Kliknite srednjom tipkom za isključivanje svih zvukova"
+
+#: main.qml:109
+#, kde-format
+msgid "Scroll to adjust volume"
+msgstr "Pomičite kotačić za prilagodbu glasnoće"
+
+#: main.qml:125
+#, kde-format
+msgid "Device name not found"
+msgstr "Naziv uređaja nije pronađen"
+
+#: main.qml:361
+#, kde-format
+msgid "Devices"
+msgstr "Uređaji"
+
+#: main.qml:368
+#, kde-format
+msgid "Applications"
+msgstr "Aplikacije"
+
+#: main.qml:392
+#, kde-format
+msgctxt "@action:button"
+msgid "More actions"
+msgstr "Dodatne radnje"
+
+#: main.qml:434
+#, kde-format
+msgctxt "@action:button keep this widget's pop-up open until explicitly dismissed"
+msgid "Keep open"
+msgstr "Ostavi otvorenim"
+
+#: main.qml:471
+#, kde-format
+msgctxt "@action retry connecting to pulseaudio"
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: main.qml:505
+#, kde-format
+msgid "No applications playing or recording audio"
+msgstr "Nijedna aplikacija ne reproducira ni snima zvuk"
+
+#: main.qml:601
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Output Devices"
+msgstr "Izlazni uređaji"
+
+#: main.qml:603
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Output Streams"
+msgstr "Izlazni tokovi"
+
+#: main.qml:661
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Input Devices"
+msgstr "Ulazni uređaji"
+
+#: main.qml:663
+#, kde-format
+msgctxt "@title:group listview section header"
+msgid "Input Streams"
+msgstr "Ulazni tokovi"
+
+#: main.qml:728
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Prolonged use of this feature will damage the device's speakers. Only use it temporarily to make quiet media audible."
+msgstr "Dugotrajna upotreba ove značajke oštetit će zvučnike uređaja. Koristite je samo privremeno kako biste pojačali tihi medij."
+
+#: main.qml:744
+#, kde-format
+msgid "Raise maximum volume"
+msgstr "Povećaj maksimalnu glasnoću"
+
+#: main.qml:762
+#, kde-format
+msgid "Force mute all playback devices"
+msgstr "Prisilno isključi zvuk na svim uređajima za reprodukciju"
+
+#: main.qml:771
+#, kde-format
+msgid "Force mute all input devices"
+msgstr "Prisilno isključi zvuk na svim ulaznim uređajima"
+
+#: main.qml:780
+#, kde-format
+msgid "Show virtual devices"
+msgstr "Prikaži virtualne uređaje"
+
+#: main.qml:790
+#, kde-format
+msgid "&Configure Audio Devices…"
+msgstr "&Konfiguriraj zvučne uređaje…"
+
+#: MicrophoneTestView.qml:104
+#, kde-format
+msgctxt "Button to stop microphone recording in test mode"
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: MicrophoneTestView.qml:104
+#, kde-format
+msgctxt "Button to start microphone recording in test mode"
+msgid "Record"
+msgstr "Snimi"
+
+#: MicrophoneTestView.qml:118
+#, kde-format
+msgctxt "Button to stop microphone playing in test mode"
+msgid "Stop"
+msgstr "Zaustavi"
+
+#: MicrophoneTestView.qml:118
+#, kde-format
+msgctxt "Button to start microphone playing in test mode"
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: MicrophoneTestView.qml:137
+#, kde-format
+msgctxt "Label above the microphone volume meter in test overlay"
+msgid "Volume level"
+msgstr "Razina glasnoće"
+
+#: MicrophoneTestView.qml:166
+#, kde-format
+msgctxt "Label showing current microphone input level percentage in test mode"
+msgid "%1 %"
+msgstr "%1 %"
+
+#: MicrophoneTestView.qml:181
+#, kde-format
+msgctxt "Label above the microphone sensitivity slider in test overlay"
+msgid "Sensitivity"
+msgstr "Osjetljivost"
+
+#: MicrophoneTestView.qml:237
+#, kde-format
+msgctxt "Button in microphone test view to return to the device list"
+msgid "Back"
+msgstr "Natrag"
+
+#: MicrophoneTestView.qml:250
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Microphone test error:<nl/><nl/>%1"
+msgstr "Pogreška pri testiranju mikrofona:<nl/><nl/>%1"
+
+#: StreamListItem.qml:36
+#, kde-format
+msgid "Stream name not found"
+msgstr "Naziv toka nije pronađen"

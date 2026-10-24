@@ -1,0 +1,159 @@
+# Croatian translations for plasma-settings.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-settings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-06-01 00:46+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: src/main.cpp:50
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#: src/main.cpp:52
+#, kde-format
+msgid "Touch-friendly settings application."
+msgstr "Aplikacija postavki prilagođena dodiru."
+
+#: src/main.cpp:54
+#, kde-format
+msgid "© 2011-2025 KDE Community"
+msgstr "© 2011–2025 KDE zajednica"
+
+#: src/main.cpp:55
+#, kde-format
+msgid "Devin Lin"
+msgstr "Devin Lin"
+
+#: src/main.cpp:55
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: src/main.cpp:56
+#, kde-format
+msgid "Sebastian Kügler"
+msgstr "Sebastian Kügler"
+
+#: src/main.cpp:56 src/main.cpp:57
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "Prethodni održavatelj"
+
+#: src/main.cpp:57
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: src/main.cpp:67
+#, kde-format
+msgid "List available settings modules"
+msgstr "Prikaži popis dostupnih modula postavki"
+
+#: src/main.cpp:70
+#, kde-format
+msgid "Limit to modules suitable for <formfactor>, e.g. handset, tablet, mediacenter, desktop, test, all (default handset)"
+msgstr "Ograniči na module prikladne za <formfactor>, npr. telefon, tablet, medijski centar, stolno računalo, testiranje ili sve (zadano: telefon)"
+
+#: src/main.cpp:71
+#, kde-format
+msgid "formfactor"
+msgstr "faktor oblika"
+
+#: src/main.cpp:72
+#, kde-format
+msgid "Settings module to open"
+msgstr "Modul postavki za otvaranje"
+
+#: src/main.cpp:72
+#, kde-format
+msgid "modulename"
+msgstr "naziv_modula"
+
+#: src/main.cpp:73
+#, kde-format
+msgid "Only show a single module, requires --module"
+msgstr "Prikaži samo jedan modul; zahtijeva --module"
+
+#: src/main.cpp:74
+#, kde-format
+msgid "Start window fullscreen"
+msgstr "Pokreni prozor na cijelom zaslonu"
+
+#: src/main.cpp:75
+#, kde-format
+msgid "Package to use for the UI (default org.kde.mobile.settings)"
+msgstr "Paket za sučelje (zadano org.kde.mobile.settings)"
+
+#: src/main.cpp:75
+#, kde-format
+msgid "packagename"
+msgstr "naziv_paketa"
+
+#: src/qml/components/PageHeader.qml:42
+#, kde-format
+msgid "Navigate Back"
+msgstr "Idi natrag"
+
+#: src/qml/DefaultPage.qml:29
+#, kde-format
+msgid "System Settings"
+msgstr "Postavke sustava"
+
+#: src/qml/DefaultPage.qml:35
+#, kde-format
+msgid "Open a configuration page from the sidebar."
+msgstr "Otvorite stranicu postavki na bočnoj traci."
+
+#: src/qml/KCMPageContainer.qml:73
+#, kde-format
+msgctxt "kcm button"
+msgid "Reset"
+msgstr "Poništi"
+
+#: src/qml/KCMPageContainer.qml:80
+#, kde-format
+msgctxt "kcm button"
+msgid "Defaults"
+msgstr "Zadano"
+
+#: src/qml/KCMPageContainer.qml:90
+#, kde-format
+msgctxt "kcm button"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: src/qml/SidebarCategoriesPage.qml:47
+#, kde-format
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: src/qml/SidebarCategoriesPage.qml:58
+#, kde-format
+msgid "Show menu"
+msgstr "Prikaži izbornik"
+
+#: src/qml/SidebarCategoriesPage.qml:74
+#, kde-format
+msgid "Show Modules for All Platforms"
+msgstr "Prikaži module za sve platforme"
+
+#: src/qml/SidebarCategoriesPage.qml:86
+#, kde-format
+msgid "About Plasma Settings"
+msgstr "O Postavkama Plasme"
+
+#: src/qml/SidebarCategoriesPage.qml:91
+#, kde-format
+msgid "About KDE"
+msgstr "O KDE-u"
