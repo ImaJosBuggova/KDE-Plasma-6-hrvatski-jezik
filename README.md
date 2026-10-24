@@ -14,29 +14,33 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **systemsettings** | ✅ | Pregledao Roko Tomović |
 | **plasma-desktop** | ⚠️ | Čeka provjeru |
 | **ark** | ⚠️ | Čeka provjeru |
-| **bluedevil** | ❌ | Nije prevedeno |
+| **bluedevil** | ⚠️ | Čeka provjeru |
 | **breeze** | ⚠️ | Čeka provjeru |
 | **breeze-icons** | ⚠️ | Čeka provjeru |
 | **dolphin** | ⚠️ | Čeka provjeru |
-| **kdeconnect-kde** | ❌ | Nije prevedeno |
+| **kdeconnect-kde** | ⚠️ | Čeka provjeru |
 | **kdecoration** | ⚠️ | Čeka provjeru |
-| **kinfocenter** | ❌ | Nije prevedeno |
-| **kio** | ❌ | Nije prevedeno |
+| **kinfocenter** | ⚠️ | Čeka provjeru |
+| **kio** | ⚠️ | Čeka provjeru |
 | **kio-extras** | ⚠️ | Čeka provjeru |
 | **knotifications** | ⚠️ | Čeka provjeru |
 | **knotifyconfig** | ⚠️ | Čeka provjeru |
 | **konzole** | ⚠️ | Čeka provjeru |
 | **kscreenlocker** | ⚠️ | Čeka provjeru |
-| **kwin** | ❌ | Nije prevedeno |
+| **kwin** | ⚠️ | Čeka provjeru |
 | **kwindowsystem** | ✅ | Pregledao Roko Tomović |
 | **oxygen-sounds** | ✅ | Pregledao Roko Tomović |
 | **plasma-integration** | ⚠️ | Čeka provjeru |
 | **plasma-nm** | ❌ | Nije prevedeno |
-| **plasma-pa** | ❌ | Nije prevedeno |
-| **plasma-settings** | ⚠️ | Čeka provjeru |
-| **plasma-systemmonitor** | ❌ | Nije prevedeno |
+| **plasma-pa** | ⚠️ | Čeka provjeru |
+| **plasma-settings** | ✅ | Pregledao Roko Tomović |
+| **plasma-systemmonitor** | ⚠️ | Čeka provjeru |
 | **sddm-kcm** | ⚠️ | Čeka provjeru |
-| **spectacle** | ❌ | Nije prevedeno |
+| **kdeplasma-addons** | ❌ | Nije prevedeno |
+| **libplasma** | ❌ | Nije prevedeno |
+| **plasma-browser-integration** | ❌ | Nije prevedeno |
+| **plasma-login-manager** | ❌ | Nije prevedeno |
+| **kio-admin** | ❌ | Nije prevedeno |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

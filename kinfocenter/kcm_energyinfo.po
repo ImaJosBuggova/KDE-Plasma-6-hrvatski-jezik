@@ -1,0 +1,388 @@
+# Translation of kinfocenter into Croatian.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kinfocenter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-02 00:46+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ui/Graph.qml:181
+#, kde-format
+msgctxt "@info:status"
+msgid "No history information for this time span"
+msgstr "Nema povijesnih informacija za ovo vremensko razdoblje"
+
+#: ui/main.qml:31 ui/main.qml:243
+#, kde-format
+msgid "Battery"
+msgstr "Baterija"
+
+#: ui/main.qml:33
+#, kde-format
+msgid "Rechargeable"
+msgstr "Punjiva"
+
+#: ui/main.qml:34
+#, kde-format
+msgid "Charge state"
+msgstr "Stanje napunjenosti"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Current charge"
+msgstr "Trenutačna napunjenost"
+
+#: ui/main.qml:36
+#, kde-format
+msgid "Health"
+msgstr "Zdravlje"
+
+#: ui/main.qml:37
+#, kde-format
+msgid "Charge Cycles"
+msgstr "Ciklusi punjenja"
+
+#: ui/main.qml:38
+#, kde-format
+msgid "Vendor"
+msgstr "Proizvođač"
+
+#: ui/main.qml:39
+#, kde-format
+msgid "Model"
+msgstr "Model"
+
+#: ui/main.qml:40
+#, kde-format
+msgid "Serial Number"
+msgstr "Serijski broj"
+
+#: ui/main.qml:41
+#, kde-format
+msgid "Technology"
+msgstr "Tehnologija"
+
+#: ui/main.qml:45
+#, kde-format
+msgid "Energy"
+msgstr "Energija"
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt "current power draw from the battery in W"
+msgid "Consumption"
+msgstr "Potrošnja"
+
+#: ui/main.qml:47
+#, kde-format
+msgctxt "Watt"
+msgid "W"
+msgstr "W"
+
+#: ui/main.qml:48
+#, kde-format
+msgid "Voltage"
+msgstr "Napon"
+
+#: ui/main.qml:48
+#, kde-format
+msgctxt "Volt"
+msgid "V"
+msgstr "V"
+
+#: ui/main.qml:49
+#, kde-format
+msgid "Remaining energy"
+msgstr "Preostala energija"
+
+#: ui/main.qml:49 ui/main.qml:50 ui/main.qml:51
+#, kde-format
+msgctxt "Watt-hours"
+msgid "Wh"
+msgstr "Wh"
+
+#: ui/main.qml:50
+#, kde-format
+msgid "Last full charge"
+msgstr "Posljednje puno punjenje"
+
+#: ui/main.qml:51
+#, kde-format
+msgid "Original charge capacity"
+msgstr "Izvorni kapacitet punjenja"
+
+#: ui/main.qml:55
+#, kde-format
+msgid "Environment"
+msgstr "Okruženje"
+
+#: ui/main.qml:57
+#, kde-format
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: ui/main.qml:70
+#, kde-format
+msgctxt ""
+"@info:label The battery has a certain capability, such as `Rechargeable:`"
+msgid "Yes"
+msgstr "Da"
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt ""
+"@info:label The battery doesn't have a certain capability, such as "
+"`Rechargeable:`"
+msgid "No"
+msgstr "Ne"
+
+#: ui/main.qml:75
+#, kde-format
+msgctxt "%1 is a percentage value"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/main.qml:81
+#, kde-format
+msgctxt "%1 is value, %2 is unit"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: ui/main.qml:88
+#, kde-format
+msgctxt "Degree Celsius"
+msgid "%1 °C"
+msgstr "%1 °C"
+
+#: ui/main.qml:96
+#, kde-format
+msgid "Not charging"
+msgstr "Nije na punjenju"
+
+#: ui/main.qml:97
+#, kde-format
+msgid "Charging"
+msgstr "Puni se"
+
+#: ui/main.qml:98
+#, kde-format
+msgid "Discharging"
+msgstr "Pražnjenje"
+
+#: ui/main.qml:99
+#, kde-format
+msgid "Fully charged"
+msgstr "Potpuno napunjeno"
+
+#: ui/main.qml:105
+#, kde-format
+msgid "Lithium ion"
+msgstr "Litij-ionska"
+
+#: ui/main.qml:106
+#, kde-format
+msgid "Lithium polymer"
+msgstr "Litij-polimerna"
+
+#: ui/main.qml:107
+#, kde-format
+msgid "Lithium iron phosphate"
+msgstr "Litij-željezofosfatna"
+
+#: ui/main.qml:108
+#, kde-format
+msgid "Lead acid"
+msgstr "Olovna"
+
+#: ui/main.qml:109
+#, kde-format
+msgid "Nickel cadmium"
+msgstr "Nikal-kadmijeva"
+
+#: ui/main.qml:110
+#, kde-format
+msgid "Nickel metal hydride"
+msgstr "Nikal-metal hidridna"
+
+#: ui/main.qml:111
+#, kde-format
+msgid "Unknown technology"
+msgstr "Nepoznata tehnologija"
+
+#: ui/main.qml:127
+#, kde-format
+msgctxt "@info:status"
+msgid "No energy information available on this system"
+msgstr "Na ovom sustavu nema dostupnih informacija o energiji"
+
+#: ui/main.qml:228
+#, kde-format
+msgid "PDA Battery"
+msgstr "Baterija PDA uređaja"
+
+#: ui/main.qml:229
+#, kde-format
+msgid "UPS Battery"
+msgstr "Baterija UPS-a"
+
+#: ui/main.qml:230
+#, kde-format
+msgid "Internal Battery"
+msgstr "Unutarnja baterija"
+
+#: ui/main.qml:231
+#, kde-format
+msgid "Mouse Battery"
+msgstr "Baterija miša"
+
+#: ui/main.qml:232
+#, kde-format
+msgid "Keyboard Battery"
+msgstr "Baterija tipkovnice"
+
+#: ui/main.qml:233
+#, kde-format
+msgid "Keyboard/Mouse Battery"
+msgstr "Baterija tipkovnice/miša"
+
+#: ui/main.qml:234
+#, kde-format
+msgid "Camera Battery"
+msgstr "Baterija kamere"
+
+#: ui/main.qml:235
+#, kde-format
+msgid "Phone Battery"
+msgstr "Baterija telefona"
+
+#: ui/main.qml:236
+#, kde-format
+msgid "Monitor Battery"
+msgstr "Baterija monitora"
+
+#: ui/main.qml:237
+#, kde-format
+msgid "Gaming Input Battery"
+msgstr "Baterija igraćeg uređaja"
+
+#: ui/main.qml:238
+#, kde-format
+msgid "Bluetooth Battery"
+msgstr "Bluetooth baterija"
+
+#: ui/main.qml:239
+#, kde-format
+msgid "Tablet Battery"
+msgstr "Baterija tableta"
+
+#: ui/main.qml:240
+#, kde-format
+msgid "Headphone Battery"
+msgstr "Baterija slušalica"
+
+#: ui/main.qml:241
+#, kde-format
+msgid "Headset Battery"
+msgstr "Baterija slušalica s mikrofonom"
+
+#: ui/main.qml:242
+#, kde-format
+msgid "Touchpad Battery"
+msgstr "Baterija dodirne pločice"
+
+#: ui/main.qml:273
+#, kde-format
+msgctxt "Battery charge percentage"
+msgid "%1% (Charging)"
+msgstr "%1% (puni se)"
+
+#: ui/main.qml:274
+#, kde-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/main.qml:314
+#, kde-format
+msgctxt "A format string with %1 as the short symbol for Watt"
+msgid "%.0f %1"
+msgstr "%.0f %1"
+
+#: ui/main.qml:315
+#, kde-format
+msgctxt "A format string with %1 as the percentage symbol '%'"
+msgid "%.0f %1"
+msgstr "%.0f %1"
+
+#: ui/main.qml:334
+#, kde-format
+msgid "Charge Percentage"
+msgstr "Postotak napunjenosti"
+
+#: ui/main.qml:344
+#, kde-format
+msgid "Energy Consumption"
+msgstr "Potrošnja energije"
+
+#: ui/main.qml:360
+#, kde-format
+msgid "Last hour"
+msgstr "Posljednji sat"
+
+#: ui/main.qml:361
+#, kde-format
+msgid "Last 2 hours"
+msgstr "Posljednja 2 sata"
+
+#: ui/main.qml:362
+#, kde-format
+msgid "Last 12 hours"
+msgstr "Posljednjih 12 sati"
+
+#: ui/main.qml:363
+#, kde-format
+msgid "Last 24 hours"
+msgstr "Posljednja 24 sata"
+
+#: ui/main.qml:364
+#, kde-format
+msgid "Last 48 hours"
+msgstr "Posljednjih 48 sati"
+
+#: ui/main.qml:365
+#, kde-format
+msgid "Last 7 days"
+msgstr "Posljednjih 7 dana"
+
+#: ui/main.qml:373
+#, kde-format
+msgid "Timespan"
+msgstr "Vremensko razdoblje"
+
+#: ui/main.qml:374
+#, kde-format
+msgid "Timespan of data to display"
+msgstr "Vremensko razdoblje podataka za prikaz"
+
+#: ui/main.qml:380
+#, kde-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: ui/main.qml:439
+#, kde-format
+msgid "%1:"
+msgstr "%1:"

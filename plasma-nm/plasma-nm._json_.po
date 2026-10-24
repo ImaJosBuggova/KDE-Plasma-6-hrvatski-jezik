@@ -1,0 +1,341 @@
+# Translation of json files into Croatian.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-nm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-16 00:55+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: applet/metadata.json
+msgctxt "X-KDE-Keywords"
+msgid "network,internet,ethernet,wireless,wifi,wlan,vpn"
+msgstr "mreža,internet,ethernet,bežično,wi-fi,wlan,vpn"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "X-KDE-Keywords"
+msgid "mobile,data,network"
+msgstr "mobilni,podaci,mreža"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"networks,wifi,wi-fi,ethernet,mobile,cdma,gsm,lte,wimax,apn,"
+"carrier,2g,3g,4g,5g,5ge,broadband,internet,traffic,connections,websites,web,"
+"DSL,infiniband,wired,wireless,bssid,ipv4,ipv6,mac address,ip,access point,"
+"dns,gateway,wep,leap,wpa,wpa2,wpa3,dhcp,shared network,private network,"
+"public network,vpn,openvpn,wireguard,fortinet,juniper,l2tp,pptp,sstp,ssh,"
+"iodine,ipsec,anyconnect,openconnect"
+msgstr ""
+"mreže,wi-fi,ethernet,mobilni,cdma,gsm,lte,wimax,apn,operater,2g,3g,4g,5g,5ge,"
+"širokopojasni,internet,promet,veze,web stranice,web,dsl,infiniband,žično,"
+"bežično,bssid,ipv4,ipv6,mac adresa,ip,pristupna točka,dns,mrežni prolaz,wep,"
+"leap,wpa,wpa2,wpa3,dhcp,dijeljena mreža,privatna mreža,javna mreža,vpn,"
+"openvpn,wireguard,fortinet,juniper,l2tp,pptp,sstp,ssh,iodine,ipsec,anyconnect,"
+"openconnect"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "X-KDE-Keywords"
+msgid "wifi,network"
+msgstr "wi-fi,mreža"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"wired,network,ethernet,cat5,cat6,IP,address,DHCP,connection,cable,networking"
+msgstr ""
+"žično,mreža,ethernet,cat5,cat6,ip,adresa,dhcp,veza,kabel,umrežavanje"
+
+#: applet/metadata.json
+msgctxt "Name"
+msgid "Networks"
+msgstr "Mreže"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "Name"
+msgid "Cellular Network"
+msgstr "Mobilna mreža"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "Name"
+msgid "Wi-Fi & Networking"
+msgstr "Wi-Fi i umrežavanje"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Name"
+msgid "Hotspot"
+msgstr "Vruća točka (Hotspot)"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "Name"
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "Name"
+msgid "Wired Network"
+msgstr "Žična mreža"
+
+#: kded/networkmanagement.json
+msgctxt "Name"
+msgid "Plasma Network Management module"
+msgstr "Plasma modul za upravljanje mrežom"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+msgctxt "Name"
+msgid "Fortinet SSLVPN (fortisslvpn)"
+msgstr "Fortinet SSLVPN (fortisslvpn)"
+
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+msgctxt "Name"
+msgid "Iodine DNS tunnel (iodine)"
+msgstr "Iodine DNS tunel (iodine)"
+
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+msgctxt "Name"
+msgid "Layer 2 Tunneling Protocol (L2TP)"
+msgstr "Protokol tuneliranja sloja 2 (L2TP)"
+
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+msgctxt "Name"
+msgid "IPsec based VPN (libreswan)"
+msgstr "VPN temeljen na IPsec-u (libreswan)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+msgctxt "Name"
+msgid "Cisco AnyConnect Compatible VPN (openconnect)"
+msgstr "VPN kompatibilan s Cisco AnyConnectom (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+msgctxt "Name"
+msgid "Array Networks Compatible VPN (openconnect)"
+msgstr "VPN kompatibilan s Array Networksom (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+msgctxt "Name"
+msgid "F5 BIG-IP Compatible VPN (openconnect)"
+msgstr "VPN kompatibilan s F5 BIG-IP-om (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Name"
+msgid "Fortinet Compatible VPN (openconnect)"
+msgstr "VPN kompatibilan s Fortinetom (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+msgctxt "Name"
+msgid "PAN Global Protect (openconnect)"
+msgstr "PAN GlobalProtect (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+msgctxt "Name"
+msgid "Juniper SSL VPN (openconnect)"
+msgstr "Juniper SSL VPN (openconnect)"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+msgctxt "Name"
+msgid "Pulse Connect Secure (openconnect)"
+msgstr "Pulse Connect Secure (openconnect)"
+
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+msgctxt "Name"
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+msgctxt "Name"
+msgid "Point-to-Point Tunneling Protocol (PPTP)"
+msgstr "Protokol tuneliranja od točke do točke (PPTP)"
+
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+msgctxt "Name"
+msgid "SSH"
+msgstr "SSH"
+
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Name"
+msgid "Secure Socket Tunneling Protocol (SSTP)"
+msgstr "Protokol tuneliranja sigurnih utičnica (SSTP)"
+
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+msgctxt "Name"
+msgid "IPsec based VPN (strongswan)"
+msgstr "VPN temeljen na IPsec-u (strongswan)"
+
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Name"
+msgid "Cisco Compatible VPN (vpnc)"
+msgstr "VPN kompatibilan s Ciskom (vpnc)"
+
+#: applet/metadata.json
+msgctxt "Description"
+msgid "Network status and control"
+msgstr "Status mreže i kontrola"
+
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
+msgctxt "Description"
+msgid "Management of cellular networks"
+msgstr "Upravljanje mobilnim mrežama"
+
+#: kcms/kcm_connections/kcm_networkmanagement.json
+#: kcms/kcm_connections_qml/kcm_networkmanagement_qml.json
+msgctxt "Description"
+msgid "Edit network connections"
+msgstr "Uredi mrežne veze"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Description"
+msgid "Wi-Fi Hotspot"
+msgstr "Wi-Fi vruća točka (Hotspot)"
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
+msgctxt "Description"
+msgid "Wireless network setting"
+msgstr "Postavka bežične mreže"
+
+#: kcms/kcm_wired_mobile/kcm_mobile_wired.json
+msgctxt "Description"
+msgid "Wired network settings"
+msgstr "Postavke žične mreže"
+
+#: kded/networkmanagement.json
+msgctxt "Description"
+msgid "Provides secrets to the NetworkManager daemon"
+msgstr "Pruža tajne podatke (lozinke/ključne podatke) NetworkManager daemonu"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+msgctxt "Description"
+msgid "Fortinet SSLVPN virtual private networks"
+msgstr "Fortinet SSLVPN virtualne privatne mreže"
+
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+msgctxt "Description"
+msgid "Tunnel connections via DNS"
+msgstr "Tunelirane veze putem DNS-a"
+
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+msgctxt "Description"
+msgid "Compatible with L2TP VPN servers"
+msgstr "Kompatibilno s L2TP VPN poslužiteljima"
+
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+msgctxt "Description"
+msgid "IPsec, IKEv1, IKEv2 based VPN"
+msgstr "VPN temeljen na IPsec-u, IKEv1, IKEv2"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+msgctxt "Description"
+msgid "Compatible with Cisco AnyConnect SSL VPN"
+msgstr "Kompatibilno s Cisco AnyConnect SSL VPN-om"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+msgctxt "Description"
+msgid "Compatible with Array Networks SSL VPN"
+msgstr "Kompatibilno s Array Networks SSL VPN-om"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+msgctxt "Description"
+msgid "Compatible with F5 BIG-IP SSL VPN"
+msgstr "Kompatibilno s F5 BIG-IP SSL VPN-om"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Description"
+msgid "Compatible with Fortinet VPN"
+msgstr "Kompatibilno s Fortinet VPN-om"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+msgctxt "Description"
+msgid "Compatible with PAN GlobalProtect SSL VPN"
+msgstr "Kompatibilno s PAN GlobalProtect SSL VPN-om"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+msgctxt "Description"
+msgid "Compatible with Juniper Network Connect"
+msgstr "Kompatibilno s Juniper Network Connectom"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+msgctxt "Description"
+msgid "Compatible with Pulse Connect Secure SSL VPN"
+msgstr "Kompatibilno s Pulse Connect Secure SSL VPN-om"
+
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+msgctxt "Description"
+msgid "Compatible with the OpenVPN server"
+msgstr "Kompatibilno s OpenVPN poslužiteljem"
+
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+msgctxt "Description"
+msgid "Compatible with Microsoft and other PPTP VPN servers"
+msgstr "Kompatibilno s Microsoftovim i drugim PPTP VPN poslužiteljima"
+
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+msgctxt "Description"
+msgid "Compatible with the SSH server"
+msgstr "Kompatibilno s SSH poslužiteljem"
+
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Description"
+msgid "Compatible with Microsoft and other SSTP VPN servers"
+msgstr "Kompatibilno s Microsoftovim i drugim SSTP VPN poslužiteljima"
+
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Description"
+msgid ""
+"Compatible with various Cisco, Juniper, Netscreen and Sonicwall IPsec-based "
+"VPN gateways"
+msgstr ""
+"Kompatibilno s raznim Cisco, Juniper, Netscreen i Sonicwall VPN mrežnim "
+"prolazima temeljenim na IPsec-u"
+
+#: applet/metadata.json
+msgctxt "Authors Name"
+msgid "Jan Grulich,Lukáš Tinkl"
+msgstr "Jan Grulich, Lukáš Tinkl"
+
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Authors Name"
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: vpn/fortisslvpn/plasmanetworkmanagement_fortisslvpnui.json
+#: vpn/iodine/plasmanetworkmanagement_iodineui.json
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.json
+#: vpn/libreswan/plasmanetworkmanagement_libreswanui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_globalprotectui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_juniperui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_pulseui.json
+#: vpn/ssh/plasmanetworkmanagement_sshui.json
+#: vpn/sstp/plasmanetworkmanagement_sstpui.json
+msgctxt "Authors Name"
+msgid "Jan Grulich"
+msgstr "Jan Grulich"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_anyconnect.json
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.json
+#: vpn/pptp/plasmanetworkmanagement_pptpui.json
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.json
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.json
+msgctxt "Authors Name"
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_arrayui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_f5ui.json
+#: vpn/openconnect/plasmanetworkmanagement_openconnect_fortinetui.json
+msgctxt "Authors Name"
+msgid "KDE plasma"
+msgstr "KDE Plasma"

@@ -1,0 +1,1463 @@
+# Translation of spectacle into Croatian.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the spectacle package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-24 00:52+0000\n"
+"PO-Revision-Date: 2026-10-24 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screenshots"
+msgstr "Snimke zaslona"
+
+#, kde-format
+msgctxt "part of default image filename template"
+msgid "Screenshot"
+msgstr "Snimka zaslona"
+
+#, kde-format
+msgctxt "translatable folder name"
+msgid "Screencasts"
+msgstr "Snimke zaslona (video)"
+
+#, kde-format
+msgctxt "part of default video filename template"
+msgid "Screencast"
+msgstr "Video snimka zaslona"
+
+#: src/CaptureModeModel.cpp:162
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Pravokutno područje"
+
+#: src/CaptureModeModel.cpp:164
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Svi zasloni (skalirani na istu veličinu)"
+
+#: src/CaptureModeModel.cpp:166
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Trenutačni zaslon"
+
+#: src/CaptureModeModel.cpp:168
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Aktivni prozor"
+
+#: src/CaptureModeModel.cpp:171
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Odaberi prozor"
+
+#: src/CaptureModeModel.cpp:171
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Prozor ispod pokazivača"
+
+#: src/CaptureModeModel.cpp:174
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Svi zasloni"
+
+#: src/CaptureModeModel.cpp:176
+#, kde-format
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Cijeli zaslon"
+
+#: src/CommandLineOptions.h:22
+#, kde-format
+msgid "Capture the entire desktop (default)"
+msgstr "Snimi cijelu radnu površinu (zadano)"
+
+#: src/CommandLineOptions.h:26
+#, kde-format
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size"
+msgstr ""
+"Kada se koristi uz -f/--fullscreen, snima sve zaslone skalirane na istu veličinu"
+
+#: src/CommandLineOptions.h:30
+#, kde-format
+msgid "Capture the current monitor"
+msgstr "Snimi trenutačni monitor"
+
+#: src/CommandLineOptions.h:34
+#, kde-format
+msgid "Capture the active window"
+msgstr "Snimi aktivni prozor"
+
+#: src/CommandLineOptions.h:37
+#, kde-format
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Snimi prozor koji je trenutno ispod pokazivača, uključujući roditeljske elemente "
+"skočnih izbornika"
+
+#: src/CommandLineOptions.h:40
+#, kde-format
+msgid "Capture a rectangular region of the screen"
+msgstr "Snimi pravokutno područje zaslona"
+
+#: src/CommandLineOptions.h:44
+#, kde-format
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Snimaj zaslon koristeći zadani način rada. Načini:\n"
+"- r, region (područje)\n"
+"- s, screen (zaslon)\n"
+"- w, window (prozor)"
+
+#: src/CommandLineOptions.h:52
+#, kde-format
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Pokreni Spectacle bez snimanja zaslona"
+
+#: src/CommandLineOptions.h:56
+#, kde-format
+msgid "Start in GUI mode (default)"
+msgstr "Pokreni u grafičkom sučelju (zadano)"
+
+#: src/CommandLineOptions.h:60
+#, kde-format
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Snimi zaslon i izađi bez prikazivanja grafičkog sučelja"
+
+#: src/CommandLineOptions.h:64
+#, kde-format
+msgid "Start in DBus-Activation mode"
+msgstr "Pokreni u načinu aktivacije putem DBus-a"
+
+#: src/CommandLineOptions.h:68
+#, kde-format
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr ""
+"U pozadinskom načinu rada nemoj prikazivati obavijest nakon snimanja zaslona"
+
+#: src/CommandLineOptions.h:72
+#, kde-format
+msgid "In background mode, save image to specified file"
+msgstr "U pozadinskom načinu rada spremi sliku u navedenu datoteku"
+
+#: src/CommandLineOptions.h:77
+#, kde-format
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr ""
+"U pozadinskom načinu rada odredi odgodu prije snimanja (u milisekundama)"
+
+#: src/CommandLineOptions.h:82
+#, kde-format
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"U pozadinskom načinu rada kopiraj sliku u međuspremnik, osim ako se koristi i -o."
+
+#: src/CommandLineOptions.h:86
+#, kde-format
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr ""
+"U pozadinskom načinu rada kopiraj putanju datoteke snimke zaslona u međuspremnik"
+
+#: src/CommandLineOptions.h:90
+#, kde-format
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "Pričekaj klik prije snimanja zaslona. Poništava odgodu"
+
+#: src/CommandLineOptions.h:94
+#, kde-format
+msgid "Starts a new GUI instance of spectacle without registering to DBus"
+msgstr "Pokreće novu instancu Spectaclea u sučelju bez registracije na DBus"
+
+#: src/CommandLineOptions.h:98
+#, kde-format
+msgid "In background mode, include pointer in the screenshot"
+msgstr "U pozadinskom načinu rada uključi pokazivač u snimku zaslona"
+
+#: src/CommandLineOptions.h:102
+#, kde-format
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "U pozadinskom načinu rada isključi dekoracije u snimci zaslona"
+
+#: src/CommandLineOptions.h:104
+#, kde-format
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "U pozadinskom načinu rada isključi sjene u snimci zaslona"
+
+#: src/CommandLineOptions.h:107
+#, kde-format
+msgid "Open and edit existing screenshot file"
+msgstr "Otvori i uredi postojeću datoteku snimke zaslona"
+
+#: src/CommandLineOptions.h:110
+#, kde-format
+msgid "Accept region selection on click-and-release"
+msgstr "Prihvati odabir područja pri kliku i puštanju tipke miša"
+
+#: src/ExportManager.cpp:466
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter ne može zapisati sliku: %1"
+
+#: src/ExportManager.cpp:482
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/><filename>"
+"%1</filename>"
+msgstr ""
+"Nije moguće spremiti snimku zaslona jer stvaranje mape nije uspjelo:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+#, kde-format
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Nije moguće spremiti snimku zaslona. Pogreška pri otvaranju datoteke."
+
+#: src/ExportManager.cpp:495
+#, kde-format
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Nije moguće spremiti snimku zaslona. Pogreška pri pisanju datoteke."
+
+#: src/ExportManager.cpp:515
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Nije moguće spremiti snimku zaslona jer stvaranje udaljene mape nije uspjelo:"
+"<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+#, kde-format
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Nije moguće spremiti snimku zaslona. Pogreška pri pisanju privremene lokalne "
+"datoteke."
+
+#: src/ExportManager.cpp:535
+#, kde-format
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "Nije moguće spremiti sliku. Datoteka se nije mogla učitati na udaljenu lokaciju."
+
+#: src/ExportManager.cpp:583
+#, kde-format
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Nije moguće spremiti snimku zaslona. Naziv datoteke za spremanje nije valjan."
+
+#: src/ExportManager.cpp:627
+#, kde-format
+msgid "Cannot save an empty screenshot image."
+msgstr "Nije moguće spremiti praznu sliku snimke zaslona."
+
+#: src/ExportManager.cpp:814
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Neuspješan izvoz videozapisa: URL privremene datoteke mora biti postojeća "
+"lokalna datoteka"
+
+#: src/ExportManager.cpp:821
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Neuspješan izvoz videozapisa: URL izlazne datoteke mora biti valjani URL s nazivom "
+"datoteke"
+
+#: src/ExportManager.cpp:910
+#, kde-format
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "Nije moguće spremiti snimku. Datoteka se nije mogla premjestiti na lokaciju: %1"
+
+#: src/ExportManager.cpp:938
+#, kde-format
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Ispisivanje nije uspjelo. Pokretanje pisača nije uspjelo."
+
+#: src/ExportManager.cpp:955
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Dan (1–31)"
+
+#: src/ExportManager.cpp:956
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Dan (01–31)"
+
+#: src/ExportManager.cpp:957
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Dan (kratki naziv)"
+
+#: src/ExportManager.cpp:958
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Dan (dugi naziv)"
+
+#: src/ExportManager.cpp:959
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Mjesec (1–12)"
+
+#: src/ExportManager.cpp:960
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Mjesec (01–12)"
+
+#: src/ExportManager.cpp:961
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Mjesec (kratki naziv)"
+
+#: src/ExportManager.cpp:962
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Mjesec (dugi naziv)"
+
+#: src/ExportManager.cpp:963
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Godina (2 znamenke)"
+
+#: src/ExportManager.cpp:964
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Godina (4 znamenke)"
+
+#: src/ExportManager.cpp:965
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Sat (0–23)"
+
+#: src/ExportManager.cpp:966
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Sat (00–23)"
+
+#: src/ExportManager.cpp:967
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Sat (1–12)"
+
+#: src/ExportManager.cpp:968
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Sat (01–12)"
+
+#: src/ExportManager.cpp:969
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minuta (0–59)"
+
+#: src/ExportManager.cpp:970
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minuta (00–59)"
+
+#: src/ExportManager.cpp:971
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Sekunda (0–59)"
+
+#: src/ExportManager.cpp:972
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Sekunda (00–59)"
+
+#: src/ExportManager.cpp:973
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Milisekunda (0–999)"
+
+#: src/ExportManager.cpp:975
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Milisekunda (000–999)"
+
+#: src/ExportManager.cpp:976
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:978
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:980
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM ili am/pm (prilagođeno jezičnoj lokaciji)"
+
+#: src/ExportManager.cpp:982
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Vremenska zona (kratki naziv)"
+
+#: src/ExportManager.cpp:983
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Pomak vremenske zone (±0000)"
+
+#: src/ExportManager.cpp:984
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Pomak vremenske zone (±00:00)"
+
+#: src/ExportManager.cpp:985
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Vremenska zona (dugi naziv)"
+
+#: src/ExportManager.cpp:986
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Sekunde od Unix epohe"
+
+#: src/ExportManager.cpp:987
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Naslov prozora"
+
+#: src/ExportManager.cpp:988
+#, kde-format
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Sekvencijalno numeriranje, dopunjeno umetanjem dodatnih znakova '#'"
+
+#: src/Gui/AcceptAction.qml:9
+#, kde-format
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Prihvati"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:56
+#, kde-format
+msgid "Stroke:"
+msgstr "Crta:"
+
+#. i18n uses so it doesn't matter that much
+#. unless someone decides to set the locale for a specific
+#. part of spectacle in the future.
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+#, kde-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1 px"
+msgstr[1] "%1 px"
+msgstr[2] "%1 px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:93
+#, kde-format
+msgid "Stroke Width"
+msgstr "Debljina crte"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:126
+#, kde-format
+msgid "Stroke Color"
+msgstr "Boja crte"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:162
+#, kde-format
+msgid "Fill:"
+msgstr "Ispuna:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:174
+#, kde-format
+msgid "Fill Color"
+msgstr "Boja ispune"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:213
+#, kde-format
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Jačina:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:232
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Jačina efekta."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:259
+#, kde-format
+msgid "Font:"
+msgstr "Font:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:273
+#, kde-format
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1 pt"
+msgstr[1] "%2 %3 %1 pt"
+msgstr[2] "%2 %3 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:274
+#, kde-format
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1 pt"
+msgstr[1] "%2 %1 pt"
+msgstr[2] "%2 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:286
+#, kde-format
+msgid "Font Color"
+msgstr "Boja fonta"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:325
+#, kde-format
+msgid "Number:"
+msgstr "Broj:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:344
+#, kde-format
+msgid "Number for number annotations"
+msgstr "Broj za numerirane oznake"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:372
+#, kde-format
+msgid "Shadow"
+msgstr "Sjena"
+
+#: src/Gui/AnnotationsToolBarContents.qml:108
+#, kde-format
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Nijedan"
+
+#: src/Gui/AnnotationsToolBarContents.qml:120
+#, kde-format
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Izreži"
+
+#: src/Gui/AnnotationsToolBarContents.qml:127
+#, kde-format
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Odaberi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:136
+#, kde-format
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Slobodnoručno"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: Poravnaj na ravne linije"
+
+#: src/Gui/AnnotationsToolBarContents.qml:144
+#, kde-format
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Označivač"
+
+#: src/Gui/AnnotationsToolBarContents.qml:153
+#, kde-format
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Linija"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: Poravnaj u koracima od 45 stupnjeva"
+
+#: src/Gui/AnnotationsToolBarContents.qml:161
+#, kde-format
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Strijela"
+
+#: src/Gui/AnnotationsToolBarContents.qml:170
+#, kde-format
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Pravokutnik"
+
+#: src/Gui/AnnotationsToolBarContents.qml:172
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: Poravnaj s dijagonalnim kretnjama\n"
+"Control: Promijeni veličinu iz središta"
+
+#: src/Gui/AnnotationsToolBarContents.qml:179
+#, kde-format
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipsa"
+
+#: src/Gui/AnnotationsToolBarContents.qml:187
+#, kde-format
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pikseliziraj"
+
+#: src/Gui/AnnotationsToolBarContents.qml:195
+#, kde-format
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Zasjeni"
+
+#: src/Gui/AnnotationsToolBarContents.qml:203
+#, kde-format
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Tekst"
+
+#: src/Gui/AnnotationsToolBarContents.qml:210
+#, kde-format
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Broj"
+
+#: src/Gui/CancelAction.qml:9
+#, kde-format
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: src/Gui/CaptureModeButtonsColumn.qml:31
+#: src/Gui/NewScreenshotToolButton.qml:15
+#, kde-format
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Odustani (%1 sekunda)"
+msgstr[1] "Odustani (%1 sekunde)"
+msgstr[2] "Odustani (%1 sekundi)"
+
+#: src/Gui/CaptureOptions.qml:17
+#, kde-format
+msgid "Take a new screenshot"
+msgstr "Snimi novu snimku zaslona"
+
+#: src/Gui/CaptureOptions.qml:39
+#, kde-format
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Postavke snimke zaslona"
+
+#: src/Gui/CaptureOverlay.qml:148
+#, kde-format
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Kliknite i povucite za odabir."
+
+#: src/Gui/CaptureSettingsColumn.qml:16
+#, kde-format
+msgid "Include mouse pointer"
+msgstr "Uključi pokazivač miša"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+#, kde-format
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Prikaži pokazivač miša na slici snimke zaslona."
+
+#: src/Gui/CaptureSettingsColumn.qml:25
+#, kde-format
+msgid "Include window titlebar and borders"
+msgstr "Uključi naslovnu traku i rubove prozora"
+
+#: src/Gui/CaptureSettingsColumn.qml:26
+#, kde-format
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "Prikaži naslovnu traku i rub prozora prilikom snimanja prozora."
+
+#: src/Gui/CaptureSettingsColumn.qml:34
+#, kde-format
+msgid "Include window shadow"
+msgstr "Uključi sjenu prozora"
+
+#: src/Gui/CaptureSettingsColumn.qml:35
+#, kde-format
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Prikaži sjenu prozora prilikom snimanja prozora."
+
+#: src/Gui/CaptureSettingsColumn.qml:44
+#, kde-format
+msgid "Quit after manual Save or Copy"
+msgstr "Zatvori nakon ručnog spremanja ili kopiranja"
+
+#: src/Gui/CaptureSettingsColumn.qml:45
+#, kde-format
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Zatvori Spectacle nakon ručnog spremanja ili kopiranja slike."
+
+#: src/Gui/CaptureSettingsColumn.qml:54
+#, kde-format
+msgid "Capture on click"
+msgstr "Snimi na klik"
+
+#: src/Gui/CaptureSettingsColumn.qml:56
+#, kde-format
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Pričekaj klik mišem prije snimanja slike zaslona."
+
+#: src/Gui/CaptureSettingsColumn.qml:66
+#, kde-format
+msgid "Delay:"
+msgstr "Odgoda:"
+
+#: src/Gui/CopyImageAction.qml:13
+#, kde-format
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: src/Gui/CopyLocationAction.qml:9
+#, kde-format
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Kopiraj lokaciju"
+
+#: src/Gui/DelaySpinBox.qml:15
+#, kde-format
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Bez odgode"
+
+#: src/Gui/DelaySpinBox.qml:24
+#, kde-format
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 sekunda"
+msgstr[1] "%2 sekunde"
+msgstr[2] "%2 sekundi"
+
+#: src/Gui/DelaySpinBox.qml:26
+#, kde-format
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 sekundi"
+
+#: src/Gui/DialogPage.qml:53
+#, kde-format
+msgid "Configure Spectacle…"
+msgstr "Konfiguriraj Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+#, kde-format
+msgid "Help"
+msgstr "Pomoć"
+
+#: src/Gui/DialogPage.qml:80
+#, kde-format
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Snimi snimku zaslona:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opcije"
+
+#: src/Gui/DialogPage.qml:121
+#, kde-format
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Napravi snimku:"
+
+#: src/Gui/DialogPage.qml:162
+#, kde-format
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Snimka zaslona"
+
+#: src/Gui/DialogPage.qml:168
+#, kde-format
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Snimanje"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "Ova značajka nije podržana na trenutnoj platformi"
+
+#: src/Gui/EditAction.qml:11
+#, kde-format
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Uredi…"
+
+#: src/Gui/ExportMenu.cpp:44
+#, kde-format
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Izvezi"
+
+#: src/Gui/ExportMenu.cpp:47
+#, kde-format
+msgid "Open Default Screenshots Folder"
+msgstr "Otvori zadanu mapu snimaka zaslona"
+
+#: src/Gui/ExportMenu.cpp:133
+#, kde-format
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Druga aplikacija…"
+
+#: src/Gui/ExportMenu.cpp:165
+#, kde-format
+msgid "Share"
+msgstr "Dijeli"
+
+#: src/Gui/ExportMenu.cpp:258
+#, kde-format
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr "Izdvoji tekst prema jeziku"
+
+#: src/Gui/ExportMenu.cpp:294
+#, kde-format
+msgid "OCR engine is not available."
+msgstr "OCR mehanizam nije dostupan."
+
+#: src/Gui/ExportMenu.cpp:302
+#, kde-format
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr "OCR nije dostupan. Molimo instalirajte Tesseract OCR."
+
+#: src/Gui/ExportMenu.cpp:303
+#, kde-format
+msgid "OCR engine is initializing…"
+msgstr "OCR mehanizam se pokreće…"
+
+#: src/Gui/ExportMenu.cpp:313
+#, kde-format
+msgid "No OCR language data available."
+msgstr "Nema dostupnih jezičnih podataka za OCR."
+
+#: src/Gui/ExportMenuButton.qml:13
+#, kde-format
+msgctxt "@action"
+msgid "Export"
+msgstr "Izvezi"
+
+#: src/Gui/HelpMenu.cpp:40
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomoć"
+
+#: src/Gui/HelpMenuButton.qml:10
+#, kde-format
+msgctxt "@action"
+msgid "Help"
+msgstr "Pomoć"
+
+#: src/Gui/InlineMessageList.qml:129
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Otvori pripadajuću mapu"
+
+#: src/Gui/InlineMessageList.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Kopiraj u međuspremnik"
+
+#: src/Gui/InlineMessageList.qml:149
+#, kde-format
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Zatvori"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+#, kde-format
+msgid "New Screenshot"
+msgstr "Nova snimka zaslona"
+
+#: src/Gui/OcrAction.qml:15
+#, kde-format
+msgctxt "@action"
+msgid "Extract Text"
+msgstr "Izdvoji tekst"
+
+#: src/Gui/OptionsMenu.cpp:38
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Postavke snimke zaslona"
+
+#: src/Gui/OptionsMenu.cpp:40
+#, kde-format
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Uključi pokazivač miša"
+
+#: src/Gui/OptionsMenu.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Prikaži kursor miša na slici snimke zaslona"
+
+#: src/Gui/OptionsMenu.cpp:49
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Uključi naslovnu traku i rubove prozora"
+
+#: src/Gui/OptionsMenu.cpp:50
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Prikaži naslovnu traku prozora, gumbe za minimiziranje/maksimiziranje/zatvaranje i "
+"rub prozora"
+
+#: src/Gui/OptionsMenu.cpp:58
+#, kde-format
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Uključi sjenu prozora"
+
+#: src/Gui/OptionsMenu.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Prikaži sjenu prozora"
+
+#: src/Gui/OptionsMenu.cpp:67
+#, kde-format
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Zatvori nakon ručnog spremanja ili kopiranja"
+
+#: src/Gui/OptionsMenu.cpp:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Zatvori Spectacle nakon ručnog spremanja ili kopiranja slike"
+
+#: src/Gui/OptionsMenu.cpp:80
+#, kde-format
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Snimi na klik"
+
+#: src/Gui/OptionsMenu.cpp:95
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Odgoda:"
+
+#: src/Gui/OptionsMenu.cpp:100
+#, kde-format
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Bez odgode"
+
+#: src/Gui/OptionsMenu.cpp:119
+#, kde-format
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Postavke snimanja"
+
+#: src/Gui/OptionsMenu.cpp:121
+#, kde-format
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Uključi pokazivač miša"
+
+#: src/Gui/OptionsMenu.cpp:122
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Prikaži kursor miša u snimci"
+
+#: src/Gui/OptionsMenu.cpp:130
+#, kde-format
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr "Snimi zvuk sustava"
+
+#: src/Gui/OptionsMenu.cpp:131
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr "Uključi zvuk koji se trenutno reproducira na sustavu u snimku"
+
+#: src/Gui/OptionsMenu.cpp:139
+#, kde-format
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Snimi mikrofon"
+
+#: src/Gui/OptionsMenu.cpp:140
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr "Uključi zvuk sa zadanog mikrofona u snimku"
+
+#: src/Gui/OptionsMenuButton.qml:10
+#, kde-format
+msgctxt "@action"
+msgid "Options"
+msgstr "Opcije"
+
+#: src/Gui/RecordAction.qml:11
+#, kde-format
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Snimi"
+
+#: src/Gui/RecordingModeMenu.cpp:16
+#, kde-format
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Načini snimanja"
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+#, kde-format
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Nova snimka"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Uključi pokazivač miša"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Prikaži kursor miša u snimci zaslona."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+#, kde-format
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr "Snimi zvuk sustava"
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr "Uključi zvuk koji se trenutno reproducira na sustavu u snimku."
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, kde-format
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Snimi mikrofon"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr "Uključi zvuk sa zadanog mikrofona u snimku."
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+#, kde-format
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr "Odabrani video format ne podržava zvuk."
+
+#: src/Gui/RecordingView.qml:90
+#, kde-format
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Snimanje:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+#, kde-format
+msgid "Pause"
+msgstr "Pauziraj"
+
+#: src/Gui/RecordingView.qml:129
+#, kde-format
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: src/Gui/RecordOptions.qml:23
+#, kde-format
+msgid "Recording Settings"
+msgstr "Postavke snimanja"
+
+#: src/Gui/RecordOptions.qml:37
+#, kde-format
+msgid "Finish recording"
+msgstr "Završi snimanje"
+
+#: src/Gui/SaveAction.qml:13
+#, kde-format
+msgctxt "@action"
+msgid "Save"
+msgstr "Spremi"
+
+#: src/Gui/SaveAsAction.qml:9
+#, kde-format
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Spremi kao…"
+
+#: src/Gui/ScreenshotModeMenu.cpp:16
+#, kde-format
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Načini snimanja zaslona"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+#, kde-format
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Nova snimka zaslona"
+
+#: src/Gui/ScreenshotView.qml:196
+#, kde-format
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Kliknite i povucite za odabir.\n"
+"Dvostruko kliknite na odabir za prihvaćanje i izrezivanje.\n"
+"Desni klik poništava odabir."
+
+#. i18n: ectx: property (text), widget (QLabel, launchActionSpectacleLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:17
+#, kde-format
+msgid "When launching Spectacle:"
+msgstr "Pri pokretanju Spectaclea:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_launchAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:25
+#, kde-format
+msgid "Take rectangular screenshot"
+msgstr "Snimi pravokutnu snimku zaslona"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_launchAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:30
+#, kde-format
+msgid "Take full screen screenshot"
+msgstr "Snimi snimku cijelog zaslona"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_launchAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:35
+#, kde-format
+msgid "Use last-used capture mode"
+msgstr "Koristi zadnji korišteni način snimanja"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_launchAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:40
+#, kde-format
+msgid "Do not take a screenshot automatically"
+msgstr "Nemoj automatski snimiti zaslon"
+
+#. i18n: ectx: property (text), widget (QLabel, afterScreenshotLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:64
+#, kde-format
+msgid "After taking a screenshot:"
+msgstr "Nakon snimanja zaslona:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSaveImage)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:71
+#, kde-format
+msgid "Save file to default folder"
+msgstr "Spremi datoteku u zadanu mapu"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_clipboardGroup)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:82
+#, kde-format
+msgid "Do not copy anything"
+msgstr "Nemoj ništa kopirati"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_clipboardGroup)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:87
+#, kde-format
+msgid "Copy image to clipboard"
+msgstr "Kopiraj sliku u međuspremnik"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_clipboardGroup)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:92
+#, kde-format
+msgid "Copy file location to clipboard"
+msgstr "Kopiraj lokaciju datoteke u međuspremnik"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, runningTitle)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:116
+#, kde-format
+msgid "While Spectacle is running"
+msgstr "Dok je Spectacle pokrenut"
+
+#. i18n: ectx: property (text), widget (QLabel, printKeyActionLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:123
+#, kde-format
+msgid "Press screenshot key to:"
+msgstr "Pritisnite tipku za snimku zaslona za:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_printKeyRunningAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:131
+#, kde-format
+msgid "Take a new Screenshot"
+msgstr "Snimi novu snimku zaslona"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_printKeyRunningAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:136
+#, kde-format
+msgid "Open a new Spectacle window"
+msgstr "Otvori novi prozor Spectaclea"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_printKeyRunningAction)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:141
+#, kde-format
+msgid "Return focus to Spectacle"
+msgstr "Vrati fokus na Spectacle"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, regionTitle)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:165
+#, kde-format
+msgid "Rectangular Region Selection"
+msgstr "Odabir pravokutnog područja"
+
+#. i18n: ectx: property (text), widget (QLabel, generalLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:172
+#, kde-format
+msgid "General:"
+msgstr "Općenito:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useLightMaskColor)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:179
+#, kde-format
+msgid "Use light background"
+msgstr "Koristi svijetlu pozadinu"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useReleaseToCapture)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:186
+#, kde-format
+msgid "Accept on click-and-release"
+msgstr "Prihvati pri kliku i puštanju tipke miša"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:193
+#, kde-format
+msgid "Show magnifier:"
+msgstr "Prikaži povećalo:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_showMagnifier)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberSelectionRect)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:201
+#: src/Gui/SettingsDialog/GeneralOptions.ui:227
+#, kde-format
+msgid "Never"
+msgstr "Nikada"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_showMagnifier)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberSelectionRect)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:206
+#: src/Gui/SettingsDialog/GeneralOptions.ui:232
+#, kde-format
+msgid "Always"
+msgstr "Uvijek"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_showMagnifier)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:211
+#, kde-format
+msgid "While holding Shift"
+msgstr "Dok se drži tipka Shift"
+
+#. i18n: ectx: property (text), widget (QLabel, rememberLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:219
+#, kde-format
+msgid "Remember selected area:"
+msgstr "Zapamti odabrano područje:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberSelectionRect)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:237
+#, kde-format
+msgid "Until Spectacle is closed"
+msgstr "Dok se Spectacle ne zatvori"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ocrTitle)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:261
+#, kde-format
+msgid "Text Recognition (OCR)"
+msgstr "Prepoznavanje teksta (OCR)"
+
+#. i18n: ectx: property (text), widget (QLabel, ocrLanguageLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:268
+#, kde-format
+msgid "Languages for OCR:"
+msgstr "Jezici za OCR:"
+
+#. i18n: ectx: property (text), widget (QLabel, closeAfterOcrLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:306
+#, kde-format
+msgid "Text extraction:"
+msgstr "Izdvajanje teksta:"
+
+#. i18n: ectx: label, entry (closeAfterOcr), group (General)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_closeAfterOcr)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:327
+#: src/Gui/SettingsDialog/spectacle.kcfg:38
+#, kde-format
+msgid "Close after extraction (skips auto-save)"
+msgstr "Zatvori nakon izdvajanja (preskače automatsko spremanje)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, closeAfterOcrInfo)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:334
+#, kde-format
+msgid ""
+"Spectacle will close after text extraction and automatic saving will be "
+"skipped."
+msgstr ""
+"Spectacle će se zatvoriti nakon izdvajanja teksta, a automatsko spremanje bit "
+"će preskočeno."
+
+#. i18n: ectx: property (text), widget (QLabel, ocrUnavailableLabel)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:395
+#, kde-format
+msgid "OCR functionality is not available"
+msgstr "OCR funkcionalnost nije dostupna"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, ocrInfoIcon)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:413
+#, kde-format
+msgid ""
+"Please install the required packages:\n"
+"• tesseract\n"
+"• tesseract language data (e.g., tesseract-ocr-eng for English)"
+msgstr ""
+"Molimo instalirajte potrebne pakete:\n"
+"• tesseract\n"
+"• jezične podatke za tesseract (npr. tesseract-ocr-eng za engleski)"
+
+#. i18n: ectx: property (text), widget (QLabel, saveLocationLabel)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:9
+#, kde-format
+msgid "Save Location:"
+msgstr "Lokacija spremanja:"
+
+#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:26
+#, kde-format
+msgid "Compression Quality:"
+msgstr "Kvaliteta sažimanja:"
+
+#. i18n: ectx: property (text), widget (QLabel, imageCompressionQualityHelpLable)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:53
+#, kde-format
+msgid "For lossy image formats like JPEG"
+msgstr "Za formate slika s gubicima poput JPEG-a"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, qualitySpinner)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:62
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, filenameLabel)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:74
+#: src/Gui/SettingsDialog/VideoSaveOptions.ui:26
+#, kde-format
+msgid "Filename:"
+msgstr "Naziv datoteke:"
+
+#. i18n: ectx: property (text), widget (QLabel, PreviewLabel)
+#. i18n: ectx: property (text), widget (QLabel, previewLabel)
+#: src/Gui/SettingsDialog/ImageSaveOptions.ui:103
+#: src/Gui/SettingsDialog/VideoSaveOptions.ui:47
+#, kde-format
+msgctxt "Preview of the user configured filename"
+msgid "Preview:"
+msgstr "Pretpregled:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
