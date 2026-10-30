@@ -25,7 +25,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid "<para>There are various options for authenticating on SMB shares.</para><para><placeholder>username</placeholder>: When authenticating within a home network the username on the server is sufficient</para><para><placeholder>username@domain.com</placeholder>: Modern corporate logon names are formed like e-mail addresses</para><para><placeholder>DOMAIN\\username</placeholder>: For ancient corporate networks or workgroups you may need to prefix the NetBIOS domain name (pre-Windows 2000)</para><para><placeholder>anonymous</placeholder>: Anonymous logins can be attempted using empty username and password. Depending on server configuration non-empty usernames may be required</para>"
-msgstr ""
+msgstr "<para>Postoji nekoliko načina provjere autentičnosti pri povezivanju s SMB dijeljenim resursima.</para><para><placeholder>username</placeholder>: Pri povezivanju unutar kućne mreže dovoljno je korisničko ime na poslužitelju</para><para><placeholder>username@domain.com</placeholder>: Moderna korisnička imena za prijavu u poslovnim mrežama oblikovana su poput adresa e-pošte</para><para><placeholder>DOMAIN\\username</placeholder>: U starijim poslovnim mrežama ili radnim grupama možda ćete morati dodati naziv NetBIOS domene ispred korisničkog imena (prije sustava Windows 2000)</para><para><placeholder>anonymous</placeholder>: Možete pokušati s anonimnom prijavom koristeći prazno korisničko ime i lozinku. Ovisno o konfiguraciji poslužitelja, možda će biti potrebno unijeti korisničko ime</para>"
 
 #: kio_smb_auth.cpp:51
 #, kde-format
@@ -47,7 +47,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item the top of the shares that can be browsed"
 msgid "Shared Folders (SMB)"
-msgstr ""
+msgstr "Djeljene datoteke (SMB)"
 
 #: kio_smb_browse.cpp:76
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "Dano ime ne može biti razriješeno u jedinstveni poslužitelj. Pobrinit
 #, kde-format
 msgctxt "@info:status smb failed to reach the server (e.g. server offline or network failure). %1 is an ip address or hostname"
 msgid "%1: Host unreachable"
-msgstr ""
+msgstr "%1: Host nije dostupan"
 
 #: kio_smb_browse.cpp:350
 #, kde-format
@@ -117,7 +117,7 @@ msgstr "Nepoznato stanje greške u stat-u: %1"
 #: kio_smb_browse.cpp:379
 #, kde-kuit-format
 msgid "Error occurred while trying to access %1<nl/>%2"
-msgstr ""
+msgstr "Došlo je do pogreške prilikom pokušaja pristupa lokaciji %1<nl/>%2"
 
 #: kio_smb_file.cpp:35
 #, kde-format
@@ -155,7 +155,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "host entry when no pretty name is available. %1 likely is an IP address"
 msgid "Unknown Device @ <resource>%1</resource>"
-msgstr ""
+msgstr "Nepoznati uređaj @ <resource>%1</resource>"
 
 #~ msgid "libsmbclient failed to initialize context"
 #~ msgstr "Biblioteka libsmbclient nije uspješno inicijalizirana."

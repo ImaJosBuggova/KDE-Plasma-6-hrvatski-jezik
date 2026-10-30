@@ -94,3 +94,6 @@ Svaka pomoć u obliku provjere AI prijevoda, ispravljanja tipfelera ili prevođe
 ## 👤 Autor i održavatelj
 
 * **Roko Tomović** – *Inicijator projekta, provjera i korektura AI prijevoda*
+
+## Za gledat statove
+find . -name "*.po" -exec sh -c 'echo -n "$1: "; msgfmt --statistics -o /dev/null "$1"' _ {} \; 2>&1
