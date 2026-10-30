@@ -8,7 +8,7 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 
 ## 📌 Status prijevoda
 
-| Komponenta / Modul | Status | Napomena / Prevoditelj |
+| Komponenta / Modul | Status | Napomena |
 | :--- | :---: | :--- |
 | **plasma-workspace** | ✅ | Pregledao Roko Tomović |
 | **systemsettings** | ✅ | Pregledao Roko Tomović |
@@ -31,16 +31,16 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **kwindowsystem** | ✅ | Pregledao Roko Tomović |
 | **oxygen-sounds** | ✅ | Pregledao Roko Tomović |
 | **plasma-integration** | ⚠️ | Čeka provjeru |
-| **plasma-nm** | ❌ | Nije prevedeno |
+| **plasma-nm** | ⚠️ | Čeka provjeru |
 | **plasma-pa** | ⚠️ | Čeka provjeru |
 | **plasma-settings** | ✅ | Pregledao Roko Tomović |
 | **plasma-systemmonitor** | ⚠️ | Čeka provjeru |
 | **sddm-kcm** | ⚠️ | Čeka provjeru |
-| **kdeplasma-addons** | ❌ | Nije prevedeno |
-| **libplasma** | ❌ | Nije prevedeno |
-| **plasma-browser-integration** | ❌ | Nije prevedeno |
-| **plasma-login-manager** | ❌ | Nije prevedeno |
-| **kio-admin** | ❌ | Nije prevedeno |
+| **kdeplasma-addons** | ⚠️ | Čeka provjeru |
+| **libplasma** | ⚠️ | Čeka provjeru |
+| **plasma-browser-integration** | ⚠️ | Čeka provjeru |
+| **plasma-login-manager** | ⚠️ | Čeka provjeru |
+| **kio-admin** | ⚠️ | Čeka provjeru |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

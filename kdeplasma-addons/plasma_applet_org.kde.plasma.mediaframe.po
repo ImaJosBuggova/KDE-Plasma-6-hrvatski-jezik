@@ -1,0 +1,219 @@
+# Translation of kdeplasma-addons in Croatian
+# Copyright (C) 2026
+# This file is distributed under the same license as the kdeplasma-addons package.
+# Roko <roko@maesdbk.hr>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeplasma-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-25 00:47+0000\n"
+"PO-Revision-Date: 2026-10-30 12:20+0100\n"
+"Last-Translator: Roko <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: qml/config.qml:13
+#, kde-format
+msgctxt "@title"
+msgid "Media"
+msgstr "Mediji"
+
+#: qml/config.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: qml/ConfigBehavior.qml:48
+#, kde-format
+msgid "Change picture every:"
+msgstr "Promijeni sliku svakih:"
+
+#: qml/ConfigBehavior.qml:65
+#, kde-format
+msgid "Hours"
+msgstr "Sati"
+
+#: qml/ConfigBehavior.qml:79
+#, kde-format
+msgid "Minutes"
+msgstr "Minute"
+
+#: qml/ConfigBehavior.qml:93
+#, kde-format
+msgid "Seconds"
+msgstr "Sekunde"
+
+#: qml/ConfigBehavior.qml:103
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Image fill mode:"
+msgstr "Način popunjavanja slikom:"
+
+#: qml/ConfigBehavior.qml:110
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Stretch"
+msgstr "Rastegni"
+
+#: qml/ConfigBehavior.qml:111
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled to fit the frame"
+msgstr "Slika se skalira kako bi stala u okvir"
+
+#: qml/ConfigBehavior.qml:115
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Preserve aspect fit"
+msgstr "Zadrži omjer (fit)"
+
+#: qml/ConfigBehavior.qml:116
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled uniformly to fit without cropping"
+msgstr "Slika se ravnomjerno skalira kako bi stala bez obrezivanja"
+
+#: qml/ConfigBehavior.qml:120
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Preserve aspect crop"
+msgstr "Zadrži omjer (crop)"
+
+#: qml/ConfigBehavior.qml:121
+#, kde-format
+msgctxt "@info"
+msgid "The image is scaled uniformly to fill, cropping if necessary"
+msgstr "Slika se ravnomjerno skalira kako bi ispunila prostor, uz obrezivanje ako je potrebno"
+
+#: qml/ConfigBehavior.qml:125
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile"
+msgstr "Popločaj"
+
+#: qml/ConfigBehavior.qml:126
+#, kde-format
+msgctxt "@info"
+msgid "The image is duplicated horizontally and vertically"
+msgstr "Slika se duplicira vodoravno i okomito"
+
+#: qml/ConfigBehavior.qml:130
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile vertically"
+msgstr "Popločaj okomito"
+
+#: qml/ConfigBehavior.qml:131
+#, kde-format
+msgctxt "@info"
+msgid "The image is stretched horizontally and tiled vertically"
+msgstr "Slika se rasteže vodoravno i popločava okomito"
+
+#: qml/ConfigBehavior.qml:135
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Tile horizontally"
+msgstr "Popločaj vodoravno"
+
+#: qml/ConfigBehavior.qml:136
+#, kde-format
+msgctxt "@info"
+msgid "The image is stretched vertically and tiled horizontally"
+msgstr "Slika se rasteže okomito i popločava vodoravno"
+
+#: qml/ConfigBehavior.qml:140
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Pad"
+msgstr "Ispuna (Pad)"
+
+#: qml/ConfigBehavior.qml:141
+#, kde-format
+msgctxt "@info"
+msgid "The image is not transformed"
+msgstr "Slika se ne transformira"
+
+#: qml/ConfigBehavior.qml:186
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "General:"
+msgstr "Općenito:"
+
+#: qml/ConfigBehavior.qml:187
+#, kde-format
+msgctxt "@option:check"
+msgid "Randomize order"
+msgstr "Nasumični redoslijed"
+
+#: qml/ConfigBehavior.qml:192
+#, kde-format
+msgctxt "@option:check"
+msgid "Pause slideshow when cursor is over image"
+msgstr "Pauziraj prezentaciju kada je pokazivač iznad slike"
+
+#: qml/ConfigBehavior.qml:197
+#, kde-format
+msgctxt "@option:check"
+msgid "Click on image to open in external application"
+msgstr "Kliknite na sliku za otvaranje u vanjskoj aplikaciji"
+
+#: qml/ConfigMedia.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Folder…"
+msgstr "Dodaj mapu…"
+
+#: qml/ConfigMedia.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Files…"
+msgstr "Dodaj datoteke…"
+
+#: qml/ConfigMedia.qml:90
+#, kde-format
+msgctxt "@action:button tooltip on icon-only button"
+msgid "Remove path"
+msgstr "Ukloni putanju"
+
+#: qml/ConfigMedia.qml:100
+#, kde-format
+msgctxt "@info placeholdermessage if no paths set"
+msgid "No media configured"
+msgstr "Nema konfiguriranih medija"
+
+#: qml/ConfigMedia.qml:101
+#, kde-format
+msgctxt "@info placeholdermessage explanation"
+msgid "Add files or folders to display them in the widget."
+msgstr "Dodajte datoteke ili mape kako bi se prikazale u widgetu."
+
+#: qml/ConfigMedia.qml:107
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Files"
+msgstr "Odaberi datoteke"
+
+#: qml/ConfigMedia.qml:127
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Folder"
+msgstr "Odaberi mapu"
+
+#: qml/main.qml:366
+#, kde-format
+msgctxt "@info placeholdermessage if no media loaded"
+msgid "No media selected"
+msgstr "Nema odabranih medija"
+
+#: qml/main.qml:370 qml/main.qml:380
+#, kde-format
+msgctxt "@action:button opens settings dialog"
+msgid "Choose media…"
+msgstr "Odaberi medij…"

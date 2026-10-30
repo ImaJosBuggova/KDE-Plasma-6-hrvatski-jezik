@@ -1,0 +1,137 @@
+# Translation of kdeplasma-addons in Croatian
+# Copyright (C) 2026
+# This file is distributed under the same license as the kdeplasma-addons package.
+# Roko <roko@maesdbk.hr>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeplasma-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-02 00:43+0000\n"
+"PO-Revision-Date: 2026-10-30 12:40+0100\n"
+"Last-Translator: Roko <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: qml/config.qml:11
+#, kde-format
+msgctxt "@title"
+msgid "General"
+msgstr "Općenito"
+
+#: qml/configGeneral.qml:27
+#, kde-format
+msgctxt "@title:label"
+msgid "Username style:"
+msgstr "Stil korisničkog imena:"
+
+#: qml/configGeneral.qml:30
+#, kde-format
+msgctxt "@option:radio"
+msgid "Full name (if available)"
+msgstr "Puno ime (ako je dostupno)"
+
+#: qml/configGeneral.qml:37
+#, kde-format
+msgctxt "@option:radio"
+msgid "Login username"
+msgstr "Korisničko ime za prijavu"
+
+#: qml/configGeneral.qml:55
+#, kde-format
+msgctxt "@title:label"
+msgid "Show:"
+msgstr "Prikaži:"
+
+#: qml/configGeneral.qml:58
+#, kde-format
+msgctxt "@option:radio"
+msgid "Name"
+msgstr "Ime"
+
+#: qml/configGeneral.qml:72
+#, kde-format
+msgctxt "@option:radio"
+msgid "User picture"
+msgstr "Korisnička slika"
+
+#: qml/configGeneral.qml:86
+#, kde-format
+msgctxt "@option:radio"
+msgid "Name and user picture"
+msgstr "Ime i korisnička slika"
+
+#: qml/configGeneral.qml:105
+#, kde-format
+msgctxt "@title:label"
+msgid "Advanced:"
+msgstr "Napredno:"
+
+#: qml/configGeneral.qml:107
+#, kde-format
+msgctxt "@option:check"
+msgid "Show technical session information"
+msgstr "Prikaži tehničke informacije o sesiji"
+
+#: qml/main.qml:46
+#, kde-format
+msgid "You are logged in as <b>%1</b>"
+msgstr "Prijavljeni ste kao <b>%1</b>"
+
+#: qml/main.qml:147
+#, kde-format
+msgid "Current user"
+msgstr "Trenutni korisnik"
+
+#: qml/main.qml:178
+#, kde-format
+msgctxt "Nobody logged in on that session"
+msgid "Unused"
+msgstr "Nekorišteno"
+
+#: qml/main.qml:198
+#, kde-format
+msgctxt "User logged in on console number"
+msgid "TTY %1"
+msgstr "TTY %1"
+
+#: qml/main.qml:200
+#, kde-format
+msgctxt "User logged in on console (X display number)"
+msgid "on %1 (%2)"
+msgstr "na %1 (%2)"
+
+#: qml/main.qml:208
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch to User %1"
+msgstr "Prebaci se na korisnika %1"
+
+#: qml/main.qml:220
+#, kde-format
+msgctxt "@action"
+msgid "New Session"
+msgstr "Nova sesija"
+
+#: qml/main.qml:235
+#, kde-format
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr "Zaključaj zaslon"
+
+#: qml/main.qml:247
+#, kde-format
+msgctxt "Show a dialog with options to logout/shutdown/restart"
+msgid "Show Logout Screen"
+msgstr "Prikaži zaslon za odjavu"
+
+#: qml/UserListDelegate.qml:28
+#, kde-format
+msgctxt "@action:button @info:tooltip accessible"
+msgid "Open user configuration"
+msgstr "Otvori korisničku konfiguraciju"

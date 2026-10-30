@@ -1,0 +1,138 @@
+# Translation of kdeplasma-addons in Croatian
+# Copyright (C) 2026
+# This file is distributed under the same license as the kdeplasma-addons package.
+# Roko <roko@maesdbk.hr>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeplasma-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-30 00:42+0000\n"
+"PO-Revision-Date: 2026-10-30 11:50+0100\n"
+"Last-Translator: Roko <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: kcm/cubeeffectkcm.cpp:36
+#, kde-format
+msgid "KWin"
+msgstr "KWin"
+
+#: kcm/cubeeffectkcm.cpp:42 package/contents/ui/main.qml:40
+#, kde-format
+msgid "Toggle Cube"
+msgstr "Uključi/isključi kocku"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcm/cubeeffectkcm.ui:23
+#, kde-format
+msgid "Cube face displacement:"
+msgstr "Pomak stranica kocke:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_less)
+#: kcm/cubeeffectkcm.ui:48
+#, kde-format
+msgid "Less"
+msgstr "Manje"
+
+#. i18n: ectx: property (text), widget (QLabel, label_more)
+#: kcm/cubeeffectkcm.ui:61
+#, kde-format
+msgid "More"
+msgstr "Više"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kcm/cubeeffectkcm.ui:73
+#, kde-format
+msgid "Distance:"
+msgstr "Udaljenost:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_closer)
+#: kcm/cubeeffectkcm.ui:101
+#, kde-format
+msgid "Closer"
+msgstr "Bliže"
+
+#. i18n: ectx: property (text), widget (QLabel, label_farther)
+#: kcm/cubeeffectkcm.ui:114
+#, kde-format
+msgid "Farther"
+msgstr "Dalje"
+
+#. i18n: ectx: property (text), widget (QLabel, label_Mouse)
+#: kcm/cubeeffectkcm.ui:126
+#, kde-format
+msgid "Mouse:"
+msgstr "Miš:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MouseInvertedX)
+#: kcm/cubeeffectkcm.ui:133
+#, kde-format
+msgid "Invert X"
+msgstr "Obrni X"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MouseInvertedY)
+#: kcm/cubeeffectkcm.ui:140
+#, kde-format
+msgid "Invert Y"
+msgstr "Obrni Y"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcm/cubeeffectkcm.ui:147
+#, kde-format
+msgid "Background:"
+msgstr "Pozadina:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button_Color)
+#: kcm/cubeeffectkcm.ui:164
+#, kde-format
+msgid "Plain color:"
+msgstr "Jednobojno:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button_SkyBox)
+#: kcm/cubeeffectkcm.ui:198
+#, kde-format
+msgid "Skybox:"
+msgstr "Skybox (nebeska kutija):"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_SkyBox)
+#: kcm/cubeeffectkcm.ui:208
+#, kde-format
+msgid "Type path or URL..."
+msgstr "Unesite putanju ili URL..."
+
+#. i18n: ectx: property (text), widget (QPushButton, button_SelectSkyBox)
+#: kcm/cubeeffectkcm.ui:218
+#, kde-format
+msgid "Select..."
+msgstr "Odaberi..."
+
+#: package/contents/ui/PlaceholderView.qml:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid ""
+"At least 3 virtual desktops are required to display the Cube, but only %1 is "
+"present"
+msgid_plural ""
+"At least 3 virtual desktops are required to display the Cube, but only %1 "
+"are present"
+msgstr[0] ""
+"Za prikaz Kocke potrebne su barem 3 virtualne radne površine, ali prisutna "
+"je samo %1"
+msgstr[1] ""
+"Za prikaz Kocke potrebne su barem 3 virtualne radne površine, ali prisutne "
+"su samo %1"
+msgstr[2] ""
+"Za prikaz Kocke potrebne su barem 3 virtualne radne površine, ali prisutno "
+"je samo %1"
+
+#: package/contents/ui/PlaceholderView.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Virtual Desktop"
+msgstr "Dodaj virtualnu radnu površinu"
