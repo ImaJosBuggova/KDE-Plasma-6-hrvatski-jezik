@@ -3064,8 +3064,10 @@ msgctxt ""
 "the number of minutes since usage"
 msgid "Last used one minute ago"
 msgid_plural "Last used %1 minutes ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Korišteno prije jedne minute"
+msgstr[1] "Korišteno prije %1 minute"
+msgstr[2] "Korišteno prije %1 minuta"
+
 #: editor/uiutils.cpp:643
 #, kde-format
 msgctxt ""
@@ -3073,8 +3075,9 @@ msgctxt ""
 "the number of hours since usage"
 msgid "Last used one hour ago"
 msgid_plural "Last used %1 hours ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Korišteno prije jednog sata"
+msgstr[1] "Korišteno prije %1 sata"
+msgstr[2] "Korišteno prije %1 sati"
 #: editor/uiutils.cpp:648
 #, kde-format
 msgctxt ""
@@ -3911,8 +3914,9 @@ msgstr "Automatski"
 #, kde-format
 msgid "%1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 bajt"
+msgstr[1] "%1 bajta"
+msgstr[2] "%1 bajtova"
 #: editorqml/qml/vpn/iodine/IodineAuth.qml:22
 #, kde-format
 msgid "Iodine VPN"
@@ -5748,26 +5752,33 @@ msgstr "Interna provjera korisnika je zaključana"
 #, kde-format
 msgid "Wrong PIN. %1 attempt remaining."
 msgid_plural "Wrong PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pogrešan PIN. Preostao je %1 pokušaj."
+msgstr[1] "Pogrešan PIN. Preostala su %1 pokušaja."
+msgstr[2] "Pogrešan PIN. Preostalo je %1 pokušaja."
+
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:180
 #, kde-format
 msgid "Too Short. %1 attempt remaining."
 msgid_plural "Too Short. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Prekratko. Preostao je %1 pokušaj."
+msgstr[1] "Prekratko. Preostala su %1 pokušaja."
+msgstr[2] "Prekratko. Preostalo je %1 pokušaja."
+
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:182
 #, kde-format
 msgid "Invalid Characters. %1 attempt remaining."
 msgid_plural "Invalid Characters. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nevažeći znakovi. Preostao je %1 pokušaj."
+msgstr[1] "Nevažeći znakovi. Preostala su %1 pokušaja."
+msgstr[2] "Nevažeći znakovi. Preostalo je %1 pokušaja."
+
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:184
 #, kde-format
 msgid "Same as current PIN. %1 attempt remaining."
 msgid_plural "Same as current PIN. %1 attempts remaining."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Isto kao i trenutni PIN. Preostao je %1 pokušaj."
+msgstr[1] "Isto kao i trenutni PIN. Preostala su %1 pokušaja."
+msgstr[2] "Isto kao i trenutni PIN. Preostalo je %1 pokušaja."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:197
 #, kde-format
 msgctxt "@action:button submit the entered PIN"
