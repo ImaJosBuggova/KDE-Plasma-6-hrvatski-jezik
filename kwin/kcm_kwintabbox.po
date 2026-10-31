@@ -1,191 +1,189 @@
-# Translation of kcm_kwintabbox to Croatian
+# kwin package translation for Croatian
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kwin package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-# Andrej Dundović <adundovi@gmail.com>, 2009.
-# Andrej Dundovic <adundovi@gmail.com>, 2009, 2010.
-# Marko Dimjašević <marko@dimjasevic.net>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-21 00:53+0000\n"
-"PO-Revision-Date: 2011-03-18 18:12+0100\n"
-"Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
-"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-10-31 05:19+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
 
 #: main.cpp:73
 #, kde-format
 msgid "Main"
-msgstr "Glavni"
+msgstr "Glavno"
 
 #: main.cpp:74
 #, kde-format
 msgid "Alternative"
-msgstr "Alternativni"
+msgstr "Alternativno"
 
 #: main.cpp:76
 #, kde-format
 msgid "Get New Task Switcher Styles…"
-msgstr ""
+msgstr "Dohvati nove stilove preklopnika zadataka…"
 
 #: main.cpp:94
 #, kde-format
-msgid "Focus policy settings limit the functionality of navigating through windows."
-msgstr "Postavke pravila fokusiranja ograničavaju funkcionalnost navigacije kroz prozore."
+msgid ""
+"Focus policy settings limit the functionality of navigating through windows."
+msgstr ""
+"Postavke pravila fokusa ograničavaju funkcionalnost navigacije kroz prozore."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: main.ui:32
 #, kde-format
 msgid "Content"
-msgstr ""
+msgstr "Sadržaj"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showDesktop)
 #: main.ui:41
-#, fuzzy, kde-format
+#, kde-format
 msgid "Include \"Peek at Desktop\" entry"
-msgstr "Uvrsti radnu površinu"
+msgstr "Uključi stavku „Proviri na radnu površinu”"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, switchingModeCombo)
 #: main.ui:55
 #, kde-format
 msgid "Recently used"
-msgstr "Nedavno korišteno"
+msgstr "Nediljno korišteno"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, switchingModeCombo)
 #: main.ui:60
 #, kde-format
 msgid "Stacking order"
-msgstr "Redoslijed u stogu"
+msgstr "Redoslijed slaganja"
 
 #. i18n: ectx: property (text), widget (QCheckBox, oneAppWindow)
 #: main.ui:68
 #, kde-format
 msgid "Only one window per application"
-msgstr ""
+msgstr "Samo jedan prozor po aplikaciji"
 
 #. i18n: ectx: property (text), widget (QCheckBox, orderMinimized)
 #: main.ui:78
 #, kde-format
 msgid "Order minimized windows after unminimized windows"
-msgstr ""
+msgstr "Poredaj minimizirane prozore nakon neminimiziranih prozora"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: main.ui:88
 #, kde-format
 msgid "Sort order:"
-msgstr "Redoslijed sortiranja:"
+msgstr "Poredak sortiranja:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: main.ui:114
-#, fuzzy, kde-format
+#, kde-format
 msgid "Filter windows by"
-msgstr "Izlistaj prozore:"
+msgstr "Filtriraj prozore prema"
 
 #. i18n: ectx: property (text), widget (QCheckBox, filterDesktops)
 #: main.ui:123
-#, fuzzy, kde-format
+#, kde-format
 msgid "Virtual desktops"
-msgstr "Sve radne površine"
+msgstr "Virtualnim radnim površinama"
 
 #. i18n: ectx: property (text), widget (QRadioButton, currentDesktop)
 #: main.ui:167
-#, fuzzy, kde-format
+#, kde-format
 msgid "Current desktop"
-msgstr "Trenutna radna površina"
+msgstr "Trenutnoj radnoj površini"
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherDesktops)
 #: main.ui:174
-#, fuzzy, kde-format
+#, kde-format
 msgid "All other desktops"
-msgstr "Sve radne površine"
+msgstr "Svim ostalim radnim površinama"
 
 #. i18n: ectx: property (text), widget (QCheckBox, filterActivities)
 #: main.ui:184
 #, kde-format
 msgid "Activities"
-msgstr ""
+msgstr "Aktivnostima"
 
 #. i18n: ectx: property (text), widget (QRadioButton, currentActivity)
 #: main.ui:228
 #, kde-format
 msgid "Current activity"
-msgstr ""
+msgstr "Trenutnoj aktivnosti"
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherActivities)
 #: main.ui:235
 #, kde-format
 msgid "All other activities"
-msgstr ""
+msgstr "Svim ostalim aktivnostima"
 
 #. i18n: ectx: property (text), widget (QCheckBox, filterScreens)
 #: main.ui:245
 #, kde-format
 msgid "Screens"
-msgstr ""
+msgstr "Zaslonima"
 
 #. i18n: ectx: property (text), widget (QRadioButton, currentScreen)
 #: main.ui:289
-#, fuzzy, kde-format
+#, kde-format
 msgid "Current screen"
-msgstr "Trenutna radna površina"
+msgstr "Trenutnom zaslonu"
 
 #. i18n: ectx: property (text), widget (QRadioButton, otherScreens)
 #: main.ui:296
 #, kde-format
 msgid "All other screens"
-msgstr ""
+msgstr "Svim ostalim zaslonima"
 
 #. i18n: ectx: property (text), widget (QCheckBox, filterMinimization)
 #: main.ui:306
 #, kde-format
 msgid "Minimization"
-msgstr ""
+msgstr "Minimizaciji"
 
 #. i18n: ectx: property (text), widget (QRadioButton, visibleWindows)
 #: main.ui:350
-#, fuzzy, kde-format
+#, kde-format
 msgid "Visible windows"
-msgstr "Izlistaj prozore:"
+msgstr "Vidljivim prozorima"
 
 #. i18n: ectx: property (text), widget (QRadioButton, hiddenWindows)
 #: main.ui:357
-#, fuzzy, kde-format
+#, kde-format
 msgid "Hidden windows"
-msgstr "Izlistaj prozore:"
+msgstr "Skrivenim prozorima"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: main.ui:396
 #, kde-format
 msgid "Shortcuts"
-msgstr ""
+msgstr "Prečaci"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: main.ui:405 main.ui:448
 #, kde-format
 msgid "Forward"
-msgstr ""
+msgstr "Naprijed"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: main.ui:428
-#, fuzzy, kde-format
+#, kde-format
 msgid "All windows"
-msgstr "Izlistaj prozore:"
+msgstr "Svi prozori"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: main.ui:438 main.ui:458
 #, kde-format
 msgid "Reverse"
-msgstr ""
+msgstr "Obrnuto"
 
 #. i18n: ectx: property (text), widget (QLabel, scCurrentReverseOr)
 #. i18n: ectx: property (text), widget (QLabel, scCurrentOr)
@@ -194,257 +192,132 @@ msgstr ""
 #: main.ui:474 main.ui:506 main.ui:554 main.ui:586
 #, kde-format
 msgid "or"
-msgstr ""
+msgstr "ili"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: main.ui:538
-#, fuzzy, kde-format
+#, kde-format
 msgid "Current application"
-msgstr "Trenutna radna površina grupirana aplikacijama"
+msgstr "Trenutna aplikacija"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: main.ui:615
-#, fuzzy, kde-format
+#, kde-format
 msgid "Visualization"
-msgstr "Navigacija"
+msgstr "Vizualizacija"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HighlightWindows)
 #: main.ui:624
 #, kde-format
-msgid "The currently selected window will be highlighted by fading out all other windows. This option requires desktop effects to be active."
-msgstr "Trenutno odabran prozor bit će istaknut tako što će svi drugi prozori biti prigušeni. Ova opcija zahtjeva aktivne efekte radne površine."
+msgid ""
+"The currently selected window will be highlighted by fading out all other "
+"windows. This option requires desktop effects to be active."
+msgstr ""
+"Trenutno odabrani prozor bit će istaknut izbjeljivanjem svih ostalih "
+"prozora. Ova opcija zahtijeva aktivne efekte radne površine."
 
 #. i18n: ectx: property (text), widget (QLabel, label_HighlightWindows)
 #: main.ui:634
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show selected window"
-msgstr "Prikaži obrub odabranih prozora"
+msgstr "Prikaži odabrani prozor"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowTabBox)
 #: main.ui:644
 #, kde-format
 msgid "Enable the window list effect"
-msgstr ""
+msgstr "Omogući efekt popisa prozora"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, effectCombo)
 #: main.ui:678
 #, kde-format
 msgid "The effect to replace the list window when desktop effects are active."
-msgstr "Efekt koji mijenja listu prozora kada su efekti radne površine aktivni."
+msgstr "Efekt koji zamjenjuje prozor popisa kada su efekti radne površine aktivni."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_DelayTime)
 #: main.ui:701
 #, kde-format
 msgid "The time in milliseconds to wait before showing the task switcher."
-msgstr ""
+msgstr "Vrijeme u milisekundama prije prikazivanja preklopnika zadataka."
 
 #. i18n: ectx: property (text), widget (QLabel, label_DelayTime)
 #: main.ui:704
 #, kde-format
 msgid "Delay:"
-msgstr ""
+msgstr "Odgoda:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_DelayTime)
 #: main.ui:720
 #, kde-format
 msgid " ms"
-msgstr ""
+msgstr " ms"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_DelayTime)
 #: main.ui:735
 #, kde-format
 msgid "Delay before the window list appears"
-msgstr ""
+msgstr "Odgoda prije prikazivanja popisa prozora"
 
 #. i18n: ectx: property (text), widget (QLabel, label_showScreen)
 #: main.ui:742
 #, kde-format
 msgid "Show on screen:"
-msgstr ""
+msgstr "Prikaži na zaslonu:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, showScreenCombo)
 #: main.ui:758
 #, kde-format
 msgid "Select which screen the task switcher should be displayed on."
-msgstr ""
+msgstr "Odaberite na kojem zaslonu treba biti prikazan preklopnik zadataka."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, showScreenCombo)
 #: main.ui:762
 #, kde-format
 msgid "Active screen"
-msgstr ""
+msgstr "Aktivnom zaslonu"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, showScreenCombo)
 #: main.ui:767
-#, fuzzy, kde-format
+#, kde-format
 msgid "Primary screen"
-msgstr "Trenutna radna površina"
+msgstr "Primarnom zaslonu"
 
 #: shortcutsettings.cpp:131
 #, kde-format
 msgid "Walk Through Windows"
-msgstr "Kreći se kroz prozore"
+msgstr "Kretanje kroz prozore"
 
 #: shortcutsettings.cpp:132
 #, kde-format
 msgid "Walk Through Windows (Reverse)"
-msgstr "Kreći se kroz prozore (obrnuto)"
+msgstr "Kretanje kroz prozore (obrnuto)"
 
 #: shortcutsettings.cpp:133
-#, fuzzy, kde-format
+#, kde-format
 msgid "Walk Through Windows of Current Application"
-msgstr "Kreći se alternativno kroz prozore"
+msgstr "Kretanje kroz prozore trenutne aplikacije"
 
 #: shortcutsettings.cpp:134
-#, fuzzy, kde-format
+#, kde-format
 msgid "Walk Through Windows of Current Application (Reverse)"
-msgstr "Kreći se alternativno kroz prozore (obrnuto)"
+msgstr "Kretanje kroz prozore trenutne aplikacije (obrnuto)"
 
 #: shortcutsettings.cpp:136
 #, kde-format
 msgid "Walk Through Windows Alternative"
-msgstr "Kreći se alternativno kroz prozore"
+msgstr "Alternativno kretanje kroz prozore"
 
 #: shortcutsettings.cpp:137
 #, kde-format
 msgid "Walk Through Windows Alternative (Reverse)"
-msgstr "Kreći se alternativno kroz prozore (obrnuto)"
+msgstr "Alternativno kretanje kroz prozore (obrnuto)"
 
 #: shortcutsettings.cpp:138
-#, fuzzy, kde-format
+#, kde-format
 msgid "Walk Through Windows of Current Application Alternative"
-msgstr "Kreći se alternativno kroz prozore"
+msgstr "Alternativno kretanje kroz prozore trenutne aplikacije"
 
 #: shortcutsettings.cpp:139
-#, fuzzy, kde-format
+#, kde-format
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
-msgstr "Kreći se alternativno kroz prozore (obrnuto)"
-
-#, fuzzy
-#~| msgid "Current Desktop"
-#~ msgid "Peek at Desktop"
-#~ msgstr "Trenutna radna površina"
-
-#, fuzzy
-#~| msgid "All Desktops"
-#~ msgctxt "An example Desktop Name"
-#~ msgid "Desktop 1"
-#~ msgstr "Sve radne površine"
-
-#, fuzzy
-#~| msgid "All Desktops"
-#~ msgid "Show Desktop"
-#~ msgstr "Sve radne površine"
-
-#~ msgid "Informative"
-#~ msgstr "Informativno"
-
-#~ msgid "Compact"
-#~ msgstr "Kompaktno"
-
-#~ msgid "Small Icons"
-#~ msgstr "Male ikone"
-
-#~ msgid "Large Icons"
-#~ msgstr "Velike ikone"
-
-#~ msgid "Text Only"
-#~ msgstr "Samo tekst"
-
-#~ msgid "These settings are used by the \"Walk Through Windows Alternative\" actions."
-#~ msgstr "Ove postavke su korištene prilikom radnje \"Kretanje kroz prozore alternativno\"."
-
-#~ msgid "No Effect"
-#~ msgstr "Bez efekta"
-
-#~ msgid "Configure Layout"
-#~ msgstr "Podesi raspored"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Andrej Dundović"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "adundovi@gmail.com"
-
-#~ msgid "Item Layout"
-#~ msgstr "Raspored stavki"
-
-#~ msgid "Layout:"
-#~ msgstr "Raspored:"
-
-#~ msgid "Vertical"
-#~ msgstr "Okomito"
-
-#~ msgid "Horizontal"
-#~ msgstr "Vodoravno"
-
-#~ msgid "Tabular"
-#~ msgstr "Tablično"
-
-#~ msgid "Item layout:"
-#~ msgstr "Raspored stavki:"
-
-#~ msgid "Minimum Size"
-#~ msgstr "Najmanja veličina"
-
-#~ msgid "Width:"
-#~ msgstr "Širina"
-
-#~ msgid "Minimum width, as a percentage of screen width."
-#~ msgstr "Najmanja širina u postotku širine ekrana."
-
-#~ msgid " %"
-#~ msgstr " %"
-
-#~ msgid "Height:"
-#~ msgstr "Visina:"
-
-#~ msgid "Minimum height, as a percentage of screen height."
-#~ msgstr "Najmanja visina u postotku visine ekrana."
-
-#~ msgid "Show Selected Item"
-#~ msgstr "Prikaži odabrane stavke"
-
-#~ msgid "Selected item view:"
-#~ msgstr "Odabran pogled na stavke:"
-
-#~ msgid "Top"
-#~ msgstr "Vrh"
-
-#~ msgid "Bottom"
-#~ msgstr "Dno"
-
-#~ msgid "Left"
-#~ msgstr "Lijevo"
-
-#~ msgid "Right"
-#~ msgstr "Desno"
-
-#~ msgid "Selected item layout:"
-#~ msgstr "Odabran raspored stavaka:"
-
-#~ msgid "These settings are used by the \"Walk Through Windows\" actions."
-#~ msgstr "Ove postavke su korištene prilikom radnje \"Kretanje kroz prozore\"."
-
-#~ msgid "All Desktops Grouped by Applications"
-#~ msgstr "Sve radne površine grupirane aplikacijama"
-
-#~ msgid "Adds an entry to minimize all windows."
-#~ msgstr "Dodaje unos za spuštanje svih prozora."
-
-#~ msgid "Highlight selected window"
-#~ msgstr "Osvijetli odabrane prozore"
-
-#~ msgid "Effect:"
-#~ msgstr "Efekt:"
-
-#~ msgid "Display list while switching"
-#~ msgstr "Prikaži listu prilikom prebacivanja"
-
-#~ msgid "Configure Layout..."
-#~ msgstr "Podesi raspored …"
-
-#~ msgid "General"
-#~ msgstr "Općenito"
+msgstr "Alternativno kretanje kroz prozore trenutne aplikacije (obrnuto)"

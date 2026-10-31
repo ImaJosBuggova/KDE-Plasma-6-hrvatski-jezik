@@ -1,13 +1,10 @@
-# Translation of kio_nfs to Croatian
-#
-# Andrej Dundović <adundovi@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_nfs\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-30 00:44+0000\n"
 "PO-Revision-Date: 2009-07-01 08:59+0200\n"
-"Last-Translator: Andrej Dundović <adundovi@gmail.com>\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -22,48 +19,39 @@ msgstr ""
 #: kio_nfs.cpp:152
 #, kde-format
 msgid "Cannot find an NFS version that host '%1' supports"
-msgstr ""
+msgstr "Nije moguće pronaći NFS verziju koju podržava domaćin „%1”"
 
 #: kio_nfs.cpp:345
 #, kde-format
 msgid "The NFS protocol requires a server host name."
-msgstr ""
+msgstr "NFS protokol zahtijeva naziv poslužitelja."
 
 #: kio_nfs.cpp:648
 #, kde-format
 msgid "Empty destination"
-msgstr ""
+msgstr "Prazno odredište"
 
 #: kio_nfs.cpp:740
 #, kde-format
 msgid "RPC error %1, %2"
-msgstr ""
+msgstr "RPC pogreška %1, %2"
 
 #: kio_nfs.cpp:776
 #, kde-format
 msgid "Filename too long"
-msgstr "Naziv datoteke je predug"
+msgstr "Naziv datoteke je predugačak"
 
 #: kio_nfs.cpp:781
 #, kde-format
 msgid "Disk quota exceeded"
-msgstr "Kvota diska je nadmašena"
+msgstr "Premašena je kvota diska"
 
 #: kio_nfs.cpp:785
 #, kde-format
 msgid "NFS error %1, %2"
-msgstr ""
+msgstr "NFS pogreška %1, %2"
 
 #: nfsv3.cpp:436 nfsv3.cpp:587
 #, kde-format
 msgid "Unknown target"
-msgstr ""
-
-#~ msgid "No space left on device"
-#~ msgstr "Na uređaju nema više slobodnog prostora"
-
-#~ msgid "Read only file system"
-#~ msgstr "Datotečni sustav koji je samo za čitanje"
-
-#~ msgid "An RPC error occurred."
-#~ msgstr "Došlo je do RPC pogreške."
+msgstr "Nepoznato odredište"
