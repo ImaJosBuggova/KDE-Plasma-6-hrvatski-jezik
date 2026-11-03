@@ -1,6 +1,6 @@
-# KDE Plasma 6 - Hrvatski prijevod (Lokalizacija)
+# KDE Plasma 6 - Hrvatski prijevod
 
-Ovaj repozitorij sadrži neslužbene prijevode i lokalizacijske datoteke za **KDE Plasma 6** radno okruženje na hrvatski jezik.
+Ovaj repozitorij sadrži neslužbene prijevode **KDE Plasma 6** radnog okruženja na hrvatski jezik.
 
 Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Plasma 6 okruženja.
 
@@ -42,6 +42,32 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **plasma-login-manager** | ⚠️ | Čeka provjeru |
 | **kio-admin** | ⚠️ | Čeka provjeru |
 | **powerdevil** | ✅ | Pregledao Roko Tomović |
+| **frameworkintegration** | ❌ | Nije prevedeno |
+| **kactivitymanagerd** | ❌ | Nije prevedeno |
+| **kcmutils** | ❌ | Nije prevedeno |
+| **kconfig** | ❌ | Nije prevedeno |
+| **kconfigwidgets** | ❌ | Nije prevedeno |
+| **kcoreaddons** | ❌ | Nije prevedeno |
+| **kcrash** | ❌ | Nije prevedeno |
+| **kdbusaddons** | ❌ | Nije prevedeno |
+| **kdeclerative** | ❌ | Nije prevedeno |
+| **kglobalaccel** | ❌ | Nije prevedeno |
+| **kguiaddons** | ❌ | Nije prevedeno |
+| **ki18n** | ❌ | Nije prevedeno |
+| **kiconthemes** | ❌ | Nije prevedeno |
+| **kjobwidgets** | ❌ | Nije prevedeno |
+| **knewstuff** | ❌ | Nije prevedeno |
+| **kpackage** | ❌ | Nije prevedeno |
+| **kparts** | ❌ | Nije prevedeno |
+| **kpeople** | ❌ | Nije prevedeno |
+| **krunner** | ❌ | Nije prevedeno |
+| **kservice** | ❌ | Nije prevedeno |
+| **kstatusnotifieritem** | ❌ | Nije prevedeno |
+| **ksvg** | ❌ | Nije prevedeno |
+| **ktextwidgets** | ❌ | Nije prevedeno |
+| **kwidgetsaddons** | ❌ | Nije prevedeno |
+| **kxmlgui** | ❌ | Nije prevedeno |
+| **libksysguard** | ❌ | Nije prevedeno |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru
@@ -49,26 +75,13 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 
 ## 🛠️ Kako instalirati i testirati prijevode
 
-Ako želite isprobati ove prijevode na svom Arch Linux (ili drugom) sustavu s KDE Plasma 6 okruženjem, slijedite ove korake:
-
-### 1. Klonirajte repozitorij
-```bash
-git clone https://github.com/VAŠ_USERNAME/KDE-Plasma-6-Hrvatski-jezik.git
-cd KDE-Plasma-6-Hrvatski-jezik
-```
-
-### 2. Kompajliranje i instalacija `.po` datoteka
-Prijevod se mora pretvoriti u `.mo` binarni format i postaviti u sistemski direktorij za hrvatski jezik (`hr`):
+Ako želite isprobati ove prijevode na svom sustavu s KDE Plasma 6 okruženjem, u svom omiljenom terminalu pokrenite komandu u datoteci gdje ste kopirali repozitorij:
 
 ```bash
-# Primjer za prevođenje i kopiranje systemsettings.po
-msgfmt systemsettings.po -o systemsettings.mo
-sudo cp systemsettings.mo /usr/share/locale/hr/LC_MESSAGES/
-
-# Primjer za desktop nazive u lijevoj traci
-msgfmt desktop_plasma-desktop.po -o desktop_plasma-desktop.mo
-sudo cp desktop_plasma-desktop.mo /usr/share/locale/hr/LC_MESSAGES/
+./install.sh
 ```
+
+> Nekad je potrebno osvježiti KDE predmemoriju
 
 ### 3. Osvježavanje KDE predmemorije (Cache)
 Da bi KDE Plasma prepoznala nove prijevode, potrebno je osvježiti sistemsku predmemoriju:
@@ -77,7 +90,7 @@ Da bi KDE Plasma prepoznala nove prijevode, potrebno je osvježiti sistemsku pre
 kbuildsycoca6 --noincremental
 ```
 
-Nakon ovoga ponovno pokrenite aplikaciju ili se odjavite i ponovno prijavite u sustav.
+Nakon ovoga ponovno pokrenite aplikaciju ili se odjavite i ponovno prijavite u sustav ili ponovo pokrenite cijeli linux sustav (moja omiljena metoda).
 
 ---
 
@@ -97,4 +110,5 @@ Svaka pomoć u obliku provjere AI prijevoda, ispravljanja tipfelera ili prevođe
 * **Roko Tomović** – *Inicijator projekta, provjera i korektura AI prijevoda*
 
 ## Za gledat statove
+
 find . -name "*.po" -exec sh -c 'echo -n "$1: "; msgfmt --statistics -o /dev/null "$1"' _ {} \; 2>&1
