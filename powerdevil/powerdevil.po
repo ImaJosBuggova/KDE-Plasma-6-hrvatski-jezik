@@ -1,0 +1,359 @@
+# Translation of powerdevil to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the powerdevil package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: powerdevil\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-15 00:48+0000\n"
+"PO-Revision-Date: 2026-11-02 10:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: actions/bundled/dpms.cpp:60 actions/bundled/handlebuttonevents.cpp:46
+#: actions/bundled/keyboardbrightnesscontrol.cpp:47
+#: actions/bundled/powerprofile.cpp:67 powerdevilscreenbrightnessagent.cpp:139
+#, kde-format
+msgctxt "Name for powerdevil shortcuts category"
+msgid "Power Management"
+msgstr "Upravljanje energijom"
+
+#: actions/bundled/dpms.cpp:63
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Turn Off Screen"
+msgstr "Isključi zaslon"
+
+#: actions/bundled/handlebuttonevents.cpp:51
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Suspend"
+msgstr "Obustavi"
+
+#: actions/bundled/handlebuttonevents.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Hibernate"
+msgstr "Hiberniraj"
+
+#: actions/bundled/handlebuttonevents.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Power Off"
+msgstr "Isključi napajanje"
+
+#: actions/bundled/handlebuttonevents.cpp:75
+#, kde-format
+msgctxt ""
+"@action:inmenu Global shortcut, used for long presses of the power button"
+msgid "Power Down"
+msgstr "Isključi sustav"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:51
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Keyboard Brightness"
+msgstr "Povećaj svjetlinu tipkovnice"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:56
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Keyboard Brightness"
+msgstr "Smanji svjetlinu tipkovnice"
+
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Toggle Keyboard Backlight"
+msgstr "Uključi/isključi pozadinsko osvjetljenje tipkovnice"
+
+#: actions/bundled/powerprofile.cpp:70
+#, kde-format
+msgid "Switch Power Profile"
+msgstr "Prebaci profil napajanja"
+
+#: controllers/backlightbrightness.cpp:190
+#: controllers/kwinbrightness.cpp:51
+#, kde-format
+msgctxt "Display label"
+msgid "Built-in Screen"
+msgstr "Ugrađeni zaslon"
+
+#: controllers/kwinbrightness.cpp:55
+#, kde-format
+msgctxt "Display label: vendor + product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilapp.cpp:102
+#, kde-format
+msgid "KDE Power Management System"
+msgstr "KDE sustav upravljanja energijom"
+
+#: powerdevilapp.cpp:104
+#, kde-format
+msgctxt "@title"
+msgid ""
+"PowerDevil, an advanced, modular and lightweight power management daemon"
+msgstr ""
+"PowerDevil, napredni, modularni i lagani demom za upravljanje energijom"
+
+#: powerdevilapp.cpp:106
+#, kde-format
+msgctxt "@info:credit"
+msgid "© 2015–2019 Kai Uwe Broulik"
+msgstr "© 2015–2019 Kai Uwe Broulik"
+
+#: powerdevilapp.cpp:107
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: powerdevilapp.cpp:107
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: powerdevilapp.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: powerdevilapp.cpp:108
+#, kde-format
+msgctxt "@info:credit"
+msgid "Previous maintainer"
+msgstr "Prethodni održavatelj"
+
+#: powerdevilapp.cpp:116
+#, kde-format
+msgid "Replace an existing instance"
+msgstr "Zamijeni postojeću instancu"
+
+#: powerdevilcore.cpp:400 powerdevilcore.cpp:411
+#, kde-format
+msgid "Activity Manager"
+msgstr "Upravitelj aktivnosti"
+
+#: powerdevilcore.cpp:401
+#, kde-format
+msgid "This activity's policies prevent the system from going to sleep"
+msgstr "Pravila ove aktivnosti sprečavaju prelazak sustava u stanje spavanja"
+
+#: powerdevilcore.cpp:412
+#, kde-format
+msgid "This activity's policies prevent screen power management"
+msgstr "Pravila ove aktivnosti sprečavaju upravljanje energijom zaslona"
+
+#: powerdevilcore.cpp:472
+#, kde-format
+msgid "Extra Battery Added"
+msgstr "Dodana je dodatna baterija"
+
+#: powerdevilcore.cpp:473
+#, kde-format
+msgid "The system will no longer go to sleep."
+msgstr "Sustav više neće prelaziti u stanje spavanja."
+
+#: powerdevilcore.cpp:539
+#, kde-format
+msgctxt "%1 is vendor name, %2 is product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilcore.cpp:542
+#, kde-format
+msgctxt "The battery in an external device"
+msgid "Device Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije uređaja (preostaje %1 %)"
+
+#: powerdevilcore.cpp:545
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid "The battery in “%1” is running low. Please recharge the battery."
+msgstr "Baterija u uređaju „%1” je pri kraju. Napunite bateriju."
+
+#: powerdevilcore.cpp:547
+#, kde-format
+msgctxt "Placeholder is device name"
+msgid "The battery in “%1” is running low."
+msgstr "Baterija u uređaju „%1” je pri kraju."
+
+#: powerdevilcore.cpp:553
+#, kde-format
+msgid "Mouse Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije miša (preostaje %1 %)"
+
+#: powerdevilcore.cpp:557
+#, kde-format
+msgid "Keyboard Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije tipkovnice (preostaje %1 %)"
+
+#: powerdevilcore.cpp:567
+#, kde-format
+msgid "Phone Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije telefona (preostaje %1 %)"
+
+#: powerdevilcore.cpp:571
+#, kde-format
+msgid "Bluetooth Device Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije Bluetooth uređaja (preostaje %1 %)"
+
+#: powerdevilcore.cpp:611
+#, kde-format
+msgid ""
+"Ensure that the power cord is plugged in all the way and provides enough "
+"power."
+msgstr ""
+"Provjerite je li kabel za napajanje do kraja ukopčan i isporučuje li dovoljno "
+"energije."
+
+#: powerdevilcore.cpp:613
+#, kde-format
+msgid "Plug in the power cord."
+msgstr "Ukopčajte kabel za napajanje."
+
+#: powerdevilcore.cpp:633
+#, kde-format
+msgid "The system will shut down in 60 seconds."
+msgstr "Sustav će se isključiti za 60 sekundi."
+
+#: powerdevilcore.cpp:635
+#, kde-format
+msgctxt ""
+"@action:button Shut down without waiting for the battery critical timer"
+msgid "Shut Down Now"
+msgstr "Isključi odmah"
+
+#: powerdevilcore.cpp:641
+#, kde-format
+msgid "The system will hibernate in 60 seconds."
+msgstr "Sustav će hibernirati za 60 sekundi."
+
+#: powerdevilcore.cpp:643
+#, kde-format
+msgctxt ""
+"@action:button Enter hibernation mode without waiting for the battery "
+"critical timer"
+msgid "Hibernate Now"
+msgstr "Hiberniraj odmah"
+
+#: powerdevilcore.cpp:649
+#, kde-format
+msgid "The system will go to sleep in 60 seconds."
+msgstr "Sustav će preći u stanje spavanja za 60 sekundi."
+
+#: powerdevilcore.cpp:651
+#, kde-format
+msgctxt ""
+"@action:button Suspend to ram without waiting for the battery critical timer"
+msgid "Sleep Now"
+msgstr "Spavaj odmah"
+
+#: powerdevilcore.cpp:657
+#, kde-format
+msgid "Please save your work."
+msgstr "Molimo spremite svoj rad."
+
+#: powerdevilcore.cpp:663
+#, kde-format
+msgctxt ""
+"Cancel timeout that will automatically put system to sleep because of low "
+"battery"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: powerdevilcore.cpp:678
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr "Niska razina baterije (preostaje %1 %)"
+
+#: powerdevilcore.cpp:685
+#, kde-format
+msgid "Battery Critical (%1% Remaining)"
+msgstr "Kritična razina baterije (preostaje %1 %)"
+
+#: powerdevilcore.cpp:715
+#, kde-format
+msgid "Power Cord Plugged In"
+msgstr "Kabel za napajanje je priključen"
+
+#: powerdevilcore.cpp:716
+#, kde-format
+msgid "The computer will no longer go to sleep."
+msgstr "Računalo više neće prelaziti u stanje spavanja."
+
+#: powerdevilcore.cpp:718
+#, kde-format
+msgid "Running on AC Power"
+msgstr "Radi na mrežnom napajanju"
+
+#: powerdevilcore.cpp:719
+#, kde-format
+msgid "The power cord has been plugged in."
+msgstr "Kabel za napajanje je priključen."
+
+#: powerdevilcore.cpp:735
+#, kde-format
+msgid "Running on Battery Power"
+msgstr "Radi na baterijskom napajanju"
+
+#: powerdevilcore.cpp:736
+#, kde-format
+msgid "The power cord has been unplugged."
+msgstr "Kabel za napajanje je isključen."
+
+#: powerdevilcore.cpp:801
+#, kde-format
+msgid "Charging Complete"
+msgstr "Punjenje završeno"
+
+#: powerdevilcore.cpp:801
+#, kde-format
+msgid "Battery now fully charged."
+msgstr "Baterija je sada potpuno napunjena."
+
+#: powerdevilscreenbrightnessagent.cpp:142
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "Povećaj svjetlinu zaslona"
+
+#: powerdevilscreenbrightnessagent.cpp:149
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness by 1%"
+msgstr "Povećaj svjetlinu zaslona za 1 %"
+
+#: powerdevilscreenbrightnessagent.cpp:156
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "Smanji svjetlinu zaslona"
+
+#: powerdevilscreenbrightnessagent.cpp:163
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness by 1%"
+msgstr "Smanji svjetlinu zaslona za 1 %"

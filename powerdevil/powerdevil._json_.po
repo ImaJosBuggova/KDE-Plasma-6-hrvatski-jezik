@@ -1,0 +1,198 @@
+# Translation of json files to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the powerdevil package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-01-18 00:54+0000\n"
+"PO-Revision-Date: 2026-11-02 10:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: applets/batterymonitor/metadata.json
+msgctxt "Name"
+msgid "Power & Battery"
+msgstr "Napajanje i baterija"
+
+#: applets/brightness/metadata.json
+msgctxt "Name"
+msgid "Brightness & Color"
+msgstr "Svjetlina i boja"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.json
+#: daemon/actions/bundled/powerdevilscreenbrightnesscontrolaction.json
+msgctxt "Name"
+msgid "Screen brightness"
+msgstr "Svjetlina zaslona"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.json
+msgctxt "Name"
+msgid "Dim screen"
+msgstr "Zatamni zaslon"
+
+#: daemon/actions/bundled/powerdevildpmsaction.json
+msgctxt "Name"
+msgid "Screen Energy Saving"
+msgstr "Ušteda energije zaslona"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.json
+msgctxt "Name"
+msgid "Button events handling"
+msgstr "Upravljanje događajima tipki"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.json
+msgctxt "Name"
+msgid "Keyboard backlight"
+msgstr "Pozadinsko osvjetljenje tipkovnice"
+
+#: daemon/actions/bundled/powerdevilpowerprofileaction.json
+msgctxt "Name"
+msgid "Power management profile"
+msgstr "Profil upravljanja energijom"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.json
+msgctxt "Name"
+msgid "Run script"
+msgstr "Pokreni skriptu"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.json
+msgctxt "Name"
+msgid "Suspend session"
+msgstr "Obustavi sesiju"
+
+#: kcm/kcm_powerdevilprofilesconfig.json
+msgctxt "Name"
+msgid "Power Management"
+msgstr "Upravljanje energijom"
+
+#: kcm_mobile/kcm_mobile_power.json
+msgctxt "Name"
+msgid "Energy"
+msgstr "Energija"
+
+#: runners/powerdevil/plasma-runner-powerdevil.json
+msgctxt "Name"
+msgid "Power"
+msgstr "Napajanje"
+
+#: applets/batterymonitor/metadata.json
+msgctxt "Description"
+msgid ""
+"Control power management settings and see the power status of your battery"
+msgstr ""
+"Upravljajte postavkama upravljanja energijom i pregledajte stanje napajanja baterije"
+
+#: applets/brightness/metadata.json
+msgctxt "Description"
+msgid "Control brightness and color of your screens and keyboards"
+msgstr "Upravljajte svjetlinom i bojom zaslona i tipkovnica"
+
+#: daemon/actions/bundled/powerdevilbrightnesscontrolaction.json
+#: daemon/actions/bundled/powerdevilscreenbrightnesscontrolaction.json
+msgctxt "Description"
+msgid "Basic Controls for brightness"
+msgstr "Osnovne kontrole za svjetlinu"
+
+#: daemon/actions/bundled/powerdevildimdisplayaction.json
+msgctxt "Description"
+msgid "Dims gradually the display on a time basis"
+msgstr "Postupno zatamnjuje zaslon na temelju vremena"
+
+#: daemon/actions/bundled/powerdevildpmsaction.json
+msgctxt "Description"
+msgid "Controls DPMS settings"
+msgstr "Upravlja DPMS postavkama"
+
+#: daemon/actions/bundled/powerdevilhandlebuttoneventsaction.json
+msgctxt "Description"
+msgid "Performs an action whenever a button is pressed"
+msgstr "Izvodi radnju kad god se pritisne tipka"
+
+#: daemon/actions/bundled/powerdevilkeyboardbrightnesscontrolaction.json
+msgctxt "Description"
+msgid "Basic Controls for the keyboard backlight brightness"
+msgstr "Osnovne kontrole za svjetlinu pozadinskog osvjetljenja tipkovnice"
+
+#: daemon/actions/bundled/powerdevilpowerprofileaction.json
+msgctxt "Description"
+msgid "Apply a power management profile"
+msgstr "Primijeni profil upravljanja energijom"
+
+#: daemon/actions/bundled/powerdevilrunscriptaction.json
+msgctxt "Description"
+msgid "Runs a custom script"
+msgstr "Pokreće prilagođenu skriptu"
+
+#: daemon/actions/bundled/powerdevilsuspendsessionaction.json
+msgctxt "Description"
+msgid "Suspends the session"
+msgstr "Obustavlja sesiju"
+
+#: kcm/kcm_powerdevilprofilesconfig.json
+msgctxt "Description"
+msgid "Power Management"
+msgstr "Upravljanje energijom"
+
+#: kcm_mobile/kcm_mobile_power.json
+msgctxt "Description"
+msgid "Configure power management settings"
+msgstr "Podesite postavke upravljanja energijom"
+
+#: runners/powerdevil/plasma-runner-powerdevil.json
+msgctxt "Description"
+msgid "Basic Power Management Operations"
+msgstr "Osnovne operacije upravljanja energijom"
+
+#: applets/batterymonitor/metadata.json applets/brightness/metadata.json
+msgctxt "Authors Name"
+msgid "Sebastian Kügler"
+msgstr "Sebastian Kügler"
+
+#: applets/batterymonitor/metadata.json applets/brightness/metadata.json
+msgctxt "Authors Name"
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: applets/brightness/metadata.json
+msgctxt "Authors Name"
+msgid "Natalie Clarius"
+msgstr "Natalie Clarius"
+
+#: runners/powerdevil/plasma-runner-powerdevil.json
+msgctxt "Authors Name"
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: kcm/kcm_powerdevilprofilesconfig.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"system,power,power management,energy,energy saving,laptop,battery,suspension,"
+"AC,suspend,suspending,hibernating,hibernate,brightness,performance,lid,power "
+"saving,charging,charge,limit,charge limit,charging limit,discharge,"
+"discharging,dim screen,sleep,lock screen,lockscreen,turn screen off,turn off,"
+"power button,power buttons,battery levels,low battery,low level,critical "
+"level,power notifications,plug,unplug"
+msgstr ""
+"sustav,napajanje,upravljanje energijom,energija,ušteda energije,prijenosnik,"
+"baterija,obustava,mrežno napajanje,obustavi,obustavljanje,hiberniranje,"
+"hibernacija,svjetlina,performanse,poklopac,ušteda energije,punjenje,napunjenost,"
+"ograničenje,ograničenje punjenja,granica punjenja,pražnjenje,praznjenje,zatamni "
+"zaslon,spavanje,zaključaj zaslon,zaključavanje zaslona,isključi zaslon,isključi,"
+"tipka za uključivanje,tipke za uključivanje,razine baterije,niska razina baterije,"
+"niska razina,kritična razina,obavijesti o napajanju,spoji,odspoji"
+
+#: kcm_mobile/kcm_mobile_power.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"video, monitor, graphics, timeout, sleep, lock, screenlocker, screensaver"
+msgstr ""
+"video, monitor, grafika, istek vremena, spavanje, zaključavanje, zaključavanje zaslona, čuvar zaslona"

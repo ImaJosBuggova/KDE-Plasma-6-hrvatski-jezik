@@ -1,0 +1,241 @@
+# Translation of desktop files to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the powerdevil package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-04 00:56+0000\n"
+"PO-Revision-Date: 2026-11-02 10:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: daemon/chargethreshold_helper_actions.actions:2
+#: daemon/controllers/backlight_helper_actions.actions:2
+#: daemon/discretegpu_helper_actions.actions:2
+#: daemon/wakeupsource_helper_actions.actions:2
+msgctxt "Name"
+msgid "KDE"
+msgstr "KDE"
+
+#: daemon/chargethreshold_helper_actions.actions:65
+msgctxt "Name"
+msgid "Get current battery charge limit"
+msgstr "Dohvati trenutno ograničenje punjenja baterije"
+
+#: daemon/chargethreshold_helper_actions.actions:117
+msgctxt "Description"
+msgid "Authenticate to see the current battery charge limit."
+msgstr "Potvrdite identitet za prikaz trenutnog ograničenja punjenja baterije."
+
+#: daemon/chargethreshold_helper_actions.actions:170
+msgctxt "Name"
+msgid "Set battery charge limit"
+msgstr "Postavi ograničenje punjenja baterije"
+
+#: daemon/chargethreshold_helper_actions.actions:222
+msgctxt "Description"
+msgid "Authenticate to set the battery charge limit."
+msgstr "Potvrdite identitet za postavljanje ograničenja punjenja baterije."
+
+#: daemon/chargethreshold_helper_actions.actions:275
+msgctxt "Name"
+msgid "Check battery conservation mode"
+msgstr "Provjeri način očuvanja baterije"
+
+#: daemon/chargethreshold_helper_actions.actions:324
+msgctxt "Description"
+msgid "Authenticate to check the current state of battery conservation mode."
+msgstr "Potvrdite identitet za provjeru trenutnog stanja načina očuvanja baterije."
+
+#: daemon/chargethreshold_helper_actions.actions:377
+msgctxt "Name"
+msgid "Set battery conservation mode"
+msgstr "Postavi način očuvanja baterije"
+
+#: daemon/chargethreshold_helper_actions.actions:426
+msgctxt "Description"
+msgid "Authenticate to set the battery conservation mode."
+msgstr "Potvrdite identitet za postavljanje načina očuvanja baterije."
+
+#: daemon/controllers/backlight_helper_actions.actions:65
+msgctxt "Name"
+msgid "Get maximum brightness value"
+msgstr "Dohvati maksimalnu vrijednost svjetline"
+
+#: daemon/controllers/backlight_helper_actions.actions:122
+msgctxt "Description"
+msgid "Authenticate to see the maximum brightness level."
+msgstr "Potvrdite identitet za prikaz maksimalne razine svjetline."
+
+#: daemon/controllers/backlight_helper_actions.actions:175
+msgctxt "Name"
+msgid "Get brightness"
+msgstr "Dohvati svjetlinu"
+
+#: daemon/controllers/backlight_helper_actions.actions:233
+msgctxt "Description"
+msgid "Authenticate to see the brightness level."
+msgstr "Potvrdite identitet za prikaz razine svjetline."
+
+#: daemon/controllers/backlight_helper_actions.actions:286
+msgctxt "Name"
+msgid "Set brightness"
+msgstr "Postavi svjetlinu"
+
+#: daemon/controllers/backlight_helper_actions.actions:344
+msgctxt "Description"
+msgid "Authenticate to set the brightness level."
+msgstr "Potvrdite identitet za postavljanje razine svjetline."
+
+#: daemon/controllers/backlight_helper_actions.actions:396
+msgctxt "Name"
+msgid "Get syspath"
+msgstr "Dohvati syspath"
+
+#: daemon/controllers/backlight_helper_actions.actions:451
+msgctxt "Description"
+msgid "Authenticate to see the syspath."
+msgstr "Potvrdite identitet za prikaz syspatha."
+
+#: daemon/discretegpu_helper_actions.actions:65
+msgctxt "Name"
+msgid "Check for existence of discrete GPU"
+msgstr "Provjeri postojanje diskretne grafičke kartice"
+
+#: daemon/discretegpu_helper_actions.actions:114
+msgctxt "Description"
+msgid "Authenticate to check for the existence of a discrete GPU."
+msgstr "Potvrdite identitet za provjeru postojanja diskretne grafičke kartice."
+
+#: daemon/powerdevil.desktop.cmake:4 powerdevil.notifyrc:2
+msgctxt "Name"
+msgid "Power Management"
+msgstr "Upravljanje energijom"
+
+#: daemon/powerdevil.desktop.cmake:67
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr "Upravljanje energijom i obavijesti za bateriju, zaslon i procesor"
+
+#: daemon/wakeupsource_helper_actions.actions:65
+msgctxt "Name"
+msgid "Set the wakeup count"
+msgstr "Postavi brojač buđenja"
+
+#: daemon/wakeupsource_helper_actions.actions:108
+msgctxt "Description"
+msgid ""
+"This allows to read wakeup count on next wakeup to identify wakeup source"
+msgstr ""
+"Ovo omogućuje čitanje broja buđenja pri sljedećem buđenju radi prepoznavanja "
+"izvora buđenja"
+
+#: powerdevil.notifyrc:60
+msgctxt "Comment"
+msgid "Power Management System"
+msgstr "Sustav upravljanja energijom"
+
+#: powerdevil.notifyrc:120
+msgctxt "Name"
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: powerdevil.notifyrc:177
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr "Koristi se za obavijesti upozorenja"
+
+#: powerdevil.notifyrc:235
+msgctxt "Name"
+msgid "Notification"
+msgstr "Obavijest"
+
+#: powerdevil.notifyrc:294
+msgctxt "Comment"
+msgid "Used for standard notifications"
+msgstr "Koristi se za standardne obavijesti"
+
+#: powerdevil.notifyrc:353
+msgctxt "Name"
+msgid "Critical notification"
+msgstr "Kritična obavijest"
+
+#: powerdevil.notifyrc:411
+msgctxt "Comment"
+msgid "Notifies a critical event"
+msgstr "Obavještava o kritičnom događaju"
+
+#: powerdevil.notifyrc:470
+msgctxt "Name"
+msgid "Battery Low"
+msgstr "Niska razina baterije"
+
+#: powerdevil.notifyrc:527
+msgctxt "Comment"
+msgid "Battery has reached low level"
+msgstr "Baterija je dostigla nisku razinu"
+
+#: powerdevil.notifyrc:583
+msgctxt "Name"
+msgid "Battery Critical"
+msgstr "Kritična razina baterije"
+
+#: powerdevil.notifyrc:640
+msgctxt "Comment"
+msgid ""
+"Battery has reached critical level. This notification triggers a countdown "
+"before doing the configured action, hence it is strongly advised to leave it "
+"on."
+msgstr ""
+"Baterija je dostigla kritičnu razinu. Ova obavijest pokreće odbrojavanje "
+"prije izvođenja podešene radnje, stoga se strogo preporučuje ostaviti je "
+"uključenom."
+
+#: powerdevil.notifyrc:697
+msgctxt "Name"
+msgid "Charge Complete"
+msgstr "Punjenje završeno"
+
+#: powerdevil.notifyrc:753
+msgctxt "Comment"
+msgid "The battery is fully charged"
+msgstr "Baterija je potpuno napunjena"
+
+#: powerdevil.notifyrc:815
+msgctxt "Name"
+msgid "Peripheral Battery Low"
+msgstr "Niska razina baterije vanjskog uređaja"
+
+#: powerdevil.notifyrc:869
+msgctxt "Comment"
+msgid "The battery in a connected device, such as mouse or keyboard, is low"
+msgstr "Baterija u spojenom uređaju, poput miša ili tipkovnice, niske je razine"
+
+#: powerdevil.notifyrc:929
+msgctxt "Name"
+msgid "Power source connected"
+msgstr "Izvor napajanja spojen"
+
+#: powerdevil.notifyrc:983
+msgctxt "Comment"
+msgid "The power source has been connected"
+msgstr "Izvor napajanja je spojen"
+
+#: powerdevil.notifyrc:1043
+msgctxt "Name"
+msgid "Power source disconnected"
+msgstr "Izvor napajanja odspojen"
+
+#: powerdevil.notifyrc:1097
+msgctxt "Comment"
+msgid "The power source has been disconnected"
+msgstr "Izvor napajanja je odspojen"
