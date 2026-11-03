@@ -41,6 +41,7 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **plasma-browser-integration** | ⚠️ | Čeka provjeru |
 | **plasma-login-manager** | ⚠️ | Čeka provjeru |
 | **kio-admin** | ⚠️ | Čeka provjeru |
+| **powerdevil** | ✅ | Pregledao Roko Tomović |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

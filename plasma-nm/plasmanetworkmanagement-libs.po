@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Translation of plasma-nm in Croatian
+# Copyright (C) 2026
 # This file is distributed under the same license as the plasma-nm package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Roko <roko@maesdbk.hr>, 2026.
 #
 msgid ""
 msgstr ""
@@ -569,11 +569,11 @@ msgstr "IPv4 Zadani pristupnik"
 #: editor/connectiondetails.cpp:343
 #, kde-format
 msgid "IPv4 Primary Nameserver"
-msgstr "IPv4 Primary Nazivserver"
+msgstr "Primarni IPv4 poslužitelj naziva"
 #: editor/connectiondetails.cpp:347
 #, kde-format
 msgid "IPv4 Secondary Nameserver"
-msgstr "IPv4 Secondary Nazivserver"
+msgstr "Sekundarni IPv4 poslužitelj naziva"
 #: editor/connectiondetails.cpp:352 editor/connectioneditorbase.cpp:334
 #: editorqml/qml/components/Vpn.qml:38 editorqml/qml/components/Wired.qml:39
 #: editorqml/qml/components/WireGuard.qml:37
@@ -596,11 +596,11 @@ msgstr "IPv6 Zadani pristupnik"
 #: editor/connectiondetails.cpp:377
 #, kde-format
 msgid "IPv6 Primary Nameserver"
-msgstr "IPv6 Primary Nazivserver"
+msgstr "Primarni IPv6 poslužitelj naziva"
 #: editor/connectiondetails.cpp:381
 #, kde-format
 msgid "IPv6 Secondary Nameserver"
-msgstr "IPv6 Secondary Nazivserver"
+msgstr "Sekundarni IPv4 poslužitelj naziva"
 #: editor/connectiondetails.cpp:386 editor/connectioneditorbase.cpp:352
 #: editorqml/qml/components/Vpn.qml:42 editorqml/qml/components/Wired.qml:42
 #: editorqml/qml/components/WireGuard.qml:40
@@ -1301,7 +1301,7 @@ msgstr "Broj:"
 #: editorqml/qml/generalSettings/GeneralSettings.qml:24
 #, kde-format
 msgid "Connect automatically with priority"
-msgstr "Poveži se automatski with Prioritet"
+msgstr "Poveži se automatski s prioritetom"
 #. i18n: ectx: property (toolTip), widget (QSpinBox, prioritySpin)
 #: editor/settings/ui/connectionwidget.ui:37
 #, kde-format
@@ -1316,7 +1316,7 @@ msgstr "If the Veza is set to autoconnect, connections with higher Prioritet wil
 #: editorqml/qml/generalSettings/GeneralSettings.qml:60
 #, kde-format
 msgid "All users may connect to this network"
-msgstr "All users may Poveži to this Mreža"
+msgstr "Svi se korisnici mogu povezati na ovu mrežu"
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:63
 #, kde-format
@@ -1341,7 +1341,7 @@ msgstr "Napredno…"
 #: editorqml/qml/generalSettings/GeneralSettings.qml:91
 #, kde-format
 msgid "Automatically connect to VPN"
-msgstr "Automatskially Poveži to VPN"
+msgstr "Automatski poveži s VPN-om"
 #. i18n: ectx: property (toolTip), widget (KComboBox, vpnCombobox)
 #: editor/settings/ui/connectionwidget.ui:95
 #, kde-format
@@ -3883,12 +3883,13 @@ msgstr "The Domena the iodine Poslužitelj is authoritative for."
 #: editorqml/qml/vpn/iodine/Iodine.qml:36
 #, kde-format
 msgid "Nameserver:"
-msgstr "Nazivserver:"
+msgstr "Poslužitelj naziva:"
 #: editorqml/qml/vpn/iodine/Iodine.qml:39
 #, kde-format
 msgid ""
 "Nameserver to use for the tunnel. Leave empty to use the system default."
-msgstr "Nazivserver to Koristi for the tunnel. Leave empty to Koristi the system Zadano."
+msgstr ""
+"Poslužitelj naziva koji će se koristiti za tunel. Ostavite prazno za korištenje zadanih postavki sustava."
 #: editorqml/qml/vpn/iodine/Iodine.qml:65
 #, kde-format
 msgid "Fragment Size:"
@@ -3898,7 +3899,10 @@ msgstr "Fragment Size:"
 msgid ""
 "Maximum size of the upstream DNS fragments, in bytes. Automatic lets iodine "
 "probe for it."
-msgstr "Maximum size of the upstream DNS fragments, in bytes. Automatski lets iodine probe for it."
+msgstr ""
+"Maksimalna veličina odlaznih (upstream) DNS fragmenata u bajtovima. Automatski način rada "
+"omogućuje programu iodine da je sam ispita."
+
 #: editorqml/qml/vpn/iodine/Iodine.qml:74
 #: editorqml/qml/vpn/iodine/Iodine.qml:75
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:166
