@@ -79,6 +79,33 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **plasma-thunderbolt** | ✅ | Pregledao Roko Tomović |
 | **plasma-workspace-wallpapers** | ✅ | Pregledao Roko Tomović |
 | **qc2-desktop-style** | ✅ | Pregledao Roko Tomović |
+| **audiocd-kio** | ❌ | Nije prevedeno |
+| **flatpak-kcm** | ❌ | Nije prevedeno |
+| **kcm-grub2** | ❌ | Nije prevedeno |
+| **kdesdk-kio** | ❌ | Nije prevedeno |
+| **kio-gdrive** | ❌ | Nije prevedeno |
+| **kio-gopher** | ❌ | Nije prevedeno |
+| **kio-s3** | ❌ | Nije prevedeno |
+| **kio-snapshot** | ❌ | Nije prevedeno |
+| **kio-stash** | ❌ | Nije prevedeno |
+| **kio-zeroconf** | ❌ | Nije prevedeno |
+| **libkscreen** | ❌ | Nije prevedeno |
+| **plasma-bigscreen** | ❌ | Nije prevedeno |
+| **plasma-camera** | ❌ | Nije prevedeno |
+| **plasma-dialer** | ❌ | Nije prevedeno |
+| **plasma-keyboard** | ❌ | Nije prevedeno |
+| **plasma-mobile** | ❌ | Nije prevedeno |
+| **plasma-mobile-sounds** | ❌ | Nije prevedeno |
+| **plasma-nano** | ❌ | Nije prevedeno |
+| **plasma-pass** | ❌ | Nije prevedeno |
+| **plasma-phonebook** | ❌ | Nije prevedeno |
+| **plasma-sdk** | ❌ | Nije prevedeno |
+| **plasma-setup** | ❌ | Nije prevedeno |
+| **plasma-vault** | ❌ | Nije prevedeno |
+| **plasma-welcome** | ❌ | Nije prevedeno |
+| **plasma5support** | ❌ | Nije prevedeno |
+| **plymouth-kcm** | ❌ | Nije prevedeno |
+| **snap-kcm** | ❌ | Nije prevedeno |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru
