@@ -68,6 +68,17 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **kwidgetsaddons** | ⚠️ | Čeka provjeru |
 | **kxmlgui** | ⚠️ | Čeka provjeru |
 | **libksysguard** | ⚠️ | Čeka provjeru |
+| **kde-cli-tools** | ❌ | Nije prevedeno |
+| **kscreen** | ❌ | Nije prevedeno |
+| **ksystemstats** | ❌ | Nije prevedeno |
+| **milou** | ❌ | Nije prevedeno |
+| **oxygen** | ❌ | Nije prevedeno |
+| **oxygen-icons** | ❌ | Nije prevedeno |
+| **plasma-disks** | ❌ | Nije prevedeno |
+| **plasma-firewall** | ❌ | Nije prevedeno |
+| **plasma-thunderbolt** | ❌ | Nije prevedeno |
+| **plasma-workspace-wallpapers** | ❌ | Nije prevedeno |
+| **qc2-desktop-style** | ❌ | Nije prevedeno |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru
