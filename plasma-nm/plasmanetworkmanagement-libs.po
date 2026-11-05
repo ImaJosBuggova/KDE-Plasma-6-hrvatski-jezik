@@ -49,7 +49,7 @@ msgstr "Pogreška pri uklanjanju veze: %1"
 #: cellular/cellularmodem.cpp:539
 #, kde-format
 msgid "Error updating connection settings for %1: %2."
-msgstr "Pogreška pri ažuriranju postavki veze for %1: %2."
+msgstr "Pogreška pri ažuriranju postavki veze za %1: %2."
 #: cellular/cellularmodemdetails.cpp:111 cellular/cellularmodemdetails.cpp:213
 #: cellular/cellularmodemdetails.cpp:245 cellular/cellularmodemdetails.cpp:433
 #: cellular/cellularmodemdetails.cpp:465
@@ -127,11 +127,11 @@ msgstr "Isključeno"
 #: cellular/cellularmodemdetails.cpp:217
 #, kde-format
 msgid "Low-power mode"
-msgstr "Low-power Način rada"
+msgstr "Način rada niske potrošnje energije"
 #: cellular/cellularmodemdetails.cpp:219
 #, kde-format
 msgid "Full power mode"
-msgstr "Puni power Način rada"
+msgstr "Način rada pune snage"
 #: cellular/cellularmodemdetails.cpp:243
 #, kde-format
 msgid "Failed"
@@ -184,15 +184,15 @@ msgstr "Povezano"
 #: cellular/cellularmodemdetails.cpp:276
 #, kde-format
 msgid "No error."
-msgstr "Ne Pogreška."
+msgstr "Nema pogreške."
 #: cellular/cellularmodemdetails.cpp:278
 #, kde-format
 msgid "Unknown error."
-msgstr "Nepoznato Pogreška."
+msgstr "Nepoznata pogreška."
 #: cellular/cellularmodemdetails.cpp:280
 #, kde-format
 msgid "SIM is required but missing."
-msgstr "SIM is Obavezno but missing."
+msgstr "Potrebna je SIM kartica, ali nije umetnuta."
 #: cellular/cellularmodemdetails.cpp:282
 #, kde-format
 msgid "SIM is available but unusable."
@@ -200,7 +200,7 @@ msgstr "SIM kartica je dostupna, ali se ne može koristiti."
 #: cellular/cellularmodemdetails.cpp:284
 #, kde-format
 msgid "Unknown modem capabilities."
-msgstr "Nepoznato modem capabilities."
+msgstr "Nepoznate mogućnosti modema."
 #: cellular/cellularmodemdetails.cpp:286
 #, kde-format
 msgid "eSIM is not initialized."
@@ -232,11 +232,11 @@ msgstr "Registrirano na roaming mreži."
 #: cellular/cellularmodemdetails.cpp:324
 #, kde-format
 msgid "Registered for \"SMS only\", on home network."
-msgstr "Registered for \\\"SMS only\\\", Uključeno home Mreža."
+msgstr "Registrirano samo za SMS na matičnoj mreži."
 #: cellular/cellularmodemdetails.cpp:326
 #, kde-format
 msgid "Registered for \"SMS only\", roaming network."
-msgstr "Registered for \\\"SMS only\\\", roaming Mreža."
+msgstr "Registrirano samo za SMS u roamingu."
 #: cellular/cellularmodemdetails.cpp:328
 #, kde-format
 msgid "Emergency services only."
@@ -244,15 +244,15 @@ msgstr "Dostupne su samo hitne službe."
 #: cellular/cellularmodemdetails.cpp:330
 #, kde-format
 msgid "Registered for \"CSFB not preferred\", home network."
-msgstr "Registered for \\\"CSFB not preferred\\\", home Mreža."
+msgstr "Registrirano za \"CSFB nije preferiran\" na matičnoj mreži."
 #: cellular/cellularmodemdetails.cpp:332
 #, kde-format
 msgid "Registered for \"CSFB not preferred\", roaming network."
-msgstr "Registered for \\\"CSFB not preferred\\\", roaming Mreža."
+msgstr "Registrirano za \"CSFB nije preferiran\" u roamingu."
 #: cellular/cellularmodemdetails.cpp:334
 #, kde-format
 msgid "Attached for access to Restricted Local Operator Services."
-msgstr "Attached for access to Restricted Lokalni Operator Services."
+msgstr "Povezano radi pristupa ograničenim lokalnim uslugama operatora."
 #: cellular/cellularmodemdetails.cpp:374
 #, kde-format
 msgid "Scanning networks failed: %1"
@@ -311,63 +311,63 @@ msgstr "Modem je otključan."
 #: cellular/cellularsim.cpp:87
 #, kde-format
 msgid "SIM requires the PIN code."
-msgstr "SIM kartica zahtijeva PIN code."
+msgstr "SIM kartica zahtijeva PIN."
 #: cellular/cellularsim.cpp:89
 #, kde-format
 msgid "SIM requires the PIN2 code."
-msgstr "SIM kartica zahtijeva PIN2 code."
+msgstr "SIM kartica zahtijeva PIN2."
 #: cellular/cellularsim.cpp:91
 #, kde-format
 msgid "SIM requires the PUK code."
-msgstr "SIM kartica zahtijeva PUK code."
+msgstr "SIM kartica zahtijeva PUK."
 #: cellular/cellularsim.cpp:93
 #, kde-format
 msgid "SIM requires the PUK2 code."
-msgstr "SIM kartica zahtijeva PUK2 code."
+msgstr "SIM kartica zahtijeva PUK2."
 #: cellular/cellularsim.cpp:95
 #, kde-format
 msgid "Modem requires the service provider PIN code."
-msgstr "Način radam zahtijeva service Operator PIN code."
+msgstr "Modem zahtijeva PIN operatora usluge."
 #: cellular/cellularsim.cpp:97
 #, kde-format
 msgid "Modem requires the service provider PUK code."
-msgstr "Način radam zahtijeva service Operator PUK code."
+msgstr "Modem zahtijeva PUK operatora usluge."
 #: cellular/cellularsim.cpp:99
 #, kde-format
 msgid "Modem requires the network PIN code."
-msgstr "Način radam zahtijeva Mreža PIN code."
+msgstr "Modem zahtijeva mrežni PIN."
 #: cellular/cellularsim.cpp:101
 #, kde-format
 msgid "Modem requires the network PUK code."
-msgstr "Način radam zahtijeva Mreža PUK code."
+msgstr "Modem zahtijeva mrežni PUK."
 #: cellular/cellularsim.cpp:103
 #, kde-format
 msgid "Modem requires the PIN code."
-msgstr "Način radam zahtijeva PIN code."
+msgstr "Modem zahtijeva PIN."
 #: cellular/cellularsim.cpp:105
 #, kde-format
 msgid "Modem requires the corporate PIN code."
-msgstr "Način radam zahtijeva corporate PIN code."
+msgstr "Modem zahtijeva PIN tvrtke."
 #: cellular/cellularsim.cpp:107
 #, kde-format
 msgid "Modem requires the corporate PUK code."
-msgstr "Način radam zahtijeva corporate PUK code."
+msgstr "Modem zahtijeva PUK tvrtke."
 #: cellular/cellularsim.cpp:109
 #, kde-format
 msgid "Modem requires the PH-FSIM PIN code."
-msgstr "Način radam zahtijeva PH-FSIM PIN code."
+msgstr "Modem zahtijeva PH-FSIM PIN."
 #: cellular/cellularsim.cpp:111
 #, kde-format
 msgid "Modem requires the PH-FSIM PUK code."
-msgstr "Način radam zahtijeva PH-FSIM PUK code."
+msgstr "Modem zahtijeva PH-FSIM PUK."
 #: cellular/cellularsim.cpp:113
 #, kde-format
 msgid "Modem requires the network subset PIN code."
-msgstr "Način radam zahtijeva Mreža subset PIN code."
+msgstr "Modem zahtijeva PIN za podskupinu mreže."
 #: cellular/cellularsim.cpp:115
 #, kde-format
 msgid "Modem requires the network subset PUK code."
-msgstr "Način radam zahtijeva Mreža subset PUK code."
+msgstr "Modem zahtijeva PUK za podskupinu mreže."
 #: cellular/cellularsim.cpp:158
 #, kde-format
 msgid "(empty)"
@@ -375,19 +375,19 @@ msgstr "(prazno)"
 #: cellular/cellularsim.cpp:172
 #, kde-format
 msgid "Error toggling SIM lock: %1"
-msgstr "Pogreška toggling SIM lock: %1"
+msgstr "Pogreška pri uključivanju ili isključivanju zaključavanja SIM kartice: %1"
 #: cellular/cellularsim.cpp:181
 #, kde-format
 msgid "Error changing the PIN: %1"
-msgstr "Pogreška changing the PIN: %1"
+msgstr "Pogreška pri promjeni PIN-a: %1"
 #: cellular/cellularsim.cpp:194
 #, kde-format
 msgid "Error sending the PIN: %1"
-msgstr "Pogreška sending the PIN: %1"
+msgstr "Pogreška pri slanju PIN-a: %1"
 #: cellular/cellularsim.cpp:207
 #, kde-format
 msgid "Error sending the PUK: %1"
-msgstr "Pogreška sending the PUK: %1"
+msgstr "Pogreška pri slanju PUK-a: %1"
 #: editor/connectiondetails.cpp:91
 #, kde-format
 msgid "Connection speed"
@@ -398,7 +398,7 @@ msgstr "Brzina veze"
 #: editor/connectiondetails.cpp:293 editor/connectiondetails.cpp:307
 #, kde-format
 msgid "MAC Address"
-msgstr "MAC Adresa"
+msgstr "MAC-adresa"
 #: editor/connectiondetails.cpp:96 editor/settings/bondwidget.cpp:36
 #: editor/settings/bridgewidget.cpp:33 editor/settings/teamwidget.cpp:36
 #, kde-format
@@ -561,7 +561,7 @@ msgstr "Općenito"
 #: editor/connectiondetails.cpp:330
 #, kde-format
 msgid "IPv4 Address"
-msgstr "IPv4 Adresa"
+msgstr "IPv4-adresa"
 #: editor/connectiondetails.cpp:336
 #, kde-format
 msgid "IPv4 Default Gateway"
@@ -584,11 +584,11 @@ msgstr "IPv4"
 #: editor/connectiondetails.cpp:362
 #, kde-format
 msgid "IPv6 Address"
-msgstr "IPv6 Adresa"
+msgstr "IPv6-adresa"
 #: editor/connectiondetails.cpp:364
 #, kde-format
 msgid "IPv6 ULA Address"
-msgstr "IPv6 ULA Adresa"
+msgstr "IPv6 ULA-adresa"
 #: editor/connectiondetails.cpp:370
 #, kde-format
 msgid "IPv6 Default Gateway"
@@ -626,7 +626,7 @@ msgstr "Žična veza"
 #: editor/connectioneditorbase.cpp:244 editorqml/qml/components/Wired.qml:36
 #, kde-format
 msgid "802.1x Security"
-msgstr "802.1x Sigurnost"
+msgstr "Sigurnost 802.1X"
 #: editor/connectioneditorbase.cpp:267 editor/uiutils.cpp:190
 #: models/creatableconnectionsmodel.cpp:135
 #, kde-format
@@ -643,7 +643,7 @@ msgstr "PPP"
 #: editor/connectioneditorbase.cpp:304
 #, kde-format
 msgid "WireGuard Interface"
-msgstr "WireGuard Sučelje"
+msgstr "Sučelje WireGuarda"
 #: editor/connectioneditorbase.cpp:317
 #, kde-format
 msgid "VPN (%1)"
@@ -651,7 +651,7 @@ msgstr "VPN (%1)"
 #: editor/connectioneditorbase.cpp:541
 #, kde-format
 msgid "Failed to get secrets for %1"
-msgstr "Neuspjelo to get secrets for %1"
+msgstr "Dohvaćanje tajni za %1 nije uspjelo."
 #: editor/connectioneditordialog.cpp:36
 #, kde-format
 msgid "New Connection (%1)"
@@ -663,7 +663,7 @@ msgstr "Uredi vezu '%1'"
 #: editor/connectioneditortabwidget.cpp:58
 #, kde-format
 msgid "New %1 connection"
-msgstr "New %1 Veza"
+msgstr "Nova veza %1"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/connectioneditortabwidget.ui:20
 #, kde-format
@@ -740,7 +740,7 @@ msgstr "DUN (modemsko povezivanje)"
 #: editor/settings/btwidget.cpp:21
 #, kde-format
 msgid "PAN (personal area network)"
-msgstr "PAN (personal area Mreža)"
+msgstr "PAN (osobna mreža)"
 #: editor/settings/connectionstatuswidget.cpp:33
 #: editorqml/qml/ConnectionDialog.qml:59 editorqml/qml/wifistatus/ConnectionStatusForm.qml:15
 #, kde-format
@@ -798,7 +798,7 @@ msgid ""
 "href='https://networkmanager.dev/docs/api/latest/nm-settings-nmcli."
 "html'>https://networkmanager.dev/docs/api/latest/nm-settings-nmcli.html</a></"
 "qt>"
-msgstr "<qt>You can find more information about these values here:<br/><a href='https://networkmanager.dev/docs/api/latest/nm-Postavke-nmcli.html'>https://networkmanager.dev/docs/api/latest/nm-Postavke-nmcli.html</a></qt>"
+msgstr "<qt>Više informacija o tim vrijednostima potražite ovdje:<br/><a href='https://networkmanager.dev/docs/api/latest/nm-settings-nmcli.html'>https://networkmanager.dev/docs/api/latest/nm-settings-nmcli.html</a></qt>"
 #: editor/settings/ipv4widget.cpp:430
 #, kde-format
 msgid "Send hostname:"
@@ -855,7 +855,7 @@ msgid ""
 "<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
 "li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde."
 "org&gt;</li></ul></qt>"
-msgstr "<qt>This entry must be one of:<ul><li>DNS: &lt;Naziv or ip Adresa&gt;</li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde.org&gt;</li></ul></qt>"
+msgstr "<qt>Ovaj unos mora biti jedan od sljedećih:<ul><li>DNS: &lt;naziv ili IP-adresa&gt;</li><li>EMAIL: &lt;e-pošta&gt;</li><li>URI: &lt;URI, npr. https://www.kde.org&gt;</li></ul></qt>"
 #: editor/settings/security802-1x.cpp:561
 #, kde-format
 msgid "Connect to these servers only"
@@ -987,6 +987,7 @@ msgstr "Identitet:"
 #, kde-format
 msgid "Domain:"
 msgstr "Domena:"
+
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: editor/settings/ui/802-1x.ui:144 editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:49
 #, kde-format
@@ -1039,7 +1040,7 @@ msgstr "…"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:63
 #, kde-format
 msgid "Connect to these servers:"
-msgstr "Poveži se s these poslužitelji:"
+msgstr "Poveži se s ovim poslužiteljima:"
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, privateKeyLabel)
 #: editor/settings/ui/802-1x.ui:247 editor/settings/ui/wireguardinterfacewidget.ui:41
@@ -1061,7 +1062,7 @@ msgstr "Lozinka privatnog ključa:"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:93
 #, kde-format
 msgid "Anonymous identity:"
-msgstr "Anonimno Identitet:"
+msgstr "Anonimni identitet:"
 #. i18n: ectx: property (text), widget (QCheckBox, fastAllowPacProvisioning)
 #: editor/settings/ui/802-1x.ui:356 editorqml/qml/wifisecurity/authentication/enterprise/eap/EapFast.qml:105
 #, kde-format
@@ -1096,7 +1097,7 @@ msgstr "PAC datoteka:"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:130
 #, kde-format
 msgid "Inner authentication:"
-msgstr "Inner Autentifikacija:"
+msgstr "Unutarnja autentifikacija:"
 #. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
 #. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
 #: editor/settings/ui/802-1x.ui:427 editor/settings/ui/802-1x.ui:676
@@ -1166,7 +1167,7 @@ msgstr "Version 1"
 #: editor/settings/ui/team.ui:18 editor/settings/ui/wireguardinterfacewidget.ui:26
 #, kde-format
 msgid "Interface name:"
-msgstr "Sučelje Naziv:"
+msgstr "Naziv sučelja:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editor/settings/ui/bond.ui:34
 #, kde-format
@@ -1235,7 +1236,7 @@ msgstr "ARP odredišta:"
 #: editor/settings/ui/bond.ui:249
 #, kde-format
 msgid "An IP address or comma-separated list of addresses."
-msgstr "An IP Adresa or comma-separated list of addresses."
+msgstr "IP-adresa ili popis adresa odvojenih zarezima."
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/settings/ui/bridge.ui:31
 #, kde-format
@@ -1285,7 +1286,7 @@ msgstr "Maksimalna starost:"
 #: editor/settings/ui/bt.ui:21
 #, kde-format
 msgid "Address of the device:"
-msgstr "Adresa of the Uređaj:"
+msgstr "Adresa uređaja:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editor/settings/ui/bt.ui:41 editorqml/qml/vpn/openvpn/Openvpn.qml:47
 #, kde-format
@@ -1310,25 +1311,25 @@ msgid ""
 "will be preferred. Defaults to 0.\n"
 "The higher number means higher priority. A negative number can be used to "
 "indicate priority lower than the default."
-msgstr "If the Veza is set to autoconnect, connections with higher Prioritet will be preferred. Zadanos to 0.\\nThe higher number means higher Prioritet. A negative number can be used to indicate Prioritet lower than the Zadano."
+msgstr "Ako je veza postavljena na automatsko povezivanje, prednost će imati veze višeg prioriteta. Zadana vrijednost je 0.\nVeći broj označava viši prioritet. Negativnim brojem može se označiti prioritet niži od zadanog."
 #. i18n: ectx: property (text), widget (QCheckBox, allUsers)
 #: editor/settings/ui/connectionwidget.ui:47
 #: editorqml/qml/generalSettings/GeneralSettings.qml:60
 #, kde-format
 msgid "All users may connect to this network"
-msgstr "Svi se korisnici mogu povezati na ovu mrežu"
+msgstr "Svi se korisnici mogu povezati na mrežu"
 #. i18n: ectx: property (toolTip), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:63
 #, kde-format
 msgid "Edit advanced permissions for this connection"
-msgstr "Uredi Napredno permissions for this Veza"
+msgstr "Uredi napredne dozvole za ovu vezu"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:66
 #, kde-format
 msgid ""
 "Fine-grained permissions editor for this connection. It lets you choose "
 "which users can activate/modify/delete this connection."
-msgstr "Fine-grained permissions editor for this Veza. It lets you Odaberite which users can activate/modify/Izbriši this Veza."
+msgstr "Uređivač detaljnih dozvola za ovu vezu. Omogućuje odabir korisnika koji mogu aktivirati, mijenjati ili brisati vezu."
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
 #: editor/settings/ui/connectionwidget.ui:69
@@ -1348,7 +1349,7 @@ msgstr "Automatski poveži s VPN-om"
 msgid ""
 "Choose which VPN connection to automatically activate when this connection "
 "is established"
-msgstr "Odaberite which VPN Veza to automatically activate when this Veza is established"
+msgstr "Odaberite VPN vezu koja će se automatski aktivirati nakon uspostave ove veze"
 #. i18n: ectx: property (text), widget (QLabel, firewallZoneLabel)
 #: editor/settings/ui/connectionwidget.ui:102
 #: editorqml/qml/generalSettings/GeneralSettings.qml:114
@@ -1361,7 +1362,7 @@ msgstr "Zona vatrozida:"
 msgid ""
 "Assign this connection to a firewall zone to control network access and "
 "security rules"
-msgstr "Assign this Veza to a firewall zone to control Mreža access and Sigurnost rules"
+msgstr "Dodijelite ovoj vezi zonu vatrozida za upravljanje pristupom mreži i sigurnosnim pravilima"
 #. i18n: ectx: property (text), widget (QLabel, meteredLabel)
 #: editor/settings/ui/connectionwidget.ui:134
 #: editorqml/qml/generalSettings/GeneralSettings.qml:128
@@ -1374,7 +1375,7 @@ msgstr "Mreža s ograničenim prometom:"
 msgid ""
 "Indicates to applications whether the connection is metered and therefore\n"
 "data usage should be restricted."
-msgstr "Indicates to applications whether the Veza is metered and therefore\\ndata usage should be restricted."
+msgstr "Označava aplikacijama je li veza s ograničenim prometom i treba li ograničiti\npotrošnju podataka."
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #: editor/settings/ui/connectionwidget.ui:164
 #, kde-format
@@ -1425,7 +1426,7 @@ msgstr "Transport Način rada:"
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:21
 #, kde-format
 msgid "Restrict to device:"
-msgstr "Restrict to Uređaj:"
+msgstr "Ograniči na uređaj:"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, mtuLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -1472,7 +1473,7 @@ msgid ""
 "to identify the local machine that the DHCP server may use to customize the "
 "DHCP\n"
 "lease and options."
-msgstr "Koristi this field to specify the DHCP client ID which is a string sent to the DHCP Poslužitelj\\nto identify the Lokalni Računalo that the DHCP Poslužitelj may Koristi to customize the DHCP\\nlease and options."
+msgstr "U ovom polju navedite ID DHCP klijenta, niz znakova koji se šalje DHCP poslužitelju\nradi identifikacije lokalnog računala koje DHCP poslužitelj može upotrijebiti za prilagodbu DHCP\nnajma i opcija."
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
 #: editor/settings/ui/ipv4.ui:89 editor/settings/ui/ipv6.ui:277
 #: editorqml/qml/ipv4/IPv4Settings.qml:96
@@ -1481,14 +1482,14 @@ msgstr "Koristi this field to specify the DHCP client ID which is a string sent 
 msgid ""
 "Use this field to specify one or more DNS domains to search. Use ',' to "
 "separate entries."
-msgstr "Koristi this field to specify one or more DNS domene to Pretraživanje. Koristi ',' to separate entries."
+msgstr "U ovom polju navedite jednu ili više DNS domena za pretraživanje. Unose odvojite znakom ','."
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
 #: editor/settings/ui/ipv4.ui:96 editor/settings/ui/ipv6.ui:284
 #: editorqml/qml/ipv4/IPv4Settings.qml:110
 #: editorqml/qml/ipv6/IPv6Settings.qml:110
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
-msgstr "Uredi the list of DNS domene being searched"
+msgstr "Uredi popis DNS domena koje se pretražuju"
 #. i18n: ectx: property (text), widget (QLabel, dnsLabel)
 #: editor/settings/ui/ipv4.ui:114 editor/settings/ui/ipv6.ui:164
 #, kde-format
@@ -1519,7 +1520,7 @@ msgid ""
 "\n"
 "Default value -1 means that NetworkManager gets to choose and manage the "
 "actual metric of the route."
-msgstr "A score that helps Odaberite the best path for data packets to reach their destination,\\nbased Uključeno factors like distance, delay, and reliability.\\n\\nZadano value -1 means that NetworkManager gets to Odaberite and manage the actual Metrika of the Ruta."
+msgstr "Ocjena koja pomaže pri odabiru najbolje putanje kojom će podatkovni paketi stići do odredišta,\nna temelju čimbenika poput udaljenosti, kašnjenja i pouzdanosti.\n\nZadana vrijednost -1 znači da NetworkManager odabire i upravlja stvarnom metrikom rute."
 #. i18n: ectx: property (text), widget (QLabel, labelDhcpClientId)
 #: editor/settings/ui/ipv4.ui:215 editorqml/qml/ipv4/IPv4Settings.qml:115
 #, kde-format
@@ -1531,7 +1532,7 @@ msgstr "ID DHCP klijenta:"
 #: editorqml/qml/ipv6/IPv6Settings.qml:132
 #, kde-format
 msgid "Route Metric:"
-msgstr "Ruta Metrika:"
+msgstr "Metrika rute:"
 #. i18n: ectx: property (toolTip), widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:259 editorqml/qml/ipv4/IPv4Settings.qml:37
 #, kde-format
@@ -1545,7 +1546,7 @@ msgid ""
 "• Shared: turn this computer into a router to share internet with other "
 "devices\n"
 "• Disabled: turn off IPv4"
-msgstr "How to configure the IPv4 Adresa:\\n• Automatski: obtain Adresa and DNS automatically via DHCP\\n• Automatski (Only addresses): obtain Adresa via DHCP but configure DNS manually\\n• Link-Lokalni: Koristi Automatski link-Lokalni addressing (169.254.x.x)\\n• Ručno: enter a static IP Adresa\\n• Dijeljeno: turn this computer into a router to share internet with Ostalo devices\\n• Onemogućeno: turn Isključeno IPv4"
+msgstr "Kako konfigurirati IPv4 adresu:\n• Automatski: adresa i DNS automatski se dohvaćaju putem DHCP-a\n• Automatski (samo adrese): adresa se dohvaća putem DHCP-a, a DNS se konfigurira ručno\n• Lokalna veza: koristi se automatsko adresiranje lokalne veze (169.254.x.x)\n• Ručno: unosi se statička IP-adresa\n• Dijeljeno: ovo se računalo pretvara u usmjerivač za dijeljenje interneta s drugim uređajima\n• Onemogućeno: IPv4 se potpuno isključuje"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:263 editor/settings/ui/ipv6.ui:231
 #, kde-format
@@ -1556,12 +1557,12 @@ msgstr "Automatski"
 #: editor/settings/ui/ipv4.ui:268 editor/settings/ui/ipv6.ui:236
 #, kde-format
 msgid "Automatic (Only addresses)"
-msgstr "Automatski (Only addresses)"
+msgstr "Automatski (samo adrese)"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:273 editor/settings/ui/ipv6.ui:246
 #, kde-format
 msgid "Link-Local"
-msgstr "Link-Lokalni"
+msgstr "Lokalna veza"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:278 editor/settings/ui/ipv6.ui:251
 #, kde-format
@@ -1572,7 +1573,7 @@ msgstr "Ručno"
 #: editor/settings/ui/ipv4.ui:283
 #, kde-format
 msgid "Shared to other computers"
-msgstr "Dijeljeno to Ostalo computers"
+msgstr "Dijeljeno s drugim računalima"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:288
 #, kde-format
@@ -1587,24 +1588,27 @@ msgstr "Onemogućeno"
 msgid ""
 "Use this field to specify the IP address(es) of one or more DNS servers. Use "
 "',' to separate entries."
-msgstr "Koristi this field to specify the IP Adresa(es) of one or more DNS poslužitelji. Koristi ',' to separate entries."
+msgstr "U ovom polju navedite jednu ili više IP-adresa DNS poslužitelja. Unose odvojite znakom ','."
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #: editor/settings/ui/ipv4.ui:317
 #, kde-format
 msgid "Edit DNS the list of servers"
-msgstr "Uredi DNS the list of poslužitelji"
+msgstr "Uredi popis DNS poslužitelja"
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
 #: editor/settings/ui/ipv4.ui:330
 #, kde-format
 msgid ""
 "Allows the connection to complete if IPv4 configuration fails\n"
 "but IPv6 configuration succeeds"
-msgstr "Allows the Veza to complete if IPv4 configuration fails\\nbut IPv6 configuration succeeds"
+msgstr "Veza se može uspostaviti i ako konfiguracija IPv4 ne uspije,\nali konfiguracija IPv6 uspije."
+
 #. i18n: ectx: property (text), widget (QCheckBox, ipv4RequiredCB)
 #: editor/settings/ui/ipv4.ui:333 editorqml/qml/ipv4/IPv4Settings.qml:302
 #, kde-format
 msgid "IPv4 is required for this connection"
-msgstr "IPv4 is Obavezno for this Veza"
+msgstr "IPv4 je obvezan za ovu vezu."
+
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: editor/settings/ui/ipv4.ui:345 editor/settings/ui/ipv6.ui:107
 #: editorqml/qml/ipv4/IPv4Settings.qml:281
@@ -1633,7 +1637,7 @@ msgid ""
 "IP addresses identify your computer on the network. Click the \"Add\" button "
 "to add\n"
 "an IP address"
-msgstr "IP addresses identify your computer Uključeno the Mreža. Click the \\\"Dodaj\\\" button to Dodaj\\nan IP Adresa"
+msgstr "IP-adrese služe za identifikaciju računala u mreži. Kliknite gumb „Dodaj” da biste dodali\nIP-adresu."
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv6RequiredCB)
 #: editor/settings/ui/ipv6.ui:30
 #, kde-format
@@ -1641,18 +1645,18 @@ msgid ""
 "When connecting to IPv4-capable networks, allows the connection to complete "
 "if\n"
 "IPv6 configuration fails but IPv4 configuration succeeds"
-msgstr "When Povezivanje to IPv4-capable networks, allows the Veza to complete if\\nIPv6 configuration fails but IPv4 configuration succeeds"
+msgstr "Pri povezivanju s mrežama koje podržavaju IPv4, veza se može uspostaviti i ako\nkonfiguracija IPv6 ne uspije, ali konfiguracija IPv4 uspije."
 #. i18n: ectx: property (text), widget (QCheckBox, ipv6RequiredCB)
 #: editor/settings/ui/ipv6.ui:33 editorqml/qml/ipv6/IPv6Settings.qml:320
 #, kde-format
 msgid "IPv6 is required for this connection"
-msgstr "IPv6 is Obavezno for this Veza"
+msgstr "IPv6 je obvezan za ovu vezu."
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #: editor/settings/ui/ipv6.ui:83 editorqml/qml/ipv4/IPv4Settings.qml:73
 #: editorqml/qml/ipv6/IPv6Settings.qml:73
 #, kde-format
 msgid "Edit the list of DNS servers"
-msgstr "Uredi the list of DNS poslužitelji"
+msgstr "Uredi popis DNS poslužitelja"
 #. i18n: ectx: property (toolTip), widget (KComboBox, privacyCombo)
 #: editor/settings/ui/ipv6.ui:187
 #, kde-format
@@ -1661,7 +1665,7 @@ msgid ""
 "enabled, it makes the kernel generate\n"
 "a temporary IPv6 address in addition to the public one generated from MAC "
 "address via modified EUI-64."
-msgstr "Konfiguriraj IPv6 Privacy Extensions for SLAAC, described in RFC4941. If Omogućeno, it makes the kernel generate\\na temporary IPv6 Adresa in addition to the Javni one generated from MAC Adresa via modified EUI-64."
+msgstr "Konfiguriraj IPv6 proširenja privatnosti za SLAAC opisana u RFC4941. Ako su omogućena, jezgra će generirati\nprivremenu IPv6-adresu uz javnu adresu generiranu iz MAC-adrese putem izmijenjenog EUI-64."
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: editor/settings/ui/ipv6.ui:196
 #, kde-format
@@ -1672,12 +1676,12 @@ msgstr "Onemogućeno"
 #: editor/settings/ui/ipv6.ui:201
 #, kde-format
 msgid "Enabled (prefer public address)"
-msgstr "Omogućeno (prefer Javni Adresa)"
+msgstr "Omogućeno (prednost imaju javne adrese)"
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: editor/settings/ui/ipv6.ui:206
 #, kde-format
 msgid "Enabled (prefer temporary addresses)"
-msgstr "Omogućeno (prefer temporary addresses)"
+msgstr "Omogućeno (prednost imaju privremene adrese)"
 #. i18n: ectx: property (toolTip), widget (KComboBox, method)
 #: editor/settings/ui/ipv6.ui:227 editorqml/qml/ipv6/IPv6Settings.qml:37
 #, kde-format
@@ -1692,12 +1696,12 @@ msgid ""
 "• Manual: enter a static IP address\n"
 "• Ignored: skip IPv6 configuration but allow connection\n"
 "• Disabled: turn off IPv6 completely"
-msgstr "How to configure the IPv6 Adresa:\\n• Automatski: obtain Adresa and DNS automatically (via SLAAC and/or DHCPv6)\\n• Automatski (Only addresses): obtain Adresa automatically but configure DNS manually\\n• Automatski (Only DHCP): obtain Adresa and DNS via DHCPv6 only (Zanemari SLAAC)\\n• Link-Lokalni: Koristi Automatski link-Lokalni addressing (fe80::/10)\\n• Ručno: enter a static IP Adresa\\n• Zanemareno: skip IPv6 configuration but allow Veza\\n• Onemogućeno: turn Isključeno IPv6 completely"
+msgstr "Kako konfigurirati IPv6 adresu:\n• Automatski: adresa i DNS automatski se dohvaćaju (putem SLAAC-a i/ili DHCPv6)\n• Automatski (samo adrese): adresa se automatski dohvaća, a DNS se konfigurira ručno\n• Automatski (samo DHCP): adresa i DNS dohvaćaju se isključivo putem DHCPv6 (SLAAC se zanemaruje)\n• Lokalna veza: koristi se automatsko adresiranje lokalne veze (fe80::/10)\n• Ručno: unosi se statička IP-adresa\n• Zanemareno: preskače se konfiguracija IPv6, ali se dopušta povezivanje\n• Onemogućeno: IPv6 se potpuno isključuje"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv6.ui:241
 #, kde-format
 msgid "Automatic (Only DHCP)"
-msgstr "Automatski (Only DHCP)"
+msgstr "Automatski (samo DHCP)"
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv6.ui:256
 #, kde-format
@@ -1757,7 +1761,7 @@ msgstr "Koristi TCP header Kompresija"
 #: editor/settings/ui/ppp.ui:152
 #, kde-format
 msgid "Require 128-bit encryption"
-msgstr "Require 128-bit Šifriranje"
+msgstr "Zahtijevaj 128-bitno šifriranje"
 #. i18n: ectx: property (text), widget (QCheckBox, mppeStateful)
 #: editor/settings/ui/ppp.ui:165
 #, kde-format
@@ -1776,7 +1780,7 @@ msgstr "Odjek"
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:195
 #, kde-format
 msgid "Send PPP echo packets"
-msgstr "Pošalji PPP echo packets"
+msgstr "Pošalji PPP pakete za provjeru odziva"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/settings/ui/pppoe.ui:20
 #, kde-format
@@ -1790,7 +1794,7 @@ msgid ""
 "concentrators that provide the specified service. For most providers, this "
 "should be left blank. It is only required if there are multiple access "
 "concentrators or a specific service is known to be required."
-msgstr "If specified, instruct PPPoE to only initiate sessions with access concentrators that provide the specified service. For most providers, this should be left blank. It is only Obavezno if there are multiple access concentrators or a specific service is known to be Obavezno."
+msgstr "Ako je navedeno, PPPoE će pokretati sesije samo s koncentratorima pristupa koji pružaju navedenu uslugu. Većina pružatelja usluga ovo polje može ostaviti praznim. Potrebno ga je ispuniti samo ako postoji više koncentratora pristupa ili je potrebno navesti određenu uslugu."
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/settings/ui/team.ui:31
 #, kde-format
@@ -1810,7 +1814,7 @@ msgstr "Uvezi konfiguraciju iz datoteke…"
 #: editor/settings/ui/vlan.ui:18
 #, kde-format
 msgid "Parent interface:"
-msgstr "Parent Sučelje:"
+msgstr "Nadređeno sučelje:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editor/settings/ui/vlan.ui:41
 #, kde-format
@@ -1820,7 +1824,7 @@ msgstr "VLAN ID:"
 #: editor/settings/ui/vlan.ui:64
 #, kde-format
 msgid "VLAN interface name:"
-msgstr "VLAN Naziv sučelja:"
+msgstr "Naziv VLAN sučelja:"
 #. i18n: ectx: property (text), widget (QCheckBox, reorderHeaders)
 #: editor/settings/ui/vlan.ui:77
 #, kde-format
@@ -1857,7 +1861,7 @@ msgstr "SSID:"
 #: editor/settings/ui/wificonnectionwidget.ui:61
 #, kde-format
 msgid "The name of the Wi-Fi network to connect to"
-msgstr "The Naziv of the Wi-Fi Mreža to Poveži to"
+msgstr "Naziv Wi-Fi mreže s kojom se povezati"
 #. i18n: ectx: property (toolTip), widget (KComboBox, modeComboBox)
 #: editor/settings/ui/wificonnectionwidget.ui:90
 #, kde-format
@@ -1866,7 +1870,7 @@ msgid ""
 "• Infrastructure: connect to a Wi-Fi router (normal mode)\n"
 "• Ad-hoc: create a direct peer-to-peer network\n"
 "• Access Point: turn this computer into a Wi-Fi hotspot"
-msgstr "Način rada Wi-Fi mreže:\\n• Infrastructure: Poveži to a Wi-Fi router (normal Način rada)\\n• Ad-hoc: create a direct Drugi uređaj-to-Drugi uređaj Mreža\\n• Access Point: turn this computer into a Wi-Fi hotspot"
+msgstr "Način rada Wi-Fi mreže:\n• Infrastrukturni: poveži se s Wi-Fi usmjerivačem (uobičajeni način rada)\n• Ad hoc: stvori izravnu ravnopravnu (peer-to-peer) mrežu\n• Pristupna točka: pretvori ovo računalo u Wi-Fi pristupnu točku"
 #. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #: editor/settings/ui/wificonnectionwidget.ui:94
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:73
@@ -1897,7 +1901,7 @@ msgstr "Ograniči na BSSID:"
 msgid ""
 "Lock this connection to a specific access point. Enter the BSSID (MAC "
 "address) of the access point."
-msgstr "Lock this Veza to a specific access point. Enter the BSSID (MAC Adresa) of the access point."
+msgstr "Veži ovu vezu uz određenu pristupnu točku. Unesi njezin BSSID (MAC-adresu)."
 #. i18n: ectx: property (text), widget (QLabel, bandLabel)
 #: editor/settings/ui/wificonnectionwidget.ui:163
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:133
@@ -1911,7 +1915,7 @@ msgid ""
 "This option locks the connection to the Wi-Fi network associated to the "
 "specified band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
-msgstr "This option locks the Veza to the Wi-Fi Mreža associated to the specified band. This setting depends\\n Uključeno specific driver capability and may not work with all drivers"
+msgstr "Ova opcija veže vezu uz Wi-Fi mrežu povezanu s navedenim frekvencijskim pojasom. Postavka ovisi\no mogućnostima upravljačkog programa i možda neće raditi sa svim upravljačkim programima."
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #: editor/settings/ui/wificonnectionwidget.ui:187
 #, kde-format
@@ -1943,20 +1947,20 @@ msgid ""
 "Wireless channel to use for the Wi-Fi connection. The device will only join "
 "(or create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
-msgstr "Bežična veza Kanal to Koristi for the Wi-Fi Veza. The Uređaj will only join (or create for Ad-Hoc networks)\\na Wi-Fi Mreža Uključeno the specified Kanal"
+msgstr "Bežični kanal koji će se koristiti za Wi-Fi vezu. Uređaj će se pridružiti (ili stvoriti u slučaju ad hoc mreža)\nsamo Wi-Fi mreži na navedenom kanalu."
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/settings/ui/wificonnectionwidget.ui:232
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:164
 #, kde-format
 msgid "Restrict to network adapter:"
-msgstr "Restrict to Mreža adapter:"
+msgstr "Ograniči na mrežni adapter:"
 #. i18n: ectx: property (toolTip), widget (HwAddrComboBox, macAddress)
 #: editor/settings/ui/wificonnectionwidget.ui:251
 #, kde-format
 msgid ""
 "Lock this connection to a particular network adapter by specifying its MAC "
 "address."
-msgstr "Lock this Veza to a particular Mreža adapter by specifying its MAC Adresa."
+msgstr "Veži ovu vezu uz određeni mrežni adapter navođenjem njegove MAC-adrese."
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: editor/settings/ui/wificonnectionwidget.ui:258
 #: editor/settings/ui/wiredconnectionwidget.ui:47
@@ -1970,7 +1974,7 @@ msgstr "Klonirana MAC adresa:"
 #, kde-format
 msgid ""
 "Use a different MAC address instead of your network adapter's real address."
-msgstr "Koristi a different MAC Adresa instead of your Mreža adapter's real Adresa."
+msgstr "Koristi drugu MAC-adresu umjesto stvarne adrese mrežnog adaptera."
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
 #: editor/settings/ui/wificonnectionwidget.ui:292
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:212
@@ -1984,7 +1988,7 @@ msgstr "Nasumično…"
 msgid ""
 "Maximum Transmission Unit: the largest packet size that can be sent without "
 "fragmentation. Larger packets will be broken into smaller frames."
-msgstr "Maximum Transmission Unit: the largest packet size that can be sent without fragmentation. Larger packets will be broken into smaller frames."
+msgstr "Jedinica maksimalnog prijenosa (MTU): najveća veličina paketa koji se može poslati bez fragmentacije. Veći se paketi razdvajaju na manje okvire."
 #. i18n: ectx: property (toolTip), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, hiddenNetwork)
 #: editor/settings/ui/wificonnectionwidget.ui:342
@@ -2031,12 +2035,12 @@ msgstr "Nijedno"
 #: editor/settings/ui/wifisecurity.ui:60
 #, kde-format
 msgid "WEP key 40/128 bits (Hex or ASCII)"
-msgstr "WEP Ključ 40/128 bits (Hex or ASCII)"
+msgstr "WEP ključ od 40/128 bitova (heksadekadski ili ASCII)"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:65
 #, kde-format
 msgid "WEP key 128 bits"
-msgstr "WEP Ključ 128 bits"
+msgstr "WEP ključ od 128 bitova"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:75 editorqml/qml/wifisecurity/WifiSecurityForm.qml:27
 #, kde-format
@@ -2046,22 +2050,22 @@ msgstr "Dynamic WEP (802.1x)"
 #: editor/settings/ui/wifisecurity.ui:80
 #, kde-format
 msgid "WPA2/WPA3 Personal"
-msgstr "WPA2/WPA3 Personal"
+msgstr "WPA2/WPA3 osobno"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:85
 #, kde-format
 msgid "WPA2/WPA3 Enterprise"
-msgstr "WPA2/WPA3 Enterprise"
+msgstr "WPA2/WPA3 za poduzeća"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:90 editorqml/qml/wifisecurity/WifiSecurityForm.qml:30
 #, kde-format
 msgid "WPA3 Personal"
-msgstr "WPA3 Personal"
+msgstr "WPA3 osobno"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:95 editorqml/qml/wifisecurity/WifiSecurityForm.qml:31
 #, kde-format
 msgid "WPA3 Enterprise 192-bit"
-msgstr "WPA3 Enterprise 192-bit"
+msgstr "WPA3 za poduzeća 192-bitno"
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:100
 #: editorqml/qml/wifisecurity/WifiSecurityForm.qml:32
@@ -2082,7 +2086,7 @@ msgstr "WEP indeks:"
 #: editor/settings/ui/wifisecurity.ui:151
 #, kde-format
 msgid "1 (default)"
-msgstr "1 (Zadano)"
+msgstr "1 (zadano)"
 #. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
 #: editor/settings/ui/wifisecurity.ui:156
 #, kde-format
@@ -2116,7 +2120,7 @@ msgstr "Dijeljeni ključ"
 msgid ""
 "This option locks this connection to the network device specified by its\n"
 "permanent MAC address entered here. Example: 00:11:22:33:44:55"
-msgstr "This option locks this Veza to the Mreža Uređaj specified by its\\npermanent MAC Adresa entered here. Example: 00:11:22:33:44:55"
+msgstr "Ova opcija veže vezu uz mrežni uređaj naveden njegovom\nstalnom MAC-adresom. Primjer: 00:11:22:33:44:55"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, clonedMacAddress)
 #: editor/settings/ui/wiredconnectionwidget.ui:67
 #, kde-format
@@ -2125,7 +2129,7 @@ msgid ""
 "network device this connection is activated on. This feature is known as "
 "MAC\n"
 "cloning or spoofing. Example 11:22:33:44:55"
-msgstr "The MAC Adresa entered here will be used as hardware Adresa for the\\nMreža Uređaj this Veza is activated Uključeno. This feature is known as MAC\\ncloning or spoofing. Example 11:22:33:44:55"
+msgstr "Ovdje navedena MAC-adresa koristit će se kao hardverska adresa mrežnog uređaja\nna kojem je veza aktivirana. Ta je značajka poznata kao kloniranje ili lažiranje MAC-adrese.\nPrimjer: 11:22:33:44:55"
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
 #: editor/settings/ui/wiredconnectionwidget.ui:80
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:135
@@ -2140,7 +2144,7 @@ msgid ""
 "Only transmit packets of the specified size or smaller, breaking larger "
 "packets up\n"
 "into multiple Ethernet frames"
-msgstr "Only transmit packets of the specified size or smaller, breaking larger packets up\\ninto multiple Ethernet frames"
+msgstr "Prenosi samo pakete navedene veličine ili manje, a veće pakete razlaže\nna više Ethernet okvira."
 #. i18n: ectx: property (text), widget (QLabel, speedLabel)
 #: editor/settings/ui/wiredconnectionwidget.ui:125
 #, kde-format
@@ -2158,7 +2162,7 @@ msgstr "Dupleks:"
 msgid ""
 "Request that the device use the specified duplex mode. Either \"half\" or "
 "\"full\""
-msgstr "Request that the Uređaj Koristi the specified duplex Način rada. Either \\\"Polovični\\\" or \\\"Puni\\\""
+msgstr "Zatraži da uređaj koristi navedeni dupleksni način rada: „Polovični” ili „Puni”."
 #. i18n: ectx: property (text), item, widget (KComboBox, duplex)
 #: editor/settings/ui/wiredconnectionwidget.ui:158
 #, kde-format
@@ -2182,7 +2186,7 @@ msgid ""
 "Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values "
 "will be forced without checking\n"
 "the device compatibility. If unsure, leave here “Ignore” or pick “Automatic”."
-msgstr "Uređaj link negotiation. If “Ručno” is chosen, “Brzina” and “Duplex” values will be forced without checking\\nthe Uređaj compatibility. If unsure, leave here “Zanemari” or pick “Automatski”."
+msgstr "Pregovaranje o vezi uređaja. Ako odabereš „Ručno”, vrijednosti „Brzina” i „Dupleks” bit će zadane bez provjere\nkompatibilnosti uređaja. Ako nisi siguran, ostavi „Zanemari” ili odaberi „Automatski”."
 #. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
 #: editor/settings/ui/wiredconnectionwidget.ui:192
 #, kde-format
@@ -2203,7 +2207,7 @@ msgstr "Ručno"
 #: editor/settings/ui/wiredconnectionwidget.ui:219
 #, kde-format
 msgid "Request that the device use only the specified speed."
-msgstr "Request that the Uređaj Koristi only the specified Brzina."
+msgstr "Zatraži da uređaj koristi samo navedenu brzinu."
 #. i18n: ectx: property (text), item, widget (QComboBox, speed)
 #: editor/settings/ui/wiredconnectionwidget.ui:226
 #: editorqml/settings/wiredconnectionsettings/wiredsettings.cpp:132
@@ -2275,14 +2279,14 @@ msgstr "Sučelje"
 msgid ""
 "Required.\n"
 "Network interface name."
-msgstr "Obavezno.\\nMreža Naziv sučelja."
+msgstr "Obvezno.\nNaziv mrežnog sučelja."
 #. i18n: ectx: property (toolTip), widget (PasswordField, privateKeyLineEdit)
 #: editor/settings/ui/wireguardinterfacewidget.ui:49
 #, kde-format
 msgid ""
 "Required.\n"
 "A base64 private key generated by wg genkey."
-msgstr "Obavezno.\\nA base64 Privatni Ključ generated by wg genkey."
+msgstr "Obvezno.\nPrivatni ključ u obliku base64, generiran naredbom wg genkey."
 #. i18n: ectx: property (text), widget (QLabel, listenPortLabel)
 #: editor/settings/ui/wireguardinterfacewidget.ui:56
 #, kde-format
@@ -2294,7 +2298,7 @@ msgstr "Priključak za slušanje:"
 msgid ""
 "Optional.\n"
 "Listen port number. Chosen randomly if left as 'Automatic'."
-msgstr "Neobavezno.\\nSlušanje Priključak number. Chosen randomly if left as 'Automatski'."
+msgstr "Neobvezno.\nBroj priključka za slušanje. Odabire se nasumično ako se ostavi na „Automatski”."
 #. i18n: ectx: property (text), widget (QLabel, fwmarkLabel)
 #: editor/settings/ui/wireguardinterfacewidget.ui:72
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:88
@@ -2309,7 +2313,7 @@ msgid ""
 "An fwmark for outgoing packets. If set to 0 or 'off', this\n"
 "option is disabled. May be specified in hexadecimal by\n"
 "prepending '0x'."
-msgstr "Neobavezno.\\nAn fwmark for outgoing packets. If set to 0 or 'Isključeno', this\\noption is Onemogućeno. May be specified in hexadecimal by\\nprepending '0x'."
+msgstr "Neobvezno.\nOznaka fwmark za odlazne pakete. Ako je postavljena na 0 ili „Isključeno”,\nopcija je onemogućena. Može se navesti u heksadekadskom obliku uz\nprefiks „0x”."
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mtuLineEdit)
 #: editor/settings/ui/wireguardinterfacewidget.ui:101
 #, kde-format
@@ -2320,7 +2324,7 @@ msgid ""
 "which is usually a sane choice. However, to manually\n"
 "specify an MTU and to override this automatic discovery,\n"
 "this value may be specified explicitly."
-msgstr "Neobavezno.\\nIf not specified, the MTU is automatically determined\\nfrom the endpoint addresses or the system Zadano Ruta,\\nwhich is usually a sane choice. However, to manually\\nspecify an MTU and to override this Automatski discovery,\\nthis value may be specified explicitly."
+msgstr "Neobvezno.\nAko nije navedena, MTU se automatski određuje\nna temelju adresa krajnje točke ili zadane sistemske rute,\nšto je obično dobar odabir. Međutim, ako želiš ručno\nnavesti MTU i nadjačati automatsko otkrivanje,\nmožeš izričito navesti ovu vrijednost."
 #. i18n: ectx: property (text), widget (QLabel, peerRouteLabel)
 #: editor/settings/ui/wireguardinterfacewidget.ui:108
 #, kde-format
@@ -2332,12 +2336,12 @@ msgstr "Automatsko usmjeravanje za druge uređaje:"
 msgid ""
 "Whether to automatically add routes for the AllowedIPs ranges\n"
 "of the peers."
-msgstr "Whether to automatically Dodaj Rute for the AllowedIPs ranges\\nof the Drugi uređaji."
+msgstr "Određuje hoće li se rute za raspone AllowedIPs\npeerova dodavati automatski."
 #. i18n: ectx: property (text), widget (QPushButton, btnPeers)
 #: editor/settings/ui/wireguardinterfacewidget.ui:141
 #, kde-format
 msgid "Peers…"
-msgstr "Drugi uređaji…"
+msgstr "Peerovi…"
 #. i18n: ectx: property (text), widget (QLabel, publicKeyLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:17
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:19
@@ -2352,7 +2356,7 @@ msgid ""
 "            A base64 public key calculated by wg pubkey \n"
 "            from a private key, and usually transmitted \n"
 "            out of band to the author of the configuration file."
-msgstr "Obavezno.\\n            A base64 Javni Ključ calculated by wg pubkey \\n            from a Privatni Ključ, and usually transmitted \\n            out of band to the author of the configuration file."
+msgstr "Obvezno.\nJavni ključ u obliku base64, izračunat naredbom wg pubkey\nna temelju privatnog ključa, obično se autoru konfiguracijske datoteke\nšalje izvan kanala."
 #. i18n: ectx: property (text), widget (QLabel, allowedIPsLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:34
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:20
@@ -2370,7 +2374,7 @@ msgid ""
 "            for this peer is directed. The catch-all 0.0.0.0/0 \n"
 "            may be specified for matching all IPv4 addresses, \n"
 "            and ::/0 may be specified for matching all IPv6 addresses."
-msgstr "Obavezno.\\n            A comma-separated list of IP (v4 or v6) addresses \\n            with CIDR masks from which incoming traffic for \\n            this Drugi uređaj is allowed and to which outgoing traffic \\n            for this Drugi uređaj is directed. The catch-all 0.0.0.0/0 \\n            may be specified for matching all IPv4 addresses, \\n            and ::/0 may be specified for matching all IPv6 addresses."
+msgstr "Obvezno.\nPopis IP-adresa (v4 ili v6) s CIDR-maskama,\nodvojenih zarezima,\ns kojih je dopušten dolazni promet za peer\ni na koje se usmjerava odlazni promet.\nZa podudaranje sa svim IPv4-adresama može se navesti\n0.0.0.0/0, a za sve IPv6-adrese može se navesti ::/0."
 #. i18n: ectx: property (text), widget (QLabel, endpointAddressLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:55
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:21
@@ -2386,7 +2390,7 @@ msgid ""
 "            IPv4 address, IPv6 address, or FQDN (fully\n"
 "            qualified domain name such as abc.com). If\n"
 "            present, Endpoint port must also be set."
-msgstr "Neobavezno.\\n            An endpoint for the Veza. Can be an\\n            IPv4 Adresa, IPv6 Adresa, or FQDN (fully\\n            qualified Domena Naziv such as abc.com). If\\n            present, Endpoint Priključak must also be set."
+msgstr "Neobvezno.\nKrajnja točka veze. Može biti IPv4-adresa,\nIPv6-adresa ili FQDN (potpuno kvalificirani naziv domene,\nprimjerice abc.com). Ako je navedena,\nmora se postaviti i priključak krajnje točke."
 #. i18n: ectx: property (text), widget (QLabel, endpointPortLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:74
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:22
@@ -2400,7 +2404,7 @@ msgid ""
 "Optional.\n"
 "            The port number of an endpoint. If present Endpoint\n"
 "            Address must also be set."
-msgstr "Neobavezno.\\n            The Priključak number of an endpoint. If present Endpoint\\n            Adresa must also be set."
+msgstr "Neobvezno.\nBroj priključka krajnje točke. Ako je naveden,\nmora se postaviti i adresa krajnje točke."
 #. i18n: ectx: property (text), widget (QLabel, presharedKeyLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:91
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:23
@@ -2416,7 +2420,7 @@ msgid ""
 "            This option adds an additional layer of symmetric-key\n"
 "            cryptography to be mixed into the already existing\n"
 "            public-key cryptography, for post-quantum resistance."
-msgstr "Neobavezno.\\n            A base64 preshared Ključ generated by wg genpsk.\\n            This option adds an additional layer of symmetric-Ključ\\n            cryptography to be mixed into the already existing\\n            Javni-Ključ cryptography, for post-quantum resistance."
+msgstr "Neobvezno.\nUnaprijed podijeljeni ključ u obliku base64, generiran naredbom wg genpsk.\nOva opcija dodaje dodatni sloj kriptografije simetričnim ključem\npostojećoj kriptografiji javnim ključem,\nšto pruža otpornost na kvantna računala."
 #. i18n: ectx: property (text), widget (QLabel, keepaliveLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:109
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:24
@@ -2439,7 +2443,7 @@ msgid ""
 "            0 or \"off\", this option is disabled. By default or\n"
 "            when unspecified, this option is off. Most users will not\n"
 "            need this."
-msgstr "Neobavezno.\\n            A seconds interval, between 1 and 65535 inclusive, of\\n            how often to Pošalji an Autentificirano empty packet to\\n            the Drugi uređaj for the purpose of keeping a stateful firewall\\n            or NAT mapping valid persistently. For example, if the\\n            Sučelje very rarely sends traffic, but it might at\\n            anytime receive traffic from a Drugi uređaj, and it is behind\\n            NAT, the Sučelje might benefit from having a\\n            persistent keepalive interval of 25 seconds. If set to\\n            0 or \\\"Isključeno\\\", this option is Onemogućeno. By Zadano or\\n            when unspecified, this option is Isključeno. Most users will not\\n            need this."
+msgstr "Neobvezno.\nInterval u sekundama, od 1 do uključivo 65535, kojim se\npeeru šalje autentificirani prazan paket radi\ntrajnog održavanja mapiranja na vatrozidu s praćenjem\nstanja ili NAT-u. Primjerice, ako sučelje vrlo rijetko\nšalje promet, ali u bilo kojem trenutku može primiti\npromet od peera iza NAT-a, koristan može biti\ntrajni keepalive interval od 25 sekundi. Ako se\npostavi na 0 ili „Isključeno”, ova je opcija\nonemogućena.\nZadano je isključena. Većini korisnika\nova opcija nije potrebna."
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: editor/settings/ui/wireguardtabwidget.ui:24
 #, kde-format
@@ -2449,12 +2453,12 @@ msgstr "Drugi uređaj 1"
 #: editor/settings/ui/wireguardtabwidget.ui:37
 #, kde-format
 msgid "Add new Peer"
-msgstr "Dodaj new Drugi uređaj"
+msgstr "Dodaj novi peer"
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: editor/settings/ui/wireguardtabwidget.ui:44
 #, kde-format
 msgid "Remove this Peer"
-msgstr "Ukloni this Drugi uređaj"
+msgstr "Ukloni ovaj peer"
 #: editor/settings/wificonnectionwidget.cpp:235
 #, kde-format
 msgctxt "@action:inmenu automatic wireless channel selection"
@@ -2495,27 +2499,27 @@ msgstr "ADSL"
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (bond)"
-msgstr "Virtual (bond)"
+msgstr "Virtualno (bond)"
 #: editor/uiutils.cpp:143
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (bridge)"
-msgstr "Virtual (bridge)"
+msgstr "Virtualno (bridge)"
 #: editor/uiutils.cpp:146
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (vlan)"
-msgstr "Virtual (vlan)"
+msgstr "Virtualno (vlan)"
 #: editor/uiutils.cpp:149
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Virtual (team)"
-msgstr "Virtual (team)"
+msgstr "Virtualno (team)"
 #: editor/uiutils.cpp:156
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
 msgid "Serial Modem"
-msgstr "Serial Način radam"
+msgstr "Serijski modem"
 #: editor/uiutils.cpp:161
 #, kde-format
 msgctxt "title of the interface widget in nm's popup"
@@ -2562,11 +2566,11 @@ msgstr "Nepoznata vrsta veze"
 #: editor/uiutils.cpp:252
 #, kde-format
 msgid "Wireless Interface (%1)"
-msgstr "Bežična veza Sučelje (%1)"
+msgstr "Sučelje bežične veze (%1)"
 #: editor/uiutils.cpp:255
 #, kde-format
 msgid "Wired Interface (%1)"
-msgstr "Žična veza Sučelje (%1)"
+msgstr "Sučelje žične veze (%1)"
 #: editor/uiutils.cpp:258
 #, kde-format
 msgid "Bluetooth (%1)"
@@ -2574,7 +2578,7 @@ msgstr "Bluetooth (%1)"
 #: editor/uiutils.cpp:261
 #, kde-format
 msgid "Modem (%1)"
-msgstr "Način radam (%1)"
+msgstr "Modem (%1)"
 #: editor/uiutils.cpp:264
 #, kde-format
 msgid "ADSL (%1)"
@@ -2590,7 +2594,7 @@ msgstr "Bridge (%1)"
 #: editor/uiutils.cpp:273
 #, kde-format
 msgid "Loopback Interface (%1)"
-msgstr "Loopback Sučelje (%1)"
+msgstr "Sučelje povratne petlje (%1)"
 #: editor/uiutils.cpp:286
 #, kde-format
 msgctxt "description of unknown network interface state"
@@ -2656,7 +2660,7 @@ msgstr "Povezano to %1"
 #, kde-format
 msgctxt "network interface disconnecting state label"
 msgid "Deactivating connection"
-msgstr "Deactivating Veza"
+msgstr "Prekidanje veze"
 #: editor/uiutils.cpp:326
 #, kde-format
 msgctxt "network interface connection failed state label"
@@ -2726,7 +2730,7 @@ msgstr "Infrastructure"
 #, kde-format
 msgctxt "wireless network operation mode"
 msgid "Access point"
-msgstr "Access point"
+msgstr "Pristupna točka"
 #: editor/uiutils.cpp:407
 #, kde-format
 msgctxt "wireless network cipher"
@@ -2836,17 +2840,17 @@ msgstr "LTE"
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision B"
-msgstr "CDMA2000 EVDO revision B"
+msgstr "CDMA2000 EVDO revizija B"
 #: editor/uiutils.cpp:494
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision A"
-msgstr "CDMA2000 EVDO revision A"
+msgstr "CDMA2000 EVDO revizija A"
 #: editor/uiutils.cpp:496
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision 0"
-msgstr "CDMA2000 EVDO revision 0"
+msgstr "CDMA2000 EVDO revizija 0"
 #: editor/uiutils.cpp:498
 #, kde-format
 msgctxt "Cellular access technology"
@@ -2921,77 +2925,77 @@ msgstr "Modem je otključan."
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN code."
-msgstr "SIM kartica zahtijeva PIN code."
+msgstr "SIM kartica zahtijeva PIN."
 #: editor/uiutils.cpp:536
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN2 code."
-msgstr "SIM kartica zahtijeva PIN2 code."
+msgstr "SIM kartica zahtijeva PIN2."
 #: editor/uiutils.cpp:538
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK code."
-msgstr "SIM kartica zahtijeva PUK code."
+msgstr "SIM kartica zahtijeva PUK."
 #: editor/uiutils.cpp:540
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK2 code."
-msgstr "SIM kartica zahtijeva PUK2 code."
+msgstr "SIM kartica zahtijeva PUK2."
 #: editor/uiutils.cpp:542
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PIN code."
-msgstr "Način radam zahtijeva service Operator PIN code."
+msgstr "Modem zahtijeva PIN operatora usluge."
 #: editor/uiutils.cpp:544
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PUK code."
-msgstr "Način radam zahtijeva service Operator PUK code."
+msgstr "Modem zahtijeva PUK operatora usluge."
 #: editor/uiutils.cpp:546
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PIN code."
-msgstr "Način radam zahtijeva Mreža PIN code."
+msgstr "Modem zahtijeva mrežni PIN."
 #: editor/uiutils.cpp:548
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PUK code."
-msgstr "Način radam zahtijeva Mreža PUK code."
+msgstr "Modem zahtijeva mrežni PUK."
 #: editor/uiutils.cpp:550
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PIN code."
-msgstr "Način radam zahtijeva PIN code."
+msgstr "Modem zahtijeva PIN."
 #: editor/uiutils.cpp:552
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PIN code."
-msgstr "Način radam zahtijeva corporate PIN code."
+msgstr "Modem zahtijeva PIN tvrtke."
 #: editor/uiutils.cpp:554
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PUK code."
-msgstr "Način radam zahtijeva corporate PUK code."
+msgstr "Modem zahtijeva PUK tvrtke."
 #: editor/uiutils.cpp:556
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PIN code."
-msgstr "Način radam zahtijeva PH-FSIM PIN code."
+msgstr "Modem zahtijeva PH-FSIM PIN."
 #: editor/uiutils.cpp:558
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PUK code."
-msgstr "Način radam zahtijeva PH-FSIM PUK code."
+msgstr "Modem zahtijeva PH-FSIM PUK."
 #: editor/uiutils.cpp:560
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PIN code."
-msgstr "Način radam zahtijeva Mreža subset PIN code."
+msgstr "Modem zahtijeva PIN za podskupinu mreže."
 #: editor/uiutils.cpp:562
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PUK code."
-msgstr "Način radam zahtijeva Mreža subset PUK code."
+msgstr "Modem zahtijeva PUK za podskupinu mreže."
 #: editor/uiutils.cpp:565
 #, kde-format
 msgctxt "possible SIM lock reason"
@@ -3056,7 +3060,7 @@ msgstr "Enhanced Open (OWE)"
 #, kde-format
 msgctxt "@label unknown security"
 msgid "Unknown security type"
-msgstr "Nepoznato Sigurnost Vrsta"
+msgstr "Nepoznata vrsta sigurnosti"
 #: editor/uiutils.cpp:637
 #, kde-format
 msgctxt ""
@@ -3083,29 +3087,29 @@ msgstr[2] "Korišteno prije %1 sati"
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
-msgstr "Last used yesterday"
+msgstr "Zadnje korišteno jučer"
 #: editor/uiutils.cpp:650
 #, kde-format
 msgid "Last used on %1"
-msgstr "Last used Uključeno %1"
+msgstr "Zadnje korišteno: %1"
 #: editor/uiutils.cpp:656
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never used"
-msgstr "Never used"
+msgstr "Nikad korišteno"
 #: editor/vpnuiplugin.cpp:42
 #, kde-format
 msgid "No VPN plugin found for type %1"
-msgstr "Ne VPN plugin found for Vrsta %1"
+msgstr "Nije pronađen dodatak za VPN vrste %1"
 #: editor/vpnuiplugin.cpp:99
 #, kde-format
 msgid "Importing this type of VPN is not implemented"
-msgstr "Importing this Vrsta of VPN is not implemented"
+msgstr "Uvoz ove vrste VPN-a nije implementiran."
 #: editor/vpnuiplugin.cpp:123
 #, kde-format
 msgid "Not implemented"
-msgstr "Not implemented"
+msgstr "Nije implementirano"
 #: editor/widgets/advancedpermissionswidget.cpp:86
 #, kde-format
 msgctxt "@item:intable shortcut for Not Available"
@@ -3115,18 +3119,18 @@ msgstr "N/A"
 #, kde-format
 msgctxt "@info:tooltip real user name is not available"
 msgid "Not Available"
-msgstr "Not Dostupno"
+msgstr "Nije dostupno"
 #: editor/widgets/bssidcombobox.cpp:126
 #, kde-format
 msgid "First select the SSID"
-msgstr "First Odaberi the SSID"
+msgstr "Najprije odaberi SSID"
 #: editor/widgets/bssidcombobox.cpp:135
 #, kde-format
 msgid ""
 "%1 (%2%)\n"
 "Frequency: %3 Mhz\n"
 "Channel: %4"
-msgstr "%1 (%2%)\\nFrekvencija: %3 Mhz\\nKanal: %4"
+msgstr "%1 (%2%)\nFrekvencija: %3 Mhz\nKanal: %4"
 #: editor/widgets/ipv4routeswidget.cpp:31
 #, kde-format
 msgctxt "Header text for IPv4 route metric"
@@ -3146,7 +3150,7 @@ msgstr "Metrika"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "New Mobile Broadband Connection"
-msgstr "New Mobilni širokopojasni pristup Veza"
+msgstr "Nova mobilna širokopojasna veza"
 #: editor/widgets/mobileconnectionwizard.cpp:135
 #: editor/widgets/mobileconnectionwizard.cpp:153
 #: editor/widgets/mobileconnectionwizard.cpp:181
@@ -3154,7 +3158,7 @@ msgstr "New Mobilni širokopojasni pristup Veza"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "My plan is not listed…"
-msgstr "My Paket is not listed…"
+msgstr "Moj tarifni paket nije na popisu…"
 #: editor/widgets/mobileconnectionwizard.cpp:138
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3175,61 +3179,61 @@ msgstr "APN: %1"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Set up a Mobile Broadband Connection"
-msgstr "Set up a Mobilni širokopojasni pristup Veza"
+msgstr "Postavi mobilnu širokopojasnu vezu"
 #: editor/widgets/mobileconnectionwizard.cpp:240
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid ""
 "This assistant helps you easily set up a mobile broadband connection to a "
 "cellular (3G) network."
-msgstr "This assistant helps you easily set up a Mobilna širokopojasna veza Veza to a cellular (3G) Mreža."
+msgstr "Ovaj pomoćnik omogućuje jednostavno postavljanje mobilne širokopojasne veze s mobilnom (3G) mrežom."
 #: editor/widgets/mobileconnectionwizard.cpp:244
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "You will need the following information:"
-msgstr "You will need the following information:"
+msgstr "Trebat će ti sljedeći podaci:"
 #: editor/widgets/mobileconnectionwizard.cpp:248
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your broadband provider's name"
-msgstr "Your širokopojasna veza Operator's Naziv"
+msgstr "Naziv pružatelja mobilne širokopojasne usluge"
 #: editor/widgets/mobileconnectionwizard.cpp:249
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Your broadband billing plan name"
-msgstr "Your širokopojasna veza billing Paket Naziv"
+msgstr "Naziv tarifnog paketa za mobilnu širokopojasnu uslugu"
 #: editor/widgets/mobileconnectionwizard.cpp:250
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
-msgstr "(in some cases) Your širokopojasna veza billing Paket APN (Access Point Naziv)"
+msgstr "(u nekim slučajevima) APN (naziv pristupne točke) tarifnog paketa za mobilnu širokopojasnu uslugu"
 #: editor/widgets/mobileconnectionwizard.cpp:254
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Create a connection for &this mobile broadband device:"
-msgstr "Create a Veza for &this Mobilna širokopojasna veza Uređaj:"
+msgstr "Stvori vezu za &ovaj uređaj mobilne širokopojasne mreže:"
 #: editor/widgets/mobileconnectionwizard.cpp:258
 #: editor/widgets/mobileconnectionwizard.cpp:385
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Any GSM device"
-msgstr "Bilo koji GSM Uređaj"
+msgstr "Bilo koji GSM uređaj"
 #: editor/widgets/mobileconnectionwizard.cpp:260
 #: editor/widgets/mobileconnectionwizard.cpp:387
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Any CDMA device"
-msgstr "Bilo koji CDMA Uređaj"
+msgstr "Bilo koji CDMA uređaj"
 #: editor/widgets/mobileconnectionwizard.cpp:311
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Installed GSM device"
-msgstr "Instalirajed GSM Uređaj"
+msgstr "Instalirani GSM uređaj"
 #: editor/widgets/mobileconnectionwizard.cpp:315
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Installed CDMA device"
-msgstr "Instalirajed CDMA Uređaj"
+msgstr "Instalirani CDMA uređaj"
 #: editor/widgets/mobileconnectionwizard.cpp:400
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3254,12 +3258,12 @@ msgstr "Odaberite operatora"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Select your provider from a &list:"
-msgstr "Odaberi your Operator from a &list:"
+msgstr "Odaberi svojeg operatora s &popisa:"
 #: editor/widgets/mobileconnectionwizard.cpp:435
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "I cannot find my provider and I wish to enter it &manually:"
-msgstr "I cannot find my Operator and I wish to enter it &manually:"
+msgstr "Ne mogu pronaći svojeg operatora i želim ga unijeti &ručno:"
 #: editor/widgets/mobileconnectionwizard.cpp:477
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3274,7 +3278,7 @@ msgstr "&Odaberite svoj paket:"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid "Selected plan &APN (Access Point Name):"
-msgstr "Selected Paket &APN (Access Point Naziv):"
+msgstr "Odabrani tarifni paket i &APN (naziv pristupne točke):"
 #: editor/widgets/mobileconnectionwizard.cpp:500
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3283,7 +3287,7 @@ msgid ""
 "broadband account or may prevent connectivity.\n"
 "\n"
 "If you are unsure of your plan please ask your provider for your plan's APN."
-msgstr "Upozorenje: Selecting an incorrect Paket may result in billing issues for your širokopojasna veza account or may prevent connectivity.\\n\\nIf you are unsure of your Paket please ask your Operator for your Paket's APN."
+msgstr "Upozorenje: odabir pogrešnog tarifnog paketa može uzrokovati probleme s naplatom ili onemogućiti povezivanje.\n\nAko nisi siguran koji tarifni paket koristiš, zatraži od operatora APN za svoj paket."
 #: editor/widgets/mobileconnectionwizard.cpp:540
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3294,7 +3298,7 @@ msgstr "Potvrdite postavke mobilnog širokopojasnog pristupa"
 msgctxt "Mobile Connection Wizard"
 msgid ""
 "Your mobile broadband connection is configured with the following settings:"
-msgstr "Your Mobilna širokopojasna veza Veza is configured with the following Postavke:"
+msgstr "Mobilna širokopojasna veza konfigurirana je sljedećim postavkama:"
 #: editor/widgets/mobileconnectionwizard.cpp:547
 #, kde-format
 msgctxt "Mobile Connection Wizard"
@@ -3332,14 +3336,14 @@ msgid ""
 "%1 (%2%)\n"
 "Security: %3\n"
 "Frequency: %4 Mhz"
-msgstr "%1 (%2%)\\nSigurnost: %3\\nFrekvencija: %4 Mhz"
+msgstr "%1 (%2%)\nSigurnost: %3\nFrekvencija: %4 Mhz"
 #: editor/widgets/ssidcombobox.cpp:152
 #, kde-format
 msgid ""
 "%1 (%2%)\n"
 "Security: Insecure\n"
 "Frequency: %3 Mhz"
-msgstr "%1 (%2%)\\nSigurnost: Insecure\\nFrekvencija: %3 Mhz"
+msgstr "%1 (%2%)\nSigurnost: Nesigurno\nFrekvencija: %3 Mhz"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/widgets/ui/advancedpermissionswidget.ui:33
 #, kde-format
@@ -3351,7 +3355,7 @@ msgstr "Dostupni korisnici"
 #: editor/widgets/ui/advancedpermissionswidget.ui:213
 #, kde-format
 msgid "Real Name"
-msgstr "Real Naziv"
+msgstr "Stvarni naziv"
 #. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
 #. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
 #: editor/widgets/ui/advancedpermissionswidget.ui:88
@@ -3377,7 +3381,7 @@ msgstr "Uredi IPv4 rute"
 msgid ""
 "If enabled, this connection will never be used as the default network "
 "connection"
-msgstr "If Omogućeno, this Veza will never be used as the Zadano Mreža Veza"
+msgstr "Ako je omogućeno, ova se veza nikad neće koristiti kao zadana mrežna veza."
 #. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
 #: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133
 #: editorqml/qml/ipv4/IPv4Routes.qml:208 editorqml/qml/ipv6/IPv6Routes.qml:229
@@ -3403,7 +3407,7 @@ msgstr "Dodaj"
 msgid ""
 "If enabled, automatically configured routes are ignored and only routes "
 "specified above are used"
-msgstr "If Omogućeno, automatically configured Rute are Zanemareno and only Rute specified above are used"
+msgstr "Ako je omogućeno, automatski konfigurirane rute zanemaruju se i koriste se samo gore navedene rute."
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
 #: editor/widgets/ui/ipv4routes.ui:139 editor/widgets/ui/ipv6routes.ui:123
 #: editorqml/qml/ipv4/IPv4Routes.qml:194 editorqml/qml/ipv6/IPv6Routes.qml:215
@@ -3420,7 +3424,7 @@ msgstr "Uredi IPv6 rute"
 #, kde-format
 msgctxt "Remove a selected row"
 msgid "R&emove"
-msgstr "R&emove"
+msgstr "U&kloni"
 #: editorqml/qml/AddConnectionDialog.qml:18
 #, kde-format
 msgctxt "@title:window"
@@ -3444,7 +3448,7 @@ msgstr "Konfiguracija"
 #: editorqml/qml/ConfigurationDialog.qml:42
 #, kde-format
 msgid "Ask for PIN on modem detection"
-msgstr "Ask for PIN Uključeno modem detection"
+msgstr "Zatraži PIN pri otkrivanju modema"
 #: editorqml/qml/ConfigurationDialog.qml:49
 #, kde-format
 msgid "Show virtual connections"
@@ -3452,7 +3456,7 @@ msgstr "Prikaži virtual connections"
 #: editorqml/qml/ConfigurationDialog.qml:55
 #, kde-format
 msgid "Create new connections as system connections"
-msgstr "Create new connections as system connections"
+msgstr "Stvori nove veze kao sistemske veze"
 #: editorqml/qml/CreateConnectionDialog.qml:20
 #, kde-format
 msgctxt "@title:window"
@@ -3498,7 +3502,7 @@ msgstr "Žična veza"
 #, kde-format
 msgctxt "@title"
 msgid "802.1x Security"
-msgstr "802.1x Sigurnost"
+msgstr "Sigurnost 802.1X"
 #: editorqml/qml/dialogs/WireGuardPage.qml:27
 #, kde-format
 msgctxt "@title"
@@ -3534,7 +3538,7 @@ msgstr "DHCP:"
 #: editorqml/qml/ipv4/IPv4Advance.qml:46
 #, kde-format
 msgid "Send hostname to DHCP server"
-msgstr "Pošalji naziv računala to DHCP Poslužitelj"
+msgstr "Pošalji naziv računala DHCP poslužitelju"
 #: editorqml/qml/ipv4/IPv4Advance.qml:76 editorqml/qml/ipv4/IPv4Advance.qml:83
 #, kde-format
 msgctxt "@item DAD timeout left to NetworkManager"
@@ -3557,7 +3561,7 @@ msgid ""
 "addresses on the network.\n"
 "\n"
 "0 disables the check, -1 lets NetworkManager decide."
-msgstr "Istek vremena in milliseconds used to check for the presence of duplicate IP addresses Uključeno the Mreža.\\n\\n0 disables the check, -1 lets NetworkManager decide."
+msgstr "Istek vremena u milisekundama za provjeru postoje li duplicirane IP-adrese u mreži.\n\nVrijednost 0 onemogućuje provjeru, a -1 prepušta odluku NetworkManageru."
 #: editorqml/qml/ipv4/IPv4Routes.qml:125 editorqml/qml/ipv4/IPv4Settings.qml:254
 #, kde-format
 msgctxt "@info:placeholder"
@@ -3593,12 +3597,12 @@ msgstr "Automatski"
 #, kde-format
 msgctxt "@item:inlistbox IPv4 method"
 msgid "Automatic (Only addresses)"
-msgstr "Automatski (Only addresses)"
+msgstr "Automatski (samo adrese)"
 #: editorqml/qml/ipv4/IPv4Settings.qml:29
 #, kde-format
 msgctxt "@item:inlistbox IPv4 method"
 msgid "Link-Local"
-msgstr "Link-Lokalni"
+msgstr "Lokalna veza"
 #: editorqml/qml/ipv4/IPv4Settings.qml:29
 #: editorqml/qml/ipv6/IPv6Settings.qml:29
 #, kde-format
@@ -3609,7 +3613,7 @@ msgstr "Ručno"
 #, kde-format
 msgctxt "@item:inlistbox IPv4 method"
 msgid "Shared to other computers"
-msgstr "Dijeljeno to Ostalo computers"
+msgstr "Dijeljeno s drugim računalima"
 #: editorqml/qml/ipv4/IPv4Settings.qml:29
 #: editorqml/qml/ipv6/IPv6Settings.qml:29
 #, kde-format
@@ -3628,7 +3632,7 @@ msgid ""
 "Use this field to specify the DHCP client ID which is a string sent to the "
 "DHCP server to identify the local machine that the DHCP server may use to "
 "customize the DHCP lease and options."
-msgstr "Koristi this field to specify the DHCP client ID which is a string sent to the DHCP Poslužitelj to identify the Lokalni Računalo that the DHCP Poslužitelj may Koristi to customize the DHCP lease and options."
+msgstr "U ovom polju navedite ID DHCP klijenta, niz znakova koji se šalje DHCP poslužitelju radi identifikacije lokalnog računala. DHCP poslužitelj može ga upotrijebiti za prilagodbu DHCP najma i opcija."
 #: editorqml/qml/ipv4/IPv4Settings.qml:155
 #: editorqml/qml/ipv6/IPv6Settings.qml:158
 #, kde-format
@@ -3638,7 +3642,7 @@ msgid ""
 "\n"
 "Default value -1 means that NetworkManager gets to choose and manage the "
 "actual metric of the route."
-msgstr "A score that helps Odaberite the best path for data packets to reach their destination, based Uključeno factors like distance, delay, and reliability.\\n\\nZadano value -1 means that NetworkManager gets to Odaberite and manage the actual Metrika of the Ruta."
+msgstr "Ocjena koja pomaže pri odabiru najbolje putanje kojom će podatkovni paketi stići do odredišta, na temelju čimbenika poput udaljenosti, kašnjenja i pouzdanosti.\n\nZadana vrijednost -1 znači da NetworkManager odabire i upravlja stvarnom metrikom rute."
 #: editorqml/qml/ipv4/IPv4Settings.qml:162
 #: editorqml/qml/ipv6/IPv6Settings.qml:165
 #, kde-format
@@ -3649,7 +3653,7 @@ msgstr "Adresaes"
 msgid ""
 "Allows the connection to complete if IPv4 configuration fails but IPv6 "
 "configuration succeeds"
-msgstr "Allows the Veza to complete if IPv4 configuration fails but IPv6 configuration succeeds"
+msgstr "Veza se može uspostaviti i ako konfiguracija IPv4 ne uspije, pod uvjetom da konfiguracija IPv6 uspije."
 #: editorqml/qml/ipv4/IPv4Settings.qml:326
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:139
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:255
@@ -3674,13 +3678,13 @@ msgstr "Domene pretraživanja"
 #: editorqml/qml/wifisecurity/DnsList.qml:113
 #, kde-format
 msgid "Move Up"
-msgstr "Move Up"
+msgstr "Pomakni gore"
 #: editorqml/qml/ipv4/SearchDomainList.qml:120
 #: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:126
 #: editorqml/qml/wifisecurity/DnsList.qml:126
 #, kde-format
 msgid "Move Down"
-msgstr "Move Down"
+msgstr "Pomakni dolje"
 #: editorqml/qml/ipv6/IPv6Routes.qml:129
 #, kde-format
 msgctxt "@info:placeholder"
@@ -3700,17 +3704,17 @@ msgstr "Automatski"
 #, kde-format
 msgctxt "@item:inlistbox IPv6 method"
 msgid "Automatic (Only addresses)"
-msgstr "Automatski (Only addresses)"
+msgstr "Automatski (samo adrese)"
 #: editorqml/qml/ipv6/IPv6Settings.qml:29
 #, kde-format
 msgctxt "@item:inlistbox IPv6 method"
 msgid "Automatic (Only DHCP)"
-msgstr "Automatski (Only DHCP)"
+msgstr "Automatski (samo DHCP)"
 #: editorqml/qml/ipv6/IPv6Settings.qml:29
 #, kde-format
 msgctxt "@item:inlistbox IPv6 method"
 msgid "Link-Local"
-msgstr "Link-Lokalni"
+msgstr "Lokalna veza"
 #: editorqml/qml/ipv6/IPv6Settings.qml:29
 #, kde-format
 msgctxt "@item:inlistbox like in this setting is Ignored"
@@ -3730,19 +3734,19 @@ msgstr "Onemogućeno"
 #, kde-format
 msgctxt "@item:inlistbox IPv6 privacy extensions"
 msgid "Enabled (prefer public address)"
-msgstr "Omogućeno (prefer Javni Adresa)"
+msgstr "Omogućeno (prednost imaju javne adrese)"
 #: editorqml/qml/ipv6/IPv6Settings.qml:120
 #, kde-format
 msgctxt "@item:inlistbox IPv6 privacy extensions"
 msgid "Enabled (prefer temporary addresses)"
-msgstr "Omogućeno (prefer temporary addresses)"
+msgstr "Omogućeno (prednost imaju privremene adrese)"
 #: editorqml/qml/ipv6/IPv6Settings.qml:128
 #, kde-format
 msgid ""
 "Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If "
 "enabled, it makes the kernel generate a temporary IPv6 address in addition "
 "to the public one generated from MAC address via modified EUI-64."
-msgstr "Konfiguriraj IPv6 Privacy Extensions for SLAAC, described in RFC4941. If Omogućeno, it makes the kernel generate a temporary IPv6 Adresa in addition to the Javni one generated from MAC Adresa via modified EUI-64."
+msgstr "Konfiguriraj IPv6 proširenja privatnosti za SLAAC opisana u RFC4941. Ako su omogućena, jezgra će generirati privremenu IPv6-adresu uz javnu adresu generiranu iz MAC-adrese putem izmijenjenog EUI-64."
 #: editorqml/qml/ipv6/IPv6Settings.qml:257
 #, kde-format
 msgctxt "@info:placeholder"
@@ -3753,7 +3757,7 @@ msgstr "2001:db8::1"
 msgid ""
 "When connecting to IPv4-capable networks, allows the connection to complete "
 "if IPv6 configuration fails but IPv4 configuration succeeds"
-msgstr "When Povezivanje to IPv4-capable networks, allows the Veza to complete if IPv6 configuration fails but IPv4 configuration succeeds"
+msgstr "Pri povezivanju s mrežama koje podržavaju IPv4, veza se može uspostaviti i ako konfiguracija IPv6 ne uspije, pod uvjetom da konfiguracija IPv4 uspije."
 #: editorqml/qml/PasswordField.qml:106
 #, kde-format
 msgid "Always asked"
@@ -3786,12 +3790,12 @@ msgstr "Mreža: %1"
 #, kde-format
 msgctxt "@label key is a passcode"
 msgid "Password must be a valid WEP key"
-msgstr "Lozinka mora biti a valid WEP Ključ"
+msgstr "Lozinka mora biti valjani WEP ključ."
 #: editorqml/qml/PasswordPromptDialog.qml:62
 #, kde-format
 msgctxt "@label password invalid length message"
 msgid "Password must be between 8 and 64 characters"
-msgstr "Lozinka mora biti between 8 and 64 characters"
+msgstr "Lozinka mora imati od 8 do 64 znaka."
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:30
 #: editorqml/qml/vpn/l2tp/L2tp.qml:30 editorqml/qml/vpn/libreswan/Libreswan.qml:24
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:31
@@ -3805,7 +3809,7 @@ msgstr "Pristupnik:"
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:33
 #, kde-format
 msgid "SSLVPN server IP or name."
-msgstr "SSLVPN Poslužitelj IP or Naziv."
+msgstr "IP-adresa ili naziv SSLVPN poslužitelja."
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:47
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:78
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:37
@@ -3817,7 +3821,7 @@ msgstr "Korisničko ime:"
 #, kde-format
 msgid ""
 "Set the name used for authenticating the local system to the peer to <name>."
-msgstr "Set the Naziv used for authenticating the Lokalni system to the Drugi uređaj to <Naziv>."
+msgstr "Postavi naziv za autentifikaciju lokalnog sustava prema peeru na <name>."
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:77
 #: editorqml/qml/vpn/l2tp/L2tp.qml:106 editorqml/qml/vpn/l2tp/L2tpIpsec.qml:93
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:57
@@ -3835,7 +3839,7 @@ msgstr "Korisnik Certifikat:"
 #: editorqml/qml/vpn/fortisslvpn/Fortisslvpn.qml:113
 #, kde-format
 msgid "User Key:"
-msgstr "Korisnik Ključ:"
+msgstr "Korisnički ključ:"
 #: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:40
 #, kde-format
 msgid "Use a One-Time Password"
@@ -3843,7 +3847,7 @@ msgstr "Koristi jednokratnu lozinku"
 #: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:42
 #, kde-format
 msgid "Ask for a one-time password every time this connection is activated."
-msgstr "Ask for a one-time Lozinka every time this Veza is activated."
+msgstr "Zatraži jednokratnu lozinku svaki put kada se ova veza aktivira."
 #: editorqml/qml/vpn/fortisslvpn/FortisslvpnAdvanced.qml:53
 #, kde-format
 msgid "2FA"
@@ -3863,7 +3867,7 @@ msgstr "Trusted Certifikat:"
 #: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:24
 #, kde-format
 msgid "FortiSSLVPN Authentication"
-msgstr "FortiSSLVPN Autentifikacija"
+msgstr "FortiSSLVPN autentifikacija"
 #: editorqml/qml/vpn/fortisslvpn/FortisslvpnAuth.qml:37
 #, kde-format
 msgid "One Time Password"
@@ -3875,11 +3879,11 @@ msgstr "Token:"
 #: editorqml/qml/vpn/iodine/Iodine.qml:24
 #, kde-format
 msgid "Toplevel Domain:"
-msgstr "Toplevel Domena:"
+msgstr "Domena najviše razine:"
 #: editorqml/qml/vpn/iodine/Iodine.qml:27
 #, kde-format
 msgid "The domain the iodine server is authoritative for."
-msgstr "The Domena the iodine Poslužitelj is authoritative for."
+msgstr "Domena za koju je iodine poslužitelj mjerodavan."
 #: editorqml/qml/vpn/iodine/Iodine.qml:36
 #, kde-format
 msgid "Nameserver:"
@@ -3893,15 +3897,15 @@ msgstr ""
 #: editorqml/qml/vpn/iodine/Iodine.qml:65
 #, kde-format
 msgid "Fragment Size:"
-msgstr "Fragment Size:"
+msgstr "Veličina fragmenta:"
 #: editorqml/qml/vpn/iodine/Iodine.qml:67
 #, kde-format
 msgid ""
 "Maximum size of the upstream DNS fragments, in bytes. Automatic lets iodine "
 "probe for it."
 msgstr ""
-"Maksimalna veličina odlaznih (upstream) DNS fragmenata u bajtovima. Automatski način rada "
-"omogućuje programu iodine da je sam ispita."
+"Maksimalna veličina odlaznih DNS fragmenata u bajtovima. U automatskom načinu rada "
+"iodine će ispitati tu vrijednost."
 
 #: editorqml/qml/vpn/iodine/Iodine.qml:74
 #: editorqml/qml/vpn/iodine/Iodine.qml:75
@@ -3928,7 +3932,7 @@ msgstr "Iodine VPN"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:33
 #, kde-format
 msgid "L2TP server IP or name."
-msgstr "L2TP Poslužitelj IP or Naziv."
+msgstr "IP-adresa ili naziv L2TP poslužitelja."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:42
 #, kde-format
 msgid "Authentication type:"
@@ -3947,27 +3951,27 @@ msgstr "Lozinka"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:54
 #, kde-format
 msgid "Certificates (TLS)"
-msgstr "Certificates (TLS)"
+msgstr "Certifikati (TLS)"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:92 editorqml/qml/vpn/pptp/Pptp.qml:66
 #: editorqml/qml/vpn/sstp/Sstp.qml:51
 #, kde-format
 msgid "NT Domain:"
-msgstr "NT Domena:"
+msgstr "NT domena:"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:97
 #, kde-format
 msgid ""
 "Append the domain name <domain> to the local host name for authentication "
 "purposes."
-msgstr "Append the Domena Naziv <Domena> to the Lokalni host Naziv for Autentifikacija purposes."
+msgstr "Dodaj naziv domene <domain> lokalnom nazivu računala radi autentifikacije."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:115 editorqml/qml/vpn/l2tp/L2tpIpsec.qml:102
 #, kde-format
 msgid ""
 "Certificate authority (CA) file in .pem, .der, .crt, .cer or .p12 formats."
-msgstr "Certifikat authority (CA) file in .pem, .der, .crt, .cer or .p12 formats."
+msgstr "Datoteka tijela za izdavanje certifikata (CA) u formatu .pem, .der, .crt, .cer ili .p12."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:139
 #, kde-format
 msgid "Certificate in .pem, .der, .crt, .cer or .p12 formats."
-msgstr "Certifikat in .pem, .der, .crt, .cer or .p12 formats."
+msgstr "Certifikat u formatu .pem, .der, .crt, .cer ili .p12."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:154 editorqml/qml/vpn/l2tp/L2tpIpsec.qml:141
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:109
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:48
@@ -3977,7 +3981,7 @@ msgstr "Privatni ključ:"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:163 editorqml/qml/vpn/l2tp/L2tpIpsec.qml:150
 #, kde-format
 msgid "Private key in .pem, .der, .key, .pk8 or .p12 formats."
-msgstr "Privatni ključ in .pem, .der, .Ključ, .pk8 or .p12 formats."
+msgstr "Privatni ključ u formatu .pem, .der, .key, .pk8 ili .p12."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:183 editorqml/qml/vpn/l2tp/L2tpIpsec.qml:188
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:236
 #, kde-format
@@ -3986,7 +3990,7 @@ msgstr "Privatni ključ Lozinka:"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:200
 #, kde-format
 msgid "Use L2TP ephemeral source port"
-msgstr "Koristi L2TP ephemeral source Priključak"
+msgstr "Koristi prolazni izvorni priključak L2TP-a"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:216
 #, kde-format
 msgctxt "@action:button"
@@ -3995,7 +3999,7 @@ msgstr "IPsec postavke…"
 #: editorqml/qml/vpn/l2tp/L2tp.qml:220
 #, kde-format
 msgid "No IPsec daemon (libreswan or strongSwan) was found."
-msgstr "Ne IPsec daemon (libreswan or strongSwan) was found."
+msgstr "Nije pronađen IPsec servis (libreswan ili strongSwan)."
 #: editorqml/qml/vpn/l2tp/L2tp.qml:228
 #, kde-format
 msgctxt "@action:button"
@@ -4024,11 +4028,11 @@ msgstr "Računalo Certifikat Lozinka:"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:171
 #, kde-format
 msgid "Pre-shared Key:"
-msgstr "Pre-Dijeljeno Ključ:"
+msgstr "Unaprijed podijeljeni ključ:"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:60
 #, kde-format
 msgid "Enable IPsec tunnel to L2TP host"
-msgstr "Omogući IPsec tunnel to L2TP host"
+msgstr "Omogući IPsec tunel do L2TP poslužitelja"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:74
 #, kde-format
 msgid "Machine Authentication"
@@ -4041,7 +4045,7 @@ msgstr "Vrsta:"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:86
 #, kde-format
 msgid "Pre-shared Key (PSK)"
-msgstr "Pre-Dijeljeno Ključ (PSK)"
+msgstr "Unaprijed podijeljeni ključ (PSK)"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:117
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:157
 #, kde-format
@@ -4050,11 +4054,11 @@ msgstr "Računalo Certifikat:"
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:126
 #, kde-format
 msgid "Certificate in .pem, .der or .p12 formats."
-msgstr "Certifikat in .pem, .der or .p12 formats."
+msgstr "Certifikat u formatu .pem, .der ili .p12."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:189
 #, kde-format
 msgid "Password for private key or PKCS#12 certificate."
-msgstr "Lozinka for Privatni Ključ or PKCS#12 Certifikat."
+msgstr "Lozinka za privatni ključ ili certifikat PKCS#12."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:213
 #, kde-format
 msgid "Remote ID:"
@@ -4066,7 +4070,7 @@ msgid ""
 "Sometimes referred to as Peer ID or Gateway ID, also referred to as rightid "
 "by strongSwan, Libreswan, Openswan and FreeS/WAN. See strongSwan or "
 "Libreswan documentation for leftid/rightid syntax and identity parsing."
-msgstr "Neobavezno. How the IPsec Poslužitelj should be identified for Autentifikacija. Sometimes referred to as Drugi uređaj ID or Pristupnik ID, also referred to as rightid by strongSwan, Libreswan, Openswan and FreeS/WAN. See strongSwan or Libreswan documentation for leftid/rightid syntax and Identitet parsing."
+msgstr "Neobvezno. Način identifikacije IPsec poslužitelja za autentifikaciju. Ponekad se naziva Peer ID ili Gateway ID, a strongSwan, Libreswan, Openswan i FreeS/WAN nazivaju ga i rightid. Sintaksu leftid/rightid i tumačenje identiteta potraži u dokumentaciji za strongSwan ili Libreswan."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:225
 #, kde-format
 msgid "Phase1 Algorithms:"
@@ -4076,7 +4080,7 @@ msgstr "Algoritmi faze 1:"
 msgid ""
 "Optional. A list of proposals for IKE - Main Mode. The format is “enc-integ-"
 "group,enc-integ-group, …”."
-msgstr "Neobavezno. A list of proposals for IKE - Main Način rada. The format is “enc-integ-group,enc-integ-group, …”."
+msgstr "Neobvezno. Popis prijedloga za IKE – Main Mode. Format: „enc-integ-group,enc-integ-group, …”."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:237
 #, kde-format
 msgid "Phase2 Algorithms:"
@@ -4086,7 +4090,7 @@ msgstr "Algoritmi faze 2:"
 msgid ""
 "Optional. A list of proposals for ESP - Quick Mode. The format is “enc-integ,"
 "enc-integ, …”."
-msgstr "Neobavezno. A list of proposals for ESP - Quick Način rada. The format is “enc-integ,enc-integ, …”."
+msgstr "Neobvezno. Popis prijedloga za ESP – Quick Mode. Format: „enc-integ,enc-integ, …”."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:249
 #, kde-format
 msgid "Phase1 Lifetime:"
@@ -4096,7 +4100,7 @@ msgstr "Trajanje faze 1:"
 msgid ""
 "How long the keying channel of a connection should last before being "
 "renegotiated."
-msgstr "How long the keying Kanal of a Veza should last before being renegotiated."
+msgstr "Koliko dugo treba trajati kanal za razmjenu ključeva veze prije ponovnog pregovaranja."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:269
 #, kde-format
 msgid "Phase2 Lifetime:"
@@ -4107,7 +4111,7 @@ msgid ""
 "How long a particular instance of a connection (a set of encryption/"
 "authentication keys for user packets) should last, from successful "
 "negotiation to expiry."
-msgstr "How long a particular instance of a Veza (a set of Šifriranje/Autentifikacija keys for Korisnik packets) should last, from successful negotiation to expiry."
+msgstr "Koliko treba trajati određena instanca veze (skup ključeva za šifriranje i autentifikaciju korisničkih paketa), od uspješnog pregovaranja do isteka."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:291
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:183
 #, kde-format
@@ -4118,7 +4122,7 @@ msgstr "Nametni UDP enkapsulaciju"
 msgid ""
 "Some firewalls block ESP traffic. Enforcing UDP encapsulation even if no NAT "
 "situation is detected might help in such cases."
-msgstr "Some firewalls block ESP traffic. Enforcing UDP encapsulation even if Ne NAT situation is detected might help in such cases."
+msgstr "Neki vatrozidi blokiraju ESP promet. U takvim slučajevima može pomoći forsiranje UDP enkapsulacije čak i ako nije otkriven NAT."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:304
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:192
 #, kde-format
@@ -4129,7 +4133,7 @@ msgstr "Koristi IP kompresiju"
 msgid ""
 "IPComp compresses raw IP packets before they get encrypted. This saves some "
 "bandwidth, but uses more processing power."
-msgstr "IPComp compresses raw IP packets before they get encrypted. This saves some bandwidth, but uses more processing power."
+msgstr "IPComp komprimira neobrađene IP-pakete prije šifriranja. Time se štedi propusnost, ali se troši više procesorske snage."
 #: editorqml/qml/vpn/l2tp/L2tpIpsec.qml:317
 #, kde-format
 msgid "Use IKEv2 key exchange"
@@ -4143,7 +4147,7 @@ msgstr "Onemogući PFS"
 msgid ""
 "Disable perfect forward secrecy. Do this only if the server doesn’t support "
 "PFS."
-msgstr "Onemogući perfect forward secrecy. Do this only if the Poslužitelj doesn’t support PFS."
+msgstr "Onemogući perfect forward secrecy. Učini to samo ako poslužitelj ne podržava PFS."
 #: editorqml/qml/vpn/l2tp/L2tpLifetimeField.qml:40
 #, kde-format
 msgctxt "separator between hours and minutes"
@@ -4181,7 +4185,7 @@ msgstr "Crypto:"
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:117
 #, kde-format
 msgid "Require the use of MPPE, with 40/128-bit encryption or all."
-msgstr "Require the Koristi of MPPE, with 40/128-bit Šifriranje or all."
+msgstr "Zahtijevaj upotrebu MPPE-a sa šifriranjem od 40 ili 128 bita, odnosno oboje."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:139
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:121
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:148
@@ -4212,7 +4216,7 @@ msgstr "Koristi šifriranje sa stanjem"
 #, kde-format
 msgid ""
 "Allow MPPE to use stateful mode. Stateless mode is still attempted first."
-msgstr "Allow MPPE to Koristi stateful Način rada. Stateless Način rada is still attempted first."
+msgstr "Dopusti MPPE-u korištenje stanja. Najprije će se pokušati način rada bez stanja."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:166
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:148
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:169
@@ -4223,7 +4227,7 @@ msgstr "Dopusti BSD kompresiju"
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:150
 #, kde-format
 msgid "Allow/disable BSD-Compress compression."
-msgstr "Allow/Onemogući BSD-Compress Kompresija."
+msgstr "Omogući ili onemogući kompresiju BSD-Compress."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:177
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:159
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:176
@@ -4234,7 +4238,7 @@ msgstr "Dopusti Deflate kompresiju"
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:161
 #, kde-format
 msgid "Allow/disable Deflate compression."
-msgstr "Allow/Onemogući Deflate Kompresija."
+msgstr "Omogući ili onemogući kompresiju Deflate."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:188
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:170
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:183
@@ -4244,20 +4248,20 @@ msgstr "Dopusti kompresiju TCP zaglavlja"
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:195
 #, kde-format
 msgid "Use protocol field compression negotiation"
-msgstr "Koristi protocol field Kompresija negotiation"
+msgstr "Koristi pregovaranje o kompresiji protokolnog polja"
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:202
 #, kde-format
 msgid "Use Address/Control compression"
-msgstr "Koristi Adresa/Control Kompresija"
+msgstr "Koristi kompresiju adrese/upravljanja"
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:204
 #, kde-format
 msgid "Use Address/Control compression in both directions (send and receive)."
-msgstr "Koristi Adresa/Control Kompresija in Oboje directions (Pošalji and receive)."
+msgstr "Koristi kompresiju adrese/upravljanja u oba smjera (slanje i primanje)."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:222
 #: editorqml/qml/vpn/pptp/PptpAdvanced.qml:186
 #, kde-format
 msgid "Send LCP echo-requests to find out whether peer is alive."
-msgstr "Pošalji LCP echo-requests to find out whether Drugi uređaj is alive."
+msgstr "Šalji LCP echo-zahtjeve kako bi se provjerilo je li peer aktivan."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:233
 #, kde-format
 msgid "Other Settings"
@@ -4269,7 +4273,7 @@ msgstr "Multilink PPP MRRU:"
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:246
 #, kde-format
 msgid "Try to negotiate a PPP Multilink on a single connection."
-msgstr "Try to negotiate a PPP Multilink Uključeno a single Veza."
+msgstr "Pokušaj uspostaviti PPP Multilink preko jedne veze."
 #: editorqml/qml/vpn/l2tp/L2tpPpp.qml:266
 #, kde-format
 msgid "MRU:"
@@ -4277,7 +4281,7 @@ msgstr "MRU:"
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:27
 #, kde-format
 msgid "IP or hostname of the IPsec gateway."
-msgstr "IP or hostname of the IPsec Pristupnik."
+msgstr "IP-adresa ili naziv glavnog računala IPsec pristupnika."
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:36
 #: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:26
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:67 editorqml/qml/vpn/vpnc/VpncAuth.qml:35
@@ -4287,7 +4291,7 @@ msgstr "Naziv grupe:"
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:39
 #, kde-format
 msgid "Group name, or local identifier, this connection belongs to."
-msgstr "Group Naziv, or Lokalni identifier, this Veza belongs to."
+msgstr "Naziv grupe ili lokalni identifikator kojem ova veza pripada."
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:51
 #: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:39
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:52
@@ -4303,7 +4307,7 @@ msgstr "Lozinka grupe:"
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:81
 #, kde-format
 msgid "User name for XAUTH authentication."
-msgstr "Korisničko ime for XAUTH Autentifikacija."
+msgstr "Korisničko ime za XAUTH autentifikaciju."
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:90
 #, kde-format
 msgid "Phase1 algorithms:"
@@ -4311,7 +4315,7 @@ msgstr "Algoritmi faze 1:"
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:93
 #, kde-format
 msgid "IKE algorithms to propose. Leave empty for the defaults."
-msgstr "IKE algorithms to propose. Leave empty for the defaults."
+msgstr "Algoritmi IKE-a koji će se predložiti. Ostavi prazno za zadane vrijednosti."
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:102
 #, kde-format
 msgid "Phase2 algorithms:"
@@ -4319,12 +4323,12 @@ msgstr "Algoritmi faze 2:"
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:105
 #, kde-format
 msgid "ESP algorithms to propose. Leave empty for the defaults."
-msgstr "ESP algorithms to propose. Leave empty for the defaults."
+msgstr "Algoritmi ESP-a koji će se predložiti. Ostavi prazno za zadane vrijednosti."
 #: editorqml/qml/vpn/libreswan/Libreswan.qml:117
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:41
 #, kde-format
 msgid "(NT-)Domain name for authentication."
-msgstr "(NT-)Domena Naziv for Autentifikacija."
+msgstr "Naziv (NT-)domene za autentifikaciju."
 #: editorqml/qml/vpn/libreswan/LibreswanAuth.qml:38
 #, kde-format
 msgid "Libreswan VPN"
@@ -4332,7 +4336,7 @@ msgstr "Libreswan VPN"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:34
 #, kde-format
 msgid "Address of the VPN gateway, optionally including the port."
-msgstr "Adresa of the VPN Pristupnik, optionally including the Priključak."
+msgstr "Adresa VPN pristupnika, po želji s priključkom."
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:43
 #, kde-format
 msgid "VPN Protocol:"
@@ -4340,7 +4344,7 @@ msgstr "VPN protokol:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:46
 #, kde-format
 msgid "Which VPN the gateway speaks. All of these are handled by openconnect."
-msgstr "Which VPN the Pristupnik speaks. All of these are handled by openconnect."
+msgstr "Protokol VPN-a koji koristi pristupnik. Sve navedene protokole podržava openconnect."
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:50
 #, kde-format
 msgid "Cisco AnyConnect"
@@ -4348,7 +4352,7 @@ msgstr "Cisco AnyPoveži"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:50
 #, kde-format
 msgid "Juniper Network Connect"
-msgstr "Juniper Mreža Poveži"
+msgstr "Juniper Network Connect"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:50
 #, kde-format
 msgid "PAN Global Protect"
@@ -4356,7 +4360,7 @@ msgstr "PAN Global Protect"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:50
 #, kde-format
 msgid "Pulse Connect Secure"
-msgstr "Pulse Poveži Secure"
+msgstr "Pulse Connect Secure"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:50
 #, kde-format
 msgid "F5 BIG-IP SSL VPN"
@@ -4376,7 +4380,7 @@ msgstr "Proxy:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:78
 #, kde-format
 msgid "Proxy to reach the gateway through, as a URL."
-msgstr "Proxy to reach the Pristupnik through, as a URL."
+msgstr "Proxy za pristup pristupniku, naveden kao URL."
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:87
 #, kde-format
 msgid "User Agent:"
@@ -4384,27 +4388,27 @@ msgstr "Korisnik Agent:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:95
 #, kde-format
 msgid "CSD Wrapper Script:"
-msgstr "CSD Wrapper Script:"
+msgstr "Omotna skripta za CSD:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:117
 #, kde-format
 msgid "Allow Cisco Secure Desktop trojan"
-msgstr "Allow Cisco Secure Desktop trojan"
+msgstr "Dopusti korištenje trojanskog programa Cisco Secure Desktop"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:119
 #, kde-format
 msgid ""
 "Run the host-check program the gateway asks for. The wrapper script above "
 "replaces it."
-msgstr "Run the host-check program the Pristupnik asks for. The wrapper script above replaces it."
+msgstr "Pokreni program za provjeru glavnog računala koji zatraži pristupnik. Zamjenjuje ga gornja omotna skripta."
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:128
 #, kde-format
 msgid "Reported OS:"
-msgstr "Reported OS:"
+msgstr "Prijavljeni operacijski sustav:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:131
 #, kde-format
 msgid ""
 "Operating system to report to the gateway. Leave at the default to report "
 "the real one."
-msgstr "Operating system to report to the Pristupnik. Leave at the Zadano to report the real one."
+msgstr "Operacijski sustav koji će se prijaviti pristupniku. Ostavi zadanu vrijednost za prijavu stvarnog sustava."
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:135
 #, kde-format
 msgctxt "@item:inlistbox report the real operating system"
@@ -4437,7 +4441,7 @@ msgstr "Apple iOS"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:142
 #, kde-format
 msgid "Reported Version:"
-msgstr "Reported Version:"
+msgstr "Prijavljena verzija:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:152
 #, kde-format
 msgid "Certificate Authentication"
@@ -4453,11 +4457,11 @@ msgstr "Korisnički privatni ključ:"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:231
 #, kde-format
 msgid "Use FSID for key passphrase"
-msgstr "Koristi FSID for Ključ passphrase"
+msgstr "Koristi FSID za zaporku ključa"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:240
 #, kde-format
 msgid "Prevent user from manually accepting invalid certificates"
-msgstr "Prevent Korisnik from manually accepting invalid certificates"
+msgstr "Spriječi korisnika da ručno prihvaća nevaljane certifikate"
 #: editorqml/qml/vpn/openconnect/Openconnect.qml:255
 #, kde-format
 msgctxt "@action:button"
@@ -4484,19 +4488,19 @@ msgstr "Onemogućeno"
 #: editorqml/qml/vpn/openconnect/OpenconnectToken.qml:70
 #, kde-format
 msgid "RSA SecurID — read from ~/.stokenrc"
-msgstr "RSA SecurID — read from ~/.stokenrc"
+msgstr "RSA SecurID — učitaj iz ~/.stokenrc"
 #: editorqml/qml/vpn/openconnect/OpenconnectToken.qml:70
 #, kde-format
 msgid "RSA SecurID — manually entered"
-msgstr "RSA SecurID — manually entered"
+msgstr "RSA SecurID — ručno uneseno"
 #: editorqml/qml/vpn/openconnect/OpenconnectToken.qml:70
 #, kde-format
 msgid "TOTP — manually entered"
-msgstr "TOTP — manually entered"
+msgstr "TOTP — ručno uneseno"
 #: editorqml/qml/vpn/openconnect/OpenconnectToken.qml:70
 #, kde-format
 msgid "HOTP — manually entered"
-msgstr "HOTP — manually entered"
+msgstr "HOTP — ručno uneseno"
 #: editorqml/qml/vpn/openconnect/OpenconnectToken.qml:70
 #, kde-format
 msgid "Yubikey"
@@ -4518,7 +4522,7 @@ msgstr "Pokušaj ponovno"
 #: editorqml/qml/vpn/openconnect/OpenconnectWebAuth.qml:139
 #, kde-format
 msgid "Confirm PIN:"
-msgstr "Confirm PIN:"
+msgstr "Potvrdi PIN:"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:38
 #, kde-format
 msgid ""
@@ -4532,29 +4536,29 @@ msgstr "Statički ključ"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:54
 #, kde-format
 msgid "Password with Certificates (TLS)"
-msgstr "Lozinka with Certificates (TLS)"
+msgstr "Lozinka s certifikatima (TLS)"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:70
 #, kde-format
 msgid "Certificate authority (CA) file in .pem format."
-msgstr "Certifikat authority (CA) file in .pem format."
+msgstr "Datoteka tijela za izdavanje certifikata (CA) u formatu .pem."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:94
 #, kde-format
 msgid ""
 "Local peer's signed certificate in .pem format (signed by CA of CA "
 "Certificate)."
-msgstr "Lokalni Drugi uređaj's signed Certifikat in .pem format (signed by CA of CA Certifikat)."
+msgstr "Potpisani certifikat lokalnog peera u formatu .pem (potpisan certifikatom izdavatelja CA)."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:118
 #, kde-format
 msgid "Local peer's private key in .pem format."
-msgstr "Lokalni Drugi uređaj's Privatni Ključ in .pem format."
+msgstr "Privatni ključ lokalnog peera u formatu .pem."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:133
 #, kde-format
 msgid "Static Key:"
-msgstr "Static Ključ:"
+msgstr "Statički ključ:"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:142
 #, kde-format
 msgid "Pre-shared file for Static Key encryption mode (non-TLS)."
-msgstr "Pre-Dijeljeno file for Static Ključ Šifriranje Način rada (non-TLS)."
+msgstr "Datoteka unaprijed podijeljenog ključa za način šifriranja statičkim ključem (bez TLS-a)."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:157
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:644
 #, kde-format
@@ -4566,7 +4570,7 @@ msgid ""
 "If key direction is used, it must be the opposite of that used on the VPN "
 "peer. For example, if the peer uses '1', this connection must use '0'. If "
 "you are unsure what value to use, contact your system administrator."
-msgstr "If Ključ direction is used, it must be the opposite of that used Uključeno the VPN Drugi uređaj. For example, if the Drugi uređaj uses '1', this Veza must Koristi '0'. If you are unsure what value to Koristi, contact your system administrator."
+msgstr "Ako se koristi smjer ključa, mora biti suprotan smjeru na VPN peeru. Primjerice, ako peer koristi „1”, ova veza mora koristiti „0”. Ako nisi siguran koju vrijednost unijeti, obrati se administratoru sustava."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:166
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:330
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:331
@@ -4593,7 +4597,7 @@ msgstr "Lokalna IP adresa:"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:178
 #, kde-format
 msgid "IP address of the local VPN endpoint."
-msgstr "IP Adresa of the Lokalni VPN endpoint."
+msgstr "IP-adresa lokalne krajnje točke VPN-a."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:187
 #: editorqml/qml/vpn/ssh/Ssh.qml:47 editorqml/qml/vpn/ssh/Ssh.qml:97
 #, kde-format
@@ -4602,11 +4606,11 @@ msgstr "Udaljena IP adresa:"
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:192
 #, kde-format
 msgid "IP address of the remote VPN endpoint."
-msgstr "IP Adresa of the Udaljeni VPN endpoint."
+msgstr "IP-adresa udaljene krajnje točke VPN-a."
 #: editorqml/qml/vpn/openvpn/Openvpn.qml:206
 #, kde-format
 msgid "Username passed to OpenVPN when prompted for it."
-msgstr "Korisničko ime passed to OpenVPN when prompted for it."
+msgstr "Korisničko ime koje se prosljeđuje OpenVPN-u kada ga zatraži."
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:28
 #, kde-format
 msgctxt "@title:window"
@@ -4681,15 +4685,15 @@ msgstr "Postavi naziv virtualnog uređaja:"
 #: editorqml/qml/vpn/ssh/SshAdvanced.qml:61
 #, kde-format
 msgid "Use custom tunnel Maximum Transmission Unit (MTU):"
-msgstr "Koristi prilagođeno tunnel Maximum Transmission Unit (MTU):"
+msgstr "Koristi prilagođenu maksimalnu prijenosnu jedinicu (MTU) tunela:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:263
 #, kde-format
 msgid "Use custom UDP fragment size:"
-msgstr "Koristi prilagođeno UDP fragment size:"
+msgstr "Koristi prilagođenu veličinu UDP-fragmenta:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:281
 #, kde-format
 msgid "Restrict TCP maximum segment size (MSS)"
-msgstr "Restrict TCP maximum segment size (MSS)"
+msgstr "Ograniči maksimalnu veličinu TCP-segmenta (MSS)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:294
 #, kde-format
 msgid "Specify Path MTU discovery:"
@@ -4705,7 +4709,7 @@ msgstr "Nasumično odaberi udaljene hostove"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:318
 #, kde-format
 msgid "Prefix remote DNS name with random string"
-msgstr "Prefiks Udaljeni DNS Naziv with Nasumično string"
+msgstr "Prefiks udaljenog DNS naziva nasumičnim nizom znakova"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:325
 #, kde-format
 msgid "Connect timeout:"
@@ -4717,7 +4721,7 @@ msgstr "%1 s"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:338
 #, kde-format
 msgid "Allow pull of peer DNS names (FQDN)"
-msgstr "Allow pull of Drugi uređaj DNS names (FQDN)"
+msgstr "Dopusti preuzimanje DNS naziva peera (FQDN)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:345
 #, kde-format
 msgid "push peer info"
@@ -4725,15 +4729,15 @@ msgstr "push Drugi uređaj info"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:352
 #, kde-format
 msgid "IPv6 tun link"
-msgstr "IPv6 tun link"
+msgstr "IPv6 tun veza"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:365
 #, kde-format
 msgid "Specify ping interval:"
-msgstr "Specify ping interval:"
+msgstr "Odredi interval pingiranja:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:389
 #, kde-format
 msgid "Specify exit or restart ping:"
-msgstr "Specify exit or restart ping:"
+msgstr "Odredi hoće li ping prekinuti vezu ili je ponovno pokrenuti:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:398
 #, kde-format
 msgid "ping-exit"
@@ -4745,7 +4749,7 @@ msgstr "ping-restart"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:416
 #, kde-format
 msgid "Accept authenticated packets from any address (Float)"
-msgstr "Accept Autentificirano packets from Bilo koji Adresa (Float)"
+msgstr "Prihvati autentificirane pakete s bilo koje adrese (Float)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:429
 #, kde-format
 msgid "Specify max routes:"
@@ -4769,7 +4773,7 @@ msgstr "Onemogući dogovaranje šifre"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:504
 #, kde-format
 msgid "Use custom size of cipher key:"
-msgstr "Koristi prilagođeno size of cipher Ključ:"
+msgstr "Koristi prilagođenu veličinu ključa šifre:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:522
 #, kde-format
 msgid "HMAC Authentication:"
@@ -4813,23 +4817,23 @@ msgstr "Provjera certifikata poslužitelja:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:548
 #, kde-format
 msgid "Don't verify certificate identification"
-msgstr "Don't verify Certifikat identification"
+msgstr "Nemoj provjeravati identifikaciju certifikata"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:548
 #, kde-format
 msgid "Verify whole subject exactly"
-msgstr "Verify whole subject exactly"
+msgstr "Provjeri potpuno podudaranje subjekta"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:548
 #, kde-format
 msgid "Verify name exactly"
-msgstr "Verify Naziv exactly"
+msgstr "Provjeri točno podudaranje naziva"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:548
 #, kde-format
 msgid "Verify name by prefix"
-msgstr "Verify Naziv by Prefiks"
+msgstr "Provjeri podudaranje prefiksom naziva"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:551
 #, kde-format
 msgid "Verify subject partially (legacy mode, strongly discouraged)"
-msgstr "Verify subject partially (legacy Način rada, strongly discouraged)"
+msgstr "Djelomično provjeri subjekt (zastarjeli način rada, izrazito se ne preporučuje)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:562
 #, kde-format
 msgid "Subject Match:"
@@ -4837,11 +4841,11 @@ msgstr "Podudaranje subjekta:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:567
 #, kde-format
 msgid "Connect only to servers whose certificate matches the given subject."
-msgstr "Poveži only to poslužitelji whose Certifikat matches the given subject."
+msgstr "Poveži se samo s poslužiteljima čiji certifikat odgovara navedenom subjektu."
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:576
 #, kde-format
 msgid "Verify peer (server) certificate usage signature"
-msgstr "Verify Drugi uređaj (Poslužitelj) Certifikat usage signature"
+msgstr "Provjeri potpis upotrebe certifikata peera (poslužitelja)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:583
 #, kde-format
 msgid "Remote peer certificate TLS type:"
@@ -4859,7 +4863,7 @@ msgstr "Client"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:595
 #, kde-format
 msgid "Verify peer (server) certificate nsCertType designation"
-msgstr "Verify Drugi uređaj (Poslužitelj) Certifikat nsCertVrsta designation"
+msgstr "Provjeri oznaku nsCertType u certifikatu peera (poslužitelja)"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:602
 #, kde-format
 msgid "Remote peer certificate nsCert designation:"
@@ -4899,7 +4903,7 @@ msgstr "Najniža verzija TLS-a:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:687
 #, kde-format
 msgid "or highest"
-msgstr "or highest"
+msgstr "ili najviši"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:695
 #, kde-format
 msgid "TLS version maximum:"
@@ -4919,7 +4923,7 @@ msgstr "Vrsta proxyja:"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:758
 #, kde-format
 msgid "Not Required"
-msgstr "Not Obavezno"
+msgstr "Nije obvezno"
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:758
 #, kde-format
 msgid "HTTP"
@@ -4933,7 +4937,7 @@ msgstr "SOCKS"
 msgid ""
 "Select this option if your organization requires the use of a proxy server "
 "to access the Internet."
-msgstr "Odaberi this option if your organization requires the Koristi of a Proxy Poslužitelj to access the Internet."
+msgstr "Odaberi ovu opciju ako tvoja organizacija zahtijeva korištenje proxy poslužitelja za pristup internetu."
 #: editorqml/qml/vpn/openvpn/OpenvpnAdvanced.qml:772
 #, kde-format
 msgid "Server Address:"
@@ -4975,15 +4979,15 @@ msgstr "Zadano"
 #: editorqml/qml/vpn/openvpn/OpenvpnCipherField.qml:30
 #, kde-format
 msgid "No ciphers were reported by OpenVPN."
-msgstr "Ne ciphers were reported by OpenVPN."
+msgstr "OpenVPN nije prijavio nijednu šifru."
 #: editorqml/qml/vpn/openvpn/OpenvpnCipherField.qml:30
 #, kde-format
 msgid "Cipher to use for the data channel."
-msgstr "Cipher to Koristi for the data Kanal."
+msgstr "Šifra koja će se koristiti za podatkovni kanal."
 #: editorqml/qml/vpn/pptp/Pptp.qml:27
 #, kde-format
 msgid "PPTP server IP or name."
-msgstr "PPTP Poslužitelj IP or Naziv."
+msgstr "IP-adresa ili naziv PPTP poslužitelja."
 #: editorqml/qml/vpn/pptp/Pptp.qml:36
 #, kde-format
 msgid "Login:"
@@ -4995,7 +4999,7 @@ msgstr "PPTP VPN"
 #: editorqml/qml/vpn/pptp/PptpAuth.qml:24
 #, kde-format
 msgid "Password passed to PPTP when prompted for it."
-msgstr "Lozinka passed to PPTP when prompted for it."
+msgstr "Lozinka koja se prosljeđuje PPTP-u kada je zatraži."
 #: editorqml/qml/vpn/ssh/Ssh.qml:43
 #, kde-format
 msgid "Network Settings"
@@ -5063,7 +5067,7 @@ msgstr "Zanemari Certifikat warnings"
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:60
 #, kde-format
 msgid "Point-to-Point"
-msgstr "Point-to-Point"
+msgstr "Točka-do-točke"
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:64
 #, kde-format
 msgid "Proxy"
@@ -5071,7 +5075,7 @@ msgstr "Proxy"
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:134
 #, kde-format
 msgid "Use Microsoft Point-to-Point Encryption"
-msgstr "Koristi Microsoft Point-to-Point Šifriranje"
+msgstr "Koristi Microsoft Point-to-Point Encryption"
 #: editorqml/qml/vpn/sstp/SstpAdvanced.qml:203
 #, kde-format
 msgid "Misc"
@@ -5120,7 +5124,7 @@ msgstr "EAP-TTLS"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:132
 #, kde-format
 msgid "The PIN is asked for when the connection is activated."
-msgstr "The PIN is asked for when the Veza is activated."
+msgstr "PIN se traži pri aktivaciji veze."
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:168
 #, kde-format
 msgid "Options"
@@ -5128,11 +5132,11 @@ msgstr "Opcije"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:174
 #, kde-format
 msgid "Request an inner IP address"
-msgstr "Request an inner IP Adresa"
+msgstr "Zatraži unutarnju IP-adresu"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:201
 #, kde-format
 msgid "Enable Custom Cipher Proposals"
-msgstr "Omogući Custom Cipher Proposals"
+msgstr "Omogući prilagođene prijedloge šifri"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:208
 #, kde-format
 msgid "IKE:"
@@ -5140,7 +5144,7 @@ msgstr "IKE:"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:213
 #, kde-format
 msgid "A list of proposals for IKE separated by \";\""
-msgstr "A list of proposals for IKE separated by \\\";\\\""
+msgstr "Popis prijedloga za IKE, odvojenih znakom „;”."
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:222
 #, kde-format
 msgid "ESP:"
@@ -5148,7 +5152,7 @@ msgstr "ESP:"
 #: editorqml/qml/vpn/strongswan/Strongswan.qml:227
 #, kde-format
 msgid "A list of proposals for ESP separated by \";\""
-msgstr "A list of proposals for ESP separated by \\\";\\\""
+msgstr "Popis prijedloga za ESP, odvojenih znakom „;”."
 #: editorqml/qml/vpn/strongswan/StrongswanAuth.qml:28
 #, kde-format
 msgid "strongSwan VPN"
@@ -5171,32 +5175,32 @@ msgstr "Lozinka:"
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:28
 #, kde-format
 msgid "IP/hostname of IPsec gateway."
-msgstr "IP/hostname of IPsec Pristupnik."
+msgstr "IP-adresa ili naziv glavnog računala IPsec pristupnika."
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:40
 #, kde-format
 msgid "User name for the connection."
-msgstr "Korisničko ime for the Veza."
+msgstr "Korisničko ime za vezu."
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:70
 #, kde-format
 msgid "Group name"
-msgstr "Group Naziv"
+msgstr "Naziv grupe"
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:99
 #, kde-format
 msgid "Use hybrid authentication"
-msgstr "Koristi hybrid Autentifikacija"
+msgstr "Koristi hibridnu autentifikaciju"
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:101
 #, kde-format
 msgid ""
 "Enable hybrid authentication, i.e. use certificate in addition to password."
-msgstr "Omogući hybrid Autentifikacija, i.e. Koristi Certifikat in addition to Lozinka."
+msgstr "Omogući hibridnu autentifikaciju, tj. koristi certifikat uz lozinku."
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:110
 #, kde-format
 msgid "CA file:"
-msgstr "CA file:"
+msgstr "Datoteka CA:"
 #: editorqml/qml/vpn/vpnc/Vpnc.qml:119
 #, kde-format
 msgid "CA certificate in PEM format."
-msgstr "CA certifikat in PEM format."
+msgstr "CA certifikat u PEM formatu."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:34
 #, kde-format
 msgid "Identification"
@@ -5208,7 +5212,7 @@ msgstr "Proizvođač:"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:53
 #, kde-format
 msgid "Vendor of your IPsec gateway."
-msgstr "Proizvođač of your IPsec Pristupnik."
+msgstr "Proizvođač IPsec pristupnika."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:57
 #, kde-format
 msgctxt "VPNC vendor name"
@@ -5258,17 +5262,17 @@ msgstr "Prolazak kroz NAT:"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:86
 #, kde-format
 msgid "NAT traversal method to use."
-msgstr "NAT traversal Način to Koristi."
+msgstr "Način prolaska kroz NAT."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T when available (default)"
-msgstr "NAT-T when available (Zadano)"
+msgstr "NAT-T kada je dostupan (zadano)"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
 #, kde-format
 msgctxt "NAT traversal method"
 msgid "NAT-T always"
-msgstr "NAT-T always"
+msgstr "NAT-T uvijek"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:90
 #, kde-format
 msgctxt "NAT traversal method"
@@ -5282,11 +5286,11 @@ msgstr "Onemogućeno"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:97
 #, kde-format
 msgid "IKE DH Group:"
-msgstr "IKE DH Group:"
+msgstr "IKE DH grupa:"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:100
 #, kde-format
 msgid "Name of the IKE DH group."
-msgstr "Naziv of the IKE DH group."
+msgstr "Naziv IKE DH grupe."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:104
 #, kde-format
 msgctxt "IKE DH group"
@@ -5305,16 +5309,16 @@ msgstr "DH grupa 5"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:111
 #, kde-format
 msgid "Perfect Forward Secrecy:"
-msgstr "Savršena prosljeđivanje tajnosti (PFS):"
+msgstr "Savršena unaprijedna tajnost (PFS):"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:114
 #, kde-format
 msgid "Diffie-Hellman group to use for PFS."
-msgstr "Diffie-Hellman group to Koristi for PFS."
+msgstr "Diffie-Hellman grupa koja će se koristiti za PFS."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "Server (default)"
-msgstr "Poslužitelj (Zadano)"
+msgstr "Poslužitelj (zadano)"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
@@ -5324,17 +5328,17 @@ msgstr "Nijedno"
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 1"
-msgstr "DH Group 1"
+msgstr "DH grupa 1"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 2"
-msgstr "DH Group 2"
+msgstr "DH grupa 2"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:118
 #, kde-format
 msgctxt "Perfect Forward Secrecy"
 msgid "DH Group 5"
-msgstr "DH Group 5"
+msgstr "DH grupa 5"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:125
 #, kde-format
 msgid "Local Port:"
@@ -5344,19 +5348,19 @@ msgstr "Lokalni priključak:"
 msgid ""
 "Local port to use (0-65535). 0 (default value) means random port. 500 is "
 "vpnc's default."
-msgstr "Lokalni Priključak to Koristi (0-65535). 0 (Zadano value) means Nasumično Priključak. 500 is vpnc's Zadano."
+msgstr "Lokalni priključak koji će se koristiti (0 – 65535). Vrijednost 0 (zadana) označava nasumični priključak. Zadani priključak vpnc-a je 500."
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:145
 #, kde-format
 msgid "Disable dead peer detection"
-msgstr "Onemogući otkrivanje neaktivnog peer-a"
+msgstr "Onemogući otkrivanje neaktivnog peera"
 #: editorqml/qml/vpn/vpnc/VpncAdvanced.qml:147
 #, kde-format
 msgid "Disable sending DPD packets (set timeout to 0)."
-msgstr "Onemogući sending DPD packets (set Istek vremena to 0)."
+msgstr "Onemogući slanje DPD paketa (postavi istek vremena na 0)."
 #: editorqml/qml/vpn/vpnc/VpncAuth.qml:49
 #, kde-format
 msgid "VPNC Authentication"
-msgstr "VPNC Autentifikacija"
+msgstr "VPNC autentifikacija"
 #: editorqml/qml/vpn/vpnc/VpncAuth.qml:61
 #, kde-format
 msgid "Group Password:"
@@ -5365,17 +5369,17 @@ msgstr "Lozinka grupe:"
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:26
 #, kde-format
 msgid "Store secret for this user only (encrypted)"
-msgstr "Store secret for this Korisnik only (encrypted)"
+msgstr "Pohrani tajnu samo za ovog korisnika (šifrirano)"
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:19
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:26
 #, kde-format
 msgid "Store secret for all users (not encrypted)"
-msgstr "Store secret for all users (not encrypted)"
+msgstr "Pohrani tajnu za sve korisnike (nešifrirano)"
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:20
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:26
 #, kde-format
 msgid "This secret is not required"
-msgstr "This secret is not Obavezno"
+msgstr "Ova tajna nije obvezna"
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:36
 #, kde-format
 msgid "Name:"
@@ -5387,19 +5391,19 @@ msgstr "Naziv mrežnog sučelja koje ova veza stvara."
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:51
 #, kde-format
 msgid "The private key of this interface, as a base64 string."
-msgstr "The Privatni Ključ of this Sučelje, as a base64 string."
+msgstr "Privatni ključ ovog sučelja u obliku base64 niza."
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:71
 #, kde-format
 msgid "Listen Port:"
-msgstr "Slušanje Priključak:"
+msgstr "Priključak za slušanje:"
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:73
 #, kde-format
 msgid "Port to listen on. Automatic lets WireGuard choose one."
-msgstr "Priključak to Slušanje Uključeno. Automatski lets WireGuard Odaberite one."
+msgstr "Priključak za slušanje. U automatskom načinu rada WireGuard odabire priključak."
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:90
 #, kde-format
 msgid "Firewall mark to apply to outgoing packets. Zero disables it."
-msgstr "Firewall mark to apply to outgoing packets. Zero disables it."
+msgstr "Oznaka vatrozida koja se primjenjuje na odlazne pakete. Vrijednost nula onemogućuje je."
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:117
 #, kde-format
 msgid "Add routes for the peers' allowed IPs"
@@ -5407,7 +5411,7 @@ msgstr "Dodaj rute za dopuštene IP adrese peerova"
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:119
 #, kde-format
 msgid "Turn this off to route the tunnel yourself."
-msgstr "Isključite ovo kako biste sami usmjeravali tunel."
+msgstr "Isključi ovu opciju ako želiš sam usmjeravati tunel."
 #: editorqml/qml/vpn/wireguard/Wireguard.qml:136
 #, kde-format
 msgctxt "@action:button"
@@ -5417,7 +5421,7 @@ msgstr "Drugi uređaji…"
 #, kde-format
 msgctxt "@title:tab numbered WireGuard peer"
 msgid "Peer %1"
-msgstr "Drugi uređaj %1"
+msgstr "Peer %1"
 #: editorqml/qml/vpn/wireguard/WireguardPeers.qml:75
 #, kde-format
 msgid "This interface has no peers, so it cannot connect to anything yet."
@@ -5431,7 +5435,7 @@ msgstr "Dodaj new Drugi uređaj"
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove this Peer"
-msgstr "Ukloni this Drugi uređaj"
+msgstr "Ukloni ovaj peer"
 #: editorqml/qml/wificonnectionsettings/WifiConnectionSettings.qml:115
 #, kde-format
 msgctxt "@item BSSID (MAC address) followed by signal strength"
@@ -5467,7 +5471,7 @@ msgstr "%1 bytes"
 #: editorqml/qml/wifisecurity/AlternativeSubjectMatch.qml:15
 #, kde-format
 msgid "Alternative subject matches"
-msgstr "Alternative subject matches"
+msgstr "Podudaranja alternativnog subjekta"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapFast.qml:98
 #, kde-format
 msgctxt "@label:textbox"
@@ -5493,12 +5497,12 @@ msgstr "Oboje"
 msgctxt ""
 "@label PAC stands for Proxy Auto-Configuration and should not be translated"
 msgid "PAC file:"
-msgstr "PAC file:"
+msgstr "Datoteka PAC:"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapFast.qml:191
 #, kde-format
 msgctxt "@item:filefilter"
 msgid "PAC files (*.pac)"
-msgstr "PAC files (*.pac)"
+msgstr "Datoteke PAC (*.pac)"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapPeap.qml:117
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:39
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:58
@@ -5512,25 +5516,25 @@ msgstr "*.der *.pem *.crt *.cer"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTtls.qml:164
 #, kde-format
 msgid "Certificates (*.der *.pem *.crt *.cer)"
-msgstr "Certificates (*.der *.pem *.crt *.cer)"
+msgstr "Certifikati (*.der *.pem *.crt *.cer)"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:142
 #, kde-format
 msgid "*.der *.pem *.p12 *.key"
-msgstr "*.der *.pem *.p12 *.Ključ"
+msgstr "*.der *.pem *.p12 *.key"
 #: editorqml/qml/wifisecurity/authentication/enterprise/eap/EapTls.qml:182
 #, kde-format
 msgid "Keys (*.der *.pem *.p12 *.key)"
-msgstr "Keys (*.der *.pem *.p12 *.Ključ)"
+msgstr "Ključevi (*.der *.pem *.p12 *.key)"
 #: editorqml/qml/wifisecurity/authentication/Owe.qml:30
 #, kde-format
 msgid ""
 "Enhanced Open (OWE) provides encryption without authentication. No password "
 "required."
-msgstr "Enhanced Open (OWE) provides Šifriranje without Autentifikacija. Ne Lozinka Obavezno."
+msgstr "Enhanced Open (OWE) omogućuje šifriranje bez autentifikacije. Lozinka nije potrebna."
 #: editorqml/qml/wifisecurity/authentication/WepKey.qml:38
 #, kde-format
 msgid "Key index:"
-msgstr "Ključ index:"
+msgstr "Indeks ključa:"
 #: editorqml/qml/wifisecurity/DnsList.qml:15
 #, kde-format
 msgid "DNS Servers"
@@ -5538,38 +5542,38 @@ msgstr "DNS poslužitelji"
 #: editorqml/qml/wifisecurity/WifiSecurityForm.qml:25
 #, kde-format
 msgid "WEP 40/128-bit key (Hex)"
-msgstr "WEP 40/128-bit Ključ (Hex)"
+msgstr "WEP ključ od 40/128 bitova (heksadekadski)"
 #: editorqml/qml/wifisecurity/WifiSecurityForm.qml:26
 #, kde-format
 msgid "WEP 128-bit Passphrase"
-msgstr "WEP 128-bit Passphrase"
+msgstr "WEP zaporka od 128 bita"
 #: editorqml/qml/wifisecurity/WifiSecurityForm.qml:28
 #, kde-format
 msgid "WPA/WPA2 Personal"
-msgstr "WPA/WPA2 Personal"
+msgstr "WPA/WPA2 osobno"
 #: editorqml/qml/wifisecurity/WifiSecurityForm.qml:29
 #, kde-format
 msgid "WPA/WPA2 Enterprise"
-msgstr "WPA/WPA2 Enterprise"
+msgstr "WPA/WPA2 za poduzeća"
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:56
 #, kde-format
 msgid ""
 "This option locks this connection to the network device specified by its "
 "permanent MAC address entered here. Example: 00:11:22:33:44:55"
-msgstr "This option locks this Veza to the Mreža Uređaj specified by its permanent MAC Adresa entered here. Example: 00:11:22:33:44:55"
+msgstr "Ova opcija veže vezu uz mrežni uređaj naveden njegovom stalnom MAC-adresom. Primjer: 00:11:22:33:44:55"
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:74
 #, kde-format
 msgid ""
 "The MAC address entered here will be used as hardware address for the "
 "network device this connection is activated on. This feature is known as MAC "
 "cloning or spoofing. Example: 11:22:33:44:55:66"
-msgstr "The MAC Adresa entered here will be used as hardware Adresa for the Mreža Uređaj this Veza is activated Uključeno. This feature is known as MAC cloning or spoofing. Example: 11:22:33:44:55:66"
+msgstr "Ovdje navedena MAC-adresa koristit će se kao hardverska adresa mrežnog uređaja na kojem je veza aktivirana. Ta je značajka poznata kao kloniranje ili lažiranje MAC-adrese. Primjer: 11:22:33:44:55:66"
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:107
 #, kde-format
 msgid ""
 "Only transmit packets of the specified size or smaller, breaking larger "
 "packets up into multiple Ethernet frames"
-msgstr "Only transmit packets of the specified size or smaller, breaking larger packets up into multiple Ethernet frames"
+msgstr "Prenosi samo pakete navedene veličine ili manje, a veće pakete razlaže na više Ethernet okvira."
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:114
 #, kde-format
 msgctxt "@item:inlistbox link negotiation"
@@ -5591,7 +5595,7 @@ msgid ""
 "Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values "
 "will be forced without checking the device compatibility. If unsure, leave "
 "here “Ignore” or pick “Automatic”."
-msgstr "Uređaj link negotiation. If “Ručno” is chosen, “Brzina” and “Duplex” values will be forced without checking the Uređaj compatibility. If unsure, leave here “Zanemari” or pick “Automatski”."
+msgstr "Pregovaranje o vezi uređaja. Ako odabereš „Ručno”, vrijednosti „Brzina” i „Dupleks” bit će zadane bez provjere kompatibilnosti uređaja. Ako nisi siguran, ostavi „Zanemari” ili odaberi „Automatski”."
 #: editorqml/qml/wiredconnectionsettings/WiredConnectionSettings.qml:128
 #, kde-format
 msgid "Speed:"
@@ -5611,7 +5615,7 @@ msgstr "Puni"
 msgid ""
 "Request that the device use the specified duplex mode. Either “Half” or "
 "“Full”"
-msgstr "Request that the Uređaj Koristi the specified duplex Način rada. Either “Polovični” or “Puni”"
+msgstr "Zatraži da uređaj koristi navedeni dupleksni način rada: „Polovični” ili „Puni”."
 #: editorqml/settings/generalSettings/advancedpermissionsmodel.cpp:48
 #, kde-format
 msgctxt "@item real name not available"
@@ -5652,7 +5656,7 @@ msgstr "Odaberite pristupni ključ"
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:76
 #, kde-format
 msgid "Use your security key with %1"
-msgstr "Koristi your Sigurnost Ključ with %1"
+msgstr "Koristi sigurnosni ključ s %1"
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:80
 #, kde-format
 msgid "PIN Required"
@@ -5672,7 +5676,7 @@ msgstr "Došlo je do pogreške"
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:103
 #, kde-format
 msgid "Which passkey do you want to use for %1?"
-msgstr "Which passkey do you want to Koristi for %1?"
+msgstr "Koji pristupni ključ želiš koristiti za %1?"
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:105
 #, kde-format
 msgid "Touch your security key again to complete the request."
@@ -5700,19 +5704,19 @@ msgstr "Ključ nije registriran"
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:127
 #, kde-format
 msgid "You already registered this device. Try again with device"
-msgstr "You already registered this Uređaj. Try again with Uređaj"
+msgstr "Već si registrirao ovaj uređaj. Pokušaj ponovno s uređajem."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:129
 #, kde-format
 msgid ""
 "The security key is locked because the wrong PIN was entered too many times. "
 "To unlock it, remove and reinsert it."
-msgstr "The Sigurnost Ključ is Zaključano because the wrong PIN was entered too many times. To unlock it, Ukloni and reinsert it."
+msgstr "Sigurnosni ključ zaključan je jer je previše puta unesen pogrešan PIN. Za otključavanje izvadi ga i ponovno umetni."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:131
 #, kde-format
 msgid ""
 "The security key is locked because the wrong PIN was entered too many times. "
 "You'll need to reset the security key."
-msgstr "The Sigurnost Ključ is Zaključano because the wrong PIN was entered too many times. You'll need to reset the Sigurnost Ključ."
+msgstr "Sigurnosni ključ zaključan je jer je previše puta unesen pogrešan PIN. Potrebno ga je resetirati."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:133
 #, kde-format
 msgid ""
@@ -5721,21 +5725,21 @@ msgstr "Autentifikator je uklonjen tijekom provjere. Ponovno ga umetnite i poku�
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:135
 #, kde-format
 msgid "Authenticator doesn't have resident key support"
-msgstr "Authenticator doesn't have resident Ključ support"
+msgstr "Authenticator ne podržava rezidentne ključeve."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:137
 #, kde-format
 msgid "Authenticator missing user verification"
-msgstr "Authenticator missing Korisnik verification"
+msgstr "Authenticator ne podržava provjeru korisnika."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:139
 #, kde-format
 msgid "Authenticator missing Large Blob support"
-msgstr "Authenticator missing Large Blob support"
+msgstr "Authenticator ne podržava Large Blob."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:141
 #, kde-format
 msgid ""
 "The security token does not support the server’s required authentication "
 "method."
-msgstr "The Sigurnost Token does not support the Poslužitelj’s Obavezno Autentifikacija Način."
+msgstr "Sigurnosni token ne podržava način autentifikacije koji zahtijeva poslužitelj."
 #: editorqml/settings/vpn/openconnect/openconnectwebauth.cpp:143
 #, kde-format
 msgid "Storage Full"
@@ -5810,19 +5814,19 @@ msgstr "OTP"
 #: editorqml/settings/vpn/openvpn/openvpnauth.cpp:65
 #, kde-format
 msgid "authenticator"
-msgstr "authenticator"
+msgstr "autentifikator"
 #: editorqml/settings/vpn/openvpn/openvpnauth.cpp:65
 #, kde-format
 msgid "code"
-msgstr "code"
+msgstr "kod"
 #: editorqml/settings/vpn/openvpn/openvpnauth.cpp:65
 #, kde-format
 msgid "token"
-msgstr "Token"
+msgstr "token"
 #: editorqml/settings/vpn/openvpn/openvpnauth.cpp:65
 #, kde-format
 msgid "one-time password"
-msgstr "one-time Lozinka"
+msgstr "jednokratna lozinka"
 #: editorqml/settings/wificonnectionsettings/wifisetting.cpp:292
 #, kde-format
 msgctxt "@item automatic wireless channel selection"
@@ -5847,11 +5851,11 @@ msgstr "Instaliraj"
 #: handler.cpp:217
 #, kde-format
 msgid "Failed to activate %1"
-msgstr "Aktivacija nije uspjela %1"
+msgstr "Aktivacija %1 nije uspjela."
 #: handler.cpp:391 handler.cpp:420
 #, kde-format
 msgid "Failed to add connection %1"
-msgstr "Dodavanje veze nije uspjelo %1"
+msgstr "Dodavanje veze %1 nije uspjelo."
 #: handler.cpp:398 handler.cpp:429
 #, kde-format
 msgid "Connection %1 has been added"
@@ -5859,15 +5863,15 @@ msgstr "Veza %1 je dodana"
 #: handler.cpp:468
 #, kde-format
 msgid "Failed to add %1"
-msgstr "Neuspjelo to Dodaj %1"
+msgstr "Dodavanje %1 nije uspjelo."
 #: handler.cpp:508
 #, kde-format
 msgid "Failed to deactivate %1"
-msgstr "Deaktivacija nije uspjela %1"
+msgstr "Deaktivacija %1 nije uspjela."
 #: handler.cpp:646
 #, kde-format
 msgid "Failed to remove %1"
-msgstr "Uklanjanje nije uspjelo %1"
+msgstr "Uklanjanje %1 nije uspjelo."
 #: handler.cpp:653
 #, kde-format
 msgid "Connection %1 has been removed"
@@ -5875,7 +5879,7 @@ msgstr "Veza %1 je uklonjena"
 #: handler.cpp:672
 #, kde-format
 msgid "Failed to update connection %1"
-msgstr "Ažuriranje veze nije uspjelo %1"
+msgstr "Ažuriranje veze %1 nije uspjelo."
 #: handler.cpp:679
 #, kde-format
 msgid "Connection %1 has been updated"
@@ -5883,7 +5887,7 @@ msgstr "Veza %1 je ažurirana"
 #: handler.cpp:885
 #, kde-format
 msgid "Failed to create hotspot %1"
-msgstr "Stvaranje pristupne točke nije uspjelo %1"
+msgstr "Stvaranje pristupne točke %1 nije uspjelo."
 #: models/creatableconnectionsmodel.cpp:136
 #: models/creatableconnectionsmodel.cpp:143
 #: models/creatableconnectionsmodel.cpp:150
@@ -6019,7 +6023,7 @@ msgstr "Povezivanje"
 #: networkstatus.cpp:218
 #, kde-format
 msgid "Connecting to %1"
-msgstr "Povezivanje to %1"
+msgstr "Povezivanje s %1"
 #: networkstatus.cpp:222
 #, kde-format
 msgid "Connected to %1 (no connectivity)"
@@ -6035,7 +6039,7 @@ msgstr "Povezano s %1 (potrebna je prijava)"
 #: networkstatus.cpp:231
 #, kde-format
 msgid "Connected to %1"
-msgstr "Povezano to %1"
+msgstr "Povezano s %1"
 #: networkstatus.cpp:256
 #, kde-format
 msgctxt "@info:status"
