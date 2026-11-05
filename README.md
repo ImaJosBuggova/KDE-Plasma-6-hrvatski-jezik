@@ -42,32 +42,32 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **plasma-login-manager** | ⚠️ | Čeka provjeru |
 | **kio-admin** | ⚠️ | Čeka provjeru |
 | **powerdevil** | ✅ | Pregledao Roko Tomović |
-| **frameworkintegration** | ❌ | Nije prevedeno |
-| **kactivitymanagerd** | ❌ | Nije prevedeno |
-| **kcmutils** | ❌ | Nije prevedeno |
-| **kconfig** | ❌ | Nije prevedeno |
-| **kconfigwidgets** | ❌ | Nije prevedeno |
-| **kcoreaddons** | ❌ | Nije prevedeno |
-| **kcrash** | ❌ | Nije prevedeno |
-| **kdbusaddons** | ❌ | Nije prevedeno |
-| **kdeclerative** | ❌ | Nije prevedeno |
-| **kglobalaccel** | ❌ | Nije prevedeno |
-| **kguiaddons** | ❌ | Nije prevedeno |
-| **ki18n** | ❌ | Nije prevedeno |
-| **kiconthemes** | ❌ | Nije prevedeno |
-| **kjobwidgets** | ❌ | Nije prevedeno |
-| **knewstuff** | ❌ | Nije prevedeno |
-| **kpackage** | ❌ | Nije prevedeno |
-| **kparts** | ❌ | Nije prevedeno |
-| **kpeople** | ❌ | Nije prevedeno |
-| **krunner** | ❌ | Nije prevedeno |
-| **kservice** | ❌ | Nije prevedeno |
-| **kstatusnotifieritem** | ❌ | Nije prevedeno |
-| **ksvg** | ❌ | Nije prevedeno |
-| **ktextwidgets** | ❌ | Nije prevedeno |
-| **kwidgetsaddons** | ❌ | Nije prevedeno |
-| **kxmlgui** | ❌ | Nije prevedeno |
-| **libksysguard** | ❌ | Nije prevedeno |
+| **frameworkintegration** | ✅ | Pregledao Roko Tomović |
+| **kactivitymanagerd** | ✅ | Pregledao Roko Tomović |
+| **kcmutils** | ✅ | Pregledao Roko Tomović |
+| **kconfig** | ⚠️ | Čeka provjeru |
+| **kconfigwidgets** | ⚠️ | Čeka provjeru |
+| **kcoreaddons** | ✅ | Pregledao Roko Tomović |
+| **kcrash** | ✅ | Pregledao Roko Tomović |
+| **kdbusaddons** | ✅ | Pregledao Roko Tomović |
+| **kdeclerative** | ✅ | Pregledao Roko Tomović |
+| **kglobalaccel** | ✅ | Pregledao Roko Tomović |
+| **kguiaddons** | ✅ | Pregledao Roko Tomović |
+| **ki18n** | ⚠️ | Čeka provjeru |
+| **kiconthemes** | ✅ | Pregledao Roko Tomović |
+| **kjobwidgets** | ✅ | Pregledao Roko Tomović |
+| **knewstuff** | ⚠️ | Čeka provjeru |
+| **kpackage** | ✅ | Pregledao Roko Tomović |
+| **kparts** | ✅ | Pregledao Roko Tomović |
+| **kpeople** | ✅ | Pregledao Roko Tomović |
+| **krunner** | ✅ | Pregledao Roko Tomović |
+| **kservice** | ✅ | Pregledao Roko Tomović |
+| **kstatusnotifieritem** | ✅ | Pregledao Roko Tomović |
+| **ksvg** | ✅ | Orginalno prazno |
+| **ktextwidgets** | ✅ | Pregledao Roko Tomović |
+| **kwidgetsaddons** | ⚠️ | Čeka provjeru |
+| **kxmlgui** | ⚠️ | Čeka provjeru |
+| **libksysguard** | ⚠️ | Čeka provjeru |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

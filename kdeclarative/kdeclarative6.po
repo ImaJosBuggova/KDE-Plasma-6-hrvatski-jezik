@@ -1,0 +1,154 @@
+# Translation of kdeclarative to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdeclarative package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeclarative\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-07 00:40+0000\n"
+"PO-Revision-Date: 2026-11-05 05:30+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:67
+#, kde-format
+msgctxt "@info:whatsthis for a button"
+msgid "Color button"
+msgstr "Gumb za boju"
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:69
+#, kde-format
+msgctxt "@info:whatsthis for a button of current color code %1"
+msgid "Current color is %1. This button will open a color chooser dialog."
+msgstr "Trenutna je boja %1. Ovaj će gumb otvoriti dijaloški okvir za odabir boje."
+
+#: qmlcontrols/kquickcontrols/ColorButton.qml:70
+#, kde-format
+msgctxt "@info:whatsthis for a button of current color code %1"
+msgid "Current color is %1."
+msgstr "Trenutna je boja %1."
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:184
+#, kde-format
+msgctxt "What the user inputs now will be taken as the new shortcut"
+msgid "Input"
+msgstr "Unos"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:185
+#, kde-format
+msgctxt "No shortcut defined"
+msgid "None"
+msgstr "Nema"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:196
+#, kde-format
+msgid ""
+"Click on the button, then enter the shortcut like you would in the program.\n"
+"Example for Ctrl+A: hold the Ctrl key and press A."
+msgstr ""
+"Kliknite na gumb, a zatim unesite prečac kao što biste to učinili u programu.\n"
+"Primjer za Ctrl+A: držite tipku Ctrl i pritisnite A."
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:239
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear Key Sequence"
+msgstr "Očisti slijed tipki"
+
+#: qmlcontrols/kquickcontrols/KeySequenceItem.qml:256
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel Key Sequence Recording"
+msgstr "Otkaži snimanje slijeda tipki"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:121
+#, kde-format
+msgid "Reserved Shortcut"
+msgstr "Rezervirani prečac"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:123
+#, kde-format
+msgid ""
+"The F12 key is reserved on Windows, so cannot be used for a global "
+"shortcut.\n"
+"Please choose another one."
+msgstr ""
+"Tipka F12 rezervirana je na sustavu Windows, stoga se ne može koristiti za "
+"globalni prečac.\n"
+"Molimo odaberite drugu."
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:145
+#, kde-format
+msgid "Global Shortcut Shadowing"
+msgstr "Preklapanje globalnih prečaca"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:148
+#, kde-format
+msgid "The '%1' key combination is shadowed by following global actions:\n"
+msgstr "Kombinaciju tipki „%1” preklapaju sljedeće globalne radnje:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:150
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:156
+#, kde-format
+msgid "Action '%1' in context '%2'\n"
+msgstr "Radnja „%1” u kontekstu „%2”\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:154
+#, kde-format
+msgid "The '%1' key combination shadows following global actions:\n"
+msgstr "Kombinacija tipki „%1” preklapa sljedeće globalne radnje:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:165
+#, kde-format
+msgctxt "@dialog:title"
+msgid "Found Conflict"
+msgstr "Pronađen sukob"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:170
+#, kde-format
+msgid ""
+"Shortcut '%1' is already assigned to action '%2' of %3.\n"
+"Do you want to reassign it?"
+msgstr ""
+"Prečac „%1” već je dodijeljen radnji „%2” aplikacije %3.\n"
+"Želite li ga ponovno dodijeliti?"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:175
+#, kde-format
+msgid "Shortcut '%1' is already assigned to the following actions:\n"
+msgstr "Prečac „%1” već je dodijeljen sljedećim radnjama:\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:177
+#, kde-format
+msgid "Action '%1' of %2\n"
+msgstr "Radnja „%1” aplikacije %2\n"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:179
+#, kde-format
+msgid "Do you want to reassign it?"
+msgstr "Želite li ga ponovno dodijeliti?"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:195
+#, kde-format
+msgid "Conflict with Standard Application Shortcut"
+msgstr "Sukob sa standardnim prečacem aplikacije"
+
+#: qmlcontrols/kquickcontrols/private/keysequencevalidator.cpp:197
+#, kde-format
+msgid ""
+"The '%1' key combination is also used for the standard action \"%2\" that "
+"some applications use.\n"
+"Do you really want to use it as a global shortcut as well?"
+msgstr ""
+"Kombinacija tipki „%1” također se koristi za standardnu radnju „%2” koju "
+"koriste neke aplikacije.\n"
+"Želite li je zaista koristiti i kao globalni prečac?"

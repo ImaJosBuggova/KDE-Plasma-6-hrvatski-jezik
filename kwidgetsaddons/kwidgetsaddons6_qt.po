@@ -1,0 +1,2070 @@
+# Translation of kwidgetsaddons to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kwidgetsaddons package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kwidgetsaddons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:49+0000\n"
+"PO-Revision-Date: 2026-11-05 15:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"X-Qt-Contexts: true\n"
+
+#. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:22
+msgctxt "FontHelpers|@item Font name"
+msgid "Sans Serif"
+msgstr "Sans Serif"
+
+#. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:25
+msgctxt "FontHelpers|@item Font name"
+msgid "Serif"
+msgstr "Serif"
+
+#. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers_p.h:28
+msgctxt "FontHelpers|@item Font name"
+msgid "Monospace"
+msgstr "Monospace"
+
+#: fonthelpers_p.h:88
+#, qt-format
+msgctxt "FontHelpers|@item Font name"
+msgid "%1"
+msgstr "%1"
+
+#: fonthelpers_p.h:92
+#, qt-format
+msgctxt "FontHelpers|@item Font name [foundry]"
+msgid "%1 [%2]"
+msgstr "%1 [%2]"
+
+#: kabstractcoloredit.cpp:70
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Copy Color"
+msgstr "Kopiraj boju"
+
+#: kabstractcoloredit.cpp:81
+msgctxt "KAbstractColorEdit|@action:inmenu"
+msgid "Paste Color"
+msgstr "Zalijepi boju"
+
+#: kactionselector.cpp:98
+msgctxt "KActionSelector|@label:listbox"
+msgid "&Available:"
+msgstr "&Dostupno:"
+
+#: kactionselector.cpp:115
+msgctxt "KActionSelector|@label:listbox"
+msgid "&Selected:"
+msgstr "&Odabrano:"
+
+#: kassistantdialog.cpp:100
+msgctxt "KAssistantDialog|@action:button go back"
+msgid "&Back"
+msgstr "&Natrag"
+
+#: kassistantdialog.cpp:102
+msgctxt "KAssistantDialog|@info:tooltip"
+msgid "Go back one step"
+msgstr "Vrati se jedan korak natrag"
+
+#: kassistantdialog.cpp:107
+msgctxt "KAssistantDialog|@action:button Opposite to Back"
+msgid "Next"
+msgstr "Sljedeće"
+
+#: kassistantdialog.cpp:113
+msgctxt "KAssistantDialog|@action:button"
+msgid "Finish"
+msgstr "Završi"
+
+#: kcharselect-translation.cpp:11 kcharselectdata.cpp:279
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "All"
+msgstr "Sve"
+
+#: kcharselect-translation.cpp:12
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "European Scripts"
+msgstr "Europska pisma"
+
+#: kcharselect-translation.cpp:13
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "African Scripts"
+msgstr "Afrička pisma"
+
+#: kcharselect-translation.cpp:14
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Middle Eastern Scripts"
+msgstr "Bliskoistočna pisma"
+
+#: kcharselect-translation.cpp:15
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Central Asian Scripts"
+msgstr "Srednjoazijska pisma"
+
+#: kcharselect-translation.cpp:16
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "South Asian Scripts"
+msgstr "Južnoazijska pisma"
+
+#: kcharselect-translation.cpp:17
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Southeast Asian Scripts"
+msgstr "Jugoistočnoazijska pisma"
+
+#: kcharselect-translation.cpp:18
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Indonesia and Oceania Scripts"
+msgstr "Pisma Indonezije i Oceanije"
+
+#: kcharselect-translation.cpp:19
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "East Asian Scripts"
+msgstr "Istočnoazijska pisma"
+
+#: kcharselect-translation.cpp:20
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "American Scripts"
+msgstr "Američka pisma"
+
+#: kcharselect-translation.cpp:21
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Symbols"
+msgstr "Simboli"
+
+#: kcharselect-translation.cpp:22
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Mathematical Symbols"
+msgstr "Matematički simboli"
+
+#: kcharselect-translation.cpp:23
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Phonetic Symbols"
+msgstr "Fonetstki simboli"
+
+#: kcharselect-translation.cpp:24 kcharselectdata.cpp:745
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Combining Diacritics"
+msgstr "Kombinirajući dijakritički znakovi"
+
+#: kcharselect-translation.cpp:25
+msgctxt "KCharSelectData|KCharSelect section name"
+msgid "Other"
+msgstr "Ostalo"
+
+#: kcharselect-translation.cpp:26
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Basic Latin"
+msgstr "Osnovna latinica"
+
+#: kcharselect-translation.cpp:27
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin-1 Supplement"
+msgstr "Dodatak za latinicu-1"
+
+#: kcharselect-translation.cpp:28
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-A"
+msgstr "Proširena latinica-A"
+
+#: kcharselect-translation.cpp:29
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-B"
+msgstr "Proširena latinica-B"
+
+#: kcharselect-translation.cpp:30
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "IPA Extensions"
+msgstr "IPA proširenja"
+
+#: kcharselect-translation.cpp:31
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Spacing Modifier Letters"
+msgstr "Slova modifikatora razmaka"
+
+#: kcharselect-translation.cpp:32
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks"
+msgstr "Kombinirajući dijakritički znakovi"
+
+#: kcharselect-translation.cpp:33
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Greek and Coptic"
+msgstr "Grčki i koptski"
+
+#: kcharselect-translation.cpp:34
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic"
+msgstr "Ćirilica"
+
+#: kcharselect-translation.cpp:35
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Supplement"
+msgstr "Dodatak ćirilici"
+
+#: kcharselect-translation.cpp:36
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Armenian"
+msgstr "Armenski"
+
+#: kcharselect-translation.cpp:37
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hebrew"
+msgstr "Hebrejski"
+
+#: kcharselect-translation.cpp:38
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic"
+msgstr "Arapski"
+
+#: kcharselect-translation.cpp:39
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syriac"
+msgstr "Sirijski"
+
+#: kcharselect-translation.cpp:40
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Supplement"
+msgstr "Dodatak arapskom"
+
+#: kcharselect-translation.cpp:41
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Thaana"
+msgstr "Thaana"
+
+#: kcharselect-translation.cpp:42
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "NKo"
+msgstr "NKo"
+
+#: kcharselect-translation.cpp:43
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Samaritan"
+msgstr "Samaritanski"
+
+#: kcharselect-translation.cpp:44
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mandaic"
+msgstr "Mandejski"
+
+#: kcharselect-translation.cpp:45
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syriac Supplement"
+msgstr "Dodatak sirijskom"
+
+#: kcharselect-translation.cpp:46
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Extended-B"
+msgstr "Prošireni arapski-B"
+
+#: kcharselect-translation.cpp:47
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Extended-A"
+msgstr "Prošireni arapski-A"
+
+#: kcharselect-translation.cpp:48
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: kcharselect-translation.cpp:49
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bengali"
+msgstr "Bengalski"
+
+#: kcharselect-translation.cpp:50
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: kcharselect-translation.cpp:51
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: kcharselect-translation.cpp:52
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Oriya"
+msgstr "Oriya"
+
+#: kcharselect-translation.cpp:53
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tamil"
+msgstr "Tamilski"
+
+#: kcharselect-translation.cpp:54
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Telugu"
+msgstr "Telugu"
+
+#: kcharselect-translation.cpp:55
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kannada"
+msgstr "Kannada"
+
+#: kcharselect-translation.cpp:56
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: kcharselect-translation.cpp:57
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: kcharselect-translation.cpp:58
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Thai"
+msgstr "Tajlandski"
+
+#: kcharselect-translation.cpp:59
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lao"
+msgstr "Laoski"
+
+#: kcharselect-translation.cpp:60
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tibetan"
+msgstr "Tibetanski"
+
+#: kcharselect-translation.cpp:61
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar"
+msgstr "Mijanski"
+
+#: kcharselect-translation.cpp:62
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian"
+msgstr "Gruzijski"
+
+#: kcharselect-translation.cpp:63
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo"
+msgstr "Hangul Jamo"
+
+#: kcharselect-translation.cpp:64
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic"
+msgstr "Etiopski"
+
+#: kcharselect-translation.cpp:65
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Supplement"
+msgstr "Dodatak etiopskom"
+
+#: kcharselect-translation.cpp:66
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cherokee"
+msgstr "Čeroki"
+
+#: kcharselect-translation.cpp:67
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "Ujedinjeni slogovi kanadskih domorodaca"
+
+#: kcharselect-translation.cpp:68
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ogham"
+msgstr "Ogham"
+
+#: kcharselect-translation.cpp:69
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Runic"
+msgstr "Runski"
+
+#: kcharselect-translation.cpp:70
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: kcharselect-translation.cpp:71
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hanunoo"
+msgstr "Hanunoo"
+
+#: kcharselect-translation.cpp:72
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Buhid"
+msgstr "Buhid"
+
+#: kcharselect-translation.cpp:73
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tagbanwa"
+msgstr "Tagbanwa"
+
+#: kcharselect-translation.cpp:74
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Khmer"
+msgstr "Kmerski"
+
+#: kcharselect-translation.cpp:75
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mongolian"
+msgstr "Mongolski"
+
+#: kcharselect-translation.cpp:76
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Unified Canadian Aboriginal Syllabics Extended"
+msgstr "Prošireni ujedinjeni slogovi kanadskih domorodaca"
+
+#: kcharselect-translation.cpp:77
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Limbu"
+msgstr "Limbu"
+
+#: kcharselect-translation.cpp:78
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Le"
+msgstr "Tai Le"
+
+#: kcharselect-translation.cpp:79
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "New Tai Lue"
+msgstr "Novi Tai Lue"
+
+#: kcharselect-translation.cpp:80
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Khmer Symbols"
+msgstr "Kmerski simboli"
+
+#: kcharselect-translation.cpp:81
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Buginese"
+msgstr "Buginski"
+
+#: kcharselect-translation.cpp:82
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Tham"
+msgstr "Tai Tham"
+
+#: kcharselect-translation.cpp:83
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks Extended"
+msgstr "Prošireni kombinirajući dijakritički znakovi"
+
+#: kcharselect-translation.cpp:84
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Balinese"
+msgstr "Balinezijski"
+
+#: kcharselect-translation.cpp:85
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sundanese"
+msgstr "Sudanski"
+
+#: kcharselect-translation.cpp:86
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Batak"
+msgstr "Batak"
+
+#: kcharselect-translation.cpp:87
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lepcha"
+msgstr "Lepcha"
+
+#: kcharselect-translation.cpp:88
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ol Chiki"
+msgstr "Ol Chiki"
+
+#: kcharselect-translation.cpp:89
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-C"
+msgstr "Proširena ćirilica-C"
+
+#: kcharselect-translation.cpp:90
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian Extended"
+msgstr "Prošireni gruzijski"
+
+#: kcharselect-translation.cpp:91
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Sundanese Supplement"
+msgstr "Dodatak sudanskom"
+
+#: kcharselect-translation.cpp:92
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vedic Extensions"
+msgstr "Vedska proširenja"
+
+#: kcharselect-translation.cpp:93
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phonetic Extensions"
+msgstr "Fonetska proširenja"
+
+#: kcharselect-translation.cpp:94
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phonetic Extensions Supplement"
+msgstr "Dodatak fonetskim proširenjima"
+
+#: kcharselect-translation.cpp:95
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Dodatak kombinirajućim dijakritičkim znakovima"
+
+#: kcharselect-translation.cpp:96
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended Additional"
+msgstr "Dodatna proširena latinica"
+
+#: kcharselect-translation.cpp:97
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Greek Extended"
+msgstr "Prošireni grčki"
+
+#: kcharselect-translation.cpp:98
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "General Punctuation"
+msgstr "Opća interpunkcija"
+
+#: kcharselect-translation.cpp:99
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Superscripts and Subscripts"
+msgstr "Eksponenti i indeksi"
+
+#: kcharselect-translation.cpp:100
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Currency Symbols"
+msgstr "Simboli valuta"
+
+#: kcharselect-translation.cpp:101
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "Kombinirajući dijakritički znakovi za simbole"
+
+#: kcharselect-translation.cpp:102
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Letterlike Symbols"
+msgstr "Simboli slični slovima"
+
+#: kcharselect-translation.cpp:103
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Number Forms"
+msgstr "Bročani oblici"
+
+#: kcharselect-translation.cpp:104
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arrows"
+msgstr "Strelice"
+
+#: kcharselect-translation.cpp:105
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mathematical Operators"
+msgstr "Matematički operatori"
+
+#: kcharselect-translation.cpp:106
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Technical"
+msgstr "Razni tehnički simboli"
+
+#: kcharselect-translation.cpp:107
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Control Pictures"
+msgstr "Slike upravljačkih znakova"
+
+#: kcharselect-translation.cpp:108
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Optical Character Recognition"
+msgstr "Optičko prepoznavanje znakova"
+
+#: kcharselect-translation.cpp:109
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Alphanumerics"
+msgstr "Zaokruženi alfanumerički znakovi"
+
+#: kcharselect-translation.cpp:110
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Box Drawing"
+msgstr "Crtanje okvira"
+
+#: kcharselect-translation.cpp:111
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Block Elements"
+msgstr "Elementi blokova"
+
+#: kcharselect-translation.cpp:112
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Geometric Shapes"
+msgstr "Geometrijski oblici"
+
+#: kcharselect-translation.cpp:113
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols"
+msgstr "Razni simboli"
+
+#: kcharselect-translation.cpp:114
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Dingbats"
+msgstr "Ukrasni znakovi (Dingbats)"
+
+#: kcharselect-translation.cpp:115
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Razni matematički simboli-A"
+
+#: kcharselect-translation.cpp:116
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-A"
+msgstr "Dopunske strelice-A"
+
+#: kcharselect-translation.cpp:117
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Braille Patterns"
+msgstr "Brailleovi uzorci"
+
+#: kcharselect-translation.cpp:118
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-B"
+msgstr "Dopunske strelice-B"
+
+#: kcharselect-translation.cpp:119
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Razni matematički simboli-B"
+
+#: kcharselect-translation.cpp:120
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Mathematical Operators"
+msgstr "Dopunski matematički operatori"
+
+#: kcharselect-translation.cpp:121
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "Razni simboli i strelice"
+
+#: kcharselect-translation.cpp:122
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Glagolitic"
+msgstr "Glagoljica"
+
+#: kcharselect-translation.cpp:123
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-C"
+msgstr "Proširena latinica-C"
+
+#: kcharselect-translation.cpp:124
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Coptic"
+msgstr "Koptski"
+
+#: kcharselect-translation.cpp:125
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Georgian Supplement"
+msgstr "Dodatak gruzijskom"
+
+#: kcharselect-translation.cpp:126
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tifinagh"
+msgstr "Tifinagh"
+
+#: kcharselect-translation.cpp:127
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Extended"
+msgstr "Prošireni etiopski"
+
+#: kcharselect-translation.cpp:128
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-A"
+msgstr "Proširena ćirilica-A"
+
+#: kcharselect-translation.cpp:129
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Punctuation"
+msgstr "Dopunska interpunkcija"
+
+#: kcharselect-translation.cpp:130
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Radicals Supplement"
+msgstr "Dodatak CJK radikalima"
+
+#: kcharselect-translation.cpp:131
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kangxi Radicals"
+msgstr "Kangxi radikali"
+
+#: kcharselect-translation.cpp:132
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ideographic Description Characters"
+msgstr "Znakovi za opis ideograma"
+
+#: kcharselect-translation.cpp:133
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Symbols and Punctuation"
+msgstr "CJK simboli i interpunkcija"
+
+#: kcharselect-translation.cpp:134
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: kcharselect-translation.cpp:135
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Katakana"
+msgstr "Katakana"
+
+#: kcharselect-translation.cpp:136
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bopomofo"
+msgstr "Bopomofo"
+
+#: kcharselect-translation.cpp:137
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Compatibility Jamo"
+msgstr "Hangul Jamo za kompatibilnost"
+
+#: kcharselect-translation.cpp:138
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kanbun"
+msgstr "Kanbun"
+
+#: kcharselect-translation.cpp:139
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bopomofo Extended"
+msgstr "Prošireni Bopomofo"
+
+#: kcharselect-translation.cpp:140
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Strokes"
+msgstr "CJK potezi"
+
+#: kcharselect-translation.cpp:141
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Katakana Phonetic Extensions"
+msgstr "Fonetska proširenja katakane"
+
+#: kcharselect-translation.cpp:142
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed CJK Letters and Months"
+msgstr "Zaokruženi CJK znakovi i mjeseci"
+
+#: kcharselect-translation.cpp:143
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility"
+msgstr "CJK kompatibilnost"
+
+#: kcharselect-translation.cpp:144
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Unified Ideographs Extension A"
+msgstr "Proširenje A ujedinjenih CJK ideograma"
+
+#: kcharselect-translation.cpp:145
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yijing Hexagram Symbols"
+msgstr "Simboli Yijing heksagrama"
+
+#: kcharselect-translation.cpp:146
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Unified Ideographs"
+msgstr "Ujedinjeni CJK ideogrami"
+
+#: kcharselect-translation.cpp:147
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yi Syllables"
+msgstr "Yi slogovi"
+
+#: kcharselect-translation.cpp:148
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Yi Radicals"
+msgstr "Yi radikali"
+
+#: kcharselect-translation.cpp:149
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Lisu"
+msgstr "Lisu"
+
+#: kcharselect-translation.cpp:150
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vai"
+msgstr "Vai"
+
+#: kcharselect-translation.cpp:151
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cyrillic Extended-B"
+msgstr "Proširena ćirilica-B"
+
+#: kcharselect-translation.cpp:152
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Bamum"
+msgstr "Bamum"
+
+#: kcharselect-translation.cpp:153
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Modifier Tone Letters"
+msgstr "Slova modifikatora tona"
+
+#: kcharselect-translation.cpp:154
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-D"
+msgstr "Proširena latinica-D"
+
+#: kcharselect-translation.cpp:155
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Syloti Nagri"
+msgstr "Syloti Nagri"
+
+#: kcharselect-translation.cpp:156
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Common Indic Number Forms"
+msgstr "Uobičajeni indijski bročani oblici"
+
+#: kcharselect-translation.cpp:157
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Phags-pa"
+msgstr "Phags-pa"
+
+#: kcharselect-translation.cpp:158
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Saurashtra"
+msgstr "Saurashtra"
+
+#: kcharselect-translation.cpp:159
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Devanagari Extended"
+msgstr "Prošireni devanagari"
+
+#: kcharselect-translation.cpp:160
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Kayah Li"
+msgstr "Kayah Li"
+
+#: kcharselect-translation.cpp:161
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Rejang"
+msgstr "Rejang"
+
+#: kcharselect-translation.cpp:162
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo Extended-A"
+msgstr "Prošireni Hangul Jamo-A"
+
+#: kcharselect-translation.cpp:163
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Javanese"
+msgstr "Javanski"
+
+#: kcharselect-translation.cpp:164
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar Extended-B"
+msgstr "Prošireni mijanski-B"
+
+#: kcharselect-translation.cpp:165
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cham"
+msgstr "Cham"
+
+#: kcharselect-translation.cpp:166
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Myanmar Extended-A"
+msgstr "Prošireni mijanski-A"
+
+#: kcharselect-translation.cpp:167
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Tai Viet"
+msgstr "Tai Viet"
+
+#: kcharselect-translation.cpp:168
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Meetei Mayek Extensions"
+msgstr "Proširenja Meetei Mayek"
+
+#: kcharselect-translation.cpp:169
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ethiopic Extended-A"
+msgstr "Prošireni etiopski-A"
+
+#: kcharselect-translation.cpp:170
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Latin Extended-E"
+msgstr "Proširena latinica-E"
+
+#: kcharselect-translation.cpp:171
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Cherokee Supplement"
+msgstr "Dodatak čerokiju"
+
+#: kcharselect-translation.cpp:172
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Meetei Mayek"
+msgstr "Meetei Mayek"
+
+#: kcharselect-translation.cpp:173
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Syllables"
+msgstr "Hangul slogovi"
+
+#: kcharselect-translation.cpp:174
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Hangul Jamo Extended-B"
+msgstr "Prošireni Hangul Jamo-B"
+
+#: kcharselect-translation.cpp:175
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "High Surrogates"
+msgstr "Visoke zamjenske vrijednosti (High Surrogates)"
+
+#: kcharselect-translation.cpp:176
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "High Private Use Surrogates"
+msgstr "Visoke zamjenske vrijednosti za privatnu upotrebu"
+
+#: kcharselect-translation.cpp:177
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Low Surrogates"
+msgstr "Niske zamjenske vrijednosti (Low Surrogates)"
+
+#: kcharselect-translation.cpp:178
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Private Use Area"
+msgstr "Područje za privatnu upotrebu"
+
+#: kcharselect-translation.cpp:179
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility Ideographs"
+msgstr "CJK ideogrami za kompatibilnost"
+
+#: kcharselect-translation.cpp:180
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Alphabetic Presentation Forms"
+msgstr "Oblici za slovni prikaz"
+
+#: kcharselect-translation.cpp:181
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Presentation Forms-A"
+msgstr "Oblici za arapski prikaz-A"
+
+#: kcharselect-translation.cpp:182
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Variation Selectors"
+msgstr "Birači varijacija"
+
+#: kcharselect-translation.cpp:183
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Vertical Forms"
+msgstr "Okomiti oblici"
+
+#: kcharselect-translation.cpp:184
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Combining Half Marks"
+msgstr "Kombinirajuće polovične oznake"
+
+#: kcharselect-translation.cpp:185
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "CJK Compatibility Forms"
+msgstr "CJK oblici za kompatibilnost"
+
+#: kcharselect-translation.cpp:186
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Small Form Variants"
+msgstr "Varijante malih oblika"
+
+#: kcharselect-translation.cpp:187
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Arabic Presentation Forms-B"
+msgstr "Oblici za arapski prikaz-B"
+
+#: kcharselect-translation.cpp:188
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Halfwidth and Fullwidth Forms"
+msgstr "Oblici polovične i pune širine"
+
+#: kcharselect-translation.cpp:189
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Specials"
+msgstr "Posebni znakovi"
+
+#: kcharselect-translation.cpp:191
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Mahjong Tiles"
+msgstr "Mahjong pločice"
+
+#: kcharselect-translation.cpp:192
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Domino Tiles"
+msgstr "Domino pločice"
+
+#: kcharselect-translation.cpp:193
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Playing Cards"
+msgstr "Karte za igranje"
+
+#: kcharselect-translation.cpp:194
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Alphanumeric Supplement"
+msgstr "Dodatak za zaokružene alfanumeričke znakove"
+
+#: kcharselect-translation.cpp:195
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Enclosed Ideographic Supplement"
+msgstr "Dodatak za zaokružene ideograme"
+
+#: kcharselect-translation.cpp:196
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Miscellaneous Symbols and Pictographs"
+msgstr "Razni simboli i piktogrami"
+
+#: kcharselect-translation.cpp:197
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Emoticons"
+msgstr "Smiješke (Emoticons)"
+
+#: kcharselect-translation.cpp:198
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Ornamental Dingbats"
+msgstr "Ukrasni znakovi"
+
+#: kcharselect-translation.cpp:199
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Transport and Map Symbols"
+msgstr "Simboli za prijevoz i karte"
+
+#: kcharselect-translation.cpp:200
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Alchemical Symbols"
+msgstr "Alkemijski simboli"
+
+#: kcharselect-translation.cpp:201
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Geometric Shapes Extended"
+msgstr "Prošireni geometrijski oblici"
+
+#: kcharselect-translation.cpp:202
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Arrows-C"
+msgstr "Dopunske strelice-C"
+
+#: kcharselect-translation.cpp:203
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Supplemental Symbols and Pictographs"
+msgstr "Dopunski simboli i piktogrami"
+
+#: kcharselect-translation.cpp:204
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Chess Symbols"
+msgstr "Šahovski simboli"
+
+#: kcharselect-translation.cpp:205
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Symbols and Pictographs Extended-A"
+msgstr "Prošireni simboli i piktogrami-A"
+
+#: kcharselect-translation.cpp:206
+msgctxt "KCharSelectData|KCharselect unicode block name"
+msgid "Symbols for Legacy Computing"
+msgstr "Simboli za računalnu baštinu"
+
+#: kcharselect.cpp:394
+msgctxt "KCharSelect|@info:placeholder"
+msgid "Enter a search term or character…"
+msgstr "Unesite pojam za pretraživanje ili znak…"
+
+#: kcharselect.cpp:396
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Enter a search term or character here"
+msgstr "Ovdje unesite pojam za pretraživanje ili znak"
+
+#: kcharselect.cpp:403
+msgctxt "KCharSelect|@action"
+msgid "&Find…"
+msgstr "&Pronađi…"
+
+#: kcharselect.cpp:427
+msgctxt "KCharSelect|@action:button Goes to previous character"
+msgid "Previous in History"
+msgstr "Prethodno u povijesti"
+
+#: kcharselect.cpp:429
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Go to previous character in history"
+msgstr "Idi na prethodni znak u povijesti"
+
+#: kcharselect.cpp:434
+msgctxt "KCharSelect|@action:button Goes to next character"
+msgid "Next in History"
+msgstr "Sljedeće u povijesti"
+
+#: kcharselect.cpp:436
+msgctxt "KCharSelect|info:tooltip"
+msgid "Go to next character in history"
+msgstr "Idi na sljedeći znak u povijesti"
+
+#: kcharselect.cpp:441
+msgctxt "KCharSelect|@action go back"
+msgid "&Back"
+msgstr "&Natrag"
+
+#: kcharselect.cpp:448
+msgctxt "KCharSelect|@action go forward"
+msgid "&Forward"
+msgstr "&Naprijed"
+
+#: kcharselect.cpp:467
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a category"
+msgstr "Odaberite kategoriju"
+
+#: kcharselect.cpp:471
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a block to be displayed"
+msgstr "Odaberite blok za prikaz"
+
+#: kcharselect.cpp:490
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font"
+msgstr "Postavi font"
+
+#: kcharselect.cpp:497
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font size"
+msgstr "Postavi veličinu fonta"
+
+#: kcharselect.cpp:799
+msgctxt "KCharSelect|"
+msgid "Character:"
+msgstr "Znak:"
+
+#: kcharselect.cpp:805
+msgctxt "KCharSelect|"
+msgid "Name: "
+msgstr "Naziv: "
+
+#: kcharselect.cpp:814
+msgctxt "KCharSelect|"
+msgid "Annotations and Cross References"
+msgstr "Napomene i unakrsne reference"
+
+#: kcharselect.cpp:818
+msgctxt "KCharSelect|"
+msgid "Alias names:"
+msgstr "Nazivi aliasa:"
+
+#: kcharselect.cpp:826
+msgctxt "KCharSelect|"
+msgid "Notes:"
+msgstr "Bilješke:"
+
+#: kcharselect.cpp:834
+msgctxt "KCharSelect|"
+msgid "See also:"
+msgstr "Vidi također:"
+
+#: kcharselect.cpp:849
+msgctxt "KCharSelect|"
+msgid "Equivalents:"
+msgstr "Ekvivalenti:"
+
+#: kcharselect.cpp:857
+msgctxt "KCharSelect|"
+msgid "Approximate equivalents:"
+msgstr "Približni ekvivalenti:"
+
+#: kcharselect.cpp:865
+msgctxt "KCharSelect|"
+msgid "Decomposition:"
+msgstr "Rastavljanje:"
+
+#: kcharselect.cpp:877
+msgctxt "KCharSelect|"
+msgid "CJK Ideograph Information"
+msgstr "Informacije o CJK ideogramu"
+
+#: kcharselect.cpp:880
+msgctxt "KCharSelect|"
+msgid "Definition in English: "
+msgstr "Definicija na engleskom: "
+
+#: kcharselect.cpp:887
+msgctxt "KCharSelect|"
+msgid "Mandarin Pronunciation: "
+msgstr "Mandarinski izgovor: "
+
+#: kcharselect.cpp:894
+msgctxt "KCharSelect|"
+msgid "Cantonese Pronunciation: "
+msgstr "Kantonski izgovor: "
+
+#: kcharselect.cpp:901
+msgctxt "KCharSelect|"
+msgid "Japanese On Pronunciation: "
+msgstr "Japanski On izgovor: "
+
+#: kcharselect.cpp:908
+msgctxt "KCharSelect|"
+msgid "Japanese Kun Pronunciation: "
+msgstr "Japanski Kun izgovor: "
+
+#: kcharselect.cpp:915
+msgctxt "KCharSelect|"
+msgid "Tang Pronunciation: "
+msgstr "Tang izgovor: "
+
+#: kcharselect.cpp:922
+msgctxt "KCharSelect|"
+msgid "Korean Pronunciation: "
+msgstr "Korejski izgovor: "
+
+#: kcharselect.cpp:928
+msgctxt "KCharSelect|"
+msgid "General Character Properties"
+msgstr "Opća svojstva znaka"
+
+#: kcharselect.cpp:929
+msgctxt "KCharSelect|"
+msgid "Block: "
+msgstr "Blok: "
+
+#: kcharselect.cpp:930
+msgctxt "KCharSelect|"
+msgid "Unicode category: "
+msgstr "Unicode kategorija: "
+
+#: kcharselect.cpp:934
+msgctxt "KCharSelect|"
+msgid "Various Useful Representations"
+msgstr "Razni korisni prikazi"
+
+#: kcharselect.cpp:935
+msgctxt "KCharSelect|"
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: kcharselect.cpp:939
+msgctxt "KCharSelect|"
+msgid "UTF-16: "
+msgstr "UTF-16: "
+
+#: kcharselect.cpp:946
+msgctxt "KCharSelect|"
+msgid "C octal escaped UTF-8: "
+msgstr "C oktalno pobjegli UTF-8: "
+
+#: kcharselect.cpp:950
+msgctxt "KCharSelect|"
+msgid "XML decimal entity:"
+msgstr "XML decimalni entitet:"
+
+#: kcharselect.cpp:1102
+msgctxt "KCharSelectItemModel|"
+msgid "Unicode code point:"
+msgstr "Unicode kodna točka:"
+
+#: kcharselect.cpp:1102
+msgctxt "KCharSelectItemModel|Character"
+msgid "In decimal"
+msgstr "Dekadski"
+
+#: kcharselectdata.cpp:305
+msgctxt "KCharSelectData|"
+msgid "<noncharacter>"
+msgstr "<nije znak>"
+
+#: kcharselectdata.cpp:326
+msgctxt "KCharSelectData|"
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Visoka zamjenska vrijednost koja nije za privatnu upotrebu>"
+
+#: kcharselectdata.cpp:328
+msgctxt "KCharSelectData|"
+msgid "<Private Use High Surrogate>"
+msgstr "<Visoka zamjenska vrijednost za privatnu upotrebu>"
+
+#: kcharselectdata.cpp:330
+msgctxt "KCharSelectData|"
+msgid "<Low Surrogate>"
+msgstr "<Niska zamjenska vrijednost>"
+
+#: kcharselectdata.cpp:332
+msgctxt "KCharSelectData|"
+msgid "<Private Use>"
+msgstr "<Privatna upotreba>"
+
+#: kcharselectdata.cpp:364
+msgctxt "KCharSelectData|"
+msgid "<not assigned>"
+msgstr "<nije dodijeljeno>"
+
+#: kcharselectdata.cpp:442
+msgctxt "KCharSelectData|KCharselect unicode section name"
+msgid "All"
+msgstr "Sve"
+
+#: kcharselectdata.cpp:754
+msgctxt "KCharSelectData|"
+msgid "Non-printable"
+msgstr "Nije za ispis"
+
+#: kcharselectdata.cpp:787
+msgctxt "KCharSelectData|"
+msgid "Other, Control"
+msgstr "Ostalo, upravljački znak"
+
+#: kcharselectdata.cpp:789
+msgctxt "KCharSelectData|"
+msgid "Other, Format"
+msgstr "Ostalo, oblikovanje"
+
+#: kcharselectdata.cpp:791
+msgctxt "KCharSelectData|"
+msgid "Other, Not Assigned"
+msgstr "Ostalo, nije dodijeljeno"
+
+#: kcharselectdata.cpp:793
+msgctxt "KCharSelectData|"
+msgid "Other, Private Use"
+msgstr "Ostalo, privatna upotreba"
+
+#: kcharselectdata.cpp:795
+msgctxt "KCharSelectData|"
+msgid "Other, Surrogate"
+msgstr "Ostalo, zamjenska vrijednost (Surrogate)"
+
+#: kcharselectdata.cpp:797
+msgctxt "KCharSelectData|"
+msgid "Letter, Lowercase"
+msgstr "Slovo, malo"
+
+#: kcharselectdata.cpp:799
+msgctxt "KCharSelectData|"
+msgid "Letter, Modifier"
+msgstr "Slovo, modifikator"
+
+#: kcharselectdata.cpp:801
+msgctxt "KCharSelectData|"
+msgid "Letter, Other"
+msgstr "Slovo, ostalo"
+
+#: kcharselectdata.cpp:803
+msgctxt "KCharSelectData|"
+msgid "Letter, Titlecase"
+msgstr "Slovo, naslovni oblik"
+
+#: kcharselectdata.cpp:805
+msgctxt "KCharSelectData|"
+msgid "Letter, Uppercase"
+msgstr "Slovo, veliko"
+
+#: kcharselectdata.cpp:807
+msgctxt "KCharSelectData|"
+msgid "Mark, Combining"
+msgstr "Oznaka, kombinirajuća"
+
+#: kcharselectdata.cpp:809
+msgctxt "KCharSelectData|"
+msgid "Mark, Enclosing"
+msgstr "Oznaka, obuhvaćajuća"
+
+#: kcharselectdata.cpp:811
+msgctxt "KCharSelectData|"
+msgid "Mark, Non-Spacing"
+msgstr "Oznaka, bez razmaka"
+
+#: kcharselectdata.cpp:813
+msgctxt "KCharSelectData|"
+msgid "Number, Decimal Digit"
+msgstr "Broj, dekadska znamenka"
+
+#: kcharselectdata.cpp:815
+msgctxt "KCharSelectData|"
+msgid "Number, Letter"
+msgstr "Broj, slovo"
+
+#: kcharselectdata.cpp:817
+msgctxt "KCharSelectData|"
+msgid "Number, Other"
+msgstr "Broj, ostalo"
+
+#: kcharselectdata.cpp:819
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Connector"
+msgstr "Interpunkcija, spojnik"
+
+#: kcharselectdata.cpp:821
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Dash"
+msgstr "Interpunkcija, crta"
+
+#: kcharselectdata.cpp:823
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Close"
+msgstr "Interpunkcija, zatvarajuća"
+
+#: kcharselectdata.cpp:825
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Final Quote"
+msgstr "Interpunkcija, završni navodnik"
+
+#: kcharselectdata.cpp:827
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Initial Quote"
+msgstr "Interpunkcija, početni navodnik"
+
+#: kcharselectdata.cpp:829
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Other"
+msgstr "Interpunkcija, ostalo"
+
+#: kcharselectdata.cpp:831
+msgctxt "KCharSelectData|"
+msgid "Punctuation, Open"
+msgstr "Interpunkcija, otvarajuća"
+
+#: kcharselectdata.cpp:833
+msgctxt "KCharSelectData|"
+msgid "Symbol, Currency"
+msgstr "Simbol, valuta"
+
+#: kcharselectdata.cpp:835
+msgctxt "KCharSelectData|"
+msgid "Symbol, Modifier"
+msgstr "Simbol, modifikator"
+
+#: kcharselectdata.cpp:837
+msgctxt "KCharSelectData|"
+msgid "Symbol, Math"
+msgstr "Simbol, matematika"
+
+#: kcharselectdata.cpp:839
+msgctxt "KCharSelectData|"
+msgid "Symbol, Other"
+msgstr "Simbol, ostalo"
+
+#: kcharselectdata.cpp:841
+msgctxt "KCharSelectData|"
+msgid "Separator, Line"
+msgstr "Rastavljač, redak"
+
+#: kcharselectdata.cpp:843
+msgctxt "KCharSelectData|"
+msgid "Separator, Paragraph"
+msgstr "Rastavljač, odlomak"
+
+#: kcharselectdata.cpp:845
+msgctxt "KCharSelectData|"
+msgid "Separator, Space"
+msgstr "Rastavljač, razmak"
+
+#: kcolorspaces.cpp:77
+msgctxt "KColorSpace|@item:inlistbox"
+msgid "RGB"
+msgstr "RGB"
+
+#: kcolorspaces.cpp:83
+msgctxt "KColorSpace|@item:inlistbox"
+msgid "HSV"
+msgstr "HSV"
+
+#: kcolorspaces.cpp:88
+msgctxt "KColorSpace|@item:inlistbox"
+msgid "HSL"
+msgstr "HSL"
+
+#: kcolumnresizer.cpp:322
+msgctxt "KColumnResizer|"
+msgid "Columns"
+msgstr "Stupci"
+
+#: kdatepicker.cpp:160
+msgctxt "KDatePicker|@action:button"
+msgid "Next year"
+msgstr "Sljedeća godina"
+
+#: kdatepicker.cpp:161
+msgctxt "KDatePicker|@action:button"
+msgid "Previous year"
+msgstr "Prethodna godina"
+
+#: kdatepicker.cpp:162
+msgctxt "KDatePicker|@action:button"
+msgid "Next month"
+msgstr "Sljedeći mjesec"
+
+#: kdatepicker.cpp:163
+msgctxt "KDatePicker|@action:button"
+msgid "Previous month"
+msgstr "Prethodni mjesec"
+
+#: kdatepicker.cpp:164
+msgctxt "KDatePicker|@action:button"
+msgid "Select a week"
+msgstr "Odaberite tjedan"
+
+#: kdatepicker.cpp:165
+msgctxt "KDatePicker|@action:button"
+msgid "Select a month"
+msgstr "Odaberite mjesec"
+
+#: kdatepicker.cpp:166
+msgctxt "KDatePicker|@action:button"
+msgid "Select a year"
+msgstr "Odaberite godinu"
+
+#: kdatepicker.cpp:167
+msgctxt "KDatePicker|@action:button"
+msgid "Select the current day"
+msgstr "Odaberite današnji dan"
+
+#: kdatepicker.cpp:637
+msgctxt "KDatePicker|@action:button"
+msgid "Close"
+msgstr "Zatvori"
+
+#: kdatetimeedit.cpp:189
+msgctxt "KDateTimeEdit|@action:button"
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: kdatetimeedit.cpp:193
+msgctxt "KDateTimeEdit|@action:button"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: kdatetimeedit.cpp:202
+msgctxt "KDateTimeEdit|@info:placeholder"
+msgid "Date"
+msgstr "Datum"
+
+#: kdatetimeedit.cpp:220
+msgctxt "KDateTimeEdit|@info:placeholder"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: kdatetimeedit.cpp:237
+msgctxt "KDateTimeEdit|@item:inlistbox time zone"
+msgid "System time zone"
+msgstr "Vremenska zona sustava"
+
+#: kdatetimeedit.cpp:239
+msgctxt "KDateTimeEdit|@item:inlistbox time zone"
+msgid "Floating time zone"
+msgstr "Plutajuća vremenska zona"
+
+#: keditlistwidget.cpp:280
+msgctxt "KEditListWidget|@action:button"
+msgid "&Add"
+msgstr "&Dodaj"
+
+#: keditlistwidget.cpp:292
+msgctxt "KEditListWidget|@action:button"
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: keditlistwidget.cpp:304
+msgctxt "KEditListWidget|@action:button"
+msgid "Move &Up"
+msgstr "Pomakni pre&ma gore"
+
+#: keditlistwidget.cpp:309
+msgctxt "KEditListWidget|@action:button"
+msgid "Move &Down"
+msgstr "Pomakni pre&ma dolje"
+
+#: kfontchooser.cpp:159
+msgctxt "KFontChooser|@item font"
+msgid "Requested Font"
+msgstr "Zatraženi font"
+
+#: kfontchooser.cpp:211
+msgctxt "KFontChooser|@option:check"
+msgid "Font"
+msgstr "Font"
+
+#: kfontchooser.cpp:215
+msgctxt "KFontChooser|@option:check"
+msgid "Font style"
+msgstr "Stil fonta"
+
+#: kfontchooser.cpp:219
+msgctxt "KFontChooser|@option:check"
+msgid "Size"
+msgstr "Veličina"
+
+#: kfontchooser.cpp:223
+msgctxt "KFontChooser|@info:placeholder"
+msgid "Preview Font"
+msgstr "Pregled fonta"
+
+#: kfontchooser.cpp:225
+msgctxt "KFontChooser|@info:placeholder"
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr "Gojazni vrabac skakutao je po vrhu džamije"
+
+#: kfontchooser.cpp:228
+msgctxt "KFontChooser|@option:check"
+msgid "Strikeout"
+msgstr "Precrtano"
+
+#: kfontchooser.cpp:231
+msgctxt "KFontChooser|@option:check"
+msgid "Underline"
+msgstr "Podcrtano"
+
+#: kfontchooser.cpp:235
+msgctxt "KFontChooser|@label:listbox"
+msgid "&Font:"
+msgstr "&Font:"
+
+#: kfontchooser.cpp:241
+msgctxt "KFontChooser|@label:listbox"
+msgid "Font st&yle:"
+msgstr "St&il fonta:"
+
+#: kfontchooser.cpp:247
+msgctxt "KFontChooser|@label:listbox"
+msgid "&Size:"
+msgstr "&Veličina:"
+
+#: kguiitem.cpp:162
+msgctxt "KGuiItem|"
+msgid "&OK"
+msgstr "&U redu"
+
+#: kguiitem.cpp:167
+msgctxt "KGuiItem|"
+msgid "&Cancel"
+msgstr "&Odustani"
+
+#: kguiitem.cpp:172
+msgctxt "KGuiItem|"
+msgid "&Yes"
+msgstr "&Da"
+
+#: kguiitem.cpp:177
+msgctxt "KGuiItem|"
+msgid "&No"
+msgstr "&Ne"
+
+#: kguiitem.cpp:182
+msgctxt "KGuiItem|"
+msgid "&Discard"
+msgstr "&Odbaci"
+
+#: kguiitem.cpp:187
+msgctxt "KGuiItem|"
+msgid "&Save"
+msgstr "&Spremi"
+
+#: kguiitem.cpp:192
+msgctxt "KGuiItem|"
+msgid "Do Not Save"
+msgstr "Nemoj spremiti"
+
+#: kguiitem.cpp:197
+msgctxt "KGuiItem|"
+msgid "Save As"
+msgstr "Spremi kao"
+
+#: kguiitem.cpp:202
+msgctxt "KGuiItem|"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: kguiitem.cpp:207
+msgctxt "KGuiItem|"
+msgid "&Reset"
+msgstr "Ponovno &postavi"
+
+#: kguiitem.cpp:212
+msgctxt "KGuiItem|"
+msgid "Reset Options"
+msgstr "Ponovno postavi opcije"
+
+#: kguiitem.cpp:217
+msgctxt "KGuiItem|"
+msgid "&Close"
+msgstr "&Zatvori"
+
+#: kguiitem.cpp:222
+msgctxt "KGuiItem|"
+msgid "Close Window"
+msgstr "Zatvori prozor"
+
+#: kguiitem.cpp:227
+msgctxt "KGuiItem|"
+msgid "Help"
+msgstr "Pomoć"
+
+#: kmessagebox.cpp:322
+msgctxt "KMessageBox|@action:button"
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: kpageview.cpp:491
+msgctxt "KPageView|"
+msgid "Search…"
+msgstr "Traži…"
+
+#: kpageview.cpp:920
+msgctxt "KPageView|@action:button"
+msgid "Back"
+msgstr "Natrag"
+
+#: kpageview.cpp:921
+msgctxt "KPageView|@action:button"
+msgid "Forward"
+msgstr "Naprijed"
+
+#: kpassworddialog.cpp:78
+msgctxt "KPasswordDialog|@title:window"
+msgid "Password"
+msgstr "Lozinka"
+
+#: kpassworddialog.cpp:80
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "Supply a password below."
+msgstr "Unesite lozinku u nastavku."
+
+#: kpassworddialog.cpp:138
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "User:"
+msgstr "Korisnik:"
+
+#: kpassworddialog.cpp:144
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "&User:"
+msgstr "&Korisnik:"
+
+#: kpassworddialog.cpp:151
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: kpassworddialog.cpp:157
+msgctxt "KPasswordDialog|@label:textbox"
+msgid "&Password:"
+msgstr "&Lozinka:"
+
+#: kpassworddialog.cpp:177
+msgctxt "KPasswordDialog|@option:check"
+msgid "&Keep password"
+msgstr "&Zadrži lozinku"
+
+#: kpixmapregionselectordialog.cpp:52
+msgctxt "KPixmapRegionSelectorDialog|@title:window"
+msgid "Select Region of Image"
+msgstr "Odaberite regiju slike"
+
+#: kpixmapregionselectordialog.cpp:55
+msgctxt "KPixmapRegionSelectorDialog|@action:button"
+msgid "Please click and drag to choose a region:"
+msgstr "Kliknite i povucite kako biste odabrali regiju:"
+
+#: krecentfilesmenu.cpp:106
+msgctxt "KRecentFilesMenu|@action:inmenu"
+msgid "No Recent Files"
+msgstr "Nema nedavnih datoteka"
+
+#: krecentfilesmenu.cpp:113
+msgctxt "KRecentFilesMenu|@action:inmenu"
+msgid "Clear List"
+msgstr "Očisti popis"
+
+#: ksqueezedlabel.cpp:189
+msgctxt "KSqueezedLabel|@action:inmenu"
+msgid "Copy Full Text"
+msgstr "Kopiraj cijeli tekst"
+
+#: kstandardguiitem.cpp:181
+msgctxt "KStandardGuiItem|"
+msgid "&OK"
+msgstr "&U redu"
+
+#: kstandardguiitem.cpp:186
+msgctxt "KStandardGuiItem|"
+msgid "&Cancel"
+msgstr "&Odustani"
+
+#: kstandardguiitem.cpp:192
+msgctxt "KStandardGuiItem|"
+msgid "&Yes"
+msgstr "&Da"
+
+#: kstandardguiitem.cpp:198
+msgctxt "KStandardGuiItem|"
+msgid "&No"
+msgstr "&Ne"
+
+#: kstandardguiitem.cpp:204
+msgctxt "KStandardGuiItem|"
+msgid "&Discard"
+msgstr "&Odbaci"
+
+#: kstandardguiitem.cpp:208
+msgctxt "KStandardGuiItem|"
+msgid "Discard changes"
+msgstr "Odbaci promjene"
+
+#: kstandardguiitem.cpp:209
+msgctxt "KStandardGuiItem|"
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog."
+msgstr ""
+"Pritisak na ovaj gumb odbacit će sve nedavne promjene napravljene u ovom "
+"dijaloškom okviru."
+
+#: kstandardguiitem.cpp:215
+msgctxt "KStandardGuiItem|"
+msgid "&Save"
+msgstr "&Spremi"
+
+#: kstandardguiitem.cpp:219
+msgctxt "KStandardGuiItem|"
+msgid "Save data"
+msgstr "Spremi podatke"
+
+#: kstandardguiitem.cpp:224
+msgctxt "KStandardGuiItem|"
+msgid "&Do Not Save"
+msgstr "&Nemoj spremiti"
+
+#: kstandardguiitem.cpp:226
+msgctxt "KStandardGuiItem|"
+msgid "Do not save data"
+msgstr "Nemoj spremiti podatke"
+
+#: kstandardguiitem.cpp:231
+msgctxt "KStandardGuiItem|"
+msgid "Save &As…"
+msgstr "Spremi &kao…"
+
+#: kstandardguiitem.cpp:233
+msgctxt "KStandardGuiItem|"
+msgid "Save file under a different name"
+msgstr "Spremi datoteku pod drugim nazivom"
+
+#: kstandardguiitem.cpp:238
+msgctxt "KStandardGuiItem|"
+msgid "&Apply"
+msgstr "&Primijeni"
+
+#: kstandardguiitem.cpp:240
+msgctxt "KStandardGuiItem|"
+msgid "Apply changes"
+msgstr "Primijeni promjene"
+
+#: kstandardguiitem.cpp:241
+msgctxt "KStandardGuiItem|"
+msgid ""
+"When you click <b>Apply</b>, the settings will be handed over to the "
+"program, but the dialog will not be closed.\n"
+"Use this to try different settings."
+msgstr ""
+"Kada kliknete <b>Primijeni</b>, postavke će se proslijediti programu, "
+"ali se dijaloški okvir neće zatvoriti.\n"
+"Upotrijebite ovo za isprobavanje različitih postavki."
+
+#: kstandardguiitem.cpp:249
+msgctxt "KStandardGuiItem|"
+msgid "Administrator Mode"
+msgstr "Administratorski način"
+
+#: kstandardguiitem.cpp:251
+msgctxt "KStandardGuiItem|"
+msgid "Enter Administrator Mode"
+msgstr "Uđi u administratorski način"
+
+#: kstandardguiitem.cpp:252
+msgctxt "KStandardGuiItem|"
+msgid ""
+"When you click <b>Administrator Mode</b>, you will be prompted for the "
+"administrator (root) password to allow making changes that require "
+"administrator privileges."
+msgstr ""
+"Kada kliknete <b>Administratorski način</b>, od vas će se zatražiti "
+"administratorska (root) lozinka kako bi se omogućile promjene koje "
+"zahtijevaju administratorske ovlasti."
+
+#: kstandardguiitem.cpp:260
+msgctxt "KStandardGuiItem|"
+msgid "&Clear"
+msgstr "&Očisti"
+
+#: kstandardguiitem.cpp:262
+msgctxt "KStandardGuiItem|"
+msgid "Clear input"
+msgstr "Očisti unos"
+
+#: kstandardguiitem.cpp:263
+msgctxt "KStandardGuiItem|"
+msgid "Clear the content of the input field"
+msgstr "Očisti sadržaj polja za unos"
+
+#: kstandardguiitem.cpp:268
+msgctxt "KStandardGuiItem|"
+msgid "&Help"
+msgstr "&Pomoć"
+
+#: kstandardguiitem.cpp:270
+msgctxt "KStandardGuiItem|"
+msgid "Show help"
+msgstr "Prikaži pomoć"
+
+#: kstandardguiitem.cpp:275
+msgctxt "KStandardGuiItem|"
+msgid "&Close"
+msgstr "&Zatvori"
+
+#: kstandardguiitem.cpp:277
+msgctxt "KStandardGuiItem|"
+msgid "Close the current window or dialog"
+msgstr "Zatvori trenutačni prozor ili dijaloški okvir"
+
+#: kstandardguiitem.cpp:282
+msgctxt "KStandardGuiItem|"
+msgid "&Defaults"
+msgstr "&Zadane vrijednosti"
+
+#: kstandardguiitem.cpp:284
+msgctxt "KStandardGuiItem|"
+msgid "Reset all settings to default values"
+msgstr "Vrati sve postavke na zadane vrijednosti"
+
+#: kstandardguiitem.cpp:291
+msgctxt "KStandardGuiItem|"
+msgid "&Back"
+msgstr "&Natrag"
+
+#: kstandardguiitem.cpp:293
+msgctxt "KStandardGuiItem|"
+msgid "Go back one step"
+msgstr "Vrati se jedan korak natrag"
+
+#: kstandardguiitem.cpp:300
+msgctxt "KStandardGuiItem|"
+msgid "&Forward"
+msgstr "&Naprijed"
+
+#: kstandardguiitem.cpp:302
+msgctxt "KStandardGuiItem|"
+msgid "Go forward one step"
+msgstr "Idi jedan korak naprijed"
+
+#: kstandardguiitem.cpp:307
+msgctxt "KStandardGuiItem|"
+msgid "&Print…"
+msgstr "&Ispiši…"
+
+#: kstandardguiitem.cpp:309
+msgctxt "KStandardGuiItem|"
+msgid "Print current document"
+msgstr "Ispiši trenutačni dokument"
+
+#: kstandardguiitem.cpp:314
+msgctxt "KStandardGuiItem|"
+msgid "Continue"
+msgstr "Nastavi"
+
+#: kstandardguiitem.cpp:316
+msgctxt "KStandardGuiItem|"
+msgid "Continue current operation"
+msgstr "Nastavi trenutačnu radnju"
+
+#: kstandardguiitem.cpp:321
+msgctxt "KStandardGuiItem|"
+msgid "&Stop"
+msgstr "&Zaustavi"
+
+#: kstandardguiitem.cpp:323
+msgctxt "KStandardGuiItem|"
+msgid "Stop current operation"
+msgstr "Zaustavi trenutačnu radnju"
+
+#: kstandardguiitem.cpp:328
+msgctxt "KStandardGuiItem|"
+msgid "&Add"
+msgstr "&Dodaj"
+
+#: kstandardguiitem.cpp:330
+msgctxt "KStandardGuiItem|"
+msgid "Add a new item"
+msgstr "Dodaj novu stavku"
+
+#: kstandardguiitem.cpp:335
+msgctxt "KStandardGuiItem|"
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: kstandardguiitem.cpp:337
+msgctxt "KStandardGuiItem|"
+msgid "Remove selected item"
+msgstr "Ukloni odabranu stavku"
+
+#: kstandardguiitem.cpp:342
+msgctxt "KStandardGuiItem|"
+msgid "&Test"
+msgstr "&Testiraj"
+
+#: kstandardguiitem.cpp:344
+msgctxt "KStandardGuiItem|"
+msgid "Test current configuration"
+msgstr "Testiraj trenutačnu konfiguraciju"
+
+#: kstandardguiitem.cpp:349
+msgctxt "KStandardGuiItem|"
+msgid "Settings"
+msgstr "Postavke"
+
+#: kstandardguiitem.cpp:354
+msgctxt "KStandardGuiItem|"
+msgid "Close &Window"
+msgstr "Zatvori &prozor"
+
+#: kstandardguiitem.cpp:356
+msgctxt "KStandardGuiItem|"
+msgid "Close the current window"
+msgstr "Zatvori trenutačni prozor"
+
+#: ktimecombobox.cpp:212
+msgctxt "KTimeComboBox|@info:placeholder"
+msgid "Select Time"
+msgstr "Odaberite vrijeme"
+
+#: ktipdialog.cpp:180
+msgctxt "KTipDialog|@title:window"
+msgid "Tip of the Day"
+msgstr "Savjet dana"
+
+#: ktipdialog.cpp:182
+msgctxt "KTipDialog|@action:button"
+msgid "Did you know…\n"
+msgstr "Jeste li znali…\n"
+
+#: ktipdialog.cpp:237
+msgctxt "KTipDialog|@option:check"
+msgid "&Show tips on startup"
+msgstr "&Prikaži savjete pri pokretanju"
+
+#: ktipdialog.cpp:242
+msgctxt "KTipDialog|@action:button"
+msgid "&Previous"
+msgstr "&Prethodno"
+
+#: ktipdialog.cpp:247
+msgctxt "KTipDialog|@action:button"
+msgid "&Next"
+msgstr "&Sljedeće"
+
+#: ktitlewidget.cpp:257
+msgctxt "KTitleWidget|@action:button"
+msgid "Back"
+msgstr "Natrag"
+
+#: kwidgetsaddons.cpp:24
+msgctxt "KWidgetsAddons|"
+msgid ""
+"Your emails receive a lot of spam? Try to register a new one for free at "
+"https://www.kde.org"
+msgstr ""
+"Vaša e-pošta prima puno bezvrijedne pošte? Pokušajte besplatno registrirati "
+"novu na https://www.kde.org"

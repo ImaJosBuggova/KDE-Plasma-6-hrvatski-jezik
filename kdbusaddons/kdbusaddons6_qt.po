@@ -1,0 +1,59 @@
+# Translation of kquitapp to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kcoreaddons package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoreaddons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-01 00:44+0000\n"
+"PO-Revision-Date: 2026-11-05 05:10+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"X-Qt-Contexts: true\n"
+
+#: tools/kquitapp/kquitapp.cpp:19
+msgctxt "main|"
+msgid "Quit a D-Bus enabled application easily"
+msgstr "Jednostavno zatvaranje aplikacije s omogućenim D-Busom"
+
+#: tools/kquitapp/kquitapp.cpp:21
+msgctxt "main|"
+msgid "Full service name, overrides application name provided"
+msgstr "Puni naziv servisa, nadjačava pruženi naziv aplikacije"
+
+#: tools/kquitapp/kquitapp.cpp:24
+msgctxt "main|"
+msgid "Path in the D-Bus interface to use"
+msgstr "Putanja u D-Bus sučelju koja se koristi"
+
+#: tools/kquitapp/kquitapp.cpp:27
+msgctxt "main|"
+msgid "The name of the application to quit"
+msgstr "Naziv aplikacije koju treba zatvoriti"
+
+#: tools/kquitapp/kquitapp.cpp:45
+#, qt-format
+msgctxt "main|"
+msgid "Application %1 could not be found using service %2 and path %3."
+msgstr "Aplikaciju %1 nije moguće pronaći pomoću servisa %2 i putanje %3."
+
+#: tools/kquitapp/kquitapp.cpp:52
+#, qt-format
+msgctxt "main|"
+msgid ""
+"Quitting application %1 failed. Error reported was:\n"
+"\n"
+"     %2 : %3"
+msgstr ""
+"Zatvaranje aplikacije %1 nije uspjelo. Prijavljena pogreška:\n"
+"\n"
+"     %2 : %3"

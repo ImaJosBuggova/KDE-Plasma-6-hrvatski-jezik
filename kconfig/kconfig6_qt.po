@@ -1,0 +1,1079 @@
+# Translation of kconfig to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kconfig package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kconfig\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-01 00:44+0000\n"
+"PO-Revision-Date: 2026-11-05 04:20+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"X-Qt-Contexts: true\n"
+
+#: core/kconfig.cpp:1090
+msgctxt "KConfig|"
+msgid "Please contact your system administrator."
+msgstr "Obratite se administratoru sustava."
+
+#: core/kconfigini.cpp:471
+#, qt-format
+msgctxt "KConfigIniBackend|"
+msgid "Configuration file \"%1\" not writable.\n"
+msgstr "Konfiguracijska datoteka „%1” nije zapisiva.\n"
+
+#: core/kemailsettings.cpp:128 core/kemailsettings.cpp:131
+#: core/kemailsettings.cpp:139
+msgctxt "KEMailSettings|"
+msgid "Default"
+msgstr "Zadano"
+
+#: gui/kstandardactions.cpp:48
+msgctxt "go back|"
+msgid "&Back"
+msgstr "&Natrag"
+
+#: gui/kstandardactions.cpp:55
+msgctxt "go forward|"
+msgid "&Forward"
+msgstr "&Naprijed"
+
+#: gui/kstandardactions.cpp:62
+msgctxt "home page|"
+msgid "&Home"
+msgstr "&Početna"
+
+#: gui/kstandardactions_p.h:64
+msgctxt "KStandardActions|"
+msgid "&New"
+msgstr "&Novo"
+
+#: gui/kstandardactions_p.h:64
+msgctxt "KStandardActions|"
+msgid "Create new document"
+msgstr "Stvori novi dokument"
+
+#: gui/kstandardactions_p.h:65
+msgctxt "KStandardActions|"
+msgid "&Open…"
+msgstr "&Otvori…"
+
+#: gui/kstandardactions_p.h:65
+msgctxt "KStandardActions|"
+msgid "Open an existing document"
+msgstr "Otvori postojeći dokument"
+
+#: gui/kstandardactions_p.h:66
+msgctxt "KStandardActions|"
+msgid "Open &Recent"
+msgstr "Otvori &nedavno"
+
+#: gui/kstandardactions_p.h:66
+msgctxt "KStandardActions|"
+msgid "Open a document which was recently opened"
+msgstr "Otvori nedavno otvoreni dokument"
+
+#: gui/kstandardactions_p.h:67
+msgctxt "KStandardActions|"
+msgid "&Save"
+msgstr "&Spremi"
+
+#: gui/kstandardactions_p.h:67
+msgctxt "KStandardActions|"
+msgid "Save document"
+msgstr "Spremi dokument"
+
+#: gui/kstandardactions_p.h:68
+msgctxt "KStandardActions|"
+msgid "Save &As…"
+msgstr "Spremi &kao…"
+
+#: gui/kstandardactions_p.h:68
+msgctxt "KStandardActions|"
+msgid "Save document under a new name"
+msgstr "Spremi dokument pod novim nazivom"
+
+#: gui/kstandardactions_p.h:69
+msgctxt "KStandardActions|"
+msgid "Re&vert"
+msgstr "Vrati na &staro"
+
+#: gui/kstandardactions_p.h:69
+msgctxt "KStandardActions|"
+msgid "Revert unsaved changes made to document"
+msgstr "Vrati nespremljene promjene učinjene na dokumentu"
+
+#: gui/kstandardactions_p.h:70
+msgctxt "KStandardActions|"
+msgid "&Close"
+msgstr "&Zatvori"
+
+#: gui/kstandardactions_p.h:70
+msgctxt "KStandardActions|"
+msgid "Close document"
+msgstr "Zatvori dokument"
+
+#: gui/kstandardactions_p.h:71
+msgctxt "KStandardActions|"
+msgid "&Print…"
+msgstr "&Ispiši…"
+
+#: gui/kstandardactions_p.h:71
+msgctxt "KStandardActions|"
+msgid "Print document"
+msgstr "Ispiši dokument"
+
+#: gui/kstandardactions_p.h:72
+msgctxt "KStandardActions|"
+msgid "Print Previe&w"
+msgstr "Pretpregled &ispisa"
+
+#: gui/kstandardactions_p.h:72
+msgctxt "KStandardActions|"
+msgid "Show a print preview of document"
+msgstr "Prikaži pretpregled ispisa dokumenta"
+
+#: gui/kstandardactions_p.h:73
+msgctxt "KStandardActions|"
+msgid "&Mail…"
+msgstr "&Pošalji e-poštom…"
+
+#: gui/kstandardactions_p.h:73
+msgctxt "KStandardActions|"
+msgid "Send document by mail"
+msgstr "Pošalji dokument e-poštom"
+
+#: gui/kstandardactions_p.h:74
+msgctxt "KStandardActions|"
+msgid "&Quit"
+msgstr "&Završi"
+
+#: gui/kstandardactions_p.h:74
+msgctxt "KStandardActions|"
+msgid "Quit application"
+msgstr "Završi aplikaciju"
+
+#: gui/kstandardactions_p.h:76
+msgctxt "KStandardActions|"
+msgid "&Undo"
+msgstr "&Poništi"
+
+#: gui/kstandardactions_p.h:76
+msgctxt "KStandardActions|"
+msgid "Undo last action"
+msgstr "Poništi posljednju radnju"
+
+#: gui/kstandardactions_p.h:77
+msgctxt "KStandardActions|"
+msgid "Re&do"
+msgstr "&Ponovi"
+
+#: gui/kstandardactions_p.h:77
+msgctxt "KStandardActions|"
+msgid "Redo last undone action"
+msgstr "Ponovi posljednju poništenu radnju"
+
+#: gui/kstandardactions_p.h:78
+msgctxt "KStandardActions|"
+msgid "Cu&t"
+msgstr "&Izreži"
+
+#: gui/kstandardactions_p.h:78
+msgctxt "KStandardActions|"
+msgid "Cut selection to clipboard"
+msgstr "Izreži odabrano u međuspremnik"
+
+#: gui/kstandardactions_p.h:79
+msgctxt "KStandardActions|"
+msgid "&Copy"
+msgstr "&Kopiraj"
+
+#: gui/kstandardactions_p.h:79
+msgctxt "KStandardActions|"
+msgid "Copy selection to clipboard"
+msgstr "Kopiraj odabrano u međuspremnik"
+
+#: gui/kstandardactions_p.h:80
+msgctxt "KStandardActions|"
+msgid "&Paste"
+msgstr "&Zalijepi"
+
+#: gui/kstandardactions_p.h:80
+msgctxt "KStandardActions|"
+msgid "Paste clipboard content"
+msgstr "Zalijepi sadržaj međuspremnika"
+
+#: gui/kstandardactions_p.h:81
+msgctxt "KStandardActions|"
+msgid "C&lear"
+msgstr "&Očisti"
+
+#: gui/kstandardactions_p.h:82
+msgctxt "KStandardActions|"
+msgid "Select &All"
+msgstr "Odaberi &sve"
+
+#: gui/kstandardactions_p.h:83
+msgctxt "KStandardActions|"
+msgid "Dese&lect"
+msgstr "Poništi &odabir"
+
+#: gui/kstandardactions_p.h:84
+msgctxt "KStandardActions|"
+msgid "&Find…"
+msgstr "&Pronađi…"
+
+#: gui/kstandardactions_p.h:85
+msgctxt "KStandardActions|"
+msgid "Find &Next"
+msgstr "Pronađi &sljedeće"
+
+#: gui/kstandardactions_p.h:86
+msgctxt "KStandardActions|"
+msgid "Find Pre&vious"
+msgstr "Pronađi p&rethodno"
+
+#: gui/kstandardactions_p.h:87
+msgctxt "KStandardActions|"
+msgid "&Replace…"
+msgstr "&Zamijeni…"
+
+#: gui/kstandardactions_p.h:89
+msgctxt "KStandardActions|"
+msgid "Zoom to &Actual Size"
+msgstr "Zumiraj na &stvarnu veličinu"
+
+#: gui/kstandardactions_p.h:89
+msgctxt "KStandardActions|"
+msgid "View document at its actual size"
+msgstr "Prikaži dokument u njegovoj stvarnoj veličini"
+
+#: gui/kstandardactions_p.h:90
+msgctxt "KStandardActions|"
+msgid "&Fit to Page"
+msgstr "&Prilagodi stranici"
+
+#: gui/kstandardactions_p.h:90
+msgctxt "KStandardActions|"
+msgid "Zoom to fit page in window"
+msgstr "Zumiraj da stranica stane u prozor"
+
+#: gui/kstandardactions_p.h:91
+msgctxt "KStandardActions|"
+msgid "Fit to Page &Width"
+msgstr "Prilagodi &širini stranice"
+
+#: gui/kstandardactions_p.h:91
+msgctxt "KStandardActions|"
+msgid "Zoom to fit page width in window"
+msgstr "Zumiraj da širina stranice stane u prozor"
+
+#: gui/kstandardactions_p.h:92
+msgctxt "KStandardActions|"
+msgid "Fit to Page &Height"
+msgstr "Prilagodi &visini stranice"
+
+#: gui/kstandardactions_p.h:92
+msgctxt "KStandardActions|"
+msgid "Zoom to fit page height in window"
+msgstr "Zumiraj da visina stranice stane u prozor"
+
+#: gui/kstandardactions_p.h:93
+msgctxt "KStandardActions|"
+msgid "Zoom &In"
+msgstr "Povećaj &zum"
+
+#: gui/kstandardactions_p.h:94
+msgctxt "KStandardActions|"
+msgid "Zoom &Out"
+msgstr "Smanji &zum"
+
+#: gui/kstandardactions_p.h:95
+msgctxt "KStandardActions|"
+msgid "&Zoom…"
+msgstr "&Zumiranje…"
+
+#: gui/kstandardactions_p.h:95
+msgctxt "KStandardActions|"
+msgid "Select zoom level"
+msgstr "Odaberi razinu zumiranja"
+
+#: gui/kstandardactions_p.h:96
+msgctxt "KStandardActions|"
+msgid "&Refresh"
+msgstr "&Osvježi"
+
+#: gui/kstandardactions_p.h:96
+msgctxt "KStandardActions|"
+msgid "Refresh document"
+msgstr "Osvježi dokument"
+
+#: gui/kstandardactions_p.h:98
+msgctxt "KStandardActions|"
+msgid "&Up"
+msgstr "&Gore"
+
+#: gui/kstandardactions_p.h:98
+msgctxt "KStandardActions|"
+msgid "Go up"
+msgstr "Idi gore"
+
+#: gui/kstandardactions_p.h:103
+msgctxt "KStandardActions|"
+msgid "&Previous Page"
+msgstr "&Prethodna stranica"
+
+#: gui/kstandardactions_p.h:103
+msgctxt "KStandardActions|"
+msgid "Go to previous page"
+msgstr "Idi na prethodnu stranicu"
+
+#: gui/kstandardactions_p.h:104
+msgctxt "KStandardActions|"
+msgid "&Next Page"
+msgstr "&Sljedeća stranica"
+
+#: gui/kstandardactions_p.h:104
+msgctxt "KStandardActions|"
+msgid "Go to next page"
+msgstr "Idi na sljedeću stranicu"
+
+#: gui/kstandardactions_p.h:105
+msgctxt "KStandardActions|"
+msgid "&Go To…"
+msgstr "&Idi na…"
+
+#: gui/kstandardactions_p.h:106
+msgctxt "KStandardActions|"
+msgid "&Go to Page…"
+msgstr "Idi na &stranicu…"
+
+#: gui/kstandardactions_p.h:107
+msgctxt "KStandardActions|"
+msgid "&Go to Line…"
+msgstr "Idi na &redak…"
+
+#: gui/kstandardactions_p.h:108
+msgctxt "KStandardActions|"
+msgid "&First Page"
+msgstr "&Prva stranica"
+
+#: gui/kstandardactions_p.h:108
+msgctxt "KStandardActions|"
+msgid "Go to first page"
+msgstr "Idi na prvu stranicu"
+
+#: gui/kstandardactions_p.h:109
+msgctxt "KStandardActions|"
+msgid "&Last Page"
+msgstr "&Posljednja stranica"
+
+#: gui/kstandardactions_p.h:109
+msgctxt "KStandardActions|"
+msgid "Go to last page"
+msgstr "Idi na posljednju stranicu"
+
+#: gui/kstandardactions_p.h:110
+msgctxt "KStandardActions|"
+msgid "&Back"
+msgstr "&Natrag"
+
+#: gui/kstandardactions_p.h:110
+msgctxt "KStandardActions|"
+msgid "Go back in document"
+msgstr "Idi natrag u dokumentu"
+
+#: gui/kstandardactions_p.h:111
+msgctxt "KStandardActions|"
+msgid "&Forward"
+msgstr "&Naprijed"
+
+#: gui/kstandardactions_p.h:111
+msgctxt "KStandardActions|"
+msgid "Go forward in document"
+msgstr "Idi naprijed u dokumentu"
+
+#: gui/kstandardactions_p.h:113
+msgctxt "KStandardActions|"
+msgid "&Add Bookmark"
+msgstr "&Dodaj knjišku oznaku"
+
+#: gui/kstandardactions_p.h:114
+msgctxt "KStandardActions|"
+msgid "&Edit Bookmarks…"
+msgstr "&Uredi knjiške oznake…"
+
+#: gui/kstandardactions_p.h:116
+msgctxt "KStandardActions|"
+msgid "&Spelling…"
+msgstr "&Pravopis…"
+
+#: gui/kstandardactions_p.h:116
+msgctxt "KStandardActions|"
+msgid "Check spelling in document"
+msgstr "Provjeri pravopis u dokumentu"
+
+#: gui/kstandardactions_p.h:118
+msgctxt "KStandardActions|"
+msgid "Show &Menubar"
+msgstr "Prikaži traku s &izbornicima"
+
+#: gui/kstandardactions_p.h:118
+msgctxt "KStandardActions|"
+msgid "Show or hide menubar"
+msgstr "Prikaži ili sakrij traku s izbornicima"
+
+#: gui/kstandardactions_p.h:119
+msgctxt "KStandardActions|"
+msgid "Show &Toolbar"
+msgstr "Prikaži al&atnu traku"
+
+#: gui/kstandardactions_p.h:119
+msgctxt "KStandardActions|"
+msgid "Show or hide toolbar"
+msgstr "Prikaži ili sakrij alatnu traku"
+
+#: gui/kstandardactions_p.h:120
+msgctxt "KStandardActions|"
+msgid "Show St&atusbar"
+msgstr "Prikaži statusnu &traku"
+
+#: gui/kstandardactions_p.h:120
+msgctxt "KStandardActions|"
+msgid "Show or hide statusbar"
+msgstr "Prikaži ili sakrij statusnu traku"
+
+#: gui/kstandardactions_p.h:121
+msgctxt "KStandardActions|"
+msgid "F&ull Screen Mode"
+msgstr "Način &cjelaslonskog prikaza"
+
+#: gui/kstandardactions_p.h:122
+msgctxt "KStandardActions|"
+msgid "Configure Keyboard S&hortcuts…"
+msgstr "Podesi prečace &tipkovnice…"
+
+#: gui/kstandardactions_p.h:123
+#, qt-format
+msgctxt "KStandardActions|"
+msgid "&Configure %1…"
+msgstr "&Podesi %1…"
+
+#: gui/kstandardactions_p.h:124
+msgctxt "KStandardActions|"
+msgid "Configure Tool&bars…"
+msgstr "Podesi alatne &trake…"
+
+#: gui/kstandardactions_p.h:125
+msgctxt "KStandardActions|"
+msgid "Configure &Notifications…"
+msgstr "Podesi &obavijesti…"
+
+#: gui/kstandardactions_p.h:129
+#, qt-format
+msgctxt "KStandardActions|"
+msgid "%1 &Handbook"
+msgstr "&Priručnik za %1"
+
+#: gui/kstandardactions_p.h:130
+msgctxt "KStandardActions|"
+msgid "What's &This?"
+msgstr "Što je &ovo?"
+
+#: gui/kstandardactions_p.h:131
+msgctxt "KStandardActions|"
+msgid "&Report Bug…"
+msgstr "&Prijavi grešku…"
+
+#: gui/kstandardactions_p.h:132
+msgctxt "KStandardActions|"
+msgid "Configure &Language…"
+msgstr "Podesi &jezik…"
+
+#: gui/kstandardactions_p.h:133
+#, qt-format
+msgctxt "KStandardActions|"
+msgid "&About %1"
+msgstr "&O programu %1"
+
+#: gui/kstandardactions_p.h:134
+msgctxt "KStandardActions|"
+msgid "About &KDE"
+msgstr "O &KDE-u"
+
+#: gui/kstandardactions_p.h:135
+msgctxt "KStandardActions|"
+msgid "&Delete"
+msgstr "&Izbriši"
+
+#: gui/kstandardactions_p.h:136
+msgctxt "KStandardActions|"
+msgid "&Rename…"
+msgstr "Preno&muj…"
+
+#: gui/kstandardactions_p.h:137
+msgctxt "KStandardActions|"
+msgid "&Move to Trash"
+msgstr "Pre&mjesti u smeće"
+
+#: gui/kstandardactions_p.h:138
+msgctxt "KStandardActions|"
+msgid "&Donate"
+msgstr "&Doniraj"
+
+#: gui/kstandardactions_p.h:139
+msgctxt "KStandardActions|"
+msgid "Open &Menu"
+msgstr "Otvori &izbornik"
+
+#: gui/kstandardshortcut.cpp:74
+msgctxt "KStandardShortcut|@action"
+msgid "Open"
+msgstr "Otvori"
+
+#: gui/kstandardshortcut.cpp:79
+msgctxt "KStandardShortcut|@action"
+msgid "New"
+msgstr "Novo"
+
+#: gui/kstandardshortcut.cpp:82
+msgctxt "KStandardShortcut|@action"
+msgid "Close"
+msgstr "Zatvori"
+
+#: gui/kstandardshortcut.cpp:88
+msgctxt "KStandardShortcut|@action"
+msgid "Save"
+msgstr "Spremi"
+
+#: gui/kstandardshortcut.cpp:89
+msgctxt "KStandardShortcut|@action"
+msgid "Print"
+msgstr "Ispiši"
+
+#: gui/kstandardshortcut.cpp:92
+msgctxt "KStandardShortcut|@action"
+msgid "Quit"
+msgstr "Završi"
+
+#: gui/kstandardshortcut.cpp:99
+msgctxt "KStandardShortcut|@action"
+msgid "Undo"
+msgstr "Poništi"
+
+#: gui/kstandardshortcut.cpp:100
+msgctxt "KStandardShortcut|@action"
+msgid "Redo"
+msgstr "Ponovi"
+
+#: gui/kstandardshortcut.cpp:105
+msgctxt "KStandardShortcut|@action"
+msgid "Cut"
+msgstr "Izreži"
+
+#: gui/kstandardshortcut.cpp:112
+msgctxt "KStandardShortcut|@action"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: gui/kstandardshortcut.cpp:119
+msgctxt "KStandardShortcut|@action"
+msgid "Paste"
+msgstr "Zalijepi"
+
+#: gui/kstandardshortcut.cpp:126
+msgctxt "KStandardShortcut|@action"
+msgid "Paste Selection"
+msgstr "Zalijepi odabir"
+
+#: gui/kstandardshortcut.cpp:134
+msgctxt "KStandardShortcut|@action"
+msgid "Select All"
+msgstr "Odaberi sve"
+
+#: gui/kstandardshortcut.cpp:141
+msgctxt "KStandardShortcut|@action"
+msgid "Deselect"
+msgstr "Poništi odabir"
+
+#: gui/kstandardshortcut.cpp:148
+msgctxt "KStandardShortcut|@action"
+msgid "Delete Word Backwards"
+msgstr "Izbriši riječ unatrag"
+
+#: gui/kstandardshortcut.cpp:160
+msgctxt "KStandardShortcut|@action"
+msgid "Delete Word Forward"
+msgstr "Izbriši riječ unaprijed"
+
+#: gui/kstandardshortcut.cpp:171
+msgctxt "KStandardShortcut|@action"
+msgid "Find"
+msgstr "Pronađi"
+
+#: gui/kstandardshortcut.cpp:174
+msgctxt "KStandardShortcut|@action"
+msgid "Find Next"
+msgstr "Pronađi sljedeće"
+
+#: gui/kstandardshortcut.cpp:186
+msgctxt "KStandardShortcut|@action"
+msgid "Find Prev"
+msgstr "Pronađi prethodno"
+
+#: gui/kstandardshortcut.cpp:193
+msgctxt "KStandardShortcut|@action"
+msgid "Replace"
+msgstr "Zamijeni"
+
+#: gui/kstandardshortcut.cpp:202
+msgctxt "KStandardShortcut|@action Go to main page"
+msgid "Home"
+msgstr "Početna"
+
+#: gui/kstandardshortcut.cpp:209
+msgctxt "KStandardShortcut|@action Beginning of document"
+msgid "Begin"
+msgstr "Početak"
+
+#: gui/kstandardshortcut.cpp:221
+msgctxt "KStandardShortcut|@action End of document"
+msgid "End"
+msgstr "Kraj"
+
+#: gui/kstandardshortcut.cpp:233
+msgctxt "KStandardShortcut|@action"
+msgid "Prior"
+msgstr "Prethodna stranica"
+
+#: gui/kstandardshortcut.cpp:240
+msgctxt "KStandardShortcut|@action Opposite to Prior"
+msgid "Next"
+msgstr "Sljedeće"
+
+#: gui/kstandardshortcut.cpp:246
+msgctxt "KStandardShortcut|@action"
+msgid "Up"
+msgstr "Gore"
+
+#: gui/kstandardshortcut.cpp:249
+msgctxt "KStandardShortcut|@action"
+msgid "Back"
+msgstr "Natrag"
+
+#: gui/kstandardshortcut.cpp:260
+msgctxt "KStandardShortcut|@action"
+msgid "Forward"
+msgstr "Naprijed"
+
+#: gui/kstandardshortcut.cpp:271
+msgctxt "KStandardShortcut|@action"
+msgid "Reload"
+msgstr "Učitaj ponovno"
+
+#: gui/kstandardshortcut.cpp:279
+msgctxt "KStandardShortcut|@action"
+msgid "Beginning of Line"
+msgstr "Početak retka"
+
+#: gui/kstandardshortcut.cpp:291
+msgctxt "KStandardShortcut|@action"
+msgid "End of Line"
+msgstr "Kraj retka"
+
+#: gui/kstandardshortcut.cpp:303
+msgctxt "KStandardShortcut|@action"
+msgid "Go to Line"
+msgstr "Idi na redak"
+
+#: gui/kstandardshortcut.cpp:314
+msgctxt "KStandardShortcut|@action"
+msgid "Backward Word"
+msgstr "Riječ unatrag"
+
+#: gui/kstandardshortcut.cpp:326
+msgctxt "KStandardShortcut|@action"
+msgid "Forward Word"
+msgstr "Riječ unaprijed"
+
+#: gui/kstandardshortcut.cpp:339
+msgctxt "KStandardShortcut|@action"
+msgid "Add Bookmark"
+msgstr "Dodaj knjišku oznaku"
+
+#: gui/kstandardshortcut.cpp:346
+msgctxt "KStandardShortcut|@action"
+msgid "Zoom In"
+msgstr "Povećaj"
+
+#: gui/kstandardshortcut.cpp:353
+msgctxt "KStandardShortcut|@action"
+msgid "Zoom Out"
+msgstr "Smanji"
+
+#: gui/kstandardshortcut.cpp:360
+msgctxt "KStandardShortcut|@action"
+msgid "Full Screen Mode"
+msgstr "Način cjelaslonskog prikaza"
+
+#: gui/kstandardshortcut.cpp:373
+msgctxt "KStandardShortcut|@action"
+msgid "Show Menu Bar"
+msgstr "Prikaži traku s izbornicima"
+
+#: gui/kstandardshortcut.cpp:380
+msgctxt "KStandardShortcut|@action"
+msgid "Activate Next Tab"
+msgstr "Aktiviraj sljedeću karticu"
+
+#: gui/kstandardshortcut.cpp:387
+msgctxt "KStandardShortcut|@action"
+msgid "Activate Previous Tab"
+msgstr "Aktiviraj prethodnu karticu"
+
+#: gui/kstandardshortcut.cpp:394
+msgctxt "KStandardShortcut|@action"
+msgid "Help"
+msgstr "Pomoć"
+
+#: gui/kstandardshortcut.cpp:397
+msgctxt "KStandardShortcut|@action"
+msgid "What's This"
+msgstr "Što je ovo"
+
+#: gui/kstandardshortcut.cpp:406
+msgctxt "KStandardShortcut|@action"
+msgid "Text Completion"
+msgstr "Dovršavanje teksta"
+
+#: gui/kstandardshortcut.cpp:413
+msgctxt "KStandardShortcut|@action"
+msgid "Previous Completion Match"
+msgstr "Prethodno podudaranje dovršavanja"
+
+#: gui/kstandardshortcut.cpp:424
+msgctxt "KStandardShortcut|@action"
+msgid "Next Completion Match"
+msgstr "Sljedeće podudaranje dovršavanja"
+
+#: gui/kstandardshortcut.cpp:435
+msgctxt "KStandardShortcut|@action"
+msgid "Substring Completion"
+msgstr "Dovršavanje podniza"
+
+#: gui/kstandardshortcut.cpp:443
+msgctxt "KStandardShortcut|@action"
+msgid "Previous Item in List"
+msgstr "Prethodna stavka na popisu"
+
+#: gui/kstandardshortcut.cpp:450
+msgctxt "KStandardShortcut|@action"
+msgid "Next Item in List"
+msgstr "Sljedeća stavka na popisu"
+
+#: gui/kstandardshortcut.cpp:458
+msgctxt "KStandardShortcut|@action"
+msgid "Open Recent"
+msgstr "Otvori nedavno"
+
+#: gui/kstandardshortcut.cpp:465
+msgctxt "KStandardShortcut|@action"
+msgid "Save As"
+msgstr "Spremi kao"
+
+#: gui/kstandardshortcut.cpp:470
+msgctxt "KStandardShortcut|@action"
+msgid "Revert"
+msgstr "Vrati"
+
+#: gui/kstandardshortcut.cpp:473
+msgctxt "KStandardShortcut|@action"
+msgid "Print Preview"
+msgstr "Pretpregled ispisa"
+
+#: gui/kstandardshortcut.cpp:478
+msgctxt "KStandardShortcut|@action"
+msgid "Mail"
+msgstr "Pošta"
+
+#: gui/kstandardshortcut.cpp:479
+msgctxt "KStandardShortcut|@action"
+msgid "Clear"
+msgstr "Očisti"
+
+#: gui/kstandardshortcut.cpp:482
+msgctxt "KStandardShortcut|@action"
+msgid "Zoom to Actual Size"
+msgstr "Zumiraj na stvarnu veličinu"
+
+#: gui/kstandardshortcut.cpp:489
+msgctxt "KStandardShortcut|@action"
+msgid "Fit To Page"
+msgstr "Prilagodi stranici"
+
+#: gui/kstandardshortcut.cpp:496
+msgctxt "KStandardShortcut|@action"
+msgid "Fit To Width"
+msgstr "Prilagodi širini"
+
+#: gui/kstandardshortcut.cpp:503
+msgctxt "KStandardShortcut|@action"
+msgid "Fit To Height"
+msgstr "Prilagodi visini"
+
+#: gui/kstandardshortcut.cpp:508
+msgctxt "KStandardShortcut|@action"
+msgid "Zoom"
+msgstr "Zumiraj"
+
+#: gui/kstandardshortcut.cpp:509
+msgctxt "KStandardShortcut|@action"
+msgid "Goto"
+msgstr "Idi na"
+
+#: gui/kstandardshortcut.cpp:512
+msgctxt "KStandardShortcut|@action"
+msgid "Goto Page"
+msgstr "Idi na stranicu"
+
+#: gui/kstandardshortcut.cpp:519
+msgctxt "KStandardShortcut|@action"
+msgid "Document Back"
+msgstr "Dokument natrag"
+
+#: gui/kstandardshortcut.cpp:526
+msgctxt "KStandardShortcut|@action"
+msgid "Document Forward"
+msgstr "Dokument naprijed"
+
+#: gui/kstandardshortcut.cpp:533
+msgctxt "KStandardShortcut|@action"
+msgid "Edit Bookmarks"
+msgstr "Uredi knjiške oznake"
+
+#: gui/kstandardshortcut.cpp:538
+msgctxt "KStandardShortcut|@action"
+msgid "Spelling"
+msgstr "Pravopis"
+
+#: gui/kstandardshortcut.cpp:541
+msgctxt "KStandardShortcut|@action"
+msgid "Show Toolbar"
+msgstr "Prikaži alatnu traku"
+
+#: gui/kstandardshortcut.cpp:548
+msgctxt "KStandardShortcut|@action"
+msgid "Show Statusbar"
+msgstr "Prikaži statusnu traku"
+
+#: gui/kstandardshortcut.cpp:555
+msgctxt "KStandardShortcut|@action"
+msgid "Key Bindings"
+msgstr "Prečaci tipkovnice"
+
+#: gui/kstandardshortcut.cpp:562
+msgctxt "KStandardShortcut|@action"
+msgid "Configure Application"
+msgstr "Podesi aplikaciju"
+
+#: gui/kstandardshortcut.cpp:569
+msgctxt "KStandardShortcut|@action"
+msgid "Configure Toolbars"
+msgstr "Podesi alatne trake"
+
+#: gui/kstandardshortcut.cpp:576
+msgctxt "KStandardShortcut|@action"
+msgid "Configure Notifications"
+msgstr "Podesi obavijesti"
+
+#: gui/kstandardshortcut.cpp:583
+msgctxt "KStandardShortcut|@action"
+msgid "Report Bug"
+msgstr "Prijavi grešku"
+
+#: gui/kstandardshortcut.cpp:590
+msgctxt "KStandardShortcut|@action"
+msgid "Configure Language…"
+msgstr "Podesi jezik…"
+
+#: gui/kstandardshortcut.cpp:597
+msgctxt "KStandardShortcut|@action"
+msgid "About Application"
+msgstr "O aplikaciji"
+
+#: gui/kstandardshortcut.cpp:604
+msgctxt "KStandardShortcut|@action"
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: gui/kstandardshortcut.cpp:613
+msgctxt "KStandardShortcut|@action"
+msgid "Delete"
+msgstr "Izbriši"
+
+#: gui/kstandardshortcut.cpp:620
+msgctxt "KStandardShortcut|@action"
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: gui/kstandardshortcut.cpp:627
+msgctxt "KStandardShortcut|@action"
+msgid "Move to Trash"
+msgstr "Premjesti u smeće"
+
+#: gui/kstandardshortcut.cpp:632
+msgctxt "KStandardShortcut|@action"
+msgid "Donate"
+msgstr "Doniraj"
+
+#: gui/kstandardshortcut.cpp:635
+msgctxt "KStandardShortcut|@action"
+msgid "Show/Hide Hidden Files"
+msgstr "Prikaži/sakrij skrivene datoteke"
+
+#: gui/kstandardshortcut.cpp:642
+msgctxt "KStandardShortcut|@action"
+msgid "Create Folder"
+msgstr "Stvori mapu"
+
+#: gui/kstandardshortcut.cpp:649
+msgctxt ""
+"KStandardShortcut|@action referring to the menu bar or a hamburger menu"
+msgid "Open Main Menu"
+msgstr "Otvori glavni izbornik"
+
+#: gui/kstandardshortcut.cpp:656
+msgctxt "KStandardShortcut|@action"
+msgid "Open Context Menu"
+msgstr "Otvori kontekstni izbornik"
+
+#: kconf_update/kconf_update.cpp:368
+msgctxt "main|"
+msgid "KDE Tool for updating user configuration files"
+msgstr "KDE alat za ažuriranje korisničkih konfiguracijskih datoteka"
+
+#: kconf_update/kconf_update.cpp:370
+msgctxt "main|"
+msgid "Keep output results from scripts"
+msgstr "Zadrži izlazne rezultate iz skripti"
+
+#: kconf_update/kconf_update.cpp:373
+msgctxt "main|"
+msgid ""
+"For unit tests only: do not write the done entries, so that with every "
+"re-run, the scripts are executed again"
+msgstr ""
+"Samo za jedinične testove: nemoj pisati unose o izvršenosti, kako bi se sa "
+"svakim ponovnim pokretanjem skripte ponovno izvršile"
+
+#: kconf_update/kconf_update.cpp:375
+msgctxt "main|"
+msgid "Check whether config file itself requires updating"
+msgstr "Provjeri zahtijeva li sama konfiguracijska datoteka ažuriranje"
+
+#: kconf_update/kconf_update.cpp:378
+msgctxt "main|"
+msgid "File(s) to read update instructions from"
+msgstr "Datoteka(e) iz koje(ih) se čitaju upute za ažuriranje"
+
+#: kconfig_compiler/kconfig_compiler.cpp:739
+msgctxt "main|"
+msgid "Directory to generate files in [.]"
+msgstr "Direktorij u kojem se generiraju datoteke [.]"
+
+#: kconfig_compiler/kconfig_compiler.cpp:740
+msgctxt "main|"
+msgid "directory"
+msgstr "direktorij"
+
+#: kconfig_compiler/kconfig_compiler.cpp:744
+msgctxt "main|"
+msgid "Display software license."
+msgstr "Prikaži licencu softvera."
+
+#: kreadconfig/kreadconfig.cpp:46 kreadconfig/kwriteconfig.cpp:25
+msgctxt "main|"
+msgid "Use <file> instead of global config"
+msgstr "Upotrijebi <datoteku> umjesto globalne konfiguracije"
+
+#: kreadconfig/kreadconfig.cpp:49 kreadconfig/kwriteconfig.cpp:28
+msgctxt "main|"
+msgid ""
+"Group to look in. Use \"<default>\" for the root group, or use repeatedly "
+"for nested groups."
+msgstr ""
+"Grupa u kojoj se traži. Upotrijebite „<default>” za korijensku grupu ili "
+"upotrijebite više puta za ugniježđene grupe."
+
+#: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
+msgctxt "main|"
+msgid "Key to look for"
+msgstr "Ključ koji se traži"
+
+#: kreadconfig/kreadconfig.cpp:53
+msgctxt "main|"
+msgid "Default value"
+msgstr "Zadata vrijednost"
+
+#: kreadconfig/kreadconfig.cpp:54
+msgctxt "main|"
+msgid "Type of variable"
+msgstr "Vrsta varijable"
+
+#: kreadconfig/kreadconfig.cpp:55
+msgctxt "main|"
+msgid "Dump all entries"
+msgstr "Ispiši sve unose"
+
+#: kreadconfig/kreadconfig.cpp:56
+msgctxt "main|"
+msgid "Dump default values of all entries"
+msgstr "Ispiši zadane vrijednosti svih unosa"
+
+#: kreadconfig/kreadconfig.cpp:59
+msgctxt "main|"
+msgid ""
+"Include globals; by default, the global config files are not read if a file "
+"is specified"
+msgstr ""
+"Uključi globalne postavke; prema zadanim postavkama, globalne konfiguracijske "
+"datoteke ne čitaju se ako je navedena datoteka"
+
+#: kreadconfig/kreadconfig.cpp:92 kreadconfig/kwriteconfig.cpp:71
+msgctxt "main|"
+msgid "Group name cannot be empty, use \"<default>\" for the root group"
+msgstr ""
+"Naziv grupe ne može biti prazan, upotrijebite „<default>” za korijensku grupu"
+
+#: kreadconfig/kwriteconfig.cpp:34
+msgctxt "main|"
+msgid ""
+"Type of variable. Use \"bool\" for a boolean, otherwise it is treated as a "
+"string"
+msgstr ""
+"Vrsta varijable. Upotrijebite „bool” za logičku vrijednost, inače se tretira "
+"kao niz znakova"
+
+#: kreadconfig/kwriteconfig.cpp:36
+msgctxt "main|"
+msgid "Delete the designated key if enabled"
+msgstr "Izbriši označeni ključ ako je omogućeno"
+
+#: kreadconfig/kwriteconfig.cpp:37
+msgctxt "notify|"
+msgid "Notify applications of the change"
+msgstr "Obavijesti aplikacije o promjeni"
+
+#: kreadconfig/kwriteconfig.cpp:38
+msgctxt "main|"
+msgid "The value to write. Mandatory, on a shell use '' for empty"
+msgstr "Vrijednost za zapis. Obavezno, u ljusci upotrijebite „''” za prazno"
