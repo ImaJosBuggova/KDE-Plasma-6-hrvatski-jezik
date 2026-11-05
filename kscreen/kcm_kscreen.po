@@ -1,0 +1,757 @@
+# Translation of kscreen to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kscreen package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kscreen\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-16 00:47+0000\n"
+"PO-Revision-Date: 2026-11-05 18:45+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: kcm.cpp:132 kcm.cpp:154
+#, kde-format
+msgid "Implementation error"
+msgstr "Pogreška u izvedbi"
+
+#: kcm.cpp:175
+#, kde-format
+msgid "Outputs changed while trying to apply settings"
+msgstr "Izlazi su se promijenili tijekom primjene postavki"
+
+#: output_model.cpp:103
+#, kde-format
+msgid "%1 Hz"
+msgstr "%1\u2009Hz"
+
+#: output_model.cpp:796
+#, kde-format
+msgctxt "Width x height"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: output_model.cpp:815
+#, kde-format
+msgctxt "Width x height (aspect ratio)"
+msgid "%1 × %2 (%3:%4)"
+msgstr "%1 × %2 (%3:%4)"
+
+#: output_model.cpp:909 output_model.cpp:926
+#, kde-format
+msgid "Replicated by other output"
+msgstr "Replicirano od strane drugog izlaza"
+
+#: output_model.cpp:913 output_model.cpp:931
+#, kde-format
+msgid "None"
+msgstr "Ništa"
+
+#: ui/ColorProfileSelector.qml:28
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Color profile:"
+msgstr "Profil boja:"
+
+#: ui/ColorProfileSelector.qml:37
+#, kde-format
+msgctxt "@item:inlistbox color profile"
+msgid "None"
+msgstr "Ništa"
+
+#: ui/ColorProfileSelector.qml:42
+#, kde-format
+msgctxt "@item:inlistbox color profile"
+msgid "ICC profile"
+msgstr "ICC profil"
+
+#: ui/ColorProfileSelector.qml:47
+#, kde-format
+msgctxt "@item:inlistbox color profile"
+msgid "Built-in"
+msgstr "Ugrađeni"
+
+#: ui/ColorProfileSelector.qml:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use the color profile built into the screen itself, if present. Note that "
+"built-in color profiles are sometimes wrong, and often inaccurate. For "
+"optimal color fidelity, calibration using a colorimeter is recommended."
+msgstr ""
+"Upotrijebi profil boja ugrađen u sam zaslon, ako postoji. Imajte na umu da "
+"su ugrađeni profili boja ponekad pogrešni, a često i netočni. Za optimalnu "
+"vjernost boja preporučuje se kalibracija s pomoću kolorimetra."
+
+#: ui/IccSelector.qml:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Enter ICC profile path…"
+msgstr "Unesite putanju ICC profila…"
+
+#: ui/IccSelector.qml:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Select ICC profile…"
+msgstr "Odaberi ICC profil…"
+
+#: ui/IccSelector.qml:58
+#, kde-format
+msgid "Opens a file picker for the ICC profile"
+msgstr "Otvara birač datoteka za ICC profil"
+
+#: ui/IccSelector.qml:67
+#, kde-format
+msgctxt "@title:window"
+msgid "Select ICC Profile"
+msgstr "Odabir ICC profila"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt ""
+"@action:button Briefly show the display name in a popup label on each screen"
+msgid "Identify Screens"
+msgstr "Identificiraj zaslone"
+
+#: ui/main.qml:56
+#, kde-format
+msgid "Keep display configuration?"
+msgstr "Zadržati konfiguraciju zaslona?"
+
+#: ui/main.qml:67
+#, kde-format
+msgid "Will revert to previous configuration in %1 second."
+msgid_plural "Will revert to previous configuration in %1 seconds."
+msgstr[0] "Vratit će se na prethodnu konfiguraciju za %1 sekundu."
+msgstr[1] "Vratit će se na prethodnu konfiguraciju za %1 sekunde."
+msgstr[2] "Vratit će se na prethodnu konfiguraciju za %1 sekundi."
+
+#: ui/main.qml:84
+#, kde-format
+msgid "&Keep"
+msgstr "&Zadrži"
+
+#: ui/main.qml:97
+#, kde-format
+msgid "&Revert"
+msgstr "&Vrati"
+
+#: ui/main.qml:117
+#, kde-format
+msgctxt "@info"
+msgid "All displays are disabled. Enable at least one."
+msgstr "Svi su zasloni onemogućeni. Omogućite barem jedan."
+
+#: ui/main.qml:119
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Gaps between displays are not supported. Make sure all displays are touching."
+msgstr ""
+"Razmaci između zaslona nisu podržani. Provjerite dodiruju li se svi zasloni."
+
+#: ui/main.qml:124
+#, kde-format
+msgctxt "The argument contains the reason for the failure"
+msgid "Couldn’t apply display configuration: %1"
+msgstr "Nije moguće primijeniti konfiguraciju zaslona: %1"
+
+#: ui/main.qml:130
+#, kde-format
+msgid "A new output has been added. Settings have been reloaded."
+msgstr "Dodan je novi izlaz. Postavke su ponovno učitane."
+
+#: ui/main.qml:132
+#, kde-format
+msgid "An output has been removed. Settings have been reloaded."
+msgstr "Izlaz je uklonjen. Postavke su ponovno učitane."
+
+#: ui/main.qml:185
+#, kde-format
+msgid "No KScreen backend found. Please check your KScreen installation."
+msgstr "Pozadinski sustav za KScreen nije pronađen. Provjerite instalaciju KScreen-a."
+
+#: ui/main.qml:194
+#, kde-format
+msgid "Outputs could not be saved due to error."
+msgstr "Izlazi se nisu mogli spremiti zbog pogreške."
+
+#: ui/main.qml:211
+#, kde-format
+msgid "Display configuration reverted."
+msgstr "Konfiguracija zaslona vraćena."
+
+#: ui/main.qml:225
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Priorities"
+msgstr "Promijeni prioritete"
+
+#: ui/main.qml:264 ui/main.qml:332
+#, kde-format
+msgid "Raise priority"
+msgstr "Povećaj prioritet"
+
+#: ui/main.qml:273 ui/main.qml:343
+#, kde-format
+msgid "Lower priority"
+msgstr "Smanji prioritet"
+
+#: ui/main.qml:326 ui/OutputPanel.qml:54
+#, kde-format
+msgid "Primary"
+msgstr "Primarni"
+
+#: ui/main.qml:473
+#, kde-format
+msgctxt "@action:button Shrink the height of a view"
+msgid "Collapse"
+msgstr "Sažmi"
+
+#: ui/main.qml:474
+#, kde-format
+msgctxt "@action:button Edit the arrangement of display outputs"
+msgid "Edit Arrangement"
+msgstr "Uredi raspored"
+
+#: ui/Orientation.qml:14
+#, kde-format
+msgid "Orientation:"
+msgstr "Orijentacija:"
+
+#: ui/Orientation.qml:27 ui/OutputPanel.qml:190 ui/OutputPanel.qml:231
+#, kde-format
+msgid "Automatic"
+msgstr "Automatski"
+
+#: ui/Orientation.qml:42
+#, kde-format
+msgid "Only when in tablet mode"
+msgstr "Samo u načinu rada za tablet"
+
+#: ui/Orientation.qml:58
+#, kde-format
+msgid "Manual"
+msgstr "Ručno"
+
+#: ui/Output.qml:21
+#, kde-format
+msgctxt "Width, height, scale; separated with no-break space"
+msgid "(%1 × %2, %3%)"
+msgstr "(%1 × %2, %3%)"
+
+#: ui/Output.qml:23
+#, kde-format
+msgctxt "Width, height; separated with no-break space"
+msgid "(%1 × %2)"
+msgstr "(%1 × %2)"
+
+#: ui/Output.qml:236
+#, kde-format
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: ui/Output.qml:262
+#, kde-format
+msgid "Replicas"
+msgstr "Preslike"
+
+#: ui/OutputPanel.qml:32
+#, kde-format
+msgctxt "@label for a checkbox that says 'Enabled'"
+msgid "Device:"
+msgstr "Uređaj:"
+
+#: ui/OutputPanel.qml:35
+#, kde-format
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ui/OutputPanel.qml:47
+#, kde-format
+msgid "Change Screen Priorities…"
+msgstr "Promijeni prioritete zaslona…"
+
+#: ui/OutputPanel.qml:60
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This determines which screen your main desktop appears on, along with any "
+"Plasma Panels in it. Some older games also use this setting to decide which "
+"screen to appear on.<nl/><nl/>It has no effect on what screen notifications "
+"or other windows appear on."
+msgstr ""
+"Ovo određuje na kojem se zaslonu pojavljuje vaša glavna radna površina zajedno "
+"s pripadajućim plazminim panelima. Neke starije igre također koriste ovu "
+"postavku kako bi odredile na kojem će se zaslonu pojaviti.<nl/><nl/>Ovo nema "
+"utjecaja na to na kojem se zaslonu pojavljuju obavijesti ili drugi prozori."
+
+#: ui/OutputPanel.qml:66
+#, kde-format
+msgid "Resolution:"
+msgstr "Razlučivost:"
+
+#: ui/OutputPanel.qml:91
+#, kde-format
+msgctxt "@info"
+msgid "“%1” is the only resolution supported by this display."
+msgstr "„%1” je jedina razlučivost koju podržava ovaj zaslon."
+
+#: ui/OutputPanel.qml:96
+#, kde-format
+msgid "Scale:"
+msgstr "Skaliranje:"
+
+#: ui/OutputPanel.qml:108
+#, kde-format
+msgctxt "@info accessible description of slider value"
+msgid "in percent of regular scale"
+msgstr "u postocima u odnosu na regularnu skalu"
+
+#: ui/OutputPanel.qml:139
+#, kde-format
+msgctxt "Global scale factor expressed in percentage form"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/OutputPanel.qml:154
+#, kde-format
+msgid "Refresh rate:"
+msgstr "Frekvencija osvježavanja:"
+
+#: ui/OutputPanel.qml:178
+#, kde-format
+msgctxt "@info"
+msgid "“%1” is the only refresh rate supported by this display."
+msgstr "„%1” je jedina frekvencija osvježavanja koju podržava ovaj zaslon."
+
+#: ui/OutputPanel.qml:179
+#, kde-format
+msgctxt "@info"
+msgid ""
+"“%1” is the only refresh rate supported by this display at the current "
+"resolution."
+msgstr ""
+"„%1” je jedina frekvencija osvježavanja koju podržava ovaj zaslon pri "
+"trenutačnoj razlučivosti."
+
+#: ui/OutputPanel.qml:184
+#, kde-format
+msgid "Adaptive sync:"
+msgstr "Prilagodljiva sinkronizacija:"
+
+#: ui/OutputPanel.qml:189
+#, kde-format
+msgid "Never"
+msgstr "Nikada"
+
+#: ui/OutputPanel.qml:191
+#, kde-format
+msgid "Always"
+msgstr "Uvijek"
+
+#: ui/OutputPanel.qml:202
+#, kde-format
+msgid "Overscan:"
+msgstr "Prekomjerno skeniranje (Overscan):"
+
+#: ui/OutputPanel.qml:214
+#, kde-format
+msgctxt "Overscan expressed in percentage form"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/OutputPanel.qml:220
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Determines how much padding is put around the image sent to the display to "
+"compensate for part of the content being cut off around the edges.<nl/><nl/"
+">This is sometimes needed when using a TV as a screen."
+msgstr ""
+"Određuje koliki se razmak (padding) stavlja oko slike poslane na zaslon kako "
+"bi se nadoknadio dio sadržaja koji je odrezan oko rubova.<nl/><nl/>Ovo je "
+"ponekad potrebno kada se TV koristi kao zaslon."
+
+#: ui/OutputPanel.qml:225
+#, kde-format
+msgid "RGB range:"
+msgstr "Raspon RGB-a:"
+
+#: ui/OutputPanel.qml:232
+#, kde-format
+msgid "Full"
+msgstr "Puni"
+
+#: ui/OutputPanel.qml:233
+#, kde-format
+msgid "Limited"
+msgstr "Ograničeni"
+
+#: ui/OutputPanel.qml:243
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Determines whether the range of possible color values needs to be limited "
+"for the display. This should only be changed if the colors on the screen "
+"look washed out."
+msgstr ""
+"Određuje treba li raspon mogućih vrijednosti boja biti ograničen za zaslon. "
+"Ovo bi trebalo mijenjati samo ako boje na zaslonu izgledaju isprano."
+
+#: ui/OutputPanel.qml:296
+#, kde-format
+msgctxt "@label"
+msgid "High Dynamic Range:"
+msgstr "Visok dinamički raspon (HDR):"
+
+#: ui/OutputPanel.qml:302
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable &HDR"
+msgstr "Omogući &HDR"
+
+#: ui/OutputPanel.qml:308
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HDR allows compatible applications to show brighter and more vivid colors."
+msgstr ""
+"HDR omogućuje kompatibilnim aplikacijama prikaz svjetlijih i življih boja."
+
+#: ui/OutputPanel.qml:316
+#, kde-format
+msgctxt "@action:button"
+msgid "Calibrate HDR Brightness…"
+msgstr "Kalibriraj HDR svjetlinu…"
+
+#: ui/OutputPanel.qml:329
+#, kde-format
+msgid "Opens a window to calibrate HDR brightness"
+msgstr "Otvara prozor za kalibraciju HDR svjetline"
+
+#: ui/OutputPanel.qml:334
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "HDR calibration can only be started if all settings are applied."
+msgstr ""
+"HDR kalibracija može se pokrenuti samo ako su primijenjene sve postavke."
+
+#: ui/OutputPanel.qml:339
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Color accuracy:"
+msgstr "Preciznost boja:"
+
+#: ui/OutputPanel.qml:347
+#, kde-format
+msgctxt "@item:inlistbox tradeoff between efficiency and color accuracy"
+msgid "Prefer efficiency"
+msgstr "Preferiraj učinkovitost"
+
+#: ui/OutputPanel.qml:348
+#, kde-format
+msgctxt "@item:inlistbox tradeoff between efficiency and color accuracy"
+msgid "Prefer color accuracy"
+msgstr "Preferiraj preciznost boja"
+
+#: ui/OutputPanel.qml:360
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Preferring color accuracy limits potentially inaccurate offloading of color "
+"operations to the display driver and increases the maximum color resolution."
+"<nl/><nl/>Note that this setting can have a large impact on performance."
+msgstr ""
+"Preferiranje preciznosti boja ograničava potencijalno netočno prenošenje "
+"operacija boja upravljačkom programu zaslona i povećava maksimalnu "
+"razlučivost boja.<nl/><nl/>Imajte na umu da ova postavka može imati velik "
+"utjecaj na performanse."
+
+#: ui/OutputPanel.qml:366
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Preferring efficiency simplifies the ICC profile to matrix+shaper, improving "
+"performance at the cost of color accuracy.<nl/><nl/>Note that changing this "
+"setting can have a large impact on performance."
+msgstr ""
+"Preferiranje učinkovitosti pojednostavljuje ICC profil na matrični i "
+"oblikovni dio (matrix+shaper), poboljšavajući performanse na račun "
+"preciznosti boja.<nl/><nl/>Imajte na umu da promjena ove postavke može imati "
+"velik utjecaj na performanse."
+
+#: ui/OutputPanel.qml:373
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Limit color resolution to:"
+msgstr "Ograniči razlučivost boja na:"
+
+#: ui/OutputPanel.qml:393
+#, kde-format
+msgctxt "@item:inlistbox color resolution"
+msgid "Automatic  (%1 bits per color)"
+msgstr "Automatski (%1 bita po boji)"
+
+#: ui/OutputPanel.qml:395 ui/OutputPanel.qml:408
+#, kde-format
+msgctxt "@item:inlistbox color resolution"
+msgid "%1 bits per color"
+msgstr "%1 bita po boji"
+
+#: ui/OutputPanel.qml:406
+#, kde-format
+msgctxt "@item:inlistbox color resolution"
+msgid "Automatic (%1 bits per color)"
+msgstr "Automatski (%1 bita po boji)"
+
+#: ui/OutputPanel.qml:419
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Limits the color resolution of the image that is sent to the display. This "
+"does not affect screenshots or recordings.<nl/><nl/>Because the display is "
+"currently connected through a dock, automatic color resolution has been "
+"temporarily reduced to 8 bits to avoid common dock issues.<nl/><nl/>Due to "
+"graphics driver limitations, the actually used resolution cannot be known."
+msgstr ""
+"Ograničava razlučivost boja slike koja se šalje na zaslon. To ne utječe na "
+"snimke zaslona ili videozapise.<nl/><nl/>Budući da je zaslon trenutno spojen "
+"putem priključne stanice (docka), automatska razlučivost boja privremeno je "
+"smanjena na 8 bita kako bi se izbjegli uobičajeni problemi s "
+"priključnim stanicama.<nl/><nl/>Zbog ograničenja grafičkog upravljačkog "
+"programa stvarna korištena razlučivost nije poznata."
+
+#: ui/OutputPanel.qml:423
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Limits the color resolution of the image that is sent to the display. This "
+"does not affect screenshots or recordings.<nl/><nl/>Limiting color "
+"resolution can be useful to work around display or graphics driver issues."
+"<nl/><nl/>Due to graphics driver limitations, the actually used resolution "
+"cannot be known."
+msgstr ""
+"Ograničava razlučivost boja slike koja se šalje na zaslon. To ne utječe na "
+"snimke zaslona ili videozapise.<nl/><nl/>Ograničavanje razlučivosti boja može "
+"biti korisno za zaobilaženje problema sa zaslonom ili grafičkim upravljačkim "
+"programom.<nl/><nl/>Zbog ograničenja grafičkog upravljačkog programa "
+"stvarna korištena razlučivost nije poznata."
+
+#: ui/OutputPanel.qml:432
+#, kde-format
+msgctxt "@label"
+msgid "sRGB color intensity:"
+msgstr "Intenzitet sRGB boja:"
+
+#: ui/OutputPanel.qml:469
+#, kde-format
+msgctxt "Color intensity factor expressed in percentage form"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/OutputPanel.qml:478
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Increases the intensity of sRGB content on the screen."
+msgstr "Povećava intenzitet sRGB sadržaja na zaslonu."
+
+#: ui/OutputPanel.qml:483
+#, kde-format
+msgctxt "@label"
+msgid "Adaptive Backlight Modulation:"
+msgstr "Prilagodljiva modulacija pozadinskog osvjetljenja:"
+
+#: ui/OutputPanel.qml:513
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Adaptive backlight modulation reduces power use at the cost of color accuracy"
+msgstr ""
+"Prilagodljiva modulacija pozadinskog osvjetljenja smanjuje potrošnju "
+"energije na račun preciznosti boja."
+
+#: ui/OutputPanel.qml:519
+#, kde-format
+msgctxt "@label"
+msgid "Brightness:"
+msgstr "Svjetlina:"
+
+#: ui/OutputPanel.qml:525
+#, kde-format
+msgctxt "@option:check"
+msgid "Control hardware brightness with DDC/CI"
+msgstr "Upravljaj hardverskom svjetlinom putem DDC/CI-ja"
+
+#: ui/OutputPanel.qml:531
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"DDC/CI is a feature supported by many monitors. Plasma can use it to adjust "
+"screen brightness with desktop controls, as if using the monitor's own "
+"hardware buttons and OSD menu."
+msgstr ""
+"DDC/CI je značajka koju podržava mnogo monitora. Plasma je može koristiti "
+"za prilagodbu svjetline zaslona pomoću kontrola radne površine, kao da "
+"koristite hardverske gumbe monitora i OSD izbornik."
+
+#: ui/OutputPanel.qml:568
+#, kde-format
+msgctxt "Brightness expressed in percentage form"
+msgid "%1%"
+msgstr "%1%"
+
+#: ui/OutputPanel.qml:579
+#, kde-format
+msgid "Automatically adapt to environment"
+msgstr "Automatski se prilagodi okolini"
+
+#: ui/OutputPanel.qml:584
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Automatically adjust the screen’s brightness based on the lighting level of "
+"the environment, as detected by the device’s ambient light sensor. If you "
+"adjust the brightness manually, those adjustments will be remembered and "
+"taken into account."
+msgstr ""
+"Automatski prilagodi svjetlinu zaslona na temelju razine osvjetljenja "
+"okoline, kako detektira senzor ambijentalnog svjetla uređaja. Ako svjetlinu "
+"podesite ručno, ta će se podešavanja zapamtiti i uzeti u obzir."
+
+#: ui/OutputPanel.qml:590
+#, kde-format
+msgctxt "@label"
+msgid "Sharpness:"
+msgstr "Oštrina:"
+
+#: ui/OutputPanel.qml:623
+#, kde-format
+msgctxt "@label"
+msgid "Extended Dynamic Range:"
+msgstr "Prošireni dinamički raspon (EDR):"
+
+#: ui/OutputPanel.qml:629
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable EDR"
+msgstr "Omogući EDR"
+
+#: ui/OutputPanel.qml:635
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"EDR allows viewing HDR content on SDR displays by dynamically adjusting the "
+"backlight.<nl/><nl/>Note that this increases battery usage while viewing HDR "
+"content."
+msgstr ""
+"EDR omogućuje pregled HDR sadržaja na SDR zaslonima dinamičkim podešavanjem "
+"pozadinskog osvjetljenja.<nl/><nl/>Imajte na umu da ovo povećava potrošnju "
+"baterije tijekom pregledavanja HDR sadržaja."
+
+#: ui/OutputPanel.qml:640
+#, kde-format
+msgid "Replica of:"
+msgstr "Preslika od:"
+
+#: ui/Panel.qml:70
+#, kde-format
+msgid "Legacy applications (X11):"
+msgstr "Naslijeđene aplikacije (X11):"
+
+#: ui/Panel.qml:73
+#, kde-format
+msgctxt "The apps themselves should scale to fit the displays"
+msgid "Apply scaling themselves"
+msgstr "Same primjenjuju skaliranje"
+
+#: ui/Panel.qml:78
+#, kde-format
+msgid ""
+"Legacy applications that support scaling will use it and look crisp, however "
+"those that don’t will not be scaled at all."
+msgstr ""
+"Naslijeđene aplikacije koje podržavaju skaliranje koristit će ga i izgledati "
+"oštro, međutim one koje ne podržavaju uopće se neće skalirati."
+
+#: ui/Panel.qml:84
+#, kde-format
+msgctxt "The system will perform the x11 apps scaling"
+msgid "Scaled by the system"
+msgstr "Skalira sustav"
+
+#: ui/Panel.qml:89
+#, kde-format
+msgid ""
+"All legacy applications will be scaled by the system to the correct size, "
+"however they will always look slightly blurry."
+msgstr ""
+"Sve će naslijeđene aplikacije sustav skalirati na ispravnu veličinu, "
+"međutim uvijek će izgledati blago mutno."
+
+#: ui/Panel.qml:94
+#, kde-format
+msgctxt "@label"
+msgid "Screen tearing:"
+msgstr "Kidanje slike (tearing):"
+
+#: ui/Panel.qml:96
+#, kde-format
+msgctxt ""
+"@option:check The thing being allowed in fullscreen windows is screen tearing"
+msgid "Allow in fullscreen windows"
+msgstr "Dopusti u prozorima preko cijelog zaslona"
+
+#: ui/Panel.qml:101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Screen tearing reduces latency with most displays. Note that not all "
+"graphics drivers support this setting."
+msgstr ""
+"Kidanje slike smanjuje latenciju na većini zaslona. Imajte na umu da ne "
+"podržavaju svi grafički upravljački programi ovu postavku."
+
+#: ui/RotationButton.qml:54
+#, kde-format
+msgid "90° Clockwise"
+msgstr "90° u smjeru kazaljke na satu"
+
+#: ui/RotationButton.qml:58
+#, kde-format
+msgid "Upside Down"
+msgstr "Naopako"
+
+#: ui/RotationButton.qml:62
+#, kde-format
+msgid "90° Counterclockwise"
+msgstr "90° suprotno od smjera kazaljke na satu"
+
+#: ui/RotationButton.qml:67
+#, kde-format
+msgid "No Rotation"
+msgstr "Bez rotacije"
+
+#: ui/ScreenView.qml:53
+#, kde-format
+msgid "Drag screens to re-arrange them"
+msgstr "Povucite zaslone kako biste ih ponovno rasporedili"

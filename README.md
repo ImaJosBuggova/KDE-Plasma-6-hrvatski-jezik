@@ -68,17 +68,17 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **kwidgetsaddons** | ⚠️ | Čeka provjeru |
 | **kxmlgui** | ⚠️ | Čeka provjeru |
 | **libksysguard** | ⚠️ | Čeka provjeru |
-| **kde-cli-tools** | ❌ | Nije prevedeno |
-| **kscreen** | ❌ | Nije prevedeno |
-| **ksystemstats** | ❌ | Nije prevedeno |
-| **milou** | ❌ | Nije prevedeno |
-| **oxygen** | ❌ | Nije prevedeno |
-| **oxygen-icons** | ❌ | Nije prevedeno |
-| **plasma-disks** | ❌ | Nije prevedeno |
-| **plasma-firewall** | ❌ | Nije prevedeno |
-| **plasma-thunderbolt** | ❌ | Nije prevedeno |
-| **plasma-workspace-wallpapers** | ❌ | Nije prevedeno |
-| **qc2-desktop-style** | ❌ | Nije prevedeno |
+| **kde-cli-tools** | ⚠️ | Čeka provjeru |
+| **kscreen** | ⚠️ | Čeka provjeru |
+| **ksystemstats** | ⚠️ | Čeka provjeru |
+| **milou** | ✅ | Pregledao Roko Tomović |
+| **oxygen** | ⚠️ | Čeka provjeru |
+| **oxygen-icons** | ✅ | Pregledao Roko Tomović |
+| **plasma-disks** | ✅ | Pregledao Roko Tomović |
+| **plasma-firewall** | ⚠️ | Čeka provjeru |
+| **plasma-thunderbolt** | ✅ | Pregledao Roko Tomović |
+| **plasma-workspace-wallpapers** | ✅ | Pregledao Roko Tomović |
+| **qc2-desktop-style** | ✅ | Pregledao Roko Tomović |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru

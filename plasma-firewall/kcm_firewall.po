@@ -1,0 +1,816 @@
+# Translation of plasma-firewall to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the plasma-firewall package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-firewall\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-01 00:47+0000\n"
+"PO-Revision-Date: 2026-11-05 21:30+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: backends/firewalld/firewalldclient.cpp:601
+#: backends/ufw/ufwclient.cpp:701
+#, kde-format
+msgid "Error fetching information from the firewall."
+msgstr "Greška pri dohvatu informacija iz vatrozida."
+
+#: backends/firewalld/firewalldjob.cpp:173
+#, kde-format
+msgid "firewalld saving (runtime to permanent)"
+msgstr "spremanje za firewalld (iz radne u trajnu memoriju)"
+
+#: backends/firewalld/firewalldjob.cpp:197
+#, kde-format
+msgid "firewalld saving"
+msgstr "spremanje za firewalld"
+
+#: backends/firewalld/firewalldjob.cpp:197
+#, kde-format
+msgid "firewalld %1"
+msgstr "firewalld %1"
+
+#: backends/firewalld/queryrulesfirewalldjob.cpp:50
+#, kde-format
+msgid "firewalld listing rules and services"
+msgstr "firewalld izlistavanje pravila i usluga"
+
+#: backends/netstat/connectionsmodel.cpp:97
+#: core/loglistmodel.cpp:96
+#, kde-format
+msgctxt "@title:column"
+msgid "Protocol"
+msgstr "Protokol"
+
+#: backends/netstat/connectionsmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Local address"
+msgstr "Lokalna adresa"
+
+#: backends/netstat/connectionsmodel.cpp:101
+#, kde-format
+msgctxt "@title:column"
+msgid "Foreign address"
+msgstr "Udaljena adresa"
+
+#: backends/netstat/connectionsmodel.cpp:103
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "Stanje"
+
+#: backends/netstat/connectionsmodel.cpp:105
+#, kde-format
+msgctxt "@title:column"
+msgid "PID"
+msgstr "PID"
+
+#: backends/netstat/connectionsmodel.cpp:107
+#, kde-format
+msgctxt "@title:column"
+msgid "Program"
+msgstr "Program"
+
+#: backends/netstat/connectionsmodel.cpp:115
+#, kde-format
+msgid "Failed to get connections: %1"
+msgstr "Neuspjelo preuzimanje veza: %1"
+
+#: backends/netstat/connectionsmodel.cpp:133
+#, kde-format
+msgid "Not Connected"
+msgstr "Nije spojeno"
+
+#: backends/netstat/connectionsmodel.cpp:135
+#, kde-format
+msgid "Established"
+msgstr "Uspostavljeno"
+
+#: backends/netstat/connectionsmodel.cpp:137
+#, kde-format
+msgid "Listening"
+msgstr "Slušanje"
+
+#: backends/ufw/helper/helper.cpp:213
+#, kde-format
+msgid "Invalid arguments passed to the profile"
+msgstr "Nevažeći argumenti proslijeđeni profilu"
+
+#: backends/ufw/helper/helper.cpp:243
+#, kde-format
+msgid "Error saving the profile."
+msgstr "Greška pri spremanju profila."
+
+#: backends/ufw/helper/helper.cpp:267
+#, kde-format
+msgid "Invalid arguments passed to delete profile"
+msgstr "Nevažeći argumenti proslijeđeni za brisanje profila"
+
+#: backends/ufw/helper/helper.cpp:274
+#, kde-format
+msgid "Could not remove the profile from disk."
+msgstr "Nije moguće ukloniti profil s diska."
+
+#: backends/ufw/helper/helper.cpp:289
+#, kde-format
+msgid "Invalid argument passed to add Rules"
+msgstr "Nevažeći argument proslijeđen za dodavanje pravila"
+
+#: backends/ufw/helper/helper.cpp:361
+#, kde-format
+msgid "An error occurred in command '%1': %2"
+msgstr "Došlo je do greške u naredbi „%1”: %2"
+
+#: backends/ufw/ufwclient.cpp:161
+#, kde-format
+msgid ""
+"There was an error in the backend! Please report it.\n"
+"%1 %2"
+msgstr ""
+"Došlo je do greške u pozadinskom sustavu! Prijavite je.\n"
+"%1 %2"
+
+#: backends/ufw/ufwclient.cpp:268
+#, kde-format
+msgid "Error fetching firewall logs: %1"
+msgstr "Greška pri dohvatu dnevnika vatrozida: %1"
+
+#: backends/ufw/ufwclient.cpp:608 core/firewallclient.cpp:76
+#, kde-format
+msgid "Any"
+msgstr "Bilo koji"
+
+#: core/loglistmodel.cpp:88 core/rulelistmodel.cpp:91
+#, kde-format
+msgctxt "@title:column"
+msgid "From"
+msgstr "Od"
+
+#: core/loglistmodel.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Source port"
+msgstr "Izvorni priključak"
+
+#: core/loglistmodel.cpp:92 core/rulelistmodel.cpp:93
+#, kde-format
+msgctxt "@title:column"
+msgid "To"
+msgstr "Za"
+
+#: core/loglistmodel.cpp:94
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination port"
+msgstr "Odredišni priključak"
+
+#: core/loglistmodel.cpp:98
+#, kde-format
+msgctxt "@title:column"
+msgid "Interface"
+msgstr "Sučelje"
+
+#: core/loglistmodel.cpp:100 core/rulelistmodel.cpp:89
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "Radnja"
+
+#: core/loglistmodel.cpp:102
+#, kde-format
+msgctxt "@title:column"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: core/loglistmodel.cpp:104
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "Datum"
+
+#: core/rule.cpp:45
+#, kde-format
+msgctxt "address on interface"
+msgid "%1 on %2"
+msgstr "%1 na %2"
+
+#: core/rule.cpp:74 core/rule.cpp:164 core/rule.cpp:170
+#, kde-format
+msgid "Anywhere"
+msgstr "Bilo gdje"
+
+#: core/rule.cpp:95 core/rule.cpp:108 core/rule.cpp:125
+#, kde-format
+msgctxt "service/application name (port numbers)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: core/rule.cpp:198
+#, kde-format
+msgctxt "firewallAction incoming"
+msgid "%1 incoming"
+msgstr "%1 dolazno"
+
+#: core/rule.cpp:199
+#, kde-format
+msgctxt "firewallAction outgoing"
+msgid "%1 outgoing"
+msgstr "%1 odlazno"
+
+#: core/rule.cpp:204
+#, kde-format
+msgid "Yes"
+msgstr "Da"
+
+#: core/rulelistmodel.cpp:95
+#, kde-format
+msgctxt "@title:column"
+msgid "IP"
+msgstr "IP"
+
+#: core/rulelistmodel.cpp:97
+#, kde-format
+msgctxt "@title:column"
+msgid "Logging"
+msgstr "Zapisivanje u dnevnik"
+
+#: core/rulelistmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "Komentar"
+
+#: core/rulelistmodel.cpp:101
+#, kde-format
+msgctxt "@title:column"
+msgid "Edit"
+msgstr "Uredi"
+
+#: core/systemdjob.cpp:51
+#, kde-format
+msgid "Invalid Call"
+msgstr "Nevažeći poziv"
+
+#: core/types.cpp:19
+#, kde-format
+msgid "Off"
+msgstr "Isključeno"
+
+#: core/types.cpp:22
+#, kde-format
+msgid "Low"
+msgstr "Nisko"
+
+#: core/types.cpp:24
+#, kde-format
+msgid "Medium"
+msgstr "Srednje"
+
+#: core/types.cpp:26
+#, kde-format
+msgid "High"
+msgstr "Visoko"
+
+#: core/types.cpp:28
+#, kde-format
+msgid "Full"
+msgstr "Potpuno"
+
+#: core/types.cpp:45 ui/RuleEdit.qml:37
+#, kde-format
+msgid "None"
+msgstr "Ništa"
+
+#: core/types.cpp:47
+#, kde-format
+msgid "New connections"
+msgstr "Nove veze"
+
+#: core/types.cpp:49
+#, kde-format
+msgid "All packets"
+msgstr "Svi paketi"
+
+#: core/types.cpp:58 ui/main.qml:25
+#, kde-format
+msgid "Allow"
+msgstr "Dopusti"
+
+#: core/types.cpp:60
+#, kde-format
+msgid "Deny"
+msgstr "Zabrani"
+
+#: core/types.cpp:62 ui/main.qml:27
+#, kde-format
+msgid "Reject"
+msgstr "Odbij"
+
+#: core/types.cpp:64
+#, kde-format
+msgid "Limit"
+msgstr "Ograniči"
+
+#: core/types.cpp:80
+#, kde-format
+msgid "Amule"
+msgstr "aMule"
+
+#: core/types.cpp:82
+#, kde-format
+msgid "Deluge"
+msgstr "Deluge"
+
+#: core/types.cpp:84
+#, kde-format
+msgid "KTorrent"
+msgstr "KTorrent"
+
+#: core/types.cpp:86
+#, kde-format
+msgid "Nicotine"
+msgstr "Nicotine+"
+
+#: core/types.cpp:88
+#, kde-format
+msgid "qBittorrent"
+msgstr "qBittorrent"
+
+#: core/types.cpp:90
+#, kde-format
+msgid "Transmission"
+msgstr "Transmission"
+
+#: core/types.cpp:92
+#, kde-format
+msgid "ICQ"
+msgstr "ICQ"
+
+#: core/types.cpp:94
+#, kde-format
+msgid "Jabber"
+msgstr "Jabber"
+
+#: core/types.cpp:96
+#, kde-format
+msgid "Windows Live Messenger"
+msgstr "Windows Live Messenger"
+
+#: core/types.cpp:98
+#, kde-format
+msgid "Yahoo! Messenger"
+msgstr "Yahoo! Messenger"
+
+#: core/types.cpp:100
+#, kde-format
+msgid "FTP"
+msgstr "FTP"
+
+#: core/types.cpp:102
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: core/types.cpp:104
+#, kde-format
+msgid "Secure HTTP"
+msgstr "Sigurni HTTP (HTTPS)"
+
+#: core/types.cpp:106
+#, kde-format
+msgid "IMAP"
+msgstr "IMAP"
+
+#: core/types.cpp:108
+#, kde-format
+msgid "Secure IMAP"
+msgstr "Sigurni IMAP"
+
+#: core/types.cpp:110
+#, kde-format
+msgid "POP3"
+msgstr "POP3"
+
+#: core/types.cpp:112
+#, kde-format
+msgid "Secure POP3"
+msgstr "Sigurni POP3"
+
+#: core/types.cpp:114
+#, kde-format
+msgid "SMTP"
+msgstr "SMTP"
+
+#: core/types.cpp:116
+#, kde-format
+msgid "NFS"
+msgstr "NFS"
+
+#: core/types.cpp:118
+#, kde-format
+msgid "Samba"
+msgstr "Samba"
+
+#: core/types.cpp:120
+#, kde-format
+msgid "Secure Shell"
+msgstr "Secure Shell (SSH)"
+
+#: core/types.cpp:122
+#, kde-format
+msgid "VNC"
+msgstr "VNC"
+
+#: core/types.cpp:124
+#, kde-format
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#: core/types.cpp:126
+#, kde-format
+msgid "Telnet"
+msgstr "Telnet"
+
+#: core/types.cpp:128
+#, kde-format
+msgid "NTP"
+msgstr "NTP"
+
+#: core/types.cpp:130
+#, kde-format
+msgid "CUPS"
+msgstr "CUPS"
+
+#: ui/AdvancedRuleEdit.qml:31 ui/SimpleRuleEdit.qml:29
+#, kde-format
+msgid "Policy:"
+msgstr "Pravilo:"
+
+#: ui/AdvancedRuleEdit.qml:42 ui/SimpleRuleEdit.qml:40
+#, kde-format
+msgid "Direction:"
+msgstr "Smjer:"
+
+#: ui/AdvancedRuleEdit.qml:45 ui/SimpleRuleEdit.qml:44
+#, kde-format
+msgid "Incoming"
+msgstr "Dolazno"
+
+#: ui/AdvancedRuleEdit.qml:51 ui/SimpleRuleEdit.qml:50
+#, kde-format
+msgid "Outgoing"
+msgstr "Odlazno"
+
+#: ui/AdvancedRuleEdit.qml:59
+#, kde-format
+msgid "IP Version:"
+msgstr "IP verzija:"
+
+#: ui/AdvancedRuleEdit.qml:62
+#, kde-format
+msgid "IPv4"
+msgstr "IPv4"
+
+#: ui/AdvancedRuleEdit.qml:67
+#, kde-format
+msgid "IPv6"
+msgstr "IPv6"
+
+#: ui/AdvancedRuleEdit.qml:74
+#, kde-format
+msgid "Source:"
+msgstr "Izvor:"
+
+#: ui/AdvancedRuleEdit.qml:94
+#, kde-format
+msgid "Destination:"
+msgstr "Odredište:"
+
+#: ui/AdvancedRuleEdit.qml:114
+#, kde-format
+msgid "Protocol:"
+msgstr "Protokol:"
+
+#: ui/AdvancedRuleEdit.qml:125
+#, kde-format
+msgid "Interface:"
+msgstr "Sučelje:"
+
+#: ui/AdvancedRuleEdit.qml:137
+#, kde-format
+msgid "Logging:"
+msgstr "Zapisivanje u dnevnik:"
+
+#: ui/AdvancedRuleEdit.qml:148
+#, kde-format
+msgctxt "@label:textbox User-supplied comment about this firewall rule"
+msgid "Comment:"
+msgstr "Komentar:"
+
+#: ui/AdvancedRuleEdit.qml:150
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Optional"
+msgstr "Izborno"
+
+#: ui/ConnectionsView.qml:14
+#, kde-format
+msgid "Connections"
+msgstr "Veze"
+
+#: ui/ConnectionsView.qml:26
+#, kde-format
+msgid "There are currently no open connections"
+msgstr "Trenutno nema otvorenih veza"
+
+#: ui/ConnectionsView.qml:35
+#, kde-format
+msgid "Created a blacklist rule from this connection."
+msgstr "Stvoreno je pravilo crne liste iz ove veze."
+
+#: ui/ConnectionsView.qml:52
+#, kde-format
+msgid "could not find iproute2 or net-tools packages installed."
+msgstr "nije moguće pronaći instalirane pakete iproute2 ili net-tools."
+
+#: ui/IpTextField.qml:14
+#, kde-format
+msgid "Any IP address"
+msgstr "Bilo koja IP adresa"
+
+#: ui/LogsView.qml:16
+#, kde-format
+msgid "Firewall Logs"
+msgstr "Dnevnici vatrozida"
+
+#: ui/LogsView.qml:26
+#, kde-format
+msgid "There are currently no firewall log entries"
+msgstr "Trenutno nema unosa u dnevniku vatrozida"
+
+#: ui/LogsView.qml:37
+#, kde-format
+msgid "Created a blacklist rule from this log entry."
+msgstr "Stvoreno je pravilo crne liste iz ovog unosa u dnevniku."
+
+#: ui/main.qml:25
+#, kde-format
+msgid "Allow all connections"
+msgstr "Dopusti sve veze"
+
+#: ui/main.qml:26
+#, kde-format
+msgid "Ignore"
+msgstr "Zanemari"
+
+#: ui/main.qml:26
+#, kde-format
+msgid ""
+"Keeps the program waiting until the connection attempt times out, some short "
+"time later."
+msgstr ""
+"Drži program na čekanju sve dok pokušaj povezivanja ne istekne nakon kratkog "
+"vremena."
+
+#: ui/main.qml:27
+#, kde-format
+msgid "Produces an immediate and very informative 'Connection refused' message"
+msgstr "Daje trenutnu i vrlo informativnu poruku „Veze odbijena” (Connection refused)"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "Add Rule…"
+msgstr "Dodaj pravilo…"
+
+#: ui/main.qml:43
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Connections"
+msgstr "Prikaži veze"
+
+#: ui/main.qml:49
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Logs"
+msgstr "Prikaži dnevnike"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "Disabling…"
+msgstr "Onemogućavanje…"
+
+#: ui/main.qml:66
+#, kde-format
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ui/main.qml:68
+#, kde-format
+msgid "Enabling…"
+msgstr "Omogućavanje…"
+
+#: ui/main.qml:68
+#, kde-format
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: ui/main.qml:93
+#, kde-format
+msgid "The firewall application, please install %1"
+msgstr "Aplikacija vatrozida, instalirajte %1"
+
+#: ui/main.qml:107
+#, kde-format
+msgid "Permission denied"
+msgstr "Pristup odbijen"
+
+#: ui/main.qml:111
+#, kde-format
+msgid ""
+"You recently updated your kernel. Iptables is failing to initialize, please "
+"reboot."
+msgstr ""
+"Nedavno ste ažurirali jezgru (kernel). Iptables se ne uspijeva inicijalizirati, "
+"ponovo pokrenite računalo."
+
+#: ui/main.qml:114
+#, kde-format
+msgid "Error enabling firewall: %1"
+msgstr "Greška pri omogućavanju vatrozida: %1"
+
+#: ui/main.qml:115
+#, kde-format
+msgid "Error disabling firewall: %1"
+msgstr "Greška pri onemogućavanju vatrozida: %1"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Create A New Firewall Rule"
+msgstr "Stvori novo pravilo vatrozida"
+
+#: ui/main.qml:150
+#, kde-format
+msgid "Edit Firewall Rule"
+msgstr "Uredi pravilo vatrozida"
+
+#: ui/main.qml:173 ui/main.qml:294 ui/main.qml:423
+#, kde-format
+msgid "Please restart plasma firewall, the backend disconnected."
+msgstr "Ponovo pokrenite plasma-firewall, pozadinski sustav se odspojio."
+
+#: ui/main.qml:187 ui/ViewBase.qml:112
+#, kde-format
+msgid "Error creating rule: %1"
+msgstr "Greška pri stvaranju pravila: %1"
+
+#: ui/main.qml:189
+#, kde-format
+msgid "Error updating rule: %1"
+msgstr "Greška pri ažuriranju pravila: %1"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Create"
+msgstr "Stvori"
+
+#: ui/main.qml:214
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: ui/main.qml:241
+#, kde-format
+msgid "Firewall type:"
+msgstr "Vrsta vatrozida:"
+
+#: ui/main.qml:249
+#, kde-format
+msgctxt "@info"
+msgid "Firewall version: %1"
+msgstr "Verzija vatrozida: %1"
+
+#: ui/main.qml:256
+#, kde-format
+msgid "Default Incoming Policy:"
+msgstr "Zadano dolazno pravilo:"
+
+#: ui/main.qml:257
+#, kde-format
+msgid "Default Outgoing Policy:"
+msgstr "Zadano odlazno pravilo:"
+
+#: ui/main.qml:306
+#, kde-format
+msgid "Error changing policy: %1"
+msgstr "Greška pri promjeni pravila: %1"
+
+#: ui/main.qml:413
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit Rule"
+msgstr "Uredi pravilo"
+
+#: ui/main.qml:434
+#, kde-format
+msgid "Error removing rule: %1"
+msgstr "Greška pri uklanjanju pravila: %1"
+
+#: ui/main.qml:440
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Rule"
+msgstr "Ukloni pravilo"
+
+#: ui/main.qml:470
+#, kde-format
+msgid "Firewall is disabled"
+msgstr "Vatrozid je onemogućen"
+
+#: ui/main.qml:470
+#, kde-format
+msgid "No firewall rules have been added"
+msgstr "Nisu dodana nikakva pravila vatrozida"
+
+#: ui/main.qml:472
+#, kde-format
+msgctxt "@info"
+msgid "Click the <interface>Add Rule…</interface> button to add one"
+msgstr "Kliknite gumb <interface>Dodaj pravilo…</interface> kako biste ga dodali"
+
+#: ui/main.qml:473
+#, kde-format
+msgctxt "@info"
+msgid "Click switch above to enable it"
+msgstr "Kliknite gumb iznad kako biste ga omogućili"
+
+#: ui/main.qml:479
+#, kde-format
+msgid "Please install a firewall, such as ufw or firewalld"
+msgstr "Instalirajte vatrozid, kao što je ufw ili firewalld"
+
+#: ui/PortTextField.qml:11
+#, kde-format
+msgid "Any Port"
+msgstr "Bilo koji priključak"
+
+#: ui/RuleEdit.qml:38
+#, kde-format
+msgid "New Connections"
+msgstr "Nove veze"
+
+#: ui/RuleEdit.qml:39
+#, kde-format
+msgid "All Packets"
+msgstr "Svi paketi"
+
+#: ui/RuleEdit.qml:54 ui/RuleEdit.qml:61
+#, kde-format
+msgid "The default incoming policy is already '%1'."
+msgstr "Zadano dolazno pravilo već je „%1”."
+
+#: ui/RuleEdit.qml:55 ui/RuleEdit.qml:62
+#, kde-format
+msgid "The default outgoing policy is already '%1'."
+msgstr "Zadano odlazno pravilo već je „%1”."
+
+#: ui/RuleEdit.qml:72
+#, kde-format
+msgctxt "Advanced firewall rules"
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ui/SimpleRuleEdit.qml:23
+#, kde-format
+msgid "Allow connections for:"
+msgstr "Dopusti veze za:"
+
+#: ui/SimpleRuleEdit.qml:23
+#, kde-format
+msgid "Application:"
+msgstr "Aplikacija:"
+
+#: ui/ViewBase.qml:253
+#, kde-format
+msgid "Blacklist Connection"
+msgstr "Stavi vezu na crnu listu"
