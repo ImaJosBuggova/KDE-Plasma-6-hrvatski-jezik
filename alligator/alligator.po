@@ -1,0 +1,476 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the alligator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alligator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-05 00:44+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: database.cpp:84 database.cpp:378
+#, kde-format
+msgid "Default"
+msgstr "Zadano"
+
+#: database.cpp:85 database.cpp:379
+#, kde-format
+msgid "Default Feed Group"
+msgstr "Zadana grupa kanala"
+
+#: fetcher.cpp:255
+#, kde-format
+msgid "Invalid XML"
+msgstr "Neispravan XML"
+
+#: fetcher.cpp:257
+#, kde-format
+msgid "No parser accepted the XML"
+msgstr "Nijedan analizator nije prihvatio XML"
+
+#: fetcher.cpp:259
+#, kde-format
+msgid "Error while parsing feed"
+msgstr "Pogreška pri raščlanjivanju kanala"
+
+#: main.cpp:58 qml/AlligatorGlobalDrawer.qml:56
+#, kde-format
+msgid "Alligator"
+msgstr "Alligator"
+
+#: main.cpp:65
+#, kde-format
+msgid "Feed Reader"
+msgstr "Čitač RSS kanala"
+
+#: main.cpp:68
+#, kde-format
+msgid "© 2020-2024 KDE Community"
+msgstr "© 2020–2024 Zajednica KDE-a"
+
+#: main.cpp:69
+#, kde-format
+msgid "Tobias Fella"
+msgstr "Tobias Fella"
+
+#: main.cpp:82
+#, kde-format
+msgid "RSS/Atom Feed Reader"
+msgstr "Čitač RSS/Atom kanala"
+
+#: main.cpp:84
+#, kde-format
+msgid "Adds a new feed to database."
+msgstr "Dodaje novi kanal u bazu podataka."
+
+#: main.cpp:85
+#, kde-format
+msgid "feed URL"
+msgstr "URL kanala"
+
+#: qml/AddFeedDialog.qml:19
+#, kde-format
+msgid "Add Feed"
+msgstr "Dodaj kanal"
+
+#: qml/AddFeedDialog.qml:44
+#, kde-format
+msgid "URL:"
+msgstr "URL:"
+
+#: qml/AddFeedDialog.qml:50
+#, kde-format
+msgid "Mark entries as read"
+msgstr "Označi članke kao pročitane"
+
+#: qml/AlligatorGlobalDrawer.qml:95 qml/AlligatorGlobalDrawer.qml:108
+#, kde-format
+msgid "All Feeds"
+msgstr "Svi kanali"
+
+#: qml/AlligatorGlobalDrawer.qml:181 qml/SettingsPage.qml:20
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#: qml/AlligatorGlobalDrawer.qml:195
+#, kde-format
+msgid "Manage Feeds"
+msgstr "Upravljanje kanalima"
+
+#: qml/AlligatorGlobalDrawer.qml:210
+#, kde-format
+msgid "About"
+msgstr "O aplikaciji"
+
+#: qml/EditFeedDialog.qml:15
+#, kde-format
+msgid "Edit Feed"
+msgstr "Uredi kanal"
+
+#: qml/EditFeedDialog.qml:33
+#, kde-format
+msgid "Feed URL:"
+msgstr "URL kanala:"
+
+#: qml/EditFeedDialog.qml:41
+#, kde-format
+msgid "Display Name:"
+msgstr "Naziv za prikaz:"
+
+#: qml/EditFeedDialog.qml:51
+#, kde-format
+msgid "Group:"
+msgstr "Grupa:"
+
+#: qml/EntryListDelegate.qml:74
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by"
+msgstr "autor"
+
+#: qml/EntryListPage.qml:48
+#, kde-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: qml/EntryListPage.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark all read"
+msgstr "Označi sve kao pročitano"
+
+#: qml/EntryListPage.qml:66
+#, kde-format
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: qml/EntryListPage.qml:89
+#, kde-format
+msgid "Expand sidebar"
+msgstr "Proširi bočnu traku"
+
+#: qml/EntryListPage.qml:89
+#, kde-format
+msgid "Collapse sidebar"
+msgstr "Skupi bočnu traku"
+
+#: qml/EntryListPage.qml:100
+#, kde-format
+msgid "All Entries"
+msgstr "Svi članci"
+
+#: qml/EntryListPage.qml:111
+#, kde-format
+msgid "Error"
+msgstr "Pogreška"
+
+#: qml/EntryListPage.qml:112 qml/EntryListPage.qml:135
+#, kde-format
+msgid "Error (%1): %2"
+msgstr "Pogreška (%1): %2"
+
+#: qml/EntryListPage.qml:128
+#, kde-format
+msgid "No unread entries available"
+msgstr "Nema nepročitanih članaka"
+
+#: qml/EntryListPage.qml:130
+#, kde-format
+msgid "No favorite entries available"
+msgstr "Nema omiljenih članaka"
+
+#: qml/EntryListPage.qml:132
+#, kde-format
+msgid "No entries available"
+msgstr "Nema članaka"
+
+#: qml/EntryListPage.qml:167
+#, kde-format
+msgid "All"
+msgstr "Sve"
+
+#: qml/EntryListPage.qml:176
+#, kde-format
+msgid "Unread"
+msgstr "Nepročitano"
+
+#: qml/EntryListPage.qml:185
+#, kde-format
+msgid "Favorites"
+msgstr "Omiljeno"
+
+#: qml/EntryPage.qml:69
+#, kde-format
+msgid "Open in Browser"
+msgstr "Otvori u pregledniku"
+
+#: qml/EntryPage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove from Favorites"
+msgstr "Ukloni iz omiljenih"
+
+#: qml/EntryPage.qml:74
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Favorites"
+msgstr "Dodaj u omiljene"
+
+#: qml/EntryPage.qml:82
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "Kopiraj poveznicu"
+
+#: qml/FeedDetailsPage.qml:20
+#, kde-format
+msgctxt "<Feed Name> - Details"
+msgid "%1 - Details"
+msgstr "%1 – pojedinosti"
+
+#: qml/FeedDetailsPage.qml:25
+#, kde-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: qml/FeedDetailsPage.qml:46
+#, kde-format
+msgctxt "by <author(s)>"
+msgid "by %1"
+msgstr "autor: %1"
+
+#: qml/FeedDetailsPage.qml:54
+#, kde-format
+msgid "Subscribed since: %1"
+msgstr "Pretplaćeni od: %1"
+
+#: qml/FeedDetailsPage.qml:57
+#, kde-format
+msgid "last updated: %1"
+msgstr "posljednje ažuriranje: %1"
+
+#: qml/FeedDetailsPage.qml:60
+#, kde-format
+msgid "%1 posts, %2 unread"
+msgstr "%1 članaka, %2 nepročitanih"
+
+#: qml/FeedGroupDialog.qml:24
+#, kde-format
+msgid "Feed Group"
+msgstr "Grupa kanala"
+
+#: qml/FeedGroupDialog.qml:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "Naziv:"
+
+#: qml/FeedGroupDialog.qml:55
+#, kde-format
+msgid "A group with that name already exists."
+msgstr "Grupa s tim nazivom već postoji."
+
+#: qml/FeedGroupDialog.qml:64
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Description:"
+msgstr "Opis:"
+
+#: qml/FeedGroupDialog.qml:70
+#, kde-format
+msgctxt "@option:check"
+msgid "Set as default:"
+msgstr "Postavi kao zadano:"
+
+#: qml/FeedListDelegate.qml:29
+#, kde-format
+msgid "%1 unread entry"
+msgid_plural "%1 unread entries"
+msgstr[0] "%1 nepročitan članak"
+msgstr[1] "%1 nepročitana članka"
+msgstr[2] "%1 nepročitanih članaka"
+
+#: qml/FeedListDelegate.qml:35
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Delete this Feed"
+msgstr "Izbriši ovaj kanal"
+
+#: qml/FeedListDelegate.qml:50
+#, kde-format
+msgctxt "'Feed' is an rss feed"
+msgid "Edit this Feed"
+msgstr "Uredi ovaj kanal"
+
+#: qml/FeedListPage.qml:18
+#, kde-format
+msgctxt "'Feeds' as in 'RSS Feeds'"
+msgid "Manage Feeds"
+msgstr "Upravljanje kanalima"
+
+#: qml/FeedListPage.qml:32
+#, kde-format
+msgid "Refresh All Feeds"
+msgstr "Osvježi sve kanale"
+
+#: qml/FeedListPage.qml:38 qml/FeedListPage.qml:113
+#, kde-format
+msgid "Add Feed…"
+msgstr "Dodaj kanal…"
+
+#: qml/FeedListPage.qml:45
+#, kde-format
+msgid "Manage Feed Groups"
+msgstr "Upravljanje grupama kanala"
+
+#: qml/FeedListPage.qml:50
+#, kde-format
+msgid "Import Feeds…"
+msgstr "Uvezi kanale…"
+
+#: qml/FeedListPage.qml:55
+#, kde-format
+msgid "Export Feeds…"
+msgstr "Izvezi kanale…"
+
+#: qml/FeedListPage.qml:119
+#, kde-format
+msgid "No feeds added yet"
+msgstr "Još nema dodanih kanala"
+
+#: qml/FeedListPage.qml:125
+#, kde-format
+msgid "Import Feeds"
+msgstr "Uvoz kanala"
+
+#: qml/FeedListPage.qml:127 qml/FeedListPage.qml:135
+#, kde-format
+msgid "OPML Files (*.opml)"
+msgstr "OPML datoteke (*.opml)"
+
+#: qml/FeedListPage.qml:127
+#, kde-format
+msgid "XML Files (*.xml)"
+msgstr "XML datoteke (*.xml)"
+
+#: qml/FeedListPage.qml:127
+#, kde-format
+msgid "All Files (*)"
+msgstr "Sve datoteke (*)"
+
+#: qml/FeedListPage.qml:133
+#, kde-format
+msgid "Export Feeds"
+msgstr "Izvoz kanala"
+
+#: qml/FeedListPage.qml:135
+#, kde-format
+msgid "All Files"
+msgstr "Sve datoteke"
+
+#: qml/GroupsListPage.qml:19
+#, kde-format
+msgid "Groups"
+msgstr "Grupe"
+
+#: qml/GroupsListPage.qml:24
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Add Group…"
+msgstr "Dodaj grupu…"
+
+#: qml/GroupsListPage.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Set as Default"
+msgstr "Postavi kao zadanu"
+
+#: qml/GroupsListPage.qml:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: qml/GroupsListPage.qml:83
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No groups created yet"
+msgstr "Još nema stvorenih grupa"
+
+#: qml/GroupsListPage.qml:88
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Group…"
+msgstr "Dodaj grupu…"
+
+#: qml/SettingsPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "Article List"
+msgstr "Popis članaka"
+
+#: qml/SettingsPage.qml:32
+#, kde-format
+msgid "Delete after:"
+msgstr "Izbriši nakon:"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Never"
+msgstr "Nikad"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Articles"
+msgstr "Članaka"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Days"
+msgstr "Dana"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Weeks"
+msgstr "Tjedana"
+
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgid "Months"
+msgstr "Mjeseci"
+
+#: qml/SettingsPage.qml:54
+#, kde-format
+msgid "Article"
+msgstr "Članak"
+
+#: qml/SettingsPage.qml:61
+#, kde-format
+msgid "Font size:"
+msgstr "Veličina fonta:"
+
+#: qml/SettingsPage.qml:70
+#, kde-format
+msgid "Use system default"
+msgstr "Koristi zadane postavke sustava"

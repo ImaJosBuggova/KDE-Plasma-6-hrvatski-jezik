@@ -1,0 +1,3725 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the basket package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: basket\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-14 00:46+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: devtools/weaver/main.cpp:18
+#, kde-format
+msgid "basketweaver"
+msgstr "basketweaver"
+
+#: devtools/weaver/main.cpp:19
+#, kde-format
+msgid "Encodes and decodes .baskets files"
+msgstr "Kodira i dekodira datoteke .baskets"
+
+#: devtools/weaver/main.cpp:28
+#, kde-format
+msgid "Destination directory. Optional."
+msgstr "Odredišna mapa. Neobavezno."
+
+#: devtools/weaver/main.cpp:33
+#, kde-format
+msgid ""
+"Use the <image> as preview image for a .baskets file. Must be a .png file."
+msgstr "Koristi <image> kao sliku pretpregleda datoteke .baskets. Mora biti datoteka .png."
+
+#: devtools/weaver/main.cpp:38
+#, kde-format
+msgid "Decodes the <file>. Cannot be used together with --weave."
+msgstr "Dekodira <file>. Ne može se upotrebljavati zajedno s opcijom --weave."
+
+#: devtools/weaver/main.cpp:43
+#, kde-format
+msgid "Encodes the <directory>. Cannot be used together with --unweave."
+msgstr "Kodira <directory>. Ne može se upotrebljavati zajedno s opcijom --unweave."
+
+#: devtools/weaver/main.cpp:48
+#, kde-format
+msgid ""
+"This optional value will be used to label the new content within the "
+"optionally given output directory"
+msgstr "Ova neobavezna vrijednost upotrijebit će se za označavanje novog sadržaja unutar neobavezno zadane izlazne mape."
+
+#: devtools/weaver/main.cpp:52
+#, kde-format
+msgid "Overwrite existing files."
+msgstr "Prepiši postojeće datoteke."
+
+#: devtools/weaver/weaver.cpp:44
+#, kde-format
+msgid "You need to provide at least one --weave/-w or --unweave/-u option"
+msgstr "Morate navesti barem jednu opciju --weave/-w ili --unweave/-u."
+
+#: devtools/weaver/weaver.cpp:49
+#, kde-format
+msgid "You cannot use --weave/-w and --unweave/-u options in conjunction."
+msgstr "Opcije --weave/-w i --unweave/-u ne mogu se upotrebljavati zajedno."
+
+#: devtools/weaver/weaver.cpp:55
+#, kde-format
+msgid ""
+"Multiple --weave/-w or --unweave/-u input options found. All but the first "
+"input are going to be ignored."
+msgstr "Pronađeno je više ulaznih opcija --weave/-w ili --unweave/-u. Svi ulazi osim prvoga bit će zanemareni."
+
+#: devtools/weaver/weaver.cpp:79
+#, kde-format
+msgid "The source seems to be an invalid .baskets file"
+msgstr "Čini se da izvor nije valjana datoteka .baskets."
+
+#: devtools/weaver/weaver.cpp:86 devtools/weaver/weaver.cpp:127
+#, kde-format
+msgid "Output directory does not exist."
+msgstr "Izlazna mapa ne postoji."
+
+#: devtools/weaver/weaver.cpp:113
+#, kde-format
+msgid "The source seems to be invalid."
+msgstr "Čini se da izvor nije valjan."
+
+#: devtools/weaver/weaver.cpp:280
+#, kde-format
+msgid "Could not open file."
+msgstr "Nije moguće otvoriti datoteku."
+
+#: devtools/weaver/weaver.cpp:304 src/archive.cpp:267
+#, kde-format
+msgid "Failed to open a file resource."
+msgstr "Nije uspjelo otvaranje resursa datoteke."
+
+#: devtools/weaver/weaver.cpp:307 src/archive.cpp:270
+#, kde-format
+msgid "This file is not a basket archive."
+msgstr "Ova datoteka nije arhiva košarice."
+
+#: devtools/weaver/weaver.cpp:310 src/archive.cpp:273
+#, kde-format
+msgid "This file is corrupted. It can not be opened."
+msgstr "Ova je datoteka oštećena i ne može se otvoriti."
+
+#: devtools/weaver/weaver.cpp:313
+#, kde-format
+msgid "The destination path already exists."
+msgstr "Odredišna putanja već postoji."
+
+#: devtools/weaver/weaver.cpp:316
+#, kde-format
+msgid "This file supplied file format is not supported"
+msgstr "Format navedene datoteke nije podržan."
+
+#: devtools/weaver/weaver.cpp:319
+#, kde-format
+msgid ""
+"This file was created with a more recent version of BasKet Note Pads. It "
+"might not be fully supported"
+msgstr "Ova je datoteka stvorena novijom verzijom programa BasKet Note Pads. Možda neće biti u potpunosti podržana."
+
+#: src/aboutdata.cpp:16
+#, kde-format
+msgid ""
+"<p><b>Taking care of your ideas.</b></p><p>A note-taking application that "
+"makes it easy to record ideas as you think, and quickly find them later. "
+"Organizing your notes has never been so easy.</p>"
+msgstr "<p><b>Brinite se o svojim idejama.</b></p><p>Aplikacija za bilješke koja olakšava zapisivanje ideja čim vam padnu na pamet i njihovo brzo pronalaženje kasnije. Organiziranje bilješki nikad nije bilo jednostavnije.</p>"
+
+#: src/aboutdata.cpp:20
+#, kde-format
+msgid ""
+"Copyright © 2003–2007, Sébastien Laoût; Copyright © 2013–2019, Gleb Baryshev"
+msgstr "Copyright © 2003–2007, Sébastien Laoût; Copyright © 2013–2019, Gleb Baryshev"
+
+#: src/aboutdata.cpp:27
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: src/aboutdata.cpp:27 src/aboutdata.cpp:28
+#, kde-format
+msgid "Co-Maintainer"
+msgstr "Suodržavatelj"
+
+#: src/aboutdata.cpp:28
+#, kde-format
+msgid "Niccolò Venerandi"
+msgstr "Niccolò Venerandi"
+
+#: src/aboutdata.cpp:29
+#, kde-format
+msgid "OmegaPhil"
+msgstr "OmegaPhil"
+
+#: src/aboutdata.cpp:29
+#, kde-format
+msgid "Paste as plaintext option"
+msgstr "Mogućnost lijepljenja kao običnog teksta"
+
+#: src/aboutdata.cpp:30
+#, kde-format
+msgid "Kelvie Wong"
+msgstr "Kelvie Wong"
+
+#: src/aboutdata.cpp:30
+#, kde-format
+msgid "Ex-Maintainer"
+msgstr "Bivši održavatelj"
+
+#: src/aboutdata.cpp:31
+#, kde-format
+msgid "Sébastien Laoût"
+msgstr "Sébastien Laoût"
+
+#: src/aboutdata.cpp:31
+#, kde-format
+msgid "Original Author"
+msgstr "Izvorni autor"
+
+#: src/aboutdata.cpp:32
+#, kde-format
+msgid "Petri Damstén"
+msgstr "Petri Damstén"
+
+#: src/aboutdata.cpp:32
+#, kde-format
+msgid "Basket encryption, Kontact integration, KnowIt importer"
+msgstr "Šifriranje košarica, integracija s Kontactom, uvoznik KnowIt"
+
+#: src/aboutdata.cpp:33
+#, kde-format
+msgid "Alex Gontmakher"
+msgstr "Alex Gontmakher"
+
+#: src/aboutdata.cpp:34
+#, kde-format
+msgid ""
+"Baskets auto lock, save-status icon, HTML copy/paste, basket name tooltip, "
+"drop to basket name"
+msgstr "Automatsko zaključavanje košarica, ikona stanja spremanja, kopiranje i lijepljenje HTML-a, opis naziva košarice pri zadržavanju pokazivača, ispuštanje na naziv košarice"
+
+#: src/aboutdata.cpp:36
+#, kde-format
+msgid "Marco Martin"
+msgstr "Marco Martin"
+
+#: src/aboutdata.cpp:36
+#, kde-format
+msgid "Original icon"
+msgstr "Izvorna ikona"
+
+#: src/aboutdata.cpp:46
+#, kde-format
+msgid "BasKet Note Pads"
+msgstr "Bilježnice BasKet"
+
+#: src/archive.cpp:53 src/bnpview.cpp:1984
+#, kde-format
+msgid "Save as Basket Archive"
+msgstr "Spremi kao arhivu košarice"
+
+#: src/archive.cpp:54
+#, kde-format
+msgid "Saving as basket archive. Please wait..."
+msgstr "Spremanje arhive košarice. Pričekajte..."
+
+#: src/archive.cpp:267 src/archive.cpp:270 src/archive.cpp:273
+#: src/archive.cpp:276 src/archive.cpp:283 src/archive.cpp:292
+#, kde-format
+msgid "Basket Archive Error"
+msgstr "Pogreška arhive košarice"
+
+#: src/archive.cpp:276
+#, kde-format
+msgid "Extraction path already exists."
+msgstr "Putanja za izdvajanje već postoji."
+
+#: src/archive.cpp:280
+#, kde-format
+msgid ""
+"This file was created with a recent version of %1.Please upgrade to a newer "
+"version to be able to open that file."
+msgstr "Ova je datoteka stvorena novijom verzijom programa %1. Nadogradite na noviju verziju kako biste je mogli otvoriti."
+
+#: src/archive.cpp:287
+#, kde-format
+msgid ""
+"This file was created with a recent version of %1. It can be opened but not "
+"every information will be available to you. For instance, some notes may be "
+"missing because they are of a type only available in new versions. When "
+"saving the file back, consider to save it to another file, to preserve the "
+"original one."
+msgstr "Ova je datoteka stvorena novijom verzijom programa %1. Može se otvoriti, ali neće vam biti dostupne sve informacije. Primjerice, neke bilješke možda nedostaju jer su vrste koje su dostupne samo u novijim verzijama. Pri spremanju razmislite o spremanju u drugu datoteku kako biste sačuvali izvornik."
+
+#: src/backup.cpp:53
+#, kde-format
+msgid "Backup & Restore"
+msgstr "Sigurnosno kopiranje i vraćanje"
+
+#: src/backup.cpp:70
+#, kde-format
+msgid "Save Folder"
+msgstr "Mapa za spremanje"
+
+#: src/backup.cpp:76
+#, kde-format
+msgid "Your baskets are currently stored in that folder:<br><b>%1</b>"
+msgstr "Košarice su trenutačno pohranjene u ovoj mapi:<br><b>%1</b>"
+
+#: src/backup.cpp:83
+#, kde-format
+msgid "&Move to Another Folder..."
+msgstr "&Premjesti u drugu mapu..."
+
+#: src/backup.cpp:84
+#, kde-format
+msgid "&Use Another Existing Folder..."
+msgstr "&Upotrijebi drugu postojeću mapu..."
+
+#: src/backup.cpp:86
+#, kde-format
+msgid "Why to do that?"
+msgstr "Zašto to učiniti?"
+
+#: src/backup.cpp:87
+#, kde-format
+msgid ""
+"<p>You can move the folder where %1 store your baskets to:</p><ul><li>Store "
+"your baskets in a visible place in your home folder, like ~/Notes or ~/"
+"Baskets, so you can manually backup them when you want.</li><li>Store your "
+"baskets on a server to share them between two computers.<br>In this case, "
+"mount the shared-folder to the local file system and ask %1 to use that "
+"mount point.<br>Warning: you should not run %1 at the same time on both "
+"computers, or you risk to loss data while the two applications are desynced."
+"</li></ul><p>Please remember that you should not change the content of that "
+"folder manually (eg. adding a file in a basket folder will not add that file "
+"to the basket).</p>"
+msgstr "<p>Mapu u kojoj %1 pohranjuje vaše košarice možete premjestiti:</p><ul><li>Pohranite košarice na vidljivo mjesto u svojoj osobnoj mapi, primjerice ~/Bilješke ili ~/Košarice, kako biste ih mogli ručno sigurnosno kopirati kad god želite.</li><li>Pohranite košarice na poslužitelj da biste ih dijelili između dva računala.<br>U tom slučaju montirajte dijeljenu mapu u lokalni datotečni sustav i odredite %1 tu točku montiranja.<br>Upozorenje: nemojte istodobno pokretati %1 na oba računala jer biste mogli izgubiti podatke ako se aplikacije raziđu.</li></ul><p>Nemojte ručno mijenjati sadržaj te mape (npr. dodavanje datoteke u mapu košarice neće dodati tu datoteku u košaricu).</p>"
+
+#: src/backup.cpp:103
+#, kde-format
+msgid "Backups"
+msgstr "Sigurnosne kopije"
+
+#: src/backup.cpp:114
+#, kde-format
+msgid "&Backup..."
+msgstr "&Sigurnosno kopiraj..."
+
+#: src/backup.cpp:115
+#, kde-format
+msgid "&Restore a Backup..."
+msgstr "&Vrati sigurnosnu kopiju..."
+
+#: src/backup.cpp:138
+#, kde-format
+msgid "Last backup: never"
+msgstr "Posljednja sigurnosna kopija: nikad"
+
+#: src/backup.cpp:140
+#, kde-format
+msgid "Last backup: %1"
+msgstr "Posljednja sigurnosna kopija: %1"
+
+#: src/backup.cpp:148 src/backup.cpp:179
+#, kde-format
+msgid "Choose a Folder Where to Move Baskets"
+msgstr "Odaberite mapu u koju ćete premjestiti košarice"
+
+#: src/backup.cpp:160
+#, kde-format
+msgid "The folder <b>%1</b> is not empty. Do you want to overwrite it?"
+msgstr "Mapa <b>%1</b> nije prazna. Želite li je prebrisati?"
+
+#: src/backup.cpp:161
+#, kde-format
+msgid "Overwrite Folder?"
+msgstr "Prebrisati mapu?"
+
+#: src/backup.cpp:162 src/bnpview.cpp:1993 src/htmlexporter.cpp:70
+#, kde-format
+msgid "&Overwrite"
+msgstr "&Prepiši"
+
+#: src/backup.cpp:172
+#, kde-format
+msgid ""
+"Your baskets have been successfully moved to <b>%1</b>. %2 is going to be "
+"restarted to take this change into account."
+msgstr "Košarice su uspješno premještene u <b>%1</b>. %2 će se ponovno pokrenuti kako bi primijenio ovu promjenu."
+
+#: src/backup.cpp:184
+#, kde-format
+msgid ""
+"Your basket save folder has been successfully changed to <b>%1</b>. %2 is "
+"going to be restarted to take this change into account."
+msgstr "Mapa za spremanje košarica uspješno je promijenjena u <b>%1</b>. %2 će se ponovno pokrenuti kako bi primijenio ovu promjenu."
+
+#: src/backup.cpp:196
+#, kde-format
+msgctxt "Backup filename (without extension), %1 is the date"
+msgid "Baskets_%1"
+msgstr "Košarice_%1"
+
+#: src/backup.cpp:201 src/backup.cpp:250
+#, kde-format
+msgid "Tar Archives Compressed by Gzip"
+msgstr "Tar arhive komprimirane gzipom"
+
+#: src/backup.cpp:203 src/backup.cpp:252 src/bnpview.cpp:1981
+#: src/bnpview.cpp:2028 src/htmlexporter.cpp:55
+#, kde-format
+msgid "All Files"
+msgstr "Sve datoteke"
+
+#: src/backup.cpp:205 src/backup.cpp:213
+#, kde-format
+msgid "Backup Baskets"
+msgstr "Sigurnosno kopiraj košarice"
+
+#: src/backup.cpp:214
+#, kde-format
+msgid "Backing up baskets. Please wait..."
+msgstr "Sigurnosno kopiranje košarica. Pričekajte..."
+
+#: src/backup.cpp:255 src/bnpview.cpp:2029
+#, kde-format
+msgid "Open Basket Archive"
+msgstr "Otvori arhivu košarice"
+
+#: src/backup.cpp:266
+#, kde-format
+msgid "README.txt"
+msgstr "README.txt"
+
+#: src/backup.cpp:270
+#, kde-format
+msgid ""
+"This is a safety copy of your baskets like they were before you started to "
+"restore the backup %1."
+msgstr "Ovo je sigurnosna kopija košarica kakve su bile prije početka vraćanja sigurnosne kopije %1."
+
+#: src/backup.cpp:273
+#, kde-format
+msgid ""
+"If the restoration was a success and you restored what you wanted to "
+"restore, you can remove this folder."
+msgstr "Ako je vraćanje uspjelo i vratili ste ono što ste željeli, ovu mapu možete ukloniti."
+
+#: src/backup.cpp:274
+#, kde-format
+msgid ""
+"If something went wrong during the restoration process, you can re-use this "
+"folder to store your baskets and nothing will be lost."
+msgstr "Ako je tijekom vraćanja nešto pošlo po zlu, ovu mapu možete ponovno upotrijebiti za pohranu košarica i ništa neće biti izgubljeno."
+
+#: src/backup.cpp:276
+#, kde-format
+msgid ""
+"Choose \"Basket\" -> \"Backup & Restore...\" -> \"Use Another Existing "
+"Folder...\" and select that folder."
+msgstr "Odaberite „Košarica” -> „Sigurnosno kopiranje i vraćanje...” -> „Upotrijebi drugu postojeću mapu...” i odaberite tu mapu."
+
+#: src/backup.cpp:280
+#, kde-format
+msgid "Restoring <b>%1</b>. Please wait..."
+msgstr "Vraćanje <b>%1</b>. Pričekajte..."
+
+#: src/backup.cpp:281
+#, kde-format
+msgid ""
+"If something goes wrong during the restoration process, read the file <b>%1</"
+"b>."
+msgstr "Ako tijekom vraćanja nešto pođe po zlu, pročitajte datoteku <b>%1</b>."
+
+#: src/backup.cpp:284
+#, kde-format
+msgid "Restore Baskets"
+msgstr "Vrati košarice"
+
+#: src/backup.cpp:317
+#, kde-format
+msgid ""
+"This archive is either not a backup of baskets or is corrupted. It cannot be "
+"imported. Your old baskets have been preserved instead."
+msgstr "Ova arhiva nije sigurnosna kopija košarica ili je oštećena. Ne može se uvesti. Vaše stare košarice sačuvane su."
+
+#: src/backup.cpp:318
+#, kde-format
+msgid "Restore Error"
+msgstr "Pogreška pri vraćanju"
+
+#: src/backup.cpp:327
+#, kde-format
+msgid ""
+"Your backup has been successfully restored to <b>%1</b>. %2 is going to be "
+"restarted to take this change into account."
+msgstr "Sigurnosna kopija uspješno je vraćena u <b>%1</b>. %2 će se ponovno pokrenuti kako bi primijenio ovu promjenu."
+
+#: src/backup.cpp:365
+#, kde-format
+msgid "Restart"
+msgstr "Ponovno pokreni"
+
+#: src/backup.cpp:382
+#, kde-format
+msgctxt "Safety folder name before restoring a basket data archive"
+msgid "Baskets Before Restoration"
+msgstr "Košarice prije vraćanja"
+
+#: src/backup.cpp:389
+#, kde-format
+msgctxt "Safety folder name before restoring a basket data archive"
+msgid "Baskets Before Restoration (%1)"
+msgstr "Košarice prije vraćanja (%1)"
+
+#: src/basketfactory.cpp:53
+#, kde-format
+msgid "Sorry, but the folder creation for this new basket has failed."
+msgstr "Nažalost, stvaranje mape za ovu novu košaricu nije uspjelo."
+
+#: src/basketfactory.cpp:53 src/basketfactory.cpp:86 src/basketfactory.cpp:107
+#, kde-format
+msgid "Basket Creation Failed"
+msgstr "Stvaranje košarice nije uspjelo"
+
+#: src/basketfactory.cpp:86
+#, kde-format
+msgid "Sorry, but the template copying for this new basket has failed."
+msgstr "Nažalost, kopiranje predloška za ovu novu košaricu nije uspjelo."
+
+#: src/basketfactory.cpp:107
+#, kde-format
+msgid "Sorry, but the template customization for this new basket has failed."
+msgstr "Nažalost, prilagodba predloška za ovu novu košaricu nije uspjela."
+
+#: src/basketlistview.cpp:582
+#, kde-format
+msgid "%1+%2+"
+msgstr "%1+%2+"
+
+#: src/basketlistview.cpp:584
+#, kde-format
+msgid "%1+"
+msgstr "%1+"
+
+#: src/basketlistview.cpp:587
+#, kde-format
+msgid "%1+%2"
+msgstr "%1+%2"
+
+#: src/basketproperties.cpp:109
+#, kde-format
+msgid ""
+"<p><strong>Easily Remember your Shortcuts</strong>:<br>With the first "
+"option, giving the basket a shortcut of the form <strong>Alt+Letter</strong> "
+"will underline that letter in the basket tree.<br>For instance, if you are "
+"assigning the shortcut <i>Alt+T</i> to a basket named <i>Tips</i>, the "
+"basket will be displayed as <i><u>T</u>ips</i> in the tree. It helps you "
+"visualize the shortcuts to remember them more quickly.</p><p><strong>Local "
+"vs Global</strong>:<br>The first option allows you to show the basket while "
+"the main window is active. Global shortcuts are valid from anywhere, even if "
+"the window is hidden.</p><p><strong>Show vs Switch</strong>:<br>The last "
+"option makes this basket the current one without opening the main window. It "
+"is useful in addition to the configurable global shortcuts, eg. to paste the "
+"clipboard or the selection into the current basket from anywhere.</p>"
+msgstr "<p><strong>Jednostavno zapamtite prečace</strong>:<br>Prva mogućnost podcrtava slovo u stablu košarica ako košarici dodijelite prečac oblika <strong>Alt+slovo</strong>.<br>Primjerice, ako košarici naziva <i>Savjeti</i> dodijelite prečac <i>Alt+S</i>, u stablu će se prikazati kao <i><u>S</u>avjeti</i>. Tako ćete lakše uočiti i zapamtiti prečace.</p><p><strong>Lokalno i globalno</strong>:<br>Prva mogućnost omogućuje prikaz košarice dok je glavni prozor aktivan. Globalni prečaci vrijede odasvud, čak i kad je prozor skriven.</p><p><strong>Prikaži ili prebaci</strong>:<br>Posljednja mogućnost postavlja ovu košaricu kao trenutačnu bez otvaranja glavnog prozora. Korisna je uz podesive globalne prečace, primjerice za lijepljenje sadržaja međuspremnika ili odabira u trenutačnu košaricu odasvud.</p>"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, BasketPropertiesUi)
+#: src/basketproperties.ui:14
+#, kde-format
+msgid "Basket Properties"
+msgstr "Svojstva košarice"
+
+#. i18n: ectx: property (toolTip), widget (KIconButton, icon)
+#: src/basketproperties.ui:25 src/newbasketdialog.cpp:113
+#, kde-format
+msgid "Icon"
+msgstr "Ikona"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, name)
+#: src/basketproperties.ui:35 src/kgpgme.cpp:65 src/newbasketdialog.cpp:118
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#. i18n: ectx: property (title), widget (QGroupBox, dispositionGroup)
+#: src/basketproperties.ui:44
+#, kde-format
+msgid "Disposition"
+msgstr "Raspored"
+
+#. i18n: ectx: property (text), widget (QRadioButton, columnForm)
+#: src/basketproperties.ui:50
+#, kde-format
+msgid "Col&umns:"
+msgstr "Stu&pci:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, freeForm)
+#: src/basketproperties.ui:57
+#, kde-format
+msgid "&Free-form"
+msgstr "&Slobodan raspored"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mindMap)
+#: src/basketproperties.ui:90
+#, kde-format
+msgid "&Mind map"
+msgstr "&Umna mapa"
+
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceGroup)
+#: src/basketproperties.ui:100 src/settings.cpp:505 src/tagsedit.cpp:901
+#, kde-format
+msgid "Appearance"
+msgstr "Izgled"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, backgroundImage)
+#: src/basketproperties.ui:125
+#, kde-format
+msgid "(None)"
+msgstr "(Ništa)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/basketproperties.ui:133
+#, kde-format
+msgid "Background &image:"
+msgstr "&Pozadinska slika:"
+
+#. i18n: ectx: property (text), widget (QLabel, bgColorLbl)
+#: src/basketproperties.ui:143
+#, kde-format
+msgid "&Background color:"
+msgstr "&Boja pozadine:"
+
+#. i18n: ectx: property (text), widget (QLabel, txtColorLbl)
+#: src/basketproperties.ui:153
+#, kde-format
+msgid "&Text color:"
+msgstr "&Boja teksta:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shortcutGroup)
+#: src/basketproperties.ui:172
+#, kde-format
+msgid "Keyboard Shortcut"
+msgstr "Tipkovni prečac"
+
+#. i18n: ectx: property (text), widget (HelpLabel, helpLabel)
+#: src/basketproperties.ui:195
+#, kde-format
+msgid "Learn some tips..."
+msgstr "Saznajte nekoliko savjeta..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, showBasket)
+#: src/basketproperties.ui:206
+#, kde-format
+msgid "S&how this basket"
+msgstr "P&rikaži ovu košaricu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, globalButton)
+#: src/basketproperties.ui:213
+#, kde-format
+msgid "Show this basket (&global shortcut)"
+msgstr "Prikaži ovu košaricu (&globalni prečac)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchButton)
+#: src/basketproperties.ui:220
+#, kde-format
+msgid "S&witch to this basket (global shortcut)"
+msgstr "P&rebaci se na ovu košaricu (globalni prečac)"
+
+#: src/basketscene.cpp:310
+#, kde-format
+msgid "The new note does not match the filter and is hidden."
+msgstr "Nova bilješka ne odgovara filtru i skrivena je."
+
+#: src/basketscene.cpp:312
+#, kde-format
+msgid "A new note does not match the filter and is hidden."
+msgstr "Nova bilješka ne odgovara filtru i skrivena je."
+
+#: src/basketscene.cpp:314
+#, kde-format
+msgid "Some new notes do not match the filter and are hidden."
+msgstr "Neke nove bilješke ne odgovaraju filtru i skrivene su."
+
+#: src/basketscene.cpp:316
+#, kde-format
+msgid "The new notes do not match the filter and are hidden."
+msgstr "Nove bilješke ne odgovaraju filtru i skrivene su."
+
+#: src/basketscene.cpp:1472
+#, kde-format
+msgctxt "Verb (for the 'insert' menu)"
+msgid "Group"
+msgstr "Grupa"
+
+#: src/basketscene.cpp:1474
+#, kde-format
+msgctxt "Verb (for the 'insert' menu)"
+msgid "Insert"
+msgstr "Umetni"
+
+#: src/basketscene.cpp:2327
+#, kde-format
+msgid ""
+"This message should never appear. If it does, this program is buggy! Please "
+"report the bug to the developer."
+msgstr "Ova se poruka nikad ne bi trebala prikazati. Ako se prikaže, ovaj program ima pogrešku! Prijavite je razvojnom programeru."
+
+#: src/basketscene.cpp:2778 src/basketscene.cpp:2831 src/basketscene.cpp:2840
+#, kde-format
+msgid ""
+"Insert note here\n"
+"Right click for more options"
+msgstr "Ovdje umetnite bilješku\nKliknite desnom tipkom miša za dodatne mogućnosti"
+
+#: src/basketscene.cpp:2797
+#, kde-format
+msgid "Resize those columns"
+msgstr "Promijeni veličinu ovih stupaca"
+
+#: src/basketscene.cpp:2797
+#, kde-format
+msgid "Resize this group"
+msgstr "Promijeni veličinu ove grupe"
+
+#: src/basketscene.cpp:2797
+#, kde-format
+msgid "Resize this note"
+msgstr "Promijeni veličinu ove bilješke"
+
+#: src/basketscene.cpp:2800
+#, kde-format
+msgid "Select or move this note"
+msgstr "Odaberi ili premjesti ovu bilješku"
+
+#: src/basketscene.cpp:2803
+#, kde-format
+msgid "Select or move this group"
+msgstr "Odaberi ili premjesti ovu grupu"
+
+#: src/basketscene.cpp:2806
+#, kde-format
+msgid "Assign or remove tags from this note"
+msgstr "Dodijeli oznake ovoj bilješci ili ih ukloni"
+
+#: src/basketscene.cpp:2814
+#, kde-format
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: src/basketscene.cpp:2816
+#, kde-format
+msgid "<b>Assigned Tags</b>: %1"
+msgstr "<b>Dodijeljene oznake</b>: %1"
+
+#: src/basketscene.cpp:2823
+#, kde-format
+msgid "Expand this group"
+msgstr "Proširi ovu grupu"
+
+#: src/basketscene.cpp:2823
+#, kde-format
+msgid "Collapse this group"
+msgstr "Sažmi ovu grupu"
+
+#: src/basketscene.cpp:2834
+#, kde-format
+msgid ""
+"Group note with the one below\n"
+"Right click for more options"
+msgstr "Grupiraj bilješku s onom ispod\nKliknite desnom tipkom miša za dodatne mogućnosti"
+
+#: src/basketscene.cpp:2837
+#, kde-format
+msgid ""
+"Group note with the one above\n"
+"Right click for more options"
+msgstr "Grupiraj bilješku s onom iznad\nKliknite desnom tipkom miša za dodatne mogućnosti"
+
+#: src/basketscene.cpp:2855
+#, kde-format
+msgid "Added"
+msgstr "Dodano"
+
+#: src/basketscene.cpp:2855
+#, kde-format
+msgid "Last Modification"
+msgstr "Posljednja izmjena"
+
+#: src/basketscene.cpp:2860
+#, kde-format
+msgctxt "of the form 'key: value'"
+msgid "<b>%1</b>: %2"
+msgstr "<b>%1</b>: %2"
+
+#: src/basketscene.cpp:2864
+#, kde-format
+msgid "Click on the right to group instead of insert"
+msgstr "Kliknite desno za grupiranje umjesto umetanja"
+
+#: src/basketscene.cpp:2866
+#, kde-format
+msgid "Click on the left to insert instead of group"
+msgstr "Kliknite lijevo za umetanje umjesto grupiranja"
+
+#: src/basketscene.cpp:3044
+#, kde-format
+msgid "&Unlock"
+msgstr "&Otključaj"
+
+#: src/basketscene.cpp:3049
+#, kde-format
+msgid "Password protected basket."
+msgstr "Košarica je zaštićena lozinkom."
+
+#: src/basketscene.cpp:3051
+#, kde-format
+msgid "Press Unlock to access it."
+msgstr "Pritisnite „Otključaj” za pristup."
+
+#: src/basketscene.cpp:3053
+#, kde-format
+msgid "Encryption is not supported by<br/>this version of %1."
+msgstr "Šifriranje nije podržano u<br/>ovoj verziji programa %1."
+
+#: src/basketscene.cpp:3065
+#, kde-format
+msgid ""
+"To make baskets stay unlocked, change the automatic<br>locking duration in "
+"the application settings."
+msgstr "Da bi košarice ostale otključane, promijenite trajanje automatskog<br>zaključavanja u postavkama aplikacije."
+
+#: src/basketscene.cpp:3092 src/basketstatusbar.cpp:88
+#: src/bnpview.cpp:1576
+#, kde-format
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+#: src/basketscene.cpp:3260 src/basketscene.cpp:3302
+#, kde-format
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: src/basketscene.cpp:3263 src/basketscene.cpp:3306 src/bnpview.cpp:2413
+#, kde-format
+msgid "&Customize..."
+msgstr "&Prilagodi..."
+
+#: src/basketscene.cpp:3269 src/basketscene.cpp:3312
+#, kde-format
+msgid "&Filter by this Tag"
+msgstr "&Filtriraj prema ovoj oznaci"
+
+#: src/basketscene.cpp:3315
+#, kde-format
+msgid "Filter by this &State"
+msgstr "Filtriraj prema ovom &stanju"
+
+#: src/basketscene.cpp:3400
+#, kde-format
+msgid "Tags"
+msgstr "Oznake"
+
+#: src/basketscene.cpp:3995
+#, kde-format
+msgid "<qt>Do you really want to delete this note?</qt>"
+msgid_plural "<qt>Do you really want to delete these <b>%1</b> notes?</qt>"
+msgstr[0] "<qt>Želite li zaista izbrisati ovu bilješku?</qt>"
+msgstr[1] "<qt>Želite li zaista izbrisati ove <b>%1</b> bilješke?</qt>"
+msgstr[2] "<qt>Želite li zaista izbrisati ovih <b>%1</b> bilježaka?</qt>"
+
+#: src/basketscene.cpp:3996
+#, kde-format
+msgid "Delete Note"
+msgid_plural "Delete Notes"
+msgstr[0] "Izbriši bilješku"
+msgstr[1] "Izbriši bilješke"
+msgstr[2] "Izbriši bilježaka"
+
+#: src/basketscene.cpp:4095
+#, kde-format
+msgid "Copied note to clipboard."
+msgid_plural "Copied notes to clipboard."
+msgstr[0] "Bilješka je kopirana u međuspremnik."
+msgstr[1] "Bilješke su kopirane u međuspremnik."
+msgstr[2] "Bilježaka je kopirano u međuspremnik."
+
+#: src/basketscene.cpp:4098
+#, kde-format
+msgid "Cut note to clipboard."
+msgid_plural "Cut notes to clipboard."
+msgstr[0] "Bilješka je izrezana u međuspremnik."
+msgstr[1] "Bilješke su izrezane u međuspremnik."
+msgstr[2] "Bilježaka je izrezano u međuspremnik."
+
+#: src/basketscene.cpp:4101
+#, kde-format
+msgid "Copied note to selection."
+msgid_plural "Copied notes to selection."
+msgstr[0] "Bilješka je kopirana u odabir."
+msgstr[1] "Bilješke su kopirane u odabir."
+msgstr[2] "Bilježaka je kopirano u odabir."
+
+#: src/basketscene.cpp:4165 src/basketscene.cpp:4240
+#, kde-format
+msgid "Unable to open this note."
+msgstr "Nije moguće otvoriti ovu bilješku."
+
+#. i18n: ectx: Menu (edit)
+#: src/basketscene.cpp:4167 src/basketui.rc:40
+#, kde-format
+msgid "&Edit"
+msgstr "&Uredi"
+
+#: src/basketscene.cpp:4203
+#, kde-format
+msgid "You are not authorized to open this file."
+msgstr "Nemate ovlasti za otvaranje ove datoteke."
+
+#: src/basketscene.cpp:4261
+#, kde-format
+msgid "Save to File"
+msgstr "Spremi u datoteku"
+
+#: src/basketstatusbar.cpp:105
+#, kde-format
+msgid "Shows if there are changes that have not yet been saved."
+msgstr "Pokazuje postoje li promjene koje još nisu spremljene."
+
+#: src/basketstatusbar.cpp:136
+#, kde-format
+msgid "Ctrl+drop: copy, Shift+drop: move, Shift+Ctrl+drop: link."
+msgstr "Ctrl+povlačenje: kopiraj, Shift+povlačenje: premjesti, Shift+Ctrl+povlačenje: stvori poveznicu."
+
+#: src/basketstatusbar.cpp:159
+#, kde-format
+msgid "<p>This basket is <b>locked</b>.<br>Click to unlock it.</p>"
+msgstr "<p>Ova je košarica <b>zaključana</b>.<br>Kliknite da biste je otključali.</p>"
+
+#: src/basketstatusbar.cpp:162
+#, kde-format
+msgid "<p>This basket is <b>unlocked</b>.<br>Click to lock it.</p>"
+msgstr "<p>Ova je košarica <b>otključana</b>.<br>Kliknite da biste je zaključali.</p>"
+
+#. i18n: ectx: Menu (basket)
+#: src/basketui.rc:6
+#, kde-format
+msgid "&Basket"
+msgstr "&Košarica"
+
+#. i18n: ectx: Menu
+#: src/basketui.rc:11 src/basketui.rc:169
+#, kde-format
+msgid "&Export"
+msgstr "&Izvoz"
+
+#. i18n: ectx: Menu
+#: src/basketui.rc:16 src/basketui.rc:174
+#, kde-format
+msgid "&Sort"
+msgstr "&Razvrstaj"
+
+#. i18n: ectx: Menu (fileimport)
+#. i18n: ectx: Menu
+#: src/basketui.rc:28 src/basketui.rc:186 src/basketui.rc:197
+#, kde-format
+msgid "&Import"
+msgstr "&Uvoz"
+
+#. i18n: ectx: Menu (go)
+#: src/basketui.rc:55
+#, kde-format
+msgid "&Go"
+msgstr "&Idi"
+
+#. i18n: ectx: Menu (note)
+#: src/basketui.rc:62
+#, kde-format
+msgid "&Note"
+msgstr "&Bilješka"
+
+#. i18n: ectx: Menu (tags)
+#: src/basketui.rc:78
+#, kde-format
+msgid "&Tags"
+msgstr "&Oznake"
+
+#. i18n: ectx: Menu (insert)
+#: src/basketui.rc:81
+#, kde-format
+msgid "&Insert"
+msgstr "&Umetni"
+
+#. i18n: ectx: Menu (settings)
+#: src/basketui.rc:97
+#, kde-format
+msgid "&Settings"
+msgstr "&Postavke"
+
+#. i18n: ectx: Menu (help)
+#: src/basketui.rc:108
+#, kde-format
+msgid "&Help"
+msgstr "&Pomoć"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/basketui.rc:122
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Glavna alatna traka"
+
+#. i18n: ectx: ToolBar (richTextEditToolBar)
+#: src/basketui.rc:140
+#, kde-format
+msgid "Text Formatting Toolbar"
+msgstr "Alatna traka za oblikovanje teksta"
+
+#: src/bnpview.cpp:167 src/bnpview.cpp:1214
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: src/bnpview.cpp:217
+#, kde-format
+msgid "Paste clipboard contents in current basket"
+msgstr "Zalijepi sadržaj međuspremnika u trenutačnu košaricu"
+
+#: src/bnpview.cpp:219
+#, kde-format
+msgid ""
+"Allows you to paste clipboard contents in the current basket without having "
+"to open the main window."
+msgstr "Omogućuje lijepljenje sadržaja međuspremnika u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:224
+#, kde-format
+msgid "Paste selection in current basket"
+msgstr "Zalijepi odabir u trenutačnu košaricu"
+
+#: src/bnpview.cpp:226
+#, kde-format
+msgid ""
+"Allows you to paste clipboard selection in the current basket without having "
+"to open the main window."
+msgstr "Omogućuje lijepljenje odabira iz međuspremnika u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:231
+#, kde-format
+msgid "Create a new basket"
+msgstr "Stvori novu košaricu"
+
+#: src/bnpview.cpp:233
+#, kde-format
+msgid ""
+"Allows you to create a new basket without having to open the main window "
+"(you then can use the other global shortcuts to add a note, paste clipboard "
+"or paste selection in this new basket)."
+msgstr "Omogućuje stvaranje nove košarice bez otvaranja glavnog prozora. Zatim možete upotrijebiti druge globalne prečace za dodavanje bilješke, lijepljenje sadržaja međuspremnika ili odabira u novu košaricu."
+
+#: src/bnpview.cpp:238
+#, kde-format
+msgid "Go to previous basket"
+msgstr "Idi na prethodnu košaricu"
+
+#: src/bnpview.cpp:240
+#, kde-format
+msgid ""
+"Allows you to change current basket to the previous one without having to "
+"open the main window."
+msgstr "Omogućuje prelazak na prethodnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:244
+#, kde-format
+msgid "Go to next basket"
+msgstr "Idi na sljedeću košaricu"
+
+#: src/bnpview.cpp:246
+#, kde-format
+msgid ""
+"Allows you to change current basket to the next one without having to open "
+"the main window."
+msgstr "Omogućuje prelazak na sljedeću košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:250
+#, kde-format
+msgid "Insert text note"
+msgstr "Umetni tekstualnu bilješku"
+
+#: src/bnpview.cpp:252
+#, kde-format
+msgid ""
+"Add a text note to the current basket without having to open the main window."
+msgstr "Dodaje tekstualnu bilješku u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:257 src/settings.cpp:587
+#, kde-format
+msgid "Insert image note"
+msgstr "Umetni slikovnu bilješku"
+
+#: src/bnpview.cpp:259
+#, kde-format
+msgid ""
+"Add an image note to the current basket without having to open the main "
+"window."
+msgstr "Dodaje slikovnu bilješku u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:263 src/settings.cpp:588
+#, kde-format
+msgid "Insert link note"
+msgstr "Umetni bilješku s poveznicom"
+
+#: src/bnpview.cpp:265
+#, kde-format
+msgid ""
+"Add a link note to the current basket without having to open the main window."
+msgstr "Dodaje bilješku s poveznicom u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:269 src/settings.cpp:591
+#, kde-format
+msgid "Insert color note"
+msgstr "Umetni bilješku u boji"
+
+#: src/bnpview.cpp:271
+#, kde-format
+msgid ""
+"Add a color note to the current basket without having to open the main "
+"window."
+msgstr "Dodaje bilješku u boji u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:275
+#, kde-format
+msgid "Pick color from screen"
+msgstr "Odaberi boju sa zaslona"
+
+#: src/bnpview.cpp:277
+#, kde-format
+msgid ""
+"Add a color note picked from one pixel on screen to the current basket "
+"without having to open the main window."
+msgstr "Dodaje bilješku u boji uzorkovanoj s jednog piksela na zaslonu u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:282 src/settings.cpp:592
+#, kde-format
+msgid "Grab screen zone"
+msgstr "Snimi područje zaslona"
+
+#: src/bnpview.cpp:284
+#, kde-format
+msgid ""
+"Grab a screen zone as an image in the current basket without having to open "
+"the main window."
+msgstr "Snimanje područja zaslona kao slike u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:290
+#, kde-format
+msgid "Insert plain text note"
+msgstr "Umetni bilješku s običnim tekstom"
+
+#: src/bnpview.cpp:292
+#, kde-format
+msgid ""
+"Add a plain text note to the current basket without having to open the main "
+"window."
+msgstr "Dodaje bilješku s običnim tekstom u trenutačnu košaricu bez otvaranja glavnog prozora."
+
+#: src/bnpview.cpp:301
+#, kde-format
+msgid "Baskets"
+msgstr "Košarice"
+
+#: src/bnpview.cpp:346
+#, kde-format
+msgid ""
+"<h2>Basket Tree</h2>Here is the list of your baskets. You can organize your "
+"data by putting them in different baskets. You can group baskets by subject "
+"by creating new baskets inside others. You can browse between them by "
+"clicking a basket to open it, or reorganize them using drag and drop."
+msgstr "<h2>Stablo košarica</h2>Ovdje se nalazi popis vaših košarica. Organizirajte podatke smještanjem u različite košarice. Košarice možete grupirati po temama stvaranjem novih košarica unutar drugih. Krećite se među njima klikom na košaricu da biste je otvorili ili ih reorganizirajte povlačenjem i ispuštanjem."
+
+#: src/bnpview.cpp:361 src/bnpview.cpp:367
+#, kde-format
+msgid "&Basket Archive..."
+msgstr "Arhiva &košarica..."
+
+#: src/bnpview.cpp:373
+#, kde-format
+msgid "&HTML Web Page..."
+msgstr "&HTML web-stranica..."
+
+#: src/bnpview.cpp:379
+#, kde-format
+msgid "Text &File..."
+msgstr "Tekstna &datoteka..."
+
+#: src/bnpview.cpp:384
+#, kde-format
+msgid "&Backup && Restore..."
+msgstr "&Sigurnosno kopiranje i vraćanje..."
+
+#: src/bnpview.cpp:388
+#, kde-format
+msgid "&Check && Cleanup..."
+msgstr "&Provjeri i očisti..."
+
+#: src/bnpview.cpp:395
+#, kde-format
+msgid "D&elete"
+msgstr "&Izbriši"
+
+#: src/bnpview.cpp:404
+#, kde-format
+msgid "Selects all notes"
+msgstr "Odabire sve bilješke"
+
+#: src/bnpview.cpp:407
+#, kde-format
+msgid "U&nselect All"
+msgstr "Poništi &odabir svega"
+
+#: src/bnpview.cpp:409
+#, kde-format
+msgid "Unselects all selected notes"
+msgstr "Poništava odabir svih odabranih bilješki"
+
+#: src/bnpview.cpp:412
+#, kde-format
+msgid "&Invert Selection"
+msgstr "&Obrni odabir"
+
+#: src/bnpview.cpp:416
+#, kde-format
+msgid "Inverts the current selection of notes"
+msgstr "Obrće trenutačni odabir bilješki"
+
+#: src/bnpview.cpp:419
+#, kde-format
+msgid "&Clear Formatting"
+msgstr "&Ukloni oblikovanje"
+
+#: src/bnpview.cpp:423
+#, kde-format
+msgctxt "Verb; not Menu"
+msgid "&Edit..."
+msgstr "&Uredi..."
+
+#: src/bnpview.cpp:430
+#, kde-format
+msgid "&Open"
+msgstr "&Otvori"
+
+#: src/bnpview.cpp:434
+#, kde-format
+msgid "Open &With..."
+msgstr "Otvori &pomoću..."
+
+#: src/bnpview.cpp:439
+#, kde-format
+msgid "&Save to File..."
+msgstr "&Spremi u datoteku..."
+
+#: src/bnpview.cpp:443
+#, kde-format
+msgid "&Group"
+msgstr "&Grupiraj"
+
+#: src/bnpview.cpp:449
+#, kde-format
+msgid "U&ngroup"
+msgstr "Raz&grupiraj"
+
+#: src/bnpview.cpp:455
+#, kde-format
+msgid "Move on &Top"
+msgstr "Premjesti na &vrh"
+
+#: src/bnpview.cpp:461
+#, kde-format
+msgid "Move &Up"
+msgstr "Premjesti &gore"
+
+#: src/bnpview.cpp:467
+#, kde-format
+msgid "Move &Down"
+msgstr "Premjesti &dolje"
+
+#: src/bnpview.cpp:473
+#, kde-format
+msgid "Move on &Bottom"
+msgstr "Premjesti na &dno"
+
+#: src/bnpview.cpp:484
+#, kde-format
+msgid "Plai&n Text"
+msgstr "Obični &tekst"
+
+#: src/bnpview.cpp:491
+#, kde-format
+msgid "&Text"
+msgstr "&Tekst"
+
+#: src/bnpview.cpp:497
+#, kde-format
+msgid "&Link"
+msgstr "&Poveznica"
+
+#: src/bnpview.cpp:503
+#, kde-format
+msgid "Cross &Reference"
+msgstr "Unakrsna &referenca"
+
+#: src/bnpview.cpp:508
+#, kde-format
+msgid "&Image"
+msgstr "&Slika"
+
+#: src/bnpview.cpp:513
+#, kde-format
+msgid "&Color"
+msgstr "&Boja"
+
+#: src/bnpview.cpp:518
+#, kde-format
+msgid "L&auncher"
+msgstr "&Pokretač"
+
+#: src/bnpview.cpp:523
+#, kde-format
+msgid "Import Launcher for &desktop application..."
+msgstr "Uvezi pokretač za &desktop aplikaciju..."
+
+#: src/bnpview.cpp:528
+#, kde-format
+msgid "Im&port Icon..."
+msgstr "U&vezi ikonu..."
+
+#: src/bnpview.cpp:533 src/noteedit.cpp:546
+#, kde-format
+msgid "Load From &File..."
+msgstr "Učitaj iz &datoteke..."
+
+#: src/bnpview.cpp:569
+#, kde-format
+msgid "C&olor from Screen"
+msgstr "&Boja sa zaslona"
+
+#: src/bnpview.cpp:574
+#, kde-format
+msgid "Grab Screen &Zone"
+msgstr "Snimi područje &zaslona"
+
+#: src/bnpview.cpp:595
+#, kde-format
+msgid "&New Basket..."
+msgstr "&Nova košarica..."
+
+#: src/bnpview.cpp:601
+#, kde-format
+msgid "New &Sub-Basket..."
+msgstr "Nova &podređena košarica..."
+
+#: src/bnpview.cpp:606
+#, kde-format
+msgid "New Si&bling Basket..."
+msgstr "Nova &susjedna košarica..."
+
+#: src/bnpview.cpp:609
+#, kde-format
+msgid "&New"
+msgstr "&Novo"
+
+#: src/bnpview.cpp:619
+#, kde-format
+msgid "&Properties..."
+msgstr "&Svojstva..."
+
+#: src/bnpview.cpp:625
+#, kde-format
+msgid "Sort Children Ascending"
+msgstr "Razvrstaj podređene uzlazno"
+
+#: src/bnpview.cpp:630
+#, kde-format
+msgid "Sort Children Descending"
+msgstr "Razvrstaj podređene silazno"
+
+#: src/bnpview.cpp:635
+#, kde-format
+msgid "Sort Siblings Ascending"
+msgstr "Razvrstaj susjedne uzlazno"
+
+#: src/bnpview.cpp:640
+#, kde-format
+msgid "Sort Siblings Descending"
+msgstr "Razvrstaj susjedne silazno"
+
+#: src/bnpview.cpp:645
+#, kde-format
+msgctxt "Remove Basket"
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: src/bnpview.cpp:652
+#, kde-format
+msgctxt "Password protection"
+msgid "Pass&word..."
+msgstr "&Lozinka..."
+
+#: src/bnpview.cpp:657
+#, kde-format
+msgctxt "Lock Basket"
+msgid "&Lock"
+msgstr "&Zaključaj"
+
+#: src/bnpview.cpp:671
+#, kde-format
+msgid "&Filter"
+msgstr "&Filtar"
+
+#: src/bnpview.cpp:683
+#, kde-format
+msgid "&Search All"
+msgstr "&Pretraži sve"
+
+#: src/bnpview.cpp:691
+#, kde-format
+msgid "&Reset Filter"
+msgstr "&Poništi filtar"
+
+#: src/bnpview.cpp:699
+#, kde-format
+msgid "&Previous Basket"
+msgstr "&Prethodna košarica"
+
+#: src/bnpview.cpp:705
+#, kde-format
+msgid "&Next Basket"
+msgstr "&Sljedeća košarica"
+
+#: src/bnpview.cpp:711
+#, kde-format
+msgid "&Fold Basket"
+msgstr "&Sklopi košaricu"
+
+#: src/bnpview.cpp:717
+#, kde-format
+msgid "&Expand Basket"
+msgstr "&Proširi košaricu"
+
+#: src/bnpview.cpp:725
+#, kde-format
+msgid "Convert text notes to rich text notes"
+msgstr "Pretvori tekstualne bilješke u obogaćeni tekst"
+
+#: src/bnpview.cpp:734
+#, kde-format
+msgid "&Welcome Baskets"
+msgstr "&Pozdravne košarice"
+
+#: src/bnpview.cpp:999
+#, kde-format
+msgid "Plain Text Notes Conversion"
+msgstr "Pretvorba bilješki s običnim tekstom"
+
+#: src/bnpview.cpp:1000
+#, kde-format
+msgid "Converting plain text notes to rich text ones..."
+msgstr "Pretvaranje bilješki s običnim tekstom u obogaćeni tekst..."
+
+#: src/bnpview.cpp:1574
+#, kde-format
+msgid "Locked"
+msgstr "Zaključano"
+
+#: src/bnpview.cpp:1578
+#, kde-format
+msgid "No notes"
+msgstr "Nema bilješki"
+
+#: src/bnpview.cpp:1580
+#, kde-format
+msgid "%1 note"
+msgid_plural "%1 notes"
+msgstr[0] "%1 bilješka"
+msgstr[1] "%1 bilješke"
+msgstr[2] "%1 bilježaka"
+
+#: src/bnpview.cpp:1581
+#, kde-format
+msgid "%1 selected"
+msgid_plural "%1 selected"
+msgstr[0] "%1 odabrana"
+msgstr[1] "%1 odabrane"
+msgstr[2] "%1 odabranih"
+
+#: src/bnpview.cpp:1582
+#, kde-format
+msgid "all matches"
+msgstr "sva podudaranja"
+
+#: src/bnpview.cpp:1582
+#, kde-format
+msgid "no filter"
+msgstr "nema filtra"
+
+#: src/bnpview.cpp:1584
+#, kde-format
+msgid "%1 match"
+msgid_plural "%1 matches"
+msgstr[0] "%1 podudaranje"
+msgstr[1] "%1 podudaranja"
+msgstr[2] "%1 podudaranja"
+
+#: src/bnpview.cpp:1585
+#, kde-format
+msgctxt "e.g. '18 notes, 10 matches, 5 selected'"
+msgid "%1, %2, %3"
+msgstr "%1, %2, %3"
+
+#: src/bnpview.cpp:1718
+#, kde-format
+msgid "The plain text notes have been converted to rich text."
+msgstr "Bilješke s običnim tekstom pretvorene su u obogaćeni tekst."
+
+#: src/bnpview.cpp:1718 src/bnpview.cpp:1720
+#, kde-format
+msgid "Conversion Finished"
+msgstr "Pretvorba je dovršena"
+
+#: src/bnpview.cpp:1720
+#, kde-format
+msgid "There are no plain text notes to convert."
+msgstr "Nema bilješki s običnim tekstom za pretvorbu."
+
+#: src/bnpview.cpp:1737
+#, kde-format
+msgid ""
+"<p><b>The file basketui.rc seems to not exist or is too old.<br>%1 cannot "
+"run without it and will stop.</b></p><p>Please check your installation of %2."
+"</p><p>If you do not have administrator access to install the application "
+"system wide, you can copy the file basketui.rc from the installation archive "
+"to the folder <a href='file://%3'>%4</a>.</p><p>As last resort, if you are "
+"sure the application is correctly installed but you had a preview version of "
+"it, try to remove the file %5basketui.rc</p>"
+msgstr "<p><b>Čini se da datoteka basketui.rc ne postoji ili je zastarjela.<br>%1 ne može raditi bez nje i zaustavit će se.</b></p><p>Provjerite instalaciju programa %2.</p><p>Ako nemate administratorske ovlasti za instalaciju aplikacije na razini cijelog sustava, kopirajte datoteku basketui.rc iz instalacijske arhive u mapu <a href='file://%3'>%4</a>.</p><p>Kao posljednju mogućnost, ako ste sigurni da je aplikacija ispravno instalirana, ali ste imali njezinu pretpreglednu verziju, pokušajte ukloniti datoteku %5basketui.rc</p>"
+
+#: src/bnpview.cpp:1751
+#, kde-format
+msgid "Resource not Found"
+msgstr "Resurs nije pronađen"
+
+#: src/bnpview.cpp:1780
+#, kde-format
+msgid "Cannot add note."
+msgstr "Nije moguće dodati bilješku."
+
+#: src/bnpview.cpp:1896
+#, kde-format
+msgid ""
+"<qt>Do you really want to remove the basket <b>%1</b> and its contents?</qt>"
+msgstr "<qt>Želite li zaista ukloniti košaricu <b>%1</b> i njezin sadržaj?</qt>"
+
+#: src/bnpview.cpp:1897
+#, kde-format
+msgid "Remove Basket"
+msgstr "Ukloni košaricu"
+
+#: src/bnpview.cpp:1898
+#, kde-format
+msgid "&Remove Basket"
+msgstr "&Ukloni košaricu"
+
+#: src/bnpview.cpp:1908
+#, kde-format
+msgid ""
+"<qt><b>%1</b> has the following children baskets.<br>Do you want to remove "
+"them too?</qt>"
+msgstr "<qt>Košarica <b>%1</b> sadrži sljedeće podređene košarice.<br>Želite li i njih ukloniti?</qt>"
+
+#: src/bnpview.cpp:1910
+#, kde-format
+msgid "Remove Children Baskets"
+msgstr "Ukloni podređene košarice"
+
+#: src/bnpview.cpp:1911
+#, kde-format
+msgid "&Remove Children Baskets"
+msgstr "&Ukloni podređene košarice"
+
+#: src/bnpview.cpp:1981 src/bnpview.cpp:2028
+#, kde-format
+msgid "Basket Archives"
+msgstr "Arhive košarica"
+
+#: src/bnpview.cpp:1991 src/htmlexporter.cpp:68
+#, kde-format
+msgid "The file <b>%1</b> already exists. Do you really want to overwrite it?"
+msgstr "Datoteka <b>%1</b> već postoji. Želite li je zaista prepisati?"
+
+#: src/bnpview.cpp:1992 src/htmlexporter.cpp:69
+#, kde-format
+msgid "Overwrite File?"
+msgstr "Prepisati datoteku?"
+
+#: src/bnpview.cpp:2402
+#, kde-format
+msgid "&Assign new Tag..."
+msgstr "&Dodijeli novu oznaku..."
+
+#: src/bnpview.cpp:2407
+#, kde-format
+msgid "&Remove All"
+msgstr "&Ukloni sve"
+
+#: src/common.cpp:58
+#, kde-format
+msgid "Please enter the password for the following private key:"
+msgstr "Unesite lozinku za sljedeći privatni ključ:"
+
+#: src/common.cpp:60
+#, kde-format
+msgid "Please enter the password for the basket <b>%1</b>:"
+msgstr "Unesite lozinku za košaricu <b>%1</b>:"
+
+#: src/common.cpp:96
+#, kde-format
+msgid "Please assign a password to the basket <b>%1</b>:"
+msgstr "Dodijelite lozinku košarici <b>%1</b>:"
+
+#: src/common.cpp:146
+#, kde-format
+msgid "Error while saving: "
+msgstr "Pogreška pri spremanju: "
+
+#: src/debugwindow.cpp:25
+#, kde-format
+msgid "Debug Window"
+msgstr "Prozor za ispravljanje pogrešaka"
+
+#: src/filter.cpp:41
+#, kde-format
+msgid "Reset Filter"
+msgstr "Poništi filtar"
+
+#: src/filter.cpp:46
+#, kde-format
+msgid "&Filter: "
+msgstr "&Filtar: "
+
+#: src/filter.cpp:50
+#, kde-format
+msgid "T&ag: "
+msgstr "&Oznaka: "
+
+#: src/filter.cpp:54
+#, kde-format
+msgid "Filter All Baskets"
+msgstr "Filtriraj sve košarice"
+
+#: src/filter.cpp:131
+#, kde-format
+msgid "(Not tagged)"
+msgstr "(Nije označeno)"
+
+#: src/filter.cpp:132
+#, kde-format
+msgid "(Tagged)"
+msgstr "(Označeno)"
+
+#: src/formatimporter.cpp:108
+#, kde-format
+msgid ""
+"<p>Folder mirroring is not possible anymore (see <a href='https://basket-"
+"notepads.github.io'>basket-notepads.github.io</a> for more information).</"
+"p><p>The folder <b>%1</b> has been copied for the basket needs. You can "
+"either delete this folder or delete the basket, or use both. But remember "
+"that modifying one will not modify the other anymore as they are now "
+"separate entities.</p>"
+msgstr "<p>Zrcaljenje mapa više nije moguće (više informacija potražite na <a href='https://basket-notepads.github.io'>basket-notepads.github.io</a>).</p><p>Mapa <b>%1</b> kopirana je za potrebe košarice. Možete izbrisati tu mapu ili košaricu ili upotrebljavati oboje. Imajte na umu da izmjene jedne više neće mijenjati drugu jer su sada zasebne cjeline.</p>"
+
+#: src/formatimporter.cpp:114
+#, kde-format
+msgid "Folder Mirror Import"
+msgstr "Uvoz zrcaljene mape"
+
+#: src/history.cpp:18
+#, kde-format
+msgid "Set current basket to %1"
+msgstr "Postavi trenutačnu košaricu na %1"
+
+#: src/htmlexporter.cpp:55
+#, kde-format
+msgid "HTML Documents"
+msgstr "HTML dokumenti"
+
+#: src/htmlexporter.cpp:59 src/htmlexporter.cpp:81
+#, kde-format
+msgid "Export to HTML"
+msgstr "Izvezi u HTML"
+
+#: src/htmlexporter.cpp:82
+#, kde-format
+msgid "Exporting to HTML. Please wait..."
+msgstr "Izvoz u HTML. Pričekajte..."
+
+#: src/htmlexporter.cpp:117 src/htmlexporter.cpp:153 src/htmlexporter.cpp:163
+#, kde-format
+msgctxt "HTML export folder (files)"
+msgid "%1_files"
+msgstr "%1_datoteke"
+
+#: src/htmlexporter.cpp:123 src/htmlexporter.cpp:168
+#, kde-format
+msgctxt "HTML export folder (icons)"
+msgid "icons"
+msgstr "ikone"
+
+#: src/htmlexporter.cpp:124 src/htmlexporter.cpp:170
+#, kde-format
+msgctxt "HTML export folder (images)"
+msgid "images"
+msgstr "slike"
+
+#: src/htmlexporter.cpp:125 src/htmlexporter.cpp:166
+#, kde-format
+msgctxt "HTML export folder (baskets)"
+msgid "baskets"
+msgstr "košarice"
+
+#: src/htmlexporter.cpp:158 src/htmlexporter.cpp:164 src/htmlexporter.cpp:165
+#, kde-format
+msgctxt "HTML export folder (data)"
+msgid "data"
+msgstr "podaci"
+
+#: src/htmlexporter.cpp:405
+#, kde-format
+msgid ""
+"Made with <a href=\"%1\">%2</a> %3, a tool to take notes and keep "
+"information at hand."
+msgstr "Izrađeno pomoću alata <a href=\"%1\">%2</a> %3 za bilježenje i čuvanje informacija nadohvat ruke."
+
+#: src/kcolorcombo2.cpp:111 src/kcolorcombo2.cpp:615 src/tagsedit.cpp:357
+#: src/variouswidgets.cpp:394
+#, kde-format
+msgid "(Default)"
+msgstr "(Zadano)"
+
+#: src/kcolorcombo2.cpp:123
+#, kde-format
+msgid "Other..."
+msgstr "Ostalo..."
+
+#. i18n("(Default)")).height() + 2
+#. TODO: isDefaultColorSelected()
+#. index=
+#. index=
+#: src/kcolorcombo2.cpp:639
+#, kde-format
+msgid "R:%1, G:%2, B:%3"
+msgstr "R:%1, G:%2, B:%3"
+
+#: src/kcolorcombo2.cpp:639
+#, kde-format
+msgctxt "color"
+msgid "(Default)"
+msgstr "(Zadano)"
+
+#: src/kgpgme.cpp:47
+#, kde-format
+msgid "Private Key List"
+msgstr "Popis privatnih ključeva"
+
+#: src/kgpgme.cpp:65
+#, kde-format
+msgid "Email"
+msgstr "E-pošta"
+
+#: src/kgpgme.cpp:65
+#, kde-format
+msgid "ID"
+msgstr "ID"
+
+#: src/kgpgme.cpp:69
+#, kde-format
+msgid "Choose a secret key:"
+msgstr "Odaberite tajni ključ:"
+
+#: src/kgpgme.cpp:258
+#, kde-format
+msgid "Key listing unexpectedly truncated."
+msgstr "Popis ključeva neočekivano je skraćen."
+
+#: src/kgpgme.cpp:292
+#, kde-format
+msgid "That public key is not meant for encryption"
+msgstr "Taj javni ključ nije namijenjen šifriranju."
+
+#: src/kgpgme.cpp:336
+#, kde-format
+msgid "Unsupported algorithm"
+msgstr "Nepodržani algoritam"
+
+#: src/kgpgme.cpp:428
+#, kde-format
+msgid "Wrong password."
+msgstr "Pogrešna lozinka."
+
+#: src/kgpgme.cpp:443
+#, kde-format
+msgid "Please enter a new password:"
+msgstr "Unesite novu lozinku:"
+
+#: src/linklabel.cpp:605
+#, kde-format
+msgid "I&talic"
+msgstr "&Kurziv"
+
+#: src/linklabel.cpp:608
+#, kde-format
+msgid "&Bold"
+msgstr "&Podebljano"
+
+#: src/linklabel.cpp:616
+#, kde-format
+msgid "Always"
+msgstr "Uvijek"
+
+#: src/linklabel.cpp:617
+#, kde-format
+msgid "Never"
+msgstr "Nikad"
+
+#: src/linklabel.cpp:618
+#, kde-format
+msgid "On mouse hovering"
+msgstr "Pri zadržavanju pokazivača miša"
+
+#: src/linklabel.cpp:619
+#, kde-format
+msgid "When mouse is outside"
+msgstr "Kad je pokazivač miša izvan stavke"
+
+#: src/linklabel.cpp:621
+#, kde-format
+msgid "&Underline:"
+msgstr "&Podcrtavanje:"
+
+#: src/linklabel.cpp:628
+#, kde-format
+msgid "Colo&r:"
+msgstr "&Boja:"
+
+#: src/linklabel.cpp:635
+#, kde-format
+msgid "&Mouse hover color:"
+msgstr "&Boja pri prelasku mišem:"
+
+#: src/linklabel.cpp:644
+#, kde-format
+msgid "&Icon size:"
+msgstr "&Veličina ikone:"
+
+#: src/linklabel.cpp:650
+#, kde-format
+msgid "None"
+msgstr "Nijedna"
+
+#: src/linklabel.cpp:651
+#, kde-format
+msgid "Icon size"
+msgstr "Veličina ikone"
+
+#: src/linklabel.cpp:652
+#, kde-format
+msgid "Twice the icon size"
+msgstr "Dvostruka veličina ikone"
+
+#: src/linklabel.cpp:653
+#, kde-format
+msgid "Three times the icon size"
+msgstr "Trostruka veličina ikone"
+
+#: src/linklabel.cpp:655
+#, kde-format
+msgid "&Preview:"
+msgstr "&Pretpregled:"
+
+#: src/linklabel.cpp:658
+#, kde-format
+msgid "You disabled preview but still see images?"
+msgstr "Onemogućili ste pretpregled, ali i dalje vidite slike?"
+
+#: src/linklabel.cpp:659
+#, kde-format
+msgid ""
+"<p>This is normal because there are several type of notes.<br>This setting "
+"only applies to file and local link notes.<br>The images you see are image "
+"notes, not file notes.<br>File notes are generic documents, whereas image "
+"notes are pictures you can draw in.</p><p>When dropping files to baskets, %1 "
+"detects their type and shows you the content of the files.<br>For instance, "
+"when dropping image or text files, image and text notes are created for them."
+"<br>For type of files %2 does not understand, they are shown as generic file "
+"notes with just an icon or file preview and a filename.</p><p>If you do not "
+"want the application to create notes depending on the content of the files "
+"you drop, go to the \"General\" page and uncheck \"Image or animation\" in "
+"the \"View Content of Added Files for the Following Types\" group.</p>"
+msgstr "<p>To je uobičajeno jer postoji nekoliko vrsta bilješki.<br>Ova se postavka odnosi samo na bilješke datoteka i lokalnih poveznica.<br>Slike koje vidite slikovne su bilješke, a ne bilješke datoteka.<br>Bilješke datoteka generički su dokumenti, dok su slikovne bilješke slike po kojima možete crtati.</p><p>Pri ispuštanju datoteka u košarice, %1 prepoznaje njihovu vrstu i prikazuje njihov sadržaj.<br>Primjerice, pri ispuštanju slikovnih ili tekstnih datoteka stvaraju se slikovne i tekstualne bilješke.<br>Datoteke čiju vrstu %2 ne prepoznaje prikazuju se kao generičke datotečne bilješke, samo s ikonom ili pretpregledom i nazivom datoteke.</p><p>Ako ne želite da aplikacija stvara bilješke ovisno o sadržaju ispuštenih datoteka, otvorite stranicu „Općenito” i poništite odabir stavke „Slika ili animacija” u grupi „Prikaži sadržaj dodanih datoteka sljedećih vrsta”.</p>"
+
+#: src/linklabel.cpp:676
+#, kde-format
+msgid "Example"
+msgstr "Primjer"
+
+#: src/main.cpp:36
+#, kde-format
+msgid "Show the debug window"
+msgstr "Prikaži prozor za ispravljanje pogrešaka"
+
+#: src/main.cpp:38
+#, kde-format
+msgid "Custom folder to load and save baskets and other application data."
+msgstr "Prilagođena mapa za učitavanje i spremanje košarica i drugih podataka aplikacije."
+
+#: src/main.cpp:39
+#, kde-format
+msgctxt "Command line help: --data-folder <FOLDER>"
+msgid "folder"
+msgstr "mapa"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Automatically hide the main window in the system tray on startup."
+msgstr "Automatski sakrij glavni prozor u paletu sustava pri pokretanju."
+
+#: src/main.cpp:43
+#, kde-format
+msgid "Open a basket archive or template."
+msgstr "Otvori arhivu ili predložak košarice."
+
+#: src/mainwindow.cpp:75
+#, kde-format
+msgid "Minimize"
+msgstr "Minimiziraj"
+
+#: src/mainwindow.cpp:255
+#, kde-format
+msgid "<p>Do you really want to quit %1?</p>"
+msgstr "<p>Želite li zaista zatvoriti %1?</p>"
+
+#: src/mainwindow.cpp:259
+#, kde-format
+msgid "Quit Confirm"
+msgstr "Potvrda zatvaranja"
+
+#: src/newbasketdialog.cpp:89
+#, kde-format
+msgid "New Basket"
+msgstr "Nova košarica"
+
+#: src/newbasketdialog.cpp:123
+#, kde-format
+msgid "Background color"
+msgstr "Boja pozadine"
+
+#: src/newbasketdialog.cpp:131
+#, kde-format
+msgid "&Manage Templates..."
+msgstr "&Upravljaj predlošcima..."
+
+#: src/newbasketdialog.cpp:168
+#, kde-format
+msgid "One column"
+msgstr "Jedan stupac"
+
+#: src/newbasketdialog.cpp:178
+#, kde-format
+msgid "Two columns"
+msgstr "Dva stupca"
+
+#: src/newbasketdialog.cpp:189
+#, kde-format
+msgid "Three columns"
+msgstr "Tri stupca"
+
+#: src/newbasketdialog.cpp:200
+#, kde-format
+msgid "Free-form"
+msgstr "Slobodan raspored"
+
+#: src/newbasketdialog.cpp:210
+#, kde-format
+msgid "&Template:"
+msgstr "&Predložak:"
+
+#: src/newbasketdialog.cpp:220
+#, kde-format
+msgid "(Baskets)"
+msgstr "(Košarice)"
+
+#: src/newbasketdialog.cpp:222
+#, kde-format
+msgid "C&reate in:"
+msgstr "S&tvori u:"
+
+#: src/newbasketdialog.cpp:224
+#, kde-format
+msgid "How is it useful?"
+msgstr "Čemu to služi?"
+
+#: src/newbasketdialog.cpp:225
+#, kde-format
+msgid ""
+"<p>Creating baskets inside of other baskets to form a hierarchy allows you "
+"to be more organized by eg.:</p><ul><li>Grouping baskets by themes or topics;"
+"</li><li>Grouping baskets in folders for different projects;</li><li>Making "
+"sections with sub-baskets representing chapters or pages;</li><li>Making a "
+"group of baskets to export together (to eg. email them to people).</li></ul>"
+msgstr "<p>Stvaranje košarica unutar drugih košarica i oblikovanje hijerarhije pomaže vam u boljoj organizaciji, primjerice:</p><ul><li>grupiranjem košarica prema temama ili sadržaju;</li><li>grupiranjem košarica u mape za različite projekte;</li><li>stvaranjem odjeljaka s podređenim košaricama koje predstavljaju poglavlja ili stranice;</li><li>stvaranjem grupe košarica za zajednički izvoz (primjerice, slanje e-poštom).</li></ul>"
+
+#: src/notecontent.cpp:98
+#, kde-format
+msgid "Group"
+msgstr "Grupa"
+
+#: src/notecontent.cpp:100
+#, kde-format
+msgid "Plain Text"
+msgstr "Obični tekst"
+
+#: src/notecontent.cpp:102
+#, kde-format
+msgid "Text"
+msgstr "Tekst"
+
+#: src/notecontent.cpp:104
+#, kde-format
+msgid "Image"
+msgstr "Slika"
+
+#: src/notecontent.cpp:106
+#, kde-format
+msgid "Animation"
+msgstr "Animacija"
+
+#: src/notecontent.cpp:108
+#, kde-format
+msgid "Sound"
+msgstr "Zvuk"
+
+#: src/notecontent.cpp:110
+#, kde-format
+msgid "File"
+msgstr "Datoteka"
+
+#: src/notecontent.cpp:112
+#, kde-format
+msgid "Link"
+msgstr "Poveznica"
+
+#: src/notecontent.cpp:114
+#, kde-format
+msgid "Cross Reference"
+msgstr "Unakrsna referenca"
+
+#: src/notecontent.cpp:116
+#, kde-format
+msgid "Launcher"
+msgstr "Pokretač"
+
+#: src/notecontent.cpp:118 src/noteedit.cpp:1092
+#, kde-format
+msgid "Color"
+msgstr "Boja"
+
+#: src/notecontent.cpp:120 src/notecontent.cpp:122
+#, kde-format
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: src/notecontent.cpp:599
+#, kde-format
+msgid "Edit this plain text"
+msgstr "Uredi ovaj obični tekst"
+
+#: src/notecontent.cpp:603
+#, kde-format
+msgid "Edit this text"
+msgstr "Uredi ovaj tekst"
+
+#: src/notecontent.cpp:607
+#, kde-format
+msgid "Edit this image"
+msgstr "Uredi ovu sliku"
+
+#: src/notecontent.cpp:611
+#, kde-format
+msgid "Edit this animation"
+msgstr "Uredi ovu animaciju"
+
+#: src/notecontent.cpp:615
+#, kde-format
+msgid "Edit the file name of this sound"
+msgstr "Uredi naziv ove zvučne datoteke"
+
+#: src/notecontent.cpp:619
+#, kde-format
+msgid "Edit the name of this file"
+msgstr "Uredi naziv ove datoteke"
+
+#: src/notecontent.cpp:623
+#, kde-format
+msgid "Edit this link"
+msgstr "Uredi ovu poveznicu"
+
+#: src/notecontent.cpp:627
+#, kde-format
+msgid "Edit this cross reference"
+msgstr "Uredi ovu unakrsnu referencu"
+
+#: src/notecontent.cpp:631
+#, kde-format
+msgid "Edit this launcher"
+msgstr "Uredi ovaj pokretač"
+
+#: src/notecontent.cpp:635
+#, kde-format
+msgid "Edit this color"
+msgstr "Uredi ovu boju"
+
+#: src/notecontent.cpp:639
+#, kde-format
+msgid "Edit this unknown object"
+msgstr "Uredi ovaj nepoznati objekt"
+
+#: src/notecontent.cpp:1001
+#, kde-format
+msgid "Opening plain text..."
+msgstr "Otvaranje običnog teksta..."
+
+#: src/notecontent.cpp:1003
+#, kde-format
+msgid "Opening plain texts..."
+msgstr "Otvaranje običnih tekstova..."
+
+#: src/notecontent.cpp:1005
+#, kde-format
+msgid "Opening plain text with..."
+msgstr "Otvaranje običnog teksta pomoću..."
+
+#: src/notecontent.cpp:1007
+#, kde-format
+msgid "Opening plain texts with..."
+msgstr "Otvaranje običnih tekstova pomoću..."
+
+#: src/notecontent.cpp:1009
+#, kde-format
+msgid "Open plain text with:"
+msgstr "Otvori obični tekst pomoću:"
+
+#: src/notecontent.cpp:1011
+#, kde-format
+msgid "Open plain texts with:"
+msgstr "Otvori obične tekstove pomoću:"
+
+#: src/notecontent.cpp:1122
+#, kde-format
+msgid "Opening text..."
+msgstr "Otvaranje teksta..."
+
+#: src/notecontent.cpp:1124
+#, kde-format
+msgid "Opening texts..."
+msgstr "Otvaranje tekstova..."
+
+#: src/notecontent.cpp:1126
+#, kde-format
+msgid "Opening text with..."
+msgstr "Otvaranje teksta pomoću..."
+
+#: src/notecontent.cpp:1128
+#, kde-format
+msgid "Opening texts with..."
+msgstr "Otvaranje tekstova pomoću..."
+
+#: src/notecontent.cpp:1130
+#, kde-format
+msgid "Open text with:"
+msgstr "Otvori tekst pomoću:"
+
+#: src/notecontent.cpp:1132
+#, kde-format
+msgid "Open texts with:"
+msgstr "Otvori tekstove pomoću:"
+
+#: src/notecontent.cpp:1255 src/notecontent.cpp:1473
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: src/notecontent.cpp:1255 src/variouswidgets.cpp:216
+#, kde-format
+msgid "%1 by %2 pixels"
+msgstr "%1 × %2 piksela"
+
+#: src/notecontent.cpp:1262
+#, kde-format
+msgid "Opening image..."
+msgstr "Otvaranje slike..."
+
+#: src/notecontent.cpp:1264
+#, kde-format
+msgid "Opening images..."
+msgstr "Otvaranje slika..."
+
+#: src/notecontent.cpp:1266
+#, kde-format
+msgid "Opening image with..."
+msgstr "Otvaranje slike pomoću..."
+
+#: src/notecontent.cpp:1268
+#, kde-format
+msgid "Opening images with..."
+msgstr "Otvaranje slika pomoću..."
+
+#: src/notecontent.cpp:1270
+#, kde-format
+msgid "Open image with:"
+msgstr "Otvori sliku pomoću:"
+
+#: src/notecontent.cpp:1272
+#, kde-format
+msgid "Open images with:"
+msgstr "Otvori slike pomoću:"
+
+#: src/notecontent.cpp:1297
+#, kde-format
+msgid "Click for full size view"
+msgstr "Kliknite za prikaz pune veličine"
+
+#: src/notecontent.cpp:1384
+#, kde-format
+msgid "Opening animation..."
+msgstr "Otvaranje animacije..."
+
+#: src/notecontent.cpp:1386
+#, kde-format
+msgid "Opening animations..."
+msgstr "Otvaranje animacija..."
+
+#: src/notecontent.cpp:1388
+#, kde-format
+msgid "Opening animation with..."
+msgstr "Otvaranje animacije pomoću..."
+
+#: src/notecontent.cpp:1390
+#, kde-format
+msgid "Opening animations with..."
+msgstr "Otvaranje animacija pomoću..."
+
+#: src/notecontent.cpp:1392
+#, kde-format
+msgid "Open animation with:"
+msgstr "Otvori animaciju pomoću:"
+
+#: src/notecontent.cpp:1394
+#, kde-format
+msgid "Open animations with:"
+msgstr "Otvori animacije pomoću:"
+
+#: src/notecontent.cpp:1478
+#, kde-format
+msgid "Type"
+msgstr "Vrsta"
+
+#: src/notecontent.cpp:1524
+#, kde-format
+msgid "Open this file"
+msgstr "Otvori ovu datoteku"
+
+#: src/notecontent.cpp:1543
+#, kde-format
+msgid "Opening file..."
+msgstr "Otvaranje datoteke..."
+
+#: src/notecontent.cpp:1545
+#, kde-format
+msgid "Opening files..."
+msgstr "Otvaranje datoteka..."
+
+#: src/notecontent.cpp:1547
+#, kde-format
+msgid "Opening file with..."
+msgstr "Otvaranje datoteke pomoću..."
+
+#: src/notecontent.cpp:1549
+#, kde-format
+msgid "Opening files with..."
+msgstr "Otvaranje datoteka pomoću..."
+
+#: src/notecontent.cpp:1551
+#, kde-format
+msgid "Open file with:"
+msgstr "Otvori datoteku pomoću:"
+
+#: src/notecontent.cpp:1553
+#, kde-format
+msgid "Open files with:"
+msgstr "Otvori datoteke pomoću:"
+
+#: src/notecontent.cpp:1654
+#, kde-format
+msgid "Open this sound"
+msgstr "Otvori ovaj zvuk"
+
+#: src/notecontent.cpp:1680
+#, kde-format
+msgid "Opening sound..."
+msgstr "Otvaranje zvuka..."
+
+#: src/notecontent.cpp:1682
+#, kde-format
+msgid "Opening sounds..."
+msgstr "Otvaranje zvukova..."
+
+#: src/notecontent.cpp:1684
+#, kde-format
+msgid "Opening sound with..."
+msgstr "Otvaranje zvuka pomoću..."
+
+#: src/notecontent.cpp:1686
+#, kde-format
+msgid "Opening sounds with..."
+msgstr "Otvaranje zvukova pomoću..."
+
+#: src/notecontent.cpp:1688
+#, kde-format
+msgid "Open sound with:"
+msgstr "Otvori zvuk pomoću:"
+
+#: src/notecontent.cpp:1690
+#, kde-format
+msgid "Open sounds with:"
+msgstr "Otvori zvukove pomoću:"
+
+#: src/notecontent.cpp:1753 src/notecontent.cpp:2026
+#, kde-format
+msgid "Target"
+msgstr "Odredište"
+
+#: src/notecontent.cpp:1775 src/notecontent.cpp:2048
+#, kde-format
+msgid "Open this link"
+msgstr "Otvori ovu poveznicu"
+
+#: src/notecontent.cpp:1801
+#, kde-format
+msgid "Link have no URL to open."
+msgstr "Poveznica nema URL za otvaranje."
+
+#: src/notecontent.cpp:1805
+#, kde-format
+msgid "Opening link target..."
+msgstr "Otvaranje odredišta poveznice..."
+
+#: src/notecontent.cpp:1807
+#, kde-format
+msgid "Opening link targets..."
+msgstr "Otvaranje odredišta poveznica..."
+
+#: src/notecontent.cpp:1809
+#, kde-format
+msgid "Opening link target with..."
+msgstr "Otvaranje odredišta poveznice pomoću..."
+
+#: src/notecontent.cpp:1811
+#, kde-format
+msgid "Opening link targets with..."
+msgstr "Otvaranje odredišta poveznica pomoću..."
+
+#: src/notecontent.cpp:1813
+#, kde-format
+msgid "Open link target with:"
+msgstr "Otvori odredište poveznice pomoću:"
+
+#: src/notecontent.cpp:1815
+#, kde-format
+msgid "Open link targets with:"
+msgstr "Otvori odredišta poveznica pomoću:"
+
+#: src/notecontent.cpp:2061
+#, kde-format
+msgid "Link to %1"
+msgstr "Poveznica na %1"
+
+#: src/notecontent.cpp:2074
+#, kde-format
+msgid "Link has no basket to open."
+msgstr "Poveznica nema košaricu za otvaranje."
+
+#: src/notecontent.cpp:2078
+#, kde-format
+msgid "Opening basket..."
+msgstr "Otvaranje košarice..."
+
+#: src/notecontent.cpp:2183
+#, kde-format
+msgid "%1 <i>(run in terminal)</i>"
+msgstr "%1 <i>(pokreni u terminalu)</i>"
+
+#: src/notecontent.cpp:2186
+#, kde-format
+msgid "Comment"
+msgstr "Komentar"
+
+#: src/notecontent.cpp:2188
+#, kde-format
+msgid "Command"
+msgstr "Naredba"
+
+#: src/notecontent.cpp:2212
+#, kde-format
+msgid "Launch this application"
+msgstr "Pokreni ovu aplikaciju"
+
+#: src/notecontent.cpp:2233
+#, kde-format
+msgid "The launcher have no command to run."
+msgstr "Pokretač nema naredbu za pokretanje."
+
+#: src/notecontent.cpp:2237
+#, kde-format
+msgid "Launching application..."
+msgstr "Pokretanje aplikacije..."
+
+#: src/notecontent.cpp:2239
+#, kde-format
+msgid "Launching applications..."
+msgstr "Pokretanje aplikacija..."
+
+#: src/notecontent.cpp:2359
+#, kde-format
+msgctxt "RGB Colorspace: Red/Green/Blue"
+msgid "RGB"
+msgstr "RGB"
+
+#: src/notecontent.cpp:2360
+#, kde-format
+msgid "<i>Red</i>: %1, <i>Green</i>: %2, <i>Blue</i>: %3,"
+msgstr "<i>Crvena</i>: %1, <i>zelena</i>: %2, <i>plava</i>: %3,"
+
+#: src/notecontent.cpp:2364
+#, kde-format
+msgctxt "HSV Colorspace: Hue/Saturation/Value"
+msgid "HSV"
+msgstr "HSV"
+
+#: src/notecontent.cpp:2365
+#, kde-format
+msgid "<i>Hue</i>: %1, <i>Saturation</i>: %2, <i>Value</i>: %3,"
+msgstr "<i>Nijansa</i>: %1, <i>Zasićenost</i>: %2, <i>Vrijednost</i>: %3,"
+
+#: src/notecontent.cpp:2369
+#, kde-format
+msgid "CSS Color Name"
+msgstr "Naziv CSS boje"
+
+#: src/notecontent.cpp:2372
+#, kde-format
+msgid "Is Web Color"
+msgstr "Je li web-boja"
+
+#: src/notecontent.cpp:2372
+#, kde-format
+msgid "Yes"
+msgstr "Da"
+
+#: src/notecontent.cpp:2372
+#, kde-format
+msgid "No"
+msgstr "Ne"
+
+#: src/noteedit.cpp:542
+#, kde-format
+msgid ""
+"Images can not be edited here at the moment (the next version of BasKet Note "
+"Pads will include an image editor).\n"
+"Do you want to open it with an application that understand it?"
+msgstr "Trenutačno nije moguće uređivati slike ovdje (sljedeća verzija programa BasKet Note Pads sadržavat će uređivač slika).\nŽelite li ih otvoriti u aplikaciji koja ih razumije?"
+
+#: src/noteedit.cpp:544
+#, kde-format
+msgid "Edit Image Note"
+msgstr "Uredi slikovnu bilješku"
+
+#: src/noteedit.cpp:569
+#, kde-format
+msgid ""
+"This animated image can not be edited here.\n"
+"Do you want to open it with an application that understands it?"
+msgstr "Ovu animiranu sliku nije moguće uređivati ovdje.\nŽelite li je otvoriti u aplikaciji koja je podržava?"
+
+#: src/noteedit.cpp:571
+#, kde-format
+msgid "Edit Animation Note"
+msgstr "Uredi animiranu bilješku"
+
+#: src/noteedit.cpp:660
+#, kde-format
+msgid "Edit Color Note"
+msgstr "Uredi bilješku u boji"
+
+#: src/noteedit.cpp:676
+#, kde-format
+msgid ""
+"The type of this note is unknown and can not be edited here.\n"
+"You however can drag or copy the note into an application that understands "
+"it."
+msgstr "Vrsta ove bilješke nije poznata i ne može se uređivati ovdje. No bilješku možete povući ili kopirati u aplikaciju koja je podržava."
+
+#: src/noteedit.cpp:678
+#, kde-format
+msgid "Edit Unknown Note"
+msgstr "Uredi nepoznatu bilješku"
+
+#: src/noteedit.cpp:690
+#, kde-format
+msgid "Edit Link Note"
+msgstr "Uredi bilješku s poveznicom"
+
+#: src/noteedit.cpp:703 src/noteedit.cpp:867
+#, kde-format
+msgid "Ta&rget:"
+msgstr "O&dredište:"
+
+#: src/noteedit.cpp:711 src/noteedit.cpp:722
+#, kde-format
+msgid "Auto"
+msgstr "Automatski"
+
+#: src/noteedit.cpp:714
+#, kde-format
+msgid "&Title:"
+msgstr "&Naslov:"
+
+#: src/noteedit.cpp:732 src/noteedit.cpp:990
+#, kde-format
+msgid "&Icon:"
+msgstr "&Ikona:"
+
+#: src/noteedit.cpp:856
+#, kde-format
+msgid "Edit Cross Reference"
+msgstr "Uredi unakrsnu referencu"
+
+#: src/noteedit.cpp:957
+#, kde-format
+msgid "Edit Launcher Note"
+msgstr "Uredi bilješku pokretača"
+
+#: src/noteedit.cpp:969
+#, kde-format
+msgid "Choose a command to run:"
+msgstr "Odaberite naredbu za pokretanje:"
+
+#: src/noteedit.cpp:970
+#, kde-format
+msgid "Comman&d:"
+msgstr "Nare&dba:"
+
+#. i18n: ectx: property (text), widget (QLabel, tagNameLabel)
+#: src/noteedit.cpp:973 src/tagsedit.ui:97
+#, kde-format
+msgid "&Name:"
+msgstr "&Naziv:"
+
+#: src/noteedit.cpp:981
+#, kde-format
+msgid "&Guess"
+msgstr "&Pogodi"
+
+#: src/noteedit.cpp:1074
+#, kde-format
+msgid "Font"
+msgstr "Font"
+
+#: src/noteedit.cpp:1082
+#, kde-format
+msgid "Font Size"
+msgstr "Veličina fonta"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, bold)
+#: src/noteedit.cpp:1097 src/tagsedit.ui:202
+#, kde-format
+msgid "Bold"
+msgstr "Podebljano"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, italic)
+#: src/noteedit.cpp:1104 src/tagsedit.ui:228
+#, kde-format
+msgid "Italic"
+msgstr "Kurziv"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, underline)
+#: src/noteedit.cpp:1111 src/tagsedit.ui:215
+#, kde-format
+msgid "Underline"
+msgstr "Podcrtano"
+
+#: src/noteedit.cpp:1119
+#, kde-format
+msgid "Superscript"
+msgstr "Eksponent"
+
+#: src/noteedit.cpp:1125
+#, kde-format
+msgid "Subscript"
+msgstr "Indeks"
+
+#: src/noteedit.cpp:1132
+#, kde-format
+msgid "Align Left"
+msgstr "Poravnaj lijevo"
+
+#: src/noteedit.cpp:1138
+#, kde-format
+msgid "Centered"
+msgstr "Centrirano"
+
+#: src/noteedit.cpp:1144
+#, kde-format
+msgid "Align Right"
+msgstr "Poravnaj desno"
+
+#: src/noteedit.cpp:1150
+#, kde-format
+msgid "Justified"
+msgstr "Obostrano poravnaj"
+
+#: src/noteedit.cpp:1162
+#, kde-format
+msgid "Undo"
+msgstr "Poništi"
+
+#: src/noteedit.cpp:1168
+#, kde-format
+msgid "Redo"
+msgstr "Ponovi"
+
+#: src/notefactory.cpp:423
+#, kde-format
+msgid ""
+"<p>%1 doesn't support the data you've dropped.<br>It however created a "
+"generic note, allowing you to drag or copy it to an application that "
+"understand it.</p><p>If you want the support of these data, please contact "
+"developer.</p>"
+msgstr "<p>%1 ne podržava ispuštene podatke.<br>No stvorio je generičku bilješku koju možete povući ili kopirati u aplikaciju koja ih podržava.</p><p>Želite li podršku za ove podatke, obratite se razvojnom programeru.</p>"
+
+#: src/notefactory.cpp:429
+#, kde-format
+msgid "Unsupported MIME Type(s)"
+msgstr "Nepodržane vrste MIME"
+
+#: src/notefactory.cpp:485
+#, kde-format
+msgid "&Move Here\tShift"
+msgstr "&Premjesti ovdje\tShift"
+
+#: src/notefactory.cpp:486
+#, kde-format
+msgid "&Copy Here\tCtrl"
+msgstr "&Kopiraj ovdje\tCtrl"
+
+#: src/notefactory.cpp:487
+#, kde-format
+msgid "&Link Here\tCtrl+Shift"
+msgstr "Stvori &poveznicu ovdje\tCtrl+Shift"
+
+#: src/notefactory.cpp:493
+#, kde-format
+msgid "C&ancel\tEscape"
+msgstr "O&dustani\tEscape"
+
+#: src/notefactory.cpp:988
+#, kde-format
+msgid "Import Icon as Image"
+msgstr "Uvezi ikonu kao sliku"
+
+#: src/notefactory.cpp:989
+#, kde-format
+msgid "Choose the size of the icon to import as an image:"
+msgstr "Odaberite veličinu ikone koju želite uvesti kao sliku:"
+
+#: src/notefactory.cpp:1005
+#, kde-format
+msgid "Load File Content into a Note"
+msgstr "Učitaj sadržaj datoteke u bilješku"
+
+#: src/passworddialog.cpp:53
+#, kde-format
+msgid "No private key selected."
+msgstr "Nije odabran privatni ključ."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, PasswordDialog)
+#: src/passworddialog.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Password Protection"
+msgstr "Zaštita lozinkom"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noPasswordRadioButton)
+#: src/passworddialog.ui:29
+#, kde-format
+msgid "&No protection"
+msgstr "&Bez zaštite"
+
+#. i18n: ectx: property (text), widget (QRadioButton, passwordRadioButton)
+#: src/passworddialog.ui:36
+#, kde-format
+msgid "Protect basket with a &password"
+msgstr "Zaštiti košaricu &lozinkom"
+
+#. i18n: ectx: property (text), widget (QRadioButton, publicPrivateRadioButton)
+#: src/passworddialog.ui:51
+#, kde-format
+msgid "Protect basket with private &key:"
+msgstr "Zaštiti košaricu privatnim &ključem:"
+
+#: src/settings.cpp:453
+#, kde-format
+msgid "On left"
+msgstr "Lijevo"
+
+#: src/settings.cpp:454
+#, kde-format
+msgid "On right"
+msgstr "Desno"
+
+#: src/settings.cpp:456
+#, kde-format
+msgid "&Basket tree position:"
+msgstr "Položaj stabla &košarica:"
+
+#: src/settings.cpp:461 src/settings.cpp:719
+#, kde-format
+msgid "On top"
+msgstr "Na vrhu"
+
+#: src/settings.cpp:462 src/settings.cpp:720
+#, kde-format
+msgid "On bottom"
+msgstr "Na dnu"
+
+#: src/settings.cpp:464
+#, kde-format
+msgid "&Filter bar position:"
+msgstr "Položaj trake &filtra:"
+
+#: src/settings.cpp:510
+#, kde-format
+msgid "&Show tooltips in baskets"
+msgstr "&Prikaži opise u košaricama"
+
+#: src/settings.cpp:514
+#, kde-format
+msgid "&Big notes"
+msgstr "&Velike bilješke"
+
+#: src/settings.cpp:520
+#, kde-format
+msgid "Behavior"
+msgstr "Ponašanje"
+
+#: src/settings.cpp:525
+#, kde-format
+msgid "&Transform lines starting with * or - to lists in text editors"
+msgstr "&Pretvori retke koji počinju znakom * ili - u popise u uređivačima teksta"
+
+#: src/settings.cpp:529
+#, kde-format
+msgid "Ask confirmation before &deleting notes"
+msgstr "Zatraži potvrdu prije &brisanja bilješki"
+
+#: src/settings.cpp:533
+#, kde-format
+msgid "Keep text formatting when pasting"
+msgstr "Zadrži oblikovanje teksta pri lijepljenju"
+
+#: src/settings.cpp:537
+#, kde-format
+msgid "Automatically detect tags from note's content"
+msgstr "Automatski prepoznaj oznake u sadržaju bilješke"
+
+#: src/settings.cpp:544
+#, kde-format
+msgid "&Export tags in texts"
+msgstr "&Izvezi oznake u tekstu"
+
+#: src/settings.cpp:548
+#, kde-format
+msgid "When does this apply?"
+msgstr "Kada se ovo primjenjuje?"
+
+#: src/settings.cpp:549
+#, kde-format
+msgid ""
+"It does apply when you copy and paste, or drag and drop notes to a text "
+"editor."
+msgstr "Primjenjuje se pri kopiranju i lijepljenju ili povlačenju i ispuštanju bilješki u uređivač teksta."
+
+#: src/settings.cpp:550
+#, kde-format
+msgid ""
+"If enabled, this property lets you paste the tags as textual equivalents."
+msgstr "Ako je omogućeno, oznake možete zalijepiti kao tekstualne ekvivalente."
+
+#. i18n("If filled, this property lets you paste this tag or this state as textual equivalent.") + "<br>" +
+#: src/settings.cpp:551 src/tagsedit.cpp:375
+#, kde-format
+msgid ""
+"For instance, a list of notes with the <b>To Do</b> and <b>Done</b> tags are "
+"exported as lines preceded by <b>[ ]</b> or <b>[x]</b>, representing an "
+"empty checkbox and a checked box."
+msgstr "Primjerice, popis bilješki s oznakama <b>Za napraviti</b> i <b>Dovršeno</b> izvozi se kao retci s prefiksom <b>[ ]</b> ili <b>[x]</b>, koji predstavljaju prazan ili označen potvrdni okvir."
+
+#: src/settings.cpp:563
+#, kde-format
+msgid "&Group a new note when clicking on the right of the insertion line"
+msgstr "&Grupiraj novu bilješku klikom desno od crte za umetanje"
+
+#: src/settings.cpp:565
+#, kde-format
+msgid "How to group a new note?"
+msgstr "Kako grupirati novu bilješku?"
+
+#: src/settings.cpp:566
+#, kde-format
+msgid ""
+"<p>When this option is enabled, the insertion-line not only allows you to "
+"insert notes at the cursor position, but also allows you to group a new note "
+"with the one under the cursor:</p>"
+msgstr "<p>Kad je ova mogućnost omogućena, crta za umetanje ne služi samo umetanju bilješki na položaj pokazivača nego i grupiranju nove bilješke s onom ispod pokazivača:</p>"
+
+#: src/settings.cpp:569
+#, kde-format
+msgid ""
+"<p>Place your mouse between notes, where you want to add a new one.<br>Click "
+"on the <b>left</b> of the insertion-line middle-mark to <b>insert</b> a note."
+"<br>Click on the <b>right</b> to <b>group</b> a note, with the one <b>below "
+"or above</b>, depending on where your mouse is.</p>"
+msgstr "<p>Postavite pokazivač miša između bilješki na mjesto na koje želite dodati novu.<br>Kliknite <b>lijevo</b> od središnje oznake crte za umetanje da biste <b>umetnuli</b> bilješku.<br>Kliknite <b>desno</b> da biste <b>grupirali</b> bilješku s onom <b>ispod ili iznad</b>, ovisno o položaju pokazivača.</p>"
+
+#: src/settings.cpp:585
+#, kde-format
+msgid "Do nothing"
+msgstr "Ne radi ništa"
+
+#: src/settings.cpp:586
+#, kde-format
+msgid "Paste clipboard"
+msgstr "Zalijepi sadržaj međuspremnika"
+
+#: src/settings.cpp:589
+#, kde-format
+msgid "Insert cross reference"
+msgstr "Umetni unakrsnu referencu"
+
+#: src/settings.cpp:590
+#, kde-format
+msgid "Insert launcher note"
+msgstr "Umetni bilješku pokretača"
+
+#: src/settings.cpp:593
+#, kde-format
+msgid "Insert color from screen"
+msgstr "Umetni boju sa zaslona"
+
+#: src/settings.cpp:594
+#, kde-format
+msgid "Load note from file"
+msgstr "Učitaj bilješku iz datoteke"
+
+#: src/settings.cpp:595
+#, kde-format
+msgid "Import Launcher for desktop application"
+msgstr "Uvezi pokretač za desktop aplikaciju"
+
+#: src/settings.cpp:596
+#, kde-format
+msgid "Import icon"
+msgstr "Uvezi ikonu"
+
+#: src/settings.cpp:599
+#, kde-format
+msgid "&Shift+middle-click anywhere:"
+msgstr "&Shift+klik srednjom tipkom bilo gdje:"
+
+#: src/settings.cpp:604
+#, kde-format
+msgid "at cursor position"
+msgstr "na položaju pokazivača"
+
+#: src/settings.cpp:610
+#, kde-format
+msgid "Password Protection"
+msgstr "Zaštita lozinkom"
+
+#: src/settings.cpp:619
+#, kde-format
+msgid "A&utomatically lock protected baskets when closed for"
+msgstr "&Automatski zaključaj zaštićene košarice nakon zatvaranja na"
+
+#: src/settings.cpp:623
+#, kde-format
+msgid " minutes"
+msgstr " minuta"
+
+#: src/settings.cpp:634
+#, kde-format
+msgid "Use GnuPG agent for &private/public key protected baskets"
+msgstr "Upotrijebi agenta GnuPG za košarice zaštićene &privatnim/javnim ključem"
+
+#: src/settings.cpp:716
+#, kde-format
+msgid "&Place of new notes:"
+msgstr "&Položaj novih bilješki:"
+
+#: src/settings.cpp:721
+#, kde-format
+msgid "At current note"
+msgstr "Na trenutačnoj bilješci"
+
+#: src/settings.cpp:740
+#, kde-format
+msgid "&New images size:"
+msgstr "&Veličina novih slika:"
+
+#: src/settings.cpp:753
+#, kde-format
+msgid "&by"
+msgstr "&puta"
+
+#: src/settings.cpp:758
+#, kde-format
+msgid "pixels"
+msgstr "piksela"
+
+#: src/settings.cpp:760
+#, kde-format
+msgid "&Visualize..."
+msgstr "&Prikaži..."
+
+#: src/settings.cpp:768
+#, kde-format
+msgid "View Content of Added Files for the Following Types"
+msgstr "Prikaži sadržaj dodanih datoteka sljedećih vrsta"
+
+#: src/settings.cpp:770
+#, kde-format
+msgid "&Plain text"
+msgstr "&Obični tekst"
+
+#: src/settings.cpp:771
+#, kde-format
+msgid "&HTML page"
+msgstr "&HTML-stranica"
+
+#: src/settings.cpp:772
+#, kde-format
+msgid "&Image or animation"
+msgstr "&Slika ili animacija"
+
+#: src/settings.cpp:773
+#, kde-format
+msgid "&Sound"
+msgstr "&Zvuk"
+
+#: src/settings.cpp:841
+#, kde-format
+msgid "Conference audio record"
+msgstr "Snimka zvuka konferencije"
+
+#: src/settings.cpp:842
+#, kde-format
+msgid "Annual report"
+msgstr "Godišnje izvješće"
+
+#: src/settings.cpp:843
+#, kde-format
+msgid "Home folder"
+msgstr "Osobna mapa"
+
+#: src/settings.cpp:845
+#, kde-format
+msgid "Launch %1"
+msgstr "Pokreni %1"
+
+#: src/settings.cpp:846
+#, kde-format
+msgid "Another basket"
+msgstr "Druga košarica"
+
+#: src/settings.cpp:848
+#, kde-format
+msgid "&Sounds"
+msgstr "&Zvukovi"
+
+#: src/settings.cpp:849
+#, kde-format
+msgid "&Files"
+msgstr "&Datoteke"
+
+#: src/settings.cpp:850
+#, kde-format
+msgid "&Local Links"
+msgstr "&Lokalne poveznice"
+
+#: src/settings.cpp:851
+#, kde-format
+msgid "&Network Links"
+msgstr "&Mrežne poveznice"
+
+#: src/settings.cpp:852
+#, kde-format
+msgid "Launc&hers"
+msgstr "Pokreta&či"
+
+#: src/settings.cpp:853
+#, kde-format
+msgid "&Cross References"
+msgstr "&Unakrsne reference"
+
+#: src/settings.cpp:894
+#, kde-format
+msgid "General Launch Associations"
+msgstr "Opće asocijacije pokretanja"
+
+#: src/settings.cpp:897
+#, kde-format
+msgid ""
+"<p>On modern desktop environments, launcher configurations provide "
+"information to the system about how to handle an application.These files are "
+"essential for integrating applications into the desktop environment, to "
+"list, lookup and launch apps with specific configurations</p><p>Here is how "
+"to do if you want to launch Falkon Browser with a specific profile.</"
+"p><ul><li>Open the KDE Menu Editor, and type \"Falkon\" in the search filter;"
+"</li><li>Select \"Falkon\" desktop launcher, right-click, copy and paste;</"
+"li><li>Edit the \"General\" property fields like \"Name\", \"Description\" "
+"or \"Comment\".</li><li>Edit the \"Command-line arguments\" field to "
+"something like \"--profile 'Your-Extensive-Hobby' %%u\".</li></ul><p>Now, "
+"when you choose your new launcher as basket link notes launcher, basket will "
+"open HTTP links with Falkon's \"Your-Extensive-Hobby\" profile</p><p>For "
+"more fine-grained configuration (like opening pdf documents preferably with "
+"Falkon), read the second button tooltip.</p>"
+msgstr "<p>U suvremenim okruženjima radne površine konfiguracije pokretača pružaju sustavu informacije o načinu rukovanja aplikacijom. Te su datoteke ključne za integraciju aplikacija u okruženje radne površine te za popisivanje, pronalaženje i pokretanje aplikacija s određenim konfiguracijama.</p><p>U nastavku je opisano kako pokrenuti preglednik Falkon s određenim profilom.</p><ul><li>Otvorite uređivač izbornika KDE-a i upišite „Falkon” u filtar pretraživanja;</li><li>Odaberite desktop pokretač „Falkon”, kliknite desnom tipkom miša te ga kopirajte i zalijepite;</li><li>Uredite polja svojstava „Općenito”, kao što su „Naziv”, „Opis” ili „Komentar”.</li><li>Uredite polje „Argumenti naredbenog retka”, primjerice u „--profile 'Your-Extensive-Hobby' %%u”.</li></ul><p>Kad novi pokretač odaberete kao pokretač za bilješke s poveznicama u košarici, košarica će otvarati HTTP poveznice profilom „Your-Extensive-Hobby” preglednika Falkon.</p><p>Za detaljniju konfiguraciju (primjerice, za otvaranje PDF dokumenata u pregledniku Falkon) pročitajte opis drugog gumba.</p>"
+
+#: src/settings.cpp:911
+#, kde-format
+msgid ""
+"<p>When opening Web links, they are opened in different applications, "
+"depending on the content of the link (a Web page, an image, a PDF "
+"document...), such as if they were files on your computer.</p><p>Here is how "
+"to do if you want every Web addresses to be opened in your Web browser. It "
+"is useful if you are not using Plasma (if you are using eg. GNOME, XFCE...)."
+"</p><ul><li>Open the KDE System Settings (if it is not available, try to "
+"type \"systemsettings\" in a command line terminal);</li><li>Go to the "
+"\"Applications\" and then \"Default Applications\" section;</li><li>Choose "
+"\"Web Browser\", check \"with the following command:\" and enter the name of "
+"your Web browser (like \"firefox\" or \"epiphany\").</li></ul><p>Now, when "
+"you click <i>any</i> link that start with \"https://...\", it will be opened "
+"in your Web browser (eg. Mozilla Firefox or Epiphany or...).</p><p>For more "
+"fine-grained configuration (like opening only Web pages in your Web "
+"browser), read the third button tooltip.</p>"
+msgstr "<p>Pri otvaranju web-poveznica one se otvaraju u različitim aplikacijama, ovisno o sadržaju poveznice (web-stranica, slika, PDF dokument...), kao da su datoteke na vašem računalu.</p><p>U nastavku je opisano kako postaviti otvaranje svih web-adresa u web-pregledniku. To je korisno ako ne upotrebljavate Plasma (primjerice, koristite GNOME ili XFCE...).</p><ul><li>Otvorite KDE-ove Postavke sustava (ako nisu dostupne, u terminal upišite „systemsettings”);</li><li>Otvorite odjeljak „Aplikacije”, a zatim „Zadane aplikacije”;</li><li>Odaberite „Web-preglednik”, označite „sljedećom naredbom:” i upišite naziv web-preglednika (primjerice, „firefox” ili „epiphany”).</li></ul><p>Sada će se svaka poveznica koja počinje s „https://...” otvoriti u vašem web-pregledniku (npr. Mozilla Firefox ili Epiphany).</p><p>Za detaljniju konfiguraciju (primjerice, otvaranje samo web-stranica u web-pregledniku) pročitajte opis trećeg gumba.</p>"
+
+#: src/settings.cpp:925
+#, kde-format
+msgid ""
+"<p>Here is how to set the application to be used for each type of file. This "
+"also applies to Web links if you choose not to open them systematically in a "
+"Web browser (see the first help link). The default settings should be good "
+"enough for you, but this tip is useful if you are using GNOME, XFCE, or "
+"another environment than Plasma.</p><p>This is an example of how to open "
+"HTML pages in your Web browser (and keep using the other applications for "
+"other addresses or files). Repeat these steps for each type of file you want "
+"to open in a specific application.</p><ul><li>Open the KDE System Settings "
+"(if it is not available, try to type \"systemsettings\" in a command line "
+"terminal);</li><li>Go to the \"Applications\" and then \"File Associations\" "
+"section;</li><li>In the tree, expand \"text\" and click \"html\";</li><li>In "
+"the applications list, add your Web browser as the first entry;</li><li>Do "
+"the same for the type \"application -> xhtml+xml\".</li></ul>"
+msgstr "<p>U nastavku je opisano kako postaviti aplikaciju koja će se upotrebljavati za svaku vrstu datoteke. To se odnosi i na web-poveznice ako ih ne želite uvijek otvarati u web-pregledniku (pogledajte prvu poveznicu za pomoć). Zadane bi postavke trebale biti dovoljne, no ovaj je savjet koristan ako upotrebljavate GNOME, XFCE ili neko drugo okruženje umjesto Plasme.</p><p>Ovo je primjer otvaranja HTML-stranica u web-pregledniku uz zadržavanje drugih aplikacija za ostale adrese i datoteke. Ponovite ove korake za svaku vrstu datoteke koju želite otvoriti u određenoj aplikaciji.</p><ul><li>Otvorite KDE-ove Postavke sustava (ako nisu dostupne, u terminal upišite „systemsettings”);</li><li>Otvorite odjeljak „Aplikacije”, a zatim „Asocijacije datoteka”;</li><li>U stablu proširite „text” i kliknite „html”;</li><li>Na popis aplikacija dodajte web-preglednik kao prvi unos;</li><li>Ponovite postupak za vrstu „application -> xhtml+xml”.</li></ul>"
+
+#: src/settings.cpp:944
+#, kde-format
+msgid "Launch KDE Menu Editor"
+msgstr "Pokreni KDE-ov uređivač izbornika"
+
+#: src/settings.cpp:953
+#, kde-format
+msgid "Default Applications"
+msgstr "Zadane aplikacije"
+
+#: src/settings.cpp:962
+#, kde-format
+msgid "File Associations"
+msgstr "Asocijacije datoteka"
+
+#: src/settings.cpp:973
+#, kde-format
+msgid "Specific Basket Associations"
+msgstr "Posebne asocijacije košarice"
+
+#: src/settings.cpp:975
+#, kde-format
+msgid "Open &text notes with a custom application:"
+msgstr "Otvori &tekstualne bilješke prilagođenom aplikacijom:"
+
+#: src/settings.cpp:976
+#, kde-format
+msgid "Open text notes with:"
+msgstr "Otvori tekstualne bilješke pomoću:"
+
+#: src/settings.cpp:983
+#, kde-format
+msgid "Open &image notes with a custom application:"
+msgstr "Otvori &slikovne bilješke prilagođenom aplikacijom:"
+
+#: src/settings.cpp:984
+#, kde-format
+msgid "Open image notes with:"
+msgstr "Otvori slikovne bilješke pomoću:"
+
+#: src/settings.cpp:991
+#, kde-format
+msgid "Open a&nimation notes with a custom application:"
+msgstr "Otvori a&nimirane bilješke prilagođenom aplikacijom:"
+
+#: src/settings.cpp:992
+#, kde-format
+msgid "Open animation notes with:"
+msgstr "Otvori animirane bilješke pomoću:"
+
+#: src/settings.cpp:999
+#, kde-format
+msgid "Open so&und notes with a custom application:"
+msgstr "Otvori z&vučne bilješke prilagođenom aplikacijom:"
+
+#: src/settings.cpp:1000
+#, kde-format
+msgid "Open sound notes with:"
+msgstr "Otvori zvučne bilješke pomoću:"
+
+#: src/settings.cpp:1007
+#, kde-format
+msgid "Open http link notes with a custom application:"
+msgstr "Otvori bilješke s HTTP poveznicom prilagođenom aplikacijom:"
+
+#: src/settings.cpp:1008
+#, kde-format
+msgid "Open http link notes with:"
+msgstr "Otvori bilješke s HTTP poveznicom pomoću:"
+
+#: src/settings.cpp:1016
+#, kde-format
+msgid ""
+"<p>If checked, the application defined below will be used when opening that "
+"type of note.</p><p>Otherwise, the application you've configured in "
+"Konqueror will be used.</p>"
+msgstr "<p>Ako je označeno, za otvaranje te vrste bilješke upotrebljavat će se aplikacija definirana u nastavku.</p><p>U suprotnom će se upotrijebiti aplikacija koju ste konfigurirali u Konqueroru.</p>"
+
+#: src/settings.cpp:1026
+#, kde-format
+msgid ""
+"<p>Define the application to use for opening that type of note instead of "
+"the application configured in Konqueror.</p>"
+msgstr "<p>Odredite aplikaciju za otvaranje te vrste bilješke umjesto aplikacije konfigurirane u Konqueroru.</p>"
+
+#: src/settings_versionsync.cpp:78
+#, kde-format
+msgid "Do you really want to remove old versions for all baskets?"
+msgstr "Želite li zaista ukloniti stare verzije svih košarica?"
+
+#: src/settings_versionsync.cpp:79
+#, kde-format
+msgid "Remove old Baskets"
+msgstr "Ukloni stare košarice"
+
+#: src/settings_versionsync.cpp:80
+#, kde-format
+msgid "Version Sync"
+msgstr "Sinkronizacija verzija"
+
+#: src/settings_versionsync.cpp:93
+#, kde-format
+msgid "This will free %1"
+msgstr "Oslobodit će se %1"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxEnable)
+#: src/settings_versionsync.ui:17
+#, kde-format
+msgid "Enable distributed version control"
+msgstr "Omogući distribuirani sustav za kontrolu verzija"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWithoutVersionControlSupport)
+#: src/settings_versionsync.ui:24
+#, kde-format
+msgid "BasKet is built without version control (libgit2) support"
+msgstr "BasKet je izgrađen bez podrške za kontrolu verzija (libgit2)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxControl)
+#: src/settings_versionsync.ui:34
+#, kde-format
+msgid "Control"
+msgstr "Upravljanje"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonClearHistory)
+#: src/settings_versionsync.ui:45
+#, kde-format
+msgid "Clear version history"
+msgstr "Očisti povijest verzija"
+
+#: src/softwareimporters.cpp:47
+#, kde-format
+msgid "Import Hierarchy"
+msgstr "Uvoz hijerarhije"
+
+#: src/softwareimporters.cpp:57
+#, kde-format
+msgid "How to Import the Notes?"
+msgstr "Kako uvesti bilješke?"
+
+#: src/softwareimporters.cpp:61
+#, kde-format
+msgid "&Keep original hierarchy (all notes in separate baskets)"
+msgstr "&Zadrži izvornu hijerarhiju (svaka bilješka u zasebnoj košarici)"
+
+#: src/softwareimporters.cpp:62
+#, kde-format
+msgid "&First level notes in separate baskets"
+msgstr "&Bilješke prve razine u zasebnim košaricama"
+
+#: src/softwareimporters.cpp:63
+#, kde-format
+msgid "&All notes in one basket"
+msgstr "&Sve bilješke u jednoj košarici"
+
+#: src/softwareimporters.cpp:107
+#, kde-format
+msgid "Import Text File"
+msgstr "Uvezi tekstnu datoteku"
+
+#: src/softwareimporters.cpp:111
+#, kde-format
+msgid "Format of the Text File"
+msgstr "Format tekstne datoteke"
+
+#: src/softwareimporters.cpp:116
+#, kde-format
+msgid "Notes separated by an &empty line"
+msgstr "Bilješke odvojene &praznim retkom"
+
+#: src/softwareimporters.cpp:117
+#, kde-format
+msgid "One &note per line"
+msgstr "&Jedna bilješka po retku"
+
+#: src/softwareimporters.cpp:118
+#, kde-format
+msgid "Notes begin with a &dash (-)"
+msgstr "Bilješke počinju &crticom (-)"
+
+#: src/softwareimporters.cpp:119
+#, kde-format
+msgid "Notes begin with a &star (*)"
+msgstr "Bilješke počinju &zvjezdicom (*)"
+
+#: src/softwareimporters.cpp:120
+#, kde-format
+msgid "&Use another separator:"
+msgstr "&Upotrijebi drugi razdjelnik:"
+
+#: src/softwareimporters.cpp:136
+#, kde-format
+msgid "&All in one note"
+msgstr "&Sve u jednoj bilješci"
+
+#: src/softwareimporters.cpp:215
+#, kde-format
+msgctxt "From TextFile.txt"
+msgid "From %1"
+msgstr "Od %1"
+
+#: src/tag.cpp:79
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: src/tag.cpp:591
+#, kde-format
+msgid "To Do"
+msgstr "Za napraviti"
+
+#: src/tag.cpp:591
+#, kde-format
+msgid "Unchecked"
+msgstr "Nedovršeno"
+
+#: src/tag.cpp:591
+#, kde-format
+msgid "Done"
+msgstr "Dovršeno"
+
+#: src/tag.cpp:592
+#, kde-format
+msgid "Progress"
+msgstr "Napredak"
+
+#: src/tag.cpp:592
+#, kde-format
+msgid "0 %"
+msgstr "0 %"
+
+#: src/tag.cpp:592
+#, kde-format
+msgid "25 %"
+msgstr "25 %"
+
+#: src/tag.cpp:593
+#, kde-format
+msgid "50 %"
+msgstr "50 %"
+
+#: src/tag.cpp:593
+#, kde-format
+msgid "75 %"
+msgstr "75 %"
+
+#: src/tag.cpp:593
+#, kde-format
+msgid "100 %"
+msgstr "100 %"
+
+#: src/tag.cpp:646
+#, kde-format
+msgid "Priority"
+msgstr "Prioritet"
+
+#: src/tag.cpp:646
+#, kde-format
+msgid "Low"
+msgstr "Nizak"
+
+#: src/tag.cpp:646
+#, kde-format
+msgid "Medium"
+msgstr "Srednji"
+
+#: src/tag.cpp:647
+#, kde-format
+msgid "High"
+msgstr "Visok"
+
+#: src/tag.cpp:647
+#, kde-format
+msgid "Preference"
+msgstr "Sklonost"
+
+#: src/tag.cpp:647
+#, kde-format
+msgid "Bad"
+msgstr "Loše"
+
+#: src/tag.cpp:648
+#, kde-format
+msgid "Good"
+msgstr "Dobro"
+
+#: src/tag.cpp:648
+#, kde-format
+msgid "Excellent"
+msgstr "Izvrsno"
+
+#: src/tag.cpp:648
+#, kde-format
+msgid "Highlight"
+msgstr "Isticanje"
+
+#: src/tag.cpp:717
+#, kde-format
+msgid "Important"
+msgstr "Važno"
+
+#: src/tag.cpp:717
+#, kde-format
+msgid "Very Important"
+msgstr "Vrlo važno"
+
+#: src/tag.cpp:717
+#, kde-format
+msgid "Information"
+msgstr "Informacija"
+
+#: src/tag.cpp:718
+#, kde-format
+msgid "Idea"
+msgstr "Ideja"
+
+#: src/tag.cpp:718
+#, kde-format
+msgctxt "The initial of 'Idea'"
+msgid "I."
+msgstr "I."
+
+#: src/tag.cpp:718
+#, kde-format
+msgid "Title"
+msgstr "Naslov"
+
+#: src/tag.cpp:719
+#, kde-format
+msgid "Code"
+msgstr "Kod"
+
+#: src/tag.cpp:719
+#, kde-format
+msgid "Work"
+msgstr "Posao"
+
+#: src/tag.cpp:719
+#, kde-format
+msgctxt "The initial of 'Work'"
+msgid "W."
+msgstr "P."
+
+#: src/tag.cpp:737
+#, kde-format
+msgid "Personal"
+msgstr "Osobno"
+
+#: src/tag.cpp:737
+#, kde-format
+msgctxt "The initial of 'Personal'"
+msgid "P."
+msgstr "O."
+
+#: src/tag.cpp:737
+#, kde-format
+msgid "Funny"
+msgstr "Smiješno"
+
+#: src/tagsedit.cpp:330
+#, kde-format
+msgid ""
+"This option will enable you to type a cross reference link directly into a "
+"text note. Cross Reference links can have the following syntax:"
+msgstr "Ova mogućnost omogućuje izravan unos poveznice unakrsne reference u tekstnu bilješku. Poveznice unakrsnih referenci mogu imati sljedeću sintaksu:"
+
+#: src/tagsedit.cpp:331
+#, kde-format
+msgid "From the top of the tree (Absolute path):"
+msgstr "Od vrha stabla (apsolutna putanja):"
+
+#: src/tagsedit.cpp:332
+#, kde-format
+msgid "[[/top level item/child|optional title]]"
+msgstr "[[/stavka najviše razine/podređena stavka|neobavezan naslov]]"
+
+#: src/tagsedit.cpp:332
+#, kde-format
+msgid "Relative to the current basket:"
+msgstr "U odnosu na trenutačnu košaricu:"
+
+#: src/tagsedit.cpp:333
+#, kde-format
+msgid "[[../sibling|optional title]]"
+msgstr "[[../susjedna stavka|neobavezan naslov]]"
+
+#: src/tagsedit.cpp:333
+#, kde-format
+msgid "[[child|optional title]]"
+msgstr "[[podređena stavka|neobavezan naslov]]"
+
+#: src/tagsedit.cpp:334
+#, kde-format
+msgid "[[./child|optional title]]"
+msgstr "[[./podređena stavka|neobavezan naslov]]"
+
+#: src/tagsedit.cpp:335
+#, kde-format
+msgid "Baskets matching is cAse inSEnsItive."
+msgstr "Pri podudaranju košarica ne razlikuju se velika i mala slova."
+
+#: src/tagsedit.cpp:372
+#, kde-format
+msgid ""
+"When you copy and paste or drag and drop notes to a text editor, this text "
+"will be inserted as a textual equivalent of the tag."
+msgstr "Pri kopiranju i lijepljenju ili povlačenju i ispuštanju bilješki u uređivač teksta, ovaj će tekst biti umetnut kao tekstualni ekvivalent oznake."
+
+#: src/tagsedit.cpp:381
+#, kde-format
+msgid ""
+"When a note has several lines, you can choose to export the tag or the state "
+"on the first line or on every line of the note."
+msgstr "Ako bilješka ima više redaka, možete odabrati hoće li se oznaka ili stanje izvesti u prvom retku ili u svakom retku bilješke."
+
+#: src/tagsedit.cpp:383
+#, kde-format
+msgid ""
+"In the example above, the tag of the top note is only exported on the first "
+"line, while the tag of the bottom note is exported on every line of the note."
+msgstr "U gornjem se primjeru oznaka gornje bilješke izvozi samo u prvom retku, a oznaka donje bilješke u svakom retku bilješke."
+
+#: src/tagsedit.cpp:770
+#, kde-format
+msgid ""
+"Deleting the tag will remove it from every note it is currently assigned to."
+msgstr "Brisanjem oznake uklonit će se iz svih bilješki kojima je trenutačno dodijeljena."
+
+#: src/tagsedit.cpp:771
+#, kde-format
+msgid "Confirm Delete Tag"
+msgstr "Potvrda brisanja oznake"
+
+#: src/tagsedit.cpp:772
+#, kde-format
+msgid "Delete Tag"
+msgstr "Izbriši oznaku"
+
+#: src/tagsedit.cpp:775
+#, kde-format
+msgid ""
+"Deleting the state will remove the tag from every note the state is "
+"currently assigned to."
+msgstr "Brisanjem stanja uklonit će se oznaka iz svih bilješki kojima je to stanje trenutačno dodijeljeno."
+
+#: src/tagsedit.cpp:776
+#, kde-format
+msgid "Confirm Delete State"
+msgstr "Potvrda brisanja stanja"
+
+#: src/tagsedit.cpp:777
+#, kde-format
+msgid "Delete State"
+msgstr "Izbriši stanje"
+
+#. i18n: ectx: property (title), widget (QGroupBox, stateBox)
+#: src/tagsedit.cpp:894 src/tagsedit.cpp:910 src/tagsedit.ui:161
+#, kde-format
+msgid "State"
+msgstr "Stanje"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagsEditDialog)
+#: src/tagsedit.ui:14
+#, kde-format
+msgid "Customize Tags"
+msgstr "Prilagodi oznake"
+
+#. i18n: ectx: property (text), widget (QPushButton, newTag)
+#: src/tagsedit.ui:24
+#, kde-format
+msgid "Ne&w Tag"
+msgstr "No&va oznaka"
+
+#. i18n: ectx: property (text), widget (QPushButton, newState)
+#: src/tagsedit.ui:31
+#, kde-format
+msgid "New St&ate"
+msgstr "Novo &stanje"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveUp)
+#: src/tagsedit.ui:55
+#, kde-format
+msgid "Move Up (Ctrl+Shift+Up)"
+msgstr "Premjesti gore (Ctrl+Shift+Up)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, moveDown)
+#: src/tagsedit.ui:65
+#, kde-format
+msgid "Move Down (Ctrl+Shift+Down)"
+msgstr "Premjesti dolje (Ctrl+Shift+Down)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteTag)
+#: src/tagsedit.ui:75
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tagBox)
+#: src/tagsedit.ui:91
+#, kde-format
+msgid "Tag"
+msgstr "Oznaka"
+
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: src/tagsedit.ui:110
+#, kde-format
+msgid "S&hortcut:"
+msgstr "&Prečac:"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeShortcut)
+#: src/tagsedit.ui:120
+#, kde-format
+msgctxt "Remove tag shortcut"
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inherit)
+#: src/tagsedit.ui:127
+#, kde-format
+msgid "&Inherited by new sibling notes"
+msgstr "&Naslijedi u novim susjednim bilješkama"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowCrossRefernce)
+#: src/tagsedit.ui:136
+#, kde-format
+msgid "Allow Cross Reference Links"
+msgstr "Dopusti poveznice unakrsnih referenci"
+
+#. i18n: ectx: property (text), widget (HelpLabel, allowCrossReferenceHelp)
+#: src/tagsedit.ui:149
+#, kde-format
+msgid "What does this do?"
+msgstr "Čemu ovo služi?"
+
+#. i18n: ectx: property (text), widget (QLabel, fontLabel)
+#: src/tagsedit.ui:170
+#, kde-format
+msgid "&Font:"
+msgstr "&Font:"
+
+#. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
+#: src/tagsedit.ui:180
+#, kde-format
+msgid "&Size:"
+msgstr "&Veličina:"
+
+#. i18n: ectx: property (text), widget (QLabel, stateNameLabel)
+#: src/tagsedit.ui:190
+#, kde-format
+msgid "Na&me:"
+msgstr "Na&ziv:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, strike)
+#: src/tagsedit.ui:241
+#, kde-format
+msgid "Strike Through"
+msgstr "Precrtano"
+
+#. i18n: ectx: property (text), widget (HelpLabel, textEquivalentHelp)
+#: src/tagsedit.ui:269
+#, kde-format
+msgid "What is this for?"
+msgstr "Čemu ovo služi?"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
+#: src/tagsedit.ui:276
+#, kde-format
+msgid "&Background:"
+msgstr "&Pozadina:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, onEveryLines)
+#: src/tagsedit.ui:286
+#, kde-format
+msgid "On ever&y line"
+msgstr "Na sva&kom retku"
+
+#. i18n: ectx: property (text), widget (QLabel, textColorLabel)
+#: src/tagsedit.ui:296
+#, kde-format
+msgid "Co&lor:"
+msgstr "&Boja:"
+
+#. i18n: ectx: property (text), widget (QLabel, textEquivalentLabel)
+#: src/tagsedit.ui:309
+#, kde-format
+msgid "Te&xt equivalent:"
+msgstr "Te&kstualni ekvivalent:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: src/tagsedit.ui:322
+#, kde-format
+msgid "&Text:"
+msgstr "&Tekst:"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEmblem)
+#: src/tagsedit.ui:347
+#, kde-format
+msgctxt "Remove tag emblem"
+msgid "Remo&ve"
+msgstr "U&kloni"
+
+#. i18n: ectx: property (text), widget (HelpLabel, onEveryLinesHelp)
+#: src/tagsedit.ui:379
+#, kde-format
+msgid "What does this mean?"
+msgstr "Što to znači?"
+
+#. i18n: ectx: property (text), widget (QLabel, emblemLabel)
+#: src/tagsedit.ui:386
+#, kde-format
+msgid "&Emblem:"
+msgstr "&Amblem:"
+
+#: src/tools.cpp:752
+#, kde-format
+msgctxt "Document/application separator in titlebar"
+msgid " – "
+msgstr " – "
+
+#: src/variouswidgets.cpp:112
+#, kde-format
+msgctxt "'<name> (<generic name>)' of application, e.g. 'KWrite (Text Editor)'"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/variouswidgets.cpp:118
+#, kde-format
+msgid "Choose an Application Launcher ..."
+msgstr "Odaberite pokretač aplikacije ..."
+
+#: src/variouswidgets.cpp:119
+#, kde-format
+msgid "Use KDE Plasma Application Launchers to open your Basket Notes"
+msgstr "Upotrijebi pokretače aplikacija KDE Plasma za otvaranje bilješki u košarici"
+
+#: src/variouswidgets.cpp:139 src/variouswidgets.cpp:140
+#: src/variouswidgets.cpp:141 src/variouswidgets.cpp:142
+#: src/variouswidgets.cpp:143 src/variouswidgets.cpp:144
+#: src/variouswidgets.cpp:267 src/variouswidgets.cpp:268
+#: src/variouswidgets.cpp:269 src/variouswidgets.cpp:270
+#: src/variouswidgets.cpp:271 src/variouswidgets.cpp:272
+#, kde-format
+msgid "%1 by %1 pixels"
+msgstr "%1 × %1 piksela"
+
+#: src/variouswidgets.cpp:199
+#, kde-format
+msgid ""
+"Resize the window to select the image size\n"
+"and close it or press Escape to accept changes."
+msgstr "Promijenite veličinu prozora da biste odabrali veličinu slike\ni zatvorite ga ili pritisnite Escape da biste prihvatili promjene."

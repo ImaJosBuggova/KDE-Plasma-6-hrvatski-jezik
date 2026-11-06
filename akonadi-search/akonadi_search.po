@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the akonadi-search package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi-search\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-23 00:49+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: agent/agent.cpp:60
+#, kde-format
+msgctxt "@info:status"
+msgid "No indexers available"
+msgstr "Nema dostupnih indeksatora"
+
+#: agent/collectionindexingjob.cpp:71
+#, kde-format
+msgid "Indexing collection: %1"
+msgstr "Indeksiranje zbirke: %1"
+
+#: agent/htmltotext.cpp:32
+#, kde-format
+msgid "Akonadi HTML To Text"
+msgstr "Akonadi HTML u tekst"
+
+#: agent/htmltotext.cpp:34 agent/htmltotext.cpp:43
+#, kde-format
+msgid "Akonadi HTML To Text Converter"
+msgstr "Pretvarač HTML-a u tekst za Akonadi"
+
+#: agent/htmltotext.cpp:36
+#, kde-format
+msgid "© 2023-2024 KDE Community"
+msgstr "© 2023. – 2024. zajednica KDE-a"
+
+#: agent/htmltotext.cpp:38
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: agent/htmltotext.cpp:38
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: agent/scheduler.cpp:169 agent/scheduler.cpp:200 agent/scheduler.cpp:211
+#, kde-format
+msgid "Ready"
+msgstr "Spremno"
+
+#: agent/scheduler.cpp:245
+#, kde-format
+msgid "Collection \"%1\" indexed"
+msgstr "Zbirka „%1” indeksirana je"
+
+#: debug/akonadisearchdebugdialog.cpp:98
+#, kde-format
+msgid "Text Files (*.txt);;All Files (*)"
+msgstr "Tekstne datoteke (*.txt);;Sve datoteke (*)"
+
+#: debug/akonadisearchdebugdialog.cpp:111
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+"Nije moguće zapisati datoteku %1:\n"
+"„%2” detaljan je opis pogreške."
+
+#: debug/akonadisearchdebugdialog.cpp:115
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File Error"
+msgstr "Pogreška pri spremanju datoteke"
+
+#: runner/pimcontactsrunner.cpp:131 runner/pimcontactsrunner.cpp:222
+#, kde-format
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: runner/pimcontactsrunner.cpp:176 runner/pimcontactsrunner.cpp:185
+#: runner/pimcontactsrunner.cpp:242
+#, kde-format
+msgctxt "Name (email)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: runner/pimcontactsrunner.cpp:223
+#, kde-format
+msgid "Autocompleted from received and sent emails"
+msgstr "Automatski dovršeno iz primljenih i poslanih poruka e-pošte"
+
+#: runner/pimcontactsrunnerconfig.cpp:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Search in contacts indexed from sent and received emails too"
+msgstr "Pretražuj i kontakte indeksirane iz poslanih i primljenih poruka e-pošte"

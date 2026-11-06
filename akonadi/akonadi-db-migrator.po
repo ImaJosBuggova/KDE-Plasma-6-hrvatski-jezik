@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the akonadi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-21 00:51+0000\n"
+"PO-Revision-Date: 2026-11-06 04:21+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: dbmigrator.cpp:447
+#, kde-format
+msgctxt "@info:status"
+msgid "Stopping Akonadi service..."
+msgstr "Zaustavljanje usluge Akonadi..."
+
+#: dbmigrator.cpp:450
+#, kde-format
+msgctxt "@info:status"
+msgid "Error: timeout while waiting for Akonadi to stop."
+msgstr "Pogreška: isteklo je vrijeme čekanja na zaustavljanje Akonadija."
+
+#: dbmigrator.cpp:457
+#, kde-format
+msgctxt "@info:status"
+msgid "Error: couldn't acquire DBus lock for Akonadi."
+msgstr "Pogreška: nije moguće preuzeti D-Bus zaključavanje za Akonadi."
+
+#: dbmigrator.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "Starting Akonadi service..."
+msgstr "Pokretanje usluge Akonadi..."
+
+#: dbmigrator.cpp:479
+#, kde-format
+msgctxt "@info:status"
+msgid "Database fsck completed"
+msgstr "Provjera datotečnog sustava baze podataka je dovršena"
+
+#: dbmigrator.cpp:493
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"Invalid database engine \"%1\" - valid values are \"sqlite\", \"mysql\" and "
+"\"postgres\"."
+msgstr "Nevaljan mehanizam baze podataka „%1” – valjane su vrijednosti „sqlite”, „mysql” i „postgres”."
+
+#: dbmigrator.cpp:515
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: failed to configure source database server."
+msgstr "Pogreška: nije uspjelo konfiguriranje izvornog poslužitelja baze podataka."
+
+#: dbmigrator.cpp:520
+#, kde-format
+msgctxt "@info:shell"
+msgid "Source and destination database engines are the same."
+msgstr "Mehanizmi izvorne i odredišne baze podataka jednaki su."
+
+#: dbmigrator.cpp:527
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: failed to obtain path to source database data file or directory."
+msgstr "Pogreška: nije uspjelo dohvaćanje putanje do datoteke ili direktorija s podacima izvorne baze podataka."
+
+#: dbmigrator.cpp:534
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: failed to configure the new database server."
+msgstr "Pogreška: nije uspjelo konfiguriranje novog poslužitelja baze podataka."
+
+#: dbmigrator.cpp:540
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: failed to open existing database to migrate data from."
+msgstr "Pogreška: nije uspjelo otvaranje postojeće baze podataka iz koje se podaci migriraju."
+
+#: dbmigrator.cpp:545
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error: failed to open new database to migrate data to."
+msgstr "Pogreška: nije uspjelo otvaranje nove baze podataka u koju se podaci migriraju."
+
+#: dbmigrator.cpp:550
+#, kde-format
+msgctxt "@info:status"
+msgid "Running fsck on the source database"
+msgstr "Provjera izvorne baze podataka"
+
+#: dbmigrator.cpp:569
+#, kde-format
+msgctxt "@info:status %2 is error message"
+msgid "Error: failed to remove temporary database directory %1: %2"
+msgstr "Pogreška: nije uspjelo uklanjanje privremenog direktorija baze podataka %1: %2"
+
+#: dbmigrator.cpp:576
+#, kde-format
+msgctxt "@info:shell"
+msgid "Backing up original database..."
+msgstr "Izrada sigurnosne kopije izvorne baze podataka..."
+
+#: dbmigrator.cpp:584
+#, kde-format
+msgctxt "@info:status"
+msgid "Restoring database from backup %1 to %2"
+msgstr "Vraćanje baze podataka iz sigurnosne kopije %1 u %2"
+
+#: dbmigrator.cpp:586
+#, kde-format
+msgctxt "@info:status %1 is error message"
+msgid "Error: failed to restore database from backup: %1"
+msgstr "Pogreška: nije uspjelo vraćanje baze podataka iz sigurnosne kopije: %1"
+
+#: dbmigrator.cpp:618 dbmigrator.cpp:629
+#, kde-format
+msgctxt "@info:shell"
+msgid "Error has occurred while migrating table %1"
+msgstr "Došlo je do pogreške tijekom migracije tablice %1"
+
+#: dbmigrator.cpp:648
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Backup directory already exists. Do you want to overwrite the previous "
+"backup?"
+msgstr "Direktorij sigurnosne kopije već postoji. Želite li prebrisati prethodnu sigurnosnu kopiju?"
+
+#: dbmigrator.cpp:653
+#, kde-format
+msgctxt "@info:shell"
+msgid "Cannot proceed without backup. Migration interrupted."
+msgstr "Nije moguće nastaviti bez sigurnosne kopije. Migracija je prekinuta."
+
+#: dbmigrator.cpp:658
+#, kde-format
+msgctxt "@info:shell"
+msgid "Failed to remove previous backup directory."
+msgstr "Nije uspjelo uklanjanje prethodnog direktorija sigurnosne kopije."
+
+#: dbmigrator.cpp:671
+#, kde-format
+msgctxt "@info:shell"
+msgid "Failed to move database to backup location: %1"
+msgstr "Nije uspjelo premještanje baze podataka na mjesto sigurnosne kopije: %1"
+
+#: dbmigrator.cpp:685
+#, kde-format
+msgctxt "@label"
+msgid "Backup file %1 already exists. Overwrite?"
+msgstr "Datoteka sigurnosne kopije %1 već postoji. Želite li je prebrisati?"
+
+#: dbmigrator.cpp:687
+#, kde-format
+msgctxt "@info:status"
+msgid "Cannot proceed without backup. Migration interrupted."
+msgstr "Nije moguće nastaviti bez sigurnosne kopije. Migracija je prekinuta."
+
+#: dbmigrator.cpp:693
+#, kde-format
+msgctxt "@info:status"
+msgid "Error: Failed to remove existing backup file %1: %2"
+msgstr "Pogreška: nije uspjelo uklanjanje postojeće datoteke sigurnosne kopije %1: %2"
+
+#: dbmigrator.cpp:700
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to back up Akonadi Server configuration: %1"
+msgstr "Nije uspjela izrada sigurnosne kopije konfiguracije poslužitelja Akonadi: %1"
+
+#: dbmigrator.cpp:717
+#, kde-format
+msgctxt "@info:status %1 is error message"
+msgid "Error: failed to move migrated database to the primary location: %1"
+msgstr "Pogreška: nije uspjelo premještanje migrirane baze podataka na primarno mjesto: %1"
+
+#: dbmigrator.cpp:736
+#, kde-format
+msgctxt "@info:status %1 is error message"
+msgid "Error: failed to remove original akonadiserverrc: %1"
+msgstr "Pogreška: nije uspjelo uklanjanje izvorne datoteke akonadiserverrc: %1"
+
+#: dbmigrator.cpp:742
+#, kde-format
+msgctxt "@info:status %1 is error message"
+msgid "Error: failed to move new akonadiserverrc to the primary location: %1"
+msgstr "Pogreška: nije uspjelo premještanje nove datoteke akonadiserverrc na primarno mjesto: %1"
+
+#: dbmigrator.cpp:833
+#, kde-format
+msgctxt "@info:status"
+msgid "Error: failed to update autoincrement value for table %1"
+msgstr "Pogreška: nije uspjelo ažuriranje vrijednosti automatskog povećanja za tablicu %1"
+
+#: dbmigrator.cpp:838
+#, kde-format
+msgctxt "@info:status"
+msgid "Optimizing table %1..."
+msgstr "Optimizacija tablice %1..."
+
+#: dbmigrator.cpp:841
+#, kde-format
+msgctxt "@info:status"
+msgid "Error: failed to optimize table %1"
+msgstr "Pogreška: nije uspjela optimizacija tablice %1"
+
+#: main.cpp:31
+#, kde-format
+msgctxt ""
+"Options for user to input to command line prompt, parenthesis indicate which "
+"letter to type, capitalized option is default"
+msgid " [(y)es/(N)o] "
+msgstr " [(d)a/(N)e] "
+
+#: main.cpp:36 main.cpp:55
+#, kde-format
+msgctxt "Letter for option \"(y)es\" prompted from command line"
+msgid "y"
+msgstr "d"
+
+#: main.cpp:49
+#, kde-format
+msgctxt ""
+"Options for user to input to command line prompt, parenthesis indicate which "
+"letter to type, capitalized option is default"
+msgid " [(y)es/(N)o/(s)kip] "
+msgstr " [(d)a/(N)e/(p)reskoči] "
+
+#: main.cpp:56
+#, kde-format
+msgctxt "Letter for option \"(s)kip\" prompted from command line"
+msgid "s"
+msgstr "p"
+
+#: main.cpp:75 main.cpp:77
+#, kde-format
+msgid "Akonadi DB Migrator"
+msgstr "Akonadijev migrator baze podataka"
+
+#: main.cpp:79
+#, kde-format
+msgid "(c) 2024 g10 Code GmbH"
+msgstr "(c) 2024 g10 Code GmbH"
+
+#: main.cpp:85
+#, kde-format
+msgid ""
+"The new DB engine to use. Possible values are  \"sqlite\", \"mysql\" and "
+"\"postgres\""
+msgstr "Novi mehanizam baze podataka. Moguće vrijednosti su „sqlite”, „mysql” i „postgres”."
+
+#: main.cpp:92
+#, kde-format
+msgctxt "@info:shell"
+msgid "Invalid target engine: %1."
+msgstr "Nevaljan ciljni mehanizam: %1."
+
+#: main.cpp:106
+#, kde-format
+msgctxt "@info:status"
+msgid "Migration completed successfully."
+msgstr "Migracija je uspješno dovršena."
+
+#: main.cpp:108
+#, kde-format
+msgctxt "@info:status"
+msgid "Migration failed."
+msgstr "Migracija nije uspjela."
+
+#: main.cpp:113
+#, kde-format
+msgctxt "@info:progress"
+msgid "Migrating table %1 (%2/%3)..."
+msgstr "Migracija tablice %1 (%2/%3)..."
+
+#: main.cpp:127
+#, kde-format
+msgctxt "@info:progress"
+msgid "%1%..."
+msgstr "%1%..."

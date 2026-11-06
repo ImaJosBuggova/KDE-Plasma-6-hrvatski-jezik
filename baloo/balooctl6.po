@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the baloo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: baloo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-29 00:49+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: clearcommand.cpp:30
+#, kde-format
+msgid "Immediately clear entries from the index"
+msgstr "Odmah ukloni unose iz indeksa"
+
+#: configcommand.cpp:45
+#, kde-format
+msgid "Manipulate the Baloo configuration"
+msgstr "Upravljanje konfiguracijom Balooa"
+
+#: configcommand.cpp:68
+#, kde-format
+msgid "The config command can be used to manipulate the Baloo Configuration\n"
+msgstr "Naredba config služi za upravljanje konfiguracijom Balooa\n"
+
+#: configcommand.cpp:69
+#, kde-format
+msgid ""
+"Usage: balooctl config <command>\n"
+"\n"
+msgstr ""
+"Upotreba: balooctl config <command>\n"
+"\n"
+
+#: configcommand.cpp:70
+#, kde-format
+msgid "Possible Commands:\n"
+msgstr "Moguće naredbe:\n"
+
+#: configcommand.cpp:72
+#, kde-format
+msgid "Add a value to config parameter"
+msgstr "Dodaj vrijednost konfiguracijskom parametru"
+
+#: configcommand.cpp:73
+#, kde-format
+msgid "Remove a value from a config parameter"
+msgstr "Ukloni vrijednost iz konfiguracijskog parametra"
+
+#: configcommand.cpp:74
+#, kde-format
+msgid "Show the value of a config parameter"
+msgstr "Prikaži vrijednost konfiguracijskog parametra"
+
+#: configcommand.cpp:75
+#, kde-format
+msgid "Set the value of a config parameter"
+msgstr "Postavi vrijednost konfiguracijskog parametra"
+
+#: configcommand.cpp:76
+#, kde-format
+msgid "Display this help menu"
+msgstr "Prikaži ovaj izbornik pomoći"
+
+#: configcommand.cpp:82
+#, kde-format
+msgid ""
+"The following configuration options may be listed:\n"
+"\n"
+msgstr ""
+"Mogu se prikazati sljedeće mogućnosti konfiguracije:\n"
+"\n"
+
+#: configcommand.cpp:84 configcommand.cpp:367
+#, kde-format
+msgid "Controls if Baloo indexes hidden files and folders"
+msgstr "Određuje indeksira li Baloo skrivene datoteke i mape"
+
+#: configcommand.cpp:85 configcommand.cpp:368
+#, kde-format
+msgid "Controls if Baloo indexes file content"
+msgstr "Određuje indeksira li Baloo sadržaj datoteka"
+
+#: configcommand.cpp:86 configcommand.cpp:153 configcommand.cpp:244
+#, kde-format
+msgid "The list of folders which Baloo indexes"
+msgstr "Popis mapa koje Baloo indeksira"
+
+#: configcommand.cpp:87 configcommand.cpp:154 configcommand.cpp:245
+#, kde-format
+msgid "The list of folders which Baloo will never index"
+msgstr "Popis mapa koje Baloo nikada neće indeksirati"
+
+#: configcommand.cpp:88 configcommand.cpp:155 configcommand.cpp:246
+#, kde-format
+msgid "The list of filters which are used to exclude files"
+msgstr "Popis filtara za isključivanje datoteka"
+
+#: configcommand.cpp:89 configcommand.cpp:156 configcommand.cpp:247
+#, kde-format
+msgid "The list of mimetypes which are used to exclude files"
+msgstr "Popis MIME vrsta za isključivanje datoteka"
+
+#: configcommand.cpp:145 configcommand.cpp:236 configcommand.cpp:359
+#: configcommand.cpp:429
+#, kde-format
+msgid "Config parameter could not be found\n"
+msgstr "Konfiguracijski parametar nije pronađen\n"
+
+#: configcommand.cpp:151 configcommand.cpp:242 configcommand.cpp:365
+#, kde-format
+msgid ""
+"The following configuration options may be modified:\n"
+"\n"
+msgstr ""
+"Moguće je izmijeniti sljedeće mogućnosti konfiguracije:\n"
+"\n"
+
+#: configcommand.cpp:164 configcommand.cpp:184 configcommand.cpp:255
+#: configcommand.cpp:290
+#, kde-format
+msgid "A folder must be provided\n"
+msgstr "Potrebno je navesti mapu\n"
+
+#: configcommand.cpp:172
+#, kde-format
+msgid "%1 is not in the list of include folders"
+msgstr "%1 nije na popisu uključenih mapa"
+
+#: configcommand.cpp:192
+#, kde-format
+msgid "%1 is not in the list of exclude folders"
+msgstr "%1 nije na popisu isključenih mapa"
+
+#: configcommand.cpp:204 configcommand.cpp:325
+#, kde-format
+msgid "A filter must be provided\n"
+msgstr "Potrebno je navesti filtar\n"
+
+#: configcommand.cpp:210
+#, kde-format
+msgid "%1 is not in list of exclude filters"
+msgstr "%1 nije na popisu filtara za isključivanje"
+
+#: configcommand.cpp:221 configcommand.cpp:343
+#, kde-format
+msgid "A mimetype must be provided\n"
+msgstr "Potrebno je navesti MIME vrstu\n"
+
+#: configcommand.cpp:227
+#, kde-format
+msgid "%1 is not in list of exclude mimetypes"
+msgstr "%1 nije na popisu MIME vrsta za isključivanje"
+
+#: configcommand.cpp:261 configcommand.cpp:296
+#, kde-format
+msgid "Path does not exist\n"
+msgstr "Putanja ne postoji\n"
+
+#: configcommand.cpp:266 configcommand.cpp:301
+#, kde-format
+msgid "Path is not a directory\n"
+msgstr "Putanja nije mapa\n"
+
+#: configcommand.cpp:273
+#, kde-format
+msgid "%1 is already in the list of include folders"
+msgstr "%1 je već na popisu uključenih mapa"
+
+#: configcommand.cpp:278
+#, kde-format
+msgid "%1 is in the list of exclude folders"
+msgstr "%1 je na popisu isključenih mapa"
+
+#: configcommand.cpp:308
+#, kde-format
+msgid "%1 is already in the list of exclude folders"
+msgstr "%1 je već na popisu isključenih mapa"
+
+#: configcommand.cpp:313
+#, kde-format
+msgid "%1 is in the list of include folders"
+msgstr "%1 je na popisu uključenih mapa"
+
+#: configcommand.cpp:331
+#, kde-format
+msgid "Exclude filter is already in the list\n"
+msgstr "Filtar za isključivanje već je na popisu\n"
+
+#: configcommand.cpp:349
+#, kde-format
+msgid "Exclude mimetype is already in the list\n"
+msgstr "MIME vrsta za isključivanje već je na popisu\n"
+
+#: configcommand.cpp:377 configcommand.cpp:404
+#, kde-format
+msgid "A value must be provided\n"
+msgstr "Potrebno je navesti vrijednost\n"
+
+#: configcommand.cpp:398 configcommand.cpp:425
+#, kde-format
+msgid "Invalid value\n"
+msgstr "Nevaljana vrijednost\n"
+
+#: indexcommand.cpp:29
+#, kde-format
+msgid "Immediately index files"
+msgstr "Odmah indeksiraj datoteke"
+
+#: main.cpp:52
+#, kde-format
+msgid "balooctl"
+msgstr "balooctl"
+
+#: main.cpp:53
+#, kde-format
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"
+
+#: main.cpp:58
+#, kde-format
+msgid "The command to execute"
+msgstr "Naredba koju treba izvršiti"
+
+#: main.cpp:60
+#, kde-format
+msgid "Print the status of the indexer"
+msgstr "Prikaži stanje indeksatora"
+
+#: main.cpp:61
+#, kde-format
+msgid "Enable the file indexer"
+msgstr "Omogući indeksator datoteka"
+
+#: main.cpp:62
+#, kde-format
+msgid "Disable the file indexer"
+msgstr "Onemogući indeksator datoteka"
+
+#: main.cpp:63
+#, kde-format
+msgid "Remove the index database"
+msgstr "Ukloni bazu indeksa"
+
+#: main.cpp:64
+#, kde-format
+msgid "Suspend the file indexer"
+msgstr "Obustavi indeksator datoteka"
+
+#: main.cpp:65
+#, kde-format
+msgid "Resume the file indexer"
+msgstr "Nastavi rad indeksatora datoteka"
+
+#: main.cpp:66
+#, kde-format
+msgid "Check for any unindexed files and index them"
+msgstr "Pronađi neindeksirane datoteke i indeksiraj ih"
+
+#: main.cpp:67
+#, kde-format
+msgid "Index the specified files"
+msgstr "Indeksiraj navedene datoteke"
+
+#: main.cpp:68
+#, kde-format
+msgid "Forget the specified files"
+msgstr "Zaboravi navedene datoteke"
+
+#: main.cpp:69
+#, kde-format
+msgid "Modify the Baloo configuration"
+msgstr "Izmijeni konfiguraciju Balooa"
+
+#: main.cpp:70
+#, kde-format
+msgid "Monitor the file indexer"
+msgstr "Nadziranje indeksatora datoteka"
+
+#: main.cpp:71
+#, kde-format
+msgid "Display the disk space used by index"
+msgstr "Prikaži prostor na disku koji zauzima indeks"
+
+#: main.cpp:72
+#, kde-format
+msgid "Display files which could not be indexed"
+msgstr "Prikaži datoteke koje nije bilo moguće indeksirati"
+
+#: main.cpp:75
+#, kde-format
+msgctxt ""
+"Format to use for status command, %1|%2|%3 are option values, %4 is a CLI "
+"command"
+msgid ""
+"Output format <%1|%2|%3>.\n"
+"The default format is \"%1\".\n"
+"Only applies to \"%4\""
+msgstr ""
+"Izlazni format <%1|%2|%3>.\n"
+"Zadani format je „%1”.\n"
+"Primjenjuje se samo na „%4”."
+
+#: main.cpp:81
+#, kde-format
+msgid "format"
+msgstr "format"
+
+#: monitorcommand.cpp:28
+msgctxt "File index suceeded"
+msgid "Ok"
+msgstr "U redu"
+
+#: monitorcommand.cpp:29
+msgctxt "File index skipped"
+msgid "File path ignored"
+msgstr "Putanja datoteke zanemarena"
+
+#: monitorcommand.cpp:30
+msgctxt "File index skipped"
+msgid "File type ignored"
+msgstr "Vrsta datoteke zanemarena"
+
+#: monitorcommand.cpp:31
+msgctxt "File index skipped"
+msgid "File type not supported"
+msgstr "Vrsta datoteke nije podržana"
+
+#: monitorcommand.cpp:32
+msgctxt "File index skipped"
+msgid "File too large"
+msgstr "Datoteka je prevelika"
+
+#: monitorcommand.cpp:33
+msgctxt "File index failed"
+msgid "File not found"
+msgstr "Datoteka nije pronađena"
+
+#: monitorcommand.cpp:34
+msgctxt "File index failed"
+msgid "Failed to extract metadata/content"
+msgstr "Izdvajanje metapodataka/sadržaja nije uspjelo"
+
+#: monitorcommand.cpp:47
+#, kde-format
+msgctxt "Unknown index result code"
+msgid "<unknown> [%1]"
+msgstr "<nepoznato> [%1]"
+
+#: monitorcommand.cpp:87
+#, kde-format
+msgid "Press ctrl+c to stop monitoring\n"
+msgstr "Pritisnite Ctrl+C za prekid nadzora\n"
+
+#: monitorcommand.cpp:123
+#, kde-format
+msgid "Waiting for file indexer to start\n"
+msgstr "Čekanje na pokretanje indeksatora datoteka\n"
+
+#: monitorcommand.cpp:124
+#, kde-format
+msgid "Press Ctrl+C to stop monitoring\n"
+msgstr "Pritisnite Ctrl+C za prekid nadzora\n"
+
+#: monitorcommand.cpp:131
+#, kde-format
+msgid "File indexer is running\n"
+msgstr "Indeksator datoteka je pokrenut\n"
+
+#: monitorcommand.cpp:147 monitorcommand.cpp:155 statuscommand.cpp:307
+#, kde-format
+msgctxt "currently indexed file"
+msgid "Indexing: %1"
+msgstr "Indeksiranje: %1"
+
+#: monitorcommand.cpp:158
+#, kde-format
+msgctxt "index result"
+msgid ": %1\n"
+msgstr ": %1\n"
+
+#: monitorcommand.h:32
+#, kde-format
+msgid "CLI interface for monitoring Baloo"
+msgstr "Sučelje naredbenog retka za nadzor Balooa"
+
+#: purgecommand.cpp:53
+#, kde-format
+msgid "Remove the complete DB, and restart the daemon if enabled"
+msgstr "Ukloni cijelu bazu podataka i ponovno pokreni pozadinski servis ako je omogućen"
+
+#: statuscommand.cpp:33
+#, kde-format
+msgid "Print the status of the Indexer"
+msgstr "Prikaži stanje indeksatora"
+
+#: statuscommand.cpp:117
+#, kde-format
+msgid "File ignored"
+msgstr "Datoteka zanemarena"
+
+#: statuscommand.cpp:118
+#, kde-format
+msgid "Basic Indexing: Disabled"
+msgstr "Osnovno indeksiranje: onemogućeno"
+
+#: statuscommand.cpp:119 statuscommand.cpp:120
+#, kde-format
+msgid "Basic Indexing: Scheduled"
+msgstr "Osnovno indeksiranje: zakazano"
+
+#: statuscommand.cpp:121 statuscommand.cpp:122 statuscommand.cpp:123
+#: statuscommand.cpp:124
+#, kde-format
+msgid "Basic Indexing: Done"
+msgstr "Osnovno indeksiranje: dovršeno"
+
+#: statuscommand.cpp:130 statuscommand.cpp:133
+#, kde-format
+msgid "Content Indexing: Scheduled"
+msgstr "Indeksiranje sadržaja: zakazano"
+
+#: statuscommand.cpp:134
+#, kde-format
+msgid "Content Indexing: Failed"
+msgstr "Indeksiranje sadržaja: nije uspjelo"
+
+#: statuscommand.cpp:135
+#, kde-format
+msgid "Content Indexing: Done"
+msgstr "Indeksiranje sadržaja: dovršeno"
+
+#: statuscommand.cpp:142 statuscommand.cpp:182 statuscommand.cpp:230
+#, kde-format
+msgid "Ignoring non-existent file %1"
+msgstr "Zanemaruje se nepostojeća datoteka %1"
+
+#: statuscommand.cpp:147 statuscommand.cpp:187 statuscommand.cpp:235
+#, kde-format
+msgid "Ignoring symlink/special file %1"
+msgstr "Zanemaruje se simbolička poveznica ili posebna datoteka %1"
+
+#: statuscommand.cpp:151
+#, kde-format
+msgid "File: %1"
+msgstr "Datoteka: %1"
+
+#: statuscommand.cpp:262
+#, kde-format
+msgid "Output format \"%1\" is invalid, use one of:\n"
+msgstr "Izlazni format „%1” nije valjan; upotrijebite jedan od sljedećih:\n"
+
+#: statuscommand.cpp:264
+#, kde-format
+msgctxt "bullet list item with output format"
+msgid "- %1\n"
+msgstr "- %1\n"
+
+#: statuscommand.cpp:271
+#, kde-format
+msgid "Baloo is currently disabled. To enable, please run %1\n"
+msgstr "Baloo je trenutačno onemogućen. Za njegovo uključivanje pokrenite %1\n"
+
+#: statuscommand.cpp:277
+#, kde-format
+msgid "Baloo Index could not be opened\n"
+msgstr "Nije moguće otvoriti Balooov indeks\n"
+
+#: statuscommand.cpp:304
+#, kde-format
+msgid "Baloo File Indexer is running\n"
+msgstr "Balooov indeksator datoteka je pokrenut\n"
+
+#: statuscommand.cpp:306 statuscommand.cpp:309
+#, kde-format
+msgid "Indexer state: %1"
+msgstr "Stanje indeksatora: %1"
+
+#: statuscommand.cpp:313
+#, kde-format
+msgid "Baloo File Indexer is not running\n"
+msgstr "Balooov indeksator datoteka nije pokrenut\n"
+
+#: statuscommand.cpp:320
+#, kde-format
+msgid "Total files indexed: %1"
+msgstr "Ukupno indeksiranih datoteka: %1"
+
+#: statuscommand.cpp:321
+#, kde-format
+msgid "Files waiting for content indexing: %1"
+msgstr "Datoteke koje čekaju indeksiranje sadržaja: %1"
+
+#: statuscommand.cpp:322
+#, kde-format
+msgid "Files failed to index: %1"
+msgstr "Neuspješno indeksirane datoteke: %1"
+
+#: statuscommand.cpp:330
+#, kde-format
+msgid "Current size of index is %1"
+msgstr "Trenutačna veličina indeksa je %1"
+
+#: statuscommand.cpp:332
+#, kde-format
+msgid "Index does not exist yet\n"
+msgstr "Indeks još ne postoji\n"

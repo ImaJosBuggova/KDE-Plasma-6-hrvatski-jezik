@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the baloo-widgets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: baloo-widgets\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-18 00:47+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: src/filemetadataprovider.cpp:201 src/filemetadataprovider.cpp:207
+#: src/filemetadataprovider.cpp:302 src/filemetadataprovider.cpp:305
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 stavka"
+msgstr[1] "%1 stavke"
+msgstr[2] "%1 stavki"
+
+#: src/filemetadataprovider.cpp:439 src/filemetadataprovider.cpp:456
+#, kde-format
+msgctxt "@label"
+msgid "Comment"
+msgstr "Komentar"
+
+#: src/filemetadataprovider.cpp:440
+#, kde-format
+msgctxt "@label"
+msgid "Created"
+msgstr "Stvoreno"
+
+#: src/filemetadataprovider.cpp:441
+#, kde-format
+msgctxt "@label"
+msgid "Accessed"
+msgstr "Pristupljeno"
+
+#: src/filemetadataprovider.cpp:442
+#, kde-format
+msgctxt "@label"
+msgid "Modified"
+msgstr "Izmijenjeno"
+
+#: src/filemetadataprovider.cpp:443
+#, kde-format
+msgctxt "@label"
+msgid "Owner"
+msgstr "Vlasnik"
+
+#: src/filemetadataprovider.cpp:444
+#, kde-format
+msgctxt "@label"
+msgid "Group"
+msgstr "Grupa"
+
+#: src/filemetadataprovider.cpp:445
+#, kde-format
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: src/filemetadataprovider.cpp:446 src/filemetadataprovider.cpp:455
+#, kde-format
+msgctxt "@label"
+msgid "Rating"
+msgstr "Ocjena"
+
+#: src/filemetadataprovider.cpp:447
+#, kde-format
+msgctxt "@label"
+msgid "Size"
+msgstr "Veličina"
+
+#: src/filemetadataprovider.cpp:448 src/filemetadataprovider.cpp:454
+#, kde-format
+msgctxt "@label"
+msgid "Tags"
+msgstr "Oznake"
+
+#: src/filemetadataprovider.cpp:449
+#, kde-format
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Ukupna veličina"
+
+#: src/filemetadataprovider.cpp:450
+#, kde-format
+msgctxt "@label"
+msgid "Hidden items"
+msgstr "Skrivene stavke"
+
+#: src/filemetadataprovider.cpp:451
+#, kde-format
+msgctxt "@label"
+msgid "Type"
+msgstr "Vrsta"
+
+#: src/filemetadataprovider.cpp:452
+#, kde-format
+msgctxt "@label"
+msgid "Link to"
+msgstr "Poveznica na"
+
+#: src/filemetadataprovider.cpp:453
+#, kde-format
+msgctxt "@label"
+msgid "Points to"
+msgstr "Pokazuje na"
+
+#: src/filemetadataprovider.cpp:457
+#, kde-format
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr "Preuzeto iz"
+
+#: src/filemetadataprovider.cpp:458
+#, kde-format
+msgctxt "@label"
+msgid "Dimensions"
+msgstr "Dimenzije"
+
+#: src/filemetadataprovider.cpp:459
+#, kde-format
+msgctxt "@label"
+msgid "GPS Location"
+msgstr "Lokacija GPS-a"
+
+#: src/filepropertiesplugin/baloofilepropertiesplugin.cpp:53
+#, kde-format
+msgctxt "Tab page with file meta data"
+msgid "&Details"
+msgstr "&Pojedinosti"
+
+#: src/kcommentwidget.cpp:40
+#, kde-format
+msgctxt "accessible name for file metadata comment text box"
+msgid "Comment"
+msgstr "Komentar"
+
+#: src/kcommentwidget.cpp:53
+#, kde-format
+msgctxt "@action:button file metadata comment"
+msgid "Save Comment"
+msgstr "Spremi komentar"
+
+#: src/kedittagsdialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Tags"
+msgstr "Uredi oznake"
+
+#: src/kedittagsdialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "Dodaj oznake"
+
+#: src/kedittagsdialog.cpp:40
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: src/kedittagsdialog.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr "Odaberite koje će se oznake primijeniti."
+
+#: src/kedittagsdialog.cpp:64
+#, kde-format
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "Stvori novu oznaku:"
+
+#: src/tagcheckbox.cpp:23
+#, kde-format
+msgctxt "accessible name for tag, %1 is the tag label"
+msgid "%1 tag"
+msgstr "Oznaka %1"
+
+#. i18n: A tag is a keyword to add to files and folders for organization and to quickly find all items with the same tag later. "Everything" refers to
+#. files and folders, but this is obvious to the user because the user usually has tagged those items previously. This is about clicking a tag in the UI
+#. to show the list of items with the same tag %1.
+#: src/tagcheckbox.cpp:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show everything tagged “%1”"
+msgstr "Prikaži sve označeno s „%1”"
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:50
+#, kde-format
+msgid "Assign Tags"
+msgstr "Dodijeli oznake"
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:84
+#, kde-format
+msgid "Edit tags..."
+msgstr "Uredi oznake..."
+
+#: src/tagwidget.cpp:83
+#, kde-format
+msgctxt "@action:button"
+msgid "Add tags…"
+msgstr "Dodaj oznake…"
+
+#: src/tagwidget.cpp:83
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit tags…"
+msgstr "Uredi oznake…"
+
+#: src/widgetfactory.cpp:62
+#, kde-format
+msgctxt "Latitude (South)"
+msgid "%1°S"
+msgstr "%1°J"
+
+#: src/widgetfactory.cpp:62
+#, kde-format
+msgctxt "Latitude (North)"
+msgid "%1°N"
+msgstr "%1°S"
+
+#: src/widgetfactory.cpp:63
+#, kde-format
+msgctxt "Longitude (West)"
+msgid "%1°W"
+msgstr "%1°Z"
+
+#: src/widgetfactory.cpp:63
+#, kde-format
+msgctxt "Longitude (East)"
+msgid "%1°E"
+msgstr "%1°I"
+
+#: src/widgetfactory.cpp:71
+#, kde-format
+msgctxt "@info:tooltip Show location in map viewer"
+msgid "Show location in %1"
+msgstr "Prikaži lokaciju u %1"
+
+#: src/widgetfactory.cpp:93
+#, kde-format
+msgctxt "width × height"
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: src/widgetfactory.cpp:286 src/widgetfactory.cpp:297
+#, kde-format
+msgctxt "String list separator"
+msgid ", "
+msgstr ", "
