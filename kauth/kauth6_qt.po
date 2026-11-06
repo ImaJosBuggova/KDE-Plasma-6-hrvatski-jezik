@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Project-Id-Version: KDE-Plasma 6-hrvatski-jezik\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"X-Generator: Copilot\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: backends/dbus/DBusHelperProxy.cpp:83
+#, qt-format
+msgctxt "KAuth::DBusHelperProxy|"
+msgid "DBus Backend error: service start %1 failed: %2"
+msgstr "Pogreška pozadinske usluge D-Bus: pokretanje usluge %1 nije uspjelo: %2"
+
+#: backends/dbus/DBusHelperProxy.cpp:98
+#, qt-format
+msgctxt "KAuth::DBusHelperProxy|"
+msgid ""
+"DBus Backend error: connection to helper failed. %1\n"
+"(application: %2 helper: %3)"
+msgstr "Pogreška pozadinske usluge D-Bus: povezivanje s pomoćnim programom nije uspjelo. %1\n(aplikacija: %2 pomoćni program: %3)"
+
+#: backends/dbus/DBusHelperProxy.cpp:134
+#, qt-format
+msgctxt "KAuth::DBusHelperProxy|"
+msgid "DBus Backend error: could not contact the helper. Connection error: %1. Message error: %2"
+msgstr "Pogreška pozadinske usluge D-Bus: nije moguće kontaktirati pomoćni program. Pogreška povezivanja: %1. Pogreška poruke: %2"
+
+#: executejob.cpp:104
+msgctxt "KAuth::ExecuteJob|"
+msgid "Tried to start an invalid action"
+msgstr "Pokušaj pokretanja nevaljane radnje"
+
+#: executejob.cpp:122
+msgctxt "KAuth::ExecuteJob|"
+msgid "Unknown execution mode chosen"
+msgstr "Odabran je nepoznati način izvršavanja"
+
+#: executejob.cpp:171
+msgctxt "KAuth::ExecuteJob|"
+msgid "Unknown status for the authentication procedure"
+msgstr "Nepoznat status postupka autentifikacije"
+
+#: executejob.cpp:183
+msgctxt "KAuth::ExecuteJob|"
+msgid "The current backend only allows helper authorization, but this action does not have a helper."
+msgstr "Trenutačna pozadinska usluga dopušta samo autorizaciju pomoću pomoćnog programa, ali ova radnja nema pomoćni program."
+
+#: executejob.cpp:191 executejob.cpp:215
+msgctxt "KAuth::ExecuteJob|"
+msgid "The backend does not specify how to authorize"
+msgstr "Pozadinska usluga ne navodi način autorizacije"
+
+

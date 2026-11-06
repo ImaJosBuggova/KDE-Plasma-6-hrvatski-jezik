@@ -1,0 +1,324 @@
+# Croatian translations for kidentitymanagement package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kidentitymanagement package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kidentitymanagement\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-07 00:49+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"X-Generator: Copilot\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: core/identitymanager.cpp:160
+#, kde-format
+msgctxt "use default address from control center"
+msgid "Default"
+msgstr "Zadano"
+
+#: core/identitymanager.cpp:185
+#, kde-format
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "Neimenovano"
+
+#: core/identitymanager.cpp:356
+#, kde-format
+msgctxt "%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 #%2"
+
+#: core/identitymanager.cpp:570
+#, kde-format
+msgid "Unnamed"
+msgstr "Neimenovano"
+
+#: core/identitymodel.cpp:44
+#, kde-format
+msgctxt "Separator between identity name and email address"
+msgid " - "
+msgstr " – "
+
+#: core/identitytreemodel.cpp:99
+#, kde-format
+msgctxt "Default identity"
+msgid " (default)"
+msgstr " (zadano)"
+
+#: core/identitytreemodel.cpp:140
+#, kde-format
+msgid "Identity Name"
+msgstr "Naziv identiteta"
+
+#: core/identitytreemodel.cpp:143
+#, kde-format
+msgid "Email Address"
+msgstr "Adresa e-pošte"
+
+#: core/signature.cpp:165
+#, kde-format
+msgid "<qt>Failed to execute signature script<p><b>%1</b>:</p><p>%2</p></qt>"
+msgstr "<qt>Izvršavanje skripte potpisa nije uspjelo<p><b>%1</b>:</p><p>%2</p></qt>"
+
+#: quick/qml/BasicIdentityEditorCard.qml:28
+#, kde-format
+msgid "Identity"
+msgstr "Identitet"
+
+#: quick/qml/BasicIdentityEditorCard.qml:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Identity Name"
+msgstr "Naziv identiteta"
+
+#: quick/qml/BasicIdentityEditorCard.qml:46
+#, kde-format
+msgid "Your name"
+msgstr "Vaše ime"
+
+#: quick/qml/BasicIdentityEditorCard.qml:56
+#, kde-format
+msgid "Email address"
+msgstr "Adresa e-pošte"
+
+#: quick/qml/BasicIdentityEditorCard.qml:64
+#, kde-format
+msgid "E-mail aliases"
+msgstr "Pseudonimi e-pošte"
+
+#: quick/qml/BasicIdentityEditorCard.qml:98
+#, kde-format
+msgid "Remove email alias"
+msgstr "Ukloni pseudonim e-pošte"
+
+#: quick/qml/BasicIdentityEditorCard.qml:118
+#, kde-format
+msgid "user@example.org"
+msgstr "user@example.org"
+
+#: quick/qml/BasicIdentityEditorCard.qml:127
+#, kde-format
+msgid "Add email alias"
+msgstr "Dodaj pseudonim e-pošte"
+
+#: quick/qml/CryptographyEditorCard.qml:55
+#, kde-format
+msgctxt "@label"
+msgid "OpenPGP key"
+msgstr "Ključ OpenPGP-a"
+
+#: quick/qml/CryptographyEditorCard.qml:55
+#, kde-format
+msgctxt "@label"
+msgid "OpenPGP signing key"
+msgstr "Ključ za potpisivanje OpenPGP-om"
+
+#: quick/qml/CryptographyEditorCard.qml:82
+#, kde-format
+msgctxt "@label"
+msgid "Use same OpenPGP key for encryption and signing"
+msgstr "Koristi isti ključ OpenPGP-a za šifriranje i potpisivanje"
+
+#: quick/qml/CryptographyEditorCard.qml:111
+#, kde-format
+msgctxt "@label"
+msgid "OpenPGP encryption key"
+msgstr "Ključ za šifriranje OpenPGP-om"
+
+#: quick/qml/CryptographyEditorCard.qml:133
+#, kde-format
+msgctxt "@label"
+msgid "S/MIME signing key"
+msgstr "Ključ za potpisivanje S/MIME-om"
+
+#: quick/qml/CryptographyEditorCard.qml:158
+#, kde-format
+msgctxt "@label"
+msgid "Use same S/MIME key for encryption and signing"
+msgstr "Koristi isti ključ S/MIME-a za šifriranje i potpisivanje"
+
+#: quick/qml/CryptographyEditorCard.qml:187
+#, kde-format
+msgctxt "@label"
+msgid "S/MIME encryption key"
+msgstr "Ključ za šifriranje S/MIME-om"
+
+#: quick/qml/IdentityConfigurationForm.qml:32
+#, kde-format
+msgctxt "@title"
+msgid "Edit Identity"
+msgstr "Uredi identitet"
+
+#: quick/qml/IdentityConfigurationForm.qml:38
+#: quick/qml/IdentityConfigurationForm.qml:43
+#: quick/qml/IdentityConfigurationForm.qml:45
+#, kde-format
+msgctxt "@title"
+msgid "Add Identity"
+msgstr "Dodavanje identiteta"
+
+#: quick/qml/IdentityEditorPage.qml:44
+#, kde-format
+msgid "Add Identity"
+msgstr "Dodavanje identiteta"
+
+#: quick/qml/IdentityEditorPage.qml:46
+#, kde-format
+msgid "Edit Identity"
+msgstr "Uredi identitet"
+
+#: quick/qml/IdentityEditorPage.qml:74
+#, kde-format
+msgctxt "@title:group"
+msgid "Cryptography"
+msgstr "Kriptografija"
+
+#: quick/qml/IdentityEditorPage.qml:96 quick/qml/IdentityEditorPage.qml:125
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: quick/qml/IdentityEditorPage.qml:104
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: quick/qml/IdentityEditorPage.qml:104
+#, kde-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: quick/qml/IdentityEditorPage.qml:119
+#, kde-format
+msgid "Delete %1"
+msgstr "Izbriši %1"
+
+#: quick/qml/IdentityEditorPage.qml:120
+#, kde-format
+msgid "Are you sure you want to delete this identity?"
+msgstr "Želite li zaista izbrisati ovaj identitet?"
+
+#: quick/qml/IdentityEditorPage.qml:134
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: widgets/signatureconfigurator.cpp:106
+#, kde-format
+msgctxt "@option:check"
+msgid "&Enable signature"
+msgstr "&Omogući potpis"
+
+#: widgets/signatureconfigurator.cpp:108
+#, kde-format
+msgid "Check this box if you want KMail to append a signature to mails written with this identity."
+msgstr "Označite ovu kućicu ako želite da KMail dodaje potpis porukama napisanima ovim identitetom."
+
+#: widgets/signatureconfigurator.cpp:117
+#, kde-format
+msgid "Click on the widgets below to obtain help on the input methods."
+msgstr "Kliknite na sljedeće elemente sučelja za pomoć s metodama unosa."
+
+#: widgets/signatureconfigurator.cpp:119
+#, kde-format
+msgctxt "continuation of \"obtain signature text from\""
+msgid "Input Field Below"
+msgstr "Polje za unos u nastavku"
+
+#: widgets/signatureconfigurator.cpp:120
+#, kde-format
+msgctxt "continuation of \"obtain signature text from\""
+msgid "File"
+msgstr "Datoteka"
+
+#: widgets/signatureconfigurator.cpp:121
+#, kde-format
+msgctxt "continuation of \"obtain signature text from\""
+msgid "Output of Command"
+msgstr "Izlaz naredbe"
+
+#: widgets/signatureconfigurator.cpp:122
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Obtain signature &text from:"
+msgstr "Preuzmi &tekst potpisa iz:"
+
+#: widgets/signatureconfigurator.cpp:162
+#, kde-format
+msgid "Use this field to enter an arbitrary static signature."
+msgstr "U ovo polje unesite proizvoljan statički potpis."
+
+#: widgets/signatureconfigurator.cpp:202
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use HTML"
+msgstr "Koristi &HTML"
+
+#: widgets/signatureconfigurator.cpp:218
+#, kde-format
+msgid "Text File (*.txt)"
+msgstr "Tekstna datoteka (*.txt)"
+
+#: widgets/signatureconfigurator.cpp:220
+#, kde-format
+msgid "Use this requester to specify a text file that contains your signature. It will be read every time you create a new mail or append a new signature."
+msgstr "Ovim dijaloškim okvirom odaberite tekstnu datoteku koja sadrži vaš potpis. Pročitat će se pri svakom stvaranju nove poruke ili dodavanju novog potpisa."
+
+#: widgets/signatureconfigurator.cpp:223
+#, kde-format
+msgctxt "@label:textbox"
+msgid "S&pecify file:"
+msgstr "&Odaberite datoteku:"
+
+#: widgets/signatureconfigurator.cpp:230
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit &File"
+msgstr "Uredi &datoteku"
+
+#: widgets/signatureconfigurator.cpp:231
+#, kde-format
+msgid "Opens the specified file in a text editor."
+msgstr "Otvara odabranu datoteku u uređivaču teksta."
+
+#: widgets/signatureconfigurator.cpp:251
+#, kde-format
+msgid "You can add an arbitrary command here, either with or without path depending on whether or not the command is in your Path. For every new mail, KMail will execute the command and use what it outputs (to standard output) as a signature. Usual commands for use with this mechanism are \"fortune\" or \"ksig -random\". (Be careful, script needs a shebang line)."
+msgstr "Ovdje možete unijeti proizvoljnu naredbu, s putanjom ili bez nje, ovisno o tome nalazi li se naredba u varijabli PATH. Za svaku novu poruku KMail će izvršiti naredbu i upotrijebiti njezin standardni izlaz kao potpis. Uobičajene naredbe za ovu namjenu su „fortune” i „ksig -random”. (Imajte na umu da skripta mora sadržavati redak shebang.)"
+
+#: widgets/signatureconfigurator.cpp:257
+#, kde-format
+msgctxt "@label:textbox"
+msgid "S&pecify command:"
+msgstr "&Odaberite naredbu:"
+
+#: widgets/signatureconfigurator.cpp:417
+#, kde-format
+msgid "This text file size exceeds 1kb."
+msgstr "Veličina ove tekstne datoteke premašuje 1 kB."
+
+#: widgets/signatureconfigurator.cpp:417
+#, kde-format
+msgctxt "@title:window"
+msgid "Text File Size"
+msgstr "Veličina tekstne datoteke"
+
+#: widgets/signatureconfigurator.cpp:437
+#, kde-format
+msgid "&Use HTML"
+msgstr "Koristi &HTML"
+
+#: widgets/signatureconfigurator.cpp:447
+#, kde-format
+msgid "&Use HTML (disabling removes formatting)"
+msgstr "Koristi &HTML (isključivanjem se uklanja oblikovanje)"
+
+

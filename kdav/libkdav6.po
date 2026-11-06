@@ -1,0 +1,176 @@
+# Croatian translations for kdav package.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kdav package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdav\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-21 00:47+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"X-Generator: Copilot\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: common/daverror.cpp:79
+#, kde-format
+msgid "Invalid username/password"
+msgstr "Neispravno korisničko ime ili lozinka"
+
+#: common/daverror.cpp:81
+#, kde-format
+msgid "Access forbidden"
+msgstr "Pristup je zabranjen"
+
+#: common/daverror.cpp:83
+#, kde-format
+msgid "Resource not found"
+msgstr "Resurs nije pronađen"
+
+#: common/daverror.cpp:85
+#, kde-format
+msgid "HTTP error"
+msgstr "Pogreška HTTP-a"
+
+#: common/daverror.cpp:87
+#, kde-format
+msgid ""
+"There was a problem with the request.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom.\n%1 (%2)."
+
+#: common/daverror.cpp:90
+#, kde-format
+msgid "Protocol for the collection does not support MULTIGET"
+msgstr "Protokol zbirke ne podržava MULTIGET"
+
+#: common/daverror.cpp:93
+#, kde-format
+msgid ""
+"The server encountered an error that prevented it from completing your "
+"request: %1 (%2)"
+msgstr "Poslužitelj je naišao na pogrešku zbog koje nije mogao dovršiti vaš zahtjev: %1 (%2)"
+
+#: common/daverror.cpp:96
+#, kde-format
+msgid ""
+"There was a problem with the request. The collection has not been deleted "
+"from the server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Zbirka nije izbrisana s poslužitelja.\n%1 (%2)."
+
+#: common/daverror.cpp:99
+#, kde-format
+msgid ""
+"There was a problem with the request. The collection has not been created on "
+"the server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Zbirka nije stvorena na poslužitelju.\n%1 (%2)."
+
+#: common/daverror.cpp:102
+#, kde-format
+msgid "Invalid responses from backend"
+msgstr "Nevaljani odgovori pozadinske usluge"
+
+#: common/daverror.cpp:105
+#, kde-format
+msgid "Error setting focus for XQuery"
+msgstr "Pogreška pri postavljanju fokusa za XQuery"
+
+#: common/daverror.cpp:108
+#, kde-format
+msgid "Invalid XQuery submitted by DAV implementation"
+msgstr "Implementacija DAV-a poslala je nevaljani XQuery"
+
+#: common/daverror.cpp:112
+#, kde-format
+msgid ""
+"There was a problem with the request. The collection has not been modified "
+"on the server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Zbirka nije izmijenjena na poslužitelju.\n%1 (%2)."
+
+#: common/daverror.cpp:118
+#, kde-format
+msgid "No properties to change or remove"
+msgstr "Nema svojstava za promjenu ili uklanjanje"
+
+#: common/daverror.cpp:121
+#, kde-format
+msgid "There was an error when modifying the properties"
+msgstr "Došlo je do pogreške pri izmjeni svojstava"
+
+#: common/daverror.cpp:123
+#, kde-format
+msgid ""
+"\n"
+"The server returned more information:\n"
+"%1"
+msgstr "\nPoslužitelj je vratio više informacija:\n%1"
+
+#: common/daverror.cpp:127
+#, kde-format
+msgid ""
+"There was a problem with the request. The item has not been created on the "
+"server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Stavka nije stvorena na poslužitelju.\n%1 (%2)."
+
+#: common/daverror.cpp:130
+#, kde-format
+msgid ""
+"There was a problem with the request. The item has not been deleted from the "
+"server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Stavka nije izbrisana s poslužitelja.\n%1 (%2)."
+
+#: common/daverror.cpp:133
+#, kde-format
+msgid ""
+"There was a problem with the request. The item was not modified on the "
+"server.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Stavka nije izmijenjena na poslužitelju.\n%1 (%2)."
+
+#: common/daverror.cpp:136 common/daverror.cpp:148 common/daverror.cpp:151
+#, kde-format
+msgid "There was a problem with the request."
+msgstr "Došlo je do problema sa zahtjevom."
+
+#: common/daverror.cpp:139
+#, kde-format
+msgid ""
+"There was a problem with the request. The item was not moved.\n"
+"%1 (%2)."
+msgstr "Došlo je do problema sa zahtjevom. Stavka nije premještena.\n%1 (%2)."
+
+#: common/daverror.cpp:142
+#, kde-format
+msgid ""
+"There was a problem with the request. The requested MIME types are not "
+"supported."
+msgstr "Došlo je do problema sa zahtjevom. Zatražene vrste MIME nisu podržane."
+
+#: common/daverror.cpp:145
+#, kde-format
+msgid "The server returned a malformed response payload."
+msgstr "Poslužitelj je vratio neispravan sadržaj odgovora."
+
+#: common/davitemssyncjob.cpp:211
+#, kde-format
+msgid "Invalid server response payload, response item missing HREF element"
+msgstr "Nevaljani sadržaj odgovora poslužitelja: u stavci odgovora nedostaje element HREF"
+
+#: common/davitemssyncjob.cpp:235
+#, kde-format
+msgid "Invalid server response payload, response item missing PROPSTAT element"
+msgstr "Nevaljani sadržaj odgovora poslužitelja: u stavci odgovora nedostaje element PROPSTAT"
+
+

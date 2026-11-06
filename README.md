@@ -106,6 +106,40 @@ Cilj projekta je pružiti potpuni i točan prijevod korisničkog sučelja KDE Pl
 | **plasma5support** | ⚠️ | Čeka provjeru |
 | **plymouth-kcm** | ⚠️ | Čeka provjeru |
 | **snap-kcm** | ⚠️ | Čeka provjeru |
+| **akonadi-mime** | ⚠️ | čeka provjeru |
+| **akonadiclient** | ⚠️ | čeka provjeru |
+| **analitza** | ⚠️ | čeka provjeru |
+| **calendarsupport** | ⚠️ | čeka provjeru |
+| **eventviews** | ⚠️ | čeka provjeru |
+| **grantleetheme** | ⚠️ | čeka provjeru |
+| **incidenceeditor** | ⚠️ | čeka provjeru |
+| **karchive** | ⚠️ | čeka provjeru |
+| **kauth** | ⚠️ | čeka provjeru |
+| **kbookmarks** | ⚠️ | čeka provjeru |
+| **kcalendarcore** | ⚠️ | čeka provjeru |
+| **kcalutils** | ⚠️ | čeka provjeru |
+| **kcodecs** | ⚠️ | čeka provjeru |
+| **kcompletion** | ⚠️ | čeka provjeru |
+| **kdav** | ⚠️ | čeka provjeru |
+| **kde-gtk-config** | ⚠️ | čeka provjeru |
+| **kded** | ⚠️ | čeka provjeru |
+| **kdesdk-devenv-dependencies** | ⚠️ | čeka provjeru |
+| **kdesdk-thumbnailers** | ⚠️ | čeka provjeru |
+| **kdesu** | ⚠️ | čeka provjeru |
+| **kdnssd** | ⚠️ | čeka provjeru |
+| **kdoctools** | ⚠️ | čeka provjeru |
+| **kfilemetadata** | ⚠️ | čeka provjeru |
+| **kholidays** | ⚠️ | čeka provjeru |
+| **kidentitymanagement** | ⚠️ | čeka provjeru |
+| **kimap** | ⚠️ | čeka provjeru |
+| **kirigami-addons** | ⚠️ | čeka provjeru |
+| **kirigami-app-components** | ⚠️ | čeka provjeru |
+| **kitemviews** | ⚠️ | čeka provjeru |
+| **kmime** | ⚠️ | čeka provjeru |
+| **knighttime** | ⚠️ | čeka provjeru |
+| **kontactinterface** | ⚠️ | čeka provjeru |
+| **kopeninghours** | ⚠️ | čeka provjeru |
+| **kpimtextedit** | ⚠️ | čeka provjeru |
 
 ❌ Nije prevedeno
 ⚠️ Prevedeno s AI-jem, čeka provjeru
@@ -119,7 +153,7 @@ Ako želite isprobati ove prijevode na svom sustavu s KDE Plasma 6 okruženjem, 
 ./install.sh
 ```
 
-> Nekad je potrebno osvježiti KDE predmemoriju
+> Nekad je potrebno osvježiti KDE predmemoriju nakon instalacije
 
 ### 3. Osvježavanje KDE predmemorije (Cache)
 Da bi KDE Plasma prepoznala nove prijevode, potrebno je osvježiti sistemsku predmemoriju:
