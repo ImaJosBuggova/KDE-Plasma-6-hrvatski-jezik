@@ -1,0 +1,201 @@
+# Translation of kio-s3 to Croatian.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kio-s3 package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio-s3\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-28 01:00+0000\n"
+"PO-Revision-Date: 2026-11-06 01:55+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"X-Qt-Contexts: true\n"
+
+#: kcm/ui/main.qml:25
+#, kde-format
+msgid "No S3 profiles configured"
+msgstr "Nije konfiguriran nijedan profil S3"
+
+#: kcm/ui/main.qml:26
+#, kde-format
+msgid "Add a profile to connect to an S3-compatible storage backend"
+msgstr "Dodajte profil za povezivanje s pohranom kompatibilnom sa S3"
+
+#: kcm/ui/main.qml:30 kcm/ui/main.qml:37
+#, kde-format
+msgid "Add Profile…"
+msgstr "Dodaj profil…"
+
+#: kcm/ui/main.qml:72
+#, kde-format
+msgid "Default AWS endpoint"
+msgstr "Zadana krajnja točka AWS-a"
+
+#: kcm/ui/main.qml:89
+#, kde-format
+msgid "Edit"
+msgstr "Uredi"
+
+#: kcm/ui/main.qml:94 kcm/ui/main.qml:242
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: kcm/ui/main.qml:105
+#, kde-format
+msgid "Add S3 Profile"
+msgstr "Dodavanje profila S3"
+
+#: kcm/ui/main.qml:105
+#, kde-format
+msgid "Edit S3 Profile"
+msgstr "Uređivanje profila S3"
+
+#: kcm/ui/main.qml:116
+#, kde-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: kcm/ui/main.qml:116
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: kcm/ui/main.qml:147
+#, kde-format
+msgid "Name:"
+msgstr "Naziv:"
+
+#: kcm/ui/main.qml:148
+#, kde-format
+msgid "e.g., My S3 Storage"
+msgstr "npr. moja pohrana S3"
+
+#: kcm/ui/main.qml:155
+#, kde-format
+msgid "Endpoint URL:"
+msgstr "URL krajnje točke:"
+
+#: kcm/ui/main.qml:156
+#, kde-format
+msgid "e.g., https://s3.example.com"
+msgstr "npr. https://s3.example.com"
+
+#: kcm/ui/main.qml:164
+#, kde-format
+msgid "Region:"
+msgstr "Regija:"
+
+#: kcm/ui/main.qml:165
+#, kde-format
+msgid "e.g., us-east-1, auto"
+msgstr "npr. us-east-1, auto"
+
+#: kcm/ui/main.qml:171
+#, kde-format
+msgctxt "@title:group"
+msgid "Authentication"
+msgstr "Autentifikacija"
+
+#: kcm/ui/main.qml:180
+#, kde-format
+msgid "AWS Profile:"
+msgstr "Profil AWS-a:"
+
+#: kcm/ui/main.qml:181
+#, kde-format
+msgid "Profile from ~/.aws/credentials"
+msgstr "Profil iz ~/.aws/credentials"
+
+#: kcm/ui/main.qml:187
+#, kde-format
+msgctxt "@title:group"
+msgid "Advanced"
+msgstr "Napredno"
+
+#. i18n("Addressing:")
+#: kcm/ui/main.qml:199
+#, kde-format
+msgid "Use path-style S3 URLs"
+msgstr "Koristi URL-ove S3 u obliku putanje"
+
+#: kcm/ui/main.qml:235
+#, kde-format
+msgid "Delete Profile"
+msgstr "Brisanje profila"
+
+#: kcm/ui/main.qml:236
+#, kde-format
+msgid "Are you sure you want to delete the profile \"%1\"?"
+msgstr "Želite li zaista izbrisati profil „%1”?"
+
+#: s3backend.cpp:46
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Invalid S3 URI, bucket name is missing from the host.<nl/>A valid S3 URI "
+"must be written in the form: <link>s3://bucket/key</link>"
+msgstr "Neispravan URI S3; u nazivu glavnog računala nedostaje naziv spremnika.<nl/>Ispravan URI S3 mora biti u obliku: <link>s3://bucket/key</link>"
+
+#: s3backend.cpp:201 s3backend.cpp:210
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not find S3 buckets, please check your AWS configuration."
+msgstr "Nije moguće pronaći spremnike S3. Provjerite konfiguraciju AWS-a."
+
+#: s3backend.cpp:686
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot copy between different S3 profiles. Copy the file locally first."
+msgstr "Nije moguće kopirati između različitih profila S3. Najprije kopirajte datoteku lokalno."
+
+#: s3backend.cpp:738
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not copy <link>%1</link> to <link>%2</link>"
+msgstr "Nije moguće kopirati <link>%1</link> u <link>%2</link>"
+
+#: s3backend.cpp:811
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot rename between different S3 profiles."
+msgstr "Nije moguće preimenovati između različitih profila S3."
+
+#: s3backend.cpp:937
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some source files could not be deleted after renaming. The renamed folder "
+"may still contain leftover files."
+msgstr "Neke izvorne datoteke nije bilo moguće izbrisati nakon preimenovanja. U preimenovanoj mapi možda su ostale datoteke."
+
+#: s3backend.cpp:1001 s3backend.cpp:1063
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not retrieve the complete file listing. Some files may not be shown."
+msgstr "Nije moguće dohvatiti potpuni popis datoteka. Neke datoteke možda neće biti prikazane."
+
+#: s3backend.cpp:1160
+#, kde-format
+msgctxt "@item"
+msgid "and %1 more object"
+msgid_plural "and %1 more objects"
+msgstr[0] "i još %1 objekt"
+msgstr[1] "i još %1 objekta"
+msgstr[2] "i još %1 objekata"
+
+#: s3backend.cpp:1164
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to delete %1 of %2 objects. Affected keys: %3"
+msgstr "Brisanje %1 od %2 objekata nije uspjelo. Obuhvaćeni ključevi: %3"
