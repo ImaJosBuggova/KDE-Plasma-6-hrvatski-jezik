@@ -1,0 +1,822 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kbackup package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kbackup\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: Archiver.cxx:434
+#, kde-format
+msgid "Nothing selected for backup"
+msgstr "Nije odabrano ništa za sigurnosno kopiranje"
+
+#: Archiver.cxx:440
+#, kde-format
+msgid "The target dir '%1' is not valid"
+msgstr "Odredišna mapa „%1” nije valjana"
+
+#: Archiver.cxx:447
+#, kde-format
+msgid "The target dir '%1' must be a local file system dir and no remote URL"
+msgstr "Odredišna mapa „%1” mora biti mapa lokalnog datotečnog sustava, a ne udaljeni URL"
+
+#: Archiver.cxx:460
+#, kde-format
+msgid ""
+"The target directory '%1' does not exist.\n"
+"\n"
+"Shall I create it?"
+msgstr "Odredišna mapa „%1” ne postoji.\n\nŽelite li je stvoriti?"
+
+#: Archiver.cxx:462
+#, kde-format
+msgctxt "@title"
+msgid "Create Directory"
+msgstr "Stvori mapu"
+
+#: Archiver.cxx:463
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "Stvori"
+
+#: Archiver.cxx:468
+#, kde-format
+msgid ""
+"Could not create the target directory '%1'.\n"
+"The operating system reports: %2"
+msgstr "Nije moguće stvoriti odredišnu mapu „%1”.\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:476
+#, kde-format
+msgid "The target dir does not exist"
+msgstr "Odredišna mapa ne postoji"
+
+#: Archiver.cxx:549
+#, kde-format
+msgid "...reducing number of kept archives to max. %1"
+msgstr "…smanjuje se broj sačuvanih arhiva na najviše %1"
+
+#: Archiver.cxx:607
+#, kde-format
+msgid "...deleting %1"
+msgstr "…briše se %1"
+
+#: Archiver.cxx:631
+#, kde-format
+msgid ""
+"fetching directory listing of target failed. Can not reduce kept archives."
+msgstr "Dohvaćanje popisa datoteka odredišta nije uspjelo. Nije moguće smanjiti broj sačuvanih arhiva."
+
+#: Archiver.cxx:654
+#, kde-format
+msgid "Could not write backup timestamps into profile %1: %2"
+msgstr "Nije moguće zapisati vremenske oznake sigurnosnih kopija u profil %1: %2"
+
+#: Archiver.cxx:658
+#, kde-format
+msgid "-- Filtered Files: %1"
+msgstr "-- Filtrirane datoteke: %1"
+
+#: Archiver.cxx:661
+#, kde-format
+msgid "!! Backup finished <b>but files were skipped</b> !!"
+msgstr "!! Sigurnosno kopiranje završeno, <b>ali neke su datoteke preskočene</b> !!"
+
+#: Archiver.cxx:663
+#, kde-format
+msgid "-- Backup successfully finished --"
+msgstr "-- Sigurnosno kopiranje uspješno je završeno --"
+
+#: Archiver.cxx:669
+#, kde-format
+msgid ""
+"The backup has finished but files were skipped.\n"
+"What do you want to do now?"
+msgstr "Sigurnosno kopiranje završeno je, ali neke su datoteke preskočene.\nŠto želite učiniti?"
+
+#: Archiver.cxx:671
+#, kde-format
+msgid ""
+"The backup has finished successfully.\n"
+"What do you want to do now?"
+msgstr "Sigurnosno kopiranje uspješno je završeno.\nŠto želite učiniti?"
+
+#: Archiver.cxx:689
+#, kde-format
+msgid "Totals: Files: %1, Size: %2, Duration: %3"
+msgstr "Ukupno: datoteka: %1, veličina: %2, trajanje: %3"
+
+#: Archiver.cxx:700
+#, kde-format
+msgid "...Backup aborted!"
+msgstr "…Sigurnosno kopiranje prekinuto!"
+
+#: Archiver.cxx:727
+#, kde-format
+msgid "Backup cancelled"
+msgstr "Sigurnosno kopiranje otkazano"
+
+#: Archiver.cxx:747
+#, kde-format
+msgid "...finished slice %1"
+msgstr "…završena je dionica %1"
+
+#: Archiver.cxx:762
+#, kde-format
+msgid "...uploading archive %1 to %2"
+msgstr "…prenosi se arhiva %1 na %2"
+
+#: Archiver.cxx:780
+#, kde-format
+msgid "How shall we proceed with the upload?"
+msgstr "Kako želite nastaviti prijenos?"
+
+#: Archiver.cxx:780
+#, kde-format
+msgid "Upload Failed"
+msgstr "Prijenos nije uspio"
+
+#: Archiver.cxx:781
+#, kde-format
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: Archiver.cxx:781
+#, kde-format
+msgid "Change Target"
+msgstr "Promijeni odredište"
+
+#: Archiver.cxx:872
+#, kde-format
+msgid "The script '%1' could not be started."
+msgstr "Nije moguće pokrenuti skriptu „%1”."
+
+#: Archiver.cxx:911
+#, kde-format
+msgid "The medium is full. Please insert medium Nr. %1"
+msgstr "Medij je pun. Umetnite medij br. %1"
+
+#: Archiver.cxx:955
+#, kde-format
+msgid "The file '%1' can not be opened for writing."
+msgstr "Nije moguće otvoriti datoteku „%1” za pisanje."
+
+#: Archiver.cxx:959
+#, kde-format
+msgid ""
+"The file '%1' can not be opened for writing.\n"
+"\n"
+"Do you want to retry?"
+msgstr "Nije moguće otvoriti datoteku „%1” za pisanje.\n\nŽelite li pokušati ponovno?"
+
+#: Archiver.cxx:960
+#, kde-format
+msgctxt "@title"
+msgid "Open File"
+msgstr "Otvori datoteku"
+
+#: Archiver.cxx:961
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: Archiver.cxx:981
+#, kde-format
+msgid "Could not write to archive. Maybe the medium is full."
+msgstr "Nije moguće pisati u arhivu. Možda je medij pun."
+
+#: Archiver.cxx:985
+#, kde-format
+msgid ""
+"Could not write to archive.\n"
+"The operating system reports: %1"
+msgstr "Nije moguće pisati u arhivu.\nOperacijski sustav javlja: %1"
+
+#: Archiver.cxx:1004
+#, kde-format
+msgid "...skipping filtered directory %1"
+msgstr "…preskače se filtrirana mapa %1"
+
+#: Archiver.cxx:1015
+#, kde-format
+msgid ""
+"Could not get information of directory: %1\n"
+"The operating system reports: %2"
+msgstr "Nije moguće dohvatiti podatke o mapi: %1\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:1025
+#, kde-format
+msgid "Directory '%1' is not readable. Skipping."
+msgstr "Mapa „%1” nije čitljiva. Preskače se."
+
+#: Archiver.cxx:1125
+#, kde-format
+msgid ""
+"Could not get information of file: %1\n"
+"The operating system reports: %2"
+msgstr "Nije moguće dohvatiti podatke o datoteci: %1\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:1136
+#, kde-format
+msgid "Can not archive file type 'socket': %1\n"
+msgstr "Nije moguće arhivirati vrstu datoteke „socket”: %1\n"
+
+#: Archiver.cxx:1220 Archiver.cxx:1299
+#, kde-format
+msgid ""
+"Could not read from file '%1'\n"
+"The operating system reports: %2"
+msgstr "Nije moguće čitati iz datoteke „%1”\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:1268
+#, kde-format
+msgid "Could not open file '%1' for reading."
+msgstr "Nije moguće otvoriti datoteku „%1” za čitanje."
+
+#: Archiver.cxx:1335
+#, kde-format
+msgid "...archiving file %1"
+msgstr "…arhivira se datoteka %1"
+
+#: Archiver.cxx:1368
+#, kde-format
+msgid ""
+"Could not read file: %1\n"
+"The operating system reports: %2"
+msgstr "Nije moguće čitati datoteku: %1\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:1382
+#, kde-format
+msgid ""
+"Could not create temporary file for compressing: %1\n"
+"The operating system reports: %2"
+msgstr "Nije moguće stvoriti privremenu datoteku za komprimiranje: %1\nOperacijski sustav javlja: %2"
+
+#: Archiver.cxx:1412
+#, kde-format
+msgid ""
+"Could not write to temporary file. Use the TMPDIR env-var to change the "
+"temporary directory used"
+msgstr "Nije moguće pisati u privremenu datoteku. Za promjenu privremene mape upotrijebite varijablu okruženja TMPDIR"
+
+#: Archiver.cxx:1435
+#, kde-format
+msgid "...compressing file %1"
+msgstr "…komprimira se datoteka %1"
+
+#: Archiver.cxx:1480
+#, kde-format
+msgid "WARNING:"
+msgstr "UPOZORENJE:"
+
+#. i18n: ectx: Menu (file)
+#: kbackupui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Datoteka"
+
+#. i18n: ectx: Menu (settings)
+#: kbackupui.rc:12
+#, kde-format
+msgid "&Settings"
+msgstr "&Postavke"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainWidgetBase)
+#: main.cxx:47 MainWidgetBase.ui:16
+#, kde-format
+msgid "KBackup"
+msgstr "KBackup"
+
+#: main.cxx:48
+#, kde-format
+msgid "An easy to use backup program"
+msgstr "Jednostavan program za izradu sigurnosnih kopija"
+
+#: main.cxx:49
+#, kde-format
+msgid "(c) 2006 - 2018 Martin Koller"
+msgstr "(c) 2006. – 2018. Martin Koller"
+
+#: main.cxx:53
+#, kde-format
+msgid "Martin Koller"
+msgstr "Martin Koller"
+
+#: main.cxx:53
+#, kde-format
+msgid "Developer"
+msgstr "Razvojni programer"
+
+#: main.cxx:61
+#, kde-format
+msgid "Start with given profile."
+msgstr "Pokreni s navedenim profilom."
+
+#: main.cxx:63
+#, kde-format
+msgid "Script to run after finishing one archive slice."
+msgstr "Skripta koju treba pokrenuti nakon dovršetka dijela arhive."
+
+#: main.cxx:65
+#, kde-format
+msgid ""
+"Automatically run the backup with the given profile and terminate when done."
+msgstr "Automatski pokreni sigurnosno kopiranje s navedenim profilom i zatvori program po završetku."
+
+#: main.cxx:68
+#, kde-format
+msgid ""
+"Automatically run the backup with the given profile in the background "
+"(without showing a window) and terminate when done."
+msgstr "Automatski pokreni sigurnosno kopiranje s navedenim profilom u pozadini (bez prikaza prozora) i zatvori program po završetku."
+
+#: main.cxx:73
+#, kde-format
+msgid ""
+"In autobg mode be verbose and print every single filename during backup."
+msgstr "U načinu autobg opširno ispisuj nazive svih datoteka tijekom sigurnosnog kopiranja."
+
+#: main.cxx:76
+#, kde-format
+msgid ""
+"In auto/autobg mode force the backup to be a full backup instead of acting "
+"on the profile settings."
+msgstr "U načinu auto/autobg prisilno izradi potpunu sigurnosnu kopiju, neovisno o postavkama profila."
+
+#: main.cxx:149 MainWindow.cxx:211
+#, kde-format
+msgid "Could not open profile '%1' for reading: %2"
+msgstr "Nije moguće otvoriti profil „%1” za čitanje: %2"
+
+#: MainWidget.cxx:68
+#, kde-format
+msgid "Incremental Backup"
+msgstr "Inkrementalna sigurnosna kopija"
+
+#: MainWidget.cxx:70
+#, kde-format
+msgid "Full Backup"
+msgstr "Potpuna sigurnosna kopija"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, numBackups)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, maxSliceSize)
+#: MainWidget.cxx:165 SettingsDialog.cxx:21 SettingsDialog.ui:67
+#: SettingsDialog.ui:136
+#, kde-format
+msgid "unlimited"
+msgstr "neograničeno"
+
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#: MainWidgetBase.ui:41 MainWindow.cxx:114
+#, kde-format
+msgid "Start Backup"
+msgstr "Pokreni sigurnosno kopiranje"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: MainWidgetBase.ui:69 MainWindow.cxx:117
+#, kde-format
+msgid "Cancel Backup"
+msgstr "Odustani od sigurnosnog kopiranja"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: MainWidgetBase.ui:92
+#, kde-format
+msgid "Next Backup:"
+msgstr "Sljedeća sigurnosna kopija:"
+
+#. i18n: ectx: property (text), widget (QLabel, backupType)
+#: MainWidgetBase.ui:99
+#, kde-format
+msgid "TextLabel"
+msgstr "TextLabel"
+
+#. i18n: ectx: property (text), widget (QCheckBox, forceFullBackup)
+#: MainWidgetBase.ui:106
+#, kde-format
+msgid "Force Full Backup"
+msgstr "Prisilno izradi potpunu sigurnosnu kopiju"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: MainWidgetBase.ui:121
+#, kde-format
+msgid "Target"
+msgstr "Odredište"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: MainWidgetBase.ui:127
+#, kde-format
+msgid "Folder:"
+msgstr "Mapa:"
+
+#. i18n: ectx: property (text), widget (QLabel, sliceLabel)
+#: MainWidgetBase.ui:143
+#, kde-format
+msgid "Medium:"
+msgstr "Medij:"
+
+#. i18n: ectx: property (text), widget (QLabel, sliceNum)
+#: MainWidgetBase.ui:165
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: MainWidgetBase.ui:185 MainWidgetBase.ui:277
+#, kde-format
+msgid "Size:"
+msgstr "Veličina:"
+
+#. i18n: ectx: property (text), widget (QLabel, capacity)
+#: MainWidgetBase.ui:201
+#, kde-format
+msgid "0 MB"
+msgstr "0 MB"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: MainWidgetBase.ui:236
+#, kde-format
+msgid "Totals"
+msgstr "Ukupno"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: MainWidgetBase.ui:248
+#, kde-format
+msgid "Files:"
+msgstr "Datoteke:"
+
+#. i18n: ectx: property (text), widget (QLabel, totalFiles)
+#. i18n: ectx: property (text), widget (QLabel, totalSize)
+#: MainWidgetBase.ui:258 MainWidgetBase.ui:287
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLabel, totalSize_2)
+#: MainWidgetBase.ui:300
+#, kde-format
+msgid "MB"
+msgstr "MB"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: MainWidgetBase.ui:335
+#, kde-format
+msgid "Duration:"
+msgstr "Trajanje:"
+
+#. i18n: ectx: property (text), widget (QLabel, elapsedTime)
+#: MainWidgetBase.ui:345
+#, kde-format
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: MainWidgetBase.ui:387
+#, kde-format
+msgid "Warnings:"
+msgstr "Upozorenja:"
+
+#. i18n: ectx: property (text), widget (QLabel, fileProgressLabel)
+#: MainWidgetBase.ui:413
+#, kde-format
+msgid "Progress:"
+msgstr "Napredak:"
+
+#: MainWindow.cxx:56
+#, kde-format
+msgid "New Profile"
+msgstr "Novi profil"
+
+#: MainWindow.cxx:60
+#, kde-format
+msgid "Load Profile..."
+msgstr "Učitaj profil…"
+
+#: MainWindow.cxx:64
+#, kde-format
+msgid "Save Profile"
+msgstr "Spremi profil"
+
+#: MainWindow.cxx:68
+#, kde-format
+msgid "Save Profile As..."
+msgstr "Spremi profil kao…"
+
+#: MainWindow.cxx:72
+#, kde-format
+msgid "Profile Settings..."
+msgstr "Postavke profila…"
+
+#: MainWindow.cxx:75
+#, kde-format
+msgid "Enable All Messages"
+msgstr "Omogući sve poruke"
+
+#: MainWindow.cxx:77
+#, kde-format
+msgid "Dock in System Tray"
+msgstr "Prikaži u programskoj traci"
+
+#: MainWindow.cxx:81
+#, kde-format
+msgid "Show Hidden Files"
+msgstr "Prikaži skrivene datoteke"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "There is a backup in progress. Do you want to abort it?"
+msgstr "Sigurnosno kopiranje je u tijeku. Želite li ga prekinuti?"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "Backup in Progress"
+msgstr "Sigurnosno kopiranje u tijeku"
+
+#: MainWindow.cxx:147
+#, kde-format
+msgid "Abort"
+msgstr "Prekini"
+
+#: MainWindow.cxx:189 MainWindow.cxx:235 MainWindow.cxx:252
+#, kde-format
+msgid "Select Profile"
+msgstr "Odaberi profil"
+
+#: MainWindow.cxx:190 MainWindow.cxx:236 MainWindow.cxx:253
+#, kde-format
+msgid "KBackup Profile (*.kbp)"
+msgstr "Profil KBackupa (*.kbp)"
+
+#: MainWindow.cxx:214 MainWindow.cxx:286
+#, kde-format
+msgid "Open failed"
+msgstr "Otvaranje nije uspjelo"
+
+#: MainWindow.cxx:263
+#, kde-format
+msgid ""
+"The profile '%1' does already exist.\n"
+"Do you want to overwrite it?"
+msgstr "Profil „%1” već postoji.\nŽelite li ga prebrisati?"
+
+#: MainWindow.cxx:266
+#, kde-format
+msgid "Profile exists"
+msgstr "Profil postoji"
+
+#: MainWindow.cxx:283
+#, kde-format
+msgid "Could not open profile '%1' for writing: %2"
+msgstr "Nije moguće otvoriti profil „%1” za pisanje: %2"
+
+#: MainWindow.cxx:359
+#, kde-format
+msgid ""
+"Files: %1 Size: %2 MB\n"
+"%3"
+msgstr "Datoteke: %1, veličina: %2 MB\n%3"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: Selector.cxx:252
+#, kde-format
+msgid "Last Modified"
+msgstr "Zadnja izmjena"
+
+#: Selector.cxx:284
+#, kde-format
+msgid "Open With"
+msgstr "Otvori pomoću"
+
+#: Selector.cxx:292
+#, kde-format
+msgid "Delete File"
+msgstr "Izbriši datoteku"
+
+#: Selector.cxx:298
+#, kde-format
+msgid "Properties..."
+msgstr "Svojstva…"
+
+#: Selector.cxx:611
+#, kde-format
+msgid "Do you really want to delete '%1'?"
+msgstr "Želite li zaista izbrisati „%1”?"
+
+#: Selector.cxx:612
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: Selector.cxx:623
+#, kde-format
+msgid "Could not delete directory '%1'."
+msgstr "Nije moguće izbrisati mapu „%1”."
+
+#: Selector.cxx:632
+#, kde-format
+msgid ""
+"Could not delete file '%1'.\n"
+"Reason: %2"
+msgstr "Nije moguće izbrisati datoteku „%1”.\nRazlog: %2"
+
+#: Selector.cxx:700
+#, kde-format
+msgid "Other Application..."
+msgstr "Druga aplikacija…"
+
+#: Selector.cxx:702
+#, kde-format
+msgid "File Manager"
+msgstr "Upravitelj datotekama"
+
+#: SettingsDialog.cxx:22
+#, kde-format
+msgid "650 MB CD"
+msgstr "CD od 650 MB"
+
+#: SettingsDialog.cxx:23
+#, kde-format
+msgid "700 MB CD"
+msgstr "CD od 700 MB"
+
+#: SettingsDialog.cxx:24
+#, kde-format
+msgid "4.7 GB DVD"
+msgstr "DVD od 4,7 GB"
+
+#: SettingsDialog.cxx:25
+#, kde-format
+msgid "8.5 GB DVD"
+msgstr "DVD od 8,5 GB"
+
+#: SettingsDialog.cxx:26
+#, kde-format
+msgid "9.4 GB DVD"
+msgstr "DVD od 9,4 GB"
+
+#: SettingsDialog.cxx:27
+#, kde-format
+msgid "17.1 GB DVD"
+msgstr "DVD od 17,1 GB"
+
+#: SettingsDialog.cxx:28
+#, kde-format
+msgid "custom"
+msgstr "prilagođeno"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SettingsDialog)
+#: SettingsDialog.ui:16
+#, kde-format
+msgid "Profile Settings"
+msgstr "Postavke profila"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mediaNeedsChange)
+#: SettingsDialog.ui:38
+#, kde-format
+msgid ""
+"Uncheck if you want to avoid a confirmation dialog to change the medium when "
+"a slice was finished"
+msgstr "Odznačite ako ne želite potvrdu za promjenu medija nakon dovršetka dijela arhive"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mediaNeedsChange)
+#: SettingsDialog.ui:41
+#, kde-format
+msgid "Target needs media change"
+msgstr "Odredište zahtijeva promjenu medija"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: SettingsDialog.ui:48
+#, kde-format
+msgid "Exclude Paths Filter:"
+msgstr "Filtar izuzetih putanja:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: SettingsDialog.ui:57
+#, kde-format
+msgid "Number of full backups to keep"
+msgstr "Broj potpunih sigurnosnih kopija koje treba zadržati"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, numBackups)
+#: SettingsDialog.ui:64
+#, kde-format
+msgid ""
+"How many full backups shall be kept in the target directory before older "
+"ones will be deleted"
+msgstr "Koliko potpunih sigurnosnih kopija treba zadržati u odredišnoj mapi prije brisanja starijih"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: SettingsDialog.ui:77
+#, kde-format
+msgid "Full Backup Interval"
+msgstr "Razmak između potpunih sigurnosnih kopija"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, fullBackupInterval)
+#: SettingsDialog.ui:84
+#, kde-format
+msgid "How often shall a full backup, instead of an incremental one, be done"
+msgstr "Koliko često treba izraditi potpunu umjesto inkrementalne sigurnosne kopije"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, fullBackupInterval)
+#: SettingsDialog.ui:87
+#, kde-format
+msgid "Every Day"
+msgstr "Svaki dan"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, fullBackupInterval)
+#: SettingsDialog.ui:90
+#, kde-format
+msgid " days"
+msgstr " dana"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SettingsDialog.ui:105
+#, kde-format
+msgid "Archive Prefix:"
+msgstr "Prefiks arhive:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, filter)
+#: SettingsDialog.ui:115
+#, kde-format
+msgid ""
+"Defines wildcards for filenames which will be ignored for backup, separated "
+"by a space. E.g.: \"*.ogg *.wav\""
+msgstr "Definira razmacima odvojene zamjenske uzorke naziva datoteka koje se neće uključiti u sigurnosnu kopiju. Npr.: „*.ogg *.wav”"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: SettingsDialog.ui:122
+#, kde-format
+msgid "Maximum Archive Size:"
+msgstr "Najveća veličina arhive:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxSliceSize)
+#: SettingsDialog.ui:139
+#, kde-format
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: SettingsDialog.ui:157
+#, kde-format
+msgid "Exclude Filename Filter:"
+msgstr "Filtar izuzetih naziva datoteka:"
+
+#. i18n: ectx: property (toolTip), widget (QPlainTextEdit, dirFilter)
+#: SettingsDialog.ui:164
+#, kde-format
+msgid ""
+"<html><head/><body><p>Defines a list of absolute path patterns which are "
+"used to filter complete directories,<br/>e.g. /home/*/.mozilla/*/Cache</p></"
+"body></html>"
+msgstr "<html><head/><body><p>Definira popis uzoraka apsolutnih putanja za filtriranje cijelih mapa,<br/>npr. /home/*/.mozilla/*/Cache</p></body></html>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, compressFiles)
+#: SettingsDialog.ui:171
+#, kde-format
+msgid "Uncheck if you want to avoid compressing files at all"
+msgstr "Odznačite ako uopće ne želite komprimirati datoteke"
+
+#. i18n: ectx: property (text), widget (QCheckBox, compressFiles)
+#: SettingsDialog.ui:174
+#, kde-format
+msgid "Compress Files"
+msgstr "Komprimiraj datoteke"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, prefix)
+#: SettingsDialog.ui:181
+#, kde-format
+msgid "backup"
+msgstr "sigurnosna kopija"

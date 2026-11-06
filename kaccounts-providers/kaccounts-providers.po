@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kaccounts-providers package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaccounts-providers\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:89
+#, kde-format
+msgid ""
+"Unable to connect to Nextcloud at the given server URL. Please check the "
+"server URL."
+msgstr ""
+"Povezivanje s uslugom Nextcloud na navedenom URL-u poslužitelja nije uspjelo. "
+"Provjerite URL poslužitelja."
+
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:148
+#: plugins/owncloud-ui/owncloudcontroller.cpp:174
+#, kde-format
+msgid "Unable to authenticate using the provided username and password"
+msgstr "Provjera autentičnosti navedenim korisničkim imenom i lozinkom nije uspjela"
+
+#. TODO Find a way to not hardcode this
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:202
+#: services/nextcloud-contacts.service.in:4
+#, kde-format
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:202
+#, kde-format
+msgid "Synchronize contacts"
+msgstr "Sinkroniziraj kontakte"
+
+#. Runners-ID Storage - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#. TODO Find a way to not hardcode this
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:203
+#: plugins/owncloud-ui/owncloudcontroller.cpp:231
+#: services/disabled/runners-storage.service.in:6
+#: services/nextcloud-storage.service.in:4
+#: services/owncloud-storage.service.in:4
+#, kde-format
+msgid "Storage"
+msgstr "Pohrana"
+
+#: plugins/nextcloud-ui/nextcloudcontroller.cpp:203
+#, kde-format
+msgid "Integrate into file manager"
+msgstr "Integriraj u upravitelj datoteka"
+
+#: plugins/nextcloud-ui/package/contents/ui/Server.qml:14
+#, kde-format
+msgid "Nextcloud Login"
+msgstr "Prijava u Nextcloud"
+
+#: plugins/nextcloud-ui/package/contents/ui/Server.qml:49
+#: plugins/owncloud-ui/package/contents/ui/Server.qml:60
+#, kde-format
+msgid "Server address:"
+msgstr "Adresa poslužitelja:"
+
+#: plugins/nextcloud-ui/package/contents/ui/Server.qml:65
+#: plugins/owncloud-ui/package/contents/ui/Server.qml:76
+#, kde-format
+msgid "Next"
+msgstr "Dalje"
+
+#: plugins/nextcloud-ui/package/contents/ui/Services.qml:16
+#: plugins/owncloud-ui/package/contents/ui/Services.qml:17
+#, kde-format
+msgid "Services"
+msgstr "Usluge"
+
+#: plugins/nextcloud-ui/package/contents/ui/Services.qml:50
+#: plugins/owncloud-ui/package/contents/ui/Services.qml:52
+#, kde-format
+msgid "Finish"
+msgstr "Završi"
+
+#: plugins/owncloud-ui/owncloudcontroller.cpp:118
+#, kde-format
+msgid ""
+"Unable to connect to ownCloud at the given server URL. Please check the "
+"server URL."
+msgstr ""
+"Povezivanje s uslugom ownCloud na navedenom URL-u poslužitelja nije uspjelo. "
+"Provjerite URL poslužitelja."
+
+#: plugins/owncloud-ui/owncloudcontroller.cpp:231
+#, kde-format
+msgid "Storage integration"
+msgstr "Integracija pohrane"
+
+#: plugins/owncloud-ui/package/contents/ui/Server.qml:15
+#, kde-format
+msgid "ownCloud Login"
+msgstr "Prijava u ownCloud"
+
+#: plugins/owncloud-ui/package/contents/ui/Server.qml:48
+#, kde-format
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: plugins/owncloud-ui/package/contents/ui/Server.qml:53
+#, kde-format
+msgid "Password:"
+msgstr "Lozinka:"
+
+#. "Contacts" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-contacts.service.in:6
+msgctxt "Facebook Contacts"
+msgid "Contacts"
+msgstr "Kontakti"
+
+#. "Events" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-events.service.in:6
+msgid "Events"
+msgstr "Događaji"
+
+#. "Posts Feed" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-feed.service.in:6
+msgid "Posts Feed"
+msgstr "Sažetak objava"
+
+#. "Notes" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-notes.service.in:6
+msgid "Notes"
+msgstr "Bilješke"
+
+#. "Notifications" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-notifications.service.in:6
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#. Google's Calendars - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/google-calendar.service.in:6
+msgid "Calendars and Tasks"
+msgstr "Kalendari i zadaci"
+
+#. Google's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/google-contacts.service.in:6
+msgctxt "Google Contacts"
+msgid "Contacts"
+msgstr "Kontakti"
+
+#. identi.ca microblog feed - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/identica-microblog.service.in:6
+msgid "identi.ca"
+msgstr "identi.ca"
+
+#. ownCloud's Calendar - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#. Runners-ID Calendar - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/owncloud-calendar.service.in:6
+#: services/disabled/runners-calendar.service.in:6
+msgid "Calendar"
+msgstr "Kalendar"
+
+#. ownCloud's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/owncloud-contacts.service.in:6
+msgctxt "ownCloud Contacts"
+msgid "Contacts"
+msgstr "Kontakti"
+
+#. Runners-ID Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/runners-contacts.service.in:6
+msgctxt "Runners-ID Contacts"
+msgid "Contacts"
+msgstr "Kontakti"
+
+#. Runners-ID Music - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/runners-music.service.in:6
+msgid "Music"
+msgstr "Glazba"
+
+#. Twitter's feed - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/twitter-microblog.service.in:6
+msgid "Twitter"
+msgstr "Twitter"

@@ -1,0 +1,681 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kaichat package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"PO-Revision-Date: 2026-11-06 20:34+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"X-Generator: Lokalize\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: apps/main.cpp:75
+#, kde-format
+msgid "Copyright © 2025-2026 Laurent Montel"
+msgstr "Autorska prava © 2025.–2026. Laurent Montel"
+
+#: apps/main.cpp:79
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:79
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: apps/main.cpp:106
+#, kde-format
+msgid "The following instances are available:"
+msgstr "Dostupne su sljedeće instance:"
+
+#: apps/main.cpp:119
+#, kde-format
+msgid "List of Chats:"
+msgstr "Popis razgovora:"
+
+#: apps/main.cpp:132
+#, kde-format
+msgid "Plugins:"
+msgstr "Dodaci:"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr "Prikaži popis instanci"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr "Stvori novi razgovor"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgid "New Chat Title"
+msgstr "Naslov novog razgovora"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new ephemeral chat"
+msgstr "Stvori novi privremeni razgovor"
+
+#: core/kaichatcommandlineparser.cpp:27
+#, kde-format
+msgid "New Ephemeral Chat"
+msgstr "Novi privremeni razgovor"
+
+#: core/kaichatcommandlineparser.cpp:28
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "Otvori Brzi upit"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr "Prebaci na razgovor"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgid "Chat Name"
+msgstr "Naziv razgovora"
+
+#: core/kaichatcommandlineparser.cpp:32
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Prebaci na razgovor prema identifikatoru"
+
+#: core/kaichatcommandlineparser.cpp:33
+#, kde-format
+msgid "Chat Identifier"
+msgstr "Identifikator razgovora"
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr "Postavi upit"
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgid "Message"
+msgstr "Poruka"
+
+#: core/kaichatcommandlineparser.cpp:36
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Prikaži popis razgovora"
+
+#: core/kaichatcommandlineparser.cpp:37
+#, kde-format
+msgctxt "@info:shell"
+msgid "Activate Debug Mode"
+msgstr "Uključi način rada za otklanjanje pogrešaka"
+
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid "Add an attachment. This can be repeated"
+msgstr "Dodaj privitak. Ovu je opciju moguće ponoviti"
+
+#: core/kaichatcommandlineparser.cpp:40
+#, kde-format
+msgid "Attachment Url"
+msgstr "URL privitka"
+
+#: core/kaichatcommandlineparser.cpp:42
+#, kde-format
+msgctxt "@info:shell"
+msgid "Define tool used. This can be repeated"
+msgstr "Odredi alat koji će se koristiti. Ovu je opciju moguće ponoviti"
+
+#: core/kaichatcommandlineparser.cpp:43
+#, kde-format
+msgid "Tool Name"
+msgstr "Naziv alata"
+
+#: core/kaichatcommandlineparser.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return plugins info"
+msgstr "Prikaži podatke o dodacima"
+
+#: core/kaichatcommandlineparser.cpp:46
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr "Prikaži dostupne mogućnosti povratnih informacija"
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import Chat"
+msgstr "Uvezi razgovor"
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgid "Import"
+msgstr "Uvoz"
+
+#: core/kaichatcommandlineparser.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start Ollama program"
+msgstr "Pokreni program Ollama"
+
+#: core/kaichatcommandlineparser.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "Chat file to import"
+msgstr "Datoteka razgovora za uvoz"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:22
+#, kde-format
+msgid "Markdown"
+msgstr "Markdown"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
+#, kde-format
+msgid "User"
+msgstr "Korisnik"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
+#, kde-format
+msgid "Assistant"
+msgstr "Pomoćnik"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
+#, kde-format
+msgid "System"
+msgstr "Sustav"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
+#, kde-format
+msgid "Tool"
+msgstr "Alat"
+
+#: core/kaichatexportchataspdfjob.cpp:27
+#, kde-format
+msgid "Pdf"
+msgstr "PDF"
+
+#: core/kaichatexportchatastextjob.cpp:23
+#, kde-format
+msgid "Text"
+msgstr "Tekst"
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, kde-format
+msgid "Instances"
+msgstr "Instance"
+
+#: kcm/kcmautogeneratetext.cpp:32
+#, kde-format
+msgid "MCP Server"
+msgstr "MCP poslužitelj"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr "Podijeli tekst…"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Došlo je do problema pri dijeljenju dokumenta: %1"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
+#, kde-format
+msgid "File was shared."
+msgstr "Datoteka je podijeljena."
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>Novi zahtjev možete pronaći na adresi:<br /><a href='%1'>%1</a> </qt>"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
+msgid "The Current Date Time"
+msgstr "Trenutačni datum i vrijeme"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr "Dohvati trenutačni datum i vrijeme"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tool to get current date time"
+msgstr "Ovim alatom dohvatite trenutačni datum i vrijeme"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr "Konfiguriraj alat za datum i vrijeme"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, kde-format
+msgid "Get Current Date Time."
+msgstr "Dohvati trenutačni datum i vrijeme."
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
+#, kde-format
+msgid "Current time is %1"
+msgstr "Trenutačno je vrijeme %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
+#, kde-format
+msgid "Current date is %1"
+msgstr "Trenutačni datum je %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
+#, kde-format
+msgid "Current date time is %1"
+msgstr "Trenutačni datum i vrijeme: %1"
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
+#, kde-format
+msgid "Text to Speech"
+msgstr "Tekst u govor"
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
+#, kde-format
+msgid "Speech to Text"
+msgstr "Govor u tekst"
+
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr "Omogući pretvorbu teksta u govor"
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Koristi prilagođene fontove"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Omogući ikonu u programskoj traci"
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr "Spremište baze podataka:"
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr "Kopiraj putanju"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#, kde-format
+msgid "Never"
+msgstr "Nikad"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
+#, kde-format
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] "%v dan"
+msgstr[1] "%v dana"
+msgstr[2] "%v dana"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, kde-format
+msgid "Exclude Favorite Chats:"
+msgstr "Isključi omiljene razgovore:"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
+#, kde-format
+msgid "Retention Days:"
+msgstr "Broj dana zadržavanja:"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Konfiguriraj KAIChat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:55
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Općenito"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
+#, kde-format
+msgctxt "@title Font page name"
+msgid "Font"
+msgstr "Font"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Instance"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#, kde-format
+msgctxt "@title MCP page name"
+msgid "MCP Servers"
+msgstr "MCP poslužitelji"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Provjera pravopisa"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
+#, kde-format
+msgctxt "@title Text To Speech page name"
+msgid "Accessibility"
+msgstr "Pristupačnost"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Plugins page name"
+msgid "Plugins"
+msgstr "Dodaci"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences other page name"
+msgid "User Feedback"
+msgstr "Povratne informacije korisnika"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:98
+#, kde-format
+msgctxt "@title Retention page name"
+msgid "Retention"
+msgstr "Zadržavanje"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
+#, kde-format
+msgctxt "@title Privacy page name"
+msgid "Privacy"
+msgstr "Privatnost"
+
+#: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Speech To Text"
+msgstr "Omogući pretvorbu govora u tekst"
+
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Select Chat"
+msgstr "Odaberi razgovor"
+
+#: widgets/databasedialog/kaichatdatabasedialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Debug Database"
+msgstr "Otklanjanje pogrešaka u bazi podataka"
+
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select Chat Name"
+msgstr "Odaberite naziv razgovora"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
+#, kde-format
+msgid "Chat"
+msgstr "Razgovor"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
+#, kde-format
+msgid "Messages"
+msgstr "Poruke"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, kde-format
+msgid "Messages in Database"
+msgstr "Poruke u bazi podataka"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
+#, kde-format
+msgid "Messages JSON"
+msgstr "JSON poruke"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
+#, kde-format
+msgid "Pending Typed Info"
+msgstr "Informacije na čekanju"
+
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr "Veličina fonta"
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr "Povećaj font"
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr "Smanji font"
+
+#: widgets/kaichatexportmenu.cpp:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export…"
+msgstr "Izvezi…"
+
+#: widgets/kaichatexportmenu.cpp:19
+#, kde-format
+msgctxt "@action"
+msgid "Export as JSON…"
+msgstr "Izvezi kao JSON…"
+
+#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "kaichat"
+msgstr "kaichat"
+
+#: widgets/kaichatexportmenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Export as Markdown…"
+msgstr "Izvezi kao Markdown…"
+
+#: widgets/kaichatexportmenu.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Export as Text…"
+msgstr "Izvezi kao tekst…"
+
+#: widgets/kaichatexportmenu.cpp:43
+#, kde-format
+msgctxt "@action"
+msgid "Export as Pdf…"
+msgstr "Izvezi kao PDF…"
+
+#: widgets/kaichatimportmenu.cpp:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import…"
+msgstr "Uvezi…"
+
+#: widgets/kaichatimportmenu.cpp:16
+#, kde-format
+msgctxt "@action"
+msgid "Import as JSON…"
+msgstr "Uvezi kao JSON…"
+
+#: widgets/kaichatmainwindow.cpp:91
+#, kde-format
+msgid "%1 string found."
+msgid_plural "%1 strings found."
+msgstr[0] "Pronađen je %1 niz."
+msgstr[1] "Pronađena su %1 niza."
+msgstr[2] "Pronađeno je %1 nizova."
+
+#: widgets/kaichatmainwindow.cpp:148
+#, kde-format
+msgid "What's new"
+msgstr "Što je novo"
+
+#: widgets/kaichatmainwindow.cpp:152
+#, kde-format
+msgctxt "@action"
+msgid "Show Archive"
+msgstr "Prikaži arhivu"
+
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
+msgctxt "@action"
+msgid "New Chat"
+msgstr "Novi razgovor"
+
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "Novi privremeni razgovor"
+
+#: widgets/kaichatmainwindow.cpp:181
+#, kde-format
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr "Pretraži bazu podataka…"
+
+#: widgets/kaichatmainwindow.cpp:219
+#, kde-format
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "Otvori Brzi upit…"
+
+#: widgets/kaichatmainwindow.cpp:333
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr "<qt>Time ćete u potpunosti sakriti traku izbornika. Ponovno je možete prikazati pritiskom na %1.</qt>"
+
+#: widgets/kaichatmainwindow.cpp:336
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr "Sakrij traku izbornika"
+
+#: widgets/kaichatmainwindow.cpp:372
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Chats"
+msgstr "Uvoz razgovora"
+
+#: widgets/kaichatmainwindow.cpp:385
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Chats"
+msgstr "Izvoz razgovora"
+
+#: widgets/kaichatmainwindow.cpp:507
+#, kde-format
+msgid "Model Download Done"
+msgstr "Preuzimanje modela dovršeno"
+
+#: widgets/kaichatmainwindow.cpp:508
+#, kde-format
+msgid "Model %1 was downloaded."
+msgstr "Model %1 je preuzet."
+
+#: widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
+
+#. i18n: ectx: Menu (settings)
+#: widgets/kaichatui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "&Postavke"
+
+#. i18n: ectx: Menu (edit)
+#: widgets/kaichatui.rc:22
+#, kde-format
+msgid "&Edit"
+msgstr "&Uredi"
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:26
+#, kde-format
+msgid "View"
+msgstr "Prikaz"
+
+#. i18n: ectx: Menu (Tools)
+#: widgets/kaichatui.rc:32
+#, kde-format
+msgid "Tools"
+msgstr "Alati"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:38
+#, kde-format
+msgid "&Help"
+msgstr "&Pomoć"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgets/kaichatui.rc:45
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Glavna alatna traka"
+
+#: widgets/userfeedback/accountinfosource.cpp:24
+#, kde-format
+msgid "Account information"
+msgstr "Podaci o računu"
+
+#: widgets/userfeedback/accountinfosource.cpp:29
+#, kde-format
+msgid "Return the number of account."
+msgstr "Vraća broj računa."

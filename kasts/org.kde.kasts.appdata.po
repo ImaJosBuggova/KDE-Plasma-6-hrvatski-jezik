@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-01 17:39+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. (itstool) path: component/name
+#: org.kde.kasts.appdata.xml:9
+msgid "Kasts"
+msgstr "Kasts"
+
+#. (itstool) path: component/summary
+#: org.kde.kasts.appdata.xml:10
+msgid "Podcast application"
+msgstr "Aplikacija za podcaste"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:27
+msgid "Kasts is a convergent podcast application that looks good on desktop and mobile."
+msgstr "Kasts je prilagodljiva aplikacija za podcaste koja izgleda odlično na računalima i mobilnim uređajima."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:28
+msgid "Its main features are:"
+msgstr "Njezine glavne značajke:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:30
+msgid "Episode management through play queue"
+msgstr "Upravljanje epizodama putem reda čekanja za reprodukciju"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:31
+msgid "Sync playback positions with other clients through gpodder.net or gpodder-nextcloud"
+msgstr "Sinkronizacija položaja reprodukcije s drugim klijentima putem gpodder.neta ili aplikacije gpodder-nextcloud"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:32
+msgid "Variable playback speed"
+msgstr "Prilagodljiva brzina reprodukcije"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:33
+msgid "Search for podcasts"
+msgstr "Pretraživanje podcasta"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:34
+msgid "Full system integration: e.g. inhibit system suspend while listening"
+msgstr "Potpuna integracija sa sustavom, primjerice sprječavanje suspenzije sustava tijekom slušanja"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:51
+msgid "Kasts on the desktop with default header bar"
+msgstr "Kasts na računalu sa zadanim zaglavljem"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:55
+msgid "Kasts on the desktop with minimized header bar"
+msgstr "Kasts na računalu sa sažetim zaglavljem"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:59
+msgid "Kasts on a phone"
+msgstr "Kasts na telefonu"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kasts.appdata.xml:63
+msgid "Kasts mobile player controls"
+msgstr "Upravljanje reprodukcijom u mobilnoj verziji Kasta"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:77 org.kde.kasts.appdata.xml:222
+#: org.kde.kasts.appdata.xml:242
+msgid "New features in this release:"
+msgstr "Nove značajke ovog izdanja:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:79
+msgid "A large part of the app backend (e.g. database storage) has been rewritten to use unique identifiers for podcasts and episodes. This solves several known issues (e.g. database conflicts) and paves the way to future improvements in UI speed and memory/cpu consumption."
+msgstr "Veliki dio pozadinskog sustava aplikacije (npr. pohrana u bazu podataka) prepisan je tako da upotrebljava jedinstvene identifikatore za podcaste i epizode. Time se rješava nekoliko poznatih problema (npr. sukobi u bazi podataka) i stvaraju preduvjeti za buduća poboljšanja brzine sučelja te potrošnje memorije i procesora."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:80
+msgid "Due to this rewrite, bulk episode actions (e.g. add/remove from queue, mark as favorite) should now be much faster on large selections."
+msgstr "Zahvaljujući tom prepisivanju, skupne radnje nad epizodama (npr. dodavanje u red čekanja ili uklanjanje iz njega, označavanje kao omiljene) sada bi trebale biti znatno brže pri odabiru velikog broja epizoda."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:81
+msgid "There is now a setting that controls the maximum amount of parallel episode downloads (the default is 2)."
+msgstr "Dodana je postavka kojom se određuje najveći broj istodobnih preuzimanja epizoda (zadano je 2)."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:82
+msgid "Podcast updates that are hosted on the same server will now be processed sequentially. This is done to avoid triggering server limits, e.g. maximum allowed parallel connections. Podcasts hosted on different servers are still processed in parallel."
+msgstr "Ažuriranja podcasta s istog poslužitelja sada će se obrađivati redom. Time se izbjegava prekoračenje ograničenja poslužitelja, primjerice najvećeg dopuštenog broja istodobnih veza. Podcasti s različitih poslužitelja i dalje se obrađuju istodobno."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:83
+msgid "Long episode titles will now be fully visible on the episode details page. The text will be wrapped rather than elided."
+msgstr "Dugi naslovi epizoda sada će biti u cijelosti vidljivi na stranici s pojedinostima epizode. Tekst će se prelamati umjesto skraćivati."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:85
+msgid "Bugfixes in this release:"
+msgstr "Ispravci pogrešaka u ovom izdanju:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:87
+msgid "Fix the issue where the dialogs for setting up synchronization would show up in the wrong window."
+msgstr "Ispravljen je problem zbog kojeg su se dijalozi za postavljanje sinkronizacije prikazivali u pogrešnom prozoru."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:88
+msgid "Fix and optimize the scaling of podcast and episode images throughout the app."
+msgstr "Ispravljeno je i optimizirano skaliranje slika podcasta i epizoda u cijeloj aplikaciji."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:89
+msgid "Fix an issue where an invalid image URL in an episode description could make the app crash."
+msgstr "Ispravljena je pogreška zbog koje je neispravan URL slike u opisu epizode mogao uzrokovati rušenje aplikacije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:90
+msgid "When streaming episodes, first try the original episode URL. If that one fails, try again with the URL obtained after following all redirects. For some reason either one can fail (for any of the available audio backends), so let's try both."
+msgstr "Pri strujanju epizoda najprije se pokušava upotrijebiti izvorni URL epizode. Ako to ne uspije, pokušava se s URL-om dobivenim nakon praćenja svih preusmjeravanja. Iz nekog razloga može zakazati bilo koji od njih (u svim dostupnim audiosustavima), stoga se iskušavaju oba."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:91
+msgid "Fix issues with the layout on android version 15 or higher."
+msgstr "Ispravljeni su problemi s rasporedom na Androidu 15 i novijim verzijama."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:92
+msgid "Use 'episode' instead of 'track' in the UI."
+msgstr "U sučelju se umjesto izraza „zapis” sada upotrebljava izraz „epizoda”."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:111
+msgid "Fixed occasional crashes when updating podcasts after app has been open for a while."
+msgstr "Ispravljena su povremena rušenja pri ažuriranju podcasta nakon duljeg rada aplikacije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:112
+msgid "Fixed a crash happening when resetting the sleep timer."
+msgstr "Ispravljeno je rušenje do kojeg je dolazilo pri ponovnom postavljanju mjerača vremena za spavanje."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:113
+msgid "Fixed the sort order functionality on episode lists."
+msgstr "Ispravljeno je razvrstavanje popisa epizoda."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:114
+msgid "Fixed visual glitches in the header image and in the subscription list."
+msgstr "Ispravljene su vizualne nepravilnosti u slici zaglavlja i na popisu pretplata."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:133
+msgid "Highlights of changes in 24.02.0:"
+msgstr "Najvažnije promjene u verziji 24.02.0:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:135
+msgid "Kasts has been ported to Qt6 and KDE Frameworks 6."
+msgstr "Kasts je prenesen na Qt 6 i KDE Frameworks 6."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:136
+msgid "The color scheme can now be selected manually."
+msgstr "Shemu boja sada je moguće odabrati ručno."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:137
+msgid "Fixed several bugs related to images and playback controls."
+msgstr "Ispravljeno je nekoliko pogrešaka povezanih sa slikama i kontrolama reprodukcije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:138
+msgid "Network checks for metered connections can now be fully disabled."
+msgstr "Provjera mreže za veze s ograničenim prometom sada se može potpuno onemogućiti."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:139
+msgid "Updating podcasts should now be significantly faster on slow hardware."
+msgstr "Ažuriranje podcasta sada bi trebalo biti znatno brže na sporijim uređajima."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:156
+msgid "New features and bugfixes in this release:"
+msgstr "Nove značajke i ispravci pogrešaka u ovom izdanju:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:158
+msgid "The header bar player controls have been redesigned, partly based on the design of Elisa. The header bar is resizeable and can be fully collapsed to just a minimal toolbar."
+msgstr "Kontrole reproduktora u traci zaglavlja redizajnirane su djelomično prema uzoru na Elisa. Traci zaglavlja moguće je promijeniti veličinu i potpuno je sažeti u minimalnu alatnu traku."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:159
+msgid "The left sidebar menu in desktop mode has been redesigned. It's now using similar buttons to the ones used in the bottom navigation bar in mobile mode."
+msgstr "Izbornik na lijevoj bočnoj traci u načinu rada za računala redizajniran je. Sada upotrebljava gumbe slične onima u donjoj navigacijskoj traci mobilne verzije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:160
+msgid "The audio backend has been re-written from scratch. It can now handle multiple backends: libVLC, gstreamer and Qt Multimedia. Kasts will use libVLC as default backend when available, which should solve common issues: volume control is now available through the main toolbar and seeking should no longer make the audio hang."
+msgstr "Audiosustav je ponovno napisan od početka. Sada podržava više pozadinskih sustava: libVLC, GStreamer i Qt Multimedia. Kasts će prema zadanim postavkama upotrijebiti libVLC ako je dostupan, čime bi se trebali riješiti česti problemi: glasnoća se sada može podešavati na glavnoj alatnoj traci, a prematanje više ne bi smjelo zaustaviti zvuk."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:161
+msgid "The settings menu was ported to the new form components."
+msgstr "Izbornik postavki prenesen je na nove komponente obrazaca."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:162
+msgid "Support for chapter images was added."
+msgstr "Dodana je podrška za slike poglavlja."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:163
+msgid "Timestamps mentioned in episode descriptions are now clickable, which will make the audio jump to that point in the episode."
+msgstr "Vremenske oznake u opisima epizoda sada je moguće kliknuti, čime se reprodukcija premješta na odgovarajući položaj u epizodi."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:164
+msgid "Images in headers are now clickable. This will open a fullscreen view of the image in question."
+msgstr "Slike u zaglavljima sada je moguće kliknuti. Otvorit će se prikaz odabrane slike preko cijelog zaslona."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:165
+msgid "The subscribe button is now disabled when a podcast has just been added."
+msgstr "Gumb za pretplatu sada je onemogućen odmah nakon dodavanja podcasta."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:166
+msgid "Several issues with right-to-left language layouts were solved."
+msgstr "Riješeno je nekoliko problema s rasporedom sučelja za jezike koji se pišu zdesna nalijevo."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:177
+msgid "The interface is simplified by only showing one page at a time instead of adding columns, and by combining the podcast page with the podcast episode list page."
+msgstr "Sučelje je pojednostavljeno tako da se istodobno prikazuje samo jedna stranica umjesto dodavanja stupaca, a stranica podcasta spojena je s popisom epizoda podcasta."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:178
+msgid "The podcast and episode info pages are improved by adding a button toolbar (moving actions out of the app header) and by reworking the information layout."
+msgstr "Stranice s podacima o podcastu i epizodi poboljšane su dodavanjem alatne trake s gumbima (radnje su premještene iz zaglavlja aplikacije) i preuređenjem rasporeda informacija."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:179
+msgid "A sleep timer has been implemented."
+msgstr "Dodan je mjerač vremena za spavanje."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:180
+msgid "The app will now remember the position and size of its window."
+msgstr "Aplikacija će sada pamtiti položaj i veličinu prozora."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:181
+msgid "Kasts now has the ability to push all local episode states to the sync server."
+msgstr "Kasts sada može poslati sva lokalna stanja epizoda na poslužitelj za sinkronizaciju."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:182
+msgid "A setting has been added to tell Kasts how many recent episodes should be marked as unplayed when adding a new podcast."
+msgstr "Dodana je postavka kojom se određuje koliko će najnovijih epizoda biti označeno kao neodslušano pri dodavanju novog podcasta."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:183
+msgid "Several small UI bugs and glitches were solved."
+msgstr "Riješeno je nekoliko manjih problema i vizualnih nedostataka sučelja."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:191
+msgid "The podcast update routine has been completely overhauled, solving several bugs. It's now using multithreading, and it will also update existing episode information."
+msgstr "Postupak ažuriranja podcasta potpuno je prerađen i time je riješeno nekoliko pogrešaka. Sada upotrebljava više dretvi i ažurira i podatke o postojećim epizodama."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:192
+msgid "General improvements were made to make sure that the app fits well on small screens in both portrait and landscape mode."
+msgstr "Provedena su opća poboljšanja kako bi aplikacija dobro radila na malim zaslonima u okomitom i vodoravnom položaju."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:193
+msgid "Episode images will now be retrieved from id3v2tag if available."
+msgstr "Slike epizoda sada će se dohvaćati iz oznaka ID3v2 ako su dostupne."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:194
+msgid "New episodes will be added to the queue in ascending chronological order (rather than descending) per podcast."
+msgstr "Nove epizode dodavat će se u red čekanja kronološkim uzlaznim redoslijedom (umjesto silaznim) za svaki podcast."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:195
+msgid "A switch has been introduced to optionally adjust the time left on episodes based on the current playback rate."
+msgstr "Dodana je mogućnost prilagodbe preostalog vremena epizode trenutačnoj brzini reprodukcije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:196
+msgid "The episode details pages now have a context action to go straight to the list of episodes for that podcast."
+msgstr "Stranicama s pojedinostima epizode dodana je radnja kontekstnog izbornika koja izravno otvara popis epizoda tog podcasta."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:197
+msgid "It's now possible to sync with custom GPodder servers (i.e. other than the official gpodder.net instance)."
+msgstr "Sada je moguće sinkronizirati podatke s prilagođenim poslužiteljima GPoddera (dakle, ne samo sa službenom instancom gpodder.neta)."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:198
+msgid "Podcasts can now again be updated even when the sync server is unavailable. This was a bug in previous versions."
+msgstr "Podcasti se sada mogu ažurirati i kada poslužitelj za sinkronizaciju nije dostupan. To je bila pogreška u prethodnim verzijama."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:206
+msgid "General code quality improvements and bugfixes"
+msgstr "Opća poboljšanja kvalitete koda i ispravci pogrešaka"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:214
+msgid "Various User interface improvements"
+msgstr "Razna poboljšanja korisničkog sučelja"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:215
+msgid "Keep fetching episode actions until we get the current timestamp"
+msgstr "Nastavi dohvaćati radnje epizoda dok se ne dosegne trenutačna vremenska oznaka"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:216
+msgid "Re-enable icons for gpodder and nextcloud"
+msgstr "Ponovno su omogućene ikone za gpodder i Nextcloud"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:224
+msgid "Support for chapters, both RSS feed and MP3 tags encoded chapters are supported"
+msgstr "Dodana je podrška za poglavlja iz RSS kanala i poglavlja kodirana u oznakama MP3 datoteka."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:225
+msgid "Several improvements in user interface"
+msgstr "Nekoliko poboljšanja korisničkog sučelja"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:226
+msgid "Optimization and improvements for backend"
+msgstr "Optimizacija i poboljšanja pozadinskog sustava"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:227
+msgid "Reworked settings page"
+msgstr "Prerađena stranica postavki"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:228
+msgid "Support for syncing subscriptions and episode play position using gpodder.net or nextcloud-gpodder app"
+msgstr "Dodana je podrška za sinkronizaciju pretplata i položaja reprodukcije epizoda putem aplikacije gpodder.net ili Nextcloud GPodder."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:229 org.kde.kasts.appdata.xml:250
+msgid "Several bugfixes."
+msgstr "Nekoliko ispravaka pogrešaka."
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:236
+msgid "Next to some minor bugfixes, it is now possible to change the location where the downloaded podcast episodes and cached images are saved. These files can take up a lot of disk space, so it's nice to be able to store them elsewhere on systems with limited home folder disk space. The related settings now show the disk space used by episodes and images, and allow to clear the image cache."
+msgstr "Uz nekoliko manjih ispravaka pogrešaka, sada je moguće promijeniti mjesto spremanja preuzetih epizoda podcasta i predmemoriranih slika. Te datoteke mogu zauzeti mnogo prostora na disku pa ih je korisno pohraniti drugdje na sustavima s malo prostora u početnoj mapi. Povezane postavke sada prikazuju prostor na disku koji zauzimaju epizode i slike te omogućuju brisanje predmemorije slika."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:244
+msgid "Discover page to search for podcasts on podcastindex.org"
+msgstr "Dodana je stranica Otkrij za pretraživanje podcasta na podcastindex.orgu."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:245
+msgid "Podcast downloads can now be resumed."
+msgstr "Preuzimanje podcasta sada je moguće nastaviti nakon prekida."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:246
+msgid "Updated playback speed settings dialog."
+msgstr "Ažuriran je dijalog za postavljanje brzine reprodukcije."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:247
+msgid "Settings to allow/disallow network access on metered connections."
+msgstr "Dodane su postavke za dopuštanje ili zabranu mrežnog pristupa putem veza s ograničenim prometom."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:248
+msgid "More descriptive error notifications from which the complete list of errors can be opened."
+msgstr "Obavijesti o pogreškama sada sadrže više pojedinosti i omogućuju otvaranje cjelovitog popisa pogrešaka."
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:249
+msgid "Several smaller improvements: menu item highlighting, tooltips, hotkeys"
+msgstr "Nekoliko manjih poboljšanja: isticanje stavki izbornika, oblačići s objašnjenjima i tipkovni prečaci"
+
+#. (itstool) path: description/p
+#: org.kde.kasts.appdata.xml:257
+msgid "First release of Kasts, a Kirigami-based convergent podcast player. Released as part of Plasma Mobile Gear 21.06. It features:"
+msgstr "Prvo izdanje Kasta, prilagodljivog reproduktora podcasta temeljenog na Kirigamiju. Objavljeno je kao dio Plasma Mobile Geara 21.06. Značajke uključuju:"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:259
+msgid "a play queue"
+msgstr "red čekanja za reprodukciju"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:260
+msgid "notification panel and lockscreen media controls"
+msgstr "ploču s obavijestima i multimedijske kontrole na zaključanom zaslonu"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:261
+msgid "inhibits systemd suspend while listening to podcasts"
+msgstr "sprječavanje suspenzije sustava systemd tijekom slušanja podcasta"
+
+#. (itstool) path: ul/li
+#: org.kde.kasts.appdata.xml:262
+msgid "convergent UI; looks good on mobile and desktop"
+msgstr "prilagodljivo sučelje koje dobro izgleda na mobilnim uređajima i računalima"
