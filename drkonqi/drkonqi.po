@@ -1,0 +1,1256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the drkonqi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drkonqi\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-09-20 16:18+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: bugzillaintegration/reportinterface.cpp:212
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid ""
+"<placeholder>In detail, tell us what you were doing  when the application "
+"crashed.</placeholder>"
+msgstr "<placeholder>Detaljno nam opišite što ste radili kada se aplikacija srušila.</placeholder>"
+
+#: coredump/dumpexcavator/automaticcoredumpexcavator.cpp:37
+#, kde-format
+msgctxt "diagnostic error. %1 is the specific error message from the system"
+msgid "Failed to create core dump directory: %1"
+msgstr "Nije moguće stvoriti mapu za ispis memorije: %1"
+
+#: coredump/dumpexcavator/automaticcoredumpexcavator.cpp:55
+#, kde-format
+msgctxt "diagnostic error. %1 is the specific error message from the system"
+msgid "Failed to open core dump file: %1"
+msgstr "Nije moguće otvoriti datoteku ispisa memorije: %1"
+
+#: coredump/dumpexcavator/automaticcoredumpexcavator.cpp:61
+#, kde-format
+msgctxt "diagnostic error. %1 is the specific error message from the system"
+msgid "Core dump file does not exist: %1"
+msgstr "Datoteka ispisa memorije ne postoji: %1"
+
+#: coredump/dumpexcavator/automaticcoredumpexcavator.cpp:71
+#, kde-format
+msgctxt "diagnostic error. %1 is the numeric exit code"
+msgid "Core dump file extraction process failed with code: %1"
+msgstr "Postupak izdvajanja datoteke ispisa memorije nije uspio, šifra pogreške: %1"
+
+#: coredump/dumpexcavator/automaticcoredumpexcavator.cpp:92
+#, kde-format
+msgctxt "diagnostic error. %1 is a dbus error from a polkit helper"
+msgid "Elevated core dump file extraction process failed: %1"
+msgstr "Postupak izdvajanja datoteke ispisa memorije s povišenim ovlastima nije uspio: %1"
+
+#: coredump/gui/DetailsLoader.cpp:36
+#, kde-format
+msgctxt "@info"
+msgid "Subprocess exited with error: %1"
+msgstr "Podproces je završio uz pogrešku: %1"
+
+#: coredump/gui/DetailsLoader.cpp:40
+#, kde-format
+msgctxt "@info"
+msgid "Subprocess crashed. Check your installation."
+msgstr "Podproces se srušio. Provjerite instalaciju."
+
+#: coredump/gui/main.cpp:186
+#, kde-format
+msgctxt "@title CLI title"
+msgid "Crashed Processes Viewer"
+msgstr "Preglednik srušenih procesa"
+
+#: coredump/gui/main.cpp:188
+#, kde-format
+msgctxt "@info program description"
+msgid "Offers detailed view of past crashes"
+msgstr "Pruža detaljan pregled prethodnih rušenja"
+
+#: coredump/gui/main.cpp:190
+#, kde-format
+msgid "(C) 2020-2022, The DrKonqi Authors"
+msgstr "(C) 2020–2022, autori DrKonqija"
+
+#: coredump/gui/main.cpp:194 main.cpp:150
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <PID> of the program"
+msgstr "<PID> programa"
+
+#: coredump/gui/main.cpp:195 main.cpp:152
+#, kde-format
+msgctxt "@info:shell"
+msgid "Disable arbitrary disk access"
+msgstr "Onemogući proizvoljan pristup disku"
+
+#: coredump/gui/main.cpp:197 main.cpp:159
+#, kde-format
+msgctxt "@info:shell"
+msgid "Do not show a notification but launch the debug dialog directly"
+msgstr "Nemoj prikazati obavijest, već izravno pokreni dijaloški okvir za otklanjanje pogrešaka"
+
+#: coredump/gui/main.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Start the application showing only a notification that a process has crashed"
+msgstr "Pokreni aplikaciju tako da prikaže samo obavijest o rušenju procesa"
+
+#: coredump/gui/main.cpp:200 main.cpp:153
+#, kde-format
+msgctxt "@info:shell"
+msgid "The program has already been restarted"
+msgstr "Program je već ponovno pokrenut"
+
+#: coredump/gui/main.cpp:201 main.cpp:165
+#, kde-format
+msgctxt "@info:shell"
+msgid "The path to the metadata file"
+msgstr "Putanja do datoteke metapodataka"
+
+#: coredump/gui/Patient.cpp:136
+#, kde-format
+msgctxt "@title"
+msgid "Failure"
+msgstr "Neuspjeh"
+
+#: coredump/gui/Patient.cpp:137
+#, kde-format
+msgctxt "@info"
+msgid "Failed to access crash data for unknown reasons."
+msgstr "Pristup podacima o rušenju nije uspio iz nepoznatih razloga."
+
+#: coredump/gui/Patient.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Debugging is not possible for crashes of software run inside a Flatpak "
+"sandbox at this time."
+msgstr "Trenutačno nije moguće otklanjati pogreške u softveru koji se srušio unutar Flatpakova izoliranog okruženja."
+
+#: coredump/gui/Patient.cpp:201
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Debugging is not possible for crashes of software run inside a Snap sandbox "
+"at this time."
+msgstr "Trenutačno nije moguće otklanjati pogreške u softveru koji se srušio unutar Snapova izoliranog okruženja."
+
+#: coredump/gui/Patient.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Debugging is no longer possible for this crash. The core dump file is "
+"missing."
+msgstr "Otklanjanje pogrešaka za ovo rušenje više nije moguće jer nedostaje datoteka ispisa memorije."
+
+#: coredump/gui/Patient.cpp:209
+#, kde-format
+msgctxt "@info"
+msgid "Debugging is no longer possible for this crash."
+msgstr "Otklanjanje pogrešaka za ovo rušenje više nije moguće."
+
+#: coredump/gui/Patient.cpp:233
+#, kde-format
+msgctxt "@info"
+msgid "Reporting is not supported for Flatpak applications at this time."
+msgstr "Trenutačno nije podržano prijavljivanje pogrešaka u aplikacijama Flatpak."
+
+#: coredump/gui/Patient.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid "Already reported."
+msgstr "Već prijavljeno."
+
+#: coredump/gui/Patient.cpp:243
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Your distribution has not provided a bug report URL. Please report this to "
+"your distribution."
+msgstr "Vaša distribucija nije navela adresu za prijavu grešaka. Obavijestite o tome razvojni tim svoje distribucije."
+
+#: coredump/gui/Patient.cpp:291
+#, kde-format
+msgctxt "@info the name of where to report bugs"
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#: coredump/gui/Patient.cpp:293
+#, kde-format
+msgctxt "@info the name of where to report bugs"
+msgid "Snap Store"
+msgstr "Snap Store"
+
+#: coredump/gui/Patient.cpp:295
+#, kde-format
+msgctxt "@info the name of where to report bugs"
+msgid "KDE"
+msgstr "KDE"
+
+#: coredump/gui/qml/DetailsPage.qml:25
+msgctxt "@title"
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: coredump/gui/qml/DetailsPage.qml:35
+msgctxt "@action"
+msgid "Copy to Clipboard"
+msgstr "Kopiraj u međuspremnik"
+
+#: coredump/gui/qml/DetailsPage.qml:45
+msgctxt "@action"
+msgid "Run Interactive Debugger"
+msgstr "Pokreni interaktivni program za otklanjanje pogrešaka"
+
+#: coredump/gui/qml/DetailsPage.qml:52
+msgctxt "@action %1 is the name of a distribution"
+msgid "Report to %1"
+msgstr "Prijavi u %1"
+
+#: coredump/gui/qml/ListPage.qml:14
+msgctxt "@title"
+msgid "Crashes"
+msgstr "Rušenja"
+
+#: coredump/gui/qml/ListPage.qml:82
+msgctxt "@info place holder for empty listview"
+msgid "Loading crash reports"
+msgstr "Učitavanje izvješća o rušenju"
+
+#: coredump/gui/qml/ListPage.qml:90
+msgctxt "@info place holder for empty listview"
+msgid "No processes have crashed yet"
+msgstr "Još se nijedan proces nije srušio"
+
+#: coredump/gui/qml/ListPage.qml:98
+msgctxt "@info place holder for empty listview"
+msgid "No crashes matching the search"
+msgstr "Nema rušenja koja odgovaraju pretraživanju"
+
+#: coredump/gui/qml/Main.qml:14
+msgctxt "@title:window"
+msgid "Overview"
+msgstr "Pregled"
+
+#: coredump/gui/statusnotifier.cpp:30
+#, kde-format
+msgctxt "Notification text"
+msgid "The application closed unexpectedly."
+msgstr "Aplikacija se neočekivano zatvorila."
+
+#: coredump/gui/statusnotifier.cpp:32
+#, kde-format
+msgctxt "Notification text"
+msgid "Please report this error to help improve this software."
+msgstr "Prijavite ovu pogrešku kako biste pomogli poboljšati ovaj softver."
+
+#: coredump/gui/statusnotifier.cpp:34
+#, kde-format
+msgctxt "Notification text"
+msgid ""
+"The application closed unexpectedly. A report is being automatically "
+"submitted."
+msgstr "Aplikacija se neočekivano zatvorila. Izvješće se automatski šalje."
+
+#: coredump/gui/statusnotifier.cpp:46 coredump/gui/statusnotifier.cpp:124
+#, kde-format
+msgctxt "Placeholder is an application name; it crashed"
+msgid "%1 Closed Unexpectedly"
+msgstr "%1 neočekivano zatvoren"
+
+#: coredump/gui/statusnotifier.cpp:63
+#, kde-format
+msgid "Please report this error to help improve this software."
+msgstr "Prijavite ovu pogrešku kako biste pomogli poboljšati ovaj softver."
+
+#: coredump/gui/statusnotifier.cpp:70
+#, kde-format
+msgid "Report &Bug"
+msgstr "Prijavi &grešku"
+
+#: coredump/gui/statusnotifier.cpp:76
+#, kde-format
+msgid "&Restart Application"
+msgstr "&Ponovno pokreni aplikaciju"
+
+#: coredump/gui/statusnotifier.cpp:87
+#, kde-format
+msgctxt "Allows the user to hide this notifier item"
+msgid "Hide"
+msgstr "Sakrij"
+
+#: coredump/gui/statusnotifier.cpp:122
+#, kde-format
+msgctxt "Placeholder is an application name; it crashed"
+msgid "%1 Closed Repeatedly"
+msgstr "%1 opetovano zatvoren"
+
+#: coredump/gui/statusnotifier.cpp:139
+#, kde-format
+msgctxt "@action:button, keep short"
+msgid "Add Details"
+msgstr "Dodaj pojedinosti"
+
+#: coredump/gui/statusnotifier.cpp:144
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Report Bug"
+msgstr "Prijavi grešku"
+
+#: coredump/gui/statusnotifier.cpp:151
+#, kde-format
+msgctxt "Notification action button, keep short"
+msgid "Restart App"
+msgstr "Ponovno pokreni aplikaciju"
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:106
+#, kde-format
+msgctxt "@title:notification"
+msgid "Application Crash"
+msgstr "Rušenje aplikacije"
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:110
+#, kde-kuit-format
+msgctxt ""
+"@info notification text. %1 is a exe name. %2 is either a service name such "
+"as firefox or a cgroup name such as org.mozilla.firefox"
+msgid ""
+"<command>%1</command> (part of <command>%2</command>) has encountered a "
+"fatal error and was closed."
+msgstr "<command>%1</command> (dio aplikacije <command>%2</command>) naišao je na kobnu pogrešku i zatvoren je."
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:114
+#, kde-format
+msgctxt ""
+"@title:notification service refers to a background service such as kwalletd "
+"or kded"
+msgid "Service Crash"
+msgstr "Rušenje usluge"
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:116
+#, kde-kuit-format
+msgctxt "@info notification text. %1 is a exe name"
+msgid "<command>%1</command> has encountered a fatal error and was closed."
+msgstr "<command>%1</command> naišao je na kobnu pogrešku i zatvoren je."
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:119
+#, kde-format
+msgctxt "@action:button show crash details"
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:125
+#, kde-format
+msgctxt "@title"
+msgid "Failed to Launch"
+msgstr "Pokretanje nije uspjelo"
+
+#: coredump/launcher/GlobalNotifierTruck.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid "Could not launch the Crashed Process Viewer."
+msgstr "Nije moguće pokrenuti Preglednik srušenih procesa."
+
+#: debugger.cpp:35 debugger.cpp:62
+#, kde-format
+msgctxt "@label the debugger called GDB"
+msgid "GDB"
+msgstr "GDB"
+
+#: debugger.cpp:50
+#, kde-format
+msgctxt "@label the debugger called LLDB"
+msgid "LLDB"
+msgstr "LLDB"
+
+#: debugpackageinstaller.cpp:51
+#, kde-format
+msgctxt "@info:progress"
+msgid "Requesting installation of missing debug symbols packages..."
+msgstr "Zahtjev za instalaciju paketa nedostajućih simbola za otklanjanje pogrešaka..."
+
+#: debugpackageinstaller.cpp:53
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: debugpackageinstaller.cpp:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Missing debug symbols"
+msgstr "Nedostaju simboli za otklanjanje pogrešaka"
+
+#: debugpackageinstaller.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid "Could not find debug symbol packages for this application."
+msgstr "Nije moguće pronaći pakete simbola za otklanjanje pogrešaka za ovu aplikaciju."
+
+#: debugpackageinstaller.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An error was encountered during the installation of the debug symbol "
+"packages."
+msgstr "Tijekom instalacije paketa simbola za otklanjanje pogrešaka pojavila se pogreška."
+
+#: drkonqi.cpp:148
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Report saved to <filename>%1</filename>."
+msgstr "Izvješće je spremljeno u <filename>%1</filename>."
+
+#: drkonqi.cpp:152
+#, kde-format
+msgctxt "@info"
+msgid "Could not create a file in which to save the report."
+msgstr "Nije moguće stvoriti datoteku za spremanje izvješća."
+
+#: drkonqi.cpp:163
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Report"
+msgstr "Spremi izvješće"
+
+#: drkonqi.cpp:192
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "Nije moguće otvoriti datoteku <filename>%1</filename> za pisanje."
+
+#: main.cpp:127
+#, kde-format
+msgid "Crash Handler"
+msgstr "Obrađivač rušenja"
+
+#: main.cpp:129
+#, kde-format
+msgid "Crash Handler gives the user feedback if a program has crashed."
+msgstr "Obrađivač rušenja obavještava korisnika ako se program sruši."
+
+#: main.cpp:132
+#, kde-format
+msgid "(C) 2000-2018, The DrKonqi Authors"
+msgstr "(C) 2000–2018, autori DrKonqija"
+
+#: main.cpp:133
+#, kde-format
+msgctxt "@info:credit"
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:134
+#, kde-format
+msgctxt "@info:credit"
+msgid "Dario Andres Rodriguez"
+msgstr "Dario Andres Rodriguez"
+
+#: main.cpp:135
+#, kde-format
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: main.cpp:136
+#, kde-format
+msgctxt "@info:credit"
+msgid "A. L. Spehr"
+msgstr "A. L. Spehr"
+
+#: main.cpp:143
+#, kde-format
+msgctxt "@info:shell"
+msgid "The signal <number> that was caught"
+msgstr "Uhvaćeni signal <number>"
+
+#: main.cpp:144
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Name> of the program"
+msgstr "<Name> programa"
+
+#: main.cpp:145
+#, kde-format
+msgctxt "@info:shell"
+msgid "<Path> to the executable"
+msgstr "<Path> do izvršne datoteke"
+
+#: main.cpp:146
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <version> of the program"
+msgstr "<version> programa"
+
+#: main.cpp:147
+#, kde-format
+msgctxt "@info:shell"
+msgid "The bug <address> to use"
+msgstr "Adresa <address> za prijavu greške"
+
+#: main.cpp:148
+#, kde-format
+msgctxt "@info:shell"
+msgid "Translated <name> of the program"
+msgstr "Prevedeni <name> programa"
+
+#: main.cpp:149
+#, kde-format
+msgctxt "@info:shell"
+msgid "Bugzilla product name"
+msgstr "Naziv proizvoda u Bugzilli"
+
+#: main.cpp:151
+#, kde-format
+msgctxt "@info:shell"
+msgid "Startup <ID> of the program"
+msgstr "<ID> pokretanja programa"
+
+#: main.cpp:156
+#, kde-format
+msgctxt "@info:shell"
+msgid "Keep the program running and generate the backtrace at startup"
+msgstr "Ostavi program pokrenut i izradi trag poziva pri pokretanju"
+
+#: main.cpp:158
+#, kde-format
+msgctxt "@info:shell"
+msgid "The <thread id> of the failing thread"
+msgstr "<thread id> neispravne dretve"
+
+#: main.cpp:166
+#, kde-format
+msgctxt "@info"
+msgid "Go directly to the sentry page"
+msgstr "Izravno otvori stranicu Sentryja"
+
+#: qml/BacktracePage.qml:11
+msgctxt "@title:window"
+msgid "Fetching the Backtrace (Automatic Crash Information)"
+msgstr "Dohvaćanje traga poziva (automatski podaci o rušenju)"
+
+#: qml/BacktracePage.qml:35 qml/ContextPage.qml:98
+msgctxt "@action:button"
+msgid "Next"
+msgstr "Dalje"
+
+#: qml/BugzillaPage.qml:43
+msgctxt "@info"
+msgid "Failed to contact %1: <message>%2</message>"
+msgstr "Povezivanje s %1 nije uspjelo: <message>%2</message>"
+
+#: qml/BugzillaPage.qml:48
+msgctxt "@action"
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: qml/BugzillaPage.qml:62
+msgctxt "@info"
+msgid "Trying to contact %1…"
+msgstr "Pokušaj povezivanja s %1…"
+
+#: qml/ContextPage.qml:14
+msgctxt "@title:window"
+msgid "Your Knowledge"
+msgstr "Vaše saznanje"
+
+#: qml/ContextPage.qml:18
+msgctxt "@info/rich"
+msgid "Do you remember what you were doing prior to the crash?"
+msgstr "Sjećate li se što ste radili prije rušenja?"
+
+#: qml/ContextPage.qml:28
+msgctxt "@action:button"
+msgid "Yes"
+msgstr "Da"
+
+#: qml/ContextPage.qml:33
+msgctxt "@action:button"
+msgid "No"
+msgstr "Ne"
+
+#: qml/ContextPage.qml:42
+msgctxt "@info/rich"
+msgid "Does the application crash again if you repeat the same situation?"
+msgstr "Ruši li se aplikacija ponovno ako ponovite istu situaciju?"
+
+#: qml/ContextPage.qml:58
+msgctxt "@info/rich"
+msgid "Please select which additional information you can provide:"
+msgstr "Odaberite koje dodatne informacije možete navesti:"
+
+#: qml/ContextPage.qml:65
+msgctxt ""
+"@option:check kind of information the user can provide about the crash, %1 "
+"is the application name"
+msgid ""
+"What I was doing when the application <application>%1</application> crashed"
+msgstr "Što sam radio/la kada se aplikacija <application>%1</application> srušila"
+
+#: qml/ContextPage.qml:71
+msgctxt "@action:check"
+msgid "Unusual desktop behavior I noticed"
+msgstr "Neuobičajeno ponašanje radne površine koje sam primijetio/la"
+
+#: qml/ContextPage.qml:76
+msgctxt "@action:check"
+msgid "Custom settings of the application that may be related"
+msgstr "Prilagođene postavke aplikacije koje bi mogle biti povezane"
+
+#: qml/ContextPage.qml:85 qml/DeveloperPage.qml:262
+msgctxt "@title"
+msgid "Not Sufficiently Useful"
+msgstr "Nedovoljno korisno"
+
+#: qml/ContextPage.qml:90
+msgctxt "@info"
+msgid ""
+"The information you can provide is not considered helpful enough in this "
+"case.\n"
+"If you can't think of any more information, you can close the bug report "
+"dialog."
+msgstr "Informacije koje možete navesti u ovom slučaju nisu dovoljno korisne.\nAko se ne možete sjetiti dodatnih informacija, možete zatvoriti dijaloški okvir za prijavu greške."
+
+#: qml/DeveloperPage.qml:24
+msgctxt "@title:window"
+msgid "Developer Information"
+msgstr "Podaci za razvojne inženjere"
+
+#: qml/DeveloperPage.qml:30
+msgctxt "@action:button"
+msgid "Install Debug Symbols"
+msgstr "Instaliraj simbole za otklanjanje pogrešaka"
+
+#: qml/DeveloperPage.qml:43
+msgctxt "@info:tooltip"
+msgid "Use this button to install the packages for missing debug symbols."
+msgstr "Ovim gumbom instalirajte pakete s nedostajućim simbolima za otklanjanje pogrešaka."
+
+#: qml/DeveloperPage.qml:51
+msgctxt "@action Report the bug on this domain"
+msgid "Report on %1"
+msgstr "Prijavi na %1"
+
+#: qml/DeveloperPage.qml:52
+msgctxt "@info:tooltip"
+msgid "Starts the bug report assistant."
+msgstr "Pokreće pomoćnika za prijavu grešaka."
+
+#: qml/DeveloperPage.qml:60
+msgctxt "@action:button"
+msgid "Reload"
+msgstr "Ponovno učitaj"
+
+#: qml/DeveloperPage.qml:62
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to reload the crash information (backtrace). This is useful "
+"when you have\n"
+"installed the proper debug symbol packages and you want to obtain a better "
+"backtrace."
+msgstr "Ovim gumbom ponovno učitajte podatke o rušenju (trag poziva). To je korisno nakon instalacije odgovarajućih paketa simbola za otklanjanje pogrešaka, kada želite dobiti potpuniji trag poziva."
+
+#: qml/DeveloperPage.qml:72
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: qml/DeveloperPage.qml:73
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to copy the crash information (backtrace) to the clipboard."
+msgstr "Ovim gumbom kopirajte podatke o rušenju (trag poziva) u međuspremnik."
+
+#: qml/DeveloperPage.qml:80
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Spremi"
+
+#: qml/DeveloperPage.qml:82
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information (backtrace) to a file. This is "
+"useful if you want to take a look at it or to report the bug later."
+msgstr "Ovim gumbom spremite podatke o rušenju (trag poziva) u datoteku. To je korisno ako ih želite pregledati ili naknadno prijaviti grešku."
+
+#: qml/DeveloperPage.qml:98
+msgctxt "@info"
+msgid ""
+"This backtrace is very limited because there was not enough memory available "
+"to generate a full backtrace. You can close some applications and try again."
+msgstr "Ovaj je trag poziva vrlo ograničen jer nije bilo dovoljno memorije za izradu potpunog traga. Zatvorite neke aplikacije i pokušajte ponovno."
+
+#: qml/DeveloperPage.qml:103 qml/Main.qml:122
+msgctxt "@action retry gathering crash data"
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: qml/DeveloperPage.qml:128
+msgctxt "@title:window"
+msgid "Error during the installation of debug symbols"
+msgstr "Pogreška pri instalaciji simbola za otklanjanje pogrešaka"
+
+#: qml/DeveloperPage.qml:219
+msgctxt "@info/rich"
+msgid ""
+"Click the <interface>Install Debug Symbols</interface> button in order to "
+"automatically install the missing debugging information packages. If this "
+"method\n"
+"does not work, read <link url='%1'>How to create useful crash reports</link> "
+"to learn how to get a useful\n"
+"backtrace, install the needed packages (<link url='%2'>list of files</"
+"link>), then click the <interface>Reload</interface> button."
+msgstr "Kliknite gumb <interface>Instaliraj simbole za otklanjanje pogrešaka</interface> kako biste automatski instalirali pakete s nedostajućim podacima za otklanjanje pogrešaka.\nAko to ne uspije, pročitajte <link url='%1'>Kako izraditi korisna izvješća o rušenju</link> da biste saznali kako dobiti koristan\ntrag poziva, instalirajte potrebne pakete (<link url='%2'>popis datoteka</link>), a zatim kliknite gumb <interface>Ponovno učitaj</interface>."
+
+#: qml/DeveloperPage.qml:227
+msgctxt "@info/rich"
+msgid ""
+"Read <link url='%1'>How to create useful crash reports</link> to learn how "
+"to get a useful backtrace, install the needed packages\n"
+"(<link url='%2'>list of files</link>), then click the <interface>Reload</"
+"interface> button."
+msgstr "Pročitajte <link url='%1'>Kako izraditi korisna izvješća o rušenju</link> da biste saznali kako dobiti koristan trag poziva, instalirajte potrebne pakete\n(<link url='%2'>popis datoteka</link>), a zatim kliknite gumb <interface>Ponovno učitaj</interface>."
+
+#: qml/DeveloperPage.qml:234
+msgctxt "@info/rich"
+msgid ""
+"Try to regenerate the backtrace by clicking the <interface>Reload</"
+"interface> button."
+msgstr "Pokušajte ponovno izraditi trag poziva klikom na gumb <interface>Ponovno učitaj</interface>."
+
+#: qml/DeveloperPage.qml:237
+msgctxt "@info/rich"
+msgid ""
+"The backtrace generation failed to prepare. This indicates a severe problem "
+"which you likely cannot resolve."
+msgstr "Priprema izrade traga poziva nije uspjela. To upućuje na ozbiljan problem koji vjerojatno ne možete riješiti."
+
+#: qml/DeveloperPage.qml:241
+msgctxt "@info/rich"
+msgid ""
+"<emphasis strong='true'>First install the debugger application (%1), then "
+"click the <interface>Reload</interface> button.</emphasis>"
+msgstr "<emphasis strong='true'>Najprije instalirajte program za otklanjanje pogrešaka (%1), a zatim kliknite gumb <interface>Ponovno učitaj</interface>.</emphasis>"
+
+#: qml/DeveloperPage.qml:245
+msgctxt "@info/rich"
+msgid ""
+"The backtrace generation was stopped due to memory pressure. You could try "
+"to regenerate the backtrace by clicking the <interface>Reload</interface> "
+"button."
+msgstr "Izrada traga poziva zaustavljena je zbog nedostatka memorije. Pokušajte ponovno izraditi trag poziva klikom na gumb <interface>Ponovno učitaj</interface>."
+
+#. i18nc here because that'd close the html tag but we need to append an unordered list of paths
+#: qml/DeveloperPage.qml:269
+msgid ""
+"The packages containing debug information for the following application and "
+"libraries are missing:"
+msgstr "Nedostaju paketi s podacima za otklanjanje pogrešaka za sljedeću aplikaciju i biblioteke:"
+
+#: qml/DownloadSymbolsCheckBox.qml:20
+msgctxt "@label"
+msgid "Automatically download debug symbols to enhance crash reports"
+msgstr "Automatski preuzmi simbole za otklanjanje pogrešaka kako bi se poboljšala izvješća o rušenju"
+
+#: qml/DownloadSymbolsCheckBox.qml:29
+msgctxt "@info:tooltip"
+msgid ""
+"Crash reports can be of greater value if additional debugging resources are "
+"downloaded from your distributor first.\n"
+"This may also cause increased memory usage, will take longer, and causes "
+"downloads of unknown size when a crash occurs. This is skipped automatically "
+"when using a metered internet connection."
+msgstr "Izvješća o rušenju mogu biti korisnija ako se najprije preuzmu dodatni resursi za otklanjanje pogrešaka od distributera.\nTo može povećati potrošnju memorije, produljiti postupak i uzrokovati preuzimanje nepoznate količine podataka pri rušenju. Preuzimanje se automatski preskače pri korištenju internetske veze s ograničenim prometom."
+
+#: qml/LoginPage.qml:14
+msgctxt "@title:window"
+msgid "Log in to the Bug Tracking System"
+msgstr "Prijava u sustav za praćenje grešaka"
+
+#: qml/LoginPage.qml:66
+msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
+msgid "You need to login with your %1 account in order to proceed."
+msgstr "Za nastavak se morate prijaviti svojim računom za %1."
+
+#: qml/LoginPage.qml:71
+msgctxt "@label:textbox bugzilla account email"
+msgid "Email Address:"
+msgstr "Adresa e-pošte:"
+
+#: qml/LoginPage.qml:77
+msgctxt "@label:textbox bugzilla account password"
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: qml/LoginPage.qml:84
+msgctxt "@option:check"
+msgid "Save login information using the KDE Wallet system"
+msgstr "Spremi podatke za prijavu u KDE-ov novčanik"
+
+#: qml/LoginPage.qml:91
+msgctxt "@info/rich"
+msgid ""
+"<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
+"link> in order to file a bug report, because we may need to contact you "
+"later\n"
+"to request further information. If you do not have one, you can freely <link "
+"url='%2'>create one here</link>. Please do not use disposable email "
+"addresses.</note>"
+msgstr "<note>Za prijavu greške potreban vam je korisnički račun u <link url='%1'>KDE-ovu sustavu za praćenje grešaka</link> jer ćemo vas možda morati naknadno kontaktirati\ni zatražiti dodatne informacije. Ako nemate račun, možete ga besplatno <link url='%2'>izraditi ovdje</link>. Nemojte koristiti privremene adrese e-pošte.</note>"
+
+#: qml/LoginPage.qml:105
+msgctxt "@action:button"
+msgid "Login"
+msgstr "Prijavi se"
+
+#: qml/LoginPage.qml:106
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to login to the KDE bug tracking system using the provided "
+"email address and password."
+msgstr "Ovim se gumbom prijavite u KDE-ov sustav za praćenje grešaka pomoću navedene adrese e-pošte i lozinke."
+
+#: qml/Main.qml:27
+msgctxt "@info"
+msgid ""
+"<para>You cannot report this error, because <application>%1</application> "
+"does not provide a bug reporting address.</para>"
+msgstr "<para>Ne možete prijaviti ovu pogrešku jer <application>%1</application> ne navodi adresu za prijavu grešaka.</para>"
+
+#: qml/Main.qml:34
+msgctxt "@info"
+msgid ""
+"<para>As the Crash Handler itself has failed, the\n"
+"automatic reporting process is disabled to reduce the\n"
+"risks of failing again.<nl /><nl />\n"
+"Please, <link url='%1'>manually report</link> this error\n"
+"to the KDE bug tracking system. Do not forget to include\n"
+"the backtrace from the <interface>Developer Information</interface>\n"
+"page.</para>"
+msgstr "<para>Budući da je i sam Obrađivač rušenja zakazao,\nautomatsko slanje izvješća onemogućeno je kako bi se smanjio\nrizik od ponovnog neuspjeha.<nl /><nl />\nRučno <link url='%1'>prijavite</link> ovu pogrešku\nu KDE-ovu sustavu za praćenje grešaka. Ne zaboravite priložiti\ntrag poziva sa stranice <interface>Podaci za razvojne inženjere</interface>.</para>"
+
+#: qml/Main.qml:46
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crash handler dialog "
+"was started in safe mode.<nl />\n"
+"You can manually report this bug to <link>%1</link> (including the backtrace "
+"from the <interface>Developer Information</interface> page.)</para>"
+msgstr "<para>Pomoćnik za prijavu onemogućen je jer je dijaloški okvir obrađivača rušenja pokrenut u sigurnom načinu rada.<nl />\nOvu grešku možete ručno prijaviti na <link>%1</link> (uz trag poziva sa stranice <interface>Podaci za razvojne inženjere</interface>).</para>"
+
+#: qml/Main.qml:53
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because\n"
+"the crashed application appears to have been updated or\n"
+"uninstalled since it had been started. This prevents accurate\n"
+"crash reporting and can also be the cause of this crash.</para>\n"
+"<para>After updating it is always a good idea to log out and back\n"
+"in to make sure the update is fully applied and will not cause\n"
+"any side effects.</para>"
+msgstr "<para>Pomoćnik za prijavu onemogućen je jer se čini da je srušena aplikacija ažurirana ili\ndeinstalirana nakon pokretanja. Zbog toga prijava rušenja ne bi bila točna, a to je možda\ni uzrok rušenja.</para>\n<para>Nakon ažuriranja preporučuje se odjaviti se i ponovno prijaviti\nkako bi se ažuriranje u potpunosti primijenilo i ne bi uzrokovalo\nnuspojave.</para>"
+
+#: qml/Main.qml:65
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE Software by reporting this error.<nl /"
+"><link url='%1'>Learn more about bug reporting.</link></para>"
+msgstr "<para>Prijavom ove pogreške možete pomoći u poboljšanju KDE-ova softvera.<nl /><link url='%1'>Saznajte više o prijavi grešaka.</link></para>"
+
+#: qml/Main.qml:95
+msgctxt "@info"
+msgid ""
+"There was not enough memory to gather crash information. You can close some "
+"applications to free up memory and try again."
+msgstr "Nije bilo dovoljno memorije za prikupljanje podataka o rušenju. Zatvorite neke aplikacije kako biste oslobodili memoriju pa pokušajte ponovno."
+
+#: qml/Main.qml:101
+msgctxt "@info"
+msgid ""
+"Gathering crash information failed. You can close the window, or <link "
+"url='%1'>view detailed output</link>."
+msgstr "Prikupljanje podataka o rušenju nije uspjelo. Možete zatvoriti prozor ili <link url='%1'>pregledati detaljan izlaz</link>."
+
+#: qml/Main.qml:106
+msgctxt "@info"
+msgid ""
+"Gathering crash information failed for unknown reasons. You can retry, close "
+"the window, or <link url='%1'>view detailed output</link>."
+msgstr "Prikupljanje podataka o rušenju nije uspjelo iz nepoznatih razloga. Možete pokušati ponovno, zatvoriti prozor ili <link url='%1'>pregledati detaljan izlaz</link>."
+
+#: qml/Main.qml:109
+msgctxt "@info"
+msgid ""
+"Gathering crash information failed for unknown reasons. You can retry, or "
+"close the window."
+msgstr "Prikupljanje podataka o rušenju nije uspjelo iz nepoznatih razloga. Možete pokušati ponovno ili zatvoriti prozor."
+
+#: qml/MainPage.qml:12
+msgctxt "@title"
+msgid "Crash Handler"
+msgstr "Obrađivač rušenja"
+
+#: qml/MainPage.qml:35
+msgctxt "@info"
+msgid "<application>%1</application> has closed unexpectedly."
+msgstr "Aplikacija <application>%1</application> neočekivano se zatvorila."
+
+#: qml/MainPage.qml:62
+msgctxt "@action"
+msgid "Send Automatic Report"
+msgstr "Pošalji automatsko izvješće"
+
+#: qml/MainPage.qml:78
+msgctxt "@action"
+msgid "See Developer Information"
+msgstr "Prikaži podatke za razvojne inženjere"
+
+#: qml/PreviewPage.qml:14
+msgctxt "@title"
+msgid "Bug Report Preview"
+msgstr "Pregled izvješća o grešci"
+
+#: qml/PreviewPage.qml:20
+msgctxt "@label/rich"
+msgid ""
+"<para>This is a preview of the contents of the report which will be sent.</"
+"para><para>If you want to modify the report, return to the previous pages.</"
+"para>"
+msgstr "<para>Ovo je pregled sadržaja izvješća koje će biti poslano.</para><para>Ako želite izmijeniti izvješće, vratite se na prethodne stranice.</para>"
+
+#: qml/PreviewPage.qml:39
+msgctxt "@action:button"
+msgid "Submit"
+msgstr "Pošalji"
+
+#: qml/RatingItem.qml:33
+msgctxt "@info"
+msgid "Waiting for data…"
+msgstr "Čekanje podataka…"
+
+#: qml/RatingItem.qml:43
+msgctxt "@info"
+msgid "The generated crash information is useful."
+msgstr "Prikupljeni podaci o rušenju korisni su."
+
+#: qml/RatingItem.qml:45
+msgctxt "@info"
+msgid "The generated crash information may be useful."
+msgstr "Prikupljeni podaci o rušenju mogli bi biti korisni."
+
+#: qml/RatingItem.qml:47
+msgctxt "@info"
+msgid "The generated crash information is likely not useful."
+msgstr "Prikupljeni podaci o rušenju vjerojatno nisu korisni."
+
+#: qml/RatingItem.qml:49
+msgctxt "@info"
+msgid "The generated crash information is not useful."
+msgstr "Prikupljeni podaci o rušenju nisu korisni."
+
+#: qml/ReportPage.qml:14
+msgctxt "@title"
+msgid "Enter Details About the Crash"
+msgstr "Unesite pojedinosti o rušenju"
+
+#: qml/ReportPage.qml:22
+msgctxt "@info"
+msgid "Please provide the following information in English."
+msgstr "Navedite sljedeće informacije na engleskom jeziku."
+
+#: qml/ReportPage.qml:29 qml/ReportPage.qml:48
+msgctxt "@info"
+msgid "Title of the bug report:"
+msgstr "Naslov izvješća o grešci:"
+
+#: qml/ReportPage.qml:34
+msgctxt "@info:tooltip examples of good bug report titles"
+msgid ""
+"<subtitle>Examples of good titles:</subtitle>\n"
+"<list>\n"
+"<item>Plasma crashed after adding the Notes widget and writing on it</item>\n"
+"<item>Konqueror crashed when accessing the Facebook application 'X'</item>\n"
+"<item>Kopete closed after resuming the computer and talking to a MSN buddy</"
+"item>\n"
+"<item>Kate closed while editing a log file and pressing the Delete key a "
+"couple of times</item>\n"
+"</list>"
+msgstr "<subtitle>Primjeri dobrih naslova:</subtitle>\n<list>\n<item>Plasma se srušila nakon dodavanja widgeta Bilješke i pisanja u njemu</item>\n<item>Konqueror se srušio pri pristupu aplikaciji Facebook 'X'</item>\n<item>Kopete se zatvorio nakon buđenja računala i razgovora s prijateljem u MSN-u</item>\n<item>Kate se zatvorio tijekom uređivanja datoteke zapisnika i nekoliko pritisaka tipke Delete</item>\n</list>"
+
+#: qml/ReportPage.qml:55 qml/ReportPage.qml:97
+msgctxt "@info"
+msgid "Information about the crash:"
+msgstr "Informacije o rušenju:"
+
+#: qml/ReportPage.qml:60
+msgctxt "@info"
+msgid ""
+"<subtitle>Describe in as much detail as possible the crash circumstances:</"
+"subtitle>\n"
+"<list>\n"
+"<item>Detail which actions were you taking inside and outside the "
+"application an instant before the crash.</item>\n"
+"<item>Note if you noticed any unusual behavior in the application or in the "
+"whole environment.</item>\n"
+"<item>Note any non-default configuration in the application</item>\n"
+"</list>"
+msgstr "<subtitle>Opišite okolnosti rušenja što je moguće detaljnije:</subtitle>\n<list>\n<item>Opišite koje ste radnje izvršavali u aplikaciji i izvan nje neposredno prije rušenja.</item>\n<item>Navedite jeste li primijetili neuobičajeno ponašanje aplikacije ili cijelog okruženja.</item>\n<item>Navedite sve nestandardne postavke aplikacije.</item>\n</list>"
+
+#: qml/ReportPage.qml:74
+msgctxt "the minimum required length of a text was reached"
+msgid "Minimum length reached"
+msgstr "Dosegnuta je najmanja duljina"
+
+#: qml/ReportPage.qml:76
+msgctxt "the minimum required length of a text wasn't reached yet"
+msgid "Provide more information"
+msgstr "Navedite više informacija"
+
+#: qml/ReportPage.qml:103
+msgctxt "@info"
+msgid "Distribution method:"
+msgstr "Način distribucije:"
+
+#: qml/ReportPage.qml:131
+msgctxt "@item:inlistbox placeholder while loading"
+msgid "Loading…"
+msgstr "Učitavanje…"
+
+#: qml/ReportPage.qml:144
+msgctxt "@option:check"
+msgid "KDE Platform is compiled from source"
+msgstr "KDE Platforma prevedena je iz izvornog koda"
+
+#: qml/ReportPage.qml:152
+msgctxt "@info"
+msgid ""
+"<note>The crash and system information will be automatically added to the "
+"bug report.</note>"
+msgstr "<note>Podaci o rušenju i sustavu automatski će se dodati izvješću o grešci.</note>"
+
+#: qml/ReportPage.qml:161
+msgctxt "@action:button"
+msgid "Preview Report"
+msgstr "Pregledaj izvješće"
+
+#: qml/SendingPage.qml:45
+msgctxt "@action:button"
+msgid "Save Report to File"
+msgstr "Spremi izvješće u datoteku"
+
+#: qml/SendingPage.qml:46
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information to a file for manual reporting."
+msgstr "Ovim gumbom spremite podatke o rušenju u datoteku radi ručne prijave."
+
+#: qml/SendingPage.qml:63
+msgctxt "@info"
+msgid "Failed to submit bug report: <message>%1</message>"
+msgstr "Slanje izvješća o grešci nije uspjelo: <message>%1</message>"
+
+#: qml/SendingPage.qml:67
+msgctxt "@action retry submitting bug report"
+msgid "Retry Submission"
+msgstr "Pokušaj ponovno poslati"
+
+#: qml/SendingPage.qml:81
+msgctxt "@info"
+msgid "Submitting bug report…"
+msgstr "Slanje izvješća o grešci…"
+
+#: qml/SentPage.qml:12
+msgctxt "@title"
+msgid "Crash Report Sent"
+msgstr "Izvješće o rušenju poslano"
+
+#: qml/SentPage.qml:19 qml/SentryPage.qml:17
+msgctxt "@action %1 is an application name e.g. kwrite"
+msgid "Restart %1"
+msgstr "Ponovno pokreni %1"
+
+#: qml/SentPage.qml:27
+msgctxt "@info"
+msgid "URL: <link url='%1'>%1</link>"
+msgstr "URL: <link url='%1'>%1</link>"
+
+#: qml/SentPage.qml:32
+msgctxt "@info"
+msgid "Thank you for being a part of KDE. You may now close this window."
+msgstr "Hvala vam što ste dio KDE-a. Sada možete zatvoriti ovaj prozor."
+
+#: qml/SentryPage.qml:12
+msgctxt "@title"
+msgid "Automatic Report"
+msgstr "Automatsko izvješće"
+
+#: qml/SentryPage.qml:32
+msgctxt "@label submitting as crash report"
+msgid ""
+"Collecting crash data. This window can be closed. The collected data will "
+"automatically be submitted in the background."
+msgstr "Prikupljanje podataka o rušenju. Ovaj prozor možete zatvoriti. Prikupljeni podaci automatski će se poslati u pozadini."
+
+#: qml/SentryPage.qml:55
+msgctxt "@label"
+msgid "Crash Report Sent"
+msgstr "Izvješće o rušenju poslano"
+
+#: qml/SentryPage.qml:67
+msgctxt ""
+"@label other side of row 'in the future: [x] submit stuff automatically"
+msgid "In the future:"
+msgstr "Ubuduće:"
+
+#: qml/SentryPage.qml:70
+msgctxt "@label"
+msgid "Automatically report crashes"
+msgstr "Automatski prijavljuj rušenja"
+
+#: qml/SentryPage.qml:79
+msgctxt "@info:tooltip"
+msgid ""
+"Always automatically submit a crash report to KDE's crash tracking system, "
+"with no manual input required.\n"
+"You will not receive any more crash notifications."
+msgstr "Uvijek automatski šalji izvješća o rušenju u KDE-ov sustav za praćenje rušenja, bez potrebe za ručnim unosom.\nViše nećete primati obavijesti o rušenjima."
+
+#: qml/SentryPage.qml:95
+msgctxt "@label placeholder text in TextArea"
+msgid "Tell us more about the crash…"
+msgstr "Recite nam više o rušenju…"
+
+#: qml/SentryPage.qml:106
+msgctxt "@action:button"
+msgid "Send Message"
+msgstr "Pošalji poruku"
+
+#: qml/SentryPage.qml:124
+msgctxt "@action:button"
+msgid "Finish"
+msgstr "Završi"
+
+#: qml/WelcomePage.qml:14
+msgctxt "@title:window"
+msgid "Reporting Assistant"
+msgstr "Pomoćnik za prijavu"
+
+#: qml/WelcomePage.qml:19
+msgctxt "@info/rich"
+msgid ""
+"This assistant will analyze the crash information and guide you through the "
+"bug reporting process."
+msgstr "Ovaj će pomoćnik analizirati podatke o rušenju i voditi vas kroz postupak prijave greške."
+
+#: qml/WelcomePage.qml:32
+msgctxt "@info/rich note before starting the bug reporting process"
+msgid ""
+"<para><note>Since communication between you and the developers is required "
+"for effective debugging,\n"
+"to continue reporting this bug it is <emphasis strong='true'>required for "
+"you to agree that developers may contact you</emphasis>.\n"
+"</note></para><para>Feel free to close this dialog if you do not wish to "
+"accept this.</para>"
+msgstr "<para><note>Budući da je za učinkovito otklanjanje pogrešaka potrebna komunikacija između vas i razvojnih inženjera,\nza nastavak prijave ove greške <emphasis strong='true'>morate pristati da vas razvojni inženjeri mogu kontaktirati</emphasis>.\n</note></para><para>Slobodno zatvorite ovaj dijaloški okvir ako ne želite pristati.</para>"
+
+#: qml/WelcomePage.qml:45
+msgctxt "@action:button"
+msgid "I Agree to be Contacted"
+msgstr "Pristajem na kontaktiranje"
+
+#: qmlextensions/platformmodel.cpp:37
+#, kde-format
+msgctxt "@info/status error"
+msgid "Failed to get platform list"
+msgstr "Dohvaćanje popisa platformi nije uspjelo"
+
+#: qmlextensions/reproducibilitymodel.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
+msgid "I did not try again"
+msgstr "Nisam ponovno pokušao/la"
+
+#: qmlextensions/reproducibilitymodel.cpp:40
+#, kde-format
+msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
+msgid "Never"
+msgstr "Nikad"
+
+#: qmlextensions/reproducibilitymodel.cpp:42
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced sometimes"
+msgid "Sometimes"
+msgstr "Ponekad"
+
+#: qmlextensions/reproducibilitymodel.cpp:44
+#, kde-format
+msgctxt "@item:inlistbox the bug can be reproduced every time"
+msgid "Every time"
+msgstr "Svaki put"
+
+#: tests/backtraceparsertest/backtraceparsertest_manual.cpp:22
+#, kde-format
+msgid "backtraceparsertest_manual"
+msgstr "backtraceparsertest_manual"
+
+#: tests/backtraceparsertest/backtraceparsertest_manual.cpp:27
+#, kde-format
+msgid "The debugger name passed to the parser factory"
+msgstr "Naziv programa za otklanjanje pogrešaka proslijeđen tvornici raščlanjivača"
+
+#: tests/backtraceparsertest/backtraceparsertest_manual.cpp:28
+#, kde-format
+msgid "A file containing the backtrace."
+msgstr "Datoteka koja sadrži trag poziva."
+
+#: tests/bugzillalibtest/bugzillalibtest.cpp:118
+#, kde-format
+msgid "BugzillaLib Test (DrKonqi2)"
+msgstr "BugzillaLib Test (DrKonqi2)"
+
+#: tests/bugzillalibtest/bugzillalibtest.cpp:120
+#, kde-format
+msgid "Test application for bugtracker manager lib"
+msgstr "Testna aplikacija za biblioteku upravljanja sustavom za praćenje grešaka"
+
+#: tests/bugzillalibtest/bugzillalibtest.cpp:122
+#, kde-format
+msgid "(c) 2009, DrKonqi2 Developers"
+msgstr "(c) 2009, razvojni inženjeri DrKonqi2"
+
+#: tests/bugzillalibtest/bugzillalibtest.cpp:125
+#, kde-format
+msgctxt "@info:shell"
+msgid "bugstest.kde.org username"
+msgstr "Korisničko ime za bugstest.kde.org"
+
+#: tests/bugzillalibtest/bugzillalibtest.cpp:126
+#, kde-format
+msgctxt "@info:shell"
+msgid "bugstest.kde.org password"
+msgstr "Lozinka za bugstest.kde.org"

@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: heaptrack\n"
+"POT-Creation-Date: 2025-11-17 11:54+0000\n"
+"PO-Revision-Date: 2026-11-06 20:15+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. (itstool) path: component/name
+#: org.kde.heaptrack.appdata.xml:6
+msgid "Heaptrack"
+msgstr "Heaptrack"
+
+#. (itstool) path: component/summary
+#: org.kde.heaptrack.appdata.xml:7
+msgid "A heap memory profiler for Linux"
+msgstr "Profiler hrpe memorije za Linux"
+
+#. (itstool) path: description/p
+#: org.kde.heaptrack.appdata.xml:9
+msgid "Heaptrack traces all memory allocations and annotates these events with stack traces. Dedicated analysis tools then allow you to interpret the heap memory profile to:"
+msgstr "Heaptrack prati sve dodjele memorije i bilježi ih zajedno sa stogovima poziva. Namjenski alati za analizu omogućuju vam tumačenje profila hrpe memorije kako biste:"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:13
+msgid "find hotspots that need to be optimized to reduce the memory footprint of your application"
+msgstr "pronašli kritična mjesta koja treba optimizirati kako biste smanjili memorijski otisak aplikacije"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:14
+msgid "find memory leaks, i.e. locations that allocate memory which is never deallocated"
+msgstr "pronašli curenja memorije, odnosno mjesta koja dodjeljuju memoriju koja se nikad ne oslobađa"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:15
+msgid "find allocation hotspots, i.e. code locations that trigger a lot of memory allocation calls"
+msgstr "pronašli kritična mjesta dodjele, odnosno dijelove koda koji često pozivaju dodjelu memorije"
+
+#. (itstool) path: ul/li
+#: org.kde.heaptrack.appdata.xml:16
+msgid "find temporary allocations, which are allocations that are directly followed by their deallocation"
+msgstr "pronašli privremene dodjele, odnosno dodjele nakon kojih odmah slijedi oslobađanje memorije"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:25
+msgid "Summary of tracked heap memory allocation data"
+msgstr "Sažetak praćenih podataka o dodjeli memorije na hrpi"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:29
+msgid "Flamegraph visualization of number of heap memory allocations"
+msgstr "Plameni grafikon broja dodjela memorije na hrpi"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.heaptrack.appdata.xml:33
+msgid "Chart of heap memory allocations over time"
+msgstr "Grafikon dodjela memorije na hrpi tijekom vremena"

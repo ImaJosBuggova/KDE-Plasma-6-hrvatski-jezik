@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the isoimagewriter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: isoimagewriter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-28 00:48+0000\n"
+"PO-Revision-Date: 2026-11-06 20:15+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: isoimagewriter/common.cpp:41
+#, kde-format
+msgid "Error code: %1"
+msgstr "Kôd pogreške: %1"
+
+#: isoimagewriter/imagewriter.cpp:61
+#, kde-format
+msgid "Failed to allocate memory for buffer:"
+msgstr "Nije uspjela rezervacija memorije za međuspremnik:"
+
+#: isoimagewriter/imagewriter.cpp:65
+#, kde-format
+msgid "Failed to allocate memory for buffer."
+msgstr "Nije uspjela rezervacija memorije za međuspremnik."
+
+#: isoimagewriter/imagewriter.cpp:79
+#, kde-format
+msgid "Failed to open the image file: %1"
+msgstr "Nije moguće otvoriti datoteku slike diska: %1"
+
+#: isoimagewriter/imagewriter.cpp:86 isoimagewriter/imagewriter.cpp:91
+#: isoimagewriter/imagewriter.cpp:96
+#, kde-format
+msgid "Failed to open compression device: %1"
+msgstr "Nije moguće otvoriti uređaj za dekompresiju: %1"
+
+#: isoimagewriter/imagewriter.cpp:122
+#, kde-format
+msgid "Failed to open the drive %1"
+msgstr "Nije moguće otvoriti disk %1"
+
+#: isoimagewriter/imagewriter.cpp:129
+#, kde-format
+msgid "Failed to unmount the drive %1"
+msgstr "Nije moguće odmontirati disk %1"
+
+#: isoimagewriter/imagewriter.cpp:146
+#, kde-format
+msgid ""
+"Failed to unmount the volume %1\n"
+"%2"
+msgstr "Nije moguće odmontirati jedinicu %1
+%2"
+
+#: isoimagewriter/imagewriter.cpp:186
+#, kde-format
+msgctxt "@info"
+msgid "Failed to unmount %1: %2"
+msgstr "Nije moguće odmontirati %1: %2"
+
+#: isoimagewriter/imagewriter.cpp:199
+#, kde-format
+msgid ""
+"Failed to open the target device:\n"
+"%1"
+msgstr "Nije moguće otvoriti ciljni uređaj:
+%1"
+
+#: isoimagewriter/imagewriter.cpp:207
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to open the target device %1:\n"
+"%2\n"
+"\n"
+"The device is in use. Close the programs using it and unmount it, or write "
+"to it from a system that was not booted from it."
+msgstr "Nije moguće otvoriti ciljni uređaj %1:
+%2
+
+Uređaj se upotrebljava. Zatvorite programe koji ga upotrebljavaju i odmontirajte ga ili zapisujte na njega iz sustava koji nije pokrenut s tog uređaja."
+
+#: isoimagewriter/imagewriter.cpp:215
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to open the target device %1:\n"
+"%2"
+msgstr "Nije moguće otvoriti ciljni uređaj %1:
+%2"
+
+#: isoimagewriter/imagewriter.cpp:238
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to write to the device:\n"
+"%1"
+msgstr "Nije moguće zapisivati na uređaj:
+%1"
+
+#: isoimagewriter/imagewriter.cpp:241
+#, kde-format
+msgid ""
+"The last block was not fully written (%1 of %2 bytes)!\n"
+"Aborting."
+msgstr "Posljednji blok nije u potpunosti zapisan (%1 od %2 bajtova)!
+Prekidanje."
+
+#: isoimagewriter/imagewriter.cpp:273
+#, kde-format
+msgid ""
+"Failed to read the image file:\n"
+"%1"
+msgstr "Nije moguće pročitati datoteku slike diska:
+%1"
+
+#: isoimagewriter/imagewriter.cpp:295
+#, kde-format
+msgid "The operation completed successfully."
+msgstr "Radnja je uspješno dovršena."
+
+#: isoimagewriter/imagewriter.cpp:297
+#, kde-format
+msgid "Now you need to format your device."
+msgstr "Sada morate formatirati uređaj."
+
+#: isoimagewriter/imagewriter.cpp:297
+#, kde-format
+msgid ""
+"To be able to store data on this device again, please, use the button \"Wipe "
+"USB Disk\"."
+msgstr "Da biste ponovno mogli pohranjivati podatke na ovom uređaju, upotrijebite gumb „Obriši USB disk”."
+
+#: isoimagewriter/isoverifier.cpp:62
+#, kde-format
+msgid "Could not verify as a known distro image."
+msgstr "Nije moguće potvrditi da je riječ o poznatoj slici distribucije."
+
+#: isoimagewriter/isoverifier.cpp:74
+#, kde-format
+msgid "SHA256 Checksum"
+msgstr "Kontrolni zbroj SHA256"
+
+#: isoimagewriter/isoverifier.cpp:75
+#, kde-format
+msgid "Paste the SHA256 checksum for this ISO:"
+msgstr "Zalijepite kontrolni zbroj SHA256 za ovu ISO sliku:"
+
+#: isoimagewriter/isoverifier.cpp:133
+#, kde-format
+msgid ""
+"Could not find %1, please download PGP signature file to same directory."
+msgstr "Nije moguće pronaći %1. Preuzmite datoteku PGP potpisa u isti direktorij."
+
+#: isoimagewriter/isoverifier.cpp:140
+#, kde-format
+msgid "Could not open signature file"
+msgstr "Nije moguće otvoriti datoteku potpisa"
+
+#: isoimagewriter/isoverifier.cpp:146
+#, kde-format
+msgid "Could not open ISO image"
+msgstr "Nije moguće otvoriti ISO sliku"
+
+#: isoimagewriter/isoverifier.cpp:166 isoimagewriter/isoverifier.cpp:241
+#, kde-format
+msgid "Key is revoked."
+msgstr "Ključ je opozvan."
+
+#: isoimagewriter/isoverifier.cpp:169 isoimagewriter/isoverifier.cpp:244
+#, kde-format
+msgid "Uses wrong signature."
+msgstr "Upotrebljava pogrešan potpis."
+
+#: isoimagewriter/isoverifier.cpp:173 isoimagewriter/isoverifier.cpp:248
+#, kde-format
+msgid "This app is built without verification support."
+msgstr "Ova je aplikacija izgrađena bez podrške za provjeru."
+
+#: isoimagewriter/isoverifier.cpp:185
+#, kde-format
+msgid "Could not open SHA256SUMS file, please download to same directory"
+msgstr "Nije moguće otvoriti datoteku SHA256SUMS. Preuzmite je u isti direktorij."
+
+#: isoimagewriter/isoverifier.cpp:199
+#, kde-format
+msgid "Could not find checksum in SHA256SUMS file"
+msgstr "Nije moguće pronaći kontrolni zbroj u datoteci SHA256SUMS."
+
+#: isoimagewriter/isoverifier.cpp:207 isoimagewriter/isoverifier.cpp:260
+#, kde-format
+msgid "Could not read ISO image"
+msgstr "Nije moguće pročitati ISO sliku."
+
+#: isoimagewriter/isoverifier.cpp:211 isoimagewriter/isoverifier.cpp:264
+#, kde-format
+msgid "Could not perform checksum"
+msgstr "Nije moguće izračunati kontrolni zbroj."
+
+#: isoimagewriter/isoverifier.cpp:216
+#, kde-format
+msgid "Checksum of .iso file does not match value in SHA256SUMS file"
+msgstr "Kontrolni zbroj datoteke .iso ne podudara se s vrijednošću u datoteci SHA256SUMS."
+
+#: isoimagewriter/isoverifier.cpp:224
+#, kde-format
+msgid ""
+"Could not find SHA256SUMS.gpg, please download PGP signature file to same "
+"directory."
+msgstr "Nije moguće pronaći SHA256SUMS.gpg. Preuzmite datoteku PGP potpisa u isti direktorij."
+
+#: isoimagewriter/isoverifier.cpp:273
+#, kde-format
+msgid "Checksum did not match"
+msgstr "Kontrolni zbroj ne podudara se."
+
+#: isoimagewriter/isoverifier.cpp:279
+#, kde-format
+msgid "Requires an SHA256 checksum"
+msgstr "Potreban je kontrolni zbroj SHA256."
+
+#: isoimagewriter/mainapplication.cpp:27
+#, kde-format
+msgid "ISO Image Writer"
+msgstr "Zapisivač ISO slika"
+
+#: isoimagewriter/mainapplication.cpp:29
+#, kde-format
+msgid "Write an ISO Image to a USB Disk"
+msgstr "Zapiši ISO sliku na USB disk"
+
+#: isoimagewriter/mainapplication.cpp:31
+#, kde-format
+msgid ""
+"Copyright (c) 2016 ROSA, Copyright (c) 2022 Jonathan Esk-Riddell "
+"<jr@jriddell.org>"
+msgstr "Autorska prava (c) 2016 ROSA, autorska prava (c) 2022 Jonathan Esk-Riddell <jr@jriddell.org>"
+
+#: isoimagewriter/mainapplication.cpp:33
+#, kde-format
+msgid "Konstantin Vlasov"
+msgstr "Konstantin Vlasov"
+
+#: isoimagewriter/mainapplication.cpp:33 isoimagewriter/mainapplication.cpp:34
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: isoimagewriter/mainapplication.cpp:34
+#, kde-format
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: isoimagewriter/mainapplication.cpp:38
+#, kde-format
+msgid "ISO file to open"
+msgstr "ISO datoteka za otvaranje"
+
+#: isoimagewriter/mainwindow.cpp:85
+#, kde-format
+msgid "KDE ISO Image Writer"
+msgstr "KDE-ov zapisivač ISO slika"
+
+#: isoimagewriter/mainwindow.cpp:85
+#, kde-format
+msgid "A quick and simple way to create a bootable USB drive."
+msgstr "Brz i jednostavan način za stvaranje USB diska za pokretanje sustava."
+
+#: isoimagewriter/mainwindow.cpp:113
+#, kde-format
+msgid "Path to ISO image..."
+msgstr "Putanja do ISO slike..."
+
+#: isoimagewriter/mainwindow.cpp:124
+#, kde-format
+msgid "Create"
+msgstr "Stvori"
+
+#: isoimagewriter/mainwindow.cpp:144
+#, kde-format
+msgid "ISO image:"
+msgstr "ISO slika:"
+
+#: isoimagewriter/mainwindow.cpp:147
+#, kde-format
+msgid "USB drive:"
+msgstr "USB disk:"
+
+#: isoimagewriter/mainwindow.cpp:165
+#, kde-format
+msgid ""
+"Everything on the USB drive will be overwritten.\n"
+"\n"
+"Do you want to continue?"
+msgstr "Sve na USB disku bit će prebrisano.
+
+Želite li nastaviti?"
+
+#: isoimagewriter/mainwindow.cpp:171
+#, kde-format
+msgid "Downloading %1..."
+msgstr "Preuzimanje %1..."
+
+#: isoimagewriter/mainwindow.cpp:184 isoimagewriter/mainwindow.cpp:222
+#, kde-format
+msgctxt "Progress percent value"
+msgid "%p%"
+msgstr "%p%"
+
+#: isoimagewriter/mainwindow.cpp:190
+#, kde-format
+msgid "Abort"
+msgstr "Prekini"
+
+#: isoimagewriter/mainwindow.cpp:193
+#, kde-format
+msgid "Continue"
+msgstr "Nastavi"
+
+#: isoimagewriter/mainwindow.cpp:215
+#, kde-format
+msgid ""
+"Your USB drive is being created.\n"
+"\n"
+"This may take some time depending on the size of the ISO image file and the "
+"transfer speed."
+msgstr "Izrađuje se vaš USB disk za pokretanje.
+
+To može potrajati ovisno o veličini ISO datoteke i brzini prijenosa."
+
+#: isoimagewriter/mainwindow.cpp:223
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: isoimagewriter/mainwindow.cpp:239
+#, kde-format
+msgid "Your live USB flash drive is now complete and ready to use!"
+msgstr "Vaš USB disk za pokretanje sada je spreman za upotrebu!"
+
+#: isoimagewriter/mainwindow.cpp:246
+#, kde-format
+msgid "Back"
+msgstr "Natrag"
+
+#: isoimagewriter/mainwindow.cpp:249
+#, kde-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: isoimagewriter/mainwindow.cpp:274
+#, kde-format
+msgid "Failed to open the image file:"
+msgstr "Nije moguće otvoriti datoteku slike diska:"
+
+#: isoimagewriter/mainwindow.cpp:289
+#, kde-format
+msgid "Verifying ISO image"
+msgstr "Provjera ISO slike"
+
+#: isoimagewriter/mainwindow.cpp:369
+#, kde-format
+msgid "Please plug in a USB drive"
+msgstr "Priključite USB disk"
+
+#: isoimagewriter/mainwindow.cpp:461
+#, kde-format
+msgid "Cancel?"
+msgstr "Odustati?"
+
+#: isoimagewriter/mainwindow.cpp:462
+#, kde-format
+msgid "Writing is in progress, abort it?"
+msgstr "Zapisivanje je u tijeku. Želite li ga prekinuti?"
+
+#: isoimagewriter/mainwindow.cpp:478
+#, kde-format
+msgid "Disk Images (%1)"
+msgstr "Slike diskova (%1)"
+
+#: isoimagewriter/mainwindow.cpp:479
+#, kde-format
+msgid "All Files (%1)"
+msgstr "Sve datoteke (%1)"
+
+#: isoimagewriter/mainwindow.cpp:480
+#, kde-format
+msgid "Select image to flash"
+msgstr "Odaberite sliku za zapisivanje"
+
+#: isoimagewriter/mainwindow.cpp:510
+#, kde-format
+msgid "Downloading ISO image"
+msgstr "Preuzimanje ISO slike"
+
+#: isoimagewriter/mainwindow.cpp:529
+#, kde-format
+msgid "Unknown Disk Size"
+msgstr "Nepoznata veličina diska"
+
+#: isoimagewriter/mainwindow.cpp:530
+#, kde-format
+msgid ""
+"The selected disk is of unknown size, please check the image will fit before "
+"writing.\n"
+"\n"
+"Image size: %1 (%2 b)"
+msgstr "Veličina odabranog diska nije poznata. Prije zapisivanja provjerite hoće li slika stati na disk.
+
+Veličina slike: %1 (%2 b)"
+
+#: isoimagewriter/mainwindow.cpp:541 isoimagewriter/mainwindow.cpp:601
+#, kde-format
+msgid "Error"
+msgstr "Pogreška"
+
+#: isoimagewriter/mainwindow.cpp:542
+#, kde-format
+msgid ""
+"The image is larger than your selected device!\n"
+"\n"
+"Image size: %1 (%2 b)\n"
+"Disk size: %3 (%4 b)"
+msgstr "Slika je veća od odabranog uređaja!
+
+Veličina slike: %1 (%2 b)
+Veličina diska: %3 (%4 b)"
+
+#: isoimagewriter/mainwindow.cpp:629
+#, kde-format
+msgid "The ISO image is valid"
+msgstr "ISO slika je valjana"
+
+#: isoimagewriter/mainwindow.cpp:636
+#, kde-format
+msgid "Could not find the key to verify the ISO image"
+msgstr "Nije moguće pronaći ključ za provjeru ISO slike"
+
+#: isoimagewriter/mainwindow.cpp:638
+#, kde-format
+msgid "Could not verify ISO image"
+msgstr "Nije moguće provjeriti ISO sliku"
+
+#: isoimagewriter/mainwindow.cpp:639
+#, kde-format
+msgid "ISO Verification failed"
+msgstr "Provjera ISO slike nije uspjela"
+
+#: isoimagewriter/physicaldevice.cpp:56
+#, kde-format
+msgid "Could not acquire lock:"
+msgstr "Nije moguće zaključati uređaj:"
+
+#: isoimagewriter/platform_win.cpp:94
+#, kde-format
+msgid "CoCreateInstance(WbemAdministrativeLocator) failed."
+msgstr "Poziv CoCreateInstance(WbemAdministrativeLocator) nije uspio."
+
+#: isoimagewriter/platform_win.cpp:95
+#, kde-format
+msgid "ConnectServer failed."
+msgstr "Poziv ConnectServer nije uspio."
+
+#: isoimagewriter/platform_win.cpp:96
+#, kde-format
+msgid "Failed to query USB flash devices."
+msgstr "Nije uspjelo dohvaćanje USB memorijskih uređaja."
+
+#: isoimagewriter/platform_win.cpp:160
+#, kde-format
+msgid "Failed to query list of partitions."
+msgstr "Nije uspjelo dohvaćanje popisa particija."
+
+#: isoimagewriter/platform_win.cpp:192
+#, kde-format
+msgid "Failed to query list of logical disks."
+msgstr "Nije uspjelo dohvaćanje popisa logičkih diskova."
+
+#: isoimagewriter/usbdevice.h:23
+#, kde-format
+msgid "Unknown Device"
+msgstr "Nepoznati uređaj"
+
+#: isoimagewriter/usbdevice.h:32
+#, kde-format
+msgid "<unmounted>"
+msgstr "<nije montirano>"

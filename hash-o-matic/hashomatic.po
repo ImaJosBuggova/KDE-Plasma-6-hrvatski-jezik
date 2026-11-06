@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the hash-o-matic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hash-o-matic\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"PO-Revision-Date: 2026-11-06 20:15+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: hashhelper.cpp:66
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This file has been signed VS-NfD compliant using the key <a href=\"%1\">%2</"
+"a>."
+msgstr "Ova je datoteka potpisana ključem <a href=\"%1\">%2</a> u skladu sa zahtjevima VS-NfD."
+
+#: hashhelper.cpp:71
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed using the key <a href=\"%1\">%2</a>."
+msgstr "Ova je datoteka potpisana ključem <a href=\"%1\">%2</a>."
+
+#: hashhelper.cpp:74
+#, kde-format
+msgctxt "@label"
+msgid "The key details are not available."
+msgstr "Pojedinosti ključa nisu dostupne."
+
+#: hashhelper.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed VS-NfD compliant by %1."
+msgstr "Datoteku je potpisao %1 u skladu sa zahtjevima VS-NfD."
+
+#: hashhelper.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "This file has been signed by %1."
+msgstr "Datoteku je potpisao %1."
+
+#: hashhelper.cpp:82
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was revoked."
+msgstr "<a href=\"%1\">Ključ</a> je opozvan."
+
+#: hashhelper.cpp:85
+#, kde-format
+msgctxt "@label"
+msgid "The <a href=\"%1\">key</a> was expired."
+msgstr "<a href=\"%1\">Ključu</a> je istekao rok valjanosti."
+
+#: hashhelper.cpp:89
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid, but the <a href=\"%1\">key</a>'s validity is unknown."
+msgstr "Potpis je valjan, ali valjanost <a href=\"%1\">ključa</a> nije poznata."
+
+#: hashhelper.cpp:91
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is marginally trusted."
+msgstr "Potpis je valjan, a <a href=\"%1\">ključ</a> je marginalno pouzdan."
+
+#: hashhelper.cpp:93
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid and the <a href=\"%1\">key</a> is fully trusted."
+msgstr "Potpis je valjan, a <a href=\"%1\">ključ</a> je potpuno pouzdan."
+
+#: hashhelper.cpp:95
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The signature is valid and the <a href=\"%1\">key</a> is ultimately trusted."
+msgstr "Potpis je valjan, a <a href=\"%1\">ključ</a> je bezuvjetno pouzdan."
+
+#: hashhelper.cpp:97
+#, kde-format
+msgctxt "@label"
+msgid "The signature is valid, but the <a href=\"%1\">key</a> is untrusted."
+msgstr "Potpis je valjan, ali <a href=\"%1\">ključ</a> nije pouzdan."
+
+#: hashhelper.cpp:101
+#, kde-format
+msgctxt "@label"
+msgid "The signature is invalid."
+msgstr "Potpis nije valjan."
+
+#: hashhelper.cpp:159
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: hashhelper.cpp:196
+#, kde-format
+msgid "Hash-o-matic doesn't support directories."
+msgstr "Hash-o-matic ne podržava direktorije."
+
+#: hashhelper.cpp:268
+#, kde-format
+msgid "The file doesn't exist or is not readable."
+msgstr "Datoteka ne postoji ili se ne može čitati."
+
+#: main.cpp:96
+#, kde-format
+msgctxt "@title"
+msgid "Hash-o-matic"
+msgstr "Hash-o-matic"
+
+#: main.cpp:99
+#, kde-format
+msgid "Check hashes for your files"
+msgstr "Provjerite sažetke svojih datoteka"
+
+#: main.cpp:103
+#, kde-format
+msgid "© 2021-2024 KDE Community"
+msgstr "© 2021. – 2024. zajednica KDE-a"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:104
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: main.cpp:109
+#, kde-format
+msgid "Generate hashes for file"
+msgstr "Generiraj sažetke datoteke"
+
+#: main.cpp:110
+#, kde-format
+msgid "Local file url"
+msgstr "URL lokalne datoteke"
+
+#: qml/ComparePage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Compare files"
+msgstr "Usporedi datoteke"
+
+#: qml/ComparePage.qml:30
+#, kde-format
+msgctxt "@title"
+msgid "Compare Two Files"
+msgstr "Usporedi dvije datoteke"
+
+#: qml/ComparePage.qml:43
+#, kde-format
+msgctxt "@title:group"
+msgid "File 1"
+msgstr "Datoteka 1"
+
+#: qml/ComparePage.qml:49 qml/ComparePage.qml:63 qml/GeneratePage.qml:46
+#: qml/VerifyPage.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Select file"
+msgstr "Odaberi datoteku"
+
+#: qml/ComparePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "File 2"
+msgstr "Datoteka 2"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They match!"
+msgstr "Podudaraju se!"
+
+#: qml/ComparePage.qml:90
+#, kde-format
+msgid "They don't match!"
+msgstr "Ne podudaraju se!"
+
+#: qml/ComparePage.qml:138 qml/ComparePage.qml:151
+#, kde-format
+msgid "Drag file here to compare it"
+msgstr "Povucite datoteku ovamo da biste je usporedili"
+
+#: qml/GeneratePage.qml:19
+#, kde-format
+msgctxt "@title"
+msgid "Generate Hash"
+msgstr "Generiraj sažetak"
+
+#: qml/GeneratePage.qml:31
+#, kde-format
+msgid "Display Checksums"
+msgstr "Prikaži kontrolne zbrojeve"
+
+#: qml/GeneratePage.qml:55
+#, kde-format
+msgctxt "@title:group"
+msgid "Hashes"
+msgstr "Sažeci"
+
+#: qml/GeneratePage.qml:63
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "MD5:"
+msgstr "MD5:"
+
+#: qml/GeneratePage.qml:66 qml/GeneratePage.qml:81 qml/GeneratePage.qml:96
+#, kde-format
+msgid "Copy hash"
+msgstr "Kopiraj sažetak"
+
+#: qml/GeneratePage.qml:70 qml/GeneratePage.qml:85 qml/GeneratePage.qml:100
+#, kde-format
+msgid "Hash copied into the clipboard"
+msgstr "Sažetak je kopiran u međuspremnik"
+
+#: qml/GeneratePage.qml:78
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA1:"
+msgstr "SHA1:"
+
+#: qml/GeneratePage.qml:93
+#, kde-format
+msgctxt "Hashing algorithm"
+msgid "SHA256:"
+msgstr "SHA256:"
+
+#: qml/GeneratePage.qml:128
+#, kde-format
+msgid "Drag items here to share them"
+msgstr "Povucite stavke ovamo da biste ih podijelili"
+
+#: qml/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File"
+msgstr "Datoteka"
+
+#: qml/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open…"
+msgstr "Otvori…"
+
+#: qml/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Hash-o-matic"
+msgstr "O programu Hash-o-matic"
+
+#: qml/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Zatvori"
+
+#: qml/GlobalMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "View"
+msgstr "Prikaz"
+
+#: qml/GlobalMenu.qml:41 qml/Main.qml:70
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Generate"
+msgstr "Generiraj"
+
+#: qml/GlobalMenu.qml:46
+#, kde-format
+msgid "Compare"
+msgstr "Usporedi"
+
+#: qml/GlobalMenu.qml:51
+#, kde-format
+msgid "Verify"
+msgstr "Provjeri"
+
+#: qml/Main.qml:54
+#, kde-format
+msgid "About"
+msgstr "O programu"
+
+#: qml/Main.qml:59
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: qml/Main.qml:78
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Compare"
+msgstr ""
+
+#: qml/Main.qml:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Verify"
+msgstr ""
+
+#: qml/VerifyPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Verify Hash"
+msgstr "Provjeri sažetak"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums and signatures"
+msgstr "Provjeri kontrolne zbrojeve i potpise"
+
+#: qml/VerifyPage.qml:30
+#, kde-format
+msgid "Verify checksums"
+msgstr "Provjeri kontrolne zbrojeve"
+
+#: qml/VerifyPage.qml:44
+#, kde-format
+msgctxt "@title:group"
+msgid "File"
+msgstr "Datoteka"
+
+#: qml/VerifyPage.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Checksum Verification"
+msgstr "Provjera kontrolnog zbroja"
+
+#: qml/VerifyPage.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Checksum"
+msgstr "Kontrolni zbroj"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum match with the file!"
+msgstr "Kontrolni zbroj datoteke podudara se!"
+
+#: qml/VerifyPage.qml:89
+#, kde-format
+msgid "Checksum doesn't match with the file!"
+msgstr "Kontrolni zbroj datoteke ne podudara se!"
+
+#: qml/VerifyPage.qml:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Signature Verification"
+msgstr "Provjera potpisa"
+
+#: qml/VerifyPage.qml:102
+#, kde-format
+msgctxt "@action:button"
+msgid "Select signature file"
+msgstr "Odaberi datoteku potpisa"
+
+#: qml/VerifyPage.qml:169
+#, kde-format
+msgid "Drag items here to verify them"
+msgstr "Povucite stavke ovamo da biste ih provjerili"

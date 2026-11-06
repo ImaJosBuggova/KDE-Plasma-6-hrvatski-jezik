@@ -1,0 +1,4957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: itinerary\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-30 00:54+0000\n"
+"PO-Revision-Date: 2026-11-06 20:15+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: app/AboutPage.qml:18 app/Main.qml:97
+#, kde-format
+msgid "About"
+msgstr "O aplikaciji"
+
+#: app/AboutPage.qml:31
+#, kde-format
+msgid "License: <a href=\"%2\">%1</a>"
+msgstr "Licenca: <a href=\"%2\">%1</a>"
+
+#: app/AboutPage.qml:40
+#, kde-format
+msgid "KDE Itinerary uses public transport data from the following sources."
+msgstr "KDE Itinerary koristi podatke o javnom prijevozu iz sljedećih izvora."
+
+#: app/AboutPage.qml:51
+#, kde-format
+msgid "Developer information"
+msgstr "Podaci o razvojnom timu"
+
+#: app/AboutPage.qml:57
+#, kde-format
+msgid "Application version: %1"
+msgstr "Verzija aplikacije: %1"
+
+#: app/AboutPage.qml:73
+#, kde-format
+msgid "Extractor capabilities:"
+msgstr "Mogućnosti izdvajanja podataka:"
+
+#: app/AboutPage.qml:78
+#, kde-format
+msgid "Extractor capabilities copied to clipboard"
+msgstr "Mogućnosti izdvajanja podataka kopirane su u međuspremnik."
+
+#: app/ActionsCard.qml:35
+#, kde-format
+msgid "Show Boarding Pass"
+msgstr "Prikaži ukrcajnu propusnicu"
+
+#: app/ActionsCard.qml:35 app/TicketPage.qml:149
+#, kde-format
+msgid "Show Ticket"
+msgstr "Prikaži kartu"
+
+#: app/ActionsCard.qml:44
+#, kde-format
+msgid "Add transfer before"
+msgstr "Dodaj presjedanje prije"
+
+#: app/ActionsCard.qml:53
+#, kde-format
+msgid "Add transfer after"
+msgstr "Dodaj presjedanje poslije"
+
+#: app/ActionsCard.qml:62 app/ProgramMembershipPage.qml:169
+#: app/TicketPage.qml:176
+#, kde-format
+msgid "Edit"
+msgstr "Uredi"
+
+#: app/ActionsCard.qml:72
+#, kde-format
+msgid "Add to calendar…"
+msgstr "Dodaj u kalendar…"
+
+#: app/ActionsCard.qml:85 app/ProgramMembershipPage.qml:182
+#: app/TicketPage.qml:191 app/TripGroupPage.qml:729
+#, kde-format
+msgid "Export…"
+msgstr "Izvezi…"
+
+#: app/ActionsCard.qml:93
+#, kde-format
+msgid "Delete…"
+msgstr "Izbriši…"
+
+#: app/ActionsCard.qml:142
+#, kde-format
+msgid "Delete Event"
+msgstr "Izbriši događaj"
+
+#: app/ActionsCard.qml:143
+#, kde-format
+msgid "Do you really want to delete this event?"
+msgstr "Želite li zaista izbrisati ovaj događaj?"
+
+#: app/ActionsCard.qml:153
+#, kde-format
+msgid "Export Reservation"
+msgstr "Izvezi rezervaciju"
+
+#: app/ActionsCard.qml:163 app/ProgramMembershipPage.qml:147
+#: app/TicketPage.qml:141 app/TripGroupPage.qml:679
+#, kde-format
+msgid "Actions"
+msgstr "Radnje"
+
+#: app/ActionsCard.qml:181
+#, kde-format
+msgctxt "cancel as in revoking a booking"
+msgid "Cancel Reservation"
+msgstr "Otkaži rezervaciju"
+
+#: app/ActionsCard.qml:182
+#, kde-format
+msgid "Check-in"
+msgstr "Prijava"
+
+#: app/ActionsCard.qml:183
+#, kde-format
+msgid "Download"
+msgstr "Preuzmi"
+
+#: app/ActionsCard.qml:184
+#, kde-format
+msgctxt "participate in an event"
+msgid "Join"
+msgstr "Pridruži se"
+
+#: app/ActionsCard.qml:185
+#, kde-format
+msgid "Reserve"
+msgstr "Rezerviraj"
+
+#: app/ActionsCard.qml:186
+#, kde-format
+msgid "Change Reservation"
+msgstr "Promijeni rezervaciju"
+
+#: app/ActionsCard.qml:187
+#, kde-format
+msgid "View Reservation"
+msgstr "Prikaži rezervaciju"
+
+#: app/AlternativeJourneyPage.qml:21
+#, kde-format
+msgid "Alternative Connections"
+msgstr "Alternativne veze"
+
+#: app/AlternativeJourneyPage.qml:69 app/DepartureQueryPage.qml:28
+#: app/JourneyFilterPage.qml:72 app/TransferPage.qml:108
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Long distance trains"
+msgstr "Međugradski vlakovi"
+
+#: app/AlternativeJourneyPage.qml:78 app/DepartureQueryPage.qml:36
+#: app/JourneyFilterPage.qml:82 app/TransferPage.qml:116
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Local trains"
+msgstr "Lokalni vlakovi"
+
+#: app/AlternativeJourneyPage.qml:87 app/DepartureQueryPage.qml:44
+#: app/JourneyFilterPage.qml:92 app/TransferPage.qml:124
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Rapid transit"
+msgstr "Brzi gradski prijevoz"
+
+#: app/AlternativeJourneyPage.qml:96 app/DepartureQueryPage.qml:52
+#: app/JourneyFilterPage.qml:102 app/TransferPage.qml:132
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Bus"
+msgstr "Autobus"
+
+#: app/AlternativeJourneyPage.qml:105 app/DepartureQueryPage.qml:60
+#: app/JourneyFilterPage.qml:112 app/TransferPage.qml:140
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Ferry"
+msgstr "Trajekt"
+
+#: app/AlternativeJourneyPage.qml:114 app/DepartureQueryPage.qml:68
+#: app/JourneyFilterPage.qml:122
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Ride sharing"
+msgstr "Dijeljenje vožnje"
+
+#: app/AlternativeJourneyPage.qml:123 app/DepartureQueryPage.qml:76
+#: app/JourneyFilterPage.qml:132
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Airplane"
+msgstr "Zrakoplov"
+
+#: app/AlternativeJourneyPage.qml:136
+#, kde-format
+msgid "Replace Journey"
+msgstr "Zamijeni putovanje"
+
+#: app/AlternativeJourneyPage.qml:137
+#, kde-format
+msgid ""
+"Do you really want to replace your existing reservation with the newly "
+"selected journey?"
+msgstr "Želite li zaista zamijeniti postojeću rezervaciju novoodabranim putovanjem?"
+
+#: app/AlternativeJourneyPage.qml:141
+#, kde-format
+msgid "Replace"
+msgstr "Zamijeni"
+
+#: app/AlternativeJourneyPage.qml:159
+#, kde-format
+msgid "Destination:"
+msgstr "Odredište:"
+
+#: app/applicationcontroller.cpp:199
+#, kde-format
+msgctxt "geo coordinate"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: app/applicationcontroller.cpp:320
+#, kde-format
+msgid "One reservation imported."
+msgid_plural "%1 reservations imported."
+msgstr[0] "%1 rezervacija je uvezena."
+msgstr[1] "Uvezene su %1 rezervacije."
+msgstr[2] "Uvezeno je %1 rezervacija."
+
+#: app/applicationcontroller.cpp:323
+#, kde-format
+msgid "One pass imported."
+msgid_plural "%1 passes imported."
+msgstr[0] "%1 propusnica je uvezena."
+msgstr[1] "Uvezene su %1 propusnice."
+msgstr[2] "Uvezeno je %1 propusnica."
+
+#: app/applicationcontroller.cpp:326
+#, kde-format
+msgid "One health certificate imported."
+msgid_plural "%1 health certificates imported."
+msgstr[0] "%1 zdravstvena potvrda je uvezena."
+msgstr[1] "Uvezene su %1 zdravstvene potvrde."
+msgstr[2] "Uvezeno je %1 zdravstvenih potvrda."
+
+#: app/applicationcontroller.cpp:348 app/applicationcontroller.cpp:391
+#: app/applicationcontroller.cpp:409 app/applicationcontroller.cpp:456
+#: app/applicationcontroller.cpp:495 app/applicationcontroller.cpp:513
+#: app/applicationcontroller.cpp:554 app/applicationcontroller.cpp:590
+#: app/applicationcontroller.cpp:608
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Export failed: %1"
+msgstr "Izvoz nije uspio: %1"
+
+#: app/applicationcontroller.cpp:365 app/applicationcontroller.cpp:374
+#: app/applicationcontroller.cpp:469 app/applicationcontroller.cpp:478
+#: app/applicationcontroller.cpp:564 app/applicationcontroller.cpp:573
+#, kde-format
+msgid "Export completed."
+msgstr "Izvoz je dovršen."
+
+#: app/applicationcontroller.cpp:401
+#, kde-format
+msgid "Trip sent."
+msgstr "Putovanje je poslano."
+
+#: app/applicationcontroller.cpp:505
+#, kde-format
+msgid "Reservation sent."
+msgstr "Rezervacija je poslana."
+
+#: app/applicationcontroller.cpp:600
+#, kde-format
+msgid "Pass sent."
+msgstr "Propusnica je poslana."
+
+#: app/applicationcontroller.cpp:638
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Saving failed: %1"
+msgstr "Spremanje nije uspjelo: %1"
+
+#: app/applicationcontroller.cpp:643
+#, kde-format
+msgid "File saved successfully."
+msgstr "Datoteka je uspješno spremljena."
+
+#: app/applicationcontroller.cpp:650
+#, kde-format
+msgid ""
+"File was exported with a newer version of Itinerary. Some information might "
+"not be imported correctly."
+msgstr "Datoteka je izvezena novijom verzijom aplikacije Itinerary. Neki podaci možda neće biti ispravno uvezeni."
+
+#: app/applicationcontroller.cpp:678
+#, kde-format
+msgid "Import completed."
+msgstr "Uvoz je dovršen."
+
+#: app/BarcodeScanModeButton.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Barcode Scan Mode"
+msgstr "Način skeniranja crtičnog koda"
+
+#: app/BarcodeScanModeController.qml:41
+#, kde-format
+msgid "In barcode scanning mode"
+msgstr "U načinu skeniranja crtičnog koda"
+
+#: app/BarcodeScannerPage.qml:18
+#, kde-format
+msgid "Scan Barcode"
+msgstr "Skeniraj crtični kod"
+
+#: app/BarcodeScannerPage.qml:81
+#, kde-format
+msgid "No camera available."
+msgstr "Kamera nije dostupna."
+
+#: app/BarcodeScannerPage.qml:94
+#, kde-format
+msgid "Light"
+msgstr "Svjetlo"
+
+#: app/BoatDelegate.qml:39 app/BoatEditor.qml:108 app/BoatPage.qml:39
+#, kde-format
+msgctxt "default transport name for a boat trip"
+msgid "Ferry"
+msgstr "Trajekt"
+
+#: app/BoatDelegate.qml:71 app/BusDelegate.qml:120 app/TrainDelegate.qml:128
+#, kde-format
+msgctxt "from location 1 to location 2"
+msgid "%1 to %2"
+msgstr "%1 – %2"
+
+#: app/BoatEditor.qml:18
+#, kde-format
+msgid "New Boat Trip"
+msgstr "Novo putovanje brodom"
+
+#: app/BoatEditor.qml:18
+#, kde-format
+msgid "Edit Boat Trip"
+msgstr "Uredi putovanje brodom"
+
+#: app/BoatEditor.qml:69 app/BoatEditor.qml:165
+#, kde-format
+msgctxt "boat departure"
+msgid "Change Departure Terminal"
+msgstr "Promijeni odlazni terminal"
+
+#: app/BoatEditor.qml:75
+#, kde-format
+msgctxt "boat departure"
+msgid "Change departure terminal"
+msgstr "Promijeni odlazni terminal"
+
+#: app/BoatEditor.qml:85 app/BoatEditor.qml:227
+#, kde-format
+msgctxt "boat arrival"
+msgid "Change Arrival Terminal"
+msgstr "Promijeni dolazni terminal"
+
+#: app/BoatEditor.qml:91
+#, kde-format
+msgctxt "boat arrival"
+msgid "Change arrival terminal"
+msgstr "Promijeni dolazni terminal"
+
+#: app/BoatEditor.qml:112 app/BusEditor.qml:128 app/EventEditor.qml:54
+#: app/FlightEditor.qml:79 app/HotelEditor.qml:53 app/ImportPage.qml:21
+#: app/RestaurantEditor.qml:53 app/StopoverDetailsPage.qml:128
+#: app/TrainEditor.qml:135
+#, kde-format
+msgid "Trip"
+msgstr "Putovanje"
+
+#: app/BoatEditor.qml:124 app/BoatPage.qml:93
+#, kde-format
+msgctxt "Boat departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/BoatEditor.qml:131
+#, kde-format
+msgctxt "Boat departure"
+msgid "Departure Time"
+msgstr "Vrijeme polaska"
+
+#: app/BoatEditor.qml:135 app/BusEditor.qml:169 app/TrainEditor.qml:177
+#, kde-format
+msgid "Departure time has to be set."
+msgstr "Potrebno je postaviti vrijeme polaska."
+
+#: app/BoatEditor.qml:140 app/BoatEditor.qml:198
+#, kde-format
+msgctxt "boat terminal"
+msgid "Terminal Name"
+msgstr "Naziv terminala"
+
+#: app/BoatEditor.qml:143
+#, kde-format
+msgid "Departure terminal must not be empty."
+msgstr "Polje odlaznog terminala ne smije biti prazno."
+
+#: app/BoatEditor.qml:158 app/BoatEditor.qml:221
+#, kde-format
+msgctxt "boat terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: app/BoatEditor.qml:173 app/BoatPage.qml:133
+#, kde-format
+msgctxt "Boat arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/BoatEditor.qml:180
+#, kde-format
+msgctxt "Boat arrival"
+msgid "Arrival Time"
+msgstr "Vrijeme dolaska"
+
+#: app/BoatEditor.qml:191 app/BusEditor.qml:255 app/TrainEditor.qml:276
+#, kde-format
+msgid "Arrival time has to be after the departure time."
+msgstr "Vrijeme dolaska mora biti nakon vremena polaska."
+
+#: app/BoatEditor.qml:201
+#, kde-format
+msgid "Arrival terminal must not be empty."
+msgstr "Polje dolaznog terminala ne smije biti prazno."
+
+#: app/BoatPage.qml:18
+#, kde-format
+msgid "Boat Ticket"
+msgstr "Karta za brod"
+
+#: app/BoatPage.qml:55 app/BusPage.qml:54 app/FlightPage.qml:61
+#: app/TrainPage.qml:70 app/TransferDelegate.qml:71
+#, kde-format
+msgid "%1 to %2"
+msgstr "%1 – %2"
+
+#: app/BoatPage.qml:98 app/BusPage.qml:102 app/TrainPage.qml:112
+#, kde-format
+msgid "Departure time"
+msgstr "Vrijeme polaska"
+
+#: app/BoatPage.qml:107 app/BoatPage.qml:151
+#, kde-format
+msgctxt "Boat terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: app/BoatPage.qml:121 app/BoatPage.qml:162 app/BusPage.qml:153
+#: app/BusPage.qml:223 app/FlightPage.qml:207 app/FlightPage.qml:261
+#: app/TrainPage.qml:172 app/TrainPage.qml:259
+#, kde-format
+msgid "Additional information"
+msgstr "Dodatne informacije"
+
+#: app/BoatPage.qml:138 app/BusPage.qml:177 app/TrainPage.qml:200
+#, kde-format
+msgid "Arrival time"
+msgstr "Vrijeme dolaska"
+
+#: app/BoatPage.qml:188 app/BusPage.qml:269 app/FlightPage.qml:291
+#: app/JourneyQueryPage.qml:99 app/TrainPage.qml:334
+#, kde-format
+msgctxt "purchase a ticket"
+msgid "Book"
+msgstr "Rezerviraj"
+
+#: app/BoatPage.qml:194 app/BusPage.qml:275 app/FlightPage.qml:297
+#: app/TrainPage.qml:349
+#, kde-format
+msgid "Alternatives"
+msgstr "Alternative"
+
+#: app/BookingCard.qml:24
+#, kde-format
+msgid "Booking"
+msgstr "Rezervacija"
+
+#: app/BookingCard.qml:30 app/BookingEditorCard.qml:43
+#, kde-format
+msgid "Reference"
+msgstr "Referenca"
+
+#: app/BookingCard.qml:36 app/BookingCard.qml:68 app/ProgramMembershipCard.qml:46
+#: app/ProgramMembershipPage.qml:110
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy to Clipboard"
+msgstr "Kopiraj u međuspremnik"
+
+#: app/BookingCard.qml:40
+#, kde-format
+msgid "Booking reference copied to clipboard"
+msgstr "Referenca rezervacije kopirana je u međuspremnik."
+
+#: app/BookingCard.qml:53 app/BookingEditorCard.qml:51
+#: app/TicketEditor.qml:71
+#, kde-format
+msgid "Under name"
+msgstr "Na ime"
+
+#: app/BookingCard.qml:62
+#, kde-format
+msgid "Ticket number:"
+msgstr "Broj karte:"
+
+#: app/BookingCard.qml:72
+#, kde-format
+msgid "Ticket number copied to clipboard"
+msgstr "Broj karte kopiran je u međuspremnik."
+
+#: app/BookingCard.qml:86
+#, kde-format
+msgid "Ticket valid from"
+msgstr "Karta vrijedi od"
+
+#: app/BookingCard.qml:94
+#, kde-format
+msgid "Ticket valid until"
+msgstr "Karta vrijedi do"
+
+#: app/BookingEditorCard.qml:37
+#, kde-format
+msgctxt "@title:group"
+msgid "Booking"
+msgstr "Rezervacija"
+
+#: app/BookingEditorCard.qml:66
+#, kde-format
+msgctxt "canceled reservation"
+msgid "Canceled"
+msgstr "Otkazano"
+
+#: app/BookingEditorCard.qml:67
+#, kde-format
+msgctxt "canceled reservation"
+msgid "Booking has been canceled."
+msgstr "Rezervacija je otkazana."
+
+#: app/BusDelegate.qml:38
+#, kde-format
+msgctxt "@info"
+msgid "Bus"
+msgstr "Autobus"
+
+#: app/BusDelegate.qml:53 app/BusDelegate.qml:104
+#, kde-format
+msgctxt "bus station platform"
+msgid "Platform changed to %1"
+msgstr "Peron je promijenjen na %1"
+
+#: app/BusDelegate.qml:55 app/BusDelegate.qml:106
+#, kde-format
+msgctxt "bus station platform"
+msgid "Platform %1"
+msgstr "Peron %1"
+
+#: app/BusDelegate.qml:70
+#, kde-format
+msgctxt "bus seat"
+msgid "Seat: <b>%1</b>"
+msgstr "Sjedalo: <b>%1</b>"
+
+#: app/BusEditor.qml:74
+#, kde-format
+msgctxt "@title"
+msgid "New Bus Reservation"
+msgstr "Nova autobusna rezervacija"
+
+#: app/BusEditor.qml:74
+#, kde-format
+msgctxt "@title"
+msgid "Edit Bus Reservation"
+msgstr "Uredi autobusnu rezervaciju"
+
+#: app/BusEditor.qml:81 app/BusEditor.qml:227
+#, kde-format
+msgctxt "bus departure"
+msgid "Change Departure Stop"
+msgstr "Promijeni polazno stajalište"
+
+#: app/BusEditor.qml:87
+#, kde-format
+msgctxt "bus departure"
+msgid "Change departure stop"
+msgstr "Promijeni polazno stajalište"
+
+#: app/BusEditor.qml:97 app/BusEditor.qml:317
+#, kde-format
+msgctxt "bus arrival"
+msgid "Change Arrival Stop"
+msgstr "Promijeni odredišno stajalište"
+
+#: app/BusEditor.qml:103
+#, kde-format
+msgctxt "bus arrival"
+msgid "Change arrival stop"
+msgstr "Promijeni odredišno stajalište"
+
+#: app/BusEditor.qml:123
+#, kde-format
+msgctxt "@title"
+msgid "Bus"
+msgstr "Autobus"
+
+#: app/BusEditor.qml:141
+#, kde-format
+msgctxt "@title:group"
+msgid "Bus"
+msgstr "Autobus"
+
+#: app/BusEditor.qml:150
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Bus number"
+msgstr "Broj autobusa"
+
+#: app/BusEditor.qml:156
+#, kde-format
+msgctxt "bus departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/BusEditor.qml:165
+#, kde-format
+msgctxt "Bus departure"
+msgid "Departure Time"
+msgstr "Vrijeme polaska"
+
+#: app/BusEditor.qml:178 app/BusEditor.qml:265
+#, kde-format
+msgctxt "bus stop"
+msgid "Stop Name"
+msgstr "Naziv stajališta"
+
+#: app/BusEditor.qml:181
+#, kde-format
+msgid "Departure bus stop must not be empty."
+msgstr "Polje polaznog autobusnog stajališta ne smije biti prazno."
+
+#: app/BusEditor.qml:210 app/BusEditor.qml:302
+#, kde-format
+msgctxt "bus stop"
+msgid "Stop"
+msgstr "Stajalište"
+
+#: app/BusEditor.qml:235
+#, kde-format
+msgctxt "bus arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/BusEditor.qml:244
+#, kde-format
+msgctxt "bus arrival"
+msgid "Arrival Time"
+msgstr "Vrijeme dolaska"
+
+#: app/BusEditor.qml:268
+#, kde-format
+msgid "Arrival stop must not be empty."
+msgstr "Polje odredišnog stajališta ne smije biti prazno."
+
+#: app/BusEditor.qml:326 app/BusEditor.qml:332 app/BusPage.qml:235
+#, kde-format
+msgctxt "Bus seat"
+msgid "Seat"
+msgstr "Sjedalo"
+
+#: app/BusPage.qml:20
+#, kde-format
+msgid "Bus Ticket"
+msgstr "Autobusna karta"
+
+#: app/BusPage.qml:89
+#, kde-format
+msgctxt "Bus departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/BusPage.qml:123 app/TrainPage.qml:141
+#, kde-format
+msgid "Departure date"
+msgstr "Datum polaska"
+
+#: app/BusPage.qml:133 app/BusPage.qml:203
+#, kde-format
+msgctxt "bus station"
+msgid "Station"
+msgstr "Kolodvor"
+
+#: app/BusPage.qml:165
+#, kde-format
+msgctxt "Bus arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/calendarhelper.cpp:28
+#, kde-format
+msgctxt "%1 is the transfer destination"
+msgid "Transfer to %1"
+msgstr "Presjedanje na %1"
+
+#: app/CalendarSelectionDialog.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Select Calendar"
+msgstr "Odaberi kalendar"
+
+#: app/CarRentalDelegate.qml:32
+#, kde-format
+msgid "Rental Car Drop-off"
+msgstr "Vraćanje unajmljenog automobila"
+
+#: app/CarRentalDelegate.qml:33
+#, kde-format
+msgid "Rental Car Pick-up"
+msgstr "Preuzimanje unajmljenog automobila"
+
+#: app/CarRentalDelegate.qml:60
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Drop-off: %1"
+msgstr "Vraćanje: %1"
+
+#: app/CarRentalPage.qml:15 app/CarRentalPage.qml:22
+#, kde-format
+msgid "Rental Car"
+msgstr "Unajmljeni automobil"
+
+#: app/CarRentalPage.qml:26
+#, kde-format
+msgid "Pick-up"
+msgstr "Preuzimanje"
+
+#: app/CarRentalPage.qml:32 app/CarRentalPage.qml:58
+#, kde-format
+msgid "Time"
+msgstr "Vrijeme"
+
+#: app/CarRentalPage.qml:43 app/CarRentalPage.qml:69 app/FormPlaceDelegate.qml:32
+#: app/HotelPage.qml:50
+#, kde-format
+msgid "Location"
+msgstr "Lokacija"
+
+#: app/CarRentalPage.qml:52
+#, kde-format
+msgid "Drop-off"
+msgstr "Vraćanje"
+
+#: app/CarRentalPage.qml:78 app/StopoverDetailsPage.qml:136
+#, kde-format
+msgid "Vehicle"
+msgstr "Vozilo"
+
+#: app/CarRentalPage.qml:83 app/HealthCertificateTest.qml:73
+#: app/HealthCertificateVaccination.qml:85
+#, kde-format
+msgid "Type"
+msgstr "Vrsta"
+
+#: app/CarRentalPage.qml:93
+#, kde-format
+msgid "Model"
+msgstr "Model"
+
+#: app/CarRentalPage.qml:103
+#, kde-format
+msgid "Brand"
+msgstr "Marka"
+
+#: app/ContactCard.qml:22 app/ContactEditorCard.qml:27
+#, kde-format
+msgctxt "@title:group"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: app/ContactCard.qml:27 app/ContactEditorCard.qml:33
+#, kde-format
+msgid "Telephone"
+msgstr "Telefon"
+
+#: app/ContactCard.qml:37 app/ContactEditorCard.qml:42
+#, kde-format
+msgid "Email"
+msgstr "E-pošta"
+
+#: app/ContactCard.qml:47 app/ContactEditorCard.qml:51
+#: app/EventEditor.qml:133 app/EventPage.qml:93
+#, kde-format
+msgid "Website"
+msgstr "Web-stranica"
+
+#: app/CurrencyConverterDelegate.qml:32 app/LocationInfoDelegate.qml:117
+#, kde-format
+msgid "Currency: %1"
+msgstr "Valuta: %1"
+
+#: app/DepartureQueryPage.qml:22
+#, kde-format
+msgid "Departures"
+msgstr "Polasci"
+
+#: app/DepartureQueryPage.qml:137
+#, kde-format
+msgctxt "@action:button"
+msgid "Load earlier departures"
+msgstr "Učitaj ranije polaske"
+
+#: app/DepartureQueryPage.qml:163 app/JourneyQueryPage.qml:173
+#: app/TransferPage.qml:321
+#, kde-format
+msgctxt "@action:button"
+msgid "Load later connections"
+msgstr "Učitaj kasnije veze"
+
+#: app/DepartureQueryPage.qml:172 app/JourneyQueryPage.qml:180
+#: app/TransferPage.qml:328
+#, kde-format
+msgid "Data providers:"
+msgstr "Pružatelji podataka:"
+
+#: app/DepartureQueryPage.qml:180 app/JourneyQueryPage.qml:189
+#: app/TransferPage.qml:336
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Loading"
+msgstr "Učitavanje"
+
+#: app/DepartureQueryPage.qml:180 app/JourneyQueryPage.qml:191
+#: app/TransferPage.qml:336
+#, kde-format
+msgctxt "@info:status"
+msgid "Error"
+msgstr "Pogreška"
+
+#: app/DocumentsCard.qml:35
+#, kde-format
+msgid "Add Document"
+msgstr "Dodaj dokument"
+
+#: app/DocumentsCard.qml:37 app/ImportAction.qml:42 app/ImportAction.qml:43
+#: app/MyDataPage.qml:207
+#, kde-format
+msgid "All Files (*.*)"
+msgstr "Sve datoteke (*.*)"
+
+#: app/DocumentsCard.qml:65 app/DocumentsCard.qml:80
+#, kde-format
+msgid "Delete Document"
+msgstr "Izbriši dokument"
+
+#: app/DocumentsCard.qml:81
+#, kde-format
+msgid "Do you really want to delete this document?"
+msgstr "Želite li zaista izbrisati ovaj dokument?"
+
+#: app/DocumentsCard.qml:87 app/GenericPkPassPage.qml:43
+#: app/GenericPkPassPage.qml:71 app/HealthCertificatePage.qml:49
+#: app/HealthCertificatePage.qml:63 app/ProgramMembershipPage.qml:45
+#: app/ProgramMembershipPage.qml:188 app/ReservationDeletionDialog.qml:42
+#: app/TicketPage.qml:48 app/TicketPage.qml:197 app/TripGroupPage.qml:308
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: app/DocumentsCard.qml:99
+#, kde-format
+msgid "Documents"
+msgstr "Dokumenti"
+
+#: app/DocumentsCard.qml:109
+#, kde-format
+msgid "No documents attached to this reservation."
+msgstr "Ovoj rezervaciji nisu priloženi dokumenti."
+
+#: app/DocumentsCard.qml:117
+#, kde-format
+msgid "Add Document…"
+msgstr "Dodaj dokument…"
+
+#: app/downloadjob.cpp:162
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Network error: %1"
+msgstr "Pogreška mreže: %1"
+
+#: app/downloadjob.cpp:193
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Download failed: %1"
+msgstr "Preuzimanje nije uspjelo: %1"
+
+#: app/EditorPage.qml:32
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Spremi"
+
+#: app/EventDelegate.qml:36
+#, kde-format
+msgid "End: %1"
+msgstr "Završetak: %1"
+
+#: app/EventDelegate.qml:72
+#, kde-format
+msgid "Start time: %1"
+msgstr "Vrijeme početka: %1"
+
+#: app/EventDelegate.qml:79
+#, kde-format
+msgid "End time: %1"
+msgstr "Vrijeme završetka: %1"
+
+#: app/EventDelegate.qml:91 app/EventPage.qml:111
+#, kde-format
+msgctxt "event venue seat section"
+msgid "Section: <b>%1</b>"
+msgstr "Odjeljak: <b>%1</b>"
+
+#: app/EventDelegate.qml:97 app/EventPage.qml:117
+#, kde-format
+msgctxt "event venue seat row"
+msgid "Row: <b>%1</b>"
+msgstr "Red: <b>%1</b>"
+
+#: app/EventDelegate.qml:103 app/EventPage.qml:123
+#, kde-format
+msgctxt "event venue seat number"
+msgid "Number: <b>%1</b>"
+msgstr "Broj: <b>%1</b>"
+
+#: app/EventEditor.qml:19
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "New Event"
+msgstr "Novi događaj"
+
+#: app/EventEditor.qml:20
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "Edit Event"
+msgstr "Uredi događaj"
+
+#: app/EventEditor.qml:66 app/EventPage.qml:15
+#, kde-format
+msgctxt "event as in concert/conference/show, not as in appointment"
+msgid "Event"
+msgstr "Događaj"
+
+#: app/EventEditor.qml:72
+#, kde-format
+msgctxt "event name"
+msgid "Name"
+msgstr "Naziv"
+
+#: app/EventEditor.qml:75 app/HotelEditor.qml:74 app/RestaurantEditor.qml:75
+#, kde-format
+msgid "Name must not be empty."
+msgstr "Naziv ne smije biti prazan."
+
+#: app/EventEditor.qml:80 app/EventPage.qml:70
+#, kde-format
+msgctxt "time of entrance"
+msgid "Entrance"
+msgstr "Ulaz"
+
+#: app/EventEditor.qml:99
+#, kde-format
+msgid "Entrance time has to be before the start time."
+msgstr "Vrijeme ulaska mora biti prije vremena početka."
+
+#: app/EventEditor.qml:106 app/EventPage.qml:78 app/RestaurantEditor.qml:97
+#, kde-format
+msgid "Start Time"
+msgstr "Vrijeme početka"
+
+#: app/EventEditor.qml:110 app/RestaurantEditor.qml:101
+#, kde-format
+msgid "Start time has to be set."
+msgstr "Potrebno je postaviti vrijeme početka."
+
+#: app/EventEditor.qml:115 app/EventPage.qml:86 app/RestaurantEditor.qml:108
+#, kde-format
+msgid "End Time"
+msgstr "Vrijeme završetka"
+
+#: app/EventEditor.qml:126 app/RestaurantEditor.qml:119
+#, kde-format
+msgid "End time has to be after the start time."
+msgstr "Vrijeme završetka mora biti nakon vremena početka."
+
+#: app/EventEditor.qml:140
+#, kde-format
+msgid "Venue"
+msgstr "Mjesto održavanja"
+
+#: app/EventEditor.qml:146
+#, kde-format
+msgctxt "venue name"
+msgid "Name"
+msgstr "Naziv"
+
+#: app/EventPage.qml:104
+#, kde-format
+msgid "Seat"
+msgstr "Sjedalo"
+
+#: app/EventPage.qml:129
+#, kde-format
+msgctxt "event venue seat type"
+msgid "Type: <b>%1</b>"
+msgstr "Vrsta: <b>%1</b>"
+
+#: app/ExportMenuDialog.qml:32
+#, kde-format
+msgid "As Itinerary file…"
+msgstr "Kao datoteka Itinerary…"
+
+#: app/ExportMenuDialog.qml:42
+#, kde-format
+msgid "As GPX file…"
+msgstr "Kao datoteka GPX…"
+
+#: app/ExportMenuDialog.qml:57
+#, kde-format
+msgid "Send to %1"
+msgstr "Pošalji u %1"
+
+#: app/ExportMenuDialog.qml:81
+#, kde-format
+msgid "Itinerary file (*.itinerary)"
+msgstr "Datoteka Itinerary (*.itinerary)"
+
+#: app/ExportMenuDialog.qml:98 app/FavoriteLocationPage.qml:38
+#: app/FavoriteLocationPage.qml:46
+#, kde-format
+msgid "GPX Files (*.gpx)"
+msgstr "Datoteke GPX (*.gpx)"
+
+#: app/favoritelocationmodel.cpp:135 app/favoritelocationmodel.cpp:155
+#, kde-format
+msgid "Home"
+msgstr "Dom"
+
+#: app/favoritelocationmodel.cpp:158
+#, kde-format
+msgid "Work"
+msgstr "Posao"
+
+#: app/favoritelocationmodel.cpp:161
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Location %1"
+msgstr "Lokacija %1"
+
+#: app/FavoriteLocationPage.qml:20 app/MyDataPage.qml:124
+#, kde-format
+msgid "Favorite Locations"
+msgstr "Omiljene lokacije"
+
+#: app/FavoriteLocationPage.qml:36
+#, kde-format
+msgid "Export Favorite Locations"
+msgstr "Izvezi omiljene lokacije"
+
+#: app/FavoriteLocationPage.qml:44
+#, kde-format
+msgid "Import Favorite Locations"
+msgstr "Uvezi omiljene lokacije"
+
+#: app/FavoriteLocationPage.qml:52
+#, kde-format
+msgid "Add Favorite Location"
+msgstr "Dodaj omiljenu lokaciju"
+
+#: app/FavoriteLocationPage.qml:60
+#, kde-format
+msgid "Rename Favorite Location"
+msgstr "Preimenuj omiljenu lokaciju"
+
+#: app/FavoriteLocationPage.qml:65
+#, kde-format
+msgid "Remove Favorite Location"
+msgstr "Ukloni omiljenu lokaciju"
+
+#: app/FavoriteLocationPage.qml:75
+#, kde-format
+msgid "Export to GPX"
+msgstr "Izvezi u GPX"
+
+#: app/FavoriteLocationPage.qml:80
+#, kde-format
+msgid "Import from GPX"
+msgstr "Uvezi iz GPX"
+
+#: app/FavoriteLocationPage.qml:91
+#, kde-format
+msgctxt "@title"
+msgid "Rename favorite location"
+msgstr "Preimenuj omiljenu lokaciju"
+
+#: app/FavoriteLocationPage.qml:101
+#, kde-format
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: app/FavoriteLocationPage.qml:150 app/FormPlaceEditorDelegate.qml:56
+#: app/LocationPicker.qml:78
+#, kde-format
+msgid "Pick Location"
+msgstr "Odaberi lokaciju"
+
+#: app/FlightDelegate.qml:63
+#, kde-format
+msgctxt "@info"
+msgid "Boarding time: %1"
+msgstr "Vrijeme ukrcaja: %1"
+
+#: app/FlightDelegate.qml:71
+#, kde-format
+msgctxt "flight departure terminal"
+msgid "Terminal: <b>%1</b>"
+msgstr "Terminal: <b>%1</b>"
+
+#: app/FlightDelegate.qml:77
+#, kde-format
+msgctxt "flight departure gate"
+msgid "Gate: <b>%1</b>"
+msgstr "Izlaz: <b>%1</b>"
+
+#: app/FlightDelegate.qml:83
+#, kde-format
+msgctxt "flight seats"
+msgid "Seat: <b>%1</b>"
+msgstr "Sjedalo: <b>%1</b>"
+
+#: app/FlightDelegate.qml:97
+#, kde-format
+msgctxt "airport terminal"
+msgid "Terminal %1"
+msgstr "Terminal %1"
+
+#: app/FlightDelegate.qml:101
+#, kde-format
+msgid "%1 %2 → %3"
+msgstr "%1 %2 → %3"
+
+#: app/FlightEditor.qml:17
+#, kde-format
+msgid "New Flight"
+msgstr "Novi let"
+
+#: app/FlightEditor.qml:17
+#, kde-format
+msgid "Edit Flight"
+msgstr "Uredi let"
+
+#: app/FlightEditor.qml:92
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure - %1"
+msgstr "Polazak – %1"
+
+#: app/FlightEditor.qml:93
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/FlightEditor.qml:99 app/FlightEditor.qml:168 app/FlightPage.qml:172
+#: app/FlightPage.qml:236
+#, kde-format
+msgid "Airport"
+msgstr "Zračna luka"
+
+#: app/FlightEditor.qml:102
+#, kde-format
+msgid "Departure airport has to be specified."
+msgstr "Potrebno je navesti polaznu zračnu luku."
+
+#: app/FlightEditor.qml:114
+#, kde-format
+msgctxt "flight departure terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: app/FlightEditor.qml:119
+#, kde-format
+msgctxt "flight departure time"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: app/FlightEditor.qml:124
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure time has to be set."
+msgstr "Potrebno je postaviti vrijeme polaska."
+
+#: app/FlightEditor.qml:131
+#, kde-format
+msgctxt "flight departure gate"
+msgid "Gate"
+msgstr "Izlaz"
+
+#: app/FlightEditor.qml:136 app/FlightPage.qml:117
+#, kde-format
+msgid "Boarding time"
+msgstr "Vrijeme ukrcaja"
+
+#: app/FlightEditor.qml:147
+#, kde-format
+msgctxt "flight departure"
+msgid "Boarding time has to be before the departure time."
+msgstr "Vrijeme ukrcaja mora biti prije vremena polaska."
+
+#: app/FlightEditor.qml:155
+#, kde-format
+msgctxt "flight departure boarding group"
+msgid "Boarding group"
+msgstr "Skupina za ukrcaj"
+
+#: app/FlightEditor.qml:161
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival - %1"
+msgstr "Dolazak – %1"
+
+#: app/FlightEditor.qml:162
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/FlightEditor.qml:171
+#, kde-format
+msgid "Arrival airport has to be specified."
+msgstr "Potrebno je navesti odredišnu zračnu luku."
+
+#: app/FlightEditor.qml:183
+#, kde-format
+msgctxt "flight arrival terminal"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: app/FlightEditor.qml:188
+#, kde-format
+msgctxt "flight arrival time"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: app/FlightEditor.qml:199
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival time has to be after the departure time."
+msgstr "Vrijeme dolaska mora biti nakon vremena polaska."
+
+#: app/FlightEditor.qml:207 app/FlightPage.qml:17 app/StatisticsPage.qml:107
+#, kde-format
+msgid "Flight"
+msgstr "Let"
+
+#: app/FlightEditor.qml:216
+#, kde-format
+msgid "Flight number"
+msgstr "Broj leta"
+
+#: app/FlightEditor.qml:219
+#, kde-format
+msgid "Invalid flight number."
+msgstr "Nevaljan broj leta."
+
+#: app/FlightEditor.qml:224 app/FlightEditor.qml:231 app/FlightPage.qml:134
+#, kde-format
+msgctxt "Flight seat"
+msgid "Seat"
+msgstr "Sjedalo"
+
+#: app/FlightPage.qml:99
+#, kde-format
+msgid "Sequence Number:"
+msgstr "Redni broj:"
+
+#: app/FlightPage.qml:108
+#, kde-format
+msgid "Boarding"
+msgstr "Ukrcaj"
+
+#: app/FlightPage.qml:126
+#, kde-format
+msgid "Boarding group"
+msgstr "Skupina za ukrcaj"
+
+#: app/FlightPage.qml:143
+#, kde-format
+msgid "Airline"
+msgstr "Zrakoplovna tvrtka"
+
+#: app/FlightPage.qml:151
+#, kde-format
+msgctxt "Flight departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/FlightPage.qml:157
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure time"
+msgstr "Vrijeme polaska"
+
+#: app/FlightPage.qml:162
+#, kde-format
+msgctxt "flight departure"
+msgid "Departure date"
+msgstr "Datum polaska"
+
+#: app/FlightPage.qml:189 app/FlightPage.qml:253
+#, kde-format
+msgid "Terminal"
+msgstr "Terminal"
+
+#: app/FlightPage.qml:199
+#, kde-format
+msgid "Gate"
+msgstr "Izlaz"
+
+#: app/FlightPage.qml:219
+#, kde-format
+msgctxt "Flight arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/FlightPage.qml:224
+#, kde-format
+msgctxt "flight arrival"
+msgid "Arrival time"
+msgstr "Vrijeme dolaska"
+
+#: app/FormPlaceDelegate.qml:64
+#, kde-format
+msgid "Share Place"
+msgstr "Podijeli lokaciju"
+
+#: app/FormPlaceDelegate.qml:70
+#, kde-format
+msgid "Do you really want to share %1 to the Matrix channel %2?"
+msgstr "Želite li zaista podijeliti lokaciju %1 u Matrix kanal %2?"
+
+#: app/FormPlaceDelegate.qml:85
+#, kde-format
+msgctxt "@action:button"
+msgid "Share"
+msgstr "Podijeli"
+
+#: app/FormPlaceDelegate.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "View Indoor Map"
+msgstr "Prikaži kartu unutrašnjosti"
+
+#: app/FormPlaceDelegate.qml:131
+#, kde-format
+msgctxt "@action:button"
+msgid "View on Map"
+msgstr "Prikaži na karti"
+
+#: app/FormPlaceDelegate.qml:144
+#, kde-format
+msgctxt "@action:button Start route guidance to location"
+msgid "Navigate"
+msgstr "Navigiraj"
+
+#: app/FormPlaceDelegate.qml:155
+#, kde-format
+msgctxt "@action:button"
+msgid "Public Transport Departures"
+msgstr "Polasci javnog prijevoza"
+
+#: app/FormPlaceDelegate.qml:175
+#, kde-format
+msgctxt "@action:button"
+msgid "Share via Matrix"
+msgstr "Podijeli putem Matrixa"
+
+#: app/FormPlaceEditorDelegate.qml:68
+#, kde-format
+msgid "Street"
+msgstr "Ulica"
+
+#: app/FormPlaceEditorDelegate.qml:80
+#, kde-format
+msgid "Invalid postal code format for this country."
+msgstr "Nevaljan oblik poštanskog broja za ovu državu."
+
+#: app/FormPlaceEditorDelegate.qml:86
+#, kde-format
+msgid "City"
+msgstr "Grad"
+
+#: app/FormPlaceEditorDelegate.qml:104
+#, kde-format
+msgid "Region"
+msgstr "Regija"
+
+#: app/FormPlaceEditorDelegate.qml:130 app/HealthCertificateTest.qml:115
+#: app/HealthCertificateVaccination.qml:123
+#, kde-format
+msgid "Country"
+msgstr "Država"
+
+#: app/FormPlaceEditorDelegate.qml:201
+#, kde-format
+msgid "Coordinates"
+msgstr "Koordinate"
+
+#: app/FormPlaceEditorDelegate.qml:202
+#, kde-format
+msgid "%1°, %2°"
+msgstr "%1°, %2°"
+
+#: app/FormPlaceEditorDelegate.qml:202
+#, kde-format
+msgid "Pick…"
+msgstr "Odaberi…"
+
+#: app/FormPlaceEditorDelegate.qml:221
+#, kde-format
+msgid "Address to coordinates"
+msgstr "Adresa u koordinate"
+
+#: app/FormPlaceEditorDelegate.qml:237
+#, kde-format
+msgid "Coordinates to address"
+msgstr "Koordinate u adresu"
+
+#: app/FormPlaceEditorDelegate.qml:247
+#, kde-format
+msgid "Remove coordinates"
+msgstr "Ukloni koordinate"
+
+#: app/FormPlatformDelegate.qml:46
+#, kde-format
+msgctxt "previous platform"
+msgid "(was: %1)"
+msgstr "(bilo je: %1)"
+
+#: app/FormPriceDelegate.qml:19
+#, kde-format
+msgctxt "@label"
+msgid "Price"
+msgstr "Cijena"
+
+#: app/FormPriceDelegate.qml:30
+#, kde-format
+msgctxt "prices in local and home currency"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/FormPriceEditDelegate.qml:33
+#, kde-format
+msgid "Price"
+msgstr "Cijena"
+
+#: app/FormPriceEditDelegate.qml:94
+#, kde-format
+msgid "Not a valid number."
+msgstr "Broj nije valjan."
+
+#: app/GenericPkPassPage.qml:21
+#, kde-format
+msgid "Save Pass"
+msgstr "Spremi propusnicu"
+
+#: app/GenericPkPassPage.qml:22
+#, kde-format
+msgid "Apple Wallet pass (*.pkpass)"
+msgstr "Propusnica za Apple Wallet (*.pkpass)"
+
+#: app/GenericPkPassPage.qml:37 app/ProgramMembershipPage.qml:38
+#, kde-format
+msgid "Delete Pass"
+msgstr "Izbriši propusnicu"
+
+#: app/GenericPkPassPage.qml:38 app/ProgramMembershipPage.qml:39
+#, kde-format
+msgid "Do you really want to delete this pass?"
+msgstr "Želite li zaista izbrisati ovu propusnicu?"
+
+#: app/GenericPkPassPage.qml:55 app/TicketPage.qml:165 app/TripGroupPage.qml:685
+#, kde-format
+msgid "Check for Updates"
+msgstr "Provjeri ima li ažuriranja"
+
+#: app/GenericPkPassPage.qml:63
+#, kde-format
+msgid "Save As…"
+msgstr "Spremi kao…"
+
+#: app/gpxexport.cpp:33 app/main.cpp:212 app/Main.qml:21 app/Main.qml:59
+#, kde-format
+msgid "KDE Itinerary"
+msgstr "KDE Itinerary"
+
+#: app/gpxexport.cpp:47
+#, kde-format
+msgid "Flight %1 from %2 to %3"
+msgstr "Let %1 iz %2 u %3"
+
+#: app/gpxexport.cpp:54
+#, kde-format
+msgid "Train %1 from %2 to %3"
+msgstr "Vlak %1 iz %2 u %3"
+
+#: app/gpxexport.cpp:58
+#, kde-format
+msgid "Bus %1 from %2 to %3"
+msgstr "Autobus %1 iz %2 u %3"
+
+#: app/gpxexport.cpp:61 app/reservationhelper.cpp:146
+#, kde-format
+msgid "Ferry from %1 to %2"
+msgstr "Trajekt iz %1 u %2"
+
+#: app/HealthCertificateBarcode.qml:34
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Vaccination certificate of %1"
+msgstr "Potvrda o cijepljenju za %1"
+
+#: app/HealthCertificateBarcode.qml:36
+#, kde-format
+msgctxt "%1 is a person name, 'Test certificate' is a compound noun"
+msgid "Test certificate of %1"
+msgstr "Potvrda o testiranju za %1"
+
+#: app/HealthCertificateBarcode.qml:38
+#, kde-format
+msgctxt "%1 is a person name"
+msgid "Recovery certificate of %1"
+msgstr "Potvrda o oporavku za %1"
+
+#: app/HealthCertificateBarcode.qml:53
+#, kde-format
+msgid "Certificate expired"
+msgstr "Potvrda je istekla"
+
+#: app/HealthCertificateBarcode.qml:56
+#, kde-format
+msgid "Certificate invalid"
+msgstr "Potvrda nije valjana"
+
+#: app/HealthCertificateBarcode.qml:59
+#, kde-format
+msgid "Unknown issuer certificate"
+msgstr "Potvrda nepoznatog izdavatelja"
+
+#: app/HealthCertificateBarcode.qml:65
+#, kde-format
+msgid "Recently vaccinated"
+msgstr "Nedavno cijepljen/a"
+
+#: app/HealthCertificateBarcode.qml:66
+#, kde-format
+msgid "Partially vaccinated"
+msgstr "Djelomično cijepljen/a"
+
+#: app/HealthCertificateBarcode.qml:67
+#, kde-format
+msgid "Vaccinated"
+msgstr "Cijepljen/a"
+
+#: app/HealthCertificateBarcode.qml:68
+#, kde-format
+msgid "Fully vaccinated"
+msgstr "Potpuno cijepljen/a"
+
+#: app/HealthCertificateBarcode.qml:74
+#, kde-format
+msgid "Negative test"
+msgstr "Negativan test"
+
+#: app/HealthCertificateBarcode.qml:75 app/HealthCertificateRecovery.qml:55
+#, kde-format
+msgid "Positive test"
+msgstr "Pozitivan test"
+
+#: app/HealthCertificateBarcode.qml:78
+#, kde-format
+msgid "Test expired"
+msgstr "Test je istekao"
+
+#: app/HealthCertificateBarcode.qml:80
+#, kde-format
+msgid "Recovery certificate valid"
+msgstr "Potvrda o oporavku je valjana"
+
+#: app/healthcertificatemanager.cpp:145
+#, kde-format
+msgctxt "health certificate"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/healthcertificatemanager.cpp:154
+#, kde-format
+msgctxt ""
+"%1 is a disease, %2 the amount of applied doses, %3 the amount of total doses"
+msgid "Vaccination for %1 (%2/%3)"
+msgstr "Cijepljenje protiv %1 (%2/%3)"
+
+#: app/healthcertificatemanager.cpp:157
+#, kde-format
+msgctxt "%1 is a disease"
+msgid "Vaccination for %1"
+msgstr "Cijepljenje protiv %1"
+
+#: app/healthcertificatemanager.cpp:159 app/HealthCertificateVaccination.qml:54
+#, kde-format
+msgid "Vaccination"
+msgstr "Cijepljenje"
+
+#: app/healthcertificatemanager.cpp:163
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Test for %1 – %2"
+msgstr "Test na %1 – %2"
+
+#: app/healthcertificatemanager.cpp:168
+#, kde-format
+msgctxt "%1 is a disease, %2 is a date"
+msgid "Recovery from %1 – %2"
+msgstr "Oporavak od %1 – %2"
+
+#: app/HealthCertificatePage.qml:19
+#, kde-format
+msgid "Health Certificates"
+msgstr "Zdravstvene potvrde"
+
+#: app/HealthCertificatePage.qml:58
+#, kde-format
+msgid "Delete Certificate"
+msgstr "Izbriši potvrdu"
+
+#: app/HealthCertificatePage.qml:59
+#, kde-format
+msgid "Do you really want to delete this certificate?"
+msgstr "Želite li zaista izbrisati ovu potvrdu?"
+
+#: app/HealthCertificatePage.qml:132
+#, kde-format
+msgid ""
+"<p>You can import the following health certificates by scanning them with a "
+"barcode scanner app:<ul><li>European \"Digital Green Certificates\" for "
+"vaccinations, tests or recovery.</li><li>Indian vaccination certificates.</"
+"li><li>SMART Health Cards (SHC) as used in parts of Canada and the US.</li></"
+"p>"
+msgstr "<p>Sljedeće zdravstvene potvrde možete uvesti skeniranjem pomoću aplikacije za skeniranje crtičnih kodova:<ul><li>Europske „digitalne zelene potvrde” o cijepljenju, testiranju ili oporavku.</li><li>Indijske potvrde o cijepljenju.</li><li>SMART Health Cards (SHC), koje se upotrebljavaju u dijelovima Kanade i SAD-a.</li></ul></p>"
+
+#: app/HealthCertificateRecovery.qml:29 app/HealthCertificateTest.qml:30
+#: app/HealthCertificateVaccination.qml:33
+#, kde-format
+msgid "Person"
+msgstr "Osoba"
+
+#: app/HealthCertificateRecovery.qml:34 app/HealthCertificateTest.qml:35
+#: app/HealthCertificateVaccination.qml:38
+#: app/ProgramMembershipCard.qml:31 app/ProgramMembershipEditor.qml:70
+#: app/ProgramMembershipEditorCard.qml:54
+#: app/TicketPage.qml:97
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: app/HealthCertificateRecovery.qml:43 app/HealthCertificateTest.qml:44
+#: app/HealthCertificateVaccination.qml:47
+#, kde-format
+msgid "Date of birth"
+msgstr "Datum rođenja"
+
+#: app/HealthCertificateRecovery.qml:50
+#, kde-format
+msgid "Recovery"
+msgstr "Oporavak"
+
+#: app/HealthCertificateRecovery.qml:62 app/HealthCertificateTest.qml:65
+#: app/HealthCertificateVaccination.qml:77
+#, kde-format
+msgid "Disease"
+msgstr "Bolest"
+
+#: app/HealthCertificateRecovery.qml:69 app/ProgramMembershipEditor.qml:97
+#: app/ProgramMembershipPage.qml:126 app/TicketPage.qml:103
+#, kde-format
+msgid "Valid from"
+msgstr "Vrijedi od"
+
+#: app/HealthCertificateRecovery.qml:76 app/ProgramMembershipEditor.qml:111
+#: app/ProgramMembershipPage.qml:131 app/TicketPage.qml:109
+#, kde-format
+msgid "Valid until"
+msgstr "Vrijedi do"
+
+#: app/HealthCertificateRecovery.qml:82 app/HealthCertificateTest.qml:122
+#: app/HealthCertificateVaccination.qml:129
+#, kde-format
+msgid "Certificate"
+msgstr "Potvrda"
+
+#: app/HealthCertificateRecovery.qml:87 app/HealthCertificateTest.qml:127
+#: app/HealthCertificateVaccination.qml:134
+#, kde-format
+msgid "Issuer"
+msgstr "Izdavatelj"
+
+#: app/HealthCertificateRecovery.qml:95 app/HealthCertificateTest.qml:135
+#: app/HealthCertificateVaccination.qml:142
+#, kde-format
+msgid "Identifier"
+msgstr "Identifikator"
+
+#: app/HealthCertificateRecovery.qml:104 app/HealthCertificateTest.qml:143
+#: app/HealthCertificateVaccination.qml:150
+#, kde-format
+msgid "Issued"
+msgstr "Izdano"
+
+#: app/HealthCertificateRecovery.qml:111 app/HealthCertificateTest.qml:151
+#: app/HealthCertificateVaccination.qml:158
+#, kde-format
+msgid "Expires"
+msgstr "Istječe"
+
+#: app/HealthCertificateRecovery.qml:131 app/HealthCertificateTest.qml:169
+#: app/HealthCertificateVaccination.qml:176
+#, kde-format
+msgid "Signature"
+msgstr "Potpis"
+
+#: app/HealthCertificateRecovery.qml:135 app/HealthCertificateTest.qml:173
+#: app/HealthCertificateVaccination.qml:180
+#, kde-format
+msgctxt "Signature state"
+msgid "Valid"
+msgstr "Valjano"
+
+#: app/HealthCertificateRecovery.qml:137 app/HealthCertificateTest.qml:175
+#: app/HealthCertificateVaccination.qml:182
+#, kde-format
+msgctxt "Signature state"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: app/HealthCertificateRecovery.qml:140 app/HealthCertificateTest.qml:178
+#: app/HealthCertificateVaccination.qml:185
+#, kde-format
+msgctxt "Signature state"
+msgid "Invalid"
+msgstr "Nevaljano"
+
+#: app/HealthCertificateTest.qml:51 app/HealthCertificateTest.qml:79
+#, kde-format
+msgid "Test"
+msgstr "Test"
+
+#: app/HealthCertificateTest.qml:56 app/HealthCertificateVaccination.qml:60
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#: app/HealthCertificateTest.qml:88
+#, kde-format
+msgid "Result"
+msgstr "Rezultat"
+
+#: app/HealthCertificateTest.qml:106
+#, kde-format
+msgid "Test Center"
+msgstr "Centar za testiranje"
+
+#: app/HealthCertificateVaccination.qml:64
+#, kde-format
+msgid "%2 (%1 day ago)"
+msgid_plural "%2 (%1 days ago)"
+msgstr[0] "%2 (prije %1 dan)"
+msgstr[1] "%2 (prije %1 dana)"
+msgstr[2] "%2 (prije %1 dana)"
+
+#: app/HealthCertificateVaccination.qml:92
+#, kde-format
+msgid "Vaccine"
+msgstr "Cjepivo"
+
+#: app/HealthCertificateVaccination.qml:101
+#, kde-format
+msgid "Manufacturer"
+msgstr "Proizvođač"
+
+#: app/HealthCertificateVaccination.qml:109
+#, kde-format
+msgid "Dose"
+msgstr "Doza"
+
+#: app/HealthCertificateVaccination.qml:110
+#, kde-format
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: app/HotelDelegate.qml:35
+#, kde-format
+msgid "Check-out %1"
+msgstr "Odjava: %1"
+
+#: app/HotelDelegate.qml:49
+#, kde-format
+msgid "Check-in time: %1"
+msgstr "Vrijeme prijave: %1"
+
+#: app/HotelDelegate.qml:55 app/HotelDelegate.qml:56
+#, kde-format
+msgid "Check-out time: %1"
+msgstr "Vrijeme odjave: %1"
+
+#: app/HotelEditor.qml:19
+#, kde-format
+msgid "New Hotel Reservation"
+msgstr "Nova hotelska rezervacija"
+
+#: app/HotelEditor.qml:19
+#, kde-format
+msgid "Edit Hotel Reservation"
+msgstr "Uredi hotelsku rezervaciju"
+
+#: app/HotelEditor.qml:49
+#, kde-format
+msgid "Hotel"
+msgstr "Hotel"
+
+#: app/HotelEditor.qml:65
+#, kde-format
+msgctxt "@title:group"
+msgid "Accommodation"
+msgstr "Smještaj"
+
+#: app/HotelEditor.qml:71
+#, kde-format
+msgctxt "hotel name"
+msgid "Name"
+msgstr "Naziv"
+
+#: app/HotelEditor.qml:99
+#, kde-format
+msgctxt "hotel checkin"
+msgid "Check-in"
+msgstr "Prijava"
+
+#: app/HotelEditor.qml:103
+#, kde-format
+msgid "Check-in time has to be set."
+msgstr "Potrebno je postaviti vrijeme prijave."
+
+#: app/HotelEditor.qml:108
+#, kde-format
+msgctxt "hotel checkout"
+msgid "Check-out"
+msgstr "Odjava"
+
+#: app/HotelEditor.qml:120
+#, kde-format
+msgid "Check-out time has to be set."
+msgstr "Potrebno je postaviti vrijeme odjave."
+
+#: app/HotelEditor.qml:122
+#, kde-format
+msgid "Check-out time has to be after the check-in time."
+msgstr "Vrijeme odjave mora biti nakon vremena prijave."
+
+#: app/HotelEditor.qml:133 app/HotelPage.qml:82
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#: app/HotelPage.qml:16
+#, kde-format
+msgid "Hotel Reservation"
+msgstr "Hotelska rezervacija"
+
+#: app/HotelPage.qml:67
+#, kde-format
+msgid "Check-in time"
+msgstr "Vrijeme prijave"
+
+#: app/HotelPage.qml:74
+#, kde-format
+msgid "Check-out time"
+msgstr "Vrijeme odjave"
+
+#: app/ImportAction.qml:23 app/TripGroupPage.qml:479
+#, kde-format
+msgid "Import"
+msgstr "Uvezi"
+
+#: app/ImportAction.qml:29
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From file"
+msgstr "Iz datoteke"
+
+#: app/ImportAction.qml:37
+#, kde-format
+msgid "Import Reservation"
+msgstr "Uvezi rezervaciju"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "Apple Wallet passes (*.pkpass)"
+msgstr "Propusnice za Apple Wallet (*.pkpass)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "Apple Wallet pass bundles (*.pkpasses)"
+msgstr "Paketi propusnica za Apple Wallet (*.pkpasses)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "PDF files (*.pdf)"
+msgstr "Datoteke PDF (*.pdf)"
+
+#: app/ImportAction.qml:43
+#, kde-format
+msgid "iCal events (*.ics)"
+msgstr "Događaji iCal (*.ics)"
+
+#: app/ImportAction.qml:43 app/MyDataPage.qml:208 app/MyDataPage.qml:229
+#, kde-format
+msgid "KDE Itinerary files (*.itinerary)"
+msgstr "Datoteke KDE Itinerary (*.itinerary)"
+
+#: app/ImportAction.qml:51
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From clipboard"
+msgstr "Iz međuspremnika"
+
+#: app/ImportAction.qml:61
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From barcode"
+msgstr "Iz crtičnog koda"
+
+#: app/ImportAction.qml:82
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "From calendar"
+msgstr "Iz kalendara"
+
+#: app/ImportAction.qml:124
+#, kde-format
+msgctxt "@action:inmenu Name of the train company in Germany"
+msgid "From Deutsche Bahn reservation number"
+msgstr "Pomoću broja rezervacije Deutsche Bahna"
+
+#: app/ImportAction.qml:135
+#, kde-format
+msgctxt "Name of the train company in France"
+msgid "From SNCF reservation number"
+msgstr "Pomoću broja rezervacije SNCF-a"
+
+#: app/importcontroller.cpp:152 app/importcontroller.cpp:496
+#, kde-format
+msgctxt "%1 is an error message"
+msgid "Import failed: %1"
+msgstr "Uvoz nije uspio: %1"
+
+#: app/importcontroller.cpp:158
+#, kde-format
+msgid "Import failed: File too large."
+msgstr "Uvoz nije uspio: datoteka je prevelika."
+
+#: app/importcontroller.cpp:231 app/importcontroller.cpp:328
+#, kde-format
+msgid "Found nothing to import."
+msgstr "Nema ničega za uvoz."
+
+#: app/importcontroller.cpp:468
+#, kde-format
+msgid "No importable events found in this calendar."
+msgstr "U ovom kalendaru nisu pronađeni događaji koje je moguće uvesti."
+
+#: app/importcontroller.cpp:643
+#, kde-format
+msgid "Backup"
+msgstr "Sigurnosna kopija"
+
+#: app/ImportPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Import"
+msgstr "Uvezi"
+
+#: app/ImportPage.qml:37
+#, kde-format
+msgctxt "@title:group"
+msgid "Items to Import"
+msgstr "Stavke za uvoz"
+
+#: app/ImportPage.qml:76
+#, kde-format
+msgctxt "@action:button"
+msgid "Import selection"
+msgstr "Odabir uvoza"
+
+#: app/IndoorMapGateSheet.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Find Gate"
+msgstr "Pronađi izlaz"
+
+#: app/IndoorMapGateSheet.qml:33
+#, kde-format
+msgctxt "flight departure/arrival gate"
+msgid "%1 (arrival + departure)"
+msgstr "%1 (dolazak i polazak)"
+
+#: app/IndoorMapGateSheet.qml:35
+#, kde-format
+msgctxt "flight departure gate"
+msgid "%1 (departure)"
+msgstr "%1 (polazak)"
+
+#: app/IndoorMapGateSheet.qml:37
+#, kde-format
+msgctxt "flight arrival gate"
+msgid "%1 (arrival)"
+msgstr "%1 (dolazak)"
+
+#: app/IndoorMapPage.qml:26
+#, kde-format
+msgid "Floor %1"
+msgstr "Kat %1"
+
+#: app/IndoorMapPage.qml:60
+#, kde-format
+msgid "Zoom In"
+msgstr "Povećaj"
+
+#: app/IndoorMapPage.qml:67
+#, kde-format
+msgid "Zoom Out"
+msgstr "Smanji"
+
+#: app/IndoorMapPage.qml:75
+#, kde-format
+msgid "Find Platform"
+msgstr "Pronađi peron"
+
+#: app/IndoorMapPage.qml:82
+#, kde-format
+msgid "Find Gate"
+msgstr "Pronađi izlaz"
+
+#: app/IndoorMapPage.qml:89
+#, kde-format
+msgid "Find Amenity"
+msgstr "Pronađi sadržaj"
+
+#: app/IndoorMapPage.qml:95
+#, kde-format
+msgid "Show Elevator Status"
+msgstr "Prikaži stanje dizala"
+
+#: app/IndoorMapPage.qml:104
+#, kde-format
+msgid "Show Rental Vehicles"
+msgstr "Prikaži vozila za najam"
+
+#: app/IndoorMapPage.qml:112
+#, kde-format
+msgid "Open Map"
+msgstr "Otvori kartu"
+
+#: app/IndoorMapPage.qml:121
+#, kde-format
+msgid "Open wheelmap.org"
+msgstr "Otvori wheelmap.org"
+
+#: app/IndoorMapPage.qml:133
+#, kde-format
+msgid "Edit with iD"
+msgstr "Uredi pomoću iD-a"
+
+#: app/IndoorMapPage.qml:139
+#, kde-format
+msgid "Edit with JOSM"
+msgstr "Uredi pomoću JOSM-a"
+
+#: app/IndoorMapPage.qml:145
+#, kde-format
+msgid "Edit with Vespucci"
+msgstr "Uredi pomoću Vespuccija"
+
+#: app/IndoorMapPage.qml:287
+#, kde-format
+msgid "Navigate from here"
+msgstr "Navigiraj odavde"
+
+#: app/IndoorMapPage.qml:296
+#, kde-format
+msgid "Navigate to here"
+msgstr "Navigiraj ovamo"
+
+#: app/IndoorMapPage.qml:307
+#, kde-format
+msgid "Show information"
+msgstr "Prikaži informacije"
+
+#: app/JourneyFilterPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Filter Journeys"
+msgstr "Filtriraj putovanja"
+
+#: app/JourneyFilterPage.qml:62
+#, kde-format
+msgid "Mode of transportation"
+msgstr "Način prijevoza"
+
+#: app/JourneyFilterPage.qml:73
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "High speed or intercity trains"
+msgstr "Brzi ili međugradski vlakovi"
+
+#: app/JourneyFilterPage.qml:83
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Regional or local trains"
+msgstr "Regionalni ili lokalni vlakovi"
+
+#: app/JourneyFilterPage.qml:93
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Rapid transit, metro, trams"
+msgstr "Brzi gradski prijevoz, metro i tramvaji"
+
+#: app/JourneyFilterPage.qml:103
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Local or regional bus services"
+msgstr "Lokalne ili regionalne autobusne linije"
+
+#: app/JourneyFilterPage.qml:113
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Boats or ferries"
+msgstr "Brodovi ili trajekti"
+
+#: app/JourneyFilterPage.qml:123
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Hitch a ride"
+msgstr "Stopiraj"
+
+#: app/JourneyPathPage.qml:176
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Map"
+msgstr "Prikaži kartu"
+
+#: app/JourneyQueryPage.qml:112 app/TransferPage.qml:244
+#, kde-format
+msgid "Select"
+msgstr "Odaberi"
+
+#: app/JourneyQueryPage.qml:164 app/TransferPage.qml:312
+#, kde-format
+msgctxt "@action:button"
+msgid "Load earlier connections"
+msgstr "Učitaj ranije veze"
+
+#: app/JourneyQueryPage.qml:193
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No journeys found"
+msgstr "Nije pronađeno nijedno putovanje"
+
+#: app/JourneyQueryPage.qml:239
+#, kde-format
+msgid "Still fetching results…"
+msgstr "Dohvaćanje rezultata još traje…"
+
+#: app/JourneyRequestPage.qml:40 app/JourneyRequestPage.qml:98
+#, kde-format
+msgid "Select Journey"
+msgstr "Odaberi putovanje"
+
+#: app/JourneyRequestPage.qml:73 app/JourneyRequestPage.qml:142
+#, kde-format
+msgctxt "departure train station"
+msgid "Select Departure Stop"
+msgstr "Odaberi polazno stajalište"
+
+#: app/JourneyRequestPage.qml:85 app/JourneyRequestPage.qml:156
+#, kde-format
+msgctxt "arrival train station"
+msgid "Select Arrival Stop"
+msgstr "Odaberi odredišno stajalište"
+
+#: app/JourneyRequestPage.qml:141
+#, kde-format
+msgctxt "departure train station"
+msgid "From:"
+msgstr "Od:"
+
+#: app/JourneyRequestPage.qml:155
+#, kde-format
+msgctxt "arrival train station"
+msgid "To:"
+msgstr "Do:"
+
+#: app/JourneyRequestPage.qml:173
+#, kde-format
+msgctxt "departure and arrival stops"
+msgid "Swap departure and arrival"
+msgstr "Zamijeni polazak i dolazak"
+
+#: app/JourneyRequestPage.qml:188
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/JourneyRequestPage.qml:191
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/JourneyRequestPage.qml:204
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure time"
+msgstr "Vrijeme polaska"
+
+#: app/JourneyRequestPage.qml:204
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival time"
+msgstr "Vrijeme dolaska"
+
+#: app/JourneyRequestPage.qml:215
+#, kde-format
+msgctxt "filter journeys by mode of transportation etc."
+msgid "Filter"
+msgstr "Filtar"
+
+#: app/JourneyRequestPage.qml:232
+#, kde-format
+msgid "Search Journey"
+msgstr "Pretraži putovanja"
+
+#: app/JourneySectionDelegate.qml:143
+#, kde-format
+msgid "To %1"
+msgstr "Do %1"
+
+#: app/JourneySectionDelegate.qml:147
+#, kde-format
+msgid "Walk (%1)"
+msgstr "Hodanje (%1)"
+
+#: app/JourneySectionDelegate.qml:148
+#, kde-format
+msgid "Walk %1 (%2)"
+msgstr "Hodanje %1 (%2)"
+
+#: app/JourneySectionDelegate.qml:150
+#, kde-format
+msgid "Transfer (%1)"
+msgstr "Presjedanje (%1)"
+
+#: app/JourneySectionDelegate.qml:152
+#, kde-format
+msgid "Wait (%1)"
+msgstr "Čekanje (%1)"
+
+#: app/JourneySectionDelegate.qml:154
+#, kde-format
+msgid "%1 %2 (%3)"
+msgstr "%1 %2 (%3)"
+
+#: app/JourneySectionDelegate.qml:156
+#, kde-format
+msgid "Drive %1 (%2)"
+msgstr "Vožnja %1 (%2)"
+
+#: app/JourneySectionDelegate.qml:255 app/JourneySectionView.qml:120
+#: app/VehicleLayoutPage.qml:177
+#, kde-format
+msgctxt "@action:button"
+msgid "Show More…"
+msgstr "Prikaži više…"
+
+#: app/JourneySectionPage.qml:18
+#, kde-format
+msgid "Journey Details"
+msgstr "Pojedinosti putovanja"
+
+#: app/JourneySectionPage.qml:120 app/LiveStatusPage.qml:378
+#: app/PublicTransportPage.qml:210
+#, kde-format
+msgid "Journey"
+msgstr "Putovanje"
+
+#: app/JourneySectionPage.qml:124 app/PublicTransportPage.qml:215
+#, kde-format
+msgid "Map"
+msgstr "Karta"
+
+#: app/JourneySectionStopDelegate.qml:165
+#, kde-format
+msgid "Show location"
+msgstr "Prikaži lokaciju"
+
+#: app/JourneySectionView.qml:65 app/TimelineDelegateDepartureLayout.qml:82
+#: app/VehicleLayoutPage.qml:79
+#, kde-format
+msgctxt "Direction of the transport mode"
+msgid "To %1"
+msgstr "Do %1"
+
+#: app/JourneySummaryDelegate.qml:62
+#, kde-format
+msgctxt "number of switches to another transport"
+msgid "One change"
+msgid_plural "%1 changes"
+msgstr[0] "%1 promjena"
+msgstr[1] "%1 promjene"
+msgstr[2] "%1 promjena"
+
+#: app/JourneySummaryDelegate.qml:121
+#, kde-format
+msgid "Click to extend"
+msgstr "Kliknite za proširenje"
+
+#: app/livedatamanager.cpp:834
+#, kde-format
+msgid "Itinerary change"
+msgstr "Promjena itinerara"
+
+#: app/LiveStatusPage.qml:21 app/Main.qml:68
+#, kde-format
+msgid "Live Status"
+msgstr "Stanje u stvarnom vremenu"
+
+#: app/LiveStatusPage.qml:57
+#, kde-format
+msgid "Stop Location Sharing"
+msgstr "Zaustavi dijeljenje lokacije"
+
+#: app/LiveStatusPage.qml:57
+#, kde-format
+msgid "Share Location via Matrix"
+msgstr "Podijeli lokaciju putem Matrixa"
+
+#: app/LiveStatusPage.qml:67
+#, kde-format
+msgctxt "map style"
+msgid "Normal map"
+msgstr "Obična karta"
+
+#: app/LiveStatusPage.qml:78
+#, kde-format
+msgctxt "map style"
+msgid "Railway infrastructure map"
+msgstr "Karta željezničke infrastrukture"
+
+#: app/LiveStatusPage.qml:88
+#, kde-format
+msgctxt "map style"
+msgid "Railway signalling map"
+msgstr "Karta željezničke signalizacije"
+
+#: app/LiveStatusPage.qml:98
+#, kde-format
+msgctxt "map style"
+msgid "Railway speed map"
+msgstr "Karta brzine željeznice"
+
+#: app/LiveStatusPage.qml:108
+#, kde-format
+msgctxt "map style"
+msgid "Railway electrification map"
+msgstr "Karta elektrifikacije željeznice"
+
+#: app/LiveStatusPage.qml:118
+#, kde-format
+msgctxt "map style"
+msgid "Railway gauge map"
+msgstr "Karta širine kolosijeka"
+
+#: app/LiveStatusPage.qml:160
+#, kde-format
+msgid "Share Live Location"
+msgstr "Podijeli lokaciju uživo"
+
+#: app/LiveStatusPage.qml:161
+#, kde-format
+msgid ""
+"Do you really want to share your current location to the Matrix channel %1?"
+msgstr "Želite li zaista podijeliti svoju trenutačnu lokaciju u Matrix kanal %1?"
+
+#: app/LiveStatusPage.qml:167
+#, kde-format
+msgid "Share"
+msgstr "Podijeli"
+
+#: app/LiveStatusPage.qml:325
+#, kde-format
+msgid "Automatically follow on the map"
+msgstr "Automatski prati na karti"
+
+#: app/LiveStatusPage.qml:345 app/LiveStatusPage.qml:357
+#, kde-format
+msgid "Waiting for data…"
+msgstr "Čekanje podataka…"
+
+#: app/LiveStatusPage.qml:369
+#, kde-format
+msgid "Position"
+msgstr "Položaj"
+
+#: app/localizer.cpp:182
+#, kde-format
+msgctxt "day-only date format"
+msgid "dd MMMM"
+msgstr "dd. MMMM"
+
+#: app/localizer.cpp:242
+#, kde-format
+msgctxt "weight in gram"
+msgid "%1 g"
+msgstr "%1 g"
+
+#: app/localizer.cpp:245 app/localizer.cpp:247
+#, kde-format
+msgctxt "weight in kilogram"
+msgid "%1 kg"
+msgstr "%1 kg"
+
+#: app/localizer.cpp:262
+#, kde-format
+msgctxt "temperature range"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: app/localizer.cpp:283
+#, kde-format
+msgctxt "altitude in meter"
+msgid "%1m"
+msgstr "%1 m"
+
+#: app/LocationInfoDelegate.qml:52
+#, kde-format
+msgid "Daylight Saving Time"
+msgstr "Ljetno računanje vremena"
+
+#: app/LocationInfoDelegate.qml:52
+#, kde-format
+msgctxt "opposite to daylight saving time"
+msgid "Standard Time"
+msgstr "Zimsko računanje vremena"
+
+#: app/LocationInfoDelegate.qml:53
+#, kde-format
+msgid "Entering %1"
+msgstr "Ulazak u %1"
+
+#: app/LocationInfoDelegate.qml:68
+#, kde-format
+msgid "No compatible power sockets: %1"
+msgstr "Nema kompatibilnih električnih utičnica: %1"
+
+#: app/LocationInfoDelegate.qml:77
+#, kde-format
+msgid "Some incompatible power sockets: %1"
+msgstr "Neke električne utičnice nisu kompatibilne: %1"
+
+#: app/LocationInfoDelegate.qml:85
+#, kde-format
+msgid "Some incompatible power plugs: %1"
+msgstr "Neki utikači nisu kompatibilni: %1"
+
+#: app/LocationInfoDelegate.qml:93
+#, kde-format
+msgid "Timezone change: %1 (%2)"
+msgstr "Promjena vremenske zone: %1 (%2)"
+
+#: app/LocationInfoDelegate.qml:115
+#, kde-format
+msgctxt "currency conversion rate"
+msgid "Currency: %1 = %2"
+msgstr "Valuta: %1 = %2"
+
+#: app/LocationInfoDelegate.qml:126
+#, kde-format
+msgid ""
+"Leaving the EU roaming regulation area. Check your mobile data settings."
+msgstr "Napustili ste područje primjene propisa EU-a o roamingu. Provjerite postavke mobilnih podataka."
+
+#: app/locationinformation.cpp:128
+#, kde-format
+msgid "People are driving on the right side."
+msgstr "U ovoj se državi vozi desnom stranom."
+
+#: app/locationinformation.cpp:130
+#, kde-format
+msgid "People are driving on the left side."
+msgstr "U ovoj se državi vozi lijevom stranom."
+
+#: app/locationinformation.cpp:148
+msgid "Type A"
+msgstr "Vrsta A"
+
+#: app/locationinformation.cpp:149
+msgid "Type B"
+msgstr "Vrsta B"
+
+#: app/locationinformation.cpp:150
+msgid "Europlug"
+msgstr "Europski utikač"
+
+#: app/locationinformation.cpp:151
+msgid "Type D"
+msgstr "Vrsta D"
+
+#: app/locationinformation.cpp:152
+msgid "Type E"
+msgstr "Vrsta E"
+
+#: app/locationinformation.cpp:153
+msgid "Schuko"
+msgstr "Schuko"
+
+#: app/locationinformation.cpp:154
+msgid "Type G"
+msgstr "Vrsta G"
+
+#: app/locationinformation.cpp:155
+msgid "Type H"
+msgstr "Vrsta H"
+
+#: app/locationinformation.cpp:156
+msgid "Type I"
+msgstr "Vrsta I"
+
+#: app/locationinformation.cpp:157
+msgid "Type J"
+msgstr "Vrsta J"
+
+#: app/locationinformation.cpp:158
+msgid "Type K"
+msgstr "Vrsta K"
+
+#: app/locationinformation.cpp:159
+msgid "Type L"
+msgstr "Vrsta L"
+
+#: app/locationinformation.cpp:160
+msgid "Type M"
+msgstr "Vrsta M"
+
+#: app/locationinformation.cpp:161
+msgid "Type N"
+msgstr "Vrsta N"
+
+#: app/main.cpp:221
+#, kde-format
+msgid "Digital Travel Assistant"
+msgstr "Digitalni pomoćnik za putovanja"
+
+#: app/main.cpp:222
+#, kde-format
+msgid "Copyright © The KDE Community"
+msgstr "Autorska prava © KDE zajednica"
+
+#: app/main.cpp:224
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikidata"
+msgstr "Wikidata"
+
+#: app/main.cpp:224
+#, kde-format
+msgctxt "@info:credit"
+msgid ""
+"Provides various metadata like train station names, driving side, and power "
+"plug types."
+msgstr "Pruža razne metapodatke, primjerice nazive željezničkih kolodvora, stranu vožnje i vrste električnih utikača."
+
+#: app/main.cpp:225
+#, kde-format
+msgctxt "@info:credit"
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: app/main.cpp:225
+#, kde-format
+msgctxt "@info:credit"
+msgid "Provides both indoor and outdoor maps. ©OpenStreetMap contributors"
+msgstr "Pruža karte unutrašnjosti i vanjskog prostora. © OpenStreetMap contributors"
+
+#: app/main.cpp:226
+#, kde-format
+msgctxt "@info:credit"
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+#: app/main.cpp:226
+#, kde-format
+msgctxt "@info:credit"
+msgid "Secure network interaction with TLS. © 1998-2018 The OpenSSL Project"
+msgstr "Sigurna mrežna komunikacija putem TLS-a. © 1998.–2018. The OpenSSL Project"
+
+#: app/main.cpp:227
+#, kde-format
+msgctxt "@info:credit"
+msgid "ZXing"
+msgstr "ZXing"
+
+#: app/main.cpp:227
+#, kde-format
+msgctxt "@info:credit"
+msgid "QR-Code scanning. © 2016 ZXing Authors, © 2016 Nu-book Inc."
+msgstr "Skeniranje QR kodova. © 2016. autori ZXinga, © 2016. Nu-book Inc."
+
+#: app/main.cpp:228
+#, kde-format
+msgctxt "@info:credit"
+msgid "Poppler"
+msgstr "Poppler"
+
+#: app/main.cpp:228
+#, kde-format
+msgctxt "@info:credit"
+msgid "PDF parsing"
+msgstr "Obrada PDF-a"
+
+#: app/main.cpp:231
+#, kde-format
+msgctxt "@info:credit"
+msgid "MapLibre Native Qt"
+msgstr "MapLibre Native Qt"
+
+#: app/main.cpp:231 app/main.cpp:232
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright © MapLibre contributors."
+msgstr "Autorska prava © suradnici projekta MapLibre."
+
+#: app/main.cpp:232
+#, kde-format
+msgctxt "@info:credit"
+msgid "MapLibre Native"
+msgstr "MapLibre Native"
+
+#: app/main.cpp:236
+#, kde-format
+msgctxt "@info:credit"
+msgid "FreeType"
+msgstr "FreeType"
+
+#: app/main.cpp:236
+#, kde-format
+msgctxt "@info:credit"
+msgid ""
+"Copyright (C) 2006-2020 by David Turner, Robert Wilhelm, and Werner Lemberg."
+msgstr "Autorska prava (C) 2006.–2020. David Turner, Robert Wilhelm i Werner Lemberg."
+
+#: app/main.cpp:237
+#, kde-format
+msgctxt "@info:credit"
+msgid "libintl lite"
+msgstr "libintl lite"
+
+#: app/main.cpp:237
+#, kde-format
+msgctxt "@info:credit"
+msgid "Internalisation"
+msgstr "Internacionalizacija"
+
+#: app/main.cpp:240
+#, kde-format
+msgctxt "@info:credit"
+msgid "libqrencode"
+msgstr "libqrencode"
+
+#: app/main.cpp:240
+#, kde-format
+msgctxt "@info:credit"
+msgid "QR-Code Generation. © 2006-2018 Kentaro Fukuchi"
+msgstr "Generiranje QR kodova. © 2006.–2018. Kentaro Fukuchi"
+
+#: app/main.cpp:241
+#, kde-format
+msgctxt "@info:credit"
+msgid "libical"
+msgstr "libical"
+
+#: app/main.cpp:241
+#, kde-format
+msgctxt "@info:credit"
+msgid "© The libical developers"
+msgstr "© Razvojni tim libical"
+
+#: app/main.cpp:242
+#, kde-format
+msgctxt "@info:credit"
+msgid "libxml2"
+msgstr "libxml2"
+
+#: app/main.cpp:242
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright (C) 1998-2012 Daniel Veillard"
+msgstr "Autorska prava (C) 1998.–2012. Daniel Veillard"
+
+#: app/main.cpp:245
+#, kde-format
+msgctxt "@info:credit"
+msgid "libQuotient"
+msgstr "libQuotient"
+
+#: app/main.cpp:245
+#, kde-format
+msgctxt "@info:credit"
+msgid "Matrix integration."
+msgstr "Integracija s Matrixom."
+
+#: app/main.cpp:246
+#, kde-format
+msgctxt "@info:credit"
+msgid "QtKeychain"
+msgstr "QtKeychain"
+
+#: app/main.cpp:246
+#, kde-format
+msgctxt "@info:credit"
+msgid "Secure password storage."
+msgstr "Sigurna pohrana lozinki."
+
+#: app/main.cpp:247
+#, kde-format
+msgctxt "@info:credit"
+msgid "Olm"
+msgstr "Olm"
+
+#: app/main.cpp:247
+#, kde-format
+msgctxt "@info:credit"
+msgid "Matrix crypto library."
+msgstr "Kriptografska biblioteka za Matrix."
+
+#: app/main.cpp:255
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Itinerary on the given page"
+msgstr "Otvori Itinerary na zadanoj stranici"
+
+#: app/main.cpp:261
+#, kde-format
+msgctxt "@info:shell"
+msgid "Files or URLs to import."
+msgstr "Datoteke ili URL-ovi za uvoz."
+
+#: app/Main.qml:76 app/WelcomePage.qml:53
+#, kde-format
+msgid "Settings…"
+msgstr "Postavke…"
+
+#: app/Main.qml:83
+#, kde-format
+msgid "Help"
+msgstr "Pomoć"
+
+#: app/Main.qml:89 app/WhatsNewDialog.qml:16
+#, kde-format
+msgid "What's new"
+msgstr "Novosti"
+
+#: app/Main.qml:166
+#, kde-format
+msgctxt "@info:status"
+msgid "No onboard information available."
+msgstr "Nema dostupnih informacija iz vozila."
+
+#: app/Main.qml:207
+#, kde-format
+msgid "Map download finished."
+msgstr "Preuzimanje karte dovršeno."
+
+#: app/Main.qml:280
+#, kde-format
+msgctxt "@title:window"
+msgid "Matrix Session Verification"
+msgstr "Provjera Matrix sesije"
+
+#: app/MapStopoverInfoSheetDrawer.qml:85
+#, kde-format
+msgid "Occupancy"
+msgstr "Popunjenost"
+
+#: app/MapStopoverInfoSheetDrawer.qml:112
+#: app/StopoverDetailsPage.qml:124
+#, kde-format
+msgid "Information"
+msgstr "Informacije"
+
+#: app/MapStopoverInfoSheetDrawer.qml:131
+#, kde-format
+msgid "Show indoor map"
+msgstr "Prikaži kartu unutrašnjosti"
+
+#: app/MatrixKeyVerificationPage.qml:12
+#, kde-format
+msgid "Matrix Session Verification"
+msgstr "Provjera Matrix sesije"
+
+#: app/MatrixKeyVerificationPage.qml:41
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Waiting for device to accept verification."
+msgstr "Čeka se da uređaj prihvati provjeru."
+
+#: app/MatrixKeyVerificationPage.qml:43
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Incoming key verification request from device <b>%1</b>"
+msgstr "Dolazni zahtjev za provjeru ključa s uređaja <b>%1</b>"
+
+#: app/MatrixKeyVerificationPage.qml:45
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Waiting for other party to verify."
+msgstr "Čeka se da druga strana potvrdi."
+
+#: app/MatrixKeyVerificationPage.qml:47
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Successfully verified device <b>%1</b>"
+msgstr "Uređaj <b>%1</b> uspješno je potvrđen."
+
+#: app/MatrixKeyVerificationPage.qml:52
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled for unknown reason."
+msgstr "Provjera sesije otkazana je iz nepoznatog razloga."
+
+#: app/MatrixKeyVerificationPage.qml:54
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification timed out."
+msgstr "Isteklo je vrijeme za provjeru sesije."
+
+#: app/MatrixKeyVerificationPage.qml:56
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification timed out for remote party."
+msgstr "Drugoj strani isteklo je vrijeme za provjeru sesije."
+
+#: app/MatrixKeyVerificationPage.qml:58
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "You canceled the session verification."
+msgstr "Otkazali ste provjeru sesije."
+
+#: app/MatrixKeyVerificationPage.qml:60
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The remote party canceled the session verification."
+msgstr "Druga strana otkazala je provjeru sesije."
+
+#: app/MatrixKeyVerificationPage.qml:62
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because we received an unexpected "
+"message."
+msgstr "Provjera sesije otkazana je jer je primljena neočekivana poruka."
+
+#: app/MatrixKeyVerificationPage.qml:64
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received an "
+"unexpected message."
+msgstr "Druga strana otkazala je provjeru sesije jer je primila neočekivanu poruku."
+
+#: app/MatrixKeyVerificationPage.qml:66
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because it received a message for an "
+"unknown session."
+msgstr "Provjera sesije otkazana je jer je primljena poruka za nepoznatu sesiju."
+
+#: app/MatrixKeyVerificationPage.qml:68
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received a "
+"message for an unknown session."
+msgstr "Druga strana otkazala je provjeru sesije jer je primila poruku za nepoznatu sesiju."
+
+#: app/MatrixKeyVerificationPage.qml:70
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because NeoChat is unable to handle "
+"this verification method."
+msgstr "Provjera sesije otkazana je jer NeoChat ne može obraditi ovu metodu provjere."
+
+#: app/MatrixKeyVerificationPage.qml:72
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it is unable to "
+"handle this verification method."
+msgstr "Druga strana otkazala je provjeru sesije jer ne može obraditi ovu metodu provjere."
+
+#: app/MatrixKeyVerificationPage.qml:74
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because the keys are incorrect."
+msgstr "Provjera sesije otkazana je jer su ključevi netočni."
+
+#: app/MatrixKeyVerificationPage.qml:76
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because the keys are "
+"incorrect.\n"
+"\n"
+"<b>Please log out and log back in, your session is broken/corrupt.</b>"
+msgstr "remote party otkazan  session verification because  keys su incorrect.
+
+<b>Please log out i log back u, your session je broken/corrupt.</b>"
+
+#: app/MatrixKeyVerificationPage.qml:78
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because it verifies an unexpected user."
+msgstr "Provjera sesije otkazana je jer se potvrđuje neočekivani korisnik."
+
+#: app/MatrixKeyVerificationPage.qml:80
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it verifies an "
+"unexpected user."
+msgstr "Druga strana otkazala je provjeru sesije jer se potvrđuje neočekivani korisnik."
+
+#: app/MatrixKeyVerificationPage.qml:82
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The session verification was canceled because we received an invalid message."
+msgstr "Provjera sesije otkazana je jer je primljena nevaljana poruka."
+
+#: app/MatrixKeyVerificationPage.qml:84
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because it received an "
+"invalid message."
+msgstr "Druga strana otkazala je provjeru sesije jer je primila nevaljanu poruku."
+
+#: app/MatrixKeyVerificationPage.qml:87
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session was accepted on a different device"
+msgstr "Sesija je prihvaćena na drugom uređaju"
+
+#: app/MatrixKeyVerificationPage.qml:89
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because of a mismatched key."
+msgstr "Provjera sesije otkazana je zbog nepodudarnog ključa."
+
+#: app/MatrixKeyVerificationPage.qml:91
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because of a mismatched "
+"key."
+msgstr "Druga strana otkazala je provjeru sesije zbog nepodudarnog ključa."
+
+#: app/MatrixKeyVerificationPage.qml:93
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled because the keys do not match."
+msgstr "Provjera sesije otkazana je jer se ključevi ne podudaraju."
+
+#: app/MatrixKeyVerificationPage.qml:95
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"The remote party canceled the session verification because the keys do not "
+"match."
+msgstr "Druga strana otkazala je provjeru sesije jer se ključevi ne podudaraju."
+
+#: app/MatrixKeyVerificationPage.qml:97
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "The session verification was canceled due to an unknown error."
+msgstr "Provjera sesije otkazana je zbog nepoznate pogreške."
+
+#: app/MatrixKeyVerificationPage.qml:114
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Emoji Verification"
+msgstr "Provjera emojijima"
+
+#: app/MatrixKeyVerificationPage.qml:117
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Compare a set of emoji on both devices."
+msgstr "Usporedite skup emojija na oba uređaja."
+
+#: app/MatrixKeyVerificationPage.qml:128
+#, kde-format
+msgctxt "Matrix session verification"
+msgid ""
+"Confirm the emoji below are displayed on both devices, in the same order."
+msgstr "Potvrdite da su emojiji u nastavku prikazani na oba uređaja istim redoslijedom."
+
+#: app/MatrixKeyVerificationPage.qml:165
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "They match"
+msgstr "Podudaraju se"
+
+#: app/MatrixKeyVerificationPage.qml:171
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "They don't match"
+msgstr "Ne podudaraju se"
+
+#: app/MatrixKeyVerificationPage.qml:207
+#, kde-format
+msgid "Accept"
+msgstr "Prihvati"
+
+#: app/MatrixKeyVerificationPage.qml:213
+#, kde-format
+msgid "Decline"
+msgstr "Odbij"
+
+#: app/MatrixRoomSelectionSheet.qml:20
+#, kde-format
+msgid "Share location…"
+msgstr "Podijeli lokaciju…"
+
+#: app/MatrixRoomSelectionSheet.qml:38
+#, kde-format
+msgctxt "matrix room type"
+msgid "Invited"
+msgstr "Pozvano"
+
+#: app/MatrixRoomSelectionSheet.qml:39
+#, kde-format
+msgctxt "matrix room type"
+msgid "Favorite Rooms"
+msgstr "Omiljene sobe"
+
+#: app/MatrixRoomSelectionSheet.qml:40
+#, kde-format
+msgctxt "matrix room type"
+msgid "Direct Messages"
+msgstr "Izravne poruke"
+
+#: app/MatrixRoomSelectionSheet.qml:41
+#, kde-format
+msgctxt "matrix room type"
+msgid "Rooms"
+msgstr "Sobe"
+
+#: app/MatrixRoomSelectionSheet.qml:42
+#, kde-format
+msgctxt "matrix room type"
+msgid "Low Priority"
+msgstr "Nizak prioritet"
+
+#: app/MatrixRoomSelectionSheet.qml:43
+#, kde-format
+msgctxt "matrix room type"
+msgid "Spaces"
+msgstr "Prostori"
+
+#: app/MyDataPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "My Data"
+msgstr "Moji podaci"
+
+#: app/MyDataPage.qml:27
+#, kde-format
+msgctxt "@title"
+msgid "Passes and Programs"
+msgstr "Propusnice i programi"
+
+#: app/MyDataPage.qml:34
+#, kde-format
+msgid "No valid bonus or discount program cards or flat rate passes found."
+msgstr "Nije pronađena nijedna valjana kartica bonusnog ili popustnog programa ni paušalna propusnica."
+
+#: app/MyDataPage.qml:52
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage your Passes"
+msgstr "Upravljaj propusnicama"
+
+#: app/MyDataPage.qml:59
+#, kde-format
+msgctxt "@title"
+msgid "Health Certificates"
+msgstr "Zdravstvene potvrde"
+
+#: app/MyDataPage.qml:69
+#, kde-format
+msgid "No valid health certificate found."
+msgstr "Nije pronađena nijedna valjana zdravstvena potvrda."
+
+#: app/MyDataPage.qml:100
+#, kde-format
+msgctxt "@action:button"
+msgid "Manage your health certificates"
+msgstr "Upravljaj zdravstvenim potvrdama"
+
+#: app/MyDataPage.qml:108
+#, kde-format
+msgctxt "@title:group"
+msgid "Saved Locations"
+msgstr "Spremljene lokacije"
+
+#: app/MyDataPage.qml:113 app/WelcomePage.qml:24
+#, kde-format
+msgid "Home Country"
+msgstr "Matična država"
+
+#: app/MyDataPage.qml:131 app/StatisticsPage.qml:16 app/StopoverInformationSheet.qml:56
+#: app/TripGroupPage.qml:647
+#, kde-format
+msgid "Statistics"
+msgstr "Statistika"
+
+#: app/MyDataPage.qml:181
+#, kde-format
+msgctxt "@action:button"
+msgid "See all Statistics"
+msgstr "Prikaži svu statistiku"
+
+#: app/MyDataPage.qml:191
+#, kde-format
+msgctxt "@title:group"
+msgid "Data Portability"
+msgstr "Prenosivost podataka"
+
+#: app/MyDataPage.qml:196 app/PassPage.qml:27 app/TripGroupsPage.qml:19
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "Uvezi"
+
+#: app/MyDataPage.qml:202
+#, kde-format
+msgid "Import Backup"
+msgstr "Uvezi sigurnosnu kopiju"
+
+#: app/MyDataPage.qml:216
+#, kde-format
+msgctxt "@action:button"
+msgid "Export"
+msgstr "Izvezi"
+
+#: app/MyDataPage.qml:227
+#, kde-format
+msgid "Export Itinerary Data"
+msgstr "Izvezi podatke aplikacije Itinerary"
+
+#: app/NavigationBar.qml:18
+#, kde-format
+msgctxt "@title:tab This isn't the app name, but the English noun"
+msgid "Itinerary"
+msgstr "Itinerary"
+
+#: app/NavigationBar.qml:24
+#, kde-format
+msgctxt "@title:tab"
+msgid "Plan Trip"
+msgstr "Isplaniraj putovanje"
+
+#: app/NavigationBar.qml:42
+#, kde-format
+msgctxt "@title:tab"
+msgid "My Data"
+msgstr "Moji podaci"
+
+#: app/NavigationBar.qml:47
+#, kde-format
+msgctxt "@title:tab"
+msgid "Current Ticket"
+msgstr "Trenutačna karta"
+
+#: app/notificationhelper.cpp:59
+#, kde-format
+msgid "Disruption on %1"
+msgstr "Poremećaj u prometu na %1"
+
+#: app/notificationhelper.cpp:67
+#, kde-format
+msgid "Changes on %1"
+msgstr "Promjene na %1"
+
+#: app/notificationhelper.cpp:71
+#, kde-format
+msgid "Delays on %1"
+msgstr "Kašnjenja na %1"
+
+#: app/notificationhelper.cpp:74
+#, kde-format
+msgid "Delayed departure on %1"
+msgstr "Kašnjenje polaska na %1"
+
+#: app/notificationhelper.cpp:77
+#, kde-format
+msgid "Earlier departure on %1"
+msgstr "Raniji polazak na %1"
+
+#: app/notificationhelper.cpp:80
+#, kde-format
+msgid "Delayed arrival on %1"
+msgstr "Kašnjenje dolaska na %1"
+
+#: app/notificationhelper.cpp:84
+#, kde-format
+msgid "Platform change on %1"
+msgstr "Promjena perona na %1"
+
+#: app/notificationhelper.cpp:94
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Trip has been canceled."
+msgstr "Putovanje je otkazano."
+
+#: app/notificationhelper.cpp:96
+#, kde-format
+msgctxt "a train/bus journey canceled by its operator"
+msgid "Arrival has been canceled."
+msgstr "Dolazak je otkazan."
+
+#: app/notificationhelper.cpp:101
+#, kde-format
+msgid "New departure time is: %1 (+%2)"
+msgstr "Novo vrijeme polaska: %1 (+%2)"
+
+#: app/notificationhelper.cpp:104
+#, kde-format
+msgid "New departure time is: %1 (%2)"
+msgstr "Novo vrijeme polaska: %1 (%2)"
+
+#: app/notificationhelper.cpp:108
+#, kde-format
+msgid "New arrival time is: %1 (+%2)"
+msgstr "Novo vrijeme dolaska: %1 (+%2)"
+
+#: app/notificationhelper.cpp:112
+#, kde-format
+msgid "New departure platform is: %1"
+msgstr "Novi polazni peron: %1"
+
+#: app/notificationhelper.cpp:115
+#, kde-format
+msgid "New arrival platform is: %1"
+msgstr "Novi dolazni peron: %1"
+
+#: app/onlineimport/db.qml:28 app/onlineimport/sncf.qml:28
+#, kde-format
+msgid "Family name"
+msgstr "Prezime"
+
+#: app/onlineimport/db.qml:33
+#, kde-format
+msgid "Name is case-sensitive."
+msgstr "Razlikuju se velika i mala slova u imenu."
+
+#: app/onlineimport/db.qml:40
+#, kde-format
+msgid "Order number or booking reference"
+msgstr "Broj narudžbe ili referenca rezervacije"
+
+#: app/onlineimport/sncf.qml:38
+#, kde-format
+msgid "Booking reference"
+msgstr "Referenca rezervacije"
+
+#: app/OnlineImportPage.qml:16
+#, kde-format
+msgid "Import Online Ticket"
+msgstr "Uvezi internetsku kartu"
+
+#: app/OnlineImportPage.qml:30
+#, kde-format
+msgid "No ticket found"
+msgstr "Nije pronađena nijedna karta"
+
+#: app/OnlineImportPage.qml:35
+#, kde-format
+msgid "Online Ticket"
+msgstr "Internetska karta"
+
+#: app/OnlineImportPage.qml:54
+#, kde-format
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: app/PassDelegate.qml:36
+#, kde-format
+msgctxt "name - number"
+msgid "%1 - %2"
+msgstr "%1 – %2"
+
+#: app/PassDelegate.qml:44
+#, kde-format
+msgctxt "name - valid time range"
+msgid "%1 - %2"
+msgstr "%1 – %2"
+
+#: app/passmanager.cpp:289
+#, kde-format
+msgctxt "%1 and %2 are dates"
+msgid "%1 - %2"
+msgstr "%1 – %2"
+
+#: app/PassPage.qml:19
+#, kde-format
+msgid "Passes and Programs"
+msgstr "Propusnice i programi"
+
+#: app/PassPage.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Add Program Membership"
+msgstr "Dodaj članstvo u program"
+
+#: app/PassPage.qml:43 app/TripGroupsPage.qml:116
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Import"
+msgstr "Uvezi"
+
+#: app/PassPage.qml:55
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Manually"
+msgstr "Dodaj ručno"
+
+#: app/PassPage.qml:69
+#, kde-format
+msgctxt "not yet expired tickets"
+msgid "Valid"
+msgstr "Valjano"
+
+#: app/PassPage.qml:90
+#, kde-format
+msgctxt "not yet valid tickets"
+msgid "Future"
+msgstr "Buduće"
+
+#: app/PassPage.qml:112
+#, kde-format
+msgctxt "no longer valid tickets"
+msgid "Expired"
+msgstr "Isteklo"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:29
+#, kde-format
+msgctxt "seat reservation"
+msgid "Aisle"
+msgstr "Prolaz"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:37
+#, kde-format
+msgctxt "seat reservation"
+msgid "Section"
+msgstr "Odjeljak"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:45
+#, kde-format
+msgctxt "seat reservation"
+msgid "Row"
+msgstr "Row"
+
+#: app/pkpass/PosterEventTicketSeatRow.qml:53
+#, kde-format
+msgctxt "seat reservation"
+msgid "Seat"
+msgstr "Sjedalo"
+
+#: app/PkPassPage.qml:20
+#, kde-format
+msgid "Boarding Pass"
+msgstr "Ukrcajna propusnica"
+
+#: app/PkPassPage.qml:21
+#, kde-format
+msgid "Event Ticket"
+msgstr "Ulaznica za događaj"
+
+#: app/PkPassPage.qml:22
+#, kde-format
+msgid "Pass"
+msgstr "Propusnica"
+
+#: app/ProgramMembershipCard.qml:22 app/ProgramMembershipEditorCard.qml:33
+#, kde-format
+msgctxt "bonus, discount or frequent traveler program"
+msgid "Program"
+msgstr "Program"
+
+#: app/ProgramMembershipCard.qml:40 app/ProgramMembershipEditor.qml:90
+#: app/ProgramMembershipEditorCard.qml:61
+#: app/ProgramMembershipPage.qml:104 app/TicketPage.qml:115
+#, kde-format
+msgid "Number"
+msgstr "Broj"
+
+#: app/ProgramMembershipCard.qml:50 app/ProgramMembershipPage.qml:114
+#, kde-format
+msgid "Program membership number copied to clipboard"
+msgstr "Broj članstva u programu kopiran je u međuspremnik."
+
+#: app/ProgramMembershipCard.qml:63
+#, kde-format
+msgid "Show program pass"
+msgstr "Prikaži programsku propusnicu"
+
+#: app/ProgramMembershipEditor.qml:24
+#, kde-format
+msgid "Edit Program Membership"
+msgstr "Uredi članstvo u programu"
+
+#: app/ProgramMembershipEditor.qml:34 app/TicketEditor.qml:27
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: app/ProgramMembershipEditor.qml:62
+#, kde-format
+msgid "Program"
+msgstr "Program"
+
+#: app/ProgramMembershipEditor.qml:73
+#, kde-format
+msgid "Program name must not be empty."
+msgstr "Naziv programa ne smije biti prazan."
+
+#: app/ProgramMembershipEditor.qml:78 app/ProgramMembershipPage.qml:90
+#, kde-format
+msgid "Membership"
+msgstr "Članstvo"
+
+#: app/ProgramMembershipEditor.qml:84 app/ProgramMembershipPage.qml:95
+#, kde-format
+msgid "Member"
+msgstr "Član"
+
+#: app/ProgramMembershipEditor.qml:124
+#, kde-format
+msgid "Valid until time has to be after the valid from time."
+msgstr "Vrijeme završetka valjanosti mora biti nakon početka valjanosti."
+
+#: app/ProgramMembershipEditor.qml:134
+#, kde-format
+msgid "Barcode"
+msgstr "Crtični kod"
+
+#: app/ProgramMembershipPage.qml:17
+#, kde-format
+msgid "Program Membership"
+msgstr "Članstvo u programu"
+
+#: app/ProgramMembershipPage.qml:56
+#, kde-format
+msgid "Export Program Membership"
+msgstr "Izvezi članstvo u programu"
+
+#: app/ProgramMembershipPage.qml:155
+#, kde-format
+msgid "Show Pass"
+msgstr "Prikaži propusnicu"
+
+#: app/PublicTransportPage.qml:206 app/TicketEditor.qml:58
+#: app/TicketPage.qml:18 app/TicketPage.qml:92
+#, kde-format
+msgid "Ticket"
+msgstr "Karta"
+
+#: app/ReservationDeletionDialog.qml:30
+#, kde-format
+msgid "Delete Selected"
+msgstr "Izbriši odabrano"
+
+#: app/ReservationDeletionDialog.qml:42
+#, kde-format
+msgid "Delete All"
+msgstr "Izbriši sve"
+
+#: app/ReservationDocumentsCard.qml:19
+#, kde-format
+msgid "Documents and Tickets"
+msgstr "Dokumenti i karte"
+
+#: app/reservationhelper.cpp:137
+#, kde-format
+msgid "Flight from %1 to %2"
+msgstr "let iz %1 u %2"
+
+#: app/reservationhelper.cpp:140
+#, kde-format
+msgid "Train from %1 to %2"
+msgstr "vlak iz %1 u %2"
+
+#: app/reservationhelper.cpp:143
+#, kde-format
+msgid "Bus from %1 to %2"
+msgstr "autobus iz %1 u %2"
+
+#: app/RestaurantEditor.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "New Restaurant"
+msgstr "Novi restoran"
+
+#: app/RestaurantEditor.qml:19
+#, kde-format
+msgctxt "@title"
+msgid "Edit Restaurant"
+msgstr "Uredi restoran"
+
+#: app/RestaurantEditor.qml:47 app/RestaurantEditor.qml:65
+#, kde-format
+msgid "Restaurant"
+msgstr "Restoran"
+
+#: app/RestaurantEditor.qml:72
+#, kde-format
+msgctxt "restaurant name"
+msgid "Name"
+msgstr "Naziv"
+
+#: app/RestaurantEditor.qml:91
+#, kde-format
+msgctxt "@title:group"
+msgid "Reservation"
+msgstr "Rezervacija"
+
+#: app/RestaurantPage.qml:16
+#, kde-format
+msgid "Restaurant Reservation"
+msgstr "Rezervacija restorana"
+
+#: app/RestaurantPage.qml:32
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: app/RestaurantPage.qml:44
+#, kde-format
+msgid "Start time"
+msgstr "Vrijeme početka"
+
+#: app/RestaurantPage.qml:52
+#, kde-format
+msgid "End time"
+msgstr "Vrijeme završetka"
+
+#: app/RestaurantPage.qml:60
+#, kde-format
+msgid "Party size"
+msgstr "Broj osoba"
+
+#: app/ScamWarningFormDelegate.qml:21
+#, kde-format
+msgid "This airport might not be quite where its name suggests it is."
+msgstr "Ova se zračna luka možda ne nalazi ondje gdje bi se prema nazivu očekivalo."
+
+#: app/ScamWarningFormDelegate.qml:23
+#, kde-format
+msgid "This port might not be quite where its name suggests it is."
+msgstr "Ova se luka možda ne nalazi ondje gdje bi se prema nazivu očekivalo."
+
+#: app/ScamWarningFormDelegate.qml:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Ignore warning"
+msgstr "Zanemari upozorenje"
+
+#: app/ScamWarningFormDelegate.qml:50
+#, kde-format
+msgid "Ignore Warning"
+msgstr "Zanemari upozorenje"
+
+#: app/ScamWarningFormDelegate.qml:51
+#, kde-format
+msgid "Do you want to ignore the warning permanently or for this trip only?"
+msgstr "Želite li trajno zanemariti upozorenje ili samo za ovo putovanje?"
+
+#: app/ScamWarningFormDelegate.qml:54
+#, kde-format
+msgid "Ignore permanently"
+msgstr "Zanemari trajno"
+
+#: app/ScamWarningFormDelegate.qml:63
+#, kde-format
+msgid "Ignore for this trip"
+msgstr "Zanemari za ovo putovanje"
+
+#: app/SettingsPage.qml:20
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#: app/SettingsPage.qml:31
+#, kde-format
+msgid "Localization"
+msgstr "Lokalizacija"
+
+#: app/SettingsPage.qml:40
+#, kde-format
+msgid "Use metric units"
+msgstr "Upotrebljavaj metričke jedinice"
+
+#: app/SettingsPage.qml:41
+#, kde-format
+msgid ""
+"Use metric units for distance and temperature values regardless of the "
+"platform region settings."
+msgstr "Upotrebljavaj metričke jedinice za udaljenost i temperaturu bez obzira na regionalne postavke platforme."
+
+#: app/SettingsPage.qml:50
+#, kde-format
+msgid "Online Services"
+msgstr "Mrežne usluge"
+
+#: app/SettingsPage.qml:54
+#, kde-format
+msgid "Query Traffic Data"
+msgstr "Dohvaćaj prometne podatke"
+
+#: app/SettingsPage.qml:57
+#, kde-format
+msgid ""
+"When enabled, this will query transport provider online services for changes "
+"such as delays or gate and platform changes."
+msgstr "Ako je uključeno, provjeravat će se mrežne usluge prijevozničkih tvrtki radi promjena kao što su kašnjenja te promjene izlaza ili perona."
+
+#: app/SettingsPage.qml:63
+#, kde-format
+msgid "Use insecure services"
+msgstr "Upotrebljavaj nesigurne usluge"
+
+#: app/SettingsPage.qml:66
+#, kde-format
+msgid ""
+"Enabling this will also use online services that do not offer transport "
+"encryption. This is not recommended, but might be unavoidable when relying "
+"on live data from certain providers."
+msgstr "Uključivanjem ove mogućnosti upotrebljavat će se i mrežne usluge koje ne nude šifriranje prijenosa. To se ne preporučuje, no može biti neizbježno pri uporabi podataka uživo određenih pružatelja."
+
+#: app/SettingsPage.qml:74
+#, kde-format
+msgid "Public Transport Information Sources…"
+msgstr "Izvori informacija o javnom prijevozu…"
+
+#: app/SettingsPage.qml:83 app/WeatherForecastDelegate.qml:81
+#: app/WeatherForecastPage.qml:20
+#, kde-format
+msgid "Weather Forecast"
+msgstr "Vremenska prognoza"
+
+#: app/SettingsPage.qml:86
+#, kde-format
+msgid "Showing weather forecasts will query online services."
+msgstr "Prikaz vremenske prognoze dohvaća podatke putem mrežnih usluga."
+
+#: app/SettingsPage.qml:91 app/WeatherForecastPage.qml:37
+#, kde-format
+msgid ""
+"Using data from <a href=\"https://www.met.no/\">The Norwegian Meteorological "
+"Institute</a> under <a href=\"https://creativecommons.org/licenses/"
+"by/4.0\">Creative Commons 4.0 BY International</a> license."
+msgstr "pomoću podaci iz < href=\"https://www.met.nema/\"> Norwegian Meteorological Institute</> under < href=\"https://creativecommons.org/licenses/od/4.0\">Creative Commons 4.0 od International</> license."
+
+#: app/SettingsPage.qml:100
+#, kde-format
+msgid "Preload Map Data"
+msgstr "Unaprijed učitaj podatke karte"
+
+#: app/SettingsPage.qml:103
+#, kde-format
+msgid ""
+"Enabling this will download maps for all stations and airports for upcoming "
+"trips when connected to Wifi network."
+msgstr "Ako je uključeno, karte svih kolodvora i zračnih luka za buduća putovanja preuzet će se pri povezivanju s Wi-Fi mrežom."
+
+#: app/SettingsPage.qml:110
+#, kde-format
+msgid "Currency Conversion"
+msgstr "Pretvorba valuta"
+
+#: app/SettingsPage.qml:118
+#, kde-format
+msgid ""
+"Enabling this will perform online queries for exchange rates to currencies "
+"at travel destinations."
+msgstr "Ako je uključeno, putem mreže dohvaćat će se tečajevi valuta na odredištima putovanja."
+
+#: app/SettingsPage.qml:124
+#, kde-format
+msgid "Wikimedia Online Content"
+msgstr "Mrežni sadržaj Wikimedije"
+
+#: app/SettingsPage.qml:127
+#, kde-format
+msgid "Use additional online content from Wikimedia and Wikidata."
+msgstr "Upotrebljavaj dodatni mrežni sadržaj s Wikimedije i Wikidata."
+
+#: app/SettingsPage.qml:134
+#, kde-format
+msgid "Transfer Assistant"
+msgstr "Pomoćnik za presjedanje"
+
+#: app/SettingsPage.qml:138
+#, kde-format
+msgid "Automatically add transfers"
+msgstr "Automatski dodaj presjedanja"
+
+#: app/SettingsPage.qml:146
+#, kde-format
+msgid "Automatically fill transfers"
+msgstr "Automatski popuni presjedanja"
+
+#: app/SettingsPage.qml:147
+#, kde-format
+msgid ""
+"When enabled, this will query transport provider online services "
+"automatically for transfer information."
+msgstr "Ako je uključeno, informacije o presjedanjima automatski će se dohvaćati s mrežnih usluga prijevoznika."
+
+#: app/SettingsPage.qml:158
+#, kde-format
+msgid "Notifications"
+msgstr "Obavijesti"
+
+#: app/SettingsPage.qml:163
+#, kde-format
+msgid "Configure Notifications…"
+msgstr "Konfiguriraj obavijesti…"
+
+#: app/SettingsPage.qml:172
+#, kde-format
+msgid "Show notifications on lock screen"
+msgstr "Prikaži obavijesti na zaključanom zaslonu"
+
+#: app/SettingsPage.qml:182 app/SettingsPage.qml:211 app/WelcomePage.qml:67
+#, kde-format
+msgid "Request permissions…"
+msgstr "Zatraži dozvole…"
+
+#: app/SettingsPage.qml:183 app/WelcomePage.qml:68
+#, kde-format
+msgid "Additional permissions are required to show notifications."
+msgstr "Za prikaz obavijesti potrebne su dodatne dozvole."
+
+#: app/SettingsPage.qml:193 app/WelcomePage.qml:78
+#, kde-format
+msgid "Notification permissions are available"
+msgstr "Dozvole za obavijesti dostupne su"
+
+#: app/SettingsPage.qml:194 app/SettingsPage.qml:236 app/SettingsPage.qml:335
+#: app/WelcomePage.qml:79
+#, kde-format
+msgid "No further action required."
+msgstr "Nije potrebno ništa poduzimati."
+
+#: app/SettingsPage.qml:207
+#, kde-format
+msgid "Onboard Status"
+msgstr "Stanje informacija u vozilu"
+
+#: app/SettingsPage.qml:212
+#, kde-format
+msgid "Additional permissions are required to access the Wi-Fi status."
+msgstr "Za pristup stanju Wi-Fi mreže potrebne su dodatne dozvole."
+
+#: app/SettingsPage.qml:223
+#, kde-format
+msgid "Wi-Fi access for onboard information is available."
+msgstr "Dostupan je pristup Wi-Fi mreži za informacije u vozilu."
+
+#: app/SettingsPage.qml:225
+#, kde-format
+msgid "Wi-Fi is not enabled"
+msgstr "Wi-Fi nije uključen"
+
+#: app/SettingsPage.qml:227
+#, kde-format
+msgid "Location service is not enabled"
+msgstr "Lokacijska usluga nije uključena"
+
+#: app/SettingsPage.qml:229
+#, kde-format
+msgid "Wi-Fi access is not available on this system"
+msgstr "Pristup Wi-Fi mreži nije dostupan na ovom sustavu"
+
+#: app/SettingsPage.qml:238
+#, kde-format
+msgid "Enable Wi-Fi on your system to access onboard information."
+msgstr "Uključite Wi-Fi na sustavu za pristup informacijama u vozilu."
+
+#: app/SettingsPage.qml:240
+#, kde-format
+msgid ""
+"Enable the location service on your device to access onboard information."
+msgstr "Uključite lokacijsku uslugu na uređaju za pristup informacijama u vozilu."
+
+#: app/SettingsPage.qml:242
+#, kde-format
+msgid ""
+"Unfortunately, retrieving onboard information is not supported on your "
+"device at this time."
+msgstr "Nažalost, vaš uređaj trenutačno ne podržava dohvaćanje informacija u vozilu."
+
+#: app/SettingsPage.qml:274
+#, kde-format
+msgid "Matrix Integration"
+msgstr "Integracija s Matrixom"
+
+#: app/SettingsPage.qml:281 app/SettingsPage.qml:353
+#, kde-format
+msgid "Logged in as %1"
+msgstr "Prijavljeni ste kao %1"
+
+#: app/SettingsPage.qml:285
+#, kde-format
+msgid "Synchronize rooms"
+msgstr "Sinkroniziraj sobe"
+
+#: app/SettingsPage.qml:292
+#, kde-format
+msgid "Matrix ID"
+msgstr "Matrix ID"
+
+#: app/SettingsPage.qml:298
+#, kde-format
+msgid "Password"
+msgstr "Lozinka"
+
+#: app/SettingsPage.qml:307
+#, kde-format
+msgid "Log out"
+msgstr "Odjavi se"
+
+#: app/SettingsPage.qml:307
+#, kde-format
+msgid "Log in"
+msgstr "Prijavi se"
+
+#: app/SettingsPage.qml:316
+#, kde-format
+msgctxt "@label"
+msgid "Homeserver url"
+msgstr "URL kućnog poslužitelja"
+
+#: app/SettingsPage.qml:324
+#, kde-format
+msgctxt "@action:button"
+msgid "Login with OIDC"
+msgstr "Prijava putem OIDC-a"
+
+#: app/SettingsPage.qml:334
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Session verified"
+msgstr "Sesija je potvrđena"
+
+#: app/SettingsPage.qml:334
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Session not verified."
+msgstr "Sesija nije potvrđena."
+
+#: app/SettingsPage.qml:335
+#, kde-format
+msgctxt "Matrix session verification"
+msgid "Initiate session verification in your Matrix chat client."
+msgstr "Pokrenite provjeru sesije u svojem Matrix klijentu za razgovor."
+
+#: app/SettingsPage.qml:343
+#, kde-format
+msgid "Träwelling Integration"
+msgstr "Integracija s uslugom Träwelling"
+
+#: app/SettingsPage.qml:348
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Träwelling is a free check-in service that lets you tell your friends where "
+"you are and where you can log your public transit journeys. For more "
+"information, visit <a href=\"https://traewelling.de\">traewelling.de</a>"
+msgstr "Träwelling je  free prijava usluga that lets you tell your friends where you su i where you može log your javni transit putovanja. za više informacije, visit < href=\"https://traewelling.de\">traewelling.de</>"
+
+#: app/SettingsPage.qml:356
+#, kde-format
+msgid "Login"
+msgstr "Prijava"
+
+#: app/SettingsPage.qml:361
+#, kde-format
+msgid "Logout"
+msgstr "Odjava"
+
+#: app/SettingsPage.qml:368
+#, kde-format
+msgid "Contributing"
+msgstr "Doprinos"
+
+#: app/SettingsPage.qml:372
+#, kde-format
+msgid "I contribute to OpenStreetMap"
+msgstr "Doprinosim projektu OpenStreetMap"
+
+#: app/SettingsPage.qml:373
+#, kde-format
+msgid "Enables OSM editing options."
+msgstr "Uključuje mogućnosti uređivanja OSM-a."
+
+#: app/statisticsmodel.cpp:102
+#, kde-format
+msgid "Trips"
+msgstr "Putovanja"
+
+#: app/statisticsmodel.cpp:107 app/statisticsmodel.cpp:140
+#: app/statisticsmodel.cpp:155 app/statisticsmodel.cpp:170
+#: app/statisticsmodel.cpp:185 app/statisticsmodel.cpp:200
+#: app/TripGroupPage.qml:654
+#, kde-format
+msgid "Distance"
+msgstr "Udaljenost"
+
+#: app/statisticsmodel.cpp:112
+#, kde-format
+msgid "Hotel nights"
+msgstr "Noćenja u hotelima"
+
+#: app/statisticsmodel.cpp:117 app/statisticsmodel.cpp:145
+#: app/statisticsmodel.cpp:160 app/statisticsmodel.cpp:175
+#: app/statisticsmodel.cpp:190 app/statisticsmodel.cpp:205
+#: app/TripGroupPage.qml:663
+#, kde-format
+msgid "CO₂"
+msgstr "CO₂"
+
+#: app/statisticsmodel.cpp:130
+#, kde-format
+msgid "Visited countries"
+msgstr "Posjećene države"
+
+#: app/statisticsmodel.cpp:135
+#, kde-format
+msgid "Flights"
+msgstr "Letovi"
+
+#: app/statisticsmodel.cpp:150
+#, kde-format
+msgid "Train rides"
+msgstr "Putovanja vlakom"
+
+#: app/statisticsmodel.cpp:165
+#, kde-format
+msgid "Bus rides"
+msgstr "Putovanja autobusom"
+
+#: app/statisticsmodel.cpp:180
+#, kde-format
+msgid "Car rides"
+msgstr "Putovanja automobilom"
+
+#: app/statisticsmodel.cpp:195
+#, kde-format
+msgid "Boat trips"
+msgstr "Putovanja brodom"
+
+#: app/StatisticsPage.qml:37
+#, kde-format
+msgid "Year"
+msgstr "Godina"
+
+#: app/StatisticsPage.qml:49 app/statisticstimerangemodel.cpp:69
+#, kde-format
+msgid "Total"
+msgstr "Ukupno"
+
+#: app/StatisticsPage.qml:65
+#, kde-format
+msgctxt "@info:placeholder no visited country"
+msgid "None"
+msgstr "Nijedno"
+
+#: app/StatisticsPage.qml:121 app/TrainEditor.qml:130
+#, kde-format
+msgid "Train"
+msgstr "Vlak"
+
+#: app/StatisticsPage.qml:135
+#, kde-format
+msgid "Bus"
+msgstr "Autobus"
+
+#: app/StatisticsPage.qml:149
+#, kde-format
+msgid "Boat"
+msgstr "Brod"
+
+#: app/StatisticsPage.qml:163
+#, kde-format
+msgid "Car"
+msgstr "Automobil"
+
+#: app/StopoverDetailsPage.qml:17
+#, kde-format
+msgctxt "train/bus arrival"
+msgid "Arrival Information"
+msgstr "Informacije o dolasku"
+
+#: app/StopoverDetailsPage.qml:17
+#, kde-format
+msgctxt "train/bus departure"
+msgid "Departure Information"
+msgstr "Informacije o polasku"
+
+#: app/StopoverDetailsPage.qml:93
+#, kde-format
+msgctxt "departure stop"
+msgid "From %1"
+msgstr "Od %1"
+
+#: app/StopoverDetailsPage.qml:132
+#, kde-format
+msgid "Trip Map"
+msgstr "Karta putovanja"
+
+#: app/StopoverDetailsPage.qml:140
+#, kde-format
+msgid "Stop Map"
+msgstr "Karta stajališta"
+
+#: app/StopoverInformationSheet.qml:62
+#, kde-format
+msgid "Distance: %1"
+msgstr "Udaljenost: %1"
+
+#: app/StopoverInformationSheet.qml:73
+#, kde-format
+msgid "Average Speed: %1"
+msgstr "Prosječna brzina: %1"
+
+#: app/StopoverInformationSheet.qml:83
+#, kde-format
+msgid "CO₂: %1"
+msgstr "CO₂: %1"
+
+#: app/TicketEditor.qml:18
+#, kde-format
+msgid "Edit Ticket"
+msgstr "Uredi kartu"
+
+#: app/TicketEditor.qml:64
+#, kde-format
+msgid "Ticket name"
+msgstr "Naziv karte"
+
+#: app/TicketEditor.qml:67
+#, kde-format
+msgid "Ticket name must not be empty."
+msgstr "Naziv karte ne smije biti prazan."
+
+#: app/TicketPage.qml:40
+#, kde-format
+msgid "Delete Ticket"
+msgstr "Izbriši kartu"
+
+#: app/TicketPage.qml:41
+#, kde-format
+msgid "Do you really want to delete this ticket?"
+msgstr "Želite li zaista izbrisati ovu kartu?"
+
+#: app/TicketPage.qml:60
+#, kde-format
+msgid "Export Ticket"
+msgstr "Izvezi kartu"
+
+#: app/TicketPage.qml:121
+#, kde-format
+msgid "Class"
+msgstr "Razred"
+
+#: app/TicketTokenEditorCard.qml:58
+#, kde-format
+msgctxt "@title:group"
+msgid "Ticket Barcode"
+msgstr "Crtični kod karte"
+
+#: app/TicketTokenEditorCard.qml:68
+#, kde-format
+msgid "Select ticket"
+msgstr "Odaberi kartu"
+
+#: app/TicketTokenEditorCard.qml:91
+#, kde-format
+msgid "Scan barcode…"
+msgstr "Skeniraj crtični kod…"
+
+#: app/TicketTokenEditorCard.qml:129
+#, kde-format
+msgid "Paste"
+msgstr "Zalijepi"
+
+#: app/tickettokenmodel.cpp:88
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Attendee %1"
+msgstr "Sudionik %1"
+
+#: app/tickettokenmodel.cpp:90
+#, kde-format
+msgctxt "%1 is a number"
+msgid "Traveler %1"
+msgstr "Putnik %1"
+
+#: app/tickettokenmodel.cpp:137
+#, kde-format
+msgctxt "%1 is a person name, %2 is a ticket name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: app/TimelineDelegateIntermediateStopsButton.qml:36
+#, kde-format
+msgid "1 intermediate stop (%2)"
+msgid_plural "%1 intermediate stops (%2)"
+msgstr[0] "%1 međustajanje (%2)"
+msgstr[1] "%1 međustajanja (%2)"
+msgstr[2] "%1 međustajališta (%2)"
+
+#: app/TimelineDelegateIntermediateStopsButton.qml:46
+#, kde-format
+msgid "0 intermediate stop (%1)"
+msgstr "0 međustajanja (%1)"
+
+#: app/timelinesectiondelegatecontroller.cpp:74
+#, kde-format
+msgid "Today"
+msgstr "Danas"
+
+#: app/timelinesectiondelegatecontroller.cpp:76
+#, kde-format
+msgctxt "weekday, date"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: app/TouristAttractionPage.qml:18
+#, kde-format
+msgid "Tourist Attraction"
+msgstr "Turistička znamenitost"
+
+#: app/TouristAttractionPage.qml:37
+#, kde-format
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/TouristAttractionPage.qml:42
+#, kde-format
+msgid "Departure Time"
+msgstr "Vrijeme polaska"
+
+#: app/TouristAttractionPage.qml:49
+#, kde-format
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/TouristAttractionPage.qml:54
+#, kde-format
+msgid "Arrival Time"
+msgstr "Vrijeme dolaska"
+
+#: app/TrainDelegate.qml:46 app/TrainDelegate.qml:113
+#, kde-format
+msgctxt "train station platform"
+msgid "Platform changed to %1"
+msgstr "Peron je promijenjen na %1"
+
+#: app/TrainDelegate.qml:48 app/TrainDelegate.qml:115
+#, kde-format
+msgctxt "train station platform"
+msgid "Platform %1"
+msgstr "Peron %1"
+
+#: app/TrainDelegate.qml:62 app/TrainPage.qml:293
+#, kde-format
+msgctxt "train coach"
+msgid "Coach: <b>%1</b>"
+msgstr "Vagon: <b>%1</b>"
+
+#: app/TrainDelegate.qml:68 app/TrainPage.qml:300
+#, kde-format
+msgctxt "train seat"
+msgid "Seat: <b>%1</b>"
+msgstr "Sjedalo: <b>%1</b>"
+
+#: app/TrainDelegate.qml:76 app/TrainPage.qml:308
+#, kde-format
+msgctxt "train class"
+msgid "Class: <b>%1</b>"
+msgstr "Razred: <b>%1</b>"
+
+#: app/TrainEditor.qml:79
+#, kde-format
+msgctxt "@title"
+msgid "New Train Reservation"
+msgstr "Nova željeznička rezervacija"
+
+#: app/TrainEditor.qml:79
+#, kde-format
+msgctxt "@title"
+msgid "Edit Train Reservation"
+msgstr "Uredi željezničku rezervaciju"
+
+#: app/TrainEditor.qml:88 app/TrainEditor.qml:248
+#, kde-format
+msgctxt "train departure"
+msgid "Change Departure Station"
+msgstr "Promijeni polazni kolodvor"
+
+#: app/TrainEditor.qml:94
+#, kde-format
+msgctxt "train departure"
+msgid "Change departure station"
+msgstr "Promijeni polazni kolodvor"
+
+#: app/TrainEditor.qml:104 app/TrainEditor.qml:354
+#, kde-format
+msgctxt "train arrival"
+msgid "Change Arrival Station"
+msgstr "Promijeni odredišni kolodvor"
+
+#: app/TrainEditor.qml:110
+#, kde-format
+msgctxt "train arrival"
+msgid "Change arrival station"
+msgstr "Promijeni odredišni kolodvor"
+
+#: app/TrainEditor.qml:149
+#, kde-format
+msgctxt "@title:group"
+msgid "Train"
+msgstr "Vlak"
+
+#: app/TrainEditor.qml:158
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Train number"
+msgstr "Broj vlaka"
+
+#: app/TrainEditor.qml:164
+#, kde-format
+msgctxt "train departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/TrainEditor.qml:173
+#, kde-format
+msgctxt "Train departure"
+msgid "Departure Time"
+msgstr "Vrijeme polaska"
+
+#: app/TrainEditor.qml:186 app/TrainEditor.qml:286
+#, kde-format
+msgctxt "Train station"
+msgid "Station Name"
+msgstr "Naziv kolodvora"
+
+#: app/TrainEditor.qml:189
+#, kde-format
+msgid "Departure station must not be empty."
+msgstr "Polje polaznog kolodvora ne smije biti prazno."
+
+#: app/TrainEditor.qml:210 app/TrainEditor.qml:310
+#, kde-format
+msgid ""
+"Specifying the departure and arrival location helps Itinerary to find up-to-"
+"date information for the train this reservation is valid for."
+msgstr "Navođenjem mjesta polaska i dolaska aplikacija Itinerary može pronaći ažurne informacije o vlaku na koji se ova rezervacija odnosi."
+
+#: app/TrainEditor.qml:231 app/TrainEditor.qml:336 app/TrainPage.qml:151
+#: app/TrainPage.qml:238
+#, kde-format
+msgctxt "train station"
+msgid "Station"
+msgstr "Kolodvor"
+
+#: app/TrainEditor.qml:256
+#, kde-format
+msgctxt "train arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/TrainEditor.qml:265
+#, kde-format
+msgctxt "Train arrival"
+msgid "Arrival Time"
+msgstr "Vrijeme dolaska"
+
+#: app/TrainEditor.qml:289
+#, kde-format
+msgid "Arrival station must not be empty."
+msgstr "Polje odredišnog kolodvora ne smije biti prazno."
+
+#: app/TrainEditor.qml:364 app/TrainEditor.qml:376 app/TrainPage.qml:284
+#, kde-format
+msgctxt "Train seat"
+msgid "Seat"
+msgstr "Sjedalo"
+
+#: app/TrainEditor.qml:370
+#, kde-format
+msgctxt "carriage on a train"
+msgid "Coach"
+msgstr "Vagon"
+
+#: app/TrainEditor.qml:382
+#, kde-format
+msgctxt "seating class on a train"
+msgid "Class"
+msgstr "Razred"
+
+#: app/TrainPage.qml:23
+#, kde-format
+msgid "Train Ticket"
+msgstr "Željeznička karta"
+
+#: app/TrainPage.qml:106
+#, kde-format
+msgctxt "Train departure"
+msgid "Departure"
+msgstr "Polazak"
+
+#: app/TrainPage.qml:185
+#, kde-format
+msgid "Departure Vehicle Layout"
+msgstr "Raspored vagona na polasku"
+
+#: app/TrainPage.qml:194
+#, kde-format
+msgctxt "Train arrival"
+msgid "Arrival"
+msgstr "Dolazak"
+
+#: app/TrainPage.qml:274
+#, kde-format
+msgid "Arrival Vehicle Layout"
+msgstr "Raspored vagona na dolasku"
+
+#: app/TrainPage.qml:341
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Träwelling"
+msgstr "Dodaj u Träwelling"
+
+#: app/TrainPage.qml:374
+#, kde-format
+msgid "Added to Träwelling"
+msgstr "Dodano u Träwelling"
+
+#: app/TrainPage.qml:374
+#, kde-format
+msgid "Failed to add to Träwelling"
+msgstr "Dodavanje u Träwelling nije uspjelo"
+
+#: app/TransferDelegate.qml:119
+#, kde-format
+msgid "Select transfer"
+msgstr "Odaberi presjedanje"
+
+#: app/TransferDelegate.qml:129
+#, kde-format
+msgid "Delete transfer"
+msgstr "Izbriši presjedanje"
+
+#: app/TransferPage.qml:20
+#, kde-format
+msgid "Select Transfer"
+msgstr "Odaberi presjedanje"
+
+#: app/TransferPage.qml:43
+#, kde-format
+msgid "Depart Now"
+msgstr "Kreni odmah"
+
+#: app/TransferPage.qml:53
+#, kde-format
+msgid "Discard"
+msgstr "Odbaci"
+
+#: app/TransferPage.qml:61
+#, kde-format
+msgid "Earlier"
+msgstr "Ranije"
+
+#: app/TransferPage.qml:67
+#, kde-format
+msgid "Later"
+msgstr "Kasnije"
+
+#: app/TransferPage.qml:75
+#, kde-format
+msgid "Bike"
+msgstr "Bicikl"
+
+#: app/TransferPage.qml:82
+#, kde-format
+msgid "Bike & Ride"
+msgstr "Biciklom i javnim prijevozom"
+
+#: app/TransferPage.qml:90
+#, kde-format
+msgid "Shared Bikes"
+msgstr "Dijeljeni bicikli"
+
+#: app/TransferPage.qml:97
+#, kde-format
+msgid "Park & Ride"
+msgstr "Parkiraj i nastavi javnim prijevozom"
+
+#: app/TransferPage.qml:266
+#, kde-format
+msgid "%1 ends at %2"
+msgstr "%1 završava u %2"
+
+#: app/TransferPage.qml:268
+#, kde-format
+msgid "Preceding arrival %1 at %2"
+msgstr "Prethodni dolazak %1 u %2"
+
+#: app/TransferPage.qml:278
+#, kde-format
+msgid "%1 starts at %2"
+msgstr "%1 počinje u %2"
+
+#: app/TransferPage.qml:280
+#, kde-format
+msgid "Following departure %1 from %2"
+msgstr "Sljedeći polazak %1 iz %2"
+
+#: app/TripGroupDelegate.qml:39
+#, kde-format
+msgctxt "date range"
+msgid "%1 - %2"
+msgstr "%1 – %2"
+
+#: app/TripGroupDelegate.qml:40
+#, kde-format
+msgid "Upcoming"
+msgstr "Nadolazeće"
+
+#: app/TripGroupEditorDialog.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Trip"
+msgstr "Dodaj putovanje"
+
+#: app/TripGroupEditorDialog.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Trip"
+msgstr "Uredi putovanje"
+
+#: app/TripGroupEditorDialog.qml:24 app/TripGroupMergeDialog.qml:56
+#: app/TripGroupSelectorCard.qml:84
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Trip name:"
+msgstr "Naziv putovanja:"
+
+#: app/tripgroupmanager.cpp:861
+#, kde-format
+msgctxt "%1 is destination, %2 is the standalone month name, %3 is the year"
+msgid "%1 (%2 %3)"
+msgstr "%1 (%2 %3)"
+
+#: app/tripgroupmanager.cpp:867
+#, kde-format
+msgctxt ""
+"%1 is destination, %2 and %3 are the standalone month names and %4 is the "
+"year"
+msgid "%1 (%2/%3 %4)"
+msgstr "%1 (%2/%3 %4)"
+
+#: app/tripgroupmanager.cpp:873
+#, kde-format
+msgctxt "%1 is destination, %2 and %3 are years"
+msgid "%1 (%2/%3)"
+msgstr "%1 (%2/%3)"
+
+#: app/TripGroupMapPage.qml:201
+#, kde-format
+msgid "Address"
+msgstr "Adresa"
+
+#: app/TripGroupMergeDialog.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Merge Trips"
+msgstr "Spoji putovanja"
+
+#: app/TripGroupMergeDialog.qml:39
+#, kde-format
+msgid "Merge with:"
+msgstr "Spoji s:"
+
+#: app/TripGroupMergeDialog.qml:78
+#, kde-format
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "Spoji"
+
+#: app/tripgroupmodel.cpp:133
+#, kde-format
+msgctxt "List section header"
+msgid "Past trips"
+msgstr "Prošla putovanja"
+
+#: app/tripgroupmodel.cpp:136
+#, kde-format
+msgctxt "List section header"
+msgid "Future trips"
+msgstr "Buduća putovanja"
+
+#: app/tripgroupmodel.cpp:138
+#, kde-format
+msgctxt "List section header"
+msgid "Current trip"
+msgstr "Trenutačno putovanje"
+
+#: app/TripGroupPage.qml:156
+#, kde-format
+msgctxt "@action"
+msgid "Search connection"
+msgstr "Pretraži vezu"
+
+#: app/TripGroupPage.qml:163
+#, kde-format
+msgctxt "@action"
+msgid "Add connection"
+msgstr "Dodaj vezu"
+
+#: app/TripGroupPage.qml:169
+#, kde-format
+msgctxt "@action"
+msgid "Add train"
+msgstr "Dodaj vlak"
+
+#: app/TripGroupPage.qml:179
+#, kde-format
+msgctxt "@action"
+msgid "Add bus"
+msgstr "Dodaj autobus"
+
+#: app/TripGroupPage.qml:189
+#, kde-format
+msgctxt "@action"
+msgid "Add flight"
+msgstr "Dodaj let"
+
+#: app/TripGroupPage.qml:199
+#, kde-format
+msgctxt "@action"
+msgid "Add ferry trip"
+msgstr "Dodaj putovanje trajektom"
+
+#: app/TripGroupPage.qml:209
+#, kde-format
+msgctxt "@action"
+msgid "Add accommodation"
+msgstr "Dodaj smještaj"
+
+#: app/TripGroupPage.qml:224
+#, kde-format
+msgctxt "@action"
+msgid "Add event"
+msgstr "Dodaj događaj"
+
+#: app/TripGroupPage.qml:240
+#, kde-format
+msgid "Add restaurant"
+msgstr "Dodaj restoran"
+
+#: app/TripGroupPage.qml:257
+#, kde-format
+msgctxt "@title:group"
+msgid "Add to Trip"
+msgstr "Dodaj putovanju"
+
+#: app/TripGroupPage.qml:290
+#, kde-format
+msgid "Export Trip"
+msgstr "Izvezi putovanje"
+
+#: app/TripGroupPage.qml:301
+#, kde-format
+msgid "Delete Trip"
+msgstr "Izbriši putovanje"
+
+#: app/TripGroupPage.qml:302
+#, kde-format
+msgid "Do you really want to delete the trip '%1'?"
+msgstr "Želite li zaista izbrisati putovanje '%1'?"
+
+#: app/TripGroupPage.qml:385
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 – %2"
+
+#: app/TripGroupPage.qml:386
+#, kde-format
+msgid "One day"
+msgid_plural "%1 days"
+msgstr[0] "%1 dan"
+msgstr[1] "%1 dana"
+msgstr[2] "%1 dana"
+
+#: app/TripGroupPage.qml:418
+#, kde-format
+msgid "Some incompatible power sockets (%1)"
+msgstr "Neke nekompatibilne električne utičnice (%1)"
+
+#: app/TripGroupPage.qml:420
+#, kde-format
+msgid "Some incompatible power plugs (%1)"
+msgstr "Neki nekompatibilni utikači (%1)"
+
+#: app/TripGroupPage.qml:423
+#, kde-format
+msgid "No compatible power plugs (%1)"
+msgstr "Nema kompatibilnih utikača (%1)"
+
+#: app/TripGroupPage.qml:460
+#, kde-format
+msgid "Currency: %2"
+msgid_plural "Currencies: %2"
+msgstr[0] "Valuta: %2"
+msgstr[1] "Valute: %2"
+msgstr[2] "Valuta: %2"
+
+#: app/TripGroupPage.qml:470
+#, kde-format
+msgid "Show map…"
+msgstr "Prikaži kartu…"
+
+#: app/TripGroupPage.qml:496
+#, kde-format
+msgid "Add"
+msgstr "Dodaj"
+
+#: app/TripGroupPage.qml:613
+#, kde-format
+msgid "Nothing on the itinerary for today."
+msgstr "Za danas nema ničega u itineraru."
+
+#: app/TripGroupPage.qml:672
+#, kde-format
+msgid "Cost"
+msgstr "Trošak"
+
+#: app/TripGroupPage.qml:694
+#, kde-format
+msgid "Rename…"
+msgstr "Preimenuj…"
+
+#: app/TripGroupPage.qml:703
+#, kde-format
+msgid "Merge trips…"
+msgstr "Spoji putovanja…"
+
+#: app/TripGroupPage.qml:714
+#, kde-format
+msgid "Split trip…"
+msgstr "Podijeli putovanje…"
+
+#: app/TripGroupPage.qml:721
+#, kde-format
+msgid "Download Maps"
+msgstr "Preuzmi karte"
+
+#: app/TripGroupPage.qml:736
+#, kde-format
+msgid "Delete trip"
+msgstr "Izbriši putovanje"
+
+#: app/TripGroupPage.qml:762
+#, kde-format
+msgctxt "@action:button"
+msgid "Go To Now"
+msgstr "Idi na trenutačni trenutak"
+
+#: app/TripGroupPage.qml:770 app/TripGroupsPage.qml:87
+#: app/TripGroupsPage.qml:125
+#, kde-format
+msgctxt "@action:button"
+msgid "Add trip"
+msgstr "dodati putovanje"
+
+#: app/TripGroupSelectorCard.qml:70 app/TripGroupSelectorDialog.qml:51
+#, kde-format
+msgid "New Trip"
+msgstr "Novo putovanje"
+
+#: app/TripGroupSelectorCard.qml:73
+#, kde-format
+msgid "Add to Trip"
+msgstr "Dodaj putovanju"
+
+#: app/TripGroupSelectorCard.qml:90
+#, kde-format
+msgid "Trip name must not be empty."
+msgstr "Naziv putovanja ne smije biti prazan."
+
+#: app/TripGroupSelectorCard.qml:95
+#, kde-format
+msgid "Add to:"
+msgstr "Dodaj u:"
+
+#: app/TripGroupSelectorCard.qml:122
+#, kde-format
+msgid "A trip must be selected."
+msgstr "Potrebno je odabrati putovanje."
+
+#: app/TripGroupSelectorDialog.qml:14
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Add Journey to Trip"
+msgstr "Dodaj vezu putovanju"
+
+#: app/TripGroupsPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Trips"
+msgstr "Putovanja"
+
+#: app/TripGroupsPage.qml:85
+#, kde-format
+msgid "No trips added yet."
+msgstr "Još nema dodanih putovanja."
+
+#: app/TripGroupSplitPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Split Trip"
+msgstr "Podijeli putovanje"
+
+#: app/TripGroupSplitPage.qml:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New Trip name:"
+msgstr "Naziv novog putovanja:"
+
+#: app/TripGroupSplitPage.qml:35
+#, kde-format
+msgctxt "@title:group"
+msgid "Sections"
+msgstr "Odjeljci"
+
+#: app/TripGroupSplitPage.qml:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Split trip"
+msgstr "Podijeli putovanje"
+
+#: app/VehicleLayoutPage.qml:17
+#, kde-format
+msgid "Vehicle Layout"
+msgstr "Raspored vozila"
+
+#: app/VehicleLayoutPage.qml:95
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Departure: %1"
+msgstr "Polazak: %1"
+
+#: app/VehicleLayoutPage.qml:97
+#, kde-format
+msgctxt "%1 is a date/time"
+msgid "Arrival: %1"
+msgstr "Dolazak: %1"
+
+#: app/VehicleLayoutPage.qml:126
+#, kde-format
+msgid "Coach: %1 Seat: %2"
+msgstr "Vagon: %1 Sjedalo: %2"
+
+#: app/VehicleLayoutPage.qml:231
+#, kde-format
+msgid "No vehicle layout information available."
+msgstr "Nema dostupnih podataka o rasporedu vozila."
+
+#: app/VehicleSectionDialog.qml:29
+#, kde-format
+msgctxt "train coach"
+msgid "Coach %1"
+msgstr "Vagon %1"
+
+#: app/WeatherForecastDelegate.qml:59 app/WeatherForecastPage.qml:105
+#, kde-format
+msgctxt "precipitation"
+msgid "%1 mm"
+msgstr "%1 mm"
+
+#: app/WeatherForecastDelegate.qml:72 app/WeatherForecastPage.qml:118
+#, kde-format
+msgctxt "windSpeed"
+msgid "%1 m/s"
+msgstr "%1 m/s"
+
+#: app/WelcomePage.qml:16
+#, kde-format
+msgid "Welcome!"
+msgstr "Dobro došli!"
+
+#: app/WelcomePage.qml:19
+#, kde-format
+msgctxt "@title:group"
+msgid "Setup"
+msgstr "Postavljanje"
+
+#: app/WelcomePage.qml:31
+#, kde-format
+msgid ""
+"Select your home country for currency conversions and power plug "
+"compatibility warnings to work."
+msgstr "Odaberite matičnu državu kako bi pretvorba valuta i upozorenja o kompatibilnosti električnih utikača ispravno radili."
+
+#: app/WelcomePage.qml:35
+#, kde-format
+msgid "Use online services"
+msgstr "Upotrebljavaj mrežne usluge"
+
+#: app/WelcomePage.qml:36
+#, kde-format
+msgid ""
+"KDE Itinerary has all features disabled by default that require online "
+"access, such as retrieving live traffic data or weather forecasts. You can "
+"enable all this here, or check the settings for much more finegrained "
+"control over which services to use."
+msgstr "U KDE Itineraryju su prema zadanim postavkama isključene sve značajke koje zahtijevaju pristup internetu, poput dohvaćanja prometnih podataka uživo ili vremenske prognoze. Ovdje ih možete uključiti ili u postavkama preciznije odabrati usluge koje želite upotrebljavati."
+
+#: app/WelcomePage.qml:54
+#, kde-format
+msgid ""
+"Review the settings for more finegrained control over which online services "
+"to use."
+msgstr "U postavkama možete preciznije odabrati koje mrežne usluge želite upotrebljavati."
+
+#: app/WelcomePage.qml:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: app/WelcomePage.qml:90
+#, kde-format
+msgid "Done!"
+msgstr "Gotovo!"
+
+#: app/WhatsNewDialog.qml:77
+#, kde-format
+msgid "Show older changes…"
+msgstr "Prikaži starije promjene…"
+
+#: matrix/matrixmanager.cpp:23 matrix/matrixmanager.cpp:120
+#, kde-format
+msgid "Syncing…"
+msgstr "Sinkronizacija…"
+
+#: matrix/matrixmanager.cpp:57
+#, kde-format
+msgid "This server does not support logging in using a password"
+msgstr "Ovaj poslužitelj ne podržava prijavu lozinkom"
+
+#: matrix/matrixmanager.cpp:105
+#, kde-format
+msgid "Logged out"
+msgstr "Odjavljeni ste"
+
+#: matrix/matrixmanager.cpp:173
+#, kde-format
+msgid "Logging in…"
+msgstr "Prijava…"
+
+#: metadataextractor/itineraryextractor.cpp:118
+#, kde-format
+msgctxt "Airline Flightnumber from Airport to Airport on Date"
+msgid "%1%2 from %3 to %4 on %5"
+msgstr "%1%2 iz %3 u %4, %5"
+
+

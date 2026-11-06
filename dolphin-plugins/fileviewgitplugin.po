@@ -1,0 +1,661 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the dolphin-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dolphin-plugins\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-11-02 00:57+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: checkoutdialog.cpp:33
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Checkout"
+msgstr "<application>Git</application> — preuzimanje"
+
+#: checkoutdialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Checkout"
+msgstr "Preuzmi"
+
+#: checkoutdialog.cpp:57
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Branch:"
+msgstr "Grana:"
+
+#: checkoutdialog.cpp:64
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Tag:"
+msgstr "Oznaka:"
+
+#: checkoutdialog.cpp:70
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Commit:"
+msgstr "Predaja:"
+
+#: checkoutdialog.cpp:81 pushdialog.cpp:80
+#, kde-format
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: checkoutdialog.cpp:86
+#, kde-format
+msgctxt "@option:check"
+msgid "Create New Branch: "
+msgstr "Stvori novu granu: "
+
+#: checkoutdialog.cpp:87
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new branch based on a selected branch or tag."
+msgstr "Stvori novu granu na temelju odabrane grane ili oznake."
+
+#: checkoutdialog.cpp:102
+#, kde-format
+msgctxt "@option:check"
+msgid "Force"
+msgstr "Prisilno"
+
+#: checkoutdialog.cpp:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Discard local changes."
+msgstr "Odbaci lokalne promjene."
+
+#: checkoutdialog.cpp:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There are no tags in this repository."
+msgstr "U ovom repozitoriju nema oznaka."
+
+#: checkoutdialog.cpp:205
+#, kde-format
+msgctxt "@title:group"
+msgid "Branch Base"
+msgstr "Osnovna grana"
+
+#: checkoutdialog.cpp:205
+#, kde-format
+msgctxt "@title:group"
+msgid "Checkout"
+msgstr "Preuzmi"
+
+#: checkoutdialog.cpp:227
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a valid name for the new branch first."
+msgstr "Najprije morate unijeti valjano ime nove grane."
+
+#: checkoutdialog.cpp:234
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A branch with the name '%1' already exists."
+msgstr "Grana s imenom '%1' već postoji."
+
+#: checkoutdialog.cpp:241
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Branch names may not contain any whitespace."
+msgstr "Imena grana ne smiju sadržavati razmake."
+
+#: checkoutdialog.cpp:248
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must select a valid branch first."
+msgstr "Najprije morate odabrati valjanu granu."
+
+#: checkoutdialog.cpp:254
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a valid commit Id (Sha signature)."
+msgstr "Morate unijeti valjani ID predaje (SHA potpis)."
+
+#: checkoutdialog.cpp:287
+#, kde-format
+msgctxt ""
+"@item:intext Prepended to the current branch name to get the default name "
+"for a newly created branch"
+msgid "branch"
+msgstr "grana"
+
+#: clonedialog.cpp:36
+#, kde-format
+msgctxt "a placeholder"
+msgid "a git repository url or path"
+msgstr "URL ili putanja Git repozitorija"
+
+#: clonedialog.cpp:46
+#, kde-format
+msgctxt "@info:tooltip submodules as in git submodules"
+msgid "Recursively clone submodules"
+msgstr "Rekurzivno kloniraj podmodule"
+
+#: clonedialog.cpp:49
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Url:"
+msgstr "URL:"
+
+#: clonedialog.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Directory:"
+msgstr "Direktorij:"
+
+#: clonedialog.cpp:52
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Branch:"
+msgstr "Grana:"
+
+#: clonedialog.cpp:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Recursive"
+msgstr "Rekurzivno"
+
+#: clonedialog.cpp:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Clone"
+msgstr "Kloniraj"
+
+#: clonedialog.cpp:76
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a clone directory"
+msgstr "Odabir direktorija za kloniranje"
+
+#: clonedialog.cpp:93
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Clone"
+msgstr "Kloniranje <application>Git</application> repozitorija"
+
+#: commitdialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Commit"
+msgstr "Predaja u <application>Git</application>"
+
+#: commitdialog.cpp:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "Predaj"
+
+#: commitdialog.cpp:44
+#, kde-format
+msgctxt "@title:group"
+msgid "Commit message"
+msgstr "Poruka predaje"
+
+#: commitdialog.cpp:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Amend last commit"
+msgstr "Izmijeni posljednju predaju"
+
+#: commitdialog.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "There is nothing to amend."
+msgstr "Nema ničega za izmjenu."
+
+#: commitdialog.cpp:72
+#, kde-format
+msgctxt "@action:button Add Signed-Off line to the message widget"
+msgid "Sign off"
+msgstr "Potpiši"
+
+#: commitdialog.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Signed-off-by line at the end of the commit message."
+msgstr "Dodaj redak Signed-off-by na kraj poruke predaje."
+
+#: commitdialog.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a commit message first."
+msgstr "Najprije morate unijeti poruku predaje."
+
+#: fileviewgitplugin.cpp:53
+#, kde-kuit-format
+msgid "<application>Git</application> Revert"
+msgstr "<application>Git</application> — vrati promjene"
+
+#: fileviewgitplugin.cpp:58
+#, kde-kuit-format
+msgid "<application>Git</application> Add"
+msgstr "<application>Git</application> — dodaj"
+
+#: fileviewgitplugin.cpp:63
+#, kde-kuit-format
+msgid "Show Local <application>Git</application> Changes"
+msgstr "Prikaži lokalne promjene u sustavu <application>Git</application>"
+
+#: fileviewgitplugin.cpp:68
+#, kde-kuit-format
+msgid "<application>Git</application> Restore staged"
+msgstr "<application>Git</application> — vrati pripremljene promjene"
+
+#: fileviewgitplugin.cpp:73
+#, kde-kuit-format
+msgid "<application>Git</application> Remove"
+msgstr "<application>Git</application> — ukloni"
+
+#: fileviewgitplugin.cpp:78
+#, kde-kuit-format
+msgid "<application>Git</application> Checkout..."
+msgstr "<application>Git</application> — preuzmi..."
+
+#: fileviewgitplugin.cpp:83
+#, kde-kuit-format
+msgid "<application>Git</application> Commit..."
+msgstr "<application>Git</application> — predaj..."
+
+#: fileviewgitplugin.cpp:88
+#, kde-kuit-format
+msgid "<application>Git</application> Create Tag..."
+msgstr "<application>Git</application> — stvori oznaku..."
+
+#: fileviewgitplugin.cpp:92
+#, kde-kuit-format
+msgid "<application>Git</application> Push..."
+msgstr "<application>Git</application> — pošalji..."
+
+#: fileviewgitplugin.cpp:96
+#, kde-kuit-format
+msgid "<application>Git</application> Pull..."
+msgstr "<application>Git</application> — povuci..."
+
+#: fileviewgitplugin.cpp:100
+#, kde-kuit-format
+msgid "<application>Git</application> Merge..."
+msgstr "<application>Git</application> — spoji..."
+
+#: fileviewgitplugin.cpp:104
+#, kde-kuit-format
+msgid "<application>Git</application> Clone..."
+msgstr "<application>Git</application> — kloniraj..."
+
+#: fileviewgitplugin.cpp:108
+#, kde-kuit-format
+msgid "<application>Git</application> Log..."
+msgstr "<application>Git</application> — dnevnik..."
+
+#: fileviewgitplugin.cpp:444
+#, kde-kuit-format
+msgid "Adding files to <application>Git</application> repository..."
+msgstr "Dodavanje datoteka u <application>Git</application> repozitorij..."
+
+#: fileviewgitplugin.cpp:445
+#, kde-kuit-format
+msgid "Adding files to <application>Git</application> repository failed."
+msgstr "Dodavanje datoteka u <application>Git</application> repozitorij nije uspjelo."
+
+#: fileviewgitplugin.cpp:446
+#, kde-kuit-format
+msgid "Added files to <application>Git</application> repository."
+msgstr "Datoteke su dodane u <application>Git</application> repozitorij."
+
+#: fileviewgitplugin.cpp:457
+#, kde-kuit-format
+msgid "Removing files from <application>Git</application> repository..."
+msgstr "Uklanjanje datoteka iz <application>Git</application> repozitorija..."
+
+#: fileviewgitplugin.cpp:458
+#, kde-kuit-format
+msgid "Removing files from <application>Git</application> repository failed."
+msgstr "Uklanjanje datoteka iz <application>Git</application> repozitorija nije uspjelo."
+
+#: fileviewgitplugin.cpp:459
+#, kde-kuit-format
+msgid "Removed files from <application>Git</application> repository."
+msgstr "Datoteke su uklonjene iz <application>Git</application> repozitorija."
+
+#: fileviewgitplugin.cpp:466
+#, kde-kuit-format
+msgid "Reverting files from <application>Git</application> repository..."
+msgstr "Vraćanje datoteka iz <application>Git</application> repozitorija..."
+
+#: fileviewgitplugin.cpp:467
+#, kde-kuit-format
+msgid "Reverting files from <application>Git</application> repository failed."
+msgstr "Vraćanje datoteka iz <application>Git</application> repozitorija nije uspjelo."
+
+#: fileviewgitplugin.cpp:468
+#, kde-kuit-format
+msgid "Reverted files from <application>Git</application> repository."
+msgstr "Datoteke iz <application>Git</application> repozitorija su vraćene."
+
+#: fileviewgitplugin.cpp:507
+#, kde-kuit-format
+msgid "<application>Git</application> Log failed."
+msgstr "Dnevnik <application>Git</application> nije uspio."
+
+#: fileviewgitplugin.cpp:528
+#, kde-kuit-format
+msgid "<application>Git</application> Log"
+msgstr "Dnevnik <application>Git</application>"
+
+#: fileviewgitplugin.cpp:543
+#, kde-format
+msgctxt "Git commit hash"
+msgid "Commit"
+msgstr "Predaj"
+
+#: fileviewgitplugin.cpp:544
+#, kde-format
+msgctxt "Git commit date"
+msgid "Date"
+msgstr "Datum"
+
+#: fileviewgitplugin.cpp:545
+#, kde-format
+msgctxt "Git commit message"
+msgid "Message"
+msgstr "Poruka"
+
+#: fileviewgitplugin.cpp:546
+#, kde-format
+msgctxt "Git commit author"
+msgid "Author"
+msgstr "Autor"
+
+#: fileviewgitplugin.cpp:567
+#, kde-kuit-format
+msgid ""
+"Restoring staged files from <application>Git</application> repository..."
+msgstr "Vraćanje pripremljenih datoteka iz <application>Git</application> repozitorija..."
+
+#: fileviewgitplugin.cpp:568
+#, kde-kuit-format
+msgid ""
+"Restoring staged files from <application>Git</application> repository failed."
+msgstr "Vraćanje pripremljenih datoteka iz <application>Git</application> repozitorija nije uspjelo."
+
+#: fileviewgitplugin.cpp:569
+#, kde-kuit-format
+msgid "Restoring staged files from <application>Git</application> repository."
+msgstr "Pripremljene datoteke iz <application>Git</application> repozitorija su vraćene."
+
+#: fileviewgitplugin.cpp:597
+#, kde-kuit-format
+msgid "<application>Git</application> error starting: %1"
+msgstr "Pogreška pri pokretanju <application>Git</application>: %1"
+
+#: fileviewgitplugin.cpp:601
+#, kde-kuit-format
+msgid "<application>Git</application> clone failed: %1"
+msgstr "Kloniranje <application>Git</application> repozitorija nije uspjelo: %1"
+
+#: fileviewgitplugin.cpp:603
+#, kde-kuit-format
+msgid "<application>Git</application> clone complete."
+msgstr "Kloniranje <application>Git</application> repozitorija je dovršeno."
+
+#: fileviewgitplugin.cpp:611
+#, kde-kuit-format
+msgid "<application>Git</application> cloning repository..."
+msgstr "Kloniranje <application>Git</application> repozitorija..."
+
+#: fileviewgitplugin.cpp:645
+#, kde-kuit-format
+msgid "Switched to branch '%1'"
+msgstr "Prebačeno na granu '%1'"
+
+#: fileviewgitplugin.cpp:652
+#, kde-kuit-format
+msgid "HEAD is now at %1"
+msgstr "HEAD je sada na %1"
+
+#: fileviewgitplugin.cpp:657
+#, kde-kuit-format
+msgid "Switched to a new branch '%1'"
+msgstr "Prebačeno na novu granu '%1'"
+
+#: fileviewgitplugin.cpp:669
+#, kde-kuit-format
+msgid ""
+"<application>Git</application> Checkout failed. Maybe your working directory "
+"is dirty."
+msgstr "Preuzimanje <application>Git</application> repozitorija nije uspjelo. Možda vaš radni direktorij sadrži lokalne promjene."
+
+#: fileviewgitplugin.cpp:737
+#, kde-kuit-format
+msgid "Successfully created tag '%1'"
+msgstr "Oznaka '%1' uspješno je stvorena."
+
+#: fileviewgitplugin.cpp:742
+#, kde-kuit-format
+msgid ""
+"<application>Git</application> tag creation failed. A tag with the name '%1' "
+"already exists."
+msgstr "Stvaranje oznake <application>Git</application> nije uspjelo. Oznaka s imenom '%1' već postoji."
+
+#: fileviewgitplugin.cpp:745
+#, kde-kuit-format
+msgid "<application>Git</application> tag creation failed."
+msgstr "Stvaranje oznake <application>Git</application> nije uspjelo."
+
+#: fileviewgitplugin.cpp:755
+#, kde-kuit-format
+msgid "Pushing branch %1 to %2:%3 failed."
+msgstr "Slanje grane %1 na %2:%3 nije uspjelo."
+
+#: fileviewgitplugin.cpp:756
+#, kde-kuit-format
+msgid "Pushed branch %1 to %2:%3."
+msgstr "Grana %1 poslana je na %2:%3."
+
+#: fileviewgitplugin.cpp:757
+#, kde-kuit-format
+msgid "Pushing branch %1 to %2:%3..."
+msgstr "Slanje grane %1 na %2:%3..."
+
+#: fileviewgitplugin.cpp:778
+#, kde-kuit-format
+msgid "Pulling branch %1 from %2 failed."
+msgstr "Dohvaćanje grane %1 s poslužitelja %2 nije uspjelo."
+
+#: fileviewgitplugin.cpp:779
+#, kde-kuit-format
+msgid "Pulled branch %1 from %2 successfully."
+msgstr "Grana %1 uspješno je dohvaćena s poslužitelja %2."
+
+#: fileviewgitplugin.cpp:780
+#, kde-kuit-format
+msgid "Pulling branch %1 from %2..."
+msgstr "Dohvaćanje grane %1 s poslužitelja %2..."
+
+#: fileviewgitplugin.cpp:832 fileviewgitplugin.cpp:844
+#, kde-kuit-format
+msgid "Branch is already up-to-date."
+msgstr "Grana je već ažurirana."
+
+#: fileviewgitplugin.cpp:848
+#, kde-kuit-format
+msgid "Merge conflicts occurred. Fix them and commit the result."
+msgstr "Došlo je do sukoba pri spajanju. Riješite ih i predajte rezultat."
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:7
+#, kde-format
+msgid "Dialog height"
+msgstr "Visina dijaloškog prozora"
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:12
+#, kde-format
+msgid "Dialog width"
+msgstr "Širina dijaloškog prozora"
+
+#: pulldialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Pull"
+msgstr "Povlačenje iz <application>Git</application>"
+
+#: pulldialog.cpp:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Pull"
+msgstr "Povuci"
+
+#: pulldialog.cpp:44
+#, kde-format
+msgctxt "@title:group The source to pull from"
+msgid "Source"
+msgstr "Izvor"
+
+#: pulldialog.cpp:50 pushdialog.cpp:51
+#, kde-format
+msgctxt "@label:listbox a git remote"
+msgid "Remote:"
+msgstr "Udaljeni repozitorij:"
+
+#: pulldialog.cpp:55
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote branch:"
+msgstr "Udaljena grana:"
+
+#: pushdialog.cpp:25
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Push"
+msgstr "Slanje u <application>Git</application>"
+
+#: pushdialog.cpp:37 pushdialog.cpp:164
+#, kde-format
+msgctxt "@action:button"
+msgid "Push"
+msgstr "Pošalji"
+
+#: pushdialog.cpp:47
+#, kde-format
+msgctxt "@title:group The remote host"
+msgid "Destination"
+msgstr "Odredište"
+
+#: pushdialog.cpp:61
+#, kde-format
+msgctxt "@title:group"
+msgid "Branches"
+msgstr "Grane"
+
+#: pushdialog.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Local Branch:"
+msgstr "Lokalna grana:"
+
+#: pushdialog.cpp:72
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Remote Branch:"
+msgstr "Udaljena grana:"
+
+#: pushdialog.cpp:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Force with lease"
+msgstr "Prisilno uz provjeru stanja udaljene grane"
+
+#: pushdialog.cpp:86
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Proceed even if the remote branch is not an ancestor of the local branch "
+"provided there were no changes in the remote branch since the last fetch."
+msgstr "Nastavi i ako udaljena grana nije predak lokalne grane, pod uvjetom da se udaljena grana nije promijenila od posljednjeg dohvaćanja."
+
+#: pushdialog.cpp:89
+#, kde-format
+msgctxt "@info no remote code repositories"
+msgid "No remotes defined."
+msgstr "Nije definiran nijedan udaljeni repozitorij."
+
+#: pushdialog.cpp:166
+#, kde-format
+msgctxt "@action:button"
+msgid "Push New Branch"
+msgstr "Pošalji novu granu"
+
+#: tagdialog.cpp:28
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Create Tag"
+msgstr "Stvaranje oznake za <application>Git</application>"
+
+#: tagdialog.cpp:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Tag"
+msgstr "Stvori oznaku"
+
+#: tagdialog.cpp:49
+#, kde-format
+msgctxt "@title:group"
+msgid "Tag Information"
+msgstr "Podaci o oznaci"
+
+#: tagdialog.cpp:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Name:"
+msgstr "Ime oznake:"
+
+#: tagdialog.cpp:61
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag Message:"
+msgstr "Poruka oznake:"
+
+#: tagdialog.cpp:72
+#, kde-format
+msgctxt "@title:group"
+msgid "Attach to"
+msgstr "Pridruži uz"
+
+#: tagdialog.cpp:79
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Branch:"
+msgstr "Grana:"
+
+#: tagdialog.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a tag name first."
+msgstr "Najprije morate unijeti ime oznake."
+
+#: tagdialog.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Tag names may not contain any whitespace."
+msgstr "Imena oznaka ne smiju sadržavati razmake."
+
+#: tagdialog.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A tag named '%1' already exists."
+msgstr "Oznaka s imenom '%1' već postoji."

@@ -1,0 +1,2848 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the gwenview package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: gwenview\nReport-Msgid-Bugs-To: https://bugs.kde.org\nPOT-Creation-Date: 2026-10-20 00:50+0000\nPO-Revision-Date: 2026-11-06 00:00+0100\nLast-Translator: Roko Tomović <roko@maesdbk.hr>\nLanguage-Team: Croatian <kde-i18n-doc@kde.org>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2;\nX-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vaša imena"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Vaše adrese e-pošte"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LowResourceUsageMode)
+#: app/advancedconfigpage.ui:28
+#, kde-format
+msgid "Low resource usage mode"
+msgstr "Način rada s malom potrošnjom resursa"
+
+#. i18n: ectx: property (text), widget (QLabel, cacheHelpLabel)
+#: app/advancedconfigpage.ui:72
+#, kde-format
+msgid ""
+"Enable this option if you do not have a lot of disk space. This will avoid "
+"storing thumbnails on disk and will prefer embedded thumbnails of lower "
+"quality that are faster to load, if available."
+msgstr "Omogućite ovu mogućnost ako nemate mnogo prostora na disku. Tako se minijature neće pohranjivati na disk, a ako su dostupne, koristit će se ugrađene minijature niže kvalitete koje se brže učitavaju."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/advancedconfigpage.ui:82
+#, kde-format
+msgid "Thumbnails:"
+msgstr "Minijature:"
+
+#. i18n: ectx: property (text), widget (QLabel, relativeHelpLabel)
+#: app/advancedconfigpage.ui:92
+#, kde-format
+msgid ""
+"Squash colors that don't fit within the active color profile's color gamut, "
+"leaving other colors untouched"
+msgstr "Prilagodi boje koje ne stanu u gamu aktivnog profila boja, a ostale boje ostavi nepromijenjenima"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/advancedconfigpage.ui:102
+#, kde-format
+msgid "History:"
+msgstr "Povijest:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, relativeRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:114
+#, kde-format
+msgctxt "@option:Relative Colorimetric rendering intent"
+msgid "Relative Colorimetric"
+msgstr "Relativna kolorimetrijska"
+
+#. i18n: ectx: property (text), widget (QRadioButton, perceptualRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:160
+#, kde-format
+msgctxt "@option:Perceptual rendering intent"
+msgid "Perceptual"
+msgstr "Perceptivna"
+
+#. i18n: ectx: property (text), widget (QLabel, perceptualHelpLabel)
+#: app/advancedconfigpage.ui:172
+#, kde-format
+msgid ""
+"Scale all colors equally to fit them within the active color profile's color "
+"gamut"
+msgstr "Jednako skaliraj sve boje kako bi stale u gamu aktivnog profila boja"
+
+#. i18n: ectx: property (text), widget (QLabel, colorRenderingLabel)
+#: app/advancedconfigpage.ui:182
+#, kde-format
+msgid "Rendering intent:"
+msgstr "Namjera prikaza:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HistoryEnabled)
+#: app/advancedconfigpage.ui:197
+#, kde-format
+msgid "Remember folders and URLs"
+msgstr "Zapamti mape i URL-ove"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableColorManagement)
+#: app/advancedconfigpage.ui:240
+#, kde-format
+msgid "Enable color management"
+msgstr "Omogući upravljanje bojama"
+
+#. i18n: ectx: property (text), widget (QLabel, colorProfileHelpLabel)
+#: app/advancedconfigpage.ui:265
+#, kde-format
+msgid ""
+"When color management is disabled, Gwenview will convert images to the sRGB "
+"color space rather than to the color space it detects for the display. This "
+"is only appropriate for displays that are calibrated to the sRGB color space "
+"or are known to provide an incorrect color profile."
+msgstr "Kad je upravljanje bojama onemogućeno, Gwenview će slike pretvoriti u prostor boja sRGB, umjesto u prostor boja koji je prepoznao za zaslon. To je primjereno samo za zaslone kalibrirane za prostor boja sRGB ili za one za koje se zna da imaju neispravan profil boja."
+
+#. i18n: ectx: property (text), widget (QLabel, colorProfileLabel)
+#: app/advancedconfigpage.ui:275
+#, kde-format
+msgid "Color management:"
+msgstr "Upravljanje bojama:"
+
+#: app/alignwithsidebarwidgetaction.cpp:23
+#, kde-format
+msgctxt "@action:inmenu a spacer that aligns toolbar buttons with the sidebar"
+msgid "Sidebar Alignment Spacer"
+msgstr "Razmak za poravnanje bočne trake"
+
+#: app/browsemainpage.cpp:151 app/mainwindow.cpp:375 app/viewmainpage.cpp:410
+#: lib/documentview/documentviewcontroller.cpp:56
+#, kde-format
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "View"
+msgstr "Prikaz"
+
+#: app/browsemainpage.cpp:153
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Edit Location"
+msgstr "Uredi lokaciju"
+
+#: app/browsemainpage.cpp:157
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Sort By"
+msgstr "Razvrstaj po"
+
+#: app/browsemainpage.cpp:162
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Name"
+msgstr "Naziv"
+
+#: app/browsemainpage.cpp:165
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Date"
+msgstr "Datum"
+
+#: app/browsemainpage.cpp:168
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Size"
+msgstr "Veličina"
+
+#: app/browsemainpage.cpp:171
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Type"
+msgstr "Vrsta"
+
+#: app/browsemainpage.cpp:175
+#, kde-format
+msgctxt "@addAction:inmenu"
+msgid "Rating"
+msgstr "Ocjena"
+
+#: app/browsemainpage.cpp:182
+#, kde-format
+msgctxt "@action:inmenu Sort"
+msgid "Descending"
+msgstr "Silazno"
+
+#: app/browsemainpage.cpp:194
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Thumbnail Details"
+msgstr "Pojedinosti minijature"
+
+#: app/browsemainpage.cpp:195
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filename"
+msgstr "Naziv datoteke"
+
+#: app/browsemainpage.cpp:196
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Date"
+msgstr "Datum"
+
+#: app/browsemainpage.cpp:197
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Image Size"
+msgstr "Veličina slike"
+
+#: app/browsemainpage.cpp:198
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "File Size"
+msgstr "Veličina datoteke"
+
+#: app/browsemainpage.cpp:200
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rating"
+msgstr "Ocjena"
+
+#: app/browsemainpage.cpp:203
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "Show Hidden Files"
+msgstr "Prikaži skrivene datoteke"
+
+#: app/browsemainpage.cpp:209 app/fileopscontextmanageritem.cpp:133
+#: app/mainwindow.cpp:374
+#, kde-format
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Datoteka"
+
+#: app/browsemainpage.cpp:211
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add Folder to Places"
+msgstr "Dodaj mapu u Mjesta"
+
+#: app/browsemainpage.cpp:260
+#, kde-format
+msgctxt ""
+"@info:status %1 number of selected documents, %2 total number of documents, "
+"%3 total filesize of selected documents"
+msgid "Selected %1 of %2 (%3)"
+msgstr "Odabrano %1 od %2 (%3)"
+
+#: app/browsemainpage.cpp:266
+#, kde-format
+msgctxt "@info:status Image files"
+msgid "%1 image"
+msgid_plural "%1 images"
+msgstr[0] "%1 slika"
+msgstr[1] "%1 slike"
+msgstr[2] "%1 slika"
+
+#: app/browsemainpage.cpp:267
+#, kde-format
+msgctxt "@info:status Video files"
+msgid "%1 video"
+msgid_plural "%1 videos"
+msgstr[0] "%1 videozapis"
+msgstr[1] "%1 videozapisa"
+msgstr[2] "%1 videozapisa"
+
+#: app/browsemainpage.cpp:274
+#, kde-format
+msgctxt "@info:status images, videos"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
+#: app/browsemainpage.ui:88
+#, kde-format
+msgid "Add Filter"
+msgstr "Dodaj filtar"
+
+#: app/configdialog.cpp:69
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: app/configdialog.cpp:122
+#, kde-format
+msgid "Image View"
+msgstr "Prikaz slike"
+
+#: app/configdialog.cpp:133
+#, kde-format
+msgid "Advanced"
+msgstr "Napredno"
+
+#: app/fileoperations.cpp:63
+#, kde-format
+msgctxt "@title:window %1 file name"
+msgid "Copy %1"
+msgstr "Kopiraj %1"
+
+#: app/fileoperations.cpp:65
+#, kde-format
+msgctxt "@title:window %1 number of images"
+msgid "Copy %1 image"
+msgid_plural "Copy %1 images"
+msgstr[0] "Kopiraj %1 sliku"
+msgstr[1] "Kopiraj %1 slike"
+msgstr[2] "Kopiraj %1 slika"
+
+#: app/fileoperations.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: app/fileoperations.cpp:71
+#, kde-format
+msgctxt "@title:window %1 file name"
+msgid "Move %1"
+msgstr "Premjesti %1"
+
+#: app/fileoperations.cpp:73
+#, kde-format
+msgctxt "@title:window %1 number of images"
+msgid "Move %1 image"
+msgid_plural "Move %1 images"
+msgstr[0] "Premjesti %1 sliku"
+msgstr[1] "Premjesti %1 slike"
+msgstr[2] "Premjesti %1 slika"
+
+#: app/fileoperations.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Move"
+msgstr "Premjesti"
+
+#: app/fileoperations.cpp:79
+#, kde-format
+msgctxt "@title:window %1 file name"
+msgid "Link %1"
+msgstr "Poveži %1"
+
+#: app/fileoperations.cpp:81
+#, kde-format
+msgctxt "@title:window %1 number of images"
+msgid "Link %1 image"
+msgid_plural "Link %1 images"
+msgstr[0] "Poveži %1 sliku"
+msgstr[1] "Poveži %1 slike"
+msgstr[2] "Poveži %1 slika"
+
+#: app/fileoperations.cpp:83
+#, kde-format
+msgctxt "@action:button"
+msgid "Link"
+msgstr "Poveži"
+
+#: app/fileoperations.cpp:194
+#, kde-format
+msgid "Move Here"
+msgstr "Premjesti ovamo"
+
+#: app/fileoperations.cpp:195
+#, kde-format
+msgid "Copy Here"
+msgstr "Kopiraj ovamo"
+
+#: app/fileoperations.cpp:196
+#, kde-format
+msgid "Link Here"
+msgstr "Poveži ovamo"
+
+#: app/fileoperations.cpp:198
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: app/fileopscontextmanageritem.cpp:123
+#, kde-format
+msgid "File Operations"
+msgstr "Radnje s datotekama"
+
+#: app/fileopscontextmanageritem.cpp:134 app/semanticinfocontextmanageritem.cpp:203
+#, kde-format
+msgctxt "@title actions category"
+msgid "Edit"
+msgstr "Uredi"
+
+#: app/fileopscontextmanageritem.cpp:141
+#, kde-format
+msgctxt "Verb"
+msgid "Copy To..."
+msgstr "Kopiraj u..."
+
+#: app/fileopscontextmanageritem.cpp:146
+#, kde-format
+msgctxt "Verb"
+msgid "Move To..."
+msgstr "Premjesti u..."
+
+#: app/fileopscontextmanageritem.cpp:151
+#, kde-format
+msgctxt "Verb: create link to the file where user wants"
+msgid "Link To..."
+msgstr "Poveži s..."
+
+#: app/fileopscontextmanageritem.cpp:156
+#, kde-format
+msgctxt "Verb"
+msgid "Rename..."
+msgstr "Preimenuj..."
+
+#: app/fileopscontextmanageritem.cpp:161
+#, kde-format
+msgctxt "Verb"
+msgid "Trash"
+msgstr "Smeće"
+
+#: app/fileopscontextmanageritem.cpp:168
+#, kde-format
+msgid "Restore"
+msgstr "Vrati"
+
+#: app/fileopscontextmanageritem.cpp:172
+#, kde-format
+msgid "Properties"
+msgstr "Svojstva"
+
+#: app/fileopscontextmanageritem.cpp:177
+#, kde-format
+msgid "Create Folder..."
+msgstr "Stvori mapu..."
+
+#: app/fileopscontextmanageritem.cpp:181
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "Otvori u novom prozoru"
+
+#: app/fileopscontextmanageritem.cpp:186
+#, kde-format
+msgid "Open With"
+msgstr "Otvori pomoću"
+
+#: app/fileopscontextmanageritem.cpp:194
+#, kde-format
+msgid "Open Containing Folder"
+msgstr "Otvori nadređenu mapu"
+
+#: app/fileopscontextmanageritem.cpp:384
+#, kde-format
+msgid "Other Application..."
+msgstr "Druga aplikacija..."
+
+#: app/filtercontroller.cpp:59
+#, kde-format
+msgid "Name contains"
+msgstr "Naziv sadrži"
+
+#: app/filtercontroller.cpp:60
+#, kde-format
+msgid "Name does not contain"
+msgstr "Naziv ne sadrži"
+
+#: app/filtercontroller.cpp:98
+#, kde-format
+msgid "Date >="
+msgstr "Datum >="
+
+#: app/filtercontroller.cpp:99
+#, kde-format
+msgid "Date ="
+msgstr "Datum ="
+
+#: app/filtercontroller.cpp:100
+#, kde-format
+msgid "Date <="
+msgstr "Datum <="
+
+#: app/filtercontroller.cpp:131
+#, kde-format
+msgid "Rating >="
+msgstr "Ocjena >="
+
+#: app/filtercontroller.cpp:132
+#, kde-format
+msgid "Rating ="
+msgstr "Ocjena ="
+
+#: app/filtercontroller.cpp:133
+#, kde-format
+msgid "Rating <="
+msgstr "Ocjena <="
+
+#: app/filtercontroller.cpp:173
+#, kde-format
+msgid "Tagged"
+msgstr "Označeno"
+
+#: app/filtercontroller.cpp:174
+#, kde-format
+msgid "Not Tagged"
+msgstr "Nije označeno"
+
+#: app/filtercontroller.cpp:228
+#, kde-format
+msgid "Dimensions >="
+msgstr "Dimenzije >="
+
+#: app/filtercontroller.cpp:229
+#, kde-format
+msgid "Dimensions ="
+msgstr "Dimenzije ="
+
+#: app/filtercontroller.cpp:230
+#, kde-format
+msgid "Dimensions <="
+msgstr "Dimenzije <="
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/filtercontroller.cpp:237 lib/crop/cropwidget.cpp:221
+#: lib/resize/resizeimagewidget.ui:40
+#, kde-format
+msgid "Height"
+msgstr "Visina"
+
+#. i18n("%1:%2") because ':' should not be translated, it is
+#. used to parse the ratio string.
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/filtercontroller.cpp:239 lib/crop/cropwidget.cpp:221
+#: lib/resize/resizeimagewidget.ui:30
+#, kde-format
+msgid "Width"
+msgstr "Širina"
+
+#: app/filtercontroller.cpp:329
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Name"
+msgstr "Filtriraj po nazivu"
+
+#: app/filtercontroller.cpp:331
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Date"
+msgstr "Filtriraj po datumu"
+
+#: app/filtercontroller.cpp:334
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Rating"
+msgstr "Filtriraj po ocjeni"
+
+#: app/filtercontroller.cpp:336
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Tag"
+msgstr "Filtriraj po oznaci"
+
+#: app/filtercontroller.cpp:338
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Filter by Dimensions"
+msgstr "Filtriraj po dimenzijama"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: app/fullscreenconfigwidget.ui:20
+#, kde-format
+msgid "Slideshow"
+msgstr "Dijaprojekcija"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/fullscreenconfigwidget.ui:29
+#, kde-format
+msgid "Interval:"
+msgstr "Razmak:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowLoopCheckBox)
+#: app/fullscreenconfigwidget.ui:75
+#, kde-format
+msgid "Loop"
+msgstr "Ponavljaj u petlji"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSlideShowRandomCheckBox)
+#: app/fullscreenconfigwidget.ui:82
+#, kde-format
+msgid "Random"
+msgstr "Nasumično"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: app/fullscreenconfigwidget.ui:92
+#, kde-format
+msgid "Image Information"
+msgstr "Informacije o slici"
+
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureDisplayedInformationButton)
+#: app/fullscreenconfigwidget.ui:101
+#, kde-format
+msgid "Select Image Information to Display..."
+msgstr "Odaberi informacije o slici za prikaz..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, mThumbnailGroupBox)
+#: app/fullscreenconfigwidget.ui:111
+#, kde-format
+msgid "Thumbnails"
+msgstr "Minijature"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mShowThumbnailsCheckBox)
+#: app/fullscreenconfigwidget.ui:120
+#, kde-format
+msgid "Show thumbnails"
+msgstr "Prikaži minijature"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/fullscreenconfigwidget.ui:130
+#, kde-format
+msgid "Height:"
+msgstr "Visina:"
+
+#: app/fullscreencontent.cpp:238
+#, kde-format
+msgctxt "@item:intext fullscreen meta info separator"
+msgid ", "
+msgstr ", "
+
+#: app/fullscreencontent.cpp:288
+#, kde-format
+msgctxt "Slideshow interval in seconds"
+msgid "%1 sec"
+msgid_plural "%1 secs"
+msgstr[0] "%1 s"
+msgstr[1] "%1 s"
+msgstr[2] "%1 s"
+
+#: app/fullscreencontent.cpp:399
+#, kde-format
+msgid "Configure"
+msgstr "Konfiguriraj"
+
+#: app/fullscreencontent.cpp:400
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure full screen mode"
+msgstr "Konfiguriraj prikaz preko cijelog zaslona"
+
+#: app/fullscreencontent.cpp:551 app/viewmainpage.cpp:389
+#, kde-format
+msgctxt "@info:status %1 current document index, %2 total documents"
+msgid "%1 of %2"
+msgstr "%1 od %2"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/generalconfigpage.ui:17
+#, kde-format
+msgid "Videos:"
+msgstr "Videozapisi:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
+#: app/generalconfigpage.ui:27
+#, kde-format
+msgid "Show videos"
+msgstr "Prikaži videozapise"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoplayVideos)
+#: app/generalconfigpage.ui:34
+#, kde-format
+msgid "Automatically play"
+msgstr "Automatski reproduciraj"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: app/generalconfigpage.ui:57
+#, kde-format
+msgid "Notify after reaching the last image:"
+msgstr "Obavijesti nakon dolaska do posljednje slike:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, neverShowWrapNoticeRadioButton)
+#: app/generalconfigpage.ui:67
+#, kde-format
+msgid "Never"
+msgstr "Nikad"
+
+#. i18n: ectx: property (text), widget (QRadioButton, wrapNoticeOnSlideshowRadioButton)
+#: app/generalconfigpage.ui:74
+#, kde-format
+msgid "Only during slideshows"
+msgstr "Samo tijekom dijaprojekcije"
+
+#. i18n: ectx: property (text), widget (QRadioButton, alwaysShowWrapNoticeRadioButton)
+#: app/generalconfigpage.ui:81
+#, kde-format
+msgid "Always"
+msgstr "Uvijek"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/generalconfigpage.ui:88
+#, kde-format
+msgid "After the last image:"
+msgstr "Nakon posljednje slike:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WrapAfterLast)
+#: app/generalconfigpage.ui:95
+#, kde-format
+msgid "Start over"
+msgstr "Počni ispočetka"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/generalconfigpage.ui:118
+#, kde-format
+msgid "Fullscreen background:"
+msgstr "Pozadina prikaza preko cijelog zaslona:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fullscreenBackgroundImageRadioButton)
+#: app/generalconfigpage.ui:128
+#, kde-format
+msgid "Dark gray texture"
+msgstr "Tekstura tamnosive boje"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fullscreenBackgroundBlackRadioButton)
+#: app/generalconfigpage.ui:135
+#, kde-format
+msgid "Black"
+msgstr "Crna"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: app/generalconfigpage.ui:158
+#, kde-format
+msgid "Lossy image save quality:"
+msgstr "Kvaliteta spremanja slika s gubitkom:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, jpegQualitySpinner)
+#: app/generalconfigpage.ui:198
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, lossyImageFormatHelpLabel)
+#: app/generalconfigpage.ui:226
+#, kde-format
+msgid ""
+"The quality level when saving images using lossy image formats such as JPEG, "
+"WEBP, AVIF, HEIF, and HEIC. Higher quality increases the file size."
+msgstr "Razina kvalitete pri spremanju slika u formatima s gubitkom kao što su JPEG, WEBP, AVIF, HEIF i HEIC. Veća kvaliteta povećava veličinu datoteke."
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/generalconfigpage.ui:252
+#, kde-format
+msgid "Thumbnail actions:"
+msgstr "Radnje minijatura:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:259
+#, kde-format
+msgid "All buttons"
+msgstr "Svi gumbi"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:266
+#, kde-format
+msgid "Show selection button only"
+msgstr "Prikaži samo gumb za odabir"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:273
+#, kde-format
+msgctxt "A number of thumbnail actions to show"
+msgid "None"
+msgstr "Ništa"
+
+#: app/gvcore.cpp:83
+#, kde-format
+msgid "Image &quality:"
+msgstr "&Kvaliteta slike:"
+
+#: app/gvcore.cpp:90
+#, kde-format
+msgctxt "@label:spinbox Percentage 1-100"
+msgid "%v%"
+msgstr "%v%"
+
+#: app/gvcore.cpp:116
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Image"
+msgstr "Spremi sliku"
+
+#: app/gvcore.cpp:421
+#, kde-format
+msgid "Save using another format"
+msgstr "Spremi u drugom formatu"
+
+#: app/gvcore.cpp:423
+#, kde-format
+msgid "Gwenview cannot save images in '%1' format."
+msgstr "Gwenview ne može spremiti slike u formatu „%1”."
+
+#: app/gvcore.cpp:451
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save images as %1."
+msgstr "Gwenview ne može spremiti slike kao %1."
+
+#: app/gvcore.cpp:469 app/gvcore.cpp:503
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<emphasis strong='true'>Saving <filename>%1</filename> failed:</"
+"emphasis><nl />%2"
+msgstr "<emphasis strong='true'>Spremanje datoteke <filename>%1</filename> nije uspjelo:</emphasis><nl />%2"
+
+#: app/gvcore.cpp:519
+#, kde-format
+msgid "You are now viewing the new document."
+msgstr "Sada pregledavate novi dokument."
+
+#: app/gvcore.cpp:521
+#, kde-format
+msgid "Go back to the original"
+msgstr "Vrati se na izvornik"
+
+#. i18n: ectx: Menu (rating)
+#: app/gwenviewui.rc:57
+#, kde-format
+msgid "&Rating"
+msgstr "&Ocjena"
+
+#. i18n: ectx: Menu (settings)
+#: app/gwenviewui.rc:87
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/gwenviewui.rc:93 part/gvpart.rc:16
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Glavna alatna traka"
+
+#: app/imagemetainfodialog.cpp:129
+#, kde-format
+msgctxt "@title:window"
+msgid "Image Information"
+msgstr "Informacije o slici"
+
+#: app/imageopscontextmanageritem.cpp:90
+#, kde-format
+msgctxt "@title actions category - means actions changing image"
+msgid "Edit"
+msgstr "Uredi"
+
+#: app/imageopscontextmanageritem.cpp:93
+#, kde-format
+msgid "Rotate Left"
+msgstr "Zakreni ulijevo"
+
+#: app/imageopscontextmanageritem.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate image to the left"
+msgstr "Zakreni sliku ulijevo"
+
+#: app/imageopscontextmanageritem.cpp:99
+#, kde-format
+msgid "Rotate Right"
+msgstr "Zakreni udesno"
+
+#: app/imageopscontextmanageritem.cpp:100
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate image to the right"
+msgstr "Zakreni sliku udesno"
+
+#: app/imageopscontextmanageritem.cpp:105
+#, kde-format
+msgid "Mirror"
+msgstr "Zrcali"
+
+#: app/imageopscontextmanageritem.cpp:109
+#, kde-format
+msgid "Flip"
+msgstr "Preokreni"
+
+#: app/imageopscontextmanageritem.cpp:113
+#: lib/resize/resizeimagedialog.cpp:71
+#, kde-format
+msgid "Resize"
+msgstr "Promijeni veličinu"
+
+#: app/imageopscontextmanageritem.cpp:118
+#: lib/crop/cropimageoperation.cpp:70 lib/crop/cropwidget.cpp:262
+#, kde-format
+msgid "Crop"
+msgstr "Obreži"
+
+#: app/imageopscontextmanageritem.cpp:123
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Adjust Colors"
+msgstr "Prilagodi boje"
+
+#: app/imageopscontextmanageritem.cpp:128
+#: lib/redeyereduction/redeyereductionimageoperation.cpp:75
+#: lib/redeyereduction/redeyereductiontool.cpp:48
+#, kde-format
+msgid "Reduce Red Eye"
+msgstr "Ukloni efekt crvenih očiju"
+
+#: app/imageopscontextmanageritem.cpp:133
+#: lib/annotate/annotateoperation.cpp:51
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Annotate"
+msgstr "Dodaj napomenu"
+
+#: app/imageopscontextmanageritem.cpp:141
+#, kde-format
+msgctxt "@title:window Annotate [filename]"
+msgid "Annotate %1"
+msgstr "Dodaj napomenu: %1"
+
+#: app/imageopscontextmanageritem.cpp:164
+#: lib/document/documentjob.cpp:77
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot edit this kind of image."
+msgstr "Gwenview ne može uređivati ovu vrstu slike."
+
+#: app/imageopscontextmanageritem.cpp:175
+#, kde-format
+msgid "Image Operations"
+msgstr "Radnje sa slikama"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: app/imageviewconfigpage.ui:17
+#, kde-format
+msgid "Show transparency with:"
+msgstr "Prikaži prozirnost pomoću:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, surroundingRadioButton)
+#: app/imageviewconfigpage.ui:38
+#, kde-format
+msgid "Surrounding background"
+msgstr "Okolna pozadina"
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkBoardRadioButton)
+#: app/imageviewconfigpage.ui:71
+#, kde-format
+msgid "&Checkerboard background"
+msgstr "Pozadina s uzorkom &šahovnice"
+
+#. i18n: ectx: property (text), widget (QRadioButton, solidColorRadioButton)
+#: app/imageviewconfigpage.ui:104
+#, kde-format
+msgid "&Solid color background:"
+msgstr "Pozadina jednolične &boje:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/imageviewconfigpage.ui:152
+#, kde-format
+msgid "Mouse wheel behavior:"
+msgstr "Ponašanje kotačića miša:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelScrollRadioButton)
+#: app/imageviewconfigpage.ui:167
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Scroll"
+msgstr "Pomicanje"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelBrowseRadioButton)
+#: app/imageviewconfigpage.ui:194
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Browse"
+msgstr "Pregledaj"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelZoomRadioButton)
+#: app/imageviewconfigpage.ui:218
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Zoom"
+msgstr "Zumiranje"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/imageviewconfigpage.ui:256
+#, kde-format
+msgid "Zoom mode:"
+msgstr "Način zumiranja:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, autofitZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:271
+#, kde-format
+msgid "Autofit each image"
+msgstr "Automatski prilagodi svaku sliku"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keepSameZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:298
+#, kde-format
+msgid "Keep same zoom and position"
+msgstr "Zadrži isto uvećanje i položaj"
+
+#. i18n: ectx: property (text), widget (QRadioButton, individualZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:322
+#, kde-format
+msgid "Per image zoom and position"
+msgstr "Uvećanje i položaj za svaku sliku zasebno"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
+#: app/imageviewconfigpage.ui:362 lib/print/printoptionspage.ui:98
+#, kde-format
+msgid "Enlarge smaller images"
+msgstr "Povećaj manje slike"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: app/imageviewconfigpage.ui:400
+#, kde-format
+msgid "Animations:"
+msgstr "Animacije:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
+#: app/imageviewconfigpage.ui:415
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
+#: app/imageviewconfigpage.ui:442
+#, kde-format
+msgid "Software"
+msgstr "Softverski"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
+#: app/imageviewconfigpage.ui:466
+#, kde-format
+msgid "None"
+msgstr "Ništa"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/imageviewconfigpage.ui:504
+#, kde-format
+msgid "<b>Thumbnail Bar</b>"
+msgstr "<b>Traka s minijaturama</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: app/imageviewconfigpage.ui:527
+#, kde-format
+msgid "Orientation:"
+msgstr "Usmjerenje:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
+#: app/imageviewconfigpage.ui:542
+#, kde-format
+msgid "Horizontal"
+msgstr "Vodoravno"
+
+#. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
+#: app/imageviewconfigpage.ui:566
+#, kde-format
+msgid "Vertical"
+msgstr "Okomito"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: app/imageviewconfigpage.ui:588
+#, kde-format
+msgid "Row count:"
+msgstr "Broj redaka:"
+
+#: app/infocontextmanageritem.cpp:150
+#, kde-format
+msgctxt ""
+"@item:intext %1 is a key, we append a colon to it. A value is displayed after"
+msgid "%1:"
+msgstr "%1:"
+
+#: app/infocontextmanageritem.cpp:227
+#, kde-format
+msgctxt "@action show more image meta info"
+msgid "Show more details..."
+msgstr "Prikaži više pojedinosti..."
+
+#: app/infocontextmanageritem.cpp:241
+#, kde-format
+msgctxt "@title:group"
+msgid "Image Information"
+msgstr "Informacije o slici"
+
+#: app/infocontextmanageritem.cpp:330
+#, kde-format
+msgctxt "@label"
+msgid "%1 file selected"
+msgid_plural "%1 files selected"
+msgstr[0] "Odabrana je %1 datoteka"
+msgstr[1] "Odabrane su %1 datoteke"
+msgstr[2] "Odabrano je %1 datoteka"
+
+#: app/infocontextmanageritem.cpp:332
+#, kde-format
+msgctxt "@label"
+msgid "%1 folder selected"
+msgid_plural "%1 folders selected"
+msgstr[0] "Odabrana je %1 mapa"
+msgstr[1] "Odabrane su %1 mape"
+msgstr[2] "Odabrano je %1 mapa"
+
+#: app/infocontextmanageritem.cpp:335
+#, kde-format
+msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
+msgid "%1 and %2 selected"
+msgstr "Odabrano: %1 i %2"
+
+#: app/infocontextmanageritem.cpp:336
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 mapa"
+msgstr[1] "%1 mape"
+msgstr[2] "%1 mapa"
+
+#: app/infocontextmanageritem.cpp:337
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 datoteka"
+msgstr[1] "%1 datoteke"
+msgstr[2] "%1 datoteka"
+
+#: app/main.cpp:211
+#, kde-format
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/main.cpp:213
+#, kde-format
+msgid "An Image Viewer"
+msgstr "Preglednik slika"
+
+#: app/main.cpp:223
+#, kde-format
+msgid "Start in fullscreen mode"
+msgstr "Pokreni u prikazu preko cijelog zaslona"
+
+#: app/main.cpp:224
+#, kde-format
+msgid "Start in slideshow mode"
+msgstr "Pokreni u načinu dijaprojekcije"
+
+#: app/main.cpp:225
+#, kde-format
+msgid "Start in spotlight mode"
+msgstr "Pokreni u načinu istaknutog prikaza"
+
+#: app/main.cpp:226
+#, kde-format
+msgid "A starting file or folders"
+msgstr "Početna datoteka ili mape"
+
+#: app/mainwindow.cpp:384
+#, kde-format
+msgctxt "@action Open Recent menu"
+msgid "Clear List"
+msgstr "Očisti popis"
+
+#: app/mainwindow.cpp:392
+#, kde-format
+msgctxt "@action reload the currently viewed image"
+msgid "Reload"
+msgstr "Ponovno učitaj"
+
+#: app/mainwindow.cpp:397
+#, kde-format
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "Zamijeni lokaciju"
+
+#: app/mainwindow.cpp:402
+#, kde-format
+msgctxt "@action:intoolbar Switch to file list"
+msgid "Browse"
+msgstr "Pregledaj"
+
+#: app/mainwindow.cpp:403
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Browse folders for images"
+msgstr "Pregledaj mape sa slikama"
+
+#: app/mainwindow.cpp:410
+#, kde-format
+msgctxt "@action:intoolbar Switch to image view"
+msgid "View"
+msgstr "Prikaz"
+
+#: app/mainwindow.cpp:411
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "View selected images"
+msgstr "Prikaži odabrane slike"
+
+#: app/mainwindow.cpp:430
+#, kde-format
+msgctxt "@action"
+msgid "Exit Full Screen"
+msgstr "Izađi iz prikaza preko cijelog zaslona"
+
+#: app/mainwindow.cpp:434
+#, kde-format
+msgctxt "@action"
+msgid "Spotlight Mode"
+msgstr "Način istaknutog prikaza"
+
+#: app/mainwindow.cpp:440
+#, kde-format
+msgctxt "@action Go to previous image"
+msgid "Previous"
+msgstr "Prethodna"
+
+#: app/mainwindow.cpp:441
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to previous image"
+msgstr "Idi na prethodnu sliku"
+
+#: app/mainwindow.cpp:447
+#, kde-format
+msgctxt "@action Go to next image"
+msgid "Next"
+msgstr "Sljedeća"
+
+#: app/mainwindow.cpp:448
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to next image"
+msgstr "Idi na sljedeću sliku"
+
+#: app/mainwindow.cpp:454
+#, kde-format
+msgctxt "@action Go to first image"
+msgid "First"
+msgstr "Prva"
+
+#: app/mainwindow.cpp:455
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to first image"
+msgstr "Idi na prvu sliku"
+
+#: app/mainwindow.cpp:461
+#, kde-format
+msgctxt "@action Go to last image"
+msgid "Last"
+msgstr "Posljednja"
+
+#: app/mainwindow.cpp:462
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go to last image"
+msgstr "Idi na posljednju sliku"
+
+#: app/mainwindow.cpp:472
+#, kde-format
+msgctxt "@action"
+msgid "Start Page"
+msgstr "Početna stranica"
+
+#: app/mainwindow.cpp:473
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open the start page"
+msgstr "Otvori početnu stranicu"
+
+#: app/mainwindow.cpp:480
+#, kde-format
+msgctxt "@action"
+msgid "Sidebar"
+msgstr "Bočna traka"
+
+#: app/mainwindow.cpp:485
+#, kde-format
+msgctxt "@action opens crop, rename, etc."
+msgid "Show Editing Tools"
+msgstr "Prikaži alate za uređivanje"
+
+#: app/mainwindow.cpp:520
+#, kde-format
+msgctxt "@action Share images"
+msgid "Share"
+msgstr "Dijeli"
+
+#: app/mainwindow.cpp:529
+#, kde-format
+msgid "Error while sharing: %1"
+msgstr "Pogreška pri dijeljenju: %1"
+
+#: app/mainwindow.cpp:536
+#, kde-format
+msgid ""
+"The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+"clipboard."
+msgstr "Poveznica na podijeljenu sliku (<a href=\"%1\">%1</a>) kopirana je u međuspremnik."
+
+#: app/mainwindow.cpp:586
+#, kde-format
+msgctxt "@title:menu submenu for actions that open configuration dialogs"
+msgid "Configure"
+msgstr "Konfiguriraj"
+
+#: app/mainwindow.cpp:601
+#, kde-format
+msgctxt "@title actions category - means actions changing smth in interface"
+msgid "Edit"
+msgstr "Uredi"
+
+#: app/mainwindow.cpp:606
+#, kde-format
+msgid "Redo"
+msgstr "Ponovi"
+
+#: app/mainwindow.cpp:614
+#, kde-format
+msgid "Undo"
+msgstr "Poništi"
+
+#: app/mainwindow.cpp:641
+#, kde-format
+msgid "Folders"
+msgstr "Mape"
+
+#: app/mainwindow.cpp:647
+#, kde-format
+msgid "Information"
+msgstr "Informacije"
+
+#: app/mainwindow.cpp:686
+#, kde-format
+msgid "Operations"
+msgstr "Radnje"
+
+#: app/mainwindow.cpp:955
+#, kde-format
+msgid "Viewing media"
+msgstr "Pregledavanje medija"
+
+#: app/mainwindow.cpp:1441
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide sidebar"
+msgstr "Sakrij bočnu traku"
+
+#: app/mainwindow.cpp:1441
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show sidebar"
+msgstr "Prikaži bočnu traku"
+
+#: app/mainwindow.cpp:1791
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "Otvori sliku"
+
+#: app/mainwindow.cpp:1852
+#, kde-format
+msgid "Pause Slideshow"
+msgstr "Pauziraj dijaprojekciju"
+
+#: app/mainwindow.cpp:1855
+#, kde-format
+msgid "Resume Slideshow"
+msgstr "Nastavi dijaprojekciju"
+
+#: app/mainwindow.cpp:1855
+#, kde-format
+msgid "Start Slideshow"
+msgstr "Pokreni dijaprojekciju"
+
+#: app/mainwindow.cpp:1868
+#, kde-format
+msgid "Save All Changes"
+msgstr "Spremi sve promjene"
+
+#: app/mainwindow.cpp:1869
+#, kde-format
+msgid "Discard Changes"
+msgstr "Odbaci promjene"
+
+#: app/mainwindow.cpp:1871
+#, kde-format
+msgid "One image has been modified."
+msgid_plural "%1 images have been modified."
+msgstr[0] "Jedna je slika izmijenjena."
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/mainwindow.cpp:1871
+#, kde-format
+msgid "If you quit now, your changes will be lost."
+msgstr "Ako sada izađete, promjene će biti izgubljene."
+
+#: app/mainwindow.cpp:1914
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr "Time će se traka izbornika potpuno sakriti. Ponovno je možete prikazati pritiskom na %1."
+
+#: app/mainwindow.cpp:1917
+#, kde-format
+msgid "Hide menu bar"
+msgstr "Sakrij traku izbornika"
+
+#: app/mainwindow.cpp:2138
+#, kde-format
+msgid "You reached the first document, what do you want to do?"
+msgstr "Stigli ste do prvog dokumenta. Što želite učiniti?"
+
+#: app/mainwindow.cpp:2139 app/mainwindow.cpp:2153
+#, kde-format
+msgid "Stay There"
+msgstr "Ostani ovdje"
+
+#: app/mainwindow.cpp:2140
+#, kde-format
+msgid "Go to the Last Document"
+msgstr "Idi na posljednji dokument"
+
+#: app/mainwindow.cpp:2141 app/mainwindow.cpp:2155
+#, kde-format
+msgid "Go Back to the Document List"
+msgstr "Vrati se na popis dokumenata"
+
+#: app/mainwindow.cpp:2152
+#, kde-format
+msgid "You reached the last document, what do you want to do?"
+msgstr "Stigli ste do posljednjeg dokumenta. Što želite učiniti?"
+
+#: app/mainwindow.cpp:2154
+#, kde-format
+msgid "Go to the First Document"
+msgstr "Idi na prvi dokument"
+
+#: app/renamedialog.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: app/renamedialog.cpp:61
+#, kde-kuit-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "Preimenuj <filename>%1</filename> u:"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#: app/renamedialog.ui:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: app/saveallhelper.cpp:54
+#, kde-format
+msgctxt "@info:progress saving all image changes"
+msgid "Saving..."
+msgstr "Spremanje..."
+
+#: app/saveallhelper.cpp:55
+#, kde-format
+msgid "&Stop"
+msgstr "&Zaustavi"
+
+#: app/saveallhelper.cpp:80
+#, kde-format
+msgctxt "@info"
+msgid "One document could not be saved:"
+msgid_plural "%1 documents could not be saved:"
+msgstr[0] "Jedan dokument nije moguće spremiti:"
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/saveallhelper.cpp:104
+#, kde-kuit-format
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
+msgid "<filename>%1</filename>: %2"
+msgstr "<filename>%1</filename>: %2"
+
+#: app/savebar.cpp:54
+#, kde-format
+msgid ""
+"You have modified many images. To avoid memory problems, you should save "
+"your changes."
+msgstr "Izmijenili ste mnogo slika. Da biste izbjegli probleme s memorijom, trebali biste spremiti promjene."
+
+#: app/savebar.cpp:80
+#, kde-format
+msgid "Current image modified"
+msgstr "Trenutačna izmijenjena slika"
+
+#: app/savebar.cpp:93
+#, kde-format
+msgid "Previous modified image"
+msgstr "Prethodna izmijenjena slika"
+
+#: app/savebar.cpp:94
+#, kde-format
+msgid "Next modified image"
+msgstr "Sljedeća izmijenjena slika"
+
+#: app/savebar.cpp:107
+#, kde-format
+msgid "One image modified"
+msgid_plural "%1 images modified"
+msgstr[0] "Jedna izmijenjena slika"
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/savebar.cpp:109
+#, kde-format
+msgid "Go to first modified image"
+msgstr "Idi na prvu izmijenjenu sliku"
+
+#: app/savebar.cpp:111
+#, kde-format
+msgid "Go to it"
+msgstr "Idi na nju"
+
+#: app/savebar.cpp:134
+#, kde-format
+msgid "Save All"
+msgstr "Spremi sve"
+
+#: app/savebar.cpp:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save all modified images"
+msgstr "Spremi sve izmijenjene slike"
+
+#: app/semanticinfocontextmanageritem.cpp:186
+#, kde-format
+msgid "Edit"
+msgstr "Uredi"
+
+#: app/semanticinfocontextmanageritem.cpp:206
+#, kde-format
+msgctxt "@action"
+msgid "Edit Tags"
+msgstr "Uredi oznake"
+
+#: app/semanticinfocontextmanageritem.cpp:215
+#, kde-format
+msgctxt "@action Rating value of zero"
+msgid "Zero"
+msgstr "Nula"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SemanticInfoDialog)
+#: app/semanticinfodialog.ui:13
+#, kde-format
+msgid "Tag Editor"
+msgstr "Uređivač oznaka"
+
+#. i18n: ectx: property (text), widget (QPushButton, mPreviousButton)
+#: app/semanticinfodialog.ui:31
+#, kde-format
+msgid "Previous"
+msgstr "Prethodna"
+
+#. i18n: ectx: property (text), widget (QPushButton, mNextButton)
+#: app/semanticinfodialog.ui:38
+#, kde-format
+msgid "Next"
+msgstr "Sljedeća"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/semanticinfosidebaritem.ui:22
+#, kde-format
+msgid "Rating:"
+msgstr "Ocjena:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: app/semanticinfosidebaritem.ui:45
+#, kde-format
+msgid "Tags:"
+msgstr "Oznake:"
+
+#. i18n: ectx: property (placeholderText), widget (QTextEdit, mDescriptionTextEdit)
+#: app/semanticinfosidebaritem.ui:73
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#: app/slideshowfileitemaction.cpp:62
+#, kde-format
+msgctxt "@action:inmenu Start a slideshow Dolphin context menu"
+msgid "Start a Slideshow"
+msgstr "Pokreni dijaprojekciju"
+
+#: app/slideshowfileitemaction.cpp:67
+#, kde-format
+msgctxt "@action:inmenu Start a slideshow Dolphin context menu"
+msgid "Start a Slideshow with selected images"
+msgstr "Pokreni dijaprojekciju odabranih slika"
+
+#: app/startmainpage.cpp:290
+#, kde-format
+msgctxt "@action Recent Folders view"
+msgid "Add Folder to Places"
+msgstr "Dodaj mapu u Mjesta"
+
+#: app/startmainpage.cpp:291
+#, kde-format
+msgctxt "@action Recent Folders view"
+msgid "Forget This Folder"
+msgstr "Zaboravi ovu mapu"
+
+#: app/startmainpage.cpp:292
+#, kde-format
+msgctxt "@action Recent Folders view"
+msgid "Forget All Folders"
+msgstr "Zaboravi sve mape"
+
+#: app/startmainpage.cpp:294
+#, kde-format
+msgctxt "@action Recent Files view"
+msgid "Add Containing Folder to Places"
+msgstr "Dodaj nadređenu mapu u Mjesta"
+
+#: app/startmainpage.cpp:295
+#, kde-format
+msgctxt "@action Recent Files view"
+msgid "Forget This File"
+msgstr "Zaboravi ovu datoteku"
+
+#: app/startmainpage.cpp:296
+#, kde-format
+msgctxt "@action Recent Files view"
+msgid "Forget All Files"
+msgstr "Zaboravi sve datoteke"
+
+#. i18n: ectx: property (text), widget (QLabel, mHistoryDisabledLabel)
+#: app/startmainpage.ui:49
+#, kde-format
+msgid "History has been disabled."
+msgstr "Povijest je onemogućena."
+
+#. i18n: ectx: attribute (title), widget (QWidget, mRecentFoldersTab)
+#: app/startmainpage.ui:66
+#, kde-format
+msgid "Recent Folders"
+msgstr "Nedavne mape"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mRecentFilesTab)
+#: app/startmainpage.ui:92
+#, kde-format
+msgid "Recent Files"
+msgstr "Nedavne datoteke"
+
+#. i18n: ectx: attribute (title), widget (KFilePlacesView, mBookmarksView)
+#: app/startmainpage.ui:143
+#, kde-format
+msgid "Places"
+msgstr "Mjesta"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tagsTab)
+#: app/startmainpage.ui:154
+#, kde-format
+msgid "Tags"
+msgstr "Oznake"
+
+#. i18n: ectx: property (text), widget (QLabel, mTagLabel)
+#: app/startmainpage.ui:172
+#, kde-format
+msgid ""
+"Browsing by tags is not available. Make sure Nepomuk is properly installed "
+"on your computer."
+msgstr "Pregledavanje prema oznakama nije dostupno. Provjerite je li Nepomuk pravilno instaliran na računalu."
+
+#: app/viewmainpage.cpp:148 app/viewmainpage.cpp:432
+#, kde-format
+msgid "Synchronize"
+msgstr "Sinkroniziraj"
+
+#: app/viewmainpage.cpp:413
+#, kde-format
+msgid "Show Thumbnails"
+msgstr "Prikaži minijature"
+
+#. i18n: For languages that are read right to left, "right side" refers to the left side in this context.
+#: app/viewmainpage.cpp:416
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This toggles a small bar showing all the other images in the current "
+"folder. Selecting one of them changes the currently viewed image.</"
+"para><para>Select multiple images at the same time to see them side by side."
+"</para><para>The bar can optionally be moved to the right side of the screen "
+"and contain multiple rows of images; <link url='%1'>configure these options "
+"in the settings</link>.</para>"
+msgstr "<para>Ovo uključuje ili isključuje malu traku sa svim ostalim slikama u trenutačnoj mapi. Odabirom jedne od njih mijenja se trenutačno prikazana slika.</para><para>Odaberite više slika istodobno kako biste ih vidjeli jednu uz drugu.</para><para>Traku po želji možete premjestiti na desnu stranu zaslona i prikazati više redaka slika; <link url='%1'>te mogućnosti konfigurirajte u postavkama</link>.</para>"
+
+#: app/viewmainpage.cpp:571
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Background Color Mode"
+msgstr "Način boje pozadine"
+
+#: app/viewmainpage.cpp:763
+#, kde-format
+msgctxt "@action:button"
+msgid "Discard Changes and Reload"
+msgstr "Odbaci promjene i ponovno učitaj"
+
+#: app/viewmainpage.cpp:765
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This image has been modified. Reloading it will discard all your changes."
+msgstr "Ova je slika izmijenjena. Ponovnim učitavanjem odbacit ćete sve promjene."
+
+#: importer/dialogpage.cpp:52
+#, kde-format
+msgid "Show failed files..."
+msgstr "Prikaži neuspjele datoteke..."
+
+#: importer/dialogpage.cpp:57
+#, kde-format
+msgid "Show failed subfolders..."
+msgstr "Prikaži neuspjele podmape..."
+
+#: importer/dialogpage.cpp:71
+#, kde-format
+msgid "Failed to import %1 document."
+msgid_plural "Failed to import %1 documents."
+msgstr[0] "Uvoz %1 dokumenta nije uspio."
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/dialogpage.cpp:78
+#, kde-format
+msgid "Failed to create %1 destination subfolder."
+msgid_plural "Failed to create %1 destination subfolders."
+msgstr[0] "Stvaranje %1 odredišne podmape nije uspjelo."
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/dialogpage.cpp:89
+#, kde-format
+msgid "Failed to import documents:"
+msgstr "Uvoz dokumenata nije uspio:"
+
+#: importer/dialogpage.cpp:95
+#, kde-format
+msgid "Failed to create subfolders:"
+msgstr "Stvaranje podmapa nije uspjelo:"
+
+#: importer/filenameformater.cpp:102
+#, kde-format
+msgid "Shooting date"
+msgstr "Datum snimanja"
+
+#: importer/filenameformater.cpp:103
+#, kde-format
+msgid "Shooting time"
+msgstr "Vrijeme snimanja"
+
+#: importer/filenameformater.cpp:104
+#, kde-format
+msgid "Original extension"
+msgstr "Izvorni nastavak"
+
+#: importer/filenameformater.cpp:105
+#, kde-format
+msgid "Original extension, in lower case"
+msgstr "Izvorni nastavak malim slovima"
+
+#: importer/filenameformater.cpp:106
+#, kde-format
+msgid "Original filename"
+msgstr "Izvorni naziv datoteke"
+
+#: importer/filenameformater.cpp:107
+#, kde-format
+msgid "Original filename, in lower case"
+msgstr "Izvorni naziv datoteke malim slovima"
+
+#: importer/importdialog.cpp:93
+#, kde-format
+msgid "One document has been imported."
+msgid_plural "%1 documents have been imported."
+msgstr[0] "Uvezen je jedan dokument."
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:95
+#, kde-format
+msgid "One document has been skipped because it had already been imported."
+msgid_plural ""
+"%1 documents have been skipped because they had already been imported."
+msgstr[0] "Preskočen je jedan dokument jer je već bio uvezen."
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:103
+#, kde-format
+msgid ""
+"One of them has been renamed because another document with the same name had "
+"already been imported."
+msgid_plural ""
+"%1 of them have been renamed because other documents with the same name had "
+"already been imported."
+msgstr[0] "Jedan je preimenovan jer je već bio uvezen drugi dokument istog naziva."
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:111
+#, kde-format
+msgid "Delete the imported document from the device?"
+msgid_plural "Delete the %1 imported documents from the device?"
+msgstr[0] "Izbrisati uvezeni dokument s uređaja?"
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:113
+#, kde-format
+msgid "Delete the skipped document from the device?"
+msgid_plural "Delete the %1 skipped documents from the device?"
+msgstr[0] "Izbrisati preskočeni dokument s uređaja?"
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:116
+#, kde-format
+msgctxt "Singular sentence is actually never used."
+msgid "Delete the imported or skipped document from the device?"
+msgid_plural "Delete the %1 imported and skipped documents from the device?"
+msgstr[0] "Izbrisati uvezeni ili preskočeni dokument s uređaja?"
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:123
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Finished"
+msgstr "Uvoz je dovršen"
+
+#: importer/importdialog.cpp:124
+#, kde-format
+msgid "Keep"
+msgstr "Zadrži"
+
+#: importer/importdialog.cpp:138
+#, kde-format
+msgid ""
+"Failed to delete the document:\n"
+"%2"
+msgid_plural ""
+"Failed to delete documents:\n"
+"%2"
+msgstr[0] "Brisanje dokumenta nije uspjelo:\n%2"
+msgstr[1] ""
+msgstr[2] ""
+
+#: importer/importdialog.cpp:140
+#, kde-format
+msgid "Retry"
+msgstr "Pokušaj ponovno"
+
+#: importer/importdialog.cpp:141
+#, kde-format
+msgid "Ignore"
+msgstr "Zanemari"
+
+#: importer/importdialog.cpp:165
+#, kde-format
+msgid "What do you want to do now?"
+msgstr "Što želite učiniti?"
+
+#: importer/importdialog.cpp:167
+#, kde-format
+msgid "View Imported Documents with Gwenview"
+msgstr "Prikaži uvezene dokumente u Gwenviewu"
+
+#: importer/importdialog.cpp:168
+#, kde-format
+msgid "Import more Documents"
+msgstr "Uvezi još dokumenata"
+
+#: importer/importdialog.cpp:169
+#, kde-format
+msgid "Quit"
+msgstr "Izađi"
+
+#: importer/importer.cpp:78
+#, kde-format
+msgid "Could not create destination folder."
+msgstr "Nije moguće stvoriti odredišnu mapu."
+
+#: importer/importer.cpp:93 importer/importer.cpp:99
+#, kde-format
+msgid "Could not create temporary upload folder."
+msgstr "Nije moguće stvoriti privremenu mapu za prijenos."
+
+#: importer/importerconfigdialog.cpp:52
+#, kde-format
+msgctxt "%1 is the importer keyword, %2 is keyword explanation"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRename)
+#: importer/importerconfigdialog.ui:17
+#, kde-format
+msgid "Rename documents automatically"
+msgstr "Automatski preimenuj dokumente"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/importerconfigdialog.ui:39
+#, kde-format
+msgid "Rename Format:"
+msgstr "Oblik za preimenovanje:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: importer/importerconfigdialog.ui:59
+#, kde-format
+msgid "Preview:"
+msgstr "Pretpregled:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: importer/importerconfigdialog.ui:83
+#, kde-format
+msgid "<i>Type text or click the items below to customize the format</i>"
+msgstr "<i>Upišite tekst ili kliknite stavke u nastavku da biste prilagodili oblik</i>"
+
+#: importer/main.cpp:42
+#, kde-format
+msgid "Gwenview Importer"
+msgstr "Uvoznik Gwenviewa"
+
+#: importer/main.cpp:44
+#, kde-format
+msgid "Photo Importer"
+msgstr "Uvoznik fotografija"
+
+#: importer/main.cpp:53
+#, kde-format
+msgid ""
+"The device UDI, used to retrieve information about the device (name, icon...)"
+msgstr "UDI uređaja koji se koristi za dohvat podataka o uređaju (naziv, ikona...)"
+
+#: importer/main.cpp:53
+#, kde-format
+msgid "Device UDI"
+msgstr "UDI uređaja"
+
+#: importer/main.cpp:54
+#, kde-format
+msgid "Source folder"
+msgstr "Izvorna mapa"
+
+#: importer/main.cpp:59
+#, kde-format
+msgid "Missing required source folder argument."
+msgstr "Nedostaje obavezni argument izvorne mape."
+
+#: importer/main.cpp:63
+#, kde-format
+msgid "Too many arguments."
+msgstr "Previše argumenata."
+
+#: importer/main.cpp:69
+#, kde-format
+msgid "Invalid source folder."
+msgstr "Nevaljana izvorna mapa."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/progresspage.ui:30
+#, kde-format
+msgid "Importing documents..."
+msgstr "Uvoz dokumenata..."
+
+#: importer/thumbnailpage.cpp:230
+#, kde-format
+msgctxt "@info above install button when Kamera is not installed"
+msgid "Support for your camera is not installed."
+msgstr "Podrška za fotoaparat nije instalirana."
+
+#: importer/thumbnailpage.cpp:232
+#, kde-format
+msgctxt "@info above install button, %1 protocol name %2 error text from KIO"
+msgid "The protocol support library for \"%1\" is not installed. Error: %2"
+msgstr "Biblioteka s podrškom za protokol „%1” nije instalirana. Pogreška: %2"
+
+#: importer/thumbnailpage.cpp:234
+#, kde-format
+msgctxt "@info above install button, %1 protocol name"
+msgid "The protocol support library for \"%1\" is not installed."
+msgstr "Biblioteka s podrškom za protokol „%1” nije instalirana."
+
+#: importer/thumbnailpage.cpp:246
+#, kde-format
+msgctxt "@info:usagetip above install button"
+msgid ""
+"After finishing the installation process, restart this Importer to continue."
+msgstr "Nakon dovršetka instalacije ponovno pokrenite ovaj uvoznik da biste nastavili."
+
+#: importer/thumbnailpage.cpp:253
+#, kde-format
+msgctxt "@info:tooltip for a button, %1 protocol name"
+msgid "Launch Discover to install the protocol support library for \"%1\""
+msgstr "Pokreni Discover za instalaciju biblioteke s podrškom za protokol „%1”"
+
+#: importer/thumbnailpage.cpp:255
+#, kde-format
+msgctxt "@action:button"
+msgid "Install Support for this Camera…"
+msgstr "Instaliraj podršku za ovaj fotoaparat…"
+
+#: importer/thumbnailpage.cpp:256
+#, kde-format
+msgctxt "@info:whatsthis for a button when Kamera is not installed"
+msgid ""
+"You need Kamera installed on your system to read from the camera. Click here "
+"to launch Discover to install Kamera to enable protocol support for "
+"\"camera:/\" on your system."
+msgstr "Za čitanje s fotoaparata morate imati instaliran paket Kamera. Kliknite ovdje da biste pokrenuli Discover i instalirali Kameru te omogućili podršku za protokol „camera:/” na sustavu."
+
+#: importer/thumbnailpage.cpp:259
+#, kde-format
+msgctxt "@action:button %1 protocol name"
+msgid "Install Protocol Support for \"%1\"…"
+msgstr "Instaliraj podršku za protokol „%1”…"
+
+#: importer/thumbnailpage.cpp:260
+#, kde-format
+msgctxt "@info:whatsthis for a button, %1 protocol name"
+msgid ""
+"Click here to launch Discover to install the missing protocol support "
+"library to enable the protocol support for \"%1:/\" on your system."
+msgstr "Kliknite ovdje da biste pokrenuli Discover i instalirali nedostajuću biblioteku te omogućili podršku za protokol „%1:/” na sustavu."
+
+#: importer/thumbnailpage.cpp:264
+#, kde-format
+msgctxt "@action:button %1 protocol name"
+msgid "Search the Web for How to Install Protocol Support for \"%1\"…"
+msgstr "Na webu potraži upute za instalaciju podrške za protokol „%1”…"
+
+#: importer/thumbnailpage.cpp:280
+#, kde-format
+msgctxt ""
+"@info this text will be used as a search term in an online search engine, %1 "
+"protocol name"
+msgid "How to install protocol support for \"%1\" on Linux"
+msgstr "Kako instalirati podršku za protokol „%1” na Linuxu"
+
+#: importer/thumbnailpage.cpp:281
+#, kde-format
+msgctxt ""
+"search engine URL, %1 search keyword, and translators can replace duckduckgo "
+"with other search engines"
+msgid "https://duckduckgo.com/?q=%1"
+msgstr "https://duckduckgo.com/?q=%1"
+
+#: importer/thumbnailpage.cpp:322
+#, kde-format
+msgid "Import Selected"
+msgstr "Uvezi odabrano"
+
+#: importer/thumbnailpage.cpp:325
+#, kde-format
+msgid "Import All"
+msgstr "Uvezi sve"
+
+#: importer/thumbnailpage.cpp:487
+#, kde-kuit-format
+msgctxt "@info when failing to open the appstream URL"
+msgid ""
+"Opening Discover failed.<nl/>Please check if Discover is installed on your "
+"system, or use your system's package manager to install \"Kamera\" package."
+msgstr "Pokretanje Discovera nije uspjelo.<nl/>Provjerite je li Discover instaliran na sustavu ili upotrijebite upravitelj paketa za instalaciju paketa „Kamera”."
+
+#: importer/thumbnailpage.cpp:491
+#, kde-kuit-format
+msgctxt "@info when failing to launch plasma-discover, %1 protocol name"
+msgid ""
+"Opening Discover failed.<nl/>Please check if Discover is installed on your "
+"system, or use your system's package manager to install the protocol support "
+"library for \"%1\"."
+msgstr "Pokretanje Discovera nije uspjelo.<nl/>Provjerite je li Discover instaliran na sustavu ili upotrijebite upravitelj paketa za instalaciju biblioteke s podrškom za protokol „%1”."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: importer/thumbnailpage.ui:173
+#, kde-format
+msgid "Select the documents to import"
+msgstr "Odaberite dokumente za uvoz"
+
+#. i18n: ectx: property (text), widget (QPushButton, mConfigureButton)
+#: importer/thumbnailpage.ui:185
+#, kde-format
+msgid "Settings..."
+msgstr "Postavke..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: importer/thumbnailpage.ui:201
+#, kde-format
+msgid "Enter the import destination"
+msgstr "Unesite odredište uvoza"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: importer/thumbnailpage.ui:220
+#, kde-format
+msgid "Listing content of:"
+msgstr "Ispis sadržaja:"
+
+#: lib/about.cpp:38
+#, kde-format
+msgid "Copyright 2000–%1 Gwenview authors"
+msgstr "Autorska prava 2000.–%1 Autori Gwenviewa"
+
+#: lib/about.cpp:40
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Trenutačni održavatelj"
+
+#: lib/about.cpp:41 lib/about.cpp:42
+#, kde-format
+msgid "Developer"
+msgstr "Razvojni programer"
+
+#: lib/bcg/bcgimageoperation.cpp:69
+#, kde-format
+msgid "Adjust Colors"
+msgstr "Prilagodi boje"
+
+#: lib/bcg/bcgwidget.cpp:51
+#, kde-format
+msgid "Brightness:"
+msgstr "Svjetlina:"
+
+#: lib/bcg/bcgwidget.cpp:52
+#, kde-format
+msgid "Contrast:"
+msgstr "Kontrast:"
+
+#: lib/bcg/bcgwidget.cpp:53
+#, kde-format
+msgid "Gamma:"
+msgstr "Gama:"
+
+#: lib/crop/cropwidget.cpp:191
+#, kde-format
+msgid "Current Image"
+msgstr "Trenutačna slika"
+
+#: lib/crop/cropwidget.cpp:194
+#, kde-format
+msgid "Square"
+msgstr "Kvadrat"
+
+#: lib/crop/cropwidget.cpp:197
+#, kde-format
+msgid "This Screen"
+msgstr "Ovaj zaslon"
+
+#: lib/crop/cropwidget.cpp:199
+#, kde-format
+msgid "Landscape"
+msgstr "Pejzažno"
+
+#: lib/crop/cropwidget.cpp:204 lib/crop/cropwidget.cpp:211
+#, kde-format
+msgid "ISO (A4, A3...)"
+msgstr "ISO (A4, A3...)"
+
+#: lib/crop/cropwidget.cpp:205 lib/crop/cropwidget.cpp:212
+#, kde-format
+msgid "US Letter"
+msgstr "US Letter"
+
+#: lib/crop/cropwidget.cpp:206
+#, kde-format
+msgid "Portrait"
+msgstr "Portretno"
+
+#: lib/crop/cropwidget.cpp:290
+#, kde-format
+msgctxt "@option:check"
+msgid "Advanced settings"
+msgstr "Napredne postavke"
+
+#: lib/crop/cropwidget.cpp:299
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Aspect ratio:"
+msgstr "Omjer proporcija:"
+
+#: lib/crop/cropwidget.cpp:312
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Size:"
+msgstr "Veličina:"
+
+#: lib/crop/cropwidget.cpp:334
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Position:"
+msgstr "Položaj:"
+
+#: lib/crop/cropwidget.cpp:356
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Gridlines"
+msgstr "Prikaži linije mreže"
+
+#: lib/crop/cropwidget.cpp:364
+#, kde-format
+msgctxt "@option:check"
+msgid "Preserve aspect ratio"
+msgstr "Zadrži omjer proporcija"
+
+#: lib/document/document.cpp:301
+#, kde-format
+msgctxt "@info"
+msgid "Gwenview cannot save this kind of documents."
+msgstr "Gwenview ne može spremiti ovu vrstu dokumenata."
+
+#: lib/document/loadingdocumentimpl.cpp:139
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Gwenview cannot display documents of type %1. Install the kimageformats "
+"package to gain support for a wider range of media types."
+msgstr "Gwenview ne može prikazati dokumente vrste %1. Instalirajte paket kimageformats da biste omogućili podršku za širi raspon vrsta medija."
+
+#: lib/document/loadingdocumentimpl.cpp:404
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file %1"
+msgstr "Nije moguće otvoriti datoteku %1"
+
+#: lib/document/loadingdocumentimpl.cpp:495
+#, kde-format
+msgctxt "@info"
+msgid "Loading meta information failed."
+msgstr "Učitavanje metapodataka nije uspjelo."
+
+#: lib/document/loadingdocumentimpl.cpp:521
+#, kde-format
+msgctxt "@info"
+msgid "Loading image failed."
+msgstr "Učitavanje slike nije uspjelo."
+
+#: lib/document/loadingjob.cpp:56
+#, kde-format
+msgid "Could not load document %1"
+msgstr "Nije moguće učitati dokument %1"
+
+#: lib/document/savejob.cpp:106
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr "Nije moguće otvoriti datoteku za pisanje; provjerite imate li potrebna dopuštenja za <filename>%1</filename>."
+
+#: lib/document/savejob.cpp:133
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr "Nije moguće prebrisati datoteku; provjerite imate li potrebna dopuštenja za pisanje u <filename>%1</filename>."
+
+#: lib/documentview/documentview.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Trash"
+msgstr "Smeće"
+
+#: lib/documentview/documentview.cpp:213
+#, kde-format
+msgctxt "@action:button"
+msgid "Deselect"
+msgstr "Poništi odabir"
+
+#: lib/documentview/documentview.cpp:258 lib/imagemetainfomodel.cpp:440
+#: lib/thumbnailview/previewitemdelegate.cpp:416
+#: lib/thumbnailview/previewitemdelegate.cpp:838
+#, kde-format
+msgctxt "@item:intable %1 is image width, %2 is image height"
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: lib/documentview/documentview.cpp:263 lib/zoomcombobox/zoomcombobox.cpp:317
+#, kde-format
+msgctxt "Percent value"
+msgid "%1%"
+msgstr "%1%"
+
+#: lib/documentview/documentview.cpp:542
+#, kde-format
+msgid "Gwenview does not know how to display this kind of document"
+msgstr "Gwenview ne zna prikazati ovu vrstu dokumenta"
+
+#: lib/documentview/documentview.cpp:648
+#, kde-kuit-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "Učitavanje datoteke <filename>%1</filename> nije uspjelo"
+
+#: lib/documentview/documentviewcontroller.cpp:62
+#, kde-format
+msgid "Zoom to Fit"
+msgstr "Prilagodi zumiranje"
+
+#: lib/documentview/documentviewcontroller.cpp:64
+#, kde-format
+msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
+msgid "Fit"
+msgstr "Prilagodi"
+
+#: lib/documentview/documentviewcontroller.cpp:65
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Fit image into the viewing area"
+msgstr "Prilagodi sliku području prikaza"
+
+#. i18n: "a previous zoom value" is worded in such an unclear way because it can either be the zoom value for the image viewed previously or the
+#. zoom value that was used the last time this same image was viewed. Being more clear about this isn't really necessary here so I kept it short
+#. but a more elaborate translation would also be fine.
+#. The text "in the settings" is supposed to sound like clicking it opens the settings.
+#: lib/documentview/documentviewcontroller.cpp:71
+#, kde-kuit-format
+msgctxt "@info:whatsthis %1 is the action's text"
+msgid ""
+"<para>This fits the image into the available viewing area:<list><item>Images "
+"that are bigger than the viewing area are displayed at a smaller size so "
+"they fit.</item><item>Images that are smaller than the viewing area are "
+"displayed at their normal size. If smaller images should instead use all of "
+"the available viewing area, turn on <emphasis>Enlarge smaller images</"
+"emphasis> <link url='%2'>in the settings</link>.</item></list></"
+"para><para>If \"%1\" is already enabled, pressing it again will switch it "
+"off and the image will be displayed at its normal size instead.</para><para>"
+"\"%1\" is the default zoom mode for images. This can be changed so images "
+"are displayed at a previous zoom value instead <link url='%2'>in the "
+"settings</link>.</para>"
+msgstr "<para>Time se slika prilagođava dostupnom području prikaza:<list><item>Slike veće od područja prikaza prikazuju se smanjene kako bi stale u njega.</item><item>Slike manje od područja prikaza prikazuju se u izvornoj veličini. Ako želite da manje slike ispune cijelo dostupno područje prikaza, u postavkama uključite <emphasis>Povećaj manje slike</emphasis> <link url='%2'>.</link></item></list></para><para>Ako je „%1” već uključeno, ponovnim pritiskom isključit ćete ga i slika će se prikazati u izvornoj veličini.</para><para>„%1” je zadani način zumiranja slika. Možete ga promijeniti tako da se slike prikazuju pri prethodno odabranoj razini zumiranja <link url='%2'>u postavkama</link>.</para>"
+
+#: lib/documentview/documentviewcontroller.cpp:84
+#, kde-format
+msgid "Zoom to fill window by fitting to width or height"
+msgstr "Zumiraj tako da slika ispuni prozor prilagodbom širine ili visine"
+
+#: lib/documentview/documentviewcontroller.cpp:86
+#, kde-format
+msgctxt ""
+"@action:button Zoom to fill (fit width or height), shown in status bar, keep "
+"it short please"
+msgid "Fill"
+msgstr "Ispuni"
+
+#: lib/documentview/documentviewcontroller.cpp:91
+#, kde-format
+msgctxt "Original image size percent value"
+msgid "100%"
+msgstr "100%"
+
+#: lib/documentview/documentviewcontroller.cpp:99
+#, kde-format
+msgid "Show Bird's Eye View When Zoomed In"
+msgstr "Prikaži pregled cijele slike pri uvećanju"
+
+#: lib/documentview/documentviewcontroller.cpp:106
+#, kde-format
+msgctxt "@action"
+msgid "Follow color scheme"
+msgstr "Prati shemu boja"
+
+#: lib/documentview/documentviewcontroller.cpp:112
+#, kde-format
+msgctxt "@action"
+msgid "Light Mode"
+msgstr "Svijetli način"
+
+#: lib/documentview/documentviewcontroller.cpp:118
+#, kde-format
+msgctxt "@action"
+msgid "Neutral Mode"
+msgstr "Neutralni način"
+
+#: lib/documentview/documentviewcontroller.cpp:124
+#, kde-format
+msgctxt "@action"
+msgid "Dark Mode"
+msgstr "Tamni način"
+
+#: lib/documentview/messageviewadapter.cpp:50
+#, kde-format
+msgid "No document selected"
+msgstr "Nije odabran nijedan dokument"
+
+#: lib/fullscreenbar.cpp:269 lib/statusbartoolbutton.cpp:144
+#, kde-format
+msgctxt "@info:tooltip of custom toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
+#: lib/gwenviewconfig.kcfg:63
+#, kde-format
+msgid ""
+"The percentage of memory used by Gwenview before it\n"
+"            warns the user and suggest saving changes."
+msgstr "Postotak memorije koji Gwenview koristi prije nego što\n            upozori korisnika i predloži spremanje promjena."
+
+#. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
+#: lib/gwenviewconfig.kcfg:70
+#, kde-format
+msgid ""
+"A list of filename extensions Gwenview should not try to\n"
+"            load. We exclude *.new as well because this is the extension\n"
+"            used for temporary files by KSaveFile."
+msgstr "Popis datotečnih nastavaka koje Gwenview ne bi trebao\n            pokušavati učitati. Isključuje se i *.new jer je to nastavak\n            koji KSaveFile upotrebljava za privremene datoteke."
+
+#. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
+#: lib/gwenviewconfig.kcfg:214
+#, kde-format
+msgid ""
+"Defines what happens when going to image B after\n"
+"            having zoomed in on an area of image A.  If set to Autofit,\n"
+"            image B is zoomed out to fit the screen.  If set to KeepSame,\n"
+"            all images share the same zoom and position: image B is set\n"
+"            to the same zoom parameters as image A (and if these are\n"
+"            changed, image A will then be displayed with the updated zoom\n"
+"            and position).  If set to Individual, all images remember\n"
+"            their own zoom and position: image B is initially set to the\n"
+"            same zoom parameters as image A, but will then remember its\n"
+"            own zoom and position (if these are changed, image A will NOT\n"
+"            be displayed with the updated zoom and position)."
+msgstr "Određuje što će se dogoditi pri prelasku na sliku B nakon\n            zumiranja područja slike A. Ako je odabrana mogućnost Autofit,\n            slika B smanjuje se kako bi stala na zaslon. Ako je odabrana\n            mogućnost KeepSame, sve slike dijele isto uvećanje i položaj:\n            slika B postavlja se na iste parametre zumiranja kao slika A\n            (a ako ih promijenite, slika A prikazat će se s ažuriranim\n            uvećanjem i položajem). Ako je odabrana mogućnost Individual,\n            svaka slika pamti vlastito uvećanje i položaj: slika B isprva\n            koristi iste parametre zumiranja kao slika A, a zatim pamti\n            vlastito uvećanje i položaj (ako ih promijenite, slika A NEĆE\n            se prikazati s ažuriranim uvećanjem i položajem)."
+
+#. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
+#: lib/gwenviewconfig.kcfg:228
+#, kde-format
+msgid ""
+"Defines how colors are rendered when your display\n"
+"            uses an ICC color profile and an image has colors that do not\n"
+"            fit within the profile's color gamut. \"Perceptual\" will scale\n"
+"            the colors of the entire image so that they all fit within the\n"
+"            display's capabilities. \"Relative\" will squash only the "
+"colors\n"
+"            that cannot be displayed, and leave the other colors alone."
+msgstr "Određuje prikaz boja kada zaslon upotrebljava ICC profil\n            boja, a slika sadrži boje izvan game profila. Mogućnost\n            „Perceptivna” prilagodit će boje cijele slike tako da sve stanu\n            u mogućnosti zaslona. Mogućnost „Relativna” prilagodit će samo\n            boje koje se ne mogu prikazati, a ostale će ostaviti neizmijenjenima."
+
+#. i18n: ectx: label, entry (random), group (slide show)
+#: lib/gwenviewconfig.kcfg:340
+#, kde-format
+msgid "Display slide show images in random order"
+msgstr "Prikaži slike u dijaprojekciji nasumičnim redoslijedom"
+
+#. i18n: ectx: label, entry (fullscreen), group (slide show)
+#: lib/gwenviewconfig.kcfg:344
+#, kde-format
+msgid "Show slideshow in fullscreen mode"
+msgstr "Prikaži dijaprojekciju preko cijelog zaslona"
+
+#. i18n: ectx: label, entry (loop), group (slide show)
+#: lib/gwenviewconfig.kcfg:348
+#, kde-format
+msgid "Loop on images"
+msgstr "Ponavljaj slike u petlji"
+
+#. i18n: ectx: label, entry (stopAtEnd), group (slide show)
+#: lib/gwenviewconfig.kcfg:352
+#, kde-format
+msgid "Stop at last image of folder"
+msgstr "Zaustavi se na posljednjoj slici mape"
+
+#. i18n: ectx: label, entry (interval), group (slide show)
+#: lib/gwenviewconfig.kcfg:356
+#, kde-format
+msgid "Interval between images (in seconds)"
+msgstr "Razmak između slika (u sekundama)"
+
+#. i18n: ectx: label, entry (CropPreserveAspectRatio), group (Crop)
+#: lib/gwenviewconfig.kcfg:372
+#, kde-format
+msgid "Restrict crop to image ratio when Advanced Settings disabled"
+msgstr "Ograniči obrezivanje na omjer slike kada su napredne postavke onemogućene"
+
+#. i18n: ectx: label, entry (CropRatioIndex), group (Crop)
+#: lib/gwenviewconfig.kcfg:376
+#, kde-format
+msgid "Index representing selected ratio in the Advanced settings combobox"
+msgstr "Indeks omjera odabranog u padajućem izborniku naprednih postavki"
+
+#. i18n: ectx: label, entry (CropRatioWidth), group (Crop)
+#: lib/gwenviewconfig.kcfg:380
+#, kde-format
+msgid "Last used crop ratio width when Advanced Settings enabled"
+msgstr "Širina posljednjeg upotrijebljenog omjera obrezivanja kada su napredne postavke omogućene"
+
+#. i18n: ectx: label, entry (CropRatioHeight), group (Crop)
+#: lib/gwenviewconfig.kcfg:384
+#, kde-format
+msgid "Last used crop ratio height when Advanced Settings enabled"
+msgstr "Visina posljednjeg upotrijebljenog omjera obrezivanja kada su napredne postavke omogućene"
+
+#. i18n: ectx: label, entry (CropShowGridlinesEnabled), group (Crop)
+#: lib/gwenviewconfig.kcfg:388
+#, kde-format
+msgid "Last used gridlines visibility when Advanced Settings enabled"
+msgstr "Posljednja postavka vidljivosti linija mreže kada su napredne postavke omogućene"
+
+#: lib/historymodel.cpp:153
+#, kde-format
+msgid "Last visited: %1"
+msgstr "Posljednji posjet: %1"
+
+#: lib/hud/hudwidget.cpp:104
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Zatvori"
+
+#: lib/imagemetainfomodel.cpp:254
+#, kde-format
+msgctxt "@item:intable Image file name"
+msgid "Name"
+msgstr "Naziv"
+
+#: lib/imagemetainfomodel.cpp:255
+#, kde-format
+msgctxt "@item:intable"
+msgid "File Size"
+msgstr "Veličina datoteke"
+
+#: lib/imagemetainfomodel.cpp:256
+#, kde-format
+msgctxt "@item:intable"
+msgid "Date Created"
+msgstr "Datum stvaranja"
+
+#: lib/imagemetainfomodel.cpp:257
+#, kde-format
+msgctxt "@item:intable"
+msgid "Date Modified"
+msgstr "Datum izmjene"
+
+#: lib/imagemetainfomodel.cpp:258
+#, kde-format
+msgctxt "@item:intable"
+msgid "Date Accessed"
+msgstr "Datum pristupa"
+
+#: lib/imagemetainfomodel.cpp:259
+#, kde-format
+msgctxt "@item:intable"
+msgid "Path"
+msgstr "Putanja"
+
+#: lib/imagemetainfomodel.cpp:260
+#, kde-format
+msgctxt "@item:intable"
+msgid "Image Size"
+msgstr "Veličina slike"
+
+#: lib/imagemetainfomodel.cpp:261
+#, kde-format
+msgctxt "@item:intable"
+msgid "Comment"
+msgstr "Komentar"
+
+#: lib/imagemetainfomodel.cpp:262
+#, kde-format
+msgctxt "@item:intable"
+msgid "File Type"
+msgstr "Vrsta datoteke"
+
+#: lib/imagemetainfomodel.cpp:324
+#, kde-format
+msgctxt "@title:group General info about the image"
+msgid "General"
+msgstr "Općenito"
+
+#: lib/imagemetainfomodel.cpp:446
+#, kde-format
+msgctxt "@item:intable %1 is number of millions of pixels in image"
+msgid "(%1MP)"
+msgstr "(%1 MP)"
+
+#: lib/imagemetainfomodel.cpp:597
+#, kde-format
+msgctxt "@title:column"
+msgid "Property"
+msgstr "Svojstvo"
+
+#: lib/imagemetainfomodel.cpp:599
+#, kde-format
+msgctxt "@title:column"
+msgid "Value"
+msgstr "Vrijednost"
+
+#: lib/jpegcontent.cpp:667
+#, kde-format
+msgctxt "@info"
+msgid "Could not open file for writing."
+msgstr "Nije moguće otvoriti datoteku za pisanje."
+
+#: lib/jpegcontent.cpp:683
+#, kde-format
+msgctxt "@info"
+msgid "No data to store."
+msgstr "Nema podataka za pohranu."
+
+#: lib/print/printhelper.cpp:123
+#, kde-format
+msgid "Print Image"
+msgstr "Ispiši sliku"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PrintOptionsPage)
+#: lib/print/printoptionspage.ui:14
+#, kde-format
+msgid "Image Settings"
+msgstr "Postavke slike"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: lib/print/printoptionspage.ui:20
+#, kde-format
+msgid "Image Position"
+msgstr "Položaj slike"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: lib/print/printoptionspage.ui:45
+#, kde-format
+msgid "Scaling"
+msgstr "Skaliranje"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mNoScale)
+#: lib/print/printoptionspage.ui:51
+#, kde-format
+msgid "&No scaling"
+msgstr "&Bez skaliranja"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleToPage)
+#: lib/print/printoptionspage.ui:61
+#, kde-format
+msgid "&Fit image to page"
+msgstr "&Prilagodi sliku stranici"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mScaleTo)
+#: lib/print/printoptionspage.ui:123
+#, kde-format
+msgid "&Scale to:"
+msgstr "&Skaliraj na:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: lib/print/printoptionspage.ui:158
+#, kde-format
+msgctxt "Dimension separator, as in: '15 x 10 centimeters'"
+msgid "x"
+msgstr "x"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:185
+#, kde-format
+msgid "Millimeters"
+msgstr "Milimetri"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:190
+#, kde-format
+msgid "Centimeters"
+msgstr "Centimetri"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PrintUnit)
+#: lib/print/printoptionspage.ui:195
+#, kde-format
+msgid "Inches"
+msgstr "Inči"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintKeepRatio)
+#: lib/print/printoptionspage.ui:224
+#, kde-format
+msgid "Keep ratio"
+msgstr "Zadrži omjer"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/redeyereduction/redeyereductionwidget.ui:43
+#, kde-format
+msgid "Size:"
+msgstr "Veličina:"
+
+#. i18n: ectx: property (text), widget (QLabel, helpTextLabel)
+#: lib/redeyereduction/redeyereductionwidget.ui:150
+#, kde-format
+msgid ""
+"Click on a red eye and choose a size, or double-click to correct instantly."
+msgstr "Kliknite na crveno oko i odaberite veličinu ili dvaput kliknite da biste ga odmah ispravili."
+
+#: lib/resize/resizeimagedialog.cpp:76
+#, kde-format
+msgctxt "@action"
+msgid ""
+"Assuming that the image format won't be changed and\n"
+"for lossy images using the value set in 'Lossy image save quality'."
+msgstr "Pod pretpostavkom da se format slike neće promijeniti, a\nza slike s gubitkom da će se upotrijebiti vrijednost postavljena u „Kvaliteta spremanja slika s gubitkom”."
+
+#: lib/resize/resizeimagedialog.cpp:219
+#, kde-format
+msgid "error"
+msgstr "pogreška"
+
+#: lib/resize/resizeimageoperation.cpp:70
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "Promijeni veličinu"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
+#: lib/resize/resizeimagewidget.ui:14
+#, kde-format
+msgid "Resize Image"
+msgstr "Promijeni veličinu slike"
+
+#. i18n: ectx: property (text), widget (QLabel, mEstimatedSizeLabel)
+#: lib/resize/resizeimagewidget.ui:20
+#, kde-format
+msgid "Estimated new file size:"
+msgstr "Procijenjena nova veličina datoteke:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: lib/resize/resizeimagewidget.ui:47
+#, kde-format
+msgid "New size:"
+msgstr "Nova veličina:"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mHeightPercentSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mWidthPercentSpinBox)
+#: lib/resize/resizeimagewidget.ui:63 lib/resize/resizeimagewidget.ui:195
+#, no-c-format, kde-format
+msgid " %"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, mHeightSpinBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mWidthSpinBox)
+#: lib/resize/resizeimagewidget.ui:86 lib/resize/resizeimagewidget.ui:102
+#, kde-format
+msgid " px"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mCurrentSizeLabel)
+#: lib/resize/resizeimagewidget.ui:115
+#, kde-format
+msgid "Current file size:"
+msgstr "Trenutačna veličina datoteke:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
+#: lib/resize/resizeimagewidget.ui:145
+#, kde-format
+msgid "Keep aspect ratio"
+msgstr "Zadrži omjer proporcija"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/resize/resizeimagewidget.ui:172
+#, kde-format
+msgid "Current size:"
+msgstr "Trenutačna veličina:"
+
+#: lib/semanticinfo/tagitemdelegate.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Assign this tag to all selected images"
+msgstr "Dodijeli ovu oznaku svim odabranim slikama"
+
+#: lib/semanticinfo/tagwidget.cpp:146
+#, kde-format
+msgid "Add tag"
+msgstr "Dodaj oznaku"
+
+#: lib/slideshow.cpp:163
+#, kde-format
+msgctxt "@item:inmenu toggle loop in slideshow"
+msgid "Loop"
+msgstr "Ponavljaj u petlji"
+
+#: lib/slideshow.cpp:168
+#, kde-format
+msgctxt "@item:inmenu toggle random order in slideshow"
+msgid "Random"
+msgstr "Nasumično"
+
+#: lib/thumbnailview/previewitemdelegate.cpp:616
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle selection"
+msgstr "Promijeni odabir"
+
+#: lib/thumbnailview/previewitemdelegate.cpp:621
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Full screen"
+msgstr "Cijeli zaslon"
+
+#: lib/thumbnailview/previewitemdelegate.cpp:626
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate left"
+msgstr "Zakreni ulijevo"
+
+#: lib/thumbnailview/previewitemdelegate.cpp:631
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rotate right"
+msgstr "Zakreni udesno"
+
+#: lib/thumbnailview/previewitemdelegate.cpp:645
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save"
+msgstr "Spremi"
+
+#: lib/transformimageoperation.cpp:58
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Rotate Right"
+msgstr "Zakreni udesno"
+
+#: lib/transformimageoperation.cpp:61
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Rotate Left"
+msgstr "Zakreni ulijevo"
+
+#: lib/transformimageoperation.cpp:64
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Mirror"
+msgstr "Zrcali"
+
+#: lib/transformimageoperation.cpp:67
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Flip"
+msgstr "Preokreni"
+
+#: lib/transformimageoperation.cpp:72
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "Preoblikuj"
+
+#: part/gvpart.cpp:71
+#, kde-format
+msgctxt "@action"
+msgid "Properties"
+msgstr "Svojstva"
+
+#. i18n: ectx: Menu (file)
+#: part/gvpart.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Datoteka"
+
+#. i18n: ectx: Menu (view)
+#: part/gvpart.rc:9
+#, kde-format
+msgid "&View"
+msgstr "&Prikaz"
