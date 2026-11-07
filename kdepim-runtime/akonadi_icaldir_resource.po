@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-runtime package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-runtimeReport-Msgid-Bugs-To: https://bugs.kde.orgPOT-Creation-Date: 2026-10-26 00:50+0000PO-Revision-Date: 2026-11-07 00:00+0100Last-Translator: Roko Tomović <roko@maesdbk.hr>Language-Team: Croatian <kde-i18n-doc@kde.org>Language: hrMIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;X-Generator: Lokalize\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#: icaldirresource.cpp:125
+#, kde-format
+msgid "Incidence with uid '%1' not found."
+msgstr "Incidence s uid '%1' nije pronađen."
+
+#: icaldirresource.cpp:139 icaldirresource.cpp:172 icaldirresource.cpp:204
+#, kde-format
+msgid "Trying to write to a read-only directory: '%1'"
+msgstr "Trying za zapiši za samo za čitanje direktorij: '%1'"
+
+#: icaldirresource.cpp:256
+#, kde-format
+msgctxt "@label"
+msgid "Calendar Folder"
+msgstr "Kalendar Mapa"
+
+#: icaldirresource.cpp:258
+#, kde-format
+msgctxt "@label"
+msgid "%1 Calendar Folder"
+msgstr "Mapa kalendara %1"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: icaldirresource.kcfg:10
+#, kde-format
+msgid "Path to iCal directory"
+msgstr "Putanja za iCal direktorij"
+
+#. i18n: ectx: label, entry (AutosaveInterval), group (General)
+#: icaldirresource.kcfg:14
+#, kde-format
+msgid "Autosave interval time (in minutes)."
+msgstr "Autosave interval vrijeme (u minute)."
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: icaldirresource.kcfg:18
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "Učini ne promjena actual backend podaci."
+
+#. i18n: ectx: label, entry (ActivitiesEnabled), group (Activities)
+#: icaldirresource.kcfg:24
+#, kde-format
+msgid "Whether the activities support of the agent is enabled"
+msgstr "Whether aktivnosti podrška od agent je omogućen"
+
+#. i18n: ectx: label, entry (Activities), group (Activities)
+#: icaldirresource.kcfg:28
+#, kde-format
+msgid "The activities of the agent"
+msgstr " aktivnosti od agent"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: icaldirsagentsettingswidget.ui:33
+#, kde-format
+msgid "Directory"
+msgstr "Direktorij"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: icaldirsagentsettingswidget.ui:39
+#, kde-format
+msgid "Di&rectory:"
+msgstr "Di&rectory:"
+
+#. i18n: ectx: property (text), widget (QLabel, pathLabel)
+#: icaldirsagentsettingswidget.ui:58
+#, kde-format
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr "Odaberite direktorij whose contents should biti represented putem ovo resurs. Ako direktorij ne postoji, to will biti created."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: icaldirsagentsettingswidget.ui:68
+#, kde-format
+msgid "Read only"
+msgstr "Samo za čitanje"
+
+#. i18n: ectx: property (text), widget (QLabel, readOnlyLabel)
+#: icaldirsagentsettingswidget.ui:84
+#, kde-format
+msgid ""
+"When read-only mode is enabled, no changes will be written. Read-only mode "
+"is automatically enabled when the selected file does not support write "
+"access."
+msgstr "Kada samo za čitanje mode je omogućen, nema promjene will biti written. Samo za čitanje mode je automatski omogućen kada odabrani datoteka čini ne podrška zapiši pristup."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: icaldirsagentsettingswidget.ui:108
+#, kde-format
+msgid "Tuning"
+msgstr "Tuning"
+
+#. i18n: ectx: property (text), widget (QLabel, runingLabel)
+#: icaldirsagentsettingswidget.ui:114
+#, kde-format
+msgid ""
+"The options on this page allow you to change parameters that balance data "
+"safety and consistency against performance. In general you should be careful "
+"with changing anything here, the defaults are good enough in most cases."
+msgstr " mogućnosti na ovo page allow vi za promjena parameters to balance podaci safety i consistency against performance. U general vi should biti careful s mijenjanje anything here, defaults su good enough u najviše cases."
+
+#. i18n: ectx: property (text), widget (QLabel, autosaveLabel)
+#: icaldirsagentsettingswidget.ui:124
+#, kde-format
+msgid "Autosave delay:"
+msgstr "Odgoda automatskog spremanja:"
+
+#: icaldirsettingswidget.cpp:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A directory path or URL containing calendar files"
+msgstr "Putanja direktorija ili URL koji sadrži datoteke kalendara"
+
+#: icaldirsettingswidget.cpp:46
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path or URL to a directory whose contents should be represented by "
+"this resource. The directory will be created if it does not exist."
+msgstr "Unesite putanja ili URL za direktorij whose contents should biti represented putem ovo resurs. direktorij will biti created ako to ne postoji."
+
+#: icaldirsettingswidget.cpp:48
+#, kde-format
+msgid "%v minute"
+msgid_plural "%v minutes"
+msgstr[0] "%v minuta"
+msgstr[1] "%v minuta"
+
+#: icaldirsettingswidget.cpp:54
+#, kde-format
+msgid "Activities"
+msgstr "Aktivnosti"

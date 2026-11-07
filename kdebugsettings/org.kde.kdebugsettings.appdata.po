@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-10-24 00:54+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. (itstool) path: component/name
+#: org.kde.kdebugsettings.appdata.xml:13
+msgid "KDebugSettings"
+msgstr "KDebugSettings"
+
+#. (itstool) path: component/summary
+#: org.kde.kdebugsettings.appdata.xml:14
+msgid "Set which debug messages are shown"
+msgstr "Odaberite koje će se poruke za otklanjanje pogrešaka prikazivati"
+
+#. (itstool) path: description/p
+#: org.kde.kdebugsettings.appdata.xml:16
+msgid "KDebugSettings edits which QLoggingCategory are displayed. QLoggingCategory prints messages on the console for applications and you can define which applications display messages for information, warning or critical errors to help debugging Qt applications."
+msgstr "KDebugSettings omogućuje uređivanje kategorija QLoggingCategory koje se prikazuju. QLoggingCategory ispisuje poruke aplikacija u konzoli, a možete odrediti za koje će se aplikacije prikazivati informativne poruke te upozorenja ili kritične pogreške kako biste lakše otklanjali pogreške u Qt aplikacijama."
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kdebugsettings.appdata.xml:30
+msgid "The main window of KDebugSettings."
+msgstr "Glavni prozor aplikacije KDebugSettings."
+
+#. (itstool) path: description/p
+#: org.kde.kdebugsettings.appdata.xml:41
+msgid "New features:"
+msgstr "Nove značajke:"
+
+#. (itstool) path: ul/li
+#: org.kde.kdebugsettings.appdata.xml:43
+msgid "Add a Preview button showing the qtlogging.ini file that will be generated, before saving it."
+msgstr "Dodana je mogućnost pregleda datoteke qtlogging.ini koja će biti generirana prije spremanja."
+
+#. (itstool) path: ul/li
+#: org.kde.kdebugsettings.appdata.xml:44
+msgid "Add a --list command line option showing the list of known logging categories."
+msgstr "Dodana je opcija naredbenog retka --list za prikaz popisa poznatih kategorija zapisivanja."
+
+#. (itstool) path: ul/li
+#: org.kde.kdebugsettings.appdata.xml:45
+msgid "Add a warning when qtlogging.ini is modified outside the application, with an action for reloading it."
+msgstr "Dodano je upozorenje kada se datoteka qtlogging.ini izmijeni izvan aplikacije, uz mogućnost ponovnog učitavanja."

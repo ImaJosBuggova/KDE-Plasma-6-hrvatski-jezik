@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-runtime package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-runtimeReport-Msgid-Bugs-To: https://bugs.kde.orgPOT-Creation-Date: 2026-10-06 00:47+0000PO-Revision-Date: 2026-11-07 00:00+0100Last-Translator: Roko Tomović <roko@maesdbk.hr>Language-Team: Croatian <kde-i18n-doc@kde.org>Language: hrMIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;X-Generator: Lokalize\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "%f is a variable for agent. Do not change it"
+msgid "A message was received from %f"
+msgstr "Primljena je poruka od %f"
+
+#: newmailnotificationhistorydialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Notification History"
+msgstr "Povijest obavijesti"
+
+#: newmailnotificationhistorymanager.cpp:28
+#, kde-format
+msgid "[Open Folder]"
+msgstr "[Otvori mapu]"
+
+#: newmailnotificationhistorymanager.cpp:38
+#, kde-format
+msgid "[Show Mail]"
+msgstr "[Prikaži poštu]"
+
+#: newmailnotificationhistorywidget.cpp:25
+#: newmailnotifiersettingswidget.cpp:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: newmailnotifieragent.cpp:368
+#, kde-format
+msgctxt ""
+"%2 = name of mail folder; %3 = name of Akonadi POP3/IMAP/etc resource (as "
+"user named it)"
+msgid "One new email in %2 from \"%3\""
+msgid_plural "%1 new emails in %2 from \"%3\""
+msgstr[0] "Jedna nova e-poruka u %2 od „%3”"
+msgstr[1] "%1 novih e-poruka u %2 od „%3”"
+
+#: newmailnotifieragent.cpp:405
+#, kde-format
+msgid "New mail arrived"
+msgstr "Stigla je nova pošta"
+
+#: newmailnotifieropenfolderjob.cpp:36 newmailnotifierreplymessagejob.cpp:37
+#: newmailnotifiershowmessagejob.cpp:35
+#, kde-format
+msgid "Unable to start KMail application."
+msgstr "Nije moguće pokrenuti KMail aplikacija."
+
+#: newmailnotifieropenfolderjob.cpp:46
+#, kde-format
+msgid "Impossible to access the DBus interface."
+msgstr "Impossible za pristup DBus interface."
+
+#: newmailnotifierselectcollectionwidget.cpp:96
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select which folders to monitor for new message notifications:"
+msgstr "Odaberite which mape za nadzirati za novi poruka obavijesti:"
+
+#: newmailnotifierselectcollectionwidget.cpp:125
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: newmailnotifierselectcollectionwidget.cpp:140
+#, kde-format
+msgctxt "@action:button"
+msgid "&Select All"
+msgstr "&Odaberi sve"
+
+#: newmailnotifierselectcollectionwidget.cpp:144
+#, kde-format
+msgctxt "@action:button"
+msgid "&Unselect All"
+msgstr "&Poništi odabir svega"
+
+#: newmailnotifiersettingswidget.cpp:31
+#, c-format
+msgid ""
+"<qt><p>Here you can define message. You can use:</p><ul><li>%s set subject</"
+"li><li>%f set from</li></ul></qt>"
+msgstr "<qt><p>Here vi can define poruka. Vi can koristi:</p><ul><li>%s postavi predmet</li><li>%f postavi od</li></ul></qt>"
+
+#: newmailnotifiersettingswidget.cpp:52
+#, kde-format
+msgid "Choose which fields to show:"
+msgstr "Odaberite koja polja prikazati:"
+
+#: newmailnotifiersettingswidget.cpp:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Photo"
+msgstr "Prikaži fotografiju"
+
+#: newmailnotifiersettingswidget.cpp:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Show From"
+msgstr "Prikaži pošiljatelja"
+
+#: newmailnotifiersettingswidget.cpp:65
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Subject"
+msgstr "Prikaži predmet"
+
+#: newmailnotifiersettingswidget.cpp:69
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Folders"
+msgstr "Show Mape"
+
+#: newmailnotifiersettingswidget.cpp:73
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not notify when email was sent by me"
+msgstr "Učini ne obavijesti kada e-pošta je poslano putem me"
+
+#: newmailnotifiersettingswidget.cpp:77
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep Persistent Notification"
+msgstr "Zadrži trajnu obavijest"
+
+#: newmailnotifiersettingswidget.cpp:81
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Action Buttons"
+msgstr "Show Radnja Buttons"
+
+#: newmailnotifiersettingswidget.cpp:89
+#, kde-format
+msgctxt "@option:check"
+msgid "Reply Mail"
+msgstr "Odgovori na poruku"
+
+#: newmailnotifiersettingswidget.cpp:97 specialnotifierjob.cpp:164
+#, kde-format
+msgid "Reply to Author"
+msgstr "Odgovori autoru"
+
+#: newmailnotifiersettingswidget.cpp:97 specialnotifierjob.cpp:167
+#, kde-format
+msgid "Reply to All"
+msgstr "Odgovori svima"
+
+#: newmailnotifiersettingswidget.cpp:106
+#, kde-format
+msgid "Display"
+msgstr "Prikaz"
+
+#: newmailnotifiersettingswidget.cpp:115
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<a href=\"whatsthis\">How does this work?</a>"
+msgstr "<a href=\"whatsthis\">Kako ovo radi?</a>"
+
+#: newmailnotifiersettingswidget.cpp:124
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Message:"
+msgstr "Poruka:"
+
+#: newmailnotifiersettingswidget.cpp:136
+#, kde-format
+msgid "Text to Speak"
+msgstr "Tekst za izgovor"
+
+#: newmailnotifiersettingswidget.cpp:142
+#, kde-format
+msgid "Notify"
+msgstr "Obavijesti"
+
+#: newmailnotifiersettingswidget.cpp:145
+#, kde-format
+msgid "Folders"
+msgstr "Mape"
+
+#: specialnotifierjob.cpp:112
+#, kde-format
+msgid "From: %1"
+msgstr "Od: %1"
+
+#: specialnotifierjob.cpp:120
+#, kde-format
+msgid "Subject: %1"
+msgstr "Predmet: %1"
+
+#: specialnotifierjob.cpp:124
+#, kde-format
+msgid "In: %1"
+msgstr "U: %1"
+
+#: specialnotifierjob.cpp:126
+#, kde-format
+msgid "In: %1 (%2)"
+msgstr "U: %1 (%2)"
+
+#: specialnotifierjob.cpp:151
+#, kde-format
+msgid "Show mail…"
+msgstr "Show pošta…"
+
+#: specialnotifierjob.cpp:154
+#, kde-format
+msgid "Mark As Read"
+msgstr "Označi kao pročitano"
+
+#: specialnotifierjob.cpp:157
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"

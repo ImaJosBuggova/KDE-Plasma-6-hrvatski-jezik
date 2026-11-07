@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-runtime package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-runtimeReport-Msgid-Bugs-To: https://bugs.kde.orgPOT-Creation-Date: 2026-10-26 00:50+0000PO-Revision-Date: 2026-11-07 00:00+0100Last-Translator: Roko Tomović <roko@maesdbk.hr>Language-Team: Croatian <kde-i18n-doc@kde.org>Language: hrMIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;X-Generator: Lokalize\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#: icalresource.cpp:53 icalresource.cpp:130 icalresource.cpp:172
+#: icalresource.cpp:212
+#, kde-format
+msgid "Calendar not loaded."
+msgstr "Kalendar ne loaded."
+
+#: icalresource.cpp:65
+#, kde-format
+msgid "Incidence with uid '%1' not found."
+msgstr "Incidence s uid '%1' nije pronađen."
+
+#: icalresource.cpp:198
+#, kde-format
+msgid "Failed to save calendar file to %1"
+msgstr "Spremanje nije uspjelo: kalendar datoteka za %1"
+
+#: icalresource.cpp:217
+#, kde-format
+msgid "Unable to retrieve added item %1."
+msgstr "Nije moguće dohvatiti added stavka %1."
+
+#: icalresource.cpp:217
+#, kde-format
+msgid "Unable to retrieve modified item %1."
+msgstr "Nije moguće dohvatiti modified stavka %1."
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: icalresource.kcfg:10
+#, kde-format
+msgid "Path to iCal file."
+msgstr "Putanja za iCal datoteka."
+
+#. i18n: ectx: label, entry (DisplayName), group (General)
+#: icalresource.kcfg:14
+#, kde-format
+msgid "Display name."
+msgstr "Ime za prikaz."
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: icalresource.kcfg:18
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "Učini ne promjena actual backend podaci."
+
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: icalresource.kcfg:22
+#, kde-format
+msgid "Monitor file for changes."
+msgstr "Nadzirati datoteka za promjene."
+
+#. i18n: ectx: label, entry (PeriodicUpdate), group (General)
+#: icalresource.kcfg:26
+#, kde-format
+msgid "Periodically update the file."
+msgstr "Povremeno ažuriraj datoteka."
+
+#. i18n: ectx: label, entry (UpdatePeriod), group (General)
+#: icalresource.kcfg:30
+#, kde-format
+msgid "Automatic update period in minutes."
+msgstr "Razdoblje automatskog osvježavanja u minutama."
+
+#. i18n: ectx: label, entry (ActivitiesEnabled), group (Activities)
+#: icalresource.kcfg:36
+#, kde-format
+msgid "Whether the activities support of the agent is enabled"
+msgstr "Whether aktivnosti podrška od agent je omogućen"
+
+#. i18n: ectx: label, entry (Activities), group (Activities)
+#: icalresource.kcfg:40
+#, kde-format
+msgid "The activities of the agent"
+msgstr " aktivnosti od agent"

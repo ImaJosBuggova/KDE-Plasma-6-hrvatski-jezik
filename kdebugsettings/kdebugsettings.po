@@ -1,0 +1,605 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdebugsettings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebugsettings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"PO-Revision-Date: 2026-11-06 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: src/apps/main.cpp:46
+#, kde-format
+msgid "KDebugSettings"
+msgstr "KDebugSettings"
+
+#: src/apps/main.cpp:48
+#, kde-format
+msgid "Configure debug settings"
+msgstr "Konfiguriranje postavki otklanjanja pogrešaka"
+
+#: src/apps/main.cpp:50
+#, kde-format
+msgid "(c) 2015-%1 kdebugsettings authors"
+msgstr "(c) 2015. – %1 autori kdebugsettingsa"
+
+#: src/apps/main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: src/apps/main.cpp:51
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: src/apps/main.cpp:75
+#, kde-format
+msgid "List of categories:"
+msgstr "Popis kategorija:"
+
+#: src/apps/main.cpp:86 src/apps/main.cpp:97 src/apps/main.cpp:110
+#, kde-format
+msgid "Impossible to change debug mode"
+msgstr "Nije moguće promijeniti način otklanjanja pogrešaka"
+
+#: src/apps/main.cpp:115
+#, kde-format
+msgid "--debug-mode requires at least one logging category name."
+msgstr "--debug-mode zahtijeva barem jedan naziv kategorije zapisivanja."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:22
+#, kde-format
+msgid ""
+"Enable QStandardPaths test mode, i.e. read/write settings used by unittests"
+msgstr "Omogući testni način QStandardPaths, tj. čitanje i pisanje postavki koje upotrebljavaju jedinični testovi"
+
+#: src/core/kdebugsettingscommandlineparser.cpp:26
+#, kde-format
+msgid "Show categories list."
+msgstr "Prikaži popis kategorija."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:31
+#, kde-format
+msgid "Activate full debug for all modules."
+msgstr "Aktiviraj potpuno otklanjanje pogrešaka za sve module."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:35
+#, kde-format
+msgid "Disable full debug for all modules."
+msgstr "Onemogući potpuno otklanjanje pogrešaka za sve module."
+
+#: src/core/kdebugsettingscommandlineparser.cpp:40
+#, kde-format
+msgid "Change debug mode as console (in console)"
+msgstr "Promijeni način otklanjanja pogrešaka za konzolu (u konzoli)"
+
+#: src/core/kdebugsettingscommandlineparser.cpp:43
+#, kde-format
+msgid ""
+"Specify logging category name that you want to change debug mode (in console)"
+msgstr "Navedite naziv kategorije zapisivanja kojoj želite promijeniti način otklanjanja pogrešaka (u konzoli)"
+
+#: src/core/kdebugsettingsutil.cpp:412
+#, kde-format
+msgid "Full Debug"
+msgstr "Potpuno otklanjanje pogrešaka"
+
+#: src/core/kdebugsettingsutil.cpp:415
+#, kde-format
+msgid "Info"
+msgstr "Informacije"
+
+#: src/core/kdebugsettingsutil.cpp:418
+#, kde-format
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: src/core/kdebugsettingsutil.cpp:421
+#, kde-format
+msgid "Critical"
+msgstr "Kritično"
+
+#: src/core/kdebugsettingsutil.cpp:424
+#, kde-format
+msgid "Off"
+msgstr "Isključeno"
+
+#: src/core/kdebugsettingsutil.cpp:427 src/core/loggingcategory.cpp:147
+#, kde-format
+msgid "Undefined"
+msgstr "Nedefinirano"
+
+#: src/core/loggingcategory.cpp:116
+#, kde-format
+msgid "Category name: %1"
+msgstr "Naziv kategorije: %1"
+
+#: src/core/loggingcategory.cpp:118
+#, kde-format
+msgid "Identifier: %1"
+msgstr "Identifikator: %1"
+
+#: src/core/loggingcategory.cpp:120
+#, kde-format
+msgid "Default Severity: %1"
+msgstr "Zadana razina ozbiljnosti: %1"
+
+#: src/core/loggingcategory.cpp:129
+#, kde-format
+msgid "All Debug Messages"
+msgstr "Sve poruke za otklanjanje pogrešaka"
+
+#: src/core/loggingcategory.cpp:132
+#, kde-format
+msgid "Info Messages"
+msgstr "Informativne poruke"
+
+#: src/core/loggingcategory.cpp:135
+#, kde-format
+msgid "Warning Messages"
+msgstr "Poruke upozorenja"
+
+#: src/core/loggingcategory.cpp:138
+#, kde-format
+msgid "Debug Messages"
+msgstr "Poruke za otklanjanje pogrešaka"
+
+#: src/core/loggingcategory.cpp:141
+#, kde-format
+msgid "Critical Messages"
+msgstr "Kritične poruke"
+
+#: src/core/loggingcategory.cpp:144
+#, kde-format
+msgid "No Debug Messages"
+msgstr "Bez poruka za otklanjanje pogrešaka"
+
+#: src/kcm/ui/CustomRulesPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Custom Rules"
+msgstr "Prilagođena pravila"
+
+#: src/kcm/ui/CustomRulesPage.qml:70
+#, kde-format
+msgctxt "@action add custom rule"
+msgid "Add Rule…"
+msgstr "Dodaj pravilo…"
+
+#: src/kcm/ui/CustomRulesPage.qml:82
+#, kde-format
+msgctxt "@action edit custom rule"
+msgid "Edit Rule…"
+msgstr "Uredi pravilo…"
+
+#: src/kcm/ui/CustomRulesPage.qml:93
+#, kde-format
+msgctxt "@action remove custom rule"
+msgid "Remove Rule"
+msgstr "Ukloni pravilo"
+
+#: src/kcm/ui/CustomRulesPage.qml:101
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Rule"
+msgstr ""
+
+#: src/kcm/ui/CustomRulesPage.qml:102
+#, kde-format
+msgid "Are you sure you want to remove rule ?"
+msgstr "Želite li zaista ukloniti pravilo?"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:11
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Custom Rule"
+msgstr "Uredi prilagođeno pravilo"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:11
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Custom Rule"
+msgstr "Izradi prilagođeno pravilo"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:29
+#, kde-format
+msgctxt "@label:button"
+msgid "Save"
+msgstr "Spremi"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:42
+#: src/widgets/configurecustomsettingwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr "Kategorija:"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:51
+#: src/widgets/configurecustomsettingwidget.cpp:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Type:"
+msgstr "Vrsta:"
+
+#: src/kcm/ui/EditCustomRuleDialog.qml:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: src/kcm/ui/EnvironmentVariableRulesPage.qml:12
+#, kde-format
+msgctxt "@title"
+msgid "Rules Settings with Environment Variable"
+msgstr "Postavke pravila s varijablom okruženja"
+
+#: src/kcm/ui/EnvironmentVariableRulesPage.qml:21
+#: src/widgets/environmentplaintextedit.cpp:43
+#, kde-format
+msgid ""
+"No rules have been defined in the environment variable \"QT_LOGGING_RULES\"."
+msgstr "U varijabli okruženja „QT_LOGGING_RULES” nisu definirana pravila."
+
+#: src/kcm/ui/KDEApplicationRulesPage.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "KDE Application Rules"
+msgstr "Pravila KDE aplikacija"
+
+#: src/kcm/ui/main.qml:19
+#, kde-format
+msgctxt "@action"
+msgid "Show KDE Application Categories"
+msgstr "Prikaži kategorije KDE aplikacija"
+
+#: src/kcm/ui/main.qml:26
+#, kde-format
+msgctxt "@action"
+msgid "Show Custom Categories"
+msgstr "Prikaži prilagođene kategorije"
+
+#: src/kcm/ui/main.qml:33
+#, kde-format
+msgctxt "@action"
+msgid "Show Environment Categories"
+msgstr "Prikaži kategorije okruženja"
+
+#: src/widgets/categorywarning.cpp:16
+#, kde-format
+msgid ""
+"A custom rule '*=true' or '*=false' is present, which may override more "
+"specific rules. It is better to remove it."
+msgstr "Postoji prilagođeno pravilo „*=true” ili „*=false” koje može nadjačati određenija pravila. Preporučuje se njegovo uklanjanje."
+
+#: src/widgets/configurecustomsettingdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Add custom rule"
+msgstr "Dodaj prilagođeno pravilo"
+
+#: src/widgets/configurecustomsettingdialog.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit custom rule"
+msgstr "Uredi prilagođeno pravilo"
+
+#: src/widgets/configurecustomsettingwidget.cpp:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable"
+msgstr "Omogući"
+
+#: src/widgets/customdebuglistview.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Add Rule…"
+msgstr "Dodaj pravilo…"
+
+#: src/widgets/customdebuglistview.cpp:50
+#, kde-format
+msgctxt "@action"
+msgid "Edit Rule"
+msgstr "Uredi pravilo"
+
+#: src/widgets/customdebuglistview.cpp:56
+#: src/widgets/customdebuglistview.cpp:94
+#, kde-format
+msgid "Remove Rule"
+msgid_plural "Remove Rules"
+msgstr[0] "Ukloni pravilo"
+msgstr[1] "Ukloni pravila"
+msgstr[2] "Ukloni pravila"
+
+#: src/widgets/customdebuglistview.cpp:89
+#, kde-format
+msgid "Do you want to remove this rule?"
+msgid_plural "Do you want to remove these %1 rules?"
+msgstr[0] "Želite li ukloniti ovo pravilo?"
+msgstr[1] "Želite li ukloniti ova %1 pravila?"
+msgstr[2] "Želite li ukloniti ovih %1 pravila?"
+
+#: src/widgets/customdebugsettingspage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit…"
+msgstr "Uredi…"
+
+#: src/widgets/customdebugsettingspage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove…"
+msgstr "Ukloni…"
+
+#: src/widgets/customdebugsettingspage.cpp:40
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: src/widgets/customdebugsettingspage.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Add…"
+msgstr "Dodaj…"
+
+#: src/widgets/environmentsettingsrulespage.cpp:31
+#, kde-format
+msgid ""
+"These rules cannot be edited with this application. You need to set them in "
+"QT_LOGGING_RULES variable directly."
+msgstr "Ta se pravila ne mogu uređivati ovom aplikacijom. Potrebno ih je izravno postaviti u varijabli QT_LOGGING_RULES."
+
+#: src/widgets/environmentsettingsrulespage.cpp:33
+#, kde-format
+msgid "Current rules:"
+msgstr "Trenutačna pravila:"
+
+#: src/widgets/groupmanagementdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Group"
+msgstr "Upravljanje grupom"
+
+#: src/widgets/groupmanagementwidget.cpp:51
+#: src/widgets/groupmanagementwidget.cpp:54
+#: src/widgets/groupmanagementwidget.cpp:56
+#, kde-format
+msgid "Export Group"
+msgstr "Izvezi grupu"
+
+#: src/widgets/groupmanagementwidget.cpp:54
+#, kde-format
+msgid "Group exported to %1"
+msgstr "Grupa je izvezena u %1"
+
+#: src/widgets/groupmanagementwidget.cpp:56
+#, kde-format
+msgid "Impossible to export group '%2' to '%1'"
+msgstr "Nije moguće izvesti grupu „%2” u „%1”"
+
+#: src/widgets/groupmanagementwidget.cpp:69
+#: src/widgets/groupmanagementwidget.cpp:74
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Group"
+msgstr "Preimenuj grupu"
+
+#: src/widgets/groupmanagementwidget.cpp:69
+#, kde-format
+msgid "New Name:"
+msgstr "Novi naziv:"
+
+#: src/widgets/groupmanagementwidget.cpp:74
+#, kde-format
+msgid "Impossible to rename group as '%1'."
+msgstr "Nije moguće preimenovati grupu u „%1”."
+
+#: src/widgets/groupmanagementwidget.cpp:90
+#, kde-format
+msgctxt "@action"
+msgid "Rename Group…"
+msgstr "Preimenuj grupu…"
+
+#: src/widgets/groupmanagementwidget.cpp:94
+#, kde-format
+msgctxt "@action"
+msgid "Export Group…"
+msgstr "Izvezi grupu…"
+
+#: src/widgets/groupmanagementwidget.cpp:99
+#, kde-format
+msgctxt "@action"
+msgid "Remove Groups"
+msgstr "Ukloni grupe"
+
+#: src/widgets/groupmanagementwidget.cpp:105
+#, kde-format
+msgid "Impossible to remove '%1'"
+msgstr "Nije moguće ukloniti „%1”"
+
+#: src/widgets/groupmanagementwidget.cpp:105
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Group"
+msgstr "Uklanjanje grupe"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable All Debug"
+msgstr "Omogući potpuno otklanjanje pogrešaka"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off Debug"
+msgstr "Isključi otklanjanje pogrešaka"
+
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:25
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off All Messages"
+msgstr "Isključi sve poruke"
+
+#: src/widgets/kdebugsettingsdialog.cpp:70
+#, kde-format
+msgid "KDE Application"
+msgstr "KDE aplikacija"
+
+#: src/widgets/kdebugsettingsdialog.cpp:71
+#, kde-format
+msgid "Custom Rules"
+msgstr "Prilagođena pravila"
+
+#: src/widgets/kdebugsettingsdialog.cpp:72
+#, kde-format
+msgid "Rules Settings With Environment Variable"
+msgstr "Postavke pravila s varijablom okruženja"
+
+#: src/widgets/kdebugsettingsdialog.cpp:80
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview…"
+msgstr "Pregled…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:86
+#: src/widgets/savetoolbutton.cpp:17
+#, kde-format
+msgid "Save As…"
+msgstr "Spremi kao…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:99
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert…"
+msgstr "Umetni…"
+
+#: src/widgets/kdebugsettingsdialog.cpp:183
+#, kde-format
+msgid "'%1' cannot be opened. Please verify it."
+msgstr "Nije moguće otvoriti „%1”. Provjerite ga."
+
+#: src/widgets/kdebugsettingsdialog.cpp:208
+#, kde-format
+msgid "Insert Categories"
+msgstr "Umetanje kategorija"
+
+#: src/widgets/kdebugsettingsdialog.cpp:208
+#, kde-format
+msgid "Categories Files"
+msgstr "Datoteke kategorija"
+
+#: src/widgets/kdebugsettingsdialog.cpp:222
+#, kde-format
+msgid "Categories from file '%1' inserted."
+msgstr "Kategorije iz datoteke „%1” su umetnute."
+
+#: src/widgets/kdebugsettingsdialog.cpp:222
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Categories"
+msgstr ""
+
+#: src/widgets/kdebugsettingsdialog.cpp:230
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Name"
+msgstr "Naziv grupe"
+
+#: src/widgets/kdebugsettingsdialog.cpp:230
+#, kde-format
+msgid "Name:"
+msgstr "Naziv:"
+
+#: src/widgets/kdebugsettingsdialog.cpp:235
+#, kde-format
+msgid ""
+"<b>'%1'</b> is already used as a group name.\n"
+"Please save as another name."
+msgstr "<b>„%1”</b> već se upotrebljava kao naziv grupe.\nSpremite je pod drugim nazivom."
+
+#: src/widgets/kdebugsettingsdialog.cpp:244
+#, kde-format
+msgid "Can not save as empty name. Please use a new one."
+msgstr "Nije moguće spremiti s praznim nazivom. Unesite novi naziv."
+
+#: src/widgets/kdebugsettingsdialog.cpp:251
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "Spremi kao"
+
+#: src/widgets/kdebugsettingsdialog.cpp:251
+#: src/widgets/kdebugsettingsdialog.cpp:260
+#, kde-format
+msgid "KDebugSettings File (*.kdebugsettingsrules)"
+msgstr "Datoteka KDebugSettings (*.kdebugsettingsrules)"
+
+#: src/widgets/kdebugsettingsdialog.cpp:260
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Debug Settings Files"
+msgstr "Učitavanje datoteka postavki otklanjanja pogrešaka"
+
+#: src/widgets/loadgroupmenu.cpp:22
+#, kde-format
+msgid "Load Group"
+msgstr "Učitaj grupu"
+
+#: src/widgets/loadgroupmenu.cpp:67
+#, kde-format
+msgctxt "@action"
+msgid "Manage Group"
+msgstr "Upravljaj grupom"
+
+#: src/widgets/loadtoolbutton.cpp:21
+#, kde-format
+msgid "Load…"
+msgstr "Učitaj…"
+
+#: src/widgets/loadtoolbutton.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Load From File…"
+msgstr "Učitaj iz datoteke…"
+
+#: src/widgets/previewgeneratedfiledialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview Generated File"
+msgstr "Pregled generirane datoteke"
+
+#: src/widgets/qtloggingfilechangedwarning.cpp:16
+#, kde-format
+msgid "qtlogging.ini was changed. Do you want to reload it?"
+msgstr "Datoteka qtlogging.ini je promijenjena. Želite li je ponovno učitati?"
+
+#: src/widgets/qtloggingfilechangedwarning.cpp:19
+#, kde-format
+msgid "Reload"
+msgstr "Ponovno učitaj"
+
+#: src/widgets/savetoolbutton.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Save As File…"
+msgstr "Spremi kao datoteku…"
+
+#: src/widgets/savetoolbutton.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Save As Group…"
+msgstr "Spremi kao grupu…"

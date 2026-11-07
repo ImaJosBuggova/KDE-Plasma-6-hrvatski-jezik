@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-30 00:45+0000\n"
+"PO-Revision-Date: 2026-11-07 04:54+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#. (itstool) path: component/name
+#: org.kde.kid3.appdata.xml:11
+msgid "Kid3"
+msgstr "Kid3"
+
+#. (itstool) path: component/summary
+#: org.kde.kid3.appdata.xml:12
+msgid "Edit audio file metadata"
+msgstr "Uređivanje metapodataka zvučnih datoteka"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:14
+msgid "With Kid3, an audio tag editor, you can edit tags in MP3, Ogg/Vorbis, DSF, FLAC, Opus, MPC, APE, MP4/AAC, MP2, Speex, TrueAudio, WavPack, WMA, WAV, AIFF and tracker files."
+msgstr "S Kid3, uređivačem oznaka zvučnih datoteka, možete uređivati oznake u datotekama MP3, Ogg/Vorbis, DSF, FLAC, Opus, MPC, APE, MP4/AAC, MP2, Speex, TrueAudio, WavPack, WMA, WAV, AIFF i tracker datotekama."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:19
+msgid "All frames in the ID3 tags of MP3 files can be edited, and it is possible to convert between ID3v1.1, ID3v2.3 and ID3v2.4. Synchronized lyrics can be edited, imported and exported to LRC Karaoke files."
+msgstr "Svi okviri u ID3 oznakama MP3 datoteka mogu se uređivati, a moguće je i pretvaranje između ID3v1.1, ID3v2.3 i ID3v2.4. Sinkronizirani tekstovi pjesama mogu se uređivati, uvoziti i izvoziti u LRC karaoke datoteke."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:24
+msgid "The tags of multiple files can be set together. It is possible to generate tags from file names or the contents of other tag fields and to generate file names from tags and rename folders from tags. Automatic case conversion and string replacement help to keep tags consistent."
+msgstr "Oznake više datoteka mogu se postaviti zajedno. Moguće je generirati oznake iz naziva datoteka ili sadržaja drugih polja oznaka te generirati nazive datoteka iz oznaka i preimenovati mape iz oznaka. Automatska promjena velikih i malih slova te zamjena nizova pomažu u održavanju dosljednosti oznaka."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:30
+msgid "Album data can be imported from gnudb.org, MusicBrainz, Discogs, Amazon; automatic batch import is available for multiple folders. It is also possible to export data and generate play lists."
+msgstr "Podaci o albumu mogu se uvoziti s gnudb.org, MusicBrainza, Discogsa, Amazona; za više mapa dostupan je automatski skupni uvoz. Moguće je i izvoziti podatke te generirati popise za reprodukciju."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:35
+msgid "Kid3 uses the KDE Frameworks. Users of other desktop environments may prefer Kid3-qt instead, which is without KDE dependencies."
+msgstr "Kid3 koristi KDE Frameworks. Korisnici drugih radnih okruženja možda će radije koristiti Kid3-qt, koji nema KDE ovisnosti."
+
+#. (itstool) path: screenshot/caption
+#: org.kde.kid3.appdata.xml:43
+msgid "Kid3 main window"
+msgstr "Glavni prozor programa Kid3"
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:67 org.kde.kid3.appdata.xml:78
+#: org.kde.kid3.appdata.xml:104 org.kde.kid3.appdata.xml:118
+#: org.kde.kid3.appdata.xml:144 org.kde.kid3.appdata.xml:169
+#: org.kde.kid3.appdata.xml:192
+msgid "Fixed"
+msgstr "Ispravljeno"
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:69
+msgid "Discogs import."
+msgstr "Uvoz s Discogsa."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:70
+msgid "Remove id3lib metadata plugin."
+msgstr "Uklonjen id3lib dodatak za metapodatke."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:71
+msgid "Support frame names containing dots in kid3-cli."
+msgstr "Podrška za nazive okvira s točkama u kid3-cli."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:72
+msgid "CI builds for Windows and Android."
+msgstr "CI izgradnje za Windows i Android."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:80
+msgid "MP4: Fix adding atom creates atom with wrong uppercased name."
+msgstr "MP4: ispravljeno dodavanje atoma koje je stvaralo atom s pogrešnim nazivom velikim slovima."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:81
+msgid "Support timestamps larger than 24h for chapters and synchronized lyrics."
+msgstr "Podrška za vremenske oznake dulje od 24 sata za poglavlja i sinkronizirane tekstove."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:82
+msgid "Android: Build for F-Droid."
+msgstr "Android: izgradnja za F-Droid."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:83
+msgid "Windows: Cross building on Linux."
+msgstr "Windows: unakrsna izgradnja na Linuxu."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:89 org.kde.kid3.appdata.xml:134
+#: org.kde.kid3.appdata.xml:158 org.kde.kid3.appdata.xml:180
+msgid "New"
+msgstr "Novo"
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:91
+msgid "Support for Matroska and WebM files."
+msgstr "Podrška za Matroska i WebM datoteke."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:92
+msgid "MP4: Support both QuickTime and Nero Chapters, also with TagLib."
+msgstr "MP4: podrška za QuickTime i Nero poglavlja, također s TagLibom."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:93
+msgid "MP4: Support STEM."
+msgstr "MP4: podrška za STEM."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:94
+msgid "WAV, FLAC: Support iXML and BEXT chunks."
+msgstr "WAV, FLAC: podrška za iXML i BEXT odlomke."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:95
+msgid "Android: Select all/deselect all frames."
+msgstr "Android: odabir svih/poništavanje odabira svih okvira."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:96
+msgid "Android: Import/Export of chapters and synchronized lyrics as LRC files."
+msgstr "Android: uvoz/izvoz poglavlja i sinkroniziranih tekstova kao LRC datoteka."
+
+#. (itstool) path: description/p
+#: org.kde.kid3.appdata.xml:98 org.kde.kid3.appdata.xml:140
+#: org.kde.kid3.appdata.xml:164 org.kde.kid3.appdata.xml:185
+msgid "Improved"
+msgstr "Poboljšano"
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:100
+msgid "Improved save performance."
+msgstr "Poboljšana brzina spremanja."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:101
+msgid "macOS: Consistent icon set with dark mode."
+msgstr "macOS: dosljedan skup ikona s tamnim načinom rada."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:102
+msgid "Export CSV, JSON: Only export selected folders."
+msgstr "Izvoz CSV, JSON: izvoze se samo odabrane mape."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:106
+msgid "Fix Discogs import."
+msgstr "Ispravljen uvoz s Discogsa."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:107
+msgid "Consider the configured language for the handbook."
+msgstr "Za priručnik se uzima u obzir postavljeni jezik."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:108
+msgid "Fix: Import of LRC files (synchronized lyrics, chapters) with hour values."
+msgstr "Ispravak: uvoz LRC datoteka (sinkronizirani tekstovi, poglavlja) s vrijednostima sati."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:109
+msgid "Fix broken file list behavior when renaming many files and the list is sorted in descending order."
+msgstr "Ispravljeno neispravno ponašanje popisa datoteka pri preimenovanju mnogo datoteka kada je popis poredan silazno."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:110
+msgid "Fix progress reporting when files are saved."
+msgstr "Ispravljeno prikazivanje napretka pri spremanju datoteka."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:111
+msgid "ID3v2: Support values with multiple strings in TXXX frames."
+msgstr "ID3v2: podrška za vrijednosti s više nizova u TXXX okvirima."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:112
+msgid "Windows: Support MP4 64-bit atoms on Windows."
+msgstr "Windows: podrška za MP4 64-bitne atome u sustavu Windows."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:120
+msgid "KDE: Avoid excessive width of file dialog."
+msgstr "KDE: izbjegnuta pretjerana širina dijaloga datoteka."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:121
+msgid "Make Chapters frames accessible via kid3-cli."
+msgstr "Okviri poglavlja dostupni su putem kid3-cli."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:122
+msgid "Superfluous imported tracks can be deleted before import."
+msgstr "Suvišne uvezene pjesme mogu se izbrisati prije uvoza."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:123
+msgid "Fix creation of wrong editor in frame table after selection change."
+msgstr "Ispravljeno stvaranje pogrešnog uređivača u tablici okvira nakon promjene odabira."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:124
+msgid "Completions with different values when selecting multiple files now also support genre."
+msgstr "Dovršavanja s različitim vrijednostima pri odabiru više datoteka sada podržavaju i žanr."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:125
+msgid "Do not leave temporary cover art files on the system."
+msgstr "Ne ostavljaju se privremene datoteke naslovnica na sustavu."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:126
+msgid "EmbedLyrics.qml: Remove illegal characters for query parameters."
+msgstr "EmbedLyrics.qml: uklonjeni nedopušteni znakovi za parametre upita."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:127
+msgid "Scripting: Fix crash if execute @qml is used from kid3-cli, fix isStandalone() when running non-interactively with kid3-cli, add new script SelectChapterTags.qml."
+msgstr "Skriptiranje: ispravljen pad ako se izvrši @qml iz kid3-cli, ispravljen isStandalone() pri neinteraktivnom pokretanju s kid3-cli, dodana nova skripta SelectChapterTags.qml."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:128
+msgid "Build system: Don't hardcode WITH_DATAROOTDIR_DEFAULT path, support CMake option BUILD_WITH_QT5 to force using Qt5, support Qt 6/KDE 6 on Debian, add various new CI/CD targets, improve Snap support."
+msgstr "Sustav izgradnje: ne kodira se čvrsto putanja WITH_DATAROOTDIR_DEFAULT, podrška za CMake opciju BUILD_WITH_QT5 za prisilno korištenje Qt5, podrška za Qt 6/KDE 6 na Debianu, dodane razne nove CI/CD mete, poboljšana podrška za Snap."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:136
+msgid "Show preview for multiple embedded pictures."
+msgstr "Prikaz pretpregleda za više ugrađenih slika."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:137
+msgid "Simplified editing of MP3 audiobooks in a \"Chapters\" frame edit dialog."
+msgstr "Pojednostavljeno uređivanje MP3 audioknjiga u dijalogu za uređivanje okvira „Poglavlja”."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:138
+msgid "Arabic, Esperanto, Galician and Georgian translations."
+msgstr "Prijevodi na arapski, esperanto, galicijski i gruzijski."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:142
+msgid "macOS: Building, signing and notarizing packages."
+msgstr "macOS: izgradnja, potpisivanje i notarizacija paketa."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:146
+msgid "Embed lyrics action."
+msgstr "Radnja ugrađivanja tekstova pjesama."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:147
+msgid "gnudb.org import, a registered e-mail address can be set in the \"Token\" UI control."
+msgstr "Uvoz s gnudb.org, registrirana adresa e-pošte može se postaviti u kontroli sučelja „Token”."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:148
+msgid "KDE 6: Install directory for kid3ui.rc."
+msgstr "KDE 6: instalacijski direktorij za kid3ui.rc."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:149
+msgid "Android: Building with arm64-v8a and x86_64 architectures."
+msgstr "Android: izgradnja za arhitekture arm64-v8a i x86_64."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:150
+msgid "Android: Use MANAGE_EXTERNAL_STORAGE permission to manage all files on a storage device."
+msgstr "Android: korištenje dopuštenja MANAGE_EXTERNAL_STORAGE za upravljanje svim datotekama na uređaju za pohranu."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:151
+msgid "Android: Saving picture tags."
+msgstr "Android: spremanje oznaka slika."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:152
+msgid "Haiku: Installation paths."
+msgstr "Haiku: instalacijske putanje."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:160
+msgid "Keyboard shortcuts for play toolbar."
+msgstr "Tipkovni prečaci za alatnu traku reprodukcije."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:161
+msgid "Option \"Audio output\" in \"User Actions\" settings tab."
+msgstr "Opcija „Audio izlaz” na kartici postavki „Korisničke radnje”."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:162
+msgid "Support WebP format for pictures."
+msgstr "Podrška za WebP format slika."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:166
+msgid "Clicking again on 1 star makes star rating disappear."
+msgstr "Ponovni klik na 1 zvjezdicu uklanja ocjenu zvjezdicama."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:167
+msgid "Support '\\|' to escape string list separators."
+msgstr "Podrška za „\\|” za izbjegavanje razdjelnika popisa nizova."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:171
+msgid "Support multiple values in APE text items."
+msgstr "Podrška za više vrijednosti u APE tekstualnim stavkama."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:172
+msgid "Building with TagLib 2.0."
+msgstr "Izgradnja s TagLib 2.0."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:173
+msgid "Building from macOS with arm64."
+msgstr "Izgradnja iz macOS-a s arm64."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:174
+msgid "Building snap packages."
+msgstr "Izgradnja snap paketa."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:182
+msgid "All the official binaries are built with Qt 6. For macOS, the Darwin-amd64.dmg file is now the Qt 6 version, whereas systems older than Mojave need the package Darwin-Qt5.dmg. The string replacement settings stored by Qt 6 are not compatible with Qt 5 because a different encoding is used."
+msgstr "Svi službeni binarni paketi izgrađeni su s Qt 6. Za macOS, datoteka Darwin-amd64.dmg sada je Qt 6 inačica, dok sustavi stariji od Mojavea trebaju paket Darwin-Qt5.dmg. Postavke zamjene nizova koje sprema Qt 6 nisu kompatibilne s Qt 5 jer se koristi drukčije kodiranje."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:183
+msgid "Option \"Select file on play\" in \"User Actions\" settings tab."
+msgstr "Opcija „Odaberi datoteku pri reprodukciji” na kartici postavki „Korisničke radnje”."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:187
+msgid "Click on play tool bar time toggles between elapsed and remaining time."
+msgstr "Klik na vrijeme na alatnoj traci reprodukcije prebacuje između proteklog i preostalog vremena."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:188
+msgid "The visibility and docked area of the play tool bar are restored."
+msgstr "Vidljivost i usidreno područje alatne trake reprodukcije se vraćaju."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:189
+msgid "ID3v1: When setting multiple genres, use first supported element."
+msgstr "ID3v1: pri postavljanju više žanrova koristi se prvi podržani element."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:190
+msgid "Qt6: Use SVG icons for better performance in file list and dialog."
+msgstr "Qt6: korištenje SVG ikona za bolju brzinu u popisu datoteka i dijalogu."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:194
+msgid "Do not mark all non-unified frames as modified if any non-unified frame is changed."
+msgstr "Ne označavaju se svi nesjedinjeni okviri kao izmijenjeni ako je promijenjen bilo koji nesjedinjeni okvir."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:195
+msgid "Crash in Id3libMetadata when clicking Edit on unsupported frame."
+msgstr "Pad u Id3libMetadata pri kliku na Uredi za nepodržani okvir."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:196
+msgid "Setting text encoding on TXXX frames with TaglibMetadata."
+msgstr "Postavljanje kodiranja teksta na TXXX okvirima s TaglibMetadata."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:197
+msgid "Skip non letter characters for first letter uppercase format."
+msgstr "Preskakanje znakova koji nisu slova za format prvog slova velikim."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:198
+msgid "Discogs import: Fix values in Artist, Arranger and Performer frames, use \"genres\" if \"styles\" is empty, fetch correct cover art, support vinyl track numbers like A1."
+msgstr "Uvoz s Discogsa: ispravljene vrijednosti u okvirima Izvođač, Aranžer i Izvedba, koristi se „genres” ako je „styles” prazan, dohvaćanje ispravne naslovnice, podrška za brojeve pjesama na vinilu poput A1."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:199
+msgid "Qt6: Crash when adding item to config table."
+msgstr "Qt6: pad pri dodavanju stavke u tablicu postavki."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:200
+msgid "Qt6: Larger media player slider, do not repeat when last song has been played."
+msgstr "Qt6: veći klizač medijskog playera, bez ponavljanja nakon reprodukcije zadnje pjesme."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:201
+msgid "Windows, TaglibMetadata: Support files larger than 2 GB."
+msgstr "Windows, TaglibMetadata: podrška za datoteke veće od 2 GB."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:202
+msgid "Windows, OggFlacMetadata: Build without libssp-0.dll."
+msgstr "Windows, OggFlacMetadata: izgradnja bez libssp-0.dll."
+
+#. (itstool) path: ul/li
+#: org.kde.kid3.appdata.xml:203
+msgid "Windows, Mp4v2Metadata: Fix saving with file names containing non ASCII characters."
+msgstr "Windows, Mp4v2Metadata: ispravljeno spremanje s nazivima datoteka koji sadrže ne-ASCII znakove."

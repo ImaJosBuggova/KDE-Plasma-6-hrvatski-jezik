@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-runtime package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-runtimeReport-Msgid-Bugs-To: https://bugs.kde.orgPOT-Creation-Date: 2026-10-26 00:50+0000PO-Revision-Date: 2026-11-07 00:00+0100Last-Translator: Roko Tomović <roko@maesdbk.hr>Language-Team: Croatian <kde-i18n-doc@kde.org>Language: hrMIME-Version: 1.0Content-Type: text/plain; charset=UTF-8Content-Transfer-Encoding: 8bitPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;X-Generator: Lokalize\n"
+"PO-Revision-Date: 2026-11-07 00:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#. i18n: ectx: property (toolTip), widget (QTabWidget, tabWidget)
+#: settingsdialog.ui:29
+#, kde-format
+msgid "Directory settings of the resource."
+msgstr "Direktorij postavke od resurs."
+
+#. i18n: ectx: property (whatsThis), widget (QTabWidget, tabWidget)
+#: settingsdialog.ui:32
+#, kde-format
+msgid ""
+"Select settings of the directory whose contents should be represented by "
+"this resource."
+msgstr "Odaberite postavke od direktorij whose contents should biti represented putem ovo resurs."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: settingsdialog.ui:39
+#, kde-format
+msgid "Directory"
+msgstr "Direktorij"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settingsdialog.ui:45
+#, kde-format
+msgid "Directory Name"
+msgstr "Direktorij Naziv"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settingsdialog.ui:53
+#, kde-format
+msgid "Director&y:"
+msgstr "Director&y:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settingsdialog.ui:68
+#, kde-format
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr "Odaberite direktorij whose contents should biti represented putem ovo resurs. Ako direktorij ne postoji, to will biti created."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settingsdialog.ui:81
+#, kde-format
+msgid "Access Rights"
+msgstr "Prava pristupa"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ReadOnly)
+#: settingsdialog.ui:87
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above."
+msgstr "Ako samo za čitanje mode je omogućen, nema promjene will biti written za direktorij odabrani above."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ReadOnly)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settingsdialog.ui:90 settingsdialog.ui:100
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the directory."
+msgstr "Ako samo za čitanje mode je omogućen, nema promjene will biti written za direktorij odabrani above. Samo za čitanje mode will biti automatski omogućen ako vi učini ne ima zapiši pristup za direktorij."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: settingsdialog.ui:93 singlefileresourceconfigwidget_desktop.ui:92
+#, kde-format
+msgid "Read only"
+msgstr "Samo za čitanje"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: settingsdialog.ui:127
+#, kde-format
+msgid "Tuning"
+msgstr "Tuning"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settingsdialog.ui:133
+#, kde-format
+msgid ""
+"The options on this page allow you to change parameters that balance data "
+"safety and consistency against performance. In general you should be careful "
+"with changing anything here, the defaults are good enough in most cases."
+msgstr " mogućnosti na ovo page allow vi za promjena parameters to balance podaci safety i consistency against performance. U general vi should biti careful s mijenjanje anything here, defaults su good enough u najviše cases."
+
+#. i18n: ectx: property (text), widget (QLabel, autosaveLabel)
+#: settingsdialog.ui:145
+#, kde-format
+msgid "Autosave delay:"
+msgstr "Odgoda automatskog spremanja:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_AutosaveInterval)
+#: settingsdialog.ui:152
+#, kde-format
+msgid "Autosave interval time (in minutes)."
+msgstr "Autosave interval vrijeme (u minute)."
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_AutosaveInterval)
+#: settingsdialog.ui:155
+#, kde-format
+msgid "Select autosave interval time for the resource data (in minutes)."
+msgstr "Odaberite autosave interval vrijeme za resurs podaci (u minute)."
+
+#: singlefileresource.h:72
+#, kde-format
+msgid "No file selected."
+msgstr "Nije odabrana nijedna datoteka."
+
+#: singlefileresource.h:74
+#, kde-format
+msgid "The resource not configured yet"
+msgstr "Resurs još nije konfiguriran"
+
+#: singlefileresource.h:106 singlefileresource.h:135 singlefileresource.h:230
+#: singlefileresourcebase.cpp:281 singlefileresourcebase.cpp:299
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "Spremno"
+
+#: singlefileresource.h:108
+#, kde-format
+msgid "Could not create file '%1'."
+msgstr "Nije moguće stvoriti datoteka '%1'."
+
+#: singlefileresource.h:122
+#, kde-format
+msgid "Could not read file '%1'"
+msgstr "Nije moguće pročitati datoteka '%1'"
+
+#: singlefileresource.h:143
+#, kde-format
+msgid "Another download is still in progress."
+msgstr "Drugi preuzmi je još u progress."
+
+#: singlefileresource.h:153 singlefileresource.h:244
+#, kde-format
+msgid "Another file upload is still in progress."
+msgstr "Drugi datoteka prenesi je još u progress."
+
+#: singlefileresource.h:171
+#, kde-format
+msgid "Downloading remote file."
+msgstr "Downloading udaljeni datoteka."
+
+#: singlefileresource.h:194
+#, kde-format
+msgid "Trying to write to a read-only file: '%1'."
+msgstr "Trying za zapiši za samo za čitanje datoteka: '%1'."
+
+#: singlefileresource.h:206
+#, kde-format
+msgid "No file specified."
+msgstr "Nije navedena nijedna datoteka."
+
+#: singlefileresource.h:234
+#, kde-format
+msgid "A download is still in progress."
+msgstr "Preuzimanje je još u tijeku."
+
+#: singlefileresource.h:274
+#, kde-format
+msgid "Uploading cached file to remote location."
+msgstr "Uploading cached datoteka za udaljeni location."
+
+#: singlefileresourcebase.cpp:240
+#, kde-format
+msgid ""
+"The file '%1' was changed on disk. As a precaution, a backup of its previous "
+"contents has been created at '%2'."
+msgstr " datoteka '%1' je changed na disk. Kao precaution, backup od its previous contents ima bio created u '%2'."
+
+#: singlefileresourcebase.cpp:272
+#, kde-format
+msgid "Could not load file '%1'."
+msgstr "Nije moguće učitati datoteka '%1'."
+
+#: singlefileresourcebase.cpp:288
+#, kde-format
+msgid "Could not save file '%1'."
+msgstr "Nije moguće spremiti datoteka '%1'."
+
+#: singlefileresourceconfigbase.h:30
+#, kde-format
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: singlefileresourceconfigwidget_desktop.ui:39
+#, kde-format
+msgid "File"
+msgstr "Datoteka"
+
+#. i18n: ectx: property (text), widget (QLabel, filenameLabel)
+#: singlefileresourceconfigwidget_desktop.ui:47
+#, kde-format
+msgid "File or URL:"
+msgstr "Datoteka ili URL:"
+
+#. i18n: ectx: property (text), widget (QLabel, pathLabel)
+#: singlefileresourceconfigwidget_desktop.ui:66
+#, kde-format
+msgid ""
+"Select a local file or a remote URL to download a file from. A new local "
+"file will be created if it doesn't exist."
+msgstr "Odaberite lokalni datoteka ili udaljeni URL za preuzmi datoteka od. novi lokalni datoteka will biti created ako to doesn't exist."
+
+#. i18n: ectx: property (text), widget (QLabel, displayNameLabel)
+#: singlefileresourceconfigwidget_desktop.ui:79
+#, kde-format
+msgid "Display Name:"
+msgstr "Ime za prikaz:"
+
+#. i18n: ectx: property (text), widget (QLabel, readOnlyLabel)
+#: singlefileresourceconfigwidget_desktop.ui:108
+#, kde-format
+msgid ""
+"When read-only mode is enabled, no changes will be written. Read-only mode "
+"is automatically enabled when the selected file does not support write "
+"access or when displaying a calendar from remote URL."
+msgstr "Kada samo za čitanje mode je omogućen, nema promjene will biti written. Samo za čitanje mode je automatski omogućen kada odabrani datoteka čini ne podrška zapiši pristup ili kada displaying kalendar od udaljeni URL."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MonitorFile)
+#: singlefileresourceconfigwidget_desktop.ui:121
+#, kde-format
+msgid "Monitor for &changes"
+msgstr "Nadzirati za &promjene"
+
+#. i18n: ectx: property (text), widget (QLabel, monitoringLabel)
+#: singlefileresourceconfigwidget_desktop.ui:134
+#, kde-format
+msgid ""
+"Changes made by other applications will reload the file when monitoring is "
+"enabled. Backups will be created to avoid conflicts when possible. "
+"Monitoring is not available for remote URLs."
+msgstr "Promjene made putem ostali applications will reload datoteka kada monitoring je omogućen. Backups will biti created za avoid conflicts kada possible. Monitoring je ne dostupan za udaljeni URLs."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PeriodicUpdate)
+#: singlefileresourceconfigwidget_desktop.ui:149
+#, kde-format
+msgid "Automatically &update every"
+msgstr "Automatski &ažuriraj svakih"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_UpdatePeriod)
+#: singlefileresourceconfigwidget_desktop.ui:159
+#, kde-format
+msgid " minutes"
+msgstr "minute"
+
+#. i18n: ectx: property (text), widget (QLabel, periodicUpdateLabel)
+#: singlefileresourceconfigwidget_desktop.ui:193
+#, kde-format
+msgid ""
+"Periodically updates the file. Can be used when monitoring is not available "
+"(e.g. for remote calendars)."
+msgstr "Povremeno updates datoteka. Can biti used kada monitoring je ne dostupan (e.g. za udaljeni kalendari)."
+
+#: singlefileresourceconfigwidgetbase.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"A file path or URL containing the calendar file. Once created, this location "
+"cannot be modified."
+msgstr " datoteka putanja ili URL containing kalendar datoteka. Once created, ovo location nije moguće biti modified."
+
+#: singlefileresourceconfigwidgetbase.cpp:39
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path or URL to a file containing a valid calendar file. "
+"<para><note> Unfortunately, this path cannot be changed once the resource is "
+"created. To change the location, delete this resource and then create a new "
+"one with the updated path.</note></para>"
+msgstr "Unesite putanja ili URL za datoteka containing valjan kalendar datoteka. <para><note> Unfortunately, ovo putanja nije moguće biti changed once resurs je created. Za promjena location, izbriši ovo resurs i then stvori novi jedan s updated putanja.</note></para>"
+
+#: singlefileresourceconfigwidgetbase.cpp:145
+#, kde-format
+msgctxt "@info:status"
+msgid "Checking file information…"
+msgstr "Provjera podataka o datoteci…"

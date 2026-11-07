@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-addons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-31 00:44+0000\n"
+"PO-Revision-Date: 2026-11-07 00:00+0000\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: gnupgwksurlhandler.cpp:86
+#, kde-format
+msgid "Display key details"
+msgstr "Prikaži ključ pojedinosti"
+
+#: gnupgwksurlhandler.cpp:88
+#, kde-format
+msgid "Publish the key"
+msgstr "Objavi the ključ"
+
+#: pgpkeyformatter.cpp:44
+#, kde-format
+msgid "No valid key data in file."
+msgstr "Nema valjano ključ podaci u datoteka."
+
+#: pgpkeyurlhandler.cpp:48
+#, kde-format
+msgid "Import the key"
+msgstr "Uvoziti the ključ"
+
+#: pgpkeyurlhandler.cpp:67
+#, kde-format
+msgid "An error occurred while importing the key."
+msgstr "Došlo je do pogreške while uvoz the ključ."
+
+#: pgpkeyurlhandler.cpp:69 pgpkeyurlhandler.cpp:71
+#, kde-format
+msgctxt "@title:window"
+msgid "Import error"
+msgstr "Uvoziti pogreška"
+
+#: pgpkeyurlhandler.cpp:71
+#, kde-format
+msgid "No keys to import where found."
+msgstr "Nema ključevi to uvoziti gdje pronađena."
+
+#: pgpkeyurlhandler.cpp:73
+#, kde-format
+msgid "The key has been successfully imported."
+msgstr "The ključ je uspješno imported."
+
+#: pgpkeyurlhandler.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Import finished"
+msgstr "Uvoz je završen"
+
+#: templates/gnupgwksmessagepart.html:26
+msgid "Register your OpenPGP key with your email provider. "
+msgstr "Registriraj vaš OpenPGP ključ s vaš e-pošta davatelj usluge."
+
+#: templates/gnupgwksmessagepart.html:29
+msgid ""
+"When you register your key with your email provider other people will then "
+"be able to retrieve the key and send you encrypted emails and verify "
+"authenticity of emails you send them."
+msgstr "Kada vi registriraj vaš ključ s vaš e-pošta davatelj usluge drugi osoba će zatim biti able to dohvatiti the ključ i slati vi šifrirane adrese e-pošte i provjeriti autentičnost od adrese e-pošte vi slati them."
+
+#: templates/gnupgwksmessagepart.html:33
+msgid "An error occurred while publishing the key. Please try again later."
+msgstr "Došlo je do pogreške while publishing the ključ. Molimo try ponovno kasnije."
+
+#: templates/gnupgwksmessagepart.html:35
+msgid "Register the key"
+msgstr "Registriraj the ključ"
+
+#: templates/gnupgwksmessagepart.html:37
+msgid ""
+"The email will be automatically deleted once you confirm the registration."
+msgstr "The e-pošta bit će automatski izbrisana jednom vi potvrdite the registraciju."
+
+#: templates/gnupgwksmessagepart.html:40
+msgid "Show key details"
+msgstr "Prikaži ključ pojedinosti"
+
+#: templates/gnupgwksmessagepart.html:44
+msgid ""
+"This is an automatically generated email. The purpose of this email is to "
+"register your OpenPGP key with your email provider."
+msgstr "Ovaj je an automatski generirana e-pošta. The svrha od ovaj e-pošta je to registriraj vaš OpenPGP ključ s vaš e-pošta davatelj usluge."
+
+#: templates/gnupgwksmessagepart.html:47
+msgid ""
+"Your OpenPGP key will be published on your email provider's key server. "
+"Other users will be able to retrieve the key and send you encrypted emails "
+"and verify authenticity of emails you send them."
+msgstr "Vaš OpenPGP ključ bit će objavljen na vaš e-pošta provider's ključ poslužitelj. Drugi korisnici bit će able to dohvatiti the ključ i slati vi šifrirane adrese e-pošte i provjeriti autentičnost od adrese e-pošte vi slati them."
+
+#: templates/pgpkeymessagepart.html:14
+msgid "OpenPGP Key"
+msgstr "OpenPGP Ključ"
+
+#: templates/pgpkeymessagepart.html:18
+msgid "This is an OpenPGP key, which can be used to sign or encrypt emails."
+msgstr "Ovaj je an OpenPGP ključ, koje može biti koriste to potpiši ili šifriraj adrese e-pošte."
+
+#: templates/pgpkeymessagepart.html:23
+msgid "Loading key details…"
+msgstr "Učitavanje ključ pojedinosti…"
+
+#: templates/pgpkeymessagepart.html:28
+msgid "Owner:"
+msgstr "Vlasnik:"
+
+#: templates/pgpkeymessagepart.html:32
+msgid "Created:"
+msgstr "Izrađen:"
+
+#: templates/pgpkeymessagepart.html:37
+msgid "Fingerprint:"
+msgstr "Otisak:"
+
+#: templates/pgpkeymessagepart.html:42
+msgid ""
+"This key is unknown, it could not be found in your local keyring. You may "
+"want to import this key."
+msgstr "Ovaj ključ je nepoznat, to može ne biti pronađena u vaš lokalni privjesak ključeva. Vi možda želite to uvoziti ovaj ključ."
+
+#: templates/pgpkeymessagepart.html:45
+#, kde-format
+msgid "Error while loading key: %1"
+msgstr "Pogreška pri učitavanje ključ: %1"
+
+#: templates/pgpkeymessagepart.html:47
+msgid "Hide key details"
+msgstr "Sakrij ključ pojedinosti"
+
+#: templates/pgpkeymessagepart.html:49
+msgid "Open in Kleopatra"
+msgstr "Otvori u Kleopatra"
+
+#: templates/pgpkeymessagepart.html:52
+msgid "Show key details …"
+msgstr "Prikaži ključ pojedinosti …"
+
+#: templates/pgpkeymessagepart.html:54
+msgid "Import key"
+msgstr "Uvoziti ključ"
