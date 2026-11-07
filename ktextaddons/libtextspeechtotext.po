@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the ktextaddons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ktextaddons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2026-11-07 06:30+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: speechtotext/plugins/google/googlespeechtotextclient.cpp:26
+#, kde-format
+msgid "Google"
+msgstr "Google"
+
+#: speechtotext/plugins/vosk/generateinstalledlanguageinfojob.cpp:23
+#, kde-format
+msgid "Impossible to store language info."
+msgstr "Nije moguće pohraniti podatke o jeziku."
+
+#: speechtotext/plugins/vosk/managermodelvoskspeechtotext.cpp:51
+#: speechtotext/plugins/vosk/voskdownloadlanguagejob.cpp:50
+#, kde-format
+msgid ""
+"Error: Engine systems have detected suspicious traffic from your computer "
+"network. Please try your request again later."
+msgstr "Pogreška: sustavi mehanizma otkrili su sumnjiv promet s vaše računalne mreže. Pokušajte ponovno poslati zahtjev kasnije."
+
+#: speechtotext/plugins/vosk/managermodelvoskspeechtotext.cpp:53
+#: speechtotext/plugins/vosk/voskdownloadlanguagejob.cpp:52
+#, kde-format
+msgid "Impossible to access to url: %1"
+msgstr "Nije moguće pristupiti URL-u: %1"
+
+#: speechtotext/plugins/vosk/voskdownloadlanguagejob.cpp:38
+#, kde-format
+msgid "Cannot open file for downloading."
+msgstr "Nije moguće otvoriti datoteku za preuzimanje."
+
+#: speechtotext/plugins/vosk/voskdownloadlanguagejob.cpp:63
+#, kde-format
+msgid "CheckSum is not correct."
+msgstr "Kontrolni zbroj nije ispravan."
+
+#: speechtotext/plugins/vosk/voskdownloadlanguagejob.cpp:73
+#, kde-format
+msgid "Error during writing on disk: %1"
+msgstr "Pogreška pri zapisivanju na disk: %1"
+
+#: speechtotext/plugins/vosk/voskenginedialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Vosk Plugin Settings"
+msgstr "Postavke priključka Vosk"
+
+#: speechtotext/plugins/vosk/voskenginelanguagetreeview.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Mark as Active"
+msgstr "Označi kao aktivno"
+
+#: speechtotext/plugins/vosk/voskenginelanguagetreeview.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Download"
+msgstr "Preuzmi"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:51
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Pretraži…"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:84
+#, kde-format
+msgid "Download"
+msgstr "Preuzmi"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:91
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:95
+#, kde-format
+msgctxt "@action:button"
+msgid "Update List"
+msgstr "Ažuriraj popis"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:96
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Update list of languages from network"
+msgstr "Ažuriraj popis jezika s mreže"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:194
+#, kde-format
+msgid "Error: %1"
+msgstr "Pogreška: %1"
+
+#: speechtotext/plugins/vosk/voskenginelanguagewidget.cpp:194
+#: speechtotext/plugins/vosk/voskspeechtotextclient.cpp:30
+#, kde-format
+msgid "Vosk"
+msgstr "Vosk"
+
+#: speechtotext/plugins/vosk/voskextractlanguagejob.cpp:58
+#, kde-format
+msgid "Impossible to extract language"
+msgstr "Nije moguće izdvojiti jezik"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:44
+#, kde-format
+msgid "Language"
+msgstr "Jezik"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:46
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:99
+#, kde-format
+msgid "Installed"
+msgstr "Instalirano"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:48
+#, kde-format
+msgid "Installed Version"
+msgstr "Instalirana inačica"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:50
+#, kde-format
+msgid "Available Version"
+msgstr "Dostupna inačica"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:52
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:54
+#: speechtotext/plugins/vosk/voskspeechtotextmodel.cpp:126
+#, kde-format
+msgid "Active"
+msgstr "Aktivno"
+
+#: speechtotext/plugins/whisper/whisperspeechtotextclient.cpp:30
+#, kde-format
+msgid "Whisper"
+msgstr "Whisper"
+
+#: speechtotext/plugins/whisper/whisperspeechtotextdevice.cpp:100
+#, kde-format
+msgid "The whisper backend stopped unexpectedly."
+msgstr "Pozadinski proces Whisper neočekivano je zaustavljen."
+
+#: speechtotext/plugins/whisper/whisperspeechtotextdevice.cpp:232
+#: speechtotext/whisperinstall/whisperspeechtotextcheckjob.cpp:29
+#: speechtotext/widgets/speechtotextconfigurewidget.cpp:104
+#, kde-format
+msgid "Whisper is not installed. Missing: %1"
+msgstr "Whisper nije instaliran. Nedostaje: %1"
+
+#: speechtotext/whisperinstall/whisperspeechtotextcheckjob.cpp:26
+#, kde-format
+msgid "Whisper is not usable. Please reinstall it."
+msgstr "Whisper se ne može upotrebljavati. Ponovno ga instalirajte."
+
+#: speechtotext/whisperinstall/whisperspeechtotextdownloadmodeljob.cpp:117
+#, kde-format
+msgid "Downloading the %1 model…"
+msgstr "Preuzimanje modela %1…"
+
+#: speechtotext/whisperinstall/whisperspeechtotextdownloadmodeljob.cpp:120
+#, kde-format
+msgid "The %1 model is already downloaded."
+msgstr "Model %1 već je preuzet."
+
+#: speechtotext/whisperinstall/whisperspeechtotextdownloadmodeljob.cpp:122
+#, kde-format
+msgid "The %1 model is downloaded."
+msgstr "Model %1 je preuzet."
+
+#: speechtotext/whisperinstall/whisperspeechtotextdownloadmodeljob.cpp:125
+#, kde-format
+msgid "Unable to download the %1 model: %2"
+msgstr "Nije moguće preuzeti model %1: %2"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstalljob.cpp:56
+#, kde-format
+msgid "Unable to start %1"
+msgstr "Nije moguće pokrenuti %1"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstalljob.cpp:76
+#, kde-format
+msgid "Unable to install module. Exit code: %1"
+msgstr "Nije moguće instalirati modul. Izlazni kod: %1"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallmessagewidget.cpp:20
+#, kde-format
+msgctxt "@action"
+msgid "Install"
+msgstr "Instaliraj"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythondialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Install Whisper Package"
+msgstr "Instalacija paketa Whisper"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Download Model"
+msgstr "Preuzmi model"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:52
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Model used for dictation:"
+msgstr "Model koji se upotrebljava za diktiranje:"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:98
+#, kde-format
+msgid "Nothing to install."
+msgstr "Nema ničega za instalaciju."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:105
+#, kde-format
+msgid "Creating the python virtual environment…"
+msgstr "Stvaranje Pythonova virtualnog okruženja…"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:108
+#, kde-format
+msgid "Python virtual environment created."
+msgstr "Pythonovo virtualno okruženje je stvoreno."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:112
+#, kde-format
+msgid "Unable to create the python virtual environment."
+msgstr "Nije moguće stvoriti Pythonovo virtualno okruženje."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:130
+#, kde-format
+msgid "Installing modules in %1: %2"
+msgstr "Instaliranje modula u %1: %2"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:135
+#, kde-format
+msgid "Installation done."
+msgstr "Instalacija je dovršena."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:140
+#, kde-format
+msgid "Installation failed."
+msgstr "Instalacija nije uspjela."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:161
+#, kde-format
+msgctxt "@info:progress <downloaded> of <size of the model>"
+msgid "%1 of %2"
+msgstr "%1 od %2"
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:171
+#, kde-format
+msgid "Unable to download the %1 model."
+msgstr "Nije moguće preuzeti model %1."
+
+#: speechtotext/whisperinstall/whisperspeechtotextinstallpythonwidget.cpp:187
+#, kde-format
+msgid ""
+"The %1 model is not on disk: it is downloaded the first time it is used, "
+"which makes that dictation a long one. The Download Model button does it now."
+msgstr "Model %1 nije na disku. Preuzima se pri prvoj uporabi, pa će to diktiranje trajati dulje. Gumb „Preuzmi model” preuzima ga odmah."
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:30
+#, kde-format
+msgctxt ""
+"@item:inlistbox <model name> (<size on disk>), the model is already "
+"downloaded"
+msgid "%1 (%2, downloaded)"
+msgstr "%1 (%2, preuzeto)"
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox <model name> (<size on disk>)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Transcribes every language whisper knows."
+msgstr "Pretvara govor u tekst na svim jezicima koje Whisper podržava."
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Transcribes english only, but about twice as fast."
+msgstr "Pretvara samo engleski govor u tekst, ali otprilike dvostruko brže."
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:42
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Takes %1 on disk, downloaded the first time it is used."
+msgstr "Zauzima %1 na disku i preuzima se pri prvoj uporabi."
+
+#: speechtotext/whisperinstall/whisperspeechtotextmodelcombobox.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Used when no model was chosen."
+msgstr "Upotrebljava se kada nije odabran nijedan model."
+
+#: speechtotext/widgets/speechtotextconfiguredialog.cpp:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Speech To Text"
+msgstr "Konfiguracija pretvaranja govora u tekst"
+
+#: speechtotext/widgets/speechtotextconfigurewidget.cpp:52
+#, kde-format
+msgid "Test:"
+msgstr "Isprobaj:"
+
+#: speechtotext/widgets/speechtotextconfigurewidget.cpp:109
+#, kde-format
+msgid "Whisper installation is broken. Please reinstall it."
+msgstr "Instalacija Whispera je neispravna. Ponovno ga instalirajte."
+
+#: speechtotext/widgets/speechtotextenginecomboboxwidget.cpp:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Engine:"
+msgstr "Mehanizam:"
+
+#: speechtotext/widgets/speechtotextmenu.cpp:19
+#, kde-format
+msgid "Speech to Text…"
+msgstr "Pretvori govor u tekst…"
+
+#: speechtotext/widgets/speechtotextselectdevicewidget.cpp:30
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Input:"
+msgstr "Ulaz:"
+
+#: speechtotext/widgets/speechtotextselectdevicewidget.cpp:67
+#, kde-format
+msgid "Default"
+msgstr "Zadano"

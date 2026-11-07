@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the libkeduvocdocument package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libkeduvocdocument\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:48+0000\n"
+"PO-Revision-Date: 2026-11-07 06:28+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#: keduvocdocument/keduvoccsvwriter.cpp:35
+#, kde-format
+msgctxt "@item:intable the title of the document will be written here"
+msgid "Title:"
+msgstr "Naslov:"
+
+#: keduvocdocument/keduvoccsvwriter.cpp:36
+#, kde-format
+msgctxt "@item:intable the author will be written here"
+msgid "Author:"
+msgstr "Autor:"
+
+#: keduvocdocument/keduvocdocument.cpp:125
+#, kde-format
+msgctxt ""
+"The top level lesson which contains all other lessons of the document."
+msgid "Document Lesson"
+msgstr "Lekcija dokumenta"
+
+#: keduvocdocument/keduvocdocument.cpp:128
+#, kde-format
+msgid "Word types"
+msgstr "Vrste riječi"
+
+#: keduvocdocument/keduvocdocument.cpp:131
+#, kde-format
+msgid "Leitner Box"
+msgstr "Leitnerova kutija"
+
+#: keduvocdocument/keduvocdocument.cpp:165
+#: keduvocdocument/keduvocdocument.cpp:172
+#, kde-format
+msgid "Cannot lock file %1"
+msgstr "Nije moguće zaključati datoteku %1"
+
+#: keduvocdocument/keduvocdocument.cpp:220
+#, kde-format
+msgid "<qt>Cannot open file<br /><b>%1</b></qt>"
+msgstr "<qt>Nije moguće otvoriti datoteku<br /><b>%1</b></qt>"
+
+#: keduvocdocument/keduvocdocument.cpp:228
+#, kde-format
+msgid "Cannot open tempfile %1"
+msgstr "Nije moguće otvoriti privremenu datoteku %1"
+
+#: keduvocdocument/keduvocdocument.cpp:233
+#, kde-format
+msgid "Cannot download %1: %2"
+msgstr "Nije moguće preuzeti %1: %2"
+
+#: keduvocdocument/keduvocdocument.cpp:258
+#, kde-format
+msgid ""
+"Could not open or properly read \"%1\"\n"
+"(Error reported: %2)"
+msgstr ""
+"Nije moguće otvoriti ili ispravno pročitati „%1”\n"
+"(Prijavljena pogreška: %2)"
+
+#: keduvocdocument/keduvocdocument.cpp:300
+#: keduvocdocument/keduvocdocument.cpp:326
+#, kde-format
+msgid "Cannot write to file %1"
+msgstr "Nije moguće pisati u datoteku %1"
+
+#: keduvocdocument/keduvocdocument.cpp:657
+#, kde-format
+msgctxt ""
+"The name of the first language/column of vocabulary, if we have to guess it."
+msgid "Original"
+msgstr "Izvornik"
+
+#: keduvocdocument/keduvocdocument.cpp:659
+#, kde-format
+msgctxt ""
+"The name of the second, third ... language/column of vocabulary, if we have "
+"to guess it."
+msgid "Translation %1"
+msgstr "Prijevod %1"
+
+#: keduvocdocument/keduvocdocument.cpp:816
+msgid "KDE Vocabulary Document"
+msgstr "KDE-ov vokabularni dokument"
+
+#: keduvocdocument/keduvocdocument.cpp:817
+msgid "KWordQuiz Document"
+msgstr "Dokument KWordQuiz"
+
+#: keduvocdocument/keduvocdocument.cpp:818
+msgid "Pauker Lesson"
+msgstr "Lekcija Pauker"
+
+#: keduvocdocument/keduvocdocument.cpp:819
+msgid "Vokabeltrainer"
+msgstr "Vokabeltrainer"
+
+#: keduvocdocument/keduvocdocument.cpp:820
+msgid "XML Dictionary Exchange Format"
+msgstr "Format za razmjenu XML rječnika"
+
+#: keduvocdocument/keduvocdocument.cpp:821
+msgid "Comma Separated Values (CSV)"
+msgstr "Vrijednosti odvojene zarezima (CSV)"
+
+#: keduvocdocument/keduvocdocument.cpp:833
+#, kde-format
+msgid "All supported documents"
+msgstr "Svi podržani dokumenti"
+
+#: keduvocdocument/keduvocdocument.cpp:842
+#, kde-format
+msgid "No error found."
+msgstr "Nije pronađena nijedna pogreška."
+
+#: keduvocdocument/keduvocdocument.cpp:845
+#, kde-format
+msgid "Invalid XML in document."
+msgstr "Nevaljan XML u dokumentu."
+
+#: keduvocdocument/keduvocdocument.cpp:847
+#, kde-format
+msgid "Unknown file type."
+msgstr "Nepoznata vrsta datoteke."
+
+#: keduvocdocument/keduvocdocument.cpp:849
+#, kde-format
+msgid "File is not writeable."
+msgstr "U datoteku nije moguće pisati."
+
+#: keduvocdocument/keduvocdocument.cpp:851
+#, kde-format
+msgid "File writer failed."
+msgstr "Zapisivanje datoteke nije uspjelo."
+
+#: keduvocdocument/keduvocdocument.cpp:853
+#, kde-format
+msgid "File is not readable."
+msgstr "Datoteku nije moguće čitati."
+
+#: keduvocdocument/keduvocdocument.cpp:855
+#, kde-format
+msgid "The file reader failed."
+msgstr "Čitanje datoteke nije uspjelo."
+
+#: keduvocdocument/keduvocdocument.cpp:857
+#, kde-format
+msgid "The file does not exist."
+msgstr "Datoteka ne postoji."
+
+#: keduvocdocument/keduvocdocument.cpp:859
+#, kde-format
+msgid "The file is locked by another process."
+msgstr "Datoteku je zaključao drugi proces."
+
+#: keduvocdocument/keduvocdocument.cpp:861
+#, kde-format
+msgid "The lock file can't be created."
+msgstr "Nije moguće stvoriti datoteku za zaključavanje."
+
+#: keduvocdocument/keduvocdocument.cpp:864
+#, kde-format
+msgid "Unknown error."
+msgstr "Nepoznata pogreška."
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Verb"
+msgstr "Glagol"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Noun"
+msgstr "Imenica"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Name"
+msgstr "Ime"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Article"
+msgstr "Član"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adjective"
+msgstr "Pridjev"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adverb"
+msgstr "Prilog"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Pronoun"
+msgstr "Zamjenica"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Phrase"
+msgstr "Fraza"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Numeral"
+msgstr "Broj"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Conjunction"
+msgstr "Veznik"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:39
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Preposition"
+msgstr "Prijedlog"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:40
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Question"
+msgstr "Pitanje"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:44
+#: keduvocdocument/keduvockvtmlcompability.cpp:220
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Numeral Ordinal  "
+"(first, second, third, ...)"
+msgid "Ordinal"
+msgstr "Redni"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:46
+#: keduvocdocument/keduvockvtmlcompability.cpp:224
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Numeral Cardinal "
+"(one, two, three, ...)"
+msgid "Cardinal"
+msgstr "Glavni"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:47
+#: keduvocdocument/keduvockvtmlcompability.cpp:230
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (the)"
+msgid "Definite"
+msgstr "Određeni"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:48
+#: keduvocdocument/keduvockvtmlcompability.cpp:233
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (a)"
+msgid "Indefinite"
+msgstr "Neodređeni"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:49
+#: keduvocdocument/keduvockvtmlcompability.cpp:239
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Verb with regular "
+"conjugation"
+msgid "Regular"
+msgstr "Pravilan"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:51
+#: keduvocdocument/keduvockvtmlcompability.cpp:242
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Verb with irregular "
+"conjugation"
+msgid "Irregular"
+msgstr "Nepravilan"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:53
+#: keduvocdocument/keduvockvtmlcompability.cpp:259
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Pronoun (my, your, "
+"his, her...)"
+msgid "Possessive"
+msgstr "Posvojna"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:54
+#: keduvocdocument/keduvockvtmlcompability.cpp:262
+#, kde-format
+msgctxt ""
+"@item:inlistbox A subtype of the grammatical word type: Pronoun (I, you, "
+"he...)"
+msgid "Personal"
+msgstr "Osobna"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:55
+#: keduvocdocument/keduvockvtmlcompability.cpp:248
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Male"
+msgstr "Muški"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:56
+#: keduvocdocument/keduvockvtmlcompability.cpp:251
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Female"
+msgstr "Ženski"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:57
+#: keduvocdocument/keduvockvtmlcompability.cpp:254
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Neutral"
+msgstr "Srednji"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:153
+#, kde-format
+msgid "Simple Present"
+msgstr "Prezent"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:154
+#, kde-format
+msgid "Present Progressive"
+msgstr "Sadašnje trajno vrijeme"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:155
+#, kde-format
+msgid "Present Perfect"
+msgstr "Sadašnji perfekt"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:156
+#, kde-format
+msgid "Simple Past"
+msgstr "Jednostavno prošlo vrijeme"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:157
+#, kde-format
+msgid "Past Progressive"
+msgstr "Prošlo trajno vrijeme"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:158
+#, kde-format
+msgid "Past Participle"
+msgstr "Prošli particip"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:159
+#, kde-format
+msgid "Future"
+msgstr "Futur"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:200
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Verb"
+msgstr "Glagol"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:201
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Noun"
+msgstr "Imenica"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:202
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Name"
+msgstr "Ime"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:202
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Article"
+msgstr "Član"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:203
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adjective"
+msgstr "Pridjev"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:204
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adverb"
+msgstr "Prilog"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:205
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Pronoun"
+msgstr "Zamjenica"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:206
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Phrase"
+msgstr "Fraza"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:206
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Numeral"
+msgstr "Broj"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:207
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Conjunction"
+msgstr "Veznik"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:207
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Preposition"
+msgstr "Prijedlog"
+
+#: keduvocdocument/keduvockvtmlcompability.cpp:208
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Question"
+msgstr "Pitanje"
+
+#: keduvocdocument/keduvoctext.h:16
+#, kde-format
+msgid "Not Practiced Yet"
+msgstr "Još nije vježbano"
+
+#: keduvocdocument/keduvoctext.h:19
+#, kde-format
+msgid "Level 1"
+msgstr "Razina 1"
+
+#: keduvocdocument/keduvoctext.h:22
+#, kde-format
+msgid "Level 2"
+msgstr "Razina 2"
+
+#: keduvocdocument/keduvoctext.h:25
+#, kde-format
+msgid "Level 3"
+msgstr "Razina 3"
+
+#: keduvocdocument/keduvoctext.h:28
+#, kde-format
+msgid "Level 4"
+msgstr "Razina 4"
+
+#: keduvocdocument/keduvoctext.h:31
+#, kde-format
+msgid "Level 5"
+msgstr "Razina 5"
+
+#: keduvocdocument/keduvoctext.h:34
+#, kde-format
+msgid "Level 6"
+msgstr "Razina 6"
+
+#: keduvocdocument/keduvoctext.h:37
+#, kde-format
+msgid "Level 7"
+msgstr "Razina 7"

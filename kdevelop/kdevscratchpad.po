@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-11-07\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: scratchpad.cpp:130 scratchpadview.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "Scratchpad"
+msgstr "Skicirnica"
+
+#: scratchpad.cpp:187
+#, kde-format
+msgid "Failed to remove scratch: %1"
+msgstr "Uklanjanje skice nije uspjelo: %1"
+
+#: scratchpad.cpp:194
+#, kde-format
+msgid "Failed to create scratch: Name already in use"
+msgstr "Stvaranje skice nije uspjelo: naziv se već koristi"
+
+#: scratchpad.cpp:206
+#, kde-format
+msgid "Failed to create new scratch"
+msgstr "Stvaranje nove skice nije uspjelo"
+
+#: scratchpad.cpp:215
+#, kde-format
+msgid "Failed to rename scratch: Names must not include path separator"
+msgstr "Preimenovanje skice nije uspjelo: nazivi ne smiju sadržavati razdjelnik putanje"
+
+#: scratchpad.cpp:256
+#, kde-format
+msgid "Failed renaming scratch."
+msgstr "Preimenovanje skice nije uspjelo."
+
+#: scratchpad.cpp:299 scratchpadjob.cpp:33
+#, kde-format
+msgctxt "prefix to distinguish scratch tabs"
+msgid "scratch:%1"
+msgstr "scratch:%1"
+
+#: scratchpadjob.cpp:57
+#, kde-format
+msgid "Running %1..."
+msgstr "Pokretanje %1..."
+
+#: scratchpadjob.cpp:73
+#, kde-format
+msgid "Process finished with exit code %1."
+msgstr "Proces je dovršen s izlaznim kodom %1."
+
+#: scratchpadjob.cpp:80
+#, kde-format
+msgid "Failed to run scratch: %1"
+msgstr "Pokretanje skice nije uspjelo: %1"
+
+#: scratchpadview.cpp:101
+#, kde-format
+msgid ""
+"Scratchpad lets you quickly run and experiment with code without a full "
+"project, and even store todos. Create a new scratch to start."
+msgstr "Skicirnica omogućuje brzo pokretanje i isprobavanje koda bez cijelog projekta te čak i pohranu zadataka. Za početak stvorite novu skicu."
+
+#: scratchpadview.cpp:115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Command to run this scratch. '$f' will expand to the scratch path."
+msgstr "Naredba za pokretanje ove skice. '$f' će se proširiti u putanju skice."
+
+#: scratchpadview.cpp:138
+#, kde-format
+msgctxt "@action"
+msgid "New Scratch"
+msgstr "Nova skica"
+
+#: scratchpadview.cpp:142
+#, kde-format
+msgctxt "@action"
+msgid "Remove Scratch"
+msgstr "Ukloni skicu"
+
+#: scratchpadview.cpp:153
+#, kde-format
+msgctxt "@action"
+msgid "Rename Scratch"
+msgstr "Preimenuj skicu"
+
+#: scratchpadview.cpp:162
+#, kde-format
+msgctxt "@action"
+msgid "Run Scratch"
+msgstr "Pokreni skicu"
+
+#: scratchpadview.cpp:168
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter..."
+msgstr "Filtriraj..."
+
+#: scratchpadview.cpp:210
+#, kde-format
+msgctxt "@title:window"
+msgid "Create New Scratch"
+msgstr "Stvori novu skicu"
+
+#: scratchpadview.cpp:211
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name for scratch file:"
+msgstr "Naziv datoteke skice:"

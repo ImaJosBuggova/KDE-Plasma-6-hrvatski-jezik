@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the ktextaddons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ktextaddons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2026-11-07 06:30+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.3\n"
+
+#: plaintexteditor/plaintexteditfindbar.cpp:120
+#: richtexteditor/richtexteditfindbar.cpp:120
+#, kde-format
+msgid "%1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] "Izvršena je %1 zamjena"
+msgstr[1] "Izvršene su %1 zamjene"
+msgstr[2] "Izvršeno je %1 zamjena"
+
+#: plaintexteditor/plaintexteditor.cpp:174
+#: richtexteditor/richtexteditor.cpp:235
+#, kde-format
+msgid "Check Spelling…"
+msgstr "Provjeri pravopis…"
+
+#: plaintexteditor/plaintexteditor.cpp:177
+#: richtexteditor/richtexteditor.cpp:240
+#, kde-format
+msgid "Auto Spell Check"
+msgstr "Automatska provjera pravopisa"
+
+#: plaintexteditor/plaintexteditor.cpp:182
+#: richtexteditor/richtexteditor.cpp:245
+#, kde-format
+msgid "Spell Checking Language"
+msgstr "Jezik provjere pravopisa"
+
+#: plaintexteditor/plaintexteditor.cpp:209
+#: richtextbrowser/richtextbrowser.cpp:141
+#: richtexteditor/richtexteditor.cpp:279
+#, kde-format
+msgid "Speak Text"
+msgstr "Izgovori tekst"
+
+#: plaintexteditor/plaintexteditor.cpp:385
+#: richtexteditor/richtexteditor.cpp:509
+#, kde-format
+msgid "Nothing to spell check."
+msgstr "Nema teksta za provjeru pravopisa."
+
+#: plaintexteditor/plaintexteditor.cpp:390
+#: richtexteditor/richtexteditor.cpp:527
+#, kde-format
+msgid "No backend available for spell checking."
+msgstr "Nema dostupne pozadinske usluge za provjeru pravopisa."
+
+#: richtexteditor/richtexteditor.cpp:270
+#, kde-format
+msgid "Allow Tabulations"
+msgstr "Dopusti tabulatore"
+
+#: richtexteditor/richtexteditor.cpp:519
+#, kde-format
+msgid ""
+"No backend available for spell checking. Do you want to send the email "
+"anyways?"
+msgstr "Nema dostupne pozadinske usluge za provjeru pravopisa. Želite li ipak poslati poruku e-pošte?"
+
+#: richtexteditor/richtexteditor.cpp:521
+#, kde-format
+msgctxt "@action:button"
+msgid "Send"
+msgstr "Pošalji"
+
+#: richtexteditor/richtexteditor.cpp:544
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr "Preskoči"
+
+#: widgets/texteditfindbarbase.cpp:36 widgets/textgotolinewidget.cpp:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "Zatvori"
+
+#: widgets/texteditfindbarbase.cpp:39 widgets/textgotolinewidget.cpp:43
+#, kde-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: widgets/texteditfindbarbase.cpp:140
+#, kde-format
+msgid ""
+"End of message reached.\n"
+"Phrase '%1' could not be found."
+msgstr ""
+"Dosegnut je kraj poruke.\n"
+"Izraz „%1” nije pronađen."
+
+#: widgets/textfindreplacewidget.cpp:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Replace"
+msgstr "Zamijeni"
+
+#: widgets/textfindreplacewidget.cpp:29
+#, kde-format
+msgctxt "@action:button"
+msgid "Replace All"
+msgstr "Zamijeni sve"
+
+#: widgets/textfindreplacewidget.cpp:32
+#, kde-format
+msgctxt "Replace text"
+msgid "Replace:"
+msgstr "Zamijeni:"
+
+#: widgets/textfindreplacewidget.cpp:70
+#, kde-format
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "Prethodno"
+
+#: widgets/textfindreplacewidget.cpp:71
+#, kde-format
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "Sljedeće"
+
+#: widgets/textfindreplacewidget.cpp:78
+#, kde-format
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "&Traži:"
+
+#: widgets/textfindreplacewidget.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Text to search for"
+msgstr "Tekst koji treba potražiti"
+
+#: widgets/textfindreplacewidget.cpp:88
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to next match"
+msgstr "Prijeđi na sljedeće podudaranje"
+
+#: widgets/textfindreplacewidget.cpp:93
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Jump to previous match"
+msgstr "Prijeđi na prethodno podudaranje"
+
+#: widgets/textfindreplacewidget.cpp:99
+#, kde-format
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: widgets/textfindreplacewidget.cpp:100
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Modify search behavior"
+msgstr "Promijeni ponašanje pretraživanja"
+
+#: widgets/textfindreplacewidget.cpp:103
+#, kde-format
+msgid "Case sensitive"
+msgstr "Razlikuj velika i mala slova"
+
+#: widgets/textfindreplacewidget.cpp:106
+#, kde-format
+msgid "Whole word"
+msgstr "Cijela riječ"
+
+#: widgets/textfindreplacewidget.cpp:109
+#, kde-format
+msgid "Regular Expression"
+msgstr "Regularni izraz"
+
+#: widgets/textfindreplacewidget.cpp:112
+#, kde-format
+msgid "Respect Diacritic and Accents"
+msgstr "Uvažavaj dijakritičke znakove i naglaske"
+
+#: widgets/textgotolinewidget.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Go to Line:"
+msgstr "Idi na redak:"
+
+#: widgets/textgotolinewidget.cpp:58
+#, kde-format
+msgid "Go"
+msgstr "Idi"

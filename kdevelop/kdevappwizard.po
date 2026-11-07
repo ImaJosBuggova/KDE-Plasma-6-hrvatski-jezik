@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-11-07\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: appwizarddialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Create New Project"
+msgstr "Stvori novi projekt"
+
+#: appwizarddialog.cpp:37
+#, kde-format
+msgctxt "@title:tab Page for general configuration options"
+msgid "General"
+msgstr "Općenito"
+
+#: appwizarddialog.cpp:39
+#, kde-format
+msgctxt "@title:tab Page for version control options"
+msgid "Version Control"
+msgstr "Kontrola verzija"
+
+#: appwizardplugin.cpp:69
+#, kde-format
+msgctxt "@action"
+msgid "New from Template..."
+msgstr "Novi projekt iz predloška..."
+
+#: appwizardplugin.cpp:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Generate a new project from a template"
+msgstr "Generiraj novi projekt iz predloška"
+
+#: appwizardplugin.cpp:72
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This starts KDevelop's application wizard. It helps you to generate a "
+"skeleton for your application from a set of templates."
+msgstr "Time se pokreće čarobnjak aplikacija KDevelopa. Pomoću skupa predložaka pomaže vam generirati kostur aplikacije."
+
+#: appwizardplugin.cpp:106
+#, kde-format
+msgid "Could not create project from template."
+msgstr "Nije moguće stvoriti projekt iz predloška."
+
+#: appwizardplugin.cpp:134
+#, kde-format
+msgid "Please see the Version Control tool view."
+msgstr "Pogledajte alatni prikaz kontrole verzija."
+
+#: appwizardplugin.cpp:136
+#, kde-format
+msgctxt "@title:window"
+msgid "Version Control System Error"
+msgstr "Pogreška sustava za kontrolu verzija"
+
+#: appwizardplugin.cpp:152
+#, kde-format
+msgid "Could not initialize DVCS repository"
+msgstr "Nije moguće inicijalizirati spremište DVCS-a"
+
+#: appwizardplugin.cpp:161
+#, kde-format
+msgid "Could not check status of the DVCS repository"
+msgstr "Nije moguće provjeriti stanje spremišta DVCS-a"
+
+#: appwizardplugin.cpp:174
+#, kde-format
+msgid "Could not add files to the DVCS repository"
+msgstr "Nije moguće dodati datoteke u spremište DVCS-a"
+
+#: appwizardplugin.cpp:182
+#, kde-format
+msgid "Could not import project into %1."
+msgstr "Nije moguće uvesti projekt u %1."
+
+#: appwizardplugin.cpp:199
+#, kde-format
+msgid "Could not import project"
+msgstr "Nije moguće uvesti projekt"
+
+#: appwizardplugin.cpp:207
+#, kde-format
+msgid "Could not checkout imported project"
+msgstr "Nije moguće preuzeti uvezeni projekt"
+
+#: appwizardplugin.cpp:332
+#, kde-format
+msgid "Could not create new project"
+msgstr "Nije moguće stvoriti novi projekt"
+
+#: appwizardplugin.cpp:467
+#, kde-format
+msgid "The file %1 cannot be created."
+msgstr "Datoteku %1 nije moguće stvoriti."
+
+#: appwizardplugin.cpp:568
+#, kde-format
+msgid "Project Templates"
+msgstr "Predlošci projekta"
+
+#: projectselectionpage.cpp:59
+#, kde-format
+msgctxt "@title:column"
+msgid "Category"
+msgstr "Kategorija"
+
+#: projectselectionpage.cpp:60
+#, kde-format
+msgctxt "@title:column"
+msgid "Project Type"
+msgstr "Vrsta projekta"
+
+#: projectselectionpage.cpp:70
+#, kde-format
+msgctxt "@action:button"
+msgid "Get More Templates"
+msgstr "Dohvati još predložaka"
+
+#: projectselectionpage.cpp:77
+#, kde-format
+msgctxt "@action:button"
+msgid "Load Template from File"
+msgstr "Učitaj predložak iz datoteke"
+
+#: projectselectionpage.cpp:173
+#, kde-format
+msgid "Invalid location"
+msgstr "Nevaljana lokacija"
+
+#: projectselectionpage.cpp:180
+#, kde-format
+msgid "Empty project name"
+msgstr "Prazan naziv projekta"
+
+#: projectselectionpage.cpp:200
+#, kde-format
+msgid "Invalid project name"
+msgstr "Nevaljan naziv projekta"
+
+#: projectselectionpage.cpp:219
+#, kde-format
+msgid "Unable to create subdirectories, missing permissions on: %1"
+msgstr "Nije moguće stvoriti poddirektorije; nedostaju dozvole za: %1"
+
+#: projectselectionpage.cpp:234
+#, kde-format
+msgid "Invalid project template, please choose a leaf item"
+msgstr "Nevaljan predložak projekta; odaberite završnu stavku"
+
+#: projectselectionpage.cpp:247
+#, kde-format
+msgid "Path already exists and contains files. Open it as a project."
+msgstr "Putanja već postoji i sadrži datoteke. Otvoriti je kao projekt."
+
+#: projectselectionpage.cpp:294
+#, kde-format
+msgid ""
+"The specified path already exists and contains files. Are you sure you want "
+"to proceed?"
+msgstr "Navedena putanja već postoji i sadrži datoteke. Želite li doista nastaviti?"
+
+#: projectselectionpage.cpp:310
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Template from File"
+msgstr "Učitaj predložak iz datoteke"
+
+#. i18n: ectx: property (title), widget (QGroupBox, propertiesBox)
+#: projectselectionpage.ui:38
+#, kde-format
+msgctxt "@title:group"
+msgid "Properties"
+msgstr "Svojstva"
+
+#. i18n: ectx: property (text), widget (QLabel, projectNameLabel)
+#: projectselectionpage.ui:44
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Project name:"
+msgstr "Naziv projekta:"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: projectselectionpage.ui:54
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "Lokacija:"
+
+#: projectvcspage.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox No Version Control Support chosen"
+msgid "None"
+msgstr "Nijedan"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: projectvcspage.ui:30
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Version control system:"
+msgstr "Sustav za kontrolu verzija:"

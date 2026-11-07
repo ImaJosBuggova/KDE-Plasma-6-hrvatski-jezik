@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-11-01 00:53+0000\n"
+"PO-Revision-Date: 2026-11-07\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: filtermodel.cpp:84
+#, kde-format
+msgctxt "@title:column"
+msgid "Pattern"
+msgstr "Uzorak"
+
+#: filtermodel.cpp:86
+#, kde-format
+msgctxt "@title:column"
+msgid "Targets"
+msgstr "Ciljevi"
+
+#: filtermodel.cpp:88
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "Radnja"
+
+#: filtermodel.cpp:117
+#, kde-format
+msgid ""
+"The wildcard pattern defines whether a file or folder is included in a "
+"project or not.<br />The pattern is matched case-sensitively against the "
+"items relative path to the project root. The relative path starts with a "
+"forward slash, trailing slashes of folders are removed.<br />Patterns ending "
+"on <code>\"/\"</code> are implicitly considered to match against folders "
+"only.<br />Patterns which do not explicitly start with either <code>\"/\"</"
+"code> or <code>\"*\"</code> implicitly get <code>\"*/\"</code> prepended and "
+"thus match any item with a relative path ending on the given pattern."
+msgstr ""
+"Zamjenski uzorak određuje uključuje li se datoteka ili mapa u projekt.<br />Uzorak se uspoređuje uz razlikovanje velikih i malih slova s relativnom putanjom stavke u odnosu na korijen projekta. Relativna putanja počinje kosom crtom, a završne kose crte mapa uklanjaju se.<br />Uzorci koji završavaju s <code>\"/\"</code> implicitno se smatraju uzorcima koji se podudaraju samo s mapama.<br />Uzorci koji ne počinju izričito s <code>\"/\"</code> ili <code>\"*\"</code> implicitno dobivaju prefiks <code>\"*/\"</code> te se podudaraju sa svakom stavkom čija relativna putanja završava zadanim uzorkom."
+
+#: filtermodel.cpp:129
+#, kde-format
+msgid ""
+"The target defines what type of item the filter is matched against.<br /"
+">Filters either apply only to files, only to folders or to both."
+msgstr ""
+"Cilj određuje vrstu stavke s kojom se filtar uspoređuje.<br />Filtri se primjenjuju samo na datoteke, samo na mape ili na oboje."
+
+#: filtermodel.cpp:135 projectfilterconfigpage.cpp:46
+#, kde-format
+msgctxt "@item"
+msgid "Files and Folders"
+msgstr "Datoteke i mape"
+
+#: filtermodel.cpp:140 projectfilterconfigpage.cpp:45
+#, kde-format
+msgctxt "@item"
+msgid "Folders"
+msgstr "Mape"
+
+#: filtermodel.cpp:145 projectfilterconfigpage.cpp:44
+#, kde-format
+msgctxt "@item"
+msgid "Files"
+msgstr "Datoteke"
+
+#: filtermodel.cpp:151
+#, kde-format
+msgid ""
+"Filters by default exclude items from the project. Inclusive patterns can be "
+"used to include items which where matched by previous exclusive patterns."
+"<br />E.g. to only include files ending on <code>\".cpp\"</code> in your "
+"project, you could exclude all files via <code>\"*\"</code> and then apply "
+"an inclusive <code>\"*.cpp\"</code> pattern."
+msgstr ""
+"Filtri prema zadanim postavkama isključuju stavke iz projekta. Obrasci uključivanja mogu se koristiti za uključivanje stavki koje su odgovarale prethodnim obrascima isključivanja.<br />Primjerice, ako želite uključiti samo datoteke s nastavkom <code>\".cpp\"</code>, možete isključiti sve datoteke pomoću <code>\"*\"</code>, a zatim primijeniti obrazac uključivanja <code>\"*.cpp\"</code>."
+
+#: filtermodel.cpp:157 projectfilterconfigpage.cpp:51
+#, kde-format
+msgctxt "@item"
+msgid "Include"
+msgstr "Uključi"
+
+#: filtermodel.cpp:162 projectfilterconfigpage.cpp:50
+#, kde-format
+msgctxt "@item"
+msgid "Exclude"
+msgstr "Isključi"
+
+#: projectfilterconfigpage.cpp:172
+#, kde-format
+msgid ""
+"A filter with an empty pattern will match all items. Use <code>\"*\"</code> "
+"to make this explicit."
+msgstr "Filtar s praznim uzorkom podudara se sa svim stavkama. Koristite <code>\"*\"</code> kako biste to izričito naveli."
+
+#: projectfilterconfigpage.cpp:175
+#, kde-format
+msgid "A filter ending on <code>\"/\"</code> can never match a file."
+msgstr "Filtar koji završava s <code>\"/\"</code> nikad se ne može podudarati s datotekom."
+
+#: projectfilterconfigpage.cpp:198
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure Project Filter"
+msgstr "Konfiguriraj filtar projekta"
+
+#: projectfilterconfigpage.cpp:208
+#, kde-format
+msgctxt "@title:tab"
+msgid "Project Filter"
+msgstr "Filtar projekta"
+
+#: projectfilterprovider.cpp:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Exclude Item from Project"
+msgid_plural "Exclude Items from Project"
+msgstr[0] "Isključi stavku iz projekta"
+msgstr[1] "Isključi stavke iz projekta"
+msgstr[2] "Isključi stavke iz projekta"
+
+#: projectfilterprovider.cpp:116
+#, kde-format
+msgid ""
+"A filter for the item was added. To undo, use the project filter settings."
+msgid_plural ""
+"A filter for the items was added. To undo, use the project filter settings."
+msgstr[0] "Dodan je filtar za stavku. Za poništavanje upotrijebite postavke filtra projekta."
+msgstr[1] "Dodan je filtar za stavke. Za poništavanje upotrijebite postavke filtra projekta."
+msgstr[2] "Dodan je filtar za stavke. Za poništavanje upotrijebite postavke filtra projekta."
+
+#: projectfilterprovider.cpp:118
+#, kde-format
+msgctxt "@title:window"
+msgid "Project Filter Added"
+msgstr "Konfigurirajte datoteke i mape unutar mape projekta koje treba uključiti ili isključiti:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: projectfiltersettings.ui:20
+#, kde-format
+msgid ""
+"Configure which files and folders inside the project folder should be "
+"included or excluded:"
+msgstr "Dodaj"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: projectfiltersettings.ui:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Ukloni"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: projectfiltersettings.ui:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Pomakni gore"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveUp)
+#: projectfiltersettings.ui:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "Pomakni dolje"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveDown)
+#: projectfiltersettings.ui:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr ""

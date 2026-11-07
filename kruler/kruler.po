@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kruler\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-11-07 06:28+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:20
+#, kde-format
+msgid ""
+"If this option is enabled, the window is being kept above other windows."
+msgstr "Ako je ova mogućnost omogućena, prozor će uvijek biti iznad ostalih prozora."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:23
+#, kde-format
+msgid "Always on top"
+msgstr "Uvijek na vrhu"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cfg_appearance.ui:17
+#, kde-format
+msgid "Background color:"
+msgstr "Boja pozadine:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cfg_appearance.ui:27
+#, kde-format
+msgid "Font:"
+msgstr "Font:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TrayIcon)
+#: cfg_appearance.ui:37
+#, kde-format
+msgid "Show tray icon"
+msgstr "Prikaži ikonu u programskoj traci"
+
+#: klineal.cpp:85
+#, kde-format
+msgctxt "@title:window"
+msgid "KRuler"
+msgstr "KRuler"
+
+#: klineal.cpp:88
+#, kde-format
+msgid ""
+"This is a tool to measure pixel distances on the screen. It is useful for "
+"working on layouts of dialogs, web pages etc."
+msgstr "Ovaj alat služi za mjerenje udaljenosti u pikselima na zaslonu. Koristan je pri radu na rasporedu dijaloških okvira, web-stranica itd."
+
+#: klineal.cpp:108
+#, kde-format
+msgid "Rotate"
+msgstr "Zakreni"
+
+#: klineal.cpp:110
+#, kde-format
+msgid "&Scale"
+msgstr "&Mjerilo"
+
+#: klineal.cpp:111 klineal.cpp:331
+#, kde-format
+msgid "Right to Left"
+msgstr "Zdesna nalijevo"
+
+#: klineal.cpp:112
+#, kde-format
+msgid "Center Origin"
+msgstr "Centriraj ishodište"
+
+#: klineal.cpp:114
+#, kde-format
+msgid "Offset..."
+msgstr "Pomak..."
+
+#: klineal.cpp:117
+#, kde-format
+msgid "Percentage"
+msgstr "Postotak"
+
+#: klineal.cpp:124
+#, kde-format
+msgid "O&pacity"
+msgstr "N&eprozirnost"
+
+#: klineal.cpp:331
+#, kde-format
+msgid "Left to Right"
+msgstr "Slijeva nadesno"
+
+#: klineal.cpp:333
+#, kde-format
+msgid "Bottom to Top"
+msgstr "Odozdo prema gore"
+
+#: klineal.cpp:333
+#, kde-format
+msgid "Top to Bottom"
+msgstr "Odozgo prema dolje"
+
+#: klineal.cpp:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Scale Offset"
+msgstr "Pomak mjerila"
+
+#: klineal.cpp:376
+#, kde-format
+msgid "Offset:"
+msgstr "Pomak:"
+
+#: klineal.cpp:405
+#, kde-format
+msgid "Appearance"
+msgstr "Izgled"
+
+#: klineal.cpp:413
+#, kde-format
+msgid "Advanced"
+msgstr "Napredno"
+
+#: klineal.cpp:504
+#, kde-format
+msgid "%1 px"
+msgstr "%1 px"
+
+#: klineal.cpp:511
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#. i18n: ectx: label, entry (BgColor), group (StoredSettings)
+#: kruler.kcfg:11
+#, kde-format
+msgid "Background color of the ruler."
+msgstr "Boja pozadine ravnala."
+
+#. i18n: ectx: label, entry (Length), group (StoredSettings)
+#: kruler.kcfg:15
+#, kde-format
+msgid "Length of the ruler."
+msgstr "Duljina ravnala."
+
+#. i18n: ectx: label, entry (ScaleFont), group (StoredSettings)
+#: kruler.kcfg:19
+#, kde-format
+msgid "Font of the text on the ruler scale."
+msgstr "Font teksta na ljestvici ravnala."
+
+#. i18n: ectx: label, entry (Horizontal), group (StoredSettings)
+#: kruler.kcfg:23
+#, kde-format
+msgid "Horizontal ruler"
+msgstr "Vodoravno ravnalo"
+
+#. i18n: ectx: label, entry (LeftToRight), group (StoredSettings)
+#: kruler.kcfg:27
+#, kde-format
+msgid "Direction of the ruler"
+msgstr "Smjer ravnala"
+
+#. i18n: ectx: label, entry (Offset), group (StoredSettings)
+#: kruler.kcfg:31
+#, kde-format
+msgid "Offset of the origin"
+msgstr "Pomak ishodišta"
+
+#. i18n: ectx: label, entry (RelativeScale), group (StoredSettings)
+#: kruler.kcfg:35
+#, kde-format
+msgid "Is the scale of the ruler relative (percentage)"
+msgstr "Je li mjerilo ravnala relativno (postotak)"
+
+#. i18n: ectx: label, entry (TrayIcon), group (StoredSettings)
+#: kruler.kcfg:39
+#, kde-format
+msgid "Is a tray icon used"
+msgstr "Koristi li se ikona u programskoj traci"
+
+#. i18n: ectx: label, entry (Opacity), group (StoredSettings)
+#: kruler.kcfg:43
+#, kde-format
+msgid "Opacity of the window"
+msgstr "Neprozirnost prozora"
+
+#. i18n: ectx: label, entry (AlwaysOnTop), group (StoredSettings)
+#: kruler.kcfg:47
+#, kde-format
+msgid "Is always on top"
+msgstr "Je li uvijek na vrhu"
+
+#: krulersystemtray.cpp:19 main.cpp:24
+#, kde-format
+msgid "KDE Screen Ruler"
+msgstr "KDE-ovo ravnalo zaslona"
+
+#: main.cpp:26
+#, kde-format
+msgid "A screen ruler by KDE"
+msgstr "KDE-ovo ravnalo zaslona"
+
+#: main.cpp:28
+#, kde-format
+msgid ""
+"(c) 2000 - 2008, Till Krech\n"
+"(c) 2009, Mathias Soeken"
+msgstr ""
+"(c) 2000. – 2008., Till Krech\n"
+"(c) 2009., Mathias Soeken"
+
+#: main.cpp:29
+#, kde-format
+msgid "Mathias Soeken"
+msgstr "Mathias Soeken"
+
+#: main.cpp:29
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: main.cpp:30
+#, kde-format
+msgid "Till Krech"
+msgstr "Till Krech"
+
+#: main.cpp:30
+#, kde-format
+msgid "Former Maintainer and Developer"
+msgstr "Bivši održavatelj i razvojni programer"
+
+#: main.cpp:31
+#, kde-format
+msgid "Gunnstein Lye"
+msgstr "Gunnstein Lye"
+
+#: main.cpp:31
+#, kde-format
+msgid "Initial port to KDE 2"
+msgstr "Početni prijenos na KDE 2"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: main.cpp:32
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Vaše adrese e-pošte"

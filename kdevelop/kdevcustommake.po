@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:50+0000\n"
+"PO-Revision-Date: 2026-11-07\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: makefileresolver/makefileresolver.cpp:230
+#, kde-format
+msgid ""
+"Tried include path resolution while another resolution process was still "
+"running"
+msgstr "Pokušano je razrješavanje putanja uključivanja dok je drugi postupak razrješavanja još bio u tijeku"
+
+#: makefileresolver/makefileresolver.cpp:276
+#, kde-format
+msgid "Makefile is missing in folder \"%1\""
+msgstr "U mapi „%1” nedostaje Makefile"
+
+#: makefileresolver/makefileresolver.cpp:276
+#, kde-format
+msgid "Problem while trying to resolve include paths for %1"
+msgstr "Problem pri pokušaju razrješavanja putanja uključivanja za %1"
+
+#: makefileresolver/makefileresolver.cpp:310
+#, kde-format
+msgid "Cached: %1"
+msgstr "Predmemorirano: %1"
+
+#: makefileresolver/makefileresolver.cpp:339
+#, kde-format
+msgid "Filename %1 seems to be malformed"
+msgstr "Čini se da naziv datoteke %1 nije ispravno oblikovan"
+
+#: makefileresolver/makefileresolver.cpp:472
+#, kde-format
+msgid "Failed to extract new working directory"
+msgstr "Ekstrakcija novog radnog direktorija nije uspjela"
+
+#: makefileresolver/makefileresolver.cpp:472
+#: makefileresolver/makefileresolver.cpp:501
+#, kde-format
+msgid "Output was: %1"
+msgstr "Izlaz je bio: %1"
+
+#: makefileresolver/makefileresolver.cpp:494
+#: makefileresolver/makefileresolver.cpp:497
+#, kde-format
+msgid "Recursive make call failed"
+msgstr "Rekurzivni poziv make nije uspio"
+
+#: makefileresolver/makefileresolver.cpp:494
+#, kde-format
+msgid "The parameter string \"%1\" does not seem to be valid. Output was: %2."
+msgstr "Čini se da niz parametara „%1” nije valjan. Izlaz je bio: %2."
+
+#: makefileresolver/makefileresolver.cpp:497
+#, kde-format
+msgid "The directory \"%1\" does not exist. Output was: %2."
+msgstr "Direktorij „%1” ne postoji. Izlaz je bio: %2."
+
+#: makefileresolver/makefileresolver.cpp:501
+#, kde-format
+msgid "Malformed recursive make call"
+msgstr "Neispravan rekurzivni poziv make"
+
+#: makefileresolver/makefileresolver.cpp:513
+#, kde-format
+msgid "Could not extract include paths from make output"
+msgstr "Nije moguće izdvojiti putanje uključivanja iz izlaza make"
+
+#: makefileresolver/makefileresolver.cpp:514
+#, kde-format
+msgid "Folder: \"%1\"  Command: \"%2\"  Output: \"%3\""
+msgstr "Mapa: „%1”  Naredba: „%2”  Izlaz: „%3”"
