@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: neochat\n"
+"POT-Creation-Date: 2026-10-06 00:46+0000\n"
+"PO-Revision-Date: 2026-11-07 07:04+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. (itstool) path: component/name
+#: org.kde.neochat.appdata.xml:12
+msgid "NeoChat"
+msgstr ""
+
+#. (itstool) path: component/summary
+#: org.kde.neochat.appdata.xml:13
+msgid "Chat on Matrix"
+msgstr "Razgovarajte na Matrixu"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:15
+msgid "NeoChat is a chat app that lets you take full advantage of the Matrix network. It provides you with a secure way to send text messages, videos and audio files to your family, colleagues and friends."
+msgstr "NeoChat je aplikacija za razgovor koja vam omogućuje da iskoristite sve mogućnosti mreže Matrix. Omogućuje vam sigurno slanje tekstnih poruka, videozapisa i zvučnih datoteka obitelji, kolegama i prijateljima."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:16
+msgid "NeoChat aims to be a fully featured application for the Matrix specification. As such everything in the current stable specification with the notable exceptions of VoIP, threads and some aspects of End-to-End Encryption are supported. There are a few other smaller omissions due to the fact that the Matrix spec is constantly evolving but the aim remains to provide eventual support for the entire spec."
+msgstr "Cilj je NeoChata biti potpuno opremljena aplikacija za specifikaciju Matrixa. Podržane su sve značajke trenutačne stabilne specifikacije, osim VoIP-a, nizova poruka i nekih aspekata šifriranja s kraja na kraj. Postoji još nekoliko manjih iznimaka jer se specifikacija Matrixa stalno razvija, no cilj je s vremenom podržati cijelu specifikaciju."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:17
+msgid "Due to the nature of the Matrix specification development NeoChat also supports numerous unstable features. Currently these are:"
+msgstr "Zbog načina na koji se razvija specifikacija Matrixa, NeoChat podržava i brojne nestabilne značajke. Trenutačno su to:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:19
+msgid "Polls - MSC3381"
+msgstr "Ankete – MSC3381"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:20
+msgid "Sticker Packs - MSC2545"
+msgstr "Paketi naljepnica – MSC2545"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:21
+msgid "Location Events - MSC3488"
+msgstr "Događaji lokacije – MSC3488"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:56 org.kde.neochat.appdata.xml:71
+msgid "Main view with room list, chat, and room information"
+msgstr "Glavni prikaz s popisom soba, razgovorom i informacijama o sobi"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:60
+msgid "Discover new communities with Matrix Spaces"
+msgstr "Otkrijte nove zajednice pomoću Matrixovih prostora"
+
+#. (itstool) path: screenshot/caption
+#: org.kde.neochat.appdata.xml:75
+msgid "Login screen"
+msgstr "Zaslon za prijavu"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:117
+msgid "In the newest version, when launching the app, you will get a welcome page that lets you choose which account you want to use and lets you log in to other accounts. The welcome screen will also warn you when NeoChat cannot load an account."
+msgstr "U najnovijoj verziji pri pokretanju aplikacije prikazuje se pozdravna stranica na kojoj možete odabrati račun koji želite koristiti i prijaviti se na druge račune. Pozdravni zaslon upozorit će vas i ako NeoChat ne može učitati račun."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:118
+msgid "NeoChat will also let you register a new account directly from the app itself. Deactivating your Matrix account is also possible from within NeoChat."
+msgstr "NeoChat vam omogućuje i registraciju novog računa izravno u aplikaciji. U NeoChatu možete i deaktivirati svoj račun na Matrixu."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:119
+msgid "Spaces are a relatively new feature of Matrix that let you group chat channels together. This is used to improve the discoverability of rooms, manage large communities, or just tidy all the channels you are in. You can now do all this without leaving NeoChat."
+msgstr "Prostori su relativno nova značajka Matrixa koja omogućuje grupiranje kanala za razgovor. Služe za lakše pronalaženje soba, upravljanje velikim zajednicama ili jednostavno uređivanje svih kanala u kojima sudjelujete. Sve to sada možete učiniti bez napuštanja NeoChata."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:120
+msgid "NeoChat won't let you miss any new notifications anymore. We added a new page that includes all your recent notifications and when NeoChat is closed, you will still be able to receive push notifications. The main timeline will let you know when more messages are loading and when you reach the end of it."
+msgstr "NeoChat vam više neće dopustiti da propustite nove obavijesti. Dodali smo novu stranicu sa svim nedavnim obavijestima, a obavijesti putem usluge push primat ćete i kada je NeoChat zatvoren. Glavna vremenska crta obavijestit će vas kada se učitava još poruka i kada dođete do njezina kraja."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:121
+msgid "More NeoChat Goodies"
+msgstr "Još novosti u NeoChatu"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:123
+msgid "QR Codes to share contacts"
+msgstr "QR kodovi za dijeljenje kontakata"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:124
+msgid "Improved room upgrades"
+msgstr "Poboljšane nadogradnje soba"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:125
+msgid "Added button to reject invitation and ignore user"
+msgstr "Dodana je mogućnost odbijanja pozivnice i zanemarivanja korisnika"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:126
+msgid "Display device security details"
+msgstr "Prikaz pojedinosti o sigurnosti uređaja"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:127
+msgid "Added room security settings"
+msgstr "Dodane su sigurnosne postavke sobe"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:138
+msgid "Apart from a visual overhaul, NeoChat can now display location events and also a map with the location of all the users currently broadcasting their location using Itineray's Matrix integration. Great for locating where your friends are."
+msgstr "Uz potpuno obnovljen izgled, NeoChat sada može prikazivati događaje lokacije te kartu s lokacijama svih korisnika koji trenutačno dijele svoju lokaciju putem Itinerayjeve integracije Matrixa. Tako ćete lako pronaći svoje prijatelje."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:147
+msgid "NeoChat improves its design with tweaks that provide a more compact layout and a simpler menu which works better for the collapsed room list."
+msgstr "NeoChat je poboljšao dizajn izmjenama koje donose kompaktniji raspored i jednostavniji izbornik, prikladniji za sažeti popis soba."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:148
+msgid "We have also improved the video controls, added a new command /knock &lt;room-id&gt; to send a knock event to a room, and you can now edit a prior message inline, within the chat pane."
+msgstr "Poboljšali smo i kontrole videozapisa te dodali novu naredbu /knock &lt;room-id&gt; za slanje događaja kucanja u sobu. Prethodnu poruku sada možete uređivati i izravno u oknu razgovora."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:149
+msgid "Other usability improvements include an overhaul of the keyboard navigation and shortcuts like Ctrl+PgUp/PgDn that allow you to skip from room to room."
+msgstr "Ostala poboljšanja upotrebljivosti uključuju obnovljenu navigaciju tipkovnicom i prečace poput Ctrl+PgUp/PgDn, koji omogućuju brzo prebacivanje iz sobe u sobu."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:162
+msgid "New features and bugfixes:"
+msgstr "Nove značajke i ispravci grešaka:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:164
+msgid "Notifications will now be shown for all accounts, not just the active one"
+msgstr "Obavijesti će se sada prikazivati za sve račune, a ne samo za aktivni"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:165
+msgid "There is a new \"compact\" mode for the room list"
+msgstr "Dostupan je novi „kompaktni” način prikaza popisa soba"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:166
+msgid "You can now search in the room history"
+msgstr "Sada možete pretraživati povijest sobe"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:167
+msgid "Emojis and Reactions have been significantly improved"
+msgstr "Emotikoni i reakcije znatno su poboljšani"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:168
+msgid "Fixed several crashes around user invitations"
+msgstr "Ispravljeno je nekoliko rušenja povezanih s pozivnicama korisnicima"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:169
+msgid "Room permission settings can now be configured"
+msgstr "Sada možete prilagoditi postavke dopuštenja sobe"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:182
+msgid "This release brings you various small bugfixes and improvements:"
+msgstr "Ovo izdanje donosi nekoliko manjih ispravaka grešaka i poboljšanja:"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:184
+msgid "Sending of typing notifications can now be disabled."
+msgstr "Sada možete onemogućiti slanje obavijesti o tipkanju."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:185
+msgid "In the room list, the scrollbar will now disappear correctly when it is not needed."
+msgstr "Klizna traka na popisu soba sada će se ispravno sakriti kada nije potrebna."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:186
+msgid "On wayland, NeoChat will now raise correctly when clicking on a notification."
+msgstr "U Waylandu će se NeoChat sada ispravno prikazati u prvom planu nakon klika na obavijest."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:187
+msgid "Several bugs have been fixed that would sometimes cause messages containing markdown and/or HTML elements to be sent incorrectly."
+msgstr "Ispravljeno je nekoliko grešaka zbog kojih su se poruke s oznakama Markdowna i/ili elementima HTML-a ponekad slale neispravno."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:188
+msgid "The quick switcher can now be controlled using the mouse."
+msgstr "Brzim prebacivačem sada možete upravljati mišem."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:189
+msgid "There is now an option to disable automatic room sidebar opening when resizing the window."
+msgstr "Sada možete onemogućiti automatsko otvaranje bočne trake soba pri promjeni veličine prozora."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:190
+msgid "Creation of custom emojis has been fixed."
+msgstr "Ispravljeno je stvaranje prilagođenih emotikona."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:191
+msgid "Editing or replying to the last message using the keyboard shortcuts now works correctly."
+msgstr "Uređivanje posljednje poruke i odgovaranje na nju pomoću tipkovnih prečaca sada ispravno funkcionira."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:192
+msgid "When switching between rooms using the keyboard, the switching direction is now correct."
+msgstr "Pri prebacivanju između soba tipkovnicom smjer prebacivanja sada je ispravan."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:199
+msgid "NeoChat now lets you filter and enter a room directly from KRunner (Plasma Search). Aside from that there is also various bug fixes regarding the typing notifications."
+msgstr "NeoChat vam sada omogućuje filtriranje i izravan ulazak u sobu iz Krunnera (Plasmino pretraživanje). Uz to su ispravljene razne greške povezane s obavijestima o tipkanju."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:204
+msgid "NeoChat 22.02 focus on stability and adds a few quality of life improvements"
+msgstr "NeoChat 22.02 usredotočen je na stabilnost i donosi nekoliko praktičnih poboljšanja"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:206
+msgid "Add support for minimizing to system tray on startup"
+msgstr "Dodana je podrška za pokretanje aplikacije minimizirane u sistemsku traku"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:207
+msgid "Improved internet connectivity check"
+msgstr "Poboljšana je provjera internetske veze"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:208
+msgid "Add support for sharing images and files with other apps (Nextcloud, Imgur, ...)"
+msgstr "Dodana je podrška za dijeljenje slika i datoteka s drugim aplikacijama (Nextcloud, Imgur...)"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:209
+msgid "Implement adding labels for account. This allow for an easier organization when using multiple accounts."
+msgstr "Dodana je mogućnost označavanja računa. Tako je lakše organizirati više računa."
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:210
+msgid "Redesign of our config dialogs to follow the new Plasma System Settings style"
+msgstr "Redizajnirani su dijalozi postavki kako bi pratili novi stil Plasminih postavki sustava"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:211
+msgid "Fix various others issues and small feature requests. Decreasing the total amount of open issues by 20%."
+msgstr "Ispravljeni su razni drugi problemi i dodana manja tražena poboljšanja. Ukupan broj otvorenih problema smanjen je za 20 %."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:218
+msgid "NeoChat 21.12 brings lots of new features and fixes"
+msgstr "NeoChat 21.12 donosi mnogo novih značajki i ispravaka"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:220
+msgid "Solved various problems related to login, logout and account switching"
+msgstr "Riješeni su razni problemi povezani s prijavom, odjavom i prebacivanjem između računa"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:221
+msgid "Fixed a few problems in the timeline layout"
+msgstr "Ispravljeno je nekoliko problema s rasporedom vremenske crte"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:222
+msgid "Added Spell checking while writing a message"
+msgstr "Dodana je provjera pravopisa tijekom pisanja poruke"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:223
+msgid "Improved Settings pages"
+msgstr "Poboljšane su stranice postavki"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:224
+msgid "Many improvements to the android and general mobile support"
+msgstr "Brojna su poboljšanja podrške za Android i mobilne uređaje općenito"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:225
+msgid "Show blurhashes while images load"
+msgstr "Prikaz zamućenih sličica dok se slike učitavaju"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:226
+msgid "Support showing custom emojis"
+msgstr "Dodana je podrška za prikaz prilagođenih emotikona"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:227
+msgid "Added a global menu"
+msgstr "Dodan je globalni izbornik"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:228
+msgid "Added support for spoilers"
+msgstr "Dodana je podrška za spojlere"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:229
+msgid "Added a quick switcher to switch between rooms"
+msgstr "Dodan je brzi prebacivač za prebacivanje između soba"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:230
+msgid "Added support for an optional fancy blur background effect"
+msgstr "Dodana je podrška za neobavezni efekt zamućene pozadine"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:231
+msgid "Resizable left and right drawers"
+msgstr "Promjenjiva veličina lijevog i desnog bočnog okna"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:232
+msgid "Added Syntax highlighting in raw json messages"
+msgstr "Dodano je isticanje sintakse u sirovim JSON porukama"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:233
+msgid "Better wayland support"
+msgstr "Poboljšana podrška za Wayland"
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:234
+msgid "Improved file reception and download"
+msgstr "Poboljšan je primitak i preuzimanje datoteka"
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:241
+msgid "NeoChat 1.2 brings a major redesign of the user interface. The chat page is now using bubbles for the messages and the input component was completely rewritten with a nicer look as well."
+msgstr "NeoChat 1.2 donosi veliko osvježenje korisničkog sučelja. Na stranici razgovora poruke se sada prikazuju u oblačićima, a komponenta za unos potpuno je prerađena i ljepše izgleda."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:242
+msgid "It's now possible to send custom reactions by replying to a comment with /react &lt;message&gt;."
+msgstr "Sada možete slati prilagođene reakcije tako da na komentar odgovorite naredbom /react &lt;message&gt;."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:243
+msgid "NeoChat now supports opening Matrix URIs from your browser."
+msgstr "NeoChat sada podržava otvaranje URI-ja Matrixa iz preglednika."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:250
+msgid "Probably the highlight of this release is the completely new login page. It detects the server configuration based on your Matrix Id. This allows you to login to servers requiring Single Sign On (SSO) (like the Mozilla or the incoming Fedora Matrix instance)."
+msgstr "Vjerojatno je najvažnija novost ovog izdanja potpuno nova stranica za prijavu. Ona prepoznaje konfiguraciju poslužitelja na temelju vašeg ID-a na Matrixu. Tako se možete prijaviti na poslužitelje koji zahtijevaju jedinstvenu prijavu (SSO), poput Mozillina ili nadolazećeg poslužitelja Fedora Matrixa."
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:251
+msgid "Servers that require agreeing to the TOS before usage are correctly detected now and redirect to their TOS webpage, allowing the user to agree to them instead of silently failing to load the account."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:252
+msgid "It is now possible to open a room into a new window. This allows you to view and interact with multiple rooms at the same time."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:253
+msgid "We added a few commands to NeoChat (/shrug, /lenny, /join, /ignore, ...)."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:254
+msgid "We improved the Plasma integration a bit. Now the number of unread messages is displayed in the Plasma Taskbar."
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:260
+msgid "This version fixes several bugs."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:262
+msgid "NeoChat doesn't require a .well-know configuration in the server to work."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:263
+msgid "Edited messages won't show up duplicated anymore."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:264
+msgid "Various graphic glitches have been fixed."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:265
+msgid "NeoChat now ask for consent to terms and conditions if required instead of displaying nothing."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:266
+msgid "Users avatar in the room list are now displayed correctly."
+msgstr ""
+
+#. (itstool) path: ul/li
+#: org.kde.neochat.appdata.xml:267
+msgid "Fix image saving"
+msgstr ""
+
+#. (itstool) path: description/p
+#: org.kde.neochat.appdata.xml:274
+msgid "Initial release of NeoChat, the KDE matrix client."
+msgstr ""

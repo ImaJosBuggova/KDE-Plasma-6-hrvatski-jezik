@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-20 00:56+0000\n"
+"PO-Revision-Date: 2026-11-07 07:04+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: deploymentconfig.cpp:108
+#, kde-format
+msgid "deployment must be an object"
+msgstr "implementacija mora biti objekt"
+
+#: deploymentconfig.cpp:123
+#, kde-format
+msgid "deployment host must not be empty"
+msgstr "poslužitelj implementacije ne smije biti prazan"
+
+#: deploymentconfig.cpp:126 deploymentconfig.cpp:130 deploymentconfig.cpp:193
+#, kde-format
+msgid "deployment host is invalid"
+msgstr "poslužitelj implementacije nije valjan"
+
+#: deploymentconfig.cpp:139
+#, kde-format
+msgid "deployment port must be between 1 and 65535"
+msgstr "priključak implementacije mora biti između 1 i 65535"
+
+#: deploymentconfig.cpp:145
+#, kde-format
+msgid "project base must not be empty"
+msgstr "osnovni direktorij projekta ne smije biti prazan"
+
+#: deploymentconfig.cpp:150
+#, kde-format
+msgid "project base must be an existing directory"
+msgstr "osnovni direktorij projekta mora postojati"
+
+#: deploymentconfig.cpp:157
+#, kde-format
+msgid "deployment localRoot must not contain traversal"
+msgstr "lokalni korijenski direktorij implementacije ne smije sadržavati prolazne putove"
+
+#: deploymentconfig.cpp:165
+#, kde-format
+msgid ""
+"deployment localRoot must be an existing directory inside the project base"
+msgstr "lokalni korijenski direktorij implementacije mora biti postojeći direktorij unutar osnovnog direktorija projekta"
+
+#: deploymentconfig.cpp:170
+#, kde-format
+msgid "deployment remoteRoot must be an absolute path without traversal"
+msgstr "udaljeni korijenski direktorij implementacije mora biti apsolutan put bez prolaznih putova"
+
+#: deploymentconfig.cpp:182
+#, kde-format
+msgid "deployment exclude entries must be strings"
+msgstr "stavke za izuzimanje iz implementacije moraju biti nizovi"
+
+#: deploymentconfig.cpp:187
+#, kde-format
+msgid "deployment exclude must be a list of strings"
+msgstr "popis stavki za izuzimanje iz implementacije mora sadržavati nizove"
+
+#: deploymentplugin.cpp:115
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Deployment"
+msgstr "Konfiguriraj implementaciju"
+
+#: deploymentplugin.cpp:119
+#, kde-format
+msgid ""
+"Configure the SFTP destination for <filename>%1</filename>. Authentication "
+"is handled by KIO."
+msgstr "Konfigurirajte SFTP odredište za <filename>%1</filename>. Provjera autentičnosti obavlja se putem KIO-a."
+
+#: deploymentplugin.cpp:136
+#, kde-format
+msgid "One project-relative glob per line"
+msgstr "Jedan glob, relativan projektu, po retku"
+
+#: deploymentplugin.cpp:138
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Host:"
+msgstr "Poslužitelj:"
+
+#: deploymentplugin.cpp:139
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Port:"
+msgstr "Priključak:"
+
+#: deploymentplugin.cpp:140
+#, kde-format
+msgctxt "@label:textbox"
+msgid "User:"
+msgstr "Korisnik:"
+
+#: deploymentplugin.cpp:141
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Local root:"
+msgstr "Lokalni korijenski direktorij:"
+
+#: deploymentplugin.cpp:142
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Remote root:"
+msgstr "Udaljeni korijenski direktorij:"
+
+#: deploymentplugin.cpp:143
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Exclude:"
+msgstr "Izuzmi:"
+
+#: deploymentplugin.cpp:170
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Deployment Configuration"
+msgstr "Nevaljana konfiguracija implementacije"
+
+#: deploymentplugin.cpp:210 deploymentplugin.cpp:853
+#, kde-format
+msgid "Deployment"
+msgstr "Implementacija"
+
+#: deploymentplugin.cpp:214
+#, kde-format
+msgctxt "@action"
+msgid "Upload Current File"
+msgstr "Prenesi trenutačnu datoteku"
+
+#: deploymentplugin.cpp:219
+#, kde-format
+msgctxt "@action"
+msgid "Upload Project"
+msgstr "Prenesi projekt"
+
+#: deploymentplugin.cpp:223 deploymentplugin.cpp:661
+#, kde-format
+msgctxt "@action"
+msgid "Cancel Deployment Transfers"
+msgstr "Odustani od prijenosa implementacije"
+
+#: deploymentplugin.cpp:227
+#, kde-format
+msgctxt "@action"
+msgid "Configure Deployment..."
+msgstr "Konfiguriraj implementaciju..."
+
+#: deploymentplugin.cpp:231
+#, kde-format
+msgctxt "@action"
+msgid "Browse Remote Host"
+msgstr "Pregledaj udaljeni poslužitelj"
+
+#: deploymentplugin.cpp:238
+#, kde-format
+msgid "Remote Host"
+msgstr "Udaljeni poslužitelj"
+
+#: deploymentplugin.cpp:261
+#, kde-format
+msgctxt "@action"
+msgid "Deployment Root"
+msgstr "Korijenski direktorij implementacije"
+
+#: deploymentplugin.cpp:275
+#, kde-format
+msgid "File Transfer"
+msgstr "Prijenos datoteka"
+
+#: deploymentplugin.cpp:281
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: deploymentplugin.cpp:282
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear"
+msgstr "Očisti"
+
+#: deploymentplugin.cpp:323
+#, kde-format
+msgid "Loading %1..."
+msgstr "Učitavanje %1..."
+
+#: deploymentplugin.cpp:328
+#, kde-format
+msgid "Connected to %1"
+msgstr "Povezano s %1"
+
+#: deploymentplugin.cpp:335
+#, kde-format
+msgid "Failed to list %1 (KIO error %2): %3"
+msgstr "Nije moguće prikazati popis za %1 (pogreška KIO-a %2): %3"
+
+#: deploymentplugin.cpp:427
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload Folder to Remote Host"
+msgstr "Prenesi mapu na udaljeni poslužitelj"
+
+#: deploymentplugin.cpp:427
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload to Remote Host"
+msgstr "Prenesi na udaljeni poslužitelj"
+
+#: deploymentplugin.cpp:467
+#, kde-format
+msgid "Open or select a Kate project before configuring deployment."
+msgstr "Otvorite projekt Kate ili ga odaberite prije konfiguriranja implementacije."
+
+#: deploymentplugin.cpp:472
+#, kde-format
+msgid ""
+"Deployment configuration requires a file-backed <filename>.kateproject</"
+"filename>."
+msgstr "Konfiguracija implementacije zahtijeva datoteku <filename>.kateproject</filename>."
+
+#: deploymentplugin.cpp:487
+#, kde-format
+msgid "Could not read <filename>%1</filename>."
+msgstr "Nije moguće pročitati <filename>%1</filename>."
+
+#: deploymentplugin.cpp:493
+#, kde-format
+msgid "Could not update malformed JSON in <filename>%1</filename>: %2"
+msgstr "Nije moguće ažurirati neispravan JSON u datoteci <filename>%1</filename>: %2"
+
+#: deploymentplugin.cpp:502
+#, kde-format
+msgid "Could not write <filename>%1</filename>."
+msgstr "Nije moguće zapisati <filename>%1</filename>."
+
+#: deploymentplugin.cpp:508
+#, kde-format
+msgid "Saved deployment configuration to %1"
+msgstr "Konfiguracija implementacije spremljena je u %1"
+
+#: deploymentplugin.cpp:520
+#, kde-format
+msgid "The current document is not a local file."
+msgstr "Trenutačni dokument nije lokalna datoteka."
+
+#: deploymentplugin.cpp:555
+#, kde-format
+msgid "The file could not be saved before upload."
+msgstr "Datoteku nije bilo moguće spremiti prije prijenosa."
+
+#: deploymentplugin.cpp:571
+#, kde-format
+msgid "Deployment is not configured for this project."
+msgstr "Implementacija nije konfigurirana za ovaj projekt."
+
+#: deploymentplugin.cpp:575
+#, kde-format
+msgid "A deployment transfer is already running."
+msgstr "Prijenos implementacije već je u tijeku."
+
+#: deploymentplugin.cpp:586
+#, kde-format
+msgid "Cannot upload %1 because its remote version is open in Kate."
+msgstr "Nije moguće prenijeti %1 jer je njegova udaljena inačica otvorena u Kateu."
+
+#: deploymentplugin.cpp:596
+#, kde-format
+msgid "No deployable files were selected."
+msgstr "Nisu odabrane datoteke za implementaciju."
+
+#: deploymentplugin.cpp:602
+#, kde-format
+msgid "Queued one file for upload."
+msgid_plural "Queued %1 files for upload."
+msgstr[0] "Jedna datoteka stavljena je u red čekanja za prijenos."
+msgstr[1] "%1 datoteke stavljene su u red čekanja za prijenos."
+msgstr[2] "%1 datoteka stavljeno je u red čekanja za prijenos."
+
+#: deploymentplugin.cpp:620 deploymentplugin.cpp:674
+#, kde-format
+msgid "The remote file is open in Kate."
+msgstr "Udaljena datoteka otvorena je u Kateu."
+
+#: deploymentplugin.cpp:629
+#, kde-format
+msgid "Uploading %1 to %2"
+msgstr "Prenosi se %1 u %2"
+
+#: deploymentplugin.cpp:657
+#, kde-format
+msgctxt "@action"
+msgid "Cancel Deployment Transfers (%1%)"
+msgstr "Odustani od prijenosa implementacije (%1%)"
+
+#: deploymentplugin.cpp:697
+#, kde-format
+msgid "Failed to upload %1: %2"
+msgstr "Prijenos datoteke %1 nije uspio: %2"
+
+#: deploymentplugin.cpp:699
+#, kde-format
+msgid "Uploaded %1"
+msgstr "Preneseno: %1"
+
+#: deploymentplugin.cpp:720
+#, kde-format
+msgid "Cancelled deployment transfers."
+msgstr "Prekinuti su prijenosi implementacije."
+
+#: deploymentplugin.cpp:754
+#, kde-format
+msgid "Not connected"
+msgstr "Nije povezano"
+
+#: deploymentplugin.cpp:772
+#, kde-format
+msgid ""
+"The SFTP KIO worker is not installed or does not support directory listing."
+msgstr "Radnik SFTP-a za KIO nije instaliran ili ne podržava prikaz popisa direktorija."
+
+#: deploymentplugin.cpp:801
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Remote File"
+msgstr "Otvori udaljenu datoteku"
+
+#: deploymentplugin.cpp:809
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Mapped Local File"
+msgstr "Otvori mapiranu lokalnu datoteku"
+
+#: deploymentplugin.cpp:815
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Upload Mapped Local File"
+msgstr "Prenesi mapiranu lokalnu datoteku"
+
+#: deploymentplugin.cpp:823
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Remote URL"
+msgstr "Kopiraj udaljeni URL"
+
+#: deploymentplugin.cpp:827
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Remote Path"
+msgstr "Kopiraj udaljeni put"
+
+#: deploymentplugin.cpp:837
+#, kde-format
+msgid "No mapped local file exists for %1."
+msgstr "Ne postoji mapirana lokalna datoteka za %1."

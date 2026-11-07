@@ -1,0 +1,657 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: calligra\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"PO-Revision-Date: 2026-11-07 07:04+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: common/commands/KarbonBooleanCommand.cpp:63
+#: ui/KarbonView.cpp:762
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr "Booleova operacija"
+
+#. i18n: ectx: Menu (object_order)
+#: data/karbon.rc:16 data/karbon.rc:77
+#, kde-format
+msgid "&Order"
+msgstr "&Redoslijed"
+
+#. i18n: ectx: Menu (object_align)
+#: data/karbon.rc:23 data/karbon.rc:84
+#, kde-format
+msgid "&Align"
+msgstr "&Poravnaj"
+
+#. i18n: ectx: Menu (file)
+#: data/karbon.rc:34
+#, kde-format
+msgid "&File"
+msgstr "&Datoteka"
+
+#. i18n: ectx: Menu (edit)
+#: data/karbon.rc:38 data/karbon_readonly.rc:11
+#, kde-format
+msgid "&Edit"
+msgstr "&Uredi"
+
+#. i18n: ectx: Menu (view)
+#: data/karbon.rc:52 data/karbon_readonly.rc:17
+#, kde-format
+msgid "&View"
+msgstr "&Prikaz"
+
+#. i18n: ectx: Menu (object)
+#: data/karbon.rc:74
+#, kde-format
+msgid "&Object"
+msgstr "&Objekt"
+
+#. i18n: ectx: Menu (object_distribute)
+#: data/karbon.rc:94
+#, kde-format
+msgid "&Distribute"
+msgstr "&Rasporedi"
+
+#. i18n: ectx: Menu (path)
+#: data/karbon.rc:113
+#, kde-format
+msgid "&Path"
+msgstr "&Putanja"
+
+#. i18n: ectx: Menu (effects)
+#: data/karbon.rc:127
+#, kde-format
+msgid "Effe&cts"
+msgstr "Efe&kti"
+
+#. i18n: ectx: Menu (settings)
+#: data/karbon.rc:129
+#, kde-format
+msgid "&Settings"
+msgstr "&Postavke"
+
+#. i18n: ectx: Menu (page)
+#: data/karbon.rc:137
+#, kde-format
+msgid "&Page"
+msgstr "&Stranica"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#: data/karbon.rc:150
+#, kde-format
+msgid "Edit"
+msgstr "Uredi"
+
+#. i18n: ectx: ToolBar (object_toolbar)
+#: data/karbon.rc:156
+#, kde-format
+msgid "Object"
+msgstr "Objekt"
+
+#. i18n: ectx: ToolBar (align_toolbar)
+#: data/karbon.rc:165
+#, kde-format
+msgid "Align"
+msgstr "Poravnaj"
+
+#. i18n: ectx: ToolBar (Effects)
+#: data/karbon.rc:174
+#, kde-format
+msgid "Effects"
+msgstr "Efekti"
+
+#. i18n: ectx: ToolBar (add_shape_toolbar)
+#: data/karbon.rc:177
+#, kde-format
+msgid "Add Shape"
+msgstr "Dodaj oblik"
+
+#. i18n: ectx: ToolBar (view_toolbar)
+#: data/karbon_readonly.rc:25
+#, kde-format
+msgid "View"
+msgstr "Prikaz"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:49
+#, kde-format
+msgid "&Flatten Path..."
+msgstr "&Izravnaj putanju..."
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:86
+#, kde-format
+msgid "Flatten Path"
+msgstr "Izravnaj putanju"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:98
+#: plugins/refinepath/RefinePathPlugin.cpp:93
+#: plugins/roundcorners/RoundCornersPlugin.cpp:107
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:114
+#, kde-format
+msgid "Properties"
+msgstr "Svojstva"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:102
+#, kde-format
+msgid "Flatness:"
+msgstr "Ravnost:"
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:152
+msgctxt "(qtundo-format)"
+msgid "Flatten path"
+msgstr "Izravnaj putanju"
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Refine path"
+msgstr "Doradi putanju"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:49
+#, kde-format
+msgid "&Refine Path..."
+msgstr "&Doradi putanju..."
+
+#: plugins/refinepath/RefinePathPlugin.cpp:85
+#, kde-format
+msgid "Refine Path"
+msgstr "Doradi putanju"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:97
+#, kde-format
+msgid "Subdivisions:"
+msgstr "Podjele:"
+
+#: plugins/roundcorners/RoundCornersCommand.cpp:30
+#: plugins/roundcorners/RoundCornersPlugin.cpp:79
+msgctxt "(qtundo-format)"
+msgid "Round Corners"
+msgstr "Zaobli kutove"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:52
+#, kde-format
+msgid "&Round Corners..."
+msgstr "&Zaobli kutove..."
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:95
+#, kde-format
+msgid "Round Corners"
+msgstr "Zaobli kutove"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:111
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:129
+#, kde-format
+msgid "Radius:"
+msgstr "Polumjer:"
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:98
+msgctxt "(qtundo-format)"
+msgid "Whirl & pinch"
+msgstr "Vrtlog i sužavanje"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:53
+#, kde-format
+msgid "&Whirl/Pinch..."
+msgstr "&Vrtlog/sužavanje..."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:94
+#, kde-format
+msgid "Whirl Pinch"
+msgstr "Vrtlog i sužavanje"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:102
+#, kde-format
+msgid "Info"
+msgstr "Informacije"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:104
+#, kde-format
+msgid ""
+"The result of the Whirlpinch effect can be improved by refining the path "
+"shape beforehand."
+msgstr ""
+"Rezultat efekta vrtloga i sužavanja može se poboljšati prethodnom doradom "
+"oblika putanje."
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
+#, kde-format
+msgid "Angle:"
+msgstr "Kut:"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
+#, kde-format
+msgid "Pinch:"
+msgstr "Sužavanje:"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:26
+#: ui/commands/KarbonLayerReorderCommand.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Raise Layer"
+msgstr "Podigni sloj"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:28
+#: ui/commands/KarbonLayerReorderCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Lower Layer"
+msgstr "Spusti sloj"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:32
+#, kde-format
+msgid "Configure"
+msgstr "Konfiguriraj"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:40
+#: ui/dialogs/KarbonConfigureDialog.cpp:41
+#: ui/widgets/KarbonConfigInterfacePage.cpp:41
+#, kde-format
+msgid "Interface"
+msgstr "Sučelje"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:45
+#: ui/dialogs/KarbonConfigureDialog.cpp:46
+#, kde-format
+msgid "Misc"
+msgstr "Razno"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:50
+#: ui/dialogs/KarbonConfigureDialog.cpp:51
+#, kde-format
+msgid "Grid"
+msgstr "Mreža"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:57
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Dokument"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:58
+#, kde-format
+msgid "Document Settings"
+msgstr "Postavke dokumenta"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:62
+#, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "Autor"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:63
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: ui/KarbonAboutData.h:20
+#, kde-format
+msgid "Karbon"
+msgstr "Karbon"
+
+#: ui/KarbonAboutData.h:22
+#, kde-format
+msgid "A Vector Graphics Drawing Application."
+msgstr "Aplikacija za crtanje vektorske grafike."
+
+#: ui/KarbonAboutData.h:24
+#, kde-format
+msgid "(c) 2001-%1, The Karbon Developers"
+msgstr "© 2001. – %1, razvijatelji Karbona"
+
+#: ui/KarbonAboutData.h:29
+#, kde-format
+msgid "Anthony Fieroni"
+msgstr "Anthony Fieroni"
+
+#: ui/KarbonAboutData.h:29
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: ui/KarbonAboutData.h:30
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: ui/KarbonAboutData.h:31
+#, kde-format
+msgid "Port to Qt6"
+msgstr "Prijenos na Qt 6"
+
+#: ui/KarbonAboutData.h:35
+#, kde-format
+msgid "Rob Buis"
+msgstr "Rob Buis"
+
+#: ui/KarbonAboutData.h:36
+#, kde-format
+msgid "Tomislav Lukman"
+msgstr "Tomislav Lukman"
+
+#: ui/KarbonAboutData.h:37
+#, kde-format
+msgid "Benoît Vautrin"
+msgstr "Benoît Vautrin"
+
+#: ui/KarbonAboutData.h:38 ui/KarbonAboutData.h:39 ui/KarbonAboutData.h:40
+#: ui/KarbonAboutData.h:41 ui/KarbonAboutData.h:42
+#, kde-format
+msgid "Bug fixes and improvements"
+msgstr "Ispravci grešaka i poboljšanja"
+
+#: ui/KarbonAboutData.h:38
+#, kde-format
+msgid "Jan Hambrecht"
+msgstr "Jan Hambrecht"
+
+#: ui/KarbonAboutData.h:39
+#, kde-format
+msgid "Peter Simonsson"
+msgstr "Peter Simonsson"
+
+#: ui/KarbonAboutData.h:40
+#, kde-format
+msgid "Tim Beaulen"
+msgstr "Tim Beaulen"
+
+#: ui/KarbonAboutData.h:41
+#, kde-format
+msgid "Boudewijn Rempt"
+msgstr "Boudewijn Rempt"
+
+#: ui/KarbonAboutData.h:42
+#, kde-format
+msgid "Pierre Stirnweiss"
+msgstr "Pierre Stirnweiss"
+
+#: ui/KarbonAboutData.h:43
+#, kde-format
+msgid "Bug fixes"
+msgstr "Ispravci grešaka"
+
+#: ui/KarbonAboutData.h:43
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: ui/KarbonAboutData.h:44
+#, kde-format
+msgid "Alan Horkan"
+msgstr "Alan Horkan"
+
+#: ui/KarbonAboutData.h:44
+#, kde-format
+msgid "Helpful patches and advice"
+msgstr "Korisne zakrpe i savjeti"
+
+#. i18n translator strings
+#: ui/KarbonAboutData.h:47
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: ui/KarbonAboutData.h:47
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: ui/KarbonDocumentMergeCommand.cpp:113 ui/KarbonView.cpp:434
+msgctxt "(qtundo-format)"
+msgid "Insert graphics"
+msgstr "Umetni grafiku"
+
+#: ui/KarbonView.cpp:369
+#, kde-format
+msgid "Choose Graphic to Add"
+msgstr "Odaberite grafiku za dodavanje"
+
+#: ui/KarbonView.cpp:405
+#, kde-format
+msgid "Could not load image."
+msgstr "Nije moguće učitati sliku."
+
+#: ui/KarbonView.cpp:405 ui/KarbonView.cpp:410 ui/KarbonView.cpp:417
+#, kde-format
+msgid "Import graphic"
+msgstr "Uvoz grafike"
+
+#: ui/KarbonView.cpp:410 ui/KarbonView.cpp:417
+#, kde-format
+msgid "Could not create image shape."
+msgstr "Nije moguće izraditi oblik slike."
+
+#: ui/KarbonView.cpp:636
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally"
+msgstr "Zrcali vodoravno"
+
+#: ui/KarbonView.cpp:638
+msgctxt "(qtundo-format)"
+msgid "Mirror Vertically"
+msgstr "Zrcali okomito"
+
+#: ui/KarbonView.cpp:640
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally and Vertically"
+msgstr "Zrcali vodoravno i okomito"
+
+#: ui/KarbonView.cpp:695
+msgctxt "(qtundo-format)"
+msgid "Separate paths"
+msgstr "Razdvoji putanje"
+
+#: ui/KarbonView.cpp:876
+#, kde-format
+msgid "Outline &Mode"
+msgstr "Način &obrisa"
+
+#: ui/KarbonView.cpp:884
+#, kde-format
+msgid "&Import Graphic..."
+msgstr "&Uvezi grafiku..."
+
+#: ui/KarbonView.cpp:888
+#, kde-format
+msgid "Edit Guides"
+msgstr "Uredi vodilice"
+
+#: ui/KarbonView.cpp:894
+#, kde-format
+msgctxt "Duplicate selection"
+msgid "&Duplicate"
+msgstr "&Dupliciraj"
+
+#: ui/KarbonView.cpp:899
+#, kde-format
+msgid "Distribute Center (Horizontal)"
+msgstr "Rasporedi po središtu (vodoravno)"
+
+#: ui/KarbonView.cpp:903
+#, kde-format
+msgid "Distribute Gaps (Horizontal)"
+msgstr "Rasporedi razmake (vodoravno)"
+
+#: ui/KarbonView.cpp:907
+#, kde-format
+msgid "Distribute Left Borders"
+msgstr "Rasporedi lijeve rubove"
+
+#: ui/KarbonView.cpp:911
+#, kde-format
+msgid "Distribute Right Borders"
+msgstr "Rasporedi desne rubove"
+
+#: ui/KarbonView.cpp:915
+#, kde-format
+msgid "Distribute Center (Vertical)"
+msgstr "Rasporedi po središtu (okomito)"
+
+#: ui/KarbonView.cpp:919
+#, kde-format
+msgid "Distribute Gaps (Vertical)"
+msgstr "Rasporedi razmake (okomito)"
+
+#: ui/KarbonView.cpp:923
+#, kde-format
+msgid "Distribute Bottom Borders"
+msgstr "Rasporedi donje rubove"
+
+#: ui/KarbonView.cpp:927
+#, kde-format
+msgid "Distribute Top Borders"
+msgstr "Rasporedi gornje rubove"
+
+#: ui/KarbonView.cpp:931
+#, kde-format
+msgid "Show Color Palette"
+msgstr "Prikaži paletu boja"
+
+#: ui/KarbonView.cpp:933
+#, kde-format
+msgid "Show or hide color palette"
+msgstr "Prikaži ili sakrij paletu boja"
+
+#: ui/KarbonView.cpp:937
+#, kde-format
+msgid "&Clip Object"
+msgstr "&Izreži objekt"
+
+#: ui/KarbonView.cpp:941
+#, kde-format
+msgid "&Unclip Objects"
+msgstr "&Poništi izrezivanje objekata"
+
+#: ui/KarbonView.cpp:945
+#, kde-format
+msgid "Mirror Vertically"
+msgstr "Zrcali okomito"
+
+#: ui/KarbonView.cpp:949
+#, kde-format
+msgid "Mirror Horizontally"
+msgstr "Zrcali vodoravno"
+
+#: ui/KarbonView.cpp:956
+#, kde-format
+msgid "&Close Path"
+msgstr "&Zatvori putanju"
+
+#: ui/KarbonView.cpp:962
+#, kde-format
+msgid "Com&bine Path"
+msgstr "Kom&biniraj putanju"
+
+#: ui/KarbonView.cpp:968
+#, kde-format
+msgid "Se&parate Path"
+msgstr "Raz&dvoji putanju"
+
+#: ui/KarbonView.cpp:974
+#, kde-format
+msgid "Re&verse Path"
+msgstr "Ob&rni putanju"
+
+#: ui/KarbonView.cpp:980
+#, kde-format
+msgid "Intersect Paths"
+msgstr "Presjek putanja"
+
+#: ui/KarbonView.cpp:986
+#, kde-format
+msgid "Subtract Paths"
+msgstr "Oduzmi putanje"
+
+#: ui/KarbonView.cpp:992
+#, kde-format
+msgid "Unite Paths"
+msgstr "Unija putanja"
+
+#: ui/KarbonView.cpp:998
+#, kde-format
+msgid "Exclude Paths"
+msgstr "Isključi putanje"
+
+#: ui/KarbonView.cpp:1004
+#, kde-format
+msgid "Snap Path to Grid"
+msgstr "Poravnaj putanju s mrežom"
+
+#: ui/KarbonView.cpp:1012
+#, kde-format
+msgid "Zoom to Selection"
+msgstr "Približi odabir"
+
+#: ui/KarbonView.cpp:1016
+#, kde-format
+msgid "Zoom to Drawing"
+msgstr "Približi crtež"
+
+#: ui/KarbonZoomController.cpp:55
+#, kde-format
+msgid "Zoom"
+msgstr "Zumiranje"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:58
+#, kde-format
+msgid "Show status bar:"
+msgstr "Prikaži traku stanja:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:64
+#, kde-format
+msgid "Number of recent files:"
+msgstr "Broj nedavnih datoteka:"
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:70
+#, kde-format
+msgid "Palette font size:"
+msgstr "Veličina fonta palete:"
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:51
+#, kde-format
+msgid "Select palette"
+msgstr "Odaberi paletu"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:46
+#, kde-format
+msgid "Press to apply fill to selection"
+msgstr "Pritisnite za primjenu ispune na odabir"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:88
+#, kde-format
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "Nema"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:110
+#, kde-format
+msgid "Press to apply stroke to selection"
+msgstr "Pritisnite za primjenu obrisa na odabir"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:159
+#, kde-format
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr "Prilagođeno"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:165
+#, kde-format
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "Nema"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:185
+#, kde-format
+msgid "Stroke:"
+msgstr "Obris:"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:190
+#, kde-format
+msgid "Fill:"
+msgstr "Ispuna:"

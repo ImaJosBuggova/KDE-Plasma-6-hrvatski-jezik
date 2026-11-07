@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-04 00:47+0000\n"
+"PO-Revision-Date: 2026-11-07 07:04+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: editrepository.cpp:80 editrepository.cpp:125
+#, kde-format
+msgid "Edit Snippet Repository %1"
+msgstr "Uredi spremište isječaka %1"
+
+#: editrepository.cpp:82
+#, kde-format
+msgid "Create New Snippet Repository"
+msgstr "Izradi novo spremište isječaka"
+
+#: editrepository.cpp:141
+#, kde-format
+msgid "<i>leave empty for general purpose snippets</i>"
+msgstr "<i>ostavite prazno za isječke opće namjene</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, repoNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, snippetName)
+#: editrepository.ui:29 editsnippet.ui:37
+#, kde-format
+msgid "Name:"
+msgstr "Naziv:"
+
+#. i18n: ectx: property (text), widget (QLabel, repoNamespaceLabel)
+#: editrepository.ui:36
+#, kde-format
+msgid "Namespace:"
+msgstr "Imenski prostor:"
+
+#. i18n: ectx: property (text), widget (QLabel, repoLicenseLabel)
+#: editrepository.ui:43
+#, kde-format
+msgid "&License:"
+msgstr "&Licenca:"
+
+#. i18n: ectx: property (text), widget (QLabel, repoAuthorsLabel)
+#: editrepository.ui:56
+#, kde-format
+msgid "&Authors:"
+msgstr "&Autori:"
+
+#. i18n: ectx: property (text), widget (QLabel, repoFileTypesLabel)
+#: editrepository.ui:69
+#, kde-format
+msgid "&File types:"
+msgstr "&Vrste datoteka:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, repoNameEdit)
+#: editrepository.ui:96
+#, kde-format
+msgid "A short name for the repository"
+msgstr "Kratki naziv spremišta"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, repoNamespaceEdit)
+#: editrepository.ui:103
+#, kde-format
+msgid "Prefix to show in code completion"
+msgstr "Prefiks koji se prikazuje pri dovršavanju koda"
+
+#: editsnippet.cpp:73
+#, kde-format
+msgid ""
+"Text to insert into the document (see the <a href=\"help:/kate/kate-"
+"application-plugin-snippets.html#snippet-input-template\">handbook</a> for "
+"special fields)."
+msgstr "Tekst koji treba umetnuti u dokument (posebna polja potražite u <a href=\"help:/kate/kate-application-plugin-snippets.html#snippet-input-template\">priručniku</a>)."
+
+#: editsnippet.cpp:79
+#, kde-format
+msgid ""
+"JavaScript code to evaluate (see the <a href=\"help:/kate/kate-application-"
+"plugin-snippets.html#snippet-input-script\">handbook</a> for details)."
+msgstr "JavaScript kôd koji treba evaluirati (pojedinosti potražite u <a href=\"help:/kate/kate-application-plugin-snippets.html#snippet-input-script\">priručniku</a>)."
+
+#: editsnippet.cpp:86
+#, kde-format
+msgid "Text template"
+msgstr "Predložak teksta"
+
+#: editsnippet.cpp:87
+#, kde-format
+msgid "Script"
+msgstr "Skripta"
+
+#: editsnippet.cpp:99
+#, kde-format
+msgid ""
+"JavaScript functions shared between all snippets in this repository (see the "
+"<a href=\"help:/kate/kate-application-plugin-snippets.html#snippet-input-"
+"library\">handbook</a>)."
+msgstr "JavaScript funkcije koje dijele svi isječci u ovom spremištu (pogledajte <a href=\"help:/kate/kate-application-plugin-snippets.html#snippet-input-library\">priručnik</a>)."
+
+#: editsnippet.cpp:103
+#, kde-format
+msgid ""
+"Optional description to show in tooltips. You may use basic HTML formatting."
+msgstr "Neobavezan opis koji se prikazuje u opisima alata. Možete upotrijebiti osnovno HTML oblikovanje."
+
+#: editsnippet.cpp:125 editsnippet.cpp:218
+#, kde-format
+msgid "Edit Snippet %1 in %2"
+msgstr "Uredi isječak %1 u %2"
+
+#: editsnippet.cpp:138
+#, kde-format
+msgid "Create New Snippet in Repository %1"
+msgstr "Izradi novi isječak u spremištu %1"
+
+#: editsnippet.cpp:188
+#, kde-format
+msgid "Snippet names with spaces may not work well in completions"
+msgstr "Nazivi isječaka koji sadrže razmake možda neće dobro funkcionirati pri dovršavanju"
+
+#: editsnippet.cpp:230
+#, kde-format
+msgid ""
+"The snippet contains unsaved changes. Do you want to discard all changes?"
+msgstr "Isječak sadrži nespremljene promjene. Želite li odbaciti sve promjene?"
+
+#: editsnippet.cpp:231
+#, kde-format
+msgid "Warning - Unsaved Changes"
+msgstr "Upozorenje – nespremljene promjene"
+
+#: editsnippet.cpp:233
+#, kde-format
+msgid "Continue editing"
+msgstr "Nastavi uređivanje"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, snippetNameEdit)
+#: editsnippet.ui:44
+#, kde-format
+msgid "Name to be shown in the completion list (required)"
+msgstr "Naziv koji će se prikazati na popisu dovršavanja (obavezno)"
+
+#. i18n: ectx: property (text), widget (QLabel, modeComboBoxLabel)
+#: editsnippet.ui:55
+#, kde-format
+msgid "Snippet Mode:"
+msgstr "Način isječka:"
+
+#. i18n: ectx: property (text), widget (QLabel, snippetShortcutLabel)
+#: editsnippet.ui:78
+#, kde-format
+msgid "Keyboard shortcut:"
+msgstr "Tipkovnički prečac:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, snippetTab)
+#: editsnippet.ui:100
+#, kde-format
+msgid "&Snippet"
+msgstr "&Isječak"
+
+#. i18n: ectx: attribute (title), widget (QWidget, scriptTab)
+#: editsnippet.ui:117
+#, kde-format
+msgid "S&cript Library"
+msgstr "Biblioteka s&kripti"
+
+#. i18n: ectx: attribute (title), widget (QWidget, descriptionTab)
+#: editsnippet.ui:131
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#. i18n: ectx: property (text), widget (QPushButton, dotest_button)
+#: editsnippet.ui:151
+#, kde-format
+msgid "Test this snippet"
+msgstr "Isprobaj ovaj isječak"
+
+#: katesnippetglobal.cpp:101
+#, kde-format
+msgctxt "Autogenerated repository name for a programming language"
+msgid "%1 snippets"
+msgstr "%1 isječaka"
+
+#: katesnippets.cpp:42 katesnippets.cpp:50 snippetcompletionmodel.cpp:43
+#: snippetview.cpp:76 snippetview.cpp:202
+#, kde-format
+msgid "Snippets"
+msgstr "Isječci"
+
+#: katesnippets.cpp:61
+#, kde-format
+msgid "Create Snippet"
+msgstr "Izradi isječak"
+
+#: snippet.cpp:22
+#, kde-format
+msgid "<empty snippet>"
+msgstr "<prazan isječak>"
+
+#: snippet.cpp:91
+#, kde-format
+msgid "insert snippet %1"
+msgstr "umetni isječak %1"
+
+#: snippet.cpp:108
+#, kde-format
+msgid ""
+"Kate needs to be compiled against KTExtEditor version 6.15.0 or higher, to "
+"use this type of snippet."
+msgstr "Kate mora biti izgrađen uz KTExtEditor verzije 6.15.0 ili novije da bi se mogla koristiti ova vrsta isječka."
+
+#: snippetrepository.cpp:45
+#, kde-format
+msgid "<empty repository>"
+msgstr "<prazno spremište>"
+
+#: snippetrepository.cpp:232
+#, kde-format
+msgid ""
+"You have edited a snippet repository file not located in your personal "
+"directory; as such, a copy of the original file has been created within your "
+"personal data directory."
+msgstr "Uredili ste datoteku spremišta isječaka koja se ne nalazi u vašem osobnom direktoriju; zato je kopija izvorne datoteke izrađena u direktoriju vaših osobnih podataka."
+
+#: snippetrepository.cpp:238
+#, kde-format
+msgid "Output file '%1' could not be opened for writing"
+msgstr "Nije moguće otvoriti izlaznu datoteku '%1' za pisanje"
+
+#: snippetrepository.cpp:273
+#, kde-format
+msgid "Cannot open snippet repository %1."
+msgstr "Nije moguće otvoriti spremište isječaka %1."
+
+#: snippetrepository.cpp:280
+#, kde-format
+msgid ""
+"<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</qt>"
+msgstr "<qt>U datoteci %1 otkrivena je pogreška <b>%4</b> na položaju %2/%3</qt>"
+
+#: snippetrepository.cpp:291
+#, kde-format
+msgid "Invalid XML snippet file: %1"
+msgstr "Neispravna XML datoteka isječka: %1"
+
+#: snippetrepository.cpp:360
+#, kde-format
+msgid ""
+"Repository is disabled, the contained snippets will not be shown during code-"
+"completion."
+msgstr "Spremište je onemogućeno; sadržani isječci neće se prikazivati pri dovršavanju koda."
+
+#: snippetrepository.cpp:363
+#, kde-format
+msgid "Applies to all filetypes"
+msgstr "Primjenjuje se na sve vrste datoteka"
+
+#: snippetrepository.cpp:365
+#, kde-format
+msgid "Applies to the following filetypes: %1"
+msgstr "Primjenjuje se na sljedeće vrste datoteka: %1"
+
+#: snippetview.cpp:93
+#, kde-format
+msgid "Add Repository"
+msgstr "Dodaj spremište"
+
+#: snippetview.cpp:96
+#, kde-format
+msgid "Edit Repository"
+msgstr "Uredi spremište"
+
+#: snippetview.cpp:99
+#, kde-format
+msgid "Remove Repository"
+msgstr "Ukloni spremište"
+
+#: snippetview.cpp:109
+#, kde-format
+msgid "Add Snippet"
+msgstr "Dodaj isječak"
+
+#: snippetview.cpp:112
+#, kde-format
+msgid "Edit Snippet"
+msgstr "Uredi isječak"
+
+#: snippetview.cpp:115
+#, kde-format
+msgid "Remove Snippet"
+msgstr "Ukloni isječak"
+
+#: snippetview.cpp:121
+#, kde-format
+msgid "Get New Snippets"
+msgstr "Preuzmi nove isječke"
+
+#: snippetview.cpp:210
+#, kde-format
+msgid "Snippet: %1"
+msgstr "Isječak: %1"
+
+#: snippetview.cpp:218
+#, kde-format
+msgid "Repository: %1"
+msgstr "Spremište: %1"
+
+#: snippetview.cpp:283
+#, kde-format
+msgid "Do you really want to delete the snippet \"%1\"?"
+msgstr "Želite li zaista izbrisati isječak „%1”?"
+
+#: snippetview.cpp:327
+#, kde-format
+msgid ""
+"Do you really want to delete the repository \"%1\" with all its snippets?"
+msgstr "Želite li zaista izbrisati spremište „%1” sa svim njegovim isječcima?"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filterText)
+#: snippetview.ui:35
+#, kde-format
+msgid "Define filter here"
+msgstr "Ovdje definirajte filtar"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, filterText)
+#: snippetview.ui:38
+#, kde-format
+msgid "Filter..."
+msgstr "Filtriraj..."
+
+#. i18n: ectx: Menu (tools)
+#: ui.rc:6
+#, kde-format
+msgid "&Tools"
+msgstr "&Alati"

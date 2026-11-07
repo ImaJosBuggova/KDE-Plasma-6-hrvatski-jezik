@@ -1,0 +1,554 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-11 00:47+0000\n"
+"PO-Revision-Date: 2026-11-07 07:04+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "Clang Format Full File"
+msgstr "Clang Format cijele datoteke"
+
+#. i18n: file: 4
+#, kde-format
+msgctxt "External tool category"
+msgid "Tools"
+msgstr "Alati"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "Clang Format Selected Text"
+msgstr "Clang Format odabranog teksta"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "Compile and Run cpp"
+msgstr "Prevedi i pokreni C++"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "git blame"
+msgstr "git blame"
+
+#. i18n: file: 4
+#. i18n: file: 3
+#, kde-format
+msgctxt "External tool category"
+msgid "Git"
+msgstr "Git"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "git-cola"
+msgstr "git-cola"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "gitk"
+msgstr "gitk"
+
+#. i18n: file: 9
+#, kde-format
+msgctxt "External tool name"
+msgid "Go Fmt Full File"
+msgstr "Go Fmt cijele datoteke"
+
+#. i18n: file: 4
+#, kde-format
+msgctxt "External tool category"
+msgid "Go"
+msgstr "Go"
+
+#. i18n: file: 9
+#, kde-format
+msgctxt "External tool name"
+msgid "GoImports Full File"
+msgstr "GoImports cijele datoteke"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "Google Selected Text"
+msgstr "Pretraži Google odabranim tekstom"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "Insert UUID"
+msgstr "Umetni UUID"
+
+#. i18n: file: 9
+#, kde-format
+msgctxt "External tool name"
+msgid "JSON Format Full File"
+msgstr "Formatiraj JSON cijele datoteke"
+
+#. i18n: file: 7
+#, kde-format
+msgctxt "External tool name"
+msgid "Prettier Format Current File"
+msgstr "Prettier: formatiraj trenutačnu datoteku"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "Qt Quick 2 Preview"
+msgstr "Pretpregled Qt Quick 2"
+
+#. i18n: file: 4
+#, kde-format
+msgctxt "External tool category"
+msgid "Qt"
+msgstr "Qt"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "Run Shell Script"
+msgstr "Pokreni skriptu ljuske"
+
+#. i18n: file: 9
+#, kde-format
+msgctxt "External tool name"
+msgid "Rust Fmt Full File"
+msgstr "Rust Fmt cijele datoteke"
+
+#. i18n: file: 10
+#, kde-format
+msgctxt "External tool name"
+msgid "Search KDE API"
+msgstr "Pretraži KDE API"
+
+#. i18n: file: 10
+#, kde-format
+msgctxt "External tool name"
+msgid "Search Qt API"
+msgstr "Pretraži Qt API"
+
+#. i18n: file: 8
+#, kde-format
+msgctxt "External tool name"
+msgid "XML Format Full File"
+msgstr "Formatiraj XML cijele datoteke"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, lbTools)
+#: configwidget.ui:17
+#, kde-format
+msgid ""
+"This list shows all the configured tools, represented by their menu text."
+msgstr "Ovaj popis prikazuje sve konfigurirane alate, predstavljene tekstom izbornika."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
+#: configwidget.ui:29
+#, kde-format
+msgid "&Add"
+msgstr "&Dodaj"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#: configwidget.ui:36
+#, kde-format
+msgid "&Edit..."
+msgstr "&Uredi..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: configwidget.ui:43
+#, kde-format
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: externaltoolsplugin.cpp:289
+#, kde-format
+msgid ""
+"Failed to find executable '%1'. Please make sure the executable file exists "
+"and that variable names, if used, are correct"
+msgstr "Nije moguće pronaći izvršnu datoteku '%1'. Provjerite postoji li izvršna datoteka i jesu li nazivi varijabli ispravni, ako ih upotrebljavate"
+
+#: externaltoolsplugin.cpp:291 externaltoolsplugin.cpp:300
+#: externaltoolsplugin.cpp:417 kateexternaltoolsconfigwidget.cpp:270
+#: kateexternaltoolsconfigwidget.cpp:275 kateexternaltoolsview.cpp:156
+#: kateexternaltoolsview.cpp:160 kateexternaltoolsview.cpp:208
+#: kateexternaltoolsview.cpp:277
+#, kde-format
+msgid "External Tools"
+msgstr "Vanjski alati"
+
+#: externaltoolsplugin.cpp:296
+#, kde-format
+msgid "Running %1: %2 %3"
+msgstr "Pokreće se %1: %2 %3"
+
+#: externaltoolsplugin.cpp:297
+#, kde-format
+msgid "Running %1: %2 %3 with input %4"
+msgstr "Pokreće se %1: %2 %3 s ulazom %4"
+
+#: externaltoolsplugin.cpp:400
+#, kde-format
+msgid "Data written to stderr:\n"
+msgstr "Podaci zapisani u stderr:\n"
+
+#: externaltoolsplugin.cpp:411
+#, kde-format
+msgid "%1 crashed"
+msgstr "%1 se srušio"
+
+#: externaltoolsplugin.cpp:413
+#, kde-format
+msgid "%1 finished with exit code %2"
+msgstr "%1 je završio s izlaznim kodom %2"
+
+#: kateexternaltoolscommand.cpp:38
+#, kde-format
+msgid "Starts the external tool '%1'"
+msgstr "Pokreće vanjski alat '%1'"
+
+#: kateexternaltoolsconfigwidget.cpp:131
+#, kde-format
+msgid "Edit External Tool"
+msgstr "Uredi vanjski alat"
+
+#: kateexternaltoolsconfigwidget.cpp:164
+#, kde-format
+msgid "Revert tool to default settings"
+msgstr "Vrati zadane postavke alata"
+
+#: kateexternaltoolsconfigwidget.cpp:189 kateexternaltoolsconfigwidget.cpp:195
+#, kde-format
+msgid "External Tool"
+msgstr "Vanjski alat"
+
+#: kateexternaltoolsconfigwidget.cpp:189
+#, kde-format
+msgid "You must specify at least a name and an executable"
+msgstr "Morate navesti barem naziv i izvršnu datoteku"
+
+#: kateexternaltoolsconfigwidget.cpp:195
+#, kde-format
+msgid "With 'Trigger' enabled, at least one mimetype needs to be specified."
+msgstr "Kada je omogućena opcija „Okidač”, potrebno je navesti barem jednu vrstu MIME."
+
+#: kateexternaltoolsconfigwidget.cpp:204
+#, kde-format
+msgid "Select the MimeTypes for which to enable this tool."
+msgstr "Odaberite vrste MIME za koje će ovaj alat biti omogućen."
+
+#: kateexternaltoolsconfigwidget.cpp:207
+#, kde-format
+msgid "Select Mime Types"
+msgstr "Odabir vrsta MIME"
+
+#: kateexternaltoolsconfigwidget.cpp:241
+#, kde-format
+msgid "Add Tool..."
+msgstr "Dodaj alat..."
+
+#: kateexternaltoolsconfigwidget.cpp:242
+#, kde-format
+msgid "Add Tool from Defaults"
+msgstr "Dodaj alat iz zadanih"
+
+#: kateexternaltoolsconfigwidget.cpp:244
+#, kde-format
+msgid "Add Category"
+msgstr "Dodaj kategoriju"
+
+#: kateexternaltoolsconfigwidget.cpp:289 kateexternaltoolsconfigwidget.cpp:402
+#: kateexternaltoolsconfigwidget.cpp:449
+#, kde-format
+msgid "Uncategorized"
+msgstr "Nekategorizirano"
+
+#: kateexternaltoolsconfigwidget.cpp:491
+#, kde-format
+msgid "New Category"
+msgstr "Nova kategorija"
+
+#: kateexternaltoolsconfigwidget.cpp:494
+#, kde-format
+msgid "New Category %1"
+msgstr "Nova kategorija %1"
+
+#: kateexternaltoolsview.cpp:100
+#, kde-format
+msgid "Configure..."
+msgstr "Konfiguriraj..."
+
+#: kateexternaltoolsview.cpp:162
+#, kde-format
+msgid "Launch external helper applications"
+msgstr "Pokreni vanjske pomoćne aplikacije"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ToolDialog)
+#: tooldialog.ui:14
+#, kde-format
+msgid "Edit Tool"
+msgstr "Uredi alat"
+
+#. i18n: ectx: property (text), widget (QLabel, lblName)
+#: tooldialog.ui:20
+#, kde-format
+msgid "Na&me:"
+msgstr "Na&ziv:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtName)
+#: tooldialog.ui:32
+#, kde-format
+msgid "The name will be displayed in the 'Tools->External Tools' menu."
+msgstr "Naziv će se prikazati u izborniku 'Alati->Vanjski alati'."
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtName)
+#: tooldialog.ui:35
+#, kde-format
+msgid "Short name of the tool"
+msgstr "Kratki naziv alata"
+
+#. i18n: ectx: property (text), widget (QLabel, lblExecutable)
+#: tooldialog.ui:47
+#, kde-format
+msgid "Executable:"
+msgstr "Izvršna datoteka:"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtExecutable)
+#: tooldialog.ui:57
+#, kde-format
+msgid "Application or interpreter"
+msgstr "Aplikacija ili interpreter"
+
+#. i18n: ectx: property (text), widget (QLabel, lblArgs)
+#: tooldialog.ui:64
+#, kde-format
+msgid "Ar&guments:"
+msgstr "&Argumenti:"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtArgs)
+#: tooldialog.ui:74
+#, kde-format
+msgid "Command line arguments"
+msgstr "Argumenti naredbenog retka"
+
+#. i18n: ectx: property (text), widget (QLabel, lblInput)
+#: tooldialog.ui:81
+#, kde-format
+msgid "&Input:"
+msgstr "&Ulaz:"
+
+#. i18n: ectx: property (placeholderText), widget (QTextEdit, edtInput)
+#: tooldialog.ui:91
+#, kde-format
+msgid "Optional standard input"
+msgstr "Neobavezni standardni ulaz"
+
+#. i18n: ectx: property (text), widget (QLabel, lblWorkingDir)
+#: tooldialog.ui:98
+#, kde-format
+msgid "Working directory:"
+msgstr "Radni direktorij:"
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtWorkingDir)
+#: tooldialog.ui:108
+#, kde-format
+msgid "Uses current document path if empty"
+msgstr "Ako je prazno, upotrebljava se put trenutačnog dokumenta"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMimeType)
+#: tooldialog.ui:115
+#, kde-format
+msgid "Mime &types:"
+msgstr "Vrste &MIME:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtMimeType)
+#: tooldialog.ui:127
+#, kde-format
+msgid ""
+"A semicolon-separated list of mime types for which this tool should be "
+"available. If empty, the tool is always available."
+msgstr "Popis vrsta MIME razdvojenih točkom-zarezom za koje će ovaj alat biti dostupan. Ako je popis prazan, alat je uvijek dostupan."
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtMimeType)
+#: tooldialog.ui:130
+#, kde-format
+msgid "Show tool only for given mime types"
+msgstr "Prikaži alat samo za zadane vrste MIME"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, btnMimeType)
+#: tooldialog.ui:137
+#, kde-format
+msgid "Opens a dialog that helps in creating a list of mimetypes."
+msgstr "Otvori dijalog koji pomaže pri izradi popisa vrsta MIME."
+
+#. i18n: ectx: property (text), widget (QLabel, lblSave)
+#: tooldialog.ui:149
+#, kde-format
+msgid "Save:"
+msgstr "Spremi:"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cmbSave)
+#: tooldialog.ui:159
+#, kde-format
+msgid ""
+"Optionally save the current or all modified documents prior to running the "
+"command. This is helpful if you want to pass URLs to an application like, "
+"for example, an FTP client."
+msgstr "Po želji spremite trenutačni ili sve izmijenjene dokumente prije pokretanja naredbe. To je korisno ako želite proslijediti URL-ove aplikaciji, primjerice FTP klijentu."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbTrigger)
+#: tooldialog.ui:163 tooldialog.ui:189
+#, kde-format
+msgid "None"
+msgstr "Ništa"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
+#: tooldialog.ui:168
+#, kde-format
+msgid "Current Document"
+msgstr "Trenutačni dokument"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
+#: tooldialog.ui:173
+#, kde-format
+msgid "All Documents"
+msgstr "Svi dokumenti"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: tooldialog.ui:181
+#, kde-format
+msgid "Trigger"
+msgstr "Okidač"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbTrigger)
+#: tooldialog.ui:194
+#, kde-format
+msgid "Before Save"
+msgstr "Prije spremanja"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbTrigger)
+#: tooldialog.ui:199
+#, kde-format
+msgid "After Save"
+msgstr "Nakon spremanja"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkReload)
+#: tooldialog.ui:207
+#, kde-format
+msgid "Reload current document after execution"
+msgstr "Ponovno učitaj trenutačni dokument nakon izvršavanja"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: tooldialog.ui:214
+#, kde-format
+msgid "O&utput:"
+msgstr "I&zlaz:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:225
+#, kde-format
+msgid "Ignore"
+msgstr "Zanemari"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:230
+#, kde-format
+msgid "Insert at Cursor Position"
+msgstr "Umetni na položaj pokazivača"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:235
+#, kde-format
+msgid "Replace Selected Text"
+msgstr "Zamijeni odabrani tekst"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:240
+#, kde-format
+msgid "Replace Current Document"
+msgstr "Zamijeni trenutačni dokument"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:245
+#, kde-format
+msgid "Append to Current Document"
+msgstr "Dodaj na kraj trenutačnog dokumenta"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:250
+#, kde-format
+msgid "Insert in New Document"
+msgstr "Umetni u novi dokument"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:255
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Kopiraj u međuspremnik"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
+#: tooldialog.ui:260
+#, kde-format
+msgid "Display in Pane"
+msgstr "Prikaži u oknu"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: tooldialog.ui:268
+#, kde-format
+msgid "Editor command:"
+msgstr "Naredba uređivača:"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtCommand)
+#: tooldialog.ui:278
+#, kde-format
+msgid ""
+"If you specify a name here, you can invoke the command from the view command "
+"line with the_name_you_specified_here. Please do not use spaces or tabs in "
+"the name."
+msgstr "Ako ovdje navedete naziv, naredbu možete pozvati iz naredbenog retka prikaza pomoću unesenog naziva. Nemojte koristiti razmake ni tabulatore u nazivu."
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, edtCommand)
+#: tooldialog.ui:281
+#, kde-format
+msgid "Optional view command line name"
+msgstr "Neobavezni naziv naredbenog retka prikaza"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabOutput)
+#: toolview.ui:27
+#, kde-format
+msgid "Output"
+msgstr "Izlaz"
+
+#. i18n: ectx: property (placeholderText), widget (QTextEdit, teOutput)
+#: toolview.ui:36
+#, kde-format
+msgid "Displays output from the external tool"
+msgstr "Prikazuje izlaz vanjskog alata"
+
+#. i18n: ectx: Menu (tools)
+#: ui.rc:5
+#, kde-format
+msgid "&Tools"
+msgstr "&Alati"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ui.rc:9
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Glavna alatna traka"
