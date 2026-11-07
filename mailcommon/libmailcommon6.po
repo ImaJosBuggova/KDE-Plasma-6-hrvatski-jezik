@@ -1211,7 +1211,7 @@ msgid ""
 "only affect the local copy of the message.</p><p>If the recipient's copy "
 "also needs to be modified, please use \"Apply this filter <b>before</b> "
 "sending messages\".</p>"
-msgstr ""
+msgstr "<p>Filtar će se aktivirati <b>nakon</b> slanja poruke i utjecat će samo na lokalnu kopiju.</p><p>Ako treba izmijeniti i kopiju primatelja, upotrijebite „Primijeni ovaj filtar <b>prije</b> slanja poruka”.</p>"
 
 #: filter/kmfilterdialog.cpp:225
 #, kde-format
@@ -1225,7 +1225,7 @@ msgid ""
 "<p>The filter will be triggered <b>before</b> the message is sent and it "
 "will affect both the local copy and the sent copy of the message.</p><p>This "
 "is required if the recipient's copy also needs to be modified.</p>"
-msgstr ""
+msgstr "<p>Filtar će se aktivirati <b>prije</b> slanja poruke i utjecat će i na lokalnu i na poslanu kopiju.</p><p>To je potrebno ako treba izmijeniti i kopiju primatelja.</p>"
 
 #: filter/kmfilterdialog.cpp:232
 #, kde-format
@@ -1246,7 +1246,7 @@ msgid ""
 "to all accounts selected above. This is useful when using local filters with "
 "IMAP accounts where new emails may have already been moved to different "
 "folders by server-side filters.</p>"
-msgstr ""
+msgstr "<p>Filtar će se primijeniti na dolazne poruke e-pošte iz svih mapa svih gore odabranih računa. To je korisno pri upotrebi lokalnih filtara s IMAP računima, kod kojih su nove poruke možda već premještene u druge mape pomoću filtara na poslužitelju.</p>"
 
 #: filter/kmfilterdialog.cpp:243
 #, kde-format
@@ -1306,7 +1306,7 @@ msgctxt "@info"
 msgid ""
 "Some filters were changed and not saved yet. You must save your filters "
 "before they can be applied."
-msgstr ""
+msgstr "Neki su filtri izmijenjeni, ali još nisu spremljeni. Filtre spremite prije primjene."
 
 #: filter/kmfilterdialog.cpp:428 filter/kmfilterdialog.cpp:710
 #, kde-format
@@ -1347,7 +1347,7 @@ msgctxt "@info"
 msgid ""
 "Some filters were changed and not saved yet.<br>You must save your filters "
 "before they can be exported."
-msgstr ""
+msgstr "Neki su filtri izmijenjeni, ali još nisu spremljeni.<br>Filtre spremite prije izvoza."
 
 #: filter/kmfilterdialog.cpp:714
 #, kde-format
@@ -1371,7 +1371,7 @@ msgid ""
 "<qt><p>This is the list of defined filters. They are processed top-to-bottom."
 "</p><p>Click on any filter to edit it using the controls in the right-hand "
 "half of the dialog.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Ovo je popis definiranih filtara. Obrađuju se odozgo prema dolje.</p><p>Kliknite filtar da biste ga uredili pomoću kontrola na desnoj polovici dijaloga.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:85
 #, kde-format
@@ -1406,7 +1406,7 @@ msgid ""
 "topmost filter gets tried first.</p><p>If you have clicked this button "
 "accidentally, you can undo this by clicking on the <em>Down</em> button.</"
 "p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste pomaknuli odabrani filtar za jedno mjesto <em>gore</em>.</p><p>Redoslijed filtara određuje redoslijed njihove primjene na poruke: filtar na vrhu primjenjuje se prvi.</p><p>Slučajnu radnju poništite klikom na gumb <em>Dolje</em>.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:98
 #, kde-format
@@ -1417,7 +1417,7 @@ msgid ""
 "topmost filter gets tried first.</p><p>If you have clicked this button "
 "accidentally, you can undo this by clicking on the <em>Up</em> button.</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste pomaknuli odabrani filtar za jedno mjesto <em>dolje</em>.</p><p>Redoslijed filtara određuje redoslijed njihove primjene na poruke: filtar na vrhu primjenjuje se prvi.</p><p>Slučajnu radnju poništite klikom na gumb <em>Gore</em>.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:106
 #, kde-format
@@ -1426,7 +1426,7 @@ msgid ""
 "list.</p><p>This is useful since the order of the filters in the list "
 "determines the order in which they are tried on messages: The topmost filter "
 "gets tried first.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste pomaknuli odabrani filtar na dno popisa.</p><p>Redoslijed filtara određuje redoslijed njihove primjene na poruke: filtar na vrhu primjenjuje se prvi.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:112
 #, kde-format
@@ -1435,7 +1435,7 @@ msgid ""
 "list.</p><p>This is useful since the order of the filters in the list "
 "determines the order in which they are tried on messages: The topmost filter "
 "gets tried first.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste pomaknuli odabrani filtar na vrh popisa.</p><p>Redoslijed filtara određuje redoslijed njihove primjene na poruke: filtar na vrhu primjenjuje se prvi.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:142
 #, kde-format
@@ -1468,7 +1468,7 @@ msgid ""
 "inserted just before the currently-selected one, but you can always change "
 "that later on.</p><p>If you have clicked this button accidentally, you can "
 "undo this by clicking on the <em>Delete</em> button.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste stvorili filtar.</p><p>Umetnut će se prije odabranog filtra, ali položaj možete naknadno promijeniti.</p><p>Slučajnu radnju poništite klikom na <em>Izbriši</em>.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:154
 #, kde-format
@@ -1476,7 +1476,7 @@ msgid ""
 "<qt><p>Click this button to copy a filter.</p><p>If you have clicked this "
 "button accidentally, you can undo this by clicking on the <em>Delete</em> "
 "button.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste kopirali filtar.</p><p>Slučajnu radnju poništite klikom na <em>Izbriši</em>.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:158
 #, kde-format
@@ -1485,7 +1485,7 @@ msgid ""
 "from the list above.</p><p>There is no way to get the filter back once it is "
 "deleted, but you can always leave the dialog by clicking <em>Cancel</em> to "
 "discard the changes made.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste <em>izbrisali</em> odabrani filtar.</p><p>Izbrisani filtar nije moguće vratiti, ali možete kliknuti <em>Odustani</em> i odbaciti promjene.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:165
 #, kde-format
@@ -1495,7 +1495,7 @@ msgid ""
 "p><p>If you have renamed a filter accidentally and want automatic naming "
 "back, click this button and select <em>Clear</em> followed by <em>OK</em> in "
 "the appearing dialog.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Kliknite ovaj gumb da biste preimenovali odabrani filtar.</p><p>Filtri se automatski imenuju ako naziv počinje znakom „&lt;”.</p><p>Za povratak automatskom imenovanju kliknite gumb, odaberite <em>Očisti</em>, a zatim <em>U redu</em>.</p></qt>"
 
 #: filter/kmfilterlistbox.cpp:293
 #, kde-format
@@ -1534,7 +1534,7 @@ msgstr "Preimenuj filtar"
 msgid ""
 "Rename filter \"%1\" to:\n"
 "(leave the field empty for automatic naming)"
-msgstr ""
+msgstr "Preimenuj filtar „%1” u:\n(ostavi prazno za automatsko imenovanje)"
 
 #: filter/mailfilter.cpp:131
 #, kde-format
@@ -1561,7 +1561,7 @@ msgstr "<qt>Previše radnji filtra u pravilu filtra <b>%1</b>.</qt>"
 msgid ""
 "<qt>Unknown filter action <b>%1</b><br />in filter rule <b>%2</b>.<br /"
 ">Ignoring it.</qt>"
-msgstr ""
+msgstr "<qt>Nepoznata radnja filtra <b>%1</b><br />u pravilu filtra <b>%2</b>.<br />Zanemaruje se.</qt>"
 
 #: filter/mailfilter.cpp:570
 #, kde-format
@@ -1870,8 +1870,9 @@ msgstr "Arhiviranje mape „%1” uspješno je dovršeno. Arhiva je zapisana u d
 #, kde-format
 msgid "1 message of size %2 was archived."
 msgid_plural "%1 messages with the total size of %2 were archived."
-msgstr[0] "Arhivirana je 1 poruka veličine %2."
+msgstr[0] "Arhivirana je %1 poruka veličine %2."
 msgstr[1] "Arhivirane su %1 poruke ukupne veličine %2."
+msgstr[2] "Arhivirano je %1 poruka ukupne veličine %2."
 
 #: job/backupjob.cpp:194
 #, kde-format
@@ -1923,8 +1924,9 @@ msgstr "Arhiviranje"
 #, kde-format
 msgid "Removed 1 old message from folder %2."
 msgid_plural "Removed %1 old messages from folder %2."
-msgstr[0] "Uklonjena je 1 stara poruka iz mape %2."
+msgstr[0] "Uklonjena je %1 stara poruka iz mape %2."
 msgstr[1] "Uklonjene su %1 stare poruke iz mape %2."
+msgstr[2] "Uklonjeno je %1 starih poruka iz mape %2."
 
 #: job/expiredeletejob.cpp:70
 #, kde-format
@@ -1940,8 +1942,9 @@ msgstr "Uklanjanje starih poruka iz mape %1 nije uspjelo."
 #, kde-format
 msgid "Removing 1 old message from folder %2…"
 msgid_plural "Removing %1 old messages from folder %2…"
-msgstr[0] "Uklanjanje 1 stare poruke iz mape %2…"
-msgstr[1] "Uklanjanje %1 starih poruka iz mape %2…"
+msgstr[0] "Uklanjanje %1 stare poruke iz mape %2…"
+msgstr[1] "Uklanjanje %1 stare poruke iz mape %2…"
+msgstr[2] "Uklanjanje %1 starih poruka iz mape %2…"
 
 #: job/expirejob.cpp:160
 #, kde-format
@@ -1952,15 +1955,17 @@ msgstr "Nije moguće ukloniti istekle poruke iz mape %1: odredišna mapa %2 nije
 #, kde-format
 msgid "Moving 1 old message from folder %2 to folder %3…"
 msgid_plural "Moving %1 old messages from folder %2 to folder %3…"
-msgstr[0] "Premještanje 1 stare poruke iz mape %2 u mapu %3…"
-msgstr[1] "Premještanje %1 starih poruka iz mape %2 u mapu %3…"
+msgstr[0] "Premještanje %1 stare poruke iz mape %2 u mapu %3…"
+msgstr[1] "Premještanje %1 stare poruke iz mape %2 u mapu %3…"
+msgstr[2] "Premještanje %1 starih poruka iz mape %2 u mapu %3…"
 
 #: job/expiremovejob.cpp:128
 #, kde-format
 msgid "Moved 1 old message from folder %2 to folder %3."
 msgid_plural "Moved %1 old messages from folder %2 to folder %3."
-msgstr[0] "Premještena je 1 stara poruka iz mape %2 u mapu %3."
+msgstr[0] "Premještena je %1 stara poruka iz mape %2 u mapu %3."
 msgstr[1] "Premještene su %1 stare poruke iz mape %2 u mapu %3."
+msgstr[2] "Premješteno je %1 starih poruka iz mape %2 u mapu %3."
 
 #: job/expiremovejob.cpp:137
 #, kde-format
@@ -2443,181 +2448,182 @@ msgstr "pozivnicu"
 #: search/widgethandler/invitationwidgethandler.cpp:88
 #, kde-format
 msgid "has invitation"
-msgstr ""
+msgstr "sadrži pozivnicu"
 
 #: search/widgethandler/messagerulewidgethandler.cpp:28
 #: search/widgethandler/messagerulewidgethandler.cpp:146
 #, kde-format
 msgid "has no attachment"
-msgstr ""
+msgstr "nema privitak"
 
 #: search/widgethandler/numericdoublerulewidgethandler.cpp:23
 #: search/widgethandler/numericrulewidgethandler.cpp:23
 msgid "is greater than"
-msgstr ""
+msgstr "veće je od"
 
 #: search/widgethandler/numericdoublerulewidgethandler.cpp:24
 #: search/widgethandler/numericrulewidgethandler.cpp:24
 msgid "is less than or equal to"
-msgstr ""
+msgstr "manje je od ili jednako"
 
 #: search/widgethandler/numericdoublerulewidgethandler.cpp:25
 #: search/widgethandler/numericrulewidgethandler.cpp:25
 msgid "is less than"
-msgstr ""
+msgstr "manje je od"
 
 #: search/widgethandler/numericdoublerulewidgethandler.cpp:26
 #: search/widgethandler/numericrulewidgethandler.cpp:26
 msgid "is greater than or equal to"
-msgstr ""
+msgstr "veće je od ili jednako"
 
 #: search/widgethandler/numericdoublerulewidgethandler.cpp:157
 #, kde-format
 msgctxt "spinbox suffix: unit for kilobyte"
 msgid " kB"
-msgstr ""
+msgstr " kB"
 
 #: search/widgethandler/numericrulewidgethandler.cpp:157
 #, kde-format
 msgctxt "Unit suffix where units are days."
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v dan"
+msgstr[1] "%v dana"
+msgstr[2] "%v dana"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:28
 msgctxt "message status"
 msgid "Important"
-msgstr ""
+msgstr "Važno"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:29
 msgctxt "message status"
 msgid "Action Item"
-msgstr ""
+msgstr "Radnja"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:30
 msgctxt "message status"
 msgid "Unread"
-msgstr ""
+msgstr "Nepročitano"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:31
 msgctxt "message status"
 msgid "Read"
-msgstr ""
+msgstr "Pročitano"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:32
 msgctxt "message status"
 msgid "Deleted"
-msgstr ""
+msgstr "Izbrisano"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:33
 msgctxt "message status"
 msgid "Replied"
-msgstr ""
+msgstr "Odgovoreno"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:34
 msgctxt "message status"
 msgid "Forwarded"
-msgstr ""
+msgstr "Proslijeđeno"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:35
 msgctxt "message status"
 msgid "Queued"
-msgstr ""
+msgstr "Na čekanju"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:36
 msgctxt "message status"
 msgid "Sent"
-msgstr ""
+msgstr "Poslano"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:37
 msgctxt "message status"
 msgid "Watched"
-msgstr ""
+msgstr "Praćeno"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:38
 msgctxt "message status"
 msgid "Ignored"
-msgstr ""
+msgstr "Zanemareno"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:39
 msgctxt "message status"
 msgid "Spam"
-msgstr ""
+msgstr "Neželjena pošta"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:40
 msgctxt "message status"
 msgid "Ham"
-msgstr ""
+msgstr "Nije neželjena pošta"
 
 #: search/widgethandler/statusrulewidgethandler.cpp:41
 msgctxt "message status"
 msgid "Has Attachment"
-msgstr ""
+msgstr "Ima privitak"
 
 #: snippets/snippetattachmentwidget.cpp:28
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Click on button for selecting attachment file"
-msgstr ""
+msgstr "Kliknite gumb za odabir datoteke privitka"
 
 #: snippets/snippetattachmentwidget.cpp:34
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select Attachments"
-msgstr ""
+msgstr "Odaberi privitke"
 
 #: snippets/snippetattachmentwidget.cpp:35
 #, kde-format
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #: snippets/snippetcustomfileattachmentnamedialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Customize File Name Attachment"
-msgstr ""
+msgstr "Prilagodi naziv datoteke privitka"
 
 #: snippets/snippetcustomfileattachmentnamewidget.cpp:30
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
-msgstr ""
+msgstr "Naziv datoteke:"
 
 #: snippets/snippetcustomfileattachmentnamewidget.cpp:48
 #, kde-format
 msgctxt "@action:button"
 msgid "Insert Variables"
-msgstr ""
+msgstr "Umetni varijable"
 
 #: snippets/snippetselectattachmentdialog.cpp:23
 #: snippets/snippetselectattachmentwidget.cpp:52
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Attachments"
-msgstr ""
+msgstr "Odaberi privitke"
 
 #: snippets/snippetselectattachmentwidget.cpp:45
 #, kde-format
 msgid "Do you want to delete selected attachment?"
-msgstr ""
+msgstr "Želite li izbrisati odabrani privitak?"
 
 #: snippets/snippetsmanager.cpp:154
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: snippets/snippetsmanager.cpp:160
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Snippet"
-msgstr ""
+msgstr "Dodaj isječak"
 
 #: snippets/snippetsmanager.cpp:226
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Snippet"
-msgstr ""
+msgstr "Uredi isječak"
 
 #: snippets/snippetsmanager.cpp:286
 #, kde-kuit-format
@@ -2625,19 +2631,19 @@ msgctxt "@info"
 msgid ""
 "Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to "
 "undo the removal.</warning>"
-msgstr ""
+msgstr "Želite li doista ukloniti isječak „%1”?<nl/><warning>Uklanjanje nije moguće poništiti.</warning>"
 
 #: snippets/snippetsmanager.cpp:305
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Group"
-msgstr ""
+msgstr "Dodaj grupu"
 
 #: snippets/snippetsmanager.cpp:330
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Group"
-msgstr ""
+msgstr "Uredi grupu"
 
 #: snippets/snippetsmanager.cpp:359
 #, kde-kuit-format
@@ -2645,101 +2651,101 @@ msgctxt "@info"
 msgid ""
 "Do you really want to remove group \"%1\" along with all its snippets?<nl/"
 "><warning>There is no way to undo the removal.</warning>"
-msgstr ""
+msgstr "Želite li doista ukloniti grupu „%1” sa svim njezinim isječcima?<nl/><warning>Uklanjanje nije moguće poništiti.</warning>"
 
 #: snippets/snippetsmanager.cpp:369
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to remove group \"%1\"?"
-msgstr ""
+msgstr "Želite li doista ukloniti grupu „%1”?"
 
 #: snippets/snippetsmanager.cpp:437 snippets/snippetsmanager.cpp:466
 #, kde-format
 msgctxt "@action"
 msgid "Snippet %1"
-msgstr ""
+msgstr "Isječak %1"
 
 #: snippets/snippetsmanager.cpp:559
 #, kde-format
 msgctxt "@action"
 msgid "Add Snippet…"
-msgstr ""
+msgstr "Dodaj isječak…"
 
 #: snippets/snippetsmanager.cpp:561
 #, kde-format
 msgctxt "@action"
 msgid "Edit Snippet…"
-msgstr ""
+msgstr "Uredi isječak…"
 
 #: snippets/snippetsmanager.cpp:563
 #, kde-format
 msgctxt "@action"
 msgid "Remove Snippet"
-msgstr ""
+msgstr "Ukloni isječak"
 
 #: snippets/snippetsmanager.cpp:566
 #, kde-format
 msgctxt "@action"
 msgid "Add Group…"
-msgstr ""
+msgstr "Dodaj grupu…"
 
 #: snippets/snippetsmanager.cpp:568
 #, kde-format
 msgctxt "@action"
 msgid "Rename Group…"
-msgstr ""
+msgstr "Preimenuj grupu…"
 
 #: snippets/snippetsmanager.cpp:570
 #, kde-format
 msgctxt "@action"
 msgid "Remove Group"
-msgstr ""
+msgstr "Ukloni grupu"
 
 #: snippets/snippetsmanager.cpp:573
 #, kde-format
 msgctxt "@action"
 msgid "Insert Snippet"
-msgstr ""
+msgstr "Umetni isječak"
 
 #: snippets/snippetsmodel.cpp:524 snippets/snippetsmodel.cpp:553
 #, kde-format
 msgid "Do you want to update snippet?"
-msgstr ""
+msgstr "Želite li ažurirati isječak?"
 
 #: snippets/snippetsmodel.cpp:525 snippets/snippetsmodel.cpp:554
 #, kde-format
 msgctxt "@title:window"
 msgid "Update snippet"
-msgstr ""
+msgstr "Ažuriraj isječak"
 
 #: snippets/snippetsmodel.cpp:526 snippets/snippetsmodel.cpp:555
 #, kde-format
 msgctxt "@action:button"
 msgid "Update"
-msgstr ""
+msgstr "Ažuriraj"
 
 #: snippets/snippettreeview.cpp:64
 #, kde-format
 msgid "Text Snippets"
-msgstr ""
+msgstr "Isječci teksta"
 
 #: snippets/snippetvariabledialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Values for Variables"
-msgstr ""
+msgstr "Unesite vrijednosti varijabli"
 
 #: snippets/snippetvariabledialog.cpp:37
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enter the replacement values for '%1':"
-msgstr ""
+msgstr "Unesite zamjenske vrijednosti za „%1”:"
 
 #: snippets/snippetvariabledialog.cpp:42
 #, kde-format
 msgctxt "@option:check"
 msgid "Make value &default"
-msgstr ""
+msgstr "Postavi vrijednost kao &zadanu"
 
 #: snippets/snippetvariabledialog.cpp:45
 #, kde-format
@@ -2747,7 +2753,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Enable this to save the value entered to the right as the default value for "
 "this variable"
-msgstr ""
+msgstr "Omogućite ovu opciju da biste vrijednost unesenu desno spremili kao zadanu za ovu varijablu."
 
 #: snippets/snippetvariabledialog.cpp:48
 #, kde-format
@@ -2756,7 +2762,7 @@ msgid ""
 "If you enable this option, the value entered to the right will be saved. If "
 "you use the same variable later, even in another snippet, the value entered "
 "to the right will be the default value for that variable."
-msgstr ""
+msgstr "Ako omogućite ovu opciju, spremit će se vrijednost unesena desno. Ako istu varijablu upotrijebite kasnije, čak i u drugom isječku, ta će vrijednost biti zadana."
 
 #: snippets/snippetwidget.cpp:57
 #, kde-format
@@ -2765,38 +2771,38 @@ msgid ""
 "an email. For instance if you choose \"greeting\" as the keyword, you can "
 "then type \\greeting in your email and then press the tab key, and it will "
 "be replaced with the contents of this snippet."
-msgstr ""
+msgstr "Unesite ključnu riječ za brzo umetanje isječka tijekom pisanja e-poruke. Primjerice, odaberite „greeting” kao ključnu riječ, upišite \\greeting u e-poruci, a zatim pritisnite Tab da biste je zamijenili sadržajem isječka."
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: snippets/ui/snippetwidget.ui:32
 #, kde-format
 msgid "&Name:"
-msgstr ""
+msgstr "&Ime:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
 #: snippets/ui/snippetwidget.ui:50
 #, kde-format
 msgctxt "Group to which the snippet belongs."
 msgid "Group:"
-msgstr ""
+msgstr "Grupa:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: snippets/ui/snippetwidget.ui:69
 #, kde-format
 msgid "Subject:"
-msgstr ""
+msgstr "Predmet:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: snippets/ui/snippetwidget.ui:88
 #, kde-format
 msgid "To:"
-msgstr ""
+msgstr "Za:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: snippets/ui/snippetwidget.ui:101
 #, kde-format
 msgid "Cc:"
-msgstr ""
+msgstr "Kopija:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: snippets/ui/snippetwidget.ui:114
@@ -2902,99 +2908,99 @@ msgstr "Omogući gumb na &alatnoj traci"
 #: widgets/favoritecollectionwidget.cpp:90
 #, kde-format
 msgid "Icon size"
-msgstr ""
+msgstr "Veličina ikona"
 
 #: widgets/favoritecollectionwidget.cpp:109
 #, kde-format
 msgid "Mode"
-msgstr ""
+msgstr "Način"
 
 #: widgets/favoritecollectionwidget.cpp:113
 #, kde-format
 msgctxt "@action"
 msgid "List Mode"
-msgstr ""
+msgstr "Prikaz popisa"
 
 #: widgets/favoritecollectionwidget.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Icon Mode"
-msgstr ""
+msgstr "Prikaz ikona"
 
 #: widgets/favoritecollectionwidget.cpp:234
 #, kde-format
 msgid "Drop your favorite folders here…"
-msgstr ""
+msgstr "Ovdje ispustite omiljene mape…"
 
 #: widgets/redirectdialog.cpp:66
 #, kde-format
 msgid "Resend-To:"
-msgstr ""
+msgstr "Ponovno pošalji za:"
 
 #: widgets/redirectdialog.cpp:69
 #, kde-format
 msgid "Resend-Cc:"
-msgstr ""
+msgstr "Ponovno pošalji kopiju:"
 
 #: widgets/redirectdialog.cpp:72
 #, kde-format
 msgid "Resend-Bcc:"
-msgstr ""
+msgstr "Ponovno pošalji skrivenu kopiju:"
 
 #: widgets/redirectdialog.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Redirect Message"
-msgstr ""
+msgstr "Preusmjeri poruku"
 
 #: widgets/redirectdialog.cpp:122
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Select the recipient addresses to redirect to:"
-msgstr ""
+msgstr "Odaberite adrese primatelja za preusmjeravanje:"
 
 #: widgets/redirectdialog.cpp:151
 #, kde-format
 msgid "Identity:"
-msgstr ""
+msgstr "Identitet:"
 
 #: widgets/redirectdialog.cpp:155
 #, kde-format
 msgid "Transport:"
-msgstr ""
+msgstr "Prijenos:"
 
 #: widgets/redirectdialog.cpp:157
 #, kde-format
 msgctxt "@action:button"
 msgid "&Send Now"
-msgstr ""
+msgstr "&Pošalji odmah"
 
 #: widgets/redirectdialog.cpp:158
 #, kde-format
 msgctxt "@action:button"
 msgid "Send &Later"
-msgstr ""
+msgstr "Pošalji &kasnije"
 
 #: widgets/redirectdialog.cpp:206
 #, kde-format
 msgid "You cannot redirect the message without an address."
-msgstr ""
+msgstr "Poruku nije moguće preusmjeriti bez adrese."
 
 #: widgets/redirectdialog.cpp:206
 #, kde-format
 msgctxt "@title:window"
 msgid "Empty Redirection Address"
-msgstr ""
+msgstr "Prazna adresa za preusmjeravanje"
 
 #: widgets/redirectwidget.cpp:39
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use the Address-Selection Dialog"
-msgstr ""
+msgstr "Upotrijebi dijalog za odabir adrese"
 
 #: widgets/redirectwidget.cpp:41
 #, kde-format
 msgid ""
 "This button opens a separate dialog where you can select recipients out of "
 "all available addresses."
-msgstr ""
+msgstr "Ovaj gumb otvara zaseban dijalog za odabir primatelja među svim dostupnim adresama."

@@ -301,7 +301,6 @@ msgstr "Nije pronađen adresar s pravom pisanja"
 msgid "Contact group creation failed: %1"
 msgstr "Kontakt skupina izrada nije uspjelo: %1"
 
-msgstr[2] "Stvorena je grupa kontakata „%2” s %1 članova u adresaru „%3” (ID stavke: %4)"
 #: createcontactgrouptool/createcontactgrouptooljob.cpp:159
 #, kde-format
 msgid ""
@@ -312,6 +311,7 @@ msgid_plural ""
 "id: %4)"
 msgstr[0] "Stvorena je grupa kontakata „%2” s %1 članom u adresaru „%3” (ID stavke: %4)"
 msgstr[1] "Stvorena je grupa kontakata „%2” s %1 člana u adresaru „%3” (ID stavke: %4)"
+msgstr[2] "Stvorena je grupa kontakata „%2” s %1 članova u adresaru „%3” (ID stavke: %4)"
 
 #: createcontacttool/createcontacttool.cpp:46
 #, kde-format
@@ -943,13 +943,13 @@ msgstr "Argument days mora biti cijeli broj"
 msgid "Number of days must be a positive integer"
 msgstr "Broj dana mora biti pozitivan cijeli broj"
 
-msgstr[2] "Nema rođendana u sljedećih %1 dana"
 #: upcomingbirthdaystool/upcomingbirthdaystooljob.cpp:99
 #, kde-format
 msgid "No birthday in the next day"
 msgid_plural "No birthday in the next %1 days"
-msgstr[0] "Nema rođendana sljedeći dan"
+msgstr[0] "Nema rođendana sljedeći %1 dan"
 msgstr[1] "Nema rođendana u sljedeća %1 dana"
+msgstr[2] "Nema rođendana u sljedećih %1 dana"
 
 #: updatecontacttool/updatecontacttool.cpp:45
 #, kde-format

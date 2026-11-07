@@ -923,7 +923,7 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of remap operations. The raw value of this attribute shows the total "
 "number of attempts to transfer data from reallocated sectors to a spare area."
-msgstr ""
+msgstr "Broj operacija ponovnog mapiranja. Sirova vrijednost ovog atributa prikazuje ukupan broj pokušaja prijenosa podataka iz preraspodijeljenih sektora u rezervno područje."
 
 #: core/smartattribute.cpp:141
 #, kde-format
@@ -937,7 +937,7 @@ msgctxt "SMART attr description"
 msgid ""
 "Number of &quot;unstable&quot; sectors (waiting to be remapped, because of "
 "read errors)."
-msgstr ""
+msgstr "Broj „nestabilnih” sektora (koji čekaju ponovno mapiranje zbog pogrešaka pri čitanju)."
 
 #: core/smartattribute.cpp:142
 #, kde-format
@@ -949,13 +949,13 @@ msgstr "Broj neispravljivih sektora"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of uncorrectable errors when reading/writing a sector."
-msgstr ""
+msgstr "Broj neispravljivih pogrešaka pri čitanju ili zapisivanju sektora."
 
 #: core/smartattribute.cpp:143
 #, kde-format
 msgctxt "SMART attr name"
 msgid "UltraDMA CRC Error Count"
-msgstr ""
+msgstr "Broj CRC pogrešaka za UltraDMA"
 
 #: core/smartattribute.cpp:143
 #, kde-format
@@ -963,79 +963,79 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of errors in data transfer via the interface cable as determined by "
 "ICRC."
-msgstr ""
+msgstr "Broj pogrešaka u prijenosu podataka putem sučelnog kabela, utvrđenih pomoću ICRC-a."
 
 #: core/smartattribute.cpp:144
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Multi-Zone Error Rate<br/>Write Error Rate"
-msgstr ""
+msgstr "Stopa pogrešaka u više zona<br/>Stopa pogrešaka pri zapisivanju"
 
 #: core/smartattribute.cpp:144
 #, kde-format
 msgctxt "SMART attr description"
 msgid "The total number of errors when writing a sector."
-msgstr ""
+msgstr "Ukupan broj pogrešaka pri zapisivanju sektora."
 
 #: core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of off-track errors."
-msgstr ""
+msgstr "Broj pogrešaka pri pomicanju glave izvan staze."
 
 #: core/smartattribute.cpp:146
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Data Address Mark Errors"
-msgstr ""
+msgstr "Pogreške oznake adrese podataka"
 
 #: core/smartattribute.cpp:146
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of Data Address Mark errors (or vendor-specific)."
-msgstr ""
+msgstr "Broj pogrešaka oznake adrese podataka (ili pogrešaka specifičnih za proizvođača)."
 
 #: core/smartattribute.cpp:147
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Run Out Cancel"
-msgstr ""
+msgstr "Poništavanje prekoračenja"
 
 #: core/smartattribute.cpp:147
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of ECC errors"
-msgstr ""
+msgstr "Broj ECC pogrešaka"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft ECC Correction"
-msgstr ""
+msgstr "Ispravak mekim ECC-om"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors corrected by software ECC"
-msgstr ""
+msgstr "Broj pogrešaka ispravljenih softverskim ECC-om"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Thermal Asperity Rate"
-msgstr ""
+msgstr "Stopa toplinskih izobličenja"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors due to high temperature."
-msgstr ""
+msgstr "Broj pogrešaka uzrokovanih visokom temperaturom."
 
 #: core/smartattribute.cpp:150
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Flying Height"
-msgstr ""
+msgstr "Visina lebdenja glave"
 
 #: core/smartattribute.cpp:150
 #, kde-format
@@ -1044,25 +1044,25 @@ msgid ""
 "Height of heads above the disk surface. A flying height that is too low "
 "increases the chances of a head crash while a flying height that is too high "
 "increases the chances of a read/write error."
-msgstr ""
+msgstr "Visina glava iznad površine diska. Premala visina lebdenja povećava vjerojatnost sudara glave s diskom, a prevelika vjerojatnost pogreške pri čitanju ili zapisivanju."
 
 #: core/smartattribute.cpp:151
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin High Current"
-msgstr ""
+msgstr "Visoka struja pri pokretanju"
 
 #: core/smartattribute.cpp:151
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Amount of surge current used to spin up the drive."
-msgstr ""
+msgstr "Količina udarne struje koja se koristi za pokretanje pogona."
 
 #: core/smartattribute.cpp:152
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin Buzz"
-msgstr ""
+msgstr "Zujanje pri pokretanju"
 
 #: core/smartattribute.cpp:152
 #, kde-format
@@ -1070,49 +1070,49 @@ msgctxt "SMART attr description"
 msgid ""
 "Number of buzz routines needed to spin up the drive due to insufficient "
 "power."
-msgstr ""
+msgstr "Broj ciklusa zujanja potrebnih za pokretanje pogona zbog nedovoljnog napajanja."
 
 #: core/smartattribute.cpp:153
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Offline Seek Performance"
-msgstr ""
+msgstr "Učinkovitost pozicioniranja glave izvan mreže"
 
 #: core/smartattribute.cpp:153
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive's seek performance during its internal tests."
-msgstr ""
+msgstr "Učinkovitost pozicioniranja glave pogona tijekom internih testova."
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "Vibracije tijekom zapisivanja"
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "Vibracije tijekom zapisivanja"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Shock During Write"
-msgstr ""
+msgstr "Udarci tijekom zapisivanja"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Shock During Write"
-msgstr ""
+msgstr "Udarci tijekom zapisivanja"
 
 #: core/smartattribute.cpp:156
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Disk Shift"
-msgstr ""
+msgstr "Pomak diska"
 
 #: core/smartattribute.cpp:156
 #, kde-format
@@ -1120,74 +1120,74 @@ msgctxt "SMART attr description"
 msgid ""
 "Distance the disk has shifted relative to the spindle (usually due to shock "
 "or temperature)."
-msgstr ""
+msgstr "Udaljenost za koju se disk pomaknuo u odnosu na osovinu (obično zbog udarca ili temperature)."
 
 #: core/smartattribute.cpp:157
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-Sense Error Rate"
-msgstr ""
+msgstr "Stopa pogrešaka uzrokovanih G-silom"
 
 #: core/smartattribute.cpp:157
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
 "The number of errors resulting from externally-induced shock and vibration."
-msgstr ""
+msgstr "Broj pogrešaka nastalih zbog vanjskih udaraca i vibracija."
 
 #: core/smartattribute.cpp:158
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Loaded Hours"
-msgstr ""
+msgstr "Sati pod opterećenjem"
 
 #: core/smartattribute.cpp:158
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time spent operating under data load."
-msgstr ""
+msgstr "Vrijeme rada pod opterećenjem podataka."
 
 #: core/smartattribute.cpp:159
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Retry Count"
-msgstr ""
+msgstr "Broj ponovnih pokušaja učitavanja/uklanjanja"
 
 #: core/smartattribute.cpp:159
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of times head changes position."
-msgstr ""
+msgstr "Broj promjena položaja glave."
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Friction"
-msgstr ""
+msgstr "Trenje pri učitavanju"
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Resistance caused by friction in mechanical parts while operating."
-msgstr ""
+msgstr "Otpor uzrokovan trenjem mehaničkih dijelova tijekom rada."
 
 #: core/smartattribute.cpp:161
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Cycle Count"
-msgstr ""
+msgstr "Broj ciklusa učitavanja/uklanjanja"
 
 #: core/smartattribute.cpp:161
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total number of load cycles."
-msgstr ""
+msgstr "Ukupan broj ciklusa učitavanja."
 
 #: core/smartattribute.cpp:162
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load-In Time"
-msgstr ""
+msgstr "Vrijeme učitavanja"
 
 #: core/smartattribute.cpp:162
 #, kde-format
@@ -1195,25 +1195,25 @@ msgctxt "SMART attr description"
 msgid ""
 "Total time of loading on the magnetic heads actuator (time not spent in "
 "parking area)."
-msgstr ""
+msgstr "Ukupno vrijeme učitavanja aktuatora magnetske glave (vrijeme izvan parkirnog područja)."
 
 #: core/smartattribute.cpp:163
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Torque Amplification Count"
-msgstr ""
+msgstr "Broj pojačanja okretnog momenta"
 
 #: core/smartattribute.cpp:163
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of attempts to compensate for platter speed variations."
-msgstr ""
+msgstr "Broj pokušaja kompenzacije promjena brzine ploče."
 
 #: core/smartattribute.cpp:164
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-Off Retract Cycle"
-msgstr ""
+msgstr "Ciklus uvlačenja pri isključivanju"
 
 #: core/smartattribute.cpp:164
 #, kde-format
@@ -1221,13 +1221,13 @@ msgctxt "SMART attr description"
 msgid ""
 "The number of times the magnetic armature was retracted automatically as a "
 "result of cutting power."
-msgstr ""
+msgstr "Broj automatskih uvlačenja magnetske armature zbog prekida napajanja."
 
 #: core/smartattribute.cpp:165
 #, kde-format
 msgctxt "SMART attr name"
 msgid "GMR Head Amplitude"
-msgstr ""
+msgstr "Amplituda GMR glave"
 
 #: core/smartattribute.cpp:165
 #, kde-format
@@ -1235,19 +1235,19 @@ msgctxt "SMART attr description"
 msgid ""
 "Amplitude of &quot;thrashing&quot; (distance of repetitive forward/reverse "
 "head motion)"
-msgstr ""
+msgstr "Amplituda „udaranja” (udaljenost ponavljanog pomicanja glave naprijed-natrag)"
 
 #: core/smartattribute.cpp:166
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive Temperature"
-msgstr ""
+msgstr "Temperatura diska"
 
 #: core/smartattribute.cpp:167
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Endurance Remaining"
-msgstr ""
+msgstr "Preostala izdržljivost"
 
 #: core/smartattribute.cpp:167
 #, kde-format
@@ -1255,37 +1255,37 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of physical erase cycles completed on the drive as a percentage of the "
 "maximum physical erase cycles the drive supports"
-msgstr ""
+msgstr "Broj dovršenih ciklusa fizičkog brisanja pogona, izražen kao postotak najvećeg broja ciklusa fizičkog brisanja koji pogon podržava"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Seconds"
-msgstr ""
+msgstr "Sekunde uključenog napajanja"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time elapsed in the power-on state"
-msgstr ""
+msgstr "Vrijeme proteklo u stanju uključenog napajanja"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Unrecoverable ECC Count"
-msgstr ""
+msgstr "Broj nepopravljivih ECC pogrešaka"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of unrecoverable ECC errors"
-msgstr ""
+msgstr "Broj nepopravljivih ECC pogrešaka"
 
 #: core/smartattribute.cpp:170
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Good Block Rate"
-msgstr ""
+msgstr "Udio ispravnih blokova"
 
 #: core/smartattribute.cpp:170
 #, kde-format
@@ -1293,13 +1293,13 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of available reserved blocks as percentage of the total number of "
 "reserved blocks"
-msgstr ""
+msgstr "Broj dostupnih rezervnih blokova kao postotak ukupnog broja rezervnih blokova"
 
 #: core/smartattribute.cpp:171
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Flying Hours<br/>or Transfer Error Rate (Fujitsu)"
-msgstr ""
+msgstr "Sati lebdenja glave<br/>ili stopa pogrešaka prijenosa (Fujitsu)"
 
 #: core/smartattribute.cpp:171
 #, kde-format
@@ -1307,199 +1307,199 @@ msgctxt "SMART attr description"
 msgid ""
 "Time while head is positioning<br/>or counts the number of times the link is "
 "reset during a data transfer."
-msgstr ""
+msgstr "Vrijeme pozicioniranja glave<br/>ili broj ponovnih postavljanja veze tijekom prijenosa podataka."
 
 #: core/smartattribute.cpp:172
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "Ukupan broj zapisanih LBA-ova"
 
 #: core/smartattribute.cpp:172
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "Ukupan broj zapisanih LBA-ova"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "Ukupan broj pročitanih LBA-ova"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "Ukupan broj pročitanih LBA-ova"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD NAND_Writes_1GiB"
-msgstr ""
+msgstr "SSD NAND zapisi od 1 GiB"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of writes to NAND in 1 GB increments"
-msgstr ""
+msgstr "Broj zapisa u NAND memoriju u koracima od 1 GB"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Read Error Retry Rate"
-msgstr ""
+msgstr "Stopa ponavljanja čitanja nakon pogreške"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors while reading from a disk"
-msgstr ""
+msgstr "Broj pogrešaka pri čitanju s diska"
 
 #: core/smartattribute.cpp:176
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Free Fall Protection"
-msgstr ""
+msgstr "Zaštita od slobodnog pada"
 
 #: core/smartattribute.cpp:176
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of &quot;Free Fall Events&quot; detected"
-msgstr ""
+msgstr "Broj otkrivenih događaja „slobodnog pada”"
 
 #: core/smartnvmehealth.cpp:51
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Critical warning"
-msgstr ""
+msgstr "Kritično upozorenje"
 
 #: core/smartnvmehealth.cpp:53
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Available spare"
-msgstr ""
+msgstr "Dostupna pričuva"
 
 #: core/smartnvmehealth.cpp:55
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Available spare threshold"
-msgstr ""
+msgstr "Prag dostupne pričuve"
 
 #: core/smartnvmehealth.cpp:57
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Percentage used"
-msgstr ""
+msgstr "Postotak iskorištenosti"
 
 #: core/smartnvmehealth.cpp:59
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Data read"
-msgstr ""
+msgstr "Pročitani podaci"
 
 #: core/smartnvmehealth.cpp:61
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Data written"
-msgstr ""
+msgstr "Zapisani podaci"
 
 #: core/smartnvmehealth.cpp:63
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Host read commands"
-msgstr ""
+msgstr "Naredbe čitanja s računala"
 
 #: core/smartnvmehealth.cpp:65
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Host write commands"
-msgstr ""
+msgstr "Naredbe zapisivanja s računala"
 
 #: core/smartnvmehealth.cpp:67
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Controller busy time"
-msgstr ""
+msgstr "Vrijeme zauzetosti kontrolera"
 
 #: core/smartnvmehealth.cpp:69
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Power cycles"
-msgstr ""
+msgstr "Ciklusi napajanja"
 
 #: core/smartnvmehealth.cpp:71
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Power on hours"
-msgstr ""
+msgstr "Sati uključenog napajanja"
 
 #: core/smartnvmehealth.cpp:73
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Unsafe shutdowns"
-msgstr ""
+msgstr "Nepravilna isključivanja"
 
 #: core/smartnvmehealth.cpp:75
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Media and data integrity errors"
-msgstr ""
+msgstr "Pogreške integriteta medija i podataka"
 
 #: core/smartnvmehealth.cpp:77
 #, kde-kuit-format
 msgctxt "@label NVMe health"
 msgid "Error information log entries"
-msgstr ""
+msgstr "Zapisi u dnevniku informacija o pogreškama"
 
 #: core/smartnvmehealth.cpp:88
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning, %1 is the raw value"
 msgid "%1 (none)"
-msgstr ""
+msgstr "%1 (nema)"
 
 #: core/smartnvmehealth.cpp:92
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "available spare below threshold"
-msgstr ""
+msgstr "dostupna pričuva ispod praga"
 
 #: core/smartnvmehealth.cpp:94
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "temperature threshold exceeded"
-msgstr ""
+msgstr "prekoračen temperaturni prag"
 
 #: core/smartnvmehealth.cpp:96
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "reliability degraded"
-msgstr ""
+msgstr "smanjena pouzdanost"
 
 #: core/smartnvmehealth.cpp:98
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "media in read-only mode"
-msgstr ""
+msgstr "medij je u načinu rada samo za čitanje"
 
 #: core/smartnvmehealth.cpp:100
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "volatile memory backup failed"
-msgstr ""
+msgstr "sigurnosna kopija hlapljive memorije nije uspjela"
 
 #: core/smartnvmehealth.cpp:102
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "persistent memory region read-only"
-msgstr ""
+msgstr "područje trajne memorije samo je za čitanje"
 
 #: core/smartnvmehealth.cpp:104
 #, kde-kuit-format
 msgctxt "@item:intable NVMe critical warning"
 msgid "unknown warning"
-msgstr ""
+msgstr "nepoznato upozorenje"
 
 #: core/smartnvmehealth.cpp:106
 #, kde-kuit-format
@@ -1507,163 +1507,166 @@ msgctxt ""
 "@item:intable NVMe critical warning, %1 is the raw value, %2 the list of "
 "warnings"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: core/smartnvmehealth.cpp:113 core/smartstatus.cpp:89
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "unknown"
-msgstr ""
+msgstr "nepoznato"
 
 #: core/smartnvmehealth.cpp:122
 #, kde-kuit-format
 msgctxt "@item:intable percentage"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: core/smartnvmehealth.cpp:128
 #, kde-kuit-format
 msgctxt "@item:intable NVMe data units of 512000 bytes"
 msgid "%1 data unit"
 msgid_plural "%1 data units"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 podatkovna jedinica"
+msgstr[1] "%1 podatkovne jedinice"
+msgstr[2] "%1 podatkovnih jedinica"
 
 #: core/smartnvmehealth.cpp:133
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minute"
+msgstr[2] "%1 minuta"
 
 #: core/smartnvmehealth.cpp:136
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "%1 hour"
 msgid_plural "%1 hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 sat"
+msgstr[1] "%1 sata"
+msgstr[2] "%1 sati"
 
 #: core/smartstatus.cpp:93
 #, kde-kuit-format
 msgctxt "@item:intable degrees in Celsius and Fahrenheit"
 msgid "%1° C / %2° F"
-msgstr ""
+msgstr "%1° C / %2° F"
 
 #: core/smartstatus.cpp:101
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Aborted"
-msgstr ""
+msgstr "Prekinuto"
 
 #: core/smartstatus.cpp:104
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Interrupted"
-msgstr ""
+msgstr "Prekinuto"
 
 #: core/smartstatus.cpp:107
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Fatal error"
-msgstr ""
+msgstr "Kobna pogreška"
 
 #: core/smartstatus.cpp:110
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Unknown error"
-msgstr ""
+msgstr "Nepoznata pogreška"
 
 #: core/smartstatus.cpp:113
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Electrical error"
-msgstr ""
+msgstr "Električna pogreška"
 
 #: core/smartstatus.cpp:116
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Servo error"
-msgstr ""
+msgstr "Pogreška servomotora"
 
 #: core/smartstatus.cpp:119
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Read error"
-msgstr ""
+msgstr "Pogreška pri čitanju"
 
 #: core/smartstatus.cpp:122
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Handling error"
-msgstr ""
+msgstr "Pogreška pri rukovanju"
 
 #: core/smartstatus.cpp:125
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Self test in progress"
-msgstr ""
+msgstr "Samotestiranje je u tijeku"
 
 #: core/smartstatus.cpp:128
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Not supported"
-msgstr ""
+msgstr "Nije podržano"
 
 #: core/smartstatus.cpp:131
 #, kde-kuit-format
 msgctxt "@item"
 msgid "No self test results"
-msgstr ""
+msgstr "Nema rezultata samotestiranja"
 
 #: core/smartstatus.cpp:134
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Success"
-msgstr ""
+msgstr "Uspješno"
 
 #: core/smartstatus.cpp:138
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: core/smartstatus.cpp:147
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Healthy"
-msgstr ""
+msgstr "Ispravno"
 
 #: core/smartstatus.cpp:150
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has been used outside of its design parameters in the past."
-msgstr ""
+msgstr "U prošlosti je korišten izvan predviđenih parametara."
 
 #: core/smartstatus.cpp:153
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has some bad sectors."
-msgstr ""
+msgstr "Ima neispravne sektore."
 
 #: core/smartstatus.cpp:156
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Is being used outside of its design parameters right now."
-msgstr ""
+msgstr "Trenutačno se koristi izvan predviđenih parametara."
 
 #: core/smartstatus.cpp:159
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has many bad sectors."
-msgstr ""
+msgstr "Ima mnogo neispravnih sektora."
 
 #: core/smartstatus.cpp:163
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
-msgstr ""
+msgstr "Kvar diska je neizbježan. Izradite sigurnosnu kopiju svih podataka!"
 
 #: fs/bcachefs.cpp:120
 #, kde-kuit-format
@@ -1671,7 +1674,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Bcachefs na particiji <filename>%1</filename> nije uspjela: nije moguće stvoriti privremenu mapu."
 
 #: fs/bcachefs.cpp:136 fs/bcachefs.cpp:158
 #, kde-kuit-format
@@ -1679,7 +1682,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
 "bcachefs device resize command failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Bcachefs na particiji <filename>%1</filename> nije uspjela: naredba za promjenu veličine uređaja bcachefs nije uspjela."
 
 #: fs/bcachefs.cpp:141
 #, kde-kuit-format
@@ -1687,7 +1690,7 @@ msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing Bcachefs file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
-msgstr ""
+msgstr "<warning>Promjena veličine datotečnog sustava Bcachefs na particiji <filename>%1</filename>: odmontiranje nije uspjelo.</warning>"
 
 #: fs/bcachefs.cpp:144
 #, kde-kuit-format
@@ -1695,7 +1698,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Bcachefs na particiji <filename>%1</filename> nije uspjela: početno montiranje nije uspjelo."
 
 #: fs/btrfs.cpp:213
 #, kde-kuit-format
@@ -1703,7 +1706,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Btrfs na particiji <filename>%1</filename> nije uspjela: nije moguće stvoriti privremenu mapu."
 
 #: fs/btrfs.cpp:229 fs/btrfs.cpp:250
 #, kde-kuit-format
@@ -1711,7 +1714,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "btrfs file system resize failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Btrfs na particiji <filename>%1</filename> nije uspjela: promjena veličine datotečnog sustava btrfs nije uspjela."
 
 #: fs/btrfs.cpp:234
 #, kde-kuit-format
@@ -1719,7 +1722,7 @@ msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing Btrfs file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
-msgstr ""
+msgstr "<warning>Promjena veličine datotečnog sustava Btrfs na particiji <filename>%1</filename>: odmontiranje nije uspjelo.</warning>"
 
 #: fs/btrfs.cpp:237
 #, kde-kuit-format
@@ -1727,43 +1730,43 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava Btrfs na particiji <filename>%1</filename> nije uspjela: početno montiranje nije uspjelo."
 
 #: fs/clustersize.cpp:107
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Choosing the cluster size is not supported for this file system."
-msgstr ""
+msgstr "Odabir veličine klastera nije podržan za ovaj datotečni sustav."
 
 #: fs/clustersize.cpp:111
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The cluster size must be given as an integer number of bytes."
-msgstr ""
+msgstr "Veličina klastera mora biti zadana kao cijeli broj bajtova."
 
 #: fs/clustersize.cpp:115
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The cluster size (%1 bytes) must be a positive number."
-msgstr ""
+msgstr "Veličina klastera (%1 bajtova) mora biti pozitivan broj."
 
 #: fs/clustersize.cpp:117
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The cluster size (%1 bytes) must be a power of two."
-msgstr ""
+msgstr "Veličina klastera (%1 bajtova) mora biti potencija broja dva."
 
 #: fs/clustersize.cpp:125
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The requested FAT sector size is not an integer power of two."
-msgstr ""
+msgstr "Zatražena veličina sektora FAT-a nije cjelobrojna potencija broja dva."
 
 #: fs/clustersize.cpp:128
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The requested FAT sector size (%1 bytes) must be between 512 and 32768."
-msgstr ""
+msgstr "Zatražena veličina sektora FAT-a (%1 bajtova) mora biti između 512 i 32768."
 
 #: fs/clustersize.cpp:134
 #, kde-kuit-format
@@ -1771,7 +1774,7 @@ msgctxt "@info"
 msgid ""
 "The requested FAT sectors-per-cluster value is not an integer power of two "
 "from 1 to 128."
-msgstr ""
+msgstr "Zatraženi broj sektora po klasteru za FAT nije cjelobrojna potencija broja dva između 1 i 128."
 
 #: fs/clustersize.cpp:137 fs/clustersize.cpp:146
 #, kde-kuit-format
@@ -1779,7 +1782,7 @@ msgctxt "@info"
 msgid ""
 "The cluster size (%1 bytes) must be a whole multiple of the sector size (%2 "
 "bytes)."
-msgstr ""
+msgstr "Veličina klastera (%1 bajtova) mora biti višekratnik veličine sektora (%2 bajtova)."
 
 #: fs/clustersize.cpp:141
 #, kde-kuit-format
@@ -1787,7 +1790,7 @@ msgctxt "@info"
 msgid ""
 "A cluster size of %1 bytes maps to %2 sectors of %3 bytes per cluster, which "
 "mkfs.fat cannot use (it must be a power of two from 1 to 128)."
-msgstr ""
+msgstr "Veličina klastera od %1 bajtova odgovara %2 sektorima od %3 bajtova po klasteru, što mkfs.fat ne može koristiti (mora biti potencija broja dva između 1 i 128)."
 
 #: fs/clustersize.cpp:143
 #, kde-kuit-format
@@ -1795,7 +1798,7 @@ msgctxt "@info"
 msgid ""
 "The requested cluster size (%1 bytes) and sectors-per-cluster value (%2) do "
 "not agree."
-msgstr ""
+msgstr "Zatražena veličina klastera (%1 bajtova) i vrijednost broja sektora po klasteru (%2) nisu usklađene."
 
 #: fs/clustersize.cpp:152
 #, kde-kuit-format
@@ -1803,14 +1806,14 @@ msgctxt "@info"
 msgid ""
 "The cluster size (%1 bytes) is outside the range this file system supports "
 "(%2 to %3 bytes)."
-msgstr ""
+msgstr "Veličina klastera (%1 bajtova) izvan je raspona koji podržava ovaj datotečni sustav (%2 do %3 bajtova)."
 
 #: fs/clustersize.cpp:155
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "The cluster size (%1 bytes) is larger than the whole file system (%2 bytes)."
-msgstr ""
+msgstr "Veličina klastera (%1 bajtova) veća je od cijelog datotečnog sustava (%2 bajtova)."
 
 #: fs/clustersize.cpp:160
 #, kde-kuit-format
@@ -1818,7 +1821,7 @@ msgctxt "@info"
 msgid ""
 "A cluster size of %1 bytes leaves fewer than the 4085 data clusters a FAT16 "
 "file system needs. Choose a smaller cluster size."
-msgstr ""
+msgstr "Veličina klastera od %1 bajtova ostavlja manje od 4085 podatkovnih klastera potrebnih datotečnom sustavu FAT16. Odaberite manju veličinu klastera."
 
 #: fs/clustersize.cpp:162
 #, kde-kuit-format
@@ -1826,241 +1829,241 @@ msgctxt "@info"
 msgid ""
 "A cluster size of %1 bytes leaves fewer than the 65525 data clusters a FAT32 "
 "file system needs. Choose a smaller cluster size."
-msgstr ""
+msgstr "Veličina klastera od %1 bajtova ostavlja manje od 65525 podatkovnih klastera potrebnih datotečnom sustavu FAT32. Odaberite manju veličinu klastera."
 
 #: fs/fat12.cpp:172
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
-msgstr ""
+msgstr "Postavljanje oznake particije <filename>%1</filename> na %2"
 
 #: fs/filesystem.cpp:568
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
-msgstr ""
+msgstr "nepoznato"
 
 #: fs/filesystem.cpp:569
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
-msgstr ""
+msgstr "proširena"
 
 #: fs/filesystem.cpp:571
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
-msgstr ""
+msgstr "ext2"
 
 #: fs/filesystem.cpp:572
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
-msgstr ""
+msgstr "ext3"
 
 #: fs/filesystem.cpp:573
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
-msgstr ""
+msgstr "ext4"
 
 #: fs/filesystem.cpp:574
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "Linux swap"
-msgstr ""
+msgstr "Linux swap"
 
 #: fs/filesystem.cpp:575
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "FreeBSD swap"
-msgstr ""
+msgstr "FreeBSD swap"
 
 #: fs/filesystem.cpp:576
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "FAT16"
-msgstr ""
+msgstr "FAT16"
 
 #: fs/filesystem.cpp:577
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "FAT32"
-msgstr ""
+msgstr "FAT32"
 
 #: fs/filesystem.cpp:578
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "NTFS"
-msgstr ""
+msgstr "NTFS"
 
 #: fs/filesystem.cpp:579
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ReiserFS"
-msgstr ""
+msgstr "ReiserFS"
 
 #: fs/filesystem.cpp:580
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "Reiser4"
-msgstr ""
+msgstr "Reiser4"
 
 #: fs/filesystem.cpp:581
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "XFS"
-msgstr ""
+msgstr "XFS"
 
 #: fs/filesystem.cpp:582
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "JFS"
-msgstr ""
+msgstr "JFS"
 
 #: fs/filesystem.cpp:583
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "HFS"
-msgstr ""
+msgstr "HFS"
 
 #: fs/filesystem.cpp:584
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "HFS Plus"
-msgstr ""
+msgstr "HFS Plus"
 
 #: fs/filesystem.cpp:585
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "UFS"
-msgstr ""
+msgstr "UFS"
 
 #: fs/filesystem.cpp:586
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
-msgstr ""
+msgstr "neformatirano"
 
 #: fs/filesystem.cpp:587
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "Btrfs"
-msgstr ""
+msgstr "Btrfs"
 
 #: fs/filesystem.cpp:588
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "HPFS"
-msgstr ""
+msgstr "HPFS"
 
 #: fs/filesystem.cpp:589
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: fs/filesystem.cpp:590
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "OCFS2"
-msgstr ""
+msgstr "OCFS2"
 
 #: fs/filesystem.cpp:591
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ZFS"
-msgstr ""
+msgstr "ZFS"
 
 #: fs/filesystem.cpp:592
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exFAT"
-msgstr ""
+msgstr "exFAT"
 
 #: fs/filesystem.cpp:593
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "NILFS2"
-msgstr ""
+msgstr "NILFS2"
 
 #: fs/filesystem.cpp:594
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "LVM PV"
-msgstr ""
+msgstr "LVM PV"
 
 #: fs/filesystem.cpp:595
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "F2FS"
-msgstr ""
+msgstr "F2FS"
 
 #: fs/filesystem.cpp:596
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "UDF"
-msgstr ""
+msgstr "UDF"
 
 #: fs/filesystem.cpp:597
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ISO 9660"
-msgstr ""
+msgstr "ISO 9660"
 
 #: fs/filesystem.cpp:598
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "LUKS 2"
-msgstr ""
+msgstr "LUKS 2"
 
 #: fs/filesystem.cpp:599
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "FAT12"
-msgstr ""
+msgstr "FAT12"
 
 #: fs/filesystem.cpp:600
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
-msgstr ""
+msgstr "linux_raid_member"
 
 #: fs/filesystem.cpp:601
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
-msgstr ""
+msgstr "BitLocker"
 
 #: fs/filesystem.cpp:602
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "APFS"
-msgstr ""
+msgstr "APFS"
 
 #: fs/filesystem.cpp:603
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "MINIX"
-msgstr ""
+msgstr "MINIX"
 
 #: fs/filesystem.cpp:604
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "Bcachefs"
-msgstr ""
+msgstr "Bcachefs"
 
 #: fs/filesystem.cpp:682 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
-msgstr ""
+msgstr "Montiraj"
 
 #: fs/filesystem.cpp:688 fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
-msgstr ""
+msgstr "Odmontiraj"
 
 #: fs/filesystem.cpp:813
 #, kde-kuit-format
@@ -2068,19 +2071,19 @@ msgctxt "@info"
 msgid ""
 "Choosing the cluster size is not supported for this file system with the "
 "tools that are installed."
-msgstr ""
+msgstr "Odabir veličine klastera nije podržan za ovaj datotečni sustav s instaliranim alatima."
 
 #: fs/freebsdswap.cpp:77 fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
-msgstr ""
+msgstr "Aktiviraj swap"
 
 #: fs/freebsdswap.cpp:82 fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
-msgstr ""
+msgstr "Deaktiviraj swap"
 
 #: fs/jfs.cpp:155
 #, kde-kuit-format
@@ -2088,7 +2091,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: Could "
 "not create temp dir."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava JFS na particiji <filename>%1</filename> nije uspjela: nije moguće stvoriti privremenu mapu."
 
 #: fs/jfs.cpp:169 fs/jfs.cpp:188
 #, kde-kuit-format
@@ -2096,7 +2099,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
 "Remount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava JFS na particiji <filename>%1</filename> nije uspjela: ponovno montiranje nije uspjelo."
 
 #: fs/jfs.cpp:174
 #, kde-kuit-format
@@ -2104,7 +2107,7 @@ msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing JFS file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
-msgstr ""
+msgstr "<warning>Promjena veličine datotečnog sustava JFS na particiji <filename>%1</filename>: odmontiranje nije uspjelo.</warning>"
 
 #: fs/jfs.cpp:176
 #, kde-kuit-format
@@ -2112,37 +2115,37 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava JFS na particiji <filename>%1</filename> nije uspjela: početno montiranje nije uspjelo."
 
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unlock"
-msgstr ""
+msgstr "Otključaj"
 
 #: fs/luks.cpp:176
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Lock"
-msgstr ""
+msgstr "Zaključaj"
 
 #: fs/luks.cpp:257
 #, kde-format
 msgid "Enter passphrase for %1:"
-msgstr ""
+msgstr "Unesite zaporku za %1:"
 
 #: fs/luks.cpp:500 fs/luks.cpp:511 fs/luks2.cpp:96 fs/luks2.cpp:115
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
-msgstr ""
+msgstr "Promjena veličine LUKS šifriranog volumena na particiji <filename>%1</filename>."
 
 #: fs/luks.cpp:515 fs/luks2.cpp:126
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing encrypted file system on partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Promjena veličine šifriranog datotečnog sustava na particiji <filename>%1</filename> nije uspjela."
 
 #: fs/nilfs2.cpp:137
 #, kde-kuit-format
@@ -2150,7 +2153,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava NILFS2 na particiji <filename>%1</filename> nije uspjela: nije moguće stvoriti privremenu mapu."
 
 #: fs/nilfs2.cpp:151 fs/nilfs2.cpp:170
 #, kde-kuit-format
@@ -2158,7 +2161,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "NILFS2 file system resize failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava NILFS2 na particiji <filename>%1</filename> nije uspjela: promjena veličine datotečnog sustava NILFS2 nije uspjela."
 
 #: fs/nilfs2.cpp:156
 #, kde-kuit-format
@@ -2166,7 +2169,7 @@ msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing NILFS2 file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
-msgstr ""
+msgstr "<warning>Promjena veličine datotečnog sustava NILFS2 na particiji <filename>%1</filename>: odmontiranje nije uspjelo.</warning>"
 
 #: fs/nilfs2.cpp:158
 #, kde-kuit-format
@@ -2174,7 +2177,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava NILFS2 na particiji <filename>%1</filename> nije uspjela: početno montiranje nije uspjelo."
 
 #: fs/ntfs.cpp:237
 #, kde-kuit-format
@@ -2182,7 +2185,7 @@ msgctxt "@info:progress"
 msgid ""
 "Updating boot sector for NTFS file system on partition <filename>%1</"
 "filename>."
-msgstr ""
+msgstr "Ažuriranje sektora za pokretanje datotečnog sustava NTFS na particiji <filename>%1</filename>."
 
 #: fs/ntfs.cpp:246 fs/ntfs.cpp:254
 #, kde-kuit-format
@@ -2190,14 +2193,14 @@ msgctxt "@info:progress"
 msgid ""
 "Could not write new start sector to partition <filename>%1</filename> when "
 "trying to update the NTFS boot sector."
-msgstr ""
+msgstr "Pri pokušaju ažuriranja sektora za pokretanje NTFS-a nije moguće zapisati novi početni sektor na particiju <filename>%1</filename>."
 
 #: fs/ntfs.cpp:258
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updated NTFS boot sector for partition <filename>%1</filename> successfully."
-msgstr ""
+msgstr "Sektor za pokretanje NTFS-a za particiju <filename>%1</filename> uspješno je ažuriran."
 
 #: fs/xfs.cpp:221
 #, kde-kuit-format
@@ -2205,7 +2208,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: Could "
 "not create temp dir."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava XFS na particiji <filename>%1</filename> nije uspjela: nije moguće stvoriti privremenu mapu."
 
 #: fs/xfs.cpp:235 fs/xfs.cpp:254
 #, kde-kuit-format
@@ -2213,7 +2216,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "xfs_growfs failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava XFS na particiji <filename>%1</filename> nije uspjela: xfs_growfs nije uspio."
 
 #: fs/xfs.cpp:240
 #, kde-kuit-format
@@ -2221,7 +2224,7 @@ msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing XFS file system on partition <filename>%1</filename> "
 "failed: Unmount failed.</warning>"
-msgstr ""
+msgstr "<warning>Promjena veličine datotečnog sustava XFS na particiji <filename>%1</filename> nije uspjela: odmontiranje nije uspjelo.</warning>"
 
 #: fs/xfs.cpp:242
 #, kde-kuit-format
@@ -2229,7 +2232,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava XFS na particiji <filename>%1</filename> nije uspjela: početno montiranje nije uspjelo."
 
 #: jobs/backupfilesystemjob.cpp:56
 #, kde-kuit-format
@@ -2237,13 +2240,13 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
 "backup."
-msgstr ""
+msgstr "Nije moguće otvoriti datotečni sustav na izvornoj particiji <filename>%1</filename> radi izrade sigurnosne kopije."
 
 #: jobs/backupfilesystemjob.cpp:58
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not create backup file <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće stvoriti datoteku sigurnosne kopije <filename>%1</filename>."
 
 #: jobs/backupfilesystemjob.cpp:70
 #, kde-kuit-format
@@ -2251,19 +2254,19 @@ msgctxt "@info:progress"
 msgid ""
 "Back up file system on partition <filename>%1</filename> to <filename>%2</"
 "filename>"
-msgstr ""
+msgstr "Izrada sigurnosne kopije datotečnog sustava na particiji <filename>%1</filename> u <filename>%2</filename>"
 
 #: jobs/changepermissionsjob.cpp:49
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Change the permissions of: <filename>%1</filename> to %2"
-msgstr ""
+msgstr "Promijeni dozvole za: <filename>%1</filename> u %2"
 
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr ""
+msgstr "Provjera datotečnog sustava na particiji <filename>%1</filename>"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -2272,7 +2275,7 @@ msgid ""
 "Cannot copy file system: File system on target partition <filename>%1</"
 "filename> is smaller than the file system on source partition <filename>%2</"
 "filename>."
-msgstr ""
+msgstr "Nije moguće kopirati datotečni sustav: datotečni sustav na ciljnoj particiji <filename>%1</filename> manji je od datotečnog sustava na izvornoj particiji <filename>%2</filename>."
 
 #: jobs/copyfilesystemjob.cpp:56
 #, kde-kuit-format
@@ -2280,7 +2283,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
 "copying."
-msgstr ""
+msgstr "Nije moguće otvoriti datotečni sustav na izvornoj particiji <filename>%1</filename> radi kopiranja."
 
 #: jobs/copyfilesystemjob.cpp:58
 #, kde-kuit-format
@@ -2288,7 +2291,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open file system on target partition <filename>%1</filename> for "
 "copying."
-msgstr ""
+msgstr "Nije moguće otvoriti datotečni sustav na ciljnoj particiji <filename>%1</filename> radi kopiranja."
 
 #: jobs/copyfilesystemjob.cpp:61
 #, kde-kuit-format
@@ -2296,7 +2299,7 @@ msgctxt "@info:progress"
 msgid ""
 "Closing device. This may take a while, especially on slow devices like "
 "Memory Sticks."
-msgstr ""
+msgstr "Zatvaranje uređaja. To može potrajati, osobito na sporim uređajima kao što su memorijski ključići."
 
 #: jobs/copyfilesystemjob.cpp:88
 #, kde-kuit-format
@@ -2304,7 +2307,7 @@ msgctxt "@info:progress"
 msgid ""
 "Copy file system on partition <filename>%1</filename> to partition <filename>"
 "%2</filename>"
-msgstr ""
+msgstr "Kopiranje datotečnog sustava s particije <filename>%1</filename> na particiju <filename>%2</filename>"
 
 #: jobs/createfilesystemjob.cpp:66
 #, kde-kuit-format
@@ -2312,7 +2315,7 @@ msgctxt "@info:progress"
 msgid ""
 "Failed to set the system type for the file system on partition <filename>%1</"
 "filename>."
-msgstr ""
+msgstr "Nije uspjelo postavljanje vrste sustava za datotečni sustav na particiji <filename>%1</filename>."
 
 #: jobs/createfilesystemjob.cpp:68
 #, kde-kuit-format
@@ -2320,7 +2323,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "system type for partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi postavljanja vrste sustava za particiju <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:70
 #, kde-kuit-format
@@ -2328,7 +2331,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the system type for "
 "partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi postavljanja vrste sustava za particiju <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:84
 #, kde-kuit-format
@@ -2336,7 +2339,7 @@ msgctxt "@info:progress"
 msgid ""
 "Create file system <filename>%1</filename> on partition <filename>%2</"
 "filename>"
-msgstr ""
+msgstr "Stvaranje datotečnog sustava <filename>%1</filename> na particiji <filename>%2</filename>"
 
 #: jobs/createpartitionjob.cpp:72
 #, kde-kuit-format
@@ -2344,7 +2347,7 @@ msgctxt "@info/plain"
 msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
-msgstr ""
+msgstr "Nije uspjelo dodavanje particije <filename>%1</filename> na uređaj <filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:74
 #, kde-kuit-format
@@ -2352,7 +2355,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to create "
 "new partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi stvaranja nove particije <filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:76
 #, kde-kuit-format
@@ -2360,19 +2363,19 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to create new partition "
 "<filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi stvaranja nove particije <filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:94
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
-msgstr ""
+msgstr "Stvaranje nove particije <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
-msgstr ""
+msgstr "Stvaranje nove particije na uređaju <filename>%1</filename>"
 
 #: jobs/createpartitiontablejob.cpp:49
 #, kde-kuit-format
@@ -2380,31 +2383,31 @@ msgctxt "@info:progress"
 msgid ""
 "Creating partition table failed: Could not open device <filename>%1</"
 "filename>."
-msgstr ""
+msgstr "Stvaranje particijske tablice nije uspjelo: nije moguće otvoriti uređaj <filename>%1</filename>."
 
 #: jobs/createpartitiontablejob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
-msgstr ""
+msgstr "Stvaranje nove particijske tablice na uređaju <filename>%1</filename>"
 
 #: jobs/createvolumegroupjob.cpp:49
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new Volume Group: <filename>%1</filename> with PV: %2"
-msgstr ""
+msgstr "Stvaranje nove grupe jedinica: <filename>%1</filename> s fizičkim jedinicama: %2"
 
 #: jobs/deactivatelogicalvolumejob.cpp:50
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Logical Volumes: <filename>%1</filename>"
-msgstr ""
+msgstr "Deaktiviranje logičkih jedinica: <filename>%1</filename>"
 
 #: jobs/deactivatevolumegroupjob.cpp:47
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "Deaktiviranje grupe jedinica: <filename>%1</filename>"
 
 #: jobs/deletefilesystemjob.cpp:51
 #, kde-kuit-format
@@ -2412,13 +2415,13 @@ msgctxt "@info:progress"
 msgid ""
 "Could not delete file system: file system on <filename>%1</filename> is "
 "mounted."
-msgstr ""
+msgstr "Nije moguće izbrisati datotečni sustav: datotečni sustav na <filename>%1</filename> je montiran."
 
 #: jobs/deletefilesystemjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće izbrisati datotečni sustav na <filename>%1</filename>."
 
 #: jobs/deletefilesystemjob.cpp:80
 #, kde-kuit-format
@@ -2426,7 +2429,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "file system on <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi brisanja datotečnog sustava na <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:83
 #, kde-kuit-format
@@ -2434,20 +2437,20 @@ msgctxt "@info:progress"
 msgid ""
 "Could not delete file system signature for partition <filename>%1</"
 "filename>: Failed to open device <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće izbrisati potpis datotečnog sustava za particiju <filename>%1</filename>: nije uspjelo otvaranje uređaja <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:93
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
-msgstr ""
+msgstr "Brisanje datotečnog sustava na <filename>%1</filename>"
 
 #: jobs/deletepartitionjob.cpp:61 plugins/geom/geompartitiontable.cpp:128
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:100
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće izbrisati particiju <filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:65
 #, kde-kuit-format
@@ -2455,87 +2458,87 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi brisanja particije <filename>%2</filename>."
 
 #: jobs/deletepartitionjob.cpp:67
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
-msgstr ""
+msgstr "Brisanje particije nije uspjelo: nije moguće otvoriti uređaj <filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
-msgstr ""
+msgstr "Brisanje particije <filename>%1</filename>"
 
 #: jobs/job.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Source and target for copying do not overlap: Rollback is not required."
-msgstr ""
+msgstr "Izvor i cilj kopiranja ne preklapaju se: nije potrebno vraćanje na prethodno stanje."
 
 #: jobs/job.cpp:69
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
-msgstr ""
+msgstr "Vraćanje na prethodno stanje od: prvi bajt: %1, zadnji bajt: %2."
 
 #: jobs/job.cpp:70
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
-msgstr ""
+msgstr "Vraćanje na prethodno stanje do: prvi bajt: %1, zadnji bajt: %2."
 
 #: jobs/job.cpp:74 jobs/job.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to rollback copying."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi vraćanja kopiranja na prethodno stanje."
 
 #: jobs/job.cpp:86
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback failed: Source or target are not devices."
-msgstr ""
+msgstr "Vraćanje na prethodno stanje nije uspjelo: izvor ili cilj nisu uređaji."
 
 #: jobs/job.cpp:106
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Job: %1"
-msgstr ""
+msgstr "Zadatak: %1"
 
 #: jobs/job.cpp:115
 #, kde-kuit-format
 msgctxt "@info:progress job status (error, warning, ...)"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: jobs/job.cpp:134
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Pending"
-msgstr ""
+msgstr "Na čekanju"
 
 #: jobs/job.cpp:135
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Success"
-msgstr ""
+msgstr "Uspješno"
 
 #: jobs/job.cpp:136
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: jobs/movefilesystemjob.cpp:54
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open file system on partition <filename>%1</filename> for moving."
-msgstr ""
+msgstr "Nije moguće otvoriti datotečni sustav na particiji <filename>%1</filename> radi premještanja."
 
 #: jobs/movefilesystemjob.cpp:56
 #, kde-kuit-format
@@ -2543,38 +2546,38 @@ msgctxt "@info:progress"
 msgid ""
 "Could not create target for moving file system on partition <filename>%1</"
 "filename>."
-msgstr ""
+msgstr "Nije moguće stvoriti cilj za premještanje datotečnog sustava na particiji <filename>%1</filename>."
 
 #: jobs/movefilesystemjob.cpp:65
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback for file system on partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Vraćanje na prethodno stanje datotečnog sustava na particiji <filename>%1</filename> nije uspjelo."
 
 #: jobs/movefilesystemjob.cpp:67 jobs/restorefilesystemjob.cpp:89
 #: jobs/shredfilesystemjob.cpp:66
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr ""
+msgstr "Zatvaranje uređaja. To može potrajati nekoliko sekundi."
 
 #: jobs/movefilesystemjob.cpp:81
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Move the file system on partition <filename>%1</filename> to sector %2"
-msgstr ""
+msgstr "Premještanje datotečnog sustava na particiji <filename>%1</filename> na sektor %2"
 
 #: jobs/movephysicalvolumejob.cpp:57
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Move used PE in %1 on %2 to other available Physical Volumes"
-msgstr ""
+msgstr "Premjesti zauzete PE-ove u %1 na %2 na druge dostupne fizičke jedinice"
 
 #: jobs/removevolumegroupjob.cpp:41
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "Uklanjanje grupe jedinica: <filename>%1</filename>"
 
 #: jobs/resizefilesystemjob.cpp:69
 #, kde-kuit-format
@@ -2585,20 +2588,21 @@ msgid ""
 msgid_plural ""
 "The file system on partition <filename>%2</filename> already has the "
 "requested length of %1 sectors."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Datotečni sustav na particiji <filename>%2</filename> već ima traženu duljinu od %1 sektora."
+msgstr[1] "Datotečni sustav na particiji <filename>%2</filename> već ima traženu duljinu od %1 sektora."
+msgstr[2] "Datotečni sustav na particiji <filename>%2</filename> već ima traženu duljinu od %1 sektora."
 
 #: jobs/resizefilesystemjob.cpp:72
 #, kde-format
 msgctxt "@info:progress"
 msgid "Resizing file system from %1 to %2 sectors."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava s %1 na %2 sektora."
 
 #: jobs/resizefilesystemjob.cpp:79
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing a %1 file system using internal backend functions."
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava %1 pomoću internih funkcija pozadinskog sustava."
 
 #: jobs/resizefilesystemjob.cpp:94
 #, kde-kuit-format
@@ -2606,13 +2610,13 @@ msgctxt "@info:progress"
 msgid ""
 "The file system on partition <filename>%1</filename> cannot be resized "
 "because there is no support for it."
-msgstr ""
+msgstr "Veličina datotečnog sustava na particiji <filename>%1</filename> ne može se promijeniti jer to nije podržano."
 
 #: jobs/resizefilesystemjob.cpp:122
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Successfully resized file system using internal backend functions."
-msgstr ""
+msgstr "Veličina datotečnog sustava uspješno je promijenjena pomoću internih funkcija pozadinskog sustava."
 
 #: jobs/resizefilesystemjob.cpp:126
 #, kde-kuit-format
@@ -2620,7 +2624,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition <filename>%1</filename> while trying to resize the "
 "file system."
-msgstr ""
+msgstr "Nije moguće otvoriti particiju <filename>%1</filename> tijekom pokušaja promjene veličine datotečnog sustava."
 
 #: jobs/resizefilesystemjob.cpp:129
 #, kde-kuit-format
@@ -2628,13 +2632,13 @@ msgctxt "@info:progress"
 msgid ""
 "Could not read geometry for partition <filename>%1</filename> while trying "
 "to resize the file system."
-msgstr ""
+msgstr "Nije moguće pročitati geometriju particije <filename>%1</filename> tijekom pokušaja promjene veličine datotečnog sustava."
 
 #: jobs/resizefilesystemjob.cpp:137
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Maximize file system on <filename>%1</filename> to fill the partition"
-msgstr ""
+msgstr "Povećaj datotečni sustav na <filename>%1</filename> kako bi ispunio particiju"
 
 #: jobs/resizefilesystemjob.cpp:139
 #, kde-kuit-format
@@ -2642,42 +2646,45 @@ msgctxt "@info:progress"
 msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
 msgid_plural ""
 "Resize file system on partition <filename>%2</filename> to %1 sectors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Promjena veličine datotečnog sustava na particiji <filename>%2</filename> na %1 sektor"
+msgstr[1] "Promjena veličine datotečnog sustava na particiji <filename>%2</filename> na %1 sektora"
+msgstr[2] "Promjena veličine datotečnog sustava na particiji <filename>%2</filename> na %1 sektora"
 
 #: jobs/resizevolumegroupjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Adding LVM Physical Volume %2 to %3."
 msgid_plural "Adding LVM Physical Volumes %2 to %3."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dodavanje fizičkog LVM volumena %2 u %3."
+msgstr[1] "Dodavanje fizičkih LVM volumena %2 u %3."
+msgstr[2] "Dodavanje fizičkih LVM volumena %2 u %3."
 
 #: jobs/resizevolumegroupjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uklanjanje fizičkog LVM volumena %2 iz %3."
+msgstr[1] "Uklanjanje fizičkih LVM volumena %2 iz %3."
+msgstr[2] "Uklanjanje fizičkih LVM volumena %2 iz %3."
 
 #: jobs/resizevolumegroupjob.cpp:64
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resizing Volume Group %1 to %2."
-msgstr ""
+msgstr "Promjena veličine grupe jedinica %1 na %2."
 
 #: jobs/restorefilesystemjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open backup file <filename>%1</filename> to restore from."
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku sigurnosne kopije <filename>%1</filename> radi vraćanja."
 
 #: jobs/restorefilesystemjob.cpp:64 jobs/shredfilesystemjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open target partition <filename>%1</filename> to restore to."
-msgstr ""
+msgstr "Nije moguće otvoriti ciljnu particiju <filename>%1</filename> za vraćanje."
 
 #: jobs/restorefilesystemjob.cpp:100
 #, kde-kuit-format
@@ -2685,7 +2692,7 @@ msgctxt "@info:progress"
 msgid ""
 "Restore the file system from file <filename>%1</filename> to partition "
 "<filename>%2</filename>"
-msgstr ""
+msgstr "Vraćanje datotečnog sustava iz datoteke <filename>%1</filename> na particiju <filename>%2</filename>"
 
 #: jobs/setfilesystemlabeljob.cpp:48
 #, kde-kuit-format
@@ -2693,26 +2700,26 @@ msgctxt "@info:progress"
 msgid ""
 "File system on partition <filename>%1</filename> does not support setting "
 "labels. Job ignored."
-msgstr ""
+msgstr "Datotečni sustav na particiji <filename>%1</filename> ne podržava postavljanje oznaka. Zadatak je zanemaren."
 
 #: jobs/setfilesystemlabeljob.cpp:81
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Set the file system label on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje oznake datotečnog sustava na particiji <filename>%1</filename> na „%2”"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
 msgctxt "@info:progress flag turned on, active"
 msgid "on"
-msgstr ""
+msgstr "uključeno"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
 msgctxt "@info:progress flag turned off, inactive"
 msgid "off"
-msgstr ""
+msgstr "isključeno"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
@@ -2720,7 +2727,7 @@ msgctxt "@info:progress"
 msgid ""
 "There was an error setting flag %1 for partition <filename>%2</filename> to "
 "state %3."
-msgstr ""
+msgstr "Pri postavljanju zastavice %1 za particiju <filename>%2</filename> na stanje %3 došlo je do pogreške."
 
 #: jobs/setpartflagsjob.cpp:74
 #, kde-kuit-format
@@ -2728,7 +2735,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set "
 "partition flags for partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi postavljanja zastavica particije <filename>%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:76
 #, kde-kuit-format
@@ -2736,19 +2743,19 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set partition flags for "
 "partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi postavljanja zastavica particije <filename>%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:89
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "Uklanjanje zastavica s particije <filename>%1</filename>"
 
 #: jobs/setpartflagsjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje zastavica particije <filename>%1</filename> na „%2”"
 
 #: jobs/setpartgeometryjob.cpp:65
 #, kde-kuit-format
@@ -2756,7 +2763,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> while trying to resize/move "
 "partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> tijekom pokušaja promjene veličine ili premještanja particije <filename>%2</filename>."
 
 #: jobs/setpartgeometryjob.cpp:81
 #, kde-kuit-format
@@ -2764,7 +2771,7 @@ msgctxt "@info:progress"
 msgid ""
 "Set geometry of partition <filename>%1</filename>: Start sector: %2, length: "
 "%3"
-msgstr ""
+msgstr "Postavljanje geometrije particije <filename>%1</filename>: početni sektor: %2, duljina: %3"
 
 #: jobs/setpartitionattributesjob.cpp:47
 #, kde-kuit-format
@@ -2772,13 +2779,13 @@ msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting attributes. Job ignored."
-msgstr ""
+msgstr "Particijska tablica particije <filename>%1</filename> ne podržava postavljanje atributa. Zadatak je zanemaren."
 
 #: jobs/setpartitionattributesjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije uspjelo postavljanje atributa particije <filename>%1</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:61
 #, kde-kuit-format
@@ -2786,7 +2793,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi postavljanja atributa particije <filename>%2</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:63
 #, kde-kuit-format
@@ -2794,13 +2801,13 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi postavljanja atributa particije <filename>%2</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje atributa particije <filename>%1</filename> na „%2”"
 
 #: jobs/setpartitionlabeljob.cpp:47
 #, kde-kuit-format
@@ -2808,13 +2815,13 @@ msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting names. Job ignored."
-msgstr ""
+msgstr "Particijska tablica particije <filename>%1</filename> ne podržava postavljanje naziva. Zadatak je zanemaren."
 
 #: jobs/setpartitionlabeljob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije uspjelo postavljanje naziva particije <filename>%1</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:61
 #, kde-kuit-format
@@ -2822,7 +2829,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi postavljanja naziva particije <filename>%2</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:63
 #, kde-kuit-format
@@ -2830,13 +2837,13 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi postavljanja naziva particije <filename>%2</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje oznake particije <filename>%1</filename> na „%2”"
 
 #: jobs/setpartitionuuidjob.cpp:47
 #, kde-kuit-format
@@ -2844,13 +2851,13 @@ msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting UUIDs. Job ignored."
-msgstr ""
+msgstr "Particijska tablica particije <filename>%1</filename> ne podržava postavljanje UUID-ova. Zadatak je zanemaren."
 
 #: jobs/setpartitionuuidjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije uspjelo postavljanje UUID-a particije <filename>%1</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:61
 #, kde-kuit-format
@@ -2858,7 +2865,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti particijsku tablicu na uređaju <filename>%1</filename> radi postavljanja UUID-a particije <filename>%2</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:63
 #, kde-kuit-format
@@ -2866,57 +2873,57 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> radi postavljanja UUID-a particije <filename>%2</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje UUID-a particije <filename>%1</filename> na „%2”"
 
 #: jobs/shredfilesystemjob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open random data source to overwrite file system."
-msgstr ""
+msgstr "Nije moguće otvoriti izvor nasumičnih podataka radi prepisivanja datotečnog sustava."
 
 #: jobs/shredfilesystemjob.cpp:77
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Shred the file system on <filename>%1</filename>"
-msgstr ""
+msgstr "Uništavanje datotečnog sustava na <filename>%1</filename>"
 
 #: jobs/takeownershipjob.cpp:28
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "File system on <filename>%1</filename> does not support ownership."
-msgstr ""
+msgstr "Datotečni sustav na <filename>%1</filename> ne podržava vlasništvo."
 
 #: jobs/takeownershipjob.cpp:36
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Refusing to change ownership of critical mount point <filename>%1</filename>."
-msgstr ""
+msgstr "Odbijena je promjena vlasništva nad kritičnom točkom montiranja <filename>%1</filename>."
 
 #: jobs/takeownershipjob.cpp:60
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Taking ownership of <filename>%1</filename> and its contents for user %2"
-msgstr ""
+msgstr "Preuzimanje vlasništva nad <filename>%1</filename> i njegovim sadržajem za korisnika %2"
 
 #: jobs/takeownershipjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Taking ownership of <filename>%1</filename> for user %2"
-msgstr ""
+msgstr "Preuzimanje vlasništva nad <filename>%1</filename> za korisnika %2"
 
 #: jobs/trimjob.cpp:34
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Could not find the <command>fstrim</command> program."
-msgstr ""
+msgstr "Nije moguće pronaći program <command>fstrim</command>."
 
 #: jobs/trimjob.cpp:38
 #, kde-kuit-format
@@ -2924,59 +2931,59 @@ msgctxt "@info:status"
 msgid ""
 "The file system on <filename>%1</filename> does not support discarding "
 "unused blocks."
-msgstr ""
+msgstr "Datotečni sustav na <filename>%1</filename> ne podržava odbacivanje neiskorištenih blokova."
 
 #: jobs/trimjob.cpp:42
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "<filename>%1</filename> is no longer mounted at <filename>%2</filename>."
-msgstr ""
+msgstr "<filename>%1</filename> više nije montiran na <filename>%2</filename>."
 
 #: jobs/trimjob.cpp:46
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> is mounted read-only."
-msgstr ""
+msgstr "<filename>%1</filename> montiran je samo za čitanje."
 
 #: jobs/trimjob.cpp:50
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "The device of <filename>%1</filename> does not support discarding blocks."
-msgstr ""
+msgstr "Uređaj <filename>%1</filename> ne podržava odbacivanje blokova."
 
 #: jobs/trimjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Discarding unused blocks on <filename>%1</filename> completed successfully."
-msgstr ""
+msgstr "Uspješno je dovršeno odbacivanje neiskorištenih blokova na <filename>%1</filename>."
 
 #: jobs/trimjob.cpp:64
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Could not discard unused blocks on <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće odbaciti neiskorištene blokove na <filename>%1</filename>."
 
 #: jobs/trimjob.cpp:73
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Discarding unused blocks on <filename>%1</filename>"
-msgstr ""
+msgstr "Odbacivanje neiskorištenih blokova na <filename>%1</filename>"
 
 #: ops/backupoperation.cpp:39
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Backup partition <filename>%1</filename> (%2, %3) to <filename>%4</filename>"
-msgstr ""
+msgstr "Izrada sigurnosne kopije particije <filename>%1</filename> (%2, %3) u <filename>%4</filename>"
 
 #: ops/checkoperation.cpp:50
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "Provjera i popravak particije <filename>%1</filename> (%2, %3)"
 
 #: ops/copyoperation.cpp:147 ops/restoreoperation.cpp:131
 #, kde-kuit-format
@@ -2984,38 +2991,38 @@ msgctxt "@info:status"
 msgid ""
 "<warning>Maximizing file system on target partition <filename>%1</filename> "
 "to the size of the partition failed.</warning>"
-msgstr ""
+msgstr "<warning>Povećanje datotečnog sustava na ciljnoj particiji <filename>%1</filename> na veličinu particije nije uspjelo.</warning>"
 
 #: ops/copyoperation.cpp:151
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking target partition <filename>%1</filename> after copy failed."
-msgstr ""
+msgstr "Provjera ciljne particije <filename>%1</filename> nakon kopiranja nije uspjela."
 
 #: ops/copyoperation.cpp:158
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying source to target partition failed."
-msgstr ""
+msgstr "Kopiranje izvora na ciljnu particiju nije uspjelo."
 
 #: ops/copyoperation.cpp:161
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating target partition for copying failed."
-msgstr ""
+msgstr "Stvaranje ciljne particije za kopiranje nije uspjelo."
 
 #: ops/copyoperation.cpp:163
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking source partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Provjera izvorne particije <filename>%1</filename> nije uspjela."
 
 #: ops/copyoperation.cpp:170 ops/operation.cpp:174 ops/resizeoperation.cpp:175
 #: ops/restoreoperation.cpp:148
 #, kde-kuit-format
 msgctxt "@info:status (success, error, warning...) of operation"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: ops/copyoperation.cpp:179
 #, kde-kuit-format
@@ -3023,7 +3030,7 @@ msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</filename> "
 "(%5, %6)"
-msgstr ""
+msgstr "Kopiranje particije <filename>%1</filename> (%2, %3) na <filename>%4</filename> (%5, %6)"
 
 #: ops/copyoperation.cpp:188
 #, kde-kuit-format
@@ -3031,7 +3038,7 @@ msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</filename> "
 "(%5, %6) and grow it to %7"
-msgstr ""
+msgstr "Kopiranje particije <filename>%1</filename> (%2, %3) na <filename>%4</filename> (%5, %6) i povećanje na %7"
 
 #: ops/copyoperation.cpp:200
 #, kde-kuit-format
@@ -3039,7 +3046,7 @@ msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
 "(starting at %4) on <filename>%5</filename>"
-msgstr ""
+msgstr "Kopiranje particije <filename>%1</filename> (%2, %3) u nedodijeljeni prostor (početak na %4) na uređaju <filename>%5</filename>"
 
 #: ops/copyoperation.cpp:208
 #, kde-kuit-format
@@ -3047,145 +3054,145 @@ msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
 "(starting at %4) on <filename>%5</filename> and grow it to %6"
-msgstr ""
+msgstr "Kopiranje particije <filename>%1</filename> (%2, %3) u nedodijeljeni prostor (početak na %4) na uređaju <filename>%5</filename> i povećanje na %6"
 
 #: ops/createfilesystemoperation.cpp:95 ops/newoperation.cpp:218
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: ops/createfilesystemoperation.cpp:106
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
-msgstr ""
+msgstr "Stvaranje datotečnog sustava %1 na particiji <filename>%2</filename>"
 
 #: ops/createpartitiontableoperation.cpp:104
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
-msgstr ""
+msgstr "Stvaranje nove particijske tablice (vrsta: %1) na uređaju <filename>%2</filename>"
 
 #: ops/createvolumegroupoperation.cpp:36
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new LVM volume group named '%1'."
-msgstr ""
+msgstr "Stvaranje nove LVM grupe jedinica pod nazivom „%1”."
 
 #: ops/deactivatevolumegroupoperation.cpp:35
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate volume group."
-msgstr ""
+msgstr "Deaktiviranje grupe jedinica."
 
 #: ops/deleteoperation.cpp:87
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "Uništavanje particije <filename>%1</filename> (%2, %3)"
 
 #: ops/deleteoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "Brisanje particije <filename>%1</filename> (%2, %3)"
 
 #: ops/newoperation.cpp:206
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
-msgstr ""
+msgstr "Stvaranje nove particije (%1, %2) na uređaju <filename>%3</filename>"
 
 #: ops/operation.cpp:75
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "None"
-msgstr ""
+msgstr "Nema"
 
 #: ops/operation.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Pending"
-msgstr ""
+msgstr "Na čekanju"
 
 #: ops/operation.cpp:77
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Running"
-msgstr ""
+msgstr "U tijeku"
 
 #: ops/operation.cpp:78
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Success"
-msgstr ""
+msgstr "Uspješno"
 
 #: ops/operation.cpp:79
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: ops/operation.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: ops/removevolumegroupoperation.cpp:35
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
-msgstr ""
+msgstr "Uklanjanje LVM grupe jedinica."
 
 #: ops/resizeoperation.cpp:156
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving extended partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Premještanje proširene particije <filename>%1</filename> nije uspjelo."
 
 #: ops/resizeoperation.cpp:165
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> after resize/move failed."
-msgstr ""
+msgstr "Provjera particije <filename>%1</filename> nakon promjene veličine/premještanja nije uspjela."
 
 #: ops/resizeoperation.cpp:168
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing/moving partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Promjena veličine/premještanje particije <filename>%1</filename> nije uspjelo."
 
 #: ops/resizeoperation.cpp:171
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> before resize/move failed."
-msgstr ""
+msgstr "Provjera particije <filename>%1</filename> prije promjene veličine/premještanja nije uspjela."
 
 #: ops/resizeoperation.cpp:201
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the left by %2"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> ulijevo za %2"
 
 #: ops/resizeoperation.cpp:204
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the right by %2"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> udesno za %2"
 
 #: ops/resizeoperation.cpp:207
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Grow partition <filename>%1</filename> from %2 to %3"
-msgstr ""
+msgstr "Povećaj particiju <filename>%1</filename> s %2 na %3"
 
 #: ops/resizeoperation.cpp:210
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Shrink partition <filename>%1</filename> from %2 to %3"
-msgstr ""
+msgstr "Smanji particiju <filename>%1</filename> s %2 na %3"
 
 #: ops/resizeoperation.cpp:213
 #, kde-kuit-format
@@ -3193,7 +3200,7 @@ msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and grow it from %3 "
 "to %4"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> ulijevo za %2 i povećaj je s %3 na %4"
 
 #: ops/resizeoperation.cpp:216
 #, kde-kuit-format
@@ -3201,7 +3208,7 @@ msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and grow it from "
 "%3 to %4"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> udesno za %2 i povećaj je s %3 na %4"
 
 #: ops/resizeoperation.cpp:219
 #, kde-kuit-format
@@ -3209,7 +3216,7 @@ msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and shrink it from "
 "%3 to %4"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> ulijevo za %2 i smanji je s %3 na %4"
 
 #: ops/resizeoperation.cpp:222
 #, kde-kuit-format
@@ -3217,13 +3224,13 @@ msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and shrink it from "
 "%3 to %4"
-msgstr ""
+msgstr "Premjesti particiju <filename>%1</filename> udesno za %2 i smanji je s %3 na %4"
 
 #: ops/resizeoperation.cpp:229
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Unknown resize/move action."
-msgstr ""
+msgstr "Nepoznata radnja promjene veličine/premještanja."
 
 #: ops/resizeoperation.cpp:258
 #, kde-kuit-format
@@ -3231,19 +3238,19 @@ msgctxt "@info:status"
 msgid ""
 "Resize/move failed: Could not resize file system to shrink partition "
 "<filename>%1</filename>."
-msgstr ""
+msgstr "Promjena veličine/premještanje nije uspjelo: nije moguće smanjiti datotečni sustav radi smanjenja particije <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:263
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not shrink partition <filename>%1</filename>."
-msgstr ""
+msgstr "Promjena veličine/premještanje nije uspjelo: nije moguće smanjiti particiju <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:282
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving partition <filename>%1</filename> failed."
-msgstr ""
+msgstr "Premještanje particije <filename>%1</filename> nije uspjelo."
 
 #: ops/resizeoperation.cpp:287
 #, kde-kuit-format
@@ -3251,7 +3258,7 @@ msgctxt "@info:status"
 msgid ""
 "Moving the filesystem for partition <filename>%1</filename> failed. Rolling "
 "back."
-msgstr ""
+msgstr "Premještanje datotečnog sustava za particiju <filename>%1</filename> nije uspjelo. Vraćanje na prethodno stanje."
 
 #: ops/resizeoperation.cpp:291
 #, kde-kuit-format
@@ -3259,13 +3266,13 @@ msgctxt "@info:status"
 msgid ""
 "Moving back partition <filename>%1</filename> to its original position "
 "failed."
-msgstr ""
+msgstr "Vraćanje particije <filename>%1</filename> na izvorni položaj nije uspjelo."
 
 #: ops/resizeoperation.cpp:304
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not grow partition <filename>%1</filename>."
-msgstr ""
+msgstr "Promjena veličine/premještanje nije uspjelo: nije moguće povećati particiju <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:309
 #, kde-kuit-format
@@ -3273,20 +3280,20 @@ msgctxt "@info:status"
 msgid ""
 "Resize/move failed: Could not resize the file system on partition <filename>"
 "%1</filename>"
-msgstr ""
+msgstr "Promjena veličine/premještanje nije uspjelo: nije moguće promijeniti veličinu datotečnog sustava na particiji <filename>%1</filename>"
 
 #: ops/resizeoperation.cpp:312
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Could not restore old partition size for partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće vratiti staru veličinu particije <filename>%1</filename>."
 
 #: ops/resizevolumegroupoperation.cpp:108
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr ""
+msgstr "Promijeni veličinu volumena %1 s %2 na %3"
 
 #: ops/restoreoperation.cpp:133
 #, kde-kuit-format
@@ -3294,26 +3301,26 @@ msgctxt "@info:status"
 msgid ""
 "Checking target file system on partition <filename>%1</filename> after the "
 "restore failed."
-msgstr ""
+msgstr "Provjera ciljnog datotečnog sustava na particiji <filename>%1</filename> nakon vraćanja nije uspjela."
 
 #: ops/restoreoperation.cpp:138
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Restoring file system failed."
-msgstr ""
+msgstr "Vraćanje datotečnog sustava nije uspjelo."
 
 #: ops/restoreoperation.cpp:141
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating the destination partition to restore to failed."
-msgstr ""
+msgstr "Stvaranje odredišne particije za vraćanje nije uspjelo."
 
 #: ops/restoreoperation.cpp:156
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Restore partition from <filename>%1</filename> to <filename>%2</filename>"
-msgstr ""
+msgstr "Vraćanje particije iz <filename>%1</filename> u <filename>%2</filename>"
 
 #: ops/restoreoperation.cpp:158
 #, kde-kuit-format
@@ -3321,55 +3328,55 @@ msgctxt "@info:status"
 msgid ""
 "Restore partition on <filename>%1</filename> at %2 from <filename>%3</"
 "filename>"
-msgstr ""
+msgstr "Vraćanje particije na uređaj <filename>%1</filename> na položaj %2 iz <filename>%3</filename>"
 
 #: ops/setfilesystemlabeloperation.cpp:58
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje oznake particije <filename>%1</filename> na „%2”"
 
 #: ops/setfilesystemlabeloperation.cpp:60
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> from \"%2\" to \"%3\""
-msgstr ""
+msgstr "Promjena oznake particije <filename>%1</filename> iz „%2” u „%3”"
 
 #: ops/setpartflagsoperation.cpp:62
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "Uklanjanje zastavica s particije <filename>%1</filename>"
 
 #: ops/setpartflagsoperation.cpp:64
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje zastavica particije <filename>%1</filename> na „%2”"
 
 #: ops/setpartlabeloperation.cpp:59
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set GPT partition label <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "Postavljanje GPT oznake particije <filename>%1</filename> na „%2”"
 
 #: ops/takeownershipoperation.cpp:73
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Take ownership of <filename>%1</filename> and its contents for user %2"
-msgstr ""
+msgstr "Preuzimanje vlasništva nad <filename>%1</filename> i njegovim sadržajem za korisnika %2"
 
 #: ops/takeownershipoperation.cpp:75
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Take ownership of <filename>%1</filename> for user %2"
-msgstr ""
+msgstr "Preuzimanje vlasništva nad <filename>%1</filename> za korisnika %2"
 
 #: ops/trimoperation.cpp:103
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Discard unused blocks on <filename>%1</filename>"
-msgstr ""
+msgstr "Odbacivanje neiskorištenih blokova na <filename>%1</filename>"
 
 #: plugins/geom/geompartitiontable.cpp:91
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:65
@@ -3377,7 +3384,7 @@ msgstr ""
 msgctxt "@info:progress"
 msgid ""
 "Unknown partition role for new partition <filename>%1</filename> (roles: %2)"
-msgstr ""
+msgstr "Nepoznata uloga nove particije <filename>%1</filename> (uloge: %2)"
 
 #: plugins/geom/geompartitiontable.cpp:109
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:89
@@ -3386,19 +3393,19 @@ msgctxt "@info:progress"
 msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
-msgstr ""
+msgstr "Nije uspjelo dodavanje particije <filename>%1</filename> na uređaj <filename>%2</filename>."
 
 #: plugins/sfdisk/sfdiskbackend.cpp:243
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr ""
+msgstr "Pronađen je softverski RAID uređaj: %1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:273
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
-msgstr ""
+msgstr "Pronađen uređaj: %1"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
 #, kde-kuit-format
@@ -3406,14 +3413,14 @@ msgctxt "@info:progress"
 msgid ""
 "Could not set geometry for partition <filename>%1</filename> while trying to "
 "resize/move it."
-msgstr ""
+msgstr "Nije moguće postaviti geometriju particije <filename>%1</filename> tijekom pokušaja promjene njezine veličine ili premještanja."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:124
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to erase filesystem signature on partition <filename>%1</filename>."
-msgstr ""
+msgstr "Nije uspjelo brisanje potpisa datotečnog sustava na particiji <filename>%1</filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:157
 #, kde-kuit-format
@@ -3421,148 +3428,150 @@ msgctxt "@info:progress"
 msgid ""
 "Could not determine file system of partition at sector %1 on device "
 "<filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće odrediti datotečni sustav particije na sektoru %1 uređaja <filename>%2</filename>."
 
 #: util/capacity.cpp:100
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "Byte"
 msgid_plural "Bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bajt"
+msgstr[1] "Bajta"
+msgstr[2] "Bajtova"
 
 #: util/capacity.cpp:101
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: util/capacity.cpp:102
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: util/capacity.cpp:103
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: util/capacity.cpp:104
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: util/capacity.cpp:105
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: util/capacity.cpp:106
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #: util/capacity.cpp:107
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "ZiB"
-msgstr ""
+msgstr "ZiB"
 
 #: util/capacity.cpp:108
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "YiB"
-msgstr ""
+msgstr "YiB"
 
 #: util/capacity.cpp:112
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "(unknown unit)"
-msgstr ""
+msgstr "(nepoznata jedinica)"
 
 #: util/externalcommand.cpp:114 util/externalcommand.cpp:118
 #: util/externalcommand.cpp:246
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
-msgstr ""
+msgstr "Naredba: %1 %2"
 
 #: util/externalcommandhelper.cpp:95
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> za čitanje."
 
 #: util/externalcommandhelper.cpp:102 util/externalcommandhelper.cpp:133
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr ""
+msgstr "Nije moguće pozicionirati se na mjesto %1 na uređaju <filename>%2</filename>."
 
 #: util/externalcommandhelper.cpp:109
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće čitati s uređaja <filename>%1</filename>."
 
 #: util/externalcommandhelper.cpp:127
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr ""
+msgstr "Nije moguće otvoriti uređaj <filename>%1</filename> za pisanje."
 
 #: util/externalcommandhelper.cpp:138
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće pisati na uređaj <filename>%1</filename>."
 
 #: util/externalcommandhelper.cpp:164
 #, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku <filename>%1</filename> za pisanje."
 
 #: util/externalcommandhelper.cpp:169
 #, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr ""
+msgstr "Nije moguće pisati u datoteku <filename>%1</filename>."
 
 #: util/externalcommandhelper.cpp:250
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
-msgstr ""
+msgstr "Kopiranje %1 dijelova (%2 bajtova) iz %3 u %4, smjer: %5."
 
 #: util/externalcommandhelper.cpp:251
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
-msgstr ""
+msgstr "ulijevo"
 
 #: util/externalcommandhelper.cpp:252
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
-msgstr ""
+msgstr "udesno"
 
 #: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
-msgstr ""
+msgstr "Kopiranje brzinom od %1 MiB/s, procijenjeno preostalo vrijeme: %2"
 
 #: util/externalcommandhelper.cpp:287
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying remainder of chunk size %1 from %2 to %3."
-msgstr ""
+msgstr "Kopiranje ostatka veličine %1 iz %2 u %3."
 
 #: util/externalcommandhelper.cpp:301
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 bajt"
+msgstr[1] "%1 bajta"
+msgstr[2] "%1 bajtova"
 
 #: util/externalcommandhelper.cpp:301
 #, kde-kuit-format
@@ -3570,149 +3579,150 @@ msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
 msgid "Copying 1 chunk (%2) finished."
 msgid_plural "Copying %1 chunks (%2) finished."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopiranje %1 dijela (%2) dovršeno."
+msgstr[1] "Kopiranje %1 dijela (%2) dovršeno."
+msgstr[2] "Kopiranje %1 dijelova (%2) dovršeno."
 
 #: util/helpers.cpp:49
 #, kde-kuit-format
 msgctxt "@title"
 msgid "<application>KPMcore</application>"
-msgstr ""
+msgstr "<application>KPMcore</application>"
 
 #: util/helpers.cpp:50
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr ""
+msgstr "Biblioteka za upravljanje particijama"
 
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "&copy; 2008-2022 KPMcore developers"
-msgstr ""
+msgstr "&copy; 2008.–2022. Razvojni programeri KPMcorea"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Volker Lanz"
-msgstr ""
+msgstr "Volker Lanz"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Former maintainer"
-msgstr ""
+msgstr "Bivši održavatelj"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Andrius Štikonas"
-msgstr ""
+msgstr "Andrius Štikonas"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Održavatelj"
 
 #: util/helpers.cpp:58
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Teo Mrnjavac"
-msgstr ""
+msgstr "Teo Mrnjavac"
 
 #: util/helpers.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Calamares maintainer"
-msgstr ""
+msgstr "Bivši održavatelj Calamaresa"
 
 #: util/helpers.cpp:59
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Chantara Tith"
-msgstr ""
+msgstr "Chantara Tith"
 
 #: util/helpers.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "LVM support"
-msgstr ""
+msgstr "Podrška za LVM"
 
 #: util/helpers.cpp:60
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Pali Rohár"
-msgstr ""
+msgstr "Pali Rohár"
 
 #: util/helpers.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "UDF support"
-msgstr ""
+msgstr "Podrška za UDF"
 
 #: util/helpers.cpp:61
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Adriaan de Groot"
-msgstr ""
+msgstr "Adriaan de Groot"
 
 #: util/helpers.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Calamares maintainer"
-msgstr ""
+msgstr "Održavatelj Calamaresa"
 
 #: util/helpers.cpp:62
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr ""
+msgstr "Caio Jordão Carvalho"
 
 #: util/helpers.cpp:62
 #, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr ""
+msgstr "Poboljšana podrška za SMART"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "Prijelaz s KAutha na Polkit"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
 msgid "%1: SMART Status Report"
-msgstr ""
+msgstr "%1: izvještaj o SMART statusu"
 
 #: util/htmlreport.cpp:66
 #, kde-format
 msgid "Date:"
-msgstr ""
+msgstr "Datum:"
 
 #: util/htmlreport.cpp:67
 #, kde-format
 msgid "Program version:"
-msgstr ""
+msgstr "Inačica programa:"
 
 #: util/htmlreport.cpp:68
 #, kde-format
 msgid "Backend:"
-msgstr ""
+msgstr "Pozadinski sustav:"
 
 #: util/htmlreport.cpp:69
 #, kde-format
 msgid "KDE Frameworks version:"
-msgstr ""
+msgstr "Inačica KDE Frameworksa:"
 
 #: util/htmlreport.cpp:70
 #, kde-format
 msgid "Machine:"
-msgstr ""
+msgstr "Računalo:"

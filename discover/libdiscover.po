@@ -1074,8 +1074,8 @@ msgstr "Ažuriranja firmvera"
 msgid ""
 "The remote %1 require that you accept their license:\n"
 " %2"
-msgstr "Udaljeni izvor %1 zahtijeva da prihvatite njegovu licencu:
- %2"
+msgstr "Udaljeni izvor %1 zahtijeva da prihvatite njegovu licencu:\n"
+" %2"
 
 #: libdiscover/backends/FwupdBackend/FwupdSourcesBackend.cpp:41
 #, kde-format
@@ -1108,8 +1108,8 @@ msgstr "Holo: nije moguće zatražiti ažuriranja %1 od atomupd…"
 msgid ""
 "Unsupported question:\n"
 "%1"
-msgstr "Nepodržano pitanje:
-%1"
+msgstr "Nepodržano pitanje:\n"
+"%1"
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:210
 #, kde-format
@@ -1157,8 +1157,8 @@ msgid ""
 "through the Get Hot New Stuff dialog, which grants tighter control. The "
 "reported error was:\n"
 "%2"
-msgstr "Nije moguće dovršiti ažuriranje stavke %1. Pokušajte izvršiti ovu radnju putem dijaloškog okvira „Dohvati nove sadržaje”, koji pruža detaljniju kontrolu. Prijavljena je sljedeća pogreška:
-%2"
+msgstr "Nije moguće dovršiti ažuriranje stavke %1. Pokušajte izvršiti ovu radnju putem dijaloškog okvira „Dohvati nove sadržaje”, koji pruža detaljniju kontrolu. Prijavljena je sljedeća pogreška:\n"
+"%2"
 
 #: libdiscover/backends/KNSBackend/KNSBackend.cpp:442
 #, kde-format
@@ -1242,8 +1242,8 @@ msgid ""
 "<b>%1 is now available.</b>\n"
 "To be able to upgrade to this new version, first apply all available "
 "updates, and then restart the system."
-msgstr "<b>%1 je sada dostupan.</b>
-Da biste mogli nadograditi na ovu novu verziju, najprije instalirajte sva dostupna ažuriranja, a zatim ponovno pokrenite sustav."
+msgstr "<b>%1 je sada dostupan.</b>\n"
+"Da biste mogli nadograditi na ovu novu verziju, najprije instalirajte sva dostupna ažuriranja, a zatim ponovno pokrenite sustav."
 
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:1051
 #, kde-format
@@ -2039,7 +2039,14 @@ msgid_plural ""
 "Failed to update %1 packages\n"
 "%2"
 msgstr[0] ""
+"Ažuriranje %1 paketa nije uspjelo\n"
+"%2"
 msgstr[1] ""
+"Ažuriranje %1 paketa nije uspjelo\n"
+"%2"
+msgstr[2] ""
+"Ažuriranje %1 paketa nije uspjelo\n"
+"%2"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:112
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:163
@@ -2085,8 +2092,9 @@ msgstr "Izvanmrežna ažuriranja"
 #, kde-format
 msgid "Successfully updated %1 package"
 msgid_plural "Successfully updated %1 packages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uspješno je ažuriran %1 paket"
+msgstr[1] "Uspješno su ažurirana %1 paketa"
+msgstr[2] "Uspješno je ažurirano %1 paketa"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:192
 #, kde-format
@@ -2156,8 +2164,9 @@ msgstr "Nadogradnja sustava"
 #, kde-format
 msgid "1 package will be upgraded"
 msgid_plural "%1 packages will be upgraded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ažurirat će se %1 paket"
+msgstr[1] "Ažurirat će se %1 paketa"
+msgstr[2] "Ažurirat će se %1 paketa"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:203
 #, kde-format
@@ -2218,8 +2227,8 @@ msgstr "%1:<nl/><nl/>%2"
 msgid ""
 "Media Change of type “%1” is requested.\n"
 "%2"
-msgstr "Zatražena je zamjena medija vrste „%1“.
-%2"
+msgstr "Zatražena je zamjena medija vrste „%1“.\n"
+"%2"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:762
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:304
@@ -2233,8 +2242,8 @@ msgstr "Prihvati licencni ugovor"
 msgid ""
 "The package %1 and its vendor %2 require that you accept their license:\n"
 " %3"
-msgstr "Paket %1 i njegov dobavljač %2 zahtijevaju da prihvatite licencu:
- %3"
+msgstr "Paket %1 i njegov dobavljač %2 zahtijevaju da prihvatite licencu:\n"
+" %3"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:913
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:344
@@ -2253,14 +2262,13 @@ msgid ""
 "Key: %3\n"
 "Fingerprint: %4\n"
 "Timestamp: %4\n"
-msgstr "Vjerujete li sljedećem ključu?
-
-URL: %1
-Korisnik: %2
-Ključ: %3
-Otisak: %4
-Vremenska oznaka: %4
-"
+msgstr "Vjerujete li sljedećem ključu?\n"
+"\n"
+"URL: %1\n"
+"Korisnik: %2\n"
+"Ključ: %3\n"
+"Otisak: %4\n"
+"Vremenska oznaka: %4\n"
 
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:201
 #, kde-format
@@ -2285,7 +2293,14 @@ msgid_plural ""
 "This action will also remove the following packages:\n"
 "%2"
 msgstr[0] ""
+"Ovom će se radnjom ukloniti i sljedeći paket:\n"
+"%2"
 msgstr[1] ""
+"Ovom će se radnjom ukloniti i sljedeći paketi:\n"
+"%2"
+msgstr[2] ""
+"Ovom će se radnjom ukloniti i sljedeći paketi:\n"
+"%2"
 
 #: libdiscover/backends/PackageKitBackend/qml/DependenciesButton.qml:33
 #, kde-format
@@ -2451,8 +2466,8 @@ msgstr "Pozadinski sustav rpm-ostree: pogreška: zatražena je nepoznata radnja.
 msgid ""
 "rpm-ostree transaction failed with:\n"
 "%1"
-msgstr "Transakcija rpm-ostree nije uspjela uz sljedeću pogrešku:
-%1"
+msgstr "Transakcija rpm-ostree nije uspjela uz sljedeću pogrešku:\n"
+"%1"
 
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:240
 #, kde-format

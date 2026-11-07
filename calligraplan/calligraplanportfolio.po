@@ -564,7 +564,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:status"
 msgid "https://docs.kde.org"
-msgstr ""
+msgstr "https://docs.kde.org"
 
 #. i18n: ectx: property (text), widget (QLabel, userDocLabel)
 #: PortfolioView.ui:262
@@ -574,13 +574,15 @@ msgid ""
 "<a href=\"https://docs.kde.org/index.php?application=calligraplanportfolio"
 "\">User documentation</a>"
 msgstr ""
+"<a href=\"https://docs.kde.org/index.php?application=calligraplanportfolio"
+"\">Korisnička dokumentacija</a>"
 
 #. i18n: ectx: property (statusTip), widget (QLabel, forumLabel)
 #: PortfolioView.ui:278
 #, kde-format
 msgctxt "@info:status"
 msgid "https://forum.kde.org/viewforum.php?f=203"
-msgstr ""
+msgstr "https://forum.kde.org/viewforum.php?f=203"
 
 #. i18n: ectx: property (text), widget (QLabel, forumLabel)
 #: PortfolioView.ui:281
@@ -589,20 +591,21 @@ msgctxt "@action:button"
 msgid ""
 "<a href=\"https://forum.kde.org/viewforum.php?f=203\">Community forum</a>"
 msgstr ""
+"<a href=\"https://forum.kde.org/viewforum.php?f=203\">Forum zajednice</a>"
 
 #. i18n: ectx: property (statusTip), widget (QLabel, commuityLabel)
 #: PortfolioView.ui:297
 #, kde-format
 msgctxt "@info:status"
 msgid "https://userbase.kde.org/Plan"
-msgstr ""
+msgstr "https://userbase.kde.org/Plan"
 
 #. i18n: ectx: property (text), widget (QLabel, commuityLabel)
 #: PortfolioView.ui:300
 #, kde-format
 msgctxt "@action:button"
 msgid "<a href=\"https://userbase.kde.org/Plan\">Community</a>"
-msgstr ""
+msgstr "<a href=\"https://userbase.kde.org/Plan\">Zajednica</a>"
 
 #: ProgressView.cpp:68
 #, kde-kuit-format
@@ -619,57 +622,67 @@ msgid ""
 "time period is configurable.</para><para>This view supports configuration "
 "and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
+"<title>Napredak</title><para>Ovaj prikaz služi za pregled i uređivanje "
+"podataka o napretku zadataka u odabranom projektu.<nl/>Zadaci su podijeljeni "
+"u grupe ovisno o njihovu statusu:<list><item><emphasis>Nije započeto:</"
+"emphasis> Zadaci koji su već trebali započeti.</item><item><emphasis>U "
+"tijeku:</emphasis> Zadaci koji su započeli, ali još nisu dovršeni.</"
+"item><item><emphasis>Dovršeno:</emphasis> Zadaci dovršeni u ovom razdoblju.</"
+"item><item><emphasis>Sljedeće razdoblje:</emphasis> Zadaci čiji je početak "
+"planiran u sljedećem razdoblju.</item></list>Vremensko razdoblje može se "
+"prilagoditi.</para><para>Ovaj prikaz podržava konfiguriranje i ispis putem "
+"kontekstnog izbornika.<nl/><link url='%1'>Više...</link></para>"
 
 #: ProjectsDashboard.cpp:79
 #, kde-format
 msgid "Projects"
-msgstr ""
+msgstr "Projekti"
 
 #: ProjectsModel.cpp:142
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Project name"
-msgstr ""
+msgstr "Naziv projekta"
 
 #: ProjectsModel.cpp:151
 #, kde-format
 msgid "Target Start"
-msgstr ""
+msgstr "Ciljani početak"
 
 #: ProjectsModel.cpp:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduling range: Earliest start time"
-msgstr ""
+msgstr "Raspon planiranja: najranije vrijeme početka"
 
 #: ProjectsModel.cpp:163
 #, kde-format
 msgid "Target End"
-msgstr ""
+msgstr "Ciljani završetak"
 
 #: ProjectsModel.cpp:166
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduling range: Latest end time"
-msgstr ""
+msgstr "Raspon planiranja: najkasnije vrijeme završetka"
 
 #: ProjectsModel.cpp:175
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Project description"
-msgstr ""
+msgstr "Opis projekta"
 
 #: ProjectsModel.cpp:187 ScheduleManagerInfoDialog.cpp:36
 #: SchedulingModel.cpp:29
 #, kde-format
 msgid "Schedule"
-msgstr ""
+msgstr "Raspored"
 
 #: ProjectsModel.cpp:190
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select schedule"
-msgstr ""
+msgstr "Odaberi raspored"
 
 #: ProjectsModel.cpp:231
 #, kde-kuit-format
@@ -679,6 +692,9 @@ msgid ""
 "para><para><list><item>Target start:\t%2</item><item>Target finish:\t%3</"
 "item></list></para>"
 msgstr ""
+"<title>Projekt: %1</title><para>Raspored: nije planirano</"
+"para><para><list><item>Ciljani početak:\t%2</item><item>Ciljani završetak:\t%3</"
+"item></list></para>"
 
 #: ProjectsModel.cpp:245
 #, kde-kuit-format
@@ -688,6 +704,9 @@ msgid ""
 "para><para><list><item>Target start:\t%2</item><item>Target finish:\t%3</"
 "item></list></para>"
 msgstr ""
+"<title>Projekt: %1</title><para>Raspored: %4 nije planirano</"
+"para><para><list><item>Ciljani početak:\t%2</item><item>Ciljani završetak:\t%3</"
+"item></list></para>"
 
 #: ProjectsModel.cpp:259
 #, kde-kuit-format
@@ -697,64 +716,67 @@ msgid ""
 "start:\t%2</item><item>Planned finish:\t%3</item><item>Target start:\t%4</"
 "item><item>Target finish:\t%5</item></list></para>"
 msgstr ""
+"<title>Projekt: %1</title><para>Raspored: %6</para><para><list><item>Planirani "
+"početak:\t%2</item><item>Planirani završetak:\t%3</item><item>Ciljani početak:\t%4</"
+"item><item>Ciljani završetak:\t%5</item></list></para>"
 
 #: ProjectsModel.cpp:292 ProjectsModel.cpp:313 ProjectsModel.cpp:346
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Not scheduled"
-msgstr ""
+msgstr "Nije planirano"
 
 #: ProjectsModel.cpp:295 ProjectsModel.cpp:316
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule: %1 is not scheduled"
-msgstr ""
+msgstr "Raspored: %1 nije planiran"
 
 #: ProjectsModel.cpp:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule %1: Scheduled to start: %1"
-msgstr ""
+msgstr "Raspored %1: planirani početak: %1"
 
 #: ProjectsModel.cpp:318
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule %1: Scheduled to finish: %1"
-msgstr ""
+msgstr "Raspored %1: planirani završetak: %1"
 
 #: ProjectsModel.cpp:337
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule is owned by Portfolio"
-msgstr ""
+msgstr "Raspored je u vlasništvu aplikacije Portfolio"
 
 #: ProjectsModel.cpp:340
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule is baselined"
-msgstr ""
+msgstr "Za raspored je postavljena polazna osnova"
 
 #: ProjectsModel.cpp:343
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduled but not baselined"
-msgstr ""
+msgstr "Planirano, ali bez postavljene polazne osnove"
 
 #: ResourceUsageModel.cpp:136
 #, kde-format
 msgid "No task"
-msgstr ""
+msgstr "Nema zadatka"
 
 #: ResourceUsageModel.cpp:138
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "WBS: %1<nl/>Task: %2<nl/>Project: %3"
-msgstr ""
+msgstr "WBS: %1<nl/>Zadatak: %2<nl/>Projekt: %3"
 
 #: ResourceUsageView.cpp:51
 #, kde-format
 msgid "Tasks"
-msgstr ""
+msgstr "Zadaci"
 
 #: ResourceUsageView.cpp:89
 #, kde-kuit-format
@@ -764,65 +786,68 @@ msgid ""
 "assignments for each day.</para><para><nl/><link url='%1'>More...</link></"
 "para>"
 msgstr ""
+"<title>Upotreba resursa</title><para>Ovaj prikaz prikazuje dodjele zadataka "
+"resursima za svaki dan.</para><para><nl/><link url='%1'>Više...</link></"
+"para>"
 
 #: ResourceUsageView.cpp:106
 #, kde-format
 msgid "Diagram Types"
-msgstr ""
+msgstr "Vrste dijagrama"
 
 #: ResourceUsageView.cpp:110
 #, kde-format
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
 #: ResourceUsageView.cpp:114
 #, kde-format
 msgid "Stacked"
-msgstr ""
+msgstr "Složeno"
 
 #: ResourceUsageView.cpp:122
 #, kde-format
 msgid "Range"
-msgstr ""
+msgstr "Raspon"
 
 #: ScheduleManagerInfoDialog.cpp:22
 #, kde-format
 msgctxt "@title:column"
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #: ScheduleManagerInfoDialog.cpp:22
 #, kde-format
 msgctxt "@title:column"
 msgid "Schedule"
-msgstr ""
+msgstr "Raspored"
 
 #: ScheduleManagerInfoDialog.cpp:22
 #, kde-format
 msgctxt "@title:column"
 msgid "Action"
-msgstr ""
+msgstr "Radnja"
 
 #: ScheduleManagerInfoDialog.cpp:22
 #, kde-format
 msgctxt "@title:column"
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: ScheduleManagerInfoDialog.cpp:32 ScheduleManagerInfoDialog.cpp:38
 #, kde-format
 msgid "New schedule"
-msgstr ""
+msgstr "Novi raspored"
 
 #: ScheduleManagerInfoDialog.cpp:34
 #, kde-format
 msgid "New sub-schedule"
-msgstr ""
+msgstr "Novi podraspored"
 
 #: ScheduleManagerInfoDialog.cpp:76
 #, kde-format
 msgid "New schedule '%1' will be created."
-msgstr ""
+msgstr "Stvorit će se novi raspored '%1'."
 
 #: ScheduleManagerInfoDialog.cpp:84
 #, kde-format
@@ -830,6 +855,8 @@ msgid ""
 "Existing schedule '%1' is owned by Portfolio.\n"
 "'%1' will be scheduled."
 msgstr ""
+"Postojeći raspored '%1' u vlasništvu je aplikacije Portfolio.\n"
+"Raspored '%1' bit će planiran."
 
 #: ScheduleManagerInfoDialog.cpp:93
 #, kde-format
@@ -837,6 +864,8 @@ msgid ""
 "Existing schedule '%1' is owned by Plan.\n"
 "New schedule '%2' will be created."
 msgstr ""
+"Postojeći raspored '%1' u vlasništvu je aplikacije Plan.\n"
+"Stvorit će se novi raspored '%2'."
 
 #: ScheduleManagerInfoDialog.cpp:101 ScheduleManagerInfoDialog.cpp:110
 #, kde-format
@@ -844,58 +873,60 @@ msgid ""
 "Project is started.\n"
 "'%1' will be created as sub-schedule to '%2'."
 msgstr ""
+"Projekt je započeo.\n"
+"'%1' će se stvoriti kao podraspored rasporeda '%2'."
 
 #: SchedulingLogModel.cpp:53
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: SchedulingLogModel.cpp:54
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Phase"
-msgstr ""
+msgstr "Faza"
 
 #: SchedulingLogModel.cpp:55
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Severity"
-msgstr ""
+msgstr "Ozbiljnost"
 
 #: SchedulingLogModel.cpp:56
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
 #: SchedulingModel.cpp:24
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: SchedulingModel.cpp:25
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Control"
-msgstr ""
+msgstr "Upravljanje"
 
 #: SchedulingModel.cpp:26
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Priority"
-msgstr ""
+msgstr "Prioritet"
 
 #: SchedulingModel.cpp:29
 #, kde-format
 msgid "Include"
-msgstr ""
+msgstr "Uključi"
 
 #: SchedulingModel.cpp:29 SchedulingModel.cpp:121
 #, kde-format
 msgid "Exclude"
-msgstr ""
+msgstr "Isključi"
 
 #: SchedulingModel.cpp:91 SchedulingModel.cpp:107
 #, kde-format
@@ -903,37 +934,37 @@ msgctxt "@into:tooltip"
 msgid ""
 "Scheduling not possible. Project target end time must be later than "
 "calculation time"
-msgstr ""
+msgstr "Planiranje nije moguće. Ciljano vrijeme završetka projekta mora biti nakon vremena izračuna"
 
 #: SchedulingModel.cpp:190
 #, kde-format
 msgid "Scheduling..."
-msgstr ""
+msgstr "Planiranje..."
 
 #: SchedulingModel.cpp:192
 #, kde-format
 msgid "Not scheduled"
-msgstr ""
+msgstr "Nije planirano"
 
 #: SchedulingModel.cpp:194
 #, kde-format
 msgid "Finished"
-msgstr ""
+msgstr "Dovršeno"
 
 #: SchedulingModel.cpp:196
 #, kde-format
 msgid "Started"
-msgstr ""
+msgstr "Započeto"
 
 #: SchedulingModel.cpp:198
 #, kde-format
 msgid "Baselined"
-msgstr ""
+msgstr "Postavljena polazna osnova"
 
 #: SchedulingModel.cpp:200
 #, kde-format
 msgid "Scheduled"
-msgstr ""
+msgstr "Planirano"
 
 #: SchedulingModel.cpp:235
 #, kde-format
@@ -941,31 +972,31 @@ msgctxt "@info:tooltip"
 msgid ""
 "Scheduling not possible. Project target end time must be later than "
 "calculation time"
-msgstr ""
+msgstr "Planiranje nije moguće. Ciljano vrijeme završetka projekta mora biti nakon vremena izračuna"
 
 #: SchedulingModel.cpp:237
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Schedule this project"
-msgstr ""
+msgstr "Planiraj ovaj projekt"
 
 #: SchedulingModel.cpp:240
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Include resource bookings from this project"
-msgstr ""
+msgstr "Uključi rezervacije resursa iz ovog projekta"
 
 #: SchedulingModel.cpp:243 SchedulingModel.cpp:246
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Exclude this project"
-msgstr ""
+msgstr "Isključi ovaj projekt"
 
 #: SchedulingModel.cpp:261
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
-msgstr ""
+msgstr "Najprije se planira projekt najvišeg prioriteta"
 
 #: SchedulingView.cpp:117
 #, kde-kuit-format
@@ -983,29 +1014,41 @@ msgid ""
 "needs to be included for resource leveling to work properly.</note></"
 "para><para><link url='%1'>More...</link></para>"
 msgstr ""
+"<title>Planiranje</title><para>Prikaz Planiranje omogućuje planiranje "
+"projekata u portfelju. Projekti se planiraju prema prioritetu.</para><para>"
+"Za projekt ili projekte koje želite planirati postavite <emphasis>Upravljanje"
+"</emphasis> na <emphasis>Planiraj</emphasis>.<nl/>Postavite "
+"<emphasis>Upravljanje</emphasis> na <emphasis>Uključi</emphasis> kako bi se "
+"dodjele resursa uzele u obzir pri uravnoteženju resursa.<nl/>Postavite "
+"<emphasis>Upravljanje</emphasis> na <emphasis>Isključi</emphasis> ako želite "
+"isključiti projekt.</para><para><note>Ako vaši projekti dijele resurse s "
+"projektima koji nisu dio portfelja, te projekte treba uključiti kako bi "
+"uravnoteženje resursa ispravno funkcioniralo.</note></para><para><link "
+"url='%1'>Više...</link></para>"
 
 #: SchedulingView.cpp:180
 #, kde-format
 msgctxt "@label:listbox range: 0-60"
 msgid "%1 minute"
 msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minute"
+msgstr[2] "%1 minuta"
 
 #: SchedulingView.cpp:237 SummaryView.cpp:102
 #, kde-format
 msgid "Description..."
-msgstr ""
+msgstr "Opis..."
 
 #: SchedulingView.cpp:397
 #, kde-format
 msgid "Internal error. No scheduler plugin found."
-msgstr ""
+msgstr "Unutarnja pogreška. Nije pronađen dodatak za planiranje."
 
 #: SchedulingView.cpp:404 SchedulingView.cpp:419
 #, kde-format
 msgid "Nothing to schedule"
-msgstr ""
+msgstr "Nema ničega za planiranje"
 
 #: SchedulingView.cpp:446
 #, kde-format
@@ -1013,83 +1056,85 @@ msgid ""
 "Scheduling not possible. Project target end time must be later than "
 "calculation time."
 msgstr ""
+"Planiranje nije moguće. Ciljano vrijeme završetka projekta mora biti nakon "
+"vremena izračuna."
 
 #: SchedulingView.cpp:458
 #, kde-format
 msgid "Scheduling projects"
-msgstr ""
+msgstr "Planiranje projekata"
 
 #. i18n: ectx: property (title), widget (QGroupBox, schedulingProperties)
 #: SchedulingView.ui:54
 #, kde-format
 msgid "Scheduling Control"
-msgstr ""
+msgstr "Upravljanje planiranjem"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SchedulingView.ui:60
 #, kde-format
 msgid "Scheduler:"
-msgstr ""
+msgstr "Planer:"
 
 #. i18n: ectx: property (text), widget (QPushButton, calculate)
 #: SchedulingView.ui:67
 #, kde-format
 msgid "Calculate"
-msgstr ""
+msgstr "Izračunaj"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: SchedulingView.ui:78
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Mogućnosti"
 
 #. i18n: ectx: property (text), widget (QRadioButton, sequential)
 #: SchedulingView.ui:84
 #, kde-format
 msgid "Sequential"
-msgstr ""
+msgstr "Sekvencijalno"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: SchedulingView.ui:91
 #, kde-format
 msgid "Granularity:"
-msgstr ""
+msgstr "Vremenski korak:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, parallel)
 #: SchedulingView.ui:101
 #, kde-format
 msgid "Parallel"
-msgstr ""
+msgstr "Paralelno"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: SchedulingView.ui:163
 #, kde-format
 msgid "Calculate From"
-msgstr ""
+msgstr "Izračunaj od"
 
 #. i18n: ectx: property (text), widget (QRadioButton, todayRB)
 #: SchedulingView.ui:169
 #, kde-format
 msgid "Today"
-msgstr ""
+msgstr "Danas"
 
 #. i18n: ectx: property (text), widget (QRadioButton, timeRB)
 #: SchedulingView.ui:186
 #, kde-format
 msgid "Time:"
-msgstr ""
+msgstr "Vrijeme:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, tomorrowRB)
 #: SchedulingView.ui:193
 #, kde-format
 msgid "Tomorrow"
-msgstr ""
+msgstr "Sutra"
 
 #: SummaryModel.cpp:83
 #, kde-format
 msgctxt "@title:column Schedule Performance Index"
 msgid "SPI"
-msgstr ""
+msgstr "SPI"
 
 #: SummaryModel.cpp:88
 #, kde-format
@@ -1097,7 +1142,7 @@ msgctxt ""
 "@info:tooltip (Budgeted Cost of Work Scheduled/Budgeted Cost of Work "
 "Performed"
 msgid "Schedule Performance Index (BCWS/BCWP)"
-msgstr ""
+msgstr "Indeks uspješnosti rasporeda (BCWS/BCWP)"
 
 #: SummaryView.cpp:82
 #, kde-kuit-format
@@ -1108,38 +1153,42 @@ msgid ""
 "shown for both cost based and effort based calculations.</para><para><nl/"
 "><link url='%1'>More...</link></para>"
 msgstr ""
+"<title>Sažeti prikaz projekata</title><para>Ovaj prikaz sažima podatke o "
+"uspješnosti projekata u portfelju.</para><para>Prikazani su indeksi "
+"uspješnosti izračunati na temelju troškova i uloženog rada.</para><para><nl/"
+"><link url='%1'>Više...</link></para>"
 
 #: View.cpp:58
 #, kde-format
 msgid "Portfolio Content"
-msgstr ""
+msgstr "Sadržaj portfelja"
 
 #: View.cpp:64
 #, kde-format
 msgid "Scheduling"
-msgstr ""
+msgstr "Planiranje"
 
 #: View.cpp:70
 #, kde-format
 msgid "Summary"
-msgstr ""
+msgstr "Sažetak"
 
 #: View.cpp:78
 #, kde-format
 msgid "Progress"
-msgstr ""
+msgstr "Napredak"
 
 #: View.cpp:83
 #, kde-format
 msgid "Performance"
-msgstr ""
+msgstr "Uspješnost"
 
 #: View.cpp:90
 #, kde-format
 msgid "Resource Usage"
-msgstr ""
+msgstr "Upotreba resursa"
 
 #: View.cpp:96
 #, kde-format
 msgid "Gantt Summary"
-msgstr ""
+msgstr "Sažetak gantograma"

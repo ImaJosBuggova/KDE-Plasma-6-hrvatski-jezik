@@ -107,7 +107,7 @@ msgstr "IMEUID"
 #, kde-format
 msgctxt "%1 is 64 bit key id (in hex), text is used as email subject"
 msgid "Your key %1"
-msgstr "vaš ključ "
+msgstr "vaš ključ %1"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1_4_2)
 #: conf_decryption.ui:52
@@ -117,8 +117,8 @@ msgid ""
 "<p>This option allows the user to specify a custom command to be executed by "
 "GPG when decryption occurs. (This is recommended for advanced users only).</"
 "p></qt>"
-msgstr "<qt><b>Prilagođena naredba dekriptiranja:</b><br />
-<p>Ova opcija korisniku omogućuje navođenje prilagođene naredbe koju će izvršiti GPG pri dekriptiranju. (Ovo se preporuča samo naprednim korisnicima).</p></qt>"
+msgstr "<qt><b>Prilagođena naredba dekriptiranja:</b><br />\n"
+"<p>Ova opcija korisniku omogućuje navođenje prilagođene naredbe koju će izvršiti GPG pri dekriptiranju. (Ovo se preporuča samo naprednim korisnicima).</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
 #: conf_decryption.ui:55
@@ -141,8 +141,8 @@ msgid ""
 "<p>Checking this option outputs all encrypted files in a format that can be "
 "opened by a text editor and as such the output is suitable for placing in "
 "the body of an e-mail message.</p></qt>"
-msgstr "<qt><b>Kriptiranje ASCII-oklopom:</b> <br /> 
-<p>Označavanje ove opcije ispisuje sve kriptirane datoteke u obliku u kojem se može otvoriti u tekstualnom uređivaču pa je zbog toga ispis pogodan za stavljanje u tijelo poruke e-pošte.</p></qt>"
+msgstr "<qt><b>Kriptiranje ASCII-oklopom:</b> <br /> \n"
+"<p>Označavanje ove opcije ispisuje sve kriptirane datoteke u obliku u kojem se može otvoriti u tekstualnom uređivaču pa je zbog toga ispis pogodan za stavljanje u tijelo poruke e-pošte.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AsciiArmor)
 #: conf_encryption.ui:34 selectpublickeydialog.cpp:104
@@ -158,8 +158,8 @@ msgid ""
 "<p>Checking this option will append a .pgp extension to all encrypted files "
 "instead of a .gpg extension. This option will maintain compatibility with "
 "users of PGP (Pretty Good Privacy) software.</p></qt>"
-msgstr "<qt><b>Koristi nastavak *.pgp za kriptirane datoteke:</b><br />
-<p>Označavanje ove opcije će dodati nastavak .pgp na sve kriptirane datoteke umjesto nastavka .gpg. Ova opcija održava kompatibilnost s korisnicima PGP-softvera (Pretty Good Privacy).</p></qt>"
+msgstr "<qt><b>Koristi nastavak *.pgp za kriptirane datoteke:</b><br />\n"
+"<p>Označavanje ove opcije će dodati nastavak .pgp na sve kriptirane datoteke umjesto nastavka .gpg. Ova opcija održava kompatibilnost s korisnicima PGP-softvera (Pretty Good Privacy).</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpExtension)
 #: conf_encryption.ui:45
@@ -175,8 +175,8 @@ msgid ""
 "<p>When activated, an entry field will be shown in the key selection dialog, "
 "enabling you to enter a custom command for encryption. This option is "
 "recommended for experienced users only.</p></qt>"
-msgstr "<qt><b>Prilagođena naredba kriptiranja:</b><br />
-<p>When activated, an entry field will be shown in the key selection dialog, enabling you to enter a custom command for encryption. This option is recommended for experienced users only.</p></qt>"
+msgstr "<qt><b>Prilagođena naredba kriptiranja:</b><br />\n"
+"<p>When activated, an entry field will be shown in the key selection dialog, enabling you to enter a custom command for encryption. This option is recommended for experienced users only.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
 #: conf_encryption.ui:72
@@ -192,8 +192,8 @@ msgid ""
 "<p>This ensures all files/messages will also be encrypted with the chosen "
 "key. However, if the \"Encrypt files with:\" option is selected that chosen "
 "key will override the \"Always encrypt with:\" selection.</p></qt>"
-msgstr "<qt><b>Uvijek kriptiraj s:</b><br />
-<p>Ovo osigurava da će sve datoteke/poruke također biti kriptirane odabranim ključem. Međutim, ako je označena opcija \"Kriptiraj datoteke s:\", taj odabrani ključ će nadvladati opciju \"Uvijek kriptiraj s\".</p></qt>"
+msgstr "<qt><b>Uvijek kriptiraj s:</b><br />\n"
+"<p>Ovo osigurava da će sve datoteke/poruke također biti kriptirane odabranim ključem. Međutim, ako je označena opcija \"Kriptiraj datoteke s:\", taj odabrani ključ će nadvladati opciju \"Uvijek kriptiraj s\".</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, encrypt_to_always)
 #: conf_encryption.ui:116
@@ -209,8 +209,8 @@ msgid ""
 "<p>Checking this option and selecting a key will force any file encryption "
 "operation to use the selected key. KGpg will not query for a recipient and "
 "the default key will be bypassed.</p></qt>"
-msgstr "<qt><b>Kriptiraj datoteke s:</b><br />
-<p>Označavanjem ove opcije i odabirom ključa će se u operaciji kriptiranja datoteka koristiti taj ključ. KGpg neće pitati za primatelja te će zadani ključ biti zaobiđen.</p></qt>"
+msgstr "<qt><b>Kriptiraj datoteke s:</b><br />\n"
+"<p>Označavanjem ove opcije i odabirom ključa će se u operaciji kriptiranja datoteka koristiti taj ključ. KGpg neće pitati za primatelja te će zadani ključ biti zaobiđen.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EncryptFilesTo)
 #: conf_encryption.ui:127
@@ -227,8 +227,8 @@ msgid ""
 "as such cannot be used unless it is signed by the default key (thus making "
 "it 'trusted'). Checking this box enables any key to be used even if it is "
 "untrusted.</p></qt>"
-msgstr "<qt><b>Dozvoli kriptiranje ključevima kojima se ne vjeruje:</b><br />
-<p>Pri uvezu javnog ključa ključ se obično označi kao onaj kojem se ne vjeruje pa se kao takav ne može koristiti osim ako ako nije potpisan zadanim ključem (i time mu se vjeruje). Označavanjem ovog okvira omogućujete korištenje bilo kojeg ključa čak ako mu se ne vjeruje.</p></qt>"
+msgstr "<qt><b>Dozvoli kriptiranje ključevima kojima se ne vjeruje:</b><br />\n"
+"<p>Pri uvezu javnog ključa ključ se obično označi kao onaj kojem se ne vjeruje pa se kao takav ne može koristiti osim ako ako nije potpisan zadanim ključem (i time mu se vjeruje). Označavanjem ovog okvira omogućujete korištenje bilo kojeg ključa čak ako mu se ne vjeruje.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedKeys)
 #: conf_encryption.ui:138 selectpublickeydialog.cpp:110
@@ -263,8 +263,8 @@ msgid ""
 "disadvantage: the receiver of the encrypted packets is forced to try all "
 "secret keys before being able to decrypt the packets. This can be a lengthy "
 "process depending on the number of secret keys the receiver holds.</p></qt>"
-msgstr "<qt><b>Sakrij korisnički ID:</b><br /> 
-<p>Označavanjem ove opcije će se ukloniti primateljev id ključa iz svih kriptiranih paketa. Prednost: teže će se vršiti analiza prometa kriptiranih paketa zbog nepoznatog primatelja. Nedostatak: primatelj kriptiranih paketa je primoran isprobati sve tajne ključeve kako bi mogao dekriptirati pakete. Ova obrada može potrajati ovisno o broju tajnih ključeva koje ima primatelj.</p></qt>"
+msgstr "<qt><b>Sakrij korisnički ID:</b><br /> \n"
+"<p>Označavanjem ove opcije će se ukloniti primateljev id ključa iz svih kriptiranih paketa. Prednost: teže će se vršiti analiza prometa kriptiranih paketa zbog nepoznatog primatelja. Nedostatak: primatelj kriptiranih paketa je primoran isprobati sve tajne ključeve kako bi mogao dekriptirati pakete. Ova obrada može potrajati ovisno o broju tajnih ključeva koje ima primatelj.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUserID)
 #: conf_encryption.ui:159 selectpublickeydialog.cpp:119
@@ -280,8 +280,8 @@ msgid ""
 "<p>Checking this option forces GnuPG to output encrypted packets that are as "
 "compliant with PGP (Pretty Good Privacy) 6 standards as possible thus "
 "allowing GnuPG users to inter operate with PGP 6 users.</p></qt>"
-msgstr "<qt><b>Kompatibilnost s PGP-om 6:</b><br /> 
-<p>Označavanje ove opcije primorava GnuPG da stvara kriptirane pakete koji su što više usuglašeni sa standardima PGP-a 6 (Pretty Good Privacy) što omogućava korisnicima GnuPG-a interoperabilnost s korisnicima PGP-a 6.</p></qt>"
+msgstr "<qt><b>Kompatibilnost s PGP-om 6:</b><br /> \n"
+"<p>Označavanje ove opcije primorava GnuPG da stvara kriptirane pakete koji su što više usuglašeni sa standardima PGP-a 6 (Pretty Good Privacy) što omogućava korisnicima GnuPG-a interoperabilnost s korisnicima PGP-a 6.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpCompatibility)
 #: conf_encryption.ui:170
@@ -296,9 +296,9 @@ msgid ""
 "<qt><b>Global Settings:</b><br />\n"
 "<p></p>\n"
 "</qt>"
-msgstr "<qt><b>Globalne postavke:</b><br />
-	<p></p>
-	</qt>"
+msgstr "<qt><b>Globalne postavke:</b><br />\n"
+"	<p></p>\n"
+"	</qt>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: conf_gpg.ui:22
@@ -391,8 +391,8 @@ msgid ""
 "<qt><b>Start KGpg automatically at KDE startup:</b><br />\n"
 "<p>If checked KGpg will start automatically each time that KDE starts up.</"
 "p></qt>"
-msgstr "<qt><b>Automatski pokreni KGpg pri pokretanju KDE-a:</b><br />
-<p>Ako je označeno, KGpg će se automatski pokrenuti pri svakom pokretanju KDE-a.</p></qt>"
+msgstr "<qt><b>Automatski pokreni KGpg pri pokretanju KDE-a:</b><br />\n"
+"<p>Ako je označeno, KGpg će se automatski pokrenuti pri svakom pokretanju KDE-a.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
 #: conf_misc.ui:36
@@ -409,8 +409,8 @@ msgid ""
 "clipboard, that means highlighting a text to copy, and middle button (or "
 "right+left together) to paste. If this option is not checked, the clipboard "
 "will work with Key shortcuts (Ctrl-c, Ctrl-v).</p></qt> "
-msgstr "<qt><b>Koristi označeno mišem umjesto odlagališta:</b><br />
-<p>Ako je označeno, operacije odlagališta u KGpg-u će koristiti odlagalište označenog što znači da za kopiranje teksta treba istaknuti tekst, a srednji gumb (ili istovremeno lijevi i desni gumb) za zalijepiti. Ako je ova opcija označena, odlagalište će raditi s tipkovničkim prečacima (Ctrl-c, Ctrl-v).</p></qt> "
+msgstr "<qt><b>Koristi označeno mišem umjesto odlagališta:</b><br />\n"
+"<p>Ako je označeno, operacije odlagališta u KGpg-u će koristiti odlagalište označenog što znači da za kopiranje teksta treba istaknuti tekst, a srednji gumb (ili istovremeno lijevi i desni gumb) za zalijepiti. Ako je ova opcija označena, odlagalište će raditi s tipkovničkim prečacima (Ctrl-c, Ctrl-v).</p></qt> "
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMouseSelection)
 #: conf_misc.ui:56
@@ -424,8 +424,8 @@ msgstr "Koristi selekciju miša umjesto odlagališta."
 msgid ""
 "<qt><b>Display warning before creating temporary files:</b><br />\n"
 "<p></p></qt>"
-msgstr "<qt><b>Pokaži upozorenje prije stvaranja privremenih datoteka:</b><br />
-<p></p></qt>"
+msgstr "<qt><b>Pokaži upozorenje prije stvaranja privremenih datoteka:</b><br />\n"
+"<p></p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoteFileWarn)
 #: conf_misc.ui:74
@@ -433,8 +433,8 @@ msgstr "<qt><b>Pokaži upozorenje prije stvaranja privremenih datoteka:</b><br /
 msgid ""
 "Display warning before creating temporary files\n"
 "(only occurs on remote files operations)"
-msgstr "Pokaži upozorenje prije stvaranja privremenih datoteka
-(javlja se samo pri radu s udaljenim datotekama)"
+msgstr "Pokaži upozorenje prije stvaranja privremenih datoteka\n"
+"(javlja se samo pri radu s udaljenim datotekama)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabApplet)
 #: conf_misc.ui:97
@@ -455,9 +455,9 @@ msgid ""
 "<qt><b>Sign file service menu:</b><br />\n"
 "<p></p>\n"
 "</qt>"
-msgstr "<qt><b>Servisni izbornik za potpisivanje datoteka:</b><br />
-<p></p>
-</qt>"
+msgstr "<qt><b>Servisni izbornik za potpisivanje datoteka:</b><br />\n"
+"<p></p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: conf_misc.ui:122
@@ -486,9 +486,9 @@ msgid ""
 "<qt><b>Decrypt file service menu:</b><br />\n"
 "<p></p>\n"
 "</qt>"
-msgstr "<qt><b>Uslužni izbornik za dekriptiranje datoteka:</b><br />
-<p></p>
-</qt>"
+msgstr "<qt><b>Uslužni izbornik za dekriptiranje datoteka:</b><br />\n"
+"<p></p>\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #: conf_misc.ui:167
@@ -514,8 +514,8 @@ msgstr "Applet sistemskog bloka"
 msgid ""
 "<qt><b>Show system tray icon:</b><br />\n"
 "<p>If checked KGpg will minimize to an icon in the system tray.</p></qt>"
-msgstr "<qt><b>Prikaži ikonu sistemskom bloku:</b><br />
-<p>Ako je označeno, KGpg će se spustiti u ikonu u sistemskom bloku.</p></qt>"
+msgstr "<qt><b>Prikaži ikonu sistemskom bloku:</b><br />\n"
+"<p>Ako je označeno, KGpg će se spustiti u ikonu u sistemskom bloku.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystray)
 #: conf_misc.ui:211
@@ -602,9 +602,9 @@ msgid ""
 "\n"
 "The placeholders surrounded by the percent signs (like %KEYID%) will be "
 "replaced with the corresponding text for every single mail."
-msgstr "Ovo je tekst e-pošte poslane akcijom \"Potpiši i pošalji e-poštom korisnički ID\".
-
-Zamjenski simbol okružen znacima postotka (kao %IDKLJUČA%) bit će zamijenjen pripadnim tekstom za svaku pojedinu e-poštu."
+msgstr "Ovo je tekst e-pošte poslane akcijom \"Potpiši i pošalji e-poštom korisnički ID\".\n"
+"\n"
+"Zamjenski simbol okružen znacima postotka (kao %IDKLJUČA%) bit će zamijenjen pripadnim tekstom za svaku pojedinu e-poštu."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #: conf_servers.ui:25
@@ -613,9 +613,9 @@ msgid ""
 "<b>INFORMATION</b>:\n"
 "Only the default server will be stored in GnuPG's configuration file,\n"
 "all others will be stored for use by KGpg only."
-msgstr "<b>INFORMACIJE</b>:
-Samo će zadani poslužitelj biti pohranjen u GnuPG-ovu konfiguracijsku datoteku,
-a svi ostali će biti pohranjeni samo za upotrebu u KGpg-u."
+msgstr "<b>INFORMACIJE</b>:\n"
+"Samo će zadani poslužitelj biti pohranjen u GnuPG-ovu konfiguracijsku datoteku,\n"
+"a svi ostali će biti pohranjeni samo za upotrebu u KGpg-u."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseProxy)
 #: conf_servers.ui:35
@@ -921,7 +921,7 @@ msgstr ", "
 #, kde-format
 msgid "1 key"
 msgid_plural "%1 keys"
-msgstr[0] "1 ključ"
+msgstr[0] "%1 ključ"
 msgstr[1] "%1 ključa"
 msgstr[2] "%1 ključeva"
 
@@ -935,7 +935,7 @@ msgstr "%1 / %2"
 #, kde-format
 msgid "1 signature"
 msgid_plural "%1 signatures"
-msgstr[0] "1 potpis"
+msgstr[0] "%1 potpis"
 msgstr[1] "%1 potpisa"
 msgstr[2] "%1 potpisa"
 
@@ -1031,8 +1031,8 @@ msgstr "Potp&iši/provjeri"
 msgid ""
 "The document \"%1\" has changed.\n"
 "Do you want to save it?"
-msgstr "Promijenjen je dokument \"%1\".
-Želite li ga spremiti?"
+msgstr "Promijenjen je dokument \"%1\".\n"
+"Želite li ga spremiti?"
 
 #: editor/kgpgeditor.cpp:246
 #, kde-format
@@ -1509,8 +1509,8 @@ msgid ""
 "<b>Key Server Drop Down Dialog:</b>\n"
 "Allows the user to select the Key Server which will be used to import PGP/"
 "GnuPG keys into the local keyring."
-msgstr "<b>Padajući dijalog s poslužiteljima za ključeve:</b>
-Korisniku omogućuje odabir poslužitelja za ključeve koji će se koristiti za uvoz PGP/GnuPG-ključeva u lokalni prsten ključeva."
+msgstr "<b>Padajući dijalog s poslužiteljima za ključeve:</b>\n"
+"Korisniku omogućuje odabir poslužitelja za ključeve koji će se koristiti za uvoz PGP/GnuPG-ključeva u lokalni prsten ključeva."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #: keyserver.ui:61
@@ -1523,8 +1523,8 @@ msgid ""
 "the key. Key ID's are strings of letters and numbers that uniquely identify "
 "a key (example: searching for 0xED7585F4 would bring up the key associated "
 "with that ID).</p></qt>"
-msgstr "<qt><b>Tekst koji treba tražiti ili ID ključa kojeg treba uvesti:</b><br />
-<p>Postoji više načina za pretraživanje ključa pa tako možete koristiti tekst ili dio teksta (primjer: unošenjem niza Ivan ili Horvat ispisat će se svi ključevi u kojima se pojavljuje Ivan ili Horvat) ili možete pretraživati po ID-u ključa. ID-jevi ključeva su nizovi slova i brojki koji jedinstveno određuju ključ (primjer: unošenjem niza 0xED7585F4 ispisat će se ključ vezan uz taj ID).</p></qt>"
+msgstr "<qt><b>Tekst koji treba tražiti ili ID ključa kojeg treba uvesti:</b><br />\n"
+"<p>Postoji više načina za pretraživanje ključa pa tako možete koristiti tekst ili dio teksta (primjer: unošenjem niza Ivan ili Horvat ispisat će se svi ključevi u kojima se pojavljuje Ivan ili Horvat) ili možete pretraživati po ID-u ključa. ID-jevi ključeva su nizovi slova i brojki koji jedinstveno određuju ključ (primjer: unošenjem niza 0xED7585F4 ispisat će se ključ vezan uz taj ID).</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: keyserver.ui:70
@@ -1558,8 +1558,8 @@ msgid ""
 "<qt><b>Key to be exported:</b><br />\n"
 "<p>This allows the user to specify the key from the drop down list that will "
 "be exported to the key server selected.</p></qt>"
-msgstr "<qt><b>Ključ koji treba izvesti:</b><br />
-<p>Ovo korisniku omogućuje određivanje ključa iz padajuće liste koji će biti izvezen na odabrani poslužitelj za ključeve.</p></qt>"
+msgstr "<qt><b>Ključ koji treba izvesti:</b><br />\n"
+"<p>Ovo korisniku omogućuje određivanje ključa iz padajuće liste koji će biti izvezen na odabrani poslužitelj za ključeve.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: keyserver.ui:194
@@ -1580,8 +1580,8 @@ msgid ""
 "<qt><b>Export:</b><br />\n"
 "<p>Pushing this button will export the specified key to the specified server."
 "</p></qt>"
-msgstr "<qt><b>Izvoz:</b><br />
-<p>Pritiskom ovog gumba izvest ćete navedeni ključ na navedeni poslužitelj.</p></qt>"
+msgstr "<qt><b>Izvoz:</b><br />\n"
+"<p>Pritiskom ovog gumba izvest ćete navedeni ključ na navedeni poslužitelj.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QPushButton, Buttonexport)
 #: keyserver.ui:269
@@ -1657,12 +1657,12 @@ msgstr[2] "Pronađeno je %1 odgovarajućih ključeva"
 #: keyservers.cpp:378
 #, kde-format
 msgid "Found 1 matching key (not shown)"
-msgstr "Pronađen je %1 podudarni ključ"
+msgstr "Pronađen je podudarni ključ"
 
 #: keyservers.cpp:380
 #, kde-format
 msgid "Found %1 matching keys (%2 shown)"
-msgstr "Pronađen je %1 podudarni ključ"
+msgstr "Pronađen je %1 podudarni ključ (%2)"
 
 #: keysmanager.cpp:125
 #, kde-format
@@ -1898,8 +1898,8 @@ msgstr "Fokusiraj traku za pretraživanje"
 msgid ""
 "Another key generation operation is still in progress.\n"
 "Please wait a moment until this operation is complete."
-msgstr "Još jedna operacija stvaranja ključa je u tijeku.
-Pričekajte trenutak da operacija završi."
+msgstr "Još jedna operacija stvaranja ključa je u tijeku.\n"
+"Pričekajte trenutak da operacija završi."
 
 #: keysmanager.cpp:486 keysmanager.cpp:524 keysmanager.cpp:572
 #, kde-format
@@ -1963,8 +1963,8 @@ msgstr "Možete osvježiti samo primarne ključeve. Provjerite vaš odabir."
 msgid ""
 "Another operation is still in progress.\n"
 "Please wait a moment until this operation is complete."
-msgstr "Još jedna operacija je u tijeku.
-Pričekajte trenutak da operacija završi."
+msgstr "Još jedna operacija je u tijeku.\n"
+"Pričekajte trenutak da operacija završi."
 
 #: keysmanager.cpp:863 keysmanager.cpp:868
 #, kde-format
@@ -2153,14 +2153,14 @@ msgstr "<qt>Vaš <b>privatni</b> ključ \"%1\" je uspješno izvezen u<br/>%2.<br
 msgid ""
 "Your secret key could not be exported.\n"
 "Check the key."
-msgstr "Vaš tajni ključ nije moguće izvesti.
-Provjerite ključ."
+msgstr "Vaš tajni ključ nije moguće izvesti.\n"
+"Provjerite ključ."
 
 #: keysmanager.cpp:1494
 #, kde-format
 msgid "<qt>The public key was successfully exported to<br/>%2</qt>"
 msgid_plural "<qt>The %1 public keys were successfully exported to<br/>%2</qt>"
-msgstr[0] "<qt>Javni ključ uspješno je izvezen u<br/>%2</qt>"
+msgstr[0] "<qt>%1 javni ključ uspješno je izvezen u<br/>%2</qt>"
 msgstr[1] "<qt>%1 javna ključa uspješno su izvezena u<br/>%2</qt>"
 msgstr[2] "<qt>%1 javnih ključeva uspješno je izvezeno u<br/>%2</qt>"
 
@@ -2169,8 +2169,8 @@ msgstr[2] "<qt>%1 javnih ključeva uspješno je izvezeno u<br/>%2</qt>"
 msgid ""
 "Your public key could not be exported\n"
 "Check the key."
-msgstr "Vaš javni ključ se nije mogao izvesti
-Provjerite ključ."
+msgstr "Vaš javni ključ se nije mogao izvesti\n"
+"Provjerite ključ."
 
 #: keysmanager.cpp:1636
 #, kde-format
@@ -2403,8 +2403,8 @@ msgstr "<p>Izbrisati <b>tajni</b> par ključeva <b>%1</b>?</p>Brisanjem ovog par
 msgid ""
 "Another key delete operation is still in progress.\n"
 "Please wait a moment until this operation is complete."
-msgstr "Još jedna operacija brisanja ključeva je u tijeku.
-Pričekajte trenutak da operacija završi."
+msgstr "Još jedna operacija brisanja ključeva je u tijeku.\n"
+"Pričekajte trenutak da operacija završi."
 
 #: keysmanager.cpp:2368
 #, kde-format
@@ -2439,7 +2439,7 @@ msgstr "<qt>Ovo su tajni parovi ključeva:<br/><b>%1</b><br/>Oni neće biti izbr
 #, kde-format
 msgid "<qt><b>Delete the following public key?</b></qt>"
 msgid_plural "<qt><b>Delete the following %1 public keys?</b></qt>"
-msgstr[0] "<qt><b>Želite li izbrisati sljedeći javni ključ?</b></qt>"
+msgstr[0] "<qt><b>Želite li izbrisati sljedeći %1 javni ključ?</b></qt>"
 msgstr[1] "<qt><b>Želite li izbrisati sljedeća %1 javna ključa?</b></qt>"
 msgstr[2] "<qt><b>Želite li izbrisati sljedećih %1 javnih ključeva?</b></qt>"
 
@@ -2580,8 +2580,8 @@ msgid ""
 "Unable to perform requested operation.\n"
 "Please select only one folder, or several files, but do not mix files and "
 "folders."
-msgstr "Nije moguće izvesti traženu operaciju.
-Odaberite samo jednu mapu ili nekoliko datoteka, no ne miješajte datoteke i mape."
+msgstr "Nije moguće izvesti traženu operaciju.\n"
+"Odaberite samo jednu mapu ili nekoliko datoteka, no ne miješajte datoteke i mape."
 
 #: kgpg.cpp:188
 #, kde-format
@@ -2642,20 +2642,19 @@ msgid ""
 "choose `Export Public Key...`.\n"
 "\n"
 "If you have any questions, don't hesitate to ask.\n"
-msgstr "Pozdrav,
-
-u privitku se nalazi vaš korisnički ID '%UIDNAME%' ključa %KEYID%, koji sam potpisao. Ova je poruka šifrirana tim ključem kako bi se potvrdilo da upravljate i adresom e-pošte i ključem.
-
-Ako imate više korisničkih ID-ova, potpis za svaki ID poslao sam zasebno na pripadajuću adresu e-pošte. Potpise možete uvesti tako da svaki od njih, nakon dešifriranja naredbom `gpg --decrypt`, uvezete naredbom `gpg --import`.
-
-Ako upotrebljavate KGpg, spremite privitak na disk pa ga uvezite. U izborniku `Ključevi` odaberite `Uvezi ključ...` i otvorite datoteku.
-
-Imajte na umu da vaš ključ nisam prenio ni na jedan poslužitelj ključeva. Želite li da ovaj novi potpis bude dostupan drugima, prenesite ga sami. U GnuPG-u to možete učiniti naredbom gpg --keyserver subkeys.pgp.net --send-key %KEYID%.
-
-U KGpg-u možete desnom tipkom miša kliknuti ključ nakon što uvezete sve korisničke ID-ove i odabrati `Izvezi javni ključ...`.
-
-Ako imate pitanja, slobodno ih postavite.
-"
+msgstr "Pozdrav,\n"
+"\n"
+"u privitku se nalazi vaš korisnički ID '%UIDNAME%' ključa %KEYID%, koji sam potpisao. Ova je poruka šifrirana tim ključem kako bi se potvrdilo da upravljate i adresom e-pošte i ključem.\n"
+"\n"
+"Ako imate više korisničkih ID-ova, potpis za svaki ID poslao sam zasebno na pripadajuću adresu e-pošte. Potpise možete uvesti tako da svaki od njih, nakon dešifriranja naredbom `gpg --decrypt`, uvezete naredbom `gpg --import`.\n"
+"\n"
+"Ako upotrebljavate KGpg, spremite privitak na disk pa ga uvezite. U izborniku `Ključevi` odaberite `Uvezi ključ...` i otvorite datoteku.\n"
+"\n"
+"Imajte na umu da vaš ključ nisam prenio ni na jedan poslužitelj ključeva. Želite li da ovaj novi potpis bude dostupan drugima, prenesite ga sami. U GnuPG-u to možete učiniti naredbom gpg --keyserver subkeys.pgp.net --send-key %KEYID%.\n"
+"\n"
+"U KGpg-u možete desnom tipkom miša kliknuti ključ nakon što uvezete sve korisničke ID-ove i odabrati `Izvezi javni ključ...`.\n"
+"\n"
+"Ako imate pitanja, slobodno ih postavite.\n"
 
 #. i18n: ectx: label, entry (CustomDecrypt), group (Decryption)
 #: kgpg.kcfg:13
@@ -3410,10 +3409,10 @@ msgid ""
 "Do you want to create it now?\n"
 "\n"
 "Without a configuration file, neither KGpg nor GnuPG will work properly."
-msgstr "Nije pronađena konfiguracijska datoteka u odabranoj lokaciji.
-Želite li ju sada stvoriti?
-
-Ni KGpg ni Gnupg neće raditi ispravno bez konfiguracijske datoteke."
+msgstr "Nije pronađena konfiguracijska datoteka u odabranoj lokaciji.\n"
+"Želite li ju sada stvoriti?\n"
+"\n"
+"Ni KGpg ni Gnupg neće raditi ispravno bez konfiguracijske datoteke."
 
 #: kgpgoptions.cpp:159
 #, kde-format
@@ -3615,7 +3614,7 @@ msgstr "%1: %2"
 #, kde-format
 msgctxt "ID: Name <Email>"
 msgid "%1: %2 <%3>"
-msgstr "%1: %2"
+msgstr "%1: %2 <%3>"
 
 #: model/keylistproxymodel.cpp:183
 #, kde-format
@@ -3631,13 +3630,13 @@ msgstr "Povjerenje: %1<br>Povjerenje vlasnika: %2"
 #: model/kgpgitemmodel.cpp:183
 #, kde-format
 msgid "Trust: %1"
-msgstr "Povjerenje:"
+msgstr "Povjerenje: %1"
 
 #: model/kgpgitemmodel.cpp:280 model/kgpgitemmodel.cpp:283
 #, kde-format
 msgid "1 Key"
 msgid_plural "%1 Keys"
-msgstr[0] "1 ključ"
+msgstr[0] "%1 ključ"
 msgstr[1] "%1 ključa"
 msgstr[2] "%1 ključeva"
 
@@ -3645,7 +3644,7 @@ msgstr[2] "%1 ključeva"
 #, kde-format
 msgid "1 Group"
 msgid_plural "%1 Groups"
-msgstr[0] "1 grupa"
+msgstr[0] "%1 grupa"
 msgstr[1] "%1 grupe"
 msgstr[2] "%1 grupa"
 
@@ -3687,7 +3686,7 @@ msgstr "ID %1, ključ %2-bitni %3, stvoren %4"
 #, kde-format
 msgid "One Photo ID"
 msgid_plural "%1 Photo IDs"
-msgstr[0] "Jedna fotografija"
+msgstr[0] "%1 fotografija"
 msgstr[1] "%1 fotografije"
 msgstr[2] "%1 fotografija"
 
@@ -3722,8 +3721,8 @@ msgid ""
 "<qt><b>Set as your default key:</b><br />\n"
 "<p>Checking this option sets the newly created key pair as the default key "
 "pair.</p></qt>"
-msgstr "<qt><b>Postavi kao zadani ključ:</b><br />
-<p>Označavanje ove opcije postavlja novostvoreni par  ključeva kao zadani par kjučeva.</p></qt>"
+msgstr "<qt><b>Postavi kao zadani ključ:</b><br />\n"
+"<p>Označavanje ove opcije postavlja novostvoreni par  ključeva kao zadani par kjučeva.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, CBdefault)
 #: newkey.ui:140
@@ -3799,7 +3798,7 @@ msgstr "Odaberite javni ključ za %1"
 #, kde-format
 msgid "Select Public Key for %2 and one more file"
 msgid_plural "Select Public Key for %2 and %1 more files"
-msgstr[0] "Odaberite javni ključ za %2 i još jednu datoteku"
+msgstr[0] "Odaberite javni ključ za %2 i još %1 datoteku"
 msgstr[1] "Odaberite javni ključ za %2 i još %1 datoteke"
 msgstr[2] "Odaberite javni ključ za %2 i još %1 datoteka"
 
@@ -3881,7 +3880,7 @@ msgid ""
 msgid_plural ""
 "How carefully have you checked that the %1 keys really belong to the people "
 "with whom you wish to communicate:"
-msgstr[0] "Koliko ste pažljivo provjerili da ključ zaista pripada osobi s kojom želite komunicirati:"
+msgstr[0] "Koliko ste pažljivo provjerili da %1 ključ zaista pripada osobi s kojom želite komunicirati:"
 msgstr[1] "Koliko ste pažljivo provjerili da %1 ključa zaista pripadaju osobama s kojima želite komunicirati:"
 msgstr[2] "Koliko ste pažljivo provjerili da %1 ključeva zaista pripada osobama s kojima želite komunicirati:"
 
@@ -4057,7 +4056,7 @@ msgstr[2] "<para>Obrađeno je %1 ključeva.</para>"
 msgctxt "@info"
 msgid "<para>One key without ID.</para>"
 msgid_plural "<para>%1 keys without ID.</para>"
-msgstr[0] "<para>Jedan ključ bez ID-a.</para>"
+msgstr[0] "<para>%1 ključ bez ID-a.</para>"
 msgstr[1] "<para>%1 ključa bez ID-a.</para>"
 msgstr[2] "<para>%1 ključeva bez ID-a.</para>"
 
@@ -4067,7 +4066,7 @@ msgctxt "@info"
 msgid "<para><emphasis strong='true'>One key imported:</emphasis></para>"
 msgid_plural ""
 "<para><emphasis strong='true'>%1 keys imported:</emphasis></para>"
-msgstr[0] "<para><emphasis strong='true'>Uvezen je jedan ključ:</emphasis></para>"
+msgstr[0] "<para><emphasis strong='true'>Uvezen je %1 ključ:</emphasis></para>"
 msgstr[1] "<para><emphasis strong='true'>Uvezena su %1 ključa:</emphasis></para>"
 msgstr[2] "<para><emphasis strong='true'>Uvezeno je %1 ključeva:</emphasis></para>"
 
@@ -4076,7 +4075,7 @@ msgstr[2] "<para><emphasis strong='true'>Uvezeno je %1 ključeva:</emphasis></pa
 msgctxt "@info"
 msgid "<para>One RSA key imported.</para>"
 msgid_plural "<para>%1 RSA keys imported.</para>"
-msgstr[0] "<para>Uvezen je jedan RSA ključ.</para>"
+msgstr[0] "<para>Uvezen je %1 RSA ključ.</para>"
 msgstr[1] "<para>Uvezena su %1 RSA ključa.</para>"
 msgstr[2] "<para>Uvezeno je %1 RSA ključeva.</para>"
 
@@ -4085,7 +4084,7 @@ msgstr[2] "<para>Uvezeno je %1 RSA ključeva.</para>"
 msgctxt "@info"
 msgid "<para>One key unchanged.</para>"
 msgid_plural "<para>%1 keys unchanged.</para>"
-msgstr[0] "<para>Jedan ključ nije promijenjen.</para>"
+msgstr[0] "<para>%1 ključ nije promijenjen.</para>"
 msgstr[1] "<para>%1 ključa nisu promijenjena.</para>"
 msgstr[2] "<para>%1 ključeva nije promijenjeno.</para>"
 
@@ -4094,7 +4093,7 @@ msgstr[2] "<para>%1 ključeva nije promijenjeno.</para>"
 msgctxt "@info"
 msgid "<para>One user ID imported.</para>"
 msgid_plural "<para>%1 user IDs imported.</para>"
-msgstr[0] "<para>Uvezen je jedan korisnički ID.</para>"
+msgstr[0] "<para>Uvezen je %1 korisnički ID.</para>"
 msgstr[1] "<para>Uvezena su %1 korisnička ID-a.</para>"
 msgstr[2] "<para>Uvezeno je %1 korisničkih ID-ova.</para>"
 
@@ -4103,7 +4102,7 @@ msgstr[2] "<para>Uvezeno je %1 korisničkih ID-ova.</para>"
 msgctxt "@info"
 msgid "<para>One subkey imported.</para>"
 msgid_plural "<para>%1 subkeys imported.</para>"
-msgstr[0] "<para>Uvezen je jedan podključ.</para>"
+msgstr[0] "<para>Uvezen je %1 podključ.</para>"
 msgstr[1] "<para>Uvezena su %1 podključa.</para>"
 msgstr[2] "<para>Uvezeno je %1 podključeva.</para>"
 
@@ -4112,7 +4111,7 @@ msgstr[2] "<para>Uvezeno je %1 podključeva.</para>"
 msgctxt "@info"
 msgid "<para>One signature imported.</para>"
 msgid_plural "<para>%1 signatures imported.</para>"
-msgstr[0] "<para>Uvezen je jedan potpis.</para>"
+msgstr[0] "<para>Uvezen je %1 potpis.</para>"
 msgstr[1] "<para>Uvezena su %1 potpisa.</para>"
 msgstr[2] "<para>Uvezeno je %1 potpisa.</para>"
 
@@ -4121,7 +4120,7 @@ msgstr[2] "<para>Uvezeno je %1 potpisa.</para>"
 msgctxt "@info"
 msgid "<para>One revocation certificate imported.</para>"
 msgid_plural "<para>%1 revocation certificates imported.</para>"
-msgstr[0] "<para>Uvezen je jedan certifikat za opoziv.</para>"
+msgstr[0] "<para>Uvezen je %1 certifikat za opoziv.</para>"
 msgstr[1] "<para>Uvezena su %1 certifikata za opoziv.</para>"
 msgstr[2] "<para>Uvezeno je %1 certifikata za opoziv.</para>"
 
@@ -4130,7 +4129,7 @@ msgstr[2] "<para>Uvezeno je %1 certifikata za opoziv.</para>"
 msgctxt "@info"
 msgid "<para>One secret key processed.</para>"
 msgid_plural "<para>%1 secret keys processed.</para>"
-msgstr[0] "<para>Obrađen je jedan tajni ključ.</para>"
+msgstr[0] "<para>Obrađen je %1 tajni ključ.</para>"
 msgstr[1] "<para>Obrađena su %1 tajna ključa.</para>"
 msgstr[2] "<para>Obrađeno je %1 tajnih ključeva.</para>"
 
@@ -4141,7 +4140,7 @@ msgid ""
 "<para><emphasis strong='true'>One secret key imported.</emphasis></para>"
 msgid_plural ""
 "<para><emphasis strong='true'>%1 secret keys imported.</emphasis></para>"
-msgstr[0] "<para><emphasis strong='true'>Uvezen je jedan tajni ključ.</emphasis></para>"
+msgstr[0] "<para><emphasis strong='true'>Uvezen je %1 tajni ključ.</emphasis></para>"
 msgstr[1] "<para><emphasis strong='true'>Uvezena su %1 tajna ključa.</emphasis></para>"
 msgstr[2] "<para><emphasis strong='true'>Uvezeno je %1 tajnih ključeva.</emphasis></para>"
 
@@ -4150,7 +4149,7 @@ msgstr[2] "<para><emphasis strong='true'>Uvezeno je %1 tajnih ključeva.</emphas
 msgctxt "@info"
 msgid "<para>One secret key unchanged.</para>"
 msgid_plural "<para>%1 secret keys unchanged.</para>"
-msgstr[0] "<para>Jedan tajni ključ nije promijenjen.</para>"
+msgstr[0] "<para>%1 tajni ključ nije promijenjen.</para>"
 msgstr[1] "<para>%1 tajna ključa nisu promijenjena.</para>"
 msgstr[2] "<para>%1 tajnih ključeva nije promijenjeno.</para>"
 
@@ -4159,7 +4158,7 @@ msgstr[2] "<para>%1 tajnih ključeva nije promijenjeno.</para>"
 msgctxt "@info"
 msgid "<para>One secret key not imported.</para>"
 msgid_plural "<para>%1 secret keys not imported.</para>"
-msgstr[0] "<para>Jedan tajni ključ nije uvezen.</para>"
+msgstr[0] "<para>%1 tajni ključ nije uvezen.</para>"
 msgstr[1] "<para>%1 tajna ključa nisu uvezena.</para>"
 msgstr[2] "<para>%1 tajnih ključeva nije uvezeno.</para>"
 
@@ -4262,7 +4261,7 @@ msgstr "Unesite tajni izraz za <b>%1</b>"
 #, kde-format
 msgid "<p><b>Bad passphrase</b>. You have 1 try left.</p>"
 msgid_plural "<p><b>Bad passphrase</b>. You have %1 tries left.</p>"
-msgstr[0] "<p><b>Pogrešna zaporka</b>. Preostao je još jedan pokušaj.</p>"
+msgstr[0] "<p><b>Pogrešna zaporka</b>. Preostao je još %1 pokušaj.</p>"
 msgstr[1] "<p><b>Pogrešna zaporka</b>. Preostala su još %1 pokušaja.</p>"
 msgstr[2] "<p><b>Pogrešna zaporka</b>. Preostalo je još %1 pokušaja.</p>"
 
@@ -4276,7 +4275,7 @@ msgstr "Unesite tajni izraz"
 msgctxt ""
 "@info first argument is formatted date, second argument is formatted time"
 msgid "<para>The signature was created at %1 %2</para>"
-msgstr "Neispravna lozinka, potpis nije kreiran"
+msgstr "Neispravna lozinka, potpis nije kreiran %1 %2"
 
 #: transactions/kgpgverify.cpp:122
 #, kde-kuit-format

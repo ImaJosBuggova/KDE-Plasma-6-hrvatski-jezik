@@ -25,7 +25,7 @@ msgstr "Roko Tomović"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Vaše adrese e-pošte"
 
 #: basictypes.cpp:190
 #, kde-format
@@ -447,7 +447,7 @@ msgstr "Generiranje tijela metoda"
 #: codegenerators/cpp/cppcodegenerationformbase.ui:122
 #, kde-format
 msgid "QPtrList"
-msgstr ""
+msgstr "QPtrList"
 
 #. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_listClassHCombo)
 #. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_listClassHCombo)
@@ -484,7 +484,7 @@ msgstr ""
 #: codegenerators/cpp/cppcodegenerationformbase.ui:424
 #, kde-format
 msgid "vector"
-msgstr ""
+msgstr "vector"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_textLabelVariable)
 #: codegenerators/cpp/cppcodegenerationformbase.ui:140
@@ -498,7 +498,7 @@ msgstr "<b>Varijabla</b>"
 #: codegenerators/cpp/cppcodegenerationformbase.ui:343
 #, kde-format
 msgid "..."
-msgstr ""
+msgstr "…"
 
 #. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
 #: codegenerators/cpp/cppcodegenerationformbase.ui:192
@@ -528,7 +528,7 @@ msgstr ""
 #: codegenerators/cpp/cppcodegenerationformbase.ui:240
 #, kde-format
 msgid "QString"
-msgstr ""
+msgstr "QString"
 
 #. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringClassHCombo)
 #. i18n: ectx: property (text), item, widget (KHistoryComboBox, ui_stringClassHCombo)
@@ -588,7 +588,7 @@ msgstr ""
 #: codegenerators/cpp/cppcodegenerationformbase.ui:496
 #, kde-format
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_textLabelStringClass)
 #: codegenerators/cpp/cppcodegenerationformbase.ui:295
@@ -636,7 +636,7 @@ msgstr "<i>globalno?</i>"
 #: codegenerators/cpp/cppcodegenerationformbase.ui:415
 #, kde-format
 msgid "qptrlist.h"
-msgstr ""
+msgstr "qptrlist.h"
 
 #. i18n: ectx: property (historyItems), widget (KHistoryComboBox, ui_stringIncludeFileHistoryCombo)
 #: codegenerators/cpp/cppcodegenerationformbase.ui:439
@@ -666,7 +666,7 @@ msgstr ""
 #: codegenerators/cpp/cppcodegenerationformbase.ui:487
 #, kde-format
 msgid "qstring.h"
-msgstr ""
+msgstr "qstring.h"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_textLabelClassName)
 #: codegenerators/cpp/cppcodegenerationformbase.ui:504
@@ -1483,8 +1483,9 @@ msgstr ""
 #, kde-format
 msgid "<b>Code import of 1 file:</b><br>"
 msgid_plural "<b>Code import of %1 files:</b><br>"
-msgstr[0] "<b>Uvoz jedne datoteke:</b><br>"
+msgstr[0] "<b>Uvoz %1 datoteke:</b><br>"
 msgstr[1] "<b>Uvoz %1 datoteke:</b><br>"
+msgstr[2] "<b>Uvoz %1 datoteka:</b><br>"
 
 #: codeimpwizard/codeimpstatuspage.cpp:151
 #, kde-format
@@ -2080,45 +2081,45 @@ msgstr "Koristi &mape"
 #: dialogs/finddialog.cpp:17
 #, kde-format
 msgid "Find"
-msgstr ""
+msgstr "Traži"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: dialogs/finddialog.ui:25 dialogs/pages/diagramprintpage.cpp:44
 #, kde-format
 msgid "Filter"
-msgstr ""
+msgstr "Filtar"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_treeView)
 #: dialogs/finddialog.ui:33
 #, kde-format
 msgid "Tree View"
-msgstr ""
+msgstr "Prikaz stabla"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_CurrentDiagram)
 #: dialogs/finddialog.ui:43 dialogs/pages/diagramprintpage.cpp:51
 #, kde-format
 msgid "&Current diagram"
-msgstr ""
+msgstr "&Trenutačni dijagram"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_Diagrams)
 #: dialogs/finddialog.ui:53 dialogs/pages/diagramprintpage.cpp:55
 #, kde-format
 msgid "&All diagrams"
-msgstr ""
+msgstr "&Svi dijagrami"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/finddialog.ui:74 menus/listpopupmenu.cpp:154
 #: umlwidgets/widgetbase.cpp:1258 worktoolbar.cpp:389
 #, kde-format
 msgid "Category"
-msgstr ""
+msgstr "Kategorija"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryPackage)
 #: dialogs/finddialog.ui:96 menus/widgetbasepopupmenu.cpp:100
 #: umlwidgets/widgetbase.cpp:1303 worktoolbar.cpp:355
 #, kde-format
 msgid "Package"
-msgstr ""
+msgstr "Paket"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryInterface)
 #: dialogs/finddialog.ui:103 menus/listpopupmenu.cpp:204
@@ -2126,38 +2127,38 @@ msgstr ""
 #: worktoolbar.cpp:359
 #, kde-format
 msgid "Interface"
-msgstr ""
+msgstr "Sučelje"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryOperation)
 #: dialogs/finddialog.ui:110 menus/listpopupmenu.cpp:232
 #, kde-format
 msgid "Operation"
-msgstr ""
+msgstr "Operacija"
 
 #. i18n("Artifact...")); break;
 #. i18n: ectx: property (text), widget (QRadioButton, ui_categoryAttribute)
 #: dialogs/finddialog.ui:117 menus/listpopupmenu.cpp:151
 #, kde-format
 msgid "Attribute"
-msgstr ""
+msgstr "Atribut"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/finddialog.ui:131
 #, kde-format
 msgid "Search Term:"
-msgstr ""
+msgstr "Pojam za pretraživanje:"
 
 #: dialogs/multipagedialogbase.cpp:67
 #, kde-format
 msgid "Default"
-msgstr ""
+msgstr "Zadano"
 
 #: dialogs/multipagedialogbase.cpp:299 dialogs/multipagedialogbase.cpp:313
 #: dialogs/multipagedialogbase.cpp:323
 #, kde-format
 msgctxt "general settings"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #. i18n: ectx: label, entry (uiFont), group (UI Options)
 #. i18n: ectx: label, entry (codeViewerFont), group (Code Viewer Options)
@@ -2165,102 +2166,102 @@ msgstr ""
 #: umllistview.cpp:1449
 #, kde-format
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: dialogs/multipagedialogbase.cpp:338
 #, kde-format
 msgid "Font Settings"
-msgstr ""
+msgstr "Postavke fonta"
 
 #: dialogs/multipagedialogbase.cpp:413
 #, kde-format
 msgctxt "widget style page"
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: dialogs/multipagedialogbase.cpp:413
 #, kde-format
 msgid "Widget Style"
-msgstr ""
+msgstr "Stil grafičkih elemenata"
 
 #: dialogs/multipagedialogbase.cpp:424
 #, kde-format
 msgctxt "style page name"
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: dialogs/multipagedialogbase.cpp:424
 #, kde-format
 msgid "Line Style"
-msgstr ""
+msgstr "Stil crte"
 
 #: dialogs/multipagedialogbase.cpp:444
 #, kde-format
 msgctxt "role page name"
 msgid "Roles"
-msgstr ""
+msgstr "Uloge"
 
 #: dialogs/multipagedialogbase.cpp:444
 #, kde-format
 msgid "Role Settings"
-msgstr ""
+msgstr "Postavke uloga"
 
 #: dialogs/notedialog.cpp:20
 #, kde-format
 msgid "Note Properties"
-msgstr ""
+msgstr "Svojstva bilješke"
 
 #: dialogs/objectnodedialog.cpp:126
 #, kde-format
 msgid "Central Buffer"
-msgstr ""
+msgstr "Središnji međuspremnik"
 
 #: dialogs/objectnodedialog.cpp:126
 #, kde-format
 msgid "Data Store"
-msgstr ""
+msgstr "Spremište podataka"
 
 #: dialogs/objectnodedialog.cpp:126
 #, kde-format
 msgid "ObjectFlow"
-msgstr ""
+msgstr "Tijek objekta"
 
 #: dialogs/objectnodedialog.cpp:135
 #, kde-format
 msgctxt "properties group title"
 msgid "Properties"
-msgstr ""
+msgstr "Svojstva"
 
 #: dialogs/objectnodedialog.cpp:150
 #, kde-format
 msgid "Object Node type:"
-msgstr ""
+msgstr "Vrsta čvora objekta:"
 
 #: dialogs/objectnodedialog.cpp:155
 #, kde-format
 msgid "Object Node name:"
-msgstr ""
+msgstr "Naziv čvora objekta:"
 
 #: dialogs/objectnodedialog.cpp:159
 #, kde-format
 msgctxt "enter state label"
 msgid "State :"
-msgstr ""
+msgstr "Stanje :"
 
 #: dialogs/objectnodedialog.cpp:164
 #, kde-format
 msgid "&Central Buffer"
-msgstr ""
+msgstr "&Središnji međuspremnik"
 
 #: dialogs/objectnodedialog.cpp:167
 #, kde-format
 msgid "&Data Store "
-msgstr ""
+msgstr "&Spremište podataka "
 
 #: dialogs/objectnodedialog.cpp:170
 #, kde-format
 msgid "&Object Flow"
-msgstr ""
+msgstr "&Tijek objekta"
 
 #: dialogs/overwritedialog.cpp:27
 #, kde-format
@@ -2714,91 +2715,91 @@ msgstr "Uključi putanje pretraživanja"
 msgid ""
 "Additional include search paths could be added by specifying environment "
 "variable UMBRELLO_INCPATH."
-msgstr ""
+msgstr "Dodatne putanje za pretraživanje uključenih datoteka mogu se dodati određivanjem varijable okruženja UMBRELLO_INCPATH."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/pages/codeimportoptionspage.ui:56
 #, kde-format
 msgid "C++ Import"
-msgstr ""
+msgstr "Uvoz C++-a"
 
 #. i18n: ectx: property (text), widget (QCheckBox, createArtifactCheckBox)
 #: dialogs/pages/codeimportoptionspage.ui:66
 #, kde-format
 msgid "For each imported file create an artifact in the component view"
-msgstr ""
+msgstr "Za svaku uvezenu datoteku stvori artefakt u prikazu komponenti"
 
 #. i18n: ectx: property (text), widget (QCheckBox, resolveDependenciesCheckBox)
 #: dialogs/pages/codeimportoptionspage.ui:73
 #, kde-format
 msgid "Resolve dependencies (reduces import speed)"
-msgstr ""
+msgstr "Razriješi ovisnosti (usporava uvoz)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, supportCPP11CheckBox)
 #: dialogs/pages/codeimportoptionspage.ui:80
 #, kde-format
 msgid "Enable C++11 standard (experimental)"
-msgstr ""
+msgstr "Omogući standard C++11 (eksperimentalno)"
 
 #: dialogs/pages/constraintlistpage.cpp:65
 #: menus/listpopupmenu.cpp:267
 #, kde-format
 msgid "Unique Constraint..."
-msgstr ""
+msgstr "Jedinstveno ograničenje..."
 
 #: dialogs/pages/constraintlistpage.cpp:69
 #: menus/listpopupmenu.cpp:240
 #, kde-format
 msgid "Primary Key Constraint..."
-msgstr ""
+msgstr "Ograničenje primarnog ključa..."
 
 #: dialogs/pages/constraintlistpage.cpp:73
 #: menus/listpopupmenu.cpp:193
 #, kde-format
 msgid "Foreign Key Constraint..."
-msgstr ""
+msgstr "Ograničenje stranog ključa..."
 
 #: dialogs/pages/constraintlistpage.cpp:77
 #: menus/listpopupmenu.cpp:157
 #, kde-format
 msgid "Check Constraint..."
-msgstr ""
+msgstr "Ograničenje provjere..."
 
 #: dialogs/pages/defaultcodegenpolicypage.cpp:24
 #, kde-format
 msgid "<p align=\"center\">No Options Available.</p>"
-msgstr ""
+msgstr "<p align=\"center\">Nema dostupnih mogućnosti.</p>"
 
 #: dialogs/pages/diagramprintpage.cpp:39 umlappprivate.h:221
 #, kde-format
 msgid "&Diagrams"
-msgstr ""
+msgstr "&Dijagrami"
 
 #: dialogs/pages/diagramprintpage.cpp:58
 #, kde-format
 msgid "&Select diagrams"
-msgstr ""
+msgstr "&Odaberi dijagrame"
 
 #: dialogs/pages/diagramprintpage.cpp:61
 #, kde-format
 msgid "&Type of diagram"
-msgstr ""
+msgstr "Vrsta &dijagrama"
 
 #: dialogs/pages/diagramprintpage.cpp:64
 #, kde-format
 msgctxt "diagram selection for printing"
 msgid "Selection"
-msgstr ""
+msgstr "Odabir"
 
 #: dialogs/pages/diagramprintpage.cpp:155
 #, kde-format
 msgid "No diagrams selected."
-msgstr ""
+msgstr "Nisu odabrani dijagrami."
 
 #: dialogs/pages/diagrampropertiespage.cpp:72
 #, kde-format
 msgid "The name you have entered is invalid."
-msgstr ""
+msgstr "Uneseni naziv nije valjan."
 
 #: dialogs/pages/diagrampropertiespage.cpp:73
 #: object_factory.cpp:255 umldoc.cpp:1627 umldoc.cpp:1691 umldoc.cpp:1720
@@ -2808,66 +2809,66 @@ msgstr ""
 #: umlmodel/umlentity.cpp:274 umlmodel/umlenum.cpp:105 umlmodel/umlpackage.cpp:180
 #, kde-format
 msgid "Invalid Name"
-msgstr ""
+msgstr "Nevaljan naziv"
 
 #: dialogs/pages/diagrampropertiespage.cpp:82
 #, kde-format
 msgid "The name you have entered is not unique."
-msgstr ""
+msgstr "Uneseni naziv nije jedinstven."
 
 #: dialogs/pages/diagrampropertiespage.cpp:83
 #: umldoc.cpp:1759
 #, kde-format
 msgid "Name Not Unique"
-msgstr ""
+msgstr "Naziv nije jedinstven"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ui_groupBoxDiagramProperties)
 #: dialogs/pages/diagrampropertiespage.ui:17
 #, kde-format
 msgid "Diagram Properties"
-msgstr ""
+msgstr "Svojstva dijagrama"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelDiagramName)
 #: dialogs/pages/diagrampropertiespage.ui:31
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelZoom)
 #: dialogs/pages/diagrampropertiespage.ui:56
 #, kde-format
 msgid "Zoom:"
-msgstr ""
+msgstr "Zumiranje:"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelZoomUnit)
 #: dialogs/pages/diagrampropertiespage.ui:82
 #, no-c-format, kde-format
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelWidth)
 #: dialogs/pages/diagrampropertiespage.ui:105
 #, kde-format
 msgid "Width:"
-msgstr ""
+msgstr "Širina:"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelHeight)
 #: dialogs/pages/diagrampropertiespage.ui:144
 #, kde-format
 msgid "Height:"
-msgstr ""
+msgstr "Visina:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_checkBoxShowGrid)
 #: dialogs/pages/diagrampropertiespage.ui:189
 #, kde-format
 msgid "Show &grid"
-msgstr ""
+msgstr "Prikaži &mrežu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_snapToGrid)
 #: dialogs/pages/diagrampropertiespage.ui:196
 #, kde-format
 msgid "Snap &to grid"
-msgstr ""
+msgstr "Poravnaj &s mrežom"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ui_snapComponentSizeToGrid)
 #: dialogs/pages/diagrampropertiespage.ui:204
@@ -2876,96 +2877,96 @@ msgid ""
 "Snap the size of the components to be a multiple of the grid spacing.\n"
 "If 'Snap to Grid' is enabled a component will always be aligned with the "
 "grid on all 4 sides."
-msgstr ""
+msgstr "Prilagodi veličinu komponenti tako da bude višekratnik razmaka mreže.\nAko je omogućeno „Poravnaj s mrežom”, komponenta će uvijek biti poravnata s mrežom sa sve četiri strane."
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_snapComponentSizeToGrid)
 #: dialogs/pages/diagrampropertiespage.ui:207
 #, kde-format
 msgid "Snap component size"
-msgstr ""
+msgstr "Prilagodi veličinu komponente"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelGridSpacing)
 #: dialogs/pages/diagrampropertiespage.ui:224
 #, kde-format
 msgid "Grid spacing:  "
-msgstr ""
+msgstr "Razmak mreže:  "
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelX)
 #: dialogs/pages/diagrampropertiespage.ui:247
 #, kde-format
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelY)
 #: dialogs/pages/diagrampropertiespage.ui:283
 #, kde-format
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_autoIncrementSequence)
 #: dialogs/pages/diagrampropertiespage.ui:312
 #, kde-format
 msgid "Autoincrement Sequence "
-msgstr ""
+msgstr "Automatski povećavaj niz "
 
 #: dialogs/pages/generaloptionpage.cpp:41
 #: dialogs/pages/umlwidgetstylepage.cpp:198
 #, kde-format
 msgctxt "miscellaneous group box"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Razno"
 
 #: dialogs/pages/generaloptionpage.cpp:48
 #, kde-format
 msgid "Enable undo"
-msgstr ""
+msgstr "Omogući poništavanje"
 
 #: dialogs/pages/generaloptionpage.cpp:52
 #, kde-format
 msgid "Use tabbed diagrams"
-msgstr ""
+msgstr "Koristi dijagrame u karticama"
 
 #: dialogs/pages/generaloptionpage.cpp:56
 #, kde-format
 msgid "Use new C++/Java/Ruby generators"
-msgstr ""
+msgstr "Koristi nove generatore za C++/Java/Ruby"
 
 #: dialogs/pages/generaloptionpage.cpp:60
 #, kde-format
 msgid "Turn on footer and page numbers when printing"
-msgstr ""
+msgstr "Uključi podnožje i brojeve stranica pri ispisu"
 
 #: dialogs/pages/generaloptionpage.cpp:64
 #, kde-format
 msgid "Enable UML2 support"
-msgstr ""
+msgstr "Omogući podršku za UML 2"
 
 #. i18n: ectx: label, entry (showDebugWindows), group (General Options)
 #: dialogs/pages/generaloptionpage.cpp:68
 #: umbrello.kcfg:140
 #, kde-format
 msgid "Show debug windows"
-msgstr ""
+msgstr "Prikaži prozore za ispravljanje pogrešaka"
 
 #: dialogs/pages/generaloptionpage.cpp:73
 #, kde-format
 msgid "Autosave"
-msgstr ""
+msgstr "Automatsko spremanje"
 
 #: dialogs/pages/generaloptionpage.cpp:80
 #, kde-format
 msgid "E&nable autosave"
-msgstr ""
+msgstr "Omogući &automatsko spremanje"
 
 #: dialogs/pages/generaloptionpage.cpp:84
 #, kde-format
 msgid "Select auto-save time interval (mins):"
-msgstr ""
+msgstr "Odaberi vremenski razmak automatskog spremanja (min):"
 
 #: dialogs/pages/generaloptionpage.cpp:96
 #, kde-format
 msgid "Set autosave suffix:"
-msgstr ""
+msgstr "Postavi nastavak datoteke automatskog spremanja:"
 
 #: dialogs/pages/generaloptionpage.cpp:98
 #, kde-format
@@ -2976,600 +2977,600 @@ msgid ""
 "will be named like the file's name, followed by the suffix specified.</"
 "p><p>If the suffix is equal to the suffix of the file you have saved, the "
 "autosave will overwrite your file automatically.</p></qt>"
-msgstr ""
+msgstr "<qt><p>Datoteka automatskog spremanja spremit će se u ~/autosave.xmi ako se automatsko spremanje dogodi prije nego što datoteku ručno spremite.</p><p>Ako ste datoteku već spremili, datoteka automatskog spremanja bit će spremljena u istu mapu i nazvana kao datoteka, uz dodani navedeni nastavak.</p><p>Ako je nastavak jednak nastavku spremljene datoteke, automatsko spremanje automatski će prebrisati tu datoteku.</p></qt>"
 
 #: dialogs/pages/generaloptionpage.cpp:109
 #, kde-format
 msgid "Startup"
-msgstr ""
+msgstr "Pokretanje"
 
 #: dialogs/pages/generaloptionpage.cpp:115
 #, kde-format
 msgid "&Load last project"
-msgstr ""
+msgstr "&Učitaj posljednji projekt"
 
 #: dialogs/pages/generaloptionpage.cpp:119
 #, kde-format
 msgid "Start new project with:"
-msgstr ""
+msgstr "Pokreni novi projekt s:"
 
 #: dialogs/pages/generaloptionpage.cpp:136
 #, kde-format
 msgid "Default Language :"
-msgstr ""
+msgstr "Zadani jezik:"
 
 #: dialogs/pages/packagecontentspage.cpp:40
 #, kde-format
 msgid "Contained Items"
-msgstr ""
+msgstr "Sadržani elementi"
 
 #: dialogs/pages/selectoperationpage.cpp:59
 #: dialogs/selectoperationdialog.cpp:58 dialogs/selectoperationdialog.cpp:65
 #, kde-format
 msgid "Select Operation"
-msgstr ""
+msgstr "Odaberi operaciju"
 
 #: dialogs/pages/selectoperationpage.cpp:65
 #: dialogs/selectoperationdialog.cpp:70
 #, kde-format
 msgid "Sequence number:"
-msgstr ""
+msgstr "Broj niza:"
 
 #: dialogs/pages/selectoperationpage.cpp:68
 #: dialogs/selectoperationdialog.cpp:73
 #, kde-format
 msgid "Auto increment:"
-msgstr ""
+msgstr "Automatsko povećavanje:"
 
 #: dialogs/pages/selectoperationpage.cpp:73
 #: dialogs/selectoperationdialog.cpp:78
 #, kde-format
 msgid "Class operation:"
-msgstr ""
+msgstr "Operacija klase:"
 
 #: dialogs/pages/selectoperationpage.cpp:81
 #: dialogs/selectoperationdialog.cpp:86 menus/listpopupmenu.cpp:223
 #: menus/widgetbasepopupmenu.cpp:507
 #, kde-format
 msgid "New Operation..."
-msgstr ""
+msgstr "Nova operacija..."
 
 #: dialogs/pages/selectoperationpage.cpp:85
 #: dialogs/selectoperationdialog.cpp:90
 #, kde-format
 msgid "Custom operation:"
-msgstr ""
+msgstr "Prilagođena operacija:"
 
 #: dialogs/pages/uioptionspage.cpp:56
 #, kde-format
 msgctxt "General options"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #. i18n: ectx: label, entry (rightToLeftUI), group (UI Options)
 #: dialogs/pages/uioptionspage.cpp:62 umbrello.kcfg:202
 #, kde-format
 msgid "Right to left user interface"
-msgstr ""
+msgstr "Korisničko sučelje zdesna nalijevo"
 
 #: dialogs/pages/uioptionspage.cpp:66
 #, kde-format
 msgid "Use alignment guides"
-msgstr ""
+msgstr "Koristi vodilice za poravnanje"
 
 #: dialogs/pages/uioptionspage.cpp:70
 #, kde-format
 msgctxt "Association options"
 msgid "Associations"
-msgstr ""
+msgstr "Asocijacije"
 
 #: dialogs/pages/uioptionspage.cpp:75
 #, kde-format
 msgid "Create new association lines as:"
-msgstr ""
+msgstr "Stvori nove linije asocijacije kao:"
 
 #: dialogs/pages/uioptionspage.cpp:78
 #, kde-format
 msgctxt "color group box"
 msgid "Color"
-msgstr ""
+msgstr "Boja"
 
 #: dialogs/pages/uioptionspage.cpp:86
 #, kde-format
 msgid "Custom text color"
-msgstr ""
+msgstr "Prilagođena boja teksta"
 
 #: dialogs/pages/uioptionspage.cpp:93
 #, kde-format
 msgid "Custom line color"
-msgstr ""
+msgstr "Prilagođena boja crte"
 
 #. i18n("D&efault Color"), m_colorGB);
 #. colorLayout->addWidget(m_lineDefaultB, 0, 2);
 #: dialogs/pages/uioptionspage.cpp:103
 #, kde-format
 msgid "Custom fill color"
-msgstr ""
+msgstr "Prilagođena boja ispune"
 
 #: dialogs/pages/uioptionspage.cpp:109
 #, kde-format
 msgid "Custom grid color"
-msgstr ""
+msgstr "Prilagođena boja mreže"
 
 #: dialogs/pages/uioptionspage.cpp:115
 #, kde-format
 msgid "Custom background color"
-msgstr ""
+msgstr "Prilagođena boja pozadine"
 
 #: dialogs/pages/uioptionspage.cpp:122
 #, kde-format
 msgid "Custom line width"
-msgstr ""
+msgstr "Prilagođena širina crte"
 
 #: dialogs/pages/uioptionspage.cpp:132
 #, kde-format
 msgid "&Use fill color"
-msgstr ""
+msgstr "&Koristi boju ispune"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ui_propsGroupBox)
 #: dialogs/pages/umlrolepropertiesbase.ui:16
 #: dialogs/umlroledialog.cpp:19
 #, kde-format
 msgid "Role Properties"
-msgstr ""
+msgstr "Svojstva uloge"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ui_visibilityButtonGroup)
 #: dialogs/pages/umlrolepropertiesbase.ui:67
 #, kde-format
 msgid "Role Visibility"
-msgstr ""
+msgstr "Vidljivost uloge"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_pImplementationRB)
 #: dialogs/pages/umlrolepropertiesbase.ui:97
 #, kde-format
 msgid "Implementation"
-msgstr ""
+msgstr "Implementacija"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ui_changeabilityButtonGroup)
 #: dialogs/pages/umlrolepropertiesbase.ui:107
 #, kde-format
 msgid "Role Changeability"
-msgstr ""
+msgstr "Promjenjivost uloge"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_pChangeableRB)
 #: dialogs/pages/umlrolepropertiesbase.ui:113
 #, kde-format
 msgid "Changeable"
-msgstr ""
+msgstr "Promjenjivo"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_pFrozenRB)
 #: dialogs/pages/umlrolepropertiesbase.ui:123
 #, kde-format
 msgid "Frozen"
-msgstr ""
+msgstr "Zamrznuto"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_pAddOnlyRB)
 #: dialogs/pages/umlrolepropertiesbase.ui:130
 #, kde-format
 msgid "Add only"
-msgstr ""
+msgstr "Samo dodavanje"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:104
 #, kde-format
 msgctxt "title of color group"
 msgid "Color"
-msgstr ""
+msgstr "Boja"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:109
 #, kde-format
 msgctxt "text color"
 msgid "&Text:"
-msgstr ""
+msgstr "&Tekst:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:116
 #, kde-format
 msgctxt "default text color button"
 msgid "Defaul&t"
-msgstr ""
+msgstr "Zada&no"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:119
 #, kde-format
 msgctxt "line color"
 msgid "&Line:"
-msgstr ""
+msgstr "&Crta:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:126
 #, kde-format
 msgctxt "default line color button"
 msgid "&Default"
-msgstr ""
+msgstr "&Zadano"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:129
 #, kde-format
 msgid "&Fill:"
-msgstr ""
+msgstr "&Ispuna:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:136
 #, kde-format
 msgctxt "default fill color button"
 msgid "D&efault"
-msgstr ""
+msgstr "Z&adano"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:139
 #, kde-format
 msgid "&Use fill"
-msgstr ""
+msgstr "&Koristi ispunu"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:149
 #, kde-format
 msgctxt "background color"
 msgid "&Background:"
-msgstr ""
+msgstr "&Pozadina:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:156
 #, kde-format
 msgctxt "default background color button"
 msgid "De&fault"
-msgstr ""
+msgstr "Zad&ano"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:159
 #, kde-format
 msgctxt "grid dot color"
 msgid "&Grid dot:"
-msgstr ""
+msgstr "&Točka mreže:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:166
 #, kde-format
 msgctxt "default grid dot color button"
 msgid "Def&ault"
-msgstr ""
+msgstr "Zad&ano"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:174
 #, kde-format
 msgctxt "title of width group"
 msgid "Width"
-msgstr ""
+msgstr "Širina"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:179
 #, kde-format
 msgctxt "line width"
 msgid "Line &width:"
-msgstr ""
+msgstr "&Širina crte:"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:189
 #, kde-format
 msgctxt "default line width button"
 msgid "Defa&ult"
-msgstr ""
+msgstr "Zada&no"
 
 #: dialogs/pages/umlwidgetstylepage.cpp:203
 #, kde-format
 msgid "Layout of the line:"
-msgstr ""
+msgstr "Raspored crte:"
 
 #: dialogs/parameterpropertiesdialog.cpp:49
 #, kde-format
 msgid "Parameter Properties"
-msgstr ""
+msgstr "Svojstva parametra"
 
 #: dialogs/parameterpropertiesdialog.cpp:72
 #, kde-format
 msgctxt "property name"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/parameterpropertiesdialog.cpp:82
 #, kde-format
 msgid "Passing Direction"
-msgstr ""
+msgstr "Smjer prosljeđivanja"
 
 #: dialogs/parameterpropertiesdialog.cpp:83
 #, kde-format
 msgid ""
 "\"in\" is a readonly parameter, \"out\" is a writeonly parameter and \"inout"
 "\" is a parameter for reading and writing."
-msgstr ""
+msgstr "Parametar „in” samo je za čitanje, „out” samo za pisanje, a „inout” za čitanje i pisanje."
 
 #: dialogs/parameterpropertiesdialog.cpp:161
 #, kde-format
 msgid "You have entered an invalid parameter name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv parametra."
 
 #: dialogs/parameterpropertiesdialog.cpp:162
 #, kde-format
 msgid "Parameter Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv parametra"
 
 #: dialogs/selectdiagramdialog.cpp:18
 #, kde-format
 msgid "Select diagram"
-msgstr ""
+msgstr "Odaberi dijagram"
 
 #: dialogs/selectdiagramdialog.cpp:19
 #, kde-format
 msgid "Diagram"
-msgstr ""
+msgstr "Dijagram"
 
 #: dialogs/settingsdialog.cpp:35
 #, kde-format
 msgid "Umbrello Setup"
-msgstr ""
+msgstr "Postavke Umbrella"
 
 #: dialogs/settingsdialog.cpp:100 umllistview.cpp:1451
 #, kde-format
 msgid "User Interface"
-msgstr ""
+msgstr "Korisničko sučelje"
 
 #: dialogs/settingsdialog.cpp:100
 #, kde-format
 msgid "User Interface Settings"
-msgstr ""
+msgstr "Postavke korisničkog sučelja"
 
 #: dialogs/settingsdialog.cpp:107 dialogs/umlviewdialog.cpp:87
 #, kde-format
 msgctxt "general settings page"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: dialogs/settingsdialog.cpp:116
 #, kde-format
 msgctxt "class settings page"
 msgid "Class"
-msgstr ""
+msgstr "Klasa"
 
 #: dialogs/settingsdialog.cpp:116
 #, kde-format
 msgid "Class Settings"
-msgstr ""
+msgstr "Postavke klase"
 
 #: dialogs/settingsdialog.cpp:123 umllistview.cpp:1446
 #, kde-format
 msgid "Code Importer"
-msgstr ""
+msgstr "Uvoznik koda"
 
 #: dialogs/settingsdialog.cpp:123
 #, kde-format
 msgid "Code Import Settings"
-msgstr ""
+msgstr "Postavke uvoza koda"
 
 #: dialogs/settingsdialog.cpp:132 umllistview.cpp:1447
 #, kde-format
 msgid "Code Generation"
-msgstr ""
+msgstr "Generiranje koda"
 
 #: dialogs/settingsdialog.cpp:132
 #, kde-format
 msgid "Code Generation Settings"
-msgstr ""
+msgstr "Postavke generiranja koda"
 
 #: dialogs/settingsdialog.cpp:140 umllistview.cpp:1448
 #, kde-format
 msgid "Code Viewer"
-msgstr ""
+msgstr "Preglednik koda"
 
 #: dialogs/settingsdialog.cpp:140
 #, kde-format
 msgid "Code Viewer Settings"
-msgstr ""
+msgstr "Postavke preglednika koda"
 
 #: dialogs/settingsdialog.cpp:147 umllistview.cpp:1444
 #, kde-format
 msgid "Auto Layout"
-msgstr ""
+msgstr "Automatski raspored"
 
 #: dialogs/settingsdialog.cpp:147
 #, kde-format
 msgid "Auto Layout Settings"
-msgstr ""
+msgstr "Postavke automatskog rasporeda"
 
 #: dialogs/singlepagedialogbase.cpp:35 dialogs/singlepagedialogbase.cpp:49
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Pretraživanje"
 
 #: dialogs/statedialog.cpp:120
 #, kde-format
 msgctxt "general page"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: dialogs/statedialog.cpp:133
 #, kde-format
 msgctxt "initial state in statechart"
 msgid "Initial state"
-msgstr ""
+msgstr "Početno stanje"
 
 #: dialogs/statedialog.cpp:136
 #, kde-format
 msgctxt "state in statechart"
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: dialogs/statedialog.cpp:139
 #, kde-format
 msgctxt "end state in statechart"
 msgid "End state"
-msgstr ""
+msgstr "Završno stanje"
 
 #: dialogs/statedialog.cpp:142
 #, kde-format
 msgctxt "fork state in statechart"
 msgid "Fork"
-msgstr ""
+msgstr "Račvanje"
 
 #: dialogs/statedialog.cpp:145
 #, kde-format
 msgctxt "join state in statechart"
 msgid "Join"
-msgstr ""
+msgstr "Spajanje"
 
 #: dialogs/statedialog.cpp:148
 #, kde-format
 msgctxt "junction state in statechart"
 msgid "Junction"
-msgstr ""
+msgstr "Spoj"
 
 #: dialogs/statedialog.cpp:151
 #, kde-format
 msgctxt "deep history state in statechart"
 msgid "DeepHistory"
-msgstr ""
+msgstr "Duboka povijest"
 
 #: dialogs/statedialog.cpp:154
 #, kde-format
 msgctxt "shallow history state in statechart"
 msgid "ShallowHistory"
-msgstr ""
+msgstr "Plitka povijest"
 
 #: dialogs/statedialog.cpp:157
 #, kde-format
 msgctxt "choice state in statechart"
 msgid "Choice"
-msgstr ""
+msgstr "Izbor"
 
 #: dialogs/statedialog.cpp:160
 #, kde-format
 msgctxt "combined state in statechart"
 msgid "Combined"
-msgstr ""
+msgstr "Kombinirano"
 
 #: dialogs/statedialog.cpp:168
 #, kde-format
 msgid "State type:"
-msgstr ""
+msgstr "Vrsta stanja:"
 
 #: dialogs/statedialog.cpp:173
 #, kde-format
 msgid "State name:"
-msgstr ""
+msgstr "Naziv stanja:"
 
 #: dialogs/statedialog.cpp:183
 #, kde-format
 msgid "Linked diagram:"
-msgstr ""
+msgstr "Povezani dijagram:"
 
 #: dialogs/stereoattributedialog.cpp:38
 #, kde-format
 msgid "Stereotype Properties"
-msgstr ""
+msgstr "Svojstva stereotipa"
 
 #: dialogs/stereoattributedialog.cpp:58
 #, kde-format
 msgid "Stereotype Attributes for "
-msgstr ""
+msgstr "Atributi stereotipa za "
 
 #: dialogs/stereoattributedialog.cpp:74 dialogs/umlattributedialog.cpp:76
 #, kde-format
 msgctxt "attribute name"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/stereoattributedialog.cpp:77
 #, kde-format
 msgctxt "attribute type"
 msgid "&Type:"
-msgstr ""
+msgstr "&Vrsta:"
 
 #: dialogs/stereoattributedialog.cpp:87
 #, kde-format
 msgctxt "default value"
 msgid "&Default:"
-msgstr ""
+msgstr "&Zadano:"
 
 #: dialogs/umlattributedialog.cpp:43
 #, kde-format
 msgid "Attribute Properties"
-msgstr ""
+msgstr "Svojstva atributa"
 
 #: dialogs/umlattributedialog.cpp:80
 #, kde-format
 msgid "&Initial value:"
-msgstr ""
+msgstr "&Početna vrijednost:"
 
 #: dialogs/umlattributedialog.cpp:89 dialogs/umloperationdialog.cpp:112
 #, kde-format
 msgid "Classifier &scope (\"static\")"
-msgstr ""
+msgstr "&Djelokrug klasifikatora („static”)"
 
 #: dialogs/umlattributedialog.cpp:123 dialogs/umlenumliteraldialog.cpp:84
 #, kde-format
 msgid "You have entered an invalid attribute name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv atributa."
 
 #: dialogs/umlattributedialog.cpp:124 dialogs/umlenumliteraldialog.cpp:85
 #: refactoring/refactoringassistant.cpp:845
 #, kde-format
 msgid "Attribute Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv atributa"
 
 #: dialogs/umlattributedialog.cpp:131 dialogs/umlenumliteraldialog.cpp:97
 #, kde-format
 msgid ""
 "The attribute name you have chosen is already being used in this operation."
-msgstr ""
+msgstr "Naziv atributa koji ste odabrali već se upotrebljava u ovoj operaciji."
 
 #: dialogs/umlattributedialog.cpp:132 dialogs/umlenumliteraldialog.cpp:98
 #, kde-format
 msgid "Attribute Name Not Unique"
-msgstr ""
+msgstr "Naziv atributa nije jedinstven"
 
 #: dialogs/umlcheckconstraintdialog.cpp:25
 #, kde-format
 msgid "Check Constraint Properties"
-msgstr ""
+msgstr "Svojstva ograničenja provjere"
 
 #: dialogs/umlcheckconstraintdialog.cpp:52
 #: dialogs/umluniqueconstraintdialog.cpp:79
 #, kde-format
 msgctxt "name label"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: dialogs/umlcheckconstraintdialog.cpp:61
 #, kde-format
 msgid "Check Condition :"
-msgstr ""
+msgstr "Uvjet provjere:"
 
 #: dialogs/umlentityattributedialog.cpp:43
 #, kde-format
 msgid "Entity Attribute Properties"
-msgstr ""
+msgstr "Svojstva atributa entiteta"
 
 #: dialogs/umlentityattributedialog.cpp:71
 #, kde-format
 msgctxt "name of entity attribute"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/umlentityattributedialog.cpp:82
 #, kde-format
 msgid "Length/Values:"
-msgstr ""
+msgstr "Duljina/vrijednosti:"
 
 #: dialogs/umlentityattributedialog.cpp:85
 #, kde-format
 msgid "&Auto increment"
-msgstr ""
+msgstr "&Automatski povećavaj"
 
 #: dialogs/umlentityattributedialog.cpp:89
 #, kde-format
 msgid "Allow &null"
-msgstr ""
+msgstr "Dopusti &null"
 
 #: dialogs/umlentityattributedialog.cpp:96
 #, kde-format
 msgid "Attributes:"
-msgstr ""
+msgstr "Atributi:"
 
 #: dialogs/umlentityattributedialog.cpp:110
 #, kde-format
 msgid "Indexing"
-msgstr ""
+msgstr "Indeksiranje"
 
 #: dialogs/umlentityattributedialog.cpp:114
 #, kde-format
 msgid "&Not Indexed"
-msgstr ""
+msgstr "&Bez indeksa"
 
 #. i18n("&Primary"), m_pScopeGB);
 #. scopeLayout->addWidget(m_pPublicRB);
@@ -3580,146 +3581,146 @@ msgstr ""
 #: dialogs/umlentityattributedialog.cpp:125
 #, kde-format
 msgid "&Indexed"
-msgstr ""
+msgstr "&Indeksirano"
 
 #: dialogs/umlentityattributedialog.cpp:163
 #, kde-format
 msgid "You have entered an invalid entity attribute name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv atributa entiteta."
 
 #: dialogs/umlentityattributedialog.cpp:164
 #, kde-format
 msgid "Entity Attribute Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv atributa entiteta"
 
 #: dialogs/umlentityattributedialog.cpp:171
 #, kde-format
 msgid ""
 "The entity attribute name you have chosen is already being used in this "
 "operation."
-msgstr ""
+msgstr "Naziv atributa entiteta koji ste odabrali već se upotrebljava u ovoj operaciji."
 
 #: dialogs/umlentityattributedialog.cpp:172
 #, kde-format
 msgid "Entity Attribute Name Not Unique"
-msgstr ""
+msgstr "Naziv atributa entiteta nije jedinstven"
 
 #: dialogs/umlenumliteraldialog.cpp:31
 #, kde-format
 msgid "EnumLiteral Properties"
-msgstr ""
+msgstr "Svojstva enumeracijske vrijednosti"
 
 #: dialogs/umlenumliteraldialog.cpp:57
 #, kde-format
 msgctxt "literal name"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/umlenumliteraldialog.cpp:61
 #, kde-format
 msgid "&Value:"
-msgstr ""
+msgstr "&Vrijednost:"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:54
 #, kde-format
 msgid "Foreign Key Setup"
-msgstr ""
+msgstr "Postavke stranog ključa"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:205
 #, kde-format
 msgctxt "general page title"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:208
 #, kde-format
 msgctxt "general group title"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:216
 #, kde-format
 msgctxt "label for entering name"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:219
 #, kde-format
 msgid "Referenced Entity"
-msgstr ""
+msgstr "Referencirani entitet"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:225
 #, kde-format
 msgid "Actions"
-msgstr ""
+msgstr "Radnje"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:232
 #, kde-format
 msgid "On Update"
-msgstr ""
+msgstr "Pri ažuriranju"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:238
 #, kde-format
 msgid "On Delete"
-msgstr ""
+msgstr "Pri brisanju"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:270
 #, kde-format
 msgid "No Action"
-msgstr ""
+msgstr "Bez radnje"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:270
 #, kde-format
 msgid "Restrict"
-msgstr ""
+msgstr "Ograniči"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:270
 #, kde-format
 msgid "Cascade"
-msgstr ""
+msgstr "Kaskadno"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:270
 #, kde-format
 msgid "Set Null"
-msgstr ""
+msgstr "Postavi na null"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:271
 #, kde-format
 msgid "Set Default"
-msgstr ""
+msgstr "Postavi na zadano"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:292
 #, kde-format
 msgid "Columns"
-msgstr ""
+msgstr "Stupci"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:299
 #, kde-format
 msgctxt "column header local"
 msgid "Local"
-msgstr ""
+msgstr "Lokalno"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:299
 #, kde-format
 msgctxt "column header referenced"
 msgid "Referenced"
-msgstr ""
+msgstr "Referencirano"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:306
 #, kde-format
 msgid "Local Column"
-msgstr ""
+msgstr "Lokalni stupac"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:312
 #, kde-format
 msgid "Referenced Column"
-msgstr ""
+msgstr "Referencirani stupac"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:319
 #: dialogs/umluniqueconstraintdialog.cpp:108
 #, kde-format
 msgid "&Add"
-msgstr ""
+msgstr "&Dodaj"
 
 #: dialogs/umlforeignkeyconstraintdialog.cpp:394
 #, kde-format
@@ -3727,247 +3728,247 @@ msgid ""
 "You are attempting to change the Referenced Entity of this ForeignKey "
 "Constraint. Any unapplied changes to the mappings between local and "
 "referenced entities will be lost. Are you sure you want to continue ?"
-msgstr ""
+msgstr "Pokušavate promijeniti referencirani entitet ovog ograničenja stranog ključa. Sve neprimijenjene promjene mapiranja između lokalnih i referenciranih entiteta bit će izgubljene. Želite li doista nastaviti?"
 
 #: dialogs/umlinstanceattributedialog.cpp:21
 #, kde-format
 msgid "Object Attribute Properties"
-msgstr ""
+msgstr "Svojstva atributa objekta"
 
 #: dialogs/umlinstanceattributedialog.cpp:40
 #, kde-format
 msgid "You have entered an invalid attribute value."
-msgstr ""
+msgstr "Unijeli ste nevaljanu vrijednost atributa."
 
 #: dialogs/umlinstanceattributedialog.cpp:41
 #, kde-format
 msgid "Value Invalid"
-msgstr ""
+msgstr "Nevaljana vrijednost"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/umlinstanceattributedialog.ui:27
 #, kde-format
 msgid "Attribute Name:"
-msgstr ""
+msgstr "Naziv atributa:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/umlinstanceattributedialog.ui:37
 #, kde-format
 msgid "Value:"
-msgstr ""
+msgstr "Vrijednost:"
 
 #: dialogs/umloperationdialog.cpp:58
 #, kde-format
 msgid "Operation Properties"
-msgstr ""
+msgstr "Svojstva operacije"
 
 #: dialogs/umloperationdialog.cpp:96
 #, kde-format
 msgctxt "operation name"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/umloperationdialog.cpp:108
 #, kde-format
 msgid "&Abstract operation"
-msgstr ""
+msgstr "&Apstraktna operacija"
 
 #: dialogs/umloperationdialog.cpp:115
 #, kde-format
 msgid "&Query (\"const\")"
-msgstr ""
+msgstr "&Upit („const”)"
 
 #: dialogs/umloperationdialog.cpp:118
 #, kde-format
 msgid "&virtual"
-msgstr ""
+msgstr "&virtual"
 
 #: dialogs/umloperationdialog.cpp:122
 #, kde-format
 msgid "&inline"
-msgstr ""
+msgstr "&inline"
 
 #: dialogs/umloperationdialog.cpp:127
 #, kde-format
 msgid "&Override"
-msgstr ""
+msgstr "&Override"
 
 #: dialogs/umloperationdialog.cpp:138
 #, kde-format
 msgid "Parameters"
-msgstr ""
+msgstr "Parametri"
 
 #: dialogs/umloperationdialog.cpp:162
 #, kde-format
 msgid "Ne&w Parameter..."
-msgstr ""
+msgstr "No&vi parametar..."
 
 #: dialogs/umloperationdialog.cpp:280
 #, kde-format
 msgid ""
 "The parameter name you have chosen\n"
 "is already being used in this operation."
-msgstr ""
+msgstr "Naziv parametra koji ste odabrali\nveć se upotrebljava u ovoj operaciji."
 
 #: dialogs/umloperationdialog.cpp:281 dialogs/umloperationdialog.cpp:328
 #, kde-format
 msgid "Parameter Name Not Unique"
-msgstr ""
+msgstr "Naziv parametra nije jedinstven"
 
 #: dialogs/umloperationdialog.cpp:327
 #, kde-format
 msgid ""
 "The parameter name you have chosen is already being used in this operation."
-msgstr ""
+msgstr "Naziv parametra koji ste odabrali već se upotrebljava u ovoj operaciji."
 
 #: dialogs/umloperationdialog.cpp:412
 #, kde-format
 msgid "You have entered an invalid operation name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv operacije."
 
 #: dialogs/umloperationdialog.cpp:413 dialogs/umloperationdialog.cpp:425
 #: refactoring/refactoringassistant.cpp:824
 #, kde-format
 msgid "Operation Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv operacije"
 
 #: dialogs/umloperationdialog.cpp:422 refactoring/refactoringassistant.cpp:821
 #, kde-format
 msgid "An operation with that signature already exists in %1.\n"
-msgstr ""
+msgstr "Operacija s takvim potpisom već postoji u %1.\n"
 
 #: dialogs/umloperationdialog.cpp:424 refactoring/refactoringassistant.cpp:823
 #, kde-format
 msgid "Choose a different name or parameter list."
-msgstr ""
+msgstr "Odaberite drugi naziv ili popis parametara."
 
 #: dialogs/umltemplatedialog.cpp:37
 #, kde-format
 msgid "Template Properties"
-msgstr ""
+msgstr "Svojstva predloška"
 
 #: dialogs/umltemplatedialog.cpp:65
 #, kde-format
 msgctxt "template name"
 msgid "&Name:"
-msgstr ""
+msgstr "&Naziv:"
 
 #: dialogs/umltemplatedialog.cpp:88
 #, kde-format
 msgid "You have entered an invalid template name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv predloška."
 
 #: dialogs/umltemplatedialog.cpp:89
 #, kde-format
 msgid "Template Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv predloška"
 
 #: dialogs/umltemplatedialog.cpp:98
 #, kde-format
 msgid ""
 "The template parameter name you have chosen is already being used in this "
 "operation."
-msgstr ""
+msgstr "Naziv parametra predloška koji ste odabrali već se upotrebljava u ovoj operaciji."
 
 #: dialogs/umltemplatedialog.cpp:99
 #, kde-format
 msgid "Template Name Not Unique"
-msgstr ""
+msgstr "Naziv predloška nije jedinstven"
 
 #: dialogs/umluniqueconstraintdialog.cpp:45
 #, kde-format
 msgid "Unique Constraint Properties"
-msgstr ""
+msgstr "Svojstva jedinstvenog ograničenja"
 
 #: dialogs/umluniqueconstraintdialog.cpp:87
 #, kde-format
 msgid "Attribute Details"
-msgstr ""
+msgstr "Pojedinosti atributa"
 
 #: dialogs/umluniqueconstraintdialog.cpp:219
 #, kde-format
 msgid "You have entered an invalid constraint name."
-msgstr ""
+msgstr "Unijeli ste nevaljan naziv ograničenja."
 
 #: dialogs/umluniqueconstraintdialog.cpp:220
 #, kde-format
 msgid "Constraint Name Invalid"
-msgstr ""
+msgstr "Nevaljan naziv ograničenja"
 
 #: dialogs/umlviewdialog.cpp:105
 #, kde-format
 msgctxt "classes display options page"
 msgid "Display"
-msgstr ""
+msgstr "Prikaz"
 
 #: dialogs/umlviewdialog.cpp:105
 #, kde-format
 msgid "Classes Display Options"
-msgstr ""
+msgstr "Mogućnosti prikaza klasa"
 
 #: dialogs/umlviewdialog.cpp:115
 #, kde-format
 msgctxt "diagram style page"
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: dialogs/umlviewdialog.cpp:115
 #, kde-format
 msgid "Diagram Style"
-msgstr ""
+msgstr "Stil dijagrama"
 
 #: dialogs/widgets/defaultvaluewidget.cpp:36
 #, kde-format
 msgid "&Default value:"
-msgstr ""
+msgstr "&Zadana vrijednost:"
 
 #: dialogs/widgets/imagetypewidget.cpp:28
 #, kde-format
 msgid "&Image type:"
-msgstr ""
+msgstr "Vrsta &slike:"
 
 #: dialogs/widgets/resolutionwidget.cpp:25
 #, kde-format
 msgid "&Resolution:"
-msgstr ""
+msgstr "&Razlučivost:"
 
 #: dialogs/widgets/resolutionwidget.cpp:25
 #, kde-format
 msgid "DPI"
-msgstr ""
+msgstr "DPI"
 
 #: dialogs/widgets/selectdiagramwidget.cpp:51
 #, kde-format
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #. i18n: ectx: Menu (file)
 #: dialogs/widgets/umlartifacttypewidget.cpp:24
 #: umbrelloui.rc.cmake:4
 #, kde-format
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #: dialogs/widgets/umlartifacttypewidget.cpp:25
 #, kde-format
 msgid "&Library"
-msgstr ""
+msgstr "&Biblioteka"
 
 #: dialogs/widgets/umlartifacttypewidget.cpp:26
 #, kde-format
 msgid "&Table"
-msgstr ""
+msgstr "&Tablica"
 
 #: dialogs/widgets/umlartifacttypewidget.cpp:27
 #, kde-format
 msgctxt "draw as default"
 msgid "&Default"
-msgstr ""
+msgstr "&Zadano"
 
 #: dialogs/widgets/umlartifacttypewidget.cpp:32
 #, kde-format
 msgid "Draw As"
-msgstr ""
+msgstr "Prikaži kao"
 
 #: dialogs/widgets/umldatatypewidget.cpp:32
 #: dialogs/widgets/umldatatypewidget.cpp:45
@@ -3976,236 +3977,236 @@ msgstr ""
 #: dialogs/widgets/umldatatypewidget.cpp:84
 #, kde-format
 msgid "&Type:"
-msgstr ""
+msgstr "&Vrsta:"
 
 #: dialogs/widgets/umlmessagebox.h:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: dialogs/widgets/umlmessagebox.h:32
 #, kde-format
 msgctxt "@action:button"
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: dialogs/widgets/umlpackagewidget.cpp:29
 #, kde-format
 msgid "Package path:"
-msgstr ""
+msgstr "Putanja paketa:"
 
 #: dialogs/widgets/umlstereotypewidget.cpp:22
 #: umlmodel/umlobject.cpp:1269
 #, kde-format
 msgid "Stereotype &name:"
-msgstr ""
+msgstr "&Naziv stereotipa:"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:26
 #, kde-format
 msgctxt "public visibility"
 msgid "P&ublic"
-msgstr ""
+msgstr "J&avno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:27
 #, kde-format
 msgctxt "protected visibility"
 msgid "Pro&tected"
-msgstr ""
+msgstr "Zašti&ćeno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:28
 #, kde-format
 msgctxt "private visibility"
 msgid "P&rivate"
-msgstr ""
+msgstr "P&rivatno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:29
 #, kde-format
 msgid "Imple&mentation"
-msgstr ""
+msgstr "Imple&mentacija"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:30
 #: menus/widgetbasepopupmenu.cpp:88 menus/widgetbasepopupmenu.cpp:131
 #, kde-format
 msgid "Visibility"
-msgstr ""
+msgstr "Vidljivost"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:41
 #, kde-format
 msgctxt "scope for A is public"
 msgid "Public"
-msgstr ""
+msgstr "Javno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:42
 #, kde-format
 msgctxt "scope for A is protected"
 msgid "Protected"
-msgstr ""
+msgstr "Zaštićeno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:43
 #, kde-format
 msgctxt "scope for A is private"
 msgid "Private"
-msgstr ""
+msgstr "Privatno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:44
 #, kde-format
 msgctxt "scope for A is implementation"
 msgid "Implementation"
-msgstr ""
+msgstr "Implementacija"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:45
 #, kde-format
 msgid "Role A Visibility"
-msgstr ""
+msgstr "Vidljivost uloge A"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:47
 #, kde-format
 msgctxt "scope for B is public"
 msgid "Public"
-msgstr ""
+msgstr "Javno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:48
 #, kde-format
 msgctxt "scope for B is protected"
 msgid "Protected"
-msgstr ""
+msgstr "Zaštićeno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:49
 #, kde-format
 msgctxt "scope for B is private"
 msgid "Private"
-msgstr ""
+msgstr "Privatno"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:50
 #, kde-format
 msgctxt "scope for B is implementation"
 msgid "Implementation"
-msgstr ""
+msgstr "Implementacija"
 
 #: dialogs/widgets/visibilityenumwidget.cpp:51
 #, kde-format
 msgid "Role B Visibility"
-msgstr ""
+msgstr "Vidljivost uloge B"
 
 #: docgenerators/docbook2xhtmlgeneratorjob.cpp:91
 #, kde-format
 msgid "Exporting to XHTML..."
-msgstr ""
+msgstr "Izvoz u XHTML..."
 
 #: docgenerators/docbookgenerator.cpp:79 umlviewimageexporterall.cpp:95
 #, kde-format
 msgid "Exporting all views..."
-msgstr ""
+msgstr "Izvoz svih prikaza..."
 
 #: docgenerators/docbookgenerator.cpp:85 umlviewimageexporterall.cpp:101
 #, kde-format
 msgid "Some errors happened when exporting the images:"
-msgstr ""
+msgstr "Pri izvozu slika pojavile su se pogreške:"
 
 #: docgenerators/docbookgenerator.cpp:89
 #, kde-format
 msgid "Generating Docbook..."
-msgstr ""
+msgstr "Generiranje DocBooka..."
 
 #: docgenerators/docbookgenerator.cpp:113
 #, kde-format
 msgid "Docbook Generation Complete..."
-msgstr ""
+msgstr "Generiranje DocBooka dovršeno..."
 
 #: docgenerators/docbookgenerator.cpp:116
 #, kde-format
 msgid "Docbook Generation Failed..."
-msgstr ""
+msgstr "Generiranje DocBooka nije uspjelo..."
 
 #: docgenerators/docbookgeneratorjob.cpp:220
 #, kde-format
 msgid "Exporting to DocBook..."
-msgstr ""
+msgstr "Izvoz u DocBook..."
 
 #: docgenerators/main.cpp:33 docgenerators/main.cpp:46
 #, kde-format
 msgid "Umbrello UML Modeller autonomous code generator"
-msgstr ""
+msgstr "Samostalni generator koda za Umbrello UML Modeller"
 
 #: docgenerators/main.cpp:48
 #, kde-format
 msgid ""
 "(c) 2006 Gael de Chalendar (aka Kleag), (c) 2002-2006 Umbrello UML Modeller "
 "Authors"
-msgstr ""
+msgstr "(c) 2006 Gael de Chalendar (zvan Kleag), (c) 2002–2006 autori programa Umbrello UML Modeller"
 
 #: docgenerators/main.cpp:50
 #, kde-format
 msgid "Gael de Chalendar (aka Kleag)"
-msgstr ""
+msgstr "Gael de Chalendar (zvan Kleag)"
 
 #: docgenerators/main.cpp:51 main.cpp:128
 #, kde-format
 msgid "Umbrello UML Modeller Authors"
-msgstr ""
+msgstr "Autori programa Umbrello UML Modeller"
 
 #: docgenerators/main.cpp:55
 #, kde-format
 msgid "File to transform"
-msgstr ""
+msgstr "Datoteka za pretvorbu"
 
 #: docgenerators/main.cpp:56
 #, kde-format
 msgid "The XSLT file to use"
-msgstr ""
+msgstr "XSLT datoteka za upotrebu"
 
 #: docgenerators/xhtmlgenerator.cpp:105
 #, kde-format
 msgid "Generating XHTML..."
-msgstr ""
+msgstr "Generiranje XHTML-a..."
 
 #: docgenerators/xhtmlgenerator.cpp:135
 #, kde-format
 msgid "XHTML Generation Complete..."
-msgstr ""
+msgstr "Generiranje XHTML-a dovršeno..."
 
 #: docgenerators/xhtmlgenerator.cpp:141
 #, kde-format
 msgid "Copying CSS..."
-msgstr ""
+msgstr "Kopiranje CSS-a..."
 
 #: docgenerators/xhtmlgenerator.cpp:158
 #, kde-format
 msgid "Finished Copying CSS..."
-msgstr ""
+msgstr "Kopiranje CSS-a dovršeno..."
 
 #: docgenerators/xhtmlgenerator.cpp:161
 #, kde-format
 msgid "Failed Copying CSS..."
-msgstr ""
+msgstr "Kopiranje CSS-a nije uspjelo..."
 
 #: docwindow.cpp:44
 #, kde-format
 msgid ""
 "Flag whether documentation was modified. Press left mouse button to apply "
 "modified content."
-msgstr ""
+msgstr "Oznaka je li dokumentacija izmijenjena. Pritisnite lijevu tipku miša za primjenu izmijenjenog sadržaja."
 
 #: docwindow.cpp:81
 #, kde-format
 msgid "Documentation type"
-msgstr ""
+msgstr "Vrsta dokumentacije"
 
 #: docwindow.cpp:88
 #, kde-format
 msgid "Activate documentation edit after focus change."
-msgstr ""
+msgstr "Aktiviraj uređivanje dokumentacije nakon promjene fokusa."
 
 #: layoutgenerator.cpp:261
 #, kde-format
 msgid "Apply layout"
-msgstr ""
+msgstr "Primijeni raspored"
 
 #: main.cpp:117
 #, kde-format
 msgid "Umbrello UML Modeller"
-msgstr ""
+msgstr "Umbrello UML Modeller"
 
 #: main.cpp:119
 #, kde-format
@@ -4213,233 +4214,233 @@ msgid ""
 "Umbrello – Visual development environment for software, based on the "
 "industry standard Unified Modelling Language (UML).<br/>See also <a href="
 "\"http://www.omg.org/spec/\">http://www.omg.org/spec/</a>."
-msgstr ""
+msgstr "Umbrello – vizualno razvojno okruženje za softver, utemeljeno na industrijskom standardu Unified Modeling Language (UML).<br/>Pogledajte i <a href=\"http://www.omg.org/spec/\">http://www.omg.org/spec/</a>."
 
 #: main.cpp:123
 #, kde-format
 msgid ""
 "Copyright © 2001 Paul Hensgen,\n"
 "Copyright © 2002-2022 Umbrello UML Modeller Authors"
-msgstr ""
+msgstr "Autorska prava © 2001 Paul Hensgen,\nAutorska prava © 2002–2022 autori programa Umbrello UML Modeller"
 
 #: main.cpp:127
 #, kde-format
 msgid "Author of initial version."
-msgstr ""
+msgstr "Autor početne inačice."
 
 #: main.cpp:132 main.cpp:135
 #, kde-format
 msgid "Bug fixing, porting work, code cleanup, new features."
-msgstr ""
+msgstr "Ispravljanje pogrešaka, prijenos, čišćenje koda i nove mogućnosti."
 
 #: main.cpp:138
 #, kde-format
 msgid "Porting work, code cleanup, new features."
-msgstr ""
+msgstr "Prijenos, čišćenje koda i nove mogućnosti."
 
 #: main.cpp:141
 #, kde-format
 msgid "Current maintainer."
-msgstr ""
+msgstr "Trenutačni održavatelj."
 
 #: main.cpp:144
 #, kde-format
 msgid "A lot of work for C++ and Java code generation. Codeeditor."
-msgstr ""
+msgstr "Velik doprinos generiranju koda za C++ i Javu. Uređivač koda."
 
 #: main.cpp:153
 #, kde-format
 msgid "File to open"
-msgstr ""
+msgstr "Datoteka za otvaranje"
 
 #: main.cpp:154
 #, kde-format
 msgid "export diagrams to extension and exit"
-msgstr ""
+msgstr "izvezi dijagrame s navedenim nastavkom i izađi"
 
 #: main.cpp:156
 #, kde-format
 msgid "list available export extensions"
-msgstr ""
+msgstr "prikaži dostupne nastavke za izvoz"
 
 #: main.cpp:158
 #, kde-format
 msgid "the local directory to save the exported diagrams in"
-msgstr ""
+msgstr "lokalna mapa u koju će se spremiti izvezeni dijagrami"
 
 #: main.cpp:160
 #, kde-format
 msgid "import files"
-msgstr ""
+msgstr "uvezi datoteke"
 
 #: main.cpp:162
 #, kde-format
 msgid "list supported languages"
-msgstr ""
+msgstr "prikaži podržane jezike"
 
 #: main.cpp:164
 #, kde-format
 msgid ""
 "keep the tree structure used to store the views in the document in the "
 "target directory"
-msgstr ""
+msgstr "zadrži strukturu stabla za pohranu prikaza iz dokumenta u ciljnoj mapi"
 
 #: main.cpp:166
 #, kde-format
 msgid "import files from directory <dir>"
-msgstr ""
+msgstr "uvezi datoteke iz mape <dir>"
 
 #: main.cpp:168
 #, kde-format
 msgid "set language"
-msgstr ""
+msgstr "postavi jezik"
 
 #: menus/associationwidgetpopupmenu.cpp:41
 #, kde-format
 msgid "Delete Anchor"
-msgstr ""
+msgstr "Izbriši sidro"
 
 #: menus/associationwidgetpopupmenu.cpp:48
 #, kde-format
 msgid "Add Point"
-msgstr ""
+msgstr "Dodaj točku"
 
 #: menus/associationwidgetpopupmenu.cpp:50
 #, kde-format
 msgid "Delete Point"
-msgstr ""
+msgstr "Izbriši točku"
 
 #: menus/associationwidgetpopupmenu.cpp:52
 #, kde-format
 msgid "Choose Spline points automatically"
-msgstr ""
+msgstr "Automatski odaberi točke krivulje"
 
 #: menus/associationwidgetpopupmenu.cpp:67
 #, kde-format
 msgid "Change Association Name..."
-msgstr ""
+msgstr "Promijeni naziv asocijacije..."
 
 #: menus/associationwidgetpopupmenu.cpp:68
 #: menus/widgetbasepopupmenu.cpp:490
 #, kde-format
 msgid "Change Role A Name..."
-msgstr ""
+msgstr "Promijeni naziv uloge A..."
 
 #: menus/associationwidgetpopupmenu.cpp:69
 #: menus/widgetbasepopupmenu.cpp:493
 #, kde-format
 msgid "Change Role B Name..."
-msgstr ""
+msgstr "Promijeni naziv uloge B..."
 
 #: menus/associationwidgetpopupmenu.cpp:76
 #: menus/widgetbasepopupmenu.cpp:508
 #, kde-format
 msgid "Select Operation..."
-msgstr ""
+msgstr "Odaberi operaciju..."
 
 #: menus/associationwidgetpopupmenu.cpp:94
 #, kde-format
 msgctxt "Layout menu"
 msgid "Layout"
-msgstr ""
+msgstr "Raspored"
 
 #: menus/associationwidgetpopupmenu.cpp:95
 #, kde-format
 msgid "Polyline"
-msgstr ""
+msgstr "Polilinija"
 
 #: menus/associationwidgetpopupmenu.cpp:96
 #, kde-format
 msgid "Direct"
-msgstr ""
+msgstr "Izravno"
 
 #: menus/associationwidgetpopupmenu.cpp:97
 #, kde-format
 msgid "Spline"
-msgstr ""
+msgstr "Krivulja"
 
 #: menus/associationwidgetpopupmenu.cpp:98
 #, kde-format
 msgid "Orthogonal"
-msgstr ""
+msgstr "Okomito"
 
 #: menus/dialogspopupmenu.cpp:100 menus/listpopupmenu.cpp:225
 #, kde-format
 msgid "New Template..."
-msgstr ""
+msgstr "Novi predložak..."
 
 #: menus/listpopupmenu.cpp:143
 #, kde-format
 msgid "Accept Signal"
-msgstr ""
+msgstr "Prihvati signal"
 
 #: menus/listpopupmenu.cpp:144
 #, kde-format
 msgid "Accept Time Event"
-msgstr ""
+msgstr "Prihvati vremenski događaj"
 
 #: menus/listpopupmenu.cpp:145 menus/listpopupmenu.cpp:218
 #, kde-format
 msgid "Activity..."
-msgstr ""
+msgstr "Aktivnost..."
 
 #: menus/listpopupmenu.cpp:146 worktoolbar.cpp:376
 #, kde-format
 msgid "Activity Transition"
-msgstr ""
+msgstr "Prijelaz aktivnosti"
 
 #: menus/listpopupmenu.cpp:147 umlwidgets/widgetbase.cpp:1246
 #: worktoolbar.cpp:338
 #, kde-format
 msgid "Actor"
-msgstr ""
+msgstr "Akter"
 
 #. i18n("Actor...")); break;
 #: menus/listpopupmenu.cpp:149 umlwidgets/widgetbase.cpp:1249
 #: worktoolbar.cpp:358
 #, kde-format
 msgid "Artifact"
-msgstr ""
+msgstr "Artefakt"
 
 #. i18n("Category...")); break;
 #: menus/listpopupmenu.cpp:156 menus/widgetbasepopupmenu.cpp:557
 #, kde-format
 msgid "Change Font..."
-msgstr ""
+msgstr "Promijeni font..."
 
 #: menus/listpopupmenu.cpp:158
 #, kde-format
 msgid "Choice"
-msgstr ""
+msgstr "Izbor"
 
 #: menus/listpopupmenu.cpp:159
 #, kde-format
 msgctxt "new class menu item"
 msgid "Class..."
-msgstr ""
+msgstr "Klasa..."
 
 #: menus/listpopupmenu.cpp:160
 #, kde-format
 msgctxt "duplicate action"
 msgid "Duplicate"
-msgstr ""
+msgstr "Dupliciraj"
 
 #: menus/listpopupmenu.cpp:161
 #, kde-format
 msgid "Collapse All"
-msgstr ""
+msgstr "Sažmi sve"
 
 #: menus/listpopupmenu.cpp:162
 #, kde-format
 msgctxt "add new combined state"
 msgid "Combined state..."
-msgstr ""
+msgstr "Kombinirano stanje..."
 
 #: menus/listpopupmenu.cpp:163 umlwidgets/widgetbase.cpp:1264
 #: worktoolbar.cpp:356
 #, kde-format
 msgid "Component"
-msgstr ""
+msgstr "Komponenta"
 
 #: menus/listpopupmenu.cpp:166 menus/listpopupmenu.cpp:173
 #: menus/listpopupmenu.cpp:181 menus/listpopupmenu.cpp:211
@@ -4447,1451 +4448,1451 @@ msgstr ""
 #: models/diagramsmodel.cpp:56 models/objectsmodel.cpp:80
 #, kde-format
 msgid "Folder"
-msgstr ""
+msgstr "Mapa"
 
 #: menus/listpopupmenu.cpp:169
 #, kde-format
 msgid "Datatype..."
-msgstr ""
+msgstr "Vrsta podataka..."
 
 #: menus/listpopupmenu.cpp:170 worktoolbar.cpp:365
 #, kde-format
 msgid "Deep History"
-msgstr ""
+msgstr "Duboka povijest"
 
 #: menus/listpopupmenu.cpp:174
 #, kde-format
 msgid "Edit combined state"
-msgstr ""
+msgstr "Uredi kombinirano stanje"
 
 #: menus/listpopupmenu.cpp:175 worktoolbar.cpp:379
 #, kde-format
 msgid "End Activity"
-msgstr ""
+msgstr "Završi aktivnost"
 
 #: menus/listpopupmenu.cpp:176 worktoolbar.cpp:349
 #, kde-format
 msgid "End State"
-msgstr ""
+msgstr "Završno stanje"
 
 #: menus/listpopupmenu.cpp:177 umlwidgets/widgetbase.cpp:1273
 #: worktoolbar.cpp:364
 #, kde-format
 msgid "Entity"
-msgstr ""
+msgstr "Entitet"
 
 #. i18n("Entity...")); break;
 #: menus/listpopupmenu.cpp:179
 #, kde-format
 msgid "Entity Attribute..."
-msgstr ""
+msgstr "Atribut entiteta..."
 
 #: menus/listpopupmenu.cpp:182
 #, kde-format
 msgid "Enum..."
-msgstr ""
+msgstr "Enumeracija..."
 
 #: menus/listpopupmenu.cpp:183
 #, kde-format
 msgid "Enum Literal..."
-msgstr ""
+msgstr "Vrijednost enumeracije..."
 
 #: menus/listpopupmenu.cpp:185
 #, kde-format
 msgid "Expand All"
-msgstr ""
+msgstr "Proširi sve"
 
 #: menus/listpopupmenu.cpp:186
 #, kde-format
 msgid "Export as Picture..."
-msgstr ""
+msgstr "Izvezi kao sliku..."
 
 #: menus/listpopupmenu.cpp:187
 #, kde-format
 msgid "Externalize Folder..."
-msgstr ""
+msgstr "Premjesti mapu izvan projekta..."
 
 #: menus/listpopupmenu.cpp:188 menus/widgetbasepopupmenu.cpp:535
 #, kde-format
 msgid "Fill Color..."
-msgstr ""
+msgstr "Boja ispune..."
 
 #: menus/listpopupmenu.cpp:189 worktoolbar.cpp:380
 #, kde-format
 msgid "Final Activity"
-msgstr ""
+msgstr "Završna aktivnost"
 
 #: menus/listpopupmenu.cpp:190
 #, kde-format
 msgid "Flip Horizontal"
-msgstr ""
+msgstr "Okreni vodoravno"
 
 #: menus/listpopupmenu.cpp:191
 #, kde-format
 msgid "Flip Vertical"
-msgstr ""
+msgstr "Okreni okomito"
 
 #: menus/listpopupmenu.cpp:192
 #, kde-format
 msgid "Text Line..."
-msgstr ""
+msgstr "Redak teksta..."
 
 #: menus/listpopupmenu.cpp:194 menus/listpopupmenu.cpp:258
 #: worktoolbar.cpp:368
 #, kde-format
 msgid "Fork"
-msgstr ""
+msgstr "Račvanje"
 
 #: menus/listpopupmenu.cpp:195
 #, kde-format
 msgid "Go to state diagram"
-msgstr ""
+msgstr "Idi na dijagram stanja"
 
 #: menus/listpopupmenu.cpp:196
 #, kde-format
 msgid "Hide destruction box"
-msgstr ""
+msgstr "Sakrij okvir uništenja"
 
 #: menus/listpopupmenu.cpp:197
 #, kde-format
 msgid "Import File(s)..."
-msgstr ""
+msgstr "Uvezi datoteke..."
 
 #: menus/listpopupmenu.cpp:198 umlapp.cpp:367
 #, kde-format
 msgid "Import from Directory..."
-msgstr ""
+msgstr "Uvezi iz mape..."
 
 #: menus/listpopupmenu.cpp:199
 #, kde-format
 msgid "from file..."
-msgstr ""
+msgstr "iz datoteke..."
 
 #: menus/listpopupmenu.cpp:200 worktoolbar.cpp:383
 #, kde-format
 msgid "Initial Activity"
-msgstr ""
+msgstr "Početna aktivnost"
 
 #: menus/listpopupmenu.cpp:201 worktoolbar.cpp:347
 #, kde-format
 msgid "Initial State"
-msgstr ""
+msgstr "Početno stanje"
 
 #: menus/listpopupmenu.cpp:202
 #, kde-format
 msgctxt "new instance menu item"
 msgid "Instance..."
-msgstr ""
+msgstr "Instanca..."
 
 #: menus/listpopupmenu.cpp:203 menus/listpopupmenu.cpp:219
 #: menus/listpopupmenu.cpp:222
 #, kde-format
 msgid "New Attribute..."
-msgstr ""
+msgstr "Novi atribut..."
 
 #: menus/listpopupmenu.cpp:206
 #, kde-format
 msgid "Provided interface"
-msgstr ""
+msgstr "Pruženo sučelje"
 
 #: menus/listpopupmenu.cpp:207
 #, kde-format
 msgid "Required interface"
-msgstr ""
+msgstr "Potrebno sučelje"
 
 #: menus/listpopupmenu.cpp:208
 #, kde-format
 msgid "Internalize Folder"
-msgstr ""
+msgstr "Uvrsti mapu u projekt"
 
 #: menus/listpopupmenu.cpp:209 worktoolbar.cpp:370
 #, kde-format
 msgid "Junction"
-msgstr ""
+msgstr "Spoj"
 
 #: menus/listpopupmenu.cpp:210 menus/widgetbasepopupmenu.cpp:534
 #, kde-format
 msgid "Line Color..."
-msgstr ""
+msgstr "Boja crte..."
 
 #: menus/listpopupmenu.cpp:212 worktoolbar.cpp:327 worktoolbar.cpp:385
 #, kde-format
 msgid "Asynchronous Message"
-msgstr ""
+msgstr "Asinkrona poruka"
 
 #: menus/listpopupmenu.cpp:213
 #, kde-format
 msgid "Creation Message"
-msgstr ""
+msgstr "Poruka stvaranja"
 
 #: menus/listpopupmenu.cpp:214
 #, kde-format
 msgid "Destroy Message"
-msgstr ""
+msgstr "Poruka uništenja"
 
 #: menus/listpopupmenu.cpp:215 worktoolbar.cpp:328
 #, kde-format
 msgid "Found Message"
-msgstr ""
+msgstr "Pronađena poruka"
 
 #: menus/listpopupmenu.cpp:216 worktoolbar.cpp:329
 #, kde-format
 msgid "Lost Message"
-msgstr ""
+msgstr "Izgubljena poruka"
 
 #: menus/listpopupmenu.cpp:217 worktoolbar.cpp:326 worktoolbar.cpp:384
 #, kde-format
 msgid "Synchronous Message"
-msgstr ""
+msgstr "Sinkrona poruka"
 
 #: menus/listpopupmenu.cpp:220
 #, kde-format
 msgid "New Entity Attribute..."
-msgstr ""
+msgstr "Novi atribut entiteta..."
 
 #: menus/listpopupmenu.cpp:221
 #, kde-format
 msgid "New Literal..."
-msgstr ""
+msgstr "Nova vrijednost..."
 
 #: menus/listpopupmenu.cpp:224
 #, kde-format
 msgid "New Parameter..."
-msgstr ""
+msgstr "Novi parametar..."
 
 #: menus/listpopupmenu.cpp:226 umlwidgets/widgetbase.cpp:1291
 #: worktoolbar.cpp:357
 #, kde-format
 msgid "Node"
-msgstr ""
+msgstr "Čvor"
 
 #. i18n("Node...")); break;
 #: menus/listpopupmenu.cpp:228
 #, kde-format
 msgid "Note..."
-msgstr ""
+msgstr "Bilješka..."
 
 #: menus/listpopupmenu.cpp:229
 #, kde-format
 msgid "Object..."
-msgstr ""
+msgstr "Objekt..."
 
 #: menus/listpopupmenu.cpp:230 worktoolbar.cpp:387
 #, kde-format
 msgid "Object Node"
-msgstr ""
+msgstr "Čvor objekta"
 
 #: menus/listpopupmenu.cpp:231
 #, kde-format
 msgid "Open file"
-msgstr ""
+msgstr "Otvori datoteku"
 
 #. i18n("Operation...")); break;
 #: menus/listpopupmenu.cpp:234
 #, kde-format
 msgid "Package..."
-msgstr ""
+msgstr "Paket..."
 
 #: menus/listpopupmenu.cpp:236 umlwidgets/widgetbase.cpp:1306
 #: worktoolbar.cpp:381
 #, kde-format
 msgid "Pin"
-msgstr ""
+msgstr "Priključak"
 
 #: menus/listpopupmenu.cpp:237 umlwidgets/widgetbase.cpp:1309
 #: worktoolbar.cpp:382
 #, kde-format
 msgid "Port"
-msgstr ""
+msgstr "Ulaz/izlaz"
 
 #. i18n("Port...")); break;
 #: menus/listpopupmenu.cpp:239
 #, kde-format
 msgid "Pre Post Condition"
-msgstr ""
+msgstr "Pred/postuvjet"
 
 #: menus/listpopupmenu.cpp:242
 #, kde-format
 msgid "Redo"
-msgstr ""
+msgstr "Ponovi"
 
 #: menus/listpopupmenu.cpp:243 umlwidgets/widgetbase.cpp:1315
 #: worktoolbar.cpp:348
 #, kde-format
 msgid "Region"
-msgstr ""
+msgstr "Područje"
 
 #: menus/listpopupmenu.cpp:244
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: menus/listpopupmenu.cpp:245
 #, kde-format
 msgid "Remove state diagram"
-msgstr ""
+msgstr "Ukloni dijagram stanja"
 
 #: menus/listpopupmenu.cpp:246 menus/umllistviewpopupmenu.cpp:277
 #, kde-format
 msgid "Rename..."
-msgstr ""
+msgstr "Preimenuj..."
 
 #: menus/listpopupmenu.cpp:247
 #, kde-format
 msgid "Rename Object..."
-msgstr ""
+msgstr "Preimenuj objekt..."
 
 #: menus/listpopupmenu.cpp:248
 #, kde-format
 msgid "Return to combined state"
-msgstr ""
+msgstr "Vrati se na kombinirano stanje"
 
 #: menus/listpopupmenu.cpp:249
 #, kde-format
 msgid "Return to class"
-msgstr ""
+msgstr "Vrati se na klasu"
 
 #: menus/listpopupmenu.cpp:250
 #, kde-format
 msgid "Reset Label Positions"
-msgstr ""
+msgstr "Vrati položaje oznaka"
 
 #: menus/listpopupmenu.cpp:251
 #, kde-format
 msgid "Resize"
-msgstr ""
+msgstr "Promijeni veličinu"
 
 #: menus/listpopupmenu.cpp:252
 #, kde-format
 msgid "Select state diagram"
-msgstr ""
+msgstr "Odaberi dijagram stanja"
 
 #: menus/listpopupmenu.cpp:253
 #, kde-format
 msgid "Send Signal"
-msgstr ""
+msgstr "Pošalji signal"
 
 #: menus/listpopupmenu.cpp:254 worktoolbar.cpp:366
 #, kde-format
 msgid "Shallow History"
-msgstr ""
+msgstr "Plitka povijest"
 
 #: menus/listpopupmenu.cpp:256
 #, kde-format
 msgid "Show destruction box"
-msgstr ""
+msgstr "Prikaži okvir uništenja"
 
 #: menus/listpopupmenu.cpp:257
 #, kde-format
 msgctxt "add new state"
 msgid "State..."
-msgstr ""
+msgstr "Stanje..."
 
 #: menus/listpopupmenu.cpp:259
 #, kde-format
 msgid "Join"
-msgstr ""
+msgstr "Spajanje"
 
 #: menus/listpopupmenu.cpp:262 worktoolbar.cpp:369
 #, kde-format
 msgid "Subsystem"
-msgstr ""
+msgstr "Podsustav"
 
 #. i18n("Subsystem...")); break;
 #: menus/listpopupmenu.cpp:264
 #, kde-format
 msgid "Template"
-msgstr ""
+msgstr "Predložak"
 
 #. i18n("Template...")); break;
 #: menus/listpopupmenu.cpp:266
 #, kde-format
 msgid "Undo"
-msgstr ""
+msgstr "Poništi"
 
 #: menus/listpopupmenu.cpp:268 worktoolbar.cpp:345
 #, kde-format
 msgid "Use Case"
-msgstr ""
+msgstr "Slučaj uporabe"
 
 #: menus/listpopupmenu.cpp:349
 #, kde-format
 msgctxt "new container menu"
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: menus/listpopupmenu.cpp:500
 #, kde-format
 msgctxt "new sub menu"
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: menus/listpopupmenu.cpp:511
 #, kde-format
 msgctxt "category type sub menu"
 msgid "Category Type"
-msgstr ""
+msgstr "Vrsta kategorije"
 
 #: menus/listpopupmenu.cpp:512
 #, kde-format
 msgid "Disjoint(Specialisation)"
-msgstr ""
+msgstr "Razdvojeno (specijalizacija)"
 
 #: menus/listpopupmenu.cpp:513
 #, kde-format
 msgid "Overlapping(Specialisation)"
-msgstr ""
+msgstr "Preklapajuće (specijalizacija)"
 
 #: menus/listpopupmenu.cpp:514
 #, kde-format
 msgid "Union"
-msgstr ""
+msgstr "Unija"
 
 #: menus/umllistviewpopupmenu.cpp:159 menus/widgetbasepopupmenu.cpp:200
 #: menus/widgetbasepopupmenu.cpp:226
 #, kde-format
 msgid "Change into Class"
-msgstr ""
+msgstr "Pretvori u klasu"
 
 #: menus/umllistviewpopupmenu.cpp:160 menus/widgetbasepopupmenu.cpp:201
 #, kde-format
 msgid "Change into Package"
-msgstr ""
+msgstr "Pretvori u paket"
 
 #: menus/umlscenepopupmenu.cpp:53
 #, kde-format
 msgid "Clear Diagram"
-msgstr ""
+msgstr "Očisti dijagram"
 
 #: menus/umlscenepopupmenu.cpp:57
 #, kde-format
 msgid "Snap to Grid"
-msgstr ""
+msgstr "Poravnaj s mrežom"
 
 #: menus/umlscenepopupmenu.cpp:59
 #, kde-format
 msgid "Snap Component Size to Grid"
-msgstr ""
+msgstr "Prilagodi veličinu komponente mreži"
 
 #: menus/umlscenepopupmenu.cpp:61
 #, kde-format
 msgid "Show Grid"
-msgstr ""
+msgstr "Prikaži mrežu"
 
 #: menus/umlscenepopupmenu.cpp:63
 #, kde-format
 msgid "Show Documentation Indicator"
-msgstr ""
+msgstr "Prikaži oznaku dokumentacije"
 
 #: menus/umlscenepopupmenu.cpp:105
 #, kde-format
 msgid "apply '%1'"
-msgstr ""
+msgstr "primijeni '%1'"
 
 #: menus/widgetbasepopupmenu.cpp:86
 #, kde-format
 msgid "Public Only"
-msgstr ""
+msgstr "Samo javno"
 
 #: menus/widgetbasepopupmenu.cpp:90
 #, kde-format
 msgid "Operation Signature"
-msgstr ""
+msgstr "Potpis operacije"
 
 #: menus/widgetbasepopupmenu.cpp:95 menus/widgetbasepopupmenu.cpp:726
 #, kde-format
 msgid "Attribute Signature"
-msgstr ""
+msgstr "Potpis atributa"
 
 #: menus/widgetbasepopupmenu.cpp:119 menus/widgetbasepopupmenu.cpp:127
 #, kde-format
 msgid "Show Signatures"
-msgstr ""
+msgstr "Prikaži potpise"
 
 #: menus/widgetbasepopupmenu.cpp:120 menus/widgetbasepopupmenu.cpp:128
 #, kde-format
 msgid "Hide Signatures"
-msgstr ""
+msgstr "Sakrij potpise"
 
 #: menus/widgetbasepopupmenu.cpp:134
 #, kde-format
 msgid "Hide Non-public members"
-msgstr ""
+msgstr "Sakrij nejavne članove"
 
 #: menus/widgetbasepopupmenu.cpp:135
 #, kde-format
 msgid "Show Non-public members"
-msgstr ""
+msgstr "Prikaži nejavne članove"
 
 #: menus/widgetbasepopupmenu.cpp:138
 #, kde-format
 msgid "Packages"
-msgstr ""
+msgstr "Paketi"
 
 #: menus/widgetbasepopupmenu.cpp:144
 #, kde-format
 msgid "Stereotypes"
-msgstr ""
+msgstr "Stereotipi"
 
 #: menus/widgetbasepopupmenu.cpp:203
 #, kde-format
 msgid "Refactor"
-msgstr ""
+msgstr "Refaktoriraj"
 
 #: menus/widgetbasepopupmenu.cpp:204
 #, kde-format
 msgid "View Code"
-msgstr ""
+msgstr "Prikaži kod"
 
 #: menus/widgetbasepopupmenu.cpp:207
 #, kde-format
 msgid "Change into Interface"
-msgstr ""
+msgstr "Pretvori u sučelje"
 
 #: menus/widgetbasepopupmenu.cpp:224
 #, kde-format
 msgid "Draw as Circle"
-msgstr ""
+msgstr "Prikaži kao krug"
 
 #: menus/widgetbasepopupmenu.cpp:235 menus/widgetbasepopupmenu.cpp:304
 #, kde-format
 msgid "Rename Class..."
-msgstr ""
+msgstr "Preimenuj klasu..."
 
 #: menus/widgetbasepopupmenu.cpp:277 menus/widgetbasepopupmenu.cpp:444
 #, kde-format
 msgid "Name as Tooltip"
-msgstr ""
+msgstr "Naziv kao opis"
 
 #: menus/widgetbasepopupmenu.cpp:296
 #, kde-format
 msgid "Move Up"
-msgstr ""
+msgstr "Pomakni gore"
 
 #: menus/widgetbasepopupmenu.cpp:297
 #, kde-format
 msgid "Move Down"
-msgstr ""
+msgstr "Pomakni dolje"
 
 #: menus/widgetbasepopupmenu.cpp:330
 #, kde-format
 msgctxt "clear note"
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: menus/widgetbasepopupmenu.cpp:332 menus/widgetbasepopupmenu.cpp:442
 #: menus/widgetbasepopupmenu.cpp:471 menus/widgetbasepopupmenu.cpp:514
 #, kde-format
 msgid "Change Text..."
-msgstr ""
+msgstr "Promijeni tekst..."
 
 #: menus/widgetbasepopupmenu.cpp:334 menus/widgetbasepopupmenu.cpp:585
 #, kde-format
 msgid "Auto resize"
-msgstr ""
+msgstr "Automatski promijeni veličinu"
 
 #: menus/widgetbasepopupmenu.cpp:367
 #, kde-format
 msgid "Change State Name..."
-msgstr ""
+msgstr "Promijeni naziv stanja..."
 
 #: menus/widgetbasepopupmenu.cpp:403
 #, kde-format
 msgid "Change Activity Name..."
-msgstr ""
+msgstr "Promijeni naziv aktivnosti..."
 
 #: menus/widgetbasepopupmenu.cpp:423
 #, kde-format
 msgid "Change Object Node Name..."
-msgstr ""
+msgstr "Promijeni naziv čvora objekta..."
 
 #: menus/widgetbasepopupmenu.cpp:440
 #, kde-format
 msgctxt "clear precondition"
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: menus/widgetbasepopupmenu.cpp:461
 #, kde-format
 msgid "Add Interaction Operand"
-msgstr ""
+msgstr "Dodaj operand interakcije"
 
 #: menus/widgetbasepopupmenu.cpp:469
 #, kde-format
 msgctxt "clear combined fragment"
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: menus/widgetbasepopupmenu.cpp:481 menus/widgetbasepopupmenu.cpp:484
 #, kde-format
 msgid "Change Multiplicity..."
-msgstr ""
+msgstr "Promijeni višestrukost..."
 
 #: menus/widgetbasepopupmenu.cpp:487
 #, kde-format
 msgid "Change Name"
-msgstr ""
+msgstr "Promijeni naziv"
 
 #: menus/widgetbasepopupmenu.cpp:533 menus/widgetbasepopupmenu.cpp:614
 #, kde-format
 msgctxt "color menu"
 msgid "Color"
-msgstr ""
+msgstr "Boja"
 
 #. i18n: ectx: label, entry (useFillColor), group (UI Options)
 #: menus/widgetbasepopupmenu.cpp:536 menus/widgetbasepopupmenu.cpp:617
 #: umbrello.kcfg:147
 #, kde-format
 msgid "Use Fill Color"
-msgstr ""
+msgstr "Koristi boju ispune"
 
 #: menus/widgetbasepopupmenu.cpp:537
 #, kde-format
 msgid "No Fill Color"
-msgstr ""
+msgstr "Bez boje ispune"
 
 #: menus/widgetbasepopupmenu.cpp:593
 #, kde-format
 msgctxt "align menu"
 msgid "Align"
-msgstr ""
+msgstr "Poravnaj"
 
 #: menus/widgetbasepopupmenu.cpp:594 umlapp.cpp:565
 #, kde-format
 msgid "Align Right"
-msgstr ""
+msgstr "Poravnaj desno"
 
 #: menus/widgetbasepopupmenu.cpp:595 umlapp.cpp:570
 #, kde-format
 msgid "Align Left"
-msgstr ""
+msgstr "Poravnaj lijevo"
 
 #: menus/widgetbasepopupmenu.cpp:596 umlapp.cpp:575
 #, kde-format
 msgid "Align Top"
-msgstr ""
+msgstr "Poravnaj gore"
 
 #: menus/widgetbasepopupmenu.cpp:597 umlapp.cpp:580
 #, kde-format
 msgid "Align Bottom"
-msgstr ""
+msgstr "Poravnaj dolje"
 
 #: menus/widgetbasepopupmenu.cpp:599 umlapp.cpp:585
 #, kde-format
 msgid "Align Vertical Middle"
-msgstr ""
+msgstr "Poravnaj po okomitoj sredini"
 
 #: menus/widgetbasepopupmenu.cpp:600 umlapp.cpp:590
 #, kde-format
 msgid "Align Horizontal Middle"
-msgstr ""
+msgstr "Poravnaj po vodoravnoj sredini"
 
 #: menus/widgetbasepopupmenu.cpp:601 umlapp.cpp:595
 #, kde-format
 msgid "Align Vertical Distribute"
-msgstr ""
+msgstr "Ravnomjerno rasporedi okomito"
 
 #: menus/widgetbasepopupmenu.cpp:602 umlapp.cpp:600
 #, kde-format
 msgid "Align Horizontal Distribute"
-msgstr ""
+msgstr "Ravnomjerno rasporedi vodoravno"
 
 #: model_utils.cpp:561
 #, kde-format
 msgid "new_actor"
-msgstr ""
+msgstr "new_actor"
 
 #: model_utils.cpp:562
 #, kde-format
 msgid "new_artifact"
-msgstr ""
+msgstr "new_artifact"
 
 #: model_utils.cpp:563 umlmodel/umlcanvasobject.cpp:188
 #, kde-format
 msgid "new_association"
-msgstr ""
+msgstr "new_association"
 
 #: model_utils.cpp:564 umlmodel/umlcanvasobject.cpp:191
 #, kde-format
 msgid "new_attribute"
-msgstr ""
+msgstr "new_attribute"
 
 #: model_utils.cpp:565
 #, kde-format
 msgid "new_category"
-msgstr ""
+msgstr "new_category"
 
 #: model_utils.cpp:566 umlmodel/umlcanvasobject.cpp:212
 #, kde-format
 msgid "new_check_constraint"
-msgstr ""
+msgstr "new_check_constraint"
 
 #: model_utils.cpp:568
 #, kde-format
 msgid "new_component"
-msgstr ""
+msgstr "new_component"
 
 #: model_utils.cpp:569
 #, kde-format
 msgid "new_datatype"
-msgstr ""
+msgstr "new_datatype"
 
 #: model_utils.cpp:570
 #, kde-format
 msgid "new_entity"
-msgstr ""
+msgstr "new_entity"
 
 #: model_utils.cpp:571
 #, kde-format
 msgid "new_entity_attribute"
-msgstr ""
+msgstr "new_entity_attribute"
 
 #: model_utils.cpp:572
 #, kde-format
 msgid "new_entity_constraint"
-msgstr ""
+msgstr "new_entity_constraint"
 
 #: model_utils.cpp:573
 #, kde-format
 msgid "new_enum"
-msgstr ""
+msgstr "new_enum"
 
 #: model_utils.cpp:574
 #, kde-format
 msgid "new_enum_literal"
-msgstr ""
+msgstr "new_enum_literal"
 
 #: model_utils.cpp:575
 #, kde-format
 msgid "new_folder"
-msgstr ""
+msgstr "new_folder"
 
 #: model_utils.cpp:576
 #, kde-format
 msgid "new_foreign_key_constraint"
-msgstr ""
+msgstr "new_foreign_key_constraint"
 
 #: model_utils.cpp:577
 #, kde-format
 msgid "new_instance"
-msgstr ""
+msgstr "new_instance"
 
 #: model_utils.cpp:578
 #, kde-format
 msgid "new_instance_attribute"
-msgstr ""
+msgstr "new_instance_attribute"
 
 #: model_utils.cpp:579
 #, kde-format
 msgid "new_interface"
-msgstr ""
+msgstr "new_interface"
 
 #: model_utils.cpp:580
 #, kde-format
 msgid "new_node"
-msgstr ""
+msgstr "new_node"
 
 #: model_utils.cpp:581 umlmodel/umlcanvasobject.cpp:197
 #, kde-format
 msgid "new_operation"
-msgstr ""
+msgstr "new_operation"
 
 #: model_utils.cpp:582
 #, kde-format
 msgid "new_package"
-msgstr ""
+msgstr "new_package"
 
 #: model_utils.cpp:583
 #, kde-format
 msgid "new_port"
-msgstr ""
+msgstr "new_port"
 
 #: model_utils.cpp:584
 #, kde-format
 msgid "new_role"
-msgstr ""
+msgstr "new_role"
 
 #: model_utils.cpp:585
 #, kde-format
 msgid "new_stereotype"
-msgstr ""
+msgstr "new_stereotype"
 
 #: model_utils.cpp:586 umlmodel/umlcanvasobject.cpp:194
 #, kde-format
 msgid "new_template"
-msgstr ""
+msgstr "new_template"
 
 #: model_utils.cpp:587 umlmodel/umlcanvasobject.cpp:206
 #, kde-format
 msgid "new_unique_constraint"
-msgstr ""
+msgstr "new_unique_constraint"
 
 #: model_utils.cpp:588
 #, kde-format
 msgid "new_use_case"
-msgstr ""
+msgstr "new_use_case"
 
 #: model_utils.cpp:590 umlmodel/umlcanvasobject.cpp:215
 #, kde-format
 msgid "new_object"
-msgstr ""
+msgstr "new_object"
 
 #: model_utils.cpp:610 umlwidgets/widget_utils.cpp:872
 #, kde-format
 msgid "New actor"
-msgstr ""
+msgstr "Novi akter"
 
 #: model_utils.cpp:611 umlwidgets/widget_utils.cpp:873
 #, kde-format
 msgid "New artifact"
-msgstr ""
+msgstr "Novi artefakt"
 
 #: model_utils.cpp:612 umlwidgets/widget_utils.cpp:874
 #, kde-format
 msgid "New association"
-msgstr ""
+msgstr "Nova asocijacija"
 
 #: model_utils.cpp:613
 #, kde-format
 msgid "New attribute"
-msgstr ""
+msgstr "Novi atribut"
 
 #: model_utils.cpp:614 umlwidgets/widget_utils.cpp:876
 #, kde-format
 msgid "New category"
-msgstr ""
+msgstr "Nova kategorija"
 
 #: model_utils.cpp:615
 #, kde-format
 msgid "New check constraint"
-msgstr ""
+msgstr "Novo ograničenje provjere"
 
 #: model_utils.cpp:616 umlwidgets/widget_utils.cpp:877
 #, kde-format
 msgid "New class"
-msgstr ""
+msgstr "Nova klasa"
 
 #: model_utils.cpp:617 umlwidgets/widget_utils.cpp:879
 #, kde-format
 msgid "New component"
-msgstr ""
+msgstr "Nova komponenta"
 
 #: model_utils.cpp:618 umlwidgets/widget_utils.cpp:880
 #, kde-format
 msgid "New datatype"
-msgstr ""
+msgstr "Novi tip podataka"
 
 #: model_utils.cpp:619 umlwidgets/widget_utils.cpp:881
 #, kde-format
 msgid "New entity"
-msgstr ""
+msgstr "Novi entitet"
 
 #: model_utils.cpp:620
 #, kde-format
 msgid "New entity attribute"
-msgstr ""
+msgstr "Novi atribut entiteta"
 
 #: model_utils.cpp:621
 #, kde-format
 msgid "New entity constraint"
-msgstr ""
+msgstr "Novo ograničenje entiteta"
 
 #: model_utils.cpp:622 umlwidgets/widget_utils.cpp:882
 #, kde-format
 msgid "New enum"
-msgstr ""
+msgstr "Nova enumeracija"
 
 #: model_utils.cpp:623
 #, kde-format
 msgid "New enum literal"
-msgstr ""
+msgstr "Novi vrijednost enumeracije"
 
 #: model_utils.cpp:624
 #, kde-format
 msgid "New folder"
-msgstr ""
+msgstr "Nova mapa"
 
 #: model_utils.cpp:625
 #, kde-format
 msgid "New foreign key constraint"
-msgstr ""
+msgstr "Novi ograničenje stranog ključa"
 
 #: model_utils.cpp:626 umlwidgets/widget_utils.cpp:885
 #, kde-format
 msgid "New instance"
-msgstr ""
+msgstr "Nova instanca"
 
 #: model_utils.cpp:627
 #, kde-format
 msgid "New instance attribute"
-msgstr ""
+msgstr "Novi atribut instance"
 
 #: model_utils.cpp:628 umlwidgets/widget_utils.cpp:886
 #, kde-format
 msgid "New interface"
-msgstr ""
+msgstr "Novi sučelje"
 
 #: model_utils.cpp:629 umlwidgets/widget_utils.cpp:888
 #, kde-format
 msgid "New node"
-msgstr ""
+msgstr "Novi čvor"
 
 #: model_utils.cpp:630
 #, kde-format
 msgid "New operation"
-msgstr ""
+msgstr "Nova operacija"
 
 #: model_utils.cpp:631 umlwidgets/widget_utils.cpp:892
 #, kde-format
 msgid "New package"
-msgstr ""
+msgstr "Novi paket"
 
 #: model_utils.cpp:632 umlwidgets/widget_utils.cpp:894
 #, kde-format
 msgid "New port"
-msgstr ""
+msgstr "Novi priključak"
 
 #: model_utils.cpp:633
 #, kde-format
 msgid "New role"
-msgstr ""
+msgstr "Nova uloga"
 
 #: model_utils.cpp:634
 #, kde-format
 msgid "New stereotype"
-msgstr ""
+msgstr "Novi stereotip"
 
 #: model_utils.cpp:635
 #, kde-format
 msgid "New template"
-msgstr ""
+msgstr "Novi predložak"
 
 #: model_utils.cpp:636
 #, kde-format
 msgid "New unique constraint"
-msgstr ""
+msgstr "Novo jedinstveno ograničenje"
 
 #: model_utils.cpp:637 umlwidgets/widget_utils.cpp:901
 #, kde-format
 msgid "New use case"
-msgstr ""
+msgstr "Nova slučaj uporabe"
 
 #: model_utils.cpp:640
 #, kde-format
 msgid "New UML object"
-msgstr ""
+msgstr "Novi UML objekt"
 
 #: model_utils.cpp:652 umlwidgets/widget_utils.cpp:918
 #, kde-format
 msgid "Enter the name of the new actor:"
-msgstr ""
+msgstr "Unesite naziv novog aktera:"
 
 #: model_utils.cpp:653 umlwidgets/widget_utils.cpp:919
 #, kde-format
 msgid "Enter the name of the new artifact:"
-msgstr ""
+msgstr "Unesite naziv novog artefakta:"
 
 #: model_utils.cpp:654 umlwidgets/widget_utils.cpp:920
 #, kde-format
 msgid "Enter the name of the new association:"
-msgstr ""
+msgstr "Unesite naziv nove asocijacije:"
 
 #: model_utils.cpp:655
 #, kde-format
 msgid "Enter the name of the new attribute:"
-msgstr ""
+msgstr "Unesite naziv novog atributa:"
 
 #: model_utils.cpp:656 umlwidgets/widget_utils.cpp:922
 #, kde-format
 msgid "Enter the name of the new category:"
-msgstr ""
+msgstr "Unesite naziv nove kategorije:"
 
 #: model_utils.cpp:657
 #, kde-format
 msgid "Enter the name of the new check constraint:"
-msgstr ""
+msgstr "Unesite naziv novog ograničenja provjere:"
 
 #: model_utils.cpp:658 umlwidgets/widget_utils.cpp:923
 #, kde-format
 msgid "Enter the name of the new class:"
-msgstr ""
+msgstr "Unesite naziv nove klase:"
 
 #: model_utils.cpp:659 umlwidgets/widget_utils.cpp:925
 #, kde-format
 msgid "Enter the name of the new component:"
-msgstr ""
+msgstr "Unesite naziv nove komponente:"
 
 #: model_utils.cpp:660 umlwidgets/widget_utils.cpp:926
 #, kde-format
 msgid "Enter the name of the new datatype:"
-msgstr ""
+msgstr "Unesite naziv novog tipa podataka:"
 
 #: model_utils.cpp:661 umlwidgets/widget_utils.cpp:927
 #, kde-format
 msgid "Enter the name of the new entity:"
-msgstr ""
+msgstr "Unesite naziv novog entiteta:"
 
 #: model_utils.cpp:662
 #, kde-format
 msgid "Enter the name of the new entity attribute:"
-msgstr ""
+msgstr "Unesite naziv novog atributa entiteta:"
 
 #: model_utils.cpp:663
 #, kde-format
 msgid "Enter the name of the new entity constraint:"
-msgstr ""
+msgstr "Unesite naziv novog ograničenja entiteta:"
 
 #: model_utils.cpp:664 umlwidgets/widget_utils.cpp:928
 #, kde-format
 msgid "Enter the name of the new enum:"
-msgstr ""
+msgstr "Unesite naziv nove enumeracije:"
 
 #: model_utils.cpp:665
 #, kde-format
 msgid "Enter the name of the new enum literal:"
-msgstr ""
+msgstr "Unesite naziv novog vrijednosti enumeracije:"
 
 #: model_utils.cpp:666
 #, kde-format
 msgid "Enter the name of the new folder:"
-msgstr ""
+msgstr "Unesite naziv nove mape:"
 
 #: model_utils.cpp:667
 #, kde-format
 msgid "Enter the name of the new foreign key constraint:"
-msgstr ""
+msgstr "Unesite naziv novog ograničenja stranog ključa:"
 
 #: model_utils.cpp:668 umlwidgets/widget_utils.cpp:931
 #, kde-format
 msgid "Enter the name of the new instance:"
-msgstr ""
+msgstr "Unesite naziv nove instance:"
 
 #: model_utils.cpp:669
 #, kde-format
 msgid "Enter the name of the new instance attribute:"
-msgstr ""
+msgstr "Unesite naziv novog atributa instance:"
 
 #: model_utils.cpp:670 umlwidgets/widget_utils.cpp:932
 #, kde-format
 msgid "Enter the name of the new interface:"
-msgstr ""
+msgstr "Unesite naziv novog sučelja:"
 
 #: model_utils.cpp:671 umlwidgets/widget_utils.cpp:934
 #, kde-format
 msgid "Enter the name of the new node:"
-msgstr ""
+msgstr "Unesite naziv novog čvora:"
 
 #: model_utils.cpp:672
 #, kde-format
 msgid "Enter the name of the new operation:"
-msgstr ""
+msgstr "Unesite naziv nove operacije:"
 
 #: model_utils.cpp:673 umlwidgets/widget_utils.cpp:938
 #, kde-format
 msgid "Enter the name of the new package:"
-msgstr ""
+msgstr "Unesite naziv novog paketa:"
 
 #: model_utils.cpp:674 umlwidgets/widget_utils.cpp:940
 #, kde-format
 msgid "Enter the name of the new port:"
-msgstr ""
+msgstr "Unesite naziv novog priključka:"
 
 #: model_utils.cpp:675
 #, kde-format
 msgid "Enter the name of the new role:"
-msgstr ""
+msgstr "Unesite naziv nove uloge:"
 
 #: model_utils.cpp:676
 #, kde-format
 msgid "Enter the name of the new stereotype:"
-msgstr ""
+msgstr "Unesite naziv novog stereotipa:"
 
 #: model_utils.cpp:677
 #, kde-format
 msgid "Enter the name of the new template:"
-msgstr ""
+msgstr "Unesite naziv novog predloška:"
 
 #: model_utils.cpp:678
 #, kde-format
 msgid "Enter the name of the new unique constraint:"
-msgstr ""
+msgstr "Unesite naziv novog jedinstvenog ograničenja:"
 
 #: model_utils.cpp:679 umlwidgets/widget_utils.cpp:947
 #, kde-format
 msgid "Enter the name of the new use case:"
-msgstr ""
+msgstr "Unesite naziv nove slučaja uporabe:"
 
 #: model_utils.cpp:682
 #, kde-format
 msgid "Enter the name of the new UML object"
-msgstr ""
+msgstr "Unesite naziv novog UML objekta"
 
 #: model_utils.cpp:694 umlwidgets/widget_utils.cpp:963
 #, kde-format
 msgid "Rename actor"
-msgstr ""
+msgstr "Preimenuj aktera"
 
 #: model_utils.cpp:695 umlwidgets/widget_utils.cpp:964
 #, kde-format
 msgid "Rename artifact"
-msgstr ""
+msgstr "Preimenuj artefakt"
 
 #: model_utils.cpp:696 umlwidgets/widget_utils.cpp:965
 #, kde-format
 msgid "Rename association"
-msgstr ""
+msgstr "Preimenuj asocijaciju"
 
 #: model_utils.cpp:697
 #, kde-format
 msgid "Rename attribute"
-msgstr ""
+msgstr "Preimenuj atribut"
 
 #: model_utils.cpp:698 umlwidgets/widget_utils.cpp:967
 #, kde-format
 msgid "Rename category"
-msgstr ""
+msgstr "Preimenuj kategoriju"
 
 #: model_utils.cpp:699
 #, kde-format
 msgid "Rename check constraint"
-msgstr ""
+msgstr "Preimenuj ograničenje provjere"
 
 #: model_utils.cpp:700 umlwidgets/widget_utils.cpp:968
 #, kde-format
 msgid "Rename class"
-msgstr ""
+msgstr "Preimenuj klasu"
 
 #: model_utils.cpp:701 umlwidgets/widget_utils.cpp:970
 #, kde-format
 msgid "Rename component"
-msgstr ""
+msgstr "Preimenuj komponentu"
 
 #: model_utils.cpp:702 umlwidgets/widget_utils.cpp:971
 #, kde-format
 msgid "Rename datatype"
-msgstr ""
+msgstr "Preimenuj tip podataka"
 
 #: model_utils.cpp:703 umlwidgets/widget_utils.cpp:972
 #, kde-format
 msgid "Rename entity"
-msgstr ""
+msgstr "Preimenuj entitet"
 
 #: model_utils.cpp:704
 #, kde-format
 msgid "Rename entity attribute"
-msgstr ""
+msgstr "Preimenuj atribut entiteta"
 
 #: model_utils.cpp:705
 #, kde-format
 msgid "Rename entity constraint"
-msgstr ""
+msgstr "Preimenuj ograničenje entiteta"
 
 #: model_utils.cpp:706 umlwidgets/widget_utils.cpp:973
 #, kde-format
 msgid "Rename enum"
-msgstr ""
+msgstr "Preimenuj enumeraciju"
 
 #: model_utils.cpp:707
 #, kde-format
 msgid "Rename enum literal"
-msgstr ""
+msgstr "Preimenuj vrijednost enumeracije"
 
 #: model_utils.cpp:708
 #, kde-format
 msgid "Rename folder"
-msgstr ""
+msgstr "Preimenuj mapu"
 
 #: model_utils.cpp:709
 #, kde-format
 msgid "Rename foreign key constraint"
-msgstr ""
+msgstr "Preimenuj ograničenje stranog ključa"
 
 #: model_utils.cpp:710 umlwidgets/widget_utils.cpp:976
 #, kde-format
 msgid "Rename instance"
-msgstr ""
+msgstr "Preimenuj instancu"
 
 #: model_utils.cpp:711
 #, kde-format
 msgid "Rename instance attribute"
-msgstr ""
+msgstr "Preimenuj atribut instance"
 
 #: model_utils.cpp:712 umlwidgets/widget_utils.cpp:977
 #, kde-format
 msgid "Rename interface"
-msgstr ""
+msgstr "Preimenuj sučelje"
 
 #: model_utils.cpp:713 umlwidgets/widget_utils.cpp:979
 #, kde-format
 msgid "Rename node"
-msgstr ""
+msgstr "Preimenuj čvor"
 
 #: model_utils.cpp:714
 #, kde-format
 msgid "Rename operation"
-msgstr ""
+msgstr "Preimenuj operaciju"
 
 #: model_utils.cpp:715 umlwidgets/widget_utils.cpp:983
 #, kde-format
 msgid "Rename package"
-msgstr ""
+msgstr "Preimenuj paket"
 
 #: model_utils.cpp:716 umlwidgets/widget_utils.cpp:985
 #, kde-format
 msgid "Rename port"
-msgstr ""
+msgstr "Preimenuj priključak"
 
 #: model_utils.cpp:717
 #, kde-format
 msgid "Rename role"
-msgstr ""
+msgstr "Preimenuj ulogu"
 
 #: model_utils.cpp:718
 #, kde-format
 msgid "Rename stereotype"
-msgstr ""
+msgstr "Preimenuj stereotip"
 
 #: model_utils.cpp:719
 #, kde-format
 msgid "Rename template"
-msgstr ""
+msgstr "Preimenuj predložak"
 
 #: model_utils.cpp:720
 #, kde-format
 msgid "Rename unique constraint"
-msgstr ""
+msgstr "Preimenuj jedinstveno ograničenje"
 
 #: model_utils.cpp:721 umlwidgets/widget_utils.cpp:992
 #, kde-format
 msgid "Rename use case"
-msgstr ""
+msgstr "Preimenuj slučaj uporabe"
 
 #: model_utils.cpp:724
 #, kde-format
 msgid "Rename UML object"
-msgstr ""
+msgstr "Preimenuj UML objekt"
 
 #: model_utils.cpp:736 umlwidgets/widget_utils.cpp:1009
 #, kde-format
 msgid "Enter the new name of the actor:"
-msgstr ""
+msgstr "Unesite novi naziv aktera:"
 
 #: model_utils.cpp:737 umlwidgets/widget_utils.cpp:1010
 #, kde-format
 msgid "Enter the new name of the artifact:"
-msgstr ""
+msgstr "Unesite novi naziv artefakta:"
 
 #: model_utils.cpp:738 umlwidgets/widget_utils.cpp:1011
 #, kde-format
 msgid "Enter the new name of the association:"
-msgstr ""
+msgstr "Unesite novi naziv asocijacije:"
 
 #: model_utils.cpp:739
 #, kde-format
 msgid "Enter the new name of the attribute:"
-msgstr ""
+msgstr "Unesite novi naziv atributa:"
 
 #: model_utils.cpp:740 umlwidgets/widget_utils.cpp:1013
 #, kde-format
 msgid "Enter the new name of the category:"
-msgstr ""
+msgstr "Unesite novi naziv kategorije:"
 
 #: model_utils.cpp:741
 #, kde-format
 msgid "Enter the new name of the check constraint:"
-msgstr ""
+msgstr "Unesite novi naziv ograničenja provjere:"
 
 #: model_utils.cpp:742 umlwidgets/widget_utils.cpp:1014
 #, kde-format
 msgid "Enter the new name of the class:"
-msgstr ""
+msgstr "Unesite novi naziv klase:"
 
 #: model_utils.cpp:743 umlwidgets/widget_utils.cpp:1016
 #, kde-format
 msgid "Enter the new name of the component:"
-msgstr ""
+msgstr "Unesite novi naziv komponente:"
 
 #: model_utils.cpp:744 umlwidgets/widget_utils.cpp:1017
 #, kde-format
 msgid "Enter the new name of the datatype:"
-msgstr ""
+msgstr "Unesite novi naziv tipa podataka:"
 
 #: model_utils.cpp:745 umlwidgets/widget_utils.cpp:1018
 #, kde-format
 msgid "Enter the new name of the entity:"
-msgstr ""
+msgstr "Unesite novi naziv entiteta:"
 
 #: model_utils.cpp:746
 #, kde-format
 msgid "Enter the new name of the entity attribute:"
-msgstr ""
+msgstr "Unesite novi naziv atributa entiteta:"
 
 #: model_utils.cpp:747
 #, kde-format
 msgid "Enter the new name of the entity constraint:"
-msgstr ""
+msgstr "Unesite novi naziv ograničenja entiteta:"
 
 #: model_utils.cpp:748 umlwidgets/widget_utils.cpp:1019
 #, kde-format
 msgid "Enter the new name of the enum:"
-msgstr ""
+msgstr "Unesite novi naziv enumeracije:"
 
 #: model_utils.cpp:749
 #, kde-format
 msgid "Enter the new name of the enum literal:"
-msgstr ""
+msgstr "Unesite novi naziv vrijednosti enumeracije:"
 
 #: model_utils.cpp:750
 #, kde-format
 msgid "Enter the new name of the folder:"
-msgstr ""
+msgstr "Unesite novi naziv mape:"
 
 #: model_utils.cpp:751
 #, kde-format
 msgid "Enter the new name of the foreign key constraint:"
-msgstr ""
+msgstr "Unesite novi naziv ograničenja stranog ključa:"
 
 #: model_utils.cpp:752 umlwidgets/widget_utils.cpp:1022
 #, kde-format
 msgid "Enter the new name of the instance:"
-msgstr ""
+msgstr "Unesite novi naziv instance:"
 
 #: model_utils.cpp:753
 #, kde-format
 msgid "Enter the new name of the instance attribute:"
-msgstr ""
+msgstr "Unesite novi naziv atributa instance:"
 
 #: model_utils.cpp:754 umlwidgets/widget_utils.cpp:1023
 #, kde-format
 msgid "Enter the new name of the interface:"
-msgstr ""
+msgstr "Unesite novi naziv sučelja:"
 
 #: model_utils.cpp:755 umlwidgets/widget_utils.cpp:1025
 #, kde-format
 msgid "Enter the new name of the node:"
-msgstr ""
+msgstr "Unesite novi naziv čvora:"
 
 #: model_utils.cpp:756
 #, kde-format
 msgid "Enter the new name of the operation:"
-msgstr ""
+msgstr "Unesite novi naziv operacije:"
 
 #: model_utils.cpp:757 umlwidgets/widget_utils.cpp:1029
 #, kde-format
 msgid "Enter the new name of the package:"
-msgstr ""
+msgstr "Unesite novi naziv paketa:"
 
 #: model_utils.cpp:758 umlwidgets/widget_utils.cpp:1031
 #, kde-format
 msgid "Enter the new name of the port:"
-msgstr ""
+msgstr "Unesite novi naziv priključka:"
 
 #: model_utils.cpp:759
 #, kde-format
 msgid "Enter the new name of the role:"
-msgstr ""
+msgstr "Unesite novi naziv uloge:"
 
 #: model_utils.cpp:760
 #, kde-format
 msgid "Enter the new name of the stereotype:"
-msgstr ""
+msgstr "Unesite novi naziv stereotipa:"
 
 #: model_utils.cpp:761
 #, kde-format
 msgid "Enter the new name of the template:"
-msgstr ""
+msgstr "Unesite novi naziv predloška:"
 
 #: model_utils.cpp:762
 #, kde-format
 msgid "Enter the new name of the unique constraint:"
-msgstr ""
+msgstr "Unesite novi naziv jedinstvenog ograničenja:"
 
 #: model_utils.cpp:763 umlwidgets/widget_utils.cpp:1038
 #, kde-format
 msgid "Enter the new name of the use case:"
-msgstr ""
+msgstr "Unesite novi naziv slučaja uporabe:"
 
 #: model_utils.cpp:766
 #, kde-format
 msgid "Enter the new name of the UML object"
-msgstr ""
+msgstr "Unesite novi naziv UML objekta"
 
 #: model_utils.cpp:1207
 #, kde-format
 msgid "OK"
-msgstr ""
+msgstr "U redu"
 
 #: model_utils.cpp:1207
 #, kde-format
 msgctxt "parse status"
 msgid "Empty"
-msgstr ""
+msgstr "Prazno"
 
 #: model_utils.cpp:1207
 #, kde-format
 msgid "Malformed argument"
-msgstr ""
+msgstr "Neispravan argument"
 
 #: model_utils.cpp:1208
 #, kde-format
 msgid "Unknown argument type"
-msgstr ""
+msgstr "Nepoznata vrsta argumenta"
 
 #: model_utils.cpp:1208
 #, kde-format
 msgid "Illegal method name"
-msgstr ""
+msgstr "Nevaljan naziv metode"
 
 #: model_utils.cpp:1209
 #, kde-format
 msgid "Unknown return type"
-msgstr ""
+msgstr "Nepoznata povratna vrsta"
 
 #: model_utils.cpp:1209
 #, kde-format
 msgid "Unspecified error"
-msgstr ""
+msgstr "Nespecificirana pogreška"
 
 #: models/diagramsmodel.cpp:52 models/objectsmodel.cpp:76
 #: models/stereotypesmodel.cpp:51 refactoring/refactoringassistant.cpp:48
 #, kde-format
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: models/diagramsmodel.cpp:54 models/objectsmodel.cpp:78
 #, kde-format
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: models/diagramsmodel.cpp:58
 #, kde-format
 msgid "Widgets/Associations"
-msgstr ""
+msgstr "Grafički elementi/asocijacije"
 
 #: models/objectsmodel.cpp:82
 #, kde-format
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: models/objectsmodel.cpp:84
 #, kde-format
 msgid "Saved"
-msgstr ""
+msgstr "Spremljeno"
 
 #: models/objectsmodel.cpp:86
 #, kde-format
 msgid "Parent"
-msgstr ""
+msgstr "Nadređeni element"
 
 #: models/objectsmodel.cpp:88
 #, kde-format
 msgid "Pointer"
-msgstr ""
+msgstr "Pokazivač"
 
 #: models/stereotypesmodel.cpp:53
 #, kde-format
 msgid "Usage"
-msgstr ""
+msgstr "Upotreba"
 
 #: object_factory.cpp:254 umldoc.cpp:1720 umldoc.cpp:1755 umlmodel/umlclassifier.cpp:409
 #: umlmodel/umlclassifier.cpp:782 umlmodel/umlentity.cpp:122
@@ -5899,18 +5900,18 @@ msgstr ""
 #: umlmodel/umlentity.cpp:274 umlmodel/umlenum.cpp:105 umlmodel/umlpackage.cpp:179
 #, kde-format
 msgid "That is an invalid name."
-msgstr ""
+msgstr "Taj naziv nije valjan."
 
 #: object_factory.cpp:261
 #, kde-format
 msgid ""
 "This is a reserved keyword for the language of the configured code generator."
-msgstr ""
+msgstr "To je rezervirana ključna riječ jezika odabranog generatora koda."
 
 #: object_factory.cpp:262
 #, kde-format
 msgid "Reserved Keyword"
-msgstr ""
+msgstr "Rezervirana ključna riječ"
 
 #: object_factory.cpp:267 umldoc.cpp:1726 umldoc.cpp:1764 umlmodel/umlclassifier.cpp:412
 #: umlmodel/umlclassifier.cpp:784 umlmodel/umlentity.cpp:124
@@ -5918,7 +5919,7 @@ msgstr ""
 #: umlmodel/umlentity.cpp:276
 #, kde-format
 msgid "That name is already being used."
-msgstr ""
+msgstr "Taj naziv već se upotrebljava."
 
 #: object_factory.cpp:268 umldoc.cpp:1629 umldoc.cpp:1698 umldoc.cpp:1726
 #: umldoc.cpp:1764 umlmodel/umlclassifier.cpp:412
@@ -5927,17 +5928,17 @@ msgstr ""
 #: umlmodel/umlentity.cpp:276
 #, kde-format
 msgid "Not a Unique Name"
-msgstr ""
+msgstr "Naziv nije jedinstven"
 
 #: refactoring/refactoringassistant.cpp:443
 #, kde-format
 msgid "Add Base Class"
-msgstr ""
+msgstr "Dodaj osnovnu klasu"
 
 #: refactoring/refactoringassistant.cpp:444
 #, kde-format
 msgid "Add Derived Class"
-msgstr ""
+msgstr "Dodaj izvedenu klasu"
 
 #. i18n("Add Interface Implementation"), SLOT(addInterfaceImplementation()), Icon_Utils::it_Implementation));
 #: refactoring/refactoringassistant.cpp:446
@@ -5945,1521 +5946,1521 @@ msgstr ""
 #: refactoring/refactoringassistant.cpp:464
 #, kde-format
 msgid "Add Operation"
-msgstr ""
+msgstr "Dodaj operaciju"
 
 #: refactoring/refactoringassistant.cpp:447
 #: refactoring/refactoringassistant.cpp:467
 #, kde-format
 msgid "Add Attribute"
-msgstr ""
+msgstr "Dodaj atribut"
 
 #: refactoring/refactoringassistant.cpp:450
 #, kde-format
 msgid "Add Base Interface"
-msgstr ""
+msgstr "Dodaj osnovno sučelje"
 
 #: refactoring/refactoringassistant.cpp:451
 #, kde-format
 msgid "Add Derived Interface"
-msgstr ""
+msgstr "Dodaj izvedeno sučelje"
 
 #: refactoring/refactoringassistant.cpp:510
 #: refactoring/refactoringassistant.cpp:691
 #, kde-format
 msgid "Base Classifiers"
-msgstr ""
+msgstr "Osnovni klasifikatori"
 
 #: refactoring/refactoringassistant.cpp:555
 #: refactoring/refactoringassistant.cpp:710
 #, kde-format
 msgid "Derived Classifiers"
-msgstr ""
+msgstr "Izvedeni klasifikatori"
 
 #: refactoring/refactoringassistant.cpp:842
 #, kde-format
 msgid "An attribute with that name already exists in %1.\n"
-msgstr ""
+msgstr "Atribut s tim nazivom već postoji u %1.\n"
 
 #: refactoring/refactoringassistant.cpp:844
 #, kde-format
 msgid "Choose a different name."
-msgstr ""
+msgstr "Odaberite drugi naziv."
 
 #: toolbarstateassociation.cpp:182 toolbarstateassociation.cpp:280
 #, kde-format
 msgid "Incorrect use of associations."
-msgstr ""
+msgstr "Neispravna uporaba asocijacija."
 
 #: toolbarstateassociation.cpp:182 toolbarstateassociation.cpp:280
 #, kde-format
 msgid "Association Error"
-msgstr ""
+msgstr "Pogreška asocijacije"
 
 #: toolbarstatemessages.cpp:340
 #, kde-format
 msgid "destroy"
-msgstr ""
+msgstr "uništi"
 
 #: toolbarstateother.cpp:277
 #, kde-format
 msgid "Enter Activity Name"
-msgstr ""
+msgstr "Unesite naziv aktivnosti"
 
 #: toolbarstateother.cpp:278 umlwidgets/statewidget.cpp:592
 #: umlwidgets/widget_utils.cpp:824
 #, kde-format
 msgid "new activity"
-msgstr ""
+msgstr "nova aktivnost"
 
 #: toolbarstateother.cpp:278 umlwidgets/statewidget.cpp:594
 #: umlwidgets/widget_utils.cpp:917
 #, kde-format
 msgid "Enter the name of the new activity:"
-msgstr ""
+msgstr "Unesite naziv nove aktivnosti:"
 
 #: toolbarstateother.cpp:285
 #, kde-format
 msgid "Enter Signal Name"
-msgstr ""
+msgstr "Unesite naziv signala"
 
 #: toolbarstateother.cpp:286
 #, kde-format
 msgid "Enter Signal"
-msgstr ""
+msgstr "Unesite signal"
 
 #: toolbarstateother.cpp:286
 #, kde-format
 msgid "new Signal"
-msgstr ""
+msgstr "novi signal"
 
 #: toolbarstateother.cpp:292
 #, kde-format
 msgid "Enter Time Event Name"
-msgstr ""
+msgstr "Unesite naziv vremenskog događaja"
 
 #: toolbarstateother.cpp:293
 #, kde-format
 msgid "Enter Time Event"
-msgstr ""
+msgstr "Unesite vremenski događaj"
 
 #: toolbarstateother.cpp:293
 #, kde-format
 msgid "new time event"
-msgstr ""
+msgstr "novi vremenski događaj"
 
 #: toolbarstateother.cpp:299
 #, kde-format
 msgid "Enter Combined Fragment Name"
-msgstr ""
+msgstr "Unesite naziv kombiniranog fragmenta"
 
 #: toolbarstateother.cpp:300
 #, kde-format
 msgid "Enter the Combined Fragment"
-msgstr ""
+msgstr "Unesite kombinirani fragment"
 
 #: toolbarstateother.cpp:300
 #, kde-format
 msgid "new Combined Fragment"
-msgstr ""
+msgstr "novi kombinirani fragment"
 
 #: toolbarstateother.cpp:306
 #, kde-format
 msgid "Enter State Name"
-msgstr ""
+msgstr "Unesite naziv stanja"
 
 #: toolbarstateother.cpp:307 umlwidgets/widget_utils.cpp:851
 #, kde-format
 msgid "new state"
-msgstr ""
+msgstr "novo stanje"
 
 #: toolbarstateother.cpp:307 umlwidgets/widget_utils.cpp:944
 #, kde-format
 msgid "Enter the name of the new state:"
-msgstr ""
+msgstr "Unesite naziv novog stanja:"
 
 #. i18n: ectx: label, entry (Geometry), group (General Options)
 #. i18n: ectx: whatsthis, entry (Geometry), group (General Options)
 #: umbrello.kcfg:12 umbrello.kcfg:13
 #, kde-format
 msgid "Geometry"
-msgstr ""
+msgstr "Geometrija"
 
 #. i18n: ectx: label, entry (imageMimeType), group (General Options)
 #: umbrello.kcfg:17
 #, kde-format
 msgid "Image Mime Type"
-msgstr ""
+msgstr "MIME vrsta slike"
 
 #. i18n: ectx: whatsthis, entry (imageMimeType), group (General Options)
 #: umbrello.kcfg:18
 #, kde-format
 msgid "The Mime Type of the Images"
-msgstr ""
+msgstr "MIME vrsta slika"
 
 #. i18n: ectx: label, entry (undo), group (General Options)
 #: umbrello.kcfg:22
 #, kde-format
 msgid "Undo Support"
-msgstr ""
+msgstr "Podrška za poništavanje"
 
 #. i18n: ectx: whatsthis, entry (undo), group (General Options)
 #: umbrello.kcfg:23
 #, kde-format
 msgid "Undo Support is enabled when this is true"
-msgstr ""
+msgstr "Podrška za poništavanje omogućena je ako je ovo postavljeno"
 
 #. i18n: ectx: label, entry (tabdiagrams), group (General Options)
 #: umbrello.kcfg:27
 #, kde-format
 msgid "Tabbed Diagrams"
-msgstr ""
+msgstr "Dijagrami u karticama"
 
 #. i18n: ectx: whatsthis, entry (tabdiagrams), group (General Options)
 #: umbrello.kcfg:28
 #, kde-format
 msgid "Enables/Disables Tabbed View of Diagrams in the view area"
-msgstr ""
+msgstr "Omogućuje/onemogućuje prikaz dijagrama u karticama u području prikaza"
 
 #. i18n: ectx: label, entry (newcodegen), group (General Options)
 #: umbrello.kcfg:32
 #, kde-format
 msgid "New Code Generator"
-msgstr ""
+msgstr "Novi generator koda"
 
 #. i18n: ectx: whatsthis, entry (newcodegen), group (General Options)
 #: umbrello.kcfg:33
 #, kde-format
 msgid "Enables/Disables Support for the New Code Generator"
-msgstr ""
+msgstr "Omogućuje/onemogućuje podršku za novi generator koda"
 
 #. i18n: ectx: label, entry (layoutType), group (General Options)
 #: umbrello.kcfg:37
 #, kde-format
 msgid "Layout Type"
-msgstr ""
+msgstr "Vrsta rasporeda"
 
 #. i18n: ectx: whatsthis, entry (layoutType), group (General Options)
 #: umbrello.kcfg:38
 #, kde-format
 msgid "The layout type to use for new lines"
-msgstr ""
+msgstr "Vrsta rasporeda za nove crte"
 
 #. i18n: ectx: label, entry (footerPrinting), group (General Options)
 #: umbrello.kcfg:50
 #, kde-format
 msgid "Footer Printing"
-msgstr ""
+msgstr "Ispis podnožja"
 
 #. i18n: ectx: whatsthis, entry (footerPrinting), group (General Options)
 #: umbrello.kcfg:51
 #, kde-format
 msgid "Enables/Disables Support for footer printing"
-msgstr ""
+msgstr "Omogućuje/onemogućuje ispis podnožja"
 
 #. i18n: ectx: label, entry (autosave), group (General Options)
 #: umbrello.kcfg:55
 #, kde-format
 msgid "Auto Save"
-msgstr ""
+msgstr "Automatsko spremanje"
 
 #. i18n: ectx: whatsthis, entry (autosave), group (General Options)
 #: umbrello.kcfg:56
 #, kde-format
 msgid "Enables/Disables Auto Saving at Regular Intervals"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko spremanje u pravilnim razmacima"
 
 #. i18n: ectx: label, entry (time), group (General Options)
 #: umbrello.kcfg:60
 #, kde-format
 msgid "Auto Save Time ( Old )"
-msgstr ""
+msgstr "Vrijeme automatskog spremanja (staro)"
 
 #. i18n: ectx: whatsthis, entry (time), group (General Options)
 #: umbrello.kcfg:61
 #, kde-format
 msgid "Auto Save Time Interval ( Old )"
-msgstr ""
+msgstr "Vremenski razmak automatskog spremanja (stari)"
 
 #. i18n: ectx: label, entry (autosavesuffix), group (General Options)
 #: umbrello.kcfg:74
 #, kde-format
 msgid "Auto Save Suffix"
-msgstr ""
+msgstr "Nastavak datoteke automatskog spremanja"
 
 #. i18n: ectx: whatsthis, entry (autosavesuffix), group (General Options)
 #: umbrello.kcfg:75
 #, kde-format
 msgid "The Suffix for the auto save file"
-msgstr ""
+msgstr "Nastavak datoteke automatskog spremanja"
 
 #. i18n: ectx: label, entry (loadlast), group (General Options)
 #: umbrello.kcfg:79
 #, kde-format
 msgid "Load Last"
-msgstr ""
+msgstr "Učitaj posljednje"
 
 #. i18n: ectx: whatsthis, entry (loadlast), group (General Options)
 #: umbrello.kcfg:80
 #, kde-format
 msgid "Enables/Disables Loading of the last open file"
-msgstr ""
+msgstr "Omogućuje/onemogućuje učitavanje posljednje otvorene datoteke"
 
 #. i18n: ectx: label, entry (diagram), group (General Options)
 #: umbrello.kcfg:84
 #, kde-format
 msgid "Diagram To Load at Startup"
-msgstr ""
+msgstr "Dijagram za učitavanje pri pokretanju"
 
 #. i18n: ectx: whatsthis, entry (diagram), group (General Options)
 #: umbrello.kcfg:85
 #, kde-format
 msgid "The Diagram to load at startup"
-msgstr ""
+msgstr "Dijagram koji će se učitati pri pokretanju"
 
 #. i18n: ectx: label, entry (defaultLanguage), group (General Options)
 #: umbrello.kcfg:102
 #, kde-format
 msgid "Default Language at Startup"
-msgstr ""
+msgstr "Zadani jezik pri pokretanju"
 
 #. i18n: ectx: whatsthis, entry (defaultLanguage), group (General Options)
 #: umbrello.kcfg:103
 #, kde-format
 msgid "The Language that Umbrello should start with by default"
-msgstr ""
+msgstr "Jezik koji će Umbrello zadano upotrijebiti pri pokretanju"
 
 #. i18n: ectx: label, entry (uml2), group (General Options)
 #: umbrello.kcfg:135
 #, kde-format
 msgid "Use UML-2.x Notation"
-msgstr ""
+msgstr "Koristi notaciju UML-a 2.x"
 
 #. i18n: ectx: whatsthis, entry (uml2), group (General Options)
 #: umbrello.kcfg:136
 #, kde-format
 msgid "Enables/Disables UML2 notation"
-msgstr ""
+msgstr "Omogućuje/onemogućuje notaciju UML-a 2"
 
 #. i18n: ectx: whatsthis, entry (showDebugWindows), group (General Options)
 #: umbrello.kcfg:141
 #, kde-format
 msgid "Show or hide the debug window and UML objects window"
-msgstr ""
+msgstr "Prikaži ili sakrij prozor za ispravljanje pogrešaka i prozor UML objekata"
 
 #. i18n: ectx: whatsthis, entry (useFillColor), group (UI Options)
 #: umbrello.kcfg:148
 #, kde-format
 msgid "Enables/Disables usage of fill color"
-msgstr ""
+msgstr "Omogućuje/onemogućuje uporabu boje ispune"
 
 #. i18n: ectx: label, entry (fillColor), group (UI Options)
 #: umbrello.kcfg:152
 #, kde-format
 msgid "Fill Color"
-msgstr ""
+msgstr "Boja ispune"
 
 #. i18n: ectx: whatsthis, entry (fillColor), group (UI Options)
 #: umbrello.kcfg:153
 #, kde-format
 msgid "The Fill Color to be used"
-msgstr ""
+msgstr "Boja ispune koja će se upotrijebiti"
 
 #. i18n: ectx: label, entry (lineColor), group (UI Options)
 #: umbrello.kcfg:157
 #, kde-format
 msgid "Line Color"
-msgstr ""
+msgstr "Boja crte"
 
 #. i18n: ectx: whatsthis, entry (lineColor), group (UI Options)
 #: umbrello.kcfg:158
 #, kde-format
 msgid "The Color of the Lines"
-msgstr ""
+msgstr "Boja crta"
 
 #. i18n: ectx: label, entry (lineWidth), group (UI Options)
 #: umbrello.kcfg:162
 #, kde-format
 msgid "Line Width"
-msgstr ""
+msgstr "Širina crte"
 
 #. i18n: ectx: whatsthis, entry (lineWidth), group (UI Options)
 #: umbrello.kcfg:163
 #, kde-format
 msgid "The Width of the Line"
-msgstr ""
+msgstr "Širina crte"
 
 #. i18n: ectx: label, entry (textColor), group (UI Options)
 #: umbrello.kcfg:167
 #, kde-format
 msgid "Text Color"
-msgstr ""
+msgstr "Boja teksta"
 
 #. i18n: ectx: whatsthis, entry (textColor), group (UI Options)
 #: umbrello.kcfg:168
 #, kde-format
 msgid "The Color of the Text"
-msgstr ""
+msgstr "Boja teksta"
 
 #. i18n: ectx: label, entry (showDocWindow), group (UI Options)
 #: umbrello.kcfg:172
 #, kde-format
 msgid "Show Doc Window"
-msgstr ""
+msgstr "Prikaži prozor dokumentacije"
 
 #. i18n: ectx: whatsthis, entry (showDocWindow), group (UI Options)
 #: umbrello.kcfg:173
 #, kde-format
 msgid "Enables/Disables showing of the doc window"
-msgstr ""
+msgstr "Omogućuje/onemogućuje prikaz prozora dokumentacije"
 
 #. i18n: ectx: whatsthis, entry (uiFont), group (UI Options)
 #: umbrello.kcfg:178
 #, kde-format
 msgid "The Font to be used"
-msgstr ""
+msgstr "Font koji će se upotrijebiti"
 
 #. i18n: ectx: label, entry (backgroundColor), group (UI Options)
 #: umbrello.kcfg:182
 #, kde-format
 msgid "Background Color"
-msgstr ""
+msgstr "Boja pozadine"
 
 #. i18n: ectx: whatsthis, entry (backgroundColor), group (UI Options)
 #: umbrello.kcfg:183
 #, kde-format
 msgid "The Color of the diagram background"
-msgstr ""
+msgstr "Boja pozadine dijagrama"
 
 #. i18n: ectx: label, entry (useBackgroundColor), group (UI Options)
 #: umbrello.kcfg:187
 #, kde-format
 msgid "Use background color"
-msgstr ""
+msgstr "Koristi boju pozadine"
 
 #. i18n: ectx: whatsthis, entry (useBackgroundColor), group (UI Options)
 #: umbrello.kcfg:188
 #, kde-format
 msgid "Enables/Disables the usage of a custom background color"
-msgstr ""
+msgstr "Omogućuje/onemogućuje uporabu prilagođene boje pozadine"
 
 #. i18n: ectx: label, entry (gridDotColor), group (UI Options)
 #: umbrello.kcfg:192
 #, kde-format
 msgid "Grid Dot Color"
-msgstr ""
+msgstr "Boja točaka mreže"
 
 #. i18n: ectx: whatsthis, entry (gridDotColor), group (UI Options)
 #: umbrello.kcfg:193
 #, kde-format
 msgid "The Color of the grid dots"
-msgstr ""
+msgstr "Boja točaka mreže"
 
 #. i18n: ectx: label, entry (useAlignmentGuides), group (UI Options)
 #: umbrello.kcfg:197
 #, kde-format
 msgid "Use Alignment Guides"
-msgstr ""
+msgstr "Koristi vodilice za poravnanje"
 
 #. i18n: ectx: whatsthis, entry (useAlignmentGuides), group (UI Options)
 #: umbrello.kcfg:198
 #, kde-format
 msgid "Enable/disable alignment guides when dragging or resizing widgets"
-msgstr ""
+msgstr "Omogući/onemogući vodilice za poravnanje pri povlačenju ili promjeni veličine grafičkih elemenata"
 
 #. i18n: ectx: whatsthis, entry (rightToLeftUI), group (UI Options)
 #: umbrello.kcfg:203
 #, kde-format
 msgid "Enable/disable user interface direction from right to left"
-msgstr ""
+msgstr "Omogući/onemogući smjer korisničkog sučelja zdesna nalijevo"
 
 #. i18n: ectx: label, entry (showVisibility), group (Class Options)
 #: umbrello.kcfg:209
 #, kde-format
 msgid "Show Visibility"
-msgstr ""
+msgstr "Prikaži vidljivost"
 
 #. i18n: ectx: whatsthis, entry (showVisibility), group (Class Options)
 #: umbrello.kcfg:210
 #, kde-format
 msgid "Show the Visibility of the Attributes ( eg: private, public, protected)"
-msgstr ""
+msgstr "Prikaži vidljivost atributa (npr. private, public, protected)"
 
 #. i18n: ectx: label, entry (showAtts), group (Class Options)
 #: umbrello.kcfg:214
 #, kde-format
 msgid "Show Attributes"
-msgstr ""
+msgstr "Prikaži atribute"
 
 #. i18n: ectx: whatsthis, entry (showAtts), group (Class Options)
 #: umbrello.kcfg:215
 #, kde-format
 msgid "Show attributes of the class"
-msgstr ""
+msgstr "Prikaži atribute klase"
 
 #. i18n: ectx: label, entry (showOps), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showOps), group (Class Options)
 #: umbrello.kcfg:219 umbrello.kcfg:220
 #, kde-format
 msgid "Show Operations"
-msgstr ""
+msgstr "Prikaži operacije"
 
 #. i18n: ectx: label, entry (showPackage), group (Class Options)
 #: umbrello.kcfg:224
 #, kde-format
 msgid "Show Package"
-msgstr ""
+msgstr "Prikaži paket"
 
 #. i18n: ectx: whatsthis, entry (showPackage), group (Class Options)
 #: umbrello.kcfg:225
 #, kde-format
 msgid "Enables/Disables showing of packages"
-msgstr ""
+msgstr "Omogućuje/onemogućuje prikaz paketa"
 
 #. i18n: ectx: label, entry (showStereoType), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showStereoType), group (Class Options)
 #: umbrello.kcfg:229 umbrello.kcfg:230
 #, kde-format
 msgid "Show Stereotypes"
-msgstr ""
+msgstr "Prikaži stereotipe"
 
 #. i18n: ectx: label, entry (showAttribAssocs), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showAttribAssocs), group (Class Options)
 #: umbrello.kcfg:239 umbrello.kcfg:240
 #, kde-format
 msgid "Show Attribute Associations"
-msgstr ""
+msgstr "Prikaži asocijacije atributa"
 
 #. i18n: ectx: label, entry (showPublicOnly), group (Class Options)
 #: umbrello.kcfg:244
 #, kde-format
 msgid "Show Public Only"
-msgstr ""
+msgstr "Prikaži samo javne"
 
 #. i18n: ectx: whatsthis, entry (showPublicOnly), group (Class Options)
 #: umbrello.kcfg:245
 #, kde-format
 msgid "Enables/Disables showing of public attributes/methods"
-msgstr ""
+msgstr "Omogućuje/onemogućuje prikaz javnih atributa/metoda"
 
 #. i18n: ectx: label, entry (showAttSig), group (Class Options)
 #. i18n: ectx: whatsthis, entry (showAttSig), group (Class Options)
 #: umbrello.kcfg:249 umbrello.kcfg:250
 #, kde-format
 msgid "Show Attribute Signature"
-msgstr ""
+msgstr "Prikaži potpis atributa"
 
 #. i18n: ectx: label, entry (showOpSig), group (Class Options)
 #: umbrello.kcfg:254
 #, kde-format
 msgid "Show Operation Signature"
-msgstr ""
+msgstr "Prikaži potpis operacije"
 
 #. i18n: ectx: whatsthis, entry (showOpSig), group (Class Options)
 #: umbrello.kcfg:255
 #, kde-format
 msgid "Show operation signature"
-msgstr ""
+msgstr "Prikaži potpis operacije"
 
 #. i18n: ectx: label, entry (defaultAttributeScope), group (Class Options)
 #. i18n: ectx: whatsthis, entry (defaultAttributeScope), group (Class Options)
 #: umbrello.kcfg:259 umbrello.kcfg:260
 #, kde-format
 msgid "Default Attribute Scope"
-msgstr ""
+msgstr "Zadani djelokrug atributa"
 
 #. i18n: ectx: label, entry (defaultOperationScope), group (Class Options)
 #. i18n: ectx: whatsthis, entry (defaultOperationScope), group (Class Options)
 #: umbrello.kcfg:271 umbrello.kcfg:272
 #, kde-format
 msgid "Default Operation Scope"
-msgstr ""
+msgstr "Zadani djelokrug operacije"
 
 #. i18n: ectx: label, entry (height), group (Code Viewer Options)
 #: umbrello.kcfg:285
 #, kde-format
 msgid "Height"
-msgstr ""
+msgstr "Visina"
 
 #. i18n: ectx: whatsthis, entry (height), group (Code Viewer Options)
 #: umbrello.kcfg:286
 #, kde-format
 msgid "Height of the code viewer"
-msgstr ""
+msgstr "Visina preglednika koda"
 
 #. i18n: ectx: label, entry (width), group (Code Viewer Options)
 #: umbrello.kcfg:291
 #, kde-format
 msgid "Width"
-msgstr ""
+msgstr "Širina"
 
 #. i18n: ectx: whatsthis, entry (width), group (Code Viewer Options)
 #: umbrello.kcfg:292
 #, kde-format
 msgid "Width of the Code Viewer"
-msgstr ""
+msgstr "Širina preglednika koda"
 
 #. i18n: ectx: label, entry (showHiddenBlocks), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (showHiddenBlocks), group (Code Viewer Options)
 #: umbrello.kcfg:297 umbrello.kcfg:298
 #, kde-format
 msgid "Show Hidden Blocks"
-msgstr ""
+msgstr "Prikaži skrivene blokove"
 
 #. i18n: ectx: label, entry (blocksAreHighlighted), group (Code Viewer Options)
 #: umbrello.kcfg:302
 #, kde-format
 msgid "Highlight Blocks"
-msgstr ""
+msgstr "Istakni blokove"
 
 #. i18n: ectx: whatsthis, entry (blocksAreHighlighted), group (Code Viewer Options)
 #: umbrello.kcfg:303
 #, kde-format
 msgid "Enables/Disables Highlighting of blocks"
-msgstr ""
+msgstr "Omogućuje/onemogućuje isticanje blokova"
 
 #. i18n: ectx: whatsthis, entry (codeViewerFont), group (Code Viewer Options)
 #: umbrello.kcfg:308
 #, kde-format
 msgid "Font to be used in the Code Viewer"
-msgstr ""
+msgstr "Font za preglednik koda"
 
 #. i18n: ectx: label, entry (paperColor), group (Code Viewer Options)
 #: umbrello.kcfg:312
 #, kde-format
 msgid "Paper Color"
-msgstr ""
+msgstr "Boja papira"
 
 #. i18n: ectx: whatsthis, entry (paperColor), group (Code Viewer Options)
 #: umbrello.kcfg:313
 #, kde-format
 msgid "Color of the Paper"
-msgstr ""
+msgstr "Boja papira"
 
 #. i18n: ectx: label, entry (fontColor), group (Code Viewer Options)
 #: umbrello.kcfg:317
 #, kde-format
 msgid "Font Color"
-msgstr ""
+msgstr "Boja fonta"
 
 #. i18n: ectx: whatsthis, entry (fontColor), group (Code Viewer Options)
 #: umbrello.kcfg:318
 #, kde-format
 msgid "Color of the Font"
-msgstr ""
+msgstr "Boja fonta"
 
 #. i18n: ectx: label, entry (selectedColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (selectedColor), group (Code Viewer Options)
 #: umbrello.kcfg:322 umbrello.kcfg:323
 #, kde-format
 msgid "Selected Color"
-msgstr ""
+msgstr "Boja odabira"
 
 #. i18n: ectx: label, entry (editBlockColor), group (Code Viewer Options)
 #: umbrello.kcfg:327
 #, kde-format
 msgctxt "Color of the Edit Block"
 msgid "Edit Block Color"
-msgstr ""
+msgstr "Boja bloka za uređivanje"
 
 #. i18n: ectx: whatsthis, entry (editBlockColor), group (Code Viewer Options)
 #: umbrello.kcfg:328
 #, kde-format
 msgid "Color of the Edit Block"
-msgstr ""
+msgstr "Boja bloka za uređivanje"
 
 #. i18n: ectx: label, entry (nonEditBlockColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (nonEditBlockColor), group (Code Viewer Options)
 #: umbrello.kcfg:332 umbrello.kcfg:333
 #, kde-format
 msgid "Non Edit Block Color"
-msgstr ""
+msgstr "Boja bloka izvan uređivanja"
 
 #. i18n: ectx: label, entry (umlObjectColor), group (Code Viewer Options)
 #: umbrello.kcfg:337
 #, kde-format
 msgid "UML Object Color"
-msgstr ""
+msgstr "Boja UML objekta"
 
 #. i18n: ectx: whatsthis, entry (umlObjectColor), group (Code Viewer Options)
 #: umbrello.kcfg:338
 #, kde-format
 msgid "Color of the UML Object"
-msgstr ""
+msgstr "Boja UML objekta"
 
 #. i18n: ectx: label, entry (hiddenColor), group (Code Viewer Options)
 #. i18n: ectx: whatsthis, entry (hiddenColor), group (Code Viewer Options)
 #: umbrello.kcfg:342 umbrello.kcfg:343
 #, kde-format
 msgid "Hidden Color"
-msgstr ""
+msgstr "Boja skrivenih elemenata"
 
 #. i18n: ectx: label, entry (createArtifacts), group (Code Importer)
 #: umbrello.kcfg:349
 #, kde-format
 msgid "Create Artifacts for imported files"
-msgstr ""
+msgstr "Stvori artefakte za uvezene datoteke"
 
 #. i18n: ectx: whatsthis, entry (createArtifacts), group (Code Importer)
 #: umbrello.kcfg:350
 #, kde-format
 msgid "Create an artifact in the component view for each imported file"
-msgstr ""
+msgstr "Stvori artefakt u prikazu komponenti za svaku uvezenu datoteku"
 
 #. i18n: ectx: label, entry (resolveDependencies), group (Code Importer)
 #: umbrello.kcfg:354
 #, kde-format
 msgid "Resolve dependencies"
-msgstr ""
+msgstr "Razriješi ovisnosti"
 
 #. i18n: ectx: whatsthis, entry (resolveDependencies), group (Code Importer)
 #: umbrello.kcfg:355
 #, kde-format
 msgid "Resolve dependencies when importing file"
-msgstr ""
+msgstr "Razriješi ovisnosti pri uvozu datoteke"
 
 #. i18n: ectx: label, entry (supportCPP11), group (Code Importer)
 #: umbrello.kcfg:359
 #, kde-format
 msgid "Support C++11 standard"
-msgstr ""
+msgstr "Podrška za standard C++11"
 
 #. i18n: ectx: whatsthis, entry (supportCPP11), group (Code Importer)
 #: umbrello.kcfg:360
 #, kde-format
 msgid "Support C++11 standard on code import"
-msgstr ""
+msgstr "Podrži standard C++11 pri uvozu koda"
 
 #. i18n: ectx: label, entry (autoGenEmptyConstructors), group (Code Generation)
 #: umbrello.kcfg:366
 #, kde-format
 msgid "Auto Generate Empty Constructors"
-msgstr ""
+msgstr "Automatski generiraj prazne konstruktore"
 
 #. i18n: ectx: whatsthis, entry (autoGenEmptyConstructors), group (Code Generation)
 #: umbrello.kcfg:367
 #, kde-format
 msgid "Enables/Disables Auto Generation of Empty Constructors"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje praznih konstruktora"
 
 #. i18n: ectx: label, entry (commentStyle), group (Code Generation)
 #: umbrello.kcfg:371
 #, kde-format
 msgid "Comment Style"
-msgstr ""
+msgstr "Stil komentara"
 
 #. i18n: ectx: whatsthis, entry (commentStyle), group (Code Generation)
 #: umbrello.kcfg:372
 #, kde-format
 msgid "Sets the Style of Comments to be used"
-msgstr ""
+msgstr "Postavlja stil komentara koji će se upotrijebiti"
 
 #. i18n: ectx: label, entry (defaultAssocFieldScope), group (Code Generation)
 #: umbrello.kcfg:380
 #, kde-format
 msgid "Default Association Field Scope"
-msgstr ""
+msgstr "Zadani djelokrug polja asocijacije"
 
 #. i18n: ectx: whatsthis, entry (defaultAssocFieldScope), group (Code Generation)
 #: umbrello.kcfg:381
 #, kde-format
 msgid "Sets the default Association field scope"
-msgstr ""
+msgstr "Postavlja zadani djelokrug polja asocijacije"
 
 #. i18n: ectx: label, entry (defaultAttributeAccessorScope), group (Code Generation)
 #: umbrello.kcfg:392
 #, kde-format
 msgid "Default Attribute Accessor Scope"
-msgstr ""
+msgstr "Zadani djelokrug pristupnika atributa"
 
 #. i18n: ectx: whatsthis, entry (defaultAttributeAccessorScope), group (Code Generation)
 #: umbrello.kcfg:393
 #, kde-format
 msgid "Sets the default attribute accessor scope"
-msgstr ""
+msgstr "Postavlja zadani djelokrug pristupnika atributa"
 
 #. i18n: ectx: label, entry (forceDoc), group (Code Generation)
 #: umbrello.kcfg:404
 #, kde-format
 msgid "Force Documentation"
-msgstr ""
+msgstr "Obvezna dokumentacija"
 
 #. i18n: ectx: whatsthis, entry (forceDoc), group (Code Generation)
 #: umbrello.kcfg:405
 #, kde-format
 msgid "Enables/Disables Verbose Documentation"
-msgstr ""
+msgstr "Omogućuje/onemogućuje opširnu dokumentaciju"
 
 #. i18n: ectx: label, entry (writeSectionComments), group (Code Generation)
 #: umbrello.kcfg:409
 #, kde-format
 msgid "Section Comment Policy"
-msgstr ""
+msgstr "Pravilo komentara odjeljaka"
 
 #. i18n: ectx: whatsthis, entry (writeSectionComments), group (Code Generation)
 #: umbrello.kcfg:410
 #, kde-format
 msgid "Whether section comments shall be written"
-msgstr ""
+msgstr "Određuje hoće li se pisati komentari odjeljaka"
 
 #. i18n: ectx: label, entry (headingsDirectory), group (Code Generation)
 #: umbrello.kcfg:419
 #, kde-format
 msgid "Headings Directory"
-msgstr ""
+msgstr "Mapa zaglavlja"
 
 #. i18n: ectx: whatsthis, entry (headingsDirectory), group (Code Generation)
 #: umbrello.kcfg:420
 #, kde-format
 msgid "The Path in which the headings are stored"
-msgstr ""
+msgstr "Putanja na kojoj su pohranjena zaglavlja"
 
 #. i18n: ectx: label, entry (includeHeadings), group (Code Generation)
 #: umbrello.kcfg:424
 #, kde-format
 msgid "Include headings"
-msgstr ""
+msgstr "Uključi zaglavlja"
 
 #. i18n: ectx: whatsthis, entry (includeHeadings), group (Code Generation)
 #: umbrello.kcfg:425
 #, kde-format
 msgid "Enables/Disables inclusion of headings"
-msgstr ""
+msgstr "Omogućuje/onemogućuje uključivanje zaglavlja"
 
 #. i18n: ectx: label, entry (indentationAmount), group (Code Generation)
 #: umbrello.kcfg:429
 #, kde-format
 msgid "Indentation Amount"
-msgstr ""
+msgstr "Veličina uvlake"
 
 #. i18n: ectx: whatsthis, entry (indentationAmount), group (Code Generation)
 #: umbrello.kcfg:430
 #, kde-format
 msgid "The amount of indentation"
-msgstr ""
+msgstr "Veličina uvlake"
 
 #. i18n: ectx: label, entry (indentationType), group (Code Generation)
 #: umbrello.kcfg:435
 #, kde-format
 msgid "Indentation Type"
-msgstr ""
+msgstr "Vrsta uvlačenja"
 
 #. i18n: ectx: whatsthis, entry (indentationType), group (Code Generation)
 #: umbrello.kcfg:436
 #, kde-format
 msgid "The Type of Indentation"
-msgstr ""
+msgstr "Vrsta uvlačenja"
 
 #. i18n: ectx: label, entry (lineEndingType), group (Code Generation)
 #: umbrello.kcfg:445
 #, kde-format
 msgid "Line Ending Type"
-msgstr ""
+msgstr "Vrsta završetka retka"
 
 #. i18n: ectx: whatsthis, entry (lineEndingType), group (Code Generation)
 #: umbrello.kcfg:446
 #, kde-format
 msgid "The type of line ending ( or new line type )"
-msgstr ""
+msgstr "Vrsta završetka retka (odnosno vrste novog retka)"
 
 #. i18n: ectx: label, entry (modnamePolicy), group (Code Generation)
 #. i18n: ectx: whatsthis, entry (modnamePolicy), group (Code Generation)
 #: umbrello.kcfg:455 umbrello.kcfg:456
 #, kde-format
 msgid "Modifier Name Policy"
-msgstr ""
+msgstr "Pravilo naziva modifikatora"
 
 #. i18n: ectx: label, entry (outputDirectory), group (Code Generation)
 #: umbrello.kcfg:465
 #, kde-format
 msgid "Output Directory"
-msgstr ""
+msgstr "Izlazna mapa"
 
 #. i18n: ectx: whatsthis, entry (outputDirectory), group (Code Generation)
 #: umbrello.kcfg:466
 #, kde-format
 msgid "The directory to which the code has to be outputted"
-msgstr ""
+msgstr "Mapa u koju će se ispisati kod"
 
 #. i18n: ectx: whatsthis, entry (overwritePolicy), group (Code Generation)
 #: umbrello.kcfg:471
 #, kde-format
 msgid "The policy to be followed when there are name conflicts"
-msgstr ""
+msgstr "Pravilo koje se primjenjuje u slučaju sukoba naziva"
 
 #. i18n: ectx: label, entry (autoGenAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:483
 #, kde-format
 msgid "Auto Generate Accessors"
-msgstr ""
+msgstr "Automatski generiraj pristupnike"
 
 #. i18n: ectx: whatsthis, entry (autoGenAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:484
 #, kde-format
 msgid "Enables/Disables auto generation of accessors"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika"
 
 #. i18n: ectx: whatsthis, entry (classMemberPrefix), group (CPP Code Generation)
 #: umbrello.kcfg:489
 #, kde-format
 msgid "The prefix for class members"
-msgstr ""
+msgstr "Prefiks članova klase"
 
 #. i18n: ectx: label, entry (inlineAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:493
 #, kde-format
 msgid "Inline Accessors"
-msgstr ""
+msgstr "Ugrađeni pristupnici"
 
 #. i18n: ectx: whatsthis, entry (inlineAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:494
 #, kde-format
 msgid "Enables/Disables Inline accessors"
-msgstr ""
+msgstr "Omogućuje/onemogućuje ugrađene pristupnike"
 
 #. i18n: ectx: label, entry (inlineOps), group (CPP Code Generation)
 #: umbrello.kcfg:498
 #, kde-format
 msgid "Inline operations"
-msgstr ""
+msgstr "Ugrađene operacije"
 
 #. i18n: ectx: whatsthis, entry (inlineOps), group (CPP Code Generation)
 #: umbrello.kcfg:499
 #, kde-format
 msgid "Enables/Disables Inline Operations"
-msgstr ""
+msgstr "Omogućuje/onemogućuje ugrađene operacije"
 
 #. i18n: ectx: label, entry (packageIsNamespace), group (CPP Code Generation)
 #: umbrello.kcfg:503
 #, kde-format
 msgid "Package is namespace"
-msgstr ""
+msgstr "Paket je prostor imena"
 
 #. i18n: ectx: whatsthis, entry (packageIsNamespace), group (CPP Code Generation)
 #: umbrello.kcfg:504
 #, kde-format
 msgid "Enables/Disables treating a package as a namespace"
-msgstr ""
+msgstr "Omogućuje/onemogućuje tretiranje paketa kao prostora imena"
 
 #. i18n: ectx: label, entry (publicAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:508
 #, kde-format
 msgid "Public Accessors"
-msgstr ""
+msgstr "Javni pristupnici"
 
 #. i18n: ectx: whatsthis, entry (publicAccessors), group (CPP Code Generation)
 #: umbrello.kcfg:509
 #, kde-format
 msgid "Enables/Disables public accessors"
-msgstr ""
+msgstr "Omogućuje/onemogućuje javne pristupnike"
 
 #. i18n: ectx: label, entry (stringClassName), group (CPP Code Generation)
 #: umbrello.kcfg:513
 #, kde-format
 msgid "String Class Name"
-msgstr ""
+msgstr "Naziv klase stringa"
 
 #. i18n: ectx: whatsthis, entry (stringClassName), group (CPP Code Generation)
 #: umbrello.kcfg:514
 #, kde-format
 msgid "The name of the string class"
-msgstr ""
+msgstr "Naziv klase za stringove"
 
 #. i18n: ectx: label, entry (stringClassNameInclude), group (CPP Code Generation)
 #: umbrello.kcfg:518
 #, kde-format
 msgid "String Class Name Include"
-msgstr ""
+msgstr "Datoteka uključivanja klase stringa"
 
 #. i18n: ectx: whatsthis, entry (stringClassNameInclude), group (CPP Code Generation)
 #: umbrello.kcfg:519
 #, kde-format
 msgid "The name of the string class to be included"
-msgstr ""
+msgstr "Naziv klase za stringove koju treba uključiti"
 
 #. i18n: ectx: label, entry (stringIncludeIsGlobal), group (CPP Code Generation)
 #: umbrello.kcfg:523
 #, kde-format
 msgid "String Include is Global"
-msgstr ""
+msgstr "Uključi string globalno"
 
 #. i18n: ectx: whatsthis, entry (stringIncludeIsGlobal), group (CPP Code Generation)
 #: umbrello.kcfg:524
 #, kde-format
 msgid "Enables/Disables global inclusion of string"
-msgstr ""
+msgstr "Omogućuje/onemogućuje globalno uključivanje klase stringa"
 
 #. i18n: ectx: label, entry (vectorClassName), group (CPP Code Generation)
 #: umbrello.kcfg:528
 #, kde-format
 msgid "Vector Class Name"
-msgstr ""
+msgstr "Naziv klase vektora"
 
 #. i18n: ectx: whatsthis, entry (vectorClassName), group (CPP Code Generation)
 #: umbrello.kcfg:529
 #, kde-format
 msgid "The name of the vector class"
-msgstr ""
+msgstr "Naziv klase vektora"
 
 #. i18n: ectx: label, entry (vectorClassNameInclude), group (CPP Code Generation)
 #: umbrello.kcfg:533
 #, kde-format
 msgid "Vector Class Name Include"
-msgstr ""
+msgstr "Datoteka uključivanja klase vektora"
 
 #. i18n: ectx: whatsthis, entry (vectorClassNameInclude), group (CPP Code Generation)
 #: umbrello.kcfg:534
 #, kde-format
 msgid "The name of the vector class to be included"
-msgstr ""
+msgstr "Naziv klase vektora koju treba uključiti"
 
 #. i18n: ectx: label, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
 #: umbrello.kcfg:538
 #, kde-format
 msgid "Vector include is global"
-msgstr ""
+msgstr "Uključi vektor globalno"
 
 #. i18n: ectx: whatsthis, entry (vectorIncludeIsGlobal), group (CPP Code Generation)
 #: umbrello.kcfg:539
 #, kde-format
 msgid "Enables/Disables global inclusion of vector class"
-msgstr ""
+msgstr "Omogućuje/onemogućuje globalno uključivanje klase vektora"
 
 #. i18n: ectx: label, entry (virtualDestructors), group (CPP Code Generation)
 #: umbrello.kcfg:543
 #, kde-format
 msgid "Virtual Destructors"
-msgstr ""
+msgstr "Virtualni destruktori"
 
 #. i18n: ectx: whatsthis, entry (virtualDestructors), group (CPP Code Generation)
 #: umbrello.kcfg:544
 #, kde-format
 msgid "Enables/Disables virtual destructors"
-msgstr ""
+msgstr "Omogućuje/onemogućuje virtualne destruktore"
 
 #. i18n: ectx: label, entry (getterWithGetPrefix), group (CPP Code Generation)
 #: umbrello.kcfg:548
 #, kde-format
 msgid "Getters with 'get' prefix"
-msgstr ""
+msgstr "Getteri s prefiksom 'get'"
 
 #. i18n: ectx: whatsthis, entry (getterWithGetPrefix), group (CPP Code Generation)
 #: umbrello.kcfg:549
 #, kde-format
 msgid "If enabled, create getters with 'get' prefix"
-msgstr ""
+msgstr "Ako je omogućeno, stvaraju se getteri s prefiksom 'get'"
 
 #. i18n: ectx: label, entry (removePrefixFromAccessorMethods), group (CPP Code Generation)
 #: umbrello.kcfg:553
 #, kde-format
 msgid "Remove prefix '[a-zA-Z]_' from accessor methods"
-msgstr ""
+msgstr "Ukloni prefiks '[a-zA-Z]_' iz metoda pristupnika"
 
 #. i18n: ectx: whatsthis, entry (removePrefixFromAccessorMethods), group (CPP Code Generation)
 #: umbrello.kcfg:554
 #, kde-format
 msgid "If enabled, remove prefix '[a-zA-Z]_' from accessor methods"
-msgstr ""
+msgstr "Ako je omogućeno, uklanja se prefiks '[a-zA-Z]_' iz metoda pristupnika"
 
 #. i18n: ectx: whatsthis, entry (accessorMethodsStartWithUpperCase), group (CPP Code Generation)
 #: umbrello.kcfg:559
 #, kde-format
 msgid "If enabled, accessor methods start with capital letters"
-msgstr ""
+msgstr "Ako je omogućeno, nazivi metoda pristupnika počinju velikim slovom"
 
 #. i18n: ectx: label, entry (docToolTag), group (CPP Code Generation)
 #: umbrello.kcfg:563
 #, kde-format
 msgid "Documentation tags"
-msgstr ""
+msgstr "Oznake dokumentacije"
 
 #. i18n: ectx: whatsthis, entry (docToolTag), group (CPP Code Generation)
 #: umbrello.kcfg:564
 #, kde-format
 msgid "The tag used for generating doxygen documentation (\\\\, @)"
-msgstr ""
+msgstr "Oznaka za generiranje Doxygenove dokumentacije (\\\\, @)"
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
 #: umbrello.kcfg:570
 #, kde-format
 msgid "Auto Generate Attribute Accessors ( D )"
-msgstr ""
+msgstr "Automatski generiraj pristupnike atributa (D)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsD), group (D Code Generation)
 #: umbrello.kcfg:571
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors ( D )"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika atributa (D)"
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
 #: umbrello.kcfg:575
 #, kde-format
 msgid "Auto Generate Assoc Accessors ( D )"
-msgstr ""
+msgstr "Automatski generiraj pristupnike asocijacija (D)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsD), group (D Code Generation)
 #: umbrello.kcfg:576
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors ( D )"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika asocijacija (D)"
 
 #. i18n: ectx: label, entry (buildANTDocumentD), group (D Code Generation)
 #: umbrello.kcfg:580
 #, kde-format
 msgid "Build ANT Document (D)"
-msgstr ""
+msgstr "Izradi ANT dokument (D)"
 
 #. i18n: ectx: whatsthis, entry (buildANTDocumentD), group (D Code Generation)
 #: umbrello.kcfg:581
 #, kde-format
 msgid "Enables/Disables building of ANT Document (D)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje izradu ANT dokumenta (D)"
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
 #: umbrello.kcfg:587
 #, kde-format
 msgid "Auto Generate Attribute Accessors (Java)"
-msgstr ""
+msgstr "Automatski generiraj pristupnike atributa (Java)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsJava), group (Java Code Generation)
 #: umbrello.kcfg:588
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors (Java)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika atributa (Java)"
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
 #: umbrello.kcfg:592
 #, kde-format
 msgid "Auto Generate Assoc Accessors (Java)"
-msgstr ""
+msgstr "Automatski generiraj pristupnike asocijacija (Java)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsJava), group (Java Code Generation)
 #: umbrello.kcfg:593
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors (Java)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika asocijacija (Java)"
 
 #. i18n: ectx: label, entry (buildANTDocumentJava), group (Java Code Generation)
 #: umbrello.kcfg:597
 #, kde-format
 msgid "Build ANT Document (Java)"
-msgstr ""
+msgstr "Izradi ANT dokument (Java)"
 
 #. i18n: ectx: whatsthis, entry (buildANTDocumentJava), group (Java Code Generation)
 #: umbrello.kcfg:598
 #, kde-format
 msgid "Enables/Disables building of ANT Document (Java)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje izradu ANT dokumenta (Java)"
 
 #. i18n: ectx: label, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
 #: umbrello.kcfg:604
 #, kde-format
 msgid "Auto Generate Attribute Accessors (Ruby)"
-msgstr ""
+msgstr "Automatski generiraj pristupnike atributa (Ruby)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAttributeAccessorsRuby), group (Ruby Code Generation)
 #: umbrello.kcfg:605
 #, kde-format
 msgid "Enables/Disables auto generation of attribute accessors (Ruby)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika atributa (Ruby)"
 
 #. i18n: ectx: label, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
 #: umbrello.kcfg:609
 #, kde-format
 msgid "Auto Generate Assoc Accessors (Ruby)"
-msgstr ""
+msgstr "Automatski generiraj pristupnike asocijacija (Ruby)"
 
 #. i18n: ectx: whatsthis, entry (autoGenerateAssocAccessorsRuby), group (Ruby Code Generation)
 #: umbrello.kcfg:610
 #, kde-format
 msgid "Enables/Disables auto generation of association accessors (Ruby)"
-msgstr ""
+msgstr "Omogućuje/onemogućuje automatsko generiranje pristupnika asocijacija (Ruby)"
 
 #. i18n: ectx: label, entry (autoDotPath), group (Auto Layout)
 #: umbrello.kcfg:616
 #, kde-format
 msgid "Automatic Dot Path"
-msgstr ""
+msgstr "Automatska putanja programa dot"
 
 #. i18n: ectx: whatsthis, entry (autoDotPath), group (Auto Layout)
 #: umbrello.kcfg:617
 #, kde-format
 msgid "determine automatically the path of dot executable"
-msgstr ""
+msgstr "automatski odredi putanju izvršne datoteke programa dot"
 
 #. i18n: ectx: label, entry (dotPath), group (Auto Layout)
 #: umbrello.kcfg:621
 #, kde-format
 msgid "Dot Path"
-msgstr ""
+msgstr "Putanja programa dot"
 
 #. i18n: ectx: whatsthis, entry (dotPath), group (Auto Layout)
 #: umbrello.kcfg:622
 #, kde-format
 msgid "set path to dot executable (optional)"
-msgstr ""
+msgstr "postavi putanju do izvršne datoteke programa dot (neobavezno)"
 
 #. i18n: ectx: label, entry (showExportLayout), group (Auto Layout)
 #: umbrello.kcfg:626
 #, kde-format
 msgid "Show Export Layout"
-msgstr ""
+msgstr "Prikaži raspored izvoza"
 
 #. i18n: ectx: whatsthis, entry (showExportLayout), group (Auto Layout)
 #: umbrello.kcfg:627
 #, kde-format
 msgid "show export layout"
-msgstr ""
+msgstr "prikaži raspored izvoza"
 
 #. i18n: ectx: Menu (file_export)
 #: umbrelloui.rc.cmake:5
 #, kde-format
 msgid "&Export model"
-msgstr ""
+msgstr "&Izvezi model"
 
 #. i18n: ectx: Menu (edit)
 #: umbrelloui.rc.cmake:11
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #. i18n: ectx: Menu (view)
 #: umbrelloui.rc.cmake:14
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "&Prikaz"
 
 #. i18n: ectx: Menu (view_window)
 #: umbrelloui.rc.cmake:15
 #, kde-format
 msgid "&Show/hide window"
-msgstr ""
+msgstr "&Prikaži/sakrij prozor"
 
 #. i18n: ectx: Menu (diagram)
 #: umbrelloui.rc.cmake:26
 #, kde-format
 msgid "&Diagram"
-msgstr ""
+msgstr "&Dijagram"
 
 #. i18n: ectx: Menu (new_view)
 #: umbrelloui.rc.cmake:27
 #, kde-format
 msgid "&New"
-msgstr ""
+msgstr "&Novo"
 
 #. i18n: ectx: Menu (show_view)
 #: umbrelloui.rc.cmake:43
 #, kde-format
 msgid "Sh&ow"
-msgstr ""
+msgstr "&Prikaži"
 
 #. i18n: ectx: Menu (zoom_menu)
 #: umbrelloui.rc.cmake:46
 #, kde-format
 msgid "&Zoom"
-msgstr ""
+msgstr "&Zumiranje"
 
 #. i18n: ectx: Menu (align_menu)
 #: umbrelloui.rc.cmake:48
 #, kde-format
 msgid "&Align"
-msgstr ""
+msgstr "&Poravnaj"
 
 #. i18n: ectx: Menu (code)
 #: umbrelloui.rc.cmake:64
 #, kde-format
 msgid "&Code"
-msgstr ""
+msgstr "&Kod"
 
 #. i18n: ectx: Menu (active_lang_menu)
 #: umbrelloui.rc.cmake:70
 #, kde-format
 msgid "Active &Language"
-msgstr ""
+msgstr "Aktivni &jezik"
 
 #. i18n: ectx: Menu (settings)
 #: umbrelloui.rc.cmake:96
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "&Postavke"
 
 #: umlapp.cpp:343
 #, kde-format
 msgid "&Export model to DocBook"
-msgstr ""
+msgstr "&Izvezi model u DocBook"
 
 #: umlapp.cpp:347
 #, kde-format
 msgid "&Export model to XHTML"
-msgstr ""
+msgstr "&Izvezi model u XHTML"
 
 #: umlapp.cpp:351
 #, kde-format
 msgid "&New Class Wizard..."
-msgstr ""
+msgstr "&Čarobnjak za novu klasu..."
 
 #: umlapp.cpp:355
 #, kde-format
 msgid "&Add Default Datatypes for Active Language"
-msgstr ""
+msgstr "&Dodaj zadane tipove podataka za aktivni jezik"
 
 #: umlapp.cpp:362
 #, kde-format
 msgid "Code &Importing Wizard..."
-msgstr ""
+msgstr "Čarobnjak za u&voz koda..."
 
 #: umlapp.cpp:372
 #, kde-format
 msgid "&Code Generation Wizard..."
-msgstr ""
+msgstr "Čarobnjak za generiranje &koda..."
 
 #: umlapp.cpp:377
 #, kde-format
 msgid "&Generate All Code"
-msgstr ""
+msgstr "&Generiraj sav kod"
 
 #: umlapp.cpp:424
 #, kde-format
 msgid "Creates a new document"
-msgstr ""
+msgstr "Stvara novi dokument"
 
 #: umlapp.cpp:425
 #, kde-format
 msgid "Opens an existing document"
-msgstr ""
+msgstr "Otvara postojeći dokument"
 
 #: umlapp.cpp:426
 #, kde-format
 msgid "Opens a recently used file"
-msgstr ""
+msgstr "Otvara nedavno korištenu datoteku"
 
 #: umlapp.cpp:427
 #, kde-format
 msgid "Saves the document"
-msgstr ""
+msgstr "Sprema dokument"
 
 #: umlapp.cpp:428
 #, kde-format
 msgid "Saves the document as..."
-msgstr ""
+msgstr "Sprema dokument kao..."
 
 #: umlapp.cpp:429
 #, kde-format
 msgid "Closes the document"
-msgstr ""
+msgstr "Zatvara dokument"
 
 #: umlapp.cpp:430
 #, kde-format
 msgid "Prints out the document"
-msgstr ""
+msgstr "Ispisuje dokument"
 
 #: umlapp.cpp:431
 #, kde-format
 msgid "Print Preview of the document"
-msgstr ""
+msgstr "Pretpregled ispisa dokumenta"
 
 #: umlapp.cpp:432
 #, kde-format
 msgid "Quits the application"
-msgstr ""
+msgstr "Zatvara aplikaciju"
 
 #: umlapp.cpp:433
 #, kde-format
 msgid "Exports the model to the docbook format"
-msgstr ""
+msgstr "Izvozi model u formatu DocBook"
 
 #: umlapp.cpp:434
 #, kde-format
 msgid "Exports the model to the XHTML format"
-msgstr ""
+msgstr "Izvozi model u formatu XHTML"
 
 #: umlapp.cpp:435
 #, kde-format
 msgid "Cuts the selected section and puts it to the clipboard"
-msgstr ""
+msgstr "Izrezuje odabrani dio i stavlja ga u međuspremnik"
 
 #: umlapp.cpp:436
 #, kde-format
 msgid "Copies the selected section to the clipboard"
-msgstr ""
+msgstr "Kopira odabrani dio u međuspremnik"
 
 #: umlapp.cpp:437
 #, kde-format
 msgid "Pastes the contents of the clipboard"
-msgstr ""
+msgstr "Lijepi sadržaj međuspremnika"
 
 #: umlapp.cpp:438
 #, kde-format
 msgid "Undo last action"
-msgstr ""
+msgstr "Poništi posljednju radnju"
 
 #: umlapp.cpp:439
 #, kde-format
 msgid "Redo last undone action"
-msgstr ""
+msgstr "Ponovi posljednju poništenu radnju"
 
 #: umlapp.cpp:441
 #, kde-format
 msgid "Set the default program preferences"
-msgstr ""
+msgstr "Postavi zadane postavke programa"
 
 #: umlapp.cpp:445
 #, kde-format
 msgctxt "delete selected widget"
 msgid "Delete &Selected"
-msgstr ""
+msgstr "Izbriši &odabrano"
 
 #: umlapp.cpp:456
 #, kde-format
 msgid "&Class Diagram..."
-msgstr ""
+msgstr "Dijagram &klasa..."
 
 #: umlapp.cpp:463
 #, kde-format
 msgid "&Object Diagram..."
-msgstr ""
+msgstr "Dijagram &objekata..."
 
 #: umlapp.cpp:470
 #, kde-format
 msgid "&Sequence Diagram..."
-msgstr ""
+msgstr "Dijagram &slijeda..."
 
 #: umlapp.cpp:476
 #, kde-format
 msgid "C&ommunication Diagram..."
-msgstr ""
+msgstr "Dijagram k&omunikacije..."
 
 #: umlapp.cpp:482
 #, kde-format
 msgid "&Use Case Diagram..."
-msgstr ""
+msgstr "Dijagram slučajeva &uporabe..."
 
 #: umlapp.cpp:488
 #, kde-format
 msgid "S&tate Diagram..."
-msgstr ""
+msgstr "Dijagram s&tanja..."
 
 #: umlapp.cpp:494
 #, kde-format
 msgid "&Activity Diagram..."
-msgstr ""
+msgstr "Dijagram &aktivnosti..."
 
 #: umlapp.cpp:500
 #, kde-format
 msgid "Co&mponent Diagram..."
-msgstr ""
+msgstr "Dijagram ko&mponenti..."
 
 #: umlapp.cpp:506
 #, kde-format
 msgid "&Deployment Diagram..."
-msgstr ""
+msgstr "Dijagram &razmještaja..."
 
 #: umlapp.cpp:512
 #, kde-format
 msgid "&Entity Relationship Diagram..."
-msgstr ""
+msgstr "Dijagram odnosa &entiteta..."
 
 #: umlapp.cpp:518
 #, kde-format
 msgid "&Clear Diagram"
-msgstr ""
+msgstr "&Očisti dijagram"
 
 #: umlapp.cpp:522
 #, kde-format
 msgid "&Snap to Grid"
-msgstr ""
+msgstr "Poravnaj &s mrežom"
 
 #: umlapp.cpp:526
 #, kde-format
 msgid "S&how Grid"
-msgstr ""
+msgstr "Prikaži &mrežu"
 
 #: umlapp.cpp:531
 #, kde-format
 msgid "&Delete Diagram"
-msgstr ""
+msgstr "&Izbriši dijagram"
 
 #: umlapp.cpp:536
 #, kde-format
 msgid "&Export as Picture..."
-msgstr ""
+msgstr "&Izvezi kao sliku..."
 
 #: umlapp.cpp:541
 #, kde-format
 msgid "Export &Diagrams as Pictures..."
-msgstr ""
+msgstr "Izvezi &dijagrame kao slike..."
 
 #: umlapp.cpp:561
 #, kde-format
 msgid "Z&oom to 100%"
-msgstr ""
+msgstr "&Zumiraj na 100%"
 
 #: umlapp.cpp:604
 #, kde-format
 msgid "&Move Tab Left"
-msgstr ""
+msgstr "Pomakni karticu &lijevo"
 
 #: umlapp.cpp:605
 #, kde-format
 msgid "&Move Tab Right"
-msgstr ""
+msgstr "Pomakni karticu &desno"
 
 #: umlapp.cpp:621
 #, kde-format
 msgid "Select Diagram on Left"
-msgstr ""
+msgstr "Odaberi dijagram slijeva"
 
 #: umlapp.cpp:622
 #, kde-format
 msgid "Select Diagram on Right"
-msgstr ""
+msgstr "Odaberi dijagram zdesna"
 
 #: umlapp.cpp:758
 #, kde-format
 msgctxt "%1 percent value from 20 to 500"
 msgid " &%1%"
-msgstr ""
+msgstr " &%1%"
 
 #: umlapp.cpp:810
 #, kde-format
 msgctxt "init status bar"
 msgid "Ready"
-msgstr ""
+msgstr "Spremno"
 
 #: umlapp.cpp:818 umlapp.cpp:831
 #, kde-format
 msgid "100%"
-msgstr ""
+msgstr "100%"
 
 #: umlapp.cpp:823
 #, kde-format
 msgid "Fit"
-msgstr ""
+msgstr "Prilagodi"
 
 #: umlapp.cpp:874
 #, kde-format
 msgid "Diagram Toolbar"
-msgstr ""
+msgstr "Alatna traka dijagrama"
 
 #: umlapp.cpp:934 umlapp.cpp:1151 umlapp.cpp:1189
 #, kde-format
 msgid "Opening file..."
-msgstr ""
+msgstr "Otvaranje datoteke..."
 
 #: umlapp.cpp:985 umlapp.cpp:1056 umlapp.cpp:1220 umldoc.cpp:437 umldoc.cpp:460
 #: umldoc.cpp:3409
 #, kde-format
 msgid "Untitled"
-msgstr ""
+msgstr "Bez naziva"
 
 #: umlapp.cpp:1133
 #, kde-format
 msgid "Creating new document..."
-msgstr ""
+msgstr "Stvaranje novog dokumenta..."
 
 #: umlapp.cpp:1158
 #, kde-format
 msgid "Open File"
-msgstr ""
+msgstr "Otvori datoteku"
 
 #: umlapp.cpp:1159
 #, kde-format
@@ -7472,659 +7473,659 @@ msgid ""
 "*.uml|Eclipse PapyrusUML files (*.uml)\n"
 "*.mdl|Rose model files (*.mdl)\n"
 "*.zargo|Compressed argo Files(*.zargo)\n"
-msgstr ""
+msgstr "*.xmi *.xmi.tgz *.xmi.tar.bz2 *.uml *.mdl *.zargo|Sve podržane datoteke (*.xmi, *.xmi.tgz, *.xmi.tar.bz2, *.uml, *.mdl, *.zargo)\n*.xmi|Nekomprimirane XMI datoteke (*.xmi)\n*.xmi.tgz|Gzip-komprimirane XMI datoteke (*.xmi.tgz)\n*.xmi.tar.bz2|Bzip2-komprimirane XMI datoteke (*.xmi.tar.bz2)\n*.uml|Datoteke Eclipse PapyrusUML (*.uml)\n*.mdl|Datoteke modela Rose (*.mdl)\n*.zargo|Komprimirane datoteke Argo (*.zargo)\n"
 
 #: umlapp.cpp:1219
 #, kde-format
 msgid "Saving file..."
-msgstr ""
+msgstr "Spremanje datoteke..."
 
 #: umlapp.cpp:1236
 #, kde-format
 msgid "Saving file with a new filename..."
-msgstr ""
+msgstr "Spremanje datoteke pod novim nazivom..."
 
 #: umlapp.cpp:1241 umlviewimageexporter.cpp:172
 #, kde-format
 msgid "Save As"
-msgstr ""
+msgstr "Spremi kao"
 
 #: umlapp.cpp:1242
 #, kde-format
 msgid ""
 "*.xmi | XMI File (*.xmi);;*.xmi.tgz | Gzip Compressed XMI File (*.xmi.tgz);;"
 "*.xmi.tar.bz2 | Bzip2 Compressed XMI File (*.xmi.tar.bz2);;* | All Files (*)"
-msgstr ""
+msgstr "*.xmi | XMI datoteka (*.xmi);;*.xmi.tgz | Gzip-komprimirana XMI datoteka (*.xmi.tgz);;*.xmi.tar.bz2 | Bzip2-komprimirana XMI datoteka (*.xmi.tar.bz2);;* | Sve datoteke (*)"
 
 #: umlapp.cpp:1260
 #, kde-format
 msgid ""
 "The file %1 exists.\n"
 "Do you wish to overwrite it?"
-msgstr ""
+msgstr "Datoteka %1 već postoji.\nŽelite li je prebrisati?"
 
 #: umlapp.cpp:1261
 #, kde-format
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: umlapp.cpp:1261
 #, kde-format
 msgid "Overwrite"
-msgstr ""
+msgstr "Prepiši"
 
 #: umlapp.cpp:1287
 #, kde-format
 msgid "Closing file..."
-msgstr ""
+msgstr "Zatvaranje datoteke..."
 
 #: umlapp.cpp:1298
 #, kde-format
 msgid "No search term entered"
-msgstr ""
+msgstr "Nije unesen pojam za pretraživanje"
 
 #: umlapp.cpp:1304
 #, kde-format
 msgid "'%1': %2 found"
-msgstr ""
+msgstr "'%1': pronađeno: %2"
 
 #: umlapp.cpp:1360
 #, kde-format
 msgid "Print Preview..."
-msgstr ""
+msgstr "Pretpregled ispisa..."
 
 #: umlapp.cpp:1387
 #, kde-format
 msgid "Printing..."
-msgstr ""
+msgstr "Ispis..."
 
 #: umlapp.cpp:1393
 #, kde-format
 msgid "Print %1"
-msgstr ""
+msgstr "Ispiši %1"
 
 #: umlapp.cpp:1412
 #, kde-format
 msgid "Exiting..."
-msgstr ""
+msgstr "Izlaz..."
 
 #: umlapp.cpp:1483
 #, kde-format
 msgid "Cutting selection..."
-msgstr ""
+msgstr "Izrezivanje odabira..."
 
 #: umlapp.cpp:1506
 #, kde-format
 msgid "Copying selection to clipboard..."
-msgstr ""
+msgstr "Kopiranje odabira u međuspremnik..."
 
 #: umlapp.cpp:1518
 #, kde-format
 msgid "Inserting clipboard contents..."
-msgstr ""
+msgstr "Umetanje sadržaja međuspremnika..."
 
 #: umlapp.cpp:1523
 #, kde-format
 msgid ""
 "Umbrello could not paste the clipboard contents.  The objects in the "
 "clipboard may be of the wrong type to be pasted here."
-msgstr ""
+msgstr "Umbrello nije mogao zalijepiti sadržaj međuspremnika. Objekti u međuspremniku možda nisu odgovarajuće vrste za lijepljenje ovdje."
 
 #: umlapp.cpp:1549 umlviewimageexporter.cpp:80 umlviewimageexporterall.cpp:103
 #, kde-format
 msgctxt "reset status bar"
 msgid "Ready."
-msgstr ""
+msgstr "Spremno."
 
 #: umlapp.cpp:2166
 #, kde-format
 msgid "Cannot view code until you generate some first."
-msgstr ""
+msgstr "Kod se ne može prikazati dok ga najprije ne generirate."
 
 #: umlapp.cpp:2166 umlapp.cpp:2169
 #, kde-format
 msgid "Cannot View Code"
-msgstr ""
+msgstr "Nije moguće prikazati kod"
 
 #: umlapp.cpp:2169
 #, kde-format
 msgid "Cannot view code from simple code writer."
-msgstr ""
+msgstr "Kod se ne može prikazati iz jednostavnog zapisivača koda."
 
 #: umlapp.cpp:2619
 #, kde-format
 msgid "Select file(s) to import:"
-msgstr ""
+msgstr "Odaberite datoteke za uvoz:"
 
 #: umlapp.cpp:2648
 #, kde-format
 msgid "Select directory to import:"
-msgstr ""
+msgstr "Odaberite mapu za uvoz:"
 
 #: umlapp.cpp:3171
 #, kde-format
 msgid "XHTML Generation failed ."
-msgstr ""
+msgstr "Generiranje XHTML-a nije uspjelo."
 
 #: umlappprivate.h:103
 #, kde-format
 msgid "Show/hide window"
-msgstr ""
+msgstr "Prikaži/sakrij prozor"
 
 #: umlappprivate.h:189
 #, kde-format
 msgid "&Bird's eye view"
-msgstr ""
+msgstr "Prikaz iz ptičje perspektive"
 
 #: umlappprivate.h:197
 #, kde-format
 msgid "Co&mmand history"
-msgstr ""
+msgstr "Povijest na&redbi"
 
 #: umlappprivate.h:212
 #, kde-format
 msgid "&Debug"
-msgstr ""
+msgstr "&Otklanjanje pogrešaka"
 
 #: umlappprivate.h:228
 #, kde-format
 msgid "Doc&umentation"
-msgstr ""
+msgstr "Doku&mentacija"
 
 #: umlappprivate.h:245
 #, kde-format
 msgid "&Log"
-msgstr ""
+msgstr "&Zapisnik"
 
 #: umlappprivate.h:257
 #, kde-format
 msgid "&UML Objects"
-msgstr ""
+msgstr "&UML objekti"
 
 #: umlappprivate.h:271
 #, kde-format
 msgid "&Stereotypes"
-msgstr ""
+msgstr "&Stereotipi"
 
 #: umlappprivate.h:278
 #, kde-format
 msgid "&Tree View"
-msgstr ""
+msgstr "Prikaz &stabla"
 
 #: umlappprivate.h:298
 #, kde-format
 msgid "Welcome"
-msgstr ""
+msgstr "Dobro došli"
 
 #: umldoc.cpp:180 umldoc.cpp:2351 umldoc.cpp:2379 umldoc.cpp:2462
 #, kde-format
 msgid "UML Model"
-msgstr ""
+msgstr "UML model"
 
 #: umldoc.cpp:218
 #, kde-format
 msgid "Logical View"
-msgstr ""
+msgstr "Logički prikaz"
 
 #: umldoc.cpp:219
 #, kde-format
 msgid "Use Case View"
-msgstr ""
+msgstr "Prikaz slučajeva uporabe"
 
 #: umldoc.cpp:220
 #, kde-format
 msgid "Component View"
-msgstr ""
+msgstr "Prikaz komponenti"
 
 #: umldoc.cpp:221
 #, kde-format
 msgid "Deployment View"
-msgstr ""
+msgstr "Prikaz razmještaja"
 
 #: umldoc.cpp:222
 #, kde-format
 msgid "Entity Relationship Model"
-msgstr ""
+msgstr "Model odnosa entiteta"
 
 #: umldoc.cpp:248
 #, kde-format
 msgid "Datatypes"
-msgstr ""
+msgstr "Tipovi podataka"
 
 #: umldoc.cpp:455
 #, kde-format
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
-msgstr ""
+msgstr "Trenutačna je datoteka izmijenjena.\nŽelite li je spremiti?"
 
 #: umldoc.cpp:456
 #, kde-format
 msgctxt "warning message"
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: umldoc.cpp:636
 #, kde-format
 msgid "The file <%1> does not exist."
-msgstr ""
+msgstr "Datoteka <%1> ne postoji."
 
 #: umldoc.cpp:636 umldoc.cpp:657 umldoc.cpp:696 umldoc.cpp:708 umldoc.cpp:722
 #: umldoc.cpp:735 umldoc.cpp:747 umldoc.cpp:785 umlmodel/umlfolder.cpp:450
 #: umlmodel/umlfolder.cpp:454
 #, kde-format
 msgid "Load Error"
-msgstr ""
+msgstr "Pogreška pri učitavanju"
 
 #: umldoc.cpp:657
 #, kde-format
 msgid "The file %1 seems to be corrupted."
-msgstr ""
+msgstr "Čini se da je datoteka %1 oštećena."
 
 #: umldoc.cpp:695 umldoc.cpp:707 umldoc.cpp:734
 #, kde-format
 msgid "There was no XMI file found in the compressed file %1."
-msgstr ""
+msgstr "U komprimiranoj datoteci %1 nije pronađena XMI datoteka."
 
 #: umldoc.cpp:721
 #, kde-format
 msgid "There was a problem loading the extracted file: %1"
-msgstr ""
+msgstr "Došlo je do problema pri učitavanju izdvojene datoteke: %1"
 
 #: umldoc.cpp:746 umldoc.cpp:782
 #, kde-format
 msgid "There was a problem loading file: %1"
-msgstr ""
+msgstr "Došlo je do problema pri učitavanju datoteke: %1"
 
 #: umldoc.cpp:784
 #, kde-format
 msgid "Reason: %1"
-msgstr ""
+msgstr "Razlog: %1"
 
 #: umldoc.cpp:855 umldoc.cpp:866 umldoc.cpp:884 umldoc.cpp:929 umldoc.cpp:968
 #, kde-format
 msgid "There was a problem saving: %1"
-msgstr ""
+msgstr "Došlo je do problema pri spremanju: %1"
 
 #: umldoc.cpp:855 umldoc.cpp:866 umldoc.cpp:884 umldoc.cpp:929 umldoc.cpp:968
 #: umldoc.cpp:975 umllistview.cpp:569
 #, kde-format
 msgid "Save Error"
-msgstr ""
+msgstr "Pogreška pri spremanju"
 
 #: umldoc.cpp:975
 #, kde-format
 msgid "There was a problem uploading: %1"
-msgstr ""
+msgstr "Došlo je do problema pri učitavanju na poslužitelj: %1"
 
 #: umldoc.cpp:1526
 #, kde-format
 msgid "use case diagram"
-msgstr ""
+msgstr "dijagram slučajeva uporabe"
 
 #: umldoc.cpp:1529
 #, kde-format
 msgid "class diagram"
-msgstr ""
+msgstr "dijagram klasa"
 
 #: umldoc.cpp:1532
 #, kde-format
 msgid "sequence diagram"
-msgstr ""
+msgstr "dijagram slijeda"
 
 #: umldoc.cpp:1535
 #, kde-format
 msgid "communication diagram"
-msgstr ""
+msgstr "dijagram komunikacije"
 
 #: umldoc.cpp:1538
 #, kde-format
 msgid "object diagram"
-msgstr ""
+msgstr "dijagram objekata"
 
 #: umldoc.cpp:1541
 #, kde-format
 msgid "state diagram"
-msgstr ""
+msgstr "dijagram stanja"
 
 #: umldoc.cpp:1544
 #, kde-format
 msgid "activity diagram"
-msgstr ""
+msgstr "dijagram aktivnosti"
 
 #: umldoc.cpp:1547
 #, kde-format
 msgid "component diagram"
-msgstr ""
+msgstr "dijagram komponenti"
 
 #: umldoc.cpp:1550
 #, kde-format
 msgid "deployment diagram"
-msgstr ""
+msgstr "dijagram razmještaja"
 
 #: umldoc.cpp:1553
 #, kde-format
 msgid "entity relationship diagram"
-msgstr ""
+msgstr "dijagram odnosa entiteta"
 
 #: umldoc.cpp:1623
 #, kde-format
 msgctxt "diagram name"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umldoc.cpp:1623 umldoc.cpp:1685 umldoc.cpp:1714 umldoc.cpp:1749
 #, kde-format
 msgid "Enter name:"
-msgstr ""
+msgstr "Unesite naziv:"
 
 #: umldoc.cpp:1627 umldoc.cpp:1691
 #, kde-format
 msgid "That is an invalid name for a diagram."
-msgstr ""
+msgstr "Taj naziv dijagrama nije valjan."
 
 #: umldoc.cpp:1629 umldoc.cpp:1698
 #, kde-format
 msgid "A diagram is already using that name."
-msgstr ""
+msgstr "Dijagram već upotrebljava taj naziv."
 
 #: umldoc.cpp:1684
 #, kde-format
 msgctxt "renaming diagram"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umldoc.cpp:1713
 #, kde-format
 msgctxt "renaming uml object"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umldoc.cpp:1748
 #, kde-format
 msgctxt "renaming child uml object"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umldoc.cpp:1758
 #, kde-format
 msgid ""
 "The name you entered was not unique.\n"
 "Is this what you wanted?"
-msgstr ""
+msgstr "Uneseni naziv nije jedinstven.\nŽelite li ipak nastaviti?"
 
 #: umldoc.cpp:1759
 #, kde-format
 msgid "Use Name"
-msgstr ""
+msgstr "Upotrijebi naziv"
 
 #: umldoc.cpp:1759
 #, kde-format
 msgid "Enter New Name"
-msgstr ""
+msgstr "Unesite novi naziv"
 
 #: umldoc.cpp:2309
 #, kde-format
 msgid "Unsupported xmi file version: %1"
-msgstr ""
+msgstr "Nepodržana inačica XMI datoteke: %1"
 
 #: umldoc.cpp:2473
 #, kde-format
 msgid "Setting up the document..."
-msgstr ""
+msgstr "Postavljanje dokumenta..."
 
 #: umldoc.cpp:2502
 #, kde-format
 msgid "Resolving object references..."
-msgstr ""
+msgstr "Razrješavanje referenci objekata..."
 
 #: umldoc.cpp:2610
 #, kde-format
 msgid "Loading UML elements..."
-msgstr ""
+msgstr "Učitavanje UML elemenata..."
 
 #: umldoc.cpp:2872
 #, kde-format
 msgid "Loading diagrams..."
-msgstr ""
+msgstr "Učitavanje dijagrama..."
 
 #: umldoc.cpp:3411
 #, kde-format
 msgid "/autosave%1"
-msgstr ""
+msgstr "/autosave%1"
 
 #: umllistview.cpp:530
 #, kde-format
 msgid "Externalize Folder"
-msgstr ""
+msgstr "Premjesti mapu izvan projekta"
 
 #: umllistview.cpp:550
 #, kde-format
 msgid "Folder %1 must be relative to the main model directory, %2."
-msgstr ""
+msgstr "Mapa %1 mora biti relativna u odnosu na glavnu mapu modela %2."
 
 #: umllistview.cpp:551
 #, kde-format
 msgid "Path Error"
-msgstr ""
+msgstr "Pogreška putanje"
 
 #: umllistview.cpp:559
 #, kde-format
 msgid ""
 "File %1 already exists!\n"
 "The existing file will be overwritten."
-msgstr ""
+msgstr "Datoteka %1 već postoji!\nPostojeća datoteka bit će prebrisana."
 
 #: umllistview.cpp:560
 #, kde-format
 msgid "File Exists"
-msgstr ""
+msgstr "Datoteka postoji"
 
 #: umllistview.cpp:568 umlviewimageexportermodel.cpp:272
 #, kde-format
 msgid "There was a problem saving file: %1"
-msgstr ""
+msgstr "Došlo je do problema pri spremanju datoteke: %1"
 
 #: umllistview.cpp:600
 #, kde-format
 msgid "Enter Model Name"
-msgstr ""
+msgstr "Unesite naziv modela"
 
 #: umllistview.cpp:601
 #, kde-format
 msgid "Enter the new name of the model:"
-msgstr ""
+msgstr "Unesite novi naziv modela:"
 
 #: umllistview.cpp:1422
 #, kde-format
 msgid "Views"
-msgstr ""
+msgstr "Prikazi"
 
 #: umllistview.cpp:1440
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Postavke"
 
 #: umllistview.cpp:2457
 #, kde-format
 msgid "Loading listview..."
-msgstr ""
+msgstr "Učitavanje prikaza popisa..."
 
 #: umllistview.cpp:2826
 #, kde-format
 msgid "The class must be emptied before it can be deleted."
-msgstr ""
+msgstr "Klasa mora biti prazna prije brisanja."
 
 #: umllistview.cpp:2827
 #, kde-format
 msgid "Class Not Empty"
-msgstr ""
+msgstr "Klasa nije prazna"
 
 #: umllistview.cpp:2831
 #, kde-format
 msgid "The package must be emptied before it can be deleted."
-msgstr ""
+msgstr "Paket mora biti prazan prije brisanja."
 
 #: umllistview.cpp:2832
 #, kde-format
 msgid "Package Not Empty"
-msgstr ""
+msgstr "Paket nije prazan"
 
 #: umllistview.cpp:2836
 #, kde-format
 msgid "The folder must be emptied before it can be deleted."
-msgstr ""
+msgstr "Mapa mora biti prazna prije brisanja."
 
 #: umllistview.cpp:2837
 #, kde-format
 msgid "Folder Not Empty"
-msgstr ""
+msgstr "Mapa nije prazna"
 
 #: umllistviewitem.cpp:592 umllistviewitem.cpp:626 umllistviewitem.cpp:657
 #: umllistviewitem.cpp:684
 #, kde-format
 msgid "Rename canceled"
-msgstr ""
+msgstr "Preimenovanje je otkazano"
 
 #: umllistviewitem.cpp:719
 #, kde-format
 msgid "Renaming an item of listview type %1 is not yet implemented."
-msgstr ""
+msgstr "Preimenovanje stavke vrste prikaza popisa %1 još nije implementirano."
 
 #: umllistviewitem.cpp:720
 #, kde-format
 msgid "Function Not Implemented"
-msgstr ""
+msgstr "Funkcija nije implementirana"
 
 #: umllistviewitem.cpp:734
 #, kde-format
 msgid ""
 "The name you entered was invalid.\n"
 "Renaming process has been canceled."
-msgstr ""
+msgstr "Uneseni naziv nije valjan.\nPreimenovanje je otkazano."
 
 #: umllistviewitem.cpp:735
 #, kde-format
 msgid "Name Not Valid"
-msgstr ""
+msgstr "Naziv nije valjan"
 
 #: umlmodel/umlcanvasobject.cpp:200
 #, kde-format
 msgid "new_literal"
-msgstr ""
+msgstr "new_literal"
 
 #: umlmodel/umlcanvasobject.cpp:203
 #, kde-format
 msgid "new_field"
-msgstr ""
+msgstr "new_field"
 
 #: umlmodel/umlcanvasobject.cpp:209
 #, kde-format
 msgid "new_fkey_constraint"
-msgstr ""
+msgstr "new_fkey_constraint"
 
 #: umlmodel/umlclassifier.cpp:281
 #, kde-format
 msgid ""
 "An operation with the same name and signature already exists. You cannot add "
 "it again."
-msgstr ""
+msgstr "Operacija s istim nazivom i potpisom već postoji. Ne možete je ponovno dodati."
 
 #: umlmodel/umlfolder.cpp:450
 #, kde-format
 msgid "The folderfile %1 does not exist."
-msgstr ""
+msgstr "Datoteka mape %1 ne postoji."
 
 #: umlmodel/umlfolder.cpp:454
 #, kde-format
 msgid "The folderfile %1 cannot be opened."
-msgstr ""
+msgstr "Datoteku mape %1 nije moguće otvoriti."
 
 #: umlmodel/umlobject.cpp:1230
 #, kde-format
 msgid "Actor &name:"
-msgstr ""
+msgstr "&Naziv aktera:"
 
 #: umlmodel/umlobject.cpp:1233
 #, kde-format
 msgid "Artifact &name:"
-msgstr ""
+msgstr "&Naziv artefakta:"
 
 #: umlmodel/umlobject.cpp:1236
 #, kde-format
 msgid "Association &name:"
-msgstr ""
+msgstr "&Naziv asocijacije:"
 
 #: umlmodel/umlobject.cpp:1239
 #, kde-format
 msgid "Class &name:"
-msgstr ""
+msgstr "&Naziv klase:"
 
 #: umlmodel/umlobject.cpp:1242
 #, kde-format
 msgid "Component &name:"
-msgstr ""
+msgstr "&Naziv komponente:"
 
 #: umlmodel/umlobject.cpp:1245
 #, kde-format
 msgid "Datatype &name:"
-msgstr ""
+msgstr "&Naziv tipa podataka:"
 
 #: umlmodel/umlobject.cpp:1248
 #, kde-format
 msgid "Entity &name:"
-msgstr ""
+msgstr "&Naziv entiteta:"
 
 #: umlmodel/umlobject.cpp:1251
 #, kde-format
 msgid "Enum &name:"
-msgstr ""
+msgstr "&Naziv enumeracije:"
 
 #: umlmodel/umlobject.cpp:1254
 #, kde-format
 msgid "Folder &name:"
-msgstr ""
+msgstr "&Naziv mape:"
 
 #: umlmodel/umlobject.cpp:1257
 #, kde-format
 msgid "Interface &name:"
-msgstr ""
+msgstr "&Naziv sučelja:"
 
 #: umlmodel/umlobject.cpp:1260
 #, kde-format
 msgid "Node &name:"
-msgstr ""
+msgstr "&Naziv čvora:"
 
 #: umlmodel/umlobject.cpp:1263
 #, kde-format
 msgid "Package &name:"
-msgstr ""
+msgstr "&Naziv paketa:"
 
 #: umlmodel/umlobject.cpp:1266
 #, kde-format
 msgid "Port &name:"
-msgstr ""
+msgstr "&Naziv priključka:"
 
 #: umlmodel/umlobject.cpp:1272
 #, kde-format
 msgid "Use case &name:"
-msgstr ""
+msgstr "&Naziv slučaja uporabe:"
 
 #: umlmodel/umlobject.cpp:1275
 #, kde-format
 msgid "Instance name:"
-msgstr ""
+msgstr "Naziv instance:"
 
 #: umlmodel/umloperation.cpp:290
 #, kde-format
 msgid "new_parameter"
-msgstr ""
+msgstr "new_parameter"
 
 #: umlmodel/umlpackage.cpp:171
 #, kde-format
 msgctxt "object name"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umlmodel/umlpackage.cpp:172
 #, kde-format
@@ -8132,1025 +8133,1025 @@ msgid ""
 "An object with the name %1\n"
 "already exists in the package %2.\n"
 "Please enter a new name:"
-msgstr ""
+msgstr "Objekt naziva %1\nveć postoji u paketu %2.\nUnesite novi naziv:"
 
 #: umlscene.cpp:726
 #, kde-format
 msgid "Diagram: %2 Page %1"
-msgstr ""
+msgstr "Dijagram: %2, stranica %1"
 
 #: umlscene.cpp:1526
 #, kde-format
 msgid "Use fill color"
-msgstr ""
+msgstr "Koristi boju ispune"
 
 #: umlscene.cpp:1528
 #, kde-format
 msgid "No fill color"
-msgstr ""
+msgstr "Bez boje ispune"
 
 #: umlscene.cpp:1543
 #, kde-format
 msgid "Change font"
-msgstr ""
+msgstr "Promijeni font"
 
 #: umlscene.cpp:1557
 #, kde-format
 msgid "Change line color"
-msgstr ""
+msgstr "Promijeni boju crte"
 
 #: umlscene.cpp:1575
 #, kde-format
 msgid "Change line width"
-msgstr ""
+msgstr "Promijeni širinu crte"
 
 #: umlscene.cpp:1595
 #, kde-format
 msgid "Change fill color"
-msgstr ""
+msgstr "Promijeni boju ispune"
 
 #: umlscene.cpp:1610
 #, kde-format
 msgid "Change visual property"
-msgstr ""
+msgstr "Promijeni vizualno svojstvo"
 
 #: umlscene.cpp:1661
 #, kde-format
 msgid "Delete widgets"
-msgstr ""
+msgstr "Izbriši grafičke elemente"
 
 #: umlscene.cpp:1707
 #, kde-format
 msgid "Resize widgets"
-msgstr ""
+msgstr "Promijeni veličinu grafičkih elemenata"
 
 #: umlscene.cpp:3368
 #, kde-format
 msgid "Enter Diagram Name"
-msgstr ""
+msgstr "Unesite naziv dijagrama"
 
 #: umlscene.cpp:3369
 #, kde-format
 msgid "Enter the new name of the diagram:"
-msgstr ""
+msgstr "Unesite novi naziv dijagrama:"
 
 #: umlscene.cpp:3385
 #, kde-format
 msgid "Failed to import from file."
-msgstr ""
+msgstr "Uvoz iz datoteke nije uspio."
 
 #: umlviewimageexporter.cpp:73
 #, kde-format
 msgid "Exporting view..."
-msgstr ""
+msgstr "Izvoz prikaza..."
 
 #: umlviewimageexporter.cpp:78
 #, kde-format
 msgid "An error happened when exporting the image:\n"
-msgstr ""
+msgstr "Pri izvozu slike pojavila se pogreška:\n"
 
 #: umlviewimageexporter.cpp:109
 #, kde-format
 msgid ""
 "The selected file %1 exists.\n"
 "Do you want to overwrite it?"
-msgstr ""
+msgstr "Odabrana datoteka %1 već postoji.\nŽelite li je prebrisati?"
 
 #: umlviewimageexporter.cpp:110
 #, kde-format
 msgid "File Already Exists"
-msgstr ""
+msgstr "Datoteka već postoji"
 
 #: umlviewimageexportermodel.cpp:237
 #, kde-format
 msgid "Empty scene"
-msgstr ""
+msgstr "Prazna scena"
 
 #: umlviewimageexportermodel.cpp:242
 #, kde-format
 msgid "Cannot create directory: %1"
-msgstr ""
+msgstr "Nije moguće stvoriti mapu: %1"
 
 #: umlviewimageexportermodel.cpp:259
 #, kde-format
 msgid "A problem occurred while saving diagram in %1"
-msgstr ""
+msgstr "Došlo je do problema pri spremanju dijagrama u %1"
 
 #: umlwidgets/associationwidget.cpp:2642
 #, kde-format
 msgid "Multiplicity"
-msgstr ""
+msgstr "Višestrukost"
 
 #: umlwidgets/associationwidget.cpp:2643 umlwidgets/floatingtextwidget.cpp:350
 #, kde-format
 msgid "Enter multiplicity:"
-msgstr ""
+msgstr "Unesite višestrukost:"
 
 #: umlwidgets/associationwidget.cpp:2661
 #, kde-format
 msgid "Association Name"
-msgstr ""
+msgstr "Naziv asocijacije"
 
 #: umlwidgets/associationwidget.cpp:2662 umlwidgets/floatingtextwidget.cpp:357
 #, kde-format
 msgid "Enter association name:"
-msgstr ""
+msgstr "Unesite naziv asocijacije:"
 
 #: umlwidgets/associationwidget.cpp:2682
 #, kde-format
 msgid "Role Name"
-msgstr ""
+msgstr "Naziv uloge"
 
 #: umlwidgets/associationwidget.cpp:2683 umlwidgets/floatingtextwidget.cpp:348
 #, kde-format
 msgid "Enter role name:"
-msgstr ""
+msgstr "Unesite naziv uloge:"
 
 #: umlwidgets/associationwidget.cpp:3163
 #, kde-format
 msgid "Press Ctrl with left mouse click to delete a point"
-msgstr ""
+msgstr "Pritisnite Ctrl i kliknite lijevom tipkom miša za brisanje točke"
 
 #: umlwidgets/combinedfragmentwidget.cpp:303
 #, kde-format
 msgid "Enter the name of the diagram referenced"
-msgstr ""
+msgstr "Unesite naziv referenciranog dijagrama"
 
 #: umlwidgets/combinedfragmentwidget.cpp:303
 #, kde-format
 msgid "Diagram name"
-msgstr ""
+msgstr "Naziv dijagrama"
 
 #: umlwidgets/combinedfragmentwidget.cpp:305
 #: umlwidgets/combinedfragmentwidget.cpp:307
 #: umlwidgets/objectnodewidget.cpp:324
 #, kde-format
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: umlwidgets/combinedfragmentwidget.cpp:305
 #: umlwidgets/combinedfragmentwidget.cpp:436
 #, kde-format
 msgid "Enter the guard of the loop"
-msgstr ""
+msgstr "Unesite uvjet petlje"
 
 #: umlwidgets/combinedfragmentwidget.cpp:307
 #, kde-format
 msgid "Enter the first alternative name"
-msgstr ""
+msgstr "Unesite naziv prve alternative"
 
 #: umlwidgets/combinedfragmentwidget.cpp:426
 #, kde-format
 msgid "Enter first alternative"
-msgstr ""
+msgstr "Unesite prvu alternativu"
 
 #: umlwidgets/combinedfragmentwidget.cpp:427
 #, kde-format
 msgid "Enter first alternative :"
-msgstr ""
+msgstr "Unesite prvu alternativu:"
 
 #: umlwidgets/combinedfragmentwidget.cpp:431
 #, kde-format
 msgid "Enter referenced diagram name"
-msgstr ""
+msgstr "Unesite naziv referenciranog dijagrama"
 
 #: umlwidgets/combinedfragmentwidget.cpp:432
 #, kde-format
 msgid "Enter referenced diagram name :"
-msgstr ""
+msgstr "Unesite naziv referenciranog dijagrama:"
 
 #: umlwidgets/combinedfragmentwidget.cpp:437
 #, kde-format
 msgid "Enter the guard of the loop:"
-msgstr ""
+msgstr "Unesite uvjet petlje:"
 
 #: umlwidgets/floatingdashlinewidget.cpp:102
 #, kde-format
 msgid "Enter alternative Name"
-msgstr ""
+msgstr "Unesite naziv alternative"
 
 #: umlwidgets/floatingdashlinewidget.cpp:103
 #, kde-format
 msgid "Enter the alternative:"
-msgstr ""
+msgstr "Unesite alternativu:"
 
 #: umlwidgets/floatingtextwidget.cpp:201
 #, kde-format
 msgid "Change Text"
-msgstr ""
+msgstr "Promijeni tekst"
 
 #: umlwidgets/floatingtextwidget.cpp:202 umlwidgets/floatingtextwidget.cpp:359
 #, kde-format
 msgid "Enter new text:"
-msgstr ""
+msgstr "Unesite novi tekst:"
 
 #: umlwidgets/floatingtextwidget.cpp:361
 #, kde-format
 msgid "ERROR"
-msgstr ""
+msgstr "POGREŠKA"
 
 #: umlwidgets/floatingtextwidget.cpp:717
 #, kde-format
 msgctxt "operation name"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: umlwidgets/floatingtextwidget.cpp:718
 #, kde-format
 msgid "Enter operation name:"
-msgstr ""
+msgstr "Unesite naziv operacije:"
 
 #: umlwidgets/notewidget.cpp:219 umlwidgets/widgetbase.cpp:1312
 #: worktoolbar.cpp:331
 #, kde-format
 msgid "Precondition"
-msgstr ""
+msgstr "Preduvjet"
 
 #: umlwidgets/notewidget.cpp:220
 #, kde-format
 msgid "Postcondition"
-msgstr ""
+msgstr "Postuvjet"
 
 #: umlwidgets/notewidget.cpp:221
 #, kde-format
 msgid "Transformation"
-msgstr ""
+msgstr "Transformacija"
 
 #: umlwidgets/notewidget.cpp:225
 #, kde-format
 msgid "Note Type"
-msgstr ""
+msgstr "Vrsta bilješke"
 
 #: umlwidgets/notewidget.cpp:225
 #, kde-format
 msgid "Select the Note Type"
-msgstr ""
+msgstr "Odaberite vrstu bilješke"
 
 #: umlwidgets/objectnodewidget.cpp:220
 #, kde-format
 msgid "Enter Object Node Name"
-msgstr ""
+msgstr "Unesite naziv čvora objekta"
 
 #: umlwidgets/objectnodewidget.cpp:221
 #, kde-format
 msgid "Enter the name of the object node :"
-msgstr ""
+msgstr "Unesite naziv čvora objekta:"
 
 #: umlwidgets/objectnodewidget.cpp:298
 #, kde-format
 msgid "Select Object node type"
-msgstr ""
+msgstr "Odaberite vrstu čvora objekta"
 
 #: umlwidgets/objectnodewidget.cpp:298
 #, kde-format
 msgid "Select the object node type"
-msgstr ""
+msgstr "Odaberite vrstu čvora objekta"
 
 #: umlwidgets/objectnodewidget.cpp:304
 #, kde-format
 msgid "Enter the name of the data store node"
-msgstr ""
+msgstr "Unesite naziv čvora spremišta podataka"
 
 #: umlwidgets/objectnodewidget.cpp:304
 #, kde-format
 msgid "data store name"
-msgstr ""
+msgstr "naziv spremišta podataka"
 
 #: umlwidgets/objectnodewidget.cpp:306
 #, kde-format
 msgid "Enter the name of the buffer node"
-msgstr ""
+msgstr "Unesite naziv čvora međuspremnika"
 
 #: umlwidgets/objectnodewidget.cpp:306
 #, kde-format
 msgid "Enter the name of the buffer"
-msgstr ""
+msgstr "Unesite naziv međuspremnika"
 
 #: umlwidgets/objectnodewidget.cpp:306
 #, kde-format
 msgid "centralBuffer"
-msgstr ""
+msgstr "centralBuffer"
 
 #: umlwidgets/objectnodewidget.cpp:308
 #, kde-format
 msgid "Enter the name of the object flow"
-msgstr ""
+msgstr "Unesite naziv tijeka objekta"
 
 #: umlwidgets/objectnodewidget.cpp:308
 #, kde-format
 msgid "object flow"
-msgstr ""
+msgstr "tijek objekta"
 
 #: umlwidgets/objectnodewidget.cpp:325
 #, kde-format
 msgid "Enter Object Flow State"
-msgstr ""
+msgstr "Unesite stanje tijeka objekta"
 
 #: umlwidgets/objectnodewidget.cpp:326
 #, kde-format
 msgid "Enter State (keep '-' if there is no state for the object) "
-msgstr ""
+msgstr "Unesite stanje (ostavite '-' ako objekt nema stanje) "
 
 #: umlwidgets/signalwidget.cpp:326
 #, kde-format
 msgid "Enter signal name"
-msgstr ""
+msgstr "Unesite naziv signala"
 
 #: umlwidgets/signalwidget.cpp:327
 #, kde-format
 msgid "Enter the signal name :"
-msgstr ""
+msgstr "Unesite naziv signala:"
 
 #: umlwidgets/statewidget.cpp:593
 #, kde-format
 msgid "Enter Activity"
-msgstr ""
+msgstr "Unesite aktivnost"
 
 #: umlwidgets/statusbartoolbutton.cpp:108
 #, kde-format
 msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
-msgstr ""
+msgstr "%1"
 
 #: umlwidgets/umlwidget.cpp:460
 #, kde-format
 msgid ""
 "Hold shift or ctrl to move in X axis. Hold shift and control to move in Y "
 "axis. Right button click to cancel move."
-msgstr ""
+msgstr "Držite Shift ili Ctrl za pomicanje po osi X. Držite Shift i Ctrl za pomicanje po osi Y. Kliknite desnom tipkom miša za odustajanje od pomicanja."
 
 #: umlwidgets/umlwidget.cpp:558
 #, kde-format
 msgid "Move widgets"
-msgstr ""
+msgstr "Pomakni grafičke elemente"
 
 #: umlwidgets/umlwidget.cpp:807
 #, kde-format
 msgid "Rename Object"
-msgstr ""
+msgstr "Preimenuj objekt"
 
 #: umlwidgets/umlwidget.cpp:808
 #, kde-format
 msgid "Enter object name:"
-msgstr ""
+msgstr "Unesite naziv objekta:"
 
 #: umlwidgets/umlwidget.cpp:1560
 #, kde-format
 msgid "Hold shift or control to move in X axis."
-msgstr ""
+msgstr "Držite Shift ili Ctrl za pomicanje po osi X."
 
 #: umlwidgets/umlwidget.cpp:1561
 #, kde-format
 msgid "Hold shift and control to move in Y axis."
-msgstr ""
+msgstr "Držite Shift i Ctrl za pomicanje po osi Y."
 
 #: umlwidgets/widget_utils.cpp:825
 #, kde-format
 msgid "new actor"
-msgstr ""
+msgstr "novi akter"
 
 #: umlwidgets/widget_utils.cpp:826
 #, kde-format
 msgid "new artifact"
-msgstr ""
+msgstr "novi artefakt"
 
 #: umlwidgets/widget_utils.cpp:827
 #, kde-format
 msgid "new association"
-msgstr ""
+msgstr "nova asocijacija"
 
 #: umlwidgets/widget_utils.cpp:828
 #, kde-format
 msgid "new box"
-msgstr ""
+msgstr "novi okvir"
 
 #: umlwidgets/widget_utils.cpp:829
 #, kde-format
 msgid "new category"
-msgstr ""
+msgstr "nova kategorija"
 
 #: umlwidgets/widget_utils.cpp:830
 #, kde-format
 msgid "new class"
-msgstr ""
+msgstr "nova klasa"
 
 #: umlwidgets/widget_utils.cpp:831
 #, kde-format
 msgid "new combined fragment"
-msgstr ""
+msgstr "novi kombinirani fragment"
 
 #: umlwidgets/widget_utils.cpp:832
 #, kde-format
 msgid "new component"
-msgstr ""
+msgstr "nova komponenta"
 
 #: umlwidgets/widget_utils.cpp:833
 #, kde-format
 msgid "new datatype"
-msgstr ""
+msgstr "novi tip podataka"
 
 #: umlwidgets/widget_utils.cpp:834
 #, kde-format
 msgid "new entity"
-msgstr ""
+msgstr "novi entitet"
 
 #: umlwidgets/widget_utils.cpp:835
 #, kde-format
 msgid "new enum"
-msgstr ""
+msgstr "nova enumeracija"
 
 #: umlwidgets/widget_utils.cpp:836
 #, kde-format
 msgid "new floating dash line"
-msgstr ""
+msgstr "nova slobodna isprekidana crta"
 
 #: umlwidgets/widget_utils.cpp:837
 #, kde-format
 msgid "new fork/join"
-msgstr ""
+msgstr "novo račvanje/spajanje"
 
 #: umlwidgets/widget_utils.cpp:838
 #, kde-format
 msgid "new instance"
-msgstr ""
+msgstr "nova instanca"
 
 #: umlwidgets/widget_utils.cpp:839
 #, kde-format
 msgid "new interface"
-msgstr ""
+msgstr "novo sučelje"
 
 #: umlwidgets/widget_utils.cpp:840
 #, kde-format
 msgid "new message"
-msgstr ""
+msgstr "nova poruka"
 
 #: umlwidgets/widget_utils.cpp:841
 #, kde-format
 msgid "new node"
-msgstr ""
+msgstr "novi čvor"
 
 #: umlwidgets/widget_utils.cpp:842
 #, kde-format
 msgid "new note"
-msgstr ""
+msgstr "nova bilješka"
 
 #: umlwidgets/widget_utils.cpp:843
 #, kde-format
 msgid "new object"
-msgstr ""
+msgstr "novi objekt"
 
 #: umlwidgets/widget_utils.cpp:844
 #, kde-format
 msgid "new object node"
-msgstr ""
+msgstr "novi čvor objekta"
 
 #: umlwidgets/widget_utils.cpp:845
 #, kde-format
 msgid "new package"
-msgstr ""
+msgstr "novi paket"
 
 #: umlwidgets/widget_utils.cpp:846
 #, kde-format
 msgid "new pin"
-msgstr ""
+msgstr "novi priključak"
 
 #: umlwidgets/widget_utils.cpp:847
 #, kde-format
 msgid "new port"
-msgstr ""
+msgstr "novi priključak"
 
 #: umlwidgets/widget_utils.cpp:848
 #, kde-format
 msgid "new precondition"
-msgstr ""
+msgstr "novi preduvjet"
 
 #: umlwidgets/widget_utils.cpp:849
 #, kde-format
 msgid "new region"
-msgstr ""
+msgstr "novo područje"
 
 #: umlwidgets/widget_utils.cpp:850
 #, kde-format
 msgid "new signal"
-msgstr ""
+msgstr "novi signal"
 
 #: umlwidgets/widget_utils.cpp:852
 #, kde-format
 msgid "new text"
-msgstr ""
+msgstr "novi tekst"
 
 #: umlwidgets/widget_utils.cpp:853
 #, kde-format
 msgid "new UML widget"
-msgstr ""
+msgstr "novi UML grafički element"
 
 #: umlwidgets/widget_utils.cpp:854
 #, kde-format
 msgid "new use case"
-msgstr ""
+msgstr "novi slučaj uporabe"
 
 #: umlwidgets/widget_utils.cpp:858
 #, kde-format
 msgid "new widget"
-msgstr ""
+msgstr "novi grafički element"
 
 #: umlwidgets/widget_utils.cpp:871
 #, kde-format
 msgid "New activity"
-msgstr ""
+msgstr "Nova aktivnost"
 
 #: umlwidgets/widget_utils.cpp:875
 #, kde-format
 msgid "New box"
-msgstr ""
+msgstr "Novi okvir"
 
 #: umlwidgets/widget_utils.cpp:878
 #, kde-format
 msgid "New combined fragment"
-msgstr ""
+msgstr "Novi kombinirani fragment"
 
 #: umlwidgets/widget_utils.cpp:883
 #, kde-format
 msgid "New floating dash line"
-msgstr ""
+msgstr "Nova slobodna isprekidana crta"
 
 #: umlwidgets/widget_utils.cpp:884
 #, kde-format
 msgid "New fork/join"
-msgstr ""
+msgstr "Novo račvanje/spajanje"
 
 #: umlwidgets/widget_utils.cpp:887
 #, kde-format
 msgid "New message"
-msgstr ""
+msgstr "Nova poruka"
 
 #: umlwidgets/widget_utils.cpp:889
 #, kde-format
 msgid "New note"
-msgstr ""
+msgstr "Nova bilješka"
 
 #: umlwidgets/widget_utils.cpp:890
 #, kde-format
 msgid "New object"
-msgstr ""
+msgstr "Novi objekt"
 
 #: umlwidgets/widget_utils.cpp:891
 #, kde-format
 msgid "New object node"
-msgstr ""
+msgstr "Novi čvor objekta"
 
 #: umlwidgets/widget_utils.cpp:893
 #, kde-format
 msgid "New pin"
-msgstr ""
+msgstr "Novi priključak"
 
 #: umlwidgets/widget_utils.cpp:895
 #, kde-format
 msgid "New precondition"
-msgstr ""
+msgstr "Novi preduvjet"
 
 #: umlwidgets/widget_utils.cpp:896
 #, kde-format
 msgid "New region"
-msgstr ""
+msgstr "Novo područje"
 
 #: umlwidgets/widget_utils.cpp:897
 #, kde-format
 msgid "New signal"
-msgstr ""
+msgstr "Novi signal"
 
 #: umlwidgets/widget_utils.cpp:898
 #, kde-format
 msgid "New state"
-msgstr ""
+msgstr "Novo stanje"
 
 #: umlwidgets/widget_utils.cpp:899
 #, kde-format
 msgid "New text"
-msgstr ""
+msgstr "Novi tekst"
 
 #: umlwidgets/widget_utils.cpp:900
 #, kde-format
 msgid "New UML widget"
-msgstr ""
+msgstr "Novi UML grafički element"
 
 #: umlwidgets/widget_utils.cpp:905
 #, kde-format
 msgid "New widget"
-msgstr ""
+msgstr "Novi grafički element"
 
 #: umlwidgets/widget_utils.cpp:921
 #, kde-format
 msgid "Enter the name of the new box:"
-msgstr ""
+msgstr "Unesite naziv novog okvira:"
 
 #: umlwidgets/widget_utils.cpp:924
 #, kde-format
 msgid "Enter the name of the new combined fragment:"
-msgstr ""
+msgstr "Unesite naziv novog kombiniranog fragmenta:"
 
 #: umlwidgets/widget_utils.cpp:929
 #, kde-format
 msgid "Enter the name of the new floating dash line:"
-msgstr ""
+msgstr "Unesite naziv nove slobodne isprekidane crte:"
 
 #: umlwidgets/widget_utils.cpp:930
 #, kde-format
 msgid "Enter the name of the new fork/join:"
-msgstr ""
+msgstr "Unesite naziv novog račvanja/spajanja:"
 
 #: umlwidgets/widget_utils.cpp:933
 #, kde-format
 msgid "Enter the name of the new message:"
-msgstr ""
+msgstr "Unesite naziv nove poruke:"
 
 #: umlwidgets/widget_utils.cpp:935
 #, kde-format
 msgid "Enter the name of the new note:"
-msgstr ""
+msgstr "Unesite naziv nove bilješke:"
 
 #: umlwidgets/widget_utils.cpp:936
 #, kde-format
 msgid "Enter the name of the new object:"
-msgstr ""
+msgstr "Unesite naziv novog objekta:"
 
 #: umlwidgets/widget_utils.cpp:937
 #, kde-format
 msgid "Enter the name of the new object node:"
-msgstr ""
+msgstr "Unesite naziv novog čvora objekta:"
 
 #: umlwidgets/widget_utils.cpp:939
 #, kde-format
 msgid "Enter the name of the new pin:"
-msgstr ""
+msgstr "Unesite naziv novog priključka:"
 
 #: umlwidgets/widget_utils.cpp:941
 #, kde-format
 msgid "Enter the name of the new precondition:"
-msgstr ""
+msgstr "Unesite naziv novog preduvjeta:"
 
 #: umlwidgets/widget_utils.cpp:942
 #, kde-format
 msgid "Enter the name of the new region:"
-msgstr ""
+msgstr "Unesite naziv novog područja:"
 
 #: umlwidgets/widget_utils.cpp:943
 #, kde-format
 msgid "Enter the name of the new signal:"
-msgstr ""
+msgstr "Unesite naziv novog signala:"
 
 #: umlwidgets/widget_utils.cpp:945
 #, kde-format
 msgid "Enter the name of the new text:"
-msgstr ""
+msgstr "Unesite naziv novog teksta:"
 
 #: umlwidgets/widget_utils.cpp:946
 #, kde-format
 msgid "Enter the name of the new uml widget:"
-msgstr ""
+msgstr "Unesite naziv novog UML grafičkog elementa:"
 
 #: umlwidgets/widget_utils.cpp:950
 #, kde-format
 msgid "Enter the name of the new widget:"
-msgstr ""
+msgstr "Unesite naziv novog grafičkog elementa:"
 
 #: umlwidgets/widget_utils.cpp:962
 #, kde-format
 msgid "Rename activity"
-msgstr ""
+msgstr "Preimenuj aktivnost"
 
 #: umlwidgets/widget_utils.cpp:966
 #, kde-format
 msgid "Rename box"
-msgstr ""
+msgstr "Preimenuj okvir"
 
 #: umlwidgets/widget_utils.cpp:969
 #, kde-format
 msgid "Rename combined fragment"
-msgstr ""
+msgstr "Preimenuj kombinirani fragment"
 
 #: umlwidgets/widget_utils.cpp:974
 #, kde-format
 msgid "Rename floating dash line"
-msgstr ""
+msgstr "Preimenuj slobodnu isprekidanu crtu"
 
 #: umlwidgets/widget_utils.cpp:975
 #, kde-format
 msgid "Rename fork/join"
-msgstr ""
+msgstr "Preimenuj račvanje/spajanje"
 
 #: umlwidgets/widget_utils.cpp:978
 #, kde-format
 msgid "Rename message"
-msgstr ""
+msgstr "Preimenuj poruku"
 
 #: umlwidgets/widget_utils.cpp:980
 #, kde-format
 msgid "Rename note"
-msgstr ""
+msgstr "Preimenuj bilješku"
 
 #: umlwidgets/widget_utils.cpp:981
 #, kde-format
 msgid "Rename object"
-msgstr ""
+msgstr "Preimenuj objekt"
 
 #: umlwidgets/widget_utils.cpp:982
 #, kde-format
 msgid "Rename object node"
-msgstr ""
+msgstr "Preimenuj čvor objekta"
 
 #: umlwidgets/widget_utils.cpp:984
 #, kde-format
 msgid "Rename pin"
-msgstr ""
+msgstr "Preimenuj priključak"
 
 #: umlwidgets/widget_utils.cpp:986
 #, kde-format
 msgid "Rename precondition"
-msgstr ""
+msgstr "Preimenuj preduvjet"
 
 #: umlwidgets/widget_utils.cpp:987
 #, kde-format
 msgid "Rename region"
-msgstr ""
+msgstr "Preimenuj područje"
 
 #: umlwidgets/widget_utils.cpp:988
 #, kde-format
 msgid "Rename signal"
-msgstr ""
+msgstr "Preimenuj signal"
 
 #: umlwidgets/widget_utils.cpp:989
 #, kde-format
 msgid "Rename state"
-msgstr ""
+msgstr "Preimenuj stanje"
 
 #: umlwidgets/widget_utils.cpp:990
 #, kde-format
 msgid "Rename text"
-msgstr ""
+msgstr "Preimenuj tekst"
 
 #: umlwidgets/widget_utils.cpp:991
 #, kde-format
 msgid "Rename UML widget"
-msgstr ""
+msgstr "Preimenuj UML grafički element"
 
 #: umlwidgets/widget_utils.cpp:996
 #, kde-format
 msgid "Rename widget"
-msgstr ""
+msgstr "Preimenuj grafički element"
 
 #: umlwidgets/widget_utils.cpp:1008
 #, kde-format
 msgid "Enter the new name of the activity:"
-msgstr ""
+msgstr "Unesite novi naziv aktivnosti:"
 
 #: umlwidgets/widget_utils.cpp:1012
 #, kde-format
 msgid "Enter the new name of the box:"
-msgstr ""
+msgstr "Unesite novi naziv okvira:"
 
 #: umlwidgets/widget_utils.cpp:1015
 #, kde-format
 msgid "Enter the new name of the combined fragment:"
-msgstr ""
+msgstr "Unesite novi naziv kombiniranog fragmenta:"
 
 #: umlwidgets/widget_utils.cpp:1020
 #, kde-format
 msgid "Enter the new name of the floating dash line:"
-msgstr ""
+msgstr "Unesite novi naziv slobodne isprekidane crte:"
 
 #: umlwidgets/widget_utils.cpp:1021
 #, kde-format
 msgid "Enter the new name of the fork/join widget:"
-msgstr ""
+msgstr "Unesite novi naziv grafičkog elementa račvanja/spajanja:"
 
 #: umlwidgets/widget_utils.cpp:1024
 #, kde-format
 msgid "Enter the new name of the message:"
-msgstr ""
+msgstr "Unesite novi naziv poruke:"
 
 #: umlwidgets/widget_utils.cpp:1026
 #, kde-format
 msgid "Enter the new name of the note:"
-msgstr ""
+msgstr "Unesite novi naziv bilješke:"
 
 #: umlwidgets/widget_utils.cpp:1027
 #, kde-format
 msgid "Enter the new name of the object:"
-msgstr ""
+msgstr "Unesite novi naziv objekta:"
 
 #: umlwidgets/widget_utils.cpp:1028
 #, kde-format
 msgid "Enter the new name of the object node:"
-msgstr ""
+msgstr "Unesite novi naziv čvora objekta:"
 
 #: umlwidgets/widget_utils.cpp:1030
 #, kde-format
 msgid "Enter the new name of the pin:"
-msgstr ""
+msgstr "Unesite novi naziv priključka:"
 
 #: umlwidgets/widget_utils.cpp:1032
 #, kde-format
 msgid "Enter the new name of the precondition:"
-msgstr ""
+msgstr "Unesite novi naziv preduvjeta:"
 
 #: umlwidgets/widget_utils.cpp:1033
 #, kde-format
 msgid "Enter the new name of the region:"
-msgstr ""
+msgstr "Unesite novi naziv područja:"
 
 #: umlwidgets/widget_utils.cpp:1034
 #, kde-format
 msgid "Enter the new name of the signal:"
-msgstr ""
+msgstr "Unesite novi naziv signala:"
 
 #: umlwidgets/widget_utils.cpp:1035
 #, kde-format
 msgid "Enter the new name of the state:"
-msgstr ""
+msgstr "Unesite novi naziv stanja:"
 
 #: umlwidgets/widget_utils.cpp:1036
 #, kde-format
 msgid "Enter the new name of the text:"
-msgstr ""
+msgstr "Unesite novi naziv teksta:"
 
 #: umlwidgets/widget_utils.cpp:1037
 #, kde-format
 msgid "Enter the new name of the uml widget:"
-msgstr ""
+msgstr "Unesite novi naziv UML grafičkog elementa:"
 
 #: umlwidgets/widget_utils.cpp:1041
 #, kde-format
 msgid "Enter the new name of the widget:"
-msgstr ""
+msgstr "Unesite novi naziv grafičkog elementa:"
 
 #: umlwidgets/widgetbase.cpp:1255 worktoolbar.cpp:337
 #, kde-format
 msgid "Box"
-msgstr ""
+msgstr "Okvir"
 
 #: umlwidgets/widgetbase.cpp:1261
 #, kde-format
 msgid "CombinedFragment"
-msgstr ""
+msgstr "CombinedFragment"
 
 #: umlwidgets/widgetbase.cpp:1270 worktoolbar.cpp:362
 #, kde-format
 msgid "Datatype"
-msgstr ""
+msgstr "Tip podataka"
 
 #: umlwidgets/widgetbase.cpp:1276 worktoolbar.cpp:363
 #, kde-format
 msgid "Enum"
-msgstr ""
+msgstr "Enumeracija"
 
 #: umlwidgets/widgetbase.cpp:1279
 #, kde-format
 msgid "FloatingDashLine"
-msgstr ""
+msgstr "FloatingDashLine"
 
 #: umlwidgets/widgetbase.cpp:1282
 #, kde-format
 msgid "ForkJoin"
-msgstr ""
+msgstr "ForkJoin"
 
 #: umlwidgets/widgetbase.cpp:1288
 #, kde-format
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
 #: umlwidgets/widgetbase.cpp:1294 worktoolbar.cpp:336
 #, kde-format
 msgid "Note"
-msgstr ""
+msgstr "Bilješka"
 
 #: umlwidgets/widgetbase.cpp:1297 worktoolbar.cpp:323
 #, kde-format
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: umlwidgets/widgetbase.cpp:1300
 #, kde-format
 msgid "ObjectNode"
-msgstr ""
+msgstr "ObjectNode"
 
 #: umlwidgets/widgetbase.cpp:1318
 #, kde-format
 msgid "Signal"
-msgstr ""
+msgstr "Signal"
 
 #: umlwidgets/widgetbase.cpp:1321
 #, kde-format
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: umlwidgets/widgetbase.cpp:1324
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: umlwidgets/widgetbase.cpp:1327
 #, kde-format
 msgid "UseCase"
-msgstr ""
+msgstr "UseCase"
 
 #: umlwidgets/widgetbase.cpp:1330 worktoolbar.cpp:392
 #, kde-format
 msgid "Instance"
-msgstr ""
+msgstr "Instanca"
 
 #: worktoolbar.cpp:322
 #, kde-format
 msgctxt "selection arrow"
 msgid "Select"
-msgstr ""
+msgstr "Odabir"
 
 #: worktoolbar.cpp:324
 #, kde-format
 msgid "Creation"
-msgstr ""
+msgstr "Stvaranje"
 
 #: worktoolbar.cpp:325
 #, kde-format
 msgid "Destroy"
-msgstr ""
+msgstr "Uništenje"
 
 #: worktoolbar.cpp:330
 #, kde-format
 msgid "Combined Fragment"
-msgstr ""
+msgstr "Kombinirani fragment"
 
 #: worktoolbar.cpp:335
 #, kde-format
 msgid "Label"
-msgstr ""
+msgstr "Oznaka"
 
 #: worktoolbar.cpp:342
 #, kde-format
 msgid "Directional Association"
-msgstr ""
+msgstr "Usmjerena asocijacija"
 
 #: worktoolbar.cpp:346
 #, kde-format
 msgctxt "UML class"
 msgid "Class"
-msgstr ""
+msgstr "Klasa"
 
 #: worktoolbar.cpp:351
 #, kde-format
 msgid "Send signal"
-msgstr ""
+msgstr "Pošalji signal"
 
 #: worktoolbar.cpp:352
 #, kde-format
 msgid "Accept signal"
-msgstr ""
+msgstr "Prihvati signal"
 
 #: worktoolbar.cpp:353
 #, kde-format
 msgid "Accept time event"
-msgstr ""
+msgstr "Prihvati vremenski događaj"
 
 #: worktoolbar.cpp:354
 #, kde-format
 msgid "Fork/Join"
-msgstr ""
+msgstr "Račvanje/spajanje"
 
 #: worktoolbar.cpp:360
 #, kde-format
 msgid "Interface Provider"
-msgstr ""
+msgstr "Davatelj sučelja"
 
 #: worktoolbar.cpp:361
 #, kde-format
 msgid "Interface required"
-msgstr ""
+msgstr "Potrebno sučelje"
 
 #: worktoolbar.cpp:367
 #, kde-format
 msgctxt "join states"
 msgid "Join"
-msgstr ""
+msgstr "Spajanje"
 
 #: worktoolbar.cpp:371
 #, kde-format
 msgctxt "state choice"
 msgid "Choice"
-msgstr ""
+msgstr "Izbor"
 
 #. i18n("Choice"),                  Icon_Utils::it_Choice_Round,            SLOT(slotChoice()) },          //NotYetImplemented
 #: worktoolbar.cpp:374
 #, kde-format
 msgid "And Line"
-msgstr ""
+msgstr "Linija AND"
 
 #: worktoolbar.cpp:378
 #, kde-format
 msgctxt "state diagram"
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: worktoolbar.cpp:388
 #, kde-format
 msgid "Pre/Post condition"
-msgstr ""
+msgstr "Pred/postuvjet"

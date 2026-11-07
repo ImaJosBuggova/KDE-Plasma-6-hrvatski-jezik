@@ -444,7 +444,7 @@ msgstr "Preuzimanje %1 nije uspjelo: %2"
 #: src/upnp/upnprouter.cpp:170
 #, kde-format
 msgid "Error parsing router description."
-msgstr ""
+msgstr "Pogreška pri obradi opisa usmjerivača."
 
 #: src/upnp/upnprouter.cpp:204
 #, kde-format
@@ -452,125 +452,128 @@ msgid ""
 "Forwarding failed:\n"
 "Device does not have a WANIPConnection or WANPPPConnection."
 msgstr ""
+"Prosljeđivanje nije uspjelo:\n"
+"Uređaj nema WANIPConnection ni WANPPPConnection."
 
 #: src/upnp/upnprouter.cpp:284
 #, kde-format
 msgid "Cannot find port forwarding service in the device's description."
-msgstr ""
+msgstr "U opisu uređaja nije moguće pronaći uslugu prosljeđivanja priključaka."
 
 #: src/util/file.cpp:91
 #, kde-format
 msgid "Cannot write to %1: %2"
-msgstr ""
+msgstr "Nije moguće pisati u %1: %2"
 
 #: src/util/file.cpp:105
 #, kde-format
 msgid "Cannot read from %1"
-msgstr ""
+msgstr "Nije moguće čitati iz %1"
 
 #: src/util/fileops.cpp:100
 #, kde-format
 msgid "Cannot create directory %1"
-msgstr ""
+msgstr "Nije moguće stvoriti direktorij %1"
 
 #: src/util/fileops.cpp:167
 #, kde-format
 msgid "Cannot symlink %1 to %2: %3"
-msgstr ""
+msgstr "Nije moguće stvoriti simboličku poveznicu od %1 do %2: %3"
 
 #: src/util/fileops.cpp:180
 #, kde-format
 msgid "Cannot move %1 to %2: %3"
-msgstr ""
+msgstr "Nije moguće premjestiti %1 u %2: %3"
 
 #: src/util/fileops.cpp:192 src/util/fileops.cpp:204
 #, kde-format
 msgid "Cannot copy %1 to %2: %3"
-msgstr ""
+msgstr "Nije moguće kopirati %1 u %2: %3"
 
 #: src/util/fileops.cpp:254
 #, kde-format
 msgid "Cannot delete %1: %2"
-msgstr ""
+msgstr "Nije moguće izbrisati %1: %2"
 
 #: src/util/fileops.cpp:272
 #, kde-format
 msgid "Cannot create %1: %2"
-msgstr ""
+msgstr "Nije moguće stvoriti %1: %2"
 
 #: src/util/fileops.cpp:290
 #, kde-format
 msgid "Cannot calculate the filesize of %1: %2"
-msgstr ""
+msgstr "Nije moguće izračunati veličinu datoteke %1: %2"
 
 #: src/util/fileops.cpp:307
 #, kde-format
 msgid "Cannot calculate the filesize: %1"
-msgstr ""
+msgstr "Nije moguće izračunati veličinu datoteke: %1"
 
 #: src/util/fileops.cpp:357 src/util/fileops.cpp:361 src/util/fileops.cpp:384
 #, kde-format
 msgid "Cannot expand file: %1"
-msgstr ""
+msgstr "Nije moguće raspakirati datoteku: %1"
 
 #: src/util/fileops.cpp:414
 #, kde-format
 msgid "Cannot seek in file: %1"
-msgstr ""
+msgstr "Nije moguće premjestiti pokazivač u datoteci: %1"
 
 #: src/util/fileops.cpp:672
 #, kde-format
 msgid "Unable to open file %1: %2"
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku %1: %2"
 
 #: src/util/functions.cpp:243
 #, kde-format
 msgid "%1/s"
-msgstr ""
+msgstr "%1/s"
 
 #: src/util/functions.cpp:252
 #, kde-format
 msgid "1 day "
 msgid_plural "%1 days "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dan "
+msgstr[1] "%1 dana "
+msgstr[2] "%1 dana "
 
 #: src/util/logsystemmanager.cpp:18
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: src/util/logsystemmanager.cpp:19
 #, kde-format
 msgid "Connections"
-msgstr ""
+msgstr "Veze"
 
 #: src/util/logsystemmanager.cpp:20
 #, kde-format
 msgid "Tracker"
-msgstr ""
+msgstr "Pratitelj"
 
 #: src/util/logsystemmanager.cpp:21
 #, kde-format
 msgid "DHT"
-msgstr ""
+msgstr "DHT"
 
 #: src/util/logsystemmanager.cpp:22
 #, kde-format
 msgid "Disk Input/Output"
-msgstr ""
+msgstr "Ulazno-izlazne operacije diska"
 
 #: src/util/logsystemmanager.cpp:23
 #, kde-format
 msgid "µTP"
-msgstr ""
+msgstr "µTP"
 
 #: src/util/signalcatcher.cpp:20
 #, kde-format
 msgid "Error when writing to disk"
-msgstr ""
+msgstr "Pogreška pri pisanju na disk"
 
 #: src/util/signalcatcher.cpp:20
 #, kde-format
 msgid "Error when reading from disk"
-msgstr ""
+msgstr "Pogreška pri čitanju s diska"

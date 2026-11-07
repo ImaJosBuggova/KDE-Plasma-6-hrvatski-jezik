@@ -294,7 +294,7 @@ msgstr "Jeste li sigurni da želite ukloniti ovu zbirku?"
 #: src/dashboard/dashboard.ui:14 src/main.cpp:25
 #, kde-format
 msgid "Parley"
-msgstr ""
+msgstr "Parley"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/dashboard/dashboard.ui:120
@@ -816,7 +816,7 @@ msgstr "Još nije vježbano"
 #: src/editor/FromToEntryPageForm.ui:229
 #, kde-format
 msgid "dd.MM.yyyy"
-msgstr ""
+msgstr "dd.MM.yyyy"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
 #: src/editor/FromToEntryPageForm.ui:260
@@ -968,6 +968,7 @@ msgid_plural ""
 "There are %1 words left in this unit. Do you want to delete them?"
 msgstr[0] "U ovoj je jedinici preostala %1 riječ. Želite li je izbrisati?"
 msgstr[1] "U ovoj su jedinici preostale %1 riječi. Želite li ih izbrisati?"
+msgstr[2] "U ovoj je jedinici preostalo %1 riječi. Želite li ih izbrisati?"
 
 #: src/editor/lessonview.cpp:221
 #, kde-format
@@ -1169,8 +1170,9 @@ msgstr "Uključi ili isključi prikaz pojedinačnih stupaca rječnika"
 #, kde-format
 msgid "Do you really want to delete the selected entry?"
 msgid_plural "Do you really want to delete the selected %1 entries?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Želite li doista izbrisati %1 odabrani unos?"
+msgstr[1] "Želite li doista izbrisati %1 odabrana unosa?"
+msgstr[2] "Želite li doista izbrisati %1 odabranih unosa?"
 
 #: src/editor/vocabularyview.cpp:254
 #, kde-format
@@ -1194,7 +1196,7 @@ msgctxt "@popupmessage"
 msgid ""
 "Either the language set up is incorrect or no spellchecker was installed for "
 "this locale: %1."
-msgstr ""
+msgstr "Postavke jezika nisu točne ili za ovaj jezik nije instalirana provjera pravopisa: %1."
 
 #: src/editor/wordtypeview.cpp:31
 #, kde-format
@@ -1204,27 +1206,27 @@ msgstr "Novo"
 #: src/editor/wordtypeview.cpp:33
 #, kde-format
 msgid "Add a new word type to your document"
-msgstr ""
+msgstr "Dodaj novu vrstu riječi u dokument"
 
 #: src/editor/wordtypeview.cpp:39
 #, kde-format
 msgid "Rename"
-msgstr ""
+msgstr "Preimenuj"
 
 #: src/editor/wordtypeview.cpp:41
 #, kde-format
 msgid "Rename the selected word type"
-msgstr ""
+msgstr "Preimenuj odabranu vrstu riječi"
 
 #: src/editor/wordtypeview.cpp:47
 #, kde-format
 msgid "Delete Word Type"
-msgstr ""
+msgstr "Izbriši vrstu riječi"
 
 #: src/editor/wordtypeview.cpp:49
 #, kde-format
 msgid "Delete the selected word type."
-msgstr ""
+msgstr "Izbriši odabranu vrstu riječi."
 
 #: src/editor/wordtypeview.cpp:56
 #, kde-format
@@ -1232,87 +1234,87 @@ msgctxt ""
 "Let the user select what grammatical meaning is connected to a word type "
 "(nouns have gender, verbs conjugations etc)"
 msgid "Grammar"
-msgstr ""
+msgstr "Gramatika"
 
 #: src/editor/wordtypeview.cpp:58
 #, kde-format
 msgid "To let Parley know the grammatical meaning of a word type."
-msgstr ""
+msgstr "Parleyju služi za određivanje gramatičkog značenja vrste riječi."
 
 #: src/editor/wordtypeview.cpp:66
 #, kde-format
 msgid "This word type folder contains nouns."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži imenice."
 
 #: src/editor/wordtypeview.cpp:72
 #, kde-format
 msgid "Masculine Noun"
-msgstr ""
+msgstr "Imenica muškog roda"
 
 #: src/editor/wordtypeview.cpp:74
 #, kde-format
 msgid "This word type folder contains masculine nouns."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži imenice muškog roda."
 
 #: src/editor/wordtypeview.cpp:80
 #, kde-format
 msgid "Feminine Noun"
-msgstr ""
+msgstr "Imenica ženskog roda"
 
 #: src/editor/wordtypeview.cpp:82
 #, kde-format
 msgid "This word type folder contains feminine nouns."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži imenice ženskog roda."
 
 #: src/editor/wordtypeview.cpp:88
 #, kde-format
 msgid "Neuter Noun"
-msgstr ""
+msgstr "Imenica srednjeg roda"
 
 #: src/editor/wordtypeview.cpp:90
 #, kde-format
 msgid "This word type folder contains neuter nouns."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži imenice srednjeg roda."
 
 #: src/editor/wordtypeview.cpp:98
 #, kde-format
 msgid "This word type folder contains adjectives."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži pridjeve."
 
 #: src/editor/wordtypeview.cpp:106
 #, kde-format
 msgid "This word type folder contains adverbs."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži priloge."
 
 #: src/editor/wordtypeview.cpp:114
 #, kde-format
 msgid "This word type folder contains verbs."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži glagole."
 
 #: src/editor/wordtypeview.cpp:120 src/parleydocument.cpp:496
 #, kde-format
 msgid "Conjunction"
-msgstr ""
+msgstr "Veznik"
 
 #: src/editor/wordtypeview.cpp:122
 #, kde-format
 msgid "This word type folder contains conjunctions."
-msgstr ""
+msgstr "Ova mapa vrsta riječi sadrži veznike."
 
 #: src/editor/wordtypeview.cpp:128
 #, kde-format
 msgid "No Special Type"
-msgstr ""
+msgstr "Bez posebne vrste"
 
 #: src/editor/wordtypeview.cpp:131
 #, kde-format
 msgid "This word type folder contains no word type with special meaning."
-msgstr ""
+msgstr "Ova mapa vrsta riječi ne sadrži vrstu riječi s posebnim značenjem."
 
 #: src/editor/wordtypeview.cpp:209
 #, kde-format
 msgid "The root word type cannot be deleted."
-msgstr ""
+msgstr "Korijenska vrsta riječi ne može se izbrisati."
 
 #: src/editor/wordtypeview.cpp:219
 #, kde-format
@@ -1321,63 +1323,64 @@ msgid ""
 msgid_plural ""
 "There are %1 words left with this word type. They will lose their word type. "
 "Continue?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Preostala je %1 riječ ove vrste. Izgubit će svoju vrstu. Nastaviti?"
+msgstr[1] "Preostale su %1 riječi ove vrste. Izgubit će svoju vrstu. Nastaviti?"
+msgstr[2] "Preostalo je %1 riječi ove vrste. Izgubit će svoju vrstu. Nastaviti?"
 
 #: src/exportdialog.cpp:55
 #, kde-format
 msgctxt "@title:window"
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #: src/exportdialog.cpp:81
 #, kde-format
 msgid "HTML document"
-msgstr ""
+msgstr "HTML dokument"
 
 #: src/exportdialog.cpp:104
 #, kde-format
 msgid "Could not write to file \"%1\""
-msgstr ""
+msgstr "Nije moguće zapisati datoteku „%1”."
 
 #: src/exportdialog.cpp:121
 #, kde-format
 msgid "Export As"
-msgstr ""
+msgstr "Izvezi kao"
 
 #: src/exportdialog.cpp:122 src/parleymainwindow.cpp:137
 #, kde-format
 msgid "Untitled"
-msgstr ""
+msgstr "Neimenovano"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
 #: src/exportdialog.ui:14
 #, kde-format
 msgid "Export"
-msgstr ""
+msgstr "Izvoz"
 
 #. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
 #: src/exportdialog.ui:20
 #, kde-format
 msgid "Flash Cards - to print learning cards (HTML)"
-msgstr ""
+msgstr "Kartice za učenje za ispis (HTML)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
 #: src/exportdialog.ui:30
 #, kde-format
 msgid "A vocabulary list that works in a web-browser and can be printed (HTML)"
-msgstr ""
+msgstr "Popis vokabulara koji se može pregledavati i ispisati (HTML)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
 #: src/exportdialog.ui:40
 #, kde-format
 msgid "Comma separated values (CSV)"
-msgstr ""
+msgstr "Vrijednosti odvojene zarezima (CSV)"
 
 #: src/main.cpp:26
 #, kde-format
 msgid "Vocabulary Trainer"
-msgstr ""
+msgstr "Vježbanje vokabulara"
 
 #: src/main.cpp:28
 #, kde-format
@@ -1386,321 +1389,321 @@ msgid ""
 "© 2001-2002\tThe KDE team\n"
 "© 2004-2007\tPeter Hedlund\n"
 "© 2007-2010\tFrederik Gladhorn\n"
-msgstr ""
+msgstr "© 1999-2002\tEwald Arnold\n© 2001-2002\tThe KDE team\n© 2004-2007\tPeter Hedlund\n© 2007-2010\tFrederik Gladhorn\n"
 
 #: src/main.cpp:33
 #, kde-format
 msgid "Helps you train your vocabulary"
-msgstr ""
+msgstr "Pomaže vam u učenju vokabulara"
 
 #: src/main.cpp:37
 #, kde-format
 msgid "Inge Wallin"
-msgstr ""
+msgstr "Inge Wallin"
 
 #: src/main.cpp:37 src/main.cpp:39
 #, kde-format
 msgid "Developer and Co-maintainer"
-msgstr ""
+msgstr "Programer i suodržavatelj"
 
 #: src/main.cpp:39
 #, kde-format
 msgid "Amarvir Singh"
-msgstr ""
+msgstr "Amarvir Singh"
 
 #: src/main.cpp:41
 #, kde-format
 msgid "Frederik Gladhorn"
-msgstr ""
+msgstr "Frederik Gladhorn"
 
 #: src/main.cpp:41
 #, kde-format
 msgid "Developer, former maintainer"
-msgstr ""
+msgstr "Programer, bivši održavatelj"
 
 #: src/main.cpp:43
 #, kde-format
 msgid "Daniel Laidig"
-msgstr ""
+msgstr "Daniel Laidig"
 
 #: src/main.cpp:43
 #, kde-format
 msgid "Developer"
-msgstr ""
+msgstr "Programer"
 
 #: src/main.cpp:45
 #, kde-format
 msgid "David Capel"
-msgstr ""
+msgstr "David Capel"
 
 #: src/main.cpp:45
 #, kde-format
 msgid "Practice Dialogs"
-msgstr ""
+msgstr "Vježbe dijaloga"
 
 #: src/main.cpp:47
 #, kde-format
 msgid "Avgoustinos Kadis"
-msgstr ""
+msgstr "Avgoustinos Kadis"
 
 #: src/main.cpp:47
 #, kde-format
 msgid "Scripting"
-msgstr ""
+msgstr "Skriptiranje"
 
 #: src/main.cpp:49
 #, kde-format
 msgid "Peter Hedlund"
-msgstr ""
+msgstr "Peter Hedlund"
 
 #: src/main.cpp:50
 #, kde-format
 msgid "Countless fixes, former maintainer, port to KDE4"
-msgstr ""
+msgstr "Brojne ispravke, bivši održavatelj, prijenos na KDE 4"
 
 #: src/main.cpp:53
 #, kde-format
 msgid "Ewald Arnold"
-msgstr ""
+msgstr "Ewald Arnold"
 
 #: src/main.cpp:54
 #, kde-format
 msgid "Original Author"
-msgstr ""
+msgstr "Izvorni autor"
 
 #: src/main.cpp:58
 #, kde-format
 msgid "Lee Olson"
-msgstr ""
+msgstr "Lee Olson"
 
 #: src/main.cpp:58
 #, kde-format
 msgid "Artwork and Oxygen Icons"
-msgstr ""
+msgstr "Grafički dizajn i ikone Oxygen"
 
 #: src/main.cpp:60
 #, kde-format
 msgid "Anne-Marie Mahfouf"
-msgstr ""
+msgstr "Anne-Marie Mahfouf"
 
 #: src/main.cpp:60
 #, kde-format
 msgid "Port to KConfig XT"
-msgstr ""
+msgstr "Prijenos na KConfig XT"
 
 #: src/main.cpp:62
 #, kde-format
 msgid "Jeremy Whiting"
-msgstr ""
+msgstr "Jeremy Whiting"
 
 #: src/main.cpp:62
 #, kde-format
 msgid "Rewriting the kvtml library for KDE4"
-msgstr ""
+msgstr "Ponovna izrada biblioteke kvtml za KDE 4"
 
 #: src/main.cpp:64
 #, kde-format
 msgid "Markus Büchele"
-msgstr ""
+msgstr "Markus Büchele"
 
 #: src/main.cpp:64
 #, kde-format
 msgid "Bug reports and testing on the way to KDE4"
-msgstr ""
+msgstr "Prijave grešaka i testiranje tijekom prijenosa na KDE 4"
 
 #: src/main.cpp:66
 #, kde-format
 msgid "Ramona Knapp"
-msgstr ""
+msgstr "Ramona Knapp"
 
 #: src/main.cpp:66
 #, kde-format
 msgid "Conceived the name Parley"
-msgstr ""
+msgstr "Smislila naziv Parley"
 
 #: src/main.cpp:74
 #, kde-format
 msgid "[file]"
-msgstr ""
+msgstr "[datoteka]"
 
 #: src/main.cpp:74
 #, kde-format
 msgid "Document file to open"
-msgstr ""
+msgstr "Datoteka vokabulara za otvaranje"
 
 #: src/parleyactions.cpp:71
 #, kde-format
 msgid "Creates a new vocabulary collection"
-msgstr ""
+msgstr "Stvara novu zbirku vokabulara"
 
 #: src/parleyactions.cpp:76
 #, kde-format
 msgid "Opens an existing vocabulary collection"
-msgstr ""
+msgstr "Otvara postojeću zbirku vokabulara"
 
 #: src/parleyactions.cpp:84
 #, kde-format
 msgid "Open &Downloaded Vocabularies..."
-msgstr ""
+msgstr "Otvori &preuzete zbirke vokabulara..."
 
 #: src/parleyactions.cpp:85
 #, kde-format
 msgid "Open downloaded vocabulary collections"
-msgstr ""
+msgstr "Otvara preuzete zbirke vokabulara"
 
 #: src/parleyactions.cpp:90
 #, kde-format
 msgid "Save the active vocabulary collection"
-msgstr ""
+msgstr "Sprema aktivnu zbirku vokabulara"
 
 #: src/parleyactions.cpp:97
 #, kde-format
 msgid "Save the active vocabulary collection with a different name"
-msgstr ""
+msgstr "Sprema aktivnu zbirku vokabulara pod drugim imenom"
 
 #: src/parleyactions.cpp:104
 #, kde-format
 msgid "&Export..."
-msgstr ""
+msgstr "&Izvezi..."
 
 #: src/parleyactions.cpp:105
 #, kde-format
 msgid "Export to HTML or CSV"
-msgstr ""
+msgstr "Izvoz u HTML ili CSV"
 
 #: src/parleyactions.cpp:113
 #, kde-format
 msgid "&Properties..."
-msgstr ""
+msgstr "&Svojstva..."
 
 #: src/parleyactions.cpp:114
 #, kde-format
 msgid "Edit document properties"
-msgstr ""
+msgstr "Uredi svojstva dokumenta"
 
 #: src/parleyactions.cpp:122
 #, kde-format
 msgid "Dashboard"
-msgstr ""
+msgstr "Nadzorna ploča"
 
 #: src/parleyactions.cpp:123
 #, kde-format
 msgid "Close the current vocabulary collection and show the dashboard"
-msgstr ""
+msgstr "Zatvori trenutačnu zbirku vokabulara i prikaži nadzornu ploču"
 
 #: src/parleyactions.cpp:129
 #, kde-format
 msgid "Quit Parley"
-msgstr ""
+msgstr "Zatvori Parley"
 
 #: src/parleyactions.cpp:134
 #, kde-format
 msgid "Show the configuration dialog"
-msgstr ""
+msgstr "Prikaži dijalog postavki"
 
 #: src/parleyactions.cpp:141
 #, kde-format
 msgid "&Languages..."
-msgstr ""
+msgstr "&Jezici..."
 
 #: src/parleyactions.cpp:142
 #, kde-format
 msgid ""
 "Edit which languages are in the collection and their grammar properties."
-msgstr ""
+msgstr "Uredi jezike zbirke i njihova gramatička svojstva."
 
 #: src/parleyactions.cpp:151
 #, kde-format
 msgid "Remove all confidence levels from the current document"
-msgstr ""
+msgstr "Ukloni sve razine pouzdanosti iz trenutačnog dokumenta"
 
 #: src/parleyactions.cpp:162
 #, kde-format
 msgid "Show Entries from Child Units"
-msgstr ""
+msgstr "Prikaži unose iz podjedinica"
 
 #: src/parleyactions.cpp:163
 #, kde-format
 msgid "Enable to also see the entries of child units in each unit."
-msgstr ""
+msgstr "Omogući prikaz unosa iz podjedinica u svakoj jedinici."
 
 #: src/parleyactions.cpp:173
 #, kde-format
 msgid "Automatic Translation"
-msgstr ""
+msgstr "Automatski prijevod"
 
 #. i18n: ectx: label, entry (AutomaticTranslation), group (General)
 #: src/parleyactions.cpp:174 src/settings/parley.kcfg:50
 #, kde-format
 msgid "Enable automatic translation of the unit entries."
-msgstr ""
+msgstr "Omogući automatsko prevođenje unosa jedinice."
 
 #: src/parleyactions.cpp:184
 #, kde-format
 msgid "Start Practice..."
-msgstr ""
+msgstr "Započni vježbu..."
 
 #: src/parleyactions.cpp:185
 #, kde-format
 msgid "Start practicing"
-msgstr ""
+msgstr "Započni vježbanje"
 
 #: src/parleyactions.cpp:193
 #, kde-format
 msgid "Configure Practice..."
-msgstr ""
+msgstr "Podesi vježbu..."
 
 #: src/parleyactions.cpp:194
 #, kde-format
 msgid "Change practice settings"
-msgstr ""
+msgstr "Promijeni postavke vježbanja"
 
 #: src/parleyactions.cpp:202
 #, kde-format
 msgid "Export Results..."
-msgstr ""
+msgstr "Izvezi rezultate..."
 
 #: src/parleyactions.cpp:203
 #, kde-format
 msgid "Write a file with the results of the practice"
-msgstr ""
+msgstr "Zapiši rezultate vježbe u datoteku"
 
 #: src/parleyactions.cpp:211
 #, kde-format
 msgid "Editor"
-msgstr ""
+msgstr "Uređivač"
 
 #: src/parleyactions.cpp:212
 #, kde-format
 msgid "Switch to vocabulary editor"
-msgstr ""
+msgstr "Prijeđi na uređivač vokabulara"
 
 #: src/parleyactions.cpp:220
 #, kde-format
 msgid "Show Se&arch"
-msgstr ""
+msgstr "Prikaži tr&aku za pretraživanje"
 
 #: src/parleyactions.cpp:221
 #, kde-format
 msgid "Toggle display of the search bar"
-msgstr ""
+msgstr "Uključi/isključi prikaz trake za pretraživanje"
 
 #: src/parleydocument.cpp:123 src/parleydocument.cpp:579
 #, kde-format
 msgctxt "@title:window document properties"
 msgid "Properties for %1"
-msgstr ""
+msgstr "Svojstva za %1"
 
 #: src/parleydocument.cpp:160
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Vocabulary Collection"
-msgstr ""
+msgstr "Otvori zbirku vokabulara"
 
 #: src/parleydocument.cpp:161
 #, kde-format
 msgid "Open in practice &mode"
-msgstr ""
+msgstr "Otvori u načinu v&ježbanja"
 
 #: src/parleydocument.cpp:203
 #, kde-format
@@ -1710,23 +1713,23 @@ msgid ""
 "process.\n"
 "\n"
 "Do you want to take over the lock?\n"
-msgstr ""
+msgstr "Zbirku vokabulara trenutačno je zaključao drugi proces. Datoteku možete otvoriti preuzimanjem zaključavanja, no time ćete izgubiti sve promjene drugog procesa.\n\nŽelite li preuzeti zaključavanje?\n"
 
 #: src/parleydocument.cpp:205
 #, kde-format
 msgid "Take Over Lock"
-msgstr ""
+msgstr "Preuzmi zaključavanje"
 
 #: src/parleydocument.cpp:236
 #, kde-format
 msgid "Opening collection \"%1\" resulted in an error: %2"
-msgstr ""
+msgstr "Otvaranje zbirke „%1” nije uspjelo: %2"
 
 #: src/parleydocument.cpp:237
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Collection"
-msgstr ""
+msgstr "Otvori zbirku"
 
 #: src/parleydocument.cpp:265
 #, kde-format
@@ -1734,13 +1737,13 @@ msgid ""
 "Vocabulary is modified.\n"
 "\n"
 "Save file before exit?\n"
-msgstr ""
+msgstr "Vokabular je izmijenjen.\n\nŽelite li spremiti datoteku prije izlaska?\n"
 
 #: src/parleydocument.cpp:298
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Downloaded Vocabulary Collection"
-msgstr ""
+msgstr "Otvori preuzetu zbirku vokabulara"
 
 #: src/parleydocument.cpp:337 src/parleydocument.cpp:425
 #, kde-format
@@ -1749,42 +1752,42 @@ msgid ""
 "take over the lock, but you will lose any changes from the other process.\n"
 "\n"
 "Do you want to take over the lock?\n"
-msgstr ""
+msgstr "Datoteku „%1” trenutačno je zaključao drugi proces. Možete je spremiti preuzimanjem zaključavanja, no time ćete izgubiti sve promjene drugog procesa.\n\nŽelite li preuzeti zaključavanje?\n"
 
 #: src/parleydocument.cpp:368 src/parleydocument.cpp:461
 #, kde-format
 msgid "Writing file \"%1\" resulted in an error: %2"
-msgstr ""
+msgstr "Pisanje datoteke „%1” nije uspjelo: %2"
 
 #: src/parleydocument.cpp:369 src/parleydocument.cpp:462
 #, kde-format
 msgctxt "@title:window"
 msgid "Save File"
-msgstr ""
+msgstr "Spremi datoteku"
 
 #: src/parleydocument.cpp:384
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Vocabulary As"
-msgstr ""
+msgstr "Spremi zbirku vokabulara kao"
 
 #: src/parleydocument.cpp:396
 #, kde-format
 msgid ""
 "<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite it?</qt>"
-msgstr ""
+msgstr "<qt>Datoteka<p><b>%1</b></p>već postoji. Želite li je prebrisati?</qt>"
 
 #: src/parleydocument.cpp:404
 #, kde-format
 msgctxt "@info:status saving a file"
 msgid "Saving %1"
-msgstr ""
+msgstr "Spremanje %1"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #: src/parleydocument.cpp:508 src/settings/documentproperties.ui:234
 #, kde-format
 msgid "Public Domain"
-msgstr ""
+msgstr "Javna domena"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
@@ -1794,22 +1797,22 @@ msgstr ""
 #: src/statistics/statisticsmainwindow.ui:23
 #, kde-format
 msgid "Languages"
-msgstr ""
+msgstr "Jezici"
 
 #: src/parleydocument.cpp:517
 #, kde-format
 msgid "A Second Language"
-msgstr ""
+msgstr "Drugi jezik"
 
 #: src/parleydocument.cpp:520
 #, kde-format
 msgid "Lesson 1"
-msgstr ""
+msgstr "Lekcija 1"
 
 #: src/parleydocument.cpp:562
 #, kde-format
 msgid "Could not open vocabulary collection \"%1\""
-msgstr ""
+msgstr "Nije moguće otvoriti zbirku vokabulara „%1”."
 
 #: src/parleymainwindow.cpp:134
 #, kde-format
@@ -1817,63 +1820,63 @@ msgctxt ""
 "Title and a modified status indicator.  [*] is exact and will be shown only "
 "when document is modified"
 msgid "%1 [*]"
-msgstr ""
+msgstr "%1 [*]"
 
 #: src/parleymainwindow.cpp:174
 #, kde-format
 msgid ""
 "You cannot start to practice when the known language is the same as the "
 "language to learn."
-msgstr ""
+msgstr "Ne možete započeti vježbu ako su poznati jezik i jezik koji učite isti."
 
 #: src/parleymainwindow.cpp:174
 #, kde-format
 msgid "Select languages"
-msgstr ""
+msgstr "Odaberi jezike"
 
 #: src/parleymainwindow.cpp:212
 #, kde-format
 msgid "Download New Vocabularies..."
-msgstr ""
+msgstr "Preuzmi nove zbirke vokabulara..."
 
 #: src/parleymainwindow.cpp:218
 #, kde-format
 msgid "Downloads new vocabulary collections"
-msgstr ""
+msgstr "Preuzima nove zbirke vokabulara"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/parleyui.rc:21
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Glavna alatna traka"
 
 #. i18n: ectx: ToolBar (practiceToolBar)
 #: src/parleyui.rc:29 src/practice/practiceui.rc:18
 #, kde-format
 msgid "Practice Toolbar"
-msgstr ""
+msgstr "Alatna traka za vježbanje"
 
 #. i18n: ectx: ToolBar (statisticsToolBar)
 #: src/parleyui.rc:33 src/statistics/statisticsui.rc:19
 #, kde-format
 msgid "Statistics Toolbar"
-msgstr ""
+msgstr "Alatna traka statistike"
 
 #. i18n: ectx: ToolBar (practiceSummaryToolBar)
 #: src/parleyui.rc:40 src/practice/practicesummaryui.rc:20
 #, kde-format
 msgid "Practice Summary Toolbar"
-msgstr ""
+msgstr "Alatna traka sa sažetkom vježbe"
 
 #: src/practice/audiobutton.cpp:59 src/practice/audiobutton.cpp:60
 #, kde-format
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: src/practice/comparisonbackendmode.cpp:59
 #, kde-format
 msgid "All comparison forms were right."
-msgstr ""
+msgstr "Svi su komparacijski oblici točni."
 
 #: src/practice/comparisonbackendmode.cpp:65
 #, kde-format
@@ -1881,7 +1884,7 @@ msgctxt ""
 "the user entered the wrong absolute form when practicing comparison forms of "
 "adjectives (the base form of the adjective is wrong)"
 msgid "\"%1\" is the wrong word."
-msgstr ""
+msgstr "Riječ „%1” nije točna."
 
 #: src/practice/comparisonbackendmode.cpp:70
 #, kde-format
@@ -1889,7 +1892,7 @@ msgctxt ""
 "the user entered the wrong comparison forms when practicing comparison forms "
 "of adjectives (good, better, best)"
 msgid "Both comparison forms (comparative and superlative) are wrong."
-msgstr ""
+msgstr "Oba komparacijska oblika (komparativ i superlativ) nisu točna."
 
 #: src/practice/comparisonbackendmode.cpp:74
 #, kde-format
@@ -1897,7 +1900,7 @@ msgctxt ""
 "the user entered the wrong comparison forms when practicing comparison forms "
 "of adjectives (second form wrong - better)"
 msgid "The comparative is wrong."
-msgstr ""
+msgstr "Komparativ nije točan."
 
 #: src/practice/comparisonbackendmode.cpp:78
 #, kde-format
@@ -1905,236 +1908,236 @@ msgctxt ""
 "the user entered the wrong comparison forms when practicing comparison forms "
 "of adjectives (third form wrong - best)"
 msgid "The superlative is wrong."
-msgstr ""
+msgstr "Superlativ nije točan."
 
 #: src/practice/comparisonmodewidget.cpp:65
 #, kde-format
 msgid "Enter the comparison forms."
-msgstr ""
+msgstr "Unesite komparacijske oblike."
 
 #: src/practice/configure/blockoptions.cpp:22
 msgid "Do not Care"
-msgstr ""
+msgstr "Nije važno"
 
 #: src/practice/configure/blockoptions.cpp:24
 msgid "30 Min"
-msgstr ""
+msgstr "30 min"
 
 #: src/practice/configure/blockoptions.cpp:25
 msgid "1 Hour"
-msgstr ""
+msgstr "1 sat"
 
 #: src/practice/configure/blockoptions.cpp:26
 msgid "2 Hours"
-msgstr ""
+msgstr "2 sata"
 
 #: src/practice/configure/blockoptions.cpp:27
 msgid "4 Hours"
-msgstr ""
+msgstr "4 sata"
 
 #: src/practice/configure/blockoptions.cpp:28
 msgid "8 Hours"
-msgstr ""
+msgstr "8 sati"
 
 #: src/practice/configure/blockoptions.cpp:29
 msgid "12 Hours"
-msgstr ""
+msgstr "12 sati"
 
 #: src/practice/configure/blockoptions.cpp:30
 msgid "18 Hours"
-msgstr ""
+msgstr "18 sati"
 
 #: src/practice/configure/blockoptions.cpp:32
 msgid "1 Day"
-msgstr ""
+msgstr "1 dan"
 
 #: src/practice/configure/blockoptions.cpp:33
 msgid "2 Days"
-msgstr ""
+msgstr "2 dana"
 
 #: src/practice/configure/blockoptions.cpp:34
 msgid "3 Days"
-msgstr ""
+msgstr "3 dana"
 
 #: src/practice/configure/blockoptions.cpp:35
 msgid "4 Days"
-msgstr ""
+msgstr "4 dana"
 
 #: src/practice/configure/blockoptions.cpp:36
 msgid "5 Days"
-msgstr ""
+msgstr "5 dana"
 
 #: src/practice/configure/blockoptions.cpp:37
 msgid "6 Days"
-msgstr ""
+msgstr "6 dana"
 
 #: src/practice/configure/blockoptions.cpp:39
 msgid "1 Week"
-msgstr ""
+msgstr "1 tjedan"
 
 #: src/practice/configure/blockoptions.cpp:40
 msgid "2 Weeks"
-msgstr ""
+msgstr "2 tjedna"
 
 #: src/practice/configure/blockoptions.cpp:41
 msgid "3 Weeks"
-msgstr ""
+msgstr "3 tjedna"
 
 #: src/practice/configure/blockoptions.cpp:42
 msgid "4 Weeks"
-msgstr ""
+msgstr "4 tjedna"
 
 #: src/practice/configure/blockoptions.cpp:44
 msgid "1 Month"
-msgstr ""
+msgstr "1 mjesec"
 
 #: src/practice/configure/blockoptions.cpp:45
 msgid "2 Months"
-msgstr ""
+msgstr "2 mjeseca"
 
 #: src/practice/configure/blockoptions.cpp:46
 msgid "3 Months"
-msgstr ""
+msgstr "3 mjeseca"
 
 #: src/practice/configure/blockoptions.cpp:47
 msgid "4 Months"
-msgstr ""
+msgstr "4 mjeseca"
 
 #: src/practice/configure/blockoptions.cpp:48
 msgid "5 Months"
-msgstr ""
+msgstr "5 mjeseci"
 
 #: src/practice/configure/blockoptions.cpp:49
 msgid "6 Months"
-msgstr ""
+msgstr "6 mjeseci"
 
 #: src/practice/configure/blockoptions.cpp:50
 msgid "10 Months"
-msgstr ""
+msgstr "10 mjeseci"
 
 #: src/practice/configure/blockoptions.cpp:51
 msgid "12 Months"
-msgstr ""
+msgstr "12 mjeseci"
 
 #: src/practice/configure/blockoptions.cpp:220
 #, kde-format
 msgid "Illogical blocking times.\n"
-msgstr ""
+msgstr "Nelogična vremena blokiranja.\n"
 
 #: src/practice/configure/blockoptions.cpp:222
 #: src/practice/configure/blockoptions.cpp:235
 #, kde-format
 msgid "The time for level %1 should be lower than the time for level %2.\n"
-msgstr ""
+msgstr "Vrijeme za razinu %1 mora biti kraće od vremena za razinu %2.\n"
 
 #: src/practice/configure/blockoptions.cpp:233
 #, kde-format
 msgid ""
 "\n"
 "Illogical expiration times.\n"
-msgstr ""
+msgstr "\nNelogična vremena isteka.\n"
 
 #: src/practice/configure/blockoptions.cpp:247
 #, kde-format
 msgid ""
 "\n"
 "Illogical blocking vs. expiration times.\n"
-msgstr ""
+msgstr "\nNelogičan odnos vremena blokiranja i isteka.\n"
 
 #: src/practice/configure/blockoptions.cpp:249
 #, kde-format
 msgid ""
 "The blocking time at level %1 should be lower than the expiration time.\n"
-msgstr ""
+msgstr "Vrijeme blokiranja na razini %1 mora biti kraće od vremena isteka.\n"
 
 #: src/practice/configure/blockoptions.cpp:255
 #, kde-format
 msgid "Illogical Values"
-msgstr ""
+msgstr "Nelogične vrijednosti"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev2)
 #: src/practice/configure/blockoptions.ui:40
 #, kde-format
 msgid "Level &2:"
-msgstr ""
+msgstr "Razina &2:"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev5)
 #: src/practice/configure/blockoptions.ui:53
 #, kde-format
 msgid "Level &5:"
-msgstr ""
+msgstr "Razina &5:"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev6)
 #: src/practice/configure/blockoptions.ui:63
 #, kde-format
 msgid "Level &6:"
-msgstr ""
+msgstr "Razina &6:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
 #: src/practice/configure/blockoptions.ui:79
 #, kde-format
 msgid "E&xpiring"
-msgstr ""
+msgstr "&Istek"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
 #: src/practice/configure/blockoptions.ui:95
 #, kde-format
 msgid "Bl&ocking"
-msgstr ""
+msgstr "&Blokiranje"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev4)
 #: src/practice/configure/blockoptions.ui:118
 #, kde-format
 msgid "Level &4:"
-msgstr ""
+msgstr "Razina &4:"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev7)
 #: src/practice/configure/blockoptions.ui:128
 #, kde-format
 msgid "Level &7:"
-msgstr ""
+msgstr "Razina &7:"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev1)
 #: src/practice/configure/blockoptions.ui:150
 #, kde-format
 msgid "Level &1:"
-msgstr ""
+msgstr "Razina &1:"
 
 #. i18n: ectx: property (text), widget (QLabel, l_lev3)
 #: src/practice/configure/blockoptions.ui:192
 #, kde-format
 msgid "Level &3:"
-msgstr ""
+msgstr "Razina &3:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/blockoptions.ui:218
 #, kde-format
 msgid "Do not practice vocabulary that has been asked within:"
-msgstr ""
+msgstr "Ne vježbaj vokabular koji je bio zadan unutar ovog razdoblja:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/practice/configure/blockoptions.ui:228
 #, kde-format
 msgid "Vocabulary drops one grade after this much time:"
-msgstr ""
+msgstr "Vokabular gubi jednu ocjenu nakon ovoliko vremena:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdjective)
 #: src/practice/configure/comparisonoptionswidget.ui:16
 #, kde-format
 msgid "Include Adjectives"
-msgstr ""
+msgstr "Uključi pridjeve"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdverb)
 #: src/practice/configure/comparisonoptionswidget.ui:23
 #, kde-format
 msgid "Include Adverbs"
-msgstr ""
+msgstr "Uključi priloge"
 
 #: src/practice/configure/configurepracticedialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Practice"
-msgstr ""
+msgstr "Podesi vježbu"
 
 #: src/practice/configure/configurepracticedialog.cpp:28
 #, kde-format
@@ -2142,37 +2145,37 @@ msgctxt ""
 "@title:group Configure general settings for practicing vocabulary, short "
 "title in config dialog."
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: src/practice/configure/configurepracticedialog.cpp:30
 #, kde-format
 msgctxt "Configure general settings for practicing vocabulary."
 msgid "General Practice Settings"
-msgstr ""
+msgstr "Opće postavke vježbanja"
 
 #: src/practice/configure/configurepracticedialog.cpp:35
 #, kde-format
 msgctxt ""
 "@title:group vocabulary can be set to be blocked for a certain amount of time"
 msgid "Blocking"
-msgstr ""
+msgstr "Blokiranje"
 
 #: src/practice/configure/configurepracticedialog.cpp:37
 #, kde-format
 msgid "Blocking Settings"
-msgstr ""
+msgstr "Postavke blokiranja"
 
 #: src/practice/configure/configurepracticedialog.cpp:42
 #, kde-format
 msgctxt ""
 "@title:group ignore vocabulary based on some properties like word type"
 msgid "Thresholds"
-msgstr ""
+msgstr "Pragovi"
 
 #: src/practice/configure/configurepracticedialog.cpp:44
 #, kde-format
 msgid "Threshold Settings"
-msgstr ""
+msgstr "Postavke pragova"
 
 #: src/practice/configure/configurepracticedialog.cpp:49
 #, kde-format
@@ -2180,116 +2183,116 @@ msgctxt ""
 "@title:group Configure specific settings for practicing vocabulary, short "
 "title in config dialog."
 msgid "Specific"
-msgstr ""
+msgstr "Posebno"
 
 #: src/practice/configure/configurepracticedialog.cpp:51
 #, kde-format
 msgctxt "Configure specific settings for practicing vocabulary."
 msgid "Specific Practice Settings"
-msgstr ""
+msgstr "Posebne postavke vježbanja"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/practice/configure/generalpracticeoptions.ui:17
 #, kde-format
 msgid "Correction"
-msgstr ""
+msgstr "Ispravak"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:23
 #, kde-format
 msgid "Answers with wrong accents are still counted as correct."
-msgstr ""
+msgstr "Odgovori s pogrešnim naglascima i dalje se smatraju točnima."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:26
 #, kde-format
 msgid "Ignore accents"
-msgstr ""
+msgstr "Zanemari naglaske"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:36
 #, kde-format
 msgid "Any captitalization in the answer is counted as correct."
-msgstr ""
+msgstr "Odgovor se smatra točnim bez obzira na velika i mala slova."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:39
 #, kde-format
 msgid "Ignore capitalization"
-msgstr ""
+msgstr "Zanemari velika i mala slova"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:49
 #, kde-format
 msgid "Any punctuation mistake in the answer is counted as correct."
-msgstr ""
+msgstr "Odgovor se smatra točnim i uz pogreške u interpunkciji."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:52
 #, kde-format
 msgid "Ignore punctuation"
-msgstr ""
+msgstr "Zanemari interpunkciju"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHints)
 #: src/practice/configure/generalpracticeoptions.ui:62
 #, kde-format
 msgid ""
 "During the practice you can use the hint button to see parts of the solution."
-msgstr ""
+msgstr "Tijekom vježbanja gumbom za pomoć možete prikazati dijelove rješenja."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
 #: src/practice/configure/generalpracticeoptions.ui:65
 #, kde-format
 msgid "Enable hints"
-msgstr ""
+msgstr "Omogući pomoć"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: src/practice/configure/generalpracticeoptions.ui:91
 #, kde-format
 msgid "Images and Sound"
-msgstr ""
+msgstr "Slike i zvuk"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #: src/practice/configure/generalpracticeoptions.ui:97
 #, kde-format
 msgid "During the practice, images are shown for the question."
-msgstr ""
+msgstr "Tijekom vježbanja prikazuju se slike povezane s pitanjem."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #: src/practice/configure/generalpracticeoptions.ui:100
 #, kde-format
 msgid "Image for question"
-msgstr ""
+msgstr "Slika za pitanje"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #: src/practice/configure/generalpracticeoptions.ui:110
 #, kde-format
 msgid "During the practice, images are shown for the solution."
-msgstr ""
+msgstr "Tijekom vježbanja prikazuju se slike povezane s rješenjem."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #: src/practice/configure/generalpracticeoptions.ui:113
 #, kde-format
 msgid "Image for solution"
-msgstr ""
+msgstr "Slika za rješenje"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #: src/practice/configure/generalpracticeoptions.ui:123
 #, kde-format
 msgid "Allow using images instead of words in flashcards."
-msgstr ""
+msgstr "Omogući prikaz slika umjesto riječi na karticama."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #: src/practice/configure/generalpracticeoptions.ui:126
 #, kde-format
 msgid "Allow images instead of words"
-msgstr ""
+msgstr "Omogući slike umjesto riječi"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #: src/practice/configure/generalpracticeoptions.ui:136
 #, kde-format
 msgid "Enable playing of pronunciation sound files during the practice."
-msgstr ""
+msgstr "Omogući reprodukciju izgovora tijekom vježbanja."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/generalpracticeoptions.ui:158
@@ -2298,31 +2301,31 @@ msgid ""
 "By default you are asked to enter synonyms until you enter the one that is "
 "associated directly with the current word. With this option enabled any "
 "synonym is accepted."
-msgstr ""
+msgstr "U pravilu se traži da unesete sinonime sve dok ne upišete onaj izravno povezan s trenutačnom riječju. Uz ovu mogućnost prihvaća se bilo koji sinonim."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
 #: src/practice/configure/generalpracticeoptions.ui:168
 #, kde-format
 msgid "Accept any synonym"
-msgstr ""
+msgstr "Prihvati bilo koji sinonim"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/practice/configure/generalpracticeoptions.ui:191
 #, kde-format
 msgid "Sessions"
-msgstr ""
+msgstr "Sesije"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/generalpracticeoptions.ui:202
 #, kde-format
 msgid "Max session size:"
-msgstr ""
+msgstr "Najveća veličina sesije:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/practice/configure/generalpracticeoptions.ui:251
 #, kde-format
 msgid "Max number of new words:"
-msgstr ""
+msgstr "Najveći broj novih riječi:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #: src/practice/configure/specificpracticeoptions.ui:23
@@ -2330,107 +2333,108 @@ msgstr ""
 msgid ""
 "When creating multiple choice practices, try to show answers of the same "
 "word type."
-msgstr ""
+msgstr "Pri pitanjima s višestrukim izborom pokušaj prikazati odgovore iste vrste riječi."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #: src/practice/configure/specificpracticeoptions.ui:26
 #, kde-format
 msgid "Use choices of the same word type"
-msgstr ""
+msgstr "Koristi odgovore iste vrste riječi"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/specificpracticeoptions.ui:41
 #, kde-format
 msgid "Number of choices:"
-msgstr ""
+msgstr "Broj ponuđenih odgovora:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: src/practice/configure/thresholdoptions.ui:17
 #, kde-format
 msgid "Only practice vocabulary that fulfills the following conditions:"
-msgstr ""
+msgstr "Vježbaj samo vokabular koji ispunjava sljedeće uvjete:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/practice/configure/thresholdoptions.ui:26
 #, kde-format
 msgid "At least"
-msgstr ""
+msgstr "Najmanje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/practice/configure/thresholdoptions.ui:33
 #, kde-format
 msgid "At most"
-msgstr ""
+msgstr "Najviše"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/thresholdoptions.ui:43
 #, kde-format
 msgid "Grade:"
-msgstr ""
+msgstr "Ocjena:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/thresholdoptions.ui:53
 #, kde-format
 msgid "Times practiced:"
-msgstr ""
+msgstr "Broj vježbanja:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/practice/configure/thresholdoptions.ui:80
 #, kde-format
 msgid "Answered incorrectly:"
-msgstr ""
+msgstr "Broj netočnih odgovora:"
 
 #: src/practice/conjugationbackendmode.cpp:93
 #, kde-format
 msgid "All conjugation forms were right."
-msgstr ""
+msgstr "Svi su oblici konjugacije točni."
 
 #: src/practice/conjugationbackendmode.cpp:97
 #, kde-format
 msgctxt "You did not get the conjugation forms right."
 msgid "You answered %1 conjugation form correctly."
 msgid_plural "You answered %1 conjugation forms correctly."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Odgovorili ste točno na %1 oblik konjugacije."
+msgstr[1] "Odgovorili ste točno na %1 oblika konjugacije."
+msgstr[2] "Odgovorili ste točno na %1 oblika konjugacije."
 
 #: src/practice/conjugationmodewidget.cpp:111
 #, kde-format
 msgid "Enter all conjugation forms."
-msgstr ""
+msgstr "Unesite sve oblike konjugacije."
 
 #: src/practice/genderbackendmode.cpp:62
 #, kde-format
 msgid "Choose the right article for \"%1\""
-msgstr ""
+msgstr "Odaberite točan član za „%1”."
 
 #: src/practice/genderbackendmode.cpp:82
 #, kde-format
 msgctxt "@label the gender of the word: masculine"
 msgid "%1 is masculine"
-msgstr ""
+msgstr "%1 je muškog roda"
 
 #: src/practice/genderbackendmode.cpp:87
 #, kde-format
 msgctxt "@label the gender of the word: feminine"
 msgid "%1 is feminine"
-msgstr ""
+msgstr "%1 je ženskog roda"
 
 #: src/practice/genderbackendmode.cpp:92
 #, kde-format
 msgctxt "@label the gender of the word: neuter"
 msgid "%1 is neuter"
-msgstr ""
+msgstr "%1 je srednjeg roda"
 
 #: src/practice/guifrontend.cpp:122
 #, kde-format
 msgctxt "Display of the current unit during practice"
 msgid "Unit: %1"
-msgstr ""
+msgstr "Jedinica: %1"
 
 #: src/practice/guifrontend.cpp:128
 #, kde-format
 msgid "New word"
-msgstr ""
+msgstr "Nova riječ"
 
 #: src/practice/guifrontend.cpp:131
 #, kde-format
@@ -2438,17 +2442,17 @@ msgctxt ""
 "Display of the current confidence level during practice, 1st param is either "
 "initial or long term"
 msgid "%1, confidence %2"
-msgstr ""
+msgstr "%1, pouzdanost %2"
 
 #: src/practice/guifrontend.cpp:132
 #, kde-format
 msgid "initial"
-msgstr ""
+msgstr "početna"
 
 #: src/practice/guifrontend.cpp:132
 #, kde-format
 msgid "long term"
-msgstr ""
+msgstr "dugoročna"
 
 #: src/practice/guifrontend.cpp:198
 #, kde-format
@@ -2458,237 +2462,241 @@ msgid ""
 msgid_plural ""
 "You answered correctly %2 of a total of %1 words.\n"
 "You are %3% done."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Točno ste odgovorili na %2 od ukupno %1 riječi.\nDovršili ste %3%."
+msgstr[1] "Točno ste odgovorili na %2 od ukupno %1 riječi.\nDovršili ste %3%."
+msgstr[2] "Točno ste odgovorili na %2 od ukupno %1 riječi.\nDovršili ste %3%."
 
 #: src/practice/latexrenderer.cpp:47
 #, kde-format
 msgid "Rendering..."
-msgstr ""
+msgstr "Obrada..."
 
 #: src/practice/latexrenderer.cpp:137
 #, kde-format
 msgid "LaTeX error."
-msgstr ""
+msgstr "Pogreška u LaTeX-u."
 
 #: src/practice/multiplechoicebackendmode.cpp:103
 #: src/practice/writtenbackendmode.cpp:145
 #, kde-format
 msgid "You revealed the answer by using too many hints."
-msgstr ""
+msgstr "Otkrili ste odgovor uz previše pomoći."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
 #: src/practice/practice_mainwindow.ui:128
 #, kde-format
 msgid "Skip this word for now and ask again later"
-msgstr ""
+msgstr "Preskoči ovu riječ i pitaj je ponovno poslije"
 
 #. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
 #: src/practice/practice_mainwindow.ui:131
 #, kde-format
 msgid "Answer Later"
-msgstr ""
+msgstr "Odgovori poslije"
 
 #. i18n: ectx: property (text), widget (QPushButton, hintButton)
 #: src/practice/practice_mainwindow.ui:141
 #, kde-format
 msgid "Hint"
-msgstr ""
+msgstr "Pomoć"
 
 #. i18n: ectx: property (text), widget (QPushButton, continueButton)
 #: src/practice/practice_mainwindow.ui:202
 #, kde-format
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
 #: src/practice/practice_mainwindow.ui:219
 #, kde-format
 msgid "I Did not Know it"
-msgstr ""
+msgstr "Nisam znao/la"
 
 #. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
 #: src/practice/practice_mainwindow.ui:226
 #, kde-format
 msgid "I Knew it"
-msgstr ""
+msgstr "Znao/la sam"
 
 #. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
 #: src/practice/practice_mainwindow.ui:300
 #, no-c-format, kde-format
 msgid "%v/%m"
-msgstr ""
+msgstr "%v/%m"
 
 #. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #: src/practice/practice_widget_comparison.ui:35
 #, kde-format
 msgid "absolute"
-msgstr ""
+msgstr "pozitiv"
 
 #. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #: src/practice/practice_widget_comparison.ui:80
 #, kde-format
 msgid "comparative"
-msgstr ""
+msgstr "komparativ"
 
 #. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #: src/practice/practice_widget_comparison.ui:125
 #, kde-format
 msgid "superlative"
-msgstr ""
+msgstr "superlativ"
 
 #: src/practice/practicemainwindow.cpp:70
 #, kde-format
 msgid "Stop Practice"
-msgstr ""
+msgstr "Zaustavi vježbu"
 
 #: src/practice/practicemainwindow.cpp:72
 #, kde-format
 msgid "Stop practicing"
-msgstr ""
+msgstr "Zaustavi vježbanje"
 
 #: src/practice/practicemainwindow.cpp:79
 #, kde-format
 msgid "Change answer to right/wrong"
-msgstr ""
+msgstr "Promijeni odgovor u točan/netočan"
 
 #: src/practice/practicemainwindow.cpp:81
 #, kde-format
 msgid ""
 "When you answered, Parley will display that the answer was right or wrong.\n"
 "This shortcut changes how the answer is counted."
-msgstr ""
+msgstr "Nakon odgovora Parley će prikazati je li bio točan ili netočan.\nOvim prečacem mijenja se način bodovanja odgovora."
 
 #: src/practice/practicesummarycomponent.cpp:57
 #, kde-format
 msgctxt "number of words, minutes, seconds"
 msgid "You practiced %1 in %2 and %3."
-msgstr ""
+msgstr "Vježbali ste %1 tijekom %2 i %3."
 
 #: src/practice/practicesummarycomponent.cpp:58
 #, kde-format
 msgid "one word"
 msgid_plural "%1 words"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 riječ"
+msgstr[1] "%1 riječi"
+msgstr[2] "%1 riječi"
 
 #: src/practice/practicesummarycomponent.cpp:59
 #, kde-format
 msgid "one minute"
 msgid_plural "%1 minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minute"
+msgstr[2] "%1 minuta"
 
 #: src/practice/practicesummarycomponent.cpp:60
 #, kde-format
 msgid "one second"
 msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 sekunda"
+msgstr[1] "%1 sekunde"
+msgstr[2] "%1 sekundi"
 
 #: src/practice/practicesummarycomponent.cpp:68
 #, kde-format
 msgid "Practice Overview"
-msgstr ""
+msgstr "Pregled vježbe"
 
 #: src/practice/practicesummarycomponent.cpp:69
 #, kde-format
 msgid "Switch to the Practice Overview page"
-msgstr ""
+msgstr "Prijeđi na stranicu s pregledom vježbe"
 
 #: src/practice/practicesummarycomponent.cpp:136
 #, kde-format
 msgid "HTML Files"
-msgstr ""
+msgstr "HTML datoteke"
 
 #: src/practice/practicesummarycomponent.cpp:136
 #, kde-format
 msgid "OpenDocument text files"
-msgstr ""
+msgstr "Tekstne datoteke OpenDocument"
 
 #: src/practice/practicesummarycomponent.cpp:146
 #, kde-format
 msgid "Practice results"
-msgstr ""
+msgstr "Rezultati vježbe"
 
 #: src/practice/practicesummarycomponent.cpp:151
 #, kde-format
 msgid "Answered questions: %1\n"
-msgstr ""
+msgstr "Odgovorena pitanja: %1\n"
 
 #: src/practice/practicesummarycomponent.cpp:152
 #, kde-format
 msgid "Correct answers: %1\n"
-msgstr ""
+msgstr "Točni odgovori: %1\n"
 
 #: src/practice/practicesummarycomponent.cpp:153
 #, kde-format
 msgid "Wrong answers: %1\n"
-msgstr ""
+msgstr "Netočni odgovori: %1\n"
 
 #: src/practice/practicesummarycomponent.cpp:160
 #, kde-format
 msgid "<b>Attempts</b>"
-msgstr ""
+msgstr "<b>Pokušaji</b>"
 
 #: src/practice/practicesummarycomponent.cpp:161
 #, kde-format
 msgid "<b>Question</b>"
-msgstr ""
+msgstr "<b>Pitanje</b>"
 
 #: src/practice/practicesummarycomponent.cpp:162
 #, kde-format
 msgid "<b>Correct answer</b>"
-msgstr ""
+msgstr "<b>Točan odgovor</b>"
 
 #: src/practice/practicesummarycomponent.cpp:163
 #, kde-format
 msgid "<b>Your errors</b>"
-msgstr ""
+msgstr "<b>Vaše pogreške</b>"
 
 #: src/practice/practicesummarycomponent.cpp:178
 #, kde-format
 msgid "Could not write to %1"
-msgstr ""
+msgstr "Nije moguće zapisati u %1"
 
 #: src/practice/practicesummarycomponent.cpp:178
 #, kde-format
 msgid "Could not write file"
-msgstr ""
+msgstr "Nije moguće zapisati datoteku"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:28
 #, kde-format
 msgid "Attempts"
-msgstr ""
+msgstr "Pokušaji"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:33
 #, kde-format
 msgid "Question"
-msgstr ""
+msgstr "Pitanje"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:38
 #, kde-format
 msgid "Solution"
-msgstr ""
+msgstr "Rješenje"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:43
 #, kde-format
 msgid "Your Answer"
-msgstr ""
+msgstr "Vaš odgovor"
 
 #: src/practice/sessionmanagerbase.cpp:53
 #, kde-format
 msgid "The vocabulary collection contains fewer than two languages."
-msgstr ""
+msgstr "Zbirka vokabulara sadrži manje od dva jezika."
 
 #: src/practice/sessionmanagerbase.cpp:53
 #, kde-format
 msgid "Could not start practice"
-msgstr ""
+msgstr "Nije moguće započeti vježbu"
 
 #: src/practice/statustoggle.cpp:77
 #, kde-format
@@ -2696,12 +2704,12 @@ msgid ""
 "This answer will be counted as correct.\n"
 "Words will only be counted as correct if they are answered correctly on the "
 "first attempt."
-msgstr ""
+msgstr "Ovaj će se odgovor smatrati točnim.\nRiječi se smatraju točnima samo ako su točno odgovorene iz prvog pokušaja."
 
 #: src/practice/statustoggle.cpp:78
 #, kde-format
 msgid "Count this answer as wrong"
-msgstr ""
+msgstr "Broji ovaj odgovor kao netočan"
 
 #: src/practice/statustoggle.cpp:81
 #, kde-format
@@ -2709,259 +2717,259 @@ msgid ""
 "This answer will be counted as wrong.\n"
 "Words will only be counted as correct if they are answered correctly on the "
 "first attempt."
-msgstr ""
+msgstr "Ovaj će se odgovor smatrati netočnim.\nRiječi se smatraju točnima samo ako su točno odgovorene iz prvog pokušaja."
 
 #: src/practice/statustoggle.cpp:82
 #, kde-format
 msgid "Count this answer as correct"
-msgstr ""
+msgstr "Broji ovaj odgovor kao točan"
 
 #: src/practice/summarybarwidget.cpp:78
 #, kde-format
 msgctxt "test results"
 msgid "%1 % correct"
-msgstr ""
+msgstr "%1 % točnih"
 
 #: src/practice/summarybarwidget.cpp:80
 #, kde-format
 msgctxt "test results"
 msgid "%1 % wrong"
-msgstr ""
+msgstr "%1 % netočnih"
 
 #: src/practice/summarybarwidget.cpp:82
 #, kde-format
 msgctxt "test results"
 msgid "%1 % not answered"
-msgstr ""
+msgstr "%1 % bez odgovora"
 
 #: src/practice/summarybarwidget.cpp:140
 #, kde-format
 msgid "Answered correctly on the first attempt: %1 of %2 (%3 %)"
-msgstr ""
+msgstr "Točno odgovoreno iz prvog pokušaja: %1 od %2 (%3 %)"
 
 #: src/practice/summarybarwidget.cpp:147
 #, kde-format
 msgid "Answered wrong on the first attempt: %1 of %2 (%3 %)"
-msgstr ""
+msgstr "Netočno odgovoreno iz prvog pokušaja: %1 od %2 (%3 %)"
 
 #: src/practice/summarybarwidget.cpp:154
 #, kde-format
 msgid "Not answered during this practice: %1 of %2 (%3 %)"
-msgstr ""
+msgstr "Bez odgovora tijekom ove vježbe: %1 od %2 (%3 %)"
 
 #: src/practice/writtenbackendmode.cpp:70
 #, kde-format
 msgid "Your answer was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio netočan."
 
 #: src/practice/writtenbackendmode.cpp:84
 #, kde-format
 msgid ""
 "Your answer was a synonym. Please enter another word with the same "
 "translation."
-msgstr ""
+msgstr "Vaš je odgovor bio sinonim. Unesite drugu riječ s istim prijevodom."
 
 #: src/practice/writtenbackendmode.cpp:88
 #, kde-format
 msgid "Your answer was an already entered synonym."
-msgstr ""
+msgstr "Unijeli ste sinonim koji je već bio unesen."
 
 #: src/practice/writtenbackendmode.cpp:91
 #, kde-format
 msgid "Your answer was a synonym and your punctuation was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio sinonim, ali interpunkcija nije bila točna."
 
 #: src/practice/writtenbackendmode.cpp:93
 #, kde-format
 msgid "Your answer was a synonym and your capitalization was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio sinonim, ali velika i mala slova nisu bila točna."
 
 #: src/practice/writtenbackendmode.cpp:95
 #, kde-format
 msgid "Your answer was a synonym and accents were wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio sinonim, ali naglasci nisu bili točni."
 
 #: src/practice/writtenbackendmode.cpp:97
 #, kde-format
 msgid "Your answer was a synonym."
-msgstr ""
+msgstr "Vaš je odgovor bio sinonim."
 
 #: src/practice/writtenbackendmode.cpp:105
 #, kde-format
 msgid ""
 "Your answer was wrong as punctuation mistakes are not accepted. Please try "
 "again."
-msgstr ""
+msgstr "Odgovor nije točan jer se pogreške u interpunkciji ne prihvaćaju. Pokušajte ponovno."
 
 #: src/practice/writtenbackendmode.cpp:107
 #, kde-format
 msgid ""
 "Your answer was wrong as capitalization mistakes are not accepted. Please "
 "try again."
-msgstr ""
+msgstr "Odgovor nije točan jer se pogreške u velikim i malim slovima ne prihvaćaju. Pokušajte ponovno."
 
 #: src/practice/writtenbackendmode.cpp:109
 #, kde-format
 msgid ""
 "Your answer was wrong as accent mistakes are not accepted. Please try again."
-msgstr ""
+msgstr "Odgovor nije točan jer se pogreške u naglascima ne prihvaćaju. Pokušajte ponovno."
 
 #: src/practice/writtenbackendmode.cpp:111
 #, kde-format
 msgid "Your answer was wrong. Please try again."
-msgstr ""
+msgstr "Vaš odgovor nije točan. Pokušajte ponovno."
 
 #: src/practice/writtenbackendmode.cpp:118
 #, kde-format
 msgid "Your answer was right, but your punctuation was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali interpunkcija nije bila točna."
 
 #: src/practice/writtenbackendmode.cpp:120
 #, kde-format
 msgid "Your answer was right, but your capitalization was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali velika i mala slova nisu bila točna."
 
 #: src/practice/writtenbackendmode.cpp:122
 #, kde-format
 msgid "Your answer was right, but accents were wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali naglasci nisu bili točni."
 
 #: src/practice/writtenbackendmode.cpp:124
 #, kde-format
 msgid "Your answer was right."
-msgstr ""
+msgstr "Vaš je odgovor bio točan."
 
 #: src/practice/writtenbackendmode.cpp:128
 #, kde-format
 msgid ""
 "Your answer was right... but not on the first try and your punctuation was "
 "wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali ne iz prvog pokušaja, a interpunkcija nije bila točna."
 
 #: src/practice/writtenbackendmode.cpp:130
 #, kde-format
 msgid ""
 "Your answer was right... but not on the first try and your capitalization "
 "was wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali ne iz prvog pokušaja, a velika i mala slova nisu bila točna."
 
 #: src/practice/writtenbackendmode.cpp:132
 #, kde-format
 msgid ""
 "Your answer was right... but not on the first try and accents were wrong."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali ne iz prvog pokušaja, a naglasci nisu bili točni."
 
 #: src/practice/writtenbackendmode.cpp:134
 #, kde-format
 msgid "Your answer was right... but not on the first try."
-msgstr ""
+msgstr "Vaš je odgovor bio točan, ali ne iz prvog pokušaja."
 
 #: src/practice/writtenbackendmode.cpp:154
 #, kde-format
 msgid "The solution starts with: %1"
-msgstr ""
+msgstr "Rješenje počinje s: %1"
 
 #: src/practice/writtenpracticewidget.cpp:130
 #, kde-format
 msgid "Synonym: "
-msgstr ""
+msgstr "Sinonim: "
 
 #. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
 #: src/settings/documentproperties.ui:38
 #, kde-format
 msgid "General Document Properties"
-msgstr ""
+msgstr "Opća svojstva dokumenta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_title)
 #: src/settings/documentproperties.ui:50
 #, kde-format
 msgid "&Title:"
-msgstr ""
+msgstr "&Naslov:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, titleLineEdit)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, authorLineEdit)
 #: src/settings/documentproperties.ui:69 src/settings/documentproperties.ui:95
 #, kde-format
 msgid "A title for your document."
-msgstr ""
+msgstr "Naslov dokumenta."
 
 #. i18n: ectx: property (text), widget (QLabel, label_author)
 #: src/settings/documentproperties.ui:76
 #, kde-format
 msgid "&Author:"
-msgstr ""
+msgstr "&Autor:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_author_2)
 #: src/settings/documentproperties.ui:102
 #, kde-format
 msgid "E&mail:"
-msgstr ""
+msgstr "E-&pošta:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, contactLineEdit)
 #: src/settings/documentproperties.ui:121
 #, kde-format
 msgid "A way to contact you (email or a webpage)."
-msgstr ""
+msgstr "Način na koji vas se može kontaktirati (e-pošta ili web-stranica)."
 
 #. i18n: ectx: property (text), widget (QLabel, label_remark)
 #: src/settings/documentproperties.ui:128
 #, kde-format
 msgid "&Comment:"
-msgstr ""
+msgstr "&Komentar:"
 
 #. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
 #: src/settings/documentproperties.ui:147
 #, kde-format
 msgid "Any additional information."
-msgstr ""
+msgstr "Dodatne informacije."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/settings/documentproperties.ui:160
 #, kde-format
 msgid "Cate&gory:"
-msgstr ""
+msgstr "Kate&gorija:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:173
 #, kde-format
 msgid "A general category into which your document belongs."
-msgstr ""
+msgstr "Opća kategorija dokumenta."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:185
 #, kde-format
 msgid "Music"
-msgstr ""
+msgstr "Glazba"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:190
 #, kde-format
 msgid "Geography"
-msgstr ""
+msgstr "Geografija"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:195
 #, kde-format
 msgid "Anatomy"
-msgstr ""
+msgstr "Anatomija"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:200
 #, kde-format
 msgid "History"
-msgstr ""
+msgstr "Povijest"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:205
 #, kde-format
 msgid "Test Preparation"
-msgstr ""
+msgstr "Priprema za ispit"
 
 #. i18n: ectx: property (text), widget (QLabel, label_license)
 #: src/settings/documentproperties.ui:213
 #, kde-format
 msgid "&License:"
-msgstr ""
+msgstr "&Licenca:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
 #: src/settings/documentproperties.ui:227
@@ -2970,38 +2978,38 @@ msgid ""
 "The license under which your document will be.\n"
 "If you consider contributing your file to KDE in the future, an appropriate "
 "license is required."
-msgstr ""
+msgstr "Licenca pod kojom se objavljuje dokument.\nAko ubuduće namjeravate pridonijeti KDE-u ovom datotekom, potrebna je odgovarajuća licenca."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #: src/settings/documentproperties.ui:239
 #, kde-format
 msgid "GPLv2+ (GNU General Public License version 2 or later)"
-msgstr ""
+msgstr "GPLv2+ (GNU-ova opća javna licenca, verzija 2 ili novija)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_language_1)
 #: src/settings/documentproperties.ui:256
 #, kde-format
 msgid "&First language:"
-msgstr ""
+msgstr "&Prvi jezik:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_language_2)
 #: src/settings/documentproperties.ui:282
 #, kde-format
 msgid "&Second language:"
-msgstr ""
+msgstr "&Drugi jezik:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
 #: src/settings/documentproperties.ui:311
 #, kde-format
 msgid "&Setup grammar details"
-msgstr ""
+msgstr "&Postavi pojedinosti gramatike"
 
 #. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
 #: src/settings/documentproperties.ui:321
 #, kde-format
 msgctxt "Attept to download grammar properties for the selected languages"
 msgid "Download grammar"
-msgstr ""
+msgstr "Preuzmi gramatiku"
 
 #. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document $(fileurl))
@@ -3011,7 +3019,7 @@ msgstr ""
 #: src/settings/languagesettings.kcfg:23 src/settings/languagesettings.kcfg:24
 #, kde-format
 msgid "Selected tenses for conjugation practice."
-msgstr ""
+msgstr "Odabrana vremena za vježbu konjugacije."
 
 #. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
@@ -3021,80 +3029,80 @@ msgstr ""
 #: src/settings/languagesettings.kcfg:28 src/settings/languagesettings.kcfg:29
 #, kde-format
 msgid "Visible columns in the main editor window."
-msgstr ""
+msgstr "Vidljivi stupci u glavnom prozoru uređivača."
 
 #. i18n: ectx: label, entry (CollapsedStatisticsViewItems), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (CollapsedStatisticsViewItems), group (Document $(fileurl))
 #: src/settings/documentsettings.kcfg:20 src/settings/documentsettings.kcfg:21
 #, kde-format
 msgid "Collapsed tree view items of statistics view window."
-msgstr ""
+msgstr "Skupljene stavke prikaza stabla u prozoru statistike."
 
 #: src/settings/generaloptions.cpp:43
 #, kde-format
 msgctxt "CSV separator"
 msgid ";"
-msgstr ""
+msgstr ";"
 
 #: src/settings/generaloptions.cpp:44
 #, kde-format
 msgctxt "CSV separator"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: src/settings/generaloptions.cpp:45
 #, kde-format
 msgctxt "CSV separator"
 msgid "!"
-msgstr ""
+msgstr "!"
 
 #: src/settings/generaloptions.cpp:46
 #, kde-format
 msgctxt "CSV separator"
 msgid "|"
-msgstr ""
+msgstr "|"
 
 #: src/settings/generaloptions.cpp:47
 #, kde-format
 msgctxt "CSV separator"
 msgid ","
-msgstr ""
+msgstr ","
 
 #: src/settings/generaloptions.cpp:48
 #, kde-format
 msgctxt "CSV separator: tabulator"
 msgid "TAB"
-msgstr ""
+msgstr "TAB"
 
 #: src/settings/generaloptions.cpp:49
 #, kde-format
 msgctxt "CSV separator"
 msgid ">= 2 SPACES"
-msgstr ""
+msgstr ">= 2 RAZMAKA"
 
 #: src/settings/generaloptions.cpp:50
 #, kde-format
 msgctxt "CSV separator"
 msgid " : "
-msgstr ""
+msgstr " : "
 
 #: src/settings/generaloptions.cpp:51
 #, kde-format
 msgctxt "CSV separator"
 msgid " :: "
-msgstr ""
+msgstr " :: "
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/generaloptionsbase.ui:17
 #, kde-format
 msgid "Open/Save"
-msgstr ""
+msgstr "Otvori/spremi"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:23
 #, kde-format
 msgid "Always open the collection that was active when quitting Parley"
-msgstr ""
+msgstr "Uvijek otvori zbirku koja je bila aktivna pri zatvaranju Parleyja"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:26
@@ -3102,51 +3110,51 @@ msgstr ""
 msgid ""
 "When this option is checked, the last active collection will be loaded "
 "automatically when starting Parley instead of showing the welcome screen."
-msgstr ""
+msgstr "Ako je ova mogućnost uključena, posljednja aktivna zbirka automatski će se učitati pri pokretanju Parleyja umjesto prikaza pozdravnog zaslona."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:29
 #, kde-format
 msgid "Always load the last opened collection on start"
-msgstr ""
+msgstr "Uvijek učitaj posljednju otvorenu zbirku pri pokretanju"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
 #: src/settings/generaloptionsbase.ui:39 src/settings/generaloptionsbase.ui:60
 #, kde-format
 msgid "Allow automatic saving of your work"
-msgstr ""
+msgstr "Omogući automatsko spremanje rada"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
 #: src/settings/generaloptionsbase.ui:42 src/settings/generaloptionsbase.ui:63
 #, kde-format
 msgid "Your work will be automatically saved if you check this option"
-msgstr ""
+msgstr "Ako uključite ovu mogućnost, vaš će se rad automatski spremati."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
 #: src/settings/generaloptionsbase.ui:45
 #, kde-format
 msgid "&Save vocabularies automatically on close and quit"
-msgstr ""
+msgstr "&Automatski spremaj vokabular pri zatvaranju i izlasku"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
 #: src/settings/generaloptionsbase.ui:66
 #, kde-format
 msgid "&Create a backup every"
-msgstr ""
+msgstr "&Izradi sigurnosnu kopiju svakih"
 
 #. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
 #: src/settings/generaloptionsbase.ui:89
 #, kde-format
 msgid "minutes"
-msgstr ""
+msgstr "minuta"
 
 #. i18n: ectx: property (text), widget (QLabel, label_sep)
 #: src/settings/generaloptionsbase.ui:100
 #, kde-format
 msgid "Sep&arator for text file import/export (CSV):"
-msgstr ""
+msgstr "Raz&djelnik za uvoz/izvoz tekstnih datoteka (CSV):"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
 #: src/settings/generaloptionsbase.ui:116
@@ -3154,7 +3162,7 @@ msgstr ""
 msgid ""
 "Choose which separator you want to use to separate your data when importing "
 "and exporting text."
-msgstr ""
+msgstr "Odaberite razdjelnik kojim će se podaci razdvajati pri uvozu i izvozu teksta."
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
 #: src/settings/generaloptionsbase.ui:119
@@ -3162,169 +3170,169 @@ msgstr ""
 msgid ""
 "Choose the separator to use to divide the parts of an expression when "
 "importing or exporting data as text."
-msgstr ""
+msgstr "Odaberite razdjelnik kojim će se dijelovi izraza razdvajati pri uvozu ili izvozu tekstnih podataka."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/settings/generaloptionsbase.ui:144
 #, kde-format
 msgid "Editing"
-msgstr ""
+msgstr "Uređivanje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
 #: src/settings/generaloptionsbase.ui:162
 #, kde-format
 msgid "&Append new rows automatically when editing"
-msgstr ""
+msgstr "&Automatski dodaj nove retke tijekom uređivanja"
 
 #. i18n: ectx: property (text), widget (KNSWidgets::Button, getNewButton)
 #: src/settings/kgametheme/kgamethemeselector.ui:37
 #, kde-format
 msgid "&Get New Themes..."
-msgstr ""
+msgstr "&Dohvati nove teme..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/kgametheme/kgamethemeselector.ui:94
 #, kde-format
 msgid "Theme Details"
-msgstr ""
+msgstr "Pojedinosti teme"
 
 #. i18n: ectx: property (text), widget (QLabel, labelContact)
 #: src/settings/kgametheme/kgamethemeselector.ui:128
 #, kde-format
 msgid "Contact:"
-msgstr ""
+msgstr "Kontakt:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDescription)
 #: src/settings/kgametheme/kgamethemeselector.ui:163
 #, kde-format
 msgid "Description:"
-msgstr ""
+msgstr "Opis:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
 #: src/settings/kgametheme/kgamethemeselector.ui:198
 #, kde-format
 msgid "Author:"
-msgstr ""
+msgstr "Autor:"
 
 #: src/settings/languageproperties.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Languages"
-msgstr ""
+msgstr "Uredi jezike"
 
 #: src/settings/languageproperties.cpp:27
 #, kde-format
 msgid "Add language"
-msgstr ""
+msgstr "Dodaj jezik"
 
 #: src/settings/languageproperties.cpp:30
 #, kde-format
 msgid "Remove language"
-msgstr ""
+msgstr "Ukloni jezik"
 
 #: src/settings/languageproperties.cpp:45
 #, kde-format
 msgid "New Language"
-msgstr ""
+msgstr "Novi jezik"
 
 #: src/settings/languageproperties.cpp:58
 #, kde-format
 msgctxt "Edit language properties"
 msgid "Properties for %1"
-msgstr ""
+msgstr "Svojstva za %1"
 
 #: src/settings/languageproperties.cpp:88
 #, kde-format
 msgid "Really delete language: %1?"
-msgstr ""
+msgstr "Zaista izbrisati jezik: %1?"
 
 #: src/settings/languageproperties.cpp:89
 #, kde-format
 msgid "Remove Language"
-msgstr ""
+msgstr "Ukloni jezik"
 
 #: src/settings/languagepropertiespage.cpp:85
 #, kde-format
 msgid "No KDE keyboard selector found."
-msgstr ""
+msgstr "Nije pronađen birač tipkovnice KDE-a."
 
 #: src/settings/languagepropertiespage.cpp:348
 #: src/settings/languagepropertiespage.cpp:370
 #, kde-format
 msgid "Tense Name"
-msgstr ""
+msgstr "Naziv vremena"
 
 #: src/settings/languagepropertiespage.cpp:348
 #: src/settings/languagepropertiespage.cpp:370
 #, kde-format
 msgid "Enter name of tense:"
-msgstr ""
+msgstr "Unesite naziv vremena:"
 
 #: src/settings/languagepropertiespage.cpp:400
 #, kde-format
 msgid ""
 "The selected user defined tense could not be deleted\n"
 "because it is in use."
-msgstr ""
+msgstr "Nije moguće izbrisati odabrano korisnički definirano vrijeme\njer je u upotrebi."
 
 #: src/settings/languagepropertiespage.cpp:401
 #, kde-format
 msgid "Deleting Tense Description"
-msgstr ""
+msgstr "Brisanje opisa vremena"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: src/settings/languagepropertiespage.ui:21
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: src/settings/languagepropertiespage.ui:30
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
 #: src/settings/languagepropertiespage.ui:46
 #, kde-format
 msgid "Keyboard layout:"
-msgstr ""
+msgstr "Raspored tipkovnice:"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
 #: src/settings/languagepropertiespage.ui:75
 #, kde-format
 msgid "&Download grammar"
-msgstr ""
+msgstr "&Preuzmi gramatiku"
 
 #. i18n: ectx: property (text), widget (QLabel, spellcheckerLabel)
 #: src/settings/languagepropertiespage.ui:88
 #, kde-format
 msgid "Spell checker:"
-msgstr ""
+msgstr "Provjera pravopisa:"
 
 #. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
 #: src/settings/languagepropertiespage.ui:101
 #, kde-format
 msgid "Language:"
-msgstr ""
+msgstr "Jezik:"
 
 #. i18n: ectx: property (text), widget (QLabel, fontLabel_2)
 #: src/settings/languagepropertiespage.ui:117
 #, kde-format
 msgid "Font (practice):"
-msgstr ""
+msgstr "Font (vježba):"
 
 #. i18n: ectx: property (text), widget (QLabel, fontLabel_3)
 #: src/settings/languagepropertiespage.ui:127
 #, kde-format
 msgid "Font (editor):"
-msgstr ""
+msgstr "Font (uređivač):"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/settings/languagepropertiespage.ui:141
 #, kde-format
 msgid "Articles"
-msgstr ""
+msgstr "Članovi"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
@@ -3332,7 +3340,7 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:404
 #, kde-format
 msgid "Definite"
-msgstr ""
+msgstr "Određeni"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
@@ -3340,7 +3348,7 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:411
 #, kde-format
 msgid "Indefinite"
-msgstr ""
+msgstr "Neodređeni"
 
 #. i18n: ectx: property (text), widget (QLabel, male_label)
 #. i18n: ectx: property (text), widget (QLabel, male_label_2)
@@ -3348,7 +3356,7 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:365
 #, kde-format
 msgid "&Male:"
-msgstr ""
+msgstr "&Muški:"
 
 #. i18n: ectx: property (text), widget (QLabel, female_label)
 #. i18n: ectx: property (text), widget (QLabel, female_label_2)
@@ -3356,7 +3364,7 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:352
 #, kde-format
 msgid "&Female:"
-msgstr ""
+msgstr "&Ženski:"
 
 #. i18n: ectx: property (text), widget (QLabel, natural_label)
 #. i18n: ectx: property (text), widget (QLabel, natural_label_2)
@@ -3364,200 +3372,200 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:339
 #, kde-format
 msgid "&Neutral:"
-msgstr ""
+msgstr "&Srednji:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: src/settings/languagepropertiespage.ui:451
 #, kde-format
 msgid "Personal Pronouns"
-msgstr ""
+msgstr "Osobne zamjenice"
 
 #. i18n: ectx: property (text), widget (QLabel, pers1_label)
 #: src/settings/languagepropertiespage.ui:507
 #, kde-format
 msgid "&1. Person:"
-msgstr ""
+msgstr "&1. lice:"
 
 #. i18n: ectx: property (text), widget (QLabel, pers2_label)
 #: src/settings/languagepropertiespage.ui:543
 #, kde-format
 msgid "&2. Person:"
-msgstr ""
+msgstr "&2. lice:"
 
 #. i18n: ectx: property (text), widget (QLabel, pers3_label)
 #: src/settings/languagepropertiespage.ui:579
 #, kde-format
 msgid "3. Person:"
-msgstr ""
+msgstr "3. lice:"
 
 #. i18n: ectx: property (text), widget (QLabel, male_c_label)
 #: src/settings/languagepropertiespage.ui:589
 #, kde-format
 msgid "M&ale:"
-msgstr ""
+msgstr "M&uški:"
 
 #. i18n: ectx: property (text), widget (QLabel, female_c_label)
 #: src/settings/languagepropertiespage.ui:625
 #, kde-format
 msgid "F&emale:"
-msgstr ""
+msgstr "Ž&enski:"
 
 #. i18n: ectx: property (text), widget (QLabel, natural_c_label)
 #: src/settings/languagepropertiespage.ui:661
 #, kde-format
 msgid "Neu&ter:"
-msgstr ""
+msgstr "S&rednji:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
 #: src/settings/languagepropertiespage.ui:697
 #, kde-format
 msgid "Dual conjugations"
-msgstr ""
+msgstr "Dvostruke konjugacije"
 
 #. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
 #: src/settings/languagepropertiespage.ui:704
 #, kde-format
 msgid "A neutral conjugation form exists"
-msgstr ""
+msgstr "Postoji oblik konjugacije srednjeg roda"
 
 #. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
 #: src/settings/languagepropertiespage.ui:717
 #, kde-format
 msgid "Male/female have different conjugations"
-msgstr ""
+msgstr "Muški i ženski rod imaju različite oblike konjugacije"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: src/settings/languagepropertiespage.ui:725
 #: src/statistics/conjugationoptions.cpp:24
 #, kde-format
 msgid "Tenses"
-msgstr ""
+msgstr "Vremena"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/settings/languagepropertiespage.ui:752
 #: src/settings/optionlistform.ui:63
 #, kde-format
 msgid "&New..."
-msgstr ""
+msgstr "&Novo..."
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyButton)
 #: src/settings/languagepropertiespage.ui:765
 #: src/settings/optionlistform.ui:78
 #, kde-format
 msgid "&Modify..."
-msgstr ""
+msgstr "&Izmijeni..."
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: src/settings/languagepropertiespage.ui:778
 #: src/settings/optionlistform.ui:93
 #, kde-format
 msgid "&Delete"
-msgstr ""
+msgstr "&Izbriši"
 
 #. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:12 src/settings/languagesettings.kcfg:13
 #, kde-format
 msgid "Keyboard layout for this locale"
-msgstr ""
+msgstr "Raspored tipkovnice za ovaj jezik"
 
 #. i18n: ectx: label, entry (SpellChecker), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (SpellChecker), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:17 src/settings/languagesettings.kcfg:18
 #, kde-format
 msgid "Spell checker for this language"
-msgstr ""
+msgstr "Provjera pravopisa za ovaj jezik"
 
 #. i18n: ectx: label, entry (PracticeFont), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:32
 #, kde-format
 msgid "The font used during practice"
-msgstr ""
+msgstr "Font koji se upotrebljava tijekom vježbanja"
 
 #. i18n: ectx: label, entry (EditorFont), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:36
 #, kde-format
 msgid "The font used in the editor"
-msgstr ""
+msgstr "Font koji se upotrebljava u uređivaču"
 
 #. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
 #: src/settings/optionlistform.ui:124
 #, kde-format
 msgid "&Clean Up"
-msgstr ""
+msgstr "&Očisti"
 
 #. i18n: ectx: label, entry (Theme), group (General)
 #: src/settings/parley.kcfg:11
 #, kde-format
 msgid "Theme to use for practice and welcome screen"
-msgstr ""
+msgstr "Tema za vježbanje i pozdravni zaslon"
 
 #. i18n: ectx: label, entry (NumPreSetting), group (General)
 #: src/settings/parley.kcfg:15
 #, kde-format
 msgid "Number of stored setting profiles"
-msgstr ""
+msgstr "Broj spremljenih profila postavki"
 
 #. i18n: ectx: label, entry (SmartAppend), group (General)
 #: src/settings/parley.kcfg:19
 #, kde-format
 msgid ""
 "If true, when using the entry dialog, new rows will be appended as needed"
-msgstr ""
+msgstr "Ako je uključeno, u dijalogu za unos po potrebi će se dodavati novi retci"
 
 #. i18n: ectx: label, entry (Separator), group (General)
 #: src/settings/parley.kcfg:23
 #, kde-format
 msgid "This sets the separator used when copying/pasting text, default is Tab"
-msgstr ""
+msgstr "Određuje razdjelnik za kopiranje i lijepljenje teksta; zadani je Tab"
 
 #. i18n: ectx: label, entry (EntriesPerLesson), group (General)
 #: src/settings/parley.kcfg:27
 #, kde-format
 msgid "The number of entries per unit"
-msgstr ""
+msgstr "Broj unosa po jedinici"
 
 #. i18n: ectx: label, entry (AutoOpenLast), group (General)
 #: src/settings/parley.kcfg:31
 #, kde-format
 msgid "If true, on each application start the last opened file will be loaded"
-msgstr ""
+msgstr "Ako je uključeno, pri svakom pokretanju aplikacije učitat će se posljednja otvorena datoteka"
 
 #. i18n: ectx: label, entry (AutoSave), group (General)
 #: src/settings/parley.kcfg:35
 #, kde-format
 msgid "If true, vocabularies are automatically saved on close and exit"
-msgstr ""
+msgstr "Ako je uključeno, vokabulari se automatski spremaju pri zatvaranju i izlasku"
 
 #. i18n: ectx: label, entry (AutoBackup), group (General)
 #: src/settings/parley.kcfg:42
 #, kde-format
 msgid "If true, a backup is saved every BackupTime minutes"
-msgstr ""
+msgstr "Ako je uključeno, sigurnosna kopija sprema se svakih BackupTime minuta"
 
 #. i18n: ectx: label, entry (BackupTime), group (General)
 #: src/settings/parley.kcfg:46
 #, kde-format
 msgid "Time interval between two automatic backups"
-msgstr ""
+msgstr "Vremenski razmak između dviju automatskih sigurnosnih kopija"
 
 #. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
 #: src/settings/parley.kcfg:57
 #, kde-format
 msgid "Show images on the front of the flashcard."
-msgstr ""
+msgstr "Prikaži slike na prednjoj strani kartice."
 
 #. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
 #: src/settings/parley.kcfg:61
 #, kde-format
 msgid "Show images on the back of the flashcard."
-msgstr ""
+msgstr "Prikaži slike na poleđini kartice."
 
 #. i18n: ectx: label, entry (Block), group (PracticeOptions)
 #: src/settings/parley.kcfg:65
 #, kde-format
 msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
-msgstr ""
+msgstr "U dijalogu upita za blokiranje uključeni upit blokira se."
 
 #. i18n: ectx: label, entry (Expire), group (PracticeOptions)
 #: src/settings/parley.kcfg:69
@@ -3565,7 +3573,7 @@ msgstr ""
 msgid ""
 "In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
 "time"
-msgstr ""
+msgstr "U dijalogu upita za blokiranje uključeni upit prihvaća vrijeme isteka."
 
 #. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
 #: src/settings/parley.kcfg:73
@@ -3573,7 +3581,7 @@ msgstr ""
 msgid ""
 "Append new vocabulary in a collection in order of their units. Note that "
 "this will not be a hard transition, but a slow mix from one unit to the next."
-msgstr ""
+msgstr "Dodaj nove riječi u zbirku prema redoslijedu jedinica. Prijelaz neće biti nagao, nego će se riječi iz jedne jedinice postupno miješati s riječima iz sljedeće."
 
 #. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
 #: src/settings/parley.kcfg:77
@@ -3581,19 +3589,19 @@ msgstr ""
 msgid ""
 "The number of entries that are practiced at the same time. If one of these "
 "is answered correctly another entry will be appended."
-msgstr ""
+msgstr "Broj unosa koji se vježbaju istodobno. Ako je jedan od njih točno odgovoren, dodaje se drugi unos."
 
 #. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
 #: src/settings/parley.kcfg:81
 #, kde-format
 msgid "Swap direction randomly"
-msgstr ""
+msgstr "Nasumično zamijeni smjer"
 
 #. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
 #: src/settings/parley.kcfg:86
 #, kde-format
 msgid "Limit the time for the user to answer in a test."
-msgstr ""
+msgstr "Ograniči vrijeme za odgovor korisnika tijekom testa."
 
 #. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
 #: src/settings/parley.kcfg:90
@@ -3601,105 +3609,105 @@ msgstr ""
 msgid ""
 "Show - show the solution after the given time; Continue - go to the next "
 "question after the given time."
-msgstr ""
+msgstr "Prikaži – nakon zadanog vremena prikaži rješenje; Nastavi – nakon zadanog vremena prijeđi na sljedeće pitanje."
 
 #. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
 #: src/settings/parley.kcfg:98
 #, kde-format
 msgid "Maximum time allowed to answer."
-msgstr ""
+msgstr "Najdulje dopušteno vrijeme za odgovor."
 
 #. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
 #: src/settings/parley.kcfg:103
 #, kde-format
 msgid "Enable suggestion lists in written practice."
-msgstr ""
+msgstr "Omogući popise prijedloga tijekom pisanog vježbanja."
 
 #. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
 #: src/settings/parley.kcfg:107
 #, kde-format
 msgid "Enable the showing of hints."
-msgstr ""
+msgstr "Omogući prikaz pomoći."
 
 #. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:111
 #, kde-format
 msgid "Count answers as right when only the accentuation is wrong."
-msgstr ""
+msgstr "Odgovori se smatraju točnima ako je pogrešan samo naglasak."
 
 #. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:115
 #, kde-format
 msgid "Count answers as right when only the capitalization is wrong."
-msgstr ""
+msgstr "Odgovori se smatraju točnima ako su pogrešna samo velika i mala slova."
 
 #. i18n: ectx: label, entry (IgnorePunctuationMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:119
 #, kde-format
 msgid "Count answers as right when only the punctuation is wrong."
-msgstr ""
+msgstr "Odgovori se smatraju točnima ako je pogrešna samo interpunkcija."
 
 #. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
 #: src/settings/parley.kcfg:124
 #, kde-format
 msgid "Split translations in written practice."
-msgstr ""
+msgstr "Razdijeli prijevode tijekom pisanog vježbanja."
 
 #. i18n: ectx: label, entry (Periods), group (PracticeOptions)
 #: src/settings/parley.kcfg:128
 #, kde-format
 msgid "Split translations at periods."
-msgstr ""
+msgstr "Razdvoji prijevode na točkama."
 
 #. i18n: ectx: label, entry (Colons), group (PracticeOptions)
 #: src/settings/parley.kcfg:132
 #, kde-format
 msgid "Split translations at colons."
-msgstr ""
+msgstr "Razdvoji prijevode na dvotočkama."
 
 #. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
 #: src/settings/parley.kcfg:136
 #, kde-format
 msgid "Split translations at semicolons."
-msgstr ""
+msgstr "Razdvoji prijevode na točkama sa zarezom."
 
 #. i18n: ectx: label, entry (Commas), group (PracticeOptions)
 #: src/settings/parley.kcfg:140
 #, kde-format
 msgid "Split translations at commas."
-msgstr ""
+msgstr "Razdvoji prijevode na zarezima."
 
 #. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
 #: src/settings/parley.kcfg:146
 #, kde-format
 msgid ""
 "Enable Show More button to reveal parts of the solution in written practice."
-msgstr ""
+msgstr "Omogući gumb „Prikaži više” za otkrivanje dijelova rješenja tijekom pisanog vježbanja."
 
 #. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:150
 #, kde-format
 msgid "Enable Skip (I Know It) button in written practice."
-msgstr ""
+msgstr "Omogući gumb „Preskoči (Znam)” tijekom pisanog vježbanja."
 
 #. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
 #: src/settings/parley.kcfg:154
 #, kde-format
 msgid ""
 "When the synonym instead of the word was entered, does it count as correct?"
-msgstr ""
+msgstr "Smatra li se odgovor točnim kada se unese sinonim umjesto tražene riječi?"
 
 #. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:158
 #, kde-format
 msgid "Enable image display in the practice dialogs."
-msgstr ""
+msgstr "Omogući prikaz slika u dijalozima vježbanja."
 
 #. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:162
 #, kde-format
 msgid "Enable sound playback in the practice dialogs."
-msgstr ""
+msgstr "Omogući reprodukciju zvuka u dijalozima vježbanja."
 
 #. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
 #: src/settings/parley.kcfg:166
@@ -3707,14 +3715,14 @@ msgstr ""
 msgid ""
 "Allow using images instead of words in flashcards. This will only be done if "
 "there is no word in the entry."
-msgstr ""
+msgstr "Omogući upotrebu slika umjesto riječi na karticama. To se primjenjuje samo ako unos ne sadrži riječ."
 
 #. i18n: ectx: label, entry (SessionMaxSize), group (PracticeOptions)
 #: src/settings/parley.kcfg:172
 #, kde-format
 msgid ""
 "The maximum number of words that will be practiced in a training session."
-msgstr ""
+msgstr "Najveći broj riječi koje će se vježbati tijekom jedne sesije."
 
 #. i18n: ectx: label, entry (SessionMaxNewWords), group (PracticeOptions)
 #: src/settings/parley.kcfg:176
@@ -3722,13 +3730,13 @@ msgstr ""
 msgid ""
 "The maximum number of new (untrained) words that will be used in a training "
 "session."
-msgstr ""
+msgstr "Najveći broj novih (nevježbanih) riječi koje će se upotrijebiti tijekom sesije vježbanja."
 
 #. i18n: ectx: label, entry (SessionLimitWordsInitialPhase), group (PracticeOptions)
 #: src/settings/parley.kcfg:180
 #, kde-format
 msgid "Limit the number of words in the initial phase."
-msgstr ""
+msgstr "Ograniči broj riječi u početnoj fazi."
 
 #. i18n: ectx: label, entry (SessionMaxWordsInitialPhase), group (PracticeOptions)
 #: src/settings/parley.kcfg:184
@@ -3736,7 +3744,7 @@ msgstr ""
 msgid ""
 "The maximum number of words in the initial phase. If this limit is exceeded, "
 "no new words will be introduced."
-msgstr ""
+msgstr "Najveći broj riječi u početnoj fazi. Ako se premaši, neće se uvoditi nove riječi."
 
 #. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
 #: src/settings/parley.kcfg:190
@@ -3744,7 +3752,7 @@ msgstr ""
 msgid ""
 "Use the same word type as the solution for the incorrect answers in a "
 "multiple choice practice."
-msgstr ""
+msgstr "Za netočne odgovore pri vježbi s višestrukim izborom koristi istu vrstu riječi kao u rješenju."
 
 #. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
 #: src/settings/parley.kcfg:194
@@ -3752,86 +3760,86 @@ msgstr ""
 msgid ""
 "How many answers are provided for a multiple choice question, including the "
 "correct answer."
-msgstr ""
+msgstr "Broj ponuđenih odgovora za pitanje s višestrukim izborom, uključujući točan odgovor."
 
 #. i18n: ectx: label, entry (ShowSearch), group (Appearance)
 #: src/settings/parley.kcfg:201
 #, kde-format
 msgid "Toggle display of the search bar."
-msgstr ""
+msgstr "Uključi/isključi prikaz trake za pretraživanje."
 
 #. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
 #: src/settings/parley.kcfg:206
 #, kde-format
 msgid "When enabled a unit also shows entries from its subunits."
-msgstr ""
+msgstr "Kada je uključeno, jedinica prikazuje i unose iz svojih podjedinica."
 
 #. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
 #: src/settings/parley.kcfg:211
 #, kde-format
 msgid "Show/hide the unit column."
-msgstr ""
+msgstr "Prikaži/sakrij stupac jedinice."
 
 #. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
 #: src/settings/parley.kcfg:216
 #, kde-format
 msgid "Show/hide the active column."
-msgstr ""
+msgstr "Prikaži/sakrij stupac aktivnog stanja."
 
 #. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
 #: src/settings/parley.kcfg:221
 #, kde-format
 msgid "Select which units are displayed for editing"
-msgstr ""
+msgstr "Odaberi jedinice koje će se prikazivati pri uređivanju"
 
 #. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
 #: src/settings/parley.kcfg:231
 #, kde-format
 msgid "How the main window is divided."
-msgstr ""
+msgstr "Način podjele glavnog prozora."
 
 #. i18n: ectx: label, entry (PracticeFont), group (Appearance)
 #: src/settings/parley.kcfg:235
 #, kde-format
 msgid "The font used in the vocabulary table"
-msgstr ""
+msgstr "Font za tablicu vokabulara"
 
 #. i18n: ectx: label, entry (IPAFont), group (Appearance)
 #: src/settings/parley.kcfg:239
 #, kde-format
 msgid "The font used for phonetics"
-msgstr ""
+msgstr "Font za fonetski zapis"
 
 #. i18n: ectx: label, entry (CurrentCol), group (Appearance)
 #: src/settings/parley.kcfg:243
 #, kde-format
 msgid "Currently selected column"
-msgstr ""
+msgstr "Trenutačno odabrani stupac"
 
 #. i18n: ectx: label, entry (CurrentRow), group (Appearance)
 #: src/settings/parley.kcfg:247
 #, kde-format
 msgid "Currently selected row"
-msgstr ""
+msgstr "Trenutačno odabrani redak"
 
 #. i18n: ectx: label, entry (GradeColor), group (Appearance)
 #: src/settings/parley.kcfg:251
 #, kde-format
 msgid "Color used to display the confidence levels"
-msgstr ""
+msgstr "Boja za prikaz razina pouzdanosti"
 
 #. i18n: ectx: label, entry (PreGradeColor), group (Appearance)
 #: src/settings/parley.kcfg:255
 #, kde-format
 msgid "Color used to display the early confidence levels"
-msgstr ""
+msgstr "Boja za prikaz ranih razina pouzdanosti"
 
 #. i18n: ectx: label, entry (InvalidUnitColor), group (Appearance)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_InvalidUnitColor)
 #: src/settings/parley.kcfg:259 src/settings/viewoptionsbase.ui:184
 #, kde-format
 msgid "Color used to display invalid units"
-msgstr ""
+msgstr "Boja za prikaz nevaljanih jedinica"
 
 #. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
 #: src/settings/parley.kcfg:267
@@ -3839,7 +3847,7 @@ msgstr ""
 msgid ""
 "The entry must have been asked at least this often to be included in the "
 "practice."
-msgstr ""
+msgstr "Unos mora biti postavljen najmanje ovoliko puta da bi bio uključen u vježbu."
 
 #. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
 #: src/settings/parley.kcfg:271
@@ -3847,7 +3855,7 @@ msgstr ""
 msgid ""
 "The entry must have been asked at most this often to be included in the "
 "practice."
-msgstr ""
+msgstr "Unos smije biti postavljen najviše ovoliko puta da bi bio uključen u vježbu."
 
 #. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
 #: src/settings/parley.kcfg:276
@@ -3855,7 +3863,7 @@ msgstr ""
 msgid ""
 "The entry must have been answered incorrectly at least this often to be "
 "included in the practice."
-msgstr ""
+msgstr "Na pitanje za unos mora se netočno odgovoriti najmanje ovoliko puta da bi bio uključen u vježbu."
 
 #. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
 #: src/settings/parley.kcfg:280
@@ -3863,7 +3871,7 @@ msgstr ""
 msgid ""
 "The entry must have been answered incorrectly at most this often to be "
 "included in the practice."
-msgstr ""
+msgstr "Na pitanje za unos smije se netočno odgovoriti najviše ovoliko puta da bi bio uključen u vježbu."
 
 #. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
 #: src/settings/parley.kcfg:285
@@ -3871,7 +3879,7 @@ msgstr ""
 msgid ""
 "The entry must have at least this confidence level to be included in the "
 "practice (0..7)."
-msgstr ""
+msgstr "Unos mora imati najmanje ovu razinu pouzdanosti da bi bio uključen u vježbu (0–7)."
 
 #. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
 #: src/settings/parley.kcfg:289
@@ -3879,169 +3887,169 @@ msgstr ""
 msgid ""
 "The entry must have at most this confidence level to be included in the "
 "practice (0..7)."
-msgstr ""
+msgstr "Unos smije imati najviše ovu razinu pouzdanosti da bi bio uključen u vježbu (0–7)."
 
 #. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
 #: src/settings/parley.kcfg:293
 #, kde-format
 msgid "Only selected word types will be included in practice."
-msgstr ""
+msgstr "U vježbu će se uključiti samo odabrane vrste riječi."
 
 #. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
 #: src/settings/parley.kcfg:297 src/settings/parley.kcfg:298
 #, kde-format
 msgid "Selected word types for practices."
-msgstr ""
+msgstr "Odabrane vrste riječi za vježbe."
 
 #. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
 #: src/settings/parley.kcfg:301 src/settings/parley.kcfg:302
 #, kde-format
 msgid "Selected sub word types for practices."
-msgstr ""
+msgstr "Odabrane podvrste riječi za vježbe."
 
 #. i18n: ectx: label, entry (LearningLanguage), group (PracticeManager)
 #: src/settings/parley.kcfg:309
 #, kde-format
 msgid "The language that you are learning."
-msgstr ""
+msgstr "Jezik koji učite."
 
 #. i18n: ectx: label, entry (KnownLanguage), group (PracticeManager)
 #: src/settings/parley.kcfg:313
 #, kde-format
 msgid "The language that you know already."
-msgstr ""
+msgstr "Jezik koji već znate."
 
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
 #: src/settings/parley.kcfg:318
 #, kde-format
 msgid "Show the solution after an answer was given."
-msgstr ""
+msgstr "Prikaži rješenje nakon odgovora."
 
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
 #: src/settings/parley.kcfg:322
 #, kde-format
 msgid "The time the solution is shown (seconds). 0 is unlimited."
-msgstr ""
+msgstr "Vrijeme prikaza rješenja u sekundama. 0 znači neograničeno."
 
 #. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
 #: src/settings/parley.kcfg:337
 #, kde-format
 msgid "The practice method that is currently selected."
-msgstr ""
+msgstr "Trenutačno odabrana metoda vježbanja."
 
 #. i18n: ectx: label, entry (PracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:348
 #, kde-format
 msgid "The practice mode that is currently selected."
-msgstr ""
+msgstr "Trenutačno odabrani način vježbanja."
 
 #. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
 #: src/settings/parley.kcfg:354
 #, kde-format
 msgid "Amount of time different confidence levels should be blocked"
-msgstr ""
+msgstr "Koliko dugo treba blokirati različite razine pouzdanosti"
 
 #. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
 #: src/settings/parley.kcfg:365
 #, kde-format
 msgid "Amount of time after which different confidence levels should expire"
-msgstr ""
+msgstr "Nakon koliko vremena istječu različite razine pouzdanosti"
 
 #. i18n: ectx: label, entry (RememberPracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:375
 #, kde-format
 msgid "If true, the practice direction for each practice mode is stored."
-msgstr ""
+msgstr "Ako je uključeno, smjer vježbanja za svaki način vježbanja pohranjuje se."
 
 #. i18n: ectx: whatsthis, entry (RememberPracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:376
 #, kde-format
 msgid "Should the practice direction for each practice mode be stored?"
-msgstr ""
+msgstr "Treba li pohraniti smjer vježbanja za svaki način vježbanja?"
 
 #. i18n: ectx: label, entry (PracticeDirectionsByPracticeMode), group (PracticeManager)
 #. i18n: ectx: whatsthis, entry (PracticeDirectionsByPracticeMode), group (PracticeManager)
 #: src/settings/parley.kcfg:380 src/settings/parley.kcfg:381
 #, kde-format
 msgid "Stored values of practice direction for each practice mode."
-msgstr ""
+msgstr "Pohranjene vrijednosti smjera vježbanja za svaki način vježbanja."
 
 #. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
 #: src/settings/parley.kcfg:387
 #, kde-format
 msgid "The Providers path for Parley"
-msgstr ""
+msgstr "Putanja pružatelja usluga za Parley"
 
 #. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
 #: src/settings/parley.kcfg:391
 #, kde-format
 msgid "The command used to start a downloaded vocabulary"
-msgstr ""
+msgstr "Naredba za pokretanje preuzete zbirke vokabulara"
 
 #. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
 #: src/settings/parley.kcfg:395
 #, kde-format
 msgid "The folder where downloaded vocabularies are saved by default"
-msgstr ""
+msgstr "Mapa u koju se prema zadanim postavkama spremaju preuzeti vokabulari"
 
 #: src/settings/parleyprefs.cpp:24
 #, kde-format
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: src/settings/parleyprefs.cpp:27
 #, kde-format
 msgctxt "title:window general settings"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: src/settings/parleyprefs.cpp:27
 #, kde-format
 msgid "General Settings"
-msgstr ""
+msgstr "Opće postavke"
 
 #: src/settings/parleyprefs.cpp:30
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #: src/settings/parleyprefs.cpp:30
 #, kde-format
 msgid "View Settings"
-msgstr ""
+msgstr "Postavke prikaza"
 
 #: src/settings/parleyprefs.cpp:33
 #, kde-format
 msgid "Online Translations"
-msgstr ""
+msgstr "Mrežni prijevodi"
 
 #: src/settings/parleyprefs.cpp:33
 #, kde-format
 msgid "Online Translation Services"
-msgstr ""
+msgstr "Mrežne usluge za prevođenje"
 
 #: src/settings/translationshelloptions.cpp:22
 #, kde-format
 msgid "translate-shell is available."
-msgstr ""
+msgstr "translate-shell je dostupan."
 
 #: src/settings/translationshelloptions.cpp:25
 #, kde-format
 msgid "translate-shell executable could not be found."
-msgstr ""
+msgstr "Nije moguće pronaći izvršnu datoteku translate-shell."
 
 #: src/settings/translationshelloptions.cpp:40
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxInstalledStatus)
 #: src/settings/translationshellpage.ui:18
 #, kde-format
 msgid "Translation Shell Integration"
-msgstr ""
+msgstr "Integracija s translate-shellom"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/settings/translationshellpage.ui:36
@@ -4049,13 +4057,13 @@ msgstr ""
 msgid ""
 "Parley provides access to translation webservices via utilizing the "
 "\"translate-shell\" tool."
-msgstr ""
+msgstr "Parley omogućuje pristup mrežnim prevoditeljskim uslugama putem alata „translate-shell”."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/translationshellpage.ui:52
 #, kde-format
 msgid "Run Interactive Functionality Test"
-msgstr ""
+msgstr "Pokreni interaktivni test funkcionalnosti"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/settings/translationshellpage.ui:58
@@ -4063,25 +4071,25 @@ msgstr ""
 msgid ""
 "The interaction test request translation of English word \"parley\" into "
 "German."
-msgstr ""
+msgstr "Test interakcije zatražit će prijevod engleske riječi „parley” na njemački."
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonRunTest)
 #: src/settings/translationshellpage.ui:68
 #, kde-format
 msgid "Start online test"
-msgstr ""
+msgstr "Pokreni mrežni test"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/settings/translationshellpage.ui:88
 #, kde-format
 msgid "Result:"
-msgstr ""
+msgstr "Rezultat:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelResultArea)
 #: src/settings/translationshellpage.ui:101
 #, kde-format
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
 #: src/settings/viewoptionsbase.ui:41
@@ -4089,31 +4097,31 @@ msgstr ""
 msgid ""
 "Specify which font to use for displaying pronunciations using phonetic "
 "symbols."
-msgstr ""
+msgstr "Odredite font za prikaz izgovora fonetskim simbolima."
 
 #. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
 #: src/settings/viewoptionsbase.ui:48
 #, kde-format
 msgid "&Pronunciation symbols font:"
-msgstr ""
+msgstr "&Font za simbole izgovora:"
 
 #. i18n: ectx: property (text), widget (QLabel, gradeColorLabel)
 #: src/settings/viewoptionsbase.ui:77
 #, kde-format
 msgid "Base color for displaying grades:"
-msgstr ""
+msgstr "Osnovna boja za prikaz ocjena:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:96
 #, kde-format
 msgid "Color used to display the progress"
-msgstr ""
+msgstr "Boja za prikaz napretka"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:99
 #, kde-format
 msgid "Click here to change the color used to display the progress."
-msgstr ""
+msgstr "Kliknite ovdje za promjenu boje prikaza napretka."
 
 #. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor)
 #. i18n: ectx: property (text), widget (KColorButton, kcfg_PreGradeColor)
@@ -4122,193 +4130,193 @@ msgstr ""
 #: src/settings/viewoptionsbase.ui:190
 #, kde-format
 msgid "&Base"
-msgstr ""
+msgstr "&Osnovno"
 
 #. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:105
 #, kde-format
 msgid "Alt+0"
-msgstr ""
+msgstr "Alt+0"
 
 #. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
 #: src/settings/viewoptionsbase.ui:121
 #, kde-format
 msgid "Color for displaying early progress:"
-msgstr ""
+msgstr "Boja za prikaz ranog napretka:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:140
 #, kde-format
 msgid "Color used to display the early progress"
-msgstr ""
+msgstr "Boja za prikaz ranog napretka"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:143
 #, kde-format
 msgid "Click here to change the color used to display the early progress."
-msgstr ""
+msgstr "Kliknite ovdje za promjenu boje prikaza ranog napretka."
 
 #. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:149
 #, kde-format
 msgid "Alt+1"
-msgstr ""
+msgstr "Alt+1"
 
 #. i18n: ectx: property (text), widget (QLabel, invalidUnitColorLabel)
 #: src/settings/viewoptionsbase.ui:165
 #, kde-format
 msgid "Color used to display the grades:"
-msgstr ""
+msgstr "Boja za prikaz ocjena:"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_InvalidUnitColor)
 #: src/settings/viewoptionsbase.ui:187
 #, kde-format
 msgid "Click here to change the color used to display invalid units."
-msgstr ""
+msgstr "Kliknite ovdje za promjenu boje prikaza nevaljanih jedinica."
 
 #. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_InvalidUnitColor)
 #: src/settings/viewoptionsbase.ui:193
 #, kde-format
 msgid "Alt+2"
-msgstr ""
+msgstr "Alt+2"
 
 #: src/statistics/lessonstatisticsview.cpp:76
 #: src/statistics/lessonstatisticsview.cpp:78
 #, kde-format
 msgid "Remove confidence levels from this unit"
-msgstr ""
+msgstr "Ukloni razine pouzdanosti iz ove jedinice"
 
 #: src/statistics/lessonstatisticsview.cpp:86
 #, kde-format
 msgid "Remove confidence levels from this unit and all sub-units"
-msgstr ""
+msgstr "Ukloni razine pouzdanosti iz ove jedinice i svih podjedinica"
 
 #: src/statistics/lessonstatisticsview.cpp:88
 #, kde-format
 msgid "Remove confidence level from this unit and all sub-units"
-msgstr ""
+msgstr "Ukloni razinu pouzdanosti iz ove jedinice i svih podjedinica"
 
 #: src/statistics/statisticslegendwidget.cpp:29
 #, kde-format
 msgid "Progress gradients"
-msgstr ""
+msgstr "Gradijenti napretka"
 
 #: src/statistics/statisticslegendwidget.cpp:30
 #, kde-format
 msgid "Early progress"
-msgstr ""
+msgstr "Rani napredak"
 
 #: src/statistics/statisticslegendwidget.cpp:31
 #, kde-format
 msgid "Not Practiced"
-msgstr ""
+msgstr "Nije vježbano"
 
 #: src/statistics/statisticslegendwidget.cpp:32
 #, kde-format
 msgid "Invalid Entries"
-msgstr ""
+msgstr "Nevaljani unosi"
 
 #: src/statistics/statisticslegendwidget.cpp:48
 #, kde-format
 msgctxt "adjective, The word has been properly and fully learned by the user"
 msgid "Fully learned"
-msgstr ""
+msgstr "Potpuno naučena"
 
 #: src/statistics/statisticslegendwidget.cpp:49
 #, kde-format
 msgctxt "adjective, The word has not even been practiced once by the user"
 msgid "Not practiced"
-msgstr ""
+msgstr "Nije vježbana"
 
 #: src/statistics/statisticsmainwindow.cpp:192
 #, kde-format
 msgid "Known to Learning"
-msgstr ""
+msgstr "Poznati jezik → jezik koji se uči"
 
 #: src/statistics/statisticsmainwindow.cpp:193
 #, kde-format
 msgid "Learning to Known"
-msgstr ""
+msgstr "Jezik koji se uči → poznati jezik"
 
 #: src/statistics/statisticsmainwindow.cpp:194
 #, kde-format
 msgid "Mixed Directions"
-msgstr ""
+msgstr "Miješani smjerovi"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/statistics/statisticsmainwindow.ui:29
 #, kde-format
 msgid "Language to Learn"
-msgstr ""
+msgstr "Jezik koji se uči"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/statistics/statisticsmainwindow.ui:39
 #, kde-format
 msgid "Known Language"
-msgstr ""
+msgstr "Poznati jezik"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeMode)
 #: src/statistics/statisticsmainwindow.ui:75
 #, kde-format
 msgid "Practice Mode"
-msgstr ""
+msgstr "Način vježbanja"
 
 #. i18n: ectx: property (text), widget (QRadioButton, flashCard)
 #: src/statistics/statisticsmainwindow.ui:81
 #, kde-format
 msgid "Flash Cards"
-msgstr ""
+msgstr "Kartice"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mixedLetters)
 #: src/statistics/statisticsmainwindow.ui:91
 #, kde-format
 msgid "Mixed &Letters"
-msgstr ""
+msgstr "Izmiješana &slova"
 
 #. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
 #: src/statistics/statisticsmainwindow.ui:98
 #, kde-format
 msgid "M&ultiple Choice"
-msgstr ""
+msgstr "Višestruki &izbor"
 
 #. i18n: ectx: property (text), widget (QRadioButton, written)
 #: src/statistics/statisticsmainwindow.ui:105
 #, kde-format
 msgid "Wri&tten"
-msgstr ""
+msgstr "P&isanje"
 
 #. i18n: ectx: property (text), widget (QRadioButton, exampleSentence)
 #: src/statistics/statisticsmainwindow.ui:115
 #, kde-format
 msgid "E&xample Sentences"
-msgstr ""
+msgstr "&Primjeri rečenica"
 
 #. i18n: ectx: property (text), widget (QRadioButton, gender)
 #: src/statistics/statisticsmainwindow.ui:125
 #, kde-format
 msgid "&Gender of Nouns"
-msgstr ""
+msgstr "&Rod imenica"
 
 #. i18n: ectx: property (text), widget (QRadioButton, conjugations)
 #: src/statistics/statisticsmainwindow.ui:145
 #, kde-format
 msgid "Co&njugations"
-msgstr ""
+msgstr "Ko&njugacije"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeDirection)
 #: src/statistics/statisticsmainwindow.ui:191
 #, kde-format
 msgid "Practice Direction"
-msgstr ""
+msgstr "Smjer vježbanja"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rememberPracticeDirection)
 #: src/statistics/statisticsmainwindow.ui:200
 #, kde-format
 msgid "Remember for each Practice Mode"
-msgstr ""
+msgstr "Zapamti za svaki način vježbanja"
 
 #: src/statistics/statisticsmodel.cpp:26
 #, kde-format
 msgctxt "Confidence level in language, table header"
 msgid "Confidence (%1)"
-msgstr ""
+msgstr "Pouzdanost (%1)"

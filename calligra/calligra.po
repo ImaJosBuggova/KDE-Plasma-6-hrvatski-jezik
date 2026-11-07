@@ -44,12 +44,12 @@ msgstr "Ukloni grupu"
 #: basicflakes/tools/KoCreatePathTool.cpp:442
 #, kde-format
 msgid "Angle snapping delta:"
-msgstr ""
+msgstr "Kutni korak privlačenja:"
 
 #: basicflakes/tools/KoCreatePathTool.cpp:449
 #, kde-format
 msgid "Activate angle snap:"
-msgstr ""
+msgstr "Aktiviraj kutno privlačenje:"
 
 #: basicflakes/tools/KoCreatePathTool.cpp:457
 #, fuzzy, kde-format
@@ -73,7 +73,7 @@ msgstr "Položaj"
 #, kde-format
 msgctxt "The raw line data"
 msgid "Raw"
-msgstr ""
+msgstr "Neobrađeno"
 
 #: basicflakes/tools/KoPencilTool.cpp:279
 #: flake/KoConnectionShapeConfigWidget.cpp:20
@@ -91,18 +91,18 @@ msgstr "Jednostruko"
 #: basicflakes/tools/KoPencilTool.cpp:295
 #, kde-format
 msgid "Optimize"
-msgstr ""
+msgstr "Optimiziraj"
 
 #: basicflakes/tools/KoPencilTool.cpp:301
 #, kde-format
 msgid "Exactness:"
-msgstr ""
+msgstr "Preciznost:"
 
 #: basicflakes/tools/KoPencilTool.cpp:334
 #: basicflakes/tools/KoPencilTool.cpp:335
 #, kde-format
 msgid "Pencil"
-msgstr ""
+msgstr "Olovka"
 
 #: flake/commands/KoConnectionShapeTypeCommand.cpp:17
 #, fuzzy
@@ -145,7 +145,7 @@ msgstr "Margine"
 #: flake/commands/KoPathFillRuleCommand.cpp:33
 msgctxt "(qtundo-format)"
 msgid "Set fill rule"
-msgstr ""
+msgstr "Postavi pravilo ispune"
 
 #: flake/commands/KoPathPointInsertCommand.cpp:70
 #, fuzzy
@@ -274,12 +274,12 @@ msgstr "Trenutni odjeljak"
 #: flake/commands/KoShapeGroupCommand.cpp:87
 msgctxt "(qtundo-format)"
 msgid "Add shapes to group"
-msgstr ""
+msgstr "Dodaj oblike u grupu"
 
 #: flake/commands/KoShapeKeepAspectRatioCommand.cpp:17
 msgctxt "(qtundo-format)"
 msgid "Keep Aspect Ratio"
-msgstr ""
+msgstr "Zadrži omjer stranica"
 
 #: flake/commands/KoShapeLockCommand.cpp:23
 #, fuzzy
@@ -339,7 +339,7 @@ msgstr "Ukloni tekst"
 #: flake/commands/KoShapeStrokeCommand.cpp:91
 msgctxt "(qtundo-format)"
 msgid "Set stroke"
-msgstr ""
+msgstr "Postavi obris"
 
 #: flake/commands/KoShapeTransparencyCommand.cpp:33
 #: flake/commands/KoShapeTransparencyCommand.cpp:44
@@ -390,7 +390,7 @@ msgstr "Ukloni grupu"
 #: flake/KoConnectionShapeConfigWidget.cpp:17
 #, kde-format
 msgid "Standard"
-msgstr ""
+msgstr "Standardno"
 
 #: flake/KoConnectionShapeConfigWidget.cpp:18
 #, kde-format
@@ -415,7 +415,7 @@ msgstr "Vrijeme"
 #: flake/KoConnectionShapeFactory.cpp:24
 #, kde-format
 msgid "A connection between two other shapes"
-msgstr ""
+msgstr "Veza između dvaju drugih oblika"
 
 #: flake/KoGridData.cpp:206
 #, fuzzy, kde-format
@@ -472,19 +472,19 @@ msgstr "Čvorovi"
 #: flake/SnapGuideConfigWidget.ui:43
 #, kde-format
 msgid "Extension of lines"
-msgstr ""
+msgstr "Produžetak linija"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, boundingBoxSnapGuide)
 #: flake/SnapGuideConfigWidget.ui:56
 #, kde-format
 msgid "Bounding box of shape"
-msgstr ""
+msgstr "Granični okvir oblika"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, snapDistance)
 #: flake/SnapGuideConfigWidget.ui:72
 #, kde-format
 msgid "Proximity distance where snapping happens"
-msgstr ""
+msgstr "Udaljenost unutar koje se točke privlače"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, snapDistance)
 #: flake/SnapGuideConfigWidget.ui:75
@@ -496,13 +496,13 @@ msgstr " px"
 #: flake/SnapGuideConfigWidget.ui:85
 #, kde-format
 msgid "Orthogonal"
-msgstr ""
+msgstr "Ortogonalno"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, intersectionSnapGuide)
 #: flake/SnapGuideConfigWidget.ui:98
 #, kde-format
 msgid "Intersection of lines"
-msgstr ""
+msgstr "Sjecište linija"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, lineGuideSnapGuide)
 #: flake/SnapGuideConfigWidget.ui:111
@@ -513,7 +513,7 @@ msgstr "Linija zaglavlja:"
 #: flake/svg/SvgShapeFactory.cpp:23
 #, kde-format
 msgid "Embedded svg shape"
-msgstr ""
+msgstr "Ugrađeni SVG oblik"
 
 #: flake/tools/KoCreateShapesToolFactory.cpp:16
 #, fuzzy, kde-format
@@ -523,7 +523,7 @@ msgstr "Stvori dokument"
 #: flake/tools/KoPanToolFactory.cpp:17
 #, kde-format
 msgid "Pan"
-msgstr ""
+msgstr "Pomicanje platna"
 
 #: flake/tools/KoPathSegmentChangeStrategy.cpp:127
 #, fuzzy
@@ -544,7 +544,7 @@ msgstr "Ukloni vezu"
 #: flake/tools/KoPathTool.cpp:105
 #, kde-format
 msgid "Symmetric Point"
-msgstr ""
+msgstr "Simetrična točka"
 
 #: flake/tools/KoPathTool.cpp:110
 #, fuzzy, kde-format
@@ -584,12 +584,12 @@ msgstr "Margine"
 #: flake/tools/KoPathTool.cpp:142
 #, kde-format
 msgid "Break at segment"
-msgstr ""
+msgstr "Prekini na segmentu"
 
 #: flake/tools/KoPathTool.cpp:146
 #, kde-format
 msgid "Join with segment"
-msgstr ""
+msgstr "Spoji segmentom"
 
 #: flake/tools/KoPathTool.cpp:151
 #, kde-format
@@ -614,7 +614,7 @@ msgstr "Margine"
 #: flake/tools/KoPathTool.cpp:586
 #, kde-format
 msgid "Drag to move point. Shift click to change point type."
-msgstr ""
+msgstr "Povucite za pomicanje točke. Shift-klikom mijenjate vrstu točke."
 
 #: flake/tools/KoPathTool.cpp:588
 #, fuzzy, kde-format
@@ -624,7 +624,7 @@ msgstr "Margine"
 #: flake/tools/KoPathTool.cpp:613
 #, kde-format
 msgid "Drag to change curve directly. Double click to insert new path point."
-msgstr ""
+msgstr "Povucite za izravnu promjenu krivulje. Dvostrukim klikom umećete novu točku putanje."
 
 #: flake/tools/KoPathTool.cpp:620
 #, fuzzy, kde-format
@@ -634,7 +634,7 @@ msgstr "Margine"
 #: flake/tools/KoPathTool.cpp:622
 #, kde-format
 msgid "Press B to break path at selected segments."
-msgstr ""
+msgstr "Pritisnite B za prekid putanje na odabranim segmentima."
 
 #: flake/tools/KoPathToolFactory.cpp:17
 #, fuzzy, kde-format
@@ -645,19 +645,19 @@ msgstr "Usm&jerenje djeljenja"
 #: widgets/KoZoomWidget.cpp:52
 #, kde-format
 msgid "Zoom"
-msgstr ""
+msgstr "Zumiranje"
 
 #. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
 #: flake/tools/KoZoomToolWidget.ui:20
 #, kde-format
 msgid "Zoom In"
-msgstr ""
+msgstr "Povećaj"
 
 #. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
 #: flake/tools/KoZoomToolWidget.ui:30
 #, kde-format
 msgid "Zoom Out"
-msgstr ""
+msgstr "Umanji"
 
 #. i18n: ectx: property (text), widget (QToolButton, corner)
 #. i18n: ectx: property (text), widget (QToolButton, smooth)
@@ -732,7 +732,7 @@ msgstr "Ponovi: %1"
 #: kundo2/kundo2model.cpp:54
 #, kde-format
 msgid "<empty>"
-msgstr ""
+msgstr "<prazno>"
 
 #: kundo2/kundo2stack.cpp:1409 main/KoMainWindow.cpp:1434
 #: main/KoUndoStackAction.cpp:33
@@ -776,12 +776,12 @@ msgstr "Nema vrijednost"
 #, kde-format
 msgctxt "unit symbol for minutes, leading space as separator"
 msgid " min"
-msgstr ""
+msgstr " min"
 
 #: main/config/KoConfigDocumentPage.cpp:65
 #, kde-format
 msgid "Autosave interval:"
-msgstr ""
+msgstr "Razmak između automatskih spremanja:"
 
 #: main/config/KoConfigDocumentPage.cpp:69
 #, fuzzy, kde-format
@@ -831,12 +831,12 @@ msgstr "Jedinica:"
 #: main/config/KoConfigMiscPage.cpp:85
 #, kde-format
 msgid "Handle radius:"
-msgstr ""
+msgstr "Polumjer ručke:"
 
 #: main/config/KoConfigMiscPage.cpp:92
 #, kde-format
 msgid "Grab sensitivity:"
-msgstr ""
+msgstr "Osjetljivost hvatanja:"
 
 #: main/config/KoConfigMiscPage.cpp:99
 #, fuzzy, kde-format
@@ -848,7 +848,7 @@ msgstr "Rubovi strane"
 #, kde-format
 msgctxt "@option:check"
 msgid "Paste at Cursor"
-msgstr ""
+msgstr "Zalijepi na pokazivač"
 
 #: main/KoApplication.cpp:194
 #, kde-format
@@ -858,17 +858,17 @@ msgstr "Samo ispišite i završite"
 #: main/KoApplication.cpp:196
 #, kde-format
 msgid "Open a new document based on the given template (desktopfile name)"
-msgstr ""
+msgstr "Otvori novi dokument na temelju zadanog predloška (naziv desktop datoteke)"
 
 #: main/KoApplication.cpp:197
 #, kde-format
 msgid "Open a new document based on the given template file"
-msgstr ""
+msgstr "Otvori novi dokument na temelju zadane datoteke predloška"
 
 #: main/KoApplication.cpp:198
 #, kde-format
 msgid "Override display DPI"
-msgstr ""
+msgstr "Nadjačaj razlučivost zaslona (DPI)"
 
 #: main/KoApplication.cpp:199
 #, fuzzy, kde-format
@@ -879,32 +879,32 @@ msgstr "Samo ispišite i završite"
 #: main/KoApplication.cpp:200
 #, kde-format
 msgid "Filename for export-pdf"
-msgstr ""
+msgstr "Naziv datoteke za izvoz u PDF"
 
 #: main/KoApplication.cpp:201
 #, kde-format
 msgid "just load the file and then exit"
-msgstr ""
+msgstr "Samo učitaj datoteku, a zatim izađi"
 
 #: main/KoApplication.cpp:203
 #, kde-format
 msgid "load the file, show the window and progressbar and then exit"
-msgstr ""
+msgstr "Učitaj datoteku, prikaži prozor i traku napretka, a zatim izađi"
 
 #: main/KoApplication.cpp:205
 #, kde-format
 msgid "Filename to write profiling information into."
-msgstr ""
+msgstr "Datoteka u koju treba zapisati podatke o profiliranju."
 
 #: main/KoApplication.cpp:208
 #, kde-format
 msgid "Load a file and save it as an ODF file. Meant for debugging."
-msgstr ""
+msgstr "Učitaj datoteku i spremi je kao ODF datoteku. Namijenjeno otklanjanju pogrešaka."
 
 #: main/KoApplication.cpp:210
 #, kde-format
 msgid "File(s) or URL(s) to open"
-msgstr ""
+msgstr "Datoteke ili URL-ovi za otvaranje"
 
 #: main/KoApplication.cpp:220
 #, kde-format
@@ -912,12 +912,12 @@ msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
 "This is not recommended.\n"
 "Please download and install the x64 build instead."
-msgstr ""
+msgstr "Koristite 32-bitnu verziju na 64-bitnom sustavu Windows.\nTo se ne preporučuje.\nUmjesto nje preuzmite i instalirajte 64-bitnu verziju."
 
 #: main/KoApplication.cpp:260
 #, kde-format
 msgid "%1: Critical Error"
-msgstr ""
+msgstr "%1: Kritična pogreška"
 
 #: main/KoApplication.cpp:261
 #, kde-format
@@ -925,7 +925,7 @@ msgid ""
 "Essential application components could not be found.\n"
 "This might be an installation issue.\n"
 "Try restarting or reinstalling."
-msgstr ""
+msgstr "Nije moguće pronaći osnovne komponente aplikacije.\nMožda je riječ o problemu s instalacijom.\nPokušajte ponovno pokrenuti ili ponovno instalirati aplikaciju."
 
 #: main/KoApplication.cpp:498
 #, fuzzy, kde-format
@@ -942,7 +942,7 @@ msgstr "Držač za %1 nije pronađen"
 #: main/KoApplication.cpp:523 main/KoApplication.cpp:540
 #, kde-format
 msgid "Template %1 failed to load."
-msgstr ""
+msgstr "Učitavanje predloška %1 nije uspjelo."
 
 #: main/KoApplication.cpp:530
 #, fuzzy, kde-format
@@ -959,17 +959,17 @@ msgstr "Stil ruba okvira"
 #: main/KoAutoSaveRecoveryDialog.cpp:160
 #, kde-format
 msgid "Discard All"
-msgstr ""
+msgstr "Odbaci sve"
 
 #: main/KoAutoSaveRecoveryDialog.cpp:165
 #, kde-format
 msgid "The following autosave file can be recovered:"
-msgstr ""
+msgstr "Sljedeću datoteku automatski spremljenu moguće je obnoviti:"
 
 #: main/KoAutoSaveRecoveryDialog.cpp:167
 #, kde-format
 msgid "The following autosave files can be recovered:"
-msgstr ""
+msgstr "Sljedeće datoteke automatski spremljene moguće je obnoviti:"
 
 #: main/KoAutoSaveRecoveryDialog.cpp:205
 #, kde-format
@@ -977,7 +977,7 @@ msgid ""
 "If you select Cancel, all recoverable files will be kept.\n"
 "If you press OK, selected files will be recovered, the unselected files "
 "discarded."
-msgstr ""
+msgstr "Ako odaberete Odustani, sve datoteke koje je moguće obnoviti bit će zadržane.\nPritisnete li U redu, odabrane datoteke bit će obnovljene, a ostale odbačene."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
 #: main/KoDetailsPaneBase.ui:97
@@ -994,7 +994,7 @@ msgstr "Stvori predložak"
 #: main/KoDocument.cpp:552
 #, kde-format
 msgid "Making backup..."
-msgstr ""
+msgstr "Izrada sigurnosne kopije..."
 
 #: main/KoDocument.cpp:567
 #, kde-format
@@ -1006,7 +1006,7 @@ msgstr "Spremam …"
 msgid ""
 "Could not save\n"
 "%1"
-msgstr ""
+msgstr "Nije moguće spremiti\n%1"
 "Ne mogu spremiti\n"
 "%1"
 
@@ -1015,7 +1015,7 @@ msgstr ""
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
-msgstr ""
+msgstr "Nije moguće spremiti %1\nRazlog: %2"
 "Ne mogu spremiti %1\n"
 "Razlog: %2"
 
@@ -1030,7 +1030,7 @@ msgstr "Naslov dokumenta"
 msgid ""
 "The password of this encrypted document is not known. Autosave aborted! "
 "Please save your work manually."
-msgstr ""
+msgstr "Zaporka za ovaj šifrirani dokument nije poznata. Automatsko spremanje je prekinuto! Ručno spremite svoj rad."
 
 #: main/KoDocument.cpp:716
 #, fuzzy, kde-format
@@ -1041,7 +1041,7 @@ msgstr "Spremam …"
 #: main/KoDocument.cpp:728
 #, kde-format
 msgid "Error during autosave! Partition full?"
-msgstr ""
+msgstr "Pogreška pri automatskom spremanju! Je li particija puna?"
 
 #: main/KoDocument.cpp:816
 #, fuzzy, kde-format
@@ -1052,24 +1052,24 @@ msgstr "Ne mogu otvoriti datoteku za spremanje"
 #: main/KoDocument.cpp:946
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
-msgstr ""
+msgstr "Nije moguće zapisati '%1'. Je li particija puna?"
 
 #: main/KoDocument.cpp:867
 #, kde-format
 msgid "Not able to write RDF metadata. Partition full?"
-msgstr ""
+msgstr "Nije moguće zapisati RDF metapodatke. Je li particija puna?"
 
 #: main/KoDocument.cpp:875 main/KoDocument.cpp:921 main/KoDocument.cpp:1980
 #, kde-format
 msgid "Error while trying to write '%1'. Partition full?"
-msgstr ""
+msgstr "Pogreška pri zapisivanju '%1'. Je li particija puna?"
 
 #: main/KoDocument.cpp:1222
 #, kde-format
 msgid ""
 "Malformed URL\n"
 "%1"
-msgstr ""
+msgstr "Neispravan URL\n%1"
 "Neispravan URL\n"
 "%1"
 
@@ -1078,7 +1078,7 @@ msgstr ""
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
-msgstr ""
+msgstr "Postoji automatski spremljena datoteka za ovaj dokument.\nŽelite li umjesto toga otvoriti nju?"
 "Za ovaj dokument postoji automatski snimljena datoteka.\n"
 "Želite li ju otvoriti umjesto tražene?"
 
@@ -1116,7 +1116,7 @@ msgstr "Stvori predložak"
 #: main/KoDocument.cpp:1470
 #, kde-format
 msgid "Bad MIME type"
-msgstr ""
+msgstr "Neispravna vrsta MIME"
 
 #: main/KoDocument.cpp:1474
 #, fuzzy, kde-format
@@ -1126,12 +1126,12 @@ msgstr "Greška prilikom snimanja umetnutih dokumenata"
 #: main/KoDocument.cpp:1478
 #, kde-format
 msgid "Format not recognized"
-msgstr ""
+msgstr "Format nije prepoznat"
 
 #: main/KoDocument.cpp:1482
 #, kde-format
 msgid "Not implemented"
-msgstr ""
+msgstr "Nije implementirano"
 
 #: main/KoDocument.cpp:1486
 #, fuzzy, kde-format
@@ -1141,7 +1141,7 @@ msgstr "Spremi dokument pod novim imenom"
 #: main/KoDocument.cpp:1490
 #, kde-format
 msgid "Document is password protected"
-msgstr ""
+msgstr "Dokument je zaštićen zaporkom"
 
 #: main/KoDocument.cpp:1494
 #, fuzzy, kde-format
@@ -1156,17 +1156,17 @@ msgstr "Internet"
 #: main/KoDocument.cpp:1506
 #, kde-format
 msgid "Out of memory"
-msgstr ""
+msgstr "Nedovoljno memorije"
 
 #: main/KoDocument.cpp:1510
 #, kde-format
 msgid "Empty Filter Plugin"
-msgstr ""
+msgstr "Prazan dodatak filtra"
 
 #: main/KoDocument.cpp:1514
 #, kde-format
 msgid "Trying to load into the wrong kind of document"
-msgstr ""
+msgstr "Pokušaj učitavanja u pogrešnu vrstu dokumenta"
 
 #: main/KoDocument.cpp:1518
 #, fuzzy, kde-format
@@ -1176,7 +1176,7 @@ msgstr "Ne mogu otvoriti datoteku %1"
 #: main/KoDocument.cpp:1527
 #, kde-format
 msgid "Unknown error"
-msgstr ""
+msgstr "Nepoznata pogreška"
 
 #: main/KoDocument.cpp:1532
 #, fuzzy, kde-format
@@ -1229,7 +1229,7 @@ msgstr "Nemogu pročitati početak datoteke."
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
-msgstr ""
+msgstr "Pogreška pri raščlambi glavnog dokumenta u retku %1, stupcu %2\nPoruka pogreške: %3"
 "Dokument krivo oblikovan u liniji %1, stupac %2\n"
 "Poruka o grešci: %3"
 
@@ -1248,7 +1248,7 @@ msgstr "Nije valjni dokument: nema datoteke 'maindoc.xml'."
 msgid ""
 "Document <i>%1</i> contains several versions. Go to File->Versions to open "
 "an old version."
-msgstr ""
+msgstr "Dokument <i>%1</i> sadrži nekoliko verzija. Odaberite Datoteka->Verzije za otvaranje starije verzije."
 
 #: main/KoDocument.cpp:2066 main/KoDocument.cpp:2526 main/KoDocument.cpp:2555
 #: pigment/resources/KoColorSet.cpp:316 pigment/resources/KoColorSet.cpp:412
@@ -1261,7 +1261,7 @@ msgstr "Naslov"
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
-msgstr ""
+msgstr "<p>Dokument <b>'%1'</b> je izmijenjen.</p><p>Želite li ga spremiti?</p>"
 
 #: main/KoDocument.cpp:2152
 #, kde-format
@@ -1273,7 +1273,7 @@ msgstr "Unutarnja greška: saveXML nije implementirano"
 msgid ""
 "Could not open\n"
 "%1"
-msgstr ""
+msgstr "Nije moguće otvoriti\n%1"
 "Ne mogu otvoriti\n"
 "%1"
 
@@ -1282,13 +1282,13 @@ msgstr ""
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
-msgstr ""
+msgstr "Nije moguće otvoriti %1\nRazlog: %2"
 "Ne mogu otvoriti datoteku %1\n"
 "Razlog: %2"
 
 #: main/KoDocument.cpp:2240
 msgid "a word processing"
-msgstr ""
+msgstr "obradu teksta"
 
 #: main/KoDocument.cpp:2241
 #, fuzzy
@@ -1309,14 +1309,14 @@ msgstr "&Poglavlje"
 
 #: main/KoDocument.cpp:2244
 msgid "a drawing"
-msgstr ""
+msgstr "crtež"
 
 #: main/KoDocument.cpp:2558
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
-msgstr ""
+msgstr "Dokument \"%1\" je izmijenjen.\nŽelite li spremiti promjene ili ih odbaciti?"
 
 #: main/KoDocument.cpp:2561
 #, fuzzy, kde-format
@@ -1357,7 +1357,7 @@ msgstr "Nedostaje filter za uvoz"
 msgid ""
 "Could not import file of type\n"
 "%1"
-msgstr ""
+msgstr "Nije moguće uvesti datoteku vrste\n%1"
 "Ne mogu uvesti tip datoteke\n"
 "%1"
 
@@ -1374,32 +1374,32 @@ msgstr "Ukloni predložak"
 #: main/KoFindText.cpp:47
 #, kde-format
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Razlikuj velika i mala slova"
 
 #: main/KoFindText.cpp:47
 #, kde-format
 msgid "Match cases when searching"
-msgstr ""
+msgstr "Pri pretraživanju razlikuj velika i mala slova"
 
 #: main/KoFindText.cpp:48
 #, kde-format
 msgid "Match only whole words"
-msgstr ""
+msgstr "Traži samo cijele riječi"
 
 #: main/KoFindText.cpp:48
 #, kde-format
 msgid "Whole Words Only"
-msgstr ""
+msgstr "Samo cijele riječi"
 
 #: main/KoFindText.cpp:49
 #, kde-format
 msgid "Find from Cursor"
-msgstr ""
+msgstr "Traži od pokazivača"
 
 #: main/KoFindText.cpp:49
 #, kde-format
 msgid "Start searching from the current cursor"
-msgstr ""
+msgstr "Počni pretraživati od trenutačnog pokazivača"
 
 #: main/KoMainWindow.cpp:154
 #, fuzzy, kde-format
@@ -1457,7 +1457,7 @@ msgstr "Informacije o dokumentu"
 #: main/KoMainWindow.cpp:327
 #, kde-format
 msgid "Full Screen Mode"
-msgstr ""
+msgstr "Cjelozaslonski način rada"
 
 #: main/KoMainWindow.cpp:332
 #, fuzzy, kde-format
@@ -1487,7 +1487,7 @@ msgstr ""
 #: main/KoMainWindow.cpp:633
 #, kde-format
 msgid "Save as %1"
-msgstr ""
+msgstr "Spremi kao %1"
 
 #: main/KoMainWindow.cpp:635
 #, fuzzy, kde-format
@@ -1504,7 +1504,7 @@ msgstr "%1 (nepoznata vrsta datoteke)"
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
-msgstr ""
+msgstr "<qt>Spremanje u obliku %1 može uzrokovati gubitak dijela oblikovanja.<p>Želite li i dalje spremiti u ovom obliku?</qt>"
 
 #: main/KoMainWindow.cpp:824
 #, kde-format
@@ -1516,7 +1516,7 @@ msgstr "Potvrdite snimanje"
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
-msgstr ""
+msgstr "<qt>Izvoz u obliku %1 može uzrokovati gubitak dijela oblikovanja.<p>Želite li i dalje izvesti u ovom obliku?</qt>"
 
 #: main/KoMainWindow.cpp:833
 #, kde-format
@@ -1552,7 +1552,7 @@ msgstr "I&zvoz..."
 #: main/KoMainWindow.cpp:1414
 #, kde-format
 msgid "Cannot export to the specified file"
-msgstr ""
+msgstr "Nije moguće izvesti u navedenu datoteku"
 
 #: main/KoMainWindow.cpp:1616 pageapp/KoPADocumentStructureDocker.cpp:102
 #, fuzzy, kde-format
@@ -1641,13 +1641,13 @@ msgstr "Otvori dokument"
 #, kde-format
 msgctxt "File modification date and time. %1 is date time"
 msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
-msgstr ""
+msgstr "<tr><td><b>Izmijenjeno:</b></td><td>%1</td></tr>"
 
 #: main/KoRecentDocumentsPane.cpp:168
 #, kde-format
 msgctxt "File access date and time. %1 is date time"
 msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
-msgstr ""
+msgstr "<tr><td><b>Pristupljeno:</b></td><td>%1</td></tr>"
 
 #: main/KoShapeCollectionMenu.cpp:354 text/styles/KoStyleManager.cpp:95
 #: text/styles/KoStyleManager.cpp:100
@@ -1658,17 +1658,17 @@ msgstr "Zadano"
 #: main/KoShapeCollectionMenu.cpp:358
 #, kde-format
 msgid "Geometrics"
-msgstr ""
+msgstr "Geometrijski oblici"
 
 #: main/KoShapeCollectionMenu.cpp:369
 #, kde-format
 msgid "Arrows"
-msgstr ""
+msgstr "Strelice"
 
 #: main/KoShapeCollectionMenu.cpp:373
 #, kde-format
 msgid "Funny"
-msgstr ""
+msgstr "Neobični"
 
 #: main/KoStandardAction.cpp:19
 #, fuzzy, kde-format
@@ -1732,7 +1732,7 @@ msgstr "O&znači …"
 #: main/KoTemplateCreateDia.cpp:166
 #, kde-format
 msgid "Use the new template as default"
-msgstr ""
+msgstr "Koristi novi predložak kao zadani"
 
 #: main/KoTemplateCreateDia.cpp:304
 #, fuzzy, kde-format
@@ -1752,7 +1752,7 @@ msgstr "Unesite ime"
 #: main/KoTemplateCreateDia.cpp:421
 #, kde-format
 msgid "This name is already used."
-msgstr ""
+msgstr "Ovaj je naziv već zauzet."
 
 #: main/KoTemplateCreateDia.cpp:445
 #, fuzzy, kde-format
@@ -1827,7 +1827,7 @@ msgstr "&Otvori"
 #: main/KoVersionDialog.cpp:114
 #, kde-format
 msgid "A new version could not be added"
-msgstr ""
+msgstr "Dodavanje nove verzije nije uspjelo"
 
 #: main/KoVersionDialog.cpp:221 main/KoVersionDialog.cpp:223
 #, fuzzy, kde-format
@@ -1850,7 +1850,7 @@ msgstr "Uobičajena boja"
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonimno"
 
 #: main/KoView.cpp:426 widgets/KoConfigAuthorPage.cpp:68
 #, fuzzy, kde-format
@@ -1860,12 +1860,12 @@ msgstr "Uobičajena boja"
 #: odf/KoDocumentInfo.cpp:80
 #, kde-format
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: odf/KoOdfReadStore.cpp:91 odf/KoOdfReadStore.cpp:136
 #, kde-format
 msgid "No store backend"
-msgstr ""
+msgstr "Nije dostupna pozadinska pohrana"
 
 #: odf/KoOdfReadStore.cpp:126
 #, fuzzy, kde-format
@@ -2103,7 +2103,7 @@ msgstr "Točaka (pt)"
 #: odf/KoUnit.cpp:37
 #, kde-format
 msgid "Cicero (cc)"
-msgstr ""
+msgstr "Cicero (cc)"
 
 #: odf/KoUnit.cpp:39
 #, kde-format
@@ -2118,7 +2118,7 @@ msgstr "Točaka (pt)"
 #: odf/KoUnit.cpp:43
 #, kde-format
 msgid "Unsupported unit"
-msgstr ""
+msgstr "Nepodržana jedinica"
 
 #: pageapp/commands/KoPAChangeMasterPageCommand.cpp:21
 #, fuzzy
@@ -2244,7 +2244,7 @@ msgstr "Potvrdite snimanje"
 #: pigment/KoCompositeOpRegistry.cpp:25
 #, kde-format
 msgid "Misc"
-msgstr ""
+msgstr "Razno"
 
 #: pageapp/dialogs/KoPAConfigureDialog.cpp:38
 #: pageapp/dialogs/KoPAConfigureDialog.cpp:39
@@ -2278,7 +2278,7 @@ msgstr "Autor"
 #: pageapp/dialogs/KoPAMasterPageDialog.cpp:27
 #, kde-format
 msgid "Select a master slide design:"
-msgstr ""
+msgstr "Odaberite dizajn glavnog slajda:"
 
 #: pageapp/dialogs/KoPAMasterPageDialog.cpp:28
 #, fuzzy, kde-format
@@ -2289,7 +2289,7 @@ msgstr "&Promijeni tekst"
 #: pageapp/dialogs/KoPAMasterPageDialog.cpp:30
 #, kde-format
 msgid "Select a master page design:"
-msgstr ""
+msgstr "Odaberite dizajn glavne stranice:"
 
 #: pageapp/dialogs/KoPAMasterPageDialog.cpp:31
 #: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:93
@@ -2429,17 +2429,17 @@ msgstr "Stvori dokument"
 #: pageapp/KoPADocumentStructureDocker.cpp:140
 #, kde-format
 msgid "Minimal View"
-msgstr ""
+msgstr "Minimalni prikaz"
 
 #: pageapp/KoPADocumentStructureDocker.cpp:142
 #, kde-format
 msgid "Detailed View"
-msgstr ""
+msgstr "Detaljni prikaz"
 
 #: pageapp/KoPADocumentStructureDocker.cpp:144
 #, kde-format
 msgid "Thumbnail View"
-msgstr ""
+msgstr "Prikaz minijatura"
 
 #: pageapp/KoPADocumentStructureDocker.cpp:154
 #, fuzzy, kde-format
@@ -2450,7 +2450,7 @@ msgstr "Izmijeni rubove"
 #: pageapp/KoPADocumentStructureDocker.cpp:302
 #, kde-format
 msgid "Enter the name of the new layer:"
-msgstr ""
+msgstr "Unesite naziv novog sloja:"
 
 #: pageapp/KoPADocumentStructureDocker.cpp:302
 #, fuzzy, kde-format
@@ -2481,12 +2481,12 @@ msgstr "Ukloni tekst"
 #: pageapp/KoPADocumentStructureDocker.cpp:343
 #, kde-format
 msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
+msgstr "Nije moguće izbrisati sve slojeve. Potreban je barem jedan."
 
 #: pageapp/KoPADocumentStructureDocker.cpp:343
 #, kde-format
 msgid "Error deleting layers"
-msgstr ""
+msgstr "Pogreška pri brisanju slojeva"
 
 #: pageapp/KoPADocumentStructureDocker.cpp:618
 #, fuzzy, kde-format
@@ -2574,7 +2574,7 @@ msgstr "Prikaži traku %1"
 #: pageapp/KoPAView.cpp:375
 #, kde-format
 msgid "Show/hide the view's rulers"
-msgstr ""
+msgstr "Prikaži/sakrij ravnala prikaza"
 
 #: pageapp/KoPAView.cpp:379
 #, fuzzy, kde-format
@@ -2584,7 +2584,7 @@ msgstr "Stvori predložak"
 #: pageapp/KoPAView.cpp:381
 #, kde-format
 msgid "Show/hide the page margins"
-msgstr ""
+msgstr "Prikaži/sakrij margine stranice"
 
 #: pageapp/KoPAView.cpp:385
 #, fuzzy, kde-format
@@ -2594,7 +2594,7 @@ msgstr "Umetni objekt"
 #: pageapp/KoPAView.cpp:387 pageapp/KoPAView.cpp:388
 #, kde-format
 msgid "Insert a new page after the current one"
-msgstr ""
+msgstr "Umetni novu stranicu nakon trenutačne"
 
 #: pageapp/KoPAView.cpp:391
 #, fuzzy, kde-format
@@ -2757,7 +2757,7 @@ msgstr "Datum"
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:35
 #, kde-format
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:102
 #: pigment/compositeops/KoCompositeOps.h:135
@@ -2771,7 +2771,7 @@ msgstr "Informacije o dokumentu"
 #: pigment/KoCompositeOpRegistry.cpp:30
 #, kde-format
 msgid "Multiply"
-msgstr ""
+msgstr "Množenje"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:227
 #: pigment/colorspaces/KoAlphaColorSpace.h:205
@@ -2800,13 +2800,13 @@ msgstr "Naziv tvrtke"
 #: pigment/colorspaces/KoAlphaColorSpace.h:188
 #, kde-format
 msgid "Undefined operation in the alpha color space"
-msgstr ""
+msgstr "Nedefinirana operacija u alfa prostoru boja"
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:26
 #: pigment/colorspaces/KoLabColorSpace.h:55
 #, kde-format
 msgid "L*a*b* (16-bit integer/channel, unmanaged)"
-msgstr ""
+msgstr "L*a*b* (16-bitni cijeli broj/kanal, neupravljano)"
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:28
 #: pigment/compositeops/KoCompositeOps.h:207
@@ -2819,25 +2819,25 @@ msgstr "Svijetlo modro"
 #: pigment/KoBasicHistogramProducers.cpp:416
 #, kde-format
 msgid "a*"
-msgstr ""
+msgstr "a*"
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
 #: pigment/KoBasicHistogramProducers.cpp:417
 #, kde-format
 msgid "b*"
-msgstr ""
+msgstr "b*"
 
 #: pigment/colorspaces/KoRgbU16ColorSpace.cpp:25
 #: pigment/colorspaces/KoRgbU16ColorSpace.h:47
 #, kde-format
 msgid "RGB (16-bit integer/channel, unmanaged)"
-msgstr ""
+msgstr "RGB (16-bitni cijeli broj/kanal, neupravljano)"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:27
 #: pigment/colorspaces/KoRgbU8ColorSpace.h:47
 #, kde-format
 msgid "RGB (8-bit integer/channel, unmanaged)"
-msgstr ""
+msgstr "RGB (8-bitni cijeli broj/kanal, neupravljano)"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:29
 #, kde-format
@@ -2858,7 +2858,7 @@ msgstr "Crvena"
 #: pigment/colorspaces/KoSimpleColorSpace.h:70
 #, kde-format
 msgid "Undefined operation in the %1 space"
-msgstr ""
+msgstr "Nedefinirana operacija u prostoru %1"
 
 #: pigment/colorspaces/KoSimpleColorSpace.h:91
 #: pigment/colorspaces/KoSimpleColorSpace.h:97
@@ -2873,12 +2873,12 @@ msgstr ""
 #: pigment/colorspaces/KoSimpleColorSpace.h:144
 #, kde-format
 msgid "Undefined operation in the %1 color space"
-msgstr ""
+msgstr "Nedefinirana operacija u prostoru boja %1"
 
 #: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:56
 #, kde-format
 msgid "Simple Color Conversion Engine"
-msgstr ""
+msgstr "Jednostavni mehanizam pretvorbe boja"
 
 #: pigment/compositeops/KoCompositeOpAlphaDarken.h:28
 #: pigment/compositeops/KoOptimizedCompositeOpAlphaDarken128.h:189
@@ -2891,13 +2891,13 @@ msgstr "Tamnozelena"
 #: pigment/KoCompositeOpRegistry.cpp:60
 #, kde-format
 msgid "Behind"
-msgstr ""
+msgstr "Iza"
 
 #: pigment/compositeops/KoCompositeOpDissolve.h:42
 #: pigment/KoCompositeOpRegistry.cpp:74
 #, kde-format
 msgid "Dissolve"
-msgstr ""
+msgstr "Otapanje"
 
 #: pigment/compositeops/KoCompositeOpErase.h:26
 #: pigment/KoCompositeOpRegistry.cpp:63
@@ -2936,7 +2936,7 @@ msgstr "Spajanje pošte"
 #: pigment/KoCompositeOpRegistry.cpp:67
 #, kde-format
 msgid "Grain Extract"
-msgstr ""
+msgstr "Izdvajanje zrna"
 
 #: pigment/compositeops/KoCompositeOps.h:112
 #: pigment/KoCompositeOpRegistry.cpp:65
@@ -2948,7 +2948,7 @@ msgstr "&Visina:"
 #: pigment/KoCompositeOpRegistry.cpp:70
 #, kde-format
 msgid "Geometric Mean"
-msgstr ""
+msgstr "Geometrijska sredina"
 
 #: pigment/compositeops/KoCompositeOps.h:114
 #: pigment/KoCompositeOpRegistry.cpp:68
@@ -2961,7 +2961,7 @@ msgstr "Varijabla"
 #: pigment/KoCompositeOpRegistry.cpp:69
 #, kde-format
 msgid "Allanon"
-msgstr ""
+msgstr "Allanon"
 
 #: pigment/compositeops/KoCompositeOps.h:117
 #: pigment/KoCompositeOpRegistry.cpp:44
@@ -3053,7 +3053,7 @@ msgstr "Tamnozelena"
 #: pigment/KoCompositeOpRegistry.cpp:37
 #, kde-format
 msgid "Gamma Dark"
-msgstr ""
+msgstr "Zatamnjivanje gamom"
 
 #: pigment/compositeops/KoCompositeOps.h:134
 #: pigment/KoCompositeOpRegistry.cpp:28
@@ -3071,19 +3071,19 @@ msgstr "Informacije o dokumentu"
 #: pigment/KoCompositeOpRegistry.cpp:31
 #, kde-format
 msgid "Divide"
-msgstr ""
+msgstr "Dijeljenje"
 
 #: pigment/compositeops/KoCompositeOps.h:140
 #: pigment/KoCompositeOpRegistry.cpp:57
 #, kde-format
 msgid "Arcus Tangent"
-msgstr ""
+msgstr "Arkus tangens"
 
 #: pigment/compositeops/KoCompositeOps.h:141
 #: pigment/KoCompositeOpRegistry.cpp:53
 #, kde-format
 msgid "Difference"
-msgstr ""
+msgstr "Razlika"
 
 #: pigment/compositeops/KoCompositeOps.h:142
 #: pigment/KoCompositeOpRegistry.cpp:56
@@ -3096,7 +3096,7 @@ msgstr "Iznimke"
 #: pigment/KoCompositeOpRegistry.cpp:54
 #, kde-format
 msgid "Equivalence"
-msgstr ""
+msgstr "Ekvivalencija"
 
 #: pigment/compositeops/KoCompositeOps.h:144
 #, fuzzy, kde-format
@@ -3146,7 +3146,7 @@ msgstr "Boja:"
 #: pigment/KoCompositeOpRegistry.cpp:82
 #, kde-format
 msgid "Hue"
-msgstr ""
+msgstr "Nijansa"
 
 #: pigment/compositeops/KoCompositeOps.h:183
 #: pigment/KoCompositeOpRegistry.cpp:83
@@ -3208,7 +3208,7 @@ msgstr "Boja:"
 #: pigment/KoCompositeOpRegistry.cpp:91
 #, kde-format
 msgid "Hue HSI"
-msgstr ""
+msgstr "Nijansa HSI"
 
 #: pigment/compositeops/KoCompositeOps.h:195
 #: pigment/KoCompositeOpRegistry.cpp:92
@@ -3260,7 +3260,7 @@ msgstr "Boja:"
 #: pigment/KoCompositeOpRegistry.cpp:100
 #, kde-format
 msgid "Hue HSL"
-msgstr ""
+msgstr "Nijansa HSL"
 
 #: pigment/compositeops/KoCompositeOps.h:204
 #: pigment/KoCompositeOpRegistry.cpp:101
@@ -3305,7 +3305,7 @@ msgstr "Boja:"
 #: pigment/KoCompositeOpRegistry.cpp:109
 #, kde-format
 msgid "Hue HSV"
-msgstr ""
+msgstr "Nijansa HSV"
 
 #: pigment/compositeops/KoCompositeOps.h:213
 #: pigment/KoCompositeOpRegistry.cpp:110
@@ -3349,57 +3349,57 @@ msgstr "Osvježi tabulatore"
 #: pigment/KoBasicHistogramProducers.cpp:405
 #, kde-format
 msgid "Generic RGB Histogram"
-msgstr ""
+msgstr "Generički RGB histogram"
 
 #: pigment/KoBasicHistogramProducers.cpp:344
 #, kde-format
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: pigment/KoBasicHistogramProducers.cpp:345
 #, kde-format
 msgid "G"
-msgstr ""
+msgstr "G"
 
 #: pigment/KoBasicHistogramProducers.cpp:346
 #, kde-format
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: pigment/KoBasicHistogramProducers.cpp:411
 #, kde-format
 msgid "L*a*b* Histogram"
-msgstr ""
+msgstr "L*a*b* histogram"
 
 #: pigment/KoBasicHistogramProducers.cpp:415
 #, kde-format
 msgid "L*"
-msgstr ""
+msgstr "L*"
 
 #: pigment/KoBasicHistogramProducers.cpp:492
 #, kde-format
 msgid "Generic L*a*b* Histogram"
-msgstr ""
+msgstr "Generički L*a*b* histogram"
 
 #: pigment/KoColorModelStandardIds.cpp:12
 #, kde-format
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: pigment/KoColorModelStandardIds.cpp:13
 #, kde-format
 msgid "XYZ"
-msgstr ""
+msgstr "XYZ"
 
 #: pigment/KoColorModelStandardIds.cpp:14
 #, kde-format
 msgid "L*a*b*"
-msgstr ""
+msgstr "L*a*b*"
 
 #: pigment/KoColorModelStandardIds.cpp:15
 #, kde-format
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: pigment/KoColorModelStandardIds.cpp:16
 #, fuzzy, kde-format
@@ -3410,12 +3410,12 @@ msgstr "Siva"
 #: pigment/KoColorModelStandardIds.cpp:17
 #, kde-format
 msgid "Grayscale (without transparency)"
-msgstr ""
+msgstr "Sivi tonovi (bez prozirnosti)"
 
 #: pigment/KoColorModelStandardIds.cpp:18
 #, kde-format
 msgid "YCbCr"
-msgstr ""
+msgstr "YCbCr"
 
 #: pigment/KoColorModelStandardIds.cpp:20
 #, fuzzy, kde-format
@@ -3435,12 +3435,12 @@ msgstr "tč"
 #: pigment/KoColorModelStandardIds.cpp:23
 #, kde-format
 msgid "32 Bits Float"
-msgstr ""
+msgstr "32-bitni pomični zarez"
 
 #: pigment/KoColorModelStandardIds.cpp:24
 #, kde-format
 msgid "64 Bits Float"
-msgstr ""
+msgstr "64-bitni pomični zarez"
 
 #: pigment/KoCompositeOp.cpp:23 pigment/KoCompositeOpRegistry.cpp:24
 #, fuzzy, kde-format
@@ -3455,27 +3455,27 @@ msgstr "&Zamijeni"
 #: pigment/KoCompositeOp.cpp:39 pigment/KoCompositeOpRegistry.cpp:25
 #, kde-format
 msgid "HSY"
-msgstr ""
+msgstr "HSY"
 
 #: pigment/KoCompositeOp.cpp:43 pigment/KoCompositeOpRegistry.cpp:26
 #, kde-format
 msgid "HSI"
-msgstr ""
+msgstr "HSI"
 
 #: pigment/KoCompositeOp.cpp:47 pigment/KoCompositeOpRegistry.cpp:26
 #, kde-format
 msgid "HSL"
-msgstr ""
+msgstr "HSL"
 
 #: pigment/KoCompositeOp.cpp:51 pigment/KoCompositeOpRegistry.cpp:26
 #, kde-format
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: pigment/KoCompositeOp.cpp:55 pigment/KoCompositeOpRegistry.cpp:25
 #, kde-format
 msgid "Mix"
-msgstr ""
+msgstr "Miješanje"
 
 #: pigment/KoCompositeOpRegistry.cpp:32
 #, fuzzy, kde-format
@@ -3485,7 +3485,7 @@ msgstr "Informacije o dokumentu"
 #: pigment/KoCompositeOpRegistry.cpp:34
 #, kde-format
 msgid "Burn"
-msgstr ""
+msgstr "Potamnjivanje"
 
 #: pigment/KoCompositeOpRegistry.cpp:55
 #, fuzzy, kde-format
@@ -3500,7 +3500,7 @@ msgstr "Tamnozelena"
 #: pigment/KoCompositeOpRegistry.cpp:72
 #, kde-format
 msgid "Bumpmap"
-msgstr ""
+msgstr "Reljefna mapa"
 
 #: pigment/KoCompositeOpRegistry.cpp:73
 #, fuzzy, kde-format
@@ -3510,22 +3510,22 @@ msgstr "Posebna grafička oznaka"
 #: pigment/resources/KoStopGradient.cpp:417
 #, kde-format
 msgid "SVG Gradient"
-msgstr ""
+msgstr "SVG gradijent"
 
 #: rdf/InsertSemanticObjectReferenceAction.cpp:40
 #, kde-format
 msgid "Select the object you want to reference"
-msgstr ""
+msgstr "Odaberite objekt na koji se želite pozvati"
 
 #: rdf/KoDocumentRdf.cpp:594
 #, kde-format
 msgid "Reference"
-msgstr ""
+msgstr "Referenca"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:238
 #, kde-format
 msgid "Set For All Existing"
-msgstr ""
+msgstr "Postavi za sve postojeće"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:300
 #, kde-format
@@ -3533,15 +3533,15 @@ msgctxt "statement is an Rdf related term"
 msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
 msgid_plural ""
 "<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "<qt>Uređivanja će se izgubiti.<p>Preostala je %1 nevažeća izjava.</qt>"
+msgstr[1] "<qt>Uređivanja će se izgubiti.<p>Preostale su %1 nevažeće izjave.</qt>"
+msgstr[2] "<qt>Uređivanja će se izgubiti.<p>Preostalo je %1 nevažećih izjava.</qt>"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:303
 #, kde-format
 msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
-msgstr ""
+msgstr "Odbaciti nevažeće izjave?"
 
 #: rdf/KoDocumentRdfEditWidget.cpp:342
 #, fuzzy, kde-format
@@ -3603,13 +3603,13 @@ msgstr "&Zamijeni:"
 #: rdf/KoDocumentRdfEditWidget.ui:137
 #, kde-format
 msgid "Semantic"
-msgstr ""
+msgstr "Semantički"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: rdf/KoDocumentRdfEditWidget.ui:156
 #, kde-format
 msgid "SPARQL"
-msgstr ""
+msgstr "SPARQL"
 
 #. i18n: ectx: property (plainText), widget (QTextEdit, m_sparqlQuery)
 #: rdf/KoDocumentRdfEditWidget.ui:172
@@ -3624,7 +3624,7 @@ msgid ""
 "\n"
 "            select ?s ?p ?o\n"
 "            where { ?s ?p ?o }"
-msgstr ""
+msgstr "\n            prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n            prefix foaf: <http://xmlns.com/foaf/0.1/>\n            prefix pkg: <http://docs.oasis-open.org/ns/office/1.2/meta/pkg#>\n            prefix geo84: <http://www.w3.org/2003/01/geo/wgs84_pos#>\n\n            select ?s ?p ?o\n            where { ?s ?p ?o }"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
 #: rdf/KoDocumentRdfEditWidget.ui:181
@@ -3647,7 +3647,7 @@ msgid ""
 "objects will use this stylesheet automatically. The buttons allow you to set "
 "the stylesheet for all existing semantic objects to the new default "
 "stylesheet as well."
-msgstr ""
+msgstr "Postavi zadani stilski predložak za semantičke objekte u ovom dokumentu. Novi RDF objekti automatski će koristiti taj stilski predložak. Gumbi omogućuju da se stilski predložak postavi kao zadani i za sve postojeće semantičke objekte."
 
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:101
 #, fuzzy, kde-format
@@ -3659,7 +3659,7 @@ msgstr "&Stil:"
 #: rdf/KoSemanticStylesheetsEditor.cpp:101
 #, kde-format
 msgid "System"
-msgstr ""
+msgstr "Sustav"
 
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:110
 #: rdf/KoSemanticStylesheetsEditor.cpp:116
@@ -3670,12 +3670,12 @@ msgstr "&Umetni:"
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:121
 #, kde-format
 msgid "Reapply Current"
-msgstr ""
+msgstr "Ponovno primijeni trenutačno"
 
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:124
 #, kde-format
 msgid "Disassociate"
-msgstr ""
+msgstr "Odvoji"
 
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:143
 #, fuzzy, kde-format
@@ -3713,12 +3713,12 @@ msgstr "&Stil:"
 #: rdf/KoSopranoTableModel.cpp:71
 #, kde-format
 msgid "Empty"
-msgstr ""
+msgstr "Prazno"
 
 #: rdf/KoSopranoTableModel.cpp:73 rdf/KoSopranoTableModelDelegate.cpp:28
 #, kde-format
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #: rdf/KoSopranoTableModel.cpp:75 rdf/KoSopranoTableModelDelegate.cpp:29
 #, fuzzy, kde-format
@@ -3774,7 +3774,7 @@ msgstr "Zaustavljeno"
 msgid ""
 "This document contains an unknown checksum. When you give a password it "
 "might not be verified."
-msgstr ""
+msgstr "Ovaj dokument sadrži nepoznatu kontrolnu sumu. Unosom zaporke možda je neće biti moguće provjeriti."
 
 #: store/KoEncryptedStore.cpp:384
 #, fuzzy, kde-format
@@ -3789,7 +3789,7 @@ msgstr "Upozorenje"
 msgid ""
 "This document contains an unknown encryption method. Some parts may be "
 "unreadable."
-msgstr ""
+msgstr "Ovaj dokument sadrži nepoznat način šifriranja. Neki dijelovi možda neće biti čitljivi."
 
 #: store/KoEncryptedStore.cpp:409 store/KoEncryptedStore.cpp:438
 #: store/KoEncryptedStore.cpp:456 store/KoEncryptedStore.cpp:479
@@ -3804,7 +3804,7 @@ msgstr "Upozorenje"
 msgid ""
 "This document contains incomplete encryption data. Some parts may be "
 "unreadable."
-msgstr ""
+msgstr "Ovaj dokument sadrži nepotpune podatke o šifriranju. Neki dijelovi možda neće biti čitljivi."
 
 #: store/KoEncryptedStore.cpp:563
 #, kde-format
@@ -3812,24 +3812,24 @@ msgid ""
 "The manifest file seems to be corrupted. It cannot be modified and the "
 "document will remain unreadable. Please try and save the document again to "
 "prevent losing your work."
-msgstr ""
+msgstr "Datoteka manifesta možda je oštećena. Ne može se mijenjati pa će dokument ostati nečitljiv. Pokušajte ponovno spremiti dokument kako biste spriječili gubitak rada."
 
 #: store/KoEncryptedStore.cpp:614
 #, kde-format
 msgid ""
 "The manifest file cannot be written. The document will remain unreadable. "
 "Please try and save the document again to prevent losing your work."
-msgstr ""
+msgstr "Nije moguće zapisati datoteku manifesta. Dokument će ostati nečitljiv. Pokušajte ponovno spremiti dokument kako biste spriječili gubitak rada."
 
 #: store/KoEncryptedStore.cpp:737
 #, kde-format
 msgid "Please enter the password to open this file."
-msgstr ""
+msgstr "Unesite zaporku za otvaranje ove datoteke."
 
 #: store/KoEncryptedStore.cpp:943
 #, kde-format
 msgid "Please enter the password to encrypt the document with."
-msgstr ""
+msgstr "Unesite zaporku za šifriranje dokumenta."
 
 #: store/KoEncryptedStore.cpp:958
 #, fuzzy, kde-format
@@ -3844,17 +3844,17 @@ msgstr "Datoteka %1 ne postoji."
 #: store/KoNetAccess.cpp:372
 #, kde-format
 msgid "ERROR: Unknown protocol '%1'"
-msgstr ""
+msgstr "POGREŠKA: Nepoznat protokol '%1'"
 
 #: store/KoStore.cpp:152
 #, kde-format
 msgid "Calligra Storage"
-msgstr ""
+msgstr "Calligra pohrana"
 
 #: store/KoStore.cpp:152
 #, kde-format
 msgid "The directory mode is not supported for remote locations."
-msgstr ""
+msgstr "Način rada s direktorijem nije podržan za udaljena mjesta."
 
 #: text/commands/ChangeListCommand.cpp:30
 #: text/commands/ChangeListCommand.cpp:78
@@ -3986,12 +3986,12 @@ msgstr "Posebna grafička oznaka"
 #: text/commands/SplitSectionsCommand.cpp:24
 msgctxt "(qtundo-format)"
 msgid "Split sections startings"
-msgstr ""
+msgstr "Početak podjela odjeljaka"
 
 #: text/commands/SplitSectionsCommand.cpp:26
 msgctxt "(qtundo-format)"
 msgid "Split sections endings"
-msgstr ""
+msgstr "Završetak podjela odjeljaka"
 
 #: text/commands/TextPasteCommand.cpp:53
 #, fuzzy
@@ -4010,35 +4010,35 @@ msgstr "Datum"
 #: text/InsertTextLocator.cpp:13
 #, kde-format
 msgid "Index Reference"
-msgstr ""
+msgstr "Referenca indeksa"
 
 #: text/InsertTextReferenceAction.cpp:22 text/InsertTextReferenceAction.cpp:50
 #, kde-format
 msgid "Text Reference"
-msgstr ""
+msgstr "Referenca teksta"
 
 #: text/InsertTextReferenceAction.cpp:31
 #, kde-format
 msgid "Please create an index to reference first."
-msgstr ""
+msgstr "Najprije izradite indeks na koji se želite pozvati."
 
 #: text/InsertTextReferenceAction.cpp:40
 #, kde-format
 msgid "Select the index you want to reference"
-msgstr ""
+msgstr "Odaberite indeks na koji se želite pozvati"
 
 #: text/KoFindStrategy.cpp:55
 #, kde-format
 msgid "Found 1 match"
 msgid_plural "Found %1 matches"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Broj podudaranja: %1"
+msgstr[1] "Broj podudaranja: %1"
+msgstr[2] "Broj podudaranja: %1"
 
 #: text/KoFindStrategy.cpp:55
 #, kde-format
 msgid "Found no match"
-msgstr ""
+msgstr "Nije pronađeno nijedno podudaranje"
 
 #: text/KoReplaceStrategy.cpp:43
 #, kde-format
@@ -4046,7 +4046,7 @@ msgid ""
 "Found no match\n"
 "\n"
 "No text was replaced"
-msgstr ""
+msgstr "Nije pronađeno nijedno podudaranje\n\nTekst nije zamijenjen"
 
 #: text/KoReplaceStrategy.cpp:45
 #, fuzzy, kde-format
@@ -4191,7 +4191,7 @@ msgstr "Dodaj grupu..."
 #: text/KoTextEditor.cpp:1381
 msgctxt "(qtundo-format)"
 msgid "Typing"
-msgstr ""
+msgstr "Tipkanje"
 
 #: text/KoTextEditor_format.cpp:57
 #, fuzzy
@@ -4327,7 +4327,7 @@ msgstr "Dodaj / ukloni boje …"
 #: widgets/KoConfigAuthorPage.cpp:50
 #, kde-format
 msgid "Add new author profile (starts out as a copy of current)"
-msgstr ""
+msgstr "Dodaj novi profil autora (počet će kao kopija trenutačnog)"
 
 #: widgets/KoConfigAuthorPage.cpp:54
 #, fuzzy, kde-format
@@ -4337,7 +4337,7 @@ msgstr "Ukloni tekst"
 #: widgets/KoConfigAuthorPage.cpp:128
 #, kde-format
 msgid "Name (not duplicate or blank name):"
-msgstr ""
+msgstr "Naziv (ne smije biti duplikat ni prazan):"
 
 #: widgets/KoConfigAuthorPage.cpp:128
 #, fuzzy, kde-format
@@ -4462,7 +4462,7 @@ msgstr "Nijedan"
 msgid ""
 "Please check the ranges you specified. The start value must be lower than "
 "the end value."
-msgstr ""
+msgstr "Provjerite navedene raspone. Početna vrijednost mora biti manja od završne."
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
 #: widgets/KoCsvImportDialog.ui:52
@@ -4474,13 +4474,13 @@ msgstr "Datum"
 #: widgets/KoCsvImportDialog.ui:64
 #, kde-format
 msgid "First row contains headers"
-msgstr ""
+msgstr "Prvi redak sadrži zaglavlja"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
 #: widgets/KoCsvImportDialog.ui:77
 #, kde-format
 msgid "First column contains headers"
-msgstr ""
+msgstr "Prvi stupac sadrži zaglavlja"
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
 #: widgets/KoCsvImportDialog.ui:101
@@ -4528,37 +4528,37 @@ msgstr "Dodaj prazninu"
 #: widgets/KoCsvImportDialog.ui:195
 #, kde-format
 msgid "Text&quote:"
-msgstr ""
+msgstr "Navodnik za &tekst:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
 #: widgets/KoCsvImportDialog.ui:212
 #, kde-format
 msgid "\""
-msgstr ""
+msgstr "\""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
 #: widgets/KoCsvImportDialog.ui:217
 #, kde-format
 msgid "'"
-msgstr ""
+msgstr "'"
 
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #: widgets/KoCsvImportDialog.ui:246
 #, kde-format
 msgid "Decimal symbol:"
-msgstr ""
+msgstr "Decimalni znak:"
 
 #. i18n: ectx: property (text), widget (QLabel, label4)
 #: widgets/KoCsvImportDialog.ui:275
 #, kde-format
 msgid "Thousands separator:"
-msgstr ""
+msgstr "Razdjelnik tisućica:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
 #: widgets/KoCsvImportDialog.ui:320
 #, kde-format
 msgid "Ignore duplicate delimiters"
-msgstr ""
+msgstr "Zanemari uzastopne razdjelnike"
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
 #: widgets/KoCsvImportDialog.ui:327
@@ -4601,7 +4601,7 @@ msgstr "Zaustavi"
 #: widgets/KoDialog.cpp:256
 #, kde-format
 msgid "&Try"
-msgstr ""
+msgstr "&Pokušaj"
 
 #: widgets/KoDialog.cpp:459
 #, fuzzy, kde-format
@@ -4612,7 +4612,7 @@ msgstr "Sredina:"
 #, kde-format
 msgctxt "Document/application separator in titlebar"
 msgid " – "
-msgstr ""
+msgstr " – "
 
 #: widgets/KoDialog.cpp:823
 #, fuzzy, kde-format
@@ -4623,7 +4623,7 @@ msgstr "Zadano"
 #: widgets/KoDialog.cpp:971
 #, kde-format
 msgid "Get help..."
-msgstr ""
+msgstr "Potraži pomoć..."
 
 #: widgets/KoDockWidgetTitleBar.cpp:54
 #, fuzzy, kde-format
@@ -4679,7 +4679,7 @@ msgstr "&Promijeni tekst"
 #: widgets/koDocumentInfoAboutWidget.ui:158
 #, kde-format
 msgid "Total editing time:"
-msgstr ""
+msgstr "Ukupno vrijeme uređivanja:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
 #: widgets/koDocumentInfoAboutWidget.ui:178
@@ -4699,7 +4699,7 @@ msgstr "Naslov:"
 #: widgets/koDocumentInfoAboutWidget.ui:201
 #, kde-format
 msgid "Revision number:"
-msgstr ""
+msgstr "Broj revizije:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
 #: widgets/koDocumentInfoAboutWidget.ui:211
@@ -4751,12 +4751,12 @@ msgstr "&Promijeni tekst"
 #: widgets/KoDocumentInfoDlg.cpp:171
 #, kde-format
 msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr ""
+msgstr "Koristi ';' (primjer: Office;KDE;Calligra)"
 
 #: widgets/KoDocumentInfoDlg.cpp:201 widgets/KoDocumentInfoDlg.cpp:297
 #, kde-format
 msgid "This document will be decrypted"
-msgstr ""
+msgstr "Ovaj će se dokument dešifrirati"
 
 #: widgets/KoDocumentInfoDlg.cpp:203 widgets/KoDocumentInfoDlg.cpp:299
 #, fuzzy, kde-format
@@ -4766,7 +4766,7 @@ msgstr "Opis:"
 #: widgets/KoDocumentInfoDlg.cpp:205 widgets/KoDocumentInfoDlg.cpp:301
 #, kde-format
 msgid "This document is encrypted"
-msgstr ""
+msgstr "Ovaj je dokument šifriran"
 
 #: widgets/KoDocumentInfoDlg.cpp:207 widgets/KoDocumentInfoDlg.cpp:303
 #, kde-format
@@ -4776,7 +4776,7 @@ msgstr "D&ekriptiraj"
 #: widgets/KoDocumentInfoDlg.cpp:211 widgets/KoDocumentInfoDlg.cpp:306
 #, kde-format
 msgid "This document will be encrypted."
-msgstr ""
+msgstr "Ovaj će se dokument šifrirati."
 
 #: widgets/KoDocumentInfoDlg.cpp:213 widgets/KoDocumentInfoDlg.cpp:308
 #, fuzzy, kde-format
@@ -4786,31 +4786,31 @@ msgstr "Opis:"
 #: widgets/KoDocumentInfoDlg.cpp:215 widgets/KoDocumentInfoDlg.cpp:310
 #, kde-format
 msgid "This document is not encrypted"
-msgstr ""
+msgstr "Ovaj dokument nije šifriran"
 
 #: widgets/KoDocumentInfoDlg.cpp:221
 #, kde-format
 msgid "This document does not support encryption"
-msgstr ""
+msgstr "Ovaj dokument ne podržava šifriranje"
 
 #: widgets/KoDocumentInfoDlg.cpp:231
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Not set"
-msgstr ""
+msgstr "Nije postavljeno"
 
 #: widgets/KoDocumentInfoDlg.cpp:274 widgets/KoDocumentInfoDlg.cpp:280
 #, kde-format
 msgctxt "list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: widgets/KoDocumentInfoDlg.cpp:333
 #, kde-format
 msgid ""
 "<qt>Decrypting the document will remove the password protection from it."
 "<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
+msgstr "<qt>Dešifriranjem dokumenta uklonit će se zaštita zaporkom.<p>Želite li i dalje dešifrirati datoteku?</qt>"
 
 #: widgets/KoDocumentInfoDlg.cpp:335
 #, fuzzy, kde-format
@@ -4827,7 +4827,7 @@ msgstr "Opis:"
 msgid ""
 "<qt>Your document could not be saved automatically.<p>To complete the "
 "decryption, please save the document.</qt>"
-msgstr ""
+msgstr "<qt>Nije bilo moguće automatski spremiti dokument.<p>Da biste dovršili dešifriranje, spremite dokument.</qt>"
 
 #: widgets/KoDocumentInfoDlg.cpp:347 widgets/KoDocumentInfoDlg.cpp:354
 #: widgets/KoDocumentInfoDlg.cpp:389 widgets/KoDocumentInfoDlg.cpp:397
@@ -4840,7 +4840,7 @@ msgstr "Spremi dokument"
 msgid ""
 "<qt>To complete the decryption the document needs to be saved.<p>Do you want "
 "to save the document now?</qt>"
-msgstr ""
+msgstr "<qt>Da biste dovršili dešifriranje, dokument je potrebno spremiti.<p>Želite li sada spremiti dokument?</qt>"
 
 #: widgets/KoDocumentInfoDlg.cpp:371
 #, kde-format
@@ -4848,7 +4848,7 @@ msgid ""
 "<qt>The document is currently saved as %1. The document needs to be changed "
 "to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
 "file to OASIS OpenDocument?</qt>"
-msgstr ""
+msgstr "<qt>Dokument je trenutačno spremljen kao %1. Da bi se mogao šifrirati, potrebno ga je pretvoriti u <b>OASIS OpenDocument</b>.<p>Želite li promijeniti format datoteke u OASIS OpenDocument?</qt>"
 
 #: widgets/KoDocumentInfoDlg.cpp:374
 #, fuzzy, kde-format
@@ -4865,7 +4865,7 @@ msgstr "VELIKA/mala slova"
 msgid ""
 "<qt>Your document could not be saved automatically.<p>To complete the "
 "encryption, please save the document.</qt>"
-msgstr ""
+msgstr "<qt>Nije bilo moguće automatski spremiti dokument.<p>Da biste dovršili šifriranje, spremite dokument.</qt>"
 
 #: widgets/KoDocumentInfoDlg.cpp:395
 #, kde-format
@@ -4873,7 +4873,7 @@ msgid ""
 "<qt>The document has been changed since it was opened. To complete the "
 "encryption the document needs to be saved.<p>Do you want to save the "
 "document now?</qt>"
-msgstr ""
+msgstr "<qt>Dokument je promijenjen nakon otvaranja. Da bi se dovršilo šifriranje, dokument je potrebno spremiti.<p>Želite li ga sada spremiti?</qt>"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, add)
 #: widgets/KoEditColorSet.ui:45
@@ -4903,7 +4903,7 @@ msgstr "Val"
 #: widgets/KoEditColorSetDialog.cpp:146
 #, kde-format
 msgid "Add Color To Palette"
-msgstr ""
+msgstr "Dodaj boju u paletu"
 
 #: widgets/KoEditColorSetDialog.cpp:146
 #, fuzzy, kde-format
@@ -4914,12 +4914,12 @@ msgstr "Naziv knjižne oznake:"
 #: widgets/KoEditColorSetDialog.cpp:174
 #, kde-format
 msgid "Gimp Color Palette (*.gpl)"
-msgstr ""
+msgstr "Paleta boja GIMP (*.gpl)"
 
 #: widgets/KoEditColorSetDialog.cpp:187
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only. "
-msgstr ""
+msgstr "Nije moguće zapisati datoteku palete %1. Možda je samo za čitanje."
 
 #: widgets/KoEditColorSetDialog.cpp:187
 #, fuzzy, kde-format
@@ -4944,17 +4944,17 @@ msgstr "Nijedan"
 #, kde-format
 msgctxt "Solid color stroke or fill"
 msgid "Solid"
-msgstr ""
+msgstr "Puna boja"
 
 #: widgets/KoFillConfigWidget.cpp:163
 #, kde-format
 msgid "Gradient"
-msgstr ""
+msgstr "Gradijent"
 
 #: widgets/KoFillConfigWidget.cpp:171
 #, kde-format
 msgid "Pattern"
-msgstr ""
+msgstr "Uzorak"
 
 #: widgets/KoFillConfigWidget.cpp:185
 #, fuzzy, kde-format
@@ -4996,18 +4996,18 @@ msgstr "Linije"
 #, kde-format
 msgctxt "Radial gradient type"
 msgid "Radial"
-msgstr ""
+msgstr "Radijalno"
 
 #: widgets/KoGradientEditWidget.cpp:159
 #, kde-format
 msgctxt "Conical gradient type"
 msgid "Conical"
-msgstr ""
+msgstr "Konusno"
 
 #: widgets/KoGradientEditWidget.cpp:162
 #, kde-format
 msgid "Repeat:"
-msgstr ""
+msgstr "Ponavljanje:"
 
 #: widgets/KoGradientEditWidget.cpp:164
 #, fuzzy, kde-format
@@ -5019,12 +5019,12 @@ msgstr "Nijedan"
 #: widgets/KoGradientEditWidget.cpp:165
 #, kde-format
 msgid "Reflect"
-msgstr ""
+msgstr "Zrcali"
 
 #: widgets/KoGradientEditWidget.cpp:166
 #, kde-format
 msgid "Repeat"
-msgstr ""
+msgstr "Ponavljaj"
 
 #: widgets/KoGradientEditWidget.cpp:169
 #, fuzzy, kde-format
@@ -5040,12 +5040,12 @@ msgstr "Boja:"
 #: widgets/KoGradientEditWidget.cpp:182
 #, kde-format
 msgid "Stop color."
-msgstr ""
+msgstr "Boja zaustavne točke."
 
 #: widgets/KoGradientEditWidget.cpp:185
 #, kde-format
 msgid "&Add to Predefined Gradients"
-msgstr ""
+msgstr "&Dodaj među unaprijed definirane gradijente"
 
 #: widgets/KoModeBox.cpp:501
 #, fuzzy, kde-format
@@ -5055,7 +5055,7 @@ msgstr "Dodaj tekst"
 #: widgets/KoModeBox.cpp:502
 #, kde-format
 msgid "Icon only"
-msgstr ""
+msgstr "Samo ikona"
 
 #: widgets/KoModeBox.cpp:505
 #, fuzzy, kde-format
@@ -5260,7 +5260,7 @@ msgstr "&Razmak između odlomaka"
 #: widgets/KoResourceItemChooserContextMenu.cpp:140
 #, kde-format
 msgid "Assign to tag"
-msgstr ""
+msgstr "Dodijeli oznaci"
 
 #: widgets/KoResourceItemChooserContextMenu.cpp:149
 #, fuzzy, kde-format
@@ -5276,24 +5276,24 @@ msgstr "Ukloni slog"
 #: widgets/KoResourceModel.cpp:69
 #, kde-format
 msgid "Tags"
-msgstr ""
+msgstr "Oznake"
 
 #: widgets/KoResourceTaggingManager.cpp:131
 #, kde-format
 msgid "Unable to undelete tag"
-msgstr ""
+msgstr "Nije moguće vratiti izbrisanu oznaku"
 
 #: widgets/KoResourceTaggingManager.cpp:132
 #, kde-format
 msgid ""
 "<qt>The tag you are trying to undelete already exists in tag list.<br>Please "
 "enter a new, unique name for it.</qt>"
-msgstr ""
+msgstr "<qt>Oznaka koju pokušavate vratiti već postoji na popisu oznaka.<br>Unesite novi, jedinstveni naziv za nju.</qt>"
 
 #: widgets/KoResourceTaggingManager.cpp:140
 #, kde-format
 msgid "Tag was not undeleted."
-msgstr ""
+msgstr "Izbrisana oznaka nije vraćena."
 
 #: widgets/KoRuler.cpp:1174
 #, fuzzy, kde-format
@@ -5313,25 +5313,25 @@ msgstr "Linen"
 #: widgets/KoShadowConfigWidget.cpp:53
 #, kde-format
 msgid "Change the color of the shadow"
-msgstr ""
+msgstr "Promijeni boju sjene"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: widgets/KoShadowConfigWidget.ui:67
 #, kde-format
 msgid "Blur:"
-msgstr ""
+msgstr "Zamućenje:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widgets/KoShadowConfigWidget.ui:84
 #, kde-format
 msgid "Distance:"
-msgstr ""
+msgstr "Udaljenost:"
 
 #: widgets/KoShapePropertyWidget.cpp:46
 #, kde-format
 msgctxt "@title:group"
 msgid "Shape Properties"
-msgstr ""
+msgstr "Svojstva oblika"
 
 #: widgets/KoShapePropertyWidget.cpp:57
 #, fuzzy, kde-format
@@ -5343,7 +5343,7 @@ msgstr "Niti jedna slika nije dostupna."
 #: widgets/KoStrokeConfigWidget.cpp:83
 #, kde-format
 msgid "Butt cap"
-msgstr ""
+msgstr "Ravni završetak"
 
 #: widgets/KoStrokeConfigWidget.cpp:90
 #, fuzzy, kde-format
@@ -5381,17 +5381,17 @@ msgstr "Brojač poravnanja:"
 #: widgets/KoStrokeConfigWidget.cpp:202
 #, kde-format
 msgid "Thickness:"
-msgstr ""
+msgstr "Debljina:"
 
 #: widgets/KoStrokeConfigWidget.cpp:212
 #, kde-format
 msgid "Set line width of actual selection"
-msgstr ""
+msgstr "Postavi širinu linije trenutačnog odabira"
 
 #: widgets/KoStrokeConfigWidget.cpp:228
 #, kde-format
 msgid "Change the color of the line/border"
-msgstr ""
+msgstr "Promijeni boju linije/obruba"
 
 #: widgets/KoTagChooserWidget.cpp:42
 #, fuzzy, kde-format
@@ -5412,7 +5412,7 @@ msgid ""
 "interface> view.<br>In this view, pressing <interface>Enter</interface> or "
 "clearing the filter box will restore all items.<br>Create and/or switch to a "
 "different tag if you want to save filtered resources into named sets.</qt>"
-msgstr ""
+msgstr "<qt>Unos pojmova za pretraživanje ovdje dodaje resurse u trenutačni prikaz oznake ili ih iz njega uklanja.<para>Za filtriranje prema djelomičnom nazivu resursa bez razlikovanja velikih i malih slova:<br><icode>partialname</icode> ili <icode>!partialname</icode>.</para><para>Uključivanje ili isključivanje drugih skupova oznaka:<br><icode>[Tagname]</icode> ili <icode>![Tagname]</icode>.</para><para>Uključivanje ili isključivanje prema cijelom nazivu uz razlikovanje velikih i malih slova:<br><icode>\"ExactMatch\"</icode> ili <icode>!\"ExactMatch\"</icode>.</para>Rezultate filtriranja nije moguće spremiti za prikaz <interface>Svi predlošci</interface>.<br>U ovom prikazu pritiskom na <interface>Enter</interface> ili brisanjem filtra vratit će se sve stavke.<br>Izradite novu oznaku ili se prebacite na drugu ako filtrirane resurse želite spremiti u imenovane skupove.</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:52
 #, kde-format
@@ -5426,12 +5426,12 @@ msgid ""
 "in-/exclusion:<br><icode>\"ExactMatch\"</icode> or <icode>!\"ExactMatch\"</"
 "icode>.</para>Pressing <interface>Enter</interface> or clicking the "
 "<interface>Save</interface> button will save the changes.</qt>"
-msgstr ""
+msgstr "<qt>Unos pojmova za pretraživanje ovdje dodaje resurse u trenutačni prikaz oznake ili ih iz njega uklanja.<para>Za filtriranje prema djelomičnom nazivu resursa bez razlikovanja velikih i malih slova:<br><icode>partialname</icode> ili <icode>!partialname</icode>.</para><para>Uključivanje ili isključivanje drugih skupova oznaka:<br><icode>[Tagname]</icode> ili <icode>![Tagname]</icode>.</para><para>Uključivanje ili isključivanje prema cijelom nazivu uz razlikovanje velikih i malih slova:<br><icode>\"ExactMatch\"</icode> ili <icode>!\"ExactMatch\"</icode>.</para>Pritiskom na <interface>Enter</interface> ili klikom na gumb <interface>Spremi</interface> spremit će se promjene.</qt>"
 
 #: widgets/KoTagFilterWidget.cpp:65
 #, kde-format
 msgid "Enter resource filters here"
-msgstr ""
+msgstr "Ovdje unesite filtre resursa"
 
 #: widgets/KoTagFilterWidget.cpp:76
 #, kde-format
@@ -5439,13 +5439,13 @@ msgctxt "@info:tooltip"
 msgid ""
 "<qt>Save the currently filtered set as the new members of the current tag.</"
 "qt>"
-msgstr ""
+msgstr "<qt>Spremi trenutačno filtrirani skup kao nove članove trenutačne oznake.</qt>"
 
 #: widgets/KoTagToolButton.cpp:45
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<qt>Show the tag box options.</qt>"
-msgstr ""
+msgstr "<qt>Prikaži mogućnosti okvira s oznakama.</qt>"
 
 #: widgets/KoTagToolButton.cpp:60
 #, fuzzy, kde-format
@@ -5460,7 +5460,7 @@ msgstr "Ukloni tekst"
 #: widgets/KoTagToolButton.cpp:86
 #, kde-format
 msgid "Clear undelete list"
-msgstr ""
+msgstr "Očisti popis vraćanja oznaka"
 
 #: widgets/KoTagToolButton.cpp:114
 #, fuzzy, kde-format
@@ -5477,7 +5477,7 @@ msgstr "Zadano"
 #: widgets/KoToolBox.cpp:313
 #, kde-format
 msgid "%1x%2"
-msgstr ""
+msgstr "%1x%2"
 
 #: widgets/KoToolBoxButton.cpp:53
 #, fuzzy, kde-format
@@ -5490,7 +5490,7 @@ msgstr "%1%"
 #, kde-format
 msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: widgets/KoToolBoxDocker.cpp:25
 #, fuzzy, kde-format
@@ -5560,7 +5560,7 @@ msgstr "Sljedeća stranica"
 
 #: widgets/KoZoomMode.cpp:15
 msgid "Actual Pixels"
-msgstr ""
+msgstr "Stvarni pikseli"
 
 #: widgets/KoZoomMode.cpp:19
 #, fuzzy
@@ -5570,7 +5570,7 @@ msgstr "Sljedeća stranica"
 #: widgets/KoZoomWidget.cpp:69
 #, kde-format
 msgid "Use same aspect as pixels"
-msgstr ""
+msgstr "Koristi isti omjer kao pikseli"
 
 #: widgets/KoZoomWidget.cpp:78
 #, fuzzy, kde-format
@@ -5587,12 +5587,12 @@ msgstr "Spremi dokument pod novim imenom"
 #: widgetutils/KoFileDialog.cpp:394
 #, kde-format
 msgid "All files"
-msgstr ""
+msgstr "Sve datoteke"
 
 #: widgetutils/KoFileDialog.cpp:397
 #, kde-format
 msgid "All supported formats"
-msgstr ""
+msgstr "Svi podržani formati"
 
 #: widgetutils/KoGroupButton.cpp:134
 #, fuzzy, kde-format

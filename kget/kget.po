@@ -237,7 +237,7 @@ msgstr "Preuzimanje je nastavljeno"
 #: ui/transfersettingsdialog.ui:54 ui/transfersettingsdialog.ui:70
 #, kde-format
 msgid " KiB/s"
-msgstr " %1 KB/s "
+msgstr " KB/s "
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: conf/dlgnetwork.ui:70
@@ -278,8 +278,7 @@ msgstr " s"
 #: conf/dlgwebinterface.cpp:44 conf/dlgwebinterface.cpp:56
 #, kde-format
 msgid "Could not open KWallet"
-msgstr "Ne mogu otvoriti datoteku za pisanje:
-%1"
+msgstr "Ne mogu otvoriti datoteku za pisanje:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_WebinterfaceEnabled)
 #: conf/dlgwebinterface.ui:29
@@ -573,7 +572,7 @@ msgstr "Nije pronađen odgovarajući poslužitelj ključeva pa ključ nije preuz
 #: core/kget.cpp:114
 #, kde-format
 msgid "Are you sure that you want to remove the group named %1?"
-msgstr "Jeste li sigurni da želite obrisati ove prenose?"
+msgstr "Jeste li sigurni da želite obrisati ove prenose? %1"
 
 #: core/kget.cpp:115
 #, kde-format
@@ -622,10 +621,10 @@ msgstr "Preuzimanje je nastavljeno"
 msgid ""
 "The file %1 already exists.\n"
 "Overwrite?"
-msgstr "Odredišni datoteka 
-%1
-već postoji.
-Želite li da ga prebrišete?"
+msgstr "Odredišni datoteka \n"
+"%1\n"
+"već postoji.\n"
+"Želite li da ga prebrišete?"
 
 #: core/kget.cpp:554
 #, kde-format
@@ -681,16 +680,16 @@ msgstr "Spremi kao"
 msgid ""
 "Malformed URL:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/kget.cpp:992 core/urlchecker.cpp:368
 #, kde-format
 msgid ""
 "Malformed URL, protocol missing:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/kget.cpp:1003 core/urlchecker.cpp:424
 #, kde-format
@@ -700,11 +699,11 @@ msgid ""
 "%1\n"
 "\n"
 "Download it again?"
-msgstr "Već ste dovršili preuzimanje s lokacije: 
-
-%1
-
-Želite li ga ponovno preuzeti?"
+msgstr "Već ste dovršili preuzimanje s lokacije: \n"
+"\n"
+"%1\n"
+"\n"
+"Želite li ga ponovno preuzeti?"
 
 #: core/kget.cpp:1004 core/urlchecker.cpp:639
 #, kde-format
@@ -734,11 +733,11 @@ msgid ""
 "%1\n"
 "\n"
 "Delete it and download again?"
-msgstr "Preuzimanje s lokacije 
-
-%1
-
-još je u tijeku. Želite li ga izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanje s lokacije \n"
+"\n"
+"%1\n"
+"\n"
+"još je u tijeku. Želite li ga izbrisati i ponovno preuzeti?"
 
 #: core/kget.cpp:1017 core/urlchecker.cpp:636
 #, kde-format
@@ -756,16 +755,16 @@ msgid ""
 "You have already downloaded that file from another location.\n"
 "\n"
 "Download and delete the previous one?"
-msgstr "Već ste preuzeli tu datoteku s druge lokacije.
-
-Želite li je ponovno preuzeti i izbrisati prethodnu?"
+msgstr "Već ste preuzeli tu datoteku s druge lokacije.\n"
+"\n"
+"Želite li je ponovno preuzeti i izbrisati prethodnu?"
 
 #: core/kget.cpp:1072 core/urlchecker.cpp:648
 #, kde-format
 msgid "File already downloaded. Download anyway?"
-msgstr "Već sam snimio URL
-%1
-Da ga preuzmem ponovo?"
+msgstr "Već sam snimio URL\n"
+"\n"
+"Da ga preuzmem ponovo?"
 
 #: core/kget.cpp:1083
 #, kde-format
@@ -777,10 +776,10 @@ msgstr "Tu datoteku već preuzimate"
 #: transfer-plugins/metalink/metalink.cpp:662
 #, kde-format
 msgid "File already exists"
-msgstr "Odredišni datoteka 
-%1
-već postoji.
-Želite li da ga prebrišete?"
+msgstr "Odredišni datoteka \n"
+"\n"
+"već postoji.\n"
+"Želite li da ga prebrišete?"
 
 #: core/kget.cpp:1177
 #, kde-format
@@ -803,9 +802,9 @@ msgid ""
 "Not deleting\n"
 "%1\n"
 "as it is a directory."
-msgstr "Ne mogu da obrišem
-%1
-zato jer je to direktorij."
+msgstr "Ne mogu da obrišem\n"
+"%1\n"
+"zato jer je to direktorij."
 
 #: core/kget.cpp:1212
 #, kde-format
@@ -813,9 +812,9 @@ msgid ""
 "Not deleting\n"
 "%1\n"
 "as it is not a local file."
-msgstr "Ne mogu da obrišem
-%1
-zato jer je to nije lokalni datoteka."
+msgstr "Ne mogu da obrišem\n"
+"%1\n"
+"zato jer je to nije lokalni datoteka."
 
 #: core/kget.cpp:1324
 #, kde-format
@@ -931,8 +930,8 @@ msgstr "Prijenos KGeta"
 #: core/linkimporter.cpp:93
 #, kde-format
 msgid "Error trying to get %1"
-msgstr "Greška prilikom pisanja datoteke:
-%1"
+msgstr "Greška prilikom pisanja datoteke:\n"
+"%1"
 
 #: core/signature.cpp:230
 #, kde-format
@@ -1002,7 +1001,7 @@ msgstr "Otvori &Odredište"
 #, kde-format
 msgid "1 Item"
 msgid_plural "%1 Items"
-msgstr[0] "1 stavka"
+msgstr[0] "%1 stavka"
 msgstr[1] "%1 stavke"
 msgstr[2] "%1 stavki"
 
@@ -1137,82 +1136,81 @@ msgstr "Nije naveden URL."
 #: transfer-plugins/bittorrent/bttransfer.cpp:275
 #, kde-format
 msgid "Malformed URL."
-msgstr "Pogrešno formiran URL:
-"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:328
 #, kde-format
 msgid "Malformed URL, protocol missing."
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:330
 #, kde-format
 msgid "Malformed URL, host missing."
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:342
 #, kde-format
 msgid ""
 "Invalid download directory specified:\n"
 "%1"
-msgstr "Navedena je nevaljana mapa za preuzimanje:
-%1"
+msgstr "Navedena je nevaljana mapa za preuzimanje:\n"
+"%1"
 
 #: core/urlchecker.cpp:344
 #, kde-format
 msgid ""
 "Download directory is not writeable:\n"
 "%1"
-msgstr "U mapu za preuzimanje nije moguće pisati:
-%1"
+msgstr "U mapu za preuzimanje nije moguće pisati:\n"
+"%1"
 
 #: core/urlchecker.cpp:354
 #, kde-format
 msgid ""
 "Invalid download destination specified:\n"
 "%1"
-msgstr "Odredište preuzimanja:"
+msgstr "Odredište preuzimanja:\n"
+"%1"
 
 #: core/urlchecker.cpp:356
 #, kde-format
 msgid ""
 "Download destination is not writeable:\n"
 "%1"
-msgstr "Odredište preuzimanja:"
+msgstr "Odredište preuzimanja:\n"
+"%1"
 
 #: core/urlchecker.cpp:370
 #, kde-format
 msgid ""
 "Malformed URL, host missing:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/urlchecker.cpp:386 core/urlchecker.cpp:398
 #, kde-format
 msgid "File already exists. Overwrite it?"
-msgstr "Odredišni datoteka 
-%1
-već postoji.
-Želite li da ga prebrišete?"
+msgstr "Odredišni datoteka \n"
+"\n"
+"već postoji.\n"
+"Želite li da ga prebrišete?"
 
 #: core/urlchecker.cpp:388 core/urlchecker.cpp:414
 #, kde-format
 msgid ""
 "You have already downloaded that file from another location.\n"
 "Download and delete the previous one?"
-msgstr "Već ste preuzeli tu datoteku s druge lokacije.
-Želite li je ponovno preuzeti i izbrisati prethodnu?"
+msgstr "Već ste preuzeli tu datoteku s druge lokacije.\n"
+"Želite li je ponovno preuzeti i izbrisati prethodnu?"
 
 #: core/urlchecker.cpp:390 core/urlchecker.cpp:416
 #, kde-format
 msgid ""
 "You are already downloading that file from another location.\n"
 "Download and delete the previous one?"
-msgstr "Tu datoteku već preuzimate s druge lokacije.
-Želite li je ponovno preuzeti i izbrisati prethodnu?"
+msgstr "Tu datoteku već preuzimate s druge lokacije.\n"
+"Želite li je ponovno preuzeti i izbrisati prethodnu?"
 
 #: core/urlchecker.cpp:400
 #, kde-format
@@ -1225,8 +1223,8 @@ msgstr "Već ste dovršili preuzimanje s te lokacije. Želite li ga ponovno preu
 msgid ""
 "You have a download in progress from that location.\n"
 "Delete it and download again?"
-msgstr "Preuzimanje s te lokacije još je u tijeku.
-Želite li ga izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanje s te lokacije još je u tijeku.\n"
+"Želite li ga izbrisati i ponovno preuzeti?"
 
 #: core/urlchecker.cpp:412
 #, kde-format
@@ -1234,68 +1232,65 @@ msgid ""
 "File already exists:\n"
 "%1\n"
 "Overwrite it?"
-msgstr "Odredišni datoteka 
-%1
-već postoji.
-Želite li da ga prebrišete?"
+msgstr "Odredišni datoteka \n"
+"%1\n"
+"već postoji.\n"
+"Želite li da ga prebrišete?"
 
 #: core/urlchecker.cpp:456
 #, kde-format
 msgid "Malformed URLs."
-msgstr "Pogrešno formiran URL:
-"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:458
 #, kde-format
 msgid "Malformed URLs, protocol missing."
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:460
 #, kde-format
 msgid "Malformed URLs, host missing."
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:"
 
 #: core/urlchecker.cpp:470
 #, kde-format
 msgid ""
 "Malformed URLs:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/urlchecker.cpp:472
 #, kde-format
 msgid ""
 "Malformed URLs, protocol missing:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/urlchecker.cpp:474
 #, kde-format
 msgid ""
 "Malformed URLs, host missing:\n"
 "%1"
-msgstr "Pogrešno formiran URL:
-%1"
+msgstr "Pogrešno formiran URL:\n"
+"%1"
 
 #: core/urlchecker.cpp:476
 #, kde-format
 msgid ""
 "Destinations are not writable:\n"
 "%1"
-msgstr "U odredišta nije moguće pisati:
-%1"
+msgstr "U odredišta nije moguće pisati:\n"
+"%1"
 
 #: core/urlchecker.cpp:500
 #, kde-format
 msgid "Files exist already. Overwrite them?"
-msgstr "Odredišni datoteka 
-%1
-već postoji.
-Želite li da ga prebrišete?"
+msgstr "Odredišni datoteka \n"
+"\n"
+"već postoji.\n"
+"Želite li da ga prebrišete?"
 
 #: core/urlchecker.cpp:502
 #, kde-format
@@ -1309,8 +1304,8 @@ msgstr "Već ste dovršili preuzimanja na tim odredištima. Želite li ih ponovn
 msgid ""
 "You have downloads in progress to these destinations.\n"
 "Delete them and download again?"
-msgstr "Preuzimanja na tim odredištima još su u tijeku.
-Želite li ih izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanja na tim odredištima još su u tijeku.\n"
+"Želite li ih izbrisati i ponovno preuzeti?"
 
 #: core/urlchecker.cpp:512
 #, kde-format
@@ -1324,8 +1319,8 @@ msgstr "Već ste dovršili preuzimanja s tih lokacija. Želite li ih ponovno pre
 msgid ""
 "You have downloads in progress from these locations.\n"
 "Delete them and download again?"
-msgstr "Preuzimanja s tih lokacija još su u tijeku.
-Želite li ih izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanja s tih lokacija još su u tijeku.\n"
+"Želite li ih izbrisati i ponovno preuzeti?"
 
 #: core/urlchecker.cpp:523
 #, kde-format
@@ -1333,9 +1328,9 @@ msgid ""
 "Files exist already:\n"
 "%1\n"
 "Overwrite them?"
-msgstr "Datoteke već postoje:
-%1
-Želite li ih prebrisati?"
+msgstr "Datoteke već postoje:\n"
+"%1\n"
+"Želite li ih prebrisati?"
 
 #: core/urlchecker.cpp:525
 #, kde-format
@@ -1345,11 +1340,11 @@ msgid ""
 "%1\n"
 "\n"
 " Download them again?"
-msgstr "Već ste dovršili preuzimanja na tim odredištima: 
-
-%1
-
- Želite li ih ponovno preuzeti?"
+msgstr "Već ste dovršili preuzimanja na tim odredištima: \n"
+"\n"
+"%1\n"
+"\n"
+" Želite li ih ponovno preuzeti?"
 
 #: core/urlchecker.cpp:527
 #, kde-format
@@ -1359,11 +1354,11 @@ msgid ""
 "%1\n"
 "\n"
 "Delete them and download again?"
-msgstr "Preuzimanja na tim odredištima još su u tijeku: 
-
-%1
-
-Želite li ih izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanja na tim odredištima još su u tijeku: \n"
+"\n"
+"%1\n"
+"\n"
+"Želite li ih izbrisati i ponovno preuzeti?"
 
 #: core/urlchecker.cpp:535
 #, kde-format
@@ -1373,11 +1368,11 @@ msgid ""
 "%1\n"
 "\n"
 "Download them again?"
-msgstr "Već ste dovršili preuzimanja s tih lokacija: 
-
-%1
-
-Želite li ih ponovno preuzeti?"
+msgstr "Već ste dovršili preuzimanja s tih lokacija: \n"
+"\n"
+"%1\n"
+"\n"
+"Želite li ih ponovno preuzeti?"
 
 #: core/urlchecker.cpp:537
 #, kde-format
@@ -1387,11 +1382,11 @@ msgid ""
 "%1\n"
 "\n"
 "Delete them and download again?"
-msgstr "Preuzimanja s tih lokacija još su u tijeku: 
-
-%1
-
-Želite li ih izbrisati i ponovno preuzeti?"
+msgstr "Preuzimanja s tih lokacija još su u tijeku: \n"
+"\n"
+"%1\n"
+"\n"
+"Želite li ih izbrisati i ponovno preuzeti?"
 
 #: core/verificationmodel.cpp:148
 #, kde-format
@@ -1423,10 +1418,10 @@ msgid ""
 "(C) 2001 - 2002, Patrick Charbonnier\n"
 "(C) 2002, Carsten Pfeiffer\n"
 "(C) 1998 - 2000, Matej Koss"
-msgstr "(C) 2005.–2014., razvojni tim KGeta
-(C) 2001.–2002., Patrick Charbonnier
-(C) 2002., Carsten Pfeiffer
-(C) 1998.–2000., Matej Koss"
+msgstr "(C) 2005.–2014., razvojni tim KGeta\n"
+"(C) 2001.–2002., Patrick Charbonnier\n"
+"(C) 2002., Carsten Pfeiffer\n"
+"(C) 1998.–2000., Matej Koss"
 
 #: main.cpp:105
 #, kde-format
@@ -1648,11 +1643,11 @@ msgid ""
 "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
 "When set, KGet will periodically scan the clipboard for URLs and paste them "
 "automatically."
-msgstr "<b>Automatsko ispuštanje</b> uključuje
-ili isključuje ovaj način rada rada.
-
-Kada je uključen, KGet će periodično provjeravati da u
-odlagalištu slučajno nema neki URL; ako ga ima, ispustit će ga automatski."
+msgstr "<b>Automatsko ispuštanje</b> uključuje\n"
+"ili isključuje ovaj način rada rada.\n"
+"\n"
+"Kada je uključen, KGet će periodično provjeravati da u\n"
+"odlagalištu slučajno nema neki URL; ako ga ima, ispustit će ga automatski."
 
 #: mainwindow.cpp:227
 #, kde-format
@@ -1746,7 +1741,7 @@ msgstr "Uobičajeni direktorij"
 #: mainwindow.cpp:340
 #, kde-format
 msgid "&Transfer Settings"
-msgstr "Transfera: %1"
+msgstr "Transfera: "
 
 #: mainwindow.cpp:346
 #, kde-format
@@ -1769,8 +1764,8 @@ msgstr "Bez radnje"
 msgid ""
 "This is the first time you have run KGet.\n"
 "Would you like to enable KGet as the download manager for Konqueror?"
-msgstr "Ovo je prvi put da ste pokrenuli KGet.
-Želite li postaviti KGet kao upravitelja preuzimanja za Konqueror?"
+msgstr "Ovo je prvi put da ste pokrenuli KGet.\n"
+"Želite li postaviti KGet kao upravitelja preuzimanja za Konqueror?"
 
 #: mainwindow.cpp:424
 #, kde-format
@@ -1809,8 +1804,8 @@ msgstr "KGet – %1%"
 msgid ""
 "Some transfers are still running.\n"
 "Are you sure you want to close KGet?"
-msgstr "Neki prenosi još uvijek nisu završeni.
-Da li stvarno želite da zatvorite KGet?"
+msgstr "Neki prenosi još uvijek nisu završeni.\n"
+"Da li stvarno želite da zatvorite KGet?"
 
 #: mainwindow.cpp:554
 #, kde-format
@@ -1892,7 +1887,7 @@ msgstr "Otvori prenos:"
 #: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:57
 #, kde-format
 msgid "Advanced Details for %1"
-msgstr "Uobičajeni direktorij"
+msgstr "Uobičajeni direktorij %1"
 
 #: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:65
 #: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:226
@@ -2487,12 +2482,12 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
 "html>"
-msgstr "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">
-p, li { white-space: pre-wrap; }
-</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:400; font-style:normal;\">
-<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Web-sjeme koje treba dodati u torrent.</p>
-<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>
-<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Napomena: </span>Podržana su samo web-sjemena HTTP.</p></body></html>"
+msgstr "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Web-sjeme koje treba dodati u torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Napomena: </span>Podržana su samo web-sjemena HTTP.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_add)
 #: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:28
@@ -2679,8 +2674,7 @@ msgstr "Nije moguće dodati tracker privatnom torrentu."
 #: transfer-plugins/bittorrent/bttransfer.cpp:410
 #, kde-format
 msgid "Torrent file does not exist"
-msgstr "Navedena datoteka ne postoji:
-%1"
+msgstr "Navedena datoteka ne postoji:"
 
 #: transfer-plugins/bittorrent/bttransfer.cpp:417
 #, kde-format
@@ -3045,8 +3039,8 @@ msgstr "Preuzimanje nije uspjelo; nije moguće pristupiti ovom URL-u."
 msgid ""
 "This URL does not allow multiple connections,\n"
 "the download will take longer."
-msgstr "Ovaj URL ne dopušta više istodobnih veza,
-pa će preuzimanje trajati dulje."
+msgstr "Ovaj URL ne dopušta više istodobnih veza,\n"
+"pa će preuzimanje trajati dulje."
 
 #. i18n: ectx: property (text), widget (QCheckBox, enginesCheckBox)
 #: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:44
@@ -3063,8 +3057,7 @@ msgstr "Potraži podatke za provjeru"
 #: transfer-plugins/multisegmentkio/segment.cpp:287
 #, kde-format
 msgid "Failed to write to the file."
-msgstr "Ne mogu pisati u datoteku:
-%1"
+msgstr "Ne mogu pisati u datoteku:"
 
 #: ui/contextmenu.cpp:115
 #, kde-format
@@ -3112,7 +3105,7 @@ msgstr "Poveznice za preuzimanje možete povući u ciljano područje."
 #, kde-format
 msgctxt "%1 filename, %2 total size, %3 status"
 msgid "%1(%2) %3"
-msgstr " %1/s "
+msgstr " %1/s %2 %3 "
 
 #: ui/droptarget.cpp:394
 #, kde-format
@@ -3127,6 +3120,7 @@ msgctxt ""
 "status"
 msgid "%1(%2% %3/%4) %5"
 msgstr " %1/s "
+"%2% %3/%4 %5"
 
 #: ui/droptarget.cpp:417
 #, kde-format
@@ -3136,7 +3130,7 @@ msgstr "Spremno"
 #: ui/groupsettingsdialog.cpp:19
 #, kde-format
 msgid "Group Settings for %1"
-msgstr "Uobičajeni direktorij"
+msgstr "Uobičajeni direktorij %1"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
 #: ui/groupsettingsdialog.ui:32
@@ -3810,7 +3804,7 @@ msgstr "Preporučeno"
 #: ui/metalinkcreator/filedlg.ui:111
 #, kde-format
 msgid "File size (in bytes):"
-msgstr "Ukupna veličina je %1 bajtova"
+msgstr "Ukupna veličina je bajtova"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -4107,7 +4101,7 @@ msgstr "Preimenuj datoteku"
 #: ui/renamefile.cpp:39
 #, kde-format
 msgid "Rename %1 to:"
-msgstr "Uobičajeni direktorij"
+msgstr "Uobičajeni direktorij %1"
 
 #: ui/renamefile.cpp:42
 #, kde-format
@@ -4364,7 +4358,7 @@ msgstr "Preostalo vrijeme:"
 #: ui/transfersettingsdialog.cpp:33
 #, kde-format
 msgid "Transfer Settings for %1"
-msgstr "Uobičajeni direktorij"
+msgstr "Uobičajeni direktorij %1"
 
 #: ui/transfersettingsdialog.cpp:164
 #, kde-format
@@ -4381,7 +4375,7 @@ msgstr "Odredište nije promijenjeno"
 #: ui/transfersettingsdialog.ui:23
 #, kde-format
 msgid "Transfer Settings"
-msgstr "Transfera: %1"
+msgstr "Transfera: "
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/transfersettingsdialog.ui:35
@@ -4435,7 +4429,7 @@ msgstr "Odaberi stupce"
 #: ui/transfersview.cpp:312
 #, kde-format
 msgid "Transfer Details"
-msgstr "Transfera: %1"
+msgstr "Transfera: "
 
 #: ui/transfersviewdelegate.cpp:361
 #, kde-format
@@ -4476,7 +4470,7 @@ msgstr "Dodaj kontrolni zbroj"
 #: ui/verificationdialog.cpp:94
 #, kde-format
 msgid "Transfer Verification for %1"
-msgstr "Uobičajeni direktorij"
+msgstr "Uobičajeni direktorij %1"
 
 #: ui/verificationdialog.cpp:205
 #, kde-format

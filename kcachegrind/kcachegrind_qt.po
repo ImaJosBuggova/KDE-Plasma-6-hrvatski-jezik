@@ -418,7 +418,7 @@ msgstr "Za aktivnu stavku nije moguće nacrtati graf poziva."
 #: libviews/callgraphview.cpp:2537
 msgctxt "CallGraphView|"
 msgid "Error running the graph layouting tool.\n"
-msgstr ""
+msgstr "Pogreška pri pokretanju alata za raspored grafa.\n"
 
 #: libviews/callgraphview.cpp:2542
 #, qt-format
@@ -428,6 +428,9 @@ msgid ""
 "\t'%1'\n"
 "because it has no cost of the selected event type."
 msgstr ""
+"Graf poziva nije dostupan za funkciju\n"
+"\t'%1'\n"
+"jer nema troška za odabranu vrstu događaja."
 
 #: libviews/callgraphview.cpp:2783
 msgctxt "CallGraphView|"
@@ -1262,7 +1265,7 @@ msgstr "Udaljenost"
 #: libviews/coverageview.cpp:41
 msgctxt "CoverageView|"
 msgid "Called"
-msgstr ""
+msgstr "Pozvano"
 
 #: libviews/coverageview.cpp:42
 msgctxt "CoverageView|"
@@ -1431,7 +1434,7 @@ msgstr "Vlastito"
 #: libviews/functionlistmodel.cpp:47
 msgctxt "FunctionListModel|"
 msgid "Called"
-msgstr ""
+msgstr "Pozvano"
 
 #: libviews/functionlistmodel.cpp:48
 msgctxt "FunctionListModel|"
@@ -1499,12 +1502,12 @@ msgstr "Idi na „%1”"
 #: libviews/functionselection.cpp:297 libviews/functionselection.cpp:317
 msgctxt "FunctionSelection|"
 msgid "Grouping"
-msgstr ""
+msgstr "Grupiranje"
 
 #: libviews/functionselection.cpp:353
 msgctxt "FunctionSelection|"
 msgid "No Grouping"
-msgstr ""
+msgstr "Bez grupiranja"
 
 #: libviews/instritem.cpp:114 libviews/sourceitem.cpp:94
 #, qt-format
@@ -1547,7 +1550,7 @@ msgstr "(ciklus)"
 #: libviews/instrview.cpp:193
 msgctxt "InstrView|"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: libviews/instrview.cpp:194
 msgctxt "InstrView|"
@@ -1691,12 +1694,12 @@ msgstr "ne podudara s datotekom podataka profila."
 #: libviews/instrview.cpp:1156
 msgctxt "InstrView|"
 msgid "Are you using an old profile data file or is the above mentioned"
-msgstr ""
+msgstr "Koristite li staru datoteku s podacima profila ili je gore navedeni"
 
 #: libviews/instrview.cpp:1158
 msgctxt "InstrView|"
 msgid "ELF object from an updated installation/another machine?"
-msgstr ""
+msgstr "ELF objekt iz ažurirane instalacije ili s drugog računala?"
 
 #: libviews/instrview.cpp:1166
 msgctxt "InstrView|"
@@ -1899,7 +1902,7 @@ msgstr "Vlastito"
 #: libviews/partview.cpp:40
 msgctxt "PartView|"
 msgid "Called"
-msgstr ""
+msgstr "Pozvano"
 
 #: libviews/partview.cpp:41
 msgctxt "PartView|"
@@ -1940,7 +1943,7 @@ msgstr "Skok %1 puta na %2"
 #: libviews/sourceview.cpp:51
 msgctxt "SourceView|"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: libviews/sourceview.cpp:52
 msgctxt "SourceView|"
@@ -1984,12 +1987,12 @@ msgstr "Idi na redak %1"
 #: libviews/sourceview.cpp:627
 msgctxt "SourceView|"
 msgid "There is no cost of current selected type associated"
-msgstr ""
+msgstr "Trošak trenutačno odabrane vrste nije povezan"
 
 #: libviews/sourceview.cpp:629
 msgctxt "SourceView|"
 msgid "with any source line of this function in file"
-msgstr ""
+msgstr "ni s jednim izvornim retkom ove funkcije u datoteci"
 
 #: libviews/sourceview.cpp:633
 msgctxt "SourceView|"
@@ -2299,4 +2302,3 @@ msgstr "Vodoravno"
 msgctxt "TreeMapWidget|"
 msgid "Vertical"
 msgstr "Okomito"
-

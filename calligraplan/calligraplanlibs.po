@@ -26,7 +26,7 @@ msgstr "Roko Tomović"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "Vaše adrese e-pošte"
 
 #: kernel/KPlatoXmlLoaderBase.cpp:1055 kernel/kptdocuments.cpp:279
 #: kernel/ProjectLoader_v0.cpp:1511
@@ -1892,7 +1892,7 @@ msgstr "Informacije"
 #, kde-format
 msgctxt "@info:status"
 msgid "https://calligra.org/plan"
-msgstr ""
+msgstr "https://calligra.org/plan"
 
 #. i18n: ectx: property (text), widget (QLabel, calligraPlanLabel)
 #: main/WelcomeView.ui:390
@@ -1908,7 +1908,7 @@ msgstr "<html><head/><body><p><a href=\"https://calligra.org/plan\"><span style=
 #, kde-format
 msgctxt "@info:status"
 msgid "https://docs.kde.org"
-msgstr ""
+msgstr "https://docs.kde.org"
 
 #. i18n: ectx: property (text), widget (QLabel, userDocLabel)
 #: main/WelcomeView.ui:406
@@ -1924,7 +1924,7 @@ msgstr "<a href=\"https://docs.kde.org/index.php?application=calligraplan\">Kori
 #, kde-format
 msgctxt "@info:status"
 msgid "https://forum.kde.org/viewforum.php?f=203"
-msgstr ""
+msgstr "https://forum.kde.org/viewforum.php?f=203"
 
 #. i18n: ectx: property (text), widget (QLabel, forumLabel)
 #: main/WelcomeView.ui:425
@@ -1939,7 +1939,7 @@ msgstr "<a href=\"https://forum.kde.org/viewforum.php?f=203\">Forum zajednice</a
 #, kde-format
 msgctxt "@info:status"
 msgid "https://userbase.kde.org/Plan"
-msgstr ""
+msgstr "https://userbase.kde.org/Plan"
 
 #. i18n: ectx: property (text), widget (QLabel, commuityLabel)
 #: main/WelcomeView.ui:444
@@ -1987,6 +1987,7 @@ msgid "There is %1 resource available in this group"
 msgid_plural "There are %1 resources available in this group"
 msgstr[0] "U ovoj grupi dostupan je %1 resurs"
 msgstr[1] "U ovoj grupi dostupna su %1 resursa"
+msgstr[2] "U ovoj grupi dostupno je %1 resursa"
 
 #: models/GroupAllocationItemModel.cpp:171
 #: models/kptaccountsmodel.cpp:112 models/kptaccountsmodel.cpp:1054
@@ -2043,6 +2044,7 @@ msgid "%1 resource requested for dynamic allocation"
 msgid_plural "%1 resources requested for dynamic allocation"
 msgstr[0] "Zatražen je %1 resurs za dinamičku dodjelu"
 msgstr[1] "Zatražena su %1 resursa za dinamičku dodjelu"
+msgstr[2] "Zatraženo je %1 resursa za dinamičku dodjelu"
 
 #: models/GroupAllocationItemModel.cpp:467
 #, kde-format
@@ -2051,6 +2053,7 @@ msgid "%1 resource allocated"
 msgid_plural "%1 resources allocated"
 msgstr[0] "Dodijeljen je %1 resurs"
 msgstr[1] "Dodijeljena su %1 resursa"
+msgstr[2] "Dodijeljeno je %1 resursa"
 
 #: models/GroupAllocationItemModel.cpp:471
 #, kde-kuit-format
@@ -2081,6 +2084,7 @@ msgid "There is %1 resource available in this group"
 msgid_plural "There are %1 resources available in this group"
 msgstr[0] "U ovoj grupi dostupan je %1 resurs"
 msgstr[1] "U ovoj grupi dostupna su %1 resursa"
+msgstr[2] "U ovoj grupi dostupno je %1 resursa"
 
 #: models/kcalendar/kdatepicker.cpp:188
 #, kde-format
@@ -2170,8 +2174,9 @@ msgstr "Dodaj račun"
 msgctxt "(qtundo-format)"
 msgid "Delete Account"
 msgid_plural "Delete %1 Accounts"
-msgstr[0] "Izbriši račun"
+msgstr[0] "Izbriši %1 račun"
 msgstr[1] "Izbriši %1 računa"
+msgstr[2] "Izbriši %1 računa"
 
 #: models/kptaccountsmodel.cpp:856
 #, kde-format
@@ -5175,24 +5180,27 @@ msgstr "Izmijeni koordinatora grupe resursa"
 msgctxt "(qtundo-format)"
 msgid "Add resource from address book"
 msgid_plural "Add %1 resources from address book"
-msgstr[0] "Dodaj resurs iz adresara"
+msgstr[0] "Dodaj %1 resurs iz adresara"
 msgstr[1] "Dodaj %1 resursa iz adresara"
+msgstr[2] "Dodaj %1 resursa iz adresara"
 
 #: models/ResourceGroupItemModel.cpp:668 models/ResourceItemModel.cpp:956
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move resource"
 msgid_plural "Move %1 resources"
-msgstr[0] "Premjesti resurs"
+msgstr[0] "Premjesti %1 resurs"
 msgstr[1] "Premjesti %1 resursa"
+msgstr[2] "Premjesti %1 resursa"
 
 #: models/ResourceGroupItemModel.cpp:688 models/ResourceItemModel.cpp:976
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Copy resource"
 msgid_plural "Copy %1 resources"
-msgstr[0] "Kopiraj resurs"
+msgstr[0] "Kopiraj %1 resurs"
 msgstr[1] "Kopiraj %1 resursa"
+msgstr[2] "Kopiraj %1 resursa"
 
 #: models/ResourceGroupItemModel.cpp:789 models/ResourceGroupItemModel.cpp:793
 msgctxt "(qtundo-format)"
@@ -7473,6 +7481,7 @@ msgid "Delete resource"
 msgid_plural "Delete resources"
 msgstr[0] "Izbriši resurs"
 msgstr[1] "Izbriši resurse"
+msgstr[2] "Izbriši resurse"
 
 #: ui/kptresourceeditor.cpp:423
 msgctxt "(qtundo-format) @action"
@@ -7960,6 +7969,7 @@ msgid "Delete task"
 msgid_plural "Delete tasks"
 msgstr[0] "Izbriši zadatak"
 msgstr[1] "Izbriši zadatke"
+msgstr[2] "Izbriši zadatke"
 
 #: ui/kpttaskeditor.cpp:1164
 msgctxt "(qtundo-format) @action"
@@ -7971,8 +7981,9 @@ msgstr "Izbriši zadatak"
 msgctxt "(qtundo-format)"
 msgid "Indent task"
 msgid_plural "Indent %1 tasks"
-msgstr[0] "Uvuci zadatak"
+msgstr[0] "Uvuci %1 zadatak"
 msgstr[1] "Uvuci %1 zadatka"
+msgstr[2] "Uvuci %1 zadataka"
 
 #: ui/kpttaskeditor.cpp:1217
 msgctxt "(qtundo-format) For a single task"
@@ -7984,8 +7995,9 @@ msgstr "Izvuci zadatak"
 msgctxt "(qtundo-format)"
 msgid "Unindent task"
 msgid_plural "Unindent %1 tasks"
-msgstr[0] "Izvuci zadatak"
+msgstr[0] "Izvuci %1 zadatak"
 msgstr[1] "Izvuci %1 zadatka"
+msgstr[2] "Izvuci %1 zadataka"
 
 #: ui/kpttaskeditor.cpp:1240
 msgctxt "(qtundo-format)"
@@ -9453,17 +9465,17 @@ msgstr "Generiranje izvješća"
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:473
 #, kde-kuit-format
 msgid "Failed to generate %1.<nl/>Template file name is empty."
-msgstr ""
+msgstr "Nije uspjelo generiranje %1.<nl/>Naziv datoteke predloška je prazan."
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:479
 #, kde-kuit-format
 msgid "Failed to generate %1.<nl/>Template file does not exist:<nl/>%2"
-msgstr ""
+msgstr "Nije uspjelo generiranje %1.<nl/>Datoteka predloška ne postoji:<nl/>%2"
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:486
 #, kde-kuit-format
 msgid "Failed to generate %1.<nl/>Report file name is empty."
-msgstr ""
+msgstr "Nije uspjelo generiranje %1.<nl/>Naziv datoteke izvješća je prazan."
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:509
 #, kde-kuit-format
@@ -9647,6 +9659,7 @@ msgid "Delete resourcegroup"
 msgid_plural "Delete resourcegroups"
 msgstr[0] "Izbriši grupu resursa"
 msgstr[1] "Izbriši grupe resursa"
+msgstr[2] "Izbriši grupe resursa"
 
 #: ui/RichTextWidget.cpp:26 ui/RichTextWidget.cpp:39
 #, kde-kuit-format

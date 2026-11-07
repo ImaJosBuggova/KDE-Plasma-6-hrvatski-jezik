@@ -1383,9 +1383,9 @@ msgstr "Odbaci promjene"
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
-msgstr[0] "Jedna je slika izmijenjena."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Izmijenjena je %1 slika."
+msgstr[1] "Izmijenjene su %1 slike."
+msgstr[2] "Izmijenjeno je %1 slika."
 
 #: app/mainwindow.cpp:1871
 #, kde-format
@@ -1467,9 +1467,9 @@ msgstr "&Zaustavi"
 msgctxt "@info"
 msgid "One document could not be saved:"
 msgid_plural "%1 documents could not be saved:"
-msgstr[0] "Jedan dokument nije moguće spremiti:"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Nije moguće spremiti %1 dokument:"
+msgstr[1] "Nije moguće spremiti %1 dokumenta:"
+msgstr[2] "Nije moguće spremiti %1 dokumenata:"
 
 #: app/saveallhelper.cpp:104
 #, kde-kuit-format
@@ -1505,9 +1505,9 @@ msgstr "Sljedeća izmijenjena slika"
 #, kde-format
 msgid "One image modified"
 msgid_plural "%1 images modified"
-msgstr[0] "Jedna izmijenjena slika"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Izmijenjena %1 slika"
+msgstr[1] "%1 izmijenjene slike"
+msgstr[2] "%1 izmijenjenih slika"
 
 #: app/savebar.cpp:109
 #, kde-format
@@ -1726,16 +1726,16 @@ msgstr "Prikaži neuspjele podmape..."
 msgid "Failed to import %1 document."
 msgid_plural "Failed to import %1 documents."
 msgstr[0] "Uvoz %1 dokumenta nije uspio."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "Uvoz %1 dokumenta nije uspio."
+msgstr[2] "Uvoz %1 dokumenata nije uspio."
 
 #: importer/dialogpage.cpp:78
 #, kde-format
 msgid "Failed to create %1 destination subfolder."
 msgid_plural "Failed to create %1 destination subfolders."
 msgstr[0] "Stvaranje %1 odredišne podmape nije uspjelo."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "Stvaranje %1 odredišne podmape nije uspjelo."
+msgstr[2] "Stvaranje %1 odredišnih podmapa nije uspjelo."
 
 #: importer/dialogpage.cpp:89
 #, kde-format
@@ -1781,18 +1781,18 @@ msgstr "Izvorni naziv datoteke malim slovima"
 #, kde-format
 msgid "One document has been imported."
 msgid_plural "%1 documents have been imported."
-msgstr[0] "Uvezen je jedan dokument."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Uvezen je %1 dokument."
+msgstr[1] "Uvezena su %1 dokumenta."
+msgstr[2] "Uvezeno je %1 dokumenata."
 
 #: importer/importdialog.cpp:95
 #, kde-format
 msgid "One document has been skipped because it had already been imported."
 msgid_plural ""
 "%1 documents have been skipped because they had already been imported."
-msgstr[0] "Preskočen je jedan dokument jer je već bio uvezen."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Preskočen je %1 dokument jer je već bio uvezen."
+msgstr[1] "Preskočena su %1 dokumenta jer su već bila uvezena."
+msgstr[2] "Preskočeno je %1 dokumenata jer su već bila uvezena."
 
 #: importer/importdialog.cpp:103
 #, kde-format
@@ -1802,34 +1802,34 @@ msgid ""
 msgid_plural ""
 "%1 of them have been renamed because other documents with the same name had "
 "already been imported."
-msgstr[0] "Jedan je preimenovan jer je već bio uvezen drugi dokument istog naziva."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Preimenovan je %1 dokument jer je već bio uvezen drugi dokument istog naziva."
+msgstr[1] "Preimenovana su %1 dokumenta jer su drugi dokumenti istog naziva već bili uvezeni."
+msgstr[2] "Preimenovano je %1 dokumenata jer su drugi dokumenti istog naziva već bili uvezeni."
 
 #: importer/importdialog.cpp:111
 #, kde-format
 msgid "Delete the imported document from the device?"
 msgid_plural "Delete the %1 imported documents from the device?"
-msgstr[0] "Izbrisati uvezeni dokument s uređaja?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Izbrisati %1 uvezeni dokument s uređaja?"
+msgstr[1] "Izbrisati %1 uvezena dokumenta s uređaja?"
+msgstr[2] "Izbrisati %1 uvezenih dokumenata s uređaja?"
 
 #: importer/importdialog.cpp:113
 #, kde-format
 msgid "Delete the skipped document from the device?"
 msgid_plural "Delete the %1 skipped documents from the device?"
-msgstr[0] "Izbrisati preskočeni dokument s uređaja?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Izbrisati %1 preskočeni dokument s uređaja?"
+msgstr[1] "Izbrisati %1 preskočena dokumenta s uređaja?"
+msgstr[2] "Izbrisati %1 preskočenih dokumenata s uređaja?"
 
 #: importer/importdialog.cpp:116
 #, kde-format
 msgctxt "Singular sentence is actually never used."
 msgid "Delete the imported or skipped document from the device?"
 msgid_plural "Delete the %1 imported and skipped documents from the device?"
-msgstr[0] "Izbrisati uvezeni ili preskočeni dokument s uređaja?"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Izbrisati %1 uvezeni ili preskočeni dokument s uređaja?"
+msgstr[1] "Izbrisati %1 uvezena ili preskočena dokumenta s uređaja?"
+msgstr[2] "Izbrisati %1 uvezenih ili preskočenih dokumenata s uređaja?"
 
 #: importer/importdialog.cpp:123
 #, kde-format
@@ -1851,8 +1851,8 @@ msgid_plural ""
 "Failed to delete documents:\n"
 "%2"
 msgstr[0] "Brisanje dokumenta nije uspjelo:\n%2"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "Brisanje %2 dokumenta nije uspjelo."
+msgstr[2] "Brisanje dokumenata nije uspjelo:\n%2"
 
 #: importer/importdialog.cpp:140
 #, kde-format
@@ -2731,14 +2731,14 @@ msgstr "Nova veličina:"
 #: lib/resize/resizeimagewidget.ui:63 lib/resize/resizeimagewidget.ui:195
 #, no-c-format, kde-format
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, mHeightSpinBox)
 #. i18n: ectx: property (suffix), widget (QSpinBox, mWidthSpinBox)
 #: lib/resize/resizeimagewidget.ui:86 lib/resize/resizeimagewidget.ui:102
 #, kde-format
 msgid " px"
-msgstr ""
+msgstr " px"
 
 #. i18n: ectx: property (text), widget (QLabel, mCurrentSizeLabel)
 #: lib/resize/resizeimagewidget.ui:115

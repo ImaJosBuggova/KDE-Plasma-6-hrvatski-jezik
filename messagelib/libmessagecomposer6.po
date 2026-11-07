@@ -740,6 +740,10 @@ msgid ""
 "leak sensitive information.\n"
 "Encrypt all parts instead?"
 msgstr ""
+"Neki dijelovi ove poruke neće biti šifrirani.\n"
+"Slanje samo djelomično šifriranih poruka može prekršiti pravila web-mjesta i/"
+"ili dovesti do otkrivanja osjetljivih podataka.\n"
+"Želite li umjesto toga šifrirati sve dijelove?"
 
 #: composer/composerviewbase.cpp:2229
 #, kde-format
@@ -749,6 +753,10 @@ msgid ""
 "information.\n"
 "Encrypt messages instead?"
 msgstr ""
+"Ova poruka neće biti šifrirana.\n"
+"Slanje nešifriranih poruka može prekršiti pravila web-mjesta i/ili dovesti do "
+"otkrivanja osjetljivih podataka.\n"
+"Želite li umjesto toga šifrirati poruku?"
 
 #: composer/composerviewbase.cpp:2233
 #, kde-format
@@ -767,6 +775,8 @@ msgid ""
 "One or more of your configured OpenPGP encryption keys or S/MIME "
 "certificates is not fully trusted for encryption."
 msgstr ""
+"Neki od vaših konfiguriranih ključeva za šifriranje OpenPGP-om ili "
+"certifikata S/MIME-a nisu u potpunosti pouzdani za šifriranje."
 
 #: composer/keyresolver.cpp:316
 #, kde-format
@@ -774,6 +784,8 @@ msgid ""
 "One or more of the OpenPGP encryption keys or S/MIME certificates for "
 "recipient \"%1\" is not fully trusted for encryption."
 msgstr ""
+"Neki od ključeva za šifriranje OpenPGP-om ili certifikata S/MIME-a za "
+"primatelja „%1” nisu u potpunosti pouzdani za šifriranje."
 
 #: composer/keyresolver.cpp:323
 #, kde-format
@@ -781,6 +793,8 @@ msgid ""
 "\n"
 "The following keys are only marginally trusted: \n"
 msgstr ""
+"\n"
+"Sljedeći su ključevi samo djelomično pouzdani: \n"
 
 #: composer/keyresolver.cpp:327
 #, kde-format
@@ -788,6 +802,8 @@ msgid ""
 "\n"
 "The following keys or certificates have unknown trust level: \n"
 msgstr ""
+"\n"
+"Sljedeći ključevi ili certifikati imaju nepoznatu razinu pouzdanosti: \n"
 
 #: composer/keyresolver.cpp:331
 #, kde-format
@@ -795,6 +811,8 @@ msgid ""
 "\n"
 "The following keys or certificates are <b>revoked</b>: \n"
 msgstr ""
+"\n"
+"Sljedeći ključevi ili certifikati su <b>opozvani</b>: \n"
 
 #: composer/keyresolver.cpp:337
 #, kde-format
@@ -812,6 +830,12 @@ msgid ""
 "If you choose to continue, and the keys are needed later on, you will be "
 "prompted to specify the keys to use."
 msgstr ""
+"Neki od vaših konfiguriranih ključeva za šifriranje OpenPGP-om ili "
+"certifikata S/MIME-a nisu upotrebljivi za šifriranje. Ponovno konfigurirajte "
+"ključeve za šifriranje i certifikate za ovaj identitet u dijaloškom okviru "
+"za konfiguraciju identiteta.\n"
+"Ako odlučite nastaviti, a ključevi vam kasnije budu potrebni, zatražit će se "
+"da navedete ključeve koje želite koristiti."
 
 #: composer/keyresolver.cpp:655 composer/keyresolver.cpp:1008
 #: composer/keyresolver.cpp:1037
@@ -829,6 +853,12 @@ msgid ""
 "If you choose to continue, and the keys are needed later on, you will be "
 "prompted to specify the keys to use."
 msgstr ""
+"Neki od vaših konfiguriranih ključeva za potpisivanje OpenPGP-om ili "
+"certifikata S/MIME-a nisu upotrebljivi za potpisivanje. Ponovno "
+"konfigurirajte ključeve za potpisivanje i certifikate za ovaj identitet u "
+"dijaloškom okviru za konfiguraciju identiteta.\n"
+"Ako odlučite nastaviti, a ključevi vam kasnije budu potrebni, zatražit će se "
+"da navedete ključeve koje želite koristiti."
 
 #: composer/keyresolver.cpp:697 composer/keyresolver.cpp:1066
 #: composer/keyresolver.cpp:1084
@@ -847,6 +877,12 @@ msgid ""
 "You may continue without encrypting to yourself, but be aware that you will "
 "not be able to read your own messages if you do so."
 msgstr ""
+"Provjera preferencija primatelja za šifriranje pokazala je da poruku treba "
+"šifrirati OpenPGP-om barem za neke primatelje;\n"
+"međutim, za ovaj identitet niste konfigurirali valjane pouzdane ključeve za "
+"šifriranje OpenPGP-om.\n"
+"Možete nastaviti bez šifriranja kopije za sebe, no imajte na umu da tada "
+"nećete moći čitati vlastite poruke."
 
 #: composer/keyresolver.cpp:1027
 #, kde-format
@@ -858,6 +894,12 @@ msgid ""
 "You may continue without encrypting to yourself, but be aware that you will "
 "not be able to read your own messages if you do so."
 msgstr ""
+"Provjera preferencija primatelja za šifriranje pokazala je da poruku treba "
+"šifrirati S/MIME-om barem za neke primatelje;\n"
+"međutim, za ovaj identitet niste konfigurirali valjane certifikate za "
+"šifriranje S/MIME-om.\n"
+"Možete nastaviti bez šifriranja kopije za sebe, no imajte na umu da tada "
+"nećete moći čitati vlastite poruke."
 
 #: composer/keyresolver.cpp:1059
 #, kde-format
@@ -867,6 +909,10 @@ msgid ""
 "however, you have not configured valid OpenPGP signing certificates for this "
 "identity."
 msgstr ""
+"Provjera preferencija primatelja za potpisivanje pokazala je da poruku treba "
+"potpisati OpenPGP-om barem za neke primatelje;\n"
+"međutim, za ovaj identitet niste konfigurirali valjane certifikate za "
+"potpisivanje OpenPGP-om."
 
 #: composer/keyresolver.cpp:1067
 #, kde-format
@@ -882,6 +928,10 @@ msgid ""
 "however, you have not configured valid S/MIME signing certificates for this "
 "identity."
 msgstr ""
+"Provjera preferencija primatelja za potpisivanje pokazala je da poruku treba "
+"potpisati S/MIME-om barem za neke primatelje;\n"
+"međutim, za ovaj identitet niste konfigurirali valjane certifikate za "
+"potpisivanje S/MIME-om."
 
 #: composer/keyresolver.cpp:1085
 #, kde-format
@@ -896,6 +946,9 @@ msgid ""
 "signature matching your available signing keys.\n"
 "Send message without signing?"
 msgstr ""
+"Provjera preferencija primatelja za potpisivanje nije pronašla zajedničku "
+"vrstu potpisa koja odgovara vašim dostupnim ključevima za potpisivanje.\n"
+"Želite li poslati poruku bez potpisa?"
 
 #: composer/keyresolver.cpp:1151
 #, kde-format
@@ -909,6 +962,8 @@ msgid ""
 "You did not select an encryption key for yourself (encrypt to self). You "
 "will not be able to decrypt your own message if you encrypt it."
 msgstr ""
+"Niste odabrali ključ za šifriranje vlastite kopije poruke (šifriranje za "
+"sebe). Ako šifrirate poruku, nećete moći dešifrirati vlastitu poruku."
 
 #: composer/keyresolver.cpp:1317 composer/keyresolver.cpp:1342
 #: composer/keyresolver.cpp:1358
@@ -923,6 +978,8 @@ msgid ""
 "You did not select an encryption key for the recipient of this message; "
 "therefore, the message will not be encrypted."
 msgstr ""
+"Niste odabrali ključ za šifriranje za primatelja ove poruke, stoga poruka "
+"neće biti šifrirana."
 
 #: composer/keyresolver.cpp:1337
 #, kde-format
@@ -930,6 +987,8 @@ msgid ""
 "You did not select an encryption key for any of the recipients of this "
 "message; therefore, the message will not be encrypted."
 msgstr ""
+"Niste odabrali ključ za šifriranje ni za jednog primatelja ove poruke, stoga "
+"poruka neće biti šifrirana."
 
 #: composer/keyresolver.cpp:1350
 #, kde-format
@@ -937,6 +996,8 @@ msgid ""
 "You did not select an encryption key for one of the recipients: this person "
 "will not be able to decrypt the message if you encrypt it."
 msgstr ""
+"Niste odabrali ključ za šifriranje za jednog od primatelja: ta osoba neće "
+"moći dešifrirati poruku ako je šifrirate."
 
 #: composer/keyresolver.cpp:1354
 #, kde-format
@@ -944,6 +1005,8 @@ msgid ""
 "You did not select encryption keys for some of the recipients: these persons "
 "will not be able to decrypt the message if you encrypt it."
 msgstr ""
+"Niste odabrali ključeve za šifriranje za neke od primatelja: te osobe neće "
+"moći dešifrirati poruku ako je šifrirate."
 
 #: composer/keyresolver.cpp:1431
 #, kde-format
@@ -960,6 +1023,9 @@ msgid ""
 "\n"
 "Please re-select the certificate(s) which should be used for this recipient."
 msgstr ""
+"Došlo je do problema s certifikatima za šifriranje za „%1”.\n"
+"\n"
+"Ponovno odaberite certifikate koji će se koristiti za ovog primatelja."
 
 #: composer/keyresolver.cpp:1547
 #, kde-format
@@ -973,6 +1039,10 @@ msgid ""
 "external certificates by clicking the button: search for external "
 "certificates.</qt>"
 msgstr ""
+"<qt>Nije pronađen valjan i pouzdan certifikat za šifriranje za „%1”.<br/"
+"><br/>Odaberite certifikate koji će se koristiti za ovog primatelja. Ako na "
+"popisu nema odgovarajućeg certifikata, vanjske certifikate možete potražiti "
+"klikom na gumb: traži vanjske certifikate.</qt>"
 
 #: composer/keyresolver.cpp:1557
 #, kde-format
@@ -984,6 +1054,9 @@ msgid ""
 "\n"
 "Select the certificate(s) which should be used for this recipient."
 msgstr ""
+"Više certifikata odgovara primatelju „%1”.\n"
+"\n"
+"Odaberite certifikate koji će se koristiti za ovog primatelja."
 
 #: contactpreference/savecontactpreferencejob.cpp:72
 #, kde-format
@@ -1012,12 +1085,16 @@ msgid ""
 "Failed to store a new reminder: an error occurred while trying to create a "
 "new to-do in your calendar: %1"
 msgstr ""
+"Spremanje novog podsjetnika nije uspjelo: došlo je do pogreške pri izradi "
+"novog zadatka u kalendaru: %1"
 
 #: followupreminder/followupremindercreatejob.cpp:121
 #, kde-format
 msgid ""
 "Failed to store a new reminder: the follow-up reminder agent is not running."
 msgstr ""
+"Spremanje novog podsjetnika nije uspjelo: agent za podsjetnike na nastavak "
+"komunikacije nije pokrenut."
 
 #: followupreminder/followupremindercreatejob.cpp:136
 #, kde-format
@@ -1081,6 +1158,11 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"\n"
+"Ovo je proslijeđena poruka s MIME sažetkom. Sadržaj poruke nalazi se u "
+"privitcima.\n"
+"\n"
+"\n"
 
 #: imagescaling/imagescalingselectformat.cpp:26
 #, kde-format
@@ -1106,6 +1188,10 @@ msgid ""
 "current time</li><li>%d set current date</li><li>%n original filename</"
 "li><li>%e original extension</li><li>%x new extension</li></ul></qt>"
 msgstr ""
+"<qt><p>Ovdje možete definirati naziv datoteke slike. Možete koristiti:</p>"
+"<ul><li>%t trenutačno vrijeme</li><li>%d trenutačni datum</li><li>%n "
+"izvorni naziv datoteke</li><li>%e izvorni nastavak</li><li>%x novi "
+"nastavak</li></ul></qt>"
 
 #: imagescaling/imagescalingwidget.cpp:189
 #, kde-format
@@ -1187,7 +1273,7 @@ msgstr "Najveća visina:"
 #: imagescaling/ui/imagescalingwidget.ui:211
 #, kde-format
 msgid " px"
-msgstr ""
+msgstr " px"
 
 #. i18n: ectx: property (text), widget (QCheckBox, EnlargeImageToMinimum)
 #: imagescaling/ui/imagescalingwidget.ui:163
@@ -1217,7 +1303,7 @@ msgstr "Preskoči slike čija je izvorna datoteka manja od:"
 #: imagescaling/ui/imagescalingwidget.ui:237
 #, kde-format
 msgid " KiB"
-msgstr ""
+msgstr " KiB"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: imagescaling/ui/imagescalingwidget.ui:263
@@ -1546,6 +1632,8 @@ msgid ""
 "<para>Distribution list with the given name <resource>%1</resource> already "
 "exists. Please select a different name.</para>"
 msgstr ""
+"<para>Popis za raspodjelu s navedenim nazivom <resource>%1</resource> već "
+"postoji. Odaberite drugi naziv.</para>"
 
 #: recipient/distributionlistdialog.cpp:287
 #, kde-format
@@ -1612,6 +1700,7 @@ msgid "Truncating recipients list to %2 of %1 entry."
 msgid_plural "Truncating recipients list to %2 of %1 entries."
 msgstr[0] "Popis primatelja skraćuje se na %2 od %1 unosa."
 msgstr[1] "Popis primatelja skraćuje se na %2 od %1 unosa."
+msgstr[2] "Popis primatelja skraćuje se na %2 od %1 unosa."
 
 #: recipient/recipientseditorsidewidget.cpp:29
 #, kde-format
@@ -1648,8 +1737,9 @@ msgstr "Nema primatelja"
 msgctxt "@info:status Number of recipients selected"
 msgid "1 recipient"
 msgid_plural "%1 recipients"
-msgstr[0] "1 primatelj"
+msgstr[0] "%1 primatelj"
 msgstr[1] "%1 primatelja"
+msgstr[2] "%1 primatelja"
 
 #: recipient/recipientseditorsidewidget.cpp:130
 #, kde-format
@@ -1712,7 +1802,8 @@ msgstr "Dodaj kao &skrivenu kopiju"
 msgid "%1 selected email"
 msgid_plural "%1 selected emails"
 msgstr[0] "%1 odabrana adresa e-pošte"
-msgstr[1] "%1 odabranih adresa e-pošte"
+msgstr[1] "%1 odabrane adrese e-pošte"
+msgstr[2] "%1 odabranih adresa e-pošte"
 
 #: recipient/recipientspicker.cpp:170
 #, kde-format
@@ -1723,11 +1814,11 @@ msgid_plural ""
 "You selected %1 recipients. The maximum supported number of recipients is "
 "%2.\n"
 "Please adapt the selection."
-msgstr[0] "Odabrali ste jednog primatelja. Maksimalni podržani broj primatelja je %2.\n"
-"Prilagodite odabir."
+msgstr[0] "Odabrali ste %1 primatelja. Maksimalni podržani broj primatelja je %2.\nPrilagodite odabir."
 msgstr[1] "Odabrali ste %1 primatelja. Maksimalni podržani broj primatelja je "
 "%2.\n"
 "Prilagodite odabir."
+msgstr[2] "Odabrali ste %1 primatelja. Maksimalni podržani broj primatelja je %2.\nPrilagodite odabir."
 
 #: recipient/recipientspicker.cpp:187
 #, kde-format
@@ -2196,6 +2287,8 @@ msgid ""
 "The mail dispatcher is not set up, so mails cannot be sent. Do you want to "
 "create a mail dispatcher?"
 msgstr ""
+"Program za slanje pošte nije postavljen pa se poruke ne mogu slati. Želite "
+"li stvoriti program za slanje pošte?"
 
 #: utils/util.cpp:269
 #, kde-format
@@ -2215,6 +2308,8 @@ msgid ""
 "The mail dispatcher is offline, so mails cannot be sent. Do you want to make "
 "it online?"
 msgstr ""
+"Program za slanje pošte nije povezan pa se poruke ne mogu slati. Želite li "
+"ga povezati?"
 
 #: utils/util.cpp:287
 #, kde-format
