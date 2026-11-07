@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-02-14 00:46+0000\n"
+"PO-Revision-Date: 2026-11-07 06:00+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. (itstool) path: component/name
+#: org.kde.liquidshell.appdata.xml:4
+msgid "liquidshell"
+msgstr "liquidshell"
+
+#. (itstool) path: component/summary
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:5 org.kde.liquidshell.appdata.xml:10
+msgid "liquidshell is an alternative to plasmashell"
+msgstr "liquidshell je alternativa za plasmashell"
+
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:11
+msgid "It does not use QtQuick but instead relies on QtWidgets, therefore no hardware graphics acceleration is needed."
+msgstr "liquidshell ne koristi QtQuick, već se oslanja na QtWidgets, pa nije potrebno grafičko ubrzanje hardverom."
+
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:13
+msgid "Main Features:"
+msgstr "Glavne značajke:"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:15
+msgid "Wallpaper per virtual desktop"
+msgstr "Pozadina za svaku virtualnu radnu površinu"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:16
+msgid "No animations, no CPU hogging, low Memory footprint"
+msgstr "Bez animacija, velikog opterećenja procesora i uz malu potrošnju memorije"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:17
+msgid "Instant startup"
+msgstr "Trenutačno pokretanje"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:18
+msgid "No use of activities"
+msgstr "Ne upotrebljava aktivnosti"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:19
+msgid "QtWidgets based, therefore follows widget style from systemsettings"
+msgstr "Temelji se na QtWidgetsu i zato slijedi stil grafičkih elemenata iz Postavki sustava"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:20
+msgid "Icons are used from your globally defined icon theme from systemsettings"
+msgstr "Upotrebljava ikone iz globalno određene teme ikona u Postavkama sustava"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:21
+msgid "Colors are used from your globally defined color theme from systemsettings"
+msgstr "Upotrebljava boje iz globalno određene teme boja u Postavkama sustava"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:22
+msgid "Can additionally be styled with css by passing the commandline option -stylesheet filename.css (see included example stylesheet.css)"
+msgstr "Dodatno se može oblikovati CSS-om pomoću opcije naredbenog retka -stylesheet filename.css (pogledajte uključenu primjer.css)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:23
+msgid "uses existing KDE dialogs for most configurations, e.g. StartMenu, Virtual Desktops, Bluetooth, Network"
+msgstr "Za većinu postavki upotrebljava postojeće KDE-ove dijaloge, npr. izbornik Start, virtualne radne površine, Bluetooth i mrežu"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:24
+msgid "One bottom DesktopPanel"
+msgstr "Jedna ploča radne površine pri dnu"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:25
+msgid "Desktop Applets"
+msgstr "Apleti radne površine"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:43
+msgid "Added install options (sleep/shutdown after install)"
+msgstr "Dodane su mogućnosti instalacije (mirovanje/isključivanje nakon instalacije)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:44
+msgid "Improved EULA handling on package installation"
+msgstr "Poboljšana je obrada EULA-e pri instalaciji paketa"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:45
+msgid "Added long format of time and date display to calendar popup"
+msgstr "U skočni prozor kalendara dodan je prikaz vremena i datuma u dugom obliku"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:46
+msgid "Create default folder for storing quicklaunch apps"
+msgstr "Stvaranje zadane mape za pohranu aplikacija za brzo pokretanje"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:47
+msgid "SysLoad widget width depends on CPU count"
+msgstr "Širina apleta SysLoad ovisi o broju procesora"
+
+#. (itstool) path: ul/li
+#. (itstool) path: description/p
+#: org.kde.liquidshell.appdata.xml:48 org.kde.liquidshell.appdata.xml:54
+msgid "Bugfixes and adjustments to newer KDE components"
+msgstr "Ispravci pogrešaka i prilagodbe novijim KDE-ovim komponentama"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:60
+msgid "Notifications show how long they remain open (small animation)"
+msgstr "Obavijesti prikazuju koliko će dugo ostati otvorene (kratka animacija)"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:61
+msgid "Weather Applet shows moon phase"
+msgstr "Aplet za vremensku prognozu prikazuje mjesečevu mijenu"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:62
+msgid "Disk Usage Applet watches for mount/unmount to react quicker for update"
+msgstr "Aplet za potrošnju diska prati priključivanje i odspajanje radi bržeg osvježavanja"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:63
+msgid "Display improvements in software updates component"
+msgstr "Poboljšan je prikaz komponente za ažuriranje softvera"
+
+#. (itstool) path: ul/li
+#: org.kde.liquidshell.appdata.xml:64
+msgid "Added DBUS-Menu support (some apps don't provide own menu but only via DBUS, e.g. MS teams)"
+msgstr "Dodana je podrška za DBUS-Menu (neke aplikacije nemaju vlastiti izbornik, već ga pružaju samo putem DBUS-a, npr. MS Teams)"

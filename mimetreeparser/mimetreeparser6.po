@@ -1,0 +1,660 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the mimetreeparser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mimetreeparser\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-23 00:50+0000\n"
+"PO-Revision-Date: 2026-11-07 06:00+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: core/attachmentmodel.cpp:202
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Naziv"
+
+#: core/attachmentmodel.cpp:204
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "Veličina"
+
+#: core/attachmentmodel.cpp:206
+#, kde-format
+msgctxt "@title:column"
+msgid "Encrypted"
+msgstr "Šifrirano"
+
+#: core/attachmentmodel.cpp:208
+#, kde-format
+msgctxt "@title:column"
+msgid "Signed"
+msgstr "Potpisano"
+
+#: core/attachmentmodel.cpp:300
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save attachment."
+msgstr "Spremanje privitka nije uspjelo."
+
+#: core/attachmentmodel.cpp:323
+#, kde-format
+msgid "attachment"
+msgstr "privitak"
+
+#: core/attachmentmodel.cpp:330
+#, kde-format
+msgctxt "@info"
+msgid "Failed to write attachment for opening."
+msgstr "Zapisivanje privitka za otvaranje nije uspjelo."
+
+#: core/attachmentmodel.cpp:349 core/attachmentmodel.cpp:359
+#, kde-format
+msgctxt "@info"
+msgid "Failed to open attachment."
+msgstr "Otvaranje privitka nije uspjelo."
+
+#: core/attachmentmodel.cpp:380
+#, kde-format
+msgctxt "@info"
+msgid "No certificates were found in this attachment"
+msgstr "U ovom privitku nisu pronađeni certifikati"
+
+#: core/attachmentmodel.cpp:383
+#, kde-format
+msgctxt "@info"
+msgid "one certificate imported"
+msgid_plural "%1 certificates imported"
+msgstr[0] "uvezen je jedan certifikat"
+msgstr[1] "uvezeno je %1 certifikata"
+msgstr[2] "uvezeno je %1 certifikata"
+
+#: core/attachmentmodel.cpp:388
+#, kde-format
+msgctxt "@info"
+msgid "one certificate was already imported"
+msgid_plural "%1 certificates were already imported"
+msgstr[0] "jedan je certifikat već uvezen"
+msgstr[1] "%1 certifikata već je uvezeno"
+msgstr[2] "%1 certifikata već je uvezeno"
+
+#: core/messageparser.cpp:49
+#, kde-format
+msgctxt "Displayed when a CC, FROM or TO field in an email is empty"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: core/messageparser.cpp:54
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ", "
+
+#: core/messagepart.cpp:99
+#, kde-format
+msgctxt "template for an unknown filename. %1 is an index, %2 is an extension"
+msgid "unnamed_%1.%2"
+msgstr "bez_naziva_%1.%2"
+
+#: core/messagepart.cpp:613 core/messagepart.cpp:629 core/messagepart.cpp:731
+#, kde-format
+msgctxt "@info:status"
+msgid "Wrong Crypto Plug-In."
+msgstr "Neispravan kriptografski dodatak."
+
+#: core/messagepart.cpp:872
+#, kde-format
+msgid "No appropriate crypto plug-in was found."
+msgstr "Nije pronađen odgovarajući kriptografski dodatak."
+
+#: core/messagepart.cpp:874
+#, kde-format
+msgctxt "@info:status"
+msgid "Decryption was canceled"
+msgstr "Dešifriranje je otkazano"
+
+#: core/messagepart.cpp:876
+#, kde-format
+msgctxt "@info:status"
+msgid "Wrong passphrase"
+msgstr "Neispravna zaporka"
+
+#: core/messagepart.cpp:878
+#, kde-format
+msgid ""
+"This message cannot be decrypted because you do not have a matching secret "
+"key."
+msgstr "Ovu poruku nije moguće dešifrirati jer nemate odgovarajući tajni ključ."
+
+#: core/messagepart.cpp:881
+#, kde-format
+msgid "Crypto plug-in \"%1\" could not decrypt the data."
+msgstr "Kriptografski dodatak „%1” nije mogao dešifrirati podatke."
+
+#: core/messagepart.cpp:882
+#, kde-format
+msgid "Error: %1"
+msgstr "Pogreška: %1"
+
+#: core/partmodel.cpp:350
+#, kde-format
+msgctxt "@info:status"
+msgid "Signature is broken"
+msgstr "Potpis je neispravan"
+
+#: core/partmodel.cpp:388
+#, kde-format
+msgctxt "@info What can be done: Some guidance"
+msgid "What can be done: %1"
+msgstr "Što se može učiniti: %1"
+
+#: core/partmodel.cpp:533
+#, kde-format
+msgctxt "@info"
+msgid "This message is encrypted (%1)."
+msgstr "Ova je poruka šifrirana (%1)."
+
+#: core/partmodel.cpp:536
+#, kde-format
+msgctxt ""
+"@info %1 names the compliance in adjective form (e.g. 'VS-NfD compliant')"
+msgid "This message is encrypted, but the encryption is not %1."
+msgstr "Ova je poruka šifrirana, ali šifriranje nije usklađeno s %1."
+
+#: core/partmodel.cpp:540
+#, kde-format
+msgctxt "@info"
+msgid "This message is encrypted."
+msgstr "Ova je poruka šifrirana."
+
+#: core/partmodel.cpp:547
+#, kde-format
+msgctxt "@info:status"
+msgid "The message is encrypted for the following recipient:"
+msgid_plural "The message is encrypted for the following recipients:"
+msgstr[0] "Poruka je šifrirana za sljedećeg primatelja:"
+msgstr[1] "Poruka je šifrirana za sljedeće primatelje:"
+msgstr[2] "Poruka je šifrirana za sljedeće primatelje:"
+
+#: core/urlhandler.cpp:56
+#, kde-format
+msgid "Could not start certificate manager. Please check your installation."
+msgstr "Nije moguće pokrenuti upravitelj certifikata. Provjerite instalaciju."
+
+#: core/utils.cpp:49
+#, kde-format
+msgctxt "@info"
+msgid "Unknown Key"
+msgstr "Nepoznati ključ"
+
+#: core/utils.cpp:63
+#, kde-format
+msgctxt "Separator"
+msgid " - "
+msgstr " – "
+
+#: quick/qml/itinerary/FlightReservationComponent.qml:77
+#: quick/qml/itinerary/TrainReservationComponent.qml:91
+#, kde-format
+msgctxt "@action"
+msgid "Open Menu"
+msgstr "Otvori izbornik"
+
+#: quick/qml/itinerary/FlightReservationComponent.qml:93
+#, kde-format
+msgctxt "flight departure, %1 is airport, %2 is time"
+msgid "Departure from %1"
+msgstr "Polazak iz %1"
+
+#: quick/qml/itinerary/FlightReservationComponent.qml:110
+#, kde-format
+msgctxt "flight arrival, %1 is airport, %2 is time"
+msgid "Arrival at %1"
+msgstr "Dolazak u %1"
+
+#: quick/qml/itinerary/HotelReservationComponent.qml:65
+#, kde-format
+msgid "Check-in time: %1"
+msgstr "Vrijeme prijave: %1"
+
+#: quick/qml/itinerary/HotelReservationComponent.qml:69
+#, kde-format
+msgid "Check-out time: %1"
+msgstr "Vrijeme odjave: %1"
+
+#: quick/qml/itinerary/TrainReservationComponent.qml:157
+#: quick/qml/itinerary/TrainReservationComponent.qml:224
+#, kde-format
+msgid "Pl. %1"
+msgstr "Peron %1"
+
+#: quick/qml/itinerary/TripMenu.qml:18
+#, kde-format
+msgctxt "@action"
+msgid "Send to KDE Itinerary"
+msgstr "Pošalji u KDE Itinerary"
+
+#: quick/qml/itinerary/TripMenu.qml:33
+#, kde-format
+msgctxt "@action"
+msgid "Send to %1"
+msgstr "Pošalji u %1"
+
+#: quick/qml/MailViewer.qml:40
+#, kde-format
+msgctxt "@title:window"
+msgid "Message viewer"
+msgstr "Preglednik poruka"
+
+#: quick/qml/MailViewer.qml:77
+#, kde-format
+msgctxt "@label"
+msgid "Subject:"
+msgstr "Predmet:"
+
+#: quick/qml/MailViewer.qml:98
+#, kde-format
+msgctxt "@label"
+msgid "From:"
+msgstr "Šalje:"
+
+#: quick/qml/MailViewer.qml:114
+#, kde-format
+msgctxt "@label"
+msgid "Sender:"
+msgstr "Pošiljatelj:"
+
+#: quick/qml/MailViewer.qml:130
+#, kde-format
+msgctxt "@label"
+msgid "To:"
+msgstr "Prima:"
+
+#: quick/qml/MailViewer.qml:146
+#, kde-format
+msgctxt "@label"
+msgid "CC:"
+msgstr "Kopija:"
+
+#: quick/qml/MailViewer.qml:162
+#, kde-format
+msgctxt "@label"
+msgid "BCC:"
+msgstr "Skrivena kopija:"
+
+#: quick/qml/MailViewer.qml:212
+#, kde-format
+msgctxt "@action:button"
+msgid "Save attachment"
+msgstr "Spremi privitak"
+
+#: quick/qml/MailViewer.qml:235
+#, kde-format
+msgctxt "@window:title"
+msgid "Save Attachment As"
+msgstr "Spremi privitak kao"
+
+#: quick/qml/private/AttachmentDelegate.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Import certificate"
+msgstr "Uvezi certifikat"
+
+#: quick/qml/private/Banner.qml:188
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Zatvori"
+
+#: quick/qml/private/ErrorPart.qml:26
+#, kde-format
+msgid "An error occurred: %1"
+msgstr "Došlo je do pogreške: %1"
+
+#: quick/qml/private/ICalPart.qml:27
+#, kde-format
+msgid "This mail contains an invitation"
+msgstr "Ova poruka e-pošte sadrži pozivnicu"
+
+#: quick/qml/private/MailPart.qml:42
+#, kde-format
+msgctxt "@info"
+msgid "sent by %1 on %2"
+msgstr "poslao/la %1 dana %2"
+
+#: widgets/messagecontainerwidget.cpp:166
+#, kde-format
+msgctxt "accessible name"
+msgid "Crypto errors"
+msgstr "Kriptografske pogreške"
+
+#: widgets/messagecontainerwidget.cpp:169
+#, kde-format
+msgctxt "accessible name"
+msgid "Crypto summary and warnings"
+msgstr "Sažetak kriptografije i upozorenja"
+
+#: widgets/messagecontainerwidget.cpp:172
+#, kde-format
+msgctxt "accessible name"
+msgid "Crypto summary"
+msgstr "Sažetak kriptografije"
+
+#: widgets/messagecontainerwidget.cpp:185
+#, kde-format
+msgctxt "@button"
+msgid "Show Details"
+msgstr "Prikaži pojedinosti"
+
+#: widgets/messagecontainerwidget.cpp:188
+#, kde-format
+msgctxt "@button"
+msgid "Hide Details"
+msgstr "Sakrij pojedinosti"
+
+#: widgets/messageviewer.cpp:88
+#, kde-format
+msgid "Save Attachment As"
+msgstr "Spremi privitak kao"
+
+#: widgets/messageviewer.cpp:108
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import public key"
+msgstr "Uvezi javni ključ"
+
+#: widgets/messageviewer.cpp:116
+#, kde-format
+msgctxt "to open"
+msgid "Open"
+msgstr "Otvori"
+
+#: widgets/messageviewer.cpp:122
+#, kde-format
+msgid "&Save Attachment As…"
+msgstr "&Spremi privitak kao…"
+
+#: widgets/messageviewer.cpp:293
+#, kde-format
+msgid "Invitation"
+msgstr "Pozivnica"
+
+#: widgets/messageviewer.cpp:297
+#, kde-format
+msgid "&Summary:"
+msgstr "&Sažetak:"
+
+#: widgets/messageviewer.cpp:298
+#, kde-format
+msgid "&Organizer:"
+msgstr "&Organizator:"
+
+#: widgets/messageviewer.cpp:300
+#, kde-format
+msgid "&Location:"
+msgstr "&Lokacija:"
+
+#: widgets/messageviewer.cpp:302
+#, kde-format
+msgid "&Start date:"
+msgstr "&Datum početka:"
+
+#: widgets/messageviewer.cpp:304
+#, kde-format
+msgid "&End date:"
+msgstr "&Datum završetka:"
+
+#: widgets/messageviewer.cpp:307
+#, kde-format
+msgid "&Details:"
+msgstr "&Pojedinosti:"
+
+#: widgets/messageviewer.cpp:310
+#, kde-format
+msgctxt "@info:status"
+msgid "Invitation is broken"
+msgstr "Pozivnica je neispravna"
+
+#: widgets/messageviewer.cpp:320
+#, kde-format
+msgid "Encapsulated email"
+msgstr "Ugrađena poruka e-pošte"
+
+#: widgets/messageviewer.cpp:329 widgets/messageviewer.cpp:331
+#, kde-format
+msgid "Subject:"
+msgstr "Predmet:"
+
+#: widgets/messageviewer.cpp:329
+#, kde-format
+msgctxt "Email has no subject"
+msgid "No subject"
+msgstr "Bez predmeta"
+
+#: widgets/messageviewer.cpp:336 widgets/messageviewer.cpp:339
+#, kde-format
+msgid "From:"
+msgstr "Od:"
+
+#: widgets/messageviewer.cpp:337 widgets/messageviewer.cpp:399
+#, kde-format
+msgctxt "@info:status missing 'From:', i.e. an unknown author"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: widgets/messageviewer.cpp:341
+#, kde-format
+msgid "Date:"
+msgstr "Datum:"
+
+#: widgets/messageviewer.cpp:394
+#, kde-format
+msgid "&Subject:"
+msgstr "&Predmet:"
+
+#: widgets/messageviewer.cpp:397 widgets/messageviewer.cpp:399
+#, kde-format
+msgid "&From:"
+msgstr "&Od:"
+
+#: widgets/messageviewer.cpp:402
+#, kde-format
+msgid "&Sender:"
+msgstr "&Pošiljatelj:"
+
+#: widgets/messageviewer.cpp:405
+#, kde-format
+msgid "&To:"
+msgstr "&Prima:"
+
+#: widgets/messageviewer.cpp:408
+#, kde-format
+msgid "&CC:"
+msgstr "&Kopija:"
+
+#: widgets/messageviewer.cpp:411
+#, kde-format
+msgid "&BCC:"
+msgstr "&Skrivena kopija:"
+
+#: widgets/messageviewer.cpp:414
+#, kde-format
+msgid "&Date:"
+msgstr "&Datum:"
+
+#: widgets/messageviewerbase_p.cpp:65
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Save"
+msgstr "&Spremi"
+
+#: widgets/messageviewerbase_p.cpp:71
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Save Decrypted"
+msgstr "Spremi dešifrirano"
+
+#: widgets/messageviewerbase_p.cpp:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Print Preview"
+msgstr "Pretpregled ispisa"
+
+#: widgets/messageviewerbase_p.cpp:83
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Print"
+msgstr "&Ispiši"
+
+#: widgets/messageviewerbase_p.cpp:89
+#, kde-format
+msgctxt "@action:button Previous email"
+msgid "Previous Message"
+msgstr "Prethodna poruka"
+
+#: widgets/messageviewerbase_p.cpp:95
+#, kde-format
+msgctxt "@action:button Next email"
+msgid "Next Message"
+msgstr "Sljedeća poruka"
+
+#: widgets/messageviewerbase_p.cpp:101
+#, kde-format
+msgctxt "@action:button"
+msgid "View Source"
+msgstr "Prikaži izvorni kôd"
+
+#: widgets/messageviewerbase_p.cpp:107
+#, kde-format
+msgctxt "@action:button"
+msgid "Use Fixed Font"
+msgstr "Koristi fiksni font"
+
+#: widgets/messageviewerbase_p.cpp:155
+#, kde-format
+msgctxt "window title if email subject is empty"
+msgid "(No Subject)"
+msgstr "(Bez predmeta)"
+
+#: widgets/messageviewerbase_p.cpp:163
+#, kde-format
+msgctxt "@title:window if there's no email to display"
+msgid "(No Message)"
+msgstr "(Bez poruke)"
+
+#: widgets/messageviewerbase_p.cpp:178
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No messages to display."
+msgstr "Nema poruka za prikaz."
+
+#: widgets/messageviewerbase_p.cpp:180
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Unable to read the file <filename>%1</filename>, or the file doesn't contain "
+"any messages."
+msgstr "Nije moguće pročitati datoteku <filename>%1</filename> ili ona ne sadrži poruke."
+
+#: widgets/messageviewerbase_p.cpp:247
+#, kde-format
+msgctxt "@info"
+msgid "File %1 could not be created."
+msgstr "Nije moguće stvoriti datoteku %1."
+
+#: widgets/messageviewerbase_p.cpp:247 widgets/messageviewerbase_p.cpp:253
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Saving Message"
+msgstr "Pogreška pri spremanju poruke"
+
+#: widgets/messageviewerbase_p.cpp:253
+#, kde-format
+msgctxt "@info"
+msgid "File %1 could not be written."
+msgstr "Nije moguće zapisati datoteku %1."
+
+#: widgets/messageviewerbase_p.cpp:267 widgets/messageviewerbase_p.cpp:301
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Message"
+msgstr "Spremi poruku"
+
+#: widgets/messageviewerbase_p.cpp:269 widgets/messageviewerbase_p.cpp:303
+#, kde-format
+msgctxt "File dialog accepted files"
+msgid "Email files (*.eml *.mbox *.mime)"
+msgstr "Datoteke e-pošte (*.eml *.mbox *.mime)"
+
+#: widgets/messageviewerbase_p.cpp:285
+#, kde-format
+msgctxt "@info"
+msgid "The message doesn't seem to be encrypted. Saving the original message."
+msgstr "Čini se da poruka nije šifrirana. Sprema se izvorna poruka."
+
+#: widgets/messageviewerbase_p.cpp:291
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some parts of the message could not be decrypted. Save partially decrypted "
+"message?"
+msgstr "Neke dijelove poruke nije bilo moguće dešifrirati. Želite li spremiti djelomično dešifriranu poruku?"
+
+#: widgets/messageviewerbase_p.cpp:292
+#, kde-format
+msgctxt "@title:window"
+msgid "Decryption failed"
+msgstr "Dešifriranje nije uspjelo"
+
+#: widgets/messageviewerbase_p.cpp:301
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Decrypted Message"
+msgstr "Spremi dešifriranu poruku"
+
+#: widgets/messageviewerbase_p.cpp:315
+#, kde-format
+msgctxt "@title:window"
+msgid "Print"
+msgstr "Ispis"
+
+#: widgets/messageviewerbase_p.cpp:332
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Preview"
+msgstr "Pretpregled ispisa"
+
+#: widgets/messageviewerdialog.cpp:42 widgets/messageviewerwindow.cpp:35
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&File"
+msgstr "&Datoteka"
+
+#: widgets/messageviewerdialog.cpp:49
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&View"
+msgstr "&Prikaz"
+
+#: widgets/messageviewerdialog.cpp:54
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Navigation"
+msgstr "&Navigacija"
+
+#: widgets/messageviewerwindow.cpp:42
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Message"
+msgstr "&Poruka"

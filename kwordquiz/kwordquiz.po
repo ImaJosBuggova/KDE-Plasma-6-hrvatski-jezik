@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kwordquiz package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kwordquiz\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-31 00:40+0000\n"
+"PO-Revision-Date: 2026-11-07 06:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: exporter.cpp:125
+#, kde-format
+msgid "Name:_____________________________ Date:__________"
+msgstr "Ime:_____________________________ Datum:__________"
+
+#: exporter.cpp:173
+#, kde-format
+msgid "Score"
+msgstr "Rezultat"
+
+#: kwqcardmodel.cpp:30
+#, kde-format
+msgid "Question"
+msgstr "Pitanje"
+
+#: kwqcardmodel.cpp:32
+#, kde-format
+msgid "Answer"
+msgstr "Odgovor"
+
+#: main.cpp:63
+#, kde-format
+msgid "Invalid goto given: %1. Allowed: flash, mc and qa"
+msgstr "Zadan je nevaljan cilj goto: %1. Dopušteno: flash, mc i qa"
+
+#: main.cpp:86
+#, kde-format
+msgid "WordQuiz"
+msgstr "WordQuiz"
+
+#: main.cpp:88
+#, kde-format
+msgid "A powerful flashcard and vocabulary learning program"
+msgstr "Moćan program za učenje pomoću kartica i učenje vokabulara"
+
+#: main.cpp:90
+#, kde-format
+msgid "(c) 2003-2010, Peter Hedlund"
+msgstr "(c) 2003. – 2010., Peter Hedlund"
+
+#: main.cpp:94
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#: main.cpp:94
+#, kde-format
+msgctxt "@info:credit"
+msgid "Original author"
+msgstr "Izvorni autor"
+
+#: main.cpp:95
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:95
+#, kde-format
+msgctxt "@info:credit"
+msgid "Port to QML"
+msgstr "Prijenos na QML"
+
+#: main.cpp:96
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:96
+#, kde-format
+msgid "KDE Edutainment Maintainer"
+msgstr "Održavatelj KDE-ovih edukativnih aplikacija"
+
+#: main.cpp:97
+#, kde-format
+msgid "Martin Pfeiffer"
+msgstr "Martin Pfeiffer"
+
+#: main.cpp:97
+#, kde-format
+msgid "Leitner System and several code contributions"
+msgstr "Leitnerov sustav i nekoliko doprinosa kodu"
+
+#: main.cpp:111
+#, kde-format
+msgid ""
+"Type of session to start with: \n"
+"'flash' for flashcard, \n"
+"'mc' for multiple choice, \n"
+"'qa' for question and answer"
+msgstr "Vrsta sesije koju treba pokrenuti: \n'flash' za kartice, \n'mc' za višestruki izbor, \n'qa' za pitanje i odgovor"
+
+#: main.cpp:113
+#, kde-format
+msgid "File to open"
+msgstr "Datoteka za otvaranje"
+
+#: qml/BasePage.qml:24
+#, kde-format
+msgid "Cards %1% Errors %2"
+msgstr "Kartice %1% Pogreške %2"
+
+#: qml/BasePage.qml:26
+#, kde-format
+msgid "Cards %1/%2 Errors %3"
+msgstr "Kartice %1/%2 Pogreške %3"
+
+#: qml/BasePage.qml:73
+#, kde-format
+msgctxt "@label"
+msgid "Finished"
+msgstr "Završeno"
+
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You got a perfect score"
+msgstr "Ostvarili ste savršen rezultat"
+
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You made one mistake"
+msgid_plural "You made %1 mistakes"
+msgstr[0] "Napravili ste jednu pogrešku"
+msgstr[1] "Napravili ste %1 pogreške"
+msgstr[2] "Napravili ste %1 pogrešaka"
+
+#: qml/BasePage.qml:82
+#, kde-format
+msgid "Repeat Errors"
+msgstr "Ponovi pogreške"
+
+#: qml/BasePage.qml:93
+#, kde-format
+msgid "Try Again"
+msgstr "Pokušaj ponovno"
+
+#: qml/DeckEditorPage.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Deck"
+msgstr "Stvori špil"
+
+#: qml/DeckEditorPage.qml:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Deck"
+msgstr "Uredi špil"
+
+#: qml/DeckEditorPage.qml:39
+#, kde-format
+msgid "Filter"
+msgstr "Filtar"
+
+#: qml/DeckEditorPage.qml:42
+#, kde-format
+msgid "Filter..."
+msgstr "Filtriraj..."
+
+#: qml/DeckEditorPage.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Preview"
+msgstr "Pretpregled ispisa"
+
+#: qml/DeckEditorPage.qml:54 qml/DeckEditorPage.qml:76
+#, kde-format
+msgid "Flashcard"
+msgstr "Kartica"
+
+#: qml/DeckEditorPage.qml:60 qml/DeckEditorPage.qml:82
+#, kde-format
+msgid "List"
+msgstr "Popis"
+
+#: qml/DeckEditorPage.qml:66 qml/DeckEditorPage.qml:88
+#, kde-format
+msgid "Exam"
+msgstr "Ispit"
+
+#: qml/DeckEditorPage.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Print"
+msgstr "Ispiši"
+
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "Stvori"
+
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Spremi"
+
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Image"
+msgstr "Ukloni sliku"
+
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Image"
+msgstr "Poveži sliku"
+
+#: qml/DeckEditorPage.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Sound"
+msgstr "Ukloni zvuk"
+
+#: qml/DeckEditorPage.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Sound"
+msgstr "Poveži zvuk"
+
+#: qml/DeckEditorPage.qml:155
+#, kde-format
+msgctxt "@action:button"
+msgid "Set language"
+msgstr "Postavi jezik"
+
+#: qml/DeckEditorPage.qml:161
+#, kde-format
+msgctxt "@action:button"
+msgid "Set Language"
+msgstr "Postavi jezik"
+
+#: qml/DeckEditorPage.qml:182
+#, kde-format
+msgid "Please Choose an Image"
+msgstr "Odaberite sliku"
+
+#: qml/DeckEditorPage.qml:191
+#, kde-format
+msgid "Please Choose a Sound"
+msgstr "Odaberite zvuk"
+
+#: qml/DeckEditorPage.qml:226
+#, kde-format
+msgctxt "@label"
+msgid "Name:"
+msgstr "Naziv:"
+
+#: qml/DeckEditorPage.qml:237
+#, kde-format
+msgctxt "@label"
+msgid "Author:"
+msgstr "Autor:"
+
+#: qml/DeckEditorPage.qml:248
+#, kde-format
+msgctxt "@label"
+msgid "License:"
+msgstr "Licenca:"
+
+#: qml/EditAction.qml:13 qml/WelcomePage.qml:223
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "Uredi"
+
+#: qml/FlashCardPage.qml:16 qml/MultipleChoicePage.qml:87
+#: qml/QuestionAnswerPage.qml:151
+#, kde-format
+msgctxt "@action:button"
+msgid "Check"
+msgstr "Provjeri"
+
+#: qml/FlashCardPage.qml:128
+#, kde-format
+msgctxt "@action:button"
+msgid "Correct"
+msgstr "Točno"
+
+#: qml/FlashCardPage.qml:146
+#, kde-format
+msgctxt "@action:button"
+msgid "Not Correct"
+msgstr "Netočno"
+
+#: qml/LanguageSelectorPage.qml:15
+#, kde-format
+msgid "Select a language"
+msgstr "Odaberite jezik"
+
+#: qml/Main.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Postavke"
+
+#: qml/Main.qml:42
+#, kde-format
+msgid "Configure"
+msgstr "Konfiguriraj"
+
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, kde-format
+msgid "This is correct"
+msgstr "Točno"
+
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, kde-format
+msgid "Wrong, the correct answer was \"%1\"."
+msgstr "Pogrešno, točan odgovor bio je „%1”."
+
+#: qml/MultipleChoicePage.qml:130 qml/QuestionAnswerPage.qml:195
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr "Sljedeće"
+
+#: qml/MultipleChoicePage.qml:150
+#, kde-format
+msgid "Not enough words in your deck"
+msgstr "U špilu nema dovoljno riječi"
+
+#: qml/MultipleChoicePage.qml:151
+#, kde-format
+msgid "You need at least 3 words to enable the multiple choice mode"
+msgstr "Za uključivanje načina višestrukog izbora potrebne su najmanje 3 riječi"
+
+#: qml/OptionsAction.qml:12
+#, kde-format
+msgctxt "@action:button"
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: qml/OptionsAction.qml:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Shuffle"
+msgstr "Promiješaj"
+
+#: qml/QuestionAnswerPage.qml:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Hint"
+msgstr "Savjet"
+
+#: qml/SettingsPage.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "Postavke"
+
+#: qml/SettingsPage.qml:16
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: qml/SettingsPage.qml:22
+#, kde-format
+msgid "Show score as percentage"
+msgstr "Prikaži rezultat kao postotak"
+
+#: qml/SettingsPage.qml:32
+#, kde-format
+msgid "Flash Card"
+msgstr "Kartica"
+
+#: qml/SettingsPage.qml:38
+#, kde-format
+msgid "Automatically flip flashcard"
+msgstr "Automatski okreni karticu"
+
+#: qml/SettingsPage.qml:50
+#, kde-format
+msgid "Time delay for flipping the flashcard"
+msgstr "Vremenski odmak za okretanje kartice"
+
+#: qml/SettingsPage.qml:63
+#, kde-format
+msgid "Multiple choice"
+msgstr "Višestruki izbor"
+
+#: qml/SettingsPage.qml:68
+#, kde-format
+msgid "Automatically check selected answer"
+msgstr "Automatski provjeri odabrani odgovor"
+
+#: qml/SettingsPage.qml:78
+#, kde-format
+msgid "Question and Answer"
+msgstr "Pitanje i odgovor"
+
+#: qml/SettingsPage.qml:84
+#, kde-format
+msgid "Count using hint as an error"
+msgstr "Računaj savjet kao pogrešku"
+
+#: qml/SettingsPage.qml:96
+#, kde-format
+msgid "Compare answers in a case sensitive way"
+msgstr "Uspoređuj odgovore uz razlikovanje velikih i malih slova"
+
+#: qml/SettingsPage.qml:111
+#, kde-format
+msgid "About KWordQuiz"
+msgstr "O programu KWordQuiz"
+
+#: qml/SettingsPage.qml:126
+#, kde-format
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: qml/WelcomePage.qml:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr "Dobro došli"
+
+#: qml/WelcomePage.qml:40
+#, kde-format
+msgid "Please choose a WordQuiz document"
+msgstr "Odaberite dokument za WordQuiz"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "KEduDocument (*.kvtml)"
+msgstr "KEduDocument (*.kvtml)"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "Wql documents (*.wql)"
+msgstr "Wql dokumenti (*.wql)"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "CSV documents (*.csv)"
+msgstr "CSV dokumenti (*.csv)"
+
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "XDXF documents (*.xdxf)"
+msgstr "XDXF dokumenti (*.xdxf)"
+
+#: qml/WelcomePage.qml:58
+#, kde-format
+msgid "Welcome to WordQuiz"
+msgstr "Dobro došli u WordQuiz"
+
+#: qml/WelcomePage.qml:70
+#, kde-format
+msgid "Open Existing Document"
+msgstr "Otvori postojeći dokument"
+
+#: qml/WelcomePage.qml:76
+#, kde-format
+msgid "Create Deck"
+msgstr "Stvori špil"
+
+#: qml/WelcomePage.qml:84
+#, kde-format
+msgid "Download Deck"
+msgstr "Preuzmi špil"
+
+#: qml/WelcomePage.qml:100
+#, kde-format
+msgctxt "@title:group"
+msgid "Mode"
+msgstr "Način rada"
+
+#: qml/WelcomePage.qml:137
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Flashcard"
+msgstr "Kartica"
+
+#: qml/WelcomePage.qml:144
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Multiple choice"
+msgstr "Višestruki izbor"
+
+#: qml/WelcomePage.qml:151
+#, kde-format
+msgctxt "@option:check Mode selector"
+msgid "Question-Answer"
+msgstr "Pitanje i odgovor"
+
+#: qml/WelcomePage.qml:157
+#, kde-format
+msgid "Decks"
+msgstr "Špilovi"
+
+#: qml/WelcomePage.qml:193
+#, kde-format
+msgid "Document cannot be opened"
+msgstr "Dokument nije moguće otvoriti"
+
+#: qml/WelcomePage.qml:209
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Ukloni"

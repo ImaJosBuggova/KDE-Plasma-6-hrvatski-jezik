@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the optiimage package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: optiimage\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-31 00:43+0000\n"
+"PO-Revision-Date: 2026-11-07 06:00+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: contents/ui/LogOutputPage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Console output"
+msgstr "Izlaz konzole"
+
+#: contents/ui/LogOutputPage.qml:57
+#, kde-format
+msgid "No log output"
+msgstr "Nema izlaza zapisnika"
+
+#: contents/ui/OptimizePage.qml:17
+#, kde-format
+msgid "Optimize your images"
+msgstr "Optimizirajte slike"
+
+#: contents/ui/OptimizePage.qml:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Re-check"
+msgstr "Ponovno provjeri"
+
+#: contents/ui/OptimizePage.qml:41
+#, kde-format
+msgctxt "@info"
+msgid "The following programs are missing for OptiImage to run correctly:"
+msgstr "Za ispravan rad OptiImagea nedostaju sljedeći programi:"
+
+#: contents/ui/OptimizePage.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Images"
+msgstr "Odaberi slike"
+
+#: contents/ui/OptimizePage.qml:60
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#: contents/ui/OptimizePage.qml:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image to compress"
+msgstr "Odaberite sliku za kompresiju"
+
+#: contents/ui/OptimizePage.qml:76
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "Slikovne datoteke (*.jpg *.jpeg *.png *.svg *.webp)"
+
+#: contents/ui/OptimizePage.qml:76
+#, kde-format
+msgid "All files (*)"
+msgstr "Sve datoteke (*)"
+
+#: contents/ui/OptimizePage.qml:100
+#, kde-format
+msgctxt "Size information with no change"
+msgid "%1 (No change)"
+msgstr "%1 (bez promjene)"
+
+#: contents/ui/OptimizePage.qml:102
+#, kde-format
+msgctxt "Size information"
+msgid "%1 -> %2 (%3% decrease)"
+msgstr "%1 → %2 (smanjenje za %3%)"
+
+#: contents/ui/OptimizePage.qml:138
+#, kde-format
+msgctxt "@action:button"
+msgid "More options"
+msgstr "Više mogućnosti"
+
+#: contents/ui/OptimizePage.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: contents/ui/OptimizePage.qml:177
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Otvori"
+
+#: contents/ui/OptimizePage.qml:183
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open Containing Folder"
+msgstr "Otvori mapu koja sadrži datoteku"
+
+#: contents/ui/OptimizePage.qml:189
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "Svojstva"
+
+#: contents/ui/OptimizePage.qml:198
+#, kde-format
+msgid "No images to optimize"
+msgstr "Nema slika za optimizaciju"
+
+#: contents/ui/SettingsPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "Postavke"
+
+#: contents/ui/SettingsPage.qml:18
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: contents/ui/SettingsPage.qml:24
+#, kde-format
+msgid "Keep Metadata"
+msgstr "Zadrži metapodatke"
+
+#: contents/ui/SettingsPage.qml:39
+#, kde-format
+msgid "Safe mode"
+msgstr "Siguran način rada"
+
+#: contents/ui/SettingsPage.qml:40
+#, kde-format
+msgid "Save the compressed image in a new file"
+msgstr "Spremi komprimiranu sliku u novu datoteku"
+
+#: contents/ui/SettingsPage.qml:54
+#, kde-format
+msgid "Suffix to append at the end of new file"
+msgstr "Nastavak koji se dodaje na kraj naziva nove datoteke"
+
+#: contents/ui/SettingsPage.qml:64
+#, kde-format
+msgid "JPG"
+msgstr "JPG"
+
+#: contents/ui/SettingsPage.qml:70
+#, kde-format
+msgid "Progressive Encode"
+msgstr "Progresivno kodiranje"
+
+#: contents/ui/SettingsPage.qml:71
+#, kde-format
+msgid "To enable incremental image rendering: blurry to clear."
+msgstr "Omogućuje postupno iscrtavanje slike: od mutne do jasne."
+
+#: contents/ui/SettingsPage.qml:86 contents/ui/SettingsPage.qml:152
+#, kde-format
+msgctxt "@label"
+msgid "Use lossless compression"
+msgstr "Koristi kompresiju bez gubitaka"
+
+#: contents/ui/SettingsPage.qml:87 contents/ui/SettingsPage.qml:153
+#, kde-format
+msgctxt "@info"
+msgid "Only use compression algorithms which do not reduce image quality."
+msgstr "Koristi samo algoritme kompresije koji ne smanjuju kvalitetu slike."
+
+#: contents/ui/SettingsPage.qml:101 contents/ui/SettingsPage.qml:167
+#, kde-format
+msgid "Default optimization level of lossy optimization:"
+msgstr "Zadana razina optimizacije kompresije s gubicima:"
+
+#: contents/ui/SettingsPage.qml:113
+#, kde-format
+msgid "PNG"
+msgstr "PNG"
+
+#: contents/ui/SettingsPage.qml:118
+#, kde-format
+msgid "Default optimization level of lossless optimization:"
+msgstr "Zadana razina optimizacije kompresije bez gubitaka:"
+
+#: contents/ui/SettingsPage.qml:130
+#, kde-format
+msgid "SVG"
+msgstr "SVG"
+
+#: contents/ui/SettingsPage.qml:135
+#, kde-format
+msgctxt "@label"
+msgid "Maximum Compression Level"
+msgstr "Maksimalna razina kompresije"
+
+#: contents/ui/SettingsPage.qml:136
+#, kde-format
+msgctxt "@info"
+msgid "Can be more destructive for the image."
+msgstr "Može više oštetiti sliku."
+
+#: contents/ui/SettingsPage.qml:146
+#, kde-format
+msgid "WebP"
+msgstr "WebP"
+
+#: contents/ui/SettingsPage.qml:182
+#, kde-format
+msgid "About OptiImage"
+msgstr "O OptiImageu"
+
+#: contents/ui/SettingsPage.qml:199
+#, kde-format
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: main.cpp:27
+#, kde-format
+msgid "OptiImage"
+msgstr "OptiImage"
+
+#: main.cpp:29
+#, kde-format
+msgid "Images Optimiser"
+msgstr "Optimizator slika"
+
+#: main.cpp:31
+#, kde-format
+msgid "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021. – 2023. Carl Schwan"
+
+#: main.cpp:33
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:33
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: main.cpp:34
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: main.cpp:34
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Adrese e-pošte prevoditelja"
