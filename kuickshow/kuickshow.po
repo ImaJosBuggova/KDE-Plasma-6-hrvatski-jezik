@@ -1,53 +1,49 @@
-# Translation of kuickshow to Croatian
+# Croatian translations for kuickshow.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kuickshow package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
 #
-# Translators: Robert Pezer <rpezer@phy.hr>,Zoran Jankovic <zoran.jankovic@inet.hr>,
-# Marko Dimjasevic <marko@dimjasevic.net>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: kuickshow 0\n"
+"Project-Id-Version: kuickshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-07 00:43+0000\n"
-"PO-Revision-Date: 2009-10-01 11:58+0200\n"
-"Last-Translator: Roko Tomović\n"
-"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2026-11-07 08:40+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize\n"
-"X-Environment: kde\n"
-"X-Accelerator-Marker: &\n"
-"X-Text-Markup: kde4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Robert Pezer, Zoran Jankovic"
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "lokalizacija@linux.hr, lokalizacija@linux.hr"
+msgstr "roko@maesdbk.hr"
 
 #: src/aboutwidget.cpp:39
 #, kde-format
 msgid "<A HREF=\"%2\">%1 Website</A>"
-msgstr ""
+msgstr "<A HREF=\"%2\">%1 web-stranica</A>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DefaultsWidget)
 #: src/defaultswidget.ui:14
-#, fuzzy, kde-format
-#| msgid "&Modifications"
+#, kde-format
 msgid "Modifications"
-msgstr "&Modifikacije"
+msgstr "Izmjene"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableMods)
 #: src/defaultswidget.ui:23
 #, kde-format
 msgid "Apply default image modifications"
-msgstr "Primjeni osnovne slikovne modifikacije"
+msgstr "Primijeni zadane izmjene slike"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbScale)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -60,14 +56,13 @@ msgstr "Skaliranje"
 #: src/defaultswidget.ui:36
 #, kde-format
 msgid "Scale image to screen size, if smaller, up to factor:"
-msgstr ""
-"Povećaj sliku na veličinu zaslona, ako je manja, za određeni množitelj:"
+msgstr "Povećaj sliku do veličine zaslona ako je manja, najviše do faktora:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbDownScale)
 #: src/defaultswidget.ui:53
 #, kde-format
 msgid "Shrink image to screen size, if larger"
-msgstr "Smanji sliku na veličinu zaslona, ako je veća"
+msgstr "Smanji sliku na veličinu zaslona ako je veća"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeometry)
 #: src/defaultswidget.ui:63
@@ -79,19 +74,19 @@ msgstr "Geometrija"
 #: src/defaultswidget.ui:69
 #, kde-format
 msgid "Flip vertically"
-msgstr "Okreni vetikalno"
+msgstr "Preokreni okomito"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbFlipHorizontally)
 #: src/defaultswidget.ui:76
 #, kde-format
 msgid "Flip horizontally"
-msgstr "Okreni vodoravno"
+msgstr "Preokreni vodoravno"
 
 #. i18n: ectx: property (text), widget (QLabel, lbRotate)
 #: src/defaultswidget.ui:85
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rotate image:"
-msgstr "Rotiraj sliku:"
+msgstr "Zakreni sliku:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboRotate)
 #: src/defaultswidget.ui:93
@@ -121,13 +116,13 @@ msgstr "270 stupnjeva"
 #: src/defaultswidget.ui:134
 #, kde-format
 msgid "Adjustments"
-msgstr "Podešavanja"
+msgstr "Prilagodbe"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/defaultswidget.ui:140
 #, kde-format
 msgid "Brightness:"
-msgstr "Sjajnost:"
+msgstr "Svjetlina:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/defaultswidget.ui:183
@@ -145,62 +140,61 @@ msgstr "Gama:"
 #: src/defaultswidget.ui:272
 #, kde-format
 msgid "Preview"
-msgstr "Pregled"
+msgstr "Pretpregled"
 
 #. i18n: ectx: property (text), widget (QLabel, lbImOrig)
 #: src/defaultswidget.ui:281
 #, kde-format
 msgid "Original"
-msgstr "Original"
+msgstr "Izvornik"
 
 #. i18n: ectx: property (text), widget (QLabel, lbImFiltered)
 #: src/defaultswidget.ui:288
 #, kde-format
 msgid "Modified"
-msgstr "Mijenjano"
+msgstr "Izmijenjeno"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, GeneralWidget)
 #: src/generalwidget.ui:14
-#, fuzzy, kde-format
-#| msgid "&General"
+#, kde-format
 msgid "General"
-msgstr "&Općenito"
+msgstr "Općenito"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbLastdir)
 #: src/generalwidget.ui:20
-#, fuzzy, kde-format
+#, kde-format
 msgid "Remember last folder"
-msgstr "Zapamti posljednji direktorij"
+msgstr "Zapamti posljednju mapu"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbox2)
 #: src/generalwidget.ui:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "Quality/Speed"
-msgstr "Kvalitet/brzina"
+msgstr "Kvaliteta/brzina"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSmoothScale)
 #: src/generalwidget.ui:36
-#, fuzzy, kde-format
+#, kde-format
 msgid "Smooth scaling"
-msgstr "Skaliranje"
+msgstr "Glatko skaliranje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbFastRender)
 #: src/generalwidget.ui:43
 #, kde-format
 msgid "Fast rendering"
-msgstr "Brzo sjenčanje"
+msgstr "Brzo iscrtavanje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbDither16bit)
 #: src/generalwidget.ui:50
 #, kde-format
 msgid "Dither in HiColor (15/16bit) modes"
-msgstr "Razluči u HiColor (više boja) (15/16bit) modovima"
+msgstr "Uklanjanje pojasa u HiColor načinima (15/16-bitnim)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbDither8bit)
 #: src/generalwidget.ui:57
 #, kde-format
 msgid "Dither in LowColor (<=8bit) modes"
-msgstr "Razluči u LowColor (manje boja) (<=8bit) modovima"
+msgstr "Uklanjanje pojasa u LowColor načinima (<=8-bitnim)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbOwnPalette)
 #: src/generalwidget.ui:64
@@ -212,13 +206,13 @@ msgstr "Koristi vlastitu paletu boja"
 #: src/generalwidget.ui:71
 #, kde-format
 msgid "Fast palette remapping"
-msgstr "Brzo remapiranje palete"
+msgstr "Brzo ponovno mapiranje palete"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/generalwidget.ui:78
-#, fuzzy, kde-format
+#, kde-format
 msgid "Maximum cache size: "
-msgstr "Maksimalna veličina keša: "
+msgstr "Najveća veličina predmemorije: "
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, maxCacheSpinBox)
 #: src/generalwidget.ui:88
@@ -236,7 +230,7 @@ msgstr " MB"
 #: src/generalwidget.ui:104
 #, kde-format
 msgid "Fullscreen mode"
-msgstr "Preko cijelog zaslona"
+msgstr "Cjelozaslonski način"
 
 #. i18n: ectx: property (text), widget (QLabel, l0)
 #: src/generalwidget.ui:114
@@ -248,7 +242,7 @@ msgstr "Boja pozadine:"
 #: src/generalwidget.ui:121
 #, kde-format
 msgid "Show only files with extension: "
-msgstr "Prikaži samo datoteke s nastavkom:"
+msgstr "Prikaži samo datoteke s nastavkom: "
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPreload)
 #: src/generalwidget.ui:128
@@ -267,111 +261,109 @@ msgid "Show Previous Image"
 msgstr "Prikaži prethodnu sliku"
 
 #: src/imagewindow.cpp:136
-#, fuzzy, kde-format
-#| msgid "Show Next Image"
+#, kde-format
 msgid "Show First Image"
-msgstr "Prikaži sljedeću sliku"
+msgstr "Prikaži prvu sliku"
 
 #: src/imagewindow.cpp:144
-#, fuzzy, kde-format
-#| msgid "Show Next Image"
+#, kde-format
 msgid "Show Last Image"
-msgstr "Prikaži sljedeću sliku"
+msgstr "Prikaži posljednju sliku"
 
 #: src/imagewindow.cpp:152
 #, kde-format
 msgid "Duplicate Window"
-msgstr ""
+msgstr "Dupliciraj prozor"
 
 #: src/imagewindow.cpp:170
 #, kde-format
 msgid "Zooom to Maximum Size"
-msgstr ""
+msgstr "Povećaj na najveću veličinu"
 
 #: src/imagewindow.cpp:176
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rotate 90 Degrees"
-msgstr "Rotiraj za 90 stepeni"
+msgstr "Zakreni za 90 stupnjeva"
 
 #: src/imagewindow.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rotate 180 Degrees"
-msgstr "Rotiraj za 180 stepeni"
+msgstr "Zakreni za 180 stupnjeva"
 
 #: src/imagewindow.cpp:186
-#, fuzzy, kde-format
+#, kde-format
 msgid "Rotate 270 Degrees"
-msgstr "Rotiraj za 270 stepeni"
+msgstr "Zakreni za 270 stupnjeva"
 
 #: src/imagewindow.cpp:191
 #, kde-format
 msgid "Flip Horizontally"
-msgstr "Prebaci horizontalno"
+msgstr "Preokreni vodoravno"
 
 #: src/imagewindow.cpp:196
 #, kde-format
 msgid "Flip Vertically"
-msgstr "Prebaci vertikalno"
+msgstr "Preokreni okomito"
 
 #: src/imagewindow.cpp:202
-#, fuzzy, kde-format
+#, kde-format
 msgid "Delete Image"
-msgstr "Učitavam sliku"
+msgstr "Izbriši sliku"
 
 #: src/imagewindow.cpp:206
 #, kde-format
 msgid "Move Image to Trash"
-msgstr ""
+msgstr "Premjesti sliku u smeće"
 
 #: src/imagewindow.cpp:210 src/kuickshow.cpp:1245
 #, kde-format
 msgid "Print Image..."
-msgstr "Ispiši sliku …"
+msgstr "Ispiši sliku..."
 
 #: src/imagewindow.cpp:226
-#, fuzzy, kde-format
+#, kde-format
 msgid "Return to File Browser"
-msgstr "Pokaži/sakrij preglednik datotekaova"
+msgstr "Vrati se u preglednik datoteka"
 
 #: src/imagewindow.cpp:231
 #, kde-format
 msgid "More Brightness"
-msgstr "Više svjetloće"
+msgstr "Povećaj svjetlinu"
 
 #: src/imagewindow.cpp:235
 #, kde-format
 msgid "Less Brightness"
-msgstr "Manje svjetloće"
+msgstr "Smanji svjetlinu"
 
 #: src/imagewindow.cpp:239
 #, kde-format
 msgid "More Contrast"
-msgstr "Više kontrasta"
+msgstr "Povećaj kontrast"
 
 #: src/imagewindow.cpp:243
 #, kde-format
 msgid "Less Contrast"
-msgstr "Manje kontrasta"
+msgstr "Smanji kontrast"
 
 #: src/imagewindow.cpp:247
-#, fuzzy, kde-format
+#, kde-format
 msgid "More Gamma"
-msgstr "Više game"
+msgstr "Povećaj gamu"
 
 #: src/imagewindow.cpp:251
-#, fuzzy, kde-format
+#, kde-format
 msgid "Less Gamma"
-msgstr "Manje game"
+msgstr "Smanji gamu"
 
 #: src/imagewindow.cpp:256
-#, fuzzy, kde-format
+#, kde-format
 msgid "Scroll Up"
-msgstr "Klizaj na gore"
+msgstr "Pomakni prema gore"
 
 #: src/imagewindow.cpp:260
-#, fuzzy, kde-format
+#, kde-format
 msgid "Scroll Down"
-msgstr "Klizaj na dole"
+msgstr "Pomakni prema dolje"
 
 #: src/imagewindow.cpp:264
 #, kde-format
@@ -384,25 +376,25 @@ msgid "Scroll Right"
 msgstr "Pomakni udesno"
 
 #: src/imagewindow.cpp:273
-#, fuzzy, kde-format
+#, kde-format
 msgid "Pause Slideshow"
-msgstr "Pokreni slajdšou"
+msgstr "Pauziraj dijaprojekciju"
 
 #: src/imagewindow.cpp:286
 #, kde-format
 msgid "Reload Image"
-msgstr "Učitavam sliku"
+msgstr "Ponovno učitaj sliku"
 
 #: src/imagewindow.cpp:356
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Filename (Imagewidth x Imageheight)"
 msgid "%3 (%1 x %2)"
 msgstr "%3 (%1 x %2)"
 
 #: src/imagewindow.cpp:421
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unable to download the image from %1."
-msgstr "Ne mogu da odispism sliku."
+msgstr "Nije moguće preuzeti sliku s %1."
 
 #: src/imagewindow.cpp:437
 #, kde-format
@@ -410,9 +402,7 @@ msgid ""
 "Unable to load the image %1.\n"
 "Perhaps the file format is unsupported or your Imlib is not installed "
 "properly."
-msgstr ""
-"Ne mogu učitati sliku %1.\n"
-"Format datoteke nije podržan ili Imlib nije pravilno instaliran."
+msgstr "Nije moguće učitati sliku %1.\nMožda format datoteke nije podržan ili Imlib nije ispravno instaliran."
 
 #: src/imagewindow.cpp:846
 #, kde-format
@@ -430,44 +420,41 @@ msgid "Gamma"
 msgstr "Gama"
 
 #: src/imagewindow.cpp:901
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unable to print the image."
-msgstr "Ne mogu da odispism sliku."
+msgstr "Nije moguće ispisati sliku."
 
 #: src/imagewindow.cpp:902
-#, fuzzy, kde-format
+#, kde-format
 msgid "Printing Failed"
-msgstr "Štampanje nije uspjelo"
+msgstr "Ispis nije uspio"
 
 #: src/imagewindow.cpp:919
-#, fuzzy, kde-format
+#, kde-format
 msgid "Keep original image size"
-msgstr "Zadrži originalnu veličinu slike"
+msgstr "Zadrži izvornu veličinu slike"
 
 #: src/imagewindow.cpp:924
-#, fuzzy, kde-format
-#| msgid "Show Image"
+#, kde-format
 msgid "Save Image As"
-msgstr "Prikaži sliku"
+msgstr "Spremi sliku kao"
 
 #: src/imagewindow.cpp:929 src/kuickshow.cpp:1143
 #, kde-format
 msgid "Image Files (%1)"
-msgstr ""
+msgstr "Datoteke slika (%1)"
 
 #: src/imagewindow.cpp:947
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "Could not save the file.\n"
 "Perhaps the disk is full, or you do not have write permission to the file."
-msgstr ""
-"Ne mogu spremiti datoteku.\n"
-"Disk je pun ili nemate ovlasti za zapisivanje u datoteku."
+msgstr "Nije moguće spremiti datoteku.\nMožda je disk pun ili nemate dopuštenje za zapisivanje u datoteku."
 
 #: src/imagewindow.cpp:950
 #, kde-format
 msgid "File Saving Failed"
-msgstr "Snimanje datoteke neuspješno"
+msgstr "Spremanje datoteke nije uspjelo"
 
 #: src/imagewindow.cpp:1197
 #, kde-format
@@ -475,22 +462,22 @@ msgid ""
 "You are about to view a very large image (%1 x %2 pixels), which can be very "
 "resource-consuming and even make your computer hang.\n"
 "Do you want to continue?"
-msgstr ""
+msgstr "Namjeravate prikazati vrlo veliku sliku (%1 x %2 piksela), što može zahtijevati mnogo resursa pa čak i zakočiti računalo.\nŽelite li nastaviti?"
 
 #: src/imlib_imlib1.cpp:157
 #, kde-format
 msgid "Image loading and rendering library"
-msgstr ""
+msgstr "Biblioteka za učitavanje i iscrtavanje slika"
 
 #: src/imlib_imlib2.cpp:119
 #, kde-format
 msgid "Image processing library"
-msgstr ""
+msgstr "Biblioteka za obradu slika"
 
 #: src/kuickconfigdlg.cpp:41
-#, fuzzy, kde-format
+#, kde-format
 msgid "Configure"
-msgstr "Podešavanje %1..."
+msgstr "Konfiguriraj"
 
 #: src/kuickconfigdlg.cpp:47
 #, kde-format
@@ -500,39 +487,39 @@ msgstr "&Općenito"
 #: src/kuickconfigdlg.cpp:52
 #, kde-format
 msgid "&Modifications"
-msgstr "&Modifikacije"
+msgstr "&Izmjene"
 
 #: src/kuickconfigdlg.cpp:57
 #, kde-format
 msgid "&Slideshow"
-msgstr "&Slideshow"
+msgstr "&Dijaprojekcija"
 
 #: src/kuickconfigdlg.cpp:62
 #, kde-format
 msgid "Info"
-msgstr ""
+msgstr "Informacije"
 
 #: src/kuickconfigdlg.cpp:69
 #, kde-format
 msgid "&Viewer Shortcuts"
-msgstr "&Prečice preglednika"
+msgstr "&Prečaci preglednika"
 
 #: src/kuickconfigdlg.cpp:73
 #, kde-format
 msgid "Bro&wser Shortcuts"
-msgstr "Prečice bro&wsera"
+msgstr "Pre&čaci preglednika datoteka"
 
 #: src/kuickfile.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 msgid "Downloading %1..."
-msgstr "Podešavanje %1..."
+msgstr "Preuzimanje %1..."
 
 #: src/kuickfile.cpp:129
 #, kde-format
 msgid ""
 "Please wait while downloading\n"
 "%1"
-msgstr ""
+msgstr "Pričekajte dok se preuzima\n%1"
 
 #: src/kuickshow.cpp:166
 #, kde-kuit-format
@@ -545,49 +532,49 @@ msgid_plural ""
 "Do you really want to display these %1 images at the same time? This might "
 "be quite resource intensive and could overload your computer.<br/>If you "
 "choose <interface>%2</interface>, only the first image will be shown."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Želite li doista istodobno prikazati ovu jednu sliku? To može zahtijevati mnogo resursa i preopteretiti računalo.<br/>Ako odaberete <interface>%2</interface>, prikazat će se samo prva slika."
+msgstr[1] "Želite li doista istodobno prikazati ove %1 slike? To može zahtijevati mnogo resursa i preopteretiti računalo.<br/>Ako odaberete <interface>%2</interface>, prikazat će se samo prva slika."
+msgstr[2] "Želite li doista istodobno prikazati ovih %1 slika? To može zahtijevati mnogo resursa i preopteretiti računalo.<br/>Ako odaberete <interface>%2</interface>, prikazat će se samo prva slika."
 
 #: src/kuickshow.cpp:168
 #, kde-format
 msgid "Display Multiple Images?"
-msgstr ""
+msgstr "Prikazati više slika?"
 
 #: src/kuickshow.cpp:169
 #, kde-format
 msgid "Display"
-msgstr ""
+msgstr "Prikaži"
 
 #: src/kuickshow.cpp:283
 #, kde-format
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #: src/kuickshow.cpp:297
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #: src/kuickshow.cpp:303
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #: src/kuickshow.cpp:306
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Settings"
-msgstr "Postava"
+msgstr "&Postavke"
 
 #: src/kuickshow.cpp:327
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Glavna alatna traka"
 
 #: src/kuickshow.cpp:1021
 #, kde-format
 msgid "Image Error"
-msgstr ""
+msgstr "Pogreška slike"
 
 #: src/kuickshow.cpp:1032
 #, kde-format
@@ -596,37 +583,37 @@ msgid ""
 "\n"
 "More information may be available in the session log file,\n"
 "or can be obtained by starting %1 from a terminal."
-msgstr ""
+msgstr "Nije moguće inicijalizirati biblioteku slika „%2”.\n\nViše informacija možda je dostupno u zapisniku sesije,\nili pokretanjem programa %1 u terminalu."
 
 #: src/kuickshow.cpp:1036
-#, fuzzy, kde-format
+#, kde-format
 msgid "Fatal Initialization Error"
-msgstr "Fatalna greška Imlib-a"
+msgstr "Kobna pogreška pri inicijalizaciji"
 
 #: src/kuickshow.cpp:1142
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select Files or Folder to Open"
-msgstr "Odaberite datotekaove ili direktorij koji treba otvoriti"
+msgstr "Odaberite datoteke ili mapu za otvaranje"
 
 #: src/kuickshow.cpp:1201
-#, fuzzy, kde-format
+#, kde-format
 msgid "Start Slideshow"
-msgstr "Pokreni slajdšou"
+msgstr "Pokreni dijaprojekciju"
 
 #: src/kuickshow.cpp:1205
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show File Browser"
-msgstr "Pokaži/sakrij preglednik datotekaova"
+msgstr "Prikaži preglednik datoteka"
 
 #: src/kuickshow.cpp:1206
-#, fuzzy, kde-format
+#, kde-format
 msgid "Hide File Browser"
-msgstr "Pokaži/sakrij preglednik datotekaova"
+msgstr "Sakrij preglednik datoteka"
 
 #: src/kuickshow.cpp:1219
-#, fuzzy, kde-format
+#, kde-format
 msgid "Open Only One Image Window"
-msgstr "Otvori samo jedan prozor za slike"
+msgstr "Otvori samo jedan prozor slike"
 
 #: src/kuickshow.cpp:1233
 #, kde-format
@@ -639,9 +626,9 @@ msgid "Show Image in Active Window"
 msgstr "Prikaži sliku u aktivnom prozoru"
 
 #: src/kuickshow.cpp:1241
-#, fuzzy, kde-format
+#, kde-format
 msgid "Show Image in Fullscreen Mode"
-msgstr "Preko cijelog zaslona"
+msgstr "Prikaži sliku u cijelom zaslonu"
 
 #: src/main.cpp:37
 #, kde-format
@@ -651,37 +638,37 @@ msgstr "KuickShow"
 #: src/main.cpp:39
 #, kde-format
 msgid "A fast and versatile image viewer"
-msgstr "Brz i prilagodljiv preglednih slikovnih datoteka"
+msgstr "Brz i svestran preglednik slika"
 
 #: src/main.cpp:41
 #, kde-format
 msgid "(c) 1998-2009, Carsten Pfeiffer"
-msgstr ""
+msgstr "© 1998.–2009., Carsten Pfeiffer"
 
 #: src/main.cpp:46
 #, kde-format
 msgid "Carsten Pfeiffer"
-msgstr ""
+msgstr "Carsten Pfeiffer"
 
 #: src/main.cpp:48
 #, kde-format
 msgid "Rober Hamberger"
-msgstr ""
+msgstr "Rober Hamberger"
 
 #: src/main.cpp:49
 #, kde-format
 msgid "Thorsten Scheuermann"
-msgstr ""
+msgstr "Thorsten Scheuermann"
 
 #: src/main.cpp:59
-#, fuzzy, kde-format
+#, kde-format
 msgid "Start in the last visited folder, not the current working folder."
-msgstr "Počni sa posljednje posjećenim direktorijom, umjesto trenutneg radnog."
+msgstr "Pokreni u posljednjoj posjećenoj mapi, a ne u trenutačnoj radnoj mapi."
 
 #: src/main.cpp:60
 #, kde-format
 msgid "Optional image filenames/urls to show"
-msgstr "Opcionalne slikovne datoteke/URLovi za prikaz"
+msgstr "Neobavezni nazivi datoteka/URL-ovi slika za prikaz"
 
 #: src/printing.cpp:52
 #, kde-format
@@ -692,25 +679,25 @@ msgstr "Ispiši %1"
 #: src/printing_page.ui:14
 #, kde-format
 msgid "Image Settings"
-msgstr "Postava"
+msgstr "Postavke slike"
 
 #. i18n: ectx: property (text), widget (QCheckBox, addFileName)
 #: src/printing_page.ui:20
 #, kde-format
 msgid "Print fi&lename below image"
-msgstr "Ispiši ime datoteke ispod s&like"
+msgstr "Ispiši naziv &datoteke ispod slike"
 
 #. i18n: ectx: property (text), widget (QCheckBox, blackwhite)
 #: src/printing_page.ui:30
-#, fuzzy, kde-format
+#, kde-format
 msgid "Print image in &black and white"
-msgstr "Štampaj sliku &crno-belo"
+msgstr "Ispiši sliku crno-&bijelo"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/printing_page.ui:53
 #, kde-format
 msgid "&Width:"
-msgstr "Š&irina:"
+msgstr "&Širina:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, units)
 #: src/printing_page.ui:64
@@ -728,7 +715,7 @@ msgstr "Centimetri"
 #: src/printing_page.ui:74
 #, kde-format
 msgid "Inches"
-msgstr "Palci"
+msgstr "Inči"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/printing_page.ui:108
@@ -740,99 +727,58 @@ msgstr "&Visina:"
 #: src/printing_page.ui:121
 #, kde-format
 msgid "Print e&xact size: "
-msgstr "Ispiši to&čnu veličinu: "
+msgstr "Ispiši u &stvarnoj veličini: "
 
 #. i18n: ectx: property (text), widget (QCheckBox, shrinkToFit)
 #: src/printing_page.ui:141
 #, kde-format
 msgid "Shrink image to &fit, if necessary"
-msgstr "Smanji sliku da s&tane unutar prozora, ukoliko je potrebno"
+msgstr "Po potrebi smanji sliku kako bi se &uklopila"
 
 #: src/slideshowwidget.cpp:46
 #, kde-format
 msgctxt "Run the slideshow until manually stopped"
 msgid "Forever"
-msgstr ""
+msgstr "Zauvijek"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SlideShowWidget)
 #: src/slideshowwidget.ui:14
-#, fuzzy, kde-format
-#| msgid "&Slideshow"
+#, kde-format
 msgid "Slideshow"
-msgstr "&Slideshow"
+msgstr "Dijaprojekcija"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fullScreen)
 #: src/slideshowwidget.ui:20
-#, fuzzy, kde-format
+#, kde-format
 msgid "Switch to &full-screen"
-msgstr "Pokaži preko &celog zaslona"
+msgstr "Prebaci na &cijeli zaslon"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startWithCurrent)
 #: src/slideshowwidget.ui:27
-#, fuzzy, kde-format
+#, kde-format
 msgid "S&tart with current image"
-msgstr "Počni sa &tekućom slikom"
+msgstr "&Počni s trenutačnom slikom"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/slideshowwidget.ui:34
 #, kde-format
 msgid "De&lay between slides:"
-msgstr "Vremenski odmak između s&lajdova"
+msgstr "O&dgoda između slajdova:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, delayTime)
 #: src/slideshowwidget.ui:44
 #, kde-format
 msgid "Wait for key"
-msgstr ""
+msgstr "Čekaj pritisak tipke"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, delayTime)
 #: src/slideshowwidget.ui:47
 #, kde-format
 msgid " sec"
-msgstr " sek"
+msgstr " s"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/slideshowwidget.ui:57
-#, fuzzy, kde-format
-#| msgid "&Iterations (0 = infinite):"
+#, kde-format
 msgid "&Iterations:"
-msgstr "&Iteracije (0 = beskonačno):"
-
-#~ msgid "Restore Original Size"
-#~ msgstr "Vrati originalnu veličinu"
-
-#~ msgid "Maximize"
-#~ msgstr "Maksimiziraj"
-
-#~ msgid "Configure %1..."
-#~ msgstr "Podesi %1… |/| Podesi $[aku %1] …"
-
-#, fuzzy
-#~ msgid "Open KuickShow Website"
-#~ msgstr "Otvori web sajt KuickShow-a"
-
-#~ msgid "About KuickShow"
-#~ msgstr "O KuickShow"
-
-#, fuzzy
-#~ msgid "Delete File"
-#~ msgstr "Učitavam sliku"
-
-#, fuzzy
-#~ msgid ""
-#~ "Unable to initialize \"Imlib\".\n"
-#~ "Start kuickshow from the command line and look for error messages.\n"
-#~ "The program will now quit."
-#~ msgstr ""
-#~ "Ne mogu da inicijalizujem biblioteku „Imlib“.\n"
-#~ "Pokrenite kuickshow iz naredbne linije i potražite poruke o greškama.\n"
-#~ "Program će sada biti obustavljen."
-
-#~ msgid "infinite"
-#~ msgstr "beskonačno"
-
-#~ msgid "Zoom In"
-#~ msgstr "Povećaj"
-
-#~ msgid "Zoom Out"
-#~ msgstr "Umanji"
+msgstr "&Broj ponavljanja:"

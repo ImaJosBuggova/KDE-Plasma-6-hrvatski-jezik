@@ -1,0 +1,2901 @@
+# Croatian translations for kooka.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kooka package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kooka\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-10 00:41+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: ../plugins/destination/abstractdestination.cpp:87
+#, kde-format
+msgid "Remember this format"
+msgstr "Zapamti ovaj format"
+
+#: ../plugins/destination/abstractdestination.cpp:121
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save temporary image file<nl/><filename>%1</filename><nl/><message>"
+"%2</message>"
+msgstr "Nije moguće spremiti privremenu slikovnu datoteku<nl/><filename>%1</filename><nl/><message>%2</message>"
+
+#: ../plugins/destination/abstractdestination.cpp:164
+#: ../plugins/destination/application/destinationapplication.cpp:163
+#: kookaview.cpp:1124
+#, kde-format
+msgid "Other..."
+msgstr "Ostalo..."
+
+#: ../plugins/destination/application/destinationapplication.cpp:85
+#, kde-format
+msgid "Sending to application"
+msgstr "Slanje u aplikaciju"
+
+#: ../plugins/destination/application/destinationapplication.cpp:87
+#, kde-kuit-format
+msgid "Sending to <application>%1</application>"
+msgstr "Slanje u aplikaciju <application>%1</application>"
+
+#: ../plugins/destination/application/destinationapplication.cpp:165
+#, kde-format
+msgid "Application:"
+msgstr "Aplikacija:"
+
+#: ../plugins/destination/application/destinationapplication.cpp:171
+#: ../plugins/destination/share/destinationshare.cpp:99
+#, kde-format
+msgid "Image format:"
+msgstr "Format slike:"
+
+#: ../plugins/destination/clipboard/destinationclipboard.cpp:62
+#, kde-format
+msgid "Copying image to clipboard"
+msgstr "Kopiranje slike u međuspremnik"
+
+#: ../plugins/destination/gallery/destinationgallery.cpp:105
+#, kde-kuit-format
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:97
+#, kde-format
+msgid "Save Multipage"
+msgstr "Spremi dokument s više stranica"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:115
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot save to file <filename>%1</filename><nl/><message>%2</message>"
+msgstr "Nije moguće spremiti u datoteku <filename>%1</filename><nl/><message>%2</message>"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:117
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:128
+#, kde-format
+msgid "Cannot Save File"
+msgstr "Nije moguće spremiti datoteku"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:221
+#, kde-format
+msgid "Output format:"
+msgstr "Izlazni format:"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:223
+#, kde-format
+msgid "Page Setup..."
+msgstr "Postavljanje stranice..."
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:225
+#, kde-format
+msgctxt "@info:tootip"
+msgid "Set page size and layout"
+msgstr "Postavi veličinu i raspored stranice"
+
+#: ../plugins/destination/multipage/destinationmultipage.cpp:242
+#, kde-kuit-format
+msgid "Saving page %1 to <filename>%2</filename>"
+msgstr "Spremanje stranice %1 u <filename>%2</filename>"
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:62
+#, kde-format
+msgid "PDF Page Setup"
+msgstr "Postavljanje PDF stranice"
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:97
+#, kde-format
+msgid "Custom..."
+msgstr "Prilagođeno..."
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:99
+#, kde-format
+msgid "Page size:"
+msgstr "Veličina stranice:"
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:109
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:120
+#, kde-format
+msgctxt "unit suffix for millimetres"
+msgid " mm"
+msgstr ""
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:113
+#, kde-format
+msgctxt "centered 'x' separator for height/width"
+msgid "×"
+msgstr ""
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:136
+#, kde-format
+msgctxt "@option:radio paper orientation"
+msgid "Portrait"
+msgstr "Okomito"
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:140
+#, kde-format
+msgctxt "@option:radio paper orientation"
+msgid "Landscape"
+msgstr "Vodoravno"
+
+#: ../plugins/destination/multipage/multipageoptionsdialog.cpp:145
+#, kde-format
+msgid "Orientation:"
+msgstr "Orijentacija:"
+
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:91
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot locate the <command section=\"1\">tiffcp</command> command,<nl/"
+">ensure that it is available on <envvar>PATH</envvar>.<nl/><nl/>The command "
+"is part of the <application>libtiff</application> package,<nl/>but it may "
+"need to be installed separately."
+msgstr "Nije moguće pronaći naredbu <command section=\"1\">tiffcp</command>,<nl/>provjerite je li dostupna u varijabli <envvar>PATH</envvar>.<nl/><nl/>Naredba je dio paketa <application>libtiff</application>,<nl/>ali možda ju je potrebno zasebno instalirati."
+
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:95
+#, kde-format
+msgid "Cannot find TIFF command"
+msgstr "Nije moguće pronaći naredbu TIFF"
+
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:126
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save page to file <filename>%1</filename><nl/><message>%2</message>"
+msgstr "Nije moguće spremiti stranicu u datoteku <filename>%1</filename><nl/><message>%2</message>"
+
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:146
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot append page to file <filename>%1</filename>, status %2<nl/>(see "
+"standard error for any message)"
+msgstr "Nije moguće dodati stranicu u datoteku <filename>%1</filename>, status %2<nl/>(pojedinosti potražite u standardnom izlazu pogrešaka)"
+
+#: ../plugins/destination/multipage/multipagetiffwriter.cpp:148
+#, kde-format
+msgid "Cannot Append Page"
+msgstr "Nije moguće dodati stranicu"
+
+#: ../plugins/destination/null/destinationnull.cpp:65
+#, kde-format
+msgid "Discarding image"
+msgstr "Odbacivanje slike"
+
+#: ../plugins/destination/print/destinationprint.cpp:110
+#, kde-format
+msgid "Print immediately with same settings"
+msgstr "Odmah ispiši s istim postavkama"
+
+#: ../plugins/destination/print/destinationprint.cpp:120
+#, kde-format
+msgid "Printing image"
+msgstr "Ispis slike"
+
+#: ../plugins/destination/save/destinationsave.cpp:207
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>Automatically generating file names requires a template name.</"
+"para><para>The file name <filename>%1</filename> should either contain a "
+"sequence<nl/>of '<icode>#</icode>' characters as a placeholder, or end with "
+"a sequence<nl/>of numeric digits before the file extension.</para>"
+msgstr "<para>Automatsko generiranje naziva datoteka zahtijeva naziv predloška.</para><para>Naziv datoteke <filename>%1</filename> mora sadržavati niz znakova '<icode>#</icode>' kao rezervirano mjesto ili završavati nizom znamenki prije datotečnog nastavka.</para>"
+
+#: ../plugins/destination/save/destinationsave.cpp:211
+#, kde-format
+msgid "Cannot Auto Generate"
+msgstr "Nije moguće automatski generirati"
+
+#: ../plugins/destination/save/destinationsave.cpp:253
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot access remote location <filename>%1</filename>"
+msgstr "Nije moguće pristupiti udaljenoj lokaciji <filename>%1</filename>"
+
+#: ../plugins/destination/save/destinationsave.cpp:255
+#: ../plugins/destination/save/destinationsave.cpp:390
+#: ../plugins/destination/save/destinationsave.cpp:525
+#, kde-format
+msgid "Cannot Save Image"
+msgstr "Nije moguće spremiti sliku"
+
+#: ../plugins/destination/save/destinationsave.cpp:388
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot save image to <filename>%1</filename><nl/><message>%2</message>"
+msgstr "Nije moguće spremiti sliku u <filename>%1</filename><nl/><message>%2</message>"
+
+#: ../plugins/destination/save/destinationsave.cpp:424
+#, kde-format
+msgid "Saving image"
+msgstr "Spremanje slike"
+
+#: ../plugins/destination/save/destinationsave.cpp:427
+#, kde-kuit-format
+msgid "Saving to <filename>%1</filename>"
+msgstr "Spremanje u <filename>%1</filename>"
+
+#: ../plugins/destination/save/destinationsave.cpp:444
+#: formatdialog.cpp:280
+#, kde-format
+msgid "Save Scan"
+msgstr "Spremi sken"
+
+#: ../plugins/destination/save/destinationsave.cpp:516
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save to <filename>%2</filename><nl/>Could not find an image format "
+"for the file name <filename>%1</filename>."
+msgstr "Nije moguće spremiti u <filename>%2</filename><nl/>Nije moguće odrediti format slike za datoteku <filename>%1</filename>."
+
+#: ../plugins/destination/save/destinationsave.cpp:521
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Cannot save to <filename>%2</filename><nl/>The image format <resource>%1</"
+"resource> is not supported."
+msgstr "Nije moguće spremiti u <filename>%2</filename><nl/>Format slike <resource>%1</resource> nije podržan."
+
+#: ../plugins/destination/share/destinationshare.cpp:105
+#, kde-format
+msgid "Share to:"
+msgstr "Podijeli putem:"
+
+#: ../plugins/destination/share/destinationshare.cpp:113
+#, kde-kuit-format
+msgid "<application>%1</application>"
+msgstr "<application>%1</application>"
+
+#: ../plugins/destination/share/destinationshare.cpp:269
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The scan was shared to<nl/><link>%2</link>"
+msgid_plural "The scans were shared to<nl/><link>%2</link>"
+msgstr[0] "Sken je podijeljen putem<nl/><link>%2</link>"
+msgstr[1] "Skena su podijeljena putem<nl/><link>%2</link>"
+msgstr[2] "Skenova je podijeljeno putem<nl/><link>%2</link>"
+
+#: ../plugins/destination/share/destinationshare.cpp:272
+#, kde-format
+msgid "Scan Shared"
+msgstr "Sken je podijeljen"
+
+#: ../plugins/destination/share/destinationshare.cpp:282
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot share the scanned image<nl/><nl/><message>%2</message>"
+msgid_plural ""
+"Cannot share the %1 scanned images<nl/><nl/><message>%2</message>"
+msgstr[0] "Nije moguće podijeliti skeniranu sliku<nl/><nl/><message>%2</message>"
+msgstr[1] "Nije moguće podijeliti %1 skenirane slike<nl/><nl/><message>%2</message>"
+msgstr[2] "Nije moguće podijeliti %1 skeniranih slika<nl/><nl/><message>%2</message>"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:101
+#: kookapref.cpp:61
+#, kde-format
+msgid "Optical Character Recognition"
+msgstr "Optičko prepoznavanje znakova"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:103
+#, kde-format
+msgid "Start OCR"
+msgstr "Pokreni OCR"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:103
+#, kde-format
+msgid "Start the Optical Character Recognition process"
+msgstr "Pokreni postupak optičkog prepoznavanja znakova"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:104
+#, kde-format
+msgid "Stop OCR"
+msgstr "Zaustavi OCR"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:104
+#, kde-format
+msgid "Stop the Optical Character Recognition process"
+msgstr "Zaustavi postupak optičkog prepoznavanja znakova"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:146
+#, kde-format
+msgid "Setup"
+msgstr "Postavljanje"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:149
+#, kde-format
+msgid "Optical Character Recognition using %1"
+msgstr "Optičko prepoznavanje znakova pomoću %1"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:192
+#, kde-format
+msgid "Executable:"
+msgstr "Izvršna datoteka:"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:195
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:195
+#, kde-format
+msgid "Not found"
+msgstr "Nije pronađeno"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:198
+#, kde-format
+msgid "Version:"
+msgstr "Inačica:"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:201
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:201
+#, kde-format
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:233
+#, kde-format
+msgid "No preview available"
+msgstr "Pregled nije dostupan"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:242
+#, kde-format
+msgid "No information available"
+msgstr "Informacije nisu dostupne"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:245
+#, kde-format
+msgid "Source"
+msgstr "Izvor"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:246
+#, kde-format
+msgid "Source Image Information"
+msgstr "Informacije o izvornoj slici"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:265
+#, kde-format
+msgid "OCR Engine"
+msgstr "OCR mehanizam"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:266
+#, kde-format
+msgid "OCR Engine Information"
+msgstr "Informacije o OCR mehanizmu"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:283
+#, kde-format
+msgid "Highlight misspelled words"
+msgstr "Istakni pogrešno napisane riječi"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:289
+#, kde-format
+msgid "Use the system spell configuration"
+msgstr "Koristi postavke provjere pravopisa sustava"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:291
+#, kde-format
+msgid "Use custom spell configuration"
+msgstr "Koristi prilagođene postavke provjere pravopisa"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:293
+#, kde-format
+msgid "Custom Spell Configuration..."
+msgstr "Prilagođene postavke provjere pravopisa..."
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:303
+#, kde-format
+msgid "Start interactive spell check"
+msgstr "Pokreni interaktivnu provjeru pravopisa"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:309
+#, kde-format
+msgid ""
+"Custom spell settings above do not affect this spelling check, use the "
+"language setting in the dialog to change the dictionary language."
+msgstr "Prilagođene postavke pravopisa iznad ne utječu na ovu provjeru pravopisa; za promjenu jezika rječnika upotrijebite postavku jezika u dijaloškom okviru."
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:332
+#, kde-format
+msgid "Spell Check"
+msgstr "Provjera pravopisa"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:333
+#, kde-format
+msgid "OCR Result Spell Checking"
+msgstr "Provjera pravopisa OCR rezultata"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:343
+#, kde-format
+msgid "Retain temporary files"
+msgstr "Zadrži privremene datoteke"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:346
+#, kde-format
+msgid "Verbose message output"
+msgstr "Opširan ispis poruka"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:351
+#, kde-format
+msgid "Debugging"
+msgstr "Otklanjanje grešaka"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:352
+#, kde-format
+msgid "OCR Debugging"
+msgstr "Otklanjanje grešaka OCR-a"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:408
+#, kde-format
+msgid "No image"
+msgstr "Nema slike"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:431
+#, kde-format
+msgid "Image: %1"
+msgstr "Slika: %1"
+
+#: ../plugins/ocr/abstractocrdialogue.cpp:431
+#, kde-format
+msgid "Selection: %1"
+msgstr "Odabir: %1"
+
+#: ../plugins/ocr/abstractocrengine.cpp:106
+#, kde-format
+msgid "OCR is already in progress"
+msgstr "OCR je već u tijeku"
+
+#: ../plugins/ocr/abstractocrengine.cpp:118
+#, kde-format
+msgid "OCR could not be started."
+msgstr "Nije moguće pokrenuti OCR."
+
+#: ../plugins/ocr/abstractocrengine.cpp:119
+#, kde-format
+msgid "Check the OCR engine selection and settings."
+msgstr "Provjerite odabir i postavke OCR mehanizma."
+
+#: ../plugins/ocr/abstractocrengine.cpp:121
+#, kde-format
+msgid "OCR Setup Error"
+msgstr "Pogreška pri postavljanju OCR-a"
+
+#: ../plugins/ocr/abstractocrengine.cpp:122
+#: kookaview.cpp:762
+#, kde-format
+msgid "Configure OCR..."
+msgstr "Konfiguriraj OCR..."
+
+#: ../plugins/ocr/abstractocrengine.cpp:180
+#, kde-format
+msgid "The OCR process was stopped"
+msgstr "Postupak OCR-a zaustavljen je"
+
+#: ../plugins/ocr/abstractocrengine.cpp:249
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The following OCR temporary files are retained for debugging:<nl/><nl/>"
+msgstr "Sljedeće privremene datoteke OCR-a zadržane su radi otklanjanja grešaka:<nl/><nl/>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:255
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<filename><link url=\"%1\">%2</link></filename><nl/>"
+msgstr "<filename><link url=\"%1\">%2</link></filename><nl/>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:259
+#, kde-format
+msgid "OCR Temporary Files"
+msgstr "Privremene datoteke OCR-a"
+
+#: ../plugins/ocr/abstractocrengine.cpp:426
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot create temporary file <filename>%1</filename>"
+msgstr "Nije moguće stvoriti privremenu datoteku <filename>%1</filename>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:472
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot save image to temporary file <filename>%1</filename>"
+msgstr "Nije moguće spremiti sliku u privremenu datoteku <filename>%1</filename>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:500
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The executable <command>%1</command> could not be found on <envar>PATH</"
+"envar>."
+msgstr "Izvršna datoteka <command>%1</command> nije pronađena u putanji <envar>PATH</envar>."
+
+#: ../plugins/ocr/abstractocrengine.cpp:510
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The executable <filename>%1</filename> does not exist or is not usable."
+msgstr "Izvršna datoteka <filename>%1</filename> ne postoji ili se ne može koristiti."
+
+#: ../plugins/ocr/abstractocrengine.cpp:582
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Command <command>%1</command> crashed with exit status <numid>%2</numid>"
+msgstr "Naredba <command>%1</command> srušila se uz izlazni status <numid>%2</numid>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:587
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Command <command>%1</command> exited with status <numid>%2</numid>"
+msgstr "Naredba <command>%1</command> završila je uz status <numid>%2</numid>"
+
+#: ../plugins/ocr/abstractocrengine.cpp:591
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Running the OCR process failed."
+msgstr "Pokretanje postupka OCR-a nije uspjelo."
+
+#: ../plugins/ocr/abstractocrengine.cpp:592
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"More information may be available in its <link url=\"%1\">standard error</"
+"link> log file."
+msgstr "Više informacija možda je dostupno u njegovoj datoteci zapisnika <link url=\"%1\">standardnog izlaza pogrešaka</link>."
+
+#: ../plugins/ocr/abstractocrengine.cpp:595
+#, kde-format
+msgid "OCR Command Failed"
+msgstr "Naredba OCR-a nije uspjela"
+
+#: ../plugins/ocr/abstractocrengine.cpp:602
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Processing the OCR results failed."
+msgstr "Obrada rezultata OCR-a nije uspjela."
+
+#: ../plugins/ocr/abstractocrengine.cpp:603
+#, kde-format
+msgid "OCR Processing Failed"
+msgstr "Obrada OCR-a nije uspjela"
+
+#: ../plugins/ocr/executablepathdialogue.cpp:45
+#, kde-format
+msgid "Executable Path"
+msgstr "Putanja izvršne datoteke"
+
+#: ../plugins/ocr/executablepathdialogue.cpp:52
+#, kde-format
+msgid "Executable path:"
+msgstr "Putanja izvršne datoteke:"
+
+#: ../plugins/ocr/executablepathdialogue.cpp:56
+#, kde-format
+msgid "Enter or select the path..."
+msgstr "Unesite ili odaberite putanju..."
+
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:75
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:87
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:99
+#, kde-format
+msgid "Automatic"
+msgstr "Automatski"
+
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:120
+#, kde-format
+msgid "The GOCR executable is not configured or is not available."
+msgstr "Izvršna datoteka GOCR-a nije konfigurirana ili nije dostupna."
+
+#: ../plugins/ocr/gocr/ocrgocrdialog.cpp:203
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:287
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:263
+#, kde-format
+msgid "Error"
+msgstr "Pogreška"
+
+#: ../plugins/ocr/gocr/ocrgocrengine.cpp:159
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot read GOCR result file <filename>%1</filename><nl/>%2"
+msgstr "Nije moguće pročitati datoteku rezultata GOCR-a <filename>%1</filename><nl/>%2"
+
+#: ../plugins/ocr/gocr/ocrgocrengine.cpp:299
+#, kde-format
+msgid "Name or path of the GOCR executable:"
+msgstr "Naziv ili putanja izvršne datoteke GOCR-a:"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:57
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:165
+#, kde-format
+msgid "Czech Republic, Slovakia"
+msgstr "Češka, Slovačka"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:58
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:167
+#, kde-format
+msgid "Great Britain, USA"
+msgstr "Velika Britanija, SAD"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:96
+#, kde-format
+msgid "European Countries"
+msgstr "Europske zemlje"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:199
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:280
+#, kde-format
+msgid ""
+"The classifier files for KADMOS could not be found.\n"
+"OCR with KADMOS will not be possible.\n"
+"\n"
+"Change the OCR engine in the preferences dialog."
+msgstr "Datoteke klasifikatora za KADMOS nisu pronađene.\nOCR s KADMOS-om neće biti moguć.\n\nPromijenite OCR mehanizam u dijalogu postavki."
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:202
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:283
+#, kde-format
+msgid "Installation Error"
+msgstr "Pogreška pri instalaciji"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:227
+#, kde-format
+msgid "Please classify the font type and language of the text on the image:"
+msgstr "Odredite vrstu fonta i jezik teksta na slici:"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:232
+#, kde-format
+msgid "Font Type Selection"
+msgstr "Odabir vrste fonta"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:235
+#, kde-format
+msgid "Machine print"
+msgstr "Tiskani tekst"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:236
+#, kde-format
+msgid "Hand writing"
+msgstr "Rukopis"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:237
+#, kde-format
+msgid "Norm font"
+msgstr "Normalni font"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:239
+#, kde-format
+msgid "Country"
+msgstr "Zemlja"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:255
+#, kde-format
+msgid "OCR Modifier"
+msgstr "Mogućnosti OCR-a"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:259
+#, kde-format
+msgid "Enable automatic noise reduction"
+msgstr "Uključi automatsko smanjenje šuma"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:260
+#, kde-format
+msgid "Enable automatic scaling"
+msgstr "Uključi automatsko skaliranje"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:360
+#, kde-format
+msgid "Classifier file %1 does not exist"
+msgstr "Datoteka klasifikatora %1 ne postoji"
+
+#: ../plugins/ocr/kadmos/ocrkadmosdialog.cpp:366
+#, kde-format
+msgid "Classifier file %1 is not readable"
+msgstr "Datoteka klasifikatora %1 nije čitljiva"
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:71
+#, kde-kuit-format
+msgctxt "@info %1 is one of the two following messages"
+msgid ""
+"<para><emphasis>Kadmos</emphasis> is a commercial OCR/ICR library produced "
+"by reRecognition&nbsp;AG.</para><para>%1</para><para>See <link url=\"http://"
+"www.rerecognition.com\">www.rerecognition.com</link> for more information on "
+"Kadmos.</para>"
+msgstr "<para><emphasis>Kadmos</emphasis> je komercijalna biblioteka OCR/ICR tvrtke reRecognition&nbsp;AG.</para><para>%1</para><para>Više informacija o Kadmosu potražite na stranici <link url=\"http://www.rerecognition.com\">www.rerecognition.com</link>.</para>"
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:75
+#, kde-format
+msgid "This version of Kooka is configured to use the Kadmos engine."
+msgstr "Ova inačica Kooke konfigurirana je za korištenje mehanizma Kadmos."
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:77
+#, kde-format
+msgid ""
+"This version of Kooka is not configured for Kadmos.  The Kadmos libraries "
+"need to be installed, and Kooka needs to be rebuilt with the '--with-kadmos' "
+"option."
+msgstr "Ova inačica Kooke nije konfigurirana za Kadmos. Potrebno je instalirati biblioteke Kadmosa i ponovno izgraditi Kooku s mogućnošću „--with-kadmos”."
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:93
+#, kde-format
+msgid ""
+"The classifier file necessary for OCR cannot be loaded: %1;\n"
+"OCR with the KADMOS engine is not possible."
+msgstr "Nije moguće učitati datoteku klasifikatora potrebnu za OCR: %1;\nOCR pomoću mehanizma KADMOS nije moguć."
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:95
+#, kde-format
+msgid "KADMOS Installation Problem"
+msgstr "Problem s instalacijom KADMOS-a"
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:106
+#, kde-format
+msgid ""
+"The KADMOS OCR system could not be started:\n"
+"%1\n"
+"Please check the configuration."
+msgstr "Nije moguće pokrenuti sustav OCR-a KADMOS:\n%1\nProvjerite konfiguraciju."
+
+#: ../plugins/ocr/kadmos/ocrkadmosengine.cpp:110
+#, kde-format
+msgid "KADMOS Failure"
+msgstr "KADMOS nije uspio"
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:79
+#, kde-format
+msgid "The OCRAD executable is not configured or is not available."
+msgstr "Izvršna datoteka OCRAD-a nije konfigurirana ili nije dostupna."
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:92
+#, kde-format
+msgid "No Layout Detection"
+msgstr "Bez prepoznavanja rasporeda"
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:95
+#, kde-format
+msgid "Layout Detection"
+msgstr "Prepoznavanje rasporeda"
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:98
+#, kde-format
+msgid "Column Detection"
+msgstr "Prepoznavanje stupaca"
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:99
+#, kde-format
+msgid "Full Layout Detection"
+msgstr "Potpuno prepoznavanje rasporeda"
+
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:117
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:139
+#: ../plugins/ocr/ocrad/ocrocraddialog.cpp:161
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:93
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:155
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:183
+#, kde-format
+msgid "(default)"
+msgstr "(zadano)"
+
+#: ../plugins/ocr/ocrad/ocrocradengine.cpp:244
+#: ../plugins/ocr/tesseract/ocrtesseractengine.cpp:157
+#, kde-kuit-format
+msgctxt "@info"
+msgid "File <filename>%1</filename> does not exist"
+msgstr "Datoteka <filename>%1</filename> ne postoji"
+
+#: ../plugins/ocr/ocrad/ocrocradengine.cpp:248
+#: ../plugins/ocr/tesseract/ocrtesseractengine.cpp:158
+#, kde-kuit-format
+msgctxt "@info"
+msgid "File <filename>%1</filename> unreadable"
+msgstr "Datoteka <filename>%1</filename> nije čitljiva"
+
+#: ../plugins/ocr/ocrad/ocrocradengine.cpp:252
+#: ../plugins/ocr/tesseract/ocrtesseractengine.cpp:165
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename>"
+msgstr "Nije moguće otvoriti datoteku <filename>%1</filename>"
+
+#: ../plugins/ocr/ocrad/ocrocradengine.cpp:448
+#, kde-format
+msgid "Name or path of the OCRAD executable:"
+msgstr "Naziv ili putanja izvršne datoteke OCRAD-a:"
+
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:78
+#, kde-format
+msgid "The Tesseract executable is not configured or is not available."
+msgstr "Izvršna datoteka Tesseracta nije konfigurirana ili nije dostupna."
+
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:118
+#: ../plugins/ocr/tesseract/ocrtesseractdialog.cpp:135
+#, kde-format
+msgid "Select a file if required..."
+msgstr "Odaberite datoteku ako je potrebno..."
+
+#: ../plugins/ocr/tesseract/ocrtesseractengine.cpp:227
+#, kde-format
+msgid "HOCR parsing error, %1"
+msgstr "Pogreška pri obradi HOCR-a, %1"
+
+#: ../plugins/ocr/tesseract/ocrtesseractengine.cpp:252
+#, kde-format
+msgid "Name or path of the Tesseract executable:"
+msgstr "Naziv ili putanja izvršne datoteke Tesseracta:"
+
+#: formatdialog.cpp:77
+#, kde-format
+msgid ""
+"<b>Bitmap Picture</b> is a widely used format for images under MS Windows. "
+"It is suitable for color, grayscale and line art images.<p>This format is "
+"widely supported but is not recommended, use an open format instead."
+msgstr "Prikladan je za slike u boji, sivim tonovima i crteže.<p>Ovaj je format široko podržan, no ne preporučuje se; umjesto njega koristite otvoreni format."
+
+#: formatdialog.cpp:88
+#, kde-format
+msgid ""
+"<b>Portable Bitmap</b>, as used by Netpbm, is an uncompressed format for "
+"line art (bitmap) images. Only 1 bit per pixel depth is supported."
+msgstr "<b>Portable Bitmap</b>, koji koristi Netpbm, nekomprimirani je format za crteže (rasterske slike). Podržana je samo dubina od 1 bita po pikselu."
+
+#: formatdialog.cpp:97
+#, kde-format
+msgid ""
+"<b>Portable Greymap</b>, as used by Netpbm, is an uncompressed format for "
+"grayscale images. Only 8 bit per pixel depth is supported."
+msgstr "<b>Portable Greymap</b>, koji koristi Netpbm, nekomprimirani je format za slike u sivim tonovima. Podržana je samo dubina od 8 bita po pikselu."
+
+#: formatdialog.cpp:106
+#, kde-format
+msgid ""
+"<b>Portable Pixmap</b>, as used by Netpbm, is an uncompressed format for "
+"full color images. Only 24 bit per pixel RGB is supported."
+msgstr "<b>Portable Pixmap</b>, koji koristi Netpbm, nekomprimirani je format za slike u punoj boji. Podržan je samo RGB s 24 bita po pikselu."
+
+#: formatdialog.cpp:115
+#, kde-format
+msgid ""
+"<b>PCX</b> is a lossless compressed format which is often supported by PC "
+"imaging applications, although it is rather old and unsophisticated.  It is "
+"suitable for color and grayscale images.<p>This format is not recommended, "
+"use an open format instead."
+msgstr "<b>PCX</b> je format komprimiran bez gubitaka koji često podržavaju programi za obradu slika na PC-u, iako je prilično star i jednostavan. Prikladan je za slike u boji i nijansama sive.<p>Ovaj se format ne preporučuje; umjesto njega koristite otvoreni format."
+
+#: formatdialog.cpp:126
+#, kde-format
+msgid ""
+"<b>X Bitmap</b> is often used by the X Window System to store cursor and "
+"icon bitmaps.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr "<b>X Bitmap</b> često koristi X Window System za pohranu bitmapa pokazivača i ikona.<p>Ako vam nije potreban za tu namjenu, radije koristite format opće namjene."
+
+#: formatdialog.cpp:135
+#, kde-format
+msgid ""
+"<b>X Pixmap</b> is often used by the X Window System for color icons and "
+"other images.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr "<b>X Pixmap</b> često koristi X Window System za ikone u boji i druge slike.<p>Ako vam nije potreban za tu namjenu, radije koristite format opće namjene."
+
+#: formatdialog.cpp:144
+#, kde-format
+msgid ""
+"<b>Portable Network Graphics</b> is a lossless compressed format designed to "
+"be portable and extensible. It is suitable for any type of color or "
+"grayscale images, indexed or true color.<p>PNG is an open format which is "
+"widely supported."
+msgstr "<b>Portable Network Graphics</b> je format komprimiran bez gubitaka, osmišljen da bude prenosiv i proširiv. Prikladan je za sve vrste slika u boji ili nijansama sive, indeksirane ili u pravoj boji.<p>PNG je otvoreni format koji je široko podržan."
+
+#: formatdialog.cpp:155
+#, kde-format
+msgid ""
+"<b>JPEG</b> is a compressed format suitable for true color or grayscale "
+"images. It is a lossy format, so it is not recommended for archiving or for "
+"repeated loading and saving.<p>This is an open format which is widely "
+"supported."
+msgstr "<b>JPEG</b> je komprimirani format prikladan za slike u pravoj boji ili nijansama sive. Kompresija je s gubitkom pa se ne preporučuje za arhiviranje ni za opetovano učitavanje i spremanje.<p>Ovo je otvoreni format koji je široko podržan."
+
+#: formatdialog.cpp:166
+#, kde-format
+msgid ""
+"<b>JPEG 2000</b> was intended as an update to the JPEG format, with the "
+"option of lossless compression, but so far is not widely supported. It is "
+"suitable for true color or grayscale images."
+msgstr "<b>JPEG 2000</b> zamišljen je kao nadogradnja formata JPEG, s mogućnošću kompresije bez gubitaka, no zasad nije široko podržan. Prikladan je za slike u pravoj boji ili nijansama sive."
+
+#: formatdialog.cpp:176
+#, kde-format
+msgid ""
+"<b>Encapsulated PostScript</b> is derived from the PostScript&trade; page "
+"description language.  Use this format for importing into other "
+"applications, or to use with (e.g.) TeX."
+msgstr "<b>Encapsulated PostScript</b> izveden je iz jezika za opis stranica PostScript&trade;. Koristite ovaj format za uvoz u druge aplikacije ili za rad s, primjerice, TeX-om."
+
+#: formatdialog.cpp:186
+#, kde-format
+msgid ""
+"<b>Truevision Targa</b> can store full color images with an alpha channel, "
+"and is used extensively by animation and video applications.<p>This format "
+"is not recommended, use an open format instead."
+msgstr "<b>Truevision Targa</b> može pohraniti slike u punoj boji s alfa-kanalom, a često ga koriste aplikacije za animaciju i video.<p>Ovaj se format ne preporučuje; umjesto njega koristite otvoreni format."
+
+#: formatdialog.cpp:196
+#, kde-format
+msgid ""
+"<b>Graphics Interchange Format</b> is a popular but patent-encumbered format "
+"often used for web graphics.  It uses lossless compression with up to 256 "
+"colors and optional transparency.<p>For legal reasons this format is not "
+"recommended, use an open format instead."
+msgstr "<b>Graphics Interchange Format</b> popularan je format opterećen patentima, koji se često koristi za web-grafiku. Koristi kompresiju bez gubitaka s do 256 boja i neobveznom prozirnošću.<p>Iz pravnih se razloga ovaj format ne preporučuje; umjesto njega koristite otvoreni format."
+
+#: formatdialog.cpp:207
+#, kde-format
+msgid ""
+"<b>Tagged Image File Format</b> is a versatile and extensible file format "
+"widely supported by imaging and publishing applications. It supports indexed "
+"and true color images with alpha transparency.<p>Because there are many "
+"variations, there may sometimes be compatibility problems. Unless required "
+"for use with other applications, use an open format instead."
+msgstr ""
+
+#: formatdialog.cpp:219
+#, kde-format
+msgid ""
+"<b>Multiple-image Network Graphics</b> is derived from the PNG standard and "
+"is intended for animated images.  It is an open format suitable for all "
+"types of images.<p>Images produced by a scanner will not be animated, so "
+"unless specifically required for use with other applications use PNG instead."
+msgstr ""
+
+#: formatdialog.cpp:231
+#, kde-format
+msgid ""
+"This is the <b>Silicon Graphics</b> native image file format, supporting 24 "
+"bit true color images with optional lossless compression.<p>Unless "
+"specifically required, use an open format instead."
+msgstr ""
+
+#: formatdialog.cpp:241
+#, kde-format
+msgid ""
+"<b>Wireless Bitmap</b> is a monochrome bitmap format optimised for WAP "
+"mobile devices.  It supports black and white bitmaps only.<p>Unless "
+"specifically required, use an general purpose format instead."
+msgstr ""
+
+#: formatdialog.cpp:251
+#, kde-format
+msgid ""
+"<b>WebP</b> is intended to be an open standard for true colour images with "
+"optional transparency.  It is widely supported by modern web browsers and "
+"graphics software.<p>Various compression methods, both lossy and lossless, "
+"are supported. Lossy compression is not recommended for archiving or for "
+"repeated loading and saving."
+msgstr ""
+
+#: formatdialog.cpp:280
+#, kde-format
+msgid "Save Assistant"
+msgstr "Pomoćnik za spremanje"
+
+#: formatdialog.cpp:306
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Select a format to save the scanned image.<nl/>This is a <emphasis strong="
+"\"1\">%1</emphasis>."
+msgstr "Odaberite format za spremanje skenirane slike.<nl/>Ovo je <emphasis strong=\"1\">%1</emphasis>."
+
+#: formatdialog.cpp:316
+#, kde-format
+msgid "File format:"
+msgstr "Format datoteke:"
+
+#: formatdialog.cpp:338
+#, kde-format
+msgid "Image sub-format:"
+msgstr "Podformat slike:"
+
+#: formatdialog.cpp:384
+#, kde-format
+msgid "File name:"
+msgstr "Naziv datoteke:"
+
+#: formatdialog.cpp:398
+#, kde-format
+msgid "Select Format..."
+msgstr "Odaberi format..."
+
+#: formatdialog.cpp:436
+#, kde-format
+msgid "No format selected."
+msgstr "Nije odabran nijedan format."
+
+#: formatdialog.cpp:470
+#, kde-format
+msgid "No information is available for this format."
+msgstr "Za ovaj format nisu dostupne informacije."
+
+#: galleryroot.cpp:100
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Unable to create the directory <filename>%1</filename><nl/>for the Kooka "
+"gallery - %3..<nl/><nl/>Your document directory <filename>%2</filename><nl/"
+">will be used.<nl/><nl/>Check the document directory setting and permissions."
+msgstr "Nije moguće stvoriti direktorij <filename>%1</filename><nl/>za galeriju Kooka – %3..<nl/><nl/>Koristit će se direktorij dokumenata <filename>%2</filename>.<nl/><nl/>Provjerite postavke direktorija dokumenata i dozvole."
+
+#: galleryroot.cpp:111
+#, kde-format
+msgid "Error creating gallery"
+msgstr "Pogreška pri stvaranju galerije"
+
+#: galleryroot.cpp:159
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"An old Kooka gallery was found at <filename>%1</filename>.<nl/>The preferred "
+"new location is now <filename>%2</filename>.<nl/><nl/>Do you want to create "
+"a new gallery at the new location?"
+msgstr "Stara galerija Kooka pronađena je u <filename>%1</filename>.<nl/>Preporučena nova lokacija je <filename>%2</filename>.<nl/><nl/>Želite li stvoriti novu galeriju na novoj lokaciji?"
+
+#: galleryroot.cpp:163
+#, kde-format
+msgid "Create New Gallery"
+msgstr "Stvori novu galeriju"
+
+#: galleryroot.cpp:164
+#, kde-format
+msgctxt "@action:button"
+msgid "Create New"
+msgstr "Stvori novu"
+
+#: galleryroot.cpp:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue With Old"
+msgstr "Nastavi sa starom"
+
+#: galleryroot.cpp:174 galleryroot.cpp:188
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Kooka will use the new gallery, <link url=\"file:%1\"><filename>%1</"
+"filename></link>.<nl/><nl/>If you wish to add the images from your old "
+"gallery <link url=\"file:%2\"><filename>%2</filename></link>,<nl/>then you "
+"may do so by simply copying or moving the files."
+msgstr "Kooka će koristiti novu galeriju <link url=\"file:%1\"><filename>%1</filename></link>.<nl/><nl/>Ako želite dodati slike iz stare galerije <link url=\"file:%2\"><filename>%2</filename></link>,<nl/>jednostavno kopirajte ili premjestite datoteke."
+
+#: galleryroot.cpp:178
+#, kde-format
+msgid "New Gallery Created"
+msgstr "Nova galerija je stvorena"
+
+#: galleryroot.cpp:192
+#, kde-format
+msgid "Old Gallery Exists"
+msgstr "Stara galerija postoji"
+
+#: imagetransform.cpp:59
+#, kde-format
+msgid "Rotate image +90 degrees"
+msgstr "Zakreni sliku za +90 stupnjeva"
+
+#: imagetransform.cpp:66
+#, kde-format
+msgid "Rotate image 180 degrees"
+msgstr "Zakreni sliku za 180 stupnjeva"
+
+#: imagetransform.cpp:71
+#, kde-format
+msgid "Rotate image -90 degrees"
+msgstr "Zakreni sliku za -90 stupnjeva"
+
+#: imagetransform.cpp:77
+#, kde-format
+msgid "Mirror image horizontally"
+msgstr "Zrcali sliku vodoravno"
+
+#: imagetransform.cpp:82
+#, kde-format
+msgid "Mirror image vertically"
+msgstr "Zrcali sliku okomito"
+
+#: imagetransform.cpp:94
+#, kde-format
+msgid "Error updating image %1"
+msgstr "Pogreška pri ažuriranju slike %1"
+
+#: imgprintdialog.cpp:82
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Image"
+msgstr "Ispis slike"
+
+#: imgprintdialog.cpp:105
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Invalid print options were specified:\n"
+"\n"
+"%1"
+msgstr "Navedene su nevaljane opcije ispisa:\n\n%1"
+
+#: imgprintdialog.cpp:106
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Print"
+msgstr "Nije moguće ispisati"
+
+#: imgprintdialog.cpp:125
+#, kde-format
+msgctxt "@title:tab"
+msgid "Image"
+msgstr "Slika"
+
+#: imgprintdialog.cpp:145
+#, kde-format
+msgctxt "@title:group"
+msgid "Scaling"
+msgstr "Promjena veličine"
+
+#: imgprintdialog.cpp:153
+#, kde-format
+msgctxt "@option:radio"
+msgid "Size as on screen"
+msgstr "Veličina kao na zaslonu"
+
+#: imgprintdialog.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Print at the same size as seen on screen, determined by the screen "
+"resolution.</div>"
+msgstr "<div>Ispisuje u istoj veličini kao na zaslonu, određenoj razlučivošću zaslona.</div>"
+
+#: imgprintdialog.cpp:158
+#, kde-format
+msgid "Screen resolution:"
+msgstr "Razlučivost zaslona:"
+
+#: imgprintdialog.cpp:163
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>This is the current screen resolution. It cannot be changed here.</div>"
+msgstr "<div>Ovo je trenutačna razlučivost zaslona. Ovdje je nije moguće promijeniti.</div>"
+
+#: imgprintdialog.cpp:167
+#, kde-format
+msgctxt "@option:radio"
+msgid "Size as scanned"
+msgstr "Veličina kao pri skeniranju"
+
+#: imgprintdialog.cpp:168
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Print at a size determined by the scan resolution. The resolution is "
+"saved with the image and used if available; if it is not, it can be entered "
+"here.</div>"
+msgstr "<div>Ispisuje u veličini određenoj razlučivošću skeniranja. Razlučivost se sprema uz sliku i koristi ako je dostupna; u suprotnom je možete unijeti ovdje.</div>"
+
+#: imgprintdialog.cpp:172
+#, kde-format
+msgid "Scan resolution:"
+msgstr "Razlučivost skeniranja:"
+
+#: imgprintdialog.cpp:177
+#, kde-format
+msgctxt "@item:intext abbreviation for 'dots per inch'"
+msgid " dpi"
+msgstr ""
+
+#: imgprintdialog.cpp:178
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>This is the scan resolution as saved with the image. It can be changed "
+"if necessary.</div>"
+msgstr "<div>Ovo je razlučivost skeniranja spremljena uz sliku. Po potrebi je možete promijeniti.</div>"
+
+#: imgprintdialog.cpp:185
+#, kde-format
+msgctxt "@option:radio"
+msgid "Custom size"
+msgstr "Prilagođena veličina"
+
+#: imgprintdialog.cpp:186
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Print scaled to the specified size. The image is centered on the paper."
+"</div>"
+msgstr "<div>Ispisuje sliku prilagođenu navedenoj veličini. Slika se centrira na papiru.</div>"
+
+#: imgprintdialog.cpp:190
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Image width:"
+msgstr "Širina slike:"
+
+#: imgprintdialog.cpp:195 imgprintdialog.cpp:209
+#, kde-format
+msgctxt "@item:intext abbreviation for 'millimetres'"
+msgid " mm"
+msgstr ""
+
+#: imgprintdialog.cpp:196
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<div>The width at which the image will be printed.</div>"
+msgstr "<div>Širina u kojoj će se slika ispisati.</div>"
+
+#: imgprintdialog.cpp:204
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Image height:"
+msgstr "Visina slike:"
+
+#: imgprintdialog.cpp:210
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<div>The height at which the image will be printed.</div>"
+msgstr "<div>Visina u kojoj će se slika ispisati.</div>"
+
+#: imgprintdialog.cpp:219
+#, kde-format
+msgctxt "@option:radio"
+msgid "Fit to page"
+msgstr "Prilagodi stranici"
+
+#: imgprintdialog.cpp:220
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Print using as much of the available space on the paper as possible. "
+"The aspect ratio can be maintained.</div>"
+msgstr "<div>Ispisuje uz korištenje što većeg dijela raspoloživog prostora na papiru. Omjer stranica može se sačuvati.</div>"
+
+#: imgprintdialog.cpp:231
+#, kde-format
+msgctxt "@title:group"
+msgid "Other Options"
+msgstr "Ostale opcije"
+
+#: imgprintdialog.cpp:235
+#, kde-format
+msgctxt "@option:check"
+msgid "Maintain aspect ratio"
+msgstr "Zadrži omjer stranica"
+
+#: imgprintdialog.cpp:236
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Adjust the height or width to maintain the original aspect ratio of the "
+"printed image.</div>"
+msgstr "<div>Prilagodi visinu ili širinu kako bi se sačuvao izvorni omjer stranica ispisane slike.</div>"
+
+#: imgprintdialog.cpp:245
+#, kde-format
+msgctxt "@option:check"
+msgid "Low resolution (fast draft print)"
+msgstr "Niska razlučivost (brzi probni ispis)"
+
+#: imgprintdialog.cpp:246
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Print at as low a resolution as possible. This may not work as intended "
+"on all printers.</div>"
+msgstr "<div>Ispisuje uz najnižu moguću razlučivost. Na svim pisačima možda neće raditi kako je predviđeno.</div>"
+
+#: imgprintdialog.cpp:252
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Cut marks:"
+msgstr "Oznake za rezanje:"
+
+#: imgprintdialog.cpp:256
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "None"
+msgstr "Bez"
+
+#: imgprintdialog.cpp:257
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "For multiple pages"
+msgstr "Za više stranica"
+
+#: imgprintdialog.cpp:258
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Always"
+msgstr "Uvijek"
+
+#: imgprintdialog.cpp:259
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<div>Select whether cut/join marks are printed. The marks will reduce the "
+"available printable area.</div>"
+msgstr ""
+
+#: imgprintdialog.cpp:270
+#, kde-format
+msgctxt "@title:group"
+msgid "Print Layout"
+msgstr "Izgled ispisa"
+
+#: imgprintdialog.cpp:275
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image size:"
+msgstr "Veličina slike:"
+
+#: imgprintdialog.cpp:278
+#, kde-format
+msgctxt "@info:status width,height pixels"
+msgid "%1 x %2 pix"
+msgstr "%1 × %2 piksela"
+
+#: imgprintdialog.cpp:283
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Available print area:"
+msgstr "Dostupno područje ispisa:"
+
+#: imgprintdialog.cpp:290
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image print area:"
+msgstr "Područje ispisa slike:"
+
+#: imgprintdialog.cpp:297
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Pages required:"
+msgstr "Potreban broj stranica:"
+
+#: imgprintdialog.cpp:360
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 dpi"
+msgstr "%1 dpi"
+
+#: imgprintdialog.cpp:377
+#, kde-format
+msgid "The scan resolution must be specified for scaling to it."
+msgstr "Za prilagodbu toj vrijednosti potrebno je navesti razlučivost skeniranja."
+
+#: imgprintdialog.cpp:382
+#, kde-format
+msgid ""
+"A valid size must be specified for custom scaling. One or both of the "
+"specified dimensions is zero."
+msgstr ""
+
+#: imgprintdialog.cpp:460 imgprintdialog.cpp:464
+#, kde-format
+msgctxt "@info:status width,height millimetres"
+msgid "%1 x %2 mm"
+msgstr "%1 × %2 mm"
+
+#: imgprintdialog.cpp:468
+#, kde-format
+msgctxt "@info:status total"
+msgid "%1"
+msgstr ""
+
+#: imgprintdialog.cpp:470
+#, kde-format
+msgctxt "@info:status total(rows,cols)"
+msgid "%1 (%2 x %3)"
+msgstr ""
+
+#: imgsaver.cpp:65
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The directory <filename>%2</filename><nl/>could not be accessed.<nl/>%1"
+msgstr "Nije moguće pristupiti direktoriju <filename>%2</filename>.<nl/>%1"
+
+#: imgsaver.cpp:76
+#, kde-kuit-format
+msgctxt "@info"
+msgid "The directory <filename>%2</filename><nl/>could not be created.<nl/>%1"
+msgstr "Nije moguće stvoriti direktorij <filename>%2</filename>.<nl/>%1"
+
+#: imgsaver.cpp:330
+#, kde-format
+msgid "indexed color image (up to 8 bit depth)"
+msgstr "slika indeksiranih boja (dubina do 8 bitova)"
+
+#: imgsaver.cpp:334
+#, kde-format
+msgid "gray scale image (up to 8 bit depth)"
+msgstr "slika u sivim tonovima (dubina do 8 bitova)"
+
+#: imgsaver.cpp:338
+#, kde-format
+msgid "lineart image (black and white, 1 bit depth)"
+msgstr "crno-bijela crtežna slika (dubina 1 bit)"
+
+#: imgsaver.cpp:342
+#, kde-format
+msgid "high/true color image (more than 8 bit depth)"
+msgstr "slika visoke/istinske boje (dubina veća od 8 bitova)"
+
+#: imgsaver.cpp:346
+#, kde-format
+msgid "unknown image type %1"
+msgstr "nepoznata vrsta slike %1"
+
+#: imgsaver.cpp:368
+#, kde-format
+msgid "Save OK"
+msgstr "Spremanje je uspjelo"
+
+#: imgsaver.cpp:370
+#, kde-format
+msgid "Permission denied"
+msgstr "Nedovoljna dopuštenja"
+
+#: imgsaver.cpp:372
+#, kde-format
+msgid "Bad file name"
+msgstr ""
+
+#: imgsaver.cpp:374
+#, kde-format
+msgid "No space left on device"
+msgstr ""
+
+#: imgsaver.cpp:376
+#, kde-format
+msgid "Cannot write image format '%1'"
+msgstr ""
+
+#: imgsaver.cpp:378
+#, kde-format
+msgid "Cannot write using protocol '%1'"
+msgstr ""
+
+#: imgsaver.cpp:380
+#, kde-format
+msgid "User cancelled saving"
+msgstr ""
+
+#: imgsaver.cpp:382
+#, kde-format
+msgid "Cannot create directory"
+msgstr ""
+
+#: imgsaver.cpp:384
+#, kde-format
+msgid "Save failed"
+msgstr ""
+
+#: imgsaver.cpp:386
+#, kde-format
+msgid "Bad parameter"
+msgstr ""
+
+#: imgsaver.cpp:388
+#, kde-format
+msgid "Unknown status %1"
+msgstr ""
+
+#: imgsaver.cpp:411
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The file name you supplied has no file extension.<nl/>Should the original "
+"one be added?<nl/><nl/>This would result in the new file name <filename>%1</"
+"filename>"
+msgstr ""
+
+#: imgsaver.cpp:414
+#, kde-format
+msgid "Extension Missing"
+msgstr ""
+
+#: imgsaver.cpp:415
+#, kde-format
+msgid "Add Extension"
+msgstr ""
+
+#: imgsaver.cpp:416
+#, kde-format
+msgid "Do Not Add"
+msgstr ""
+
+#: imgsaver.cpp:441
+#, kde-format
+msgid "Target already exists"
+msgstr ""
+
+#: imgsaver.cpp:454
+#, kde-format
+msgid "Unable to copy the file"
+msgstr ""
+
+#: imgsaver.cpp:455
+#, kde-format
+msgid "Unable to rename the file"
+msgstr ""
+
+#: imgsaver.cpp:456
+#, kde-format
+msgid "Error copying file"
+msgstr ""
+
+#: imgsaver.cpp:457
+#, kde-format
+msgid "Error renaming file"
+msgstr ""
+
+#: imgsaver.cpp:458
+#, kde-kuit-format
+msgctxt "@info"
+msgid "%1 <filename>%3</filename><nl/>%2"
+msgstr ""
+
+#: kooka.cpp:106
+#, kde-format
+msgid "KDE Scanning"
+msgstr ""
+
+#: kooka.cpp:142
+#, kde-format
+msgid "Scale to Width"
+msgstr ""
+
+#: kooka.cpp:153
+#, kde-format
+msgid "Scale to Height"
+msgstr ""
+
+#: kooka.cpp:162
+#, kde-format
+msgid "Original Size"
+msgstr ""
+
+#: kooka.cpp:168
+#, kde-format
+msgid "Set Zoom..."
+msgstr ""
+
+#: kooka.cpp:174
+#, kde-format
+msgid "Keep Zoom Setting"
+msgstr ""
+
+#: kooka.cpp:182
+#, kde-format
+msgid "New Image From Selection"
+msgstr ""
+
+#: kooka.cpp:187
+#, kde-format
+msgid "Mirror Vertically"
+msgstr ""
+
+#: kooka.cpp:194
+#, kde-format
+msgid "Mirror Horizontally"
+msgstr ""
+
+#: kooka.cpp:204
+#, kde-format
+msgid "Rotate Counter-Clockwise"
+msgstr ""
+
+#: kooka.cpp:211
+#, kde-format
+msgid "Rotate Clockwise"
+msgstr ""
+
+#: kooka.cpp:218
+#, kde-format
+msgid "Rotate 180 Degrees"
+msgstr ""
+
+#: kooka.cpp:227
+#, kde-format
+msgid "New Folder..."
+msgstr ""
+
+#: kooka.cpp:232
+#, kde-format
+msgid "Open With"
+msgstr ""
+
+#: kooka.cpp:238
+#, kde-format
+msgid "Save Image..."
+msgstr ""
+
+#: kooka.cpp:245
+#, kde-format
+msgid "Import Image..."
+msgstr ""
+
+#: kooka.cpp:250 kooka.cpp:539
+#, kde-format
+msgid "Delete Image"
+msgstr ""
+
+#: kooka.cpp:257 kooka.cpp:540
+#, kde-format
+msgid "Rename Image"
+msgstr ""
+
+#: kooka.cpp:263 kooka.cpp:538
+#, kde-format
+msgid "Unload Image"
+msgstr ""
+
+#: kooka.cpp:270
+#, kde-format
+msgid "Properties..."
+msgstr ""
+
+#: kooka.cpp:279
+#, kde-format
+msgid "Select Scan Device..."
+msgstr ""
+
+#: kooka.cpp:283 kookaview.cpp:540
+#, kde-format
+msgid "Add Scan Device..."
+msgstr ""
+
+#: kooka.cpp:289
+#, kde-format
+msgid "Preview"
+msgstr ""
+
+#: kooka.cpp:294
+#, kde-format
+msgid "Start Scan"
+msgstr ""
+
+#: kooka.cpp:299
+#, kde-format
+msgid "Scan Presets..."
+msgstr ""
+
+#: kooka.cpp:304
+#, kde-format
+msgid "Auto Select"
+msgstr ""
+
+#: kooka.cpp:312
+#, kde-format
+msgid "OCR Image..."
+msgstr ""
+
+#: kooka.cpp:316
+#, kde-format
+msgid "OCR Selection..."
+msgstr ""
+
+#: kooka.cpp:320
+#, kde-format
+msgid "OCR File..."
+msgstr ""
+
+#: kooka.cpp:324
+#, kde-format
+msgid "Save OCR Result Text..."
+msgstr ""
+
+#: kooka.cpp:329
+#, kde-format
+msgid "Spell Check OCR Result..."
+msgstr ""
+
+#: kooka.cpp:526
+#, kde-format
+msgid "Unload Folder"
+msgstr ""
+
+#: kooka.cpp:527
+#, kde-format
+msgid "Delete Folder"
+msgstr ""
+
+#: kooka.cpp:528
+#, kde-format
+msgid "Rename Folder"
+msgstr ""
+
+#: kookagallery.cpp:56
+#, kde-format
+msgid "Folder:"
+msgstr ""
+
+#: kookapref.cpp:55
+#, kde-format
+msgid "Preferences"
+msgstr ""
+
+#: kookapref.cpp:57
+#, kde-format
+msgid "General"
+msgstr ""
+
+#: kookapref.cpp:57
+#, kde-format
+msgid "General Options"
+msgstr ""
+
+#: kookapref.cpp:58
+#, kde-format
+msgid "Startup"
+msgstr ""
+
+#: kookapref.cpp:58
+#, kde-format
+msgid "Startup Options"
+msgstr ""
+
+#: kookapref.cpp:59
+#, kde-format
+msgid "Image Saving"
+msgstr ""
+
+#: kookapref.cpp:59
+#, kde-format
+msgid "Image Saving Options"
+msgstr ""
+
+#: kookapref.cpp:60
+#, kde-format
+msgid "Gallery & Thumbnails"
+msgstr ""
+
+#: kookapref.cpp:60
+#, kde-format
+msgid "Image Gallery and Thumbnail View"
+msgstr ""
+
+#: kookapref.cpp:61 kookaview.cpp:271
+#, kde-format
+msgid "OCR"
+msgstr ""
+
+#: kookascanparams.cpp:122
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<title>Gallery Mode - No scanner selected</title><nl/><nl/>In this mode you "
+"can browse, manipulate and OCR images already in the gallery.<nl/><nl/><link "
+"url=\"a:1\">Select a scanner device</link> to perform scanning, or <link url="
+"\"a:2\">add a device</link> if a scanner is not automatically detected."
+msgstr ""
+
+#: kookascanparams.cpp:168
+#, kde-format
+msgid "Scan &destination:"
+msgstr ""
+
+#: kookascanparams.cpp:204
+#, kde-kuit-format
+msgctxt "@info"
+msgid "No destination selected"
+msgstr ""
+
+#: kookascanparams.cpp:214
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Unable to load plugin '%1'"
+msgstr ""
+
+#. i18n: ectx: label, entry (StartupReadImage), group (Startup)
+#: kookasettings.kcfg:50
+#, kde-format
+msgid "Load the last selected image into the viewer"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (StartupReadImage), group (Startup)
+#: kookasettings.kcfg:51
+#, kde-format
+msgid ""
+"<div>Check this if you want Kooka to load the last selected image into the "
+"viewer on startup.<br/><br/>If your images are large, that might slow down "
+"Kooka's startup.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaverAskForFormat), group (Files)
+#: kookasettings.kcfg:65
+#, kde-format
+msgid "Always use the Save Assistant"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (SaverAskForFormat), group (Files)
+#: kookasettings.kcfg:66
+#, kde-format
+msgid ""
+"<div>Check this if you want to always use the image save assistant, even if "
+"there is a default format for the image type.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaverAskForFilename), group (Files)
+#: kookasettings.kcfg:71
+#, kde-format
+msgid "Ask for file name when saving"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (SaverAskForFilename), group (Files)
+#: kookasettings.kcfg:72
+#, kde-format
+msgid ""
+"<div>Check this if you want to always enter a file name when scanning an "
+"image.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaverOnlyRecommendedTypes), group (Files)
+#: kookasettings.kcfg:77
+#, kde-format
+msgid "Only show recommended formats for this image type"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (SaverOnlyRecommendedTypes), group (Files)
+#: kookasettings.kcfg:78
+#, kde-format
+msgid ""
+"<div>Check this to only show recommended file formats for the scan type. "
+"Uncheck it to show all compatible formats.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaverAlwaysUseFormat), group (Files2)
+#: kookasettings.kcfg:91
+#, kde-format
+msgid "Always use this save format for this image type"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (SaverAlwaysUseFormat), group (Files2)
+#: kookasettings.kcfg:92
+#, kde-format
+msgid ""
+"<div>Check this to remember the selected file format for the scanned image "
+"type and not ask for it again.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (GalleryAllowRename), group (Gallery)
+#: kookasettings.kcfg:125
+#, kde-format
+msgid "Allow click-to-rename"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (GalleryAllowRename), group (Gallery)
+#: kookasettings.kcfg:126
+#, kde-format
+msgid ""
+"<div>Check this if you want to be able to rename gallery items by clicking "
+"on them (otherwise, use the \"Rename\" menu option).</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (GalleryLayout), group (Gallery)
+#: kookasettings.kcfg:131
+#, kde-format
+msgid "Show recent folders:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (GalleryLayout), group (Gallery)
+#: kookasettings.kcfg:132
+#, kde-format
+msgid ""
+"<div>Select whether and where a list of recently accessed gallery folders "
+"will be shown.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (ThumbnailCustomBackground), group (thumbnailView)
+#: kookasettings.kcfg:152
+#, kde-format
+msgid "Use a custom background image"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ThumbnailCustomBackground), group (thumbnailView)
+#: kookasettings.kcfg:153
+#, kde-format
+msgid "<div>Set a custom background image for the thumbnail view.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (ThumbnailBackgroundPath), group (thumbnailView)
+#: kookasettings.kcfg:158
+#, kde-format
+msgid "Image:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ThumbnailBackgroundPath), group (thumbnailView)
+#: kookasettings.kcfg:159
+#, kde-format
+msgid "<div>The background image to use for the thumbnail view.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (ThumbnailPreviewSize), group (thumbnailView)
+#: kookasettings.kcfg:165
+#, kde-format
+msgid "Preview size:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (ThumbnailPreviewSize), group (thumbnailView)
+#: kookasettings.kcfg:166
+#, kde-format
+msgid "<div>Select the default preview size for the thumbnail view.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (OcrGocrDustSize), group (gocr)
+#: kookasettings.kcfg:205
+#, kde-format
+msgid "Dust size:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (OcrGocrDustSize), group (gocr)
+#: kookasettings.kcfg:206
+#, kde-format
+msgid ""
+"<div>Clusters smaller than this size will be considered to be noise, and "
+"ignored.  0 means to not detect dust clusters, -1 means to automatically "
+"detect them. The default is 10.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (OcrGocrGrayLevel), group (gocr)
+#: kookasettings.kcfg:211
+#, kde-format
+msgid "Gray level:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (OcrGocrGrayLevel), group (gocr)
+#: kookasettings.kcfg:212
+#, kde-format
+msgid ""
+"<div>The threshold value below which gray pixels are considered to be black. "
+"0 means to automatically detect the gray level.  The default is 160.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (OcrGocrSpaceWidth), group (gocr)
+#: kookasettings.kcfg:217
+#, kde-format
+msgid "Space width:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (OcrGocrSpaceWidth), group (gocr)
+#: kookasettings.kcfg:218
+#, kde-format
+msgid ""
+"<div>The minimum gap in pixels considered to be word spacing. The default is "
+"0 which means to automatically detect spacing.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (OcrGocrCertainty), group (gocr)
+#: kookasettings.kcfg:223
+#, kde-format
+msgid "Certainty:"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (OcrGocrCertainty), group (gocr)
+#: kookasettings.kcfg:224
+#, kde-format
+msgid ""
+"<div>The acceptance certainty threshold for recognition, characters with a "
+"lower certainty are considered to be unknown. The default is 95.</div>"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradLayoutDetection), group (ocrad)
+#: kookasettings.kcfg:238
+#, kde-format
+msgid "Layout analysis mode:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradCharset), group (ocrad)
+#: kookasettings.kcfg:251
+#, kde-format
+msgid "Character set:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradFilter), group (ocrad)
+#: kookasettings.kcfg:255
+#, kde-format
+msgid "Filter:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradTransform), group (ocrad)
+#: kookasettings.kcfg:259
+#, kde-format
+msgid "Transform:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradInvert), group (ocrad)
+#: kookasettings.kcfg:263
+#, kde-format
+msgid "Invert input"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradThresholdEnable), group (ocrad)
+#: kookasettings.kcfg:268
+#, kde-format
+msgid "Set threshold"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrOcradThresholdValue), group (ocrad)
+#: kookasettings.kcfg:274
+#, kde-format
+msgid "Threshold"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrTesseractLanguage), group (tesseract)
+#: kookasettings.kcfg:296
+#, kde-format
+msgid "Language:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrTesseractUserWords), group (tesseract)
+#: kookasettings.kcfg:300
+#, kde-format
+msgid "User word list:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrTesseractUserPatterns), group (tesseract)
+#: kookasettings.kcfg:304
+#, kde-format
+msgid "User patterns:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrTesseractEngineMode), group (tesseract)
+#: kookasettings.kcfg:308
+#, kde-format
+msgid "Engine mode:"
+msgstr ""
+
+#. i18n: ectx: label, entry (ocrTesseractSegmentationMode), group (tesseract)
+#: kookasettings.kcfg:312
+#, kde-format
+msgid "Segmentation mode:"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: kookaui.rc:5
+#, kde-format
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (scan)
+#: kookaui.rc:22
+#, kde-format
+msgid "S&can"
+msgstr ""
+
+#. i18n: ectx: Menu (imgCanvas)
+#: kookaui.rc:40
+#, kde-format
+msgid "&Image"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#: kookaui.rc:56
+#, kde-format
+msgid "&Settings"
+msgstr ""
+
+#. i18n: ectx: ToolBar (imageToolBar)
+#: kookaui.rc:67
+#, kde-format
+msgid "Image Viewer Toolbar"
+msgstr ""
+
+#. i18n: ectx: ToolBar (scanToolBar)
+#: kookaui.rc:84
+#, kde-format
+msgid "Scanning Toolbar"
+msgstr ""
+
+#: kookaview.cpp:195
+#, kde-format
+msgid "Image View"
+msgstr ""
+
+#: kookaview.cpp:244
+#, kde-format
+msgid "Scan Preview"
+msgstr ""
+
+#: kookaview.cpp:254
+#, kde-format
+msgid "OCR results will appear here"
+msgstr ""
+
+#: kookaview.cpp:265
+#, kde-format
+msgid "Scan"
+msgstr ""
+
+#: kookaview.cpp:268 kookaview.cpp:554 kookaview.cpp:573 scangallery.cpp:122
+#, kde-format
+msgid "Gallery"
+msgstr ""
+
+#: kookaview.cpp:320
+#, kde-format
+msgid "User specified"
+msgstr ""
+
+#: kookaview.cpp:321
+#, kde-format
+msgid "on command line"
+msgstr ""
+
+#: kookaview.cpp:455
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"There was a problem opening the scanner device.<nl/><nl/>Check that the "
+"scanner is connected and switched on, and that SANE support for it is "
+"correctly configured.<nl/><nl/>Trying to use scanner device: <icode>%3</"
+"icode><nl/>libkookascan reported error: <message>%2</message><nl/>SANE "
+"reported error: <message>%1</message>"
+msgstr ""
+
+#: kookaview.cpp:510
+#, kde-format
+msgid "Add Scan Device"
+msgstr ""
+
+#: kookaview.cpp:530
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"No scanner devices are available.<nl/><nl/>If your scanner is a type that "
+"can be auto-detected by SANE, check that it is connected, switched on and "
+"configured correctly.<nl/><nl/>If the scanner cannot be auto-detected by "
+"SANE (this includes some network scanners), you need to specify the device "
+"to use. Use the <interface>Add Scan Device</interface> option to enter the "
+"backend name and parameters, or see that dialog for more information."
+msgstr ""
+
+#: kookaview.cpp:576
+#, kde-format
+msgid "No scanner connected"
+msgstr ""
+
+#: kookaview.cpp:635
+#, kde-format
+msgid "No selection"
+msgstr ""
+
+#: kookaview.cpp:639
+#, kde-format
+msgid "Gallery folder %1"
+msgstr ""
+
+#: kookaview.cpp:639
+#, kde-format
+msgid "Gallery image %1"
+msgstr ""
+
+#: kookaview.cpp:685
+#, kde-format
+msgid "Starting OCR on selection"
+msgstr ""
+
+#: kookaview.cpp:691
+#, kde-format
+msgid "Starting OCR on the image"
+msgstr ""
+
+#: kookaview.cpp:698
+#, kde-format
+msgid "OCR File"
+msgstr ""
+
+#: kookaview.cpp:708
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Cannot load <filename>%1</filename> for OCR:<nl/>%2"
+msgstr ""
+
+#: kookaview.cpp:710
+#, kde-format
+msgid "Cannot Read OCR File"
+msgstr ""
+
+#: kookaview.cpp:714
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Starting OCR on file <filename>%1</filename>"
+msgstr ""
+
+#: kookaview.cpp:730
+#, kde-format
+msgid "OCR finished"
+msgstr ""
+
+#: kookaview.cpp:737
+#, kde-format
+msgid "There is no OCR result text to spell check."
+msgstr ""
+
+#: kookaview.cpp:738
+#, kde-format
+msgid "OCR Spell Check not possible"
+msgstr ""
+
+#: kookaview.cpp:743
+#, kde-format
+msgid "OCR Spell Check"
+msgstr ""
+
+#: kookaview.cpp:759
+#, kde-format
+msgid ""
+"No OCR engine is configured.\n"
+"Please select and configure one in order to perform OCR."
+msgstr ""
+
+#: kookaview.cpp:761
+#, kde-format
+msgid "OCR Not Configured"
+msgstr ""
+
+#: kookaview.cpp:770
+#, kde-format
+msgid "Cannot load OCR plugin '%1'"
+msgstr ""
+
+#: kookaview.cpp:859
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"There was a problem during preview or scanning.<nl/>Check that the scanner "
+"is still connected and switched on, <nl/>and that media is loaded if "
+"required.<nl/><nl/>Trying to use scanner device: <icode>%3</icode><nl/"
+">libkookascan reported error: <message>%2</message><nl/>SANE reported error: "
+"<message>%1</message>"
+msgstr ""
+
+#: kookaview.cpp:900
+#, kde-format
+msgid "Create new image from selection"
+msgstr ""
+
+#: kookaview.cpp:909
+#, kde-format
+msgid "Cannot transform, image is read-only"
+msgstr ""
+
+#: kookaview.cpp:962
+#, kde-format
+msgid "Loaded image %1"
+msgstr ""
+
+#: kookaview.cpp:963
+#, kde-format
+msgid "Unloaded image"
+msgstr ""
+
+#: kookaview.cpp:980
+#, kde-format
+msgid "Loading %1..."
+msgstr ""
+
+#: main.cpp:45
+#, kde-format
+msgid "Scanning, image gallery and OCR"
+msgstr ""
+
+#: main.cpp:48
+#, kde-format
+msgid ""
+"Kooka provides access to scanner hardware using the <a href=\"http://www."
+"sane-project.org/\">SANE</a> library.\n"
+"\n"
+"Kooka allows you to scan, save and view in any image format that KDE "
+"supports, and can perform Optical Character Recognition using the open "
+"source <a href=\"http://jocr.sourceforge.net/\">GOCR</a> or <a href=\"http://"
+"www.gnu.org/software/ocrad/ocrad.html\">OCRAD</a> programs, or the "
+"commercial <a href=\"http://www.rerecognition.com/\">KADMOS</a> library."
+msgstr ""
+
+#: main.cpp:58
+#, kde-format
+msgid ""
+"This program is distributed under the terms of the GPL v2 as published\n"
+"by the Free Software Foundation.\n"
+"\n"
+"As a special exception, permission is given to link this program\n"
+"with any version of the KADMOS OCR/ICR engine of reRecognition GmbH\n"
+"(http://www.rerecognition.com), and distribute the resulting executable\n"
+"without including the source code for KADMOS in the source distribution.\n"
+"\n"
+"Note that linking against KADMOS is not permitted under the terms of\n"
+"the Qt GPL licence, so if you wish to do this then you must have a\n"
+"commercial Qt development licence.\n"
+msgstr ""
+
+#: main.cpp:71
+#, kde-format
+msgid "(C) 2000-2024, the Kooka developers and contributors"
+msgstr ""
+
+#: main.cpp:82
+#, kde-format
+msgid "Kooka"
+msgstr ""
+
+#: main.cpp:94
+#, kde-format
+msgid "Jonathan Marten"
+msgstr ""
+
+#: main.cpp:94
+#, kde-format
+msgid "Current maintainer, KDE4/KF6 port"
+msgstr ""
+
+#: main.cpp:95
+#, kde-format
+msgid "Montel Laurent"
+msgstr ""
+
+#: main.cpp:95
+#, kde-format
+msgid "Initial KF5 port"
+msgstr ""
+
+#: main.cpp:96
+#, kde-format
+msgid "Klaas Freitag"
+msgstr ""
+
+#: main.cpp:96
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:97
+#, kde-format
+msgid "Mat Colton"
+msgstr ""
+
+#: main.cpp:97
+#, kde-format
+msgid "Graphics, web"
+msgstr ""
+
+#: main.cpp:98
+#, kde-format
+msgid "Ivan Shvedunov"
+msgstr ""
+
+#: main.cpp:98
+#, kde-format
+msgid "Original kscan application"
+msgstr ""
+
+#: main.cpp:99
+#, kde-format
+msgid "Alex Kempshall"
+msgstr ""
+
+#: main.cpp:99
+#, kde-format
+msgid "Photocopy facility"
+msgstr ""
+
+#: main.cpp:115
+#, kde-format
+msgid "Gallery mode - do not connect to scanner"
+msgstr ""
+
+#: main.cpp:118
+#, kde-format
+msgid "The SANE device specification (e.g. 'umax:/dev/sg0')"
+msgstr ""
+
+#: main.cpp:118
+#, kde-format
+msgid "device"
+msgstr ""
+
+#: newscanpresetdialog.cpp:53
+#, kde-format
+msgid "Edit Scan Preset"
+msgstr ""
+
+#: newscanpresetdialog.cpp:54
+#, kde-format
+msgid "Change the name and/or description of the scan preset."
+msgstr ""
+
+#: newscanpresetdialog.cpp:58
+#, kde-format
+msgid "Save Scan Preset"
+msgstr ""
+
+#: newscanpresetdialog.cpp:59
+#, kde-format
+msgid "Enter a name and description for the new scan preset."
+msgstr ""
+
+#: newscanpresetdialog.cpp:66
+#, kde-format
+msgid "Preset name:"
+msgstr ""
+
+#: newscanpresetdialog.cpp:73
+#, kde-format
+msgid "Description:"
+msgstr ""
+
+#: ocrresedit.cpp:159
+#, kde-format
+msgid "Save OCR Result Text"
+msgstr ""
+
+#: ocrresedit.cpp:160
+#, kde-format
+msgid "Text File (*.txt)"
+msgstr ""
+
+#: ocrresedit.cpp:166
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Unable to save the OCR results file<nl/><filename>%1</filename>"
+msgstr ""
+
+#: ocrresedit.cpp:168
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<nl/>%1"
+msgstr ""
+
+#: ocrresedit.cpp:170
+#, kde-format
+msgid "Error saving OCR results"
+msgstr ""
+
+#: prefspages.cpp:78
+#, kde-format
+msgid "Hidden Messages"
+msgstr ""
+
+#: prefspages.cpp:82
+#, kde-format
+msgid ""
+"Use this button to reenable all messages and questions which\n"
+"have been hidden by using \"Don't ask me again\"."
+msgstr ""
+
+#: prefspages.cpp:85
+#, kde-format
+msgid "Enable Messages/Questions"
+msgstr ""
+
+#: prefspages.cpp:153
+#, kde-format
+msgid "%1 must be restarted for these settings to take effect."
+msgstr ""
+
+#: prefspages.cpp:236
+#, kde-format
+msgid "Image Gallery"
+msgstr ""
+
+#: prefspages.cpp:250
+#, kde-format
+msgid "Not shown"
+msgstr ""
+
+#: prefspages.cpp:251
+#, kde-format
+msgid "At top"
+msgstr ""
+
+#: prefspages.cpp:252
+#, kde-format
+msgid "At bottom"
+msgstr ""
+
+#: prefspages.cpp:267
+#, kde-format
+msgid "Thumbnail View"
+msgstr ""
+
+#: prefspages.cpp:381
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: prefspages.cpp:393
+#, kde-format
+msgid "OCR Engine:"
+msgstr ""
+
+#: prefspages.cpp:399
+#, kde-format
+msgid "OCR Engine Settings..."
+msgstr ""
+
+#: prefspages.cpp:445
+#, kde-format
+msgid ""
+"No OCR engine is selected. Select and configure one to be able to perform "
+"OCR."
+msgstr ""
+
+#: prefspages.cpp:453
+#, kde-format
+msgid "Unknown engine '%1'."
+msgstr ""
+
+#: scangallery.cpp:97
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: scangallery.cpp:98
+#, kde-format
+msgid "Size"
+msgstr ""
+
+#: scangallery.cpp:99
+#, kde-format
+msgid "Format"
+msgstr ""
+
+#: scangallery.cpp:170
+#, kde-format
+msgid "Kooka Gallery"
+msgstr ""
+
+#: scangallery.cpp:374
+#, kde-format
+msgid "empty"
+msgstr ""
+
+#: scangallery.cpp:377
+#, kde-format
+msgid "one image"
+msgid_plural "%1 images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: scangallery.cpp:379
+#, kde-format
+msgid "one file"
+msgid_plural "%1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: scangallery.cpp:385
+#, kde-format
+msgid "one file, "
+msgid_plural "%1 files, "
+msgstr[0] ""
+msgstr[1] ""
+
+#: scangallery.cpp:387
+#, kde-format
+msgid "one image, "
+msgid_plural "%1 images, "
+msgstr[0] ""
+msgstr[1] ""
+
+#: scangallery.cpp:390
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: scangallery.cpp:445
+#, kde-format
+msgid " %1 x %2"
+msgstr ""
+
+#: scangallery.cpp:600
+#, kde-format
+msgid ""
+"You entered a file extension that differs from the existing one. That is not "
+"yet possible. Converting 'on the fly' is planned for a future release.\n"
+"Kooka corrects the extension."
+msgstr ""
+
+#: scangallery.cpp:602
+#, kde-format
+msgid "On the Fly Conversion"
+msgstr ""
+
+#: scangallery.cpp:698
+#, kde-format
+msgid "Not a supported image format"
+msgstr ""
+
+#: scangallery.cpp:750
+#, kde-format
+msgid "Sub-image %1"
+msgstr ""
+
+#: scangallery.cpp:776
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Unable to load the image <filename>%2</filename><nl/>%1"
+msgstr ""
+
+#: scangallery.cpp:778
+#, kde-format
+msgid "Image Load Error"
+msgstr ""
+
+#: scangallery.cpp:840
+#, kde-format
+msgid "Incoming/"
+msgstr ""
+
+#: scangallery.cpp:891
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not save the image<nl/><filename>%2</filename><nl/>%1"
+msgstr ""
+
+#: scangallery.cpp:894
+#, kde-format
+msgid "Image Save Error"
+msgstr ""
+
+#: scangallery.cpp:972
+#, kde-format
+msgid "All Files (*)"
+msgstr ""
+
+#: scangallery.cpp:975
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Image"
+msgstr ""
+
+#: scangallery.cpp:1000
+#, kde-format
+msgid "Import Image File to Gallery"
+msgstr ""
+
+#: scangallery.cpp:1115
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to permanently delete the folder<nl/><filename>%1</"
+"filename><nl/>and all of its contents? It cannot be restored."
+msgstr ""
+
+#: scangallery.cpp:1120
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to permanently delete the image<nl/><filename>%1</"
+"filename>?<nl/>It cannot be restored."
+msgstr ""
+
+#: scangallery.cpp:1127
+#, kde-format
+msgid "Delete Gallery Item"
+msgstr ""
+
+#: scangallery.cpp:1140
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not delete the image or folder<nl/><filename>%2</filename><nl/>%1"
+msgstr ""
+
+#: scangallery.cpp:1143
+#, kde-format
+msgid "File Delete Error"
+msgstr ""
+
+#: scangallery.cpp:1175
+#, kde-format
+msgid "New Folder"
+msgstr ""
+
+#: scangallery.cpp:1176
+#, kde-format
+msgid "Name for the new folder:"
+msgstr ""
+
+#: scangallery.cpp:1199
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Could not create the folder<nl/><filename>%2</filename><nl/>%1"
+msgstr ""
+
+#: scangallery.cpp:1201
+#, kde-format
+msgid "Folder Create Error"
+msgstr ""
+
+#: scanpresetsdialog.cpp:63
+#, kde-format
+msgid "Scan Presets"
+msgstr ""
+
+#: scanpresetsdialog.cpp:76
+#, kde-format
+msgid "Saved scan preset sets:"
+msgstr ""
+
+#: scanpresetsdialog.cpp:80
+#, kde-format
+msgid "Select"
+msgstr ""
+
+#: scanpresetsdialog.cpp:82
+#, kde-format
+msgid "Load the selected scan preset set to use as scanner settings"
+msgstr ""
+
+#: scanpresetsdialog.cpp:86
+#, kde-format
+msgid "Save..."
+msgstr ""
+
+#: scanpresetsdialog.cpp:88
+#, kde-format
+msgid "Save the current scanner settings as a new scan preset set"
+msgstr ""
+
+#: scanpresetsdialog.cpp:94
+#, kde-format
+msgid "Delete the selected scan preset set"
+msgstr ""
+
+#: scanpresetsdialog.cpp:98
+#, kde-format
+msgid "Edit..."
+msgstr ""
+
+#: scanpresetsdialog.cpp:100
+#, kde-format
+msgid "Change the name or description of the selected scan preset set"
+msgstr ""
+
+#: scanpresetsdialog.cpp:146
+#, kde-format
+msgid "No preset set selected."
+msgstr ""
+
+#: scanpresetsdialog.cpp:211
+#, kde-format
+msgctxt "New set name, %1=scan mode, %2=resolution"
+msgid "%1, %2 dpi"
+msgstr ""
+
+#: scanpresetsdialog.cpp:288
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Do you really want to delete the set <resource>%1</resource>?"
+msgstr ""
+
+#: scanpresetsdialog.cpp:289
+#, kde-format
+msgid "Delete Scan Preset Set"
+msgstr ""
+
+#: statusbarmanager.cpp:52
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr ""
+
+#: statusbarmanager.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The size of the image being viewed in the gallery"
+msgstr ""
+
+#: statusbarmanager.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The size of the selected area that will be scanned"
+msgstr ""
+
+#: statusbarmanager.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>This is the uncompressed size of the scanned image. It tries to warn you "
+"if you try to produce too big an image by changing its background color."
+msgstr ""
+
+#: statusbarmanager.cpp:108
+#, kde-format
+msgctxt "@info:status"
+msgid "Image: %1"
+msgstr ""
+
+#: statusbarmanager.cpp:112
+#, kde-format
+msgctxt "@info:status"
+msgid "Scan: %1"
+msgstr ""
+
+#: thumbview.cpp:96
+#, kde-format
+msgid "Thumbnails"
+msgstr ""
+
+#: thumbview.cpp:107
+#, kde-format
+msgid "Preview Size"
+msgstr ""
+
+#: thumbview.cpp:331
+#, kde-format
+msgid "Very Large"
+msgstr ""
+
+#: thumbview.cpp:332
+#, kde-format
+msgid "Large"
+msgstr ""
+
+#: thumbview.cpp:333
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: thumbview.cpp:334
+#, kde-format
+msgid "Small"
+msgstr ""
+
+#: thumbview.cpp:335
+#, kde-format
+msgid "Very Small"
+msgstr ""
+
+#: thumbview.cpp:336
+#, kde-format
+msgid "Tiny"
+msgstr ""

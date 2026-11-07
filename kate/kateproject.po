@@ -1,0 +1,1550 @@
+# Croatian translations for kate.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the kate package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-25 00:54+0000\n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: branchcheckoutdialog.cpp:29
+#, kde-format
+msgid "Select branch to checkout. Press 'Esc' to cancel."
+msgstr "Odaberite granu za preuzimanje. Pritisnite Esc za odustajanje."
+
+#: branchcheckoutdialog.cpp:62
+#, kde-format
+msgid "Branch %1 checked out"
+msgstr "Grana %1 preuzeta je"
+
+#: branchcheckoutdialog.cpp:65
+#, kde-format
+msgid "Failed to checkout to branch %1, Error: %2"
+msgstr "Preuzimanje grane %1 nije uspjelo. Pogreška: %2"
+
+#: branchcheckoutdialog.cpp:93 branchcheckoutdialog.cpp:105
+#, kde-format
+msgid "Enter new branch name. Press 'Esc' to cancel."
+msgstr "Unesite naziv nove grane. Pritisnite Esc za odustajanje."
+
+#: branchcheckoutdialog.cpp:110
+#, kde-format
+msgid "Select branch to checkout from. Press 'Esc' to cancel."
+msgstr "Odaberite granu iz koje želite preuzeti. Pritisnite Esc za odustajanje."
+
+#: branchcheckoutdialog.cpp:133
+#, kde-format
+msgid "Checked out to new branch: %1"
+msgstr "Preuzeta je nova grana: %1"
+
+#: branchcheckoutdialog.cpp:135
+#, kde-format
+msgid "Failed to create new branch. Error \"%1\""
+msgstr "Stvaranje nove grane nije uspjelo. Pogreška „%1”"
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Branch"
+msgstr "Grana"
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Last Activity"
+msgstr "Posljednja aktivnost"
+
+#: branchdeletedialog.cpp:124
+#, kde-format
+msgid "Last Commit"
+msgstr "Posljednja predaja"
+
+#: branchdeletedialog.cpp:137 kateprojecttreeviewcontextmenu.cpp:139
+#, kde-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#: branchdeletedialog.cpp:142
+#, kde-format
+msgid "Are you sure you want to delete the selected branch?"
+msgid_plural "Are you sure you want to delete the selected branches?"
+msgstr[0] "Želite li zaista izbrisati odabranu granu?"
+msgstr[1] "Želite li zaista izbrisati odabrane grane?"
+
+#: branchesdialog.cpp:96
+#, kde-format
+msgid "Select Branch..."
+msgstr "Odaberi granu..."
+
+#: branchesdialog.cpp:108 gitwidget.cpp:551 kateprojectconfigpage.cpp:32
+#: kateprojectpluginview.cpp:77
+#, kde-format
+msgid "Git"
+msgstr "Git"
+
+#: branchesdialogmodel.cpp:102
+#, kde-format
+msgid "Create New Branch"
+msgstr "Stvori novu granu"
+
+#: branchesdialogmodel.cpp:108
+#, kde-format
+msgid "Create New Branch From..."
+msgstr "Stvori novu granu iz..."
+
+#: comparebranchesview.cpp:131
+#, kde-format
+msgid "Back"
+msgstr "Natrag"
+
+#: currentgitbranchbutton.cpp:122
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' commit is checked out"
+msgid "HEAD at commit %1"
+msgstr "HEAD je na predaji %1"
+
+#: currentgitbranchbutton.cpp:124
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' tag is checked out"
+msgid "HEAD is at this tag %1"
+msgstr "HEAD je na oznaci %1"
+
+#: currentgitbranchbutton.cpp:126
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' branch is checked out"
+msgid "Active branch: %1"
+msgstr "Aktivna grana: %1"
+
+#: git/gitforgeconfigwidget.cpp:32
+#, kde-format
+msgid "Detect Service"
+msgstr "Otkrij uslugu"
+
+#: git/gitforgeconfigwidget.cpp:37
+#, kde-format
+msgid ""
+"Map Git remote hosts to their Forgejo, GitHub, or GitLab website. The remote "
+"host is taken from the clone URL; the website URL is used to open repository "
+"links in a browser."
+msgstr "Povežite udaljene Git poslužitelje s njihovim mrežnim stranicama Forgejo, GitHub ili GitLab. Udaljeni poslužitelj preuzima se iz URL-a kloniranja, a URL mrežne stranice koristi se za otvaranje poveznica spremišta u pregledniku."
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Git Remote Host"
+msgstr "Udaljeni Git poslužitelj"
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Hosting Service"
+msgstr "Usluga hostinga"
+
+#: git/gitforgeconfigwidget.cpp:45
+#, kde-format
+msgid "Website URL"
+msgstr "URL mrežne stranice"
+
+#: git/gitforgeconfigwidget.cpp:46
+#, kde-format
+msgid "Host from the Git clone URL, optionally followed by its SSH port"
+msgstr "Poslužitelj iz URL-a Git kloniranja, po želji iza kojeg slijedi SSH priključak"
+
+#: git/gitforgeconfigwidget.cpp:47
+#, kde-format
+msgid "Forgejo, GitHub, or GitLab software running on the server"
+msgstr "Softver Forgejo, GitHub ili GitLab koji radi na poslužitelju"
+
+#: git/gitforgeconfigwidget.cpp:48
+#, kde-format
+msgid "HTTP or HTTPS address used to open repository links in a web browser"
+msgstr "HTTP ili HTTPS adresa za otvaranje poveznica spremišta u web-pregledniku"
+
+#: git/gitforgeconfigwidget.cpp:56
+#, kde-format
+msgid "Add Mapping"
+msgstr "Dodaj povezivanje"
+
+#: git/gitforgeconfigwidget.cpp:57
+#, kde-format
+msgid "Remove Selected Mapping"
+msgstr "Ukloni odabrano povezivanje"
+
+#: git/gitforgeconfigwidget.cpp:61
+#, kde-format
+msgid ""
+"Try to identify Forgejo, GitHub, or GitLab from the selected mapping's "
+"website URL"
+msgstr "Pokušaj prepoznati Forgejo, GitHub ili GitLab prema URL-u mrežne stranice odabranog povezivanja"
+
+#: git/gitforgeconfigwidget.cpp:107
+#, kde-format
+msgctxt "Git hosting service, such as Forgejo, GitHub, or GitLab"
+msgid "The hosting service in row %1 is invalid."
+msgstr "Usluga hostinga u retku %1 nije valjana."
+
+#: git/gitforgeconfigwidget.cpp:112
+#, kde-format
+msgid "The Git remote host or website URL in row %1 is invalid."
+msgstr "Udaljeni Git poslužitelj ili URL mrežne stranice u retku %1 nije valjan."
+
+#: git/gitforgeconfigwidget.cpp:139
+#, kde-format
+msgid "git.example.com or git.example.com:2222"
+msgstr "git.example.com ili git.example.com:2222"
+
+#: git/gitforgeconfigwidget.cpp:157
+#, kde-format
+msgid "https://git.example.com"
+msgstr "https://git.example.com"
+
+#: git/gitforgeconfigwidget.cpp:174
+#, kde-format
+msgid "Select a mapping to detect its hosting service."
+msgstr "Odaberite povezivanje da biste otkrili njegovu uslugu hostinga."
+
+#: git/gitforgeconfigwidget.cpp:181
+#, kde-format
+msgid ""
+"Enter a valid HTTP or HTTPS website URL before detecting the hosting service."
+msgstr "Unesite valjani HTTP ili HTTPS URL mrežne stranice prije otkrivanja usluge hostinga."
+
+#: git/gitforgeconfigwidget.cpp:192
+#, kde-format
+msgid "Detecting…"
+msgstr "Otkrivanje…"
+
+#: git/gitforgeconfigwidget.cpp:238
+#, kde-format
+msgid "Detected %1."
+msgstr "Otkriveno: %1."
+
+#: git/gitforgeconfigwidget.cpp:240
+#, kde-format
+msgid "The mapping changed; the detection result was ignored."
+msgstr "Povezivanje je promijenjeno; rezultat otkrivanja zanemaren je."
+
+#: git/gitforgeconfigwidget.cpp:242
+#, kde-format
+msgid "Service could not be detected; select it manually."
+msgstr "Nije moguće otkriti uslugu; odaberite je ručno."
+
+#: git/gitstatus.cpp:159
+#, kde-format
+msgid " ‣ Modified"
+msgstr " ‣ Izmijenjeno"
+
+#: git/gitstatus.cpp:161
+#, kde-format
+msgid " ‣ Untracked"
+msgstr " ‣ Bez praćenja"
+
+#: git/gitstatus.cpp:163
+#, kde-format
+msgid " ‣ Renamed"
+msgstr " ‣ Preimenovano"
+
+#: git/gitstatus.cpp:166
+#, kde-format
+msgid " ‣ Deleted"
+msgstr " ‣ Izbrisano"
+
+#: git/gitstatus.cpp:169
+#, kde-format
+msgid " ‣ Added"
+msgstr " ‣ Dodano"
+
+#: git/gitstatus.cpp:171
+#, kde-format
+msgid " ‣ Copied"
+msgstr " ‣ Kopirano"
+
+#: git/gitstatus.cpp:173
+#, kde-format
+msgid " ‣ Ignored"
+msgstr " ‣ Zanemareno"
+
+#: git/gitstatus.cpp:181
+#, kde-format
+msgid " ‣ Conflicted"
+msgstr " ‣ U sukobu"
+
+#: gitcommitdialog.cpp:70 gitcommitdialog.cpp:121
+#, kde-format
+msgid "Commit Changes"
+msgstr "Predaj promjene"
+
+#: gitcommitdialog.cpp:74 gitcommitdialog.cpp:120 gitwidget.cpp:265
+#: gitwidget.cpp:1100
+#, kde-format
+msgid "Commit"
+msgstr "Predaj"
+
+#: gitcommitdialog.cpp:75
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: gitcommitdialog.cpp:77
+#, kde-format
+msgid "Write commit message..."
+msgstr "Napišite poruku predaje..."
+
+#: gitcommitdialog.cpp:84
+#, kde-format
+msgid "Extended commit description..."
+msgstr "Prošireni opis predaje..."
+
+#: gitcommitdialog.cpp:108
+#, kde-format
+msgid "Sign off"
+msgstr "Potpiši"
+
+#: gitcommitdialog.cpp:112 gitcommitdialog.cpp:128
+#, kde-format
+msgid "Amend"
+msgstr "Izmijeni"
+
+#: gitcommitdialog.cpp:113 gitwidget.cpp:1053
+#, kde-format
+msgid "Amend Last Commit"
+msgstr "Izmijeni posljednju predaju"
+
+#: gitcommitdialog.cpp:127
+#, kde-format
+msgid "Amending Commit"
+msgstr "Izmjena predaje"
+
+#: gitcommitdialog.cpp:210
+#, kde-format
+msgctxt "Number of characters"
+msgid "%1 / 52"
+msgstr "%1 / 52"
+
+#: gitcommitdialog.cpp:214
+#, kde-format
+msgctxt "Number of characters"
+msgid "<span style=\"color:%1;\">%2</span> / 52"
+msgstr "<span style=\"color:%1;\">%2</span> / 52"
+
+#: gitstatusmodel.cpp:97
+#, kde-format
+msgid "Staged"
+msgstr "Pripremljeno"
+
+#: gitstatusmodel.cpp:99
+#, kde-format
+msgid "Untracked"
+msgstr "Bez praćenja"
+
+#: gitstatusmodel.cpp:101
+#, kde-format
+msgid "Conflict"
+msgstr "Sukob"
+
+#: gitstatusmodel.cpp:103
+#, kde-format
+msgid "Modified"
+msgstr "Izmijenjeno"
+
+#: gitwidget.cpp:273
+#, kde-format
+msgid "Git Push"
+msgstr "Git Push"
+
+#: gitwidget.cpp:286
+#, kde-format
+msgid "Git Pull"
+msgstr "Git Pull"
+
+#: gitwidget.cpp:299
+#, kde-format
+msgid "Cancel Operation"
+msgstr "Odustani od operacije"
+
+#: gitwidget.cpp:307
+#, kde-format
+msgid " canceled."
+msgstr " otkazano."
+
+#: gitwidget.cpp:315
+#, kde-format
+msgid "Refresh git status"
+msgstr "Osvježi Git status"
+
+#: gitwidget.cpp:337 kateprojectview.cpp:61
+#, kde-format
+msgid "Filter…"
+msgstr "Filtriraj…"
+
+#: gitwidget.cpp:428
+#, kde-format
+msgid "Failed to find .git directory for '%1', things may not work correctly"
+msgstr "Nije moguće pronaći direktorij .git za „%1”; neke funkcije možda neće raditi ispravno"
+
+#: gitwidget.cpp:593
+#, kde-format
+msgid "Failed to get the git status"
+msgstr "Dohvaćanje Git statusa nije uspjelo"
+
+#: gitwidget.cpp:652
+#, kde-format
+msgid " error: %1"
+msgstr " pogreška: %1"
+
+#: gitwidget.cpp:658
+#, kde-format
+msgid "\"%1\" executed successfully: %2"
+msgstr "„%1” uspješno je izvršena: %2"
+
+#: gitwidget.cpp:678
+#, kde-format
+msgid "Failed to stage file. Error:"
+msgstr "Priprema datoteke nije uspjela. Pogreška:"
+
+#: gitwidget.cpp:691
+#, kde-format
+msgid "Failed to unstage file. Error:"
+msgstr "Uklanjanje datoteke iz pripreme nije uspjelo. Pogreška:"
+
+#: gitwidget.cpp:702
+#, kde-format
+msgid "Failed to discard changes. Error:"
+msgstr "Odbacivanje promjena nije uspjelo. Pogreška:"
+
+#: gitwidget.cpp:713
+#, kde-format
+msgid "Failed to remove. Error:"
+msgstr "Uklanjanje nije uspjelo. Pogreška:"
+
+#: gitwidget.cpp:728
+#, kde-format
+msgid "Failed to open file at HEAD: %1"
+msgstr "Nije moguće otvoriti datoteku u stanju HEAD: %1"
+
+#: gitwidget.cpp:761
+#, kde-format
+msgid "Failed to get Diff of file: %1"
+msgstr "Dohvaćanje razlika datoteke nije uspjelo: %1"
+
+#: gitwidget.cpp:830
+#, kde-format
+msgid "Failed to commit: %1"
+msgstr "Predaja nije uspjela: %1"
+
+#: gitwidget.cpp:834
+#, kde-format
+msgid "Changes committed successfully."
+msgstr "Promjene su uspješno predane."
+
+#: gitwidget.cpp:844
+#, kde-format
+msgid "Nothing to commit. Please stage your changes first."
+msgstr "Nema promjena za predaju. Najprije pripremite promjene."
+
+#: gitwidget.cpp:858
+#, kde-format
+msgid "Commit message cannot be empty."
+msgstr "Poruka predaje ne može biti prazna."
+
+#: gitwidget.cpp:989
+#, kde-format
+msgid "No diff for %1...%2"
+msgstr "Nema razlika za %1...%2"
+
+#: gitwidget.cpp:995
+#, kde-format
+msgid "Failed to compare %1...%2"
+msgstr "Usporedba %1...%2 nije uspjela"
+
+#: gitwidget.cpp:1010
+#, kde-format
+msgid "Failed to get numstat when diffing %1...%2"
+msgstr "Dohvaćanje numstat podataka pri usporedbi %1...%2 nije uspjelo"
+
+#: gitwidget.cpp:1045
+#, kde-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: gitwidget.cpp:1062
+#, kde-format
+msgid "Checkout Branch"
+msgstr "Preuzmi granu"
+
+#: gitwidget.cpp:1074
+#, kde-format
+msgid "Delete Branch"
+msgstr "Izbriši granu"
+
+#: gitwidget.cpp:1088
+#, kde-format
+msgid "Compare Branch with..."
+msgstr "Usporedi granu s..."
+
+#: gitwidget.cpp:1094
+#, kde-format
+msgid "Show Commit"
+msgstr "Prikaži predaju"
+
+#: gitwidget.cpp:1112
+#, kde-format
+msgid "Show Last Commit"
+msgstr "Prikaži posljednju predaju"
+
+#: gitwidget.cpp:1130
+#, kde-format
+msgid "Open Commit..."
+msgstr "Otvori predaju..."
+
+#: gitwidget.cpp:1133 gitwidget.cpp:1167
+#, kde-format
+msgid "Stash"
+msgstr "Skladište"
+
+#: gitwidget.cpp:1137
+#, kde-format
+msgid "Show history"
+msgstr "Prikaži povijest"
+
+#: gitwidget.cpp:1171
+#, kde-format
+msgid "Pop Last Stash"
+msgstr "Primijeni posljednje skladište i ukloni ga"
+
+#: gitwidget.cpp:1175
+#, kde-format
+msgid "Pop Stash"
+msgstr "Primijeni skladište i ukloni ga"
+
+#: gitwidget.cpp:1179
+#, kde-format
+msgid "Apply Last Stash"
+msgstr "Primijeni posljednje skladište"
+
+#: gitwidget.cpp:1181
+#, kde-format
+msgid "Stash (Keep Staged)"
+msgstr "Skladišti (zadrži pripremljeno)"
+
+#: gitwidget.cpp:1185
+#, kde-format
+msgid "Stash (Include Untracked)"
+msgstr "Skladišti (uključi datoteke bez praćenja)"
+
+#: gitwidget.cpp:1189
+#, kde-format
+msgid "Apply Stash"
+msgstr "Primijeni skladište"
+
+#: gitwidget.cpp:1190
+#, kde-format
+msgid "Drop Stash"
+msgstr "Odbaci skladište"
+
+#: gitwidget.cpp:1194
+#, kde-format
+msgid "Show Stash"
+msgstr "Prikaži skladište"
+
+#: gitwidget.cpp:1198
+#, kde-format
+msgid "Show Stash Diff"
+msgstr "Prikaži razlike skladišta"
+
+#: gitwidget.cpp:1236
+#, kde-format
+msgid "Stage All"
+msgstr "Pripremi sve"
+
+#: gitwidget.cpp:1238
+#, kde-format
+msgid "Remove All"
+msgstr "Ukloni sve"
+
+#: gitwidget.cpp:1238
+#, kde-format
+msgid "Discard All"
+msgstr "Odbaci sve"
+
+#: gitwidget.cpp:1241
+#, kde-format
+msgid "Open .gitignore"
+msgstr "Otvori .gitignore"
+
+#: gitwidget.cpp:1242 gitwidget.cpp:1291 gitwidget.cpp:1342 kateprojectconfigpage.cpp:128
+#: kateprojectconfigpage.cpp:140
+#, kde-format
+msgid "Show Diff"
+msgstr "Prikaži razlike"
+
+#: gitwidget.cpp:1259
+#, kde-format
+msgid "Are you sure you want to discard all changes?"
+msgstr "Želite li zaista odbaciti sve promjene?"
+
+#: gitwidget.cpp:1264
+#, kde-format
+msgid "Are you sure you want to remove these files?"
+msgstr "Želite li zaista ukloniti ove datoteke?"
+
+#: gitwidget.cpp:1282
+#, kde-format
+msgid "Open File"
+msgstr "Otvori datoteku"
+
+#: gitwidget.cpp:1283
+#, kde-format
+msgid "Unstage File"
+msgstr "Ukloni datoteku iz pripreme"
+
+#: gitwidget.cpp:1283
+#, kde-format
+msgid "Stage File"
+msgstr "Pripremi datoteku"
+
+#: gitwidget.cpp:1284
+#, kde-format
+msgid "Remove"
+msgstr "Ukloni"
+
+#: gitwidget.cpp:1284
+#, kde-format
+msgid "Discard"
+msgstr "Odbaci"
+
+#: gitwidget.cpp:1292
+#, kde-format
+msgid "Show in External Git Diff Tool"
+msgstr "Prikaži u vanjskom alatu za usporedbu Git razlika"
+
+#: gitwidget.cpp:1293
+#, kde-format
+msgid "Open at HEAD"
+msgstr "Otvori u stanju HEAD"
+
+#: gitwidget.cpp:1297
+#, kde-format
+msgid "Show History"
+msgstr "Prikaži povijest"
+
+#: gitwidget.cpp:1313
+#, kde-format
+msgid "Are you sure you want to discard the changes in this file?"
+msgstr "Želite li zaista odbaciti promjene u ovoj datoteci?"
+
+#: gitwidget.cpp:1324
+#, kde-format
+msgid "Are you sure you want to remove this file?"
+msgstr "Želite li zaista ukloniti ovu datoteku?"
+
+#: gitwidget.cpp:1341
+#, kde-format
+msgid "Unstage All"
+msgstr "Ukloni sve iz pripreme"
+
+#: gitwidget.cpp:1408
+#, kde-format
+msgid "Unstage Selected Files"
+msgstr "Ukloni odabrane datoteke iz pripreme"
+
+#: gitwidget.cpp:1408
+#, kde-format
+msgid "Stage Selected Files"
+msgstr "Pripremi odabrane datoteke"
+
+#: gitwidget.cpp:1409
+#, kde-format
+msgid "Discard Selected Files"
+msgstr "Odbaci odabrane datoteke"
+
+#: gitwidget.cpp:1413
+#, kde-format
+msgid "Remove Selected Files"
+msgstr "Ukloni odabrane datoteke"
+
+#: gitwidget.cpp:1426
+#, kde-format
+msgid "Are you sure you want to discard the changes?"
+msgstr "Želite li zaista odbaciti promjene?"
+
+#: gitwidget.cpp:1431
+#, kde-format
+msgid "Are you sure you want to remove these untracked changes?"
+msgstr "Želite li zaista ukloniti ove promjene koje se ne prate?"
+
+#: kateproject.cpp:236
+#, kde-format
+msgid "(Modified)"
+msgstr "(Izmijenjeno)"
+
+#: kateproject.cpp:238
+#, kde-format
+msgid "(Staged)"
+msgstr "(Pripremljeno)"
+
+#: kateproject.cpp:312
+#, kde-format
+msgid "Error"
+msgstr "Pogreška"
+
+#: kateproject.cpp:317
+#, kde-format
+msgid "'%1' is not a valid file name."
+msgstr "„%1” nije valjan naziv datoteke."
+
+#: kateproject.cpp:328
+#, kde-format
+msgid "A file named '%1' already exists."
+msgstr "Datoteka naziva „%1” već postoji."
+
+#: kateproject.cpp:350
+#, kde-format
+msgid "Failed to rename '%1' to '%2': %3"
+msgstr "Preimenovanje „%1” u „%2” nije uspjelo: %3"
+
+#: kateproject.cpp:459
+#, kde-format
+msgid "Malformed JSON file '%1': %2"
+msgstr "Neispravno oblikovana JSON datoteka „%1”: %2"
+
+#: kateproject.cpp:527 kateprojectplugin.cpp:893 kateprojectpluginview.cpp:82
+#: kateprojectpluginview.cpp:238 kateprojectviewtree.cpp:384
+#: kateprojectviewtree.cpp:395 kateprojectviewtree.cpp:425
+#: kateprojectviewtree.cpp:432
+#, kde-format
+msgid "Project"
+msgstr "Projekt"
+
+#: kateproject.cpp:838
+#, kde-format
+msgid "<untracked>"
+msgstr "<bez praćenja>"
+
+#: kateprojectcompletion.cpp:46
+#, kde-format
+msgid "Project Completion"
+msgstr "Dovršavanje projekta"
+
+#: kateprojectconfigpage.cpp:31
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: kateprojectconfigpage.cpp:38
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Autoload Repositories && Build Trees"
+msgstr "Automatski učitaj spremišta i stabla izgradnje"
+
+#: kateprojectconfigpage.cpp:40
+#, kde-format
+msgid ""
+"Project plugin is able to autoload repository working copies and build trees "
+"when there is no .kateproject file defined yet."
+msgstr "Dodatak za projekte može automatski učitati radne kopije spremišta i stabla izgradnje ako još nije definirana datoteka .kateproject."
+
+#: kateprojectconfigpage.cpp:43
+#, kde-format
+msgid "&Git"
+msgstr "&Git"
+
+#: kateprojectconfigpage.cpp:46
+#, kde-format
+msgid "&Subversion"
+msgstr "&Subversion"
+
+#: kateprojectconfigpage.cpp:48
+#, kde-format
+msgid "&Mercurial"
+msgstr "&Mercurial"
+
+#: kateprojectconfigpage.cpp:50
+#, kde-format
+msgid "&Fossil"
+msgstr "&Fossil"
+
+#: kateprojectconfigpage.cpp:52
+#, kde-format
+msgid "&CMake"
+msgstr "&CMake"
+
+#: kateprojectconfigpage.cpp:61
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Directory Listing"
+msgstr "Popis direktorija"
+
+#: kateprojectconfigpage.cpp:63
+#, kde-format
+msgid ""
+"When directory listing is enabled, autoloaded repository projects show all "
+"files instead of only VCS-tracked files."
+msgstr "Kad je popis direktorija omogućen, automatski učitani projekti spremišta prikazuju sve datoteke, a ne samo one koje prati sustav za upravljanje verzijama."
+
+#: kateprojectconfigpage.cpp:66
+#, kde-format
+msgid "Include files untracked by repository"
+msgstr "Uključi datoteke koje spremište ne prati"
+
+#: kateprojectconfigpage.cpp:68
+#, kde-format
+msgid ""
+"Show all files in the project directory including files not tracked by the "
+"version control system, such as those excluded via .gitignore."
+msgstr "Prikaži sve datoteke u direktoriju projekta, uključujući datoteke koje sustav za upravljanje verzijama ne prati, primjerice one izuzete putem .gitignore."
+
+#: kateprojectconfigpage.cpp:72
+#, kde-format
+msgid "Show hidden files in non-VCS projects"
+msgstr "Prikaži skrivene datoteke u projektima bez sustava za upravljanje verzijama"
+
+#: kateprojectconfigpage.cpp:73
+#, kde-format
+msgid ""
+"Show hidden files (dotfiles) in the project file tree for projects not "
+"loaded using version control."
+msgstr "Prikaži skrivene datoteke (datoteke s točkom) u stablu datoteka projekta za projekte koji nisu učitani putem sustava za upravljanje verzijama."
+
+#: kateprojectconfigpage.cpp:82
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Session Behavior"
+msgstr "Ponašanje sesije"
+
+#: kateprojectconfigpage.cpp:83
+#, kde-format
+msgid "Session settings for projects"
+msgstr "Postavke sesije za projekte"
+
+#: kateprojectconfigpage.cpp:84
+#, kde-format
+msgid "Restore Open Projects"
+msgstr "Vrati otvorene projekte"
+
+#: kateprojectconfigpage.cpp:91
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Project Index"
+msgstr "Indeks projekta"
+
+#: kateprojectconfigpage.cpp:92
+#, kde-format
+msgid "Project ctags index settings"
+msgstr "Postavke ctags indeksa projekta"
+
+#: kateprojectconfigpage.cpp:93 kateprojectinfoviewindex.cpp:208
+#, kde-format
+msgid "Enable indexing"
+msgstr "Omogući indeksiranje"
+
+#: kateprojectconfigpage.cpp:96
+#, kde-format
+msgid "Directory for index files"
+msgstr "Direktorij datoteka indeksa"
+
+#: kateprojectconfigpage.cpp:100
+#, kde-format
+msgid ""
+"The system temporary directory is used if not specified, which may overflow "
+"for very large repositories"
+msgstr "Ako nije naveden, koristi se privremeni direktorij sustava, koji se može prepuniti kod vrlo velikih spremišta"
+
+#: kateprojectconfigpage.cpp:107
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Cross-Project Functionality"
+msgstr "Funkcionalnost među projektima"
+
+#: kateprojectconfigpage.cpp:108
+#, kde-format
+msgid ""
+"Project plugin is able to perform some operations across multiple projects"
+msgstr "Dodatak za projekte može izvoditi neke operacije u više projekata"
+
+#: kateprojectconfigpage.cpp:109
+#, kde-format
+msgid "Cross-Project Completion"
+msgstr "Dovršavanje među projektima"
+
+#: kateprojectconfigpage.cpp:111
+#, kde-format
+msgid "Cross-Project Goto Symbol"
+msgstr "Idi na simbol među projektima"
+
+#: kateprojectconfigpage.cpp:122
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Git"
+msgstr "Git"
+
+#: kateprojectconfigpage.cpp:125
+#, kde-format
+msgid "Single click action in the git status view"
+msgstr "Radnja jednim klikom u prikazu Git statusa"
+
+#: kateprojectconfigpage.cpp:127 kateprojectconfigpage.cpp:139
+#, kde-format
+msgid "No Action"
+msgstr "Bez radnje"
+
+#: kateprojectconfigpage.cpp:129 kateprojectconfigpage.cpp:141
+#, kde-format
+msgid "Open file"
+msgstr "Otvori datoteku"
+
+#: kateprojectconfigpage.cpp:130 kateprojectconfigpage.cpp:142
+#, kde-format
+msgid "Stage / Unstage"
+msgstr "Pripremi / ukloni iz pripreme"
+
+#: kateprojectconfigpage.cpp:137
+#, kde-format
+msgid "Double click action in the git status view"
+msgstr "Radnja dvostrukim klikom u prikazu Git statusa"
+
+#: kateprojectconfigpage.cpp:153
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Git Hosting"
+msgstr "Git hosting"
+
+#: kateprojectconfigpage.cpp:190 kateprojectpluginview.cpp:76
+#, kde-format
+msgid "Projects"
+msgstr "Projekti"
+
+#: kateprojectconfigpage.cpp:195
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Projects Properties"
+msgstr "Svojstva projekta"
+
+#: kateprojectinfoview.cpp:84
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal"
+msgstr "Terminal"
+
+#: kateprojectinfoview.cpp:93
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Project)"
+msgstr "Terminal (projekt)"
+
+#: kateprojectinfoview.cpp:102
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Base)"
+msgstr "Terminal (osnovni)"
+
+#: kateprojectinfoview.cpp:111
+#, kde-format
+msgctxt "@title:tab"
+msgid "Terminal (Build)"
+msgstr "Terminal (izgradnja)"
+
+#: kateprojectinfoview.cpp:118
+#, kde-format
+msgid "Code Index"
+msgstr "Indeks koda"
+
+#: kateprojectinfoview.cpp:123
+#, kde-format
+msgid "Code Analysis"
+msgstr "Analiza koda"
+
+#: kateprojectinfoview.cpp:128
+#, kde-format
+msgid "Notes"
+msgstr "Bilješke"
+
+#: kateprojectinfoviewcodeanalysis.cpp:34
+#, kde-format
+msgid "Start Analysis..."
+msgstr "Pokreni analizu..."
+
+#: kateprojectinfoviewcodeanalysis.cpp:42
+#, kde-format
+msgctxt "'%1' refers to project name, e.g,. Code Analysis - MyProject"
+msgid "Code Analysis - %1"
+msgstr "Analiza koda – %1"
+
+#: kateprojectinfoviewcodeanalysis.cpp:96
+#, kde-format
+msgid ""
+"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run "
+"on all project files which match this list of file extensions:<br/><b>%4</b>"
+msgstr "„%1” nije instaliran na vašem sustavu, %2.<br/><br/>%3. Alat će se pokrenuti na svim datotekama projekta koje odgovaraju ovim datotečnim nastavcima:<br/><b>%4</b>"
+
+#: kateprojectinfoviewcodeanalysis.cpp:106
+#, kde-format
+msgid ""
+"Using %1 installed at: %2.<br/><br/>%3. The tool will be run on all project "
+"files which match this list of file extensions:<br/><b>%4</b>"
+msgstr "Koristi se %1 instaliran na lokaciji: %2.<br/><br/>%3. Alat će se pokrenuti na svim datotekama projekta koje odgovaraju ovim datotečnim nastavcima:<br/><b>%4</b>"
+
+#: kateprojectinfoviewcodeanalysis.cpp:148
+#: kateprojectinfoviewcodeanalysis.cpp:208
+#: kateprojectinfoviewcodeanalysis.cpp:212
+#, kde-format
+msgid "CodeAnalysis"
+msgstr "Analiza koda"
+
+#: kateprojectinfoviewcodeanalysis.cpp:203
+#, kde-format
+msgctxt ""
+"Message to the user that analysis finished. %1 is the name of the program "
+"that did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 files "
+"finished"
+msgid "[%1]Analysis on %2 file finished."
+msgid_plural "[%1]Analysis on %2 files finished."
+msgstr[0] "[%1]Analiza %2 datoteke je dovršena."
+msgstr[1] "[%1]Analiza %2 datoteka je dovršena."
+
+#: kateprojectinfoviewcodeanalysis.cpp:211
+#, kde-format
+msgid "Analysis failed with exit code %1, Error: %2"
+msgstr "Analiza nije uspjela, izlazni kôd %1. Pogreška: %2"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Kind"
+msgstr "Vrsta"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "File"
+msgstr "Datoteka"
+
+#: kateprojectinfoviewindex.cpp:36
+#, kde-format
+msgid "Line"
+msgstr "Redak"
+
+#: kateprojectinfoviewindex.cpp:37
+#, kde-format
+msgid "Search"
+msgstr "Pretraži"
+
+#: kateprojectinfoviewindex.cpp:197
+#, kde-format
+msgid "The index could not be created. Please install 'ctags'."
+msgstr "Nije moguće stvoriti indeks. Instalirajte „ctags”."
+
+#: kateprojectinfoviewindex.cpp:207
+#, kde-format
+msgid "Indexing is not enabled"
+msgstr "Indeksiranje nije omogućeno"
+
+#: kateprojectplugin.cpp:312
+#, kde-format
+msgid "Confirm project closing: %1"
+msgstr "Potvrda zatvaranja projekta: %1"
+
+#: kateprojectplugin.cpp:313
+#, kde-format
+msgid "Do you want to close the project %1 and the related %2 open documents?"
+msgstr "Želite li zatvoriti projekt %1 i povezana %2 otvorena dokumenta?"
+
+#: kateprojectplugin.cpp:746
+#, kde-format
+msgid "Full path to current project excluding the file name."
+msgstr "Puna putanja trenutačnog projekta bez naziva datoteke."
+
+#: kateprojectplugin.cpp:763
+#, kde-format
+msgid ""
+"Full path to current project excluding the file name, with native path "
+"separator (backslash on Windows)."
+msgstr "Puna putanja trenutačnog projekta bez naziva datoteke, s izvornim razdjelnikom putanje (obrnutom kosom crtom u sustavu Windows)."
+
+#: kateprojectplugin.cpp:780
+#, kde-format
+msgid "File path relative to the project directory"
+msgstr "Putanja datoteke relativna direktoriju projekta"
+
+#: kateprojectpluginview.cpp:66
+#, kde-format
+msgid "Project Manager"
+msgstr "Upravitelj projekata"
+
+#: kateprojectpluginview.cpp:87
+#, kde-format
+msgid "Current Project"
+msgstr "Trenutačni projekt"
+
+#: kateprojectpluginview.cpp:89
+#, kde-format
+msgid "Open projects list"
+msgstr "Otvori popis projekata"
+
+#: kateprojectpluginview.cpp:97
+#, kde-format
+msgid "Reload project"
+msgstr "Ponovno učitaj projekt"
+
+#: kateprojectpluginview.cpp:100
+#, kde-format
+msgid "Close project"
+msgstr "Zatvori projekt"
+
+#: kateprojectpluginview.cpp:176
+#, kde-format
+msgid "Open &Folder..."
+msgstr "Otvori &mapu..."
+
+#: kateprojectpluginview.cpp:182
+#, kde-format
+msgid "Project TODOs"
+msgstr "Zadaci projekta"
+
+#: kateprojectpluginview.cpp:187
+#, kde-format
+msgid "Activate Previous Project"
+msgstr "Aktiviraj prethodni projekt"
+
+#: kateprojectpluginview.cpp:193
+#, kde-format
+msgid "Activate Next Project"
+msgstr "Aktiviraj sljedeći projekt"
+
+#: kateprojectpluginview.cpp:199
+#, kde-format
+msgid "Lookup"
+msgstr "Potraži"
+
+#: kateprojectpluginview.cpp:204
+#, kde-format
+msgid "Close Project"
+msgstr "Zatvori projekt"
+
+#: kateprojectpluginview.cpp:209
+#, kde-format
+msgid "Close All Projects"
+msgstr "Zatvori sve projekte"
+
+#: kateprojectpluginview.cpp:214
+#, kde-format
+msgid "Close Orphaned Projects"
+msgstr "Zatvori projekte bez poveznice"
+
+#: kateprojectpluginview.cpp:219
+#, kde-format
+msgid "Reload Project"
+msgstr "Ponovno učitaj projekt"
+
+#: kateprojectpluginview.cpp:224
+#, kde-format
+msgid "Reload All Projects"
+msgstr "Ponovno učitaj sve projekte"
+
+#: kateprojectpluginview.cpp:235
+#, kde-format
+msgid "Checkout Git Branch"
+msgstr "Preuzmi Git granu"
+
+#: kateprojectpluginview.cpp:241 kateprojectpluginview.cpp:877
+#, kde-format
+msgid "Lookup: %1"
+msgstr "Potraži: %1"
+
+#: kateprojectpluginview.cpp:242 kateprojectpluginview.cpp:878
+#, kde-format
+msgid "Goto: %1"
+msgstr "Idi na: %1"
+
+#: kateprojectpluginview.cpp:244 kateprojecttreeviewcontextmenu.cpp:189
+#, kde-format
+msgid "Git Hosting"
+msgstr "Git hosting"
+
+#: kateprojectpluginview.cpp:248 kateprojectpluginview.cpp:892
+#: kateprojectpluginview.cpp:922
+#, kde-format
+msgid "Open on Git Hosting Service"
+msgstr "Otvori na usluzi Git hostinga"
+
+#: kateprojectpluginview.cpp:249 kateprojectpluginview.cpp:888
+#, kde-format
+msgid "Copy Git Hosting Link"
+msgstr "Kopiraj poveznicu Git hostinga"
+
+#: kateprojectpluginview.cpp:331
+#, kde-format
+msgid "Projects Index"
+msgstr "Indeks projekata"
+
+#: kateprojectpluginview.cpp:887 kateprojecttreeviewcontextmenu.cpp:190
+#, kde-format
+msgid "Detecting Git hosting service…"
+msgstr "Otkrivanje usluge Git hostinga…"
+
+#: kateprojectpluginview.cpp:919 kateprojecttreeviewcontextmenu.cpp:203
+#, kde-format
+msgid "Open on %1"
+msgstr "Otvori na %1"
+
+#: kateprojectpluginview.cpp:920 kateprojecttreeviewcontextmenu.cpp:206
+#, kde-format
+msgid "Copy %1 Link"
+msgstr "Kopiraj poveznicu %1"
+
+#: kateprojectpluginview.cpp:985
+#, kde-format
+msgid "Choose a directory"
+msgstr "Odaberite direktorij"
+
+#: kateprojecttreeviewcontextmenu.cpp:54
+#, kde-format
+msgid "Enter name:"
+msgstr "Unesite naziv:"
+
+#: kateprojecttreeviewcontextmenu.cpp:119
+#, kde-format
+msgid "Copy Location"
+msgstr "Kopiraj lokaciju"
+
+#: kateprojecttreeviewcontextmenu.cpp:126
+#, kde-format
+msgid "New File…"
+msgstr "Nova datoteka…"
+
+#: kateprojecttreeviewcontextmenu.cpp:127
+#, kde-format
+msgid "New Folder…"
+msgstr "Nova mapa…"
+
+#: kateprojecttreeviewcontextmenu.cpp:134
+#, kde-format
+msgid "&Rename"
+msgstr "P&reimenuj"
+
+#: kateprojecttreeviewcontextmenu.cpp:145
+#, kde-format
+msgid "Properties"
+msgstr "Svojstva"
+
+#: kateprojecttreeviewcontextmenu.cpp:149
+#, kde-format
+msgid "Open With"
+msgstr "Otvori pomoću"
+
+#: kateprojecttreeviewcontextmenu.cpp:157
+#, kde-format
+msgid "Open Internal Terminal Here"
+msgstr "Otvori interni terminal ovdje"
+
+#: kateprojecttreeviewcontextmenu.cpp:169
+#, kde-format
+msgid "Open External Terminal Here"
+msgstr "Otvori vanjski terminal ovdje"
+
+#: kateprojecttreeviewcontextmenu.cpp:175
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr "&Otvori nadređenu mapu"
+
+#: kateprojecttreeviewcontextmenu.cpp:184
+#, kde-format
+msgid "Show Git History"
+msgstr "Prikaži Git povijest"
+
+#: kateprojecttreeviewcontextmenu.cpp:280
+#, kde-format
+msgid "New File"
+msgstr "Nova datoteka"
+
+#: kateprojecttreeviewcontextmenu.cpp:285
+#, kde-format
+msgid "New Folder"
+msgstr "Nova mapa"
+
+#: kateprojectviewtree.cpp:384
+#, kde-format
+msgid "The file already exists"
+msgstr "Datoteka već postoji"
+
+#: kateprojectviewtree.cpp:395
+#, kde-format
+msgid "Failed to create file: %1, Error: %2"
+msgstr "Stvaranje datoteke nije uspjelo: %1. Pogreška: %2"
+
+#: kateprojectviewtree.cpp:425
+#, kde-format
+msgid "The directory already exists"
+msgstr "Direktorij već postoji"
+
+#: kateprojectviewtree.cpp:432
+#, kde-format
+msgid "Failed to create dir: %1"
+msgstr "Stvaranje direktorija nije uspjelo: %1"
+
+#: kateprojectworker.cpp:215
+#, kde-format
+msgid "Unable to find directory: %1"
+msgstr "Nije moguće pronaći direktorij: %1"
+
+#: kateprojectworker.cpp:318
+#, kde-format
+msgid "Invalid regex pattern in exclude_patterns %1"
+msgstr "Nevaljani regularni izraz u exclude_patterns %1"
+
+#: kateprojectworker.cpp:804
+#, kde-format
+msgid ""
+"Unable to load %1 based project because either %1 is not installed or it "
+"wasn't found in PATH environment variable. Please install %1 or "
+"alternatively disable the option 'Autoload Repositories && Build Trees' in "
+"project settings."
+msgstr "Nije moguće učitati projekt temeljen na %1 jer %1 nije instaliran ili nije pronađen u varijabli okruženja PATH. Instalirajte %1 ili onemogućite mogućnost „Automatski učitaj spremišta i stabla izgradnje” u postavkama projekta."
+
+#: project_commands.cpp:35
+#, kde-format
+msgid "Execute a command in the active project's terminal."
+msgstr "Izvrši naredbu u terminalu aktivnog projekta."
+
+#: project_commands.cpp:47
+#, kde-format
+msgid "No cmd provided"
+msgstr "Nije navedena naredba"
+
+#: project_commands.cpp:60
+#, kde-format
+msgid "Project Command"
+msgstr "Naredba projekta"
+
+#: stashdialog.cpp:40
+#, kde-format
+msgid "Stash message (optional). Enter to confirm, Esc to leave."
+msgstr "Poruka skladišta (neobavezno). Pritisnite Enter za potvrdu ili Esc za izlaz."
+
+#: stashdialog.cpp:48
+#, kde-format
+msgid "Type to filter, Enter to pop stash, Esc to leave."
+msgstr "Upišite tekst za filtriranje, Enter za primjenu i uklanjanje skladišta ili Esc za izlaz."
+
+#: stashdialog.cpp:142 stashdialog.cpp:204
+#, kde-format
+msgid "Failed to run git: %1"
+msgstr "Pokretanje Gita nije uspjelo: %1"
+
+#: stashdialog.cpp:168
+#, kde-format
+msgid "Failed to stash changes %1"
+msgstr "Skladištenje promjena %1 nije uspjelo"
+
+#: stashdialog.cpp:170
+#, kde-format
+msgid "Changes stashed successfully."
+msgstr "Promjene su uspješno pohranjene u skladište."
+
+#: stashdialog.cpp:189
+#, kde-format
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+#: stashdialog.cpp:198
+#, kde-format
+msgid "Failed to get stash list. Error: "
+msgstr "Dohvaćanje popisa skladišta nije uspjelo. Pogreška: "
+
+#: stashdialog.cpp:224
+#, kde-format
+msgid "Failed to apply stash. Error: "
+msgstr "Primjena skladišta nije uspjela. Pogreška: "
+
+#: stashdialog.cpp:226
+#, kde-format
+msgid "Failed to drop stash. Error: "
+msgstr "Odbacivanje skladišta nije uspjelo. Pogreška: "
+
+#: stashdialog.cpp:228
+#, kde-format
+msgid "Failed to pop stash. Error: "
+msgstr "Primjena i uklanjanje skladišta nije uspjelo. Pogreška: "
+
+#: stashdialog.cpp:232
+#, kde-format
+msgid "Stash applied successfully."
+msgstr "Skladište je uspješno primijenjeno."
+
+#: stashdialog.cpp:234
+#, kde-format
+msgid "Stash dropped successfully."
+msgstr "Skladište je uspješno odbačeno."
+
+#: stashdialog.cpp:236
+#, kde-format
+msgid "Stash popped successfully."
+msgstr "Skladište je uspješno primijenjeno i uklonjeno."
+
+#: stashdialog.cpp:266
+#, kde-format
+msgid "Show stash failed. Error: "
+msgstr "Prikaz skladišta nije uspio. Pogreška: "
+
+#: stashdialog.cpp:269
+#, kde-format
+msgid "Diff - stash"
+msgstr "Razlike – skladište"
+
+#: tools/clazy.h:25
+#, kde-format
+msgid "Clazy (Qt/C++)"
+msgstr "Clazy (Qt/C++)"
+
+#: tools/clazy.h:30
+#, kde-format
+msgid "Clazy is a static analysis tool for Qt/C++ code"
+msgstr "Clazy je alat za statičku analizu koda Qt/C++."
+
+#: tools/clazy.h:71
+#, kde-format
+msgid "Please install 'clazy'"
+msgstr "Instalirajte „clazy”."
+
+#: tools/clazycurrent.h:24
+#, kde-format
+msgid "Clazy - Current File"
+msgstr "Clazy – trenutačna datoteka"
+
+#: tools/clazycurrent.h:29
+#, kde-format
+msgid "clang-tidy is a clang-based C++ “linter” tool"
+msgstr "clang-tidy je alat za statičku analizu koda C++ temeljen na Clangu"
+
+#: tools/clippy.h:27
+#, kde-format
+msgid "Clippy (Rust)"
+msgstr "Clippy (Rust)"
+
+#: tools/clippy.h:32
+#, kde-format
+msgid "Clippy is a static analysis tool for Rust code"
+msgstr "Clippy je alat za statičku analizu koda Rust."
+
+#: tools/clippy.h:95
+#, kde-format
+msgid "Please install 'cargo'"
+msgstr "Instalirajte „cargo”."
+
+#: tools/cppcheck.h:26
+#, kde-format
+msgid "Cppcheck (C++)"
+msgstr "Cppcheck (C++)"
+
+#: tools/cppcheck.h:31
+#, kde-format
+msgid "Cppcheck is a static analysis tool for C/C++ code"
+msgstr "Cppcheck je alat za statičku analizu koda C/C++."
+
+#: tools/cppcheck.h:64
+#, kde-format
+msgid "Please install 'cppcheck'"
+msgstr "Instalirajte „cppcheck”."
+
+#: tools/eslint.h:23
+#, kde-format
+msgid "ESLint"
+msgstr "ESLint"
+
+#: tools/eslint.h:28
+#, kde-format
+msgid ""
+"ESLint is a static analysis tool & style guide enforcer for JavaScript/"
+"Typescript code"
+msgstr "ESLint je alat za statičku analizu i nametanje stilskih pravila za JavaScript/TypeScript."
+
+#: tools/eslint.h:67
+#, kde-format
+msgid "Please install 'eslint'"
+msgstr "Instalirajte „eslint”."
+
+#: tools/flake8.h:26
+#, kde-format
+msgid "Flake8 (Python)"
+msgstr "Flake8 (Python)"
+
+#: tools/flake8.h:31
+#, kde-format
+msgid "Flake8: Your Tool For Style Guide Enforcement for Python"
+msgstr "Flake8: alat za nametanje stilskih pravila za Python"
+
+#: tools/flake8.h:77
+#, kde-format
+msgid "Please install 'flake8'"
+msgstr "Instalirajte „flake8”."
+
+#: tools/ruff.h:28
+#, kde-format
+msgid "Ruff (Python)"
+msgstr "Ruff (Python)"
+
+#: tools/ruff.h:33
+#, kde-format
+msgid "An extremely fast Python linter"
+msgstr "Izuzetno brz alat za statičku analizu koda Python"
+
+#: tools/ruff.h:64
+#, kde-format
+msgid ""
+"Ruff is not installed. Please use your package manager to install it. See "
+"https://docs.astral.sh/ruff/installation/"
+msgstr "Ruff nije instaliran. Instalirajte ga pomoću upravitelja paketima. Pogledajte https://docs.astral.sh/ruff/installation/"
+
+#: tools/shellcheck.h:24
+#, kde-format
+msgid "ShellCheck (sh/bash)"
+msgstr "ShellCheck (sh/bash)"
+
+#: tools/shellcheck.h:29
+#, kde-format
+msgid "ShellCheck is a static analysis and linting tool for sh/bash scripts"
+msgstr "ShellCheck je alat za statičku analizu i provjeru skripti sh/bash."
+
+#: tools/shellcheck.h:73
+#, kde-format
+msgid "Please install ShellCheck (see https://www.shellcheck.net)"
+msgstr "Instalirajte ShellCheck (pogledajte https://www.shellcheck.net)."
+
+#: tools/tidy.h:24
+#, kde-format
+msgid "Html Tidy"
+msgstr "Html Tidy"
+
+#: tools/tidy.h:29
+#, kde-format
+msgid "Runs html tidy on current file"
+msgstr "Pokreće html tidy nad trenutačnom datotekom"
+
+#: tools/tidy.h:64
+#, kde-format
+msgid ""
+"Html tidy is not installed. Please use your package manager to install it. "
+"See https://www.html-tidy.org/"
+msgstr "Html tidy nije instaliran. Instalirajte ga pomoću upravitelja paketima. Pogledajte https://www.html-tidy.org/"
+
+#. i18n: ectx: Menu (projects)
+#: ui.rc:9
+#, kde-format
+msgid "&Projects"
+msgstr "&Projekti"
+
+#. i18n: ectx: ToolBar (projectplugin)
+#: ui.rc:30
+#, kde-format
+msgid "Project Plugin"
+msgstr "Dodatak za projekte"
