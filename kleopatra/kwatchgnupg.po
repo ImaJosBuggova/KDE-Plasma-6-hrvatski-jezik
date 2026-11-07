@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kleopatra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: kleopatra\nReport-Msgid-Bugs-To: https://bugs.kde.org\nPOT-Creation-Date: 2026-04-08 00:47+0000\nPO-Revision-Date: 2026-11-07 05:05+0100\nLast-Translator: Roko Tomović <roko@maesdbk.hr>\nLanguage-Team: LANGUAGE <kde-i18n-doc@kde.org>\nLanguage: hr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\nX-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Hrvoje Spoljar, Nikola Planinac, Robert Pezer"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lokalizacija@linux.hr, lokalizacija@linux.hr, lokalizacija@linux.hr"
+
+#: aboutdata.cpp:23
+msgid "Steffen Hansen"
+msgstr "Steffen Hansen"
+
+#: aboutdata.cpp:23
+msgid "Original Author"
+msgstr "Izvorni autor"
+
+#: aboutdata.cpp:28
+#, kde-format
+msgctxt "@title"
+msgid "GnuPG Log Viewer"
+msgstr "Preglednik zapisnika GnuPG-a"
+
+#: aboutdata.cpp:30
+#, kde-format
+msgctxt "@info"
+msgid "Viewer for GnuPG daemon and application logs"
+msgstr "Preglednik zapisnika demona i aplikacija GnuPG-a"
+
+#: aboutdata.cpp:32
+#, kde-format
+msgctxt "@info:credit"
+msgid "© 2019-%1 g10 Code GmbH"
+msgstr "© 2019-%1 g10 Code GmbH"
+
+#: aboutdata.cpp:33
+#, kde-format
+msgid "© 2001-2004 Klarälvdalens Datakonsult AB\n"
+msgstr "© 2001-2004 Klarälvdalens Datakonsult AB\n"
+
+#: kwatchgnupgconfig.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KWatchGnuPG"
+msgstr "Konfiguriraj KWatchGnuPG"
+
+#: kwatchgnupgconfig.cpp:43
+#, kde-format
+msgid "Log Window"
+msgstr "Prozor zapisnika"
+
+#: kwatchgnupgconfig.cpp:55
+#, kde-format
+msgctxt "history size spinbox suffix"
+msgid "%v line"
+msgid_plural "%v lines"
+msgstr[0] "%v redak"
+msgstr[1] "%v retci"
+msgstr[2] "%v retci"
+
+#: kwatchgnupgconfig.cpp:56
+#, kde-format
+msgid "unlimited"
+msgstr "neograničeno"
+
+#: kwatchgnupgconfig.cpp:57
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&History size:"
+msgstr "&Veličina povijesti:"
+
+#: kwatchgnupgconfig.cpp:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Set &Unlimited"
+msgstr "Postavi &neograničeno"
+
+#: kwatchgnupgmainwin.cpp:69
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr "[%1] Zapisnik je očišćen"
+
+#: kwatchgnupgmainwin.cpp:76
+#, kde-format
+msgid "C&lear History"
+msgstr "O&čisti povijest"
+
+#: kwatchgnupgmainwin.cpp:105
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr "[%1] Zapisnik je zaustavljen"
+
+#: kwatchgnupgmainwin.cpp:110
+#, kde-format
+msgid ""
+"The watchgnupg logging program could not be found.\n"
+"Please make sure that watchgnupg is installed."
+msgstr "Nije moguće pronaći program za zapisivanje watchgnupg.\nProvjerite je li watchgnupg instaliran."
+
+#: kwatchgnupgmainwin.cpp:112 kwatchgnupgmainwin.cpp:125
+#, kde-format
+msgctxt "[<timestamp>] Failed to start <path_of_watchgnupg>"
+msgid "[%1] Failed to start %2"
+msgstr "[%1] Pokretanje nije uspjelo: %2"
+
+#: kwatchgnupgmainwin.cpp:123
+#, kde-format
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please make sure that watchgnupg is installed properly."
+msgstr "Nije moguće pokrenuti postupak zapisivanja watchgnupg.\nProvjerite je li watchgnupg ispravno instaliran."
+
+#: kwatchgnupgmainwin.cpp:131
+#, kde-format
+msgid "[%1] Log started"
+msgstr "[%1] Zapisivanje je pokrenuto"
+
+#: kwatchgnupgmainwin.cpp:140
+#, kde-format
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr "Postupak zapisivanja watchgnupg neočekivano je završio.\nŽelite li ga pokušati ponovno pokrenuti?"
+
+#: kwatchgnupgmainwin.cpp:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Try Restart"
+msgstr "Pokušaj ponovnog pokretanja"
+
+#: kwatchgnupgmainwin.cpp:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Try"
+msgstr "Nemoj pokušavati"
+
+#: kwatchgnupgmainwin.cpp:145
+#, kde-format
+msgid "====== Restarting logging process ====="
+msgstr "====== Ponovno pokretanje postupka zapisivanja ====="
+
+#: kwatchgnupgmainwin.cpp:149
+#, kde-format
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr "Postupak zapisivanja watchgnupg nije pokrenut.\nOvaj prozor zapisnika ne može prikazati korisne informacije."
+
+#: kwatchgnupgmainwin.cpp:173
+#, kde-format
+msgid "Save Log to File"
+msgstr "Spremi zapisnik u datoteku"
+
+#: kwatchgnupgmainwin.cpp:181
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr "Nije moguće spremiti datoteku %1: %2"
+
+#. i18n: ectx: Menu (file)
+#: kwatchgnupgui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "Nije uspjelo."
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kwatchgnupgui.rc:13
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Traka za traženje"

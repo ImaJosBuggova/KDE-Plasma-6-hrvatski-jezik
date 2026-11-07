@@ -1,0 +1,2995 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kmplot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: kmplot\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-11 00:39+0000\n"
+"PO-Revision-Date: 2026-11-07 05:05+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: calculator.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Calculator"
+msgstr "Kalkulator"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConstantsEditor)
+#: constantseditor.ui:14
+#, kde-format
+msgid "Constant Editor"
+msgstr "Uređivač konstanti"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, valueInvalidLabel)
+#: constantseditor.ui:26 qparametereditor.ui:22
+#, kde-format
+msgid "The value must be a number (e.g. \"pi^2\")"
+msgstr "Vrijednost mora biti broj (npr. \"pi^2\")"
+
+#. i18n: ectx: property (text), widget (QLabel, valueInvalidLabel)
+#: constantseditor.ui:29 qparametereditor.ui:25
+#, kde-format
+msgid "(invalid)"
+msgstr "(nevaljano)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: constantseditor.ui:54
+#, kde-format
+msgid "Value:"
+msgstr "Vrijednost:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: constantseditor.ui:64
+#, kde-format
+msgid "Constant:"
+msgstr "Konstanta:"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, valueEdit)
+#: constantseditor.ui:74
+#, kde-format
+msgid "Enter an expression that evaluates to a number"
+msgstr "Unesite izraz čiji je rezultat broj"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cmdNew)
+#: constantseditor.ui:83 qparametereditor.ui:39
+#, kde-format
+msgid "Add a new constant"
+msgstr "Dodaj novu konstantu"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cmdNew)
+#: constantseditor.ui:86 qparametereditor.ui:42
+#, kde-format
+msgid "Click this button to add a new constant."
+msgstr "Kliknite ovaj gumb da biste dodali novu konstantu."
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdNew)
+#: constantseditor.ui:89 qparametereditor.ui:45
+#, kde-format
+msgid "&New"
+msgstr "&Novo"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, constantList)
+#: constantseditor.ui:103
+#, kde-format
+msgid "Constant"
+msgstr "Konstanta"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, constantList)
+#: constantseditor.ui:108
+#, kde-format
+msgid "Value"
+msgstr "Vrijednost"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, constantList)
+#: constantseditor.ui:113
+#, kde-format
+msgid "Document"
+msgstr "Dokument"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, constantList)
+#: constantseditor.ui:118
+#, kde-format
+msgid "Global"
+msgstr "Globalno"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cmdDelete)
+#: constantseditor.ui:142
+#, kde-format
+msgid "Delete the selected constant"
+msgstr "Izbriši odabranu konstantu"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cmdDelete)
+#: constantseditor.ui:145 qparametereditor.ui:58
+#, kde-format
+msgid ""
+"Click here to delete the selected constant; it can only be removed if it is "
+"not currently used by a plot."
+msgstr "Kliknite ovdje da biste izbrisali odabranu konstantu. Može se ukloniti samo ako se trenutačno ne upotrebljava u grafu."
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdDelete)
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: constantseditor.ui:148 functioneditorwidget.ui:56 qparametereditor.ui:61
+#, kde-format
+msgid "&Delete"
+msgstr "&Izbriši"
+
+#: coordsconfigdialog.cpp:42
+#, kde-format
+msgid "Coordinates"
+msgstr "Koordinate"
+
+#: coordsconfigdialog.cpp:42
+#, kde-format
+msgid "Coordinate System"
+msgstr "Koordinatni sustav"
+
+#: coordsconfigdialog.cpp:43
+#, kde-format
+msgctxt "@title:window"
+msgid "Coordinate System"
+msgstr "Koordinatni sustav"
+
+#: coordsconfigdialog.cpp:76 coordsconfigdialog.cpp:102
+#, kde-format
+msgid "The minimum range value must be lower than the maximum range value"
+msgstr "Najmanja vrijednost raspona mora biti manja od najveće vrijednosti raspona"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: editcoords.ui:20
+#, kde-format
+msgid "Horizontal axis Range"
+msgstr "Raspon vodoravne osi"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
+#. i18n: ectx: property (text), widget (QCheckBox, cartesianCustomMax)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: editcoords.ui:32 editcoords.ui:116 functioneditorwidget.ui:135
+#: functioneditorwidget.ui:496 functioneditorwidget.ui:627
+#: functiontools.ui:49 sliderwidget.ui:80
+#, kde-format
+msgid "Max:"
+msgstr "Maks.:"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, kcfg_XMax)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, kcfg_XMin)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, kcfg_YMax)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, kcfg_YMin)
+#: editcoords.ui:45 editcoords.ui:55 editcoords.ui:93 editcoords.ui:129
+#, kde-format
+msgid "Custom boundary of the plot range"
+msgstr "Prilagođena granica raspona grafa"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, kcfg_XMax)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, kcfg_XMin)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, kcfg_YMax)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, kcfg_YMin)
+#: editcoords.ui:48 editcoords.ui:58 editcoords.ui:96 editcoords.ui:132
+#, kde-format
+msgid "Enter a valid expression, for instance 2*pi or e/2."
+msgstr "Unesite valjan izraz, primjerice 2*pi ili e/2."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_4)
+#. i18n: ectx: property (text), widget (QCheckBox, cartesianCustomMin)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: editcoords.ui:65 editcoords.ui:103 functioneditorwidget.ui:148
+#: functioneditorwidget.ui:486 functioneditorwidget.ui:617
+#: functiontools.ui:29 sliderwidget.ui:57
+#, kde-format
+msgid "Min:"
+msgstr "Min.:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: editcoords.ui:81
+#, kde-format
+msgid "Vertical axis Range"
+msgstr "Raspon okomite osi"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_XScalingMode)
+#: editcoords.ui:142
+#, kde-format
+msgid "Horizontal axis Grid Spacing"
+msgstr "Razmak mreže vodoravne osi"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton)
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton_3)
+#: editcoords.ui:148 editcoords.ui:184
+#, kde-format
+msgid ""
+"Automatic grid spacing is independent of zoom; there will be a fixed number "
+"of tics."
+msgstr "Automatski razmak mreže ne ovisi o zumiranju; broj podjela osi ostaje stalan."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
+#: editcoords.ui:151 editcoords.ui:187
+#, kde-format
+msgid "Automatic"
+msgstr "Automatski"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
+#: editcoords.ui:161 editcoords.ui:197
+#, kde-format
+msgid "Custom:"
+msgstr "Prilagođeno:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_YScalingMode)
+#: editcoords.ui:178
+#, kde-format
+msgid "Vertical axis Grid Spacing"
+msgstr "Razmak mreže okomite osi"
+
+#: equationeditor.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Equation Editor"
+msgstr "Jednadžba Uređivač"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: equationeditorwidget.ui:31
+#, kde-format
+msgid "Expression:"
+msgstr "Izraz:"
+
+#. i18n: ectx: property (text), widget (QPushButton, constantsButton)
+#: equationeditorwidget.ui:54
+#, kde-format
+msgid "Edit Constants..."
+msgstr "Uredi konstante..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, constantList)
+#: equationeditorwidget.ui:75
+#, kde-format
+msgid "Insert constant..."
+msgstr "Umetni konstantu..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, functionList)
+#: equationeditorwidget.ui:84
+#, kde-format
+msgid "Insert function..."
+msgstr "Umetni funkciju..."
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_3)
+#: equationeditorwidget.ui:129
+#, kde-format
+msgid "²"
+msgstr "²"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_26)
+#: equationeditorwidget.ui:136
+#, kde-format
+msgid "±"
+msgstr "±"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_28)
+#: equationeditorwidget.ui:149
+#, kde-format
+msgid "⁶"
+msgstr "⁶"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_20)
+#: equationeditorwidget.ui:156
+#, kde-format
+msgid "√"
+msgstr "√"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_4)
+#: equationeditorwidget.ui:169
+#, kde-format
+msgid "³"
+msgstr "³"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_18)
+#: equationeditorwidget.ui:182
+#, kde-format
+msgid "∣"
+msgstr "∣"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_19)
+#: equationeditorwidget.ui:189
+#, kde-format
+msgid "≥"
+msgstr "≥"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_27)
+#: equationeditorwidget.ui:196
+#, kde-format
+msgid "≤"
+msgstr "≤"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_25)
+#: equationeditorwidget.ui:209
+#, kde-format
+msgid "⁵"
+msgstr "⁵"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_5)
+#: equationeditorwidget.ui:222
+#, kde-format
+msgid "⁴"
+msgstr "⁴"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_2)
+#: equationeditorwidget.ui:261
+#, kde-format
+msgid "π"
+msgstr "π"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_29)
+#: equationeditorwidget.ui:274
+#, kde-format
+msgid "τ"
+msgstr "τ"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_16)
+#: equationeditorwidget.ui:281
+#, kde-format
+msgid "ω"
+msgstr "ω"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_12)
+#: equationeditorwidget.ui:288
+#, kde-format
+msgid "β"
+msgstr "β"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_14)
+#: equationeditorwidget.ui:295
+#, kde-format
+msgid "α"
+msgstr "α"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton)
+#: equationeditorwidget.ui:308
+#, kde-format
+msgid "λ"
+msgstr "λ"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_13)
+#: equationeditorwidget.ui:321
+#, kde-format
+msgid "μ"
+msgstr "μ"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_15)
+#: equationeditorwidget.ui:328
+#, kde-format
+msgid "φ"
+msgstr "φ"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_11)
+#: equationeditorwidget.ui:341
+#, kde-format
+msgid "θ"
+msgstr "θ"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_24)
+#: equationeditorwidget.ui:374
+#, kde-format
+msgid "⅘"
+msgstr "⅘"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_21)
+#: equationeditorwidget.ui:381
+#, kde-format
+msgid "⅕"
+msgstr "⅕"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_8)
+#: equationeditorwidget.ui:388
+#, kde-format
+msgid "¼"
+msgstr "¼"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_9)
+#: equationeditorwidget.ui:395
+#, kde-format
+msgid "⅔"
+msgstr "⅔"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_22)
+#: equationeditorwidget.ui:402
+#, kde-format
+msgid "⅖"
+msgstr "⅖"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_23)
+#: equationeditorwidget.ui:409
+#, kde-format
+msgid "⅗"
+msgstr "⅗"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_10)
+#: equationeditorwidget.ui:416
+#, kde-format
+msgid "¾"
+msgstr "¾"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_7)
+#: equationeditorwidget.ui:423
+#, kde-format
+msgid "½"
+msgstr "½"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_6)
+#: equationeditorwidget.ui:430
+#, kde-format
+msgid "⅓"
+msgstr "⅓"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_17)
+#: equationeditorwidget.ui:437
+#, kde-format
+msgid "⅙"
+msgstr "⅙"
+
+#: functioneditor.cpp:46
+#, kde-format
+msgid "Functions"
+msgstr "Funkcije"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: functioneditorwidget.ui:50
+#, kde-format
+msgid "delete the selected function"
+msgstr "izbriši odabranu funkciju"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
+#: functioneditorwidget.ui:53
+#, kde-format
+msgid "Click here to delete the selected function from the list."
+msgstr "Kliknite ovdje da biste izbrisali odabranu funkciju s popisa."
+
+#. i18n: ectx: property (text), widget (QPushButton, createNewPlot)
+#: functioneditorwidget.ui:76
+#, kde-format
+msgid "Create"
+msgstr "Stvori"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: functioneditorwidget.ui:102 functioneditorwidget.ui:742
+#, kde-format
+msgid "Function"
+msgstr "Funkcija"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: functioneditorwidget.ui:117
+#, kde-format
+msgid "Custom plot range"
+msgstr "Prilagođeni raspon grafa"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cartesianCustomMax)
+#: functioneditorwidget.ui:129
+#, kde-format
+msgid "Customize the maximum plot range"
+msgstr "Customize  maksimum graf raspon"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cartesianCustomMax)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cartesianCustomMin)
+#: functioneditorwidget.ui:132 functioneditorwidget.ui:145
+#, kde-format
+msgid "Check this button and enter the plot range boundaries below."
+msgstr "Označite ovaj gumb i unesite granice raspona grafa u nastavku."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cartesianCustomMin)
+#: functioneditorwidget.ui:142
+#, kde-format
+msgid "Customize the minimum plot range"
+msgstr "Customize  minimum graf raspon"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, cartesianMin)
+#: functioneditorwidget.ui:158
+#, kde-format
+msgid "lower boundary of the plot range"
+msgstr "donji granica od  graf raspon"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, cartesianMin)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, parametricMin)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, polarMin)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, min)
+#: functioneditorwidget.ui:161 functioneditorwidget.ui:512
+#: functioneditorwidget.ui:600 functiontools.ui:42
+#, kde-format
+msgid ""
+"Enter the lower boundary of the plot range. Expressions like 2*pi are "
+"allowed, too."
+msgstr "Unesite donju granicu raspona grafa. Dopušteni su i izrazi poput 2*pi."
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, cartesianMax)
+#: functioneditorwidget.ui:171
+#, kde-format
+msgid "upper boundary of the plot range"
+msgstr "gornji granica od  graf raspon"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, cartesianMax)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, parametricMax)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, polarMax)
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, max)
+#: functioneditorwidget.ui:174 functioneditorwidget.ui:525
+#: functioneditorwidget.ui:610 functiontools.ui:62
+#, kde-format
+msgid ""
+"Enter the upper boundary of the plot range. Expressions like 2*pi are "
+"allowed, too."
+msgstr "Unesite gornju granicu raspona grafa. Dopušteni su i izrazi poput 2*pi."
+
+#. i18n: ectx: property (title), widget (ParametersWidget, cartesianParameters)
+#. i18n: ectx: property (title), widget (ParametersWidget, parametricParameters)
+#. i18n: ectx: property (title), widget (ParametersWidget, polarParameters)
+#. i18n: ectx: property (title), widget (ParametersWidget, implicitParameters)
+#. i18n: ectx: property (title), widget (ParametersWidget, differentialParameters)
+#. i18n: ectx: property (windowTitle), widget (QWidget, ParametersWidget)
+#: functioneditorwidget.ui:184 functioneditorwidget.ui:535
+#: functioneditorwidget.ui:640 functioneditorwidget.ui:714
+#: functioneditorwidget.ui:796 parameterswidget.ui:13 view.cpp:2131
+#, kde-format
+msgid "Parameters"
+msgstr "Parametri"
+
+#. i18n: ectx: property (title), widget (PlotStyleWidget, cartesian_f0)
+#. i18n: ectx: property (title), widget (PlotStyleWidget, cartesian_integral)
+#. i18n: ectx: property (title), widget (PlotStyleWidget, parametric_f0)
+#. i18n: ectx: property (title), widget (PlotStyleWidget, polar_f0)
+#. i18n: ectx: property (title), widget (PlotStyleWidget, implicit_f0)
+#. i18n: ectx: property (title), widget (PlotStyleWidget, differential_f0)
+#: functioneditorwidget.ui:191 functioneditorwidget.ui:378
+#: functioneditorwidget.ui:542 functioneditorwidget.ui:647
+#: functioneditorwidget.ui:721 functioneditorwidget.ui:803
+#, kde-format
+msgid "Appearance"
+msgstr "Izgled"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: functioneditorwidget.ui:199
+#, kde-format
+msgid "Derivatives"
+msgstr "Derivacije"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showDerivative1)
+#: functioneditorwidget.ui:211
+#, kde-format
+msgid "Show first derivative"
+msgstr "Prikaži prvi derivacija"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showDerivative1)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showDerivative2)
+#: functioneditorwidget.ui:214 functioneditorwidget.ui:237
+#, kde-format
+msgid "If this box is checked, the first derivative will be plotted, too."
+msgstr "Ako je ovaj okvir označen, prikazat će se i prva derivacija."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showDerivative1)
+#: functioneditorwidget.ui:217
+#, kde-format
+msgid "Show &1st derivative"
+msgstr "Prikaži &1st derivacija"
+
+#. i18n: ectx: property (title), widget (PlotStyleWidget, cartesian_f1)
+#: functioneditorwidget.ui:227
+#, kde-format
+msgid "1st derivative"
+msgstr "1st derivacija"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showDerivative2)
+#: functioneditorwidget.ui:234
+#, kde-format
+msgid "Show second derivative"
+msgstr "Prikaži drugi derivacija"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showDerivative2)
+#: functioneditorwidget.ui:240
+#, kde-format
+msgid "Show &2nd derivative"
+msgstr "Prikaži &2nd derivacija"
+
+#. i18n: ectx: property (title), widget (PlotStyleWidget, cartesian_f2)
+#: functioneditorwidget.ui:250
+#, kde-format
+msgid "2nd derivative"
+msgstr "2nd derivacija"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: functioneditorwidget.ui:258
+#, kde-format
+msgid "Integral"
+msgstr "Integral"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showIntegral)
+#. i18n: ectx: property (text), widget (QCheckBox, showIntegral)
+#: functioneditorwidget.ui:267 functioneditorwidget.ui:273
+#, kde-format
+msgid "Show integral"
+msgstr "Prikaži integral"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showIntegral)
+#: functioneditorwidget.ui:270
+#, kde-format
+msgid "If this box is checked, the integral will be plotted, too."
+msgstr "Ako ovaj okvir je označen,  integral će biti plotted, također."
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_6)
+#: functioneditorwidget.ui:283
+#, kde-format
+msgid "A point on the solution curve"
+msgstr " točka na  solution curve"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: functioneditorwidget.ui:286
+#, kde-format
+msgid "Initial Point"
+msgstr "Početni Točka"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5)
+#: functioneditorwidget.ui:298
+#, kde-format
+msgid "&x:"
+msgstr "&x:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2)
+#: functioneditorwidget.ui:308
+#, kde-format
+msgid "&y:"
+msgstr "&y:"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, txtInitX)
+#: functioneditorwidget.ui:318
+#, kde-format
+msgid "Enter the initial x-point,for instance 2 or pi"
+msgstr "Unesite  početni x-point,za instance 2 ili pi"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, txtInitX)
+#: functioneditorwidget.ui:321
+#, kde-format
+msgid ""
+"Enter the initial x-value or expression for the integral, for example 2 or "
+"pi/2"
+msgstr "Unesite  početni x-value ili izraz za  integral, za primjer 2 ili pi/2"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, txtInitY)
+#: functioneditorwidget.ui:328
+#, kde-format
+msgid "enter the initial y-point, eg 2 or pi"
+msgstr "unesite  početni y-point, eg 2 ili pi"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, txtInitY)
+#: functioneditorwidget.ui:331
+#, kde-format
+msgid ""
+"Enter the initial y-value or expression for the integral, for example 2 or "
+"pi/2"
+msgstr "Unesite  početni y-value ili izraz za  integral, za primjer 2 ili pi/2"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_8)
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_10)
+#: functioneditorwidget.ui:344 functioneditorwidget.ui:765
+#, kde-format
+msgid "The maximum step size used in numerically calculating the solution"
+msgstr " maksimum korak size upotrijebljen u numerically calculating  solution"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_10)
+#: functioneditorwidget.ui:347 functioneditorwidget.ui:768
+#, kde-format
+msgid "Precision"
+msgstr "Precision"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: functioneditorwidget.ui:359 functioneditorwidget.ui:780
+#: parameteranimator.ui:71
+#, kde-format
+msgid "Step:"
+msgstr "Korak:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_12)
+#: functioneditorwidget.ui:412 functioneditorwidget.ui:559
+#: functioneditorwidget.ui:664
+#, kde-format
+msgid "Definition"
+msgstr "Definition"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelX)
+#: functioneditorwidget.ui:424
+#, kde-format
+msgid "x:"
+msgstr "x:"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, parametricX)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, parametricY)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, implicitEquation)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, differentialEquation)
+#: functioneditorwidget.ui:434 functioneditorwidget.ui:459
+#: functioneditorwidget.ui:700 functioneditorwidget.ui:751
+#, kde-format
+msgid "Enter an expression"
+msgstr "Unesite  izraz"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, parametricX)
+#: functioneditorwidget.ui:439
+#, kde-format
+msgid ""
+"Enter an expression for the function.\n"
+"The dummy variable is t.\n"
+"Example: cos(t)"
+msgstr "Unesite izraz funkcije.\nPomoćna varijabla je t.\nPrimjer: cos(t)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelY)
+#: functioneditorwidget.ui:449
+#, kde-format
+msgid "y:"
+msgstr "y:"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, parametricY)
+#: functioneditorwidget.ui:464
+#, kde-format
+msgid ""
+"Enter an expression for the function.\n"
+"The dummy variable is t.\n"
+"Example: sin(t)"
+msgstr "Unesite izraz funkcije.\nPomoćna varijabla je t.\nPrimjer: sin(t)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#: functioneditorwidget.ui:474
+#, kde-format
+msgid "Plot range"
+msgstr "Raspon grafa"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, parametricMin)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, polarMin)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, min)
+#: functioneditorwidget.ui:509 functioneditorwidget.ui:597
+#: functiontools.ui:39
+#, kde-format
+msgid "Lower boundary of the plot range"
+msgstr "Donji granica od  graf raspon"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, parametricMax)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, polarMax)
+#. i18n: ectx: property (toolTip), widget (EquationEdit, max)
+#: functioneditorwidget.ui:522 functioneditorwidget.ui:607
+#: functiontools.ui:59
+#, kde-format
+msgid "Upper boundary of the plot range"
+msgstr "Gornji granica od  graf raspon"
+
+#. i18n: ectx: property (toolTip), widget (EquationEdit, polarEquation)
+#: functioneditorwidget.ui:571
+#, kde-format
+msgid "Enter an equation"
+msgstr "Unesite  jednadžba"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, polarEquation)
+#: functioneditorwidget.ui:575
+#, kde-format
+msgid ""
+"Enter an expression for the function. \n"
+"Example: loop(a)=ln(a)"
+msgstr "Unesite izraz funkcije. \nPrimjer: loop(a)=ln(a)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_13)
+#: functioneditorwidget.ui:585
+#, kde-format
+msgid "Plot Range"
+msgstr "Raspon grafa"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, implicitName)
+#: functioneditorwidget.ui:676
+#, kde-format
+msgid "Name of the function"
+msgstr "Naziv od  funkcija"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, implicitName)
+#: functioneditorwidget.ui:680
+#, kde-format
+msgid ""
+"Enter the name of the function.\n"
+"The name of a function must be unique. If you leave this line empty KmPlot "
+"will set a default name. You can change it later."
+msgstr "Unesite  naziv od  funkcija.\n naziv od  funkcija mora biti unique. Ako vi leave ovaj redak prazan KmPlot će set  zadani naziv. Vi može promjena ga later."
+
+#. i18n: ectx: property (text), widget (KLineEdit, implicitName)
+#: functioneditorwidget.ui:683
+#, kde-format
+msgid "f(x,y)"
+msgstr "f(x,y)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: functioneditorwidget.ui:690
+#, kde-format
+msgid "Name:"
+msgstr "Naziv:"
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, implicitEquation)
+#: functioneditorwidget.ui:704
+#, kde-format
+msgid ""
+"Enter an expression for the function.\n"
+"Example: x^2 + y^2 = 25."
+msgstr "Unesite izraz funkcije.\nPrimjer: x^2 + y^2 = 25."
+
+#. i18n: ectx: property (whatsThis), widget (EquationEdit, differentialEquation)
+#: functioneditorwidget.ui:755
+#, kde-format
+msgid ""
+"Enter an expression for the function.\n"
+"Example: f''(x) = -f"
+msgstr "Unesite izraz funkcije.\nPrimjer: f''(x) = -f"
+
+#. i18n: ectx: property (text), widget (EquationEdit, differentialEquation)
+#: functioneditorwidget.ui:758
+#, kde-format
+msgid "f''(x) = -f"
+msgstr "f''(x) = -f"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#. i18n: ectx: property (windowTitle), widget (QWidget, InitialConditionsWidget)
+#: functioneditorwidget.ui:811 initialconditionswidget.ui:13
+#, kde-format
+msgid "Initial Conditions"
+msgstr "Početni uvjeti"
+
+#: functiontools.cpp:59 functiontools.cpp:65
+#, kde-format
+msgid "Search between:"
+msgstr "Traži između:"
+
+#: functiontools.cpp:60
+#, kde-format
+msgctxt "@title:window"
+msgid "Find Minimum Point"
+msgstr "Pronađi točku minimuma"
+
+#: functiontools.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "Find Maximum Point"
+msgstr "Pronađi točku maksimuma"
+
+#: functiontools.cpp:71
+#, kde-format
+msgid "Calculate the area between:"
+msgstr "Izračunaj površinu između:"
+
+#: functiontools.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Area Under Graph"
+msgstr "Površina ispod grafa"
+
+#: functiontools.cpp:180
+#, kde-format
+msgid "Minimum is at x = %1, %2(x) = %3"
+msgstr "Minimum je u x = %1, %2(x) = %3"
+
+#: functiontools.cpp:194
+#, kde-format
+msgid "Maximum is at x = %1, %2(x) = %3"
+msgstr "Maksimum je u x = %1, %2(x) = %3"
+
+#: functiontools.cpp:214
+#, kde-format
+msgid "Area is %1"
+msgstr "Površina iznosi %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, FunctionTools)
+#: functiontools.ui:14
+#, kde-format
+msgid "Function Tools"
+msgstr "Alati za funkcije"
+
+#. i18n: ectx: property (text), widget (QLabel, rangeTitle)
+#: functiontools.ui:22
+#, kde-format
+msgid "<>:"
+msgstr "<>:"
+
+#. i18n: ectx: property (text), widget (QLabel, rangeResult)
+#: functiontools.ui:69
+#, kde-format
+msgid "<>"
+msgstr "<>"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: initialconditionswidget.ui:49
+#, kde-format
+msgid "Remove"
+msgstr "Ukloni"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: initialconditionswidget.ui:56
+#, kde-format
+msgid "Add..."
+msgstr "Dodaj..."
+
+#: kconstanteditor.cpp:54
+#, kde-format
+msgctxt "@title:window"
+msgid "Constants Editor"
+msgstr "Konstantas Uređivač"
+
+#: kconstanteditor.cpp:116
+#, kde-format
+msgid "Check this to have the constant exported when saving."
+msgstr "Označite ovaj za have  konstanta exported kada spremanje."
+
+#: kconstanteditor.cpp:119
+#, kde-format
+msgid ""
+"Check this to have the constant permanently available between instances of "
+"KmPlot."
+msgstr "Označite ovaj za have  konstanta trajno dostupan between instances od KmPlot."
+
+#: kgradientdialog.cpp:339
+#, kde-format
+msgid "(Double-click on the gradient to add a stop)"
+msgstr "(Dvokliknite gradijent da biste dodali zaustavnu točku)"
+
+#: kgradientdialog.cpp:340
+#, kde-format
+msgid "Remove stop"
+msgstr "Ukloni zaustavnu točku"
+
+#: kgradientdialog.cpp:364
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a Gradient"
+msgstr "Odabir gradijenta"
+
+#: kmplot.cpp:71
+#, kde-format
+msgid "Could not find KmPlot's part."
+msgstr "Nije moguće pronaći komponentu programa KmPlot."
+
+#: kmplot.cpp:170 maindlg.cpp:508
+#, kde-format
+msgid "KmPlot Files (*.fkt);;All Files (*)"
+msgstr "Datoteke KmPlota (*.fkt);;Sve datoteke (*)"
+
+#: kmplot.cpp:170
+#, kde-format
+msgid "Open"
+msgstr "Otvori"
+
+#. i18n: ectx: label, entry (AxesLineWidth), group (Coordinate System)
+#: kmplot.kcfg:12
+#, kde-format
+msgid "Axis-line width"
+msgstr "Širina linije osi"
+
+#. i18n: ectx: whatsthis, entry (AxesLineWidth), group (Coordinate System)
+#: kmplot.kcfg:13
+#, kde-format
+msgid "Enter the width of the axis lines."
+msgstr "Unesite širinu linija osi."
+
+#. i18n: ectx: label, entry (ShowLabel), group (Coordinate System)
+#: kmplot.kcfg:17
+#, kde-format
+msgid "Checked if labels are visible"
+msgstr "Označeno ako su oznake vidljive"
+
+#. i18n: ectx: whatsthis, entry (ShowLabel), group (Coordinate System)
+#: kmplot.kcfg:18
+#, kde-format
+msgid "Check this box if the labels at the tics should be shown."
+msgstr "Označite ovaj okvir ako želite prikazati oznake uz podjele osi."
+
+#. i18n: ectx: label, entry (ShowAxes), group (Coordinate System)
+#: kmplot.kcfg:22
+#, kde-format
+msgid "Checked if axes are visible"
+msgstr "Označeno ako su osi vidljive"
+
+#. i18n: ectx: whatsthis, entry (ShowAxes), group (Coordinate System)
+#: kmplot.kcfg:23
+#, kde-format
+msgid "Check this box if axes should be shown."
+msgstr "Označite ovaj okvir ako želite prikazati osi."
+
+#. i18n: ectx: label, entry (ShowArrows), group (Coordinate System)
+#: kmplot.kcfg:27
+#, kde-format
+msgid "Checked if arrows are visible"
+msgstr "Označeno ako su strelice vidljive"
+
+#. i18n: ectx: whatsthis, entry (ShowArrows), group (Coordinate System)
+#: kmplot.kcfg:28
+#, kde-format
+msgid "Check this box if axes should have arrows."
+msgstr "Označite ovaj okvir ako osi trebaju imati strelice."
+
+#. i18n: ectx: label, entry (GridLineWidth), group (Coordinate System)
+#: kmplot.kcfg:32
+#, kde-format
+msgid "Grid Line Width"
+msgstr "Širina linije mreže"
+
+#. i18n: ectx: whatsthis, entry (GridLineWidth), group (Coordinate System)
+#: kmplot.kcfg:33
+#, kde-format
+msgid "Enter the width of the grid lines."
+msgstr "Unesite širinu linija mreže."
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_GridStyle)
+#. i18n: ectx: label, entry (GridStyle), group (Coordinate System)
+#: kmplot.kcfg:37 settingspagediagram.ui:20
+#, kde-format
+msgid "Grid Style"
+msgstr "Stil mreže"
+
+#. i18n: ectx: whatsthis, entry (GridStyle), group (Coordinate System)
+#: kmplot.kcfg:38
+#, kde-format
+msgid "Choose a suitable grid style."
+msgstr "Odaberite prikladan stil mreže."
+
+#. i18n: ectx: label, entry (TicLength), group (Coordinate System)
+#: kmplot.kcfg:42
+#, kde-format
+msgid "Tic length"
+msgstr "Duljina oznaka na osi"
+
+#. i18n: ectx: whatsthis, entry (TicLength), group (Coordinate System)
+#: kmplot.kcfg:43
+#, kde-format
+msgid "Enter the length of the tic lines"
+msgstr "Unesite duljinu oznaka na osi"
+
+#. i18n: ectx: label, entry (TicWidth), group (Coordinate System)
+#: kmplot.kcfg:47
+#, kde-format
+msgid "Tic width"
+msgstr "Širina oznaka na osi"
+
+#. i18n: ectx: whatsthis, entry (TicWidth), group (Coordinate System)
+#: kmplot.kcfg:48
+#, kde-format
+msgid "Enter the width of the tic lines."
+msgstr "Unesite širinu oznaka na osi."
+
+#. i18n: ectx: label, entry (XMin), group (Coordinate System)
+#: kmplot.kcfg:52
+#, kde-format
+msgid "Left boundary"
+msgstr "Left granica"
+
+#. i18n: ectx: whatsthis, entry (XMin), group (Coordinate System)
+#: kmplot.kcfg:53
+#, kde-format
+msgid "Enter the left boundary of the plotting area."
+msgstr "Unesite  left granica od  crtanje površina."
+
+#. i18n: ectx: label, entry (XMax), group (Coordinate System)
+#: kmplot.kcfg:57
+#, kde-format
+msgid "Right boundary"
+msgstr "Right granica"
+
+#. i18n: ectx: whatsthis, entry (XMax), group (Coordinate System)
+#: kmplot.kcfg:58
+#, kde-format
+msgid "Enter the right boundary of the plotting area."
+msgstr "Unesite  right granica od  crtanje površina."
+
+#. i18n: ectx: label, entry (YMin), group (Coordinate System)
+#: kmplot.kcfg:62
+#, kde-format
+msgid "Lower boundary"
+msgstr "Donji granica"
+
+#. i18n: ectx: whatsthis, entry (YMin), group (Coordinate System)
+#: kmplot.kcfg:63
+#, kde-format
+msgid "Enter the lower boundary of the plotting area."
+msgstr "Unesite  donji granica od  crtanje površina."
+
+#. i18n: ectx: label, entry (YMax), group (Coordinate System)
+#: kmplot.kcfg:67
+#, kde-format
+msgid "Upper boundary"
+msgstr "Gornji granica"
+
+#. i18n: ectx: whatsthis, entry (YMax), group (Coordinate System)
+#: kmplot.kcfg:68
+#, kde-format
+msgid "Enter the upper boundary of the plotting area."
+msgstr "Unesite  gornji granica od  crtanje površina."
+
+#. i18n: ectx: label, entry (LabelHorizontalAxis), group (Coordinate System)
+#: kmplot.kcfg:72
+#, kde-format
+msgid "Label to Horizontal Axis"
+msgstr "Oznaka za Vodoravni Os"
+
+#. i18n: ectx: whatsthis, entry (LabelHorizontalAxis), group (Coordinate System)
+#: kmplot.kcfg:73
+#, kde-format
+msgid "Label to Horizontal Axis."
+msgstr "Oznaka za Vodoravni Os."
+
+#. i18n: ectx: label, entry (LabelVerticalAxis), group (Coordinate System)
+#: kmplot.kcfg:77
+#, kde-format
+msgid "Label to Vertical Axis"
+msgstr "Oznaka za Okomiti Os"
+
+#. i18n: ectx: whatsthis, entry (LabelVerticalAxis), group (Coordinate System)
+#: kmplot.kcfg:78
+#, kde-format
+msgid "Label to Vertical Axis."
+msgstr "Oznaka za Okomiti Os."
+
+#. i18n: ectx: label, entry (XScalingMode), group (Scaling)
+#. i18n: ectx: label, entry (YScalingMode), group (Scaling)
+#: kmplot.kcfg:85 kmplot.kcfg:90
+#, kde-format
+msgid "Whether to use automatic or custom scaling."
+msgstr "Hoće li za upotrijebite automatski ili prilagođeni scaling."
+
+#. i18n: ectx: whatsthis, entry (XScalingMode), group (Scaling)
+#. i18n: ectx: whatsthis, entry (YScalingMode), group (Scaling)
+#: kmplot.kcfg:86 kmplot.kcfg:91
+#, kde-format
+msgid "Select whether to use automatic or custom scaling."
+msgstr "Odaberite hoće li za upotrijebite automatski ili prilagođeni scaling."
+
+#. i18n: ectx: label, entry (XScaling), group (Scaling)
+#: kmplot.kcfg:95
+#, kde-format
+msgid "Width of a unit from tic to tic"
+msgstr "Širina od  jedinica iz oznaka za oznaka"
+
+#. i18n: ectx: whatsthis, entry (XScaling), group (Scaling)
+#: kmplot.kcfg:96
+#, kde-format
+msgid "Enter the width of a unit from tic to tic."
+msgstr "Unesite  širina od  jedinica iz oznaka za oznaka."
+
+#. i18n: ectx: label, entry (YScaling), group (Scaling)
+#: kmplot.kcfg:100
+#, kde-format
+msgid "Height of a unit from tic to tic"
+msgstr "Visina od  jedinica iz oznaka za oznaka"
+
+#. i18n: ectx: whatsthis, entry (YScaling), group (Scaling)
+#: kmplot.kcfg:101
+#, kde-format
+msgid "Enter the height of a unit from tic to tic."
+msgstr "Unesite  visina od  jedinica iz oznaka za oznaka."
+
+#. i18n: ectx: label, entry (AxesFont), group (Fonts)
+#: kmplot.kcfg:108
+#, kde-format
+msgid "Font of the axis labels"
+msgstr "Font od  os oznake"
+
+#. i18n: ectx: whatsthis, entry (AxesFont), group (Fonts)
+#: kmplot.kcfg:109
+#, kde-format
+msgid "Choose a font for the axis labels."
+msgstr "Odaberi  font za  os oznake."
+
+#. i18n: ectx: label, entry (HeaderTableFont), group (Fonts)
+#: kmplot.kcfg:113
+#, kde-format
+msgid "Font of the printed header table"
+msgstr "Font od  printed header tablica"
+
+#. i18n: ectx: whatsthis, entry (HeaderTableFont), group (Fonts)
+#: kmplot.kcfg:114
+#, kde-format
+msgid "Choose a font for the table printed at the top of the page."
+msgstr "Odaberi  font za  tablica printed u  top od  page."
+
+#. i18n: ectx: label, entry (LabelFont), group (Fonts)
+#: kmplot.kcfg:118
+#, kde-format
+msgid "Font of diagram labels"
+msgstr "Font od diagram oznake"
+
+#. i18n: ectx: whatsthis, entry (LabelFont), group (Fonts)
+#: kmplot.kcfg:119
+#, kde-format
+msgid "Choose a font for diagram labels."
+msgstr "Odaberi  font za diagram oznake."
+
+#. i18n: ectx: label, entry (AxesColor), group (Colors)
+#: kmplot.kcfg:126
+#, kde-format
+msgid "Axis-line color"
+msgstr "Axis-line boja"
+
+#. i18n: ectx: whatsthis, entry (AxesColor), group (Colors)
+#: kmplot.kcfg:127
+#, kde-format
+msgid "Enter the color of the axis lines."
+msgstr "Unesite  boja od  os linije."
+
+#. i18n: ectx: label, entry (GridColor), group (Colors)
+#: kmplot.kcfg:131
+#, kde-format
+msgid "Grid Color"
+msgstr "Mreža Boja"
+
+#. i18n: ectx: whatsthis, entry (GridColor), group (Colors)
+#: kmplot.kcfg:132
+#, kde-format
+msgid "Choose a color for the grid lines."
+msgstr "Odaberi  boja za  mreža linije."
+
+#. i18n: ectx: label, entry (Color0), group (Colors)
+#: kmplot.kcfg:136
+#, kde-format
+msgid "Color of function 1"
+msgstr "Boja od funkcija 1"
+
+#. i18n: ectx: whatsthis, entry (Color0), group (Colors)
+#: kmplot.kcfg:137
+#, kde-format
+msgid "Choose a color for function 1."
+msgstr "Odaberi  boja za funkcija 1."
+
+#. i18n: ectx: label, entry (Color1), group (Colors)
+#: kmplot.kcfg:141
+#, kde-format
+msgid "Color of function 2"
+msgstr "Boja od funkcija 2"
+
+#. i18n: ectx: whatsthis, entry (Color1), group (Colors)
+#: kmplot.kcfg:142
+#, kde-format
+msgid "Choose a color for function 2."
+msgstr "Odaberi  boja za funkcija 2."
+
+#. i18n: ectx: label, entry (Color2), group (Colors)
+#: kmplot.kcfg:146
+#, kde-format
+msgid "Color of function 3"
+msgstr "Boja od funkcija 3"
+
+#. i18n: ectx: whatsthis, entry (Color2), group (Colors)
+#: kmplot.kcfg:147
+#, kde-format
+msgid "Choose a color for function 3."
+msgstr "Odaberi  boja za funkcija 3."
+
+#. i18n: ectx: label, entry (Color3), group (Colors)
+#: kmplot.kcfg:151
+#, kde-format
+msgid "Color of function 4"
+msgstr "Boja od funkcija 4"
+
+#. i18n: ectx: whatsthis, entry (Color3), group (Colors)
+#: kmplot.kcfg:152
+#, kde-format
+msgid "Choose a color for function 4."
+msgstr "Odaberi  boja za funkcija 4."
+
+#. i18n: ectx: label, entry (Color4), group (Colors)
+#: kmplot.kcfg:156
+#, kde-format
+msgid "Color of function 5"
+msgstr "Boja od funkcija 5"
+
+#. i18n: ectx: whatsthis, entry (Color4), group (Colors)
+#: kmplot.kcfg:157
+#, kde-format
+msgid "Choose a color for function 5."
+msgstr "Odaberi  boja za funkcija 5."
+
+#. i18n: ectx: label, entry (Color5), group (Colors)
+#: kmplot.kcfg:161
+#, kde-format
+msgid "Color of function 6"
+msgstr "Boja od funkcija 6"
+
+#. i18n: ectx: whatsthis, entry (Color5), group (Colors)
+#: kmplot.kcfg:162
+#, kde-format
+msgid "Choose a color for function 6."
+msgstr "Odaberi  boja za funkcija 6."
+
+#. i18n: ectx: label, entry (Color6), group (Colors)
+#: kmplot.kcfg:166
+#, kde-format
+msgid "Color of function 7"
+msgstr "Boja od funkcija 7"
+
+#. i18n: ectx: whatsthis, entry (Color6), group (Colors)
+#: kmplot.kcfg:167
+#, kde-format
+msgid "Choose a color for function 7."
+msgstr "Odaberi  boja za funkcija 7."
+
+#. i18n: ectx: label, entry (Color7), group (Colors)
+#: kmplot.kcfg:171
+#, kde-format
+msgid "Color of function 8"
+msgstr "Boja od funkcija 8"
+
+#. i18n: ectx: whatsthis, entry (Color7), group (Colors)
+#: kmplot.kcfg:172
+#, kde-format
+msgid "Choose a color for function 8."
+msgstr "Odaberi  boja za funkcija 8."
+
+#. i18n: ectx: label, entry (Color8), group (Colors)
+#: kmplot.kcfg:176
+#, kde-format
+msgid "Color of function 9"
+msgstr "Boja od funkcija 9"
+
+#. i18n: ectx: whatsthis, entry (Color8), group (Colors)
+#: kmplot.kcfg:177
+#, kde-format
+msgid "Choose a color for function 9."
+msgstr "Odaberi  boja za funkcija 9."
+
+#. i18n: ectx: label, entry (Color9), group (Colors)
+#: kmplot.kcfg:181
+#, kde-format
+msgid "Color of function 10"
+msgstr "Boja od funkcija 10"
+
+#. i18n: ectx: whatsthis, entry (Color9), group (Colors)
+#: kmplot.kcfg:182
+#, kde-format
+msgid "Choose a color for function 10."
+msgstr "Odaberi  boja za funkcija 10."
+
+#. i18n: ectx: label, entry (anglemode), group (General)
+#: kmplot.kcfg:189
+#, kde-format
+msgid "Radians instead of degrees"
+msgstr "Radians instead od degrees"
+
+#. i18n: ectx: whatsthis, entry (anglemode), group (General)
+#: kmplot.kcfg:190
+#, kde-format
+msgid "Check the box if you want to use radians"
+msgstr "Označite  okvir ako vi want za upotrijebite radians"
+
+#. i18n: ectx: label, entry (backgroundcolor), group (General)
+#: kmplot.kcfg:194
+#, kde-format
+msgid "Background color"
+msgstr "Pozadina boja"
+
+#. i18n: ectx: whatsthis, entry (backgroundcolor), group (General)
+#: kmplot.kcfg:195
+#, kde-format
+msgid "The background color for the graph"
+msgstr " pozadina boja za  graf"
+
+#. i18n: ectx: label, entry (zoomInStep), group (General)
+#: kmplot.kcfg:199
+#, kde-format
+msgid "Zoom-in step"
+msgstr "Zoom-in korak"
+
+#. i18n: ectx: whatsthis, entry (zoomInStep), group (General)
+#: kmplot.kcfg:200
+#, kde-format
+msgid "The value the zoom-in tool should use"
+msgstr " vrijednost  zoom-in alat treba upotrijebite"
+
+#. i18n: ectx: label, entry (zoomOutStep), group (General)
+#: kmplot.kcfg:204
+#, kde-format
+msgid "Zoom-out step"
+msgstr "Zoom-out korak"
+
+#. i18n: ectx: whatsthis, entry (zoomOutStep), group (General)
+#: kmplot.kcfg:205
+#, kde-format
+msgid "The value the zoom-out tool should use"
+msgstr " vrijednost  zoom-out alat treba upotrijebite"
+
+#. i18n: ectx: label, entry (DetailedTracing), group (General)
+#: kmplot.kcfg:209
+#, kde-format
+msgid "Extra detail when tracing"
+msgstr "Extra detail kada tracing"
+
+#. i18n: ectx: whatsthis, entry (DetailedTracing), group (General)
+#: kmplot.kcfg:210
+#, kde-format
+msgid ""
+"Whether to show extra detail such as the tangent and normal when tracing a "
+"plot."
+msgstr "Hoće li za prikaži extra detail takav kao  tangent i normal kada tracing  graf."
+
+#. i18n: ectx: Menu (edit)
+#: kmplot_part.rc:14 kmplot_part_readonly.rc:9 maindlg.cpp:337
+#, kde-format
+msgid "&Edit"
+msgstr "&Uredi"
+
+#. i18n: ectx: Menu (view)
+#: kmplot_part.rc:20 kmplot_part_readonly.rc:15
+#, kde-format
+msgid "&View"
+msgstr "&View"
+
+#. i18n: ectx: Menu (tools)
+#: kmplot_part.rc:30 kmplot_part_readonly.rc:26
+#, kde-format
+msgid "&Tools"
+msgstr "&Alati"
+
+#. i18n: ectx: Menu (help)
+#: kmplot_part.rc:39 kmplot_part_readonly.rc:35 kmplot_shell.rc:13
+#, kde-format
+msgid "&Help"
+msgstr "&Pomoć"
+
+#. i18n: ectx: Menu (file)
+#: kmplot_shell.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Datoteka"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmplot_shell.rc:17
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Main Toolbar"
+
+#: kmplotio.cpp:288
+#, kde-format
+msgid "The file had an unknown version number"
+msgstr " datoteka had  unknown version broj"
+
+#: kmplotio.cpp:306 kparametereditor.cpp:204
+#, kde-format
+msgid "The file does not exist."
+msgstr " datoteka  ne exist."
+
+#: kmplotio.cpp:313
+#, kde-format
+msgid "An error appeared when opening this file (%1)"
+msgstr " pogreška appeared kada opening ovaj datoteka (%1)"
+
+#: kmplotio.cpp:326
+#, kde-format
+msgid "%1 could not be opened"
+msgstr "%1 može ne biti otvorena"
+
+#: kmplotio.cpp:332
+#, kde-format
+msgid "%1 could not be loaded (%2 at line %3, column %4)"
+msgstr "%1 može ne biti loaded (%2 u redak %3, column %4)"
+
+#: kmplotio.cpp:395
+#, kde-format
+msgid "automatic"
+msgstr "automatski"
+
+#: kmplotio.cpp:720
+#, kde-format
+msgid "The function %1 could not be loaded"
+msgstr " funkcija %1 može ne biti loaded"
+
+#: kparametereditor.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Parameter Editor"
+msgstr "Parametar Uređivač"
+
+#: kparametereditor.cpp:199
+#, kde-format
+msgid "Open Parameter File"
+msgstr "Otvori Parametar Datoteka"
+
+#: kparametereditor.cpp:199 kparametereditor.cpp:269
+#, kde-format
+msgid "Plain Text File (*.txt)"
+msgstr "Običan Tekst Datoteka (*.txt)"
+
+#: kparametereditor.cpp:214
+#, kde-format
+msgid "An error appeared when opening this file: %1"
+msgstr " pogreška appeared kada opening ovaj datoteka: %1"
+
+#: kparametereditor.cpp:243
+#, kde-format
+msgid ""
+"Line %1 is not a valid parameter value and will therefore not be included. "
+"Do you want to continue?"
+msgstr "Redak %1 je ne  valjan parametar vrijednost i će therefore ne biti included.  vi want za continue?"
+
+#: kparametereditor.cpp:249
+#, kde-format
+msgid "Would you like to be informed about other lines that cannot be read?"
+msgstr "Bi vi poput za biti informed about drugi linije taj ne može biti read?"
+
+#: kparametereditor.cpp:251
+#, kde-format
+msgid "Get Informed"
+msgstr "Get Informed"
+
+#: kparametereditor.cpp:252
+#, kde-format
+msgid "Ignore Information"
+msgstr "Ignore Information"
+
+#: kparametereditor.cpp:259
+#, kde-format
+msgid "An error appeared when opening this file"
+msgstr " pogreška appeared kada opening ovaj datoteka"
+
+#: kparametereditor.cpp:269
+#, kde-format
+msgid "Save File"
+msgstr "Spremi Datoteka"
+
+#: kparametereditor.cpp:276
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to continue and "
+"overwrite this file?"
+msgstr " datoteka named \"%1\" već exists. Su vi sure vi want za continue i overwrite ovaj datoteka?"
+
+#: kparametereditor.cpp:277
+#, kde-format
+msgid "Overwrite File?"
+msgstr "Overwrite Datoteka?"
+
+#: kparametereditor.cpp:293 kparametereditor.cpp:300 kparametereditor.cpp:318
+#, kde-format
+msgid "An error appeared when saving this file"
+msgstr " pogreška appeared kada spremanje ovaj datoteka"
+
+#: kprinterdlg.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "KmPlot Options"
+msgstr "KmPlot Mogućnosti"
+
+#: kprinterdlg.cpp:35
+#, kde-format
+msgid "Print header table"
+msgstr "Ispiši header tablica"
+
+#: kprinterdlg.cpp:36
+#, kde-format
+msgid "Transparent background"
+msgstr "Transparent pozadina"
+
+#: kprinterdlg.cpp:45
+#, kde-format
+msgid "Pixels (1/72nd in)"
+msgstr "Pixels (1/72nd u)"
+
+#: kprinterdlg.cpp:46
+#, kde-format
+msgid "Inches (in)"
+msgstr "Inches (u)"
+
+#: kprinterdlg.cpp:47
+#, kde-format
+msgid "Centimeters (cm)"
+msgstr "Centimeters (cm)"
+
+#: kprinterdlg.cpp:48
+#, kde-format
+msgid "Millimeters (mm)"
+msgstr "Millimeters (mm)"
+
+#: kprinterdlg.cpp:52
+#, kde-format
+msgid "Width:"
+msgstr "Širina:"
+
+#: kprinterdlg.cpp:53
+#, kde-format
+msgid "Height:"
+msgstr "Visina:"
+
+#: kprinterdlg.cpp:122
+#, kde-format
+msgid "Width is invalid"
+msgstr "Širina je nevaljan"
+
+#: kprinterdlg.cpp:128
+#, kde-format
+msgid "Height is invalid"
+msgstr "Visina je nevaljan"
+
+#: ksliderwindow.cpp:28
+#, kde-format
+msgid "Slider %1"
+msgstr "Klizač %1"
+
+#: ksliderwindow.cpp:34
+#, kde-format
+msgid ""
+"Move slider to change the parameter of the function plot connected to this "
+"slider."
+msgstr "Pomakni klizač za promjena  parametar od  funkcija graf povezan za ovaj klizač."
+
+#: ksliderwindow.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "Sliders"
+msgstr "Sliders"
+
+#: main.cpp:35
+#, kde-format
+msgid "KmPlot"
+msgstr "KmPlot"
+
+#: main.cpp:37
+#, kde-format
+msgid "Mathematical function plotter by KDE"
+msgstr "Matematički funkcija plotter pomoću KDE"
+
+#: main.cpp:39
+#, kde-format
+msgid "(c) 2000-2002, Klaus-Dieter Möller"
+msgstr "(c) 2000-2002, Klaus-Dieter Möller"
+
+#: main.cpp:43
+#, kde-format
+msgid "Klaus-Dieter Möller"
+msgstr "Klaus-Dieter Möller"
+
+#: main.cpp:43
+#, kde-format
+msgid "Original Author"
+msgstr "Izvorni autor"
+
+#: main.cpp:44
+#, kde-format
+msgid "Matthias Meßmer"
+msgstr "Matthias Meßmer"
+
+#: main.cpp:44
+#, kde-format
+msgid "GUI"
+msgstr "GUI"
+
+#: main.cpp:45
+#, kde-format
+msgid "Fredrik Edemar"
+msgstr "Fredrik Edemar"
+
+#: main.cpp:45
+#, kde-format
+msgid "Various improvements"
+msgstr "Razni improvements"
+
+#: main.cpp:46
+#, kde-format
+msgid "David Saxton"
+msgstr "David Saxton"
+
+#: main.cpp:46
+#, kde-format
+msgid "Porting to Qt 4, UI improvements, features"
+msgstr "Porting za Qt 4, UI improvements, features"
+
+#: main.cpp:48
+#, kde-format
+msgid "David Vignoni"
+msgstr "David Vignoni"
+
+#: main.cpp:48
+#, kde-format
+msgid "svg icon"
+msgstr "svg ikona"
+
+#: main.cpp:49
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:49
+#, kde-format
+msgid "command line options, MIME type"
+msgstr "naredba redak mogućnosti, MIME type"
+
+#: main.cpp:54
+#, kde-format
+msgid "Initial functions to plot"
+msgstr "Početni funkcije za graf"
+
+#: main.cpp:54
+#, kde-format
+msgid "argument"
+msgstr "argument"
+
+#: main.cpp:55
+#, kde-format
+msgid "URLs to open"
+msgstr "URLs za otvori"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageGeneral)
+#: maindlg.cpp:187 settingspagegeneral.ui:14
+#, kde-format
+msgid "General"
+msgstr "Opće"
+
+#: maindlg.cpp:187
+#, kde-format
+msgid "General Settings"
+msgstr "Opće Postavke"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsPageDiagram)
+#: maindlg.cpp:188 settingspagediagram.ui:14
+#, kde-format
+msgid "Diagram"
+msgstr "Diagram"
+
+#: maindlg.cpp:188
+#, kde-format
+msgid "Diagram Appearance"
+msgstr "Diagram Izgled"
+
+#: maindlg.cpp:189
+#, kde-format
+msgid "Colors"
+msgstr "Boje"
+
+#: maindlg.cpp:190
+#, kde-format
+msgid "Fonts"
+msgstr "Fonts"
+
+#: maindlg.cpp:217
+#, kde-format
+msgid "Configure KmPlot..."
+msgstr "Configure KmPlot..."
+
+#: maindlg.cpp:223
+#, kde-format
+msgid "E&xport..."
+msgstr "E&xport..."
+
+#: maindlg.cpp:236
+#, kde-format
+msgid "&Coordinate System..."
+msgstr "&Koordinatni sustav..."
+
+#: maindlg.cpp:241
+#, kde-format
+msgid "&Constants..."
+msgstr "&Konstantas..."
+
+#: maindlg.cpp:250
+#, kde-format
+msgid "Zoom &In"
+msgstr "Zumiranje &U"
+
+#: maindlg.cpp:256
+#, kde-format
+msgid "Zoom &Out"
+msgstr "Zumiranje &Out"
+
+#: maindlg.cpp:262
+#, kde-format
+msgid "&Fit Widget to Trigonometric Functions"
+msgstr "&Fit Widget za Trigonometric Funkcije"
+
+#: maindlg.cpp:266
+#, kde-format
+msgid "Reset View"
+msgstr "Reset View"
+
+#: maindlg.cpp:271
+#, kde-format
+msgid "Show Sliders"
+msgstr "Prikaži Sliders"
+
+#: maindlg.cpp:277
+#, kde-format
+msgid "Calculator"
+msgstr "Kalkulator"
+
+#: maindlg.cpp:282
+#, kde-format
+msgid "Plot &Area..."
+msgstr "Graf &Površina..."
+
+#: maindlg.cpp:286
+#, kde-format
+msgid "Find Ma&ximum..."
+msgstr "Pronađi Ma&ximum..."
+
+#: maindlg.cpp:291
+#, kde-format
+msgid "Find Mi&nimum..."
+msgstr "Pronađi Mi&nimum..."
+
+#: maindlg.cpp:298
+#, kde-format
+msgctxt "@action:inmenu Help"
+msgid "Predefined &Math Functions"
+msgstr "Predefined &Matematika Funkcije"
+
+#: maindlg.cpp:305
+#, kde-format
+msgid "Cartesian Plot"
+msgstr "Kartezijev Graf"
+
+#: maindlg.cpp:311
+#, kde-format
+msgid "Parametric Plot"
+msgstr "Parametarski Graf"
+
+#: maindlg.cpp:317
+#, kde-format
+msgid "Polar Plot"
+msgstr "Polarni Graf"
+
+#: maindlg.cpp:323
+#, kde-format
+msgid "Implicit Plot"
+msgstr "Implicitni Graf"
+
+#: maindlg.cpp:329
+#, kde-format
+msgid "Differential Plot"
+msgstr "Diferencijalni Graf"
+
+#: maindlg.cpp:344
+#, kde-format
+msgid "&Hide"
+msgstr "&Sakrij"
+
+#: maindlg.cpp:349
+#, kde-format
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: maindlg.cpp:357
+#, kde-format
+msgid "Animate Plot..."
+msgstr "Animate Graf..."
+
+#: maindlg.cpp:368
+#, kde-format
+msgid "Copy (x, y)"
+msgstr "Kopiraj (x, y)"
+
+#: maindlg.cpp:373
+#, kde-format
+msgctxt "Copied pair of coordinates (x, y)"
+msgid "(%1, %2)"
+msgstr "(%1, %2)"
+
+#: maindlg.cpp:379
+#, kde-format
+msgid "Copy Root Value"
+msgstr "Kopiraj Root Vrijednost"
+
+#: maindlg.cpp:460
+#, kde-format
+msgid ""
+"The plot has been modified.\n"
+"Do you want to save it?"
+msgstr " graf has bio modified.\n vi want za spremi ga?"
+
+#: maindlg.cpp:490
+#, kde-format
+msgid ""
+"This file is saved with an old file format; if you save it, you cannot open "
+"the file with older versions of KmPlot. Are you sure you want to continue?"
+msgstr "Ovaj datoteka je saved s  stari datoteka format; ako vi spremi ga, vi ne može otvori  datoteka s older versions od KmPlot. Su vi sure vi want za continue?"
+
+#: maindlg.cpp:493
+#, kde-format
+msgid "Save New Format"
+msgstr "Spremi Novo Format"
+
+#: maindlg.cpp:508
+#, kde-format
+msgid "Save As"
+msgstr "Spremi kao"
+
+#: maindlg.cpp:514
+#, kde-format
+msgid "The file could not be saved"
+msgstr " datoteka može ne biti saved"
+
+#: maindlg.cpp:546
+#, kde-format
+msgid "Scalable Vector Graphics (*.svg)"
+msgstr "Scalable Vector Graphics (*.svg)"
+
+#: maindlg.cpp:548
+#, kde-format
+msgctxt "@title:window"
+msgid "Export as Image"
+msgstr "Izvoz kao Image"
+
+#: maindlg.cpp:605
+#, kde-format
+msgid "Sorry, something went wrong while saving to image \"%1\""
+msgstr "Sorry, something went wrong dok spremanje za image \"%1\""
+
+#: maindlg.cpp:662
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Plot"
+msgstr "Ispiši Graf"
+
+#: maindlg.cpp:677
+#, kde-format
+msgid "Print Settings"
+msgstr "Ispiši Postavke"
+
+#: maindlg.cpp:682
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Settings"
+msgstr "Ispiši Postavke"
+
+#: parameteranimator.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Parameter Animator"
+msgstr "Parametar Animator"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, warningLabel)
+#: parameteranimator.ui:23
+#, kde-format
+msgid ""
+"The function must have an additional variable as a parameter, e.g. f(x,k) "
+"would have k as its parameter"
+msgstr " funkcija mora have  additional varijabla kao  parametar, e.g. f(x,k) bi have k kao njegov parametar"
+
+#. i18n: ectx: property (text), widget (QLabel, warningLabel)
+#: parameteranimator.ui:29
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">Warning:</span> The current function does not "
+"have a parameter, and so cannot be animated.</p></body></html>"
+msgstr "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-weight:400; font-style:normal; text-decoration:none;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span style=\" font-weight:600;\">Warning:</span>  trenutačni funkcija  ne have  parametar, i so ne može biti animated.</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: parameteranimator.ui:47
+#, kde-format
+msgid "Final value:"
+msgstr "Final vrijednost:"
+
+#. i18n: ectx: property (text), widget (EquationEdit, step)
+#: parameteranimator.ui:57
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (EquationEdit, final)
+#: parameteranimator.ui:64
+#, kde-format
+msgid "10"
+msgstr "10"
+
+#. i18n: ectx: property (text), widget (EquationEdit, initial)
+#. i18n: ectx: property (text), widget (QLabel, currentValue)
+#: parameteranimator.ui:81 parameteranimator.ui:131
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: parameteranimator.ui:88
+#, kde-format
+msgid "Initial value:"
+msgstr "Početni vrijednost:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: parameteranimator.ui:124
+#, kde-format
+msgid "Current Value:"
+msgstr "Trenutačni Vrijednost:"
+
+#. i18n: ectx: property (text), widget (QToolButton, gotoInitial)
+#: parameteranimator.ui:177
+#, kde-format
+msgid "<<"
+msgstr "<<"
+
+#. i18n: ectx: property (text), widget (QToolButton, stepBackwards)
+#: parameteranimator.ui:184
+#, kde-format
+msgid "<"
+msgstr "<"
+
+#. i18n: ectx: property (text), widget (QToolButton, pause)
+#: parameteranimator.ui:194
+#, kde-format
+msgid "||"
+msgstr "||"
+
+#. i18n: ectx: property (text), widget (QToolButton, stepForwards)
+#: parameteranimator.ui:201
+#, kde-format
+msgid ">"
+msgstr ">"
+
+#. i18n: ectx: property (text), widget (QToolButton, gotoFinal)
+#: parameteranimator.ui:211
+#, kde-format
+msgid ">>"
+msgstr ">>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: parameteranimator.ui:257
+#, kde-format
+msgid "Speed:"
+msgstr "Speed:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: parameteranimator.ui:304
+#, kde-format
+msgid "Fast"
+msgstr "Fast"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: parameteranimator.ui:311
+#, kde-format
+msgid "Slow"
+msgstr "Slow"
+
+#: parameterswidget.cpp:25
+#, kde-format
+msgid "Slider No. %1"
+msgstr "Klizač No. %1"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useSlider)
+#: parameterswidget.ui:37
+#, kde-format
+msgid "Slider:"
+msgstr "Klizač:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useList)
+#: parameterswidget.ui:44
+#, kde-format
+msgid "List:"
+msgstr "Popis:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, editParameterListButton)
+#: parameterswidget.ui:54
+#, kde-format
+msgid "Edit the list of parameters"
+msgstr "Uredi  popis od parametri"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, editParameterListButton)
+#: parameterswidget.ui:57
+#, kde-format
+msgid ""
+"Click here to open a list of parameter values. Here you can add, remove, and "
+"change them."
+msgstr "Kliknite here za otvori  popis od parametar vrijednosti. Here vi može dodaj, ukloni, i promjena them."
+
+#. i18n: ectx: property (text), widget (QPushButton, editParameterListButton)
+#: parameterswidget.ui:60
+#, kde-format
+msgid "Edit List..."
+msgstr "Uredi Popis..."
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, listOfSliders)
+#: parameterswidget.ui:70
+#, kde-format
+msgid "Select a slider"
+msgstr "Odaberite  klizač"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, listOfSliders)
+#: parameterswidget.ui:73
+#, kde-format
+msgid ""
+"Select one of the sliders to change the parameter value dynamically. The "
+"values vary from 0 (left) to 100 (right)."
+msgstr "Odaberite jedan od  sliders za promjena  parametar vrijednost dynamically.  vrijednosti vary iz 0 (left) za 100 (right)."
+
+#: parser.cpp:614
+#, kde-format
+msgid "Remove all"
+msgstr "Ukloni svi"
+
+#: parser.cpp:618
+#, kde-format
+msgid ""
+"The function %1 is depended upon by the following functions: %2. These must "
+"be removed in addition."
+msgstr " funkcija %1 je depended upon pomoću  sljedeći funkcije: %2. Ovi mora biti removed u addition."
+
+#: parser.cpp:1091
+#, kde-format
+msgid "Syntax error"
+msgstr "Syntax pogreška"
+
+#: parser.cpp:1094
+#, kde-format
+msgid "Missing parenthesis"
+msgstr "Missing parenthesis"
+
+#: parser.cpp:1097
+#, kde-format
+msgid "Stack overflow"
+msgstr "Stack overflow"
+
+#: parser.cpp:1100
+#, kde-format
+msgid "Name of function is not free"
+msgstr "Naziv od funkcija je ne free"
+
+#: parser.cpp:1103
+#, kde-format
+msgid "recursive function not allowed"
+msgstr "recursive funkcija ne allowed"
+
+#: parser.cpp:1106
+#, kde-format
+msgid "Empty function"
+msgstr "Prazan funkcija"
+
+#: parser.cpp:1109
+#, kde-format
+msgid "Function could not be found"
+msgstr "Funkcija može ne biti pronađen"
+
+#: parser.cpp:1112
+#, kde-format
+msgid "The differential equation must be at least first-order"
+msgstr " diferencijalni jednadžba mora biti u least first-order"
+
+#: parser.cpp:1115
+#, kde-format
+msgid "Too many plus-minus symbols"
+msgstr "Također many plus-minus symbols"
+
+#: parser.cpp:1118
+#, kde-format
+msgid "Invalid plus-minus symbol (expression must be constant)"
+msgstr "Nevaljan plus-minus symbol (izraz mora biti konstanta)"
+
+#: parser.cpp:1121
+#, kde-format
+msgid "The function has too many arguments"
+msgstr " funkcija has također many arguments"
+
+#: parser.cpp:1124
+#, kde-format
+msgid "The function does not have the correct number of arguments"
+msgstr " funkcija  ne have  correct broj od arguments"
+
+#: plotstylewidget.cpp:30
+#, kde-format
+msgid "Solid"
+msgstr "Solid"
+
+#: plotstylewidget.cpp:31
+#, kde-format
+msgid "Dash"
+msgstr "Dash"
+
+#: plotstylewidget.cpp:32
+#, kde-format
+msgid "Dot"
+msgstr "Dot"
+
+#: plotstylewidget.cpp:33
+#, kde-format
+msgid "Dash Dot"
+msgstr "Dash Dot"
+
+#: plotstylewidget.cpp:34
+#, kde-format
+msgid "Dash Dot Dot"
+msgstr "Dash Dot Dot"
+
+#: plotstylewidget.cpp:44
+#, kde-format
+msgid "Advanced..."
+msgstr "Napredni..."
+
+#: plotstylewidget.cpp:48
+#, kde-format
+msgid "Color:"
+msgstr "Boja:"
+
+#: plotstylewidget.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Plot Appearance"
+msgstr "Graf Izgled"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlotStyleWidget)
+#: plotstylewidget.ui:14
+#, kde-format
+msgid "Plot Style"
+msgstr "Graf Stil"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showPlotName)
+#: plotstylewidget.ui:26
+#, kde-format
+msgid "Show the plot name"
+msgstr "Prikaži  graf naziv"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showExtrema)
+#: plotstylewidget.ui:33
+#, kde-format
+msgid "Show extrema (minimum/maximum points)"
+msgstr "Prikaži extrema (minimum/maksimum points)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTangentField)
+#: plotstylewidget.ui:53
+#, kde-format
+msgid "Show the tangent field:"
+msgstr "Prikaži  tangent polje:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useGradient)
+#: plotstylewidget.ui:67
+#, kde-format
+msgid "Use a gradient for parameters:"
+msgstr "Upotrijebite  gradient za parametri:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plotstylewidget.ui:74
+#, kde-format
+msgid "Line style:"
+msgstr "Redak stil:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plotstylewidget.ui:87
+#, kde-format
+msgid "Line width:"
+msgstr "Redak širina:"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, lineWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_AxesLineWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_GridLineWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_TicWidth)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_TicLength)
+#: plotstylewidget.ui:103 settingspagediagram.ui:140 settingspagediagram.ui:172
+#: settingspagediagram.ui:204 settingspagediagram.ui:236
+#, kde-format
+msgid " mm"
+msgstr " mm"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
+#: qparametereditor.ui:13
+#, kde-format
+msgid "Parameter Editor"
+msgstr "Parametar Uređivač"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cmdDelete)
+#: qparametereditor.ui:55
+#, kde-format
+msgid "delete selected constant"
+msgstr "izbriši odabrani konstanta"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveUp)
+#: qparametereditor.ui:84
+#, kde-format
+msgid "Move Up"
+msgstr "Pomakni Gore"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveDown)
+#: qparametereditor.ui:91
+#, kde-format
+msgid "Move Down"
+msgstr "Pomakni Dolje"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cmdImport)
+#: qparametereditor.ui:117
+#, kde-format
+msgid "Import values from a textfile"
+msgstr "Uvoz vrijednosti iz  textfile"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cmdImport)
+#: qparametereditor.ui:120
+#, kde-format
+msgid ""
+"Import values from a textfile. Every line in the file is parsed as a value "
+"or expression."
+msgstr "Uvoz vrijednosti iz  textfile. Every redak u  datoteka je parsed kao  vrijednost ili izraz."
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdImport)
+#: qparametereditor.ui:123
+#, kde-format
+msgid "&Import..."
+msgstr "&Uvezi..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, cmdExport)
+#: qparametereditor.ui:133
+#, kde-format
+msgid "Export values to a textfile"
+msgstr "Izvoz vrijednosti za  textfile"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cmdExport)
+#: qparametereditor.ui:136
+#, kde-format
+msgid ""
+"Export values to a textfile. Every value in the parameter list will be "
+"written to one line in the file."
+msgstr "Izvoz vrijednosti za  textfile. Every vrijednost u  parametar popis će biti written za jedan redak u  datoteka."
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdExport)
+#: qparametereditor.ui:139
+#, kde-format
+msgid "&Export..."
+msgstr "&Izvezi..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settingspagecolor.ui:23
+#, kde-format
+msgid "&Coords"
+msgstr "&Coords"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settingspagecolor.ui:35
+#, kde-format
+msgid "Background color:"
+msgstr "Pozadina boja:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_backgroundcolor)
+#: settingspagecolor.ui:45
+#, kde-format
+msgid "Color for the plot area behind the grid."
+msgstr "Boja za  graf površina behind  mreža."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_backgroundcolor)
+#: settingspagecolor.ui:48
+#, kde-format
+msgid ""
+"Click on the button the choose the color of the background. This option has "
+"no effect on printing nor export."
+msgstr "Kliknite na  gumb  odaberi  boja od  pozadina. Ovaj mogućnost has no effect na printing nor izvoz."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: settingspagecolor.ui:58
+#, kde-format
+msgid "&Axes:"
+msgstr "&Osi:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: settingspagecolor.ui:71
+#, kde-format
+msgid "&Grid:"
+msgstr "&Mreža:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_AxesColor)
+#: settingspagecolor.ui:84
+#, kde-format
+msgid "Select color for the axes."
+msgstr "Odaberite boja za  osi."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_AxesColor)
+#: settingspagecolor.ui:87
+#, kde-format
+msgid ""
+"Specify the color of the axes. The change will appear as soon as you press "
+"the OK button."
+msgstr "Specify  boja od  osi.  promjena će appear kao soon kao vi pritisnite  OK gumb."
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GridColor)
+#: settingspagecolor.ui:97
+#, kde-format
+msgid "Select color for the grid."
+msgstr "Odaberite boja za  mreža."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GridColor)
+#: settingspagecolor.ui:100
+#, kde-format
+msgid ""
+"Specify the color of the grid. The change will appear as soon as you press "
+"the OK button."
+msgstr "Specify  boja od  mreža.  promjena će appear kao soon kao vi pritisnite  OK gumb."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: settingspagecolor.ui:113
+#, kde-format
+msgid "&Default Function Colors"
+msgstr "&Zadano Funkcija Boje"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color1)
+#: settingspagecolor.ui:133
+#, kde-format
+msgid "The default color for function number 2."
+msgstr " zadani boja za funkcija broj 2."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color1)
+#: settingspagecolor.ui:136
+#, kde-format
+msgid ""
+"The default color for function number 2. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 2. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color4)
+#: settingspagecolor.ui:146
+#, kde-format
+msgid "The default color for function number 5."
+msgstr " zadani boja za funkcija broj 5."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color4)
+#: settingspagecolor.ui:149
+#, kde-format
+msgid ""
+"The default color for function number 5. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 5. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color0)
+#: settingspagecolor.ui:159
+#, kde-format
+msgid "The default color for function number 1."
+msgstr " zadani boja za funkcija broj 1."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color0)
+#: settingspagecolor.ui:162
+#, kde-format
+msgid ""
+"The default color for function number 1. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 1. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: settingspagecolor.ui:172
+#, kde-format
+msgid "Function &1:"
+msgstr "Funkcija &1:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color2)
+#: settingspagecolor.ui:185
+#, kde-format
+msgid "The default color for function number 3."
+msgstr " zadani boja za funkcija broj 3."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color2)
+#: settingspagecolor.ui:188
+#, kde-format
+msgid ""
+"The default color for function number 3. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 3. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_13)
+#: settingspagecolor.ui:198
+#, kde-format
+msgid "Function &3:"
+msgstr "Funkcija &3:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: settingspagecolor.ui:211
+#, kde-format
+msgid "Function &2:"
+msgstr "Funkcija &2:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_12)
+#: settingspagecolor.ui:224
+#, kde-format
+msgid "Function &4:"
+msgstr "Funkcija &4:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color3)
+#: settingspagecolor.ui:237
+#, kde-format
+msgid "The default color for function number 4."
+msgstr " zadani boja za funkcija broj 4."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color3)
+#: settingspagecolor.ui:240
+#, kde-format
+msgid ""
+"The default color for function number 4. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 4. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_11)
+#: settingspagecolor.ui:250
+#, kde-format
+msgid "Function &5:"
+msgstr "Funkcija &5:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_9)
+#: settingspagecolor.ui:289
+#, kde-format
+msgid "Function &7:"
+msgstr "Funkcija &7:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_8)
+#: settingspagecolor.ui:302
+#, kde-format
+msgid "Function &8:"
+msgstr "Funkcija &8:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color8)
+#: settingspagecolor.ui:315
+#, kde-format
+msgid "The default color for function number 9."
+msgstr " zadani boja za funkcija broj 9."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color8)
+#: settingspagecolor.ui:318
+#, kde-format
+msgid ""
+"The default color for function number 9. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 9. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_10)
+#: settingspagecolor.ui:328
+#, kde-format
+msgid "Function &6:"
+msgstr "Funkcija &6:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color6)
+#: settingspagecolor.ui:341
+#, kde-format
+msgid "The default color for function number 7."
+msgstr " zadani boja za funkcija broj 7."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color6)
+#: settingspagecolor.ui:344
+#, kde-format
+msgid ""
+"The default color for function number 7. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 7. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color7)
+#: settingspagecolor.ui:354
+#, kde-format
+msgid "The default color for function number 8."
+msgstr " zadani boja za funkcija broj 8."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color7)
+#: settingspagecolor.ui:357
+#, kde-format
+msgid ""
+"The default color for function number 8. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 8. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color5)
+#: settingspagecolor.ui:367
+#, kde-format
+msgid "The default color for function number 6."
+msgstr " zadani boja za funkcija broj 6."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color5)
+#: settingspagecolor.ui:370
+#, kde-format
+msgid ""
+"The default color for function number 6. Please note that this color setting "
+"only affects empty functions, so if you have defined a function at number 1 "
+"and you change color for that number here, the setting will be shown next "
+"time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 6. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_7)
+#: settingspagecolor.ui:380
+#, kde-format
+msgid "Function &9:"
+msgstr "Funkcija &9:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color9)
+#: settingspagecolor.ui:393
+#, kde-format
+msgid "The default color for function number 10."
+msgstr " zadani boja za funkcija broj 10."
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color9)
+#: settingspagecolor.ui:396
+#, kde-format
+msgid ""
+"The default color for function number 10. Please note that this color "
+"setting only affects empty functions, so if you have defined a function at "
+"number 1 and you change color for that number here, the setting will be "
+"shown next time you define a new function at number 1."
+msgstr " zadani boja za funkcija broj 10. Molimo note taj ovaj boja setting samo affects prazan funkcije, so ako vi have defined  funkcija u broj 1 i vi promjena boja za taj broj here,  setting će biti prikazan sljedeći time vi define  novi funkcija u broj 1."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_6)
+#: settingspagecolor.ui:406
+#, kde-format
+msgid "Function 1&0:"
+msgstr "Funkcija 1&0:"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton11)
+#: settingspagediagram.ui:32
+#, kde-format
+msgid "No Grid will be plotted."
+msgstr "No Mreža će biti plotted."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton11)
+#: settingspagediagram.ui:35
+#, kde-format
+msgid "None"
+msgstr "Nijedno"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton12)
+#: settingspagediagram.ui:42
+#, kde-format
+msgid "A line for every tic."
+msgstr " redak za every oznaka."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton12)
+#: settingspagediagram.ui:45
+#, kde-format
+msgid "Lines"
+msgstr "Linije"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton13)
+#: settingspagediagram.ui:52
+#, kde-format
+msgid "Only little crosses in the plot area."
+msgstr "Samo little crosses u  graf površina."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton13)
+#: settingspagediagram.ui:55
+#, kde-format
+msgid "Crosses"
+msgstr "Crosses"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton14)
+#: settingspagediagram.ui:62
+#, kde-format
+msgid "Circles around the Origin."
+msgstr "Circles around  Origin."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton14)
+#: settingspagediagram.ui:65
+#, kde-format
+msgid "Polar"
+msgstr "Polarni"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settingspagediagram.ui:75
+#, kde-format
+msgid "Axis Labels"
+msgstr "Os Oznake"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: settingspagediagram.ui:81
+#, kde-format
+msgid "Label on horizontal axis."
+msgstr "Oznaka na vodoravni os."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settingspagediagram.ui:84
+#, kde-format
+msgid "Horizontal axis label:"
+msgstr "Vodoravni os oznaka:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelHorizontalAxis)
+#: settingspagediagram.ui:94
+#, kde-format
+msgid "X"
+msgstr "X"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: settingspagediagram.ui:101
+#, kde-format
+msgid "Label on vertical axis."
+msgstr "Oznaka na okomiti os."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settingspagediagram.ui:104
+#, kde-format
+msgid "Vertical axis label:"
+msgstr "Okomiti os oznaka:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelVerticalAxis)
+#: settingspagediagram.ui:114
+#, kde-format
+msgid "Y"
+msgstr "Y"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: settingspagediagram.ui:124
+#, kde-format
+msgid "Axis widths:"
+msgstr "Os widths:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: settingspagediagram.ui:156
+#, kde-format
+msgid "Line &width:"
+msgstr "Redak &širina:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: settingspagediagram.ui:188
+#, kde-format
+msgid "Tic width:"
+msgstr "Širina oznaka na osi:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8_4)
+#: settingspagediagram.ui:220
+#, kde-format
+msgid "Tic length:"
+msgstr "Duljina oznaka na osi:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowLabel)
+#: settingspagediagram.ui:252
+#, kde-format
+msgid "Visible tic labels."
+msgstr "Vidljiv oznaka oznake."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowLabel)
+#: settingspagediagram.ui:255
+#, kde-format
+msgid "Check this if the axes' tics should be labeled."
+msgstr "Označite ovaj ako  axes' oznake treba biti labeled."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowLabel)
+#: settingspagediagram.ui:258
+#, kde-format
+msgid "Show labels"
+msgstr "Prikaži oznake"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAxes)
+#: settingspagediagram.ui:268
+#, kde-format
+msgid "Visible axes."
+msgstr "Vidljiv osi."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAxes)
+#: settingspagediagram.ui:271
+#, kde-format
+msgid "Check this if the axes should be visible."
+msgstr "Označite ovaj ako  osi treba biti vidljiv."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAxes)
+#: settingspagediagram.ui:274
+#, kde-format
+msgid "Show axes"
+msgstr "Prikaži osi"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowArrows)
+#: settingspagediagram.ui:284
+#, kde-format
+msgid "Visible arrows at the end of the axes."
+msgstr "Vidljiv arrows u  end od  osi."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowArrows)
+#: settingspagediagram.ui:287
+#, kde-format
+msgid "Check this if the axes should have arrows at their ends."
+msgstr "Označite ovaj ako  osi treba have arrows u their završava."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowArrows)
+#: settingspagediagram.ui:290
+#, kde-format
+msgid "Show arrows"
+msgstr "Prikaži arrows"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: settingspagefonts.ui:23
+#, kde-format
+msgid "Axes labels:"
+msgstr "Osi oznake:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_3)
+#: settingspagefonts.ui:45
+#, kde-format
+msgid "Diagram labels:"
+msgstr "Diagram oznake:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10_4)
+#: settingspagefonts.ui:67
+#, kde-format
+msgid "Header table:"
+msgstr "Header tablica:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_anglemode)
+#: settingspagegeneral.ui:20
+#, kde-format
+msgid "Angle Mode"
+msgstr "Angle Mode"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton1)
+#: settingspagegeneral.ui:32
+#, kde-format
+msgid "Trigonometric functions use radian mode for angles."
+msgstr "Trigonometric funkcije upotrijebite radian mode za angles."
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton1)
+#: settingspagegeneral.ui:35
+#, kde-format
+msgid ""
+"Check this button to use radian mode to measure angles. This is important "
+"for trigonometric functions only."
+msgstr "Označite ovaj gumb za upotrijebite radian mode za measure angles. Ovaj je important za trigonometric funkcije samo."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton1)
+#: settingspagegeneral.ui:38
+#, kde-format
+msgid "&Radian"
+msgstr "&Radian"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton2)
+#: settingspagegeneral.ui:45
+#, kde-format
+msgid "Trigonometric functions use degree mode for angles."
+msgstr "Trigonometric funkcije upotrijebite degree mode za angles."
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton2)
+#: settingspagegeneral.ui:48
+#, kde-format
+msgid ""
+"Check this button to use degree mode to measure angles. This is important "
+"for trigonometric functions only."
+msgstr "Označite ovaj gumb za upotrijebite degree mode za measure angles. Ovaj je important za trigonometric funkcije samo."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
+#: settingspagegeneral.ui:51
+#, kde-format
+msgid "&Degree"
+msgstr "&Degree"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settingspagegeneral.ui:61
+#, kde-format
+msgid "Zoom"
+msgstr "Zumiranje"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: settingspagegeneral.ui:73
+#, kde-format
+msgid "Zoom in by:"
+msgstr "Zumiranje u pomoću:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: settingspagegeneral.ui:86
+#, kde-format
+msgid "Zoom out by:"
+msgstr "Zumiranje out pomoću:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_zoomOutStep)
+#: settingspagegeneral.ui:99
+#, kde-format
+msgid "The value the Zoom Out tool should use."
+msgstr " vrijednost  Zumiranje Out alat treba upotrijebite."
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_zoomOutStep)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_zoomInStep)
+#: settingspagegeneral.ui:111 settingspagegeneral.ui:130
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_zoomInStep)
+#: settingspagegeneral.ui:118
+#, kde-format
+msgid "The value the Zoom In tool should use."
+msgstr " vrijednost  Zumiranje U alat treba upotrijebite."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DetailedTracing)
+#: settingspagegeneral.ui:144
+#, kde-format
+msgid "Draw tangent and normal when tracing"
+msgstr "Draw tangent i normal kada tracing"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SliderWidget)
+#: sliderwidget.ui:13
+#, kde-format
+msgid "Slider"
+msgstr "Klizač"
+
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
+#: sliderwidget.ui:43
+#, kde-format
+msgid "<0>"
+msgstr "<0>"
+
+#: view.cpp:1829
+#, kde-format
+msgctxt "Extrema point"
+msgid "x = %1   y = %2"
+msgstr "x = %1   y = %2"
+
+#: view.cpp:2124 view.cpp:2125
+#, kde-format
+msgctxt "%1=minimum value, %2=maximum value"
+msgid "%1 to %2"
+msgstr "%1 za %2"
+
+#: view.cpp:2127 view.cpp:2128
+#, kde-format
+msgctxt "'E' is the distance between ticks on the axis"
+msgid "1E = "
+msgstr "1E = "
+
+#: view.cpp:2131
+#, kde-format
+msgid "Plotting Range"
+msgstr "Crtanje Raspon"
+
+#: view.cpp:2131
+#, kde-format
+msgid "Axes Division"
+msgstr "Osi Division"
+
+#: view.cpp:2132
+#, kde-format
+msgid "x-Axis:"
+msgstr "x-Axis:"
+
+#: view.cpp:2133
+#, kde-format
+msgid "y-Axis:"
+msgstr "y-Axis:"
+
+#: view.cpp:2136
+#, kde-format
+msgid "Functions:"
+msgstr "Funkcije:"
+
+#: view.cpp:3004
+#, kde-format
+msgid "x = %1"
+msgstr "x = %1"
+
+#: view.cpp:3006
+#, kde-format
+msgid "y = %1"
+msgstr "y = %1"
+
+#: view.cpp:3133
+#, kde-format
+msgctxt "%1 is a subscript zero symbol"
+msgid "root: x%1 = "
+msgstr "root: x%1 = "
+
+#: xparser.cpp:117
+#, kde-format
+msgid "Error in extension."
+msgstr "Pogreška u extension."

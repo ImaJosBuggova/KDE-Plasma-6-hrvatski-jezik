@@ -1,0 +1,515 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kmail-account-wizard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail-account-wizard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-29 00:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-11-07 05:05+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: accountconfiguration.cpp:189 ispdb/configurationmodel.cpp:144
+#, kde-format
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "Bez naziva"
+
+#: accountconfiguration.cpp:200
+#, kde-format
+msgctxt "log entry content"
+msgid "Create email identity: %1"
+msgstr "Stvaranje identiteta e-pošte: %1"
+
+#: accountconfiguration.cpp:203
+#, kde-format
+msgctxt "log entry content"
+msgid "Full name:"
+msgstr "Ime i prezime:"
+
+#: accountconfiguration.cpp:204
+#, kde-format
+msgctxt "log entry content"
+msgid "Primary email address:"
+msgstr "Primarna adresa e-pošte:"
+
+#: accountconfiguration.cpp:230
+#, kde-format
+msgctxt "log entry content"
+msgid "Mail transport setup completed: %1"
+msgstr "Postavljanje prijenosa pošte dovršeno: %1"
+
+#: accountconfiguration.cpp:233
+#, kde-format
+msgctxt "log entry content"
+msgid "Host:"
+msgstr "Poslužitelj:"
+
+#: accountconfiguration.cpp:234
+#, kde-format
+msgctxt "log entry content"
+msgid "Port:"
+msgstr "Priključak:"
+
+#: accountconfiguration.cpp:235
+#, kde-format
+msgctxt "log entry content"
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: accountconfiguration.cpp:237
+#, kde-format
+msgctxt "log entry content"
+msgid "Encryption:"
+msgstr "Šifriranje:"
+
+#: accountconfiguration.cpp:239
+#, kde-format
+msgctxt "log entry content"
+msgid "Authentication:"
+msgstr "Autentikacija:"
+
+#: ispdb/configurationmodel.cpp:46 ispdb/serverconfiguration.cpp:23
+#: qml/ManualConfigurationPage.qml:90
+#, kde-format
+msgid "IMAP"
+msgstr "IMAP"
+
+#: ispdb/configurationmodel.cpp:46 ispdb/serverconfiguration.cpp:26
+#: qml/ManualConfigurationPage.qml:91
+#, kde-format
+msgid "POP3"
+msgstr "POP3"
+
+#: ispdb/configurationmodel.cpp:48
+#, kde-format
+msgid "Keep your folders and emails synced on your server"
+msgstr "Mape i poruke e-pošte ostaju sinkronizirane na poslužitelju"
+
+#: ispdb/configurationmodel.cpp:49
+#, kde-format
+msgid "Remove your emails from your server and keep them only on your computer"
+msgstr "Uklonite poruke e-pošte s poslužitelja i zadržite ih samo na računalu"
+
+#: ispdb/serverconfiguration.cpp:29
+#, kde-format
+msgid "SMTP"
+msgstr "SMTP"
+
+#: ispdb/serverconfiguration.cpp:35
+#, kde-format
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#: ispdb/serverconfiguration.cpp:38 qml/ManualConfigurationPage.qml:124
+#: qml/ManualConfigurationPage.qml:241
+#, kde-format
+msgid "StartTLS"
+msgstr "StartTLS"
+
+#: ispdb/serverconfiguration.cpp:41
+#, kde-format
+msgctxt "No security mechanism"
+msgid "None"
+msgstr "Nema"
+
+#: ispdbservice.cpp:129
+#, kde-format
+msgid "Configuration found auto config file."
+msgstr "Konfiguracija pronađena u datoteci za automatsko postavljanje."
+
+#: ispdbservice.cpp:132
+#, kde-format
+msgid "Configuration found in well-known file."
+msgstr "Konfiguracija pronađena u poznatoj datoteci."
+
+#: ispdbservice.cpp:135
+#, kde-format
+msgid "Configuration found in Mozilla FAI Database."
+msgstr "Konfiguracija pronađena u bazi podataka Mozilla FAI."
+
+#: main.cpp:38
+#, kde-format
+msgid "Account Assistant"
+msgstr "Pomoćnik za račune"
+
+#: main.cpp:40
+#, kde-format
+msgid "Helps setting up PIM accounts"
+msgstr "Pomaže pri postavljanju PIM računa"
+
+#: main.cpp:42
+#, kde-format
+msgid "© 2009-2025 the Akonadi developers"
+msgstr "© 2009.–2025. razvojni programeri Akonadija"
+
+#: main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Volker Krause"
+msgstr "Volker Krause"
+
+#: main.cpp:45
+#, kde-format
+msgid "Author"
+msgstr "Autor"
+
+#: main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:46 main.cpp:47
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: qml/ConfigurationDelegate.qml:97
+#, kde-format
+msgid "Incoming"
+msgstr "Dolazna pošta"
+
+#: qml/ConfigurationDelegate.qml:118 qml/ConfigurationDelegate.qml:160
+#, kde-format
+msgid "This hostname contains non-ASCII characters."
+msgstr "Naziv ovog računala sadrži znakove koji nisu ASCII."
+
+#: qml/ConfigurationDelegate.qml:138
+#, kde-format
+msgid "Outgoing"
+msgstr "Odlazna pošta"
+
+#: qml/ConfigurationSelectionPage.qml:17
+#, kde-format
+msgctxt "@title:group"
+msgid "Configuration Selection"
+msgstr "Odabir konfiguracije"
+
+#: qml/ConfigurationSelectionPage.qml:40
+#, kde-format
+msgid "Available configurations"
+msgstr "Dostupne konfiguracije"
+
+#: qml/ConfigurationSelectionPage.qml:59
+#, kde-format
+msgid "No configuration found from the internet for this server."
+msgstr "Na internetu nije pronađena konfiguracija za ovaj poslužitelj."
+
+#: qml/ConfigurationSelectionPage.qml:85 qml/ManualConfigurationPage.qml:16
+#, kde-format
+msgid "Manual Configuration"
+msgstr "Ručna konfiguracija"
+
+#: qml/ConfigurationSelectionPage.qml:95
+#, kde-format
+msgctxt "@title:group"
+msgid "Calendar and Contacts"
+msgstr "Kalendar i kontakti"
+
+#: qml/ConfigurationSelectionPage.qml:106
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable calendar and contact integration"
+msgstr "Omogući integraciju kalendara i kontakata"
+
+#: qml/DetailsPage.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: qml/DetailsPage.qml:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Finish"
+msgstr "Završi"
+
+#: qml/DetailsPage.qml:29
+#, kde-format
+msgid "Details"
+msgstr "Pojedinosti"
+
+#: qml/DetailsPage.qml:56
+#, kde-format
+msgctxt "Placeholder"
+msgid "No details available."
+msgstr "Nema dostupnih pojedinosti."
+
+#: qml/ManualConfigurationPage.qml:19
+#, kde-format
+msgid "Recheck"
+msgstr "Ponovno provjeri"
+
+#: qml/ManualConfigurationPage.qml:26
+#, kde-format
+msgid "Create Account"
+msgstr "Izradi račun"
+
+#: qml/ManualConfigurationPage.qml:68
+#, kde-format
+msgid "Incoming Server Parameters"
+msgstr "Parametri dolaznog poslužitelja"
+
+#: qml/ManualConfigurationPage.qml:74
+#, kde-format
+msgid "Incoming server:"
+msgstr "Dolazni poslužitelj:"
+
+#: qml/ManualConfigurationPage.qml:86
+#, kde-format
+msgid "Protocol:"
+msgstr "Protokol:"
+
+#: qml/ManualConfigurationPage.qml:108 qml/ManualConfigurationPage.qml:221
+#, kde-format
+msgid "Port:"
+msgstr "Priključak:"
+
+#: qml/ManualConfigurationPage.qml:119 qml/ManualConfigurationPage.qml:235
+#, kde-format
+msgid "Security:"
+msgstr "Sigurnost:"
+
+#: qml/ManualConfigurationPage.qml:123 qml/ManualConfigurationPage.qml:240
+#, kde-format
+msgid "SSL/TLS (recommended)"
+msgstr "SSL/TLS (preporučeno)"
+
+#: qml/ManualConfigurationPage.qml:125 qml/ManualConfigurationPage.qml:239
+#, kde-format
+msgid "None"
+msgstr "Nema"
+
+#: qml/ManualConfigurationPage.qml:142 qml/ManualConfigurationPage.qml:258
+#, kde-format
+msgid "Authentication Method:"
+msgstr "Način autentikacije:"
+
+#: qml/ManualConfigurationPage.qml:148
+#, kde-format
+msgid "Normal Password"
+msgstr "Obična lozinka"
+
+#: qml/ManualConfigurationPage.qml:149 qml/ManualConfigurationPage.qml:263
+#, kde-format
+msgid "PLAIN"
+msgstr "PLAIN"
+
+#: qml/ManualConfigurationPage.qml:150 qml/ManualConfigurationPage.qml:264
+#, kde-format
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: qml/ManualConfigurationPage.qml:151 qml/ManualConfigurationPage.qml:265
+#, kde-format
+msgid "CRAM-MD5"
+msgstr "CRAM-MD5"
+
+#: qml/ManualConfigurationPage.qml:152 qml/ManualConfigurationPage.qml:266
+#, kde-format
+msgid "DIGEST-MD5"
+msgstr "DIGEST-MD5"
+
+#: qml/ManualConfigurationPage.qml:153 qml/ManualConfigurationPage.qml:267
+#, kde-format
+msgid "NTLM"
+msgstr "NTLM"
+
+#: qml/ManualConfigurationPage.qml:154
+#, kde-format
+msgid "Kerberos / GSSAPI"
+msgstr "Kerberos / GSSAPI"
+
+#: qml/ManualConfigurationPage.qml:155 qml/ManualConfigurationPage.qml:269
+#, kde-format
+msgid "XOAuth (Gmail)"
+msgstr "XOAuth (Gmail)"
+
+#: qml/ManualConfigurationPage.qml:158
+#, kde-format
+msgid "APOP"
+msgstr "APOP"
+
+#: qml/ManualConfigurationPage.qml:177 qml/ManualConfigurationPage.qml:286
+#, kde-format
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: qml/ManualConfigurationPage.qml:192
+#, kde-format
+msgid "Download all messages for offline use"
+msgstr "Preuzmi sve poruke za izvanmrežnu upotrebu"
+
+#: qml/ManualConfigurationPage.qml:201
+#, kde-format
+msgid "Outgoing Server Parameters"
+msgstr "Parametri odlaznog poslužitelja"
+
+#: qml/ManualConfigurationPage.qml:208
+#, kde-format
+msgid "Outgoing server:"
+msgstr "Odlazni poslužitelj:"
+
+#: qml/ManualConfigurationPage.qml:262
+#, kde-format
+msgid "Clear text"
+msgstr "Nešifrirani tekst"
+
+#: qml/ManualConfigurationPage.qml:268
+#, kde-format
+msgid "GSSAPI"
+msgstr "GSSAPI"
+
+#: qml/PersonalDataPage.qml:16
+#, kde-format
+msgid "Personal Information"
+msgstr "Osobni podaci"
+
+#: qml/PersonalDataPage.qml:41
+#, kde-format
+msgid "Connect your Email Account"
+msgstr "Povežite svoj račun e-pošte"
+
+#: qml/PersonalDataPage.qml:49
+#, kde-format
+msgid ""
+"To use your current email address fill in your credentials. This wizard will "
+"automatically search for a working and recommended server configuration. "
+"Only the domain name part of the e-mail address will be sent over the "
+"Internet."
+msgstr "Da biste upotrijebili svoju adresu e-pošte, unesite vjerodajnice. Ovaj će čarobnjak automatski potražiti ispravnu i preporučenu konfiguraciju poslužitelja. Internetom će se poslati samo naziv domene iz adrese e-pošte."
+
+#: qml/PersonalDataPage.qml:55
+#, kde-format
+msgid "Full name:"
+msgstr "Ime i prezime:"
+
+#: qml/PersonalDataPage.qml:56
+#, kde-format
+msgctxt "Generic name"
+msgid "John Smith"
+msgstr "John Smith"
+
+#: qml/PersonalDataPage.qml:65
+#, kde-format
+msgid "E-mail address:"
+msgstr "Adresa e-pošte:"
+
+#: qml/PersonalDataPage.qml:66
+#, kde-format
+msgctxt "Generic email address"
+msgid "boss@example.corp"
+msgstr "boss@example.corp"
+
+#: qml/PersonalDataPage.qml:84
+#, kde-format
+msgid "Password (optional):"
+msgstr "Lozinka (nije obavezna):"
+
+#: qml/WizardPage.qml:16
+#, kde-format
+msgctxt "@action:button"
+msgid "Previous"
+msgstr "Prethodno"
+
+#: qml/WizardPage.qml:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr "Dalje"
+
+#: resource.cpp:72
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr "Vrsta resursa „%1” nije dostupna."
+
+#: resource.cpp:85
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr "Resurs „%1” već je postavljen."
+
+#: resource.cpp:92
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr "Stvaranje instance resursa „%1”…"
+
+#: resource.cpp:101
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr "Stvaranje instance resursa nije uspjelo: %1"
+
+#: resource.cpp:108
+#, kde-format
+msgid "Configuring resource instance..."
+msgstr "Konfiguriranje instance resursa…"
+
+#: resource.cpp:112
+#, kde-format
+msgid "Unable to configure resource instance."
+msgstr "Nije moguće konfigurirati instancu resursa."
+
+#: resource.cpp:131
+#, kde-format
+msgid ""
+"Could not convert value of setting '%1' with type %2 to required type %3."
+msgstr "Vrijednost postavke „%1” vrste %2 nije moguće pretvoriti u potrebnu vrstu %3."
+
+#: resource.cpp:145
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr "Nije moguće postaviti postavku „%1”: %2"
+
+#: resource.cpp:152
+#, kde-format
+msgid "Could not save settings: %1"
+msgstr "Nije moguće spremiti postavke: %1"
+
+#: resource.cpp:159
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource setup completed: %1"
+msgstr "Postavljanje resursa dovršeno: %1"
+
+#: resource.cpp:162
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource type:"
+msgstr "Vrsta resursa:"
+
+#: resource.cpp:172
+#, kde-format
+msgctxt "Empty password"
+msgid "Empty"
+msgstr "Prazno"
+
+#: resource.cpp:177
+#, kde-format
+msgctxt "label"
+msgid "%1:"
+msgstr "%1:"
