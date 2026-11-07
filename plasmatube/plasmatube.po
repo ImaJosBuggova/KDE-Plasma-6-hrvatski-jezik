@@ -1,0 +1,1086 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasmatube package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmatube\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-07-31 00:44+0000\n"
+"PO-Revision-Date: 2026-11-07 07:43+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: api/invidious/invidiousapi.cpp:112 api/piped/pipedapi.cpp:90
+#: controllers/logincontroller.cpp:37
+#, kde-format
+msgid "Username or password is wrong."
+msgstr "Korisničko ime ili lozinka nisu ispravni."
+
+#: api/invidious/invidiousapi.cpp:397 api/peertube/peertubeapi.cpp:408
+#: api/piped/pipedapi.cpp:327
+#, kde-format
+msgid "Server returned no valid JSON."
+msgstr "Poslužitelj nije vratio valjani JSON."
+
+#: api/invidious/invidiousapi.cpp:406 api/peertube/peertubeapi.cpp:417
+#: api/piped/pipedapi.cpp:336
+#, kde-format
+msgid "Server returned the status code %1"
+msgstr "Poslužitelj je vratio statusni kôd %1"
+
+#: controllers/logincontroller.cpp:40
+#, kde-format
+msgid "This instance has disabled the registration."
+msgstr "Na ovoj je instanci onemogućena registracija."
+
+#: controllers/videocontroller.cpp:71
+#, kde-format
+msgid "Playing video"
+msgstr "Reprodukcija videozapisa"
+
+#: main.cpp:52
+#, kde-format
+msgid "PlasmaTube"
+msgstr "PlasmaTube"
+
+#: main.cpp:54
+#, kde-format
+msgid "YouTube client"
+msgstr "Klijent za YouTube"
+
+#: main.cpp:56
+#, kde-format
+msgid "© 2019-2025 Linus Jahn, 2019-2025 KDE Community"
+msgstr "© 2019. – 2025. Linus Jahn, 2019. – 2025. zajednica KDE-a"
+
+#: main.cpp:57
+#, kde-format
+msgid "Linus Jahn"
+msgstr "Linus Jahn"
+
+#: main.cpp:57
+#, kde-format
+msgid "Creator"
+msgstr "Autor"
+
+#: main.cpp:58
+#, kde-format
+msgid "Joshua Goins"
+msgstr "Joshua Goins"
+
+#: main.cpp:59
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: main.cpp:63
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: models/peertubeinstancesmodel.cpp:32
+#, kde-format
+msgid "No server description provided."
+msgstr "Opis poslužitelja nije naveden."
+
+#: models/videolistmodel.cpp:18 ui/components/Sidebar.qml:142
+#, kde-format
+msgid "Subscriptions"
+msgstr "Pretplate"
+
+#: models/videolistmodel.cpp:20
+#, kde-format
+msgctxt "@action:button All trending videos"
+msgid "All"
+msgstr "Sve"
+
+#: models/videolistmodel.cpp:22
+#, kde-format
+msgctxt "@action:button Trending gaming videos"
+msgid "Gaming"
+msgstr "Videoigre"
+
+#: models/videolistmodel.cpp:24
+#, kde-format
+msgctxt "@action:button Trending movie videos"
+msgid "Movies"
+msgstr "Filmovi"
+
+#: models/videolistmodel.cpp:26
+#, kde-format
+msgctxt "@action:button Trending music videos"
+msgid "Music"
+msgstr "Glazba"
+
+#: models/videolistmodel.cpp:28
+#, kde-format
+msgctxt "@action:button Trending news videos"
+msgid "News"
+msgstr "Vijesti"
+
+#: models/videolistmodel.cpp:30
+#, kde-format
+msgctxt "@action:button Video watch history"
+msgid "History"
+msgstr "Povijest"
+
+#: models/videolistmodel.cpp:156
+#, kde-format
+msgid "Search results for \"%1\""
+msgstr "Rezultati pretraživanja za „%1”"
+
+#: ui/android/ShareAction.qml:15 ui/android/ShareMenu.qml:15
+#: ui/components/ShareAction.qml:17 ui/components/ShareMenu.qml:15
+#, kde-format
+msgid "Share"
+msgstr "Dijeli"
+
+#: ui/android/ShareAction.qml:16 ui/components/ShareAction.qml:18
+#, kde-format
+msgid "Share the selected media"
+msgstr "Podijeli odabrani medijski sadržaj"
+
+#: ui/ChannelPage.qml:37 ui/FeedPage.qml:47 ui/PlaylistPage.qml:35
+#: ui/SearchPage.qml:160 ui/settings/NetworkProxyPage.qml:44
+#, kde-format
+msgid "Proxy Settings"
+msgstr "Postavke proxyja"
+
+#: ui/ChannelPage.qml:46
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Open in Browser"
+msgstr "Otvori u pregledniku"
+
+#: ui/ChannelPage.qml:151
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Videos"
+msgstr "Videozapisi"
+
+#: ui/ChannelPage.qml:157
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Playlists"
+msgstr "Popisi za reprodukciju"
+
+#: ui/ChannelPage.qml:188 ui/FeedPage.qml:59 ui/PlaylistPage.qml:55
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Videos"
+msgstr "Nema videozapisa"
+
+#: ui/ChannelPage.qml:206 ui/Main.qml:251 ui/PlaylistsPage.qml:26
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Playlists"
+msgstr "Nema popisa za reprodukciju"
+
+#: ui/components/BottomNavBar.qml:70
+#, kde-format
+msgid "Videos"
+msgstr ""
+
+#: ui/components/BottomNavBar.qml:82 ui/SearchPage.qml:16
+#, kde-format
+msgid "Search"
+msgstr "Pretraži"
+
+#: ui/components/BottomNavBar.qml:93 ui/videoplayer/VideoControls.qml:326
+#, kde-format
+msgid "Settings"
+msgstr "Postavke"
+
+#: ui/components/BottomNavBar.qml:98 ui/components/Sidebar.qml:192
+#: ui/loginflow/WelcomePage.qml:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr ""
+
+#: ui/components/Comments.qml:97
+#, kde-format
+msgctxt "@action:button Load more comments"
+msgid "Load more"
+msgstr "Učitaj više"
+
+#: ui/components/Comments.qml:104
+#, kde-format
+msgctxt "@info"
+msgid "No comments"
+msgstr "Nema komentara"
+
+#: ui/components/PlaylistGridItem.qml:53
+#, kde-format
+msgid "%1 video"
+msgid_plural "%1 videos"
+msgstr[0] "%1 videozapis"
+msgstr[1] "%1 videozapisa"
+msgstr[2] "%1 videozapisa"
+
+#: ui/components/ShareDialog.qml:33
+#, kde-format
+msgid "Sharing failed"
+msgstr "Dijeljenje nije uspjelo"
+
+#: ui/components/Sidebar.qml:127
+#, kde-format
+msgid "Trending"
+msgstr "Popularno"
+
+#: ui/components/Sidebar.qml:157 ui/PlaylistsPage.qml:13
+#, kde-format
+msgid "Playlists"
+msgstr "Popisi za reprodukciju"
+
+#: ui/components/Sidebar.qml:172
+#, kde-format
+msgid "History"
+msgstr "Povijest"
+
+#: ui/components/Sidebar.qml:189
+#, kde-format
+msgctxt "@action:button Open settings dialog"
+msgid "Settings"
+msgstr "Postavke"
+
+#: ui/components/SourceSwitcher.qml:53 ui/settings/SourcesPage.qml:63
+#, kde-format
+msgid "Invidious"
+msgstr "Invidious"
+
+#: ui/components/SourceSwitcher.qml:55 ui/settings/SourcesPage.qml:65
+#, kde-format
+msgid "PeerTube"
+msgstr "PeerTube"
+
+#: ui/components/SourceSwitcher.qml:57 ui/settings/SourcesPage.qml:67
+#, kde-format
+msgid "Piped"
+msgstr "Piped"
+
+#: ui/components/SourceSwitcher.qml:72 ui/components/SourceSwitcherDialog.qml:28
+#, kde-format
+msgid "Switch Source"
+msgstr "Promijeni izvor"
+
+#: ui/components/SourceSwitcherDialog.qml:55
+#, kde-format
+msgid "Add Source"
+msgstr "Dodaj izvor"
+
+#: ui/components/SourceSwitcherDialog.qml:59
+#, kde-format
+msgid "Add a new video source"
+msgstr "Dodaj novi izvor videozapisa"
+
+#: ui/components/SubscriptionButton.qml:61
+#, kde-format
+msgctxt ""
+"@action:button Unsubscribe to this channel, %1 is the sub count if provided"
+msgid "Unsubscribe%1"
+msgstr "Otkaži pretplatu%1"
+
+#: ui/components/SubscriptionButton.qml:63
+#, kde-format
+msgctxt ""
+"@action:button Subscribe to this channel, %1 is the sub count if provided"
+msgid "Subscribe%1"
+msgstr "Pretplati se%1"
+
+#: ui/components/SubscriptionButton.qml:73
+#, kde-format
+msgid "Please log in to subscribe to channels."
+msgstr "Prijavite se da biste se pretplatili na kanale."
+
+#: ui/components/VideoGridItem.qml:72
+#, kde-format
+msgctxt "Short label for a livestream that's live"
+msgid "Live"
+msgstr "Uživo"
+
+#: ui/components/VideoGridItem.qml:79
+#, kde-format
+msgctxt "Short label for a short video"
+msgid "Short"
+msgstr "Kratko"
+
+#: ui/components/VideoGridItem.qml:157 ui/components/VideoListItem.qml:148
+#, kde-format
+msgid "No views"
+msgstr "Nema pregleda"
+
+#: ui/components/VideoGridItem.qml:159 ui/components/VideoListItem.qml:150
+#: ui/videoplayer/VideoPlayer.qml:428
+#, kde-format
+msgid "%1 views"
+msgstr "%1 pregleda"
+
+#: ui/components/VideoGridItem.qml:162
+#, kde-format
+msgid "<i>live now</i>"
+msgstr "<i>uživo sada</i>"
+
+#: ui/components/VideoListItem.qml:160
+#, kde-format
+msgid " • %1"
+msgstr " • %1"
+
+#: ui/components/VideoMenu.qml:33
+#, kde-format
+msgid "Play Now"
+msgstr "Reproduciraj odmah"
+
+#: ui/components/VideoMenu.qml:33
+#, kde-format
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: ui/components/VideoMenu.qml:43
+#, kde-format
+msgid "Play Next"
+msgstr "Reproduciraj sljedeće"
+
+#: ui/components/VideoMenu.qml:52
+#, kde-format
+msgid "Play in Picture-in-Picture"
+msgstr "Reproduciraj u načinu slika-u-slici"
+
+#: ui/components/VideoMenu.qml:67
+#, kde-format
+msgid "Mark as Unwatched"
+msgstr "Označi kao nepogledano"
+
+#: ui/components/VideoMenu.qml:67
+#, kde-format
+msgid "Mark as Watched"
+msgstr "Označi kao pogledano"
+
+#: ui/components/VideoMenu.qml:81
+#, kde-format
+msgid "Add to Playlist…"
+msgstr "Dodaj na popis za reprodukciju…"
+
+#: ui/components/VideoMenu.qml:88
+#, kde-format
+msgid "Remove from Playlist"
+msgstr "Ukloni s popisa za reprodukciju"
+
+#: ui/FeedPage.qml:34
+#, kde-format
+msgctxt "@info:status Network status"
+msgid "Failed to contact server: %1. Please check your proxy settings."
+msgstr "Povezivanje s poslužiteljem nije uspjelo: %1. Provjerite postavke proxyja."
+
+#: ui/loginflow/AddInvidiousPage.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Invidious Source"
+msgstr "Dodaj izvor Invidious"
+
+#: ui/loginflow/AddPeerTubePage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Add PeerTube Source"
+msgstr "Dodaj izvor PeerTube"
+
+#: ui/loginflow/AddPipedPage.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Piped Source"
+msgstr "Dodaj izvor Piped"
+
+#: ui/loginflow/InstancesPage.qml:42
+#, kde-format
+msgid "Search or enter URL…"
+msgstr "Pretražite ili unesite URL…"
+
+#: ui/loginflow/InstancesPage.qml:57
+#, kde-format
+msgid "Custom Server"
+msgstr "Prilagođeni poslužitelj"
+
+#: ui/loginflow/InstancesPage.qml:67
+#, kde-format
+msgid "Public Servers"
+msgstr "Javni poslužitelji"
+
+#: ui/loginflow/InstancesPage.qml:98
+#, kde-format
+msgid "No Public Servers"
+msgstr "Nema javnih poslužitelja"
+
+#: ui/loginflow/InstancesPage.qml:99
+#, kde-format
+msgid "Enter a server URL manually in the search field."
+msgstr "Ručno unesite URL poslužitelja u polje za pretraživanje."
+
+#: ui/loginflow/SelectSourcePage.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Add a Video Source"
+msgstr "Dodaj izvor videozapisa"
+
+#: ui/loginflow/SelectSourcePage.qml:39
+#, kde-format
+msgid "Visit Website"
+msgstr "Posjeti web-mjesto"
+
+#: ui/loginflow/SelectSourcePage.qml:62
+#, kde-format
+msgid "Add Invidious Source"
+msgstr "Dodaj izvor Invidious"
+
+#: ui/loginflow/SelectSourcePage.qml:63 ui/loginflow/SelectSourcePage.qml:95
+#, kde-format
+msgid "Watch YouTube videos"
+msgstr "Gledajte videozapise s YouTubea"
+
+#: ui/loginflow/SelectSourcePage.qml:78
+#, kde-format
+msgid "Add PeerTube Source"
+msgstr "Dodaj izvor PeerTube"
+
+#: ui/loginflow/SelectSourcePage.qml:79
+#, kde-format
+msgid "Watch PeerTube videos"
+msgstr "Gledajte videozapise s PeerTubea"
+
+#: ui/loginflow/SelectSourcePage.qml:94
+#, kde-format
+msgid "Add Piped Source"
+msgstr "Dodaj izvor Piped"
+
+#: ui/loginflow/WelcomePage.qml:17 ui/settings/SourcesPage.qml:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr "Dobro došli"
+
+#: ui/loginflow/WelcomePage.qml:45
+#, kde-format
+msgctxt "@info"
+msgid "PlasmaTube"
+msgstr "PlasmaTube"
+
+#: ui/loginflow/WelcomePage.qml:54
+#, kde-format
+msgctxt "@info"
+msgid "Watch YouTube and PeerTube videos."
+msgstr "Gledajte videozapise s YouTubea i PeerTubea."
+
+#: ui/loginflow/WelcomePage.qml:68
+#, kde-format
+msgctxt "@action:button"
+msgid "Add a Video Source"
+msgstr "Dodaj izvor videozapisa"
+
+#: ui/loginflow/WelcomePage.qml:82
+#, kde-format
+msgctxt "@action:button Application settings"
+msgid "Settings"
+msgstr "Postavke"
+
+#: ui/LoginPage.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Log in"
+msgstr "Prijava"
+
+#: ui/LoginPage.qml:67
+#, kde-format
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: ui/LoginPage.qml:81 ui/settings/NetworkProxyPage.qml:90
+#, kde-format
+msgid "Password"
+msgstr "Lozinka"
+
+#: ui/LoginPage.qml:96
+#, kde-format
+msgid "Log in"
+msgstr "Prijavi se"
+
+#: ui/LoginPage.qml:104
+#, kde-format
+msgid "Username must not be empty!"
+msgstr "Korisničko ime ne smije biti prazno!"
+
+#: ui/LoginPage.qml:109
+#, kde-format
+msgid "Password must not be empty!"
+msgstr "Lozinka ne smije biti prazna!"
+
+#: ui/Main.qml:221
+#, kde-format
+msgctxt "@title"
+msgid "Add to Playlist"
+msgstr "Dodaj na popis za reprodukciju"
+
+#: ui/PlaylistPage.qml:42
+#, kde-format
+msgctxt "@action:button Play the playlist"
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: ui/SearchPage.qml:88
+#, kde-format
+msgid "Sort By:"
+msgstr "Poredaj prema:"
+
+#: ui/SearchPage.qml:92
+#, kde-format
+msgid "Rating"
+msgstr "Ocjena"
+
+#: ui/SearchPage.qml:104
+#, kde-format
+msgid "Relevance"
+msgstr "Relevantnost"
+
+#: ui/SearchPage.qml:117
+#, kde-format
+msgid "Upload Date"
+msgstr "Datum prijenosa"
+
+#: ui/SearchPage.qml:129
+#, kde-format
+msgid "View Count"
+msgstr "Broj pregleda"
+
+#: ui/SearchPage.qml:175
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No Results"
+msgstr "Nema rezultata"
+
+#: ui/settings/AccountCard.qml:22
+#, kde-format
+msgid "Currently logged in as %1."
+msgstr "Trenutačno ste prijavljeni kao %1."
+
+#: ui/settings/AccountCard.qml:39
+#, kde-format
+msgctxt "@action:button"
+msgid "Log out"
+msgstr "Odjavi se"
+
+#: ui/settings/AccountCard.qml:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Log in"
+msgstr "Prijavi se"
+
+#: ui/settings/AccountCard.qml:45
+#, kde-format
+msgid "Subscribe to channels, keep track of watched videos and more."
+msgstr "Pretplatite se na kanale, pratite pogledane videozapise i još mnogo toga."
+
+#: ui/settings/BaseSourcePage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Source"
+msgstr "Uredi izvor"
+
+#: ui/settings/BaseSourcePage.qml:20
+#, kde-format
+msgid "Remove Source…"
+msgstr "Ukloni izvor…"
+
+#: ui/settings/BaseSourcePage.qml:21
+#, kde-format
+msgid "Cannot remove the only source."
+msgstr "Nije moguće ukloniti jedini izvor."
+
+#: ui/settings/BaseSourcePage.qml:32
+#, kde-format
+msgctxt "@title"
+msgid "Remove Source"
+msgstr "Uklanjanje izvora"
+
+#: ui/settings/BaseSourcePage.qml:33
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to remove this source?"
+msgstr "Želite li zaista ukloniti ovaj izvor?"
+
+#: ui/settings/GeneralPage.qml:14 ui/settings/SettingsPage.qml:15
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: ui/settings/GeneralPage.qml:22
+#, kde-format
+msgid "Preferred Video Quality"
+msgstr "Željena kvaliteta videozapisa"
+
+#: ui/settings/GeneralPage.qml:23
+#, kde-format
+msgid ""
+"This selected quality will be used if available, otherwise the highest "
+"available quality is used."
+msgstr ""
+"Koristit će se odabrana kvaliteta ako je dostupna, a u suprotnom će se "
+"koristiti najviša dostupna kvaliteta."
+
+#: ui/settings/GeneralPage.qml:29
+#, kde-format
+msgctxt "@info video resolution"
+msgid "2160p"
+msgstr "2160p"
+
+#: ui/settings/GeneralPage.qml:33
+#, kde-format
+msgctxt "@info video resolution"
+msgid "1440p"
+msgstr "1440p"
+
+#: ui/settings/GeneralPage.qml:37
+#, kde-format
+msgctxt "@info video resolution"
+msgid "1080p"
+msgstr "1080p"
+
+#: ui/settings/GeneralPage.qml:41
+#, kde-format
+msgctxt "@info video resolution"
+msgid "720p"
+msgstr "720p"
+
+#: ui/settings/GeneralPage.qml:45
+#, kde-format
+msgctxt "@info video resolution"
+msgid "480p"
+msgstr "480p"
+
+#: ui/settings/GeneralPage.qml:49
+#, kde-format
+msgctxt "@info video resolution"
+msgid "360p"
+msgstr "360p"
+
+#: ui/settings/GeneralPage.qml:53
+#, kde-format
+msgctxt "@info video resolution"
+msgid "240p"
+msgstr "240p"
+
+#: ui/settings/GeneralPage.qml:57
+#, kde-format
+msgctxt "@info video resolution"
+msgid "144p"
+msgstr "144p"
+
+#: ui/settings/GeneralPage.qml:75
+#, kde-format
+msgctxt "@option:check Hide short-form videos"
+msgid "Hide Shorts"
+msgstr "Sakrij kratke videozapise"
+
+#: ui/settings/GeneralPage.qml:76
+#, kde-format
+msgid "Hide short-form videos designed for viewing on a mobile device."
+msgstr "Sakrij kratke videozapise namijenjene gledanju na mobilnom uređaju."
+
+#: ui/settings/GeneralPage.qml:93
+#, kde-format
+msgctxt "@option:check"
+msgid "Check for sponsored segments"
+msgstr "Provjeri sponzorirane dijelove"
+
+#: ui/settings/GeneralPage.qml:94
+#, kde-format
+msgid ""
+"Show a notification when a community-submitted segment (typically a "
+"sponsorship) is in the video. This feature requires contacting a 3rd-party "
+"service."
+msgstr ""
+"Prikaži obavijest kada videozapis sadrži dio koji je prijavila zajednica "
+"(obično sponzorirani dio). Ova značajka zahtijeva povezivanje s uslugom "
+"treće strane."
+
+#: ui/settings/GeneralPage.qml:111
+#, kde-format
+msgctxt "@option:check"
+msgid "Skip sponsored segments"
+msgstr "Preskoči sponzorirane dijelove"
+
+#: ui/settings/GeneralPage.qml:112
+#, kde-format
+msgid "Automatically skip sponsored segments in the video."
+msgstr "Automatski preskoči sponzorirane dijelove videozapisa."
+
+#: ui/settings/InvidiousSourcePage.qml:15
+#: ui/settings/PeerTubeSourcePage.qml:11
+#, kde-format
+msgid "Account"
+msgstr "Račun"
+
+#: ui/settings/InvidiousSourcePage.qml:37
+#, kde-format
+msgid "Preferences"
+msgstr "Osobitosti"
+
+#: ui/settings/InvidiousSourcePage.qml:42
+#, kde-format
+msgid "Autoplay videos"
+msgstr "Automatski reproduciraj videozapise"
+
+#: ui/settings/InvidiousSourcePage.qml:43
+#, kde-format
+msgid ""
+"Whether to start playing videos immediately, or wait until the play button "
+"is pressed."
+msgstr "Određuje hoće li se videozapisi odmah reproducirati ili čekati pritisak gumba za reprodukciju."
+
+#: ui/settings/InvidiousSourcePage.qml:58
+#, kde-format
+msgid "Default Page"
+msgstr "Zadana stranica"
+
+#: ui/settings/InvidiousSourcePage.qml:59
+#, kde-format
+msgid "The first page to load when switching to this source."
+msgstr "Stranica koja će se prva učitati pri prelasku na ovaj izvor."
+
+#: ui/settings/InvidiousSourcePage.qml:64
+#, kde-format
+msgctxt "@info Search page"
+msgid "Search"
+msgstr "Pretraživanje"
+
+#: ui/settings/InvidiousSourcePage.qml:68
+#, kde-format
+msgctxt "@info Trending page"
+msgid "Trending"
+msgstr "Popularno"
+
+#: ui/settings/InvidiousSourcePage.qml:72
+#, kde-format
+msgctxt "@info Subscriptions page"
+msgid "Subscriptions"
+msgstr "Pretplate"
+
+#: ui/settings/InvidiousSourcePage.qml:76
+#, kde-format
+msgctxt "@info Playlists page"
+msgid "Playlists"
+msgstr "Popisi za reprodukciju"
+
+#: ui/settings/NetworkProxyPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "Network Proxy"
+msgstr "Mrežni proxy"
+
+#: ui/settings/NetworkProxyPage.qml:26
+#, kde-format
+msgid "System Default"
+msgstr "Zadano prema sustavu"
+
+#: ui/settings/NetworkProxyPage.qml:36
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: ui/settings/NetworkProxyPage.qml:52
+#, kde-format
+msgid "Host"
+msgstr "Računalo"
+
+#: ui/settings/NetworkProxyPage.qml:63
+#, kde-format
+msgid "Port"
+msgstr "Priključak"
+
+#: ui/settings/NetworkProxyPage.qml:82
+#, kde-format
+msgid "User"
+msgstr "Korisnik"
+
+#: ui/settings/NetworkProxyPage.qml:106
+#, kde-format
+msgid "Apply"
+msgstr "Primijeni"
+
+#: ui/settings/SettingsPage.qml:21 ui/settings/SourcesPage.qml:17
+#, kde-format
+msgid "Sources"
+msgstr "Izvori"
+
+#: ui/settings/SettingsPage.qml:27
+#, kde-format
+msgid "Network Proxy"
+msgstr "Mrežni proxy"
+
+#: ui/settings/SettingsPage.qml:33
+#, kde-format
+msgid "About PlasmaTube"
+msgstr "O aplikaciji PlasmaTube"
+
+#: ui/settings/SettingsPage.qml:39
+#, kde-format
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: ui/settings/SourcesPage.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Source…"
+msgstr "Dodaj izvor…"
+
+#: ui/SubscriptionListPage.qml:24
+#, kde-format
+msgctxt "@title:window List of subscribed channels"
+msgid "Subscribed Channels"
+msgstr "Pretplaćeni kanali"
+
+#: ui/SubscriptionListPage.qml:33
+#, kde-format
+msgid "Importing Completed"
+msgstr "Uvoz je dovršen"
+
+#: ui/SubscriptionListPage.qml:33
+#, kde-format
+msgid "Exporting Completed"
+msgstr "Izvoz je dovršen"
+
+#: ui/SubscriptionListPage.qml:36
+#, kde-format
+msgid "Imported %1 new subscription."
+msgid_plural "Imported %1 new subscriptions."
+msgstr[0] "Uvezena je %1 nova pretplata."
+msgstr[1] "Uvezene su %1 nove pretplate."
+msgstr[2] "Uvezeno je %1 novih pretplata."
+
+#: ui/SubscriptionListPage.qml:38
+#, kde-format
+msgid "All imported channels were already subscribed to."
+msgstr "Na sve uvezene kanale već ste bili pretplaćeni."
+
+#: ui/SubscriptionListPage.qml:41
+#, kde-format
+msgid "Exported %1 subscription."
+msgid_plural "Exported %1 subscriptions."
+msgstr[0] "Izvezena je %1 pretplata."
+msgstr[1] "Izvezene su %1 pretplate."
+msgstr[2] "Izvezeno je %1 pretplata."
+
+#: ui/SubscriptionListPage.qml:50
+#, kde-format
+msgctxt "@title:window Error while import/export"
+msgid "Error"
+msgstr "Pogreška"
+
+#: ui/SubscriptionListPage.qml:58
+#, kde-format
+msgctxt "@action:button Import subscriptions"
+msgid "Import…"
+msgstr "Uvezi…"
+
+#: ui/SubscriptionListPage.qml:63
+#, kde-format
+msgctxt "@title:window Import the OPML file"
+msgid "Import OPML Subscriptions"
+msgstr "Uvoz OPML pretplata"
+
+#: ui/SubscriptionListPage.qml:64
+#, kde-format
+msgctxt "@action:button Import the OPML file"
+msgid "Import"
+msgstr "Uvezi"
+
+#: ui/SubscriptionListPage.qml:69
+#, kde-format
+msgctxt "@action:button Export subscriptions"
+msgid "Export…"
+msgstr "Izvezi…"
+
+#: ui/SubscriptionListPage.qml:74
+#, kde-format
+msgctxt "@title:window Export the OPML file"
+msgid "Export OPML Subscriptions"
+msgstr "Izvoz OPML pretplata"
+
+#: ui/SubscriptionListPage.qml:75
+#, kde-format
+msgctxt "@action:button Export the OPML file"
+msgid "Export"
+msgstr "Izvezi"
+
+#: ui/SubscriptionListPage.qml:102
+#, kde-format
+msgid "Importing…"
+msgstr "Uvoz…"
+
+#: ui/SubscriptionListPage.qml:102
+#, kde-format
+msgid "Exporting…"
+msgstr "Izvoz…"
+
+#: ui/SubscriptionListPage.qml:177
+#, kde-format
+msgid "No channels"
+msgstr "Nema kanala"
+
+#: ui/SubscriptionsPage.qml:12
+#, kde-format
+msgctxt "@action:button View subscribed channels"
+msgid "Subscribed Channels"
+msgstr "Pretplaćeni kanali"
+
+#: ui/TrendingPage.qml:15
+#, kde-format
+msgctxt "@title Trending videos"
+msgid "Trending"
+msgstr "Popularno"
+
+#: ui/videoplayer/PictureInPictureVideo.qml:14
+#, kde-format
+msgid "Picture in Picture"
+msgstr "Slika u slici"
+
+#: ui/videoplayer/VideoControls.qml:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Video settings"
+msgstr "Postavke videozapisa"
+
+#: ui/videoplayer/VideoControls.qml:139
+#, kde-format
+msgctxt "@action:button"
+msgid "Seek backward"
+msgstr "Premotaj unatrag"
+
+#: ui/videoplayer/VideoControls.qml:181
+#, kde-format
+msgctxt "@action:button"
+msgid "Play"
+msgstr "Reproduciraj"
+
+#: ui/videoplayer/VideoControls.qml:226
+#, kde-format
+msgctxt "@action:button"
+msgid "Seek forward"
+msgstr "Premotaj unaprijed"
+
+#: ui/videoplayer/VideoControls.qml:269
+#, kde-format
+msgctxt "@action:button"
+msgid "Fullscreen"
+msgstr "Cijeli zaslon"
+
+#: ui/videoplayer/VideoControls.qml:296
+#, kde-format
+msgctxt "@action:button"
+msgid "Picture-in-picture"
+msgstr "Slika u slici"
+
+#: ui/videoplayer/VideoPlayer.qml:112
+#, kde-format
+msgctxt "@action:button"
+msgid "Hide player"
+msgstr "Sakrij reproduktor"
+
+#: ui/videoplayer/VideoPlayer.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Add to Playlist…"
+msgstr "Dodaj na popis za reprodukciju…"
+
+#: ui/videoplayer/VideoPlayer.qml:181
+#, kde-format
+msgctxt "@info"
+msgid "Error Loading Video"
+msgstr "Pogreška pri učitavanju videozapisa"
+
+#: ui/videoplayer/VideoPlayer.qml:186
+#, kde-format
+msgctxt "@action:button"
+msgid "Open in Browser"
+msgstr "Otvori u pregledniku"
+
+#: ui/videoplayer/VideoPlayer.qml:339
+#, kde-format
+msgid "Copy Video URL"
+msgstr "Kopiraj URL videozapisa"
+
+#: ui/videoplayer/VideoPlayer.qml:347
+#, kde-format
+msgid "Video Statistics"
+msgstr "Statistika videozapisa"
+
+#: ui/videoplayer/VideoPlayer.qml:436
+#, kde-format
+msgid "%1 Likes"
+msgstr "%1 sviđanja"
+
+#: ui/videoplayer/VideoPlayer.qml:447
+#, kde-format
+msgctxt "@info"
+msgid "No description was set for this video."
+msgstr "Za ovaj videozapis nije postavljen opis."
+
+#: ui/videoplayer/VideoPlayer.qml:487
+#, kde-format
+msgid "Comments"
+msgstr "Komentari"
+
+#: ui/videoplayer/VideoPlayer.qml:518
+#, kde-format
+msgid "Recommended"
+msgstr "Preporučeno"
+
+#: ui/videoplayer/VideoPlayer.qml:524
+#, kde-format
+msgctxt "@info"
+msgid "No recommended videos"
+msgstr "Nema preporučenih videozapisa"
+
+#: ui/videoplayer/VideoPlayer.qml:610
+#, kde-format
+msgid "The sponsored segment of the video has been skipped"
+msgstr "Sponzorirani dio videozapisa preskočen je"
+
+#: ui/videoplayer/VideoPlayer.qml:618
+#, kde-format
+msgid "This segment of the video is sponsored"
+msgstr "Ovaj je dio videozapisa sponzoriran"
+
+#: ui/videoplayer/VideoPlayer.qml:639
+#, kde-format
+msgctxt "@action:button"
+msgid "Skip"
+msgstr "Preskoči"
+
+#: ui/videoplayer/VideoQueueView.qml:35
+#, kde-format
+msgid "Queue"
+msgstr "Red čekanja"
+
+#: ui/videoplayer/VideoQueueView.qml:44
+#, kde-format
+msgctxt "@action:button Clear playlist"
+msgid "Clear"
+msgstr "Očisti"
+
+#: ui/videoplayer/VideoQueueView.qml:81
+#, kde-format
+msgid "Loading…"
+msgstr "Učitavanje…"

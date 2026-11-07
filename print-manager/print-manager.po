@@ -1,0 +1,857 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the print-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: print-manager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 00:50+0000\n"
+"PO-Revision-Date: 2026-11-07 07:17+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: src/configure-printer/ConfigureDialog.cpp:96
+#: src/configure-printer/ConfigureDialog.cpp:97
+#, kde-format
+msgid "Media Settings"
+msgstr "Postavke medija"
+
+#: src/configure-printer/ConfigureDialog.cpp:104
+#: src/configure-printer/ConfigureDialog.cpp:105
+#, kde-format
+msgid "Banners, Policies and Allowed Users"
+msgstr "Natpisi, pravila i dopušteni korisnici"
+
+#: src/configure-printer/ConfigureDialog.cpp:182
+#, kde-format
+msgid ""
+"The current page has changes.\n"
+"Do you want to save them?"
+msgstr ""
+"Na trenutačnoj stranici postoje promjene.\n"
+"Želite li ih spremiti?"
+
+#: src/configure-printer/ConfigureDialog.cpp:184
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: src/configure-printer/main.cpp:25
+#, kde-format
+msgid "Configure Printer"
+msgstr "Konfiguriraj pisač"
+
+#: src/configure-printer/main.cpp:27
+#, kde-format
+msgid "ConfigurePrinter"
+msgstr "ConfigurePrinter"
+
+#: src/configure-printer/main.cpp:29
+#, kde-format
+msgid "(C) 2010-2018 Daniel Nicoletti"
+msgstr "(C) 2010-2018 Daniel Nicoletti"
+
+#: src/configure-printer/main.cpp:31
+#, kde-format
+msgid "Port to Qt 5 / Plasma 5"
+msgstr "Prijenos na Qt 5 / Plasma 5"
+
+#: src/configure-printer/main.cpp:32
+#, kde-format
+msgid "Port to Qt 6 / Plasma 6"
+msgstr "Prijenos na Qt 6 / Plasma 6"
+
+#: src/configure-printer/main.cpp:39
+#, kde-format
+msgid "Printer to be configured"
+msgstr "Pisač za konfiguriranje"
+
+#: src/configure-printer/PrinterBehavior.cpp:192
+#, kde-format
+msgid "Abort job"
+msgstr "Prekini posao"
+
+#: src/configure-printer/PrinterBehavior.cpp:194
+#, kde-format
+msgid "Retry current job"
+msgstr "Ponovno pokušaj trenutačni posao"
+
+#: src/configure-printer/PrinterBehavior.cpp:196
+#, kde-format
+msgid "Retry job"
+msgstr "Ponovno pokušaj posao"
+
+#: src/configure-printer/PrinterBehavior.cpp:198
+#, kde-format
+msgid "Stop printer"
+msgstr "Zaustavi pisač"
+
+#: src/configure-printer/PrinterBehavior.cpp:207
+#, kde-format
+msgid "Authenticated"
+msgstr "Autentificirano"
+
+#: src/configure-printer/PrinterBehavior.cpp:209
+#, kde-format
+msgid "Default"
+msgstr "Zadano"
+
+#: src/configure-printer/PrinterBehavior.cpp:218
+#, kde-format
+msgid "None"
+msgstr "Nijedno"
+
+#: src/configure-printer/PrinterBehavior.cpp:220
+#, kde-format
+msgid "Classified"
+msgstr "Povjerljivo"
+
+#: src/configure-printer/PrinterBehavior.cpp:222
+#, kde-format
+msgid "Confidential"
+msgstr "Strogo povjerljivo"
+
+#: src/configure-printer/PrinterBehavior.cpp:224
+#, kde-format
+msgid "Secret"
+msgstr "Tajno"
+
+#: src/configure-printer/PrinterBehavior.cpp:226
+#, kde-format
+msgid "Standard"
+msgstr "Standardno"
+
+#: src/configure-printer/PrinterBehavior.cpp:228
+#, kde-format
+msgid "Topsecret"
+msgstr "Strogo tajno"
+
+#: src/configure-printer/PrinterBehavior.cpp:230
+#, kde-format
+msgid "Unclassified"
+msgstr "Neklasificirano"
+
+#. i18n: ectx: property (title), widget (QGroupBox, BanneryGB)
+#: src/configure-printer/PrinterBehavior.ui:20
+#, kde-format
+msgid "Banners"
+msgstr "Natpisi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/configure-printer/PrinterBehavior.ui:26
+#, kde-format
+msgid "Starting Banner:"
+msgstr "Početni natpis:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/configure-printer/PrinterBehavior.ui:46
+#, kde-format
+msgid "Ending Banner:"
+msgstr "Završni natpis:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, PoliciesGB)
+#: src/configure-printer/PrinterBehavior.ui:81
+#, kde-format
+msgid "Policies"
+msgstr "Pravila"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/configure-printer/PrinterBehavior.ui:87
+#, kde-format
+msgid "Operation Policy:"
+msgstr "Pravilo postupanja:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configure-printer/PrinterBehavior.ui:100
+#, kde-format
+msgid "Error Policy:"
+msgstr "Pravilo za pogreške:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, AllowGB)
+#: src/configure-printer/PrinterBehavior.ui:133
+#, kde-format
+msgid "Allowed Users"
+msgstr "Dopušteni korisnici"
+
+#. i18n: ectx: property (text), widget (QRadioButton, preventRB)
+#: src/configure-printer/PrinterBehavior.ui:139
+#, kde-format
+msgid "Pre&vent these users from printing "
+msgstr "&Spriječi ove korisnike da ispisuju "
+
+#. i18n: ectx: property (text), widget (QRadioButton, allowRB)
+#: src/configure-printer/PrinterBehavior.ui:146
+#, kde-format
+msgid "A&llow these users to print"
+msgstr "&Dopusti ovim korisnicima ispis"
+
+#: src/configure-printer/PrinterOptions.cpp:52
+#, kde-format
+msgid "Set Default Options"
+msgstr "Postavi zadane mogućnosti"
+
+#. i18n: ectx: property (text), widget (QPushButton, autoConfigurePB)
+#: src/configure-printer/PrinterOptions.ui:26
+#, kde-format
+msgid "Query Printer for Default Options"
+msgstr "Zatraži zadane mogućnosti od pisača"
+
+#: src/kcm/printermanager.cpp:100
+#, kde-format
+msgid "Add a new printer"
+msgstr "Dodaj novi pisač"
+
+#: src/kcm/printermanager.cpp:102
+#, kde-format
+msgid "Add a new printer group"
+msgstr "Dodaj novu grupu pisača"
+
+#: src/kcm/printermanager.cpp:104 src/kcm/printermanager.cpp:106
+#, kde-format
+msgid "Configure a printer"
+msgstr "Konfiguriraj pisač"
+
+#: src/kcm/printermanager.cpp:325
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr "IPP Everywhere™"
+
+#: src/kcm/printermanager.cpp:352
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr "Bez upravljačkog programa"
+
+#: src/kcm/printermanager.cpp:355
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr "Datoteka PPD"
+
+#: src/kcm/printermanager.cpp:397
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings: %1"
+msgstr "Dohvaćanje postavki poslužitelja nije uspjelo: %1"
+
+#: src/kcm/printermanager.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid "Server Settings Not Saved: (%1): %2"
+msgstr "Postavke poslužitelja nisu spremljene: (%1): %2"
+
+#: src/kcm/printermanager.cpp:441
+#, kde-format
+msgctxt "@info"
+msgid "Fatal Save Server Settings: (%1): %2"
+msgstr "Kobna pogreška pri spremanju postavki poslužitelja: (%1): %2"
+
+#: src/kcm/scpinstaller.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed "
+"properly."
+msgstr ""
+"Pogreška pri instalaciji (paket: %1)\n"
+"Provjerite vjerodajnice za autentifikaciju i je li PackageKit ispravno "
+"instaliran."
+
+#: src/kded/CupsWatcher.cpp:55
+#, kde-format
+msgctxt "@info:status %1 is the reason message for the status"
+msgid ""
+"%1\n"
+"The print job will complete when the printer becomes available."
+msgstr ""
+"%1\n"
+"Posao ispisa dovršit će se kada pisač postane dostupan."
+
+#: src/kded/CupsWatcher.cpp:59
+#, kde-format
+msgctxt "@action:button Prompt to resume printer"
+msgid "Resume Printer"
+msgstr "Nastavi rad pisača"
+
+#: src/kded/CupsWatcher.cpp:89
+#, kde-format
+msgctxt "@action:button check printer ink levels"
+msgid "Check Levels…"
+msgstr "Provjeri razine…"
+
+#: src/kded/NewPrinterNotification.cpp:100
+#, kde-format
+msgid "The New Printer was added"
+msgstr "Novi pisač je dodan"
+
+#: src/kded/NewPrinterNotification.cpp:102
+#, kde-format
+msgid "The New Printer might have a driver problem"
+msgstr "Novi pisač možda ima problem s upravljačkim programom"
+
+#: src/kded/NewPrinterNotification.cpp:150
+#, kde-format
+msgid "Printer queue was not created"
+msgstr "Red čekanja pisača nije stvoren"
+
+#: src/kded/NewPrinterNotification.cpp:152
+#, kde-format
+msgid "Printer driver not found for %1 %2"
+msgstr "Nije pronađen upravljački program pisača za %1 %2"
+
+#: src/kded/NewPrinterNotification.cpp:154
+#, kde-format
+msgid "Printer driver not found for %1"
+msgstr "Nije pronađen upravljački program pisača za %1"
+
+#: src/kded/NewPrinterNotification.cpp:156
+#, kde-format
+msgid "Printer driver not found for this printer"
+msgstr "Nije pronađen upravljački program za ovaj pisač"
+
+#: src/kded/NewPrinterNotification.cpp:158
+#, kde-format
+msgid "Add Printer…"
+msgstr "Dodaj pisač…"
+
+#: src/kded/NewPrinterNotification.cpp:215
+#, kde-format
+msgid "'%1' has been added, please check its driver"
+msgstr "„%1” je dodan; provjerite njegov upravljački program"
+
+#: src/kded/NewPrinterNotification.cpp:216
+#: src/kded/NewPrinterNotification.cpp:247
+#, kde-format
+msgid "Configure"
+msgstr "Konfiguriraj"
+
+#: src/kded/NewPrinterNotification.cpp:221
+#, kde-format
+msgid "'%1' has been added, using the '%2' driver"
+msgstr "„%1” je dodan uz upravljački program „%2”"
+
+#: src/kded/NewPrinterNotification.cpp:223
+#: src/kded/NewPrinterNotification.cpp:242
+#, kde-format
+msgid "Print test page"
+msgstr "Ispiši probnu stranicu"
+
+#: src/kded/NewPrinterNotification.cpp:228
+#, kde-format
+msgid "Check driver"
+msgstr "Provjeri upravljački program"
+
+#: src/kded/NewPrinterNotification.cpp:240
+#, kde-format
+msgid "'%1' is ready for printing."
+msgstr "„%1” je spreman za ispis."
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure class: "
+msgstr "Konfiguriranje klase nije uspjelo: "
+
+#: src/libkcups/CommandHelpers.cpp:94
+#, kde-format
+msgctxt "@info"
+msgid "Failed to configure printer: "
+msgstr "Konfiguriranje pisača nije uspjelo: "
+
+#: src/libkcups/CommandHelpers.cpp:138
+#, kde-format
+msgid "Print Self-Test Page"
+msgstr "Ispiši stranicu samotestiranja"
+
+#: src/libkcups/CommandHelpers.cpp:144
+#, kde-format
+msgid "Clean Print Heads"
+msgstr "Očisti ispisne glave"
+
+#: src/libkcups/DevicesModel.cpp:51
+#, kde-format
+msgctxt "@item"
+msgid "Manual Config"
+msgstr "Ručna konfiguracija"
+
+#: src/libkcups/DevicesModel.cpp:63
+#, kde-format
+msgid "Parallel Port"
+msgstr "Paralelni priključak"
+
+#: src/libkcups/DevicesModel.cpp:65
+#, kde-format
+msgid "Serial Port"
+msgstr "Serijski priključak"
+
+#: src/libkcups/DevicesModel.cpp:67
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: src/libkcups/DevicesModel.cpp:69
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: src/libkcups/DevicesModel.cpp:71
+#, kde-format
+msgid "Fax - HP Linux Imaging and Printing (HPLIP)"
+msgstr "Faks - HP Linux Imaging and Printing (HPLIP)"
+
+#: src/libkcups/DevicesModel.cpp:73
+#, kde-format
+msgid "HP Linux Imaging and Printing (HPLIP)"
+msgstr "HP Linux Imaging and Printing (HPLIP)"
+
+#: src/libkcups/DevicesModel.cpp:75
+#, kde-format
+msgid "Hardware Abstraction Layer (HAL)"
+msgstr "Sloj apstrakcije hardvera (HAL)"
+
+#: src/libkcups/DevicesModel.cpp:77
+#, kde-format
+msgid "AppSocket/HP JetDirect"
+msgstr "AppSocket/HP JetDirect"
+
+#: src/libkcups/DevicesModel.cpp:82
+#, kde-format
+msgid "LPD/LPR queue"
+msgstr "Red čekanja LPD/LPR"
+
+#: src/libkcups/DevicesModel.cpp:84
+#, kde-format
+msgid "LPD/LPR queue %1"
+msgstr "Red čekanja LPD/LPR %1"
+
+#: src/libkcups/DevicesModel.cpp:87
+#, kde-format
+msgid "Windows Printer via SAMBA"
+msgstr "Windows pisač putem SAMBA-e"
+
+#: src/libkcups/DevicesModel.cpp:92
+#, kde-format
+msgid "IPP"
+msgstr "IPP"
+
+#: src/libkcups/DevicesModel.cpp:94
+#, kde-format
+msgid "IPP %1"
+msgstr "IPP %1"
+
+#: src/libkcups/DevicesModel.cpp:97
+#, kde-format
+msgid "HTTP"
+msgstr "HTTP"
+
+#: src/libkcups/DevicesModel.cpp:102
+#, kde-format
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "Udaljeni CUPS pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:105
+#, kde-format
+msgid "IPP network printer via DNS-SD"
+msgstr "Mrežni IPP pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:107
+#, kde-format
+msgid "LPD network printer via DNS-SD"
+msgstr "Mrežni LPD pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:109
+#, kde-format
+msgid "AppSocket/JetDirect network printer via DNS-SD"
+msgstr "Mrežni pisač AppSocket/JetDirect putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:111
+#, kde-format
+msgid "Network printer via DNS-SD"
+msgstr "Mrežni pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:123
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to the parallel port"
+msgstr "Pisač povezan s paralelnim priključkom"
+
+#: src/libkcups/DevicesModel.cpp:124
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected via Bluetooth"
+msgstr "Pisač povezan putem Bluetootha"
+
+#: src/libkcups/DevicesModel.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Local printer detected by the Hardware Abstraction Layer (HAL)"
+msgstr "Lokalni pisač koji je otkrio sloj apstrakcije hardvera (HAL)"
+
+#: src/libkcups/DevicesModel.cpp:126
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a fax machine, or the fax function of a multi-"
+"function device"
+msgstr ""
+"Softver HPLIP upravlja faks uređajem ili funkcijom faksa višenamjenskog "
+"uređaja"
+
+#: src/libkcups/DevicesModel.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"HPLIP software driving a printer, or the printer function of a multi-"
+"function device"
+msgstr ""
+"Softver HPLIP upravlja pisačem ili funkcijom pisača višenamjenskog uređaja"
+
+#: src/libkcups/DevicesModel.cpp:128
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "IPP Network printer via IPP"
+msgstr "Mrežni IPP pisač putem IPP-a"
+
+#: src/libkcups/DevicesModel.cpp:129
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A printer connected to a USB port"
+msgstr "Pisač povezan s USB priključkom"
+
+#: src/libkcups/DevicesModel.cpp:135
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remote CUPS printer via DNS-SD"
+msgstr "Udaljeni CUPS pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Network printer via DNS-SD"
+msgstr "Mrežni pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:149
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 network printer via DNS-SD"
+msgstr "%1 mrežni pisač putem DNS-SD-a"
+
+#: src/libkcups/DevicesModel.cpp:224
+#, kde-format
+msgid "Failed to get a list of devices: '%1'"
+msgstr "Dohvaćanje popisa uređaja nije uspjelo: „%1”"
+
+#: src/libkcups/DevicesModel.cpp:260
+#, kde-format
+msgid "Failed to group devices: '%1'"
+msgstr "Grupiranje uređaja nije uspjelo: „%1”"
+
+#: src/libkcups/DevicesModel.cpp:389
+#, kde-format
+msgctxt "@item"
+msgid "Discovered Network Printers"
+msgstr "Otkriveni mrežni pisači"
+
+#: src/libkcups/DevicesModel.cpp:395
+#, kde-format
+msgctxt "@item"
+msgid "Other Network Printers"
+msgstr "Ostali mrežni pisači"
+
+#: src/libkcups/DevicesModel.cpp:401
+#, kde-format
+msgctxt "@item"
+msgid "Local Printers"
+msgstr "Lokalni pisači"
+
+#: src/libkcups/JobModel.cpp:26
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#: src/libkcups/JobModel.cpp:27
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: src/libkcups/JobModel.cpp:28
+#, kde-format
+msgid "User"
+msgstr "Korisnik"
+
+#: src/libkcups/JobModel.cpp:29
+#, kde-format
+msgid "Created"
+msgstr "Stvoreno"
+
+#: src/libkcups/JobModel.cpp:30 src/libkcups/JobModel.cpp:451
+#, kde-format
+msgid "Completed"
+msgstr "Dovršeno"
+
+#: src/libkcups/JobModel.cpp:31
+#, kde-format
+msgid "Pages"
+msgstr "Stranice"
+
+#: src/libkcups/JobModel.cpp:32
+#, kde-format
+msgid "Processed"
+msgstr "Obrađeno"
+
+#: src/libkcups/JobModel.cpp:33
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: src/libkcups/JobModel.cpp:34
+#, kde-format
+msgid "Status Message"
+msgstr "Statusna poruka"
+
+#: src/libkcups/JobModel.cpp:35
+#, kde-format
+msgid "Printer"
+msgstr "Pisač"
+
+#: src/libkcups/JobModel.cpp:36
+#, kde-format
+msgid "From Hostname"
+msgstr "S naziva računala"
+
+#: src/libkcups/JobModel.cpp:167
+#, kde-format
+msgctxt "@info:progress The job name (%1) and the printer name (%2)"
+msgid "Processing\t%1 [%2]"
+msgstr "Obrada\t%1 [%2]"
+
+#: src/libkcups/JobModel.cpp:233
+#, kde-format
+msgctxt ""
+"@info:status The processing detail message (%1), the job name (%2) and the "
+"printer name (%3)"
+msgid "%1\t%2 [%3]"
+msgstr "%1\t%2 [%3]"
+
+#: src/libkcups/JobModel.cpp:445
+#, kde-format
+msgid "Pending"
+msgstr "Na čekanju"
+
+#: src/libkcups/JobModel.cpp:446
+#, kde-format
+msgid "On hold"
+msgstr "Zadržano"
+
+#: src/libkcups/JobModel.cpp:448
+#, kde-format
+msgid "Stopped"
+msgstr "Zaustavljeno"
+
+#: src/libkcups/JobModel.cpp:449
+#, kde-format
+msgid "Canceled"
+msgstr "Otkazano"
+
+#: src/libkcups/JobModel.cpp:450
+#, kde-format
+msgid "Aborted"
+msgstr "Prekinuto"
+
+#: src/libkcups/KCupsConnection.cpp:728
+#, kde-format
+msgid "A CUPS connection requires authentication: \"%1\""
+msgstr "Za CUPS vezu potrebna je autentifikacija: „%1”"
+
+#: src/libkcups/KCupsPasswordDialog.cpp:21
+#, kde-format
+msgid "Enter an username and a password to complete the task"
+msgstr "Unesite korisničko ime i lozinku za dovršetak zadatka"
+
+#: src/libkcups/KCupsPasswordDialog.cpp:43
+#, kde-format
+msgid "Wrong username or password"
+msgstr "Pogrešno korisničko ime ili lozinka"
+
+#: src/libkcups/KCupsPrinter.cpp:147
+#, kde-format
+msgctxt "@info:usagetip The name and type of the ink cartridge"
+msgid "%1 (%2) appears to be empty."
+msgstr "Čini se da je %1 (%2) prazan."
+
+#: src/libkcups/KCupsPrinter.cpp:150
+#, kde-format
+msgctxt ""
+"@info:usagetip The name and type of the ink cartridge and percent ink "
+"remaining"
+msgid "%1 (%2) appears to be low (%3% remaining)."
+msgstr "Čini se da je razina za %1 (%2) niska (preostalo je %3%)."
+
+#: src/libkcups/KCupsPrinter.cpp:157
+#, kde-format
+msgctxt ""
+"@info:usagetip The name, type, and percentage full of the waste receptacle"
+msgid "%1 (%2) is almost full (%3%)"
+msgstr "%1 (%2) gotovo je pun (%3%)"
+
+#: src/libkcups/KCupsPrinter.cpp:309
+#, kde-format
+msgctxt "@info:status"
+msgid "The printer is paused or stopped."
+msgstr "Pisač je pauziran ili zaustavljen."
+
+#: src/libkcups/KCupsRequest.cpp:31
+#, kde-format
+msgid "Print service is unavailable"
+msgstr "Usluga ispisa nije dostupna"
+
+#: src/libkcups/KCupsRequest.cpp:33
+#, kde-format
+msgid "Not found"
+msgstr "Nije pronađeno"
+
+#: src/libkcups/KCupsRequest.cpp:390
+#, kde-format
+msgid "Test Page"
+msgstr "Probna stranica"
+
+#: src/libkcups/KCupsRequest.cpp:418
+#, kde-format
+msgid "Unable to send command to printer driver!"
+msgstr "Nije moguće poslati naredbu upravljačkom programu pisača!"
+
+#: src/libkcups/KCupsRequest.cpp:546
+#, kde-format
+msgid "Failed to invoke method: %1"
+msgstr "Pozivanje metode nije uspjelo: %1"
+
+#: src/libkcups/PPDModel.cpp:86
+#, kde-format
+msgid "Empty ppd model"
+msgstr "Prazan PPD model"
+
+#: src/libkcups/PrinterModel.cpp:192
+#, kde-format
+msgid "Printers"
+msgstr "Pisači"
+
+#: src/libkcups/PrinterModel.cpp:390
+#, kde-format
+msgid "Idle"
+msgstr "Neaktivan"
+
+#: src/libkcups/PrinterModel.cpp:390
+#, kde-format
+msgid "Idle, rejecting jobs"
+msgstr "Neaktivan, odbija poslove"
+
+#: src/libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Idle - '%1'"
+msgstr "Neaktivan - „%1”"
+
+#: src/libkcups/PrinterModel.cpp:392
+#, kde-format
+msgid "Idle, rejecting jobs - '%1'"
+msgstr "Neaktivan, odbija poslove - „%1”"
+
+#: src/libkcups/PrinterModel.cpp:396
+#, kde-format
+msgid "In use"
+msgstr "U upotrebi"
+
+#: src/libkcups/PrinterModel.cpp:398
+#, kde-format
+msgid "In use - '%1'"
+msgstr "U upotrebi - „%1”"
+
+#: src/libkcups/PrinterModel.cpp:402
+#, kde-format
+msgid "Paused"
+msgstr "Pauziran"
+
+#: src/libkcups/PrinterModel.cpp:402
+#, kde-format
+msgid "Paused, rejecting jobs"
+msgstr "Pauziran, odbija poslove"
+
+#: src/libkcups/PrinterModel.cpp:404
+#, kde-format
+msgid "Paused - '%1'"
+msgstr "Pauziran - „%1”"
+
+#: src/libkcups/PrinterModel.cpp:404
+#, kde-format
+msgid "Paused, rejecting jobs - '%1'"
+msgstr "Pauziran, odbija poslove - „%1”"
+
+#: src/libkcups/PrinterModel.cpp:408
+#, kde-format
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: src/libkcups/PrinterModel.cpp:410
+#, kde-format
+msgid "Unknown - '%1'"
+msgstr "Nepoznato - „%1”"
+
+#: src/print-queue/main.cpp:39
+#, kde-format
+msgctxt "@info:credit"
+msgid "Plasma Print Queue Manager"
+msgstr "Plasma upravitelj reda čekanja ispisa"
+
+#: src/print-queue/main.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Manage printer job queues"
+msgstr "Upravljaj redovima čekanja poslova ispisa"
+
+#: src/print-queue/main.cpp:43
+#, kde-format
+msgid "© KDE Community"
+msgstr "© KDE zajednica"
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mike Noe"
+msgstr "Mike Noe"
+
+#: src/print-queue/main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "Razvojni programer"
+
+#: src/print-queue/main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vaša imena"
+
+#: src/print-queue/main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Vaše adrese e-pošte"
+
+#: src/print-queue/main.cpp:62
+#, kde-format
+msgid "Show printer queue"
+msgstr "Prikaži red čekanja pisača"
+
+#: src/print-queue/PrintQueue.cpp:88
+#, kde-format
+msgid "Enter credentials to print from <b>%1</b>"
+msgstr "Unesite vjerodajnice za ispis s računala <b>%1</b>"

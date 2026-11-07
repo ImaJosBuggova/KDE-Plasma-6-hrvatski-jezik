@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-05-10 00:42+0000\n"
+"PO-Revision-Date: 2026-11-07\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: cmakebuilddirchooser.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure a Build Directory - %1"
+msgstr "Konfiguriraj direktorij za izgradnju – %1"
+
+#: cmakebuilddirchooser.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure a Build Directory for %1"
+msgstr "Konfiguriraj direktorij za izgradnju za %1"
+
+#: cmakebuilddirchooser.cpp:196
+#, kde-format
+msgid "You need to specify a build directory."
+msgstr "Morate navesti direktorij za izgradnju."
+
+#: cmakebuilddirchooser.cpp:203
+#, kde-format
+msgid "Using an already created build directory."
+msgstr "Upotrebljava se već izrađeni direktorij za izgradnju."
+
+#: cmakebuilddirchooser.cpp:214
+#, kde-format
+msgid "Creating a new build directory."
+msgstr "Izrada novog direktorija za izgradnju."
+
+#: cmakebuilddirchooser.cpp:220
+#, kde-format
+msgid "Build directory already configured."
+msgstr "Direktorij za izgradnju već je konfiguriran."
+
+#: cmakebuilddirchooser.cpp:222
+#, kde-format
+msgid "This build directory is for %1, but the project directory is %2."
+msgstr "Ovaj je direktorij za izgradnju namijenjen za %1, a direktorij projekta je %2."
+
+#: cmakebuilddirchooser.cpp:225
+#, kde-format
+msgid "You may not select a relative build directory."
+msgstr "Ne možete odabrati relativni direktorij za izgradnju."
+
+#: cmakebuilddirchooser.cpp:227
+#, kde-format
+msgid "The selected build directory is not empty."
+msgstr "Odabrani direktorij za izgradnju nije prazan."
+
+#. i18n: ectx: property (text), widget (QLabel, availableLabel)
+#: cmakebuilddirchooser.ui:32
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Available build directories:"
+msgstr "Dostupni direktoriji za izgradnju:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, availableBuildDirs)
+#: cmakebuilddirchooser.ui:40
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "New build directory"
+msgstr "Novi direktorij za izgradnju"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: cmakebuilddirchooser.ui:48
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Build &directory:"
+msgstr "&Direktorij za izgradnju:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakebuilddirchooser.ui:84
+#, kde-format
+msgctxt "@label:chooser"
+msgid "&Installation prefix:"
+msgstr "Prefiks &instalacije:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, installPrefix)
+#: cmakebuilddirchooser.ui:109
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The prefix under which the project will be installed. Leaving this empty "
+"will let CMake use its default install prefix."
+msgstr ""
+"Prefiks pod kojim će se projekt instalirati. Ako ovo polje ostavite praznim, "
+"CMake će upotrijebiti zadani prefiks instalacije."
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, installPrefix)
+#: cmakebuilddirchooser.ui:112
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "CMake's default install prefix"
+msgstr "Zadani prefiks instalacije za CMake"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cmakebuilddirchooser.ui:119
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Build &type:"
+msgstr "&Vrsta izgradnje:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, extraArgumentsLabel)
+#: cmakebuilddirchooser.ui:162 settings/cmakebuildsettings.ui:178
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Extra arguments:"
+msgstr "Dodatni argumenti:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: cmakebuilddirchooser.ui:182
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake &executable:"
+msgstr "&Izvršna datoteka CMake-a:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoConfigureOnCMakeListsChanges)
+#: cmakebuilddirchooser.ui:205 settings/cmakebuildsettings.ui:232
+#, kde-format
+msgctxt "@option:check"
+msgid "Automatically reconfigure when CMake project files change"
+msgstr "Automatski ponovno konfiguriraj kada se promijene datoteke projekta CMake"
+
+#: cmakecodecompletionmodel.cpp:192
+#, kde-format
+msgid "INVALID"
+msgstr "NEVALJANO"
+
+#: cmakecodecompletionmodel.cpp:200
+#, kde-format
+msgctxt "@item"
+msgid "Command"
+msgstr "Naredba"
+
+#: cmakecodecompletionmodel.cpp:201
+#, kde-format
+msgctxt "@item"
+msgid "Variable"
+msgstr "Varijabla"
+
+#: cmakecodecompletionmodel.cpp:202
+#, kde-format
+msgctxt "@item"
+msgid "Macro"
+msgstr "Makronaredba"
+
+#: cmakecodecompletionmodel.cpp:203
+#, kde-format
+msgctxt "@item"
+msgid "Path"
+msgstr "Putanja"
+
+#: cmakecodecompletionmodel.cpp:204
+#, kde-format
+msgctxt "@item"
+msgid "Target"
+msgstr "Cilj"
+
+#: cmakecodecompletionmodel.cpp:256
+#, kde-format
+msgid "wrong"
+msgstr "pogrešno"
+
+#: cmakecommandscontents.cpp:29
+#, kde-format
+msgctxt "@item cmake"
+msgid "Commands"
+msgstr "Naredbe"
+
+#: cmakecommandscontents.cpp:30
+#, kde-format
+msgctxt "@item cmake"
+msgid "Variables"
+msgstr "Varijable"
+
+#: cmakecommandscontents.cpp:31
+#, kde-format
+msgctxt "@item cmake"
+msgid "Modules"
+msgstr "Moduli"
+
+#: cmakecommandscontents.cpp:32
+#, kde-format
+msgctxt "@item cmake"
+msgid "Properties"
+msgstr "Svojstva"
+
+#: cmakecommandscontents.cpp:33
+#, kde-format
+msgctxt "@item cmake"
+msgid "Policies"
+msgstr "Pravila"
+
+#: cmakecommandscontents.cpp:102
+#, kde-format
+msgid "<p>For better CMake documentation rendering, install rst2html.</p>"
+msgstr "<p>Za bolji prikaz dokumentacije CMake-a instalirajte rst2html.</p>"
+
+#: cmakedocumentation.cpp:46 cmakemanager.cpp:76
+#, kde-format
+msgid "Unable to find a CMake executable. Is one installed on the system?"
+msgstr "Nije moguće pronaći izvršnu datoteku CMake-a. Je li instalirana na sustavu?"
+
+#: cmakedocumentation.cpp:81
+#, kde-format
+msgid "<br /><em>Cache Value:</em> %1\n"
+msgstr "<br /><em>Vrijednost predmemorije:</em> %1\n"
+
+#: cmakedocumentation.cpp:84
+#, kde-format
+msgid "<br /><em>Cache Documentation:</em> %1\n"
+msgstr "<br /><em>Dokumentacija predmemorije:</em> %1\n"
+
+#: cmakefileapiimportjob.cpp:41
+#, kde-format
+msgctxt "error message"
+msgid "invalid CMake file API project data"
+msgstr "nevaljani podaci API-ja datoteka projekta CMake"
+
+#: cmakehelpdocumentation.cpp:21
+#, kde-format
+msgid "CMake Content Page"
+msgstr "Stranica sadržaja CMake-a"
+
+#: cmakemanager.cpp:692
+#, kde-format
+msgid ""
+"Configured project '%1' with outdated CMake data. As a result, KDevelop's "
+"code understanding may be wrong.\n"
+"\n"
+"To fix this issue, please right-click the project item in the projects tool "
+"view and click 'Reload'."
+msgstr ""
+"Projekt „%1” konfiguriran je zastarjelim podacima CMake-a. Zbog toga "
+"KDevelop možda neće ispravno razumjeti kôd.\n"
+"\n"
+"Da biste to ispravili, desnom tipkom miša kliknite stavku projekta u prikazu "
+"alata Projekti pa kliknite „Ponovno učitaj”."
+
+#: cmakemanager.cpp:703
+#, kde-format
+msgid ""
+"Failed to configure project '%1' (error message: %2). As a result, "
+"KDevelop's code understanding will likely be broken.\n"
+"\n"
+"To fix this issue, please ensure that the project's CMakeLists.txt files are "
+"correct, and KDevelop is configured to use the correct CMake version and "
+"settings. Then right-click the project item in the projects tool view and "
+"click 'Reload'."
+msgstr ""
+"Konfiguriranje projekta „%1” nije uspjelo (poruka pogreške: %2). Zbog toga "
+"KDevelop vjerojatno neće ispravno razumjeti kôd.\n"
+"\n"
+"Da biste to ispravili, provjerite jesu li datoteke CMakeLists.txt projekta "
+"ispravne i je li KDevelop konfiguriran za upotrebu ispravne verzije i "
+"postavki CMake-a. Zatim desnom tipkom miša kliknite stavku projekta u "
+"prikazu alata Projekti pa kliknite „Ponovno učitaj”."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cmakebuildsettings.ui:74
+#, kde-format
+msgctxt "@title:group"
+msgid "Cache Values"
+msgstr "Vrijednosti predmemorije"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/cmakebuildsettings.ui:89
+#, kde-format
+msgctxt "@label"
+msgid "Comment:"
+msgstr "Komentar:"
+
+#. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
+#: settings/cmakebuildsettings.ui:106
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Advanced"
+msgstr "Prikaži napredno"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
+#: settings/cmakebuildsettings.ui:125
+#, kde-format
+msgctxt "@title:group"
+msgid "Advanced"
+msgstr "Napredno"
+
+#. i18n: ectx: property (text), widget (QLabel, installationPrefixLabel)
+#: settings/cmakebuildsettings.ui:134
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Installation prefix:"
+msgstr "Prefiks instalacije:"
+
+#. i18n: ectx: property (text), widget (QLabel, buildTypeLabel)
+#: settings/cmakebuildsettings.ui:144
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Build type:"
+msgstr "Vrsta izgradnje:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/cmakebuildsettings.ui:198
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Configure environment:"
+msgstr "Konfiguriraj okruženje:"
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
+#: settings/cmakebuildsettings.ui:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select an environment to be used"
+msgstr "Odaberite okruženje koje će se upotrebljavati"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInternal)
+#: settings/cmakebuildsettings.ui:225
+#, kde-format
+msgctxt "@option:check"
+msgid "Show advanced values"
+msgstr "Prikaži napredne vrijednosti"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/cmakebuildsettings.ui:242
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake executable:"
+msgstr "Izvršna datoteka CMake-a:"
+
+#: settings/cmakecachemodel.cpp:36
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Naziv"
+
+#: settings/cmakecachemodel.cpp:37
+#, kde-format
+msgctxt "@title:column"
+msgid "Type"
+msgstr "Vrsta"
+
+#: settings/cmakecachemodel.cpp:38
+#, kde-format
+msgctxt "@title:column"
+msgid "Value"
+msgstr "Vrijednost"
+
+#: settings/cmakecachemodel.cpp:39
+#, kde-format
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "Komentar"
+
+#: settings/cmakecachemodel.cpp:40
+#, kde-format
+msgctxt "@title:column"
+msgid "Advanced"
+msgstr "Napredno"
+
+#: settings/cmakecachemodel.cpp:41
+#, kde-format
+msgctxt "@title:column"
+msgid "Strings"
+msgstr "Nizovi"
+
+#: settings/cmakepreferences.cpp:370
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to delete it in the file system as well?"
+msgstr ""
+"Direktorij %1 uskoro će biti uklonjen s popisa u KDevelopu.\n"
+"Želite li da ga KDevelop izbriše i iz datotečnog sustava?"
+
+#: settings/cmakepreferences.cpp:374
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Delete"
+msgstr "Nemoj izbrisati"
+
+#: settings/cmakepreferences.cpp:379
+#, kde-format
+msgid "Could not remove: %1"
+msgstr "Nije moguće ukloniti: %1"
+
+#: settings/cmakepreferences.cpp:425
+#, kde-format
+msgctxt "@title:tab"
+msgid "CMake"
+msgstr "CMake"
+
+#: settings/cmakepreferences.cpp:430
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure CMake Settings"
+msgstr "Konfiguriraj postavke CMake-a"
+
+#: testing/ctestfindjob.cpp:23
+#, kde-format
+msgid "Parse test suite %1"
+msgstr "Raščlani zbirku testova %1"
+
+#: testing/ctestrunjob.cpp:77
+#, kde-format
+msgid "CTest"
+msgstr "CTest"
+
+#: testing/ctestrunjob.cpp:127
+#, kde-format
+msgctxt "running test %1, %2 test case"
+msgid "CTest %1: %2"
+msgstr "CTest %1: %2"
+
+#: testing/ctestrunjob.cpp:129
+#, kde-format
+msgctxt "running test %1, %2 number of test cases"
+msgid "CTest %2 (%1)"
+msgid_plural "CTest %2 (%1)"
+msgstr[0] "CTest %2 (%1)"
+msgstr[1] "CTest %2 (%1)"
+msgstr[2] "CTest %2 (%1)"

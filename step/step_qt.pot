@@ -1,190 +1,196 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: step\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Qt-Contexts: true\n"
 
 #: body.cc:13
 msgctxt "ObjectClass|"
 msgid "Body"
-msgstr ""
+msgstr "Tijelo"
 
 #: body.cc:13
 msgctxt "ObjectDescription|"
 msgid "Body"
-msgstr ""
+msgstr "Tijelo"
 
 #: collisionsolver.cc:19
 msgctxt "ObjectClass|"
 msgid "CollisionSolver"
-msgstr ""
+msgstr "Rješavač sudara"
 
 #: collisionsolver.cc:20 solver.cc:16
 msgctxt "PropertyDescription|"
 msgid "Allowed absolute tolerance"
-msgstr ""
+msgstr "Dopuštena apsolutna tolerancija"
 
 #: collisionsolver.cc:20 solver.cc:16
 msgctxt "PropertyName|"
 msgid "toleranceAbs"
-msgstr ""
+msgstr "toleranceAbs"
 
 #: collisionsolver.cc:21 solver.cc:19
 msgctxt "PropertyDescription|"
 msgid "Maximal local error during last step"
-msgstr ""
+msgstr "Najveća lokalna pogreška tijekom posljednjeg koraka"
 
 #: collisionsolver.cc:21 solver.cc:19
 msgctxt "PropertyName|"
 msgid "localError"
-msgstr ""
+msgstr "localError"
 
 #: collisionsolver.cc:23
 msgctxt "ObjectClass|"
 msgid "GJKCollisionSolver"
-msgstr ""
+msgstr "GJK rješavač sudara"
 
 #: constraintsolver.cc:20
 msgctxt "ObjectClass|"
 msgid "ConstraintSolver"
-msgstr ""
+msgstr "Rješavač ograničenja"
 
 #: constraintsolver.cc:24
 msgctxt "ObjectClass|"
 msgid "CGConstraintSolver"
-msgstr ""
+msgstr "CG rješavač ograničenja"
 
 #: coulombforce.cc:14
 msgctxt "ObjectClass|"
 msgid "CoulombForce"
-msgstr ""
+msgstr "Coulombova sila"
 
 #: coulombforce.cc:14
 msgctxt "ObjectDescription|"
 msgid "Coulomb force"
-msgstr ""
+msgstr "Coulombova sila"
 
 #: coulombforce.cc:16
 msgctxt "PropertyName|"
 msgid "coulombConst"
-msgstr ""
+msgstr "coulombConst"
 
 #: coulombforce.cc:16 coulombforce.cc:21
 msgctxt "Units|"
 msgid "N m²/C²"
-msgstr ""
+msgstr "N m²/C²"
 
 #: coulombforce.cc:17
 msgctxt "PropertyDescription|"
 msgid "Coulomb constant"
-msgstr ""
+msgstr "Coulombova konstanta"
 
 #: coulombforce.cc:19
 msgctxt "ObjectClass|"
 msgid "CoulombForceErrors"
-msgstr ""
+msgstr "Pogreške Coulombove sile"
 
 #: coulombforce.cc:19
 msgctxt "ObjectDescription|"
 msgid "Errors class for CoulombForce"
-msgstr ""
+msgstr "Klasa pogrešaka za Coulombovu silu"
 
 #: coulombforce.cc:21
 msgctxt "PropertyName|"
 msgid "coulombConstVariance"
-msgstr ""
+msgstr "coulombConstVariance"
 
 #: coulombforce.cc:22
 msgctxt "PropertyDescription|"
 msgid "Coulomb constant variance"
-msgstr ""
+msgstr "Varijanca Coulombove konstante"
 
 #: eulersolver.cc:15
 msgctxt "ObjectClass|"
 msgid "GenericEulerSolver"
-msgstr ""
+msgstr "Generički Eulerov rješavač"
 
 #: eulersolver.cc:15
 msgctxt "ObjectDescription|"
 msgid "Generic Euler solver"
-msgstr ""
+msgstr "Generički Eulerov rješavač"
 
 #: eulersolver.cc:16
 msgctxt "ObjectClass|"
 msgid "EulerSolver"
-msgstr ""
+msgstr "Eulerov rješavač"
 
 #: eulersolver.cc:16
 msgctxt "ObjectDescription|"
 msgid "Non-adaptive Euler solver"
-msgstr ""
+msgstr "Neprilagodljivi Eulerov rješavač"
 
 #: eulersolver.cc:17
 msgctxt "ObjectClass|"
 msgid "AdaptiveEulerSolver"
-msgstr ""
+msgstr "Prilagodljivi Eulerov rješavač"
 
 #: eulersolver.cc:17
 msgctxt "ObjectDescription|"
 msgid "Adaptive Euler solver"
-msgstr ""
+msgstr "Prilagodljivi Eulerov rješavač"
 
 #: force.cc:14
 msgctxt "ObjectClass|"
 msgid "Force"
-msgstr ""
+msgstr "Sila"
 
 #: force.cc:14
 msgctxt "ObjectDescription|"
 msgid "Force"
-msgstr ""
+msgstr "Sila"
 
 #: gas.cc:15
 msgctxt "ObjectClass|"
 msgid "GasParticle"
-msgstr ""
+msgstr "Čestica plina"
 
 #: gas.cc:15
 msgctxt "ObjectDescription|"
 msgid "Gas particle"
-msgstr ""
+msgstr "Čestica plina"
 
 #: gas.cc:17
 msgctxt "ObjectClass|"
 msgid "GasLJForce"
-msgstr ""
+msgstr "Lennard-Jonesova sila plina"
 
 #: gas.cc:17
 msgctxt "ObjectDescription|"
 msgid "Lennard-Jones force"
-msgstr ""
+msgstr "Lennard-Jonesova sila"
 
 #: gas.cc:19
 msgctxt "PropertyDescription|"
 msgid "Potential depth"
-msgstr ""
+msgstr "Dubina potencijala"
 
 #: gas.cc:19
 msgctxt "PropertyName|"
 msgid "depth"
-msgstr ""
+msgstr "depth"
 
 #: gas.cc:19 gas.cc:25 gas.cc:47 gas.cc:62 particle.cc:25 particle.cc:41
 #: rigidbody.cc:37 rigidbody.cc:68
 msgctxt "Units|"
 msgid "J"
-msgstr ""
+msgstr "J"
 
 #: gas.cc:20
 msgctxt "PropertyDescription|"
 msgid "Distance at which the force is zero"
-msgstr ""
+msgstr "Udaljenost pri kojoj je sila jednaka nuli"
 
 #: gas.cc:20
 msgctxt "PropertyName|"
 msgid "rmin"
-msgstr ""
+msgstr "rmin"
 
 #: gas.cc:20 gas.cc:21 gas.cc:27 gas.cc:33 gas.cc:35 joints.cc:17 joints.cc:23
 #: joints.cc:24 joints.cc:28 joints.cc:31 joints.cc:33 joints.cc:35
@@ -197,284 +203,284 @@ msgstr ""
 #: tool.cc:88 tool.cc:89
 msgctxt "Units|"
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: gas.cc:21
 msgctxt "PropertyDescription|"
 msgid "Cut-off distance"
-msgstr ""
+msgstr "Granična udaljenost"
 
 #: gas.cc:21
 msgctxt "PropertyName|"
 msgid "cutoff"
-msgstr ""
+msgstr "cutoff"
 
 #: gas.cc:23
 msgctxt "ObjectClass|"
 msgid "GasLJForceErrors"
-msgstr ""
+msgstr "Pogreške Lennard-Jonesove sile plina"
 
 #: gas.cc:23
 msgctxt "ObjectDescription|"
 msgid "Errors class for GasLJForce"
-msgstr ""
+msgstr "Klasa pogrešaka za Lennard-Jonesovu silu plina"
 
 #: gas.cc:25
 msgctxt "PropertyName|"
 msgid "depthVariance"
-msgstr ""
+msgstr "depthVariance"
 
 #: gas.cc:26
 msgctxt "PropertyDescription|"
 msgid "Potential depth variance"
-msgstr ""
+msgstr "Varijanca dubine potencijala"
 
 #: gas.cc:27
 msgctxt "PropertyName|"
 msgid "rminVariance"
-msgstr ""
+msgstr "rminVariance"
 
 #: gas.cc:28
 msgctxt "PropertyDescription|"
 msgid "Variance of the distance at which the force is zero"
-msgstr ""
+msgstr "Varijanca udaljenosti pri kojoj je sila jednaka nuli"
 
 #: gas.cc:32
 msgctxt "ObjectClass|"
 msgid "Gas"
-msgstr ""
+msgstr "Plin"
 
 #: gas.cc:32
 msgctxt "ObjectDescription|"
 msgid "Particle gas"
-msgstr ""
+msgstr "Plin sastavljen od čestica"
 
 #: gas.cc:33
 msgctxt "PropertyName|"
 msgid "measureRectCenter"
-msgstr ""
+msgstr "measureRectCenter"
 
 #: gas.cc:34
 msgctxt "PropertyDescription|"
 msgid "Center of the rect for measurements"
-msgstr ""
+msgstr "Središte pravokutnika za mjerenja"
 
 #: gas.cc:35
 msgctxt "PropertyName|"
 msgid "measureRectSize"
-msgstr ""
+msgstr "measureRectSize"
 
 #: gas.cc:36
 msgctxt "PropertyDescription|"
 msgid "Size of the rect for measurements"
-msgstr ""
+msgstr "Veličina pravokutnika za mjerenja"
 
 #: gas.cc:37
 msgctxt "PropertyName|"
 msgid "rectVolume"
-msgstr ""
+msgstr "rectVolume"
 
 #: gas.cc:37
 msgctxt "Units|"
 msgid "m²"
-msgstr ""
+msgstr "m²"
 
 #: gas.cc:38
 msgctxt "PropertyDescription|"
 msgid "Volume of the measureRect"
-msgstr ""
+msgstr "Volumen mjernog pravokutnika"
 
 #: gas.cc:39
 msgctxt "PropertyName|"
 msgid "rectParticleCount"
-msgstr ""
+msgstr "rectParticleCount"
 
 #: gas.cc:40
 msgctxt "PropertyDescription|"
 msgid "Count of particles in the measureRect"
-msgstr ""
+msgstr "Broj čestica u mjernom pravokutniku"
 
 #: gas.cc:41
 msgctxt "PropertyName|"
 msgid "rectConcentration"
-msgstr ""
+msgstr "rectConcentration"
 
 #: gas.cc:41
 msgctxt "Units|"
 msgid "1/m²"
-msgstr ""
+msgstr "1/m²"
 
 #: gas.cc:42
 msgctxt "PropertyDescription|"
 msgid "Concentration of particles in the measureRect"
-msgstr ""
+msgstr "Koncentracija čestica u mjernom pravokutniku"
 
 #: gas.cc:43
 msgctxt "PropertyName|"
 msgid "rectPressure"
-msgstr ""
+msgstr "rectPressure"
 
 #: gas.cc:43 gas.cc:58
 msgctxt "Units|"
 msgid "Pa"
-msgstr ""
+msgstr "Pa"
 
 #: gas.cc:44
 msgctxt "PropertyDescription|"
 msgid "Pressure of particles in the measureRect"
-msgstr ""
+msgstr "Tlak čestica u mjernom pravokutniku"
 
 #: gas.cc:45
 msgctxt "PropertyName|"
 msgid "rectTemperature"
-msgstr ""
+msgstr "rectTemperature"
 
 #: gas.cc:45 gas.cc:60
 msgctxt "Units|"
 msgid "K"
-msgstr ""
+msgstr "K"
 
 #: gas.cc:46
 msgctxt "PropertyDescription|"
 msgid "Temperature of particles in the measureRect"
-msgstr ""
+msgstr "Temperatura čestica u mjernom pravokutniku"
 
 #: gas.cc:47
 msgctxt "PropertyName|"
 msgid "rectMeanKineticEnergy"
-msgstr ""
+msgstr "rectMeanKineticEnergy"
 
 #: gas.cc:48
 msgctxt "PropertyDescription|"
 msgid "Mean kinetic energy of particles in the measureRect"
-msgstr ""
+msgstr "Prosječna kinetička energija čestica u mjernom pravokutniku"
 
 #: gas.cc:49
 msgctxt "PropertyName|"
 msgid "rectMeanVelocity"
-msgstr ""
+msgstr "rectMeanVelocity"
 
 #: gas.cc:49 gas.cc:64 particle.cc:18 particle.cc:31 rigidbody.cc:19
 #: rigidbody.cc:46 softbody.cc:26
 msgctxt "Units|"
 msgid "m/s"
-msgstr ""
+msgstr "m/s"
 
 #: gas.cc:50
 msgctxt "PropertyDescription|"
 msgid "Mean velocity of particles in the measureRect"
-msgstr ""
+msgstr "Prosječna brzina čestica u mjernom pravokutniku"
 
 #: gas.cc:51
 msgctxt "PropertyName|"
 msgid "rectMeanParticleMass"
-msgstr ""
+msgstr "rectMeanParticleMass"
 
 #: gas.cc:51 gas.cc:53 gas.cc:66 gas.cc:68 particle.cc:22 particle.cc:37
 #: particle.cc:49 rigidbody.cc:30 rigidbody.cc:59 softbody.cc:38
 msgctxt "Units|"
 msgid "kg"
-msgstr ""
+msgstr "kg"
 
 #: gas.cc:52
 msgctxt "PropertyDescription|"
 msgid "Mean mass of particles in the measureRect"
-msgstr ""
+msgstr "Prosječna masa čestica u mjernom pravokutniku"
 
 #: gas.cc:53
 msgctxt "PropertyName|"
 msgid "rectMass"
-msgstr ""
+msgstr "rectMass"
 
 #: gas.cc:54
 msgctxt "PropertyDescription|"
 msgid "Total mass of particles in the measureRect"
-msgstr ""
+msgstr "Ukupna masa čestica u mjernom pravokutniku"
 
 #: gas.cc:57
 msgctxt "ObjectClass|"
 msgid "GasErrors"
-msgstr ""
+msgstr "GasErrors"
 
 #: gas.cc:57
 msgctxt "ObjectDescription|"
 msgid "Errors class for Gas"
-msgstr ""
+msgstr "Klasa pogrešaka za plin"
 
 #: gas.cc:58
 msgctxt "PropertyName|"
 msgid "rectPressureVariance"
-msgstr ""
+msgstr "rectPressureVariance"
 
 #: gas.cc:59
 msgctxt "PropertyDescription|"
 msgid "Variance of pressure of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca tlaka čestica u mjernom pravokutniku"
 
 #: gas.cc:60
 msgctxt "PropertyName|"
 msgid "rectTemperatureVariance"
-msgstr ""
+msgstr "rectTemperatureVariance"
 
 #: gas.cc:61
 msgctxt "PropertyDescription|"
 msgid "Variance of temperature of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca temperature čestica u mjernom pravokutniku"
 
 #: gas.cc:62
 msgctxt "PropertyName|"
 msgid "rectMeanKineticEnergyVariance"
-msgstr ""
+msgstr "rectMeanKineticEnergyVariance"
 
 #: gas.cc:63
 msgctxt "PropertyDescription|"
 msgid "Variance of mean kinetic energy of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca prosječne kinetičke energije čestica u mjernom pravokutniku"
 
 #: gas.cc:64
 msgctxt "PropertyName|"
 msgid "rectMeanVelocityVariance"
-msgstr ""
+msgstr "rectMeanVelocityVariance"
 
 #: gas.cc:65
 msgctxt "PropertyDescription|"
 msgid "Variance of mean velocity of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca prosječne brzine čestica u mjernom pravokutniku"
 
 #: gas.cc:66
 msgctxt "PropertyName|"
 msgid "rectMeanParticleMassVariance"
-msgstr ""
+msgstr "rectMeanParticleMassVariance"
 
 #: gas.cc:67
 msgctxt "PropertyDescription|"
 msgid "Variance of mean mass of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca prosječne mase čestica u mjernom pravokutniku"
 
 #: gas.cc:68
 msgctxt "PropertyName|"
 msgid "rectMassVariance"
-msgstr ""
+msgstr "Varijanca mase u pravokutniku"
 
 #: gas.cc:69
 msgctxt "PropertyDescription|"
 msgid "Variance of total mass of particles in the measureRect"
-msgstr ""
+msgstr "Varijanca ukupne mase čestica u mjernom pravokutniku"
 
 #: gravitation.cc:15
 msgctxt "ObjectClass|"
 msgid "GravitationForce"
-msgstr ""
+msgstr "Gravitacijska sila"
 
 #: gravitation.cc:15
 msgctxt "ObjectDescription|"
 msgid "Gravitation force"
-msgstr ""
+msgstr "Gravitacijska sila"
 
 #: gravitation.cc:17
 msgctxt "PropertyName|"
 msgid "gravitationConst"
-msgstr ""
+msgstr "Gravitacijska konstanta"
 
 #: gravitation.cc:17 gravitation.cc:22
 msgctxt "Units|"
@@ -484,47 +490,47 @@ msgstr ""
 #: gravitation.cc:18
 msgctxt "PropertyDescription|"
 msgid "Gravitation constant"
-msgstr ""
+msgstr "Gravitacijska konstanta"
 
 #: gravitation.cc:20
 msgctxt "ObjectClass|"
 msgid "GravitationForceErrors"
-msgstr ""
+msgstr "Pogreške gravitacijske sile"
 
 #: gravitation.cc:20
 msgctxt "ObjectDescription|"
 msgid "Errors class for GravitationForce"
-msgstr ""
+msgstr "Klasa pogrešaka za gravitacijsku silu"
 
 #: gravitation.cc:22
 msgctxt "PropertyName|"
 msgid "gravitationConstVariance"
-msgstr ""
+msgstr "Varijanca gravitacijske konstante"
 
 #: gravitation.cc:23
 msgctxt "PropertyDescription|"
 msgid "Gravitation constant variance"
-msgstr ""
+msgstr "Varijanca gravitacijske konstante"
 
 #: gravitation.cc:25
 msgctxt "ObjectClass|"
 msgid "WeightForce"
-msgstr ""
+msgstr "Sila teže"
 
 #: gravitation.cc:25
 msgctxt "ObjectDescription|"
 msgid "Weight force"
-msgstr ""
+msgstr "Sila teže"
 
 #: gravitation.cc:27
 msgctxt "PropertyDescription|"
 msgid "Weight constant"
-msgstr ""
+msgstr "Konstanta težine"
 
 #: gravitation.cc:27
 msgctxt "PropertyName|"
 msgid "weightConst"
-msgstr ""
+msgstr "Konstanta težine"
 
 #: gravitation.cc:27 gravitation.cc:32 particle.cc:19 particle.cc:33
 #: rigidbody.cc:22 rigidbody.cc:51 softbody.cc:31
@@ -535,22 +541,22 @@ msgstr ""
 #: gravitation.cc:30
 msgctxt "ObjectClass|"
 msgid "WeightForceErrors"
-msgstr ""
+msgstr "Pogreške sile teže"
 
 #: gravitation.cc:30
 msgctxt "ObjectDescription|"
 msgid "Errors class for WeightForce"
-msgstr ""
+msgstr "Klasa pogrešaka za silu teže"
 
 #: gravitation.cc:32
 msgctxt "PropertyName|"
 msgid "weightConstVariance"
-msgstr ""
+msgstr "Varijanca konstante težine"
 
 #: gravitation.cc:33
 msgctxt "PropertyDescription|"
 msgid "Weight constant variance"
-msgstr ""
+msgstr "Varijanca konstante težine"
 
 #: gslsolver.cc:18
 msgctxt "ObjectClass|"
@@ -560,7 +566,7 @@ msgstr ""
 #: gslsolver.cc:18
 msgctxt "ObjectDescription|"
 msgid "GSL generic solver"
-msgstr ""
+msgstr "Opći GSL rješavač"
 
 #: gslsolver.cc:20
 msgctxt "ObjectClass|"
@@ -570,17 +576,17 @@ msgstr ""
 #: gslsolver.cc:20
 msgctxt "ObjectDescription|"
 msgid "GSL non-adaptive solver"
-msgstr ""
+msgstr "Neprilagodljivi GSL rješavač"
 
 #: gslsolver.cc:23
 msgctxt "ObjectClass|"
 msgid "GslAdaptiveSolver"
-msgstr ""
+msgstr "Prilagodljivi GSL rješavač"
 
 #: gslsolver.cc:23
 msgctxt "ObjectDescription|"
 msgid "GSL adaptive solver"
-msgstr ""
+msgstr "Prilagodljivi GSL rješavač"
 
 #: gslsolver.cc:26
 msgctxt "ObjectClass|"
@@ -590,7 +596,7 @@ msgstr ""
 #: gslsolver.cc:26
 msgctxt "ObjectDescription|"
 msgid "Runge-Kutta second-order solver from GSL library"
-msgstr ""
+msgstr "Rješavač drugog reda Runge-Kutta iz biblioteke GSL"
 
 #: gslsolver.cc:28
 msgctxt "ObjectClass|"
@@ -600,7 +606,7 @@ msgstr ""
 #: gslsolver.cc:28
 msgctxt "ObjectDescription|"
 msgid "Adaptive Runge-Kutta second-order solver from GSL library"
-msgstr ""
+msgstr "Prilagodljivi rješavač drugog reda Runge-Kutta iz biblioteke GSL"
 
 #: gslsolver.cc:31
 msgctxt "ObjectClass|"
@@ -610,7 +616,7 @@ msgstr ""
 #: gslsolver.cc:31
 msgctxt "ObjectDescription|"
 msgid "Runge-Kutta classical fourth-order solver from GSL library"
-msgstr ""
+msgstr "Klasični rješavač četvrtog reda Runge-Kutta iz biblioteke GSL"
 
 #: gslsolver.cc:33
 msgctxt "ObjectClass|"
@@ -620,7 +626,7 @@ msgstr ""
 #: gslsolver.cc:33
 msgctxt "ObjectDescription|"
 msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
-msgstr ""
+msgstr "Prilagodljivi klasični rješavač četvrtog reda Runge-Kutta iz biblioteke GSL"
 
 #: gslsolver.cc:36
 msgctxt "ObjectClass|"
@@ -630,7 +636,7 @@ msgstr ""
 #: gslsolver.cc:36
 msgctxt "ObjectDescription|"
 msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
-msgstr ""
+msgstr "Rješavač Runge-Kutta-Fehlberg (4,5) iz biblioteke GSL"
 
 #: gslsolver.cc:38
 msgctxt "ObjectClass|"
@@ -640,7 +646,7 @@ msgstr ""
 #: gslsolver.cc:38
 msgctxt "ObjectDescription|"
 msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
-msgstr ""
+msgstr "Prilagodljivi rješavač Runge-Kutta-Fehlberg (4,5) iz biblioteke GSL"
 
 #: gslsolver.cc:41
 msgctxt "ObjectClass|"
@@ -650,7 +656,7 @@ msgstr ""
 #: gslsolver.cc:41
 msgctxt "ObjectDescription|"
 msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
-msgstr ""
+msgstr "Rješavač Runge-Kutta Cash-Karp (4,5) iz biblioteke GSL"
 
 #: gslsolver.cc:43
 msgctxt "ObjectClass|"
@@ -660,7 +666,7 @@ msgstr ""
 #: gslsolver.cc:43
 msgctxt "ObjectDescription|"
 msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
-msgstr ""
+msgstr "Prilagodljivi rješavač Runge-Kutta Cash-Karp (4,5) iz biblioteke GSL"
 
 #: gslsolver.cc:46
 msgctxt "ObjectClass|"
@@ -670,7 +676,7 @@ msgstr ""
 #: gslsolver.cc:46
 msgctxt "ObjectDescription|"
 msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
-msgstr ""
+msgstr "Rješavač Runge-Kutta Prince-Dormand (8,9) iz biblioteke GSL"
 
 #: gslsolver.cc:48
 msgctxt "ObjectClass|"
@@ -680,7 +686,7 @@ msgstr ""
 #: gslsolver.cc:48
 msgctxt "ObjectDescription|"
 msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
-msgstr ""
+msgstr "Prilagodljivi rješavač Runge-Kutta Prince-Dormand (8,9) iz biblioteke GSL"
 
 #: gslsolver.cc:51
 msgctxt "ObjectClass|"
@@ -1022,7 +1028,7 @@ msgstr ""
 #: particle.cc:15
 msgctxt "ObjectClass|"
 msgid "Particle"
-msgstr ""
+msgstr "Čestica"
 
 #: particle.cc:15
 msgctxt "ObjectDescription|"

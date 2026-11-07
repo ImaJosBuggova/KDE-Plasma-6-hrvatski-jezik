@@ -1,8 +1,15 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: trojita_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Qt-Contexts: true\n"
 
 #. Translators: %1 is the filename of the logfile %2 is the detailed error description from Qt, ready for human consumption
@@ -10,7 +17,7 @@ msgstr ""
 #, qt-format
 msgctxt "Common::FileLogger|"
 msgid "Failed to open logfile \"%1\" for writing: %2"
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku zapisnika \"%1\" za pisanje: %2"
 
 #. Translators: %1 and %2 are file names of an attachment. %1 is the name that will be present in the e-mail and %2 is the original name on disk.
 #: src/Composer/ComposerAttachments.cpp:146
@@ -19,28 +26,28 @@ msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(from %2)"
-msgstr ""
+msgstr "%1\n(iz %2)"
 
 #: src/Composer/ComposerAttachments.cpp:157
 msgctxt "MessageComposer|"
 msgid "File does not exist"
-msgstr ""
+msgstr "Datoteka ne postoji"
 
 #: src/Composer/ComposerAttachments.cpp:160
 msgctxt "MessageComposer|"
 msgid "File is not readable"
-msgstr ""
+msgstr "Datoteka se ne može čitati"
 
 #: src/Composer/ComposerAttachments.cpp:163
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1: %2, %3"
-msgstr ""
+msgstr "%1: %2, %3"
 
 #: src/Composer/ComposerAttachments.cpp:260
 msgctxt "MessageComposer|"
 msgid "Message not available"
-msgstr ""
+msgstr "Poruka nije dostupna"
 
 #: src/Composer/ComposerAttachments.cpp:263
 #, qt-format
@@ -48,102 +55,102 @@ msgctxt "MessageComposer|"
 msgid ""
 "%1\n"
 "(%2)"
-msgstr ""
+msgstr "%1\n(%2)"
 
 #: src/Composer/ComposerAttachments.cpp:273
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP message %1"
-msgstr ""
+msgstr "IMAP poruka %1"
 
 #: src/Composer/ComposerAttachments.cpp:384
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "IMAP part %1"
-msgstr ""
+msgstr "IMAP dio %1"
 
 #: src/Composer/ComposerAttachments.cpp:396
 #, qt-format
 msgctxt "MessageComposer|"
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: src/Composer/ExistingMessageComposer.cpp:77
 msgctxt "Imap::Mailbox::FullMessageCombiner|"
 msgid "Cannot obtain IMAP URL for CATENATE"
-msgstr ""
+msgstr "Nije moguće dohvatiti IMAP URL za CATENATE"
 
 #: src/Composer/MessageComposer.cpp:601 src/Composer/MessageComposer.cpp:632
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 is not available"
-msgstr ""
+msgstr "Privitak %1 nije dostupan"
 
 #: src/Composer/MessageComposer.cpp:637
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 disappeared"
-msgstr ""
+msgstr "Privitak %1 je nestao"
 
 #: src/Composer/SenderIdentitiesModel.cpp:94
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Name"
-msgstr ""
+msgstr "Ime"
 
 #: src/Composer/SenderIdentitiesModel.cpp:96
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "E-mail"
-msgstr ""
+msgstr "E-pošta"
 
 #: src/Composer/SenderIdentitiesModel.cpp:98
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Organization"
-msgstr ""
+msgstr "Organizacija"
 
 #: src/Composer/SenderIdentitiesModel.cpp:100
 msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Signature"
-msgstr ""
+msgstr "Potpis"
 
 #: src/Composer/Submission.cpp:113
 msgctxt "Submission|"
 msgid "Preparing to send"
-msgstr ""
+msgstr "Priprema za slanje"
 
 #: src/Composer/Submission.cpp:118
 msgctxt "Submission|"
 msgid "Creating message"
-msgstr ""
+msgstr "Stvaranje poruke"
 
 #: src/Composer/Submission.cpp:123
 msgctxt "Submission|"
 msgid "Saving to the sent folder"
-msgstr ""
+msgstr "Spremanje u mapu poslanih poruka"
 
 #: src/Composer/Submission.cpp:128
 msgctxt "Submission|"
 msgid "Preparing message for delivery"
-msgstr ""
+msgstr "Priprema poruke za dostavu"
 
 #: src/Composer/Submission.cpp:133
 msgctxt "Submission|"
 msgid "Submitting message"
-msgstr ""
+msgstr "Slanje poruke"
 
 #: src/Composer/Submission.cpp:138
 msgctxt "Submission|"
 msgid "Updating message keywords"
-msgstr ""
+msgstr "Ažuriranje ključnih riječi poruke"
 
 #: src/Composer/Submission.cpp:143
 msgctxt "Submission|"
 msgid "Message sent"
-msgstr ""
+msgstr "Poruka je poslana"
 
 #: src/Composer/Submission.cpp:150
 msgctxt "Submission|"
 msgid "Sending failed"
-msgstr ""
+msgstr "Slanje nije uspjelo"
 
 #: src/Composer/Submission.cpp:180
 msgctxt "Submission|"
@@ -154,11 +161,15 @@ msgid ""
 "href=\"https://projects.flaska.net/issues/640\">https://projects.flaska.net/issues/640</a> "
 "for details."
 msgstr ""
+"IMAP veza je prekinuta. Morat ćete zatvoriti uređivač poruke, spremiti "
+"skicu i poslije je ponovno otvoriti. Privitke ćete morati dodati naknadno. "
+"Ispričavamo se zbog poteškoća; pojedinosti potražite na stranici "
+"<a href=\"https://projects.flaska.net/issues/640\">https://projects.flaska.net/issues/640</a>."
 
 #: src/Composer/Submission.cpp:195
 msgctxt "Submission|"
 msgid "Some data are not available yet"
-msgstr ""
+msgstr "Neki podaci još nisu dostupni"
 
 #: src/Composer/Submission.cpp:211
 #, qt-format

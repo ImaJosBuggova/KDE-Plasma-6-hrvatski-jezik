@@ -9,52 +9,54 @@ msgstr ""
 "Project-Id-Version: ksirk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-22 00:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: goal.cpp:100
 #, kde-format
 msgid "Error: no player to destroy"
-msgstr ""
+msgstr "Pogreška: nema igrača za uništavanje"
 
 #: goal.cpp:213
 #, kde-format
 msgctxt "@title:window"
 msgid "Goal Display"
-msgstr ""
+msgstr "Prikaz cilja"
 
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkContinentDefinition)
 #: ksirkcontinentdefinition.ui:13
 #, kde-format
 msgid "Continent"
-msgstr ""
+msgstr "Kontinent"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ksirkcontinentdefinition.ui:22
 #, kde-format
 msgid "Bonus:"
-msgstr ""
+msgstr "Bonus:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, bonus)
 #: ksirkcontinentdefinition.ui:29
 #, kde-format
 msgid "Number of bonus points when owning the full continent"
-msgstr ""
+msgstr "Broj bonus bodova za posjedovanje cijelog kontinenta"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, bonus)
 #: ksirkcontinentdefinition.ui:36
@@ -68,13 +70,13 @@ msgid ""
 "\n"
 "The bonus should be proportional to the continent's size and to the "
 "difficulty to conquer it or to keep it."
-msgstr ""
+msgstr "Broj bonus bodova za posjedovanje cijelog kontinenta.\n\nNa kraju svakog poteza svakom se igraču dodjeljuje određeni broj vojski. Ako igrač posjeduje sve države na ovom kontinentu, dobiva ovaj bonus.\n\nBonus bi trebao biti razmjeran veličini kontinenta te težini njegova osvajanja ili zadržavanja."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, selectcountriesbutton)
 #: ksirkcontinentdefinition.ui:48
 #, kde-format
 msgid "Select the countries contained in this continent"
-msgstr ""
+msgstr "Odaberite države koje pripadaju ovom kontinentu"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, selectcountriesbutton)
 #: ksirkcontinentdefinition.ui:53
@@ -84,37 +86,37 @@ msgid ""
 "\n"
 "A list of all the world's countries will be shown and you will be able to "
 "select the countries using the mouse and the Ctrl and Shift keys."
-msgstr ""
+msgstr "Kliknite ovdje da biste odabrali države koje pripadaju ovom kontinentu.\n\nPrikazat će se popis svih država svijeta, a države ćete moći odabrati mišem te tipkama Ctrl i Shift."
 
 #. i18n: ectx: property (text), widget (QPushButton, selectcountriesbutton)
 #: ksirkcontinentdefinition.ui:56
 #, kde-format
 msgid "Countries:"
-msgstr ""
+msgstr "Države:"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, countrieslist)
 #: ksirkcontinentdefinition.ui:63
 #, kde-format
 msgid "Continent's countries"
-msgstr ""
+msgstr "Države kontinenta"
 
 #. i18n: ectx: property (whatsThis), widget (QListWidget, countrieslist)
 #: ksirkcontinentdefinition.ui:66
 #, kde-format
 msgid "This is the list of countries currently forming this continent."
-msgstr ""
+msgstr "Ovo je popis država koje trenutačno čine ovaj kontinent."
 
 #. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkCountryDefinition)
 #: ksirkcountrydefinition.ui:13
 #, kde-format
 msgid "Country"
-msgstr ""
+msgstr "Država"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ksirkcountrydefinition.ui:22
 #, kde-format
 msgid "Flag:"
-msgstr ""
+msgstr "Zastava:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -134,25 +136,25 @@ msgstr ""
 #: ksirkcountrydefinition.ui:39
 #, kde-format
 msgid "Anchor:"
-msgstr ""
+msgstr "Sidrište:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: ksirkcountrydefinition.ui:56
 #, kde-format
 msgid "Center:"
-msgstr ""
+msgstr "Središte:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: ksirkcountrydefinition.ui:73
 #, kde-format
 msgid "Infantry:"
-msgstr ""
+msgstr "Pješaštvo:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, infantryx)
 #: ksirkcountrydefinition.ui:80
 #, kde-format
 msgid "Infantry's sprite top left point x-coordinate"
-msgstr ""
+msgstr "Koordinata x gornje lijeve točke sličice pješaštva"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, infantryx)
 #: ksirkcountrydefinition.ui:87
@@ -165,12 +167,18 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the infantry."
 msgstr ""
+"x-koordinata gornje lijeve točke sličice pješaštva.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako pomaknete pješaštvo."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, infantryy)
 #: ksirkcountrydefinition.ui:107
 #, kde-format
 msgid "Infantry's sprite top left point y-coordinate"
-msgstr ""
+msgstr "y-koordinata gornje lijeve točke sličice pješaštva"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, infantryy)
 #: ksirkcountrydefinition.ui:114
@@ -184,18 +192,25 @@ msgid ""
 "This value will be automatically updated if you move the infantry by drag "
 "and drop."
 msgstr ""
+"y-koordinata gornje lijeve točke sličice pješaštva.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako povučete i ispustite "
+"pješaštvo."
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ksirkcountrydefinition.ui:124
 #, kde-format
 msgid "Cavalry:"
-msgstr ""
+msgstr "Konjica:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, cavalryx)
 #: ksirkcountrydefinition.ui:131
 #, kde-format
 msgid "Cavalry's sprite top left point x-coordinate"
-msgstr ""
+msgstr "x-koordinata gornje lijeve točke sličice konjice"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, cavalryx)
 #: ksirkcountrydefinition.ui:138
@@ -208,12 +223,18 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the cavalry."
 msgstr ""
+"x-koordinata gornje lijeve točke sličice konjice.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako pomaknete konjicu."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, cavalryy)
 #: ksirkcountrydefinition.ui:158
 #, kde-format
 msgid "Cavalry's sprite top left point y-coordinate"
-msgstr ""
+msgstr "y-koordinata gornje lijeve točke sličice konjice"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, cavalryy)
 #: ksirkcountrydefinition.ui:165
@@ -227,18 +248,24 @@ msgid ""
 "This value will be automatically updated if you move the cavalry by drag and "
 "drop."
 msgstr ""
+"y-koordinata gornje lijeve točke sličice konjice.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako povučete i ispustite konjicu."
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: ksirkcountrydefinition.ui:175
 #, kde-format
 msgid "Cannon:"
-msgstr ""
+msgstr "Top:"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, cannony)
 #: ksirkcountrydefinition.ui:192
 #, kde-format
 msgid "Cannon's sprite top left point y-coordinate"
-msgstr ""
+msgstr "y-koordinata gornje lijeve točke sličice topa"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, cannony)
 #: ksirkcountrydefinition.ui:199
@@ -252,12 +279,18 @@ msgid ""
 "This value will be automatically updated if you move the cannon by drag and "
 "drop."
 msgstr ""
+"y-koordinata gornje lijeve točke sličice topa.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako povučete i ispustite top."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, cannonx)
 #: ksirkcountrydefinition.ui:209
 #, kde-format
 msgid "Cannon's sprite top left point x-coordinate"
-msgstr ""
+msgstr "x-koordinata gornje lijeve točke sličice topa"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, cannonx)
 #: ksirkcountrydefinition.ui:216
@@ -270,12 +303,18 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the cannon."
 msgstr ""
+"x-koordinata gornje lijeve točke sličice topa.\n"
+"\n"
+"Zadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u "
+"glavnom grafičkom elementu definicije presvlake.\n"
+"\n"
+"Ova će se vrijednost automatski ažurirati ako pomaknete top."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, centery)
 #: ksirkcountrydefinition.ui:226
 #, kde-format
 msgid "Point around which the country name is drawn y-coordinate"
-msgstr ""
+msgstr "y-koordinata točke oko koje se iscrtava naziv države"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, centery)
 #: ksirkcountrydefinition.ui:236
@@ -291,13 +330,13 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the country name by "
 "dragging and dropping its target icon.\n"
-msgstr ""
+msgstr "y-koordinata točke oko koje se iscrtava naziv države.\n\nNapomena: ova se točka treba nalaziti unutar granica države na maski karte.\n\nZadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u glavnom grafičkom elementu definicije presvlake.\n\nOva će se vrijednost automatski ažurirati ako pomaknete naziv države povlačenjem i ispuštanjem njegove ciljne ikone.\n"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, centerx)
 #: ksirkcountrydefinition.ui:246
 #, kde-format
 msgid "Point around which the country name is drawn x-coordinate"
-msgstr ""
+msgstr "x-koordinata točke oko koje se iscrtava naziv države"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, centerx)
 #: ksirkcountrydefinition.ui:255
@@ -313,13 +352,13 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the country name by "
 "dragging and dropping its target icon."
-msgstr ""
+msgstr "x-koordinata točke oko koje se iscrtava naziv države.\n\nNapomena: ova se točka treba nalaziti unutar granica države na maski karte.\n\nZadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u glavnom grafičkom elementu definicije presvlake.\n\nOva će se vrijednost automatski ažurirati ako pomaknete naziv države povlačenjem i ispuštanjem njegove ciljne ikone."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, anchory)
 #: ksirkcountrydefinition.ui:265
 #, kde-format
 msgid "Center of the highlighting y-coordinate"
-msgstr ""
+msgstr "y-koordinata središta isticanja"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, anchory)
 #: ksirkcountrydefinition.ui:272
@@ -332,13 +371,13 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the highlighting by "
 "dragging and dropping its cross icon."
-msgstr ""
+msgstr "y-koordinata središta isticanja.\n\nZadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u glavnom grafičkom elementu definicije presvlake.\n\nOva će se vrijednost automatski ažurirati ako pomaknete isticanje povlačenjem i ispuštanjem njegove ikone križića."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, anchorx)
 #: ksirkcountrydefinition.ui:282
 #, kde-format
 msgid "Center of the highlighting x-coordinate"
-msgstr ""
+msgstr "x-koordinata središta isticanja"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, anchorx)
 #: ksirkcountrydefinition.ui:289
@@ -351,13 +390,13 @@ msgid ""
 "\n"
 "This value will be automatically updated if you move the highlighting by "
 "dragging and dropping its cross icon."
-msgstr ""
+msgstr "x-koordinata središta isticanja.\n\nZadaje se u odnosu na gornji lijevi kut karte, dimenzija određenih u glavnom grafičkom elementu definicije presvlake.\n\nOva će se vrijednost automatski ažurirati ako pomaknete isticanje povlačenjem i ispuštanjem njegove ikone križića."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, flagy)
 #: ksirkcountrydefinition.ui:299
 #, kde-format
 msgid "Flag's sprite top left point y-coordinate"
-msgstr ""
+msgstr "y-koordinata gornje lijeve točke sličice zastave"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, flagy)
 #: ksirkcountrydefinition.ui:306
@@ -1680,191 +1719,194 @@ msgstr ""
 #: main.cpp:52 main.cpp:54
 #, kde-format
 msgid "KsirK Skin Editor"
-msgstr ""
+msgstr "Uređivač presvlake za KsirK"
 
 #: main.cpp:56
 #, kde-format
 msgid "(c) 2008, Gaël de Chalendar\n"
-msgstr ""
+msgstr "(c) 2008. Gaël de Chalendar\n"
 
 #: main.cpp:57
 #, kde-format
 msgid ""
 "For help and user manual, please see\n"
 "The KsirK Web site"
-msgstr ""
+msgstr "Pomoć i korisnički priručnik potražite na\n"
+"web-mjestu KsirK-a"
 
 #: main.cpp:59
 #, kde-format
 msgid "Gaël de Chalendar aka Kleag"
-msgstr ""
+msgstr "Gaël de Chalendar (Kleag)"
 
 #: main.cpp:67
 #, kde-format
 msgid "file to open"
-msgstr ""
+msgstr "datoteka za otvaranje"
 
 #: mainwindow.cpp:127 mainwindow.cpp:678 mainwindow.cpp:806 mainwindow.cpp:1193
 #, kde-format
 msgid "Cannot load anchor icon<br>Program cannot continue"
-msgstr ""
+msgstr "Nije moguće učitati ikonu sidrišta<br>Program se ne može nastaviti"
 
 #: mainwindow.cpp:141 mainwindow.cpp:707 mainwindow.cpp:823
 #, kde-format
 msgid "Cannot load center icon<br>Program cannot continue"
-msgstr ""
+msgstr "Nije moguće učitati ikonu središta<br>Program se ne može nastaviti"
 
 #: mainwindow.cpp:324
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a saved skin"
-msgstr ""
+msgstr "Otvori spremljenu presvlaku"
 
 #: mainwindow.cpp:328
 #, kde-format
 msgctxt "@action"
 msgid "Load &Recent"
-msgstr ""
+msgstr "Učitaj &nedavno"
 
 #: mainwindow.cpp:329
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a recently saved skin"
-msgstr ""
+msgstr "Otvori nedavno spremljenu presvlaku"
 
 #: mainwindow.cpp:337
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Save the current skin"
-msgstr ""
+msgstr "Spremi trenutačnu presvlaku"
 
 #: mainwindow.cpp:362
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose the Root Folder of the Skin to Open"
-msgstr ""
+msgstr "Odaberite korijensku mapu presvlake za otvaranje"
 
 #: mainwindow.cpp:526
 #, kde-format
 msgid "There are unsaved changes. What do you want to do?"
-msgstr ""
+msgstr "Postoje nespremljene promjene. Što želite učiniti?"
 
 #: mainwindow.cpp:527
 #, kde-format
 msgctxt "@title:window"
 msgid "Unsaved Changes"
-msgstr ""
+msgstr "Nespremljene promjene"
 
 #: mainwindow.cpp:528
 #, kde-format
 msgctxt "@action:button"
 msgid "Quit Without Saving"
-msgstr ""
+msgstr "Izađi bez spremanja"
 
 #: mainwindow.cpp:529
 #, kde-format
 msgctxt "@action:button"
 msgid "Save and Quit"
-msgstr ""
+msgstr "Spremi i izađi"
 
 #: mainwindow.cpp:1305
 #, kde-format
 msgctxt "@title:window"
 msgid "New Country Name"
-msgstr ""
+msgstr "Naziv nove države"
 
 #: mainwindow.cpp:1305
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enter the name of the new country:"
-msgstr ""
+msgstr "Unesite naziv nove države:"
 
 #: mainwindow.cpp:1315
 #, kde-format
 msgid "Do you really want to delete country '%1'?"
-msgstr ""
+msgstr "Želite li zaista izbrisati državu „%1”?"
 
 #: mainwindow.cpp:1315
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Country Confirmation"
-msgstr ""
+msgstr "Potvrda brisanja države"
 
 #: mainwindow.cpp:1334
 #, kde-format
 msgctxt "@title:window"
 msgid "New Continent Name"
-msgstr ""
+msgstr "Naziv novog kontinenta"
 
 #: mainwindow.cpp:1334
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enter the name of the new continent:"
-msgstr ""
+msgstr "Unesite naziv novog kontinenta:"
 
 #: mainwindow.cpp:1344
 #, kde-format
 msgid "Do you really want to delete continent '%1'?"
-msgstr ""
+msgstr "Želite li zaista izbrisati kontinent „%1”?"
 
 #: mainwindow.cpp:1344
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Continent Confirmation"
-msgstr ""
+msgstr "Potvrda brisanja kontinenta"
 
 #: mainwindow.cpp:1893
 #, kde-format
 msgid "Do you really want to delete goal '%1'?"
-msgstr ""
+msgstr "Želite li zaista izbrisati cilj „%1”?"
 
 #: mainwindow.cpp:1893
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Goal Confirmation"
-msgstr ""
+msgstr "Potvrda brisanja cilja"
 
 #: mainwindow.cpp:1952
 #, kde-format
 msgctxt "@title:window"
 msgid "New Nationality Name"
-msgstr ""
+msgstr "Naziv nove narodnosti"
 
 #: mainwindow.cpp:1952
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enter the name of the new nationality:"
-msgstr ""
+msgstr "Unesite naziv nove narodnosti:"
 
 #: mainwindow.cpp:1962
 #, kde-format
 msgid "Do you really want to delete nationality '%1'?"
-msgstr ""
+msgstr "Želite li zaista izbrisati narodnost „%1”?"
 
 #: mainwindow.cpp:1962
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Nationality Confirmation"
-msgstr ""
+msgstr "Potvrda brisanja narodnosti"
 
 #: onu.cpp:78
 #, kde-format
 msgid "Invalid skin definition file format. Expected %1 and got %2"
-msgstr ""
+msgstr "Neispravan format datoteke definicije presvlake. Očekivano je %1, a dobiveno %2"
 
 #: onu.cpp:110
 #, kde-format
 msgid ""
 "Pool filename not found\n"
 "Program cannot continue"
-msgstr ""
+msgstr "Naziv datoteke spremišta nije pronađen\n"
+"Program se ne može nastaviti"
 
 #: onu.cpp:128
 #, kde-format
 msgid ""
 "Map mask image not found\n"
 "Program cannot continue"
-msgstr ""
+msgstr "Slika maske karte nije pronađena\n"
+"Program se ne može nastaviti"
 
 #: onu.cpp:983
 #, kde-format

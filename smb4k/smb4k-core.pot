@@ -9,66 +9,66 @@ msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-28 01:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:56+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "default profile name for use at home"
 msgid "Home"
-msgstr ""
+msgstr "Kod kuće"
 
 #, kde-format
 msgctxt "default profile name for use at work"
 msgid "Work"
-msgstr ""
+msgstr "Na poslu"
 
 #. i18n: ectx: label, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:17
 #, kde-format
 msgid "Tab orientation:"
-msgstr ""
+msgstr "Položaj kartica:"
 
 #. i18n: ectx: whatsthis, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:18
 #, kde-format
 msgid "Set the tab orientation for the tabified dock widgets."
-msgstr ""
+msgstr "Postavite položaj kartica u usidrenim widgetima s karticama."
 
 #. i18n: ectx: label, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:21
 #, kde-format
 msgid "Top"
-msgstr ""
+msgstr "Gore"
 
 #. i18n: ectx: label, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:24
 #, kde-format
 msgid "Bottom"
-msgstr ""
+msgstr "Dolje"
 
 #. i18n: ectx: label, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:27
 #, kde-format
 msgid "Left"
-msgstr ""
+msgstr "Lijevo"
 
 #. i18n: ectx: label, entry (MainWindowTabOrientation), group (UserInterface)
 #: smb4k.kcfg:30
 #, kde-format
 msgid "Right"
-msgstr ""
+msgstr "Desno"
 
 #. i18n: ectx: label, entry (ShowCustomBookmarkLabel), group (UserInterface)
 #: smb4k.kcfg:36
 #, kde-format
 msgid "Show custom bookmark label if available"
-msgstr ""
+msgstr "Prikaži prilagođenu oznaku zabilješke ako je dostupna"
 
 #. i18n: ectx: whatsthis, entry (ShowCustomBookmarkLabel), group (UserInterface)
 #: smb4k.kcfg:37
@@ -77,12 +77,14 @@ msgid ""
 "Do not show the name of the bookmarked share, but the custom label that was "
 "defined in the bookmark editor."
 msgstr ""
+"Umjesto naziva zabilježenog dijeljenja prikaži prilagođenu oznaku definiranu "
+"u uređivaču zabilješki."
 
 #. i18n: ectx: label, entry (StartMainWindowDocked), group (UserInterface)
 #: smb4k.kcfg:41
 #, kde-format
 msgid "Start the application docked to the system tray"
-msgstr ""
+msgstr "Pokreni aplikaciju usidrenu u programsku traku"
 
 #. i18n: ectx: whatsthis, entry (StartMainWindowDocked), group (UserInterface)
 #: smb4k.kcfg:42
@@ -93,12 +95,16 @@ msgid ""
 "up by clicking on the system tray widget or by choosing \"Restore\" from its "
 "popup menu."
 msgstr ""
+"Pokreni aplikaciju usidrenu u programsku traku, tako da se prikazuje samo "
+"widget programske trake, a glavni prozor bude skriven. Glavni prozor možete "
+"prikazati klikom na widget programske trake ili odabirom mogućnosti "
+"„Vrati” u njegovu skočnom izborniku."
 
 #. i18n: ectx: label, entry (AutostartApplication), group (UserInterface)
 #: smb4k.kcfg:46
 #, kde-format
 msgid "Start the application automatically at session start"
-msgstr ""
+msgstr "Automatski pokreni aplikaciju pri pokretanju sesije"
 
 #. i18n: ectx: whatsthis, entry (AutostartApplication), group (UserInterface)
 #: smb4k.kcfg:47
@@ -107,12 +113,15 @@ msgid ""
 "Start the application automatically at session start. For this, it is added "
 "to the autostart list by creating a desktop file in the autostart folder."
 msgstr ""
+"Automatski pokreni aplikaciju pri pokretanju sesije. Da biste to omogućili, "
+"aplikacija će se dodati na popis automatskog pokretanja stvaranjem "
+"datoteke radne površine u mapi za automatsko pokretanje."
 
 #. i18n: ectx: label, entry (ShowType), group (UserInterface)
 #: smb4k.kcfg:51
 #, kde-format
 msgid "Show the type of the share"
-msgstr ""
+msgstr "Prikaži vrstu dijeljenja"
 
 #. i18n: ectx: whatsthis, entry (ShowType), group (UserInterface)
 #: smb4k.kcfg:52
@@ -121,12 +130,14 @@ msgid ""
 "The type of a share will be displayed in a separate column in the network "
 "neighborhood browser. It can either be Disk, Printer or IPC."
 msgstr ""
+"Vrsta dijeljenja prikazat će se u zasebnom stupcu preglednika mrežnog "
+"okruženja. Može biti disk, pisač ili IPC."
 
 #. i18n: ectx: label, entry (ShowIPAddress), group (UserInterface)
 #: smb4k.kcfg:56
 #, kde-format
 msgid "Show the IP address of the server"
-msgstr ""
+msgstr "Prikaži IP adresu poslužitelja"
 
 #. i18n: ectx: whatsthis, entry (ShowIPAddress), group (UserInterface)
 #: smb4k.kcfg:57
@@ -135,12 +146,14 @@ msgid ""
 "The IP address of the server will be displayed in a separate column in the "
 "network neighborhood browser."
 msgstr ""
+"IP adresa poslužitelja prikazat će se u zasebnom stupcu preglednika mrežnog "
+"okruženja."
 
 #. i18n: ectx: label, entry (ShowComment), group (UserInterface)
 #: smb4k.kcfg:61
 #, kde-format
 msgid "Show the comment"
-msgstr ""
+msgstr "Prikaži komentar"
 
 #. i18n: ectx: whatsthis, entry (ShowComment), group (UserInterface)
 #: smb4k.kcfg:62
@@ -149,24 +162,26 @@ msgid ""
 "The comment describing the server or share will be displayed in a separate "
 "column in the network neighborhood browser."
 msgstr ""
+"Komentar s opisom poslužitelja ili dijeljenja prikazat će se u zasebnom "
+"stupcu preglednika mrežnog okruženja."
 
 #. i18n: ectx: label, entry (ShowNetworkItemToolTip), group (UserInterface)
 #: smb4k.kcfg:66
 #, kde-format
 msgid "Show tooltips for network items"
-msgstr ""
+msgstr "Prikaži opise za mrežne stavke"
 
 #. i18n: ectx: whatsthis, entry (ShowNetworkItemToolTip), group (UserInterface)
 #: smb4k.kcfg:67
 #, kde-format
 msgid "The tooltip shows various information about the current network item."
-msgstr ""
+msgstr "Opis prikazuje razne informacije o trenutačnoj mrežnoj stavci."
 
 #. i18n: ectx: label, entry (AutoExpandNetworkItems), group (UserInterface)
 #: smb4k.kcfg:71
 #, kde-format
 msgid "Automatically expand domains and hosts"
-msgstr ""
+msgstr "Automatski proširi domene i računala"
 
 #. i18n: ectx: whatsthis, entry (AutoExpandNetworkItems), group (UserInterface)
 #: smb4k.kcfg:72
@@ -176,24 +191,27 @@ msgid ""
 "items (domain members or shares) is added or updated. Please note that a "
 "domain or host item will always be expanded when you execute it."
 msgstr ""
+"Automatski proširi stavke domene i računala kada se doda ili ažurira popis "
+"povezanih mrežnih stavki (članova domene ili dijeljenja). Imajte na umu da "
+"će se stavka domene ili računala uvijek proširiti kada je aktivirate."
 
 #. i18n: ectx: label, entry (ShowShareToolTip), group (UserInterface)
 #: smb4k.kcfg:76
 #, kde-format
 msgid "Show tooltips for mounted shares"
-msgstr ""
+msgstr "Prikaži opise za montirana dijeljenja"
 
 #. i18n: ectx: whatsthis, entry (ShowShareToolTip), group (UserInterface)
 #: smb4k.kcfg:77
 #, kde-format
 msgid "The tooltip shows various information about the current share."
-msgstr ""
+msgstr "Opis prikazuje razne informacije o trenutačnom dijeljenju."
 
 #. i18n: ectx: label, entry (SharesViewMode), group (UserInterface)
 #: smb4k.kcfg:81
 #, kde-format
 msgid "View mode:"
-msgstr ""
+msgstr "Način prikaza:"
 
 #. i18n: ectx: whatsthis, entry (SharesViewMode), group (UserInterface)
 #: smb4k.kcfg:82
@@ -202,60 +220,62 @@ msgid ""
 "This setting determines the view mode of the shares view. There are two "
 "modes: the icon view and the list view."
 msgstr ""
+"Ova postavka određuje način prikaza dijeljenja. Dostupna su dva načina: "
+"prikaz ikona i prikaz popisa."
 
 #. i18n: ectx: label, entry (SharesViewMode), group (UserInterface)
 #: smb4k.kcfg:85
 #, kde-format
 msgid "Icon View"
-msgstr ""
+msgstr "Prikaz ikona"
 
 #. i18n: ectx: label, entry (SharesViewMode), group (UserInterface)
 #: smb4k.kcfg:88
 #, kde-format
 msgid "List View"
-msgstr ""
+msgstr "Prikaz popisa"
 
 #. i18n: ectx: label, entry (SharesViewIconSizeIconView), group (UserInterface)
 #: smb4k.kcfg:94
 #, kde-format
 msgid "Icon size for the icon view:"
-msgstr ""
+msgstr "Veličina ikona u prikazu ikona:"
 
 #. i18n: ectx: whatsthis, entry (SharesViewIconSizeIconView), group (UserInterface)
 #: smb4k.kcfg:95
 #, kde-format
 msgid "Set the icon size for the icon view mode of the shares view."
-msgstr ""
+msgstr "Postavite veličinu ikona u prikazu dijeljenja s ikonama."
 
 #. i18n: ectx: label, entry (SharesViewIconSizeListView), group (UserInterface)
 #: smb4k.kcfg:101
 #, kde-format
 msgid "Icon size for the list view:"
-msgstr ""
+msgstr "Veličina ikona u prikazu popisa:"
 
 #. i18n: ectx: whatsthis, entry (SharesViewIconSizeListView), group (UserInterface)
 #: smb4k.kcfg:102
 #, kde-format
 msgid "Set the icon size for the list view mode of the shares view."
-msgstr ""
+msgstr "Postavite veličinu ikona u prikazu dijeljenja u obliku popisa."
 
 #. i18n: ectx: label, entry (NetworkBrowserIconSize), group (UserInterface)
 #: smb4k.kcfg:108
 #, kde-format
 msgid "Icon size:"
-msgstr ""
+msgstr "Veličina ikona:"
 
 #. i18n: ectx: whatsthis, entry (NetworkBrowserIconSize), group (UserInterface)
 #: smb4k.kcfg:109
 #, kde-format
 msgid "Set the icon size for the network neighborhood browser."
-msgstr ""
+msgstr "Postavite veličinu ikona u pregledniku mrežnog okruženja."
 
 #. i18n: ectx: label, entry (UseWsDiscovery), group (Network)
 #: smb4k.kcfg:120
 #, kde-format
 msgid "Use Web Services Dynamic Discovery (WS-Discovery) for browsing"
-msgstr ""
+msgstr "Za pregledavanje koristi WS-Discovery (dinamičko otkrivanje web-usluga)"
 
 #. i18n: ectx: whatsthis, entry (UseWsDiscovery), group (Network)
 #: smb4k.kcfg:121
@@ -267,13 +287,13 @@ msgid ""
 "versions. If you use this option, there should be no need to force Samba's "
 "client library to use the SMB protocol version 1.0 for searching for "
 "workgroups and domains."
-msgstr ""
+msgstr "Pregledava lokalnu mrežu i pronalazi radne grupe, domene i računala. To je korisno ako u vašem mrežnom okruženju prevladavaju poslužitelji s novijim verzijama sustava Windows. Ako uključite ovu mogućnost, nećete morati prisiliti Samba klijentsku biblioteku da za traženje radnih grupa i domena upotrebljava SMB protokol verzije 1.0."
 
 #. i18n: ectx: label, entry (UseDnsServiceDiscovery), group (Network)
 #: smb4k.kcfg:125
 #, kde-format
 msgid "Use DNS Service Discovery (DNS-SD) for browsing"
-msgstr ""
+msgstr "Koristi DNS Service Discovery (DNS-SD) za pregledavanje"
 
 #. i18n: ectx: whatsthis, entry (UseDnsServiceDiscovery), group (Network)
 #: smb4k.kcfg:126
@@ -286,13 +306,13 @@ msgid ""
 "influence the browsing. If you use this option, there is no need to force "
 "Samba's client library to use the SMB protocol version 1.0 for searching for "
 "workgroups and domains."
-msgstr ""
+msgstr "Domena koju koristi DNS-SD možda se neće podudarati s lokalnim DNS domenama (npr. domenom LOCAL) i najvjerojatnije neće biti ona definirana u mrežnom okruženju. To ipak ne utječe na pregledavanje. Ako uključite ovu mogućnost, nećete morati prisiliti Samba klijentsku biblioteku da za traženje radnih grupa i domena upotrebljava SMB protokol verzije 1.0."
 
 #. i18n: ectx: label, entry (UseClientProtocolVersions), group (Network)
 #: smb4k.kcfg:130
 #, kde-format
 msgid "Set minimal and maximal SMB protocol version"
-msgstr ""
+msgstr "Postavi najmanju i najveću verziju SMB protokola"
 
 #. i18n: ectx: whatsthis, entry (UseClientProtocolVersions), group (Network)
 #: smb4k.kcfg:131
@@ -307,13 +327,13 @@ msgid ""
 "workgroups and domains work while keeping undisturbed connectivity to "
 "servers. Use DNS Service Discovery (DNS-SD) or Web Services Dynamic "
 "Discovery (WS-Discovery) for domain and workgroup lookups instead."
-msgstr ""
+msgstr "Ove postavke određuju najmanju i najveću verziju SMB protokola koju Samba klijentska biblioteka smije upotrijebiti za uspostavljanje veze s poslužiteljem. Imajte na umu da ova postavka možda neće omogućiti otkrivanje radnih grupa i domena uz istodobno neometano povezivanje s poslužiteljima. Umjesto toga za traženje domena i radnih grupa koristite DNS Service Discovery (DNS-SD) ili Web Services Dynamic Discovery (WS-Discovery)."
 
 #. i18n: ectx: label, entry (MinimalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:135
 #, kde-format
 msgid "Minimal SMB protocol version:"
-msgstr ""
+msgstr "Najmanja verzija SMB protokola:"
 
 #. i18n: ectx: whatsthis, entry (MinimalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:136
@@ -322,33 +342,35 @@ msgid ""
 "This setting controls the minimum protocol version that Samba's client "
 "library will attempt to use."
 msgstr ""
+"Ova postavka određuje najmanju verziju protokola koju će Samba klijentska "
+"biblioteka pokušati upotrijebiti."
 
 #. i18n: ectx: label, entry (MinimalClientProtocolVersion), group (Network)
 #. i18n: ectx: label, entry (MaximalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:139 smb4k.kcfg:155
 #, kde-format
 msgid "NT1 (Classic CIFS/SMBv1 protocol)"
-msgstr ""
+msgstr "NT1 (klasični protokol CIFS/SMBv1)"
 
 #. i18n: ectx: label, entry (MinimalClientProtocolVersion), group (Network)
 #. i18n: ectx: label, entry (MaximalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:142 smb4k.kcfg:158
 #, kde-format
 msgid "SMB2 (Windows Vista and above)"
-msgstr ""
+msgstr "SMB2 (Windows Vista i noviji)"
 
 #. i18n: ectx: label, entry (MinimalClientProtocolVersion), group (Network)
 #. i18n: ectx: label, entry (MaximalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:145 smb4k.kcfg:161
 #, kde-format
 msgid "SMB3 (Windows 8 and above)"
-msgstr ""
+msgstr "SMB3 (Windows 8 i noviji)"
 
 #. i18n: ectx: label, entry (MaximalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:151
 #, kde-format
 msgid "Maximal SMB protocol version:"
-msgstr ""
+msgstr "Najviša inačica protokola SMB:"
 
 #. i18n: ectx: whatsthis, entry (MaximalClientProtocolVersion), group (Network)
 #: smb4k.kcfg:152
@@ -356,13 +378,13 @@ msgstr ""
 msgid ""
 "This setting controls the maximum protocol version that Samba's client "
 "library will attempt to use."
-msgstr ""
+msgstr "Ova postavka određuje najvišu inačicu protokola koju će pokušati koristiti klijentska biblioteka Sambe."
 
 #. i18n: ectx: label, entry (LargeNetworkNeighborhood), group (Network)
 #: smb4k.kcfg:167
 #, kde-format
 msgid "This computer is on a large network neighborhood"
-msgstr ""
+msgstr "Ovo je računalo u velikom mrežnom okruženju"
 
 #. i18n: ectx: whatsthis, entry (LargeNetworkNeighborhood), group (Network)
 #: smb4k.kcfg:168
@@ -374,12 +396,17 @@ msgid ""
 "limits the number of used local master browsers to three. This can reduced "
 "the time consumption on large network neighborhoods considerably."
 msgstr ""
+"Ako se vaše računalo nalazi u velikom mrežnom okruženju, otkrivanje svih "
+"radnih grupa, računala i dijeljenja može potrajati jer se u zadanoj "
+"konfiguraciji upituju svi lokalni glavni preglednici. Uključivanjem ove "
+"postavke broj lokalnih glavnih preglednika ograničava se na tri. Time se "
+"može znatno skratiti vrijeme potrebno za rad u velikim mrežnim okruženjima."
 
 #. i18n: ectx: label, entry (MasterBrowsersRequireAuth), group (Network)
 #: smb4k.kcfg:172
 #, kde-format
 msgid "Master browsers require authentication"
-msgstr ""
+msgstr "Glavni preglednici zahtijevaju autentifikaciju"
 
 #. i18n: ectx: whatsthis, entry (MasterBrowsersRequireAuth), group (Network)
 #: smb4k.kcfg:173
@@ -388,12 +415,14 @@ msgid ""
 "The master browsers in your network neighborhood require a login to return "
 "the browse list. This setting is rarely needed."
 msgstr ""
+"Glavni preglednici u vašem mrežnom okruženju zahtijevaju prijavu za "
+"vraćanje popisa za pregledavanje. Ova je postavka rijetko potrebna."
 
 #. i18n: ectx: label, entry (UseKerberos), group (Network)
 #: smb4k.kcfg:177
 #, kde-format
 msgid "Use Kerberos for authentication"
-msgstr ""
+msgstr "Koristi Kerberos za autentifikaciju"
 
 #. i18n: ectx: whatsthis, entry (UseKerberos), group (Network)
 #: smb4k.kcfg:178
@@ -402,55 +431,57 @@ msgid ""
 "Use Kerberos for authentication. This is only useful in an Active Directory "
 "environment."
 msgstr ""
+"Koristi Kerberos za autentifikaciju. To je korisno samo u okruženju Active "
+"Directory."
 
 #. i18n: ectx: label, entry (UseWinbindCCache), group (Network)
 #: smb4k.kcfg:182
 #, kde-format
 msgid "Use Winbind ccache for authentication"
-msgstr ""
+msgstr "Koristi Winbindovu predmemoriju vjerodajnica za autentifikaciju"
 
 #. i18n: ectx: whatsthis, entry (UseWinbindCCache), group (Network)
 #: smb4k.kcfg:183
 #, kde-format
 msgid "Use the Winbind ccache for authentication."
-msgstr ""
+msgstr "Koristi Winbindovu predmemoriju vjerodajnica za autentifikaciju."
 
 #. i18n: ectx: label, entry (UseEncryptionLevel), group (Network)
 #: smb4k.kcfg:187
 #, kde-format
 msgid "Set the encryption level to:"
-msgstr ""
+msgstr "Postavi razinu šifriranja na:"
 
 #. i18n: ectx: whatsthis, entry (UseEncryptionLevel), group (Network)
 #. i18n: ectx: whatsthis, entry (EncryptionLevel), group (Network)
 #: smb4k.kcfg:188 smb4k.kcfg:192
 #, kde-format
 msgid "Set the level of encryption that is used for making connections."
-msgstr ""
+msgstr "Postavi razinu šifriranja koja se koristi pri uspostavljanju veza."
 
 #. i18n: ectx: label, entry (EncryptionLevel), group (Network)
 #: smb4k.kcfg:195
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Bez"
 
 #. i18n: ectx: label, entry (EncryptionLevel), group (Network)
 #: smb4k.kcfg:198
 #, kde-format
 msgid "Request"
-msgstr ""
+msgstr "Zatraži"
 
 #. i18n: ectx: label, entry (EncryptionLevel), group (Network)
 #: smb4k.kcfg:201
 #, kde-format
 msgid "Require"
-msgstr ""
+msgstr "Zahtijevaj"
 
 #. i18n: ectx: label, entry (PreviewHiddenItems), group (Network)
 #: smb4k.kcfg:207
 #, kde-format
 msgid "Preview hidden files and directories"
-msgstr ""
+msgstr "Prikaži skrivene datoteke i direktorije"
 
 #. i18n: ectx: whatsthis, entry (PreviewHiddenItems), group (Network)
 #: smb4k.kcfg:208
@@ -462,24 +493,28 @@ msgid ""
 "etc.). Since they are not of any importance for your regular work, you "
 "normally do not need to enable this feature."
 msgstr ""
+"Prikaži skrivene datoteke i direktorije. To su datoteke i direktoriji čiji "
+"nazivi počinju točkom. Obično su potrebni za posebne namjene (primjerice, "
+"za pohranu konfiguracijskih podataka aplikacije). Budući da nisu važni za "
+"uobičajen rad, ovu mogućnost najčešće nije potrebno uključiti."
 
 #. i18n: ectx: label, entry (DetectPrinterShares), group (Network)
 #: smb4k.kcfg:212
 #, kde-format
 msgid "Detect printer shares"
-msgstr ""
+msgstr "Otkrij dijeljenja pisača"
 
 #. i18n: ectx: whatsthis, entry (DetectPrinterShares), group (Network)
 #: smb4k.kcfg:213
 #, kde-format
 msgid "Printer shares are detected."
-msgstr ""
+msgstr "Otkrivaju se dijeljenja pisača."
 
 #. i18n: ectx: label, entry (DetectHiddenShares), group (Network)
 #: smb4k.kcfg:217
 #, kde-format
 msgid "Detect hidden shares"
-msgstr ""
+msgstr "Otkrij skrivena dijeljenja"
 
 #. i18n: ectx: whatsthis, entry (DetectHiddenShares), group (Network)
 #: smb4k.kcfg:218
@@ -488,12 +523,14 @@ msgid ""
 "Hidden shares are detected. Hidden shares are ending with a $ sign, e.g. "
 "Musik$ or IPC$."
 msgstr ""
+"Otkrivaju se skrivena dijeljenja. Naziv skrivenih dijeljenja završava "
+"znakom $, primjerice Musik$ ili IPC$."
 
 #. i18n: ectx: label, entry (EnableWakeOnLAN), group (Network)
 #: smb4k.kcfg:222
 #, kde-format
 msgid "Enable Wake-On-LAN features"
-msgstr ""
+msgstr "Omogući značajku Wake-on-LAN"
 
 #. i18n: ectx: whatsthis, entry (EnableWakeOnLAN), group (Network)
 #: smb4k.kcfg:223
@@ -504,12 +541,16 @@ msgid ""
 "magic packet send via a UDP socket to wake up remote servers. If you want to "
 "take advantage of the Wake-On-LAN feature, you need to enable this option."
 msgstr ""
+"Wake-on-LAN (WOL) mrežni je standard za Ethernet koji omogućuje uključivanje "
+"ili buđenje računala mrežnom porukom. Smb4K šalje čarobni paket putem UDP "
+"utičnice kako bi probudio udaljene poslužitelje. Ako želite koristiti "
+"značajku Wake-on-LAN, morate omogućiti ovu mogućnost."
 
 #. i18n: ectx: label, entry (WakeOnLANWaitingTime), group (Network)
 #: smb4k.kcfg:227
 #, kde-format
 msgid "Waiting time:"
-msgstr ""
+msgstr "Vrijeme čekanja:"
 
 #. i18n: ectx: whatsthis, entry (WakeOnLANWaitingTime), group (Network)
 #: smb4k.kcfg:228
@@ -519,12 +560,14 @@ msgid ""
 "LAN packets and the scanning of the network neighborhood or the mounting of "
 "a share."
 msgstr ""
+"Vrijeme čekanja u sekundama između slanja čarobnih Wake-on-LAN paketa i "
+"pretraživanja mrežnog okruženja ili montiranja dijeljenja."
 
 #. i18n: ectx: label, entry (RsyncPrefix), group (Synchronization)
 #: smb4k.kcfg:242
 #, kde-format
 msgid "Synchronization prefix:"
-msgstr ""
+msgstr "Prefiks sinkronizacije:"
 
 #. i18n: ectx: whatsthis, entry (RsyncPrefix), group (Synchronization)
 #: smb4k.kcfg:243
@@ -535,36 +578,39 @@ msgid ""
 "elsewhere, you will be able to choose a different path before the actual "
 "synchronization begins."
 msgstr ""
+"U ovoj će se mapi stvoriti odredišni direktorij za sinkronizaciju. Ako "
+"podatke nekog dijeljenja želite pohraniti drugdje, prije početka "
+"sinkronizacije moći ćete odabrati drugu putanju."
 
 #. i18n: ectx: label, entry (ArchiveMode), group (Synchronization)
 #: smb4k.kcfg:247
 #, kde-format
 msgid "Archive mode"
-msgstr ""
+msgstr "Arhivski način"
 
 #. i18n: ectx: whatsthis, entry (ArchiveMode), group (Synchronization)
 #: smb4k.kcfg:248
 #, kde-format
 msgid "Use archive mode (-a, --archive). This is a short form of -rlptgoD."
-msgstr ""
+msgstr "Koristi arhivski način (-a, --archive). To je skraćeni oblik opcije -rlptgoD."
 
 #. i18n: ectx: label, entry (RecurseIntoDirectories), group (Synchronization)
 #: smb4k.kcfg:252
 #, kde-format
 msgid "Recurse into subdirectories"
-msgstr ""
+msgstr "Rekurzivno obradi podmape"
 
 #. i18n: ectx: whatsthis, entry (RecurseIntoDirectories), group (Synchronization)
 #: smb4k.kcfg:253
 #, kde-format
 msgid "Recurse into directories (-r, --recursive)."
-msgstr ""
+msgstr "Rekurzivno obradi mape (-r, --recursive)."
 
 #. i18n: ectx: label, entry (UpdateTarget), group (Synchronization)
 #: smb4k.kcfg:257
 #, kde-format
 msgid "Update files"
-msgstr ""
+msgstr "Ažuriraj datoteke"
 
 #. i18n: ectx: whatsthis, entry (UpdateTarget), group (Synchronization)
 #: smb4k.kcfg:258
@@ -572,13 +618,13 @@ msgstr ""
 msgid ""
 "Update files in the destination directory that are older than in the source "
 "directory (-u, --update)."
-msgstr ""
+msgstr "Ažuriraj datoteke u odredišnoj mapi koje su starije od datoteka u izvornoj mapi (-u, --update)."
 
 #. i18n: ectx: label, entry (UpdateInPlace), group (Synchronization)
 #: smb4k.kcfg:262
 #, kde-format
 msgid "Update files in place"
-msgstr ""
+msgstr "Ažuriraj datoteke na mjestu"
 
 #. i18n: ectx: whatsthis, entry (UpdateInPlace), group (Synchronization)
 #: smb4k.kcfg:263
@@ -590,12 +636,17 @@ msgid ""
 "destination file will immediately be overwritten instead. An exception to "
 "this is if you combine this option with --backup."
 msgstr ""
+"Ažuriraj odredišne datoteke na mjestu (--inplace). Rsync prema zadanim "
+"postavkama najprije stvara novu kopiju datoteke i premješta je na odredište "
+"nakon dovršetka prijenosa. Ako omogućite ovu značajku, kopija se neće "
+"stvarati, nego će se odredišna datoteka odmah prebrisati. Iznimka je "
+"kombiniranje ove mogućnosti s opcijom --backup."
 
 #. i18n: ectx: label, entry (RelativePathNames), group (Synchronization)
 #: smb4k.kcfg:267
 #, kde-format
 msgid "Use relative path names"
-msgstr ""
+msgstr "Koristi relativne nazive putanja"
 
 #. i18n: ectx: whatsthis, entry (RelativePathNames), group (Synchronization)
 #: smb4k.kcfg:268
@@ -605,12 +656,15 @@ msgid ""
 "specified on the command line are sent to the server rather than just the "
 "last parts of the file names."
 msgstr ""
+"Koristi relativne putanje (-R, --relative). To znači da se poslužitelju "
+"šalju puni nazivi putanja navedeni u naredbenom retku, a ne samo završni "
+"dijelovi naziva datoteka."
 
 #. i18n: ectx: label, entry (NoImpliedDirectories), group (Synchronization)
 #: smb4k.kcfg:272
 #, kde-format
 msgid "Do not send implied directories"
-msgstr ""
+msgstr "Ne šalji podrazumijevane direktorije"
 
 #. i18n: ectx: whatsthis, entry (NoImpliedDirectories), group (Synchronization)
 #: smb4k.kcfg:273
@@ -623,12 +677,18 @@ msgid ""
 "elements to have big differences, such as being a symlink to a directory on "
 "one side of the transfer, and a real directory on the other side."
 msgstr ""
+"Nemoj slati podrazumijevane direktorije uz --relative (--no-implied-dirs). "
+"To znači da odgovarajući elementi putanje na odredišnom sustavu ostaju "
+"nepromijenjeni ako postoje, a nedostajući podrazumijevani direktoriji "
+"stvaraju se sa zadanim atributima. Time se dopuštaju i velike razlike među "
+"tim elementima, primjerice simbolička poveznica na direktorij s jedne "
+"strane prijenosa i stvarni direktorij s druge."
 
 #. i18n: ectx: label, entry (TransferDirectories), group (Synchronization)
 #: smb4k.kcfg:277
 #, kde-format
 msgid "Transfer directories without recursing"
-msgstr ""
+msgstr "Prenesi direktorije bez rekurzivnog obilaska"
 
 #. i18n: ectx: whatsthis, entry (TransferDirectories), group (Synchronization)
 #: smb4k.kcfg:278
@@ -637,12 +697,14 @@ msgid ""
 "Transfer directories without recursing (-d, --dirs). This means that all top-"
 "level subdirectories are transferred but without their contents."
 msgstr ""
+"Prenesi direktorije bez rekurzivnog obilaska (-d, --dirs). To znači da se "
+"prenose svi poddirektoriji najviše razine, ali ne i njihov sadržaj."
 
 #. i18n: ectx: label, entry (CompressData), group (Synchronization)
 #: smb4k.kcfg:283
 #, kde-format
 msgid "Compress data during transfer"
-msgstr ""
+msgstr "Komprimiraj podatke tijekom prijenosa"
 
 #. i18n: ectx: whatsthis, entry (CompressData), group (Synchronization)
 #: smb4k.kcfg:284
@@ -652,12 +714,15 @@ msgid ""
 "the amount of data that is being transferred. You may want to use this "
 "option, if you have a slow connection."
 msgstr ""
+"Komprimiraj podatke tijekom prijenosa (-z, --compress). Time se znatno "
+"smanjuje količina podataka koji se prenose. Ovu mogućnost možete koristiti "
+"ako imate sporu vezu."
 
 #. i18n: ectx: label, entry (UseCompressionLevel), group (Synchronization)
 #: smb4k.kcfg:288
 #, kde-format
 msgid "Set compression level:"
-msgstr ""
+msgstr "Postavi razinu kompresije:"
 
 #. i18n: ectx: whatsthis, entry (UseCompressionLevel), group (Synchronization)
 #: smb4k.kcfg:289
@@ -666,18 +731,20 @@ msgid ""
 "Explicitly set the compression level to use (--compress-level=NUM). If NUM "
 "is non-zero, the --compress argument is implied."
 msgstr ""
+"Izričito postavi razinu kompresije (--compress-level=NUM). Ako NUM nije "
+"nula, podrazumijeva se argument --compress."
 
 #. i18n: ectx: label, entry (CompressionLevel), group (Synchronization)
 #: smb4k.kcfg:293
 #, kde-format
 msgid "The value for the UseCompressionLevel config entry"
-msgstr ""
+msgstr "Vrijednost konfiguracijske stavke UseCompressionLevel"
 
 #. i18n: ectx: label, entry (UseSkipCompression), group (Synchronization)
 #: smb4k.kcfg:300
 #, kde-format
 msgid "Skip compression for following file suffixes:"
-msgstr ""
+msgstr "Preskoči kompresiju za sljedeće datotečne nastavke:"
 
 #. i18n: ectx: whatsthis, entry (UseSkipCompression), group (Synchronization)
 #: smb4k.kcfg:301
@@ -689,30 +756,35 @@ msgid ""
 "no file should be skipped. The default list of suffixes will be replaced by "
 "this list. For further details, see the manual page of rsync."
 msgstr ""
+"Zamijeni popis datotečnih nastavaka koje ne treba komprimirati (--skip-"
+"compress=LIST). LIST treba sadržavati jedan ili više datotečnih nastavaka "
+"(bez točke), odvojenih kosim crtama. Praznim nizom možete naznačiti da se "
+"ne preskače nijedna datoteka. Ovaj će popis zamijeniti zadani popis "
+"nastavaka. Pojedinosti potražite na stranici priručnika za rsync."
 
 #. i18n: ectx: label, entry (SkipCompression), group (Synchronization)
 #: smb4k.kcfg:305
 #, kde-format
 msgid "The value(s) for the UseSkipCompression config entry"
-msgstr ""
+msgstr "Vrijednost(i) konfiguracijskog unosa UseSkipCompression"
 
 #. i18n: ectx: label, entry (PreserveSymlinks), group (Synchronization)
 #: smb4k.kcfg:310
 #, kde-format
 msgid "Preserve symlinks"
-msgstr ""
+msgstr "Sačuvaj simboličke poveznice"
 
 #. i18n: ectx: whatsthis, entry (PreserveSymlinks), group (Synchronization)
 #: smb4k.kcfg:311
 #, kde-format
 msgid "Copy symlinks as symlinks (-l, --links)."
-msgstr ""
+msgstr "Kopiraj simboličke poveznice kao poveznice (-l, --links)."
 
 #. i18n: ectx: label, entry (TransformSymlinks), group (Synchronization)
 #: smb4k.kcfg:315
 #, kde-format
 msgid "Transform symlinks"
-msgstr ""
+msgstr "Pretvori simboličke poveznice"
 
 #. i18n: ectx: whatsthis, entry (TransformSymlinks), group (Synchronization)
 #: smb4k.kcfg:316
@@ -725,7 +797,7 @@ msgstr ""
 #: smb4k.kcfg:320
 #, kde-format
 msgid "Transform unsafe symlinks"
-msgstr ""
+msgstr "Pretvori nesigurne simboličke poveznice"
 
 #. i18n: ectx: whatsthis, entry (TransformUnsafeSymlinks), group (Synchronization)
 #: smb4k.kcfg:321

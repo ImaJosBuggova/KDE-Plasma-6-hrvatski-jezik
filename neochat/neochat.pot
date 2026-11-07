@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-27 00:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #: src/app/controller.cpp:186
 #, kde-format
@@ -24,17 +24,17 @@ msgctxt ""
 "The reason for using push notifications, as in: '[Push notifications are "
 "used for] Receiving notifications for new messages'"
 msgid "Receiving push notifications"
-msgstr ""
+msgstr "Primanje push obavijesti"
 
 #: src/app/controller.cpp:329
 #, kde-format
 msgid "Receiving push notifications"
-msgstr ""
+msgstr "Primanje push obavijesti"
 
 #: src/app/main.cpp:146
 #, kde-format
 msgid "© 2018-2020 Black Hat, 2020-2026 KDE Community"
-msgstr ""
+msgstr "© 2018–2020 Black Hat, 2020–2026 zajednica KDE-a"
 
 #: src/app/main.cpp:147
 #, kde-format
@@ -45,7 +45,7 @@ msgstr ""
 #: src/app/main.cpp:151
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Održavatelj"
 
 #: src/app/main.cpp:148
 #, kde-format
@@ -70,7 +70,7 @@ msgstr ""
 #: src/app/main.cpp:155
 #, kde-format
 msgid "Original author of Spectral"
-msgstr ""
+msgstr "Izvorni autor programa Spectral"
 
 #: src/app/main.cpp:156
 #, kde-format
@@ -80,13 +80,13 @@ msgstr ""
 #: src/app/main.cpp:156
 #, kde-format
 msgid "Maintainer of libQuotient"
-msgstr ""
+msgstr "Održavatelj biblioteke libQuotient"
 
 #: src/app/main.cpp:157
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #: src/app/main.cpp:157
 #, kde-format
@@ -97,328 +97,328 @@ msgstr ""
 #: src/app/main.cpp:160
 #, kde-format
 msgid "A Qt library to write cross-platform clients for Matrix"
-msgstr ""
+msgstr "Qt biblioteka za izradu višeplatformskih klijenata za Matrix"
 
 #: src/app/main.cpp:162
 #, kde-format
 msgctxt "<version number> (built against <possibly different version number>)"
 msgid "%1 (built against %2)"
-msgstr ""
+msgstr "%1 (izgrađen uz %2)"
 
 #: src/app/main.cpp:182
 #, kde-format
 msgid "Client for the matrix communication protocol"
-msgstr ""
+msgstr "Klijent za komunikacijski protokol Matrix"
 
 #: src/app/main.cpp:183
 #, kde-format
 msgid "Supports matrix: url scheme"
-msgstr ""
+msgstr "Podržava shemu URL-a matrix:"
 
 #: src/app/main.cpp:184
 #, kde-format
 msgid "Ignore all SSL Errors, e.g., unsigned certificates."
-msgstr ""
+msgstr "Zanemari sve SSL pogreške, npr. nepotpisane certifikate."
 
 #: src/app/main.cpp:186
 #, kde-format
 msgctxt "command line description"
 msgid "Replace an existing instance"
-msgstr ""
+msgstr "Zamijeni postojeći primjerak"
 
 #: src/app/main.cpp:189
 #, kde-format
 msgid "Only used for autotests"
-msgstr ""
+msgstr "Koristi se samo za automatske testove"
 
 #: src/app/main.cpp:199
 #, kde-format
 msgid "Share a URL to Matrix"
-msgstr ""
+msgstr "Podijeli URL na Matrix"
 
 #: src/app/notificationsmanager.cpp:149 src/app/notificationsmanager.cpp:383
 #, kde-format
 msgid "Encrypted Message"
-msgstr ""
+msgstr "Šifrirana poruka"
 
 #: src/app/notificationsmanager.cpp:228
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: src/app/notificationsmanager.cpp:234
 #, kde-format
 msgid "Open NeoChat in this room"
-msgstr ""
+msgstr "Otvori NeoChat u ovoj sobi"
 
 #: src/app/notificationsmanager.cpp:247 src/timeline/QuickActions.qml:74
 #, kde-format
 msgid "Reply"
-msgstr ""
+msgstr "Odgovori"
 
 #: src/app/notificationsmanager.cpp:248
 #, kde-format
 msgid "Reply…"
-msgstr ""
+msgstr "Odgovori…"
 
 #: src/app/notificationsmanager.cpp:299
 #, kde-format
 msgid "%1 invited you to a room"
-msgstr ""
+msgstr "%1 vas je pozvao u sobu"
 
 #: src/app/notificationsmanager.cpp:303
 #, kde-format
 msgid "Open this invitation in NeoChat"
-msgstr ""
+msgstr "Otvori ovaj poziv u NeoChatu"
 
 #: src/app/notificationsmanager.cpp:313
 #, kde-format
 msgctxt "@action:button The thing being accepted is an invitation to chat"
 msgid "Accept"
-msgstr ""
+msgstr "Prihvati"
 
 #: src/app/notificationsmanager.cpp:314
 #, kde-format
 msgctxt "@action:button The thing being rejected is an invitation to chat"
 msgid "Reject"
-msgstr ""
+msgstr "Odbij"
 
 #: src/app/notificationsmanager.cpp:316
 #, kde-format
 msgctxt "@action:button The thing being rejected is an invitation to chat"
 msgid "Reject and Ignore User"
-msgstr ""
+msgstr "Odbij i zanemari korisnika"
 
 #: src/app/notificationsmanager.cpp:376
 #, kde-format
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: src/app/notificationsmanager.cpp:387
 #, kde-format
 msgid "Open NeoChat"
-msgstr ""
+msgstr "Otvori NeoChat"
 
 #: src/app/qml/AccountMenu.qml:27 src/app/qml/UserMenu.qml:62
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Profile"
-msgstr ""
+msgstr "Otvori profil"
 
 #: src/app/qml/AccountMenu.qml:33
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Scan a QR Code"
-msgstr ""
+msgstr "Skeniraj QR kôd"
 
 #: src/app/qml/AccountMenu.qml:39 src/app/qml/QrScannerPage.qml:16
 #, kde-format
 msgctxt "@title"
 msgid "Scan a QR Code"
-msgstr ""
+msgstr "Skeniraj QR kôd"
 
 #: src/app/qml/AccountMenu.qml:44
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Notification Settings"
-msgstr ""
+msgstr "Postavke obavijesti"
 
 #: src/app/qml/AccountMenu.qml:52
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Developer Tools"
-msgstr ""
+msgstr "Otvori razvojne alate"
 
 #: src/app/qml/AccountMenu.qml:58 src/roominfo/RoomInformation.qml:185
 #, kde-format
 msgctxt "@title:window"
 msgid "Developer Tools"
-msgstr ""
+msgstr "Razvojni alati"
 
 #: src/app/qml/AccountMenu.qml:65
 #, kde-format
 msgctxt "@action:inmenu Open support dialog"
 msgid "Support"
-msgstr ""
+msgstr "Podrška"
 
 #: src/app/qml/AccountMenu.qml:79
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Switch Account"
-msgstr ""
+msgstr "Promijeni račun"
 
 #: src/app/qml/AccountSwitchDialog.qml:30
 #, kde-format
 msgctxt "@title: dialog to switch between logged in accounts"
 msgid "Switch Account"
-msgstr ""
+msgstr "Promijeni račun"
 
 #: src/app/qml/AccountSwitchDialog.qml:55
 #, kde-format
 msgctxt "@button: login to or register a new account."
 msgid "Add Account"
-msgstr ""
+msgstr "Dodaj račun"
 
 #: src/app/qml/AccountSwitchDialog.qml:58
 #, kde-format
 msgctxt "@info"
 msgid "Log in or create a new account"
-msgstr ""
+msgstr "Prijavite se ili stvorite novi račun"
 
 #: src/app/qml/AccountSwitchDialog.qml:66
 #, kde-format
 msgctxt "@title:window"
 msgid "Login"
-msgstr ""
+msgstr "Prijava"
 
 #: src/app/qml/ActionCollectionManager.qml:13
 #, kde-format
 msgctxt "@info"
 msgid "NeoChat"
-msgstr ""
+msgstr "NeoChat"
 
 #: src/app/qml/ActionCollectionManager.qml:17
 #, kde-format
 msgctxt "@label"
 msgid "Open Quick Switcher"
-msgstr ""
+msgstr "Otvori brzi preklopnik"
 
 #: src/app/qml/ActionCollectionManager.qml:24
 #, kde-format
 msgctxt "@label"
 msgid "Open Account Switcher"
-msgstr ""
+msgstr "Otvori preklopnik računa"
 
 #: src/app/qml/ActionCollectionManager.qml:31
 #, kde-format
 msgctxt "@label"
 msgid "Search Messages in Current Room"
-msgstr ""
+msgstr "Pretraži poruke u trenutačnoj sobi"
 
 #: src/app/qml/ActionCollectionManager.qml:38
 #, kde-format
 msgctxt "@label"
 msgid "Go to Previous Room"
-msgstr ""
+msgstr "Idi na prethodnu sobu"
 
 #: src/app/qml/ActionCollectionManager.qml:46
 #, kde-format
 msgctxt "@label"
 msgid "Go to Next Room"
-msgstr ""
+msgstr "Idi na sljedeću sobu"
 
 #: src/app/qml/ActionCollectionManager.qml:54
 #, kde-format
 msgctxt "@label"
 msgid "Go to Previous Unread Room"
-msgstr ""
+msgstr "Idi na prethodnu nepročitanu sobu"
 
 #: src/app/qml/ActionCollectionManager.qml:61
 #, kde-format
 msgctxt "@label"
 msgid "Go to Next Unread Room"
-msgstr ""
+msgstr "Idi na sljedeću nepročitanu sobu"
 
 #: src/app/qml/AskDirectChatConfirmation.qml:18
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Start a chat"
-msgstr ""
+msgstr "Započni razgovor"
 
 #: src/app/qml/AskDirectChatConfirmation.qml:21
 #, kde-format
 msgctxt "@info"
 msgid "Do you want to start a chat with %1?"
-msgstr ""
+msgstr "Želite li započeti razgovor s korisnikom %1?"
 
 #: src/app/qml/AskDirectChatConfirmation.qml:30
 #, kde-format
 msgctxt "@action:button"
 msgid "Start Chat"
-msgstr ""
+msgstr "Započni razgovor"
 
 #: src/app/qml/ChooseRoomDialog.qml:17
 #, kde-format
 msgctxt "@title"
 msgid "Choose a Room"
-msgstr ""
+msgstr "Odaberi sobu"
 
 #: src/app/qml/ChooseRoomDialog.qml:24
 #, kde-format
 msgctxt "@action"
 msgid "Select"
-msgstr ""
+msgstr "Odaberi"
 
 #: src/app/qml/ChooseRoomDialog.qml:84 src/app/qml/ReasonDialog.qml:72
 #, kde-format
 msgctxt "@action"
 msgid "Cancel"
-msgstr ""
+msgstr "Odustani"
 
 #: src/app/qml/CodeMaximizeComponent.qml:39
 #, kde-format
 msgctxt "@action"
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Kopiraj u međuspremnik"
 
 #: src/app/qml/ConfirmLeaveDialog.qml:16
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Confirm Leaving Space"
-msgstr ""
+msgstr "Potvrda napuštanja prostora"
 
 #: src/app/qml/ConfirmLeaveDialog.qml:16
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Confirm Leaving Room"
-msgstr ""
+msgstr "Potvrda napuštanja sobe"
 
 #: src/app/qml/ConfirmLeaveDialog.qml:17
 #, kde-format
 msgctxt "Do you really want to leave <room name>?"
 msgid "Do you really want to leave %1?"
-msgstr ""
+msgstr "Želite li zaista napustiti %1?"
 
 #: src/app/qml/ConfirmLeaveDialog.qml:25
 #, kde-format
 msgctxt "@action:button Leave this room/space"
 msgid "Leave"
-msgstr ""
+msgstr "Napusti"
 
 #: src/app/qml/ConfirmLogoutDialog.qml:15
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Sign out"
-msgstr ""
+msgstr "Odjava"
 
 #: src/app/qml/ConfirmLogoutDialog.qml:16
 #, kde-format
 msgid "Are you sure you want to sign out?"
-msgstr ""
+msgstr "Jeste li sigurni da se želite odjaviti?"
 
 #: src/app/qml/ConfirmLogoutDialog.qml:24
 #, kde-format
 msgctxt "@action:button"
 msgid "Sign out"
-msgstr ""
+msgstr "Odjava"
 
 #: src/app/qml/ConfirmUrlDialog.qml:14
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Open URL"
-msgstr ""
+msgstr "Otvori URL"
 
 #: src/app/qml/ConfirmUrlDialog.qml:15
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you want to open <link>%1</link>?"
-msgstr ""
+msgstr "Želite li otvoriti <link>%1</link>?"
 
 #: src/app/qml/ConsentDialog.qml:21
 #, kde-format
 msgctxt "@title:dialog"
 msgid "User Consent"
-msgstr ""
+msgstr "Pristanak korisnika"
 
 #: src/app/qml/ConsentDialog.qml:24
 #, kde-format
@@ -426,124 +426,124 @@ msgctxt "@info"
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
-msgstr ""
+msgstr "Da biste mogli koristiti svoj matični poslužitelj, morate prihvatiti njegove uvjete. Kliknite gumb u nastavku da biste ih pročitali."
 
 #: src/app/qml/ConsentDialog.qml:31
 #, kde-format
 msgctxt "@action:button"
 msgid "Open"
-msgstr ""
+msgstr "Otvori"
 
 #: src/app/qml/EditStateDialog.qml:28 src/app/qml/MessageSourceSheet.qml:56
 #, kde-format
 msgctxt "@title As in 'edit the state of this room'"
 msgid "Edit State"
-msgstr ""
+msgstr "Uredi stanje"
 
 #: src/app/qml/EditStateDialog.qml:32
 #, kde-format
 msgctxt "@action"
 msgid "Revert changes"
-msgstr ""
+msgstr "Vrati promjene"
 
 #: src/app/qml/EditStateDialog.qml:38
 #, kde-format
 msgctxt "@action As in 'Apply the changes'"
 msgid "Apply"
-msgstr ""
+msgstr "Primijeni"
 
 #: src/app/qml/EmojiSas.qml:26
 #, kde-format
 msgid ""
 "Confirm the emoji below are displayed on both devices, in the same order."
-msgstr ""
+msgstr "Potvrdite da su emojiji u nastavku prikazani na oba uređaja istim redoslijedom."
 
 #: src/app/qml/EmojiSas.qml:44
 #, kde-format
 msgid "They match"
-msgstr ""
+msgstr "Podudaraju se"
 
 #: src/app/qml/EmojiSas.qml:49
 #, kde-format
 msgid "They don't match"
-msgstr ""
+msgstr "Ne podudaraju se"
 
 #: src/app/qml/ExplorerDelegate.qml:70
 #, kde-format
 msgctxt "@info:label A matrix space"
 msgid "Space"
-msgstr ""
+msgstr "Prostor"
 
 #: src/app/qml/ExplorerDelegate.qml:75 src/settings/SelectParentDialog.qml:97
 #: src/spaces/SelectExistingRoomDialog.qml:93
 #: src/spaces/SpaceHierarchyDelegate.qml:94
 #, kde-format
 msgid "Joined"
-msgstr ""
+msgstr "Pridruženo"
 
 #: src/app/qml/FullScreenMap.qml:25
 #, kde-format
 msgid "View Location"
-msgstr ""
+msgstr "Prikaži lokaciju"
 
 #: src/app/qml/FullScreenMap.qml:72
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: src/app/qml/GlobalMenu.qml:21
 #, kde-format
 msgctxt "menu"
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: src/app/qml/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Find User"
-msgstr ""
+msgstr "Pronađi korisnika"
 
 #: src/app/qml/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@title"
 msgid "Find User"
-msgstr ""
+msgstr "Pronađi korisnika"
 
 #: src/app/qml/GlobalMenu.qml:35
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Create a Room…"
-msgstr ""
+msgstr "Stvori sobu…"
 
 #: src/app/qml/GlobalMenu.qml:42
 #, kde-format
 msgctxt "@title"
 msgid "Create a Room"
-msgstr ""
+msgstr "Stvori sobu"
 
 #: src/app/qml/GlobalMenu.qml:48
 #, kde-format
 msgctxt "@action:inmenu Explore public rooms and spaces"
 msgid "Explore"
-msgstr ""
+msgstr "Istraži"
 
 #: src/app/qml/GlobalMenu.qml:60
 #, kde-format
 msgctxt "menu"
 msgid "Configure NeoChat…"
-msgstr ""
+msgstr "Podešavanje aplikacije NeoChat…"
 
 #: src/app/qml/GlobalMenu.qml:66
 #, kde-format
 msgctxt "menu"
 msgid "Quit NeoChat"
-msgstr ""
+msgstr "Zatvori NeoChat"
 
 #: src/app/qml/GlobalMenu.qml:74
 #, kde-format
 msgctxt "menu"
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #: src/app/qml/GlobalMenu.qml:79
 #, kde-format
@@ -551,43 +551,43 @@ msgctxt ""
 "@action:inmenu opens a UI element called the 'Quick Switcher', which offers "
 "a fast keyboard-based interface for switching in between chats."
 msgid "Search Rooms"
-msgstr ""
+msgstr "Pretraži sobe"
 
 #: src/app/qml/GlobalMenu.qml:84
 #, kde-format
 msgctxt "menu"
 msgid "Window"
-msgstr ""
+msgstr "Prozor"
 
 #: src/app/qml/GlobalMenu.qml:88
 #, kde-format
 msgctxt "menu"
 msgid "Exit Full Screen"
-msgstr ""
+msgstr "Izađi iz cijelog zaslona"
 
 #: src/app/qml/GlobalMenu.qml:88
 #, kde-format
 msgctxt "menu"
 msgid "Enter Full Screen"
-msgstr ""
+msgstr "Uđi u cijeli zaslon"
 
 #: src/app/qml/GlobalMenu.qml:93
 #, kde-format
 msgctxt "menu"
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: src/app/qml/GlobalMenu.qml:97
 #, kde-format
 msgctxt "menu"
 msgid "About NeoChat"
-msgstr ""
+msgstr "O aplikaciji NeoChat"
 
 #: src/app/qml/GlobalMenu.qml:102
 #, kde-format
 msgctxt "menu"
 msgid "About KDE"
-msgstr ""
+msgstr "O KDE-u"
 
 #: src/app/qml/InvitationView.qml:53
 #, kde-format
@@ -605,13 +605,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button Accept this invite"
 msgid "Accept Invite"
-msgstr ""
+msgstr "Prihvati poziv"
 
 #: src/app/qml/InvitationView.qml:129
 #, kde-format
 msgctxt "@action:button Reject this invite"
 msgid "Reject Invite"
-msgstr ""
+msgstr "Odbij poziv"
 
 #: src/app/qml/InvitationView.qml:145
 #, kde-format
@@ -639,7 +639,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Join Room"
-msgstr ""
+msgstr "Pridruži se sobi"
 
 #: src/app/qml/JoinRoomDialog.qml:66
 #, kde-format

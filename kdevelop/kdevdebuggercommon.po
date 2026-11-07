@@ -1,0 +1,798 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-04-04 00:43+0000\n"
+"PO-Revision-Date: 2026-11-07 07:43+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: dialogs/processselection.cpp:148
+#, kde-format
+msgctxt "@action:button"
+msgid "Attach"
+msgstr "Prikvači"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ProcessSelection)
+#: dialogs/processselection.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Attach to a Process"
+msgstr "Prikvači se na proces"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, filterEdit)
+#: dialogs/processselection.ui:25
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search"
+msgstr "Pretraži"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonList)
+#: dialogs/processselection.ui:35
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display as List"
+msgstr "Prikaži kao popis"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonTree)
+#: dialogs/processselection.ui:57
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display as Tree"
+msgstr "Prikaži kao stablo"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, processesCombo)
+#: dialogs/processselection.ui:80
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Own Processes"
+msgstr "Vlastiti procesi"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, processesCombo)
+#: dialogs/processselection.ui:88
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "User Processes"
+msgstr "Korisnički procesi"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, processesCombo)
+#: dialogs/processselection.ui:96
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "System Processes"
+msgstr "Sistemski procesi"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, processesCombo)
+#: dialogs/processselection.ui:104
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "All Processes"
+msgstr "Svi procesi"
+
+#: dialogs/selectcoredialog.cpp:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Core File"
+msgstr "Odaberi datoteku jezgre"
+
+#: dialogs/selectcoredialog.cpp:49
+#, kde-format
+msgid "Invalid executable file name"
+msgstr "Neispravan naziv izvršne datoteke"
+
+#: dialogs/selectcoredialog.cpp:55
+#, kde-format
+msgid "Executable file does not exist"
+msgstr "Izvršna datoteka ne postoji"
+
+#: dialogs/selectcoredialog.cpp:59
+#, kde-format
+msgid "Executable is not a file"
+msgstr "Izvršna datoteka nije datoteka"
+
+#: dialogs/selectcoredialog.cpp:63
+#, kde-format
+msgid "Executable file is not readable"
+msgstr "Izvršna datoteka nije čitljiva"
+
+#: dialogs/selectcoredialog.cpp:70
+#, kde-format
+msgid "Empty core file name"
+msgstr "Naziv datoteke jezgre je prazan"
+
+#: dialogs/selectcoredialog.cpp:74
+#, kde-format
+msgid "Invalid core file name"
+msgstr "Neispravan naziv datoteke jezgre"
+
+#: dialogs/selectcoredialog.cpp:80
+#, kde-format
+msgid "Core file does not exist"
+msgstr "Datoteka jezgre ne postoji"
+
+#: dialogs/selectcoredialog.cpp:84
+#, kde-format
+msgid "Core is not a file"
+msgstr "Jezgra nije datoteka"
+
+#: dialogs/selectcoredialog.cpp:88
+#, kde-format
+msgid "Core file is not readable"
+msgstr "Datoteka jezgre nije čitljiva"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/selectcoredialog.ui:19
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Executable:"
+msgstr "Izvršna datoteka:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/selectcoredialog.ui:32
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Core file:"
+msgstr "Datoteka jezgre:"
+
+#: mibreakpointcontroller.cpp:810
+#, kde-format
+msgid ""
+"\n"
+"Old value: %1"
+msgstr ""
+"\n"
+"Stara vrijednost: %1"
+
+#: mibreakpointcontroller.cpp:813
+#, kde-format
+msgid ""
+"\n"
+"New value: %1"
+msgstr ""
+"\n"
+"Nova vrijednost: %1"
+
+#: midebugger.cpp:319
+#, kde-format
+msgctxt "<b>Internal debugger error</b>"
+msgid ""
+"<p>The debugger component encountered an internal error while processing the "
+"reply from the debugger. Please submit a bug report. The debug session will "
+"now end to prevent potential crash"
+msgstr ""
+"<p>Komponenta programa za ispravljanje pogrešaka naišla je na internu "
+"pogrešku tijekom obrade odgovora programa za ispravljanje pogrešaka. "
+"Pošaljite izvješće o grešci. Sesija ispravljanja pogrešaka sada će završiti "
+"kako bi se spriječilo moguće rušenje."
+
+#: midebugger.cpp:322
+#, kde-format
+msgid ""
+"The exception is: %1\n"
+"The MI response is: %2"
+msgstr ""
+"Iznimka: %1\n"
+"Odgovor MI-ja: %2"
+
+#: midebugger.cpp:325
+#, kde-format
+msgctxt "@title:window"
+msgid "Internal Debugger Error"
+msgstr "Interna pogreška programa za ispravljanje pogrešaka"
+
+#: midebugger.cpp:337 midebugsession.cpp:526
+#, kde-format
+msgid "Process exited"
+msgstr "Proces je završio"
+
+#: midebugger.cpp:346
+#, kde-format
+msgid ""
+"<b>Could not start debugger.</b><p>Could not run '%1'. Make sure that the "
+"path name is specified correctly."
+msgstr ""
+"<b>Nije moguće pokrenuti program za ispravljanje pogrešaka.</b><p>Nije "
+"moguće pokrenuti „%1”. Provjerite je li naziv putanje ispravno naveden."
+
+#: midebugger.cpp:354
+#, kde-format
+msgid "Process failed to start"
+msgstr "Pokretanje procesa nije uspjelo"
+
+#: midebugger.cpp:359
+#, kde-format
+msgid ""
+"<b>Debugger crashed.</b><p>The debugger process '%1' crashed.<br>Because of "
+"that the debug session has to be ended.<br>Try to reproduce the crash "
+"without KDevelop and report a bug.<br>"
+msgstr ""
+"<b>Program za ispravljanje pogrešaka srušio se.</b><p>Proces programa za "
+"ispravljanje pogrešaka „%1” srušio se.<br>Zbog toga se sesija ispravljanja "
+"pogrešaka mora završiti.<br>Pokušajte ponoviti rušenje bez KDevelopa i "
+"prijavite grešku.<br>"
+
+#: midebugger.cpp:364
+#, kde-format
+msgctxt "@title:window"
+msgid "Debugger Crashed"
+msgstr "Program za ispravljanje pogrešaka srušio se"
+
+#: midebugger.cpp:367
+#, kde-format
+msgid "Process crashed"
+msgstr "Proces se srušio"
+
+#: midebuggerplugin.cpp:47
+#, kde-format
+msgid ""
+"A program is already being debugged. Do you want to abort the currently "
+"running debug session and continue?"
+msgstr ""
+"Program se već ispravlja. Želite li prekinuti trenutačnu sesiju ispravljanja "
+"pogrešaka i nastaviti?"
+
+#: midebuggerplugin.cpp:121
+#, kde-format
+msgctxt "@action"
+msgid "Examine Core File with %1"
+msgstr "Ispitaj datoteku jezgre pomoću %1"
+
+#: midebuggerplugin.cpp:123
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<b>Examine core file</b><p>This loads a core file, which is typically "
+"created after the application has crashed, e.g. with a segmentation fault. "
+"The core file contains an image of the program memory at the time it "
+"crashed, allowing you to do a post-mortem analysis.</p>"
+msgstr ""
+"<b>Ispitivanje datoteke jezgre</b><p>Učitava datoteku jezgre koja se obično "
+"stvara nakon rušenja aplikacije, primjerice zbog pogreške segmentacije. "
+"Datoteka jezgre sadrži sliku memorije programa u trenutku rušenja i omogućuje "
+"naknadnu analizu.</p>"
+
+#: midebuggerplugin.cpp:135
+#, kde-format
+msgctxt "@action"
+msgid "Attach to Process with %1"
+msgstr "Prikvači se na proces pomoću %1"
+
+#: midebuggerplugin.cpp:137
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<b>Attach to process</b><p>Attaches the debugger to a running process.</p>"
+msgstr ""
+"<b>Prikvači se na proces</b><p>Prikvačuje program za ispravljanje pogrešaka "
+"na pokrenuti proces.</p>"
+
+#: midebuggerplugin.cpp:150
+#, kde-format
+msgid "KDevelop (%1) - %2"
+msgstr "KDevelop (%1) - %2"
+
+#: midebuggerplugin.cpp:233
+#, kde-format
+msgid "Choose a core file to examine..."
+msgstr "Odaberite datoteku jezgre za ispitivanje..."
+
+#: midebuggerplugin.cpp:254
+#, kde-format
+msgid "Choose a process to attach to..."
+msgstr "Odaberite proces na koji se želite prikvačiti..."
+
+#: midebuggerplugin.cpp:268
+#, kde-format
+msgid "Not attaching to process %1: cannot attach the debugger to itself."
+msgstr ""
+"Ne prikvačujem se na proces %1: program za ispravljanje pogrešaka ne može se "
+"prikvačiti sam na sebe."
+
+#: midebuggerplugin.cpp:288
+#, kde-format
+msgid "Debugger"
+msgstr "Program za ispravljanje pogrešaka"
+
+#: midebugjobs.cpp:104
+#, kde-format
+msgctxt "ProjectName: run configuration name"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: midebugjobs.cpp:170
+#, kde-format
+msgid "'%1' is not an executable"
+msgstr "„%1” nije izvršna datoteka"
+
+#: midebugjobs.cpp:196
+#, kde-format
+msgid "Debug core file"
+msgstr "Ispravi pogreške u datoteci jezgre"
+
+#: midebugjobs.cpp:212
+#, kde-format
+msgid "Debug process %1"
+msgstr "Ispravi pogreške u procesu %1"
+
+#: midebuglauncher.cpp:61
+#, kde-format
+msgid ""
+"A program is already being debugged. Do you want to abort the currently "
+"running debug session and continue with the launch?"
+msgstr ""
+"Program se već ispravlja. Želite li prekinuti trenutačnu sesiju ispravljanja "
+"pogrešaka i nastaviti s pokretanjem?"
+
+#: midebugsession.cpp:280
+#, kde-format
+msgid "Running program"
+msgstr "Pokrenuti program"
+
+#: midebugsession.cpp:353
+#, kde-format
+msgid "Attaching to process %1"
+msgstr "Prikvačivanje na proces %1"
+
+#: midebugsession.cpp:383
+#, kde-format
+msgid "<b>Could not attach debugger:</b><br />"
+msgstr "<b>Nije se moguće prikvačiti program za ispravljanje pogrešaka:</b><br />"
+
+#: midebugsession.cpp:396
+#, kde-format
+msgid "<b>Could not start debugger:</b><br />"
+msgstr "<b>Nije moguće pokrenuti program za ispravljanje pogrešaka:</b><br />"
+
+#: midebugsession.cpp:410
+#, kde-format
+msgid "Examining core file %1"
+msgstr "Ispitivanje datoteke jezgre %1"
+
+#: midebugsession.cpp:512
+#, kde-format
+msgid "Debugger stopped"
+msgstr "Program za ispravljanje pogrešaka zaustavljen"
+
+#: midebugsession.cpp:531
+#, kde-format
+msgid "Application is running"
+msgstr "Aplikacija je pokrenuta"
+
+#: midebugsession.cpp:536
+#, kde-format
+msgid "Application is paused"
+msgstr "Aplikacija je pauzirana"
+
+#: midebugsession.cpp:842
+#, kde-format
+msgid ""
+"<b>Gdb command sent when debugger is not running</b><br>The command was:<br> "
+"%1"
+msgstr ""
+"<b>Naredba GDB-a poslana je dok program za ispravljanje pogrešaka nije "
+"pokrenut</b><br>Naredba je bila:<br> %1"
+
+#: midebugsession.cpp:938
+#, kde-format
+msgid "<b>Invalid debugger command</b><br>%1"
+msgstr "<b>Neispravna naredba programa za ispravljanje pogrešaka</b><br>%1"
+
+#: midebugsession.cpp:1019
+#, kde-format
+msgid "<b>Failed to load core file:</b><br />"
+msgstr "<b>Učitavanje datoteke jezgre nije uspjelo:</b><br />"
+
+#: midebugsession.cpp:1108
+#, kde-format
+msgid "Exited with return code: %1"
+msgstr "Završio s povratnim kodom: %1"
+
+#: midebugsession.cpp:1110
+#, kde-format
+msgid "Exited normally"
+msgstr "Završio normalno"
+
+#: midebugsession.cpp:1119
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Exited on signal %1"
+msgstr "Završio nakon signala %1"
+
+#: midebugsession.cpp:1121
+#, kde-format
+msgctxt ""
+"%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Exited on signal %1 (%2)"
+msgstr "Završio nakon signala %1 (%2)"
+
+#: midebugsession.cpp:1157
+#, kde-format
+msgctxt "%1 - the name of a POSIX signal"
+msgid "Program received signal %1"
+msgstr "Program je primio signal %1"
+
+#: midebugsession.cpp:1159
+#, kde-format
+msgctxt ""
+"%1 - the name of a POSIX signal, %2 - a user-friendly name of the same signal"
+msgid "Program received signal %1 (%2)"
+msgstr "Program je primio signal %1 (%2)"
+
+#: midebugsession.cpp:1286
+#, kde-format
+msgid "1 command in queue\n"
+msgid_plural "%1 commands in queue\n"
+msgstr[0] "1 naredba u redu čekanja\n"
+msgstr[1] "%1 naredbe u redu čekanja\n"
+msgstr[2] "%1 naredbi u redu čekanja\n"
+
+#: midebugsession.cpp:1287
+#, kde-format
+msgctxt "Only the 0 and 1 cases need to be translated"
+msgid "1 command being processed by gdb\n"
+msgid_plural "%1 commands being processed by gdb\n"
+msgstr[0] "GDB obrađuje 1 naredbu\n"
+msgstr[1] "GDB obrađuje %1 naredbe\n"
+msgstr[2] "GDB obrađuje %1 naredbi\n"
+
+#: midebugsession.cpp:1288
+#, kde-format
+msgid "Debugger state: %1\n"
+msgstr "Stanje programa za ispravljanje pogrešaka: %1\n"
+
+#: midebugsession.cpp:1291
+#, kde-format
+msgid ""
+"Current command class: '%1'\n"
+"Current command text: '%2'\n"
+"Current command original text: '%3'\n"
+msgstr ""
+"Trenutačna klasa naredbe: „%1”\n"
+"Tekst trenutačne naredbe: „%2”\n"
+"Izvorni tekst trenutačne naredbe: „%3”\n"
+
+#: midebugsession.cpp:1316
+#, kde-format
+msgid "<b>Debugger error:</b><br />"
+msgstr "<b>Pogreška programa za ispravljanje pogrešaka:</b><br />"
+
+#: miframestackmodel.cpp:71
+#, kde-format
+msgid "(running)"
+msgstr "(pokrenuto)"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Binary"
+msgstr "Binarno"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Octal"
+msgstr "Oktalno"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Decimal"
+msgstr "Decimalno"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Hexadecimal"
+msgstr "Heksadekadski"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Raw"
+msgstr "Sirovo"
+
+#: registers/converters.cpp:17
+#, kde-format
+msgid "Unsigned"
+msgstr "Bez predznaka"
+
+#: registers/registercontroller_arm.cpp:89
+#: registers/registercontroller_x86.cpp:89
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: registers/registercontroller_arm.cpp:89
+#: registers/registercontroller_x86.cpp:89
+#, kde-format
+msgid "Flags"
+msgstr "Zastavice"
+
+#: registers/registercontroller_arm.cpp:89
+#, kde-format
+msgid "VFP single-word"
+msgstr "VFP jedna riječ"
+
+#: registers/registercontroller_arm.cpp:89
+#, kde-format
+msgid "VFP double-word"
+msgstr "VFP dvije riječi"
+
+#: registers/registercontroller_arm.cpp:89
+#, kde-format
+msgid "VFP quad-word"
+msgstr "VFP četiri riječi"
+
+#: registers/registercontroller_x86.cpp:89
+#, kde-format
+msgid "FPU"
+msgstr "FPU"
+
+#: registers/registercontroller_x86.cpp:89
+#, kde-format
+msgid "XMM"
+msgstr "XMM"
+
+#: registers/registercontroller_x86.cpp:89
+#, kde-format
+msgid "Segment"
+msgstr "Segment"
+
+#: registers/registersview.cpp:59
+#, kde-format
+msgctxt "@title:menu"
+msgid "Format"
+msgstr "Oblik"
+
+#: registers/registersview.cpp:68
+#, kde-format
+msgctxt "@title:menu"
+msgid "Mode"
+msgstr "Način rada"
+
+#: registers/registersview.cpp:214
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update"
+msgstr "Ažuriraj"
+
+#: stty.cpp:269
+#, kde-format
+msgid ""
+"Cannot use the tty* or pty* devices.\n"
+"Check the settings on /dev/tty* and /dev/pty*\n"
+"As root you may need to \"chmod ug+rw\" tty* and pty* devices and/or add the "
+"user to the tty group using \"usermod -aG tty username\"."
+msgstr ""
+"Nije moguće koristiti uređaje tty* ili pty*.\n"
+"Provjerite postavke za /dev/tty* i /dev/pty*.\n"
+"Kao administrator možda ćete trebati pokrenuti „chmod ug+rw” za uređaje tty* "
+"i pty* i/ili dodati korisnika u grupu tty naredbom "
+"„usermod -aG tty korisničko_ime”."
+
+#: stty.cpp:322
+#, kde-format
+msgid "%1 is incorrect terminal name"
+msgstr "%1 nije ispravan naziv terminala"
+
+#: stty.cpp:328
+#, kde-format
+msgid "Can't create a temporary file"
+msgstr "Nije moguće stvoriti privremenu datoteku"
+
+#: stty.cpp:366
+#, kde-format
+msgid ""
+"Can't receive %1 tty/pty. Check that %1 is actually a terminal and that it "
+"accepts these arguments: %2"
+msgstr ""
+"Nije moguće primiti %1 tty/pty. Provjerite je li %1 doista terminal i "
+"prihvaća li ove argumente: %2"
+
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: widgets/debuggerconsoleview.cpp:48 widgets/debuggerconsoleview.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Debugger Console"
+msgstr "Konzola programa za ispravljanje pogrešaka"
+
+#: widgets/debuggerconsoleview.cpp:50
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<b>Debugger Console</b><p>Shows all debugger commands being executed. You "
+"can also issue any other debugger command while debugging.</p>"
+msgstr ""
+"<b>Konzola programa za ispravljanje pogrešaka</b><p>Prikazuje sve naredbe "
+"koje se izvršavaju u programu za ispravljanje pogrešaka. Tijekom ispravljanja "
+"možete zadati i bilo koju drugu naredbu.</p>"
+
+#: widgets/debuggerconsoleview.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Repeat last command when hit Return"
+msgstr "Ponovi posljednju naredbu pritiskom na Enter"
+
+#. i18n: ectx: property (toolTip), widget (QToolBar, toolBar)
+#: widgets/debuggerconsoleview.cpp:68 widgets/debuggerconsoleview.ui:56
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause execution of the app to enter debugger commands"
+msgstr "Pauziraj izvršavanje aplikacije za unos naredbi za ispravljanje pogrešaka"
+
+#: widgets/debuggerconsoleview.cpp:73
+#, kde-format
+msgctxt "@action"
+msgid "Show Internal Commands"
+msgstr "Prikaži interne naredbe"
+
+#: widgets/debuggerconsoleview.cpp:77
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Controls if commands issued internally by KDevelop will be shown or not."
+"<br>This option will affect only future commands, it will not add or remove "
+"already issued commands from the view."
+msgstr ""
+"Određuje hoće li se prikazivati naredbe koje KDevelop interno izdaje."
+"<br>Ova opcija utječe samo na buduće naredbe; neće dodati ni ukloniti već "
+"izdane naredbe iz prikaza."
+
+#: widgets/debuggerconsoleview.cpp:139
+#, kde-format
+msgctxt "@label:listbox"
+msgid "&Command:"
+msgstr "&Naredba:"
+
+#: widgets/debuggerconsoleview.cpp:161
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Command Bar"
+msgstr "Traka naredbi za %1"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: widgets/debuggerconsoleview.ui:53
+#, kde-format
+msgctxt "@action"
+msgid "Interrupt"
+msgstr "Prekini"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: widgets/debuggerconsoleview.ui:70
+#, kde-format
+msgctxt "@action"
+msgid "Repeat"
+msgstr "Ponovi"
+
+#. i18n: ectx: property (toolTip), widget (QToolBar, toolBar)
+#: widgets/debuggerconsoleview.ui:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Repeat last sent command when hit <Return>"
+msgstr "Ponovi posljednju poslanu naredbu pritiskom na <Return>"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelectAddressDialog)
+#: widgets/disassemblewidget.cpp:91 widgets/selectaddressdialog.ui:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Address Selector"
+msgstr "Odabir adrese"
+
+#: widgets/disassemblewidget.cpp:132
+#, kde-format
+msgctxt "@action"
+msgid "Change &Address"
+msgstr "Promijeni &adresu"
+
+#: widgets/disassemblewidget.cpp:136
+#, kde-format
+msgctxt "@action"
+msgid "&Jump to Cursor"
+msgstr "&Skoči na pokazivač"
+
+#: widgets/disassemblewidget.cpp:137
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the execution pointer to the current cursor position."
+msgstr "Postavlja pokazivač izvršavanja na trenutačni položaj pokazivača."
+
+#: widgets/disassemblewidget.cpp:140
+#, kde-format
+msgctxt "@action"
+msgid "&Run to Cursor"
+msgstr "&Pokreni do pokazivača"
+
+#: widgets/disassemblewidget.cpp:141
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Continues execution until the cursor position is reached."
+msgstr "Nastavlja izvršavanje dok se ne dosegne položaj pokazivača."
+
+#: widgets/disassemblewidget.cpp:144
+#, kde-format
+msgctxt "@option:check"
+msgid "&AT&&T"
+msgstr "&AT&&T"
+
+#: widgets/disassemblewidget.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "GDB will use the AT&T disassembly flavor (e.g. mov 0xc(%ebp),%eax)."
+msgstr "GDB će koristiti AT&T oblik prikaza rastavljenog koda (npr. mov 0xc(%ebp),%eax)."
+
+#: widgets/disassemblewidget.cpp:149
+#, kde-format
+msgctxt "@option:check"
+msgid "&Intel"
+msgstr "&Intel"
+
+#: widgets/disassemblewidget.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"GDB will use the Intel disassembly flavor (e.g. mov eax, DWORD PTR [ebp"
+"+0xc])."
+msgstr "GDB će koristiti Intelov oblik prikaza rastavljenog koda (npr. mov eax, DWORD PTR [ebp+0xc])."
+
+#: widgets/disassemblewidget.cpp:189
+#, kde-format
+msgctxt "@title:menu"
+msgid "Disassembly Flavor"
+msgstr "Oblik prikaza rastavljenog koda"
+
+#: widgets/disassemblewidget.cpp:220
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<b>Machine code display</b><p>A machine code view into your running "
+"executable with the current instruction highlighted. You can step "
+"instruction by instruction using the debuggers toolbar buttons of \"step over"
+"\" instruction and \"step into\" instruction."
+msgstr ""
+"<b>Prikaz strojnog koda</b><p>Prikaz strojnog koda pokrenute izvršne datoteke "
+"s istaknutom trenutačnom naredbom. Možete prolaziti naredbu po naredbu "
+"pomoću gumba na alatnoj traci za „korak preko” i „korak u”."
+
+#: widgets/disassemblewidget.cpp:236
+#, kde-format
+msgctxt "@title:column"
+msgid "Address"
+msgstr "Adresa"
+
+#: widgets/disassemblewidget.cpp:237
+#, kde-format
+msgctxt "@title:column"
+msgid "Function"
+msgstr "Funkcija"
+
+#: widgets/disassemblewidget.cpp:238
+#, kde-format
+msgctxt "@title:column"
+msgid "Instruction"
+msgstr "Naredba"
+
+#: widgets/disassemblewidget.cpp:258
+#, kde-format
+msgctxt "@title:window"
+msgid "Disassemble/Registers View"
+msgstr "Prikaz rastavljenog koda/registara"
+
+#. i18n: ectx: property (toolTip), widget (QDialog, SelectAddressDialog)
+#: widgets/selectaddressdialog.ui:17
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select the address to disassemble around"
+msgstr "Odaberite adresu oko koje želite rastaviti kod"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/selectaddressdialog.ui:23
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Address to disassemble around:"
+msgstr "Adresa oko koje treba rastaviti kod:"

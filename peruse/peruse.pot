@@ -3,72 +3,72 @@
 # This file is distributed under the same license as the peruse package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: peruse\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: app/main.cpp:48
 #, kde-format
 msgid "Peruse Reader"
-msgstr ""
+msgstr "Čitač Peruse"
 
 #: app/main.cpp:50
 #, kde-format
 msgid "Comic Book Reader by KDE"
-msgstr ""
+msgstr "KDE-ov čitač stripova"
 
 #: app/main.cpp:52 creator/main.cpp:48
 #, kde-format
 msgid "© 2016-2021 KDE"
-msgstr ""
+msgstr "© 2016–2021 KDE"
 
 #: app/main.cpp:53 creator/main.cpp:49
 #, kde-format
 msgid "Dan Leinir Turthra Jensen"
-msgstr ""
+msgstr "Dan Leinir Turthra Jensen"
 
 #: app/main.cpp:63
 #, kde-format
 msgid "Clear the metainfo cache and perform a full rescan."
-msgstr ""
+msgstr "Očisti predmemoriju metapodataka i izvrši potpuno ponovno pretraživanje."
 
 #: app/main.cpp:64 creator/main.cpp:59
 #, kde-format
 msgid "Open file in peruse."
-msgstr ""
+msgstr "Otvori datoteku u programu Peruse."
 
 #: app/qml/Book.qml:182
 #, kde-format
 msgctxt "Enter full screen mode on a touch-based device"
 msgid "Go Full Screen"
-msgstr ""
+msgstr "Prijeđi na cijeli zaslon"
 
 #: app/qml/Book.qml:182
 #, kde-format
 msgctxt "Exit full screen mode on a touch based device"
 msgid "Exit Full Screen"
-msgstr ""
+msgstr "Izađi iz cijelog zaslona"
 
 #: app/qml/Book.qml:188
 #, kde-format
@@ -76,14 +76,14 @@ msgctxt ""
 "Action used on touch devices to close the currently open book and return to "
 "whatever page was most recently shown"
 msgid "Close Book"
-msgstr ""
+msgstr "Zatvori knjigu"
 
 #: app/qml/Book.qml:197
 #, kde-format
 msgctxt ""
 "Top level entry leading to a submenu with options for the book display"
 msgid "View Options"
-msgstr ""
+msgstr "Mogućnosti prikaza"
 
 #: app/qml/Book.qml:200
 #, kde-format
@@ -91,57 +91,57 @@ msgctxt ""
 "Header title for the section in which the direction the book will be "
 "navigated can be picked"
 msgid "Reading Direction"
-msgstr ""
+msgstr "Smjer čitanja"
 
 #: app/qml/Book.qml:203
 #, kde-format
 msgctxt ""
 "Title for the option which will make the book navigate from left to right"
 msgid "Left to Right"
-msgstr ""
+msgstr "Slijeva nadesno"
 
 #: app/qml/Book.qml:210
 #, kde-format
 msgctxt ""
 "Title for the option which will make the book navigate from right to left"
 msgid "Right to Left"
-msgstr ""
+msgstr "Zdesna nalijevo"
 
 #: app/qml/Book.qml:240
 #, kde-format
 msgctxt "Go to the previous frame on the current page"
 msgid "Previous Frame"
-msgstr ""
+msgstr "Prethodni kadar"
 
 #: app/qml/Book.qml:247
 #, kde-format
 msgctxt "Go to the next frame on the current page"
 msgid "Next Frame"
-msgstr ""
+msgstr "Sljedeći kadar"
 
 #: app/qml/Book.qml:254
 #, kde-format
 msgctxt "Go to the previous page in the book"
 msgid "Previous Page"
-msgstr ""
+msgstr "Prethodna stranica"
 
 #: app/qml/Book.qml:261
 #, kde-format
 msgctxt "Go to the next page in the book"
 msgid "Next Page"
-msgstr ""
+msgstr "Sljedeća stranica"
 
 #: app/qml/Book.qml:268
 #, kde-format
 msgctxt "Enter full screen mode on a non-touch-based device"
 msgid "Go Full Screen"
-msgstr ""
+msgstr "Prijeđi na cijeli zaslon"
 
 #: app/qml/Book.qml:268
 #, kde-format
 msgctxt "Exit full screen mode on a non-touch based device"
 msgid "Exit Full Screen"
-msgstr ""
+msgstr "Izađi iz prikaza preko cijelog zaslona"
 
 #: app/qml/Book.qml:275
 #, kde-format
@@ -149,7 +149,7 @@ msgctxt ""
 "Action used on non-touch devices to close the currently open book and return "
 "to whatever page was most recently shown"
 msgid "Close Book"
-msgstr ""
+msgstr "Zatvori knjigu"
 
 #: app/qml/Book.qml:382
 #, kde-format
@@ -158,7 +158,7 @@ msgctxt ""
 "reader at all (usually when Okular's qml components are not installed for "
 "some reason)"
 msgid "Failed to load the reader component"
-msgstr ""
+msgstr "Učitavanje komponente čitača nije uspjelo"
 
 #: app/qml/Book.qml:383
 #, kde-format
@@ -169,66 +169,66 @@ msgctxt ""
 msgid ""
 "This is generally caused by broken packaging. Contact whomever you got this "
 "package from and inform them of this error."
-msgstr ""
+msgstr "To je obično posljedica neispravnog pakiranja. Obratite se dobavljaču ovog paketa i obavijestite ga o pogrešci."
 
 #: app/qml/BookInfoPage.qml:43
 #, kde-format
 msgctxt "@label"
 msgid "Author(s):"
-msgstr ""
+msgstr "Autor(i):"
 
 #: app/qml/BookInfoPage.qml:44 app/qml/BookInfoPage.qml:51
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: app/qml/BookInfoPage.qml:50
 #, kde-format
 msgctxt "@label"
 msgid "Publisher:"
-msgstr ""
+msgstr "Izdavač:"
 
 #: app/qml/BookInfoPage.qml:57
 #, kde-format
 msgctxt "@label"
 msgid "Location:"
-msgstr ""
+msgstr "Lokacija:"
 
 #: app/qml/BookInfoPage.qml:63
 #, kde-format
 msgctxt "@title:group"
 msgid "File Metadata"
-msgstr ""
+msgstr "Metapodaci datoteke"
 
 #: app/qml/BookInfoPage.qml:70
 #, kde-format
 msgctxt "@label"
 msgid "Rating:"
-msgstr ""
+msgstr "Ocjena:"
 
 #: app/qml/BookInfoPage.qml:92
 #, kde-format
 msgid "Set rating to %1"
-msgstr ""
+msgstr "Postavi ocjenu na %1"
 
 #: app/qml/BookInfoPage.qml:123
 #, kde-format
 msgctxt "@label"
 msgid "Tags:"
-msgstr ""
+msgstr "Oznake:"
 
 #: app/qml/BookInfoPage.qml:125 app/qml/listcomponents/BookTile.qml:291
 #, kde-format
 msgctxt "Placeholder tag field"
 msgid "(No tags)"
-msgstr ""
+msgstr "(Nema oznaka)"
 
 #: app/qml/BooksByTitlePage.qml:22
 #, kde-format
 msgctxt "Title of the page with books grouped by the title start letters"
 msgid "Group by Title"
-msgstr ""
+msgstr "Grupiraj po naslovu"
 
 #: app/qml/BooksByTitlePage.qml:76 app/qml/Bookshelf.qml:131
 #: app/qml/CategoryPage.qml:82
@@ -237,37 +237,37 @@ msgctxt ""
 "Placeholder Text when there are no comics in the library that match the "
 "filter"
 msgid "No matches"
-msgstr ""
+msgstr "Nema podudaranja"
 
 #: app/qml/BooksByTitlePage.qml:76
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No authors available"
-msgstr ""
+msgstr "Nema dostupnih autora"
 
 #: app/qml/Bookshelf.qml:88
 #, kde-format
 msgctxt "search in the list of books (not inside the books)"
 msgid "Search Books"
-msgstr ""
+msgstr "Pretraži knjige"
 
 #: app/qml/Bookshelf.qml:95
 #, kde-format
 msgctxt "placeholder text for the search field"
 msgid "Tap and type to search"
-msgstr ""
+msgstr "Dodirnite i upišite za pretraživanje"
 
 #: app/qml/Bookshelf.qml:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
-msgstr ""
+msgstr "Otvori"
 
 #: app/qml/Bookshelf.qml:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Details"
-msgstr ""
+msgstr "Pojedinosti"
 
 #: app/qml/CategoryPage.qml:65
 #, kde-format
@@ -283,109 +283,109 @@ msgctxt ""
 "A fake folder item which if activated will cause the folder list to navigate "
 "up through the folder structure by one step"
 msgid "(go up one level)"
-msgstr ""
+msgstr "(idi jednu razinu gore)"
 
 #: app/qml/listcomponents/BookTile.qml:150
 #, kde-format
 msgctxt "Label for authors"
 msgid "Author(s)"
-msgstr ""
+msgstr "Autor(i)"
 
 #: app/qml/listcomponents/BookTile.qml:173
 #, kde-format
 msgctxt "Label for publisher"
 msgid "Publisher"
-msgstr ""
+msgstr "Izdavač"
 
 #: app/qml/listcomponents/BookTile.qml:213
 #, kde-format
 msgctxt "label for rating widget"
 msgid "Rating"
-msgstr ""
+msgstr "Ocjena"
 
 #: app/qml/listcomponents/BookTile.qml:275
 #, kde-format
 msgctxt "label for tags field"
 msgid "Tags"
-msgstr ""
+msgstr "Oznake"
 
 #: app/qml/listcomponents/BookTile.qml:312
 #, kde-format
 msgctxt "label for comment field"
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: app/qml/listcomponents/BookTile.qml:328
 #, kde-format
 msgctxt "Placeholder comment field"
 msgid "(No comment)"
-msgstr ""
+msgstr "(Nema komentara)"
 
 #: app/qml/listcomponents/BookTile.qml:348
 #, kde-format
 msgctxt ""
 "Placeholder text for the book description field when no description is set"
 msgid "(no description available for this book)"
-msgstr ""
+msgstr "(opis ove knjige nije dostupan)"
 
 #: app/qml/listcomponents/BookTile.qml:373
 #, kde-format
 msgctxt "Spawn inline dialog box to confirm permanent removal of this book"
 msgid "Delete from Device"
-msgstr ""
+msgstr "Izbriši s uređaja"
 
 #: app/qml/listcomponents/BookTile.qml:401
 #, kde-format
 msgctxt "Dialog text for delete book dialog"
 msgid "Are you sure you want to delete this from your device?"
-msgstr ""
+msgstr "Želite li zaista izbrisati ovu stavku s uređaja?"
 
 #: app/qml/listcomponents/BookTile.qml:411
 #, kde-format
 msgctxt "Confirmation button for book delete dialog"
 msgid "Yes, Really Delete"
-msgstr ""
+msgstr "Da, zaista izbriši"
 
 #: app/qml/listcomponents/BookTile.qml:422
 #, kde-format
 msgctxt "Cancellation button or book delete dialog"
 msgid "No, Cancel Delete"
-msgstr ""
+msgstr "Ne, odustani od brisanja"
 
 #: app/qml/listcomponents/BookTileTall.qml:93
 #, kde-format
 msgctxt "A percentage of progress"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: app/qml/listcomponents/BookTileTall.qml:93
 #, kde-format
 msgctxt "should be keep short, inside a label. Will be in uppercase"
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: app/qml/listcomponents/BookTileTall.qml:126
 #, kde-format
 msgctxt "The last item in a list of author names when there is more than one"
 msgid ", and %1"
-msgstr ""
+msgstr ", i %1"
 
 #: app/qml/listcomponents/BookTileTall.qml:129
 #, kde-format
 msgctxt "An item in a list of authors (but not the last)"
 msgid ", %1"
-msgstr ""
+msgstr ", %1"
 
 #: app/qml/listcomponents/BookTileTall.qml:138
 #, kde-format
 msgctxt "Author name used when there are no known authors for a book"
 msgid "Unknown author"
-msgstr ""
+msgstr "Nepoznati autor"
 
 #: app/qml/listcomponents/CategoryTile.qml:40
 #, kde-format
 msgid "Comics in folder: %1"
-msgstr ""
+msgstr "Stripovi u mapi: %1"
 
 #: app/qml/Main.qml:39
 #, kde-format
@@ -393,7 +393,7 @@ msgctxt ""
 "@title:window standard file open dialog used to open a book not in the "
 "collection"
 msgid "Please Choose a Comic to Open"
-msgstr ""
+msgstr "Odaberite strip za otvaranje"
 
 #: app/qml/MobileMain.qml:42
 #, kde-format
@@ -401,45 +401,45 @@ msgctxt ""
 "Title of a page which lets you open comics not in your collection by using a "
 "standard touch-friendly dig-down style filesystem browser"
 msgid "Open Comics not in Your Collection"
-msgstr ""
+msgstr "Otvori stripove koji nisu u vašoj zbirci"
 
 #: app/qml/PeruseContextDrawer.qml:38
 #, kde-format
 msgid "Actions"
-msgstr ""
+msgstr "Radnje"
 
 #: app/qml/PeruseContextDrawer.qml:177
 #, kde-format
 msgid "Back"
-msgstr ""
+msgstr "Natrag"
 
 #: app/qml/PeruseMain.qml:56
 #, kde-format
 msgctxt "@title:window the generic descriptive title of the application"
 msgid "Comic Book Reader"
-msgstr ""
+msgstr "Čitač stripova"
 
 #: app/qml/PeruseMain.qml:153
 #, kde-format
 msgid "Peruse"
-msgstr ""
+msgstr "Peruse"
 
 #: app/qml/PeruseMain.qml:165 creator/qml/Main.qml:130
 #, kde-format
 msgid "Show intro page"
-msgstr ""
+msgstr "Prikaži uvodnu stranicu"
 
 #: app/qml/PeruseMain.qml:203
 #, kde-format
 msgctxt "Switch to the listing page showing the most recently read books"
 msgid "Home"
-msgstr ""
+msgstr "Početna"
 
 #: app/qml/PeruseMain.qml:214
 #, kde-format
 msgctxt "Switch to the listing page showing the most recently discovered books"
 msgid "Recently Added Books"
-msgstr ""
+msgstr "Nedavno dodane knjige"
 
 #: app/qml/PeruseMain.qml:220 creator/qml/Main.qml:176
 #, kde-format
@@ -447,7 +447,7 @@ msgctxt ""
 "Open a book from somewhere on disk (uses the open dialog, or a drilldown on "
 "touch devices)"
 msgid "Open Other..."
-msgstr ""
+msgstr "Otvori drugo..."
 
 #: app/qml/PeruseMain.qml:227
 #, kde-format
@@ -455,31 +455,31 @@ msgctxt ""
 "Heading for switching to listing page showing items grouped by some "
 "properties"
 msgid "Group By"
-msgstr ""
+msgstr "Grupiraj po"
 
 #: app/qml/PeruseMain.qml:230
 #, kde-format
 msgctxt "Switch to the listing page showing items grouped by title"
 msgid "Title"
-msgstr ""
+msgstr "Naslov"
 
 #: app/qml/PeruseMain.qml:236
 #, kde-format
 msgctxt "Switch to the listing page showing items grouped by author"
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: app/qml/PeruseMain.qml:242
 #, kde-format
 msgctxt "Switch to the listing page showing items grouped by series"
 msgid "Series"
-msgstr ""
+msgstr "Serija"
 
 #: app/qml/PeruseMain.qml:248
 #, kde-format
 msgctxt "Switch to the listing page showing items grouped by publisher"
 msgid "Publisher"
-msgstr ""
+msgstr "Izdavač"
 
 #: app/qml/PeruseMain.qml:254
 #, kde-format
@@ -487,127 +487,127 @@ msgctxt ""
 "Switch to the listing page showing items grouped by keywords, characters or "
 "genres"
 msgid "Keywords"
-msgstr ""
+msgstr "Ključne riječi"
 
 #: app/qml/PeruseMain.qml:260
 #, kde-format
 msgctxt ""
 "Switch to the listing page showing items grouped by their filesystem folder"
 msgid "Folder"
-msgstr ""
+msgstr "Mapa"
 
 #: app/qml/PeruseMain.qml:276
 #, kde-format
 msgctxt "shown with a throbber when searching for books on the device"
 msgid "Please wait while we find your books..."
-msgstr ""
+msgstr "Pričekajte dok pronađemo vaše knjige..."
 
 #: app/qml/PeruseMain.qml:286 creator/qml/Main.qml:246
 #, kde-format
 msgctxt "Open the settings page"
 msgid "Settings"
-msgstr ""
+msgstr "Postavke"
 
 #: app/qml/PeruseMain.qml:293 creator/qml/Main.qml:253
 #, kde-format
 msgctxt "Open the about page"
 msgid "About"
-msgstr ""
+msgstr "O programu"
 
 #: app/qml/PeruseMain.qml:334
 #, kde-format
 msgctxt ""
 "Title of the page with all books ordered by which was added most recently"
 msgid "Recently Added Books"
-msgstr ""
+msgstr "Nedavno dodane knjige"
 
 #: app/qml/PeruseMain.qml:348
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No series found"
-msgstr ""
+msgstr "Nije pronađena nijedna serija"
 
 #: app/qml/PeruseMain.qml:350
 #, kde-format
 msgctxt "@title"
 msgid "Series"
-msgstr ""
+msgstr "Serija"
 
 #: app/qml/PeruseMain.qml:360
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No authors found"
-msgstr ""
+msgstr "Nije pronađen nijedan autor"
 
 #: app/qml/PeruseMain.qml:362
 #, kde-format
 msgctxt "@title"
 msgid "Authors"
-msgstr ""
+msgstr "Autori"
 
 #: app/qml/PeruseMain.qml:372
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No publishers found"
-msgstr ""
+msgstr "Nije pronađen nijedan izdavač"
 
 #: app/qml/PeruseMain.qml:374
 #, kde-format
 msgctxt "@title"
 msgid "Publishers"
-msgstr ""
+msgstr "Izdavači"
 
 #: app/qml/PeruseMain.qml:382
 #, kde-format
 msgctxt "Title of the page with books grouped by keywords, character or genres"
 msgid "Group by Keywords, Characters and Genres"
-msgstr ""
+msgstr "Grupiraj po ključnim riječima, likovima i žanrovima"
 
 #: app/qml/PeruseMain.qml:392
 #, kde-format
 msgctxt "Title of the page with books grouped by what folder they are in"
 msgid "Filter by Folder"
-msgstr ""
+msgstr "Filtriraj po mapi"
 
 #: app/qml/Settings.qml:45
 #, kde-format
 msgctxt "title of the settings page"
 msgid "Configure the indexed folders"
-msgstr ""
+msgstr "Podesi indeksirane mape"
 
 #: app/qml/Settings.qml:50
 #, kde-format
 msgid "Add folder"
-msgstr ""
+msgstr "Dodaj mapu"
 
 #: app/qml/Settings.qml:83
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: app/qml/Settings.qml:96
 #, kde-format
 msgid "There are no folder currently indexed."
-msgstr ""
+msgstr "Trenutačno nije indeksirana nijedna mapa."
 
 #: app/qml/Settings.qml:106
 #, kde-format
 msgctxt "@title:window Dialogue used to add a new search folder"
 msgid "Select a folder"
-msgstr ""
+msgstr "Odaberi mapu"
 
 #: app/qml/Settings.qml:123
 #, kde-format
 msgctxt "@title:window dialogue used to add a new search folder"
 msgid "Select a Folder"
-msgstr ""
+msgstr "Odaberi mapu"
 
 #: app/qml/Store.qml:37
 #, kde-format
 msgctxt "title of the book store page"
 msgid "Book Store"
-msgstr ""
+msgstr "Knjižara"
 
 #: app/qml/Store.qml:97
 #, kde-format
@@ -618,20 +618,21 @@ msgctxt ""
 msgid ""
 "Sorry, no books.\n"
 "This is unusual, and likely means your internet is down, or the store is."
-msgstr ""
+msgstr "Nažalost, nema knjiga.\n"
+"To je neuobičajeno i vjerojatno znači da internetska veza ne radi ili da je trgovina nedostupna."
 
 #: app/qml/viewers/cbr.qml:91 creator/qml/BookPage.qml:80
 #, kde-format
 msgctxt ""
 "A submenu which allows the user to chose between translations of the book"
 msgid "Translations"
-msgstr ""
+msgstr "Prijevodi"
 
 #: app/qml/viewers/cbr.qml:94 creator/qml/BookPage.qml:83
 #, kde-format
 msgctxt "The option used to show no translation should be used"
 msgid "No Translation"
-msgstr ""
+msgstr "Bez prijevoda"
 
 #: app/qml/viewers/ImageBrowser.qml:89
 #, kde-format
@@ -641,7 +642,7 @@ msgid ""
 "Advanced Comic Book Format specification, but we would still like to know "
 "about it. Please report a bug, and make the book available to us, so we can "
 "try and work out how to handle this!"
-msgstr ""
+msgstr "Aktivirana poveznica vodi do sadržaja s kojim ne znamo što učiniti. To upućuje na to da knjiga koju čitate nije u skladu sa specifikacijom Advanced Comic Book Format, no ipak bismo željeli doznati više. Prijavite grešku i omogućite nam pristup knjizi kako bismo pokušali utvrditi kako je obraditi!"
 
 #: app/qml/viewers/ImageBrowser.qml:93
 #, kde-format
@@ -649,7 +650,7 @@ msgid ""
 "The link you activated doesn't seem to go anywhere. We tried to find "
 "something with the ID %1 but didn't locate anything. This is likely an error "
 "in the book, and the author would probably like to know about it."
-msgstr ""
+msgstr "Čini se da aktivirana poveznica ne vodi nikamo. Pokušali smo pronaći sadržaj s ID-jem %1, ali nismo pronašli ništa. Vjerojatno je riječ o pogrešci u knjizi, o kojoj bi autor vjerojatno želio znati."
 
 #: app/qml/viewers/ImageBrowser.qml:501
 #, kde-format
@@ -669,20 +670,20 @@ msgid ""
 "\n"
 "If not, please report this bug to us, and give as much information as you "
 "can to assist us in working out what's wrong."
-msgstr ""
+msgstr "Ako to nije slučaj, prijavite nam ovu grešku i navedite što više pojedinosti kako biste nam pomogli otkriti uzrok problema."
 
 #: app/qml/viewers/ViewerBase.qml:100
 #, kde-format
 msgctxt ""
 "Title for a dialog offering the user to open a link to some external resource"
 msgid "Open External Link?"
-msgstr ""
+msgstr "Otvoriti vanjsku poveznicu?"
 
 #: app/qml/viewers/ViewerBase.qml:106
 #, kde-format
 msgctxt "label for a button which activates an external link"
 msgid "Open Link"
-msgstr ""
+msgstr "Otvori poveznicu"
 
 #: app/qml/viewers/ViewerBase.qml:118
 #, kde-format
@@ -690,7 +691,7 @@ msgid ""
 "The link you just clicked points to somewhere outside of the book. Please "
 "check the details of the link below, to make sure that you really do want to "
 "open it, or just close this sheet."
-msgstr ""
+msgstr "Poveznica koju ste upravo otvorili vodi izvan knjige. Provjerite pojedinosti u nastavku da biste bili sigurni da je zaista želite otvoriti ili jednostavno zatvorite ovaj dijalog."
 
 #: app/qml/viewers/ViewerBase.qml:141
 #, kde-format
@@ -698,7 +699,9 @@ msgid ""
 "Compose an email to %1, based on the following link:\n"
 "\n"
 "%2"
-msgstr ""
+msgstr "Sastavi poruku za %1 na temelju sljedeće poveznice:\n"
+"\n"
+"%2"
 
 #: app/qml/viewers/ViewerBase.qml:143
 #, kde-format
@@ -706,75 +709,77 @@ msgid ""
 "Compose an email for %1 with the subject \"%2\" and the following body:\n"
 "\n"
 "%3"
-msgstr ""
+msgstr "Sastavi poruku za %1 s naslovom „%2” i sljedećim tekstom:\n"
+"\n"
+"%3"
 
 #: app/qml/viewers/ViewerBase.qml:145
 #, kde-format
 msgid "Compose an email for %1 with the subject \"%2\""
-msgstr ""
+msgstr "Sastavi poruku za %1 s naslovom „%2”"
 
 #: app/qml/viewers/ViewerBase.qml:147
 #, kde-format
 msgid "Compose email for: %1"
-msgstr ""
+msgstr "Sastavi poruku za: %1"
 
 #: app/qml/WelcomePage.qml:42 creator/qml/WelcomePage.qml:42
 #, kde-format
 msgctxt "title of the welcome page"
 msgid "Welcome"
-msgstr ""
+msgstr "Dobro došli"
 
 #: app/qml/WelcomePage.qml:84
 #, kde-format
 msgctxt "title of list of recently opened books"
 msgid "Continue Reading"
-msgstr ""
+msgstr "Nastavi čitati"
 
 #: app/qml/WelcomePage.qml:86
 #, kde-format
 msgctxt "title of list of recently discovered books"
 msgid "Recently Added"
-msgstr ""
+msgstr "Nedavno dodano"
 
 #: creator/main.cpp:44 creator/qml/Main.qml:118
 #, kde-format
 msgid "Peruse Creator"
-msgstr ""
+msgstr "Peruse Creator"
 
 #: creator/main.cpp:46
 #, kde-format
 msgid "Comic Book Creator by KDE"
-msgstr ""
+msgstr "KDE-ov alat za izradu stripova"
 
 #: creator/qml/AddPageArea.qml:62
 #, kde-format
 msgctxt "title text for the add page area sheet"
 msgid "Add Page Area"
-msgstr ""
+msgstr "Dodaj područje stranice"
 
 #: creator/qml/AddPageArea.qml:85
 #, kde-format
 msgctxt "Button which creates a new frame, and closes the dialog"
 msgid "Create Frame"
-msgstr ""
+msgstr "Stvori okvir"
 
 #: creator/qml/AddPageArea.qml:99
 #, kde-format
 msgctxt "Button which creates new textarea, and closes the dialog"
 msgid "Create Textarea"
-msgstr ""
+msgstr "Stvori tekstualno polje"
 
 #: creator/qml/AddPageArea.qml:113
 #, kde-format
 msgctxt "Button which creates a new jump, and closes the dialog"
 msgid "Create Jump"
-msgstr ""
+msgstr "Stvori skok"
 
 #: creator/qml/AddPageSheet.qml:43
 #, kde-format
 msgctxt "@title"
 msgid "Add Page"
-msgstr ""
+msgstr "Dodaj stranicu"
 
 #: creator/qml/AddPageSheet.qml:46
 #, kde-format
@@ -783,6 +788,8 @@ msgid ""
 "Please select the method you want to add the new page. No changes will be "
 "made outside of the project by performing these actions."
 msgstr ""
+"Odaberite način dodavanja nove stranice. Ovim radnjama neće se unositi "
+"promjene izvan projekta."
 
 #: creator/qml/AddPageSheet.qml:55
 #, kde-format
@@ -790,7 +797,7 @@ msgctxt ""
 "@action:button add a page by finding an image on the filesystem and copying "
 "it into the book"
 msgid "Copy Image from Device"
-msgstr ""
+msgstr "Kopiraj sliku s uređaja"
 
 #: creator/qml/AddPageSheet.qml:61
 #, kde-format
@@ -798,26 +805,26 @@ msgctxt ""
 "@title:window standard file open dialog used to find a page to add to the "
 "book"
 msgid "Please Choose an Image to Add"
-msgstr ""
+msgstr "Odaberite sliku za dodavanje"
 
 #: creator/qml/AddPageSheet.qml:75
 #, kde-format
 msgctxt ""
 "@action:button add a page by creating a new image using an image editor"
 msgid "Create a New Image Using an Image Editor"
-msgstr ""
+msgstr "Stvori novu sliku pomoću uređivača slika"
 
 #: creator/qml/AddPageSheet.qml:83
 #, kde-format
 msgctxt "@action:button add a page by taking a photo with a camera"
 msgid "Take a Photo and Add That"
-msgstr ""
+msgstr "Snimi fotografiju i dodaj je"
 
 #: creator/qml/Book.qml:50
 #, kde-format
 msgctxt "title of the main book editor page"
 msgid "Pages in %1"
-msgstr ""
+msgstr "Stranice u %1"
 
 #: creator/qml/Book.qml:59 creator/qml/BookBasics.qml:42
 #: creator/qml/BookBinaries.qml:42 creator/qml/BookMetainfoPage.qml:32
@@ -825,80 +832,80 @@ msgstr ""
 #, kde-format
 msgctxt "Saves the book to a file on disk"
 msgid "Save Book"
-msgstr ""
+msgstr "Spremi knjigu"
 
 #: creator/qml/Book.qml:66
 #, kde-format
 msgctxt "adds a new page at the end of the book"
 msgid "Add Page"
-msgstr ""
+msgstr "Dodaj stranicu"
 
 #: creator/qml/Book.qml:104 creator/qml/BookReferences.qml:66
 #, kde-format
 msgctxt "swap the position of this page with the previous one"
 msgid "Move Up"
-msgstr ""
+msgstr "Pomakni gore"
 
 #: creator/qml/Book.qml:111 creator/qml/BookReferences.qml:74
 #, kde-format
 msgctxt "swap the position of this page with the next one"
 msgid "Move Down"
-msgstr ""
+msgstr "Pomakni dolje"
 
 #: creator/qml/Book.qml:118
 #, kde-format
 msgctxt "remove the page from the book"
 msgid "Delete Page"
-msgstr ""
+msgstr "Izbriši stranicu"
 
 #: creator/qml/Book.qml:123
 #, kde-format
 msgctxt "add a page to the book after this one"
 msgid "Add Page After This"
-msgstr ""
+msgstr "Dodaj stranicu nakon ove"
 
 #: creator/qml/Book.qml:128
 #, kde-format
 msgctxt "Edit page data such as title, frames, etc."
 msgid "Edit Page"
-msgstr ""
+msgstr "Uredi stranicu"
 
 #: creator/qml/Book.qml:189
 #, kde-format
 msgctxt "Empty page list placeholder message"
 msgid "Your book is empty"
-msgstr ""
+msgstr "Vaša je knjiga prazna"
 
 #: creator/qml/Book.qml:190
 #, kde-format
 msgid "Start adding pages to your book"
-msgstr ""
+msgstr "Započnite dodavanjem stranica u knjigu"
 
 #: creator/qml/BookBasics.qml:39
 #, kde-format
 msgctxt "title of the basic book information page"
 msgid "Your Book At A Glance"
-msgstr ""
+msgstr "Pregled knjige"
 
 #: creator/qml/BookBasics.qml:85
 #, kde-format
 msgctxt ""
 "The descriptive label for a label which displays the title of the book"
 msgid "Book Title:"
-msgstr ""
+msgstr "Naslov knjige:"
 
 #: creator/qml/BookBasics.qml:89
 #, kde-format
 msgctxt ""
 "The descriptive label for a link which shows the number of pages in the book"
 msgid "Pages:"
-msgstr ""
+msgstr "Stranice:"
 
 #: creator/qml/BookBasics.qml:90
 #, kde-format
 msgctxt "A link which when clicked shows the book pages editor"
 msgid "%1 total pages"
-msgstr ""
+msgstr "Ukupno stranica: %1"
 
 #: creator/qml/BookBasics.qml:97
 #, kde-format
@@ -906,45 +913,45 @@ msgctxt ""
 "Header for a list which shows every file contained in the archive which "
 "makes up this book"
 msgid "Every File In The Book:"
-msgstr ""
+msgstr "Sve datoteke u knjizi:"
 
 #: creator/qml/BookBasics.qml:184
 #, kde-format
 msgctxt "If a file is not referenced at all"
 msgid "Unreferenced file"
-msgstr ""
+msgstr "Datoteka bez reference"
 
 #: creator/qml/BookBasics.qml:186
 #, kde-format
 msgctxt "If a file is referenced by its full path"
 msgid "Referenced by full path"
-msgstr ""
+msgstr "Referencirano punom putanjom"
 
 #: creator/qml/BookBasics.qml:188
 #, kde-format
 msgctxt "If a file is referenced partially, describe that"
 msgid "Referenced by filename only"
-msgstr ""
+msgstr "Referencirano samo nazivom datoteke"
 
 #: creator/qml/BookBasics.qml:190
 #, kde-format
 msgctxt "What happens if we have an unexpected reference amount"
 msgid "%1 might be referenced, but in some way we've not accounted for"
-msgstr ""
+msgstr "Možda postoji referenca na %1, ali na neki način nismo je obradili"
 
 #: creator/qml/BookBasics.qml:198
 #, kde-format
 msgctxt ""
 "action which marks the file to be included next time the book is saved"
 msgid "Include File"
-msgstr ""
+msgstr "Uključi datoteku"
 
 #: creator/qml/BookBasics.qml:199
 #, kde-format
 msgctxt ""
 "action which marks the file to NOT be included next time the book is saved"
 msgid "Mark File For Deletion"
-msgstr ""
+msgstr "Označi datoteku za brisanje"
 
 #: creator/qml/BookBinaries.qml:38
 #, kde-format
@@ -952,19 +959,19 @@ msgctxt ""
 "title of the page which lets the user manage chunks of binary data embedded "
 "in the book"
 msgid "Embedded Data"
-msgstr ""
+msgstr "Ugrađeni podaci"
 
 #: creator/qml/BookBinaries.qml:49
 #, kde-format
 msgctxt "Lets the user pick a file to append as a binary item"
 msgid "Add File..."
-msgstr ""
+msgstr "Dodaj datoteku..."
 
 #: creator/qml/BookBinaries.qml:52 creator/qml/BookBinaryEditor.qml:97
 #, kde-format
 msgctxt "The initial identifier used for a newly created binary data element"
 msgid "Unnamed Binary"
-msgstr ""
+msgstr "Neimenovani binarni podatak"
 
 #: creator/qml/BookBinaries.qml:80
 #, kde-format
@@ -972,13 +979,13 @@ msgctxt ""
 "title text for a card which informs the user there are no binary data "
 "entries, and what those are"
 msgid "No Embedded Binary Data Entries"
-msgstr ""
+msgstr "Nema unosa ugrađenih binarnih podataka"
 
 #: creator/qml/BookBinaries.qml:81
 #, kde-format
 msgctxt "title text for a card which informs the user what binary data is"
 msgid "Embedded Binary Data"
-msgstr ""
+msgstr "Ugrađeni binarni podaci"
 
 #: creator/qml/BookBinaries.qml:89
 #, kde-format
@@ -991,6 +998,9 @@ msgid ""
 "file on your system. That data will be imported into your book, and leaves "
 "the external file otherwise untouched."
 msgstr ""
+"U knjizi još nema ugrađenih podataka. Možete ih dodati stvaranjem novog "
+"unosa, a zatim u taj unos dodati podatke iz postojeće datoteke na sustavu. "
+"Podaci će se uvesti u knjigu, a vanjska datoteka ostat će nepromijenjena."
 
 #: creator/qml/BookBinaries.qml:90
 #, kde-format
@@ -1002,6 +1012,9 @@ msgid ""
 "data to that entry from some existing file on your system. That data will be "
 "imported into your book, and leaves the external file otherwise untouched."
 msgstr ""
+"Nove unose binarnih podataka možete dodati stvaranjem unosa, a zatim u njega "
+"dodati podatke iz postojeće datoteke na sustavu. Podaci će se uvesti u "
+"knjigu, a vanjska datoteka ostat će nepromijenjena."
 
 #: creator/qml/BookBinaries.qml:99
 #, kde-format
@@ -1009,49 +1022,49 @@ msgctxt ""
 "Title used in the list of binary data when there is no id defined for that "
 "entry"
 msgid "Unnamed piece of data"
-msgstr ""
+msgstr "Neimenovani podatak"
 
 #: creator/qml/BookBinaries.qml:133
 #, kde-format
 msgctxt "Label which describes which content type this entry is supposed to be"
 msgid "Content type: %1"
-msgstr ""
+msgstr "Vrsta sadržaja: %1"
 
 #: creator/qml/BookBinaryEditor.qml:46
 #, kde-format
 msgctxt "title text for a sheet which lets the user edit a binary entry"
 msgid "Edit Binary"
-msgstr ""
+msgstr "Uredi binarne podatke"
 
 #: creator/qml/BookBinaryEditor.qml:52
 #, kde-format
 msgctxt "label for a button which updates the binary with the new details"
 msgid "OK"
-msgstr ""
+msgstr "U redu"
 
 #: creator/qml/BookBinaryEditor.qml:64
 #, kde-format
 msgctxt "Label for the binary ID input field"
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: creator/qml/BookBinaryEditor.qml:65
 #, kde-format
 msgctxt "Placeholder text for the binary ID input field"
 msgid "Enter the name of your binary here (often a filename)"
-msgstr ""
+msgstr "Ovdje unesite naziv binarnih podataka (često naziv datoteke)"
 
 #: creator/qml/BookBinaryEditor.qml:69
 #, kde-format
 msgctxt "Label for the binary content type input field"
 msgid "Content Type"
-msgstr ""
+msgstr "Vrsta sadržaja"
 
 #: creator/qml/BookBinaryEditor.qml:71
 #, kde-format
 msgctxt "Placeholder text for the binary content type input field"
 msgid "Enter the content type of your binary here (aka mimetype)"
-msgstr ""
+msgstr "Ovdje unesite vrstu sadržaja binarnih podataka (vrstu MIME)"
 
 #: creator/qml/BookBinaryEditor.qml:75
 #, kde-format
@@ -1059,7 +1072,7 @@ msgctxt ""
 "Label for the field which describes the data currently held by the current "
 "instance"
 msgid "Current Data"
-msgstr ""
+msgstr "Trenutačni podaci"
 
 #: creator/qml/BookBinaryEditor.qml:81
 #, kde-format
@@ -1067,7 +1080,7 @@ msgctxt ""
 "Label used in the binary editor sheet to describe the size of the binary "
 "data contained in the current instance"
 msgid "%1 bytes"
-msgstr ""
+msgstr "%1 bajtova"
 
 #: creator/qml/BookBinaryEditor.qml:83
 #, kde-format
@@ -1075,7 +1088,7 @@ msgctxt ""
 "Label used in the binary editor sheet when there is no data in the current "
 "instance"
 msgid "No data set"
-msgstr ""
+msgstr "Podaci nisu postavljeni"
 
 #: creator/qml/BookBinaryEditor.qml:89
 #, kde-format
@@ -1083,20 +1096,20 @@ msgctxt ""
 "Label for the button in the binary editor sheet which lets the user replace "
 "the data contained in the current instance"
 msgid "Import Data..."
-msgstr ""
+msgstr "Uvezi podatke..."
 
 #: creator/qml/BookBinaryEditor.qml:106
 #, kde-format
 msgctxt ""
 "@title:window standard file open dialog used to add file data into the book"
 msgid "Pick A File To Add"
-msgstr ""
+msgstr "Odaberite datoteku za dodavanje"
 
 #: creator/qml/BookBinaryEditor.qml:109 creator/qml/Main.qml:336
 #, kde-format
 msgctxt "The file type filter for showing all files"
 msgid "All files %1"
-msgstr ""
+msgstr "Sve datoteke %1"
 
 #: creator/qml/BookBinaryEditor.qml:137
 #, kde-format
@@ -1104,7 +1117,7 @@ msgctxt ""
 "@title:window a message box used to ask the user if they really want to add "
 "a very large file to their book"
 msgid "Very Large File"
-msgstr ""
+msgstr "Vrlo velika datoteka"
 
 #: creator/qml/BookBinaryEditor.qml:138
 #, kde-format
@@ -1115,138 +1128,140 @@ msgid ""
 "The file you are attempting to add, %1, is more than 10MiB. Are you sure you "
 "want to add it to the book?"
 msgstr ""
+"Datoteka koju pokušavate dodati, %1, veća je od 10 MiB. Želite li je zaista "
+"dodati u knjigu?"
 
 #: creator/qml/BookBinaryEditor.qml:141
 #, kde-format
 msgctxt "The option used to let the user agree to the proposed action"
 msgid "Yes, Add Large File"
-msgstr ""
+msgstr "Da, dodaj veliku datoteku"
 
 #: creator/qml/BookBinaryEditor.qml:145
 #, kde-format
 msgctxt "The option used to let the user abort the proposed action"
 msgid "Don't Add"
-msgstr ""
+msgstr "Nemoj dodati"
 
 #: creator/qml/BookMetainfoPage.qml:26
 #, kde-format
 msgctxt "title text for the book meta information editor sheet"
 msgid "Edit Meta Information"
-msgstr ""
+msgstr "Uredi metapodatke"
 
 #: creator/qml/BookMetainfoPage.qml:49
 #, kde-format
 msgctxt "@label:textfield"
 msgid "Title"
-msgstr ""
+msgstr "Naslov"
 
 #: creator/qml/BookMetainfoPage.qml:62
 #, kde-format
 msgctxt "@label:textfield"
 msgid "Annotation"
-msgstr ""
+msgstr "Napomena"
 
 #: creator/qml/BookMetainfoPage.qml:75
 #, kde-format
 msgctxt "@label:textfield"
 msgid "Keywords"
-msgstr ""
+msgstr "Ključne riječi"
 
 #: creator/qml/BookMetainfoPage.qml:76
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Write a comma separated list of keywords."
-msgstr ""
+msgstr "Upiši ključne riječi odvojene zarezima."
 
 #: creator/qml/BookMetainfoPage.qml:92
 #, kde-format
 msgctxt "Label for the document version spinbox"
 msgid "Document Version:"
-msgstr ""
+msgstr "Verzija dokumenta:"
 
 #: creator/qml/BookMetainfoPage.qml:120
 #, kde-format
 msgctxt "@title:group"
 msgid "Authors"
-msgstr ""
+msgstr "Autori"
 
 #: creator/qml/BookMetainfoPage.qml:132 creator/qml/BookMetainfoPage.qml:842
 #, kde-format
 msgctxt "The text used in place of an author's name if one has not been set"
 msgid "(unnamed)"
-msgstr ""
+msgstr "(bez naziva)"
 
 #: creator/qml/BookMetainfoPage.qml:139
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit author"
-msgstr ""
+msgstr "Uredi autora"
 
 #: creator/qml/BookMetainfoPage.qml:151
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove author"
-msgstr ""
+msgstr "Ukloni autora"
 
 #: creator/qml/BookMetainfoPage.qml:176 creator/qml/BookMetainfoPage.qml:880
 #, kde-format
 msgctxt "@label:textfield"
 msgid "New author (nickname)"
-msgstr ""
+msgstr "Novi autor (nadimak)"
 
 #: creator/qml/BookMetainfoPage.qml:189
 #, kde-format
 msgctxt "@action:button"
 msgid "Add new author"
-msgstr ""
+msgstr "Dodaj novog autora"
 
 #: creator/qml/BookMetainfoPage.qml:197
 #, kde-format
 msgctxt "@title:group"
 msgid "Genres"
-msgstr ""
+msgstr "Žanrovi"
 
 #: creator/qml/BookMetainfoPage.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove genre"
-msgstr ""
+msgstr "Ukloni žanr"
 
 #: creator/qml/BookMetainfoPage.qml:294
 #, kde-format
 msgctxt "@title:group"
 msgid "Characters"
-msgstr ""
+msgstr "Likovi"
 
 #: creator/qml/BookMetainfoPage.qml:339
 #, kde-format
 msgctxt "placeholder text for the add new character text entry"
 msgid "Write to add new character"
-msgstr ""
+msgstr "Upiši naziv novog lika"
 
 #: creator/qml/BookMetainfoPage.qml:363
 #, kde-format
 msgctxt "@title:group"
 msgid "Sequence"
-msgstr ""
+msgstr "Redoslijed"
 
 #: creator/qml/BookMetainfoPage.qml:414
 #, kde-format
 msgctxt "Label for sequence number"
 msgid "Number:"
-msgstr ""
+msgstr "Broj:"
 
 #: creator/qml/BookMetainfoPage.qml:434
 #, kde-format
 msgctxt "Label for sequence volume"
 msgid "Volume:"
-msgstr ""
+msgstr "Svezak:"
 
 #: creator/qml/BookMetainfoPage.qml:462
 #, kde-format
 msgctxt "@label:textfield"
 msgid "New serie"
-msgstr ""
+msgstr "Nova serija"
 
 #: creator/qml/BookMetainfoPage.qml:481
 #, kde-format

@@ -3,25 +3,25 @@
 # This file is distributed under the same license as the libksieve package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
-msgstr ""
+msgstr "„foreverypart” je iterator koji prolazi kroz svaki MIME dio poruke, uključujući ugniježđene dijelove, najprije po dubini, i na svaki primjenjuje naredbe iz navedenog bloka."
 "Project-Id-Version: libksieve\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-26 00:50+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:40+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #: kmanagesieve/session.cpp:91
 #, kde-format
 msgid "Cannot use TLS since the underlying Qt library does not support it."
-msgstr ""
+msgstr "Nije moguće koristiti TLS jer ga temeljna biblioteka Qt ne podržava."
 
 #: kmanagesieve/session.cpp:98
 #, kde-format
@@ -31,23 +31,26 @@ msgid ""
 "You can choose to try to initiate TLS negotiations nonetheless, or cancel "
 "the operation."
 msgstr ""
+"Zatraženo je TLS šifriranje, no vaš poslužitelj Sieve ne navodi TLS među "
+"svojim mogućnostima.\n"
+"Ipak možete pokušati započeti TLS pregovaranje ili otkazati radnju."
 
 #: kmanagesieve/session.cpp:100
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Server Does Not Advertise TLS"
-msgstr ""
+msgstr "Poslužitelj Sieve ne podržava TLS"
 
 #: kmanagesieve/session.cpp:101
 #, kde-format
 msgctxt "@action:button"
 msgid "&Start TLS nonetheless"
-msgstr ""
+msgstr "Ipak &pokreni TLS"
 
 #: kmanagesieve/session.cpp:105
 #, kde-format
 msgid "TLS encryption requested, but not supported by server."
-msgstr ""
+msgstr "Zatraženo je TLS šifriranje, ali ga poslužitelj ne podržava."
 
 #: kmanagesieve/session.cpp:147
 #, kde-format
@@ -55,11 +58,13 @@ msgid ""
 "The server does not seem to support TLS. Disable TLS if you want to connect "
 "without encryption."
 msgstr ""
+"Čini se da poslužitelj ne podržava TLS. Onemogućite TLS ako se želite "
+"povezati bez šifriranja."
 
 #: kmanagesieve/session.cpp:259
 #, kde-format
 msgid "Sieve Authentication Details"
-msgstr ""
+msgstr "Pojedinosti provjere autentičnosti za Sieve"
 
 #: kmanagesieve/session.cpp:261
 #, kde-format
@@ -67,6 +72,8 @@ msgid ""
 "Please enter your authentication details for your sieve account "
 "\"%1\" (usually the same as your email password):"
 msgstr ""
+"Unesite podatke za provjeru autentičnosti računa Sieve „%1” (obično su "
+"jednaki lozinci e-pošte):"
 
 #: kmanagesieve/session.cpp:322
 #, kde-format
@@ -74,12 +81,14 @@ msgid ""
 "The Sieve server on %1 has reported an error:\n"
 "%2"
 msgstr ""
+"Poslužitelj Sieve na adresi %1 prijavio je pogrešku:\n"
+"%2"
 
 #: kmanagesieve/session.cpp:322
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Manager"
-msgstr ""
+msgstr "Upravitelj Sievea"
 
 #: kmanagesieve/sessionthread.cpp:300
 #, kde-format
@@ -89,6 +98,10 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Provjera autentičnosti nije uspjela.\n"
+"Lozinka je najvjerojatnije pogrešna.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: kmanagesieve/sievejob.cpp:143 kmanagesieve/sievejob.cpp:150
 #, kde-format
@@ -98,6 +111,10 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Skripta nije uspješno prenesena.\n"
+"Uzrok su vjerojatno pogreške u skripti.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: kmanagesieve/sievejob.cpp:155
 #, kde-format
@@ -105,226 +122,228 @@ msgid ""
 "The script did not upload successfully.\n"
 "The script may contain errors."
 msgstr ""
+"Skripta nije uspješno prenesena.\n"
+"Skripta možda sadrži pogreške."
 
 #: ksieve/error.cpp:91
 #, kde-format
 msgid "Parse error: Carriage Return (CR) without Line Feed (LF)"
-msgstr ""
+msgstr "Pogreška raščlambe: povratak na početak retka (CR) bez novog retka (LF)"
 
 #: ksieve/error.cpp:95
 #, kde-format
 msgid ""
 "Parse error: Unquoted Slash ('/') without Asterisk ('*'). Broken Comment?"
-msgstr ""
+msgstr "Pogreška raščlambe: nezaštićena kosa crta („/”) bez zvjezdice („*”). Neispravan komentar?"
 
 #: ksieve/error.cpp:99
 #, kde-format
 msgid "Parse error: Illegal Character"
-msgstr ""
+msgstr "Pogreška raščlambe: nedopušten znak"
 
 #: ksieve/error.cpp:102
 #, kde-format
 msgid "Parse error: Unexpected Character, probably a missing space?"
-msgstr ""
+msgstr "Pogreška raščlambe: neočekivan znak; možda nedostaje razmak?"
 
 #: ksieve/error.cpp:105
 #, kde-format
 msgid "Parse error: Tag Name has leading Digits"
-msgstr ""
+msgstr "Pogreška raščlambe: naziv oznake počinje znamenkama"
 
 #: ksieve/error.cpp:109
 #, kde-format
 msgid ""
 "Parse error: Only whitespace and #comments may follow \"text:\" on the same "
 "line"
-msgstr ""
+msgstr "Pogreška raščlambe: nakon „text:” u istom retku smiju slijediti samo bjeline i komentari #"
 
 #: ksieve/error.cpp:113
 #, kde-format
 msgid "Parse error: Number out of Range (must be smaller than %1)"
-msgstr ""
+msgstr "Pogreška raščlambe: broj je izvan raspona (mora biti manji od %1)"
 
 #: ksieve/error.cpp:116
 #, kde-format
 msgid "Parse error: Invalid UTF-8 sequence"
-msgstr ""
+msgstr "Pogreška raščlambe: nevaljan niz UTF-8"
 
 #: ksieve/error.cpp:119
 #, kde-format
 msgid ""
 "Parse error: Premature end of Multiline String (did you forget the '.'?)"
-msgstr ""
+msgstr "Pogreška raščlambe: višeredni niz neočekivano je završio (jeste li zaboravili „.”?)"
 
 #: ksieve/error.cpp:122
 #, kde-format
 msgid "Parse error: Premature end of Quoted String (missing closing '\"')"
-msgstr ""
+msgstr "Pogreška raščlambe: citirani niz neočekivano je završio (nedostaje završni „\"”)"
 
 #: ksieve/error.cpp:125
 #, kde-format
 msgid "Parse error: Premature end of String List (missing closing ']')"
-msgstr ""
+msgstr "Pogreška raščlambe: popis nizova neočekivano je završio (nedostaje završna „]”)"
 
 #: ksieve/error.cpp:128
 #, kde-format
 msgid "Parse error: Premature end of Test List (missing closing ')')"
-msgstr ""
+msgstr "Pogreška raščlambe: popis testova neočekivano je završio (nedostaje završna „)”)"
 
 #: ksieve/error.cpp:131
 #, kde-format
 msgid "Parse error: Premature end of Block (missing closing '}')"
-msgstr ""
+msgstr "Pogreška raščlambe: blok je neočekivano završio (nedostaje završna „}”)"
 
 #: ksieve/error.cpp:134
 #, kde-format
 msgid "Parse error: Missing Whitespace"
-msgstr ""
+msgstr "Pogreška raščlambe: nedostaje bjelina"
 
 #: ksieve/error.cpp:137
 #, kde-format
 msgid "Parse error: Missing ';' or Block"
-msgstr ""
+msgstr "Pogreška raščlambe: nedostaje „;” ili blok"
 
 #: ksieve/error.cpp:140
 #, kde-format
 msgid "Parse error: Expected ';' or '{', got something else"
-msgstr ""
+msgstr "Pogreška raščlambe: očekivan je „;” ili „{”, dobiveno je nešto drugo"
 
 #: ksieve/error.cpp:143 ksieve/error.cpp:158
 #, kde-format
 msgid "Parse error: Expected Command, got something else"
-msgstr ""
+msgstr "Pogreška raščlambe: očekivana je naredba, dobiveno je nešto drugo"
 
 #: ksieve/error.cpp:146
 #, kde-format
 msgid "Parse error: Trailing, Leading or Duplicate Commas in String List"
-msgstr ""
+msgstr "Pogreška raščlambe: zarez na početku ili kraju ili ponovljeni zarezi u popisu nizova"
 
 #: ksieve/error.cpp:149
 #, kde-format
 msgid "Parse error: Trailing, Leading or Duplicate Commas in Test List"
-msgstr ""
+msgstr "Pogreška raščlambe: zarez na početku ili kraju ili ponovljeni zarezi u popisu testova"
 
 #: ksieve/error.cpp:152
 #, kde-format
 msgid "Parse error: Missing ',' between Strings in String List"
-msgstr ""
+msgstr "Pogreška raščlambe: nedostaje „,” između nizova u popisu"
 
 #: ksieve/error.cpp:155
 #, kde-format
 msgid "Parse error: Missing ',' between Tests in Test List"
-msgstr ""
+msgstr "Pogreška raščlambe: nedostaje „,” između testova u popisu"
 
 #: ksieve/error.cpp:161
 #, kde-format
 msgid "Parse error: Only Strings allowed in String Lists"
-msgstr ""
+msgstr "Pogreška raščlambe: u popisima nizova dopušteni su samo nizovi"
 
 #: ksieve/error.cpp:164
 #, kde-format
 msgid "Parse error: Only Tests allowed in Test Lists"
-msgstr ""
+msgstr "Pogreška raščlambe: u popisima testova dopušteni su samo testovi"
 
 #: ksieve/error.cpp:169
 #, kde-format
 msgid "\"require\" must be first command"
-msgstr ""
+msgstr "„require” mora biti prva naredba"
 
 #: ksieve/error.cpp:172
 #, kde-format
 msgid "\"require\" missing for command \"%1\""
-msgstr ""
+msgstr "Za naredbu „%1” nedostaje „require”"
 
 #: ksieve/error.cpp:175
 #, kde-format
 msgid "\"require\" missing for test \"%1\""
-msgstr ""
+msgstr "Za test „%1” nedostaje „require”"
 
 #: ksieve/error.cpp:178
 #, kde-format
 msgid "\"require\" missing for comparator \"%1\""
-msgstr ""
+msgstr "Za usporednik „%1” nedostaje „require”"
 
 #: ksieve/error.cpp:181
 #, kde-format
 msgid "Command \"%1\" not supported"
-msgstr ""
+msgstr "Naredba „%1” nije podržana"
 
 #: ksieve/error.cpp:184
 #, kde-format
 msgid "Test \"%1\" not supported"
-msgstr ""
+msgstr "Test „%1” nije podržan"
 
 #: ksieve/error.cpp:187
 #, kde-format
 msgid "Comparator \"%1\" not supported"
-msgstr ""
+msgstr "Usporednik „%1” nije podržan"
 
 #: ksieve/error.cpp:190
 #, kde-format
 msgid "Site Policy Limit Violation: Test nesting too deep (max. %1)"
-msgstr ""
+msgstr "Prekoračeno je ograničenje pravila web-mjesta: testovi su previše ugniježđeni (najviše %1)"
 
 #: ksieve/error.cpp:193
 #, kde-format
 msgid "Site Policy Limit Violation: Block nesting too deep (max. %1)"
-msgstr ""
+msgstr "Prekoračeno je ograničenje pravila web-mjesta: blokovi su previše ugniježđeni (najviše %1)"
 
 #: ksieve/error.cpp:196
 #, kde-format
 msgid "Invalid Argument \"%1\" to \"%2\""
-msgstr ""
+msgstr "Nevaljan argument „%1” za „%2”"
 
 #: ksieve/error.cpp:199
 #, kde-format
 msgid "Conflicting Arguments: \"%1\" and \"%2\""
-msgstr ""
+msgstr "Sukobljeni argumenti: „%1” i „%2”"
 
 #: ksieve/error.cpp:202
 #, kde-format
 msgid "Argument \"%1\" Repeated"
-msgstr ""
+msgstr "Argument „%1” ponovljen je"
 
 #: ksieve/error.cpp:205
 #, kde-format
 msgid "Command \"%1\" violates command ordering constraints"
-msgstr ""
+msgstr "Naredba „%1” krši ograničenja redoslijeda naredbi"
 
 #: ksieve/error.cpp:210
 #, kde-format
 msgid "Incompatible Actions \"%1\" and \"%2\" requested"
-msgstr ""
+msgstr "Zatražene su nespojive radnje „%1” i „%2”"
 
 #: ksieve/error.cpp:213
 #, kde-format
 msgid "Mail Loop detected"
-msgstr ""
+msgstr "Otkrivena je petlja e-pošte"
 
 #: ksieve/error.cpp:216
 #, kde-format
 msgid "Site Policy Limit Violation: Too many Actions requested (max. %1)"
-msgstr ""
+msgstr "Prekoračeno je ograničenje pravila web-mjesta: zatraženo je previše radnji (najviše %1)"
 
 #: ksieve/error.cpp:219
 #, kde-format
 msgid "Unknown error"
-msgstr ""
+msgstr "Nepoznata pogreška"
 
 #: ksievecore/managescriptsjob/checkscriptjob.cpp:65
 #, kde-format
 msgid "No errors found."
-msgstr ""
+msgstr "Nisu pronađene pogreške."
 
 #: ksievecore/managescriptsjob/checkscriptjob.cpp:68
 #, kde-format
 msgid "An unknown error was encountered."
-msgstr ""
+msgstr "Došlo je do nepoznate pogreške."
 
 #: ksievecore/managescriptsjob/generateglobalscriptjob.cpp:53
 #: ksievecore/managescriptsjob/parseuserscriptjob.cpp:42
 #, kde-format
 msgid "Path is not specified."
-msgstr ""
+msgstr "Put nije naveden."
 
 #: ksievecore/managescriptsjob/generateglobalscriptjob.cpp:97
 #, kde-format
@@ -333,6 +352,9 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Pogreška pri zapisivanju skripte „MASTER” na poslužitelju.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: ksievecore/managescriptsjob/generateglobalscriptjob.cpp:135
 #, kde-format
@@ -341,6 +363,9 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Pogreška pri zapisivanju korisničke skripte na poslužitelju.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: ksievecore/managescriptsjob/parseuserscriptjob.cpp:64
 #: ksieveui/debug/sievedebugdialog.cpp:187
@@ -351,42 +376,45 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Dohvaćanje skripte nije uspjelo.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: ksievecore/managescriptsjob/parseuserscriptjob.cpp:70
 #, kde-format
 msgid "Script is empty. (%1)"
-msgstr ""
+msgstr "Skripta je prazna. (%1)"
 
 #: ksievecore/managescriptsjob/parseuserscriptjob.cpp:78
 #, kde-format
 msgid "Script parsing error."
-msgstr ""
+msgstr "Pogreška pri raščlanjivanju skripte."
 
 #: ksievecore/managescriptsjob/renamescriptjob.cpp:56
 #, kde-format
 msgid "Impossible to start job"
-msgstr ""
+msgstr "Nije moguće pokrenuti zadatak"
 
 #: ksievecore/managescriptsjob/renamescriptjob.cpp:64
 #, kde-format
 msgid "An error occurred during loading the sieve script."
-msgstr ""
+msgstr "Došlo je do pogreške pri učitavanju skripte Sieve."
 
 #: ksievecore/managescriptsjob/renamescriptjob.cpp:79
 #, kde-format
 msgid "An error occurred during saving the sieve script."
-msgstr ""
+msgstr "Došlo je do pogreške pri spremanju skripte Sieve."
 
 #: ksievecore/managescriptsjob/renamescriptjob.cpp:89
 #, kde-format
 msgid "An error occurred during deleting the sieve script."
-msgstr ""
+msgstr "Došlo je do pogreške pri brisanju skripte Sieve."
 
 #. i18n: ectx: label, entry (AllowOutOfOfficeSettings), group (OutOfOffice)
 #: ksievecore/settings/sieve-vacation.kcfg:16
 #, kde-format
 msgid "Allow out-of-office settings to be changeable by the user."
-msgstr ""
+msgstr "Dopusti korisniku mijenjanje postavki odsutnosti iz ureda."
 
 #. i18n: ectx: label, entry (AllowOutOfOfficeUploadButNoSettings), group (OutOfOffice)
 #: ksievecore/settings/sieve-vacation.kcfg:20
@@ -396,30 +424,33 @@ msgid ""
 "changing any settings, such as the domain to react to or the spam reaction "
 "switch."
 msgstr ""
+"Dopusti korisnicima učitavanje Sieve skripti za odsutnost iz ureda, ali im "
+"onemogući mijenjanje postavki kao što su domena na koju se odgovara ili "
+"uključivanje odgovora na neželjenu poštu."
 
 #. i18n: ectx: label, entry (OutOfOfficeDomain), group (OutOfOffice)
 #: ksievecore/settings/sieve-vacation.kcfg:24
 #, kde-format
 msgid "Send out-of-office replies to mails coming from this domain only."
-msgstr ""
+msgstr "Odgovore o odsutnosti iz ureda šalji samo na poruke s ove domene."
 
 #. i18n: ectx: label, entry (OutOfOfficeReactToSpam), group (OutOfOffice)
 #: ksievecore/settings/sieve-vacation.kcfg:28
 #, kde-format
 msgid "Allow out-of-office replies to be sent to messages marked as SPAM."
-msgstr ""
+msgstr "Dopusti slanje odgovora o odsutnosti iz ureda na poruke označene kao neželjena pošta."
 
 #. i18n: ectx: label, entry (CheckOutOfOfficeOnStartup), group (OutOfOffice)
 #: ksievecore/settings/sieve-vacation.kcfg:32
 #, kde-format
 msgid ""
 "Check if there is still an active out-of-office reply configured on startup."
-msgstr ""
+msgstr "Pri pokretanju provjeri je li još konfiguriran aktivan odgovor o odsutnosti iz ureda."
 
 #: ksievecore/vacation/vacationcheckjob.cpp:126
 #, kde-format
 msgid "ParseUserScriptJob failed: %1"
-msgstr ""
+msgstr "ParseUserScriptJob nije uspio: %1"
 
 #: ksievecore/vacation/vacationcheckjob.cpp:141
 #, kde-format
@@ -428,6 +459,9 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Nije uspjelo dohvaćanje popisa Sieve skripti.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: ksievecore/vacation/vacationcreatescriptjob.cpp:144
 #, kde-format
@@ -435,6 +469,8 @@ msgid ""
 "Sieve script installed successfully on the server '%1'.\n"
 "Out of Office reply is now active."
 msgstr ""
+"Skripta Sieve uspješno je instalirana na poslužitelju „%1”.\n"
+"Odgovor o odsutnosti iz ureda sada je aktivan."
 
 #: ksievecore/vacation/vacationcreatescriptjob.cpp:147
 #, kde-format
@@ -442,38 +478,40 @@ msgid ""
 "Sieve script installed successfully on the server '%1'.\n"
 "Out of Office reply has been deactivated."
 msgstr ""
+"Skripta Sieve uspješno je instalirana na poslužitelju „%1”.\n"
+"Odgovor o odsutnosti iz ureda deaktiviran je."
 
 #: ksievecore/vacation/vacationcreatescriptjob.cpp:151
 #, kde-format
 msgid "Impossible to install script on server '%1'"
-msgstr ""
+msgstr "Nije moguće instalirati skriptu na poslužitelj „%1”"
 
 #: ksievecore/vacation/vacationutils.cpp:42
 #, kde-format
 msgid "Out of office till %1"
-msgstr ""
+msgstr "Odsutan iz ureda do %1"
 
 #: ksievecore/vacation/vacationutils.cpp:49
 #: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:21
 #, kde-format
 msgid "Keep"
-msgstr ""
+msgstr "Zadrži"
 
 #: ksievecore/vacation/vacationutils.cpp:51
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondiscard.cpp:14
 #, kde-format
 msgid "Discard"
-msgstr ""
+msgstr "Odbaci"
 
 #: ksievecore/vacation/vacationutils.cpp:53
 #, kde-format
 msgid "Redirect to"
-msgstr ""
+msgstr "Preusmjeri na"
 
 #: ksievecore/vacation/vacationutils.cpp:55
 #, kde-format
 msgid "Copy to"
-msgstr ""
+msgstr "Kopiraj u"
 
 #: ksievecore/vacation/vacationutils.cpp:69
 #, kde-format
@@ -489,111 +527,121 @@ msgid ""
 "Yours sincerely,\n"
 "-- \"enter your name and email address here\"\n"
 msgstr ""
+"Odsutan/na sam iz ureda do %1.\n"
+"\n"
+"U hitnim slučajevima obratite se zamjeni „zamjena za odsutnost”\n"
+"\n"
+"e-pošta: „adresa e-pošte zamjene”\n"
+"telefon: +49 711 1111 11\n"
+"faks:  +49 711 1111 12\n"
+"\n"
+"Srdačan pozdrav,\n"
+"-- „ovdje unesite svoje ime i adresu e-pošte”\n"
 
 #: ksieveui/autocreatescripts/autocreatescriptdialog.cpp:26
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Sieve Filter"
-msgstr ""
+msgstr "Stvaranje filtra Sieve"
 
 #: ksieveui/autocreatescripts/autocreatescriptutil.cpp:178
 #, kde-format
 msgid "Cannot find item \"%1\" in widget \"%2\""
-msgstr ""
+msgstr "Nije moguće pronaći stavku „%1” u widgetu „%2”"
 
 #: ksieveui/autocreatescripts/autocreatescriptutil.cpp:186
 #, kde-format
 msgid "More information"
-msgstr ""
+msgstr "Više informacija"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectconvertparameterwidget.cpp:33
 #, kde-format
 msgid ""
 "Not enough arguments for SelectConvertParameterWidget. Expected 2 arguments."
-msgstr ""
+msgstr "Nema dovoljno argumenata za SelectConvertParameterWidget. Očekivana su 2 argumenta."
 
 #: ksieveui/autocreatescripts/commonwidgets/selectconvertparameterwidget.cpp:38
 #, kde-format
 msgid "Too many arguments for SelectConvertParameterWidget, \"%1\""
-msgstr ""
+msgstr "Previše argumenata za SelectConvertParameterWidget, „%1”"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectconvertparameterwidget.cpp:61
 #: ksieveui/autocreatescripts/commonwidgets/selectconvertparameterwidget.cpp:72
 #, kde-format
 msgid " px"
-msgstr ""
+msgstr " px"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:37
 #, kde-format
 msgid "is"
-msgstr ""
+msgstr "jest"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:38
 #, kde-format
 msgid "not is"
-msgstr ""
+msgstr "nije"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:39
 #, kde-format
 msgid "contains"
-msgstr ""
+msgstr "sadrži"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:40
 #, kde-format
 msgid "not contains"
-msgstr ""
+msgstr "ne sadrži"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:41
 #, kde-format
 msgid "matches"
-msgstr ""
+msgstr "podudara se"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:42
 #, kde-format
 msgid "not matches"
-msgstr ""
+msgstr "ne podudara se"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:44
 #, kde-format
 msgid "regex"
-msgstr ""
+msgstr "reg. izraz"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmatchtypecombobox.cpp:45
 #, kde-format
 msgid "not regex"
-msgstr ""
+msgstr "nije reg. izraz"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmimetypecombobox.cpp:27
 #, kde-format
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmimetypecombobox.cpp:28
 #, kde-format
 msgid "TIFF"
-msgstr ""
+msgstr "TIFF"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmimetypecombobox.cpp:29
 #, kde-format
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: ksieveui/autocreatescripts/commonwidgets/selectmimetypecombobox.cpp:30
 #, kde-format
 msgid "BMP"
-msgstr ""
+msgstr "BMP"
 
 #: ksieveui/autocreatescripts/commonwidgets/sievecommonactioncondition.cpp:102
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:54
 #, kde-format
 msgid "An unknown tag value \"%1\" was found during parsing action \"%2\"."
-msgstr ""
+msgstr "Pri raščlanjivanju radnje „%2” pronađena je nepoznata vrijednost oznake „%1”."
 
 #: ksieveui/autocreatescripts/commonwidgets/sievecommonactioncondition.cpp:107
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:42
 #, kde-format
 msgid "An unknown tag \"%1\" was found during parsing action \"%2\"."
-msgstr ""
+msgstr "Pri raščlanjivanju radnje „%2” pronađena je nepoznata oznaka „%1”."
 
 #: ksieveui/autocreatescripts/commonwidgets/sievecommonactioncondition.cpp:113
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:49
@@ -601,25 +649,25 @@ msgstr ""
 msgid ""
 "Too many arguments found for \"%1\", max value is %2, number of value found "
 "%3 for %4"
-msgstr ""
+msgstr "Pronađeno je previše argumenata za „%1”; najveća vrijednost je %2, a za %4 pronađeno je %3 vrijednosti"
 
 #: ksieveui/autocreatescripts/commonwidgets/sievecommonactioncondition.cpp:118
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:59
 #: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:49
 #, kde-format
 msgid "A feature \"%1\" in condition \"%2\" is not supported by server"
-msgstr ""
+msgstr "Poslužitelj ne podržava značajku „%1” u uvjetu „%2”"
 
 #: ksieveui/autocreatescripts/commonwidgets/sievehelpbutton.cpp:19
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddflags.cpp:15
 #, kde-format
 msgid "Add Flags"
-msgstr ""
+msgstr "Dodaj oznake"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddflags.cpp:27
 #, kde-format
@@ -628,11 +676,14 @@ msgid ""
 "any previously set flags.  This means that multiple occurrences of addflag "
 "are treated additively."
 msgstr ""
+"Addflag se koristi za dodavanje oznaka na popis oznaka [IMAP]. Ne zamjenjuje "
+"prethodno postavljene oznake, što znači da se višestruka pojavljivanja "
+"addflaga obrađuju kumulativno."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:26
 #, kde-format
 msgid "Add header"
-msgstr ""
+msgstr "Dodaj zaglavlje"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:42
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:42
@@ -640,7 +691,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "header:"
-msgstr ""
+msgstr "zaglavlje:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:51
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:51
@@ -648,57 +699,57 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "value:"
-msgstr ""
+msgstr "vrijednost:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:116
 #, kde-format
 msgid ""
 "The addheader action adds a header field to the existing message header."
-msgstr ""
+msgstr "Radnja addheader dodaje polje zaglavlja u postojeće zaglavlje poruke."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionbreak.cpp:23
 #, kde-format
 msgid "Break"
-msgstr ""
+msgstr "Prekini"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionbreak.cpp:34
 #: ksieveui/autocreatescripts/sieveforeverypartwidget.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name (optional):"
-msgstr ""
+msgstr "Naziv (neobavezno):"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionbreak.cpp:91
 #, kde-format
 msgid "The break command terminates the closest enclosing loop."
-msgstr ""
+msgstr "Naredba break prekida najbližu obuhvatnu petlju."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionconvert.cpp:22
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:22
 #, kde-format
 msgid "Convert"
-msgstr ""
+msgstr "Pretvori"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionconvert.cpp:33
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:33
 #, kde-format
 msgctxt "@label:textbox"
 msgid "From:"
-msgstr ""
+msgstr "Iz:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionconvert.cpp:41
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:41
 #, kde-format
 msgctxt "@label:textbox"
 msgid "To:"
-msgstr ""
+msgstr "U:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionconvert.cpp:49
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:49
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Parameters:"
-msgstr ""
+msgstr "Parametri:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionconvert.cpp:131
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionconvert.cpp:96
@@ -708,42 +759,45 @@ msgid ""
 "to \"media-type\" be converted to the media type in \"media-type\" using "
 "conversion parameters."
 msgstr ""
+"Radnja „convert” određuje da se svi dijelovi tijela poruke čija je vrsta "
+"medija jednaka vrijednosti „media-type” pretvore u vrstu medija „media-type” "
+"pomoću parametara pretvorbe."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:26
 #, kde-format
 msgid "Delete header"
-msgstr ""
+msgstr "Izbriši zaglavlje"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:126
 #, kde-format
 msgid ""
 "By default, the deleteheader action deletes all occurrences of the named "
 "header field."
-msgstr ""
+msgstr "Radnja deleteheader prema zadanim postavkama briše sva pojavljivanja navedenog polja zaglavlja."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondiscard.cpp:25
 #, kde-format
 msgid "Discard is used to silently throw away the message."
-msgstr ""
+msgstr "Discard se koristi za tiho odbacivanje poruke."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:24
 #, kde-format
 msgid "Enclose"
-msgstr ""
+msgstr "Umetni"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:35
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:37
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Subject:"
-msgstr ""
+msgstr "Predmet:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:44
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:42
 #, kde-format
 msgctxt "@label:textbox"
 msgid "headers:"
-msgstr ""
+msgstr "zaglavlja:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:53
 #: ksieveui/autocreatescripts/sieveactions/sieveactionereject.cpp:32
@@ -752,81 +806,81 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "text:"
-msgstr ""
+msgstr "tekst:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:145
 #, kde-format
 msgid ""
 "Enclose action command is defined to allow an entire message to be enclosed "
 "as an attachment to a new message."
-msgstr ""
+msgstr "Radnja enclose omogućuje umetanje cijele poruke kao privitka u novu poruku."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionereject.cpp:22
 #, kde-format
 msgid "E-Reject"
-msgstr ""
+msgstr "Elektroničko odbijanje"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionereject.cpp:88
 #, kde-format
 msgid ""
 " The \"ereject\" action cancels the implicit keep and refuses delivery of a "
 "message."
-msgstr ""
+msgstr "Radnja „ereject” poništava implicitno zadržavanje i odbija isporuku poruke."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionextracttext.cpp:23
 #, kde-format
 msgid "Extract Text"
-msgstr ""
+msgstr "Izdvoji tekst"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionextracttext.cpp:34
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Number of characters:"
-msgstr ""
+msgstr "Broj znakova:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionextracttext.cpp:44
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Stored in variable name:"
-msgstr ""
+msgstr "Pohranjeno u varijabli:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionextracttext.cpp:112
 #, kde-format
 msgid ""
 "The \"extracttext\" action may be used within the context of a \"foreverypart"
 "\" loop and is used to store text into a variable"
-msgstr ""
+msgstr "Radnja „extracttext” može se koristiti unutar petlje „foreverypart” za pohranu teksta u varijablu."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:22
 #, kde-format
 msgid "File Into"
-msgstr ""
+msgstr "Spremi u mapu"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:59
 #, kde-format
 msgid ""
 "Action \"fileinto\" has \"copy\" argument but current server does not "
 "support it"
-msgstr ""
+msgstr "Radnja „fileinto” sadrži argument „copy”, ali ga trenutačni poslužitelj ne podržava"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:98
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:36
 #, kde-format
 msgctxt "@option:check"
 msgid "Keep a copy"
-msgstr ""
+msgstr "Zadrži kopiju"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:104
 #, kde-format
 msgctxt "@option:check"
 msgid "Create folder"
-msgstr ""
+msgstr "Stvori mapu"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:149
 #, kde-format
 msgid ""
 "The \"fileinto\" action delivers the message into the specified mailbox."
-msgstr ""
+msgstr "Radnja „fileinto” isporučuje poruku u navedeni poštanski sandučić."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:152
 #, kde-format
@@ -834,7 +888,7 @@ msgid ""
 "If the optional \":create\" argument is specified, it instructs the Sieve "
 "interpreter to create the specified mailbox, if needed, before attempting to "
 "deliver the message into the specified mailbox."
-msgstr ""
+msgstr "Ako je naveden neobavezni argument „:create”, tumaču Sievea nalaže se da po potrebi stvori navedeni poštanski sandučić prije pokušaja isporuke poruke u njega."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:157
 #, kde-format
@@ -842,7 +896,7 @@ msgid ""
 "If the optional \":copy\" keyword is specified, the tagged command does not "
 "cancel the implicit \"keep\". Instead, it merely files or redirects a copy "
 "in addition to whatever else is happening to the message."
-msgstr ""
+msgstr "Ako je navedena neobavezna ključna riječ „:copy”, označena naredba ne poništava implicitno zadržavanje („keep”), već dodatno sprema ili preusmjerava kopiju poruke."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:45
 #, kde-format
@@ -850,47 +904,47 @@ msgid ""
 "The \"keep\" action is whatever action is taken in lieu of all other "
 "actions, if no filtering happens at all; generally, this simply means to "
 "file the message into the user's main mailbox."
-msgstr ""
+msgstr "Radnja „keep” podrazumijeva da se, ako se ne primijeni nijedno filtriranje, umjesto svih drugih radnji zadrži poruka; obično se ona sprema u korisnikov glavni poštanski sandučić."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:56
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Add flags:"
-msgstr ""
+msgstr "Dodaj oznake:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:25
 #, kde-format
 msgid "Notify"
-msgstr ""
+msgstr "Obavijesti"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:41
 #, kde-format
 msgctxt "@label:textbox"
 msgid "message:"
-msgstr ""
+msgstr "poruka:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:50
 #, kde-format
 msgctxt "@label:textbox"
 msgid "method:"
-msgstr ""
+msgstr "način:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:134
 #, kde-format
 msgid ""
 "The \"notify\" action specifies that a notification should be sent to a user."
-msgstr ""
+msgstr "Radnja „notify” određuje da se korisniku pošalje obavijest."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:23
 #, kde-format
 msgid "Redirect"
-msgstr ""
+msgstr "Preusmjeri"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:42
 #, kde-format
 msgctxt "@option:check"
 msgid "Use list"
-msgstr ""
+msgstr "Koristi popis"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:140
 #, kde-format
@@ -899,7 +953,7 @@ msgid ""
 "supplied address, as a mail forwarding feature does.  The \"redirect\" "
 "action makes no changes to the message body or existing headers, but it may "
 "add new headers."
-msgstr ""
+msgstr "Radnja „redirect” koristi se za slanje poruke drugom korisniku na navedenu adresu, kao kod prosljeđivanja pošte. Ne mijenja tijelo poruke ni postojeća zaglavlja, ali može dodati nova zaglavlja."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:144
 #, kde-format
@@ -907,24 +961,24 @@ msgid ""
 "If the optional \":copy\" keyword is specified, the tagged command does not "
 "cancel the implicit \"keep\". Instead, it redirects a copy in addition to "
 "whatever else is happening to the message."
-msgstr ""
+msgstr "Ako je navedena neobavezna ključna riječ „:copy”, označena naredba ne poništava implicitno zadržavanje („keep”), već preusmjerava kopiju uz sve ostale radnje koje se provode nad porukom."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:22
 #, kde-format
 msgid "Reject"
-msgstr ""
+msgstr "Odbij"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:88
 #, kde-format
 msgid ""
 " The \"reject\" action cancels the implicit keep and refuses delivery of a "
 "message."
-msgstr ""
+msgstr "Radnja „reject” poništava implicitno zadržavanje i odbija isporuku poruke."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionremoveflags.cpp:15
 #, kde-format
 msgid "Remove Flags"
-msgstr ""
+msgstr "Ukloni oznake"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionremoveflags.cpp:27
 #, kde-format
@@ -932,60 +986,60 @@ msgid ""
 "Removeflag is used to remove flags from a list of [IMAP] flags. Removeflag "
 "clears flags previously set by \"set\"/\"addflag\". Calling removeflag with "
 "a flag that wasn't set before is not an error and is ignored."
-msgstr ""
+msgstr "Removeflag se koristi za uklanjanje oznaka s popisa oznaka [IMAP]. Briše oznake koje su prethodno postavljene naredbom „set” ili „addflag”. Poziv removeflag s oznakom koja nije bila postavljena nije pogreška i zanemaruje se."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:26
 #, kde-format
 msgid "Replace"
-msgstr ""
+msgstr "Zamijeni"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "from:"
-msgstr ""
+msgstr "iz:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:144
 #, kde-format
 msgid ""
 "The \"replace\" command is defined to allow a MIME part to be replaced with "
 "the text supplied in the command."
-msgstr ""
+msgstr "Naredba „replace” omogućuje zamjenu MIME dijela tekstom navedenim u naredbi."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreturn.cpp:15
 #, kde-format
 msgid "Return"
-msgstr ""
+msgstr "Vrati"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreturn.cpp:32
 #, kde-format
 msgid ""
 "The \"return\" command stops processing of the immediately included script "
 "only and returns processing control to the script that includes it."
-msgstr ""
+msgstr "Naredba „return” zaustavlja obradu samo neposredno uključene skripte i vraća kontrolu obrade skripti koja ju je uključila."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetflags.cpp:15
 #, kde-format
 msgid "Set Flags"
-msgstr ""
+msgstr "Postavi oznake"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetflags.cpp:26
 #, kde-format
 msgid ""
 "Setflag is used for setting [IMAP] system flags or keywords. Setflag "
 "replaces any previously set flags."
-msgstr ""
+msgstr "Setflag se koristi za postavljanje sistemskih oznaka ili ključnih riječi [IMAP]. Zamjenjuje prethodno postavljene oznake."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:25
 #, kde-format
 msgid "Variable"
-msgstr ""
+msgstr "Varijabla"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:43
 #, kde-format
 msgctxt "@option:check"
 msgid "Protect special character"
-msgstr ""
+msgstr "Zaštiti posebne znakove"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:49
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:51
@@ -995,25 +1049,25 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Value:"
-msgstr ""
+msgstr "Vrijednost:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:58
 #, kde-format
 msgctxt "@label:textbox"
 msgid "In variable:"
-msgstr ""
+msgstr "U varijablu:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:107
 #, kde-format
 msgid "Script needs regex support, but server does not have it."
-msgstr ""
+msgstr "Skripta zahtijeva podršku za regularne izraze, ali je poslužitelj nema."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:170
 #, kde-format
 msgid ""
 "The \"set\" action stores the specified value in the variable identified by "
 "name."
-msgstr ""
+msgstr "Radnja „set” pohranjuje navedenu vrijednost u varijablu određenu nazivom."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetvariable.cpp:173
 #, kde-format
@@ -1022,48 +1076,48 @@ msgid ""
 "will only match a literal occurrence if used as a parameter to :regex.  "
 "Every character with special meaning (. , *, ? , etc.) is prefixed with \\ "
 "in the expansion"
-msgstr ""
+msgstr "Ovaj modifikator dodaje potrebne navodnike kako bi prošireni tekst, kada se koristi kao parametar za :regex, odgovarao samo doslovnom pojavljivanju. Svakom znaku s posebnim značenjem (. , *, ? itd.) u proširenju prethodi \\."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionstop.cpp:16
 #, kde-format
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionstop.cpp:27
 #, kde-format
 msgid ""
 "The \"stop\" action ends all processing.  If the implicit keep has not been "
 "cancelled, then it is taken."
-msgstr ""
+msgstr "Radnja „stop” završava svu obradu. Ako implicitno zadržavanje nije poništeno, poruka će se zadržati."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:28
 #, kde-format
 msgid "Vacation"
-msgstr ""
+msgstr "Odsutnost"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:47
 #, kde-format
 msgctxt "@label:textbox"
 msgid "day:"
-msgstr ""
+msgstr "dan:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:58
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Message subject:"
-msgstr ""
+msgstr "Predmet poruke:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:67
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Additional email:"
-msgstr ""
+msgstr "Dodatna adresa e-pošte:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:76
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Vacation reason:"
-msgstr ""
+msgstr "Razlog odsutnosti:"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:197
 #, kde-format
@@ -1072,7 +1126,7 @@ msgid ""
 "vacation command available under many versions of Unix. Its purpose is to "
 "provide correspondents with notification that the user is away for an "
 "extended period of time and that they should not expect quick responses."
-msgstr ""
+msgstr "Radnja „vacation” implementira automatski odgovor o odsutnosti, sličan naredbi vacation dostupnoj u mnogim inačicama Unixa. Svrha joj je obavijestiti dopisnike da je korisnik dulje vrijeme odsutan i da ne trebaju očekivati brze odgovore."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:201
 #, kde-format
@@ -1081,204 +1135,204 @@ msgid ""
 "same sender to one per [n] days, for a specified number of days. But there "
 "are cases when one needs more granularity, if one would like to generate "
 "\"vacation\" replies more frequently."
-msgstr ""
+msgstr "Parametrom „:days” broj automatskih odgovora istom pošiljatelju ograničava se na jedan tijekom navedenog broja dana. No ponekad je potrebna veća preciznost kako bi se odgovori o odsutnosti slali češće."
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:203
 #, kde-format
 msgid ""
 "This extension defines a \":seconds\" parameter to provide more granularity "
 "for such situations."
-msgstr ""
+msgstr "Ovo proširenje definira parametar „:seconds” za preciznije podešavanje takvih situacija."
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/addresslineedit.cpp:28
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Define Email Address…"
-msgstr ""
+msgstr "Odredite adresu e-pošte…"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/multilineedit.cpp:15
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Enter message…"
-msgstr ""
+msgstr "Unesite poruku…"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectaddheaderpositioncombobox.cpp:25
 #, kde-format
 msgid "Insert at the beginning"
-msgstr ""
+msgstr "Umetni na početak"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectaddheaderpositioncombobox.cpp:26
 #, kde-format
 msgid "Append at the end"
-msgstr ""
+msgstr "Dodaj na kraj"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Flags"
-msgstr ""
+msgstr "Oznake"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:74
 #, kde-format
 msgid "Deleted"
-msgstr ""
+msgstr "Izbrisano"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:77
 #, kde-format
 msgid "Answered"
-msgstr ""
+msgstr "Odgovoreno"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:80
 #, kde-format
 msgid "Flagged"
-msgstr ""
+msgstr "Označeno"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:83
 #, kde-format
 msgid "Seen"
-msgstr ""
+msgstr "Viđeno"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:88
 #, kde-format
 msgid "Draft"
-msgstr ""
+msgstr "Skica"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:125
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Click on button for selecting flags…"
-msgstr ""
+msgstr "Kliknite gumb za odabir oznaka…"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:129
 #, kde-format
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:130
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select Flags"
-msgstr ""
+msgstr "Odaberi oznake"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:27
 #, kde-format
 msgid "high importance"
-msgstr ""
+msgstr "visoka važnost"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:28
 #, kde-format
 msgid "normal importance"
-msgstr ""
+msgstr "uobičajena važnost"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:29
 #, kde-format
 msgid "low importance"
-msgstr ""
+msgstr "niska važnost"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvacationcombobox.cpp:26
 #, kde-format
 msgid "days"
-msgstr ""
+msgstr "dani"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvacationcombobox.cpp:27
 #, kde-format
 msgid "seconds"
-msgstr ""
+msgstr "sekunde"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:26
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:27
 #, kde-format
 msgid "Lower"
-msgstr ""
+msgstr "Mala slova"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:28
 #, kde-format
 msgid "Upper"
-msgstr ""
+msgstr "Velika slova"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:29
 #, kde-format
 msgid "Lower first letter"
-msgstr ""
+msgstr "Prvo slovo malo"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:30
 #, kde-format
 msgid "Upper first letter"
-msgstr ""
+msgstr "Prvo slovo veliko"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:31
 #, kde-format
 msgid "Quote wildcard"
-msgstr ""
+msgstr "Zaštiti zamjenske znakove"
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectvariablemodifiercombobox.cpp:32
 #, kde-format
 msgid "Length"
-msgstr ""
+msgstr "Duljina"
 
 #: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:66
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Please select an action."
-msgstr ""
+msgstr "Odaberite radnju."
 
 #: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:143
 #: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:113
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add comment"
-msgstr ""
+msgstr "Dodaj komentar"
 
 #: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:278
 #: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:225
 #, kde-format
 msgid "Script contains unsupported feature \"%1\""
-msgstr ""
+msgstr "Skripta sadrži nepodržanu značajku „%1”"
 
 #: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:414
 #, kde-format
 msgid "We detected a loop if in a loop if. It's not supported"
-msgstr ""
+msgstr "Otkrivena je petlja if unutar petlje if. To nije podržano."
 
 #: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:29
 #, kde-format
 msgid "Unknown tag \"%1\" during parsing condition \"%2\""
-msgstr ""
+msgstr "Pri raščlanjivanju uvjeta „%2” pronađena je nepoznata oznaka „%1”"
 
 #: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:39
 #, kde-format
 msgid ""
 "Too many argument found for \"%1\", max value is %2, number of value found "
 "%3 for %4"
-msgstr ""
+msgstr "Previše je argumenata za „%1”; najveća vrijednost je %2, a za %4 pronađeno je %3 vrijednosti"
 
 #: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:44
 #, kde-format
 msgid "An unknown tag value \"%1\" was found during parsing condition \"%2\"."
-msgstr ""
+msgstr "Pri raščlanjivanju uvjeta „%2” pronađena je nepoznata vrijednost oznake „%1”."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:27
 #, kde-format
 msgid "Address"
-msgstr ""
+msgstr "Adresa"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:56
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:58
 #, kde-format
 msgctxt "@label:textbox"
 msgid "address:"
-msgstr ""
+msgstr "adresa:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:63
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:66
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Use ; to separate emails"
-msgstr ""
+msgstr "Za razdvajanje adresa e-pošte koristite ;"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:98
 #, kde-format
@@ -1287,12 +1341,12 @@ msgid ""
 "contain addresses.  It returns true if any header contains any key in the "
 "specified part of the address, as modified by the comparator and the match "
 "keyword."
-msgstr ""
+msgstr "Test „address” podudara internetske adrese u strukturiranim zaglavljima koja sadrže adrese. Vraća istinito ako bilo koje zaglavlje sadrži ključ u navedenom dijelu adrese, uz primjenu usporednika i ključne riječi za podudaranje."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionbody.cpp:24
 #, kde-format
 msgid "Body"
-msgstr ""
+msgstr "Tijelo"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionbody.cpp:89
 #, kde-format
@@ -1300,56 +1354,56 @@ msgid ""
 "The body test matches content in the body of an email message, that is, "
 "anything following the first empty line after the header.  (The empty line "
 "itself, if present, is not considered to be part of the body.)"
-msgstr ""
+msgstr "Test tijela podudara sadržaj u tijelu poruke e-pošte, odnosno sve što slijedi nakon prvog praznog retka iza zaglavlja. (Sam prazan redak, ako postoji, ne smatra se dijelom tijela.)"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditioncurrentdate.cpp:23
 #, kde-format
 msgid "Currentdate"
-msgstr ""
+msgstr "Trenutačni datum"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditioncurrentdate.cpp:80
 #, kde-format
 msgid ""
 "The currentdate test is similar to the date test, except that it operates on "
 "the current date/time rather than a value extracted from the message header."
-msgstr ""
+msgstr "Test „currentdate” sličan je testu „date”, no koristi trenutačni datum i vrijeme umjesto vrijednosti izdvojene iz zaglavlja poruke."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiondate.cpp:27
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:43
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:238
 #, kde-format
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiondate.cpp:97
 #, kde-format
 msgid ""
 "The date test matches date/time information derived from headers containing "
 "date-time values."
-msgstr ""
+msgstr "Test „date” podudara podatke o datumu i vremenu izvedene iz zaglavlja koja sadrže vrijednosti datuma i vremena."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:28
 #, kde-format
 msgid "Envelope"
-msgstr ""
+msgstr "Omotnica"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:109
 #, kde-format
 msgid ""
 "The \"envelope\" test is true if the specified part of the [SMTP] (or "
 "equivalent) envelope matches the specified key."
-msgstr ""
+msgstr "Test „envelope” vraća istinito ako se navedeni dio omotnice [SMTP] (ili ekvivalentne omotnice) podudara s navedenim ključem."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:25
 #, kde-format
 msgid "Environment"
-msgstr ""
+msgstr "Okruženje"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:35
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Item:"
-msgstr ""
+msgstr "Stavka:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:92
 #, kde-format
@@ -1357,22 +1411,22 @@ msgid ""
 "The environment test retrieves the item of environment information specified "
 "by the name string and matches it to the values specified in the key-list "
 "argument."
-msgstr ""
+msgstr "Test okruženja dohvaća stavku podataka o okruženju navedenu nizom naziva i uspoređuje je s vrijednostima navedenima u argumentu popisa ključeva."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:24
 #, kde-format
 msgid "Exists"
-msgstr ""
+msgstr "Postoji"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:37
 #, kde-format
 msgid "exists"
-msgstr ""
+msgstr "postoji"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:38
 #, kde-format
 msgid "not exists"
-msgstr ""
+msgstr "ne postoji"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:65
 #, kde-format
@@ -1380,28 +1434,28 @@ msgid ""
 "The \"exists\" test is true if the headers listed in the header-names "
 "argument exist within the message.  All of the headers must exist or the "
 "test is false."
-msgstr ""
+msgstr "Test „exists” vraća istinito ako zaglavlja navedena u argumentu header-names postoje u poruci. Sva zaglavlja moraju postojati, inače je rezultat testa neistinit."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionfalse.cpp:22
 #, kde-format
 msgid "False"
-msgstr ""
+msgstr "Neistinito"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionfalse.cpp:33
 #, kde-format
 msgctxt "@label:textbox"
 msgid "false"
-msgstr ""
+msgstr "neistinito"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionfalse.cpp:45
 #, kde-format
 msgid "The \"false\" test always evaluates to false."
-msgstr ""
+msgstr "Test \"false\" uvijek daje rezultat false."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionhasflag.cpp:27
 #, kde-format
 msgid "Has Flag"
-msgstr ""
+msgstr "Ima oznaku"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionhasflag.cpp:49
 #, kde-format
@@ -1410,54 +1464,60 @@ msgid ""
 "Variable name\n"
 " (if empty it uses internal variable):"
 msgstr ""
+"Naziv varijable\n"
+" (ako je prazno, koristi se interna varijabla):"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionhasflag.cpp:130
 #, kde-format
 msgid ""
 "The hasflag test evaluates to true if any of the variables matches any flag "
 "name."
-msgstr ""
+msgstr "Test hasflag daje rezultat true ako se neka od varijabli podudara s bilo "
+"kojim nazivom oznake."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:25
 #, kde-format
 msgid "Header"
-msgstr ""
+msgstr "Zaglavlje"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:49
 #, kde-format
 msgctxt "@label:textbox"
 msgid "With value:"
-msgstr ""
+msgstr "S vrijednošću:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:79
 #, kde-format
 msgid ""
 "The \"header\" test evaluates to true if the value of any of the named "
 "headers, ignoring leading and trailing whitespace, matches any key."
-msgstr ""
+msgstr "Test \"header\" daje rezultat true ako se vrijednost bilo kojeg "
+"navedenog zaglavlja, zanemarujući početne i završne bjeline, podudara s "
+"nekim ključem."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionihave.cpp:23
 #, kde-format
 msgid "IHave"
-msgstr ""
+msgstr "IHave"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionihave.cpp:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Use \",\" to separate capabilities"
-msgstr ""
+msgstr "Za razdvajanje mogućnosti koristite „,”"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionihave.cpp:69
 #, kde-format
 msgid ""
 "The \"ihave\" test provides a means for Sieve scripts to test for the "
 "existence of a given extension prior to actually using it."
-msgstr ""
+msgstr "Test \"ihave\" omogućuje skriptama Sieve da provjere postoji li "
+"određeno proširenje prije nego što ga upotrijebe."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmailboxexists.cpp:22
 #, kde-format
 msgid "Mailbox exists"
-msgstr ""
+msgstr "Poštanski sandučić postoji"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmailboxexists.cpp:68
 #, kde-format
@@ -1465,12 +1525,15 @@ msgid ""
 "The \"mailboxexists\" test is true if all mailboxes listed in the \"mailbox-"
 "names\" argument exist in the mailstore, and each allows the user in whose "
 "context the Sieve script runs to \"deliver\" messages into it."
-msgstr ""
+msgstr "Test \"mailboxexists\" daje rezultat true ako sve mape navedene u "
+"argumentu \"mailbox-names\" postoje u spremištu pošte i svaka dopušta "
+"korisniku u čijem se kontekstu izvodi skripta Sieve da u nju \"isporučuje\" "
+"poruke."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadata.cpp:28
 #, kde-format
 msgid "Meta Data"
-msgstr ""
+msgstr "Metapodaci"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadata.cpp:48
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadataexists.cpp:35
@@ -1478,14 +1541,14 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Mailbox:"
-msgstr ""
+msgstr "Poštanski sandučić:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadata.cpp:58
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadata.cpp:56
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Annotations:"
-msgstr ""
+msgstr "Zabilješke:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadata.cpp:123
 #, kde-format
@@ -1494,31 +1557,35 @@ msgid ""
 "for the mailbox \"mailbox\". The retrieved value is compared to the \"key-"
 "list\". The test returns true if the annotation exists and its value matches "
 "any of the keys."
-msgstr ""
+msgstr "Ovaj test dohvaća vrijednost napomene mape \"annotation-name\" za "
+"mapu \"mailbox\". Dohvaćena se vrijednost uspoređuje s popisom \"key-list\". "
+"Test daje rezultat true ako napomena postoji i njezina se vrijednost "
+"podudara s nekim od ključeva."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadataexists.cpp:24
 #, kde-format
 msgid "Metadata exists"
-msgstr ""
+msgstr "Metapodaci postoje"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadataexists.cpp:44
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadataexists.cpp:33
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Annotation:"
-msgstr ""
+msgstr "Zabilješka:"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionmetadataexists.cpp:83
 #, kde-format
 msgid ""
 "The \"metadataexists\" test is true if all of the annotations listed in the "
 "\"annotation-names\" argument exist for the specified mailbox."
-msgstr ""
+msgstr "Test \"metadataexists\" daje rezultat true ako postoje sve napomene "
+"navedene u argumentu \"annotation-names\" za zadanu mapu."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadata.cpp:27
 #, kde-format
 msgid "Server Meta Data"
-msgstr ""
+msgstr "Metapodaci poslužitelja"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadata.cpp:121
 #, kde-format
@@ -1526,34 +1593,38 @@ msgid ""
 "This test retrieves the value of the server annotation \"annotation-name\".  "
 "The retrieved value is compared to the \"key-list\". The test returns true "
 "if the annotation exists and its value matches any of the keys."
-msgstr ""
+msgstr "Ovaj test dohvaća vrijednost napomene poslužitelja \"annotation-name\". "
+"Dohvaćena se vrijednost uspoređuje s popisom \"key-list\". Test daje "
+"rezultat true ako napomena postoji i njezina se vrijednost podudara s nekim "
+"od ključeva."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadataexists.cpp:22
 #, kde-format
 msgid "Server Meta Data Exists"
-msgstr ""
+msgstr "Metapodaci poslužitelja postoje"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionservermetadataexists.cpp:69
 #, kde-format
 msgid ""
 "The \"servermetadataexists\" test is true if all of the server annotations "
 "listed in the \"annotation-names\" argument exist."
-msgstr ""
+msgstr "Test \"servermetadataexists\" daje rezultat true ako postoje sve "
+"napomene poslužitelja navedene u argumentu \"annotation-names\"."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:22
 #, kde-format
 msgid "Size"
-msgstr ""
+msgstr "Veličina"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:35
 #, kde-format
 msgid "under"
-msgstr ""
+msgstr "manje od"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:36
 #, kde-format
 msgid "over"
-msgstr ""
+msgstr "više od"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:59
 #, kde-format
@@ -1561,18 +1632,20 @@ msgid ""
 "The \"size\" test deals with the size of a message.  It takes either a "
 "tagged argument of \":over\" or \":under\", followed by a number "
 "representing the size of the message."
-msgstr ""
+msgstr "Test \"size\" odnosi se na veličinu poruke. Uzima označeni argument "
+"\":over\" ili \":under\", nakon kojeg slijedi broj koji predstavlja veličinu "
+"poruke."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionspamtest.cpp:25
 #, kde-format
 msgid "Spam Test"
-msgstr ""
+msgstr "Test neželjene pošte"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionspamtest.cpp:38
 #, kde-format
 msgctxt "@option:check"
 msgid "Percent"
-msgstr ""
+msgstr "Postotak"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionspamtest.cpp:111
 #, kde-format
@@ -1580,300 +1653,302 @@ msgid ""
 "Sieve implementations that implement the \"spamtest\" test use an identifier "
 "of either \"spamtest\" or \"spamtestplus\" for use with the capability "
 "mechanism."
-msgstr ""
+msgstr "Implementacije Sievea koje podržavaju test \"spamtest\" koriste "
+"identifikator \"spamtest\" ili \"spamtestplus\" za mehanizam mogućnosti."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiontrue.cpp:22
 #, kde-format
 msgid "True"
-msgstr ""
+msgstr "Istinito"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiontrue.cpp:33
 #, kde-format
 msgctxt "@label:textbox"
 msgid "true"
-msgstr ""
+msgstr "istinito"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditiontrue.cpp:45
 #, kde-format
 msgid "The \"true\" test always evaluates to true."
-msgstr ""
+msgstr "Test \"true\" uvijek daje rezultat true."
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionvirustest.cpp:24
 #, kde-format
 msgid "Virus Test"
-msgstr ""
+msgstr "Test virusa"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionvirustest.cpp:92
 #, kde-format
 msgid ""
 "Sieve implementations that implement the \"virustest\" test have an "
 "identifier of \"virustest\" for use with the capability mechanism."
-msgstr ""
+msgstr "Implementacije Sievea koje podržavaju test \"virustest\" koriste "
+"identifikator \"virustest\" za mehanizam mogućnosti."
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:28
 #, kde-format
 msgid "all"
-msgstr ""
+msgstr "sve"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:29
 #, kde-format
 msgid "localpart"
-msgstr ""
+msgstr "lokalni dio"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:30
 #, kde-format
 msgid "domain"
-msgstr ""
+msgstr "domena"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:32
 #, kde-format
 msgid "user"
-msgstr ""
+msgstr "korisnik"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:33
 #, kde-format
 msgid "detail"
-msgstr ""
+msgstr "pojedinost"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:35
 #, kde-format
 msgid "raw"
-msgstr ""
+msgstr "neobrađeno"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:36
 #, kde-format
 msgid "content"
-msgstr ""
+msgstr "sadržaj"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:37
 #, kde-format
 msgid "text"
-msgstr ""
+msgstr "tekst"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:40
 #, kde-format
 msgid "Year"
-msgstr ""
+msgstr "Godina"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:41
 #, kde-format
 msgid "Month"
-msgstr ""
+msgstr "Mjesec"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:42
 #, kde-format
 msgid "Day"
-msgstr ""
+msgstr "Dan"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:44
 #, kde-format
 msgid "Julian"
-msgstr ""
+msgstr "Julijanski"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:45
 #, kde-format
 msgid "Hour"
-msgstr ""
+msgstr "Sat"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:46
 #, kde-format
 msgid "Minute"
-msgstr ""
+msgstr "Minuta"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:47
 #, kde-format
 msgid "Second"
-msgstr ""
+msgstr "Sekunda"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:48
 #, kde-format
 msgid "Time"
-msgstr ""
+msgstr "Vrijeme"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:49
 #, kde-format
 msgid "iso8601"
-msgstr ""
+msgstr "iso8601"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:50
 #, kde-format
 msgid "std11"
-msgstr ""
+msgstr "std11"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:51
 #, kde-format
 msgid "Zone"
-msgstr ""
+msgstr "Vremenska zona"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectdatewidget.cpp:52
 #, kde-format
 msgid "Weekday"
-msgstr ""
+msgstr "Dan u tjednu"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:28
 msgid "Select multiple headers…"
-msgstr ""
+msgstr "Odaberi više zaglavlja…"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:35
 #, kde-format
 msgctxt "@title:window"
 msgid "Headers"
-msgstr ""
+msgstr "Zaglavlja"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:54
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Add new header:"
-msgstr ""
+msgstr "Dodaj novo zaglavlje:"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:228
 #, kde-format
 msgid "From"
-msgstr ""
+msgstr "Od"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:229
 #, kde-format
 msgid "To"
-msgstr ""
+msgstr "Za"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:230
 #, kde-format
 msgid "Reply To"
-msgstr ""
+msgstr "Odgovor na"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:231
 #, kde-format
 msgid "Cc"
-msgstr ""
+msgstr "Kopija"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:232
 #, kde-format
 msgid "Bcc"
-msgstr ""
+msgstr "Skrivena kopija"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:233
 #, kde-format
 msgid "Resent From"
-msgstr ""
+msgstr "Ponovno poslano od"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:234
 #, kde-format
 msgid "Resent To"
-msgstr ""
+msgstr "Ponovno poslano za"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:235
 #, kde-format
 msgid "Sender"
-msgstr ""
+msgstr "Pošiljatelj"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:237
 #, kde-format
 msgid "Subject"
-msgstr ""
+msgstr "Predmet"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:239
 #, kde-format
 msgid "Message Id"
-msgstr ""
+msgstr "ID poruke"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:240
 #, kde-format
 msgid "Content type"
-msgstr ""
+msgstr "Vrsta sadržaja"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:57
 #, kde-format
 msgid "Value"
-msgstr ""
+msgstr "Vrijednost"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:58
 #, kde-format
 msgid "Count"
-msgstr ""
+msgstr "Broj"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:62
 #, kde-format
 msgid "Greater than"
-msgstr ""
+msgstr "Veće od"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:63
 #, kde-format
 msgid "Greater than or equal"
-msgstr ""
+msgstr "Veće ili jednako"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:64
 #, kde-format
 msgid "Less than"
-msgstr ""
+msgstr "Manje od"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:65
 #, kde-format
 msgid "Less than or equal"
-msgstr ""
+msgstr "Manje ili jednako"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:66
 #, kde-format
 msgid "Equal to"
-msgstr ""
+msgstr "Jednako"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectrelationalmatchtype.cpp:67
 #, kde-format
 msgid "Not equal to"
-msgstr ""
+msgstr "Nije jednako"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectsizetypecombobox.cpp:26
 #, kde-format
 msgid "Bytes"
-msgstr ""
+msgstr "Bajtovi"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectsizetypecombobox.cpp:27
 #, kde-format
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectsizetypecombobox.cpp:28
 #, kde-format
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectsizetypecombobox.cpp:29
 #, kde-format
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:58
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Please select an condition."
-msgstr ""
+msgstr "Odaberite uvjet."
 
 #: ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.cpp:32
 #, kde-format
 msgid "Sieve Script"
-msgstr ""
+msgstr "Skripta Sieve"
 
 #: ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.cpp:140
 #, kde-format
 msgid "Error during importing script. Do you want to switch to text mode?"
-msgstr ""
+msgstr "Pogreška pri uvozu skripte. Želite li prijeći u tekstualni način?"
 
 #: ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.cpp:142
 #, kde-format
 msgctxt "@action:button"
 msgid "Switch to Text Mode"
-msgstr ""
+msgstr "Prijeđi u tekstualni način"
 
 #: ksieveui/autocreatescripts/sieveeditorgraphicalmodewidget.cpp:143
 #, kde-format
 msgctxt "@action:button"
 msgid "Do Not Switch"
-msgstr ""
+msgstr "Nemoj prijeći"
 
 #: ksieveui/autocreatescripts/sieveforeverypartwidget.cpp:31
 #, kde-format
 msgctxt "@option:check"
 msgid "Add ForEveryPart loop"
-msgstr ""
+msgstr "Dodaj petlju ForEveryPart"
 
 #: ksieveui/autocreatescripts/sieveforeverypartwidget.cpp:63
 #, kde-format
@@ -1881,34 +1956,36 @@ msgid ""
 "\"foreverypart\", which is an iterator that walks though every MIME part of "
 "a message, including nested parts, depth first, and applies the commands in "
 "the specified block to each of them."
-msgstr ""
+msgstr "\"foreverypart\" je iterator koji prolazi kroz svaki MIME dio poruke, "
+"uključujući ugniježđene dijelove, najprije po dubini, i na svaki primjenjuje "
+"naredbe iz navedenog bloka."
 
 #: ksieveui/autocreatescripts/sieveforeverypartwidget.cpp:92
 #, kde-format
 msgid "Unknown tagValue \"%1\" during loading loop \"for\""
-msgstr ""
+msgstr "Nepoznata vrijednost oznake „%1” pri učitavanju petlje „for”"
 
 #: ksieveui/autocreatescripts/sieveforeverypartwidget.cpp:104
 #, kde-format
 msgid "Unknown tag \"%1\" during loading loop \"for\""
-msgstr ""
+msgstr "Nepoznata oznaka „%1” pri učitavanju petlje „for”"
 
 #: ksieveui/autocreatescripts/sieveglobalvariablewidget.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Variable name:"
-msgstr ""
+msgstr "Naziv varijable:"
 
 #: ksieveui/autocreatescripts/sieveglobalvariablewidget.cpp:68
 #, kde-format
 msgctxt "@option:check"
 msgid "Set value to:"
-msgstr ""
+msgstr "Postavi vrijednost na:"
 
 #: ksieveui/autocreatescripts/sieveglobalvariablewidget.cpp:132
 #, kde-format
 msgid "Unknown tag \"%1\" during loading of variables."
-msgstr ""
+msgstr "Nepoznata oznaka „%1” pri učitavanju varijabli."
 
 #: ksieveui/autocreatescripts/sieveglobalvariablewidget.cpp:182
 #, kde-format
@@ -1917,47 +1994,47 @@ msgid ""
 "\"global\" command.  If a script uses that variable name without declaring "
 "it global, the name specifies a separate, non-global variable within that "
 "script."
-msgstr ""
+msgstr "Varijabla ima globalni doseg u svim skriptama koje su je deklarirale naredbom „global”. Ako skripta koristi naziv te varijable bez globalne deklaracije, taj naziv označava zasebnu, neglobalnu varijablu unutar te skripte."
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:45
 #, kde-format
 msgid "personal"
-msgstr ""
+msgstr "osobno"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:46
 #, kde-format
 msgid "global"
-msgstr ""
+msgstr "globalno"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:60
 #, kde-format
 msgid "Unknown location type \"%1\" during parsing includes"
-msgstr ""
+msgstr "Nepoznata vrsta lokacije „%1” pri raščlanjivanju naredbi include"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:131
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Include:"
-msgstr ""
+msgstr "Uključi:"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:137
 #: ksieveui/templates/sievetemplateeditdialog.cpp:57
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:146
 #, kde-format
 msgctxt "@option:check"
 msgid "Optional"
-msgstr ""
+msgstr "Neobavezno"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:150
 #, kde-format
 msgctxt "@option:check"
 msgid "Once"
-msgstr ""
+msgstr "Jednom"
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:222
 #, kde-format
@@ -1966,134 +2043,134 @@ msgid ""
 "optional \":once\" parameter, an optional \":optional\" parameter, and a "
 "single string argument representing the name of the script to include for "
 "processing at that point."
-msgstr ""
+msgstr "Naredba „include” prima neobavezni parametar „location”, neobavezni parametar „:once”, neobavezni parametar „:optional” te jedan niz koji predstavlja naziv skripte koju treba uključiti i obraditi na tom mjestu."
 
 #: ksieveui/autocreatescripts/sieveincludewidget.cpp:343
 #, kde-format
 msgid "We can not add more includes elements."
-msgstr ""
+msgstr "Nije moguće dodati više elemenata include."
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:37
 #, kde-format
 msgid "Conditions"
-msgstr ""
+msgstr "Uvjeti"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:40
 #, kde-format
 msgctxt "@option:radio"
 msgid "Match all messages"
-msgstr ""
+msgstr "Podudari sve poruke"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:41
 #, kde-format
 msgctxt "@option:radio"
 msgid "Match a&ll of the following"
-msgstr ""
+msgstr "Podudari &sve sljedeće"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:42
 #, kde-format
 msgctxt "@option:radio"
 msgid "Match an&y of the following"
-msgstr ""
+msgstr "Podudari &bilo što od sljedećeg"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:70
 #, kde-format
 msgid "Actions"
-msgstr ""
+msgstr "Radnje"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:85
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Add new block:"
-msgstr ""
+msgstr "Dodaj novi blok:"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:89
 #, kde-format
 msgid "\"elsif\" block"
-msgstr ""
+msgstr "Blok „elsif”"
 
 #: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:90
 #, kde-format
 msgid "\"else\" block"
-msgstr ""
+msgstr "Blok „else”"
 
 #: ksieveui/autocreatescripts/sievescriptdescriptiondialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:131
 #, kde-format
 msgctxt "Move selected filter up."
 msgid "Up"
-msgstr ""
+msgstr "Gore"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:132
 #, kde-format
 msgctxt "Move selected filter down."
 msgid "Down"
-msgstr ""
+msgstr "Dolje"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:133
 #, kde-format
 msgctxt "Move selected filter to the top."
 msgid "Top"
-msgstr ""
+msgstr "Na vrh"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:134
 #, kde-format
 msgctxt "Move selected filter to the bottom."
 msgid "Bottom"
-msgstr ""
+msgstr "Na dno"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:146
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "New Script"
-msgstr ""
+msgstr "Nova skripta"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete Script"
-msgstr ""
+msgstr "Izbriši skriptu"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:156
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rename Script"
-msgstr ""
+msgstr "Preimenuj skriptu"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:162
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit Script Description"
-msgstr ""
+msgstr "Uredi opis skripte"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:191
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Script"
-msgstr ""
+msgstr "Nova skripta"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:196
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rename Script"
-msgstr ""
+msgstr "Preimenuj skriptu"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:201
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Edit Script Description"
-msgstr ""
+msgstr "Uredi opis skripte"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:206
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete Script"
-msgstr ""
+msgstr "Izbriši skriptu"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:260
 #: ksieveui/widgets/managesievewidget.cpp:244
@@ -2102,174 +2179,174 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "New Script"
-msgstr ""
+msgstr "Nova skripta"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:260
 #, kde-format
 msgid "New script name:"
-msgstr ""
+msgstr "Naziv nove skripte:"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:272
 #, kde-format
 msgid "Do you want to delete \"%1\" script?"
-msgstr ""
+msgstr "Želite li izbrisati skriptu „%1”?"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:273
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Script"
-msgstr ""
+msgstr "Brisanje skripte"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:293
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename Script"
-msgstr ""
+msgstr "Preimenovanje skripte"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:293
 #, kde-format
 msgid "New name for the script:"
-msgstr ""
+msgstr "Novi naziv skripte:"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:482
 #, kde-format
 msgid "forEveryPart is not supported by your server"
-msgstr ""
+msgstr "Vaš poslužitelj ne podržava forEveryPart"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:586
 #, kde-format
 msgid "Script part %1"
-msgstr ""
+msgstr "Dio skripte %1"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:39
 #, kde-format
 msgid "Includes"
-msgstr ""
+msgstr "Uključivanja"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:43
 #, kde-format
 msgid "Global Variable"
-msgstr ""
+msgstr "Globalna varijabla"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:49
 #, kde-format
 msgid "ForEveryPart"
-msgstr ""
+msgstr "ForEveryPart"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:98
 #, kde-format
 msgid ""
 "Script should always have just one \"Else\" block. We cannot add another one."
-msgstr ""
+msgstr "Skripta smije imati samo jedan blok „Else”. Nije moguće dodati drugi."
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:114
 #, kde-format
 msgid "Main block"
-msgstr ""
+msgstr "Glavni blok"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:116
 #, kde-format
 msgid "Block \"Elsif\""
-msgstr ""
+msgstr "Blok „Elsif”"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:118
 #, kde-format
 msgid "Block \"Else\""
-msgstr ""
+msgstr "Blok „Else”"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Parsing Error"
-msgstr ""
+msgstr "Pogreška raščlambe Sievea"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:37
 #: ksieveui/scriptsparsing/parsingresultdialog.cpp:40
 #, kde-format
 msgid "Save As…"
-msgstr ""
+msgstr "Spremi kao…"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:49
 #, kde-format
 msgid "Sieve script:"
-msgstr ""
+msgstr "Skripta Sieve:"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:51
 #, kde-format
 msgid "Errors reported:"
-msgstr ""
+msgstr "Prijavljene pogreške:"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:63
 #, kde-format
 msgid "All Files (*)"
-msgstr ""
+msgstr "Sve datoteke (*)"
 
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:64
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Log To File"
-msgstr ""
+msgstr "Spremi zapisnik u datoteku"
 
 #: ksieveui/autocreatescripts/sievescripttabwidget.cpp:47
 #: ksieveui/editor/sieveeditortabwidget.cpp:45
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
-msgstr ""
+msgstr "Zatvori karticu"
 
 #: ksieveui/debug/sievedebugdialog.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Diagnostics"
-msgstr ""
+msgstr "Dijagnostika Sievea"
 
 #: ksieveui/debug/sievedebugdialog.cpp:65
 #, kde-format
 msgid ""
 "Collecting diagnostic information about Sieve support…\n"
 "\n"
-msgstr ""
+msgstr "Prikupljanje dijagnostičkih podataka o podršci za Sieve…\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:68
 #, kde-format
 msgid "No IMAP resource found."
-msgstr ""
+msgstr "Nije pronađen resurs IMAP."
 
 #: ksieveui/debug/sievedebugdialog.cpp:92
 #, kde-format
 msgid ""
 "Unable to get the info\n"
 "\n"
-msgstr ""
+msgstr "Nije moguće dohvatiti podatke\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:110
 #, kde-format
 msgid "Collecting data for account '%1'…\n"
-msgstr ""
+msgstr "Prikupljanje podataka za račun „%1”…\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:111
 #, kde-format
 msgid "------------------------------------------------------------\n"
-msgstr ""
+msgstr "------------------------------------------------------------\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:125
 #, kde-format
 msgid ""
 "(Account does not support Sieve)\n"
 "\n"
-msgstr ""
+msgstr "(Račun ne podržava Sieve)\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:157
 #, kde-format
 msgid "Contents of script '%1':\n"
-msgstr ""
+msgstr "Sadržaj skripte „%1”:\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:191
 #, kde-format
 msgid ""
 "(This script is empty)\n"
 "\n"
-msgstr ""
+msgstr "(Ova je skripta prazna)\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:194
 #, kde-format
@@ -2278,437 +2355,438 @@ msgid ""
 "%1\n"
 "------------------------------------------------------------\n"
 "\n"
-msgstr ""
+msgstr "------------------------------------------------------------\n%1\n------------------------------------------------------------\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:212
 #, kde-format
 msgid "Sieve capabilities:\n"
-msgstr ""
+msgstr "Mogućnosti Sievea:\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:215
 #, kde-format
 msgid "(No special capabilities available)"
-msgstr ""
+msgstr "(Nema dostupnih posebnih mogućnosti)"
 
 #: ksieveui/debug/sievedebugdialog.cpp:223
 #, kde-format
 msgid "Available Sieve scripts:\n"
-msgstr ""
+msgstr "Dostupne skripte Sieve:\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:226
 #, kde-format
 msgid ""
 "(No Sieve scripts available on this server)\n"
 "\n"
-msgstr ""
+msgstr "(Na ovom poslužitelju nema dostupnih skripti Sieve)\n\n"
 
 #: ksieveui/debug/sievedebugdialog.cpp:233
 #, kde-format
 msgid ""
 "Active script: '%1'\n"
 "\n"
-msgstr ""
+msgstr "Aktivna skripta: '%1'\n"
+"\n"
 
 #: ksieveui/editor/sieveeditor.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Sieve Script"
-msgstr ""
+msgstr "Uređivanje skripte Sieve"
 
 #: ksieveui/editor/sieveeditor.cpp:171
 #, kde-format
 msgid "Script is modified. Do you want to close editor?"
-msgstr ""
+msgstr "Skripta je izmijenjena. Želite li zatvoriti uređivač?"
 
 #: ksieveui/editor/sieveeditor.cpp:173
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Editor"
-msgstr ""
+msgstr "Zatvori uređivač"
 
 #: ksieveui/editor/sieveeditor.cpp:174
 #, kde-format
 msgctxt "@action:button"
 msgid "Do Not Close"
-msgstr ""
+msgstr "Nemoj zatvoriti"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:32
 #, kde-format
 msgid "Sieve Files (*.siv);;All Files (*)"
-msgstr ""
+msgstr "Sieve datoteke (*.siv);;Sve datoteke (*)"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Script"
-msgstr ""
+msgstr "Spremanje skripte"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:59
 #, kde-format
 msgid "You will overwrite script. Do you want to continue?"
-msgstr ""
+msgstr "Prebrisat ćete skriptu. Želite li nastaviti?"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Script"
-msgstr ""
+msgstr "Uvoz skripte"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:67
 #, kde-format
 msgid "*.siv;;sieve files (*.siv);;all files (*)"
-msgstr ""
+msgstr "*.siv;;Sieve datoteke (*.siv);;Sve datoteke (*)"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:68
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Script Sieve"
-msgstr ""
+msgstr "Uvoz skripte Sieve"
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:74
 #, kde-format
 msgid ""
 "Could not load the file %1:\n"
 "\"%2\" is the detailed error description."
-msgstr ""
+msgstr "Nije moguće učitati datoteku %1:\n„%2” detaljan je opis pogreške."
 
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:78
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Editor Error"
-msgstr ""
+msgstr "Pogreška uređivača Sieve"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:65
 #, kde-format
 msgctxt "@action"
 msgid "Go to Line"
-msgstr ""
+msgstr "Idi na redak"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:70
 #, kde-format
 msgctxt "@action"
 msgid "Comment"
-msgstr ""
+msgstr "Zakomentiraj"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:74
 #, kde-format
 msgctxt "@action"
 msgid "Uncomment"
-msgstr ""
+msgstr "Odkomentiraj"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:78
 #, kde-format
 msgctxt "@action"
 msgid "Debug Sieve Script…"
-msgstr ""
+msgstr "Otklanjanje pogrešaka skripte Sieve…"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:96
 #, kde-format
 msgctxt "@action"
 msgid "Wordwrap"
-msgstr ""
+msgstr "Prelamanje redaka"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:113
 #, kde-format
 msgctxt "@title:menu"
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:116
 #, kde-format
 msgctxt "@title:menu"
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:136
 #, kde-format
 msgctxt "@title:menu"
 msgid "View"
-msgstr ""
+msgstr "Prikaz"
 
 #: ksieveui/editor/sieveeditormenubar.cpp:142
 #, kde-format
 msgctxt "@title:menu"
 msgid "Tools"
-msgstr ""
+msgstr "Alati"
 
 #: ksieveui/editor/sieveeditortabwidget.cpp:51
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
-msgstr ""
+msgstr "Zatvori sve ostale kartice"
 
 #: ksieveui/editor/sieveeditortabwidget.cpp:56
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close All Tabs"
-msgstr ""
+msgstr "Zatvori sve kartice"
 
 #: ksieveui/editor/sieveeditortabwidget.cpp:153
 #, kde-format
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: ksieveui/editor/sieveeditortabwidget.cpp:164
 #, kde-format
 msgid "Error during load page about %1"
-msgstr ""
+msgstr "Pogreška pri učitavanju stranice o %1"
 
 #: ksieveui/editor/sieveeditortabwidget.cpp:182
 #, kde-format
 msgid "Help about: %1"
-msgstr ""
+msgstr "Pomoć o: %1"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:64
 #, kde-format
 msgid "Sieve Template:"
-msgstr ""
+msgstr "Predložak Sieve:"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:89
 #, kde-format
 msgid "Editor"
-msgstr ""
+msgstr "Uređivač"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:143
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Show result from \"check syntax\""
-msgstr ""
+msgstr "Prikaži rezultat naredbe „provjeri sintaksu”"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:244
 #, kde-format
 msgid "Error during parsing"
-msgstr ""
+msgstr "Pogreška pri raščlanjivanju"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:274
 #, kde-format
 msgid "Selected text is not a full sieve script"
-msgstr ""
+msgstr "Odabrani tekst nije potpuna skripta Sieve"
 
 #: ksieveui/editor/sieveeditortextmodewidget.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Parsing error"
-msgstr ""
+msgstr "Pogreška raščlambe"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:42
 #, kde-format
 msgctxt "@action"
 msgid "Check Syntax"
-msgstr ""
+msgstr "Provjeri sintaksu"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:47
 #, kde-format
 msgid "Import…"
-msgstr ""
+msgstr "Uvezi…"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:49
 #, kde-format
 msgctxt "@action"
 msgid "Create Rules Graphically…"
-msgstr ""
+msgstr "Stvori pravila grafički…"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:63
 #, kde-format
 msgid "Share…"
-msgstr ""
+msgstr "Podijeli…"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:69
 #, kde-format
 msgctxt "@action"
 msgid "Server Info"
-msgstr ""
+msgstr "Informacije o poslužitelju"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:113
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Script name:"
-msgstr ""
+msgstr "Naziv skripte:"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:385
 #, kde-format
 msgid "Simple Mode"
-msgstr ""
+msgstr "Jednostavan način"
 
 #: ksieveui/editor/sieveeditorwidget.cpp:385
 #, kde-format
 msgid "Advanced Mode"
-msgstr ""
+msgstr "Napredni način"
 
 #: ksieveui/editor/sieveinfodialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Server Support"
-msgstr ""
+msgstr "Podrška poslužitelja Sieve"
 
 #: ksieveui/editor/sieveinfowidget.cpp:31
 #, kde-format
 msgid "Sieve server supports:"
-msgstr ""
+msgstr "Poslužitelj Sieve podržava:"
 
 #: ksieveui/editor/sievetextedit.cpp:320
 #, kde-format
 msgctxt "@action"
 msgid "Quick Ask"
-msgstr ""
+msgstr "Brzi upit"
 
 #: ksieveui/editor/sievetextedit.cpp:330
 #, kde-format
 msgctxt "@action"
 msgid "Insert Rule"
-msgstr ""
+msgstr "Umetni pravilo"
 
 #: ksieveui/editor/sievetextedit.cpp:344
 #, kde-format
 msgctxt "@action"
 msgid "Help about: '%1'"
-msgstr ""
+msgstr "Pomoć o: „%1”"
 
 #: ksieveui/editor/sievetextedit.cpp:353
 #, kde-format
 msgctxt "@action"
 msgid "Edit Rule"
-msgstr ""
+msgstr "Uredi pravilo"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:22
 #, kde-format
 msgid ""
 "Some errors were found during parsing. <a href=\"sieveerrordetails"
 "\">(Details…)</a>"
-msgstr ""
+msgstr "Pri raščlanjivanju su pronađene pogreške. <a href=\"sieveerrordetails\">(Pojedinosti…)</a>"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Switch to Graphical Mode"
-msgstr ""
+msgstr "Prijeđi u grafički način"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:31
 #, kde-format
 msgctxt "@action"
 msgid "Stay in Text Mode"
-msgstr ""
+msgstr "Ostani u tekstualnom načinu"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:37
 #, kde-format
 msgctxt "@action"
 msgid "Switch to Text Mode"
-msgstr ""
+msgstr "Prijeđi u tekstualni način"
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:41
 #, kde-format
 msgctxt "@action"
 msgid "Stay in Graphical Mode"
-msgstr ""
+msgstr "Ostani u grafičkom načinu"
 
 #: ksieveui/editor/warningwidget/sieveeditorwarning.cpp:18
 #, kde-format
 msgid "We cannot parse script. We cannot switch to graphical mode"
-msgstr ""
+msgstr "Nije moguće raščlaniti skriptu. Nije moguće prijeći u grafički način."
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:39
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:42
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:48
 #, kde-format
 msgctxt "Find text"
 msgid "F&ind:"
-msgstr ""
+msgstr "P&ronađi:"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:53
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Text to search for"
-msgstr ""
+msgstr "Tekst za pretraživanje"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:58
 #, kde-format
 msgctxt "Find and go to the next search match"
 msgid "Next"
-msgstr ""
+msgstr "Sljedeće"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Jump to next match"
-msgstr ""
+msgstr "Prijeđi na sljedeće podudaranje"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:64
 #, kde-format
 msgctxt "Find and go to the previous search match"
 msgid "Previous"
-msgstr ""
+msgstr "Prethodno"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:65
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Jump to previous match"
-msgstr ""
+msgstr "Prijeđi na prethodno podudaranje"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:71
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Mogućnosti"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:72
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Modify search behavior"
-msgstr ""
+msgstr "Izmijeni ponašanje pretraživanja"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:74
 #, kde-format
 msgid "Case sensitive"
-msgstr ""
+msgstr "Razlikuj velika i mala slova"
 
 #: ksieveui/editor/webengine/findbar/findbarbase.cpp:90
 #, kde-format
 msgid "Phrase not found"
-msgstr ""
+msgstr "Izraz nije pronađen"
 
 #: ksieveui/editor/webengine/sieveeditorwebengineview.cpp:51
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Web Page"
-msgstr ""
+msgstr "Spremanje web-stranice"
 
 #: ksieveui/managesievescriptsdialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Sieve Scripts"
-msgstr ""
+msgstr "Upravljanje skriptama Sieve"
 
 #: ksieveui/managesievescriptsdialog.cpp:89
 #, kde-format
 msgctxt "create a new sieve script"
 msgid "New…"
-msgstr ""
+msgstr "Nova…"
 
 #: ksieveui/managesievescriptsdialog.cpp:93
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit…"
-msgstr ""
+msgstr "Uredi…"
 
 #: ksieveui/managesievescriptsdialog.cpp:97
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: ksieveui/managesievescriptsdialog.cpp:101
 #, kde-format
 msgctxt "@action:button"
 msgid "Deactivate"
-msgstr ""
+msgstr "Deaktiviraj"
 
 #: ksieveui/managesievescriptsdialog.cpp:183
 #: ksieveui/managesievescriptsdialog.cpp:275
@@ -2716,23 +2794,23 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Error"
-msgstr ""
+msgstr "Pogreška Sievea"
 
 #: ksieveui/managesievescriptsdialog.cpp:219
 #, kde-format
 msgid "Uploading script to server for checking it, please wait…"
-msgstr ""
+msgstr "Skripta se prenosi na poslužitelj radi provjere, pričekajte…"
 
 #: ksieveui/managesievescriptsdialog.cpp:265
 #, kde-format
 msgid "The Sieve script was successfully uploaded."
-msgstr ""
+msgstr "Skripta Sieve uspješno je prenesena."
 
 #: ksieveui/managesievescriptsdialog.cpp:265
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Script Upload"
-msgstr ""
+msgstr "Prijenos skripte Sieve"
 
 #: ksieveui/managesievescriptsdialog.cpp:272
 #, kde-format
@@ -2740,52 +2818,52 @@ msgid ""
 "Uploading the Sieve script failed.\n"
 "The server responded:\n"
 "%1"
-msgstr ""
+msgstr "Prijenos skripte Sieve nije uspio.\nOdgovor poslužitelja:\n%1"
 
 #: ksieveui/scriptsparsing/parsingresultdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Sieve Parsing"
-msgstr ""
+msgstr "Raščlamba Sievea"
 
 #: ksieveui/scriptsparsing/parsingresultdialog.cpp:70
 #, kde-format
 msgid "XML Files (*.xml);;All Files (*)"
-msgstr ""
+msgstr "XML datoteke (*.xml);;Sve datoteke (*)"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Sieve Script"
-msgstr ""
+msgstr "Otklanjanje pogrešaka skripte Sieve"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerdialog.cpp:43
 #, kde-format
 msgid "Apply Changes"
-msgstr ""
+msgstr "Primijeni promjene"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerdialog.cpp:52
 #, kde-format
 msgctxt "@action:button"
 msgid "Debug"
-msgstr ""
+msgstr "Otkloni pogreške"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerdialog.cpp:53
 #, kde-format
 msgid "Debug"
-msgstr ""
+msgstr "Otkloni pogreške"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:47
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email path:"
-msgstr ""
+msgstr "Putanja e-pošte:"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extension:"
-msgstr ""
+msgstr "Proširenje:"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:66
 #, kde-format
@@ -2793,50 +2871,50 @@ msgctxt "@info:placeholder"
 msgid ""
 "Activate extension with \"+<name of extension>\", deactivate it with \"-"
 "<name of extension>\""
-msgstr ""
+msgstr "Aktivirajte proširenje s „+<naziv proširenja>”, a deaktivirajte ga s „-<naziv proširenja>”."
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:98
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Display check script result…"
-msgstr ""
+msgstr "Prikaži rezultat provjere skripte…"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:146
 #, kde-format
 msgid "Script text is empty."
-msgstr ""
+msgstr "Tekst skripte je prazan."
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:150
 #, kde-format
 msgid "Email file must be installed locally."
-msgstr ""
+msgstr "Datoteka e-pošte mora biti instalirana lokalno."
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:156
 #, kde-format
 msgid "Failed to open temporary file."
-msgstr ""
+msgstr "Nije uspjelo otvaranje privremene datoteke."
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:221
 #, kde-format
 msgid "Script still contains debug method. Remove it please."
-msgstr ""
+msgstr "Skripta još sadrži metodu za otklanjanje pogrešaka. Uklonite je."
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerresulteditor.cpp:29
 #, kde-format
 msgctxt "@action"
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerresulteditor.cpp:40
 #, kde-format
 msgid "Text Files (*.txt);;All Files (*)"
-msgstr ""
+msgstr "Tekstualne datoteke (*.txt);;Sve datoteke (*)"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggertextedit.cpp:31
 #, kde-format
 msgctxt "@action"
 msgid "Add debug here"
-msgstr ""
+msgstr "Ovdje dodaj otklanjanje pogrešaka"
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerwidget.cpp:37
 #, kde-format
@@ -2844,94 +2922,95 @@ msgctxt "@label:textbox"
 msgid ""
 "\"sieve-test\" was not found on system. Please install it. (See in Dovecot "
 "package)"
-msgstr ""
+msgstr "\"sieve-test\" nije pronađen na sustavu. Instalirajte ga. (Pogledajte "
+"paket Dovecot.)"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:16
 #, kde-format
 msgid "Filter on Mailing List-ID"
-msgstr ""
+msgstr "Filtriraj prema ID-u popisa e-pošte"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:25
 #, kde-format
 msgid "Filter on Subject"
-msgstr ""
+msgstr "Filtriraj prema predmetu"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:33
 #, kde-format
 msgid "Filter on Spamassassin"
-msgstr ""
+msgstr "Filtriraj prema Spamassassinu"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:41
 #, kde-format
 msgid "Flag messages"
-msgstr ""
+msgstr "Označi poruke"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:49
 #, kde-format
 msgid "Forward Message"
-msgstr ""
+msgstr "Proslijedi poruku"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:57
 #, kde-format
 msgid "Forward Message and add copy"
-msgstr ""
+msgstr "Proslijedi poruku i dodaj kopiju"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:66
 #, kde-format
 msgid "Destroy mail posted by…"
-msgstr ""
+msgstr "Uništi poruke koje je objavio/la…"
 
 #: ksieveui/templates/sievedefaulttemplate.cpp:79
 #, kde-format
 msgid "Vacations"
-msgstr ""
+msgstr "Odsutnost"
 
 #: ksieveui/templates/sievetemplateeditdialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Default template"
-msgstr ""
+msgstr "Zadani predložak"
 
 #: ksieveui/templates/sievetemplateeditdialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Template"
-msgstr ""
+msgstr "Predložak"
 
 #: ksieveui/templates/sievetemplatewidget.cpp:110
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr ""
+msgstr "Element možete povući i ispustiti u uređivač kako biste uvezli predložak"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:49
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure \"Out of Office\" Replies"
-msgstr ""
+msgstr "Podešavanje odgovora o odsutnosti iz ureda"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:75
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to cancel?"
-msgstr ""
+msgstr "Želite li zaista odustati?"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:76
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirmation"
-msgstr ""
+msgstr "Potvrda"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Editing"
-msgstr ""
+msgstr "Odustani od uređivanja"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:78
 #, kde-format
 msgctxt "@action:button"
 msgid "Do Not Cancel"
-msgstr ""
+msgstr "Nemoj odustati"
 
 #: ksieveui/vacation/multiimapvacationdialog.cpp:108
 #, kde-format
@@ -2940,75 +3019,77 @@ msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. "
 "You have not yet configured an IMAP server for this. You can do this on the "
 "\"Filtering\" tab of the IMAP account configuration."
-msgstr ""
+msgstr "Funkcionalnost KMailova odgovora o odsutnosti oslanja se na filtriranje "
+"na poslužitelju. Za to još niste konfigurirali IMAP poslužitelj. To možete "
+"učiniti na kartici \"Filtriranje\" u konfiguraciji IMAP računa."
 
 #: ksieveui/vacation/vacationeditwidget.cpp:53
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Configure vacation notifications to be sent:"
-msgstr ""
+msgstr "Podesite obavijesti o odsutnosti koje će se slati:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:61
 #, kde-format
 msgctxt "@option:check"
 msgid "&Activate vacation notifications"
-msgstr ""
+msgstr "&Aktiviraj obavijesti o odsutnosti"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:81
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&Subject of the vacation mail:"
-msgstr ""
+msgstr "&Predmet poruke o odsutnosti:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:113
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Start date:"
-msgstr ""
+msgstr "Datum početka:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:143
 #, kde-format
 msgctxt "@label:textbox"
 msgid "End date:"
-msgstr ""
+msgstr "Datum završetka:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:166
 #: ksieveui/vacation/vacationeditwidget.cpp:312
 #, kde-format
 msgid " day"
 msgid_plural " days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " dan"
+msgstr[1] " dana"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:168
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&Resend notification only after:"
-msgstr ""
+msgstr "&Ponovno pošalji obavijest tek nakon:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:181
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&Send responses for these addresses:"
-msgstr ""
+msgstr "&Šalji odgovore za ove adrese:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:207
 #, kde-format
 msgctxt "@label:textbox"
 msgid "&Action for incoming mails:"
-msgstr ""
+msgstr "&Radnja za dolaznu poštu:"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:215
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not send vacation replies to spam messages"
-msgstr ""
+msgstr "Ne šalji odgovore o odsutnosti na neželjene poruke"
 
 #: ksieveui/vacation/vacationeditwidget.cpp:223
 #, kde-format
 msgctxt "@option:check"
 msgid "Only react to mail coming from domain:"
-msgstr ""
+msgstr "Odgovaraj samo na poštu s domene:"
 
 #: ksieveui/vacation/vacationmanager.cpp:57
 #, kde-format
@@ -3016,24 +3097,26 @@ msgid ""
 "There is still an active out-of-office reply configured.\n"
 "Do you want to edit it?"
 msgstr ""
+"Još je konfiguriran aktivan odgovor o odsutnosti iz ureda.\n"
+"Želite li ga urediti?"
 
 #: ksieveui/vacation/vacationmanager.cpp:59
 #, kde-format
 msgctxt "@title:window"
 msgid "Out-of-office reply still active"
-msgstr ""
+msgstr "Odgovor o odsutnosti iz ureda još je aktivan"
 
 #: ksieveui/vacation/vacationmanager.cpp:60
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: ksieveui/vacation/vacationmanager.cpp:61
 #, kde-format
 msgctxt "@action:button"
 msgid "Ignore"
-msgstr ""
+msgstr "Zanemari"
 
 #: ksieveui/vacation/vacationpagewidget.cpp:48
 #, kde-format
@@ -3043,6 +3126,9 @@ msgid ""
 "extensions;without it, KMail cannot install out-of-office replies for you."
 "Please contact your system administrator."
 msgstr ""
+"Vaš poslužitelj nije naveo „vacation” na popisu podržanih proširenja Sieve; "
+"bez njega KMail vam ne može postaviti odgovore o odsutnosti iz ureda. "
+"Obratite se administratoru sustava."
 
 #: ksieveui/vacation/vacationwarningwidget.cpp:20
 #, kde-format
@@ -3051,104 +3137,107 @@ msgid ""
 "no longer able to determine the parameters for the autoreplies. Default "
 "values will be used."
 msgstr ""
+"Netko (vjerojatno vi) promijenio je skriptu za odsutnost na poslužitelju. "
+"KMail više ne može odrediti parametre automatskih odgovora. Koristit će se "
+"zadane vrijednosti."
 
 #: ksieveui/widgets/custommanagesievewidget.cpp:94
 #, kde-format
 msgid "No Sieve URL configured"
-msgstr ""
+msgstr "Nije podešen URL Sievea"
 
 #: ksieveui/widgets/managesievetreeview.cpp:16
 #: ksieveui/widgets/managesievetreeview.cpp:30
 #, kde-format
 msgid "No IMAP server configured…"
-msgstr ""
+msgstr "Nije podešen poslužitelj IMAP…"
 
 #: ksieveui/widgets/managesievetreeview.cpp:20
 #, kde-format
 msgid "Available Scripts"
-msgstr ""
+msgstr "Dostupne skripte"
 
 #: ksieveui/widgets/managesievetreeview.cpp:39
 #, kde-format
 msgid "Network down."
-msgstr ""
+msgstr "Mreža nije dostupna."
 
 #: ksieveui/widgets/managesievewidget.cpp:152
 #, kde-format
 msgid "Edit Script…"
-msgstr ""
+msgstr "Uredi skriptu…"
 
 #: ksieveui/widgets/managesievewidget.cpp:153
 #, kde-format
 msgid "Rename Script…"
-msgstr ""
+msgstr "Preimenuj skriptu…"
 
 #: ksieveui/widgets/managesievewidget.cpp:155
 #, kde-format
 msgid "Delete Script"
-msgstr ""
+msgstr "Izbriši skriptu"
 
 #: ksieveui/widgets/managesievewidget.cpp:158
 #, kde-format
 msgid "Deactivate Script"
-msgstr ""
+msgstr "Deaktiviraj skriptu"
 
 #: ksieveui/widgets/managesievewidget.cpp:164
 #, kde-format
 msgid "New Script…"
-msgstr ""
+msgstr "Nova skripta…"
 
 #: ksieveui/widgets/managesievewidget.cpp:236
 #, kde-format
 msgid "New Sieve Script"
-msgstr ""
+msgstr "Nova skripta Sieve"
 
 #: ksieveui/widgets/managesievewidget.cpp:237
 #, kde-format
 msgid "Please enter a name for the new Sieve script:"
-msgstr ""
+msgstr "Unesite naziv nove skripte Sieve:"
 
 #: ksieveui/widgets/managesievewidget.cpp:239
 #, kde-format
 msgid "unnamed"
-msgstr ""
+msgstr "bez naziva"
 
 #: ksieveui/widgets/managesievewidget.cpp:244
 #, kde-format
 msgid "Empty name is not a valid name"
-msgstr ""
+msgstr "Prazan naziv nije valjan"
 
 #: ksieveui/widgets/managesievewidget.cpp:251
 #, kde-format
 msgid "You cannot use protected name."
-msgstr ""
+msgstr "Ne možete koristiti zaštićeni naziv."
 
 #: ksieveui/widgets/managesievewidget.cpp:262
 #, kde-format
 msgid "Script name already used \"%1\"."
-msgstr ""
+msgstr "Naziv skripte „%1” već se koristi."
 
 #: ksieveui/widgets/managesievewidget.cpp:447
 #: ksieveui/widgets/managesievewidget.cpp:475
 #, kde-format
 msgid "Rename Script"
-msgstr ""
+msgstr "Preimenuj skriptu"
 
 #: ksieveui/widgets/managesievewidget.cpp:447
 #, kde-format
 msgid "Script Name:"
-msgstr ""
+msgstr "Naziv skripte:"
 
 #: ksieveui/widgets/managesievewidget.cpp:510
 #, kde-format
 msgid "Really delete script \"%1\" from the server?"
-msgstr ""
+msgstr "Želite li zaista izbrisati skriptu „%1” s poslužitelja?"
 
 #: ksieveui/widgets/managesievewidget.cpp:511
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Sieve Script Confirmation"
-msgstr ""
+msgstr "Potvrda brisanja skripte Sieve"
 
 #: ksieveui/widgets/managesievewidget.cpp:529
 #, kde-format
@@ -3157,14 +3246,17 @@ msgid ""
 "The server responded:\n"
 "%1"
 msgstr ""
+"Brisanje skripte nije uspjelo.\n"
+"Odgovor poslužitelja:\n"
+"%1"
 
 #: ksieveui/widgets/managesievewidget.cpp:581
 #, kde-format
 msgid "Failed to fetch the list of scripts"
-msgstr ""
+msgstr "Dohvaćanje popisa skripti nije uspjelo"
 
 #: ksieveui/widgets/moveimapfolderwidget.cpp:24
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Define Folder"
-msgstr ""
+msgstr "Odredite mapu"

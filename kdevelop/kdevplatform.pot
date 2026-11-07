@@ -32,74 +32,74 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: debugger/breakpoint/breakpoint.cpp:201
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Dirty"
-msgstr ""
+msgstr "Izmijenjeno"
 
 #: debugger/breakpoint/breakpoint.cpp:203
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pending"
-msgstr ""
+msgstr "Na čekanju"
 
 #: debugger/breakpoint/breakpoint.cpp:205
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clean"
-msgstr ""
+msgstr "Čisto"
 
 #: debugger/breakpoint/breakpoint.cpp:238
 #, kde-format
 msgctxt "location (address)"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: debugger/breakpoint/breakpointdetails.cpp:48
 #: debugger/breakpoint/breakpointdetails.cpp:127
 #, kde-format
 msgid "Not hit yet"
-msgstr ""
+msgstr "Još nije aktivirana"
 
 #: debugger/breakpoint/breakpointdetails.cpp:52
 #, kde-format
 msgid "Ignore"
-msgstr ""
+msgstr "Zanemari"
 
 #: debugger/breakpoint/breakpointdetails.cpp:60
 #, kde-format
 msgid "next hits"
-msgstr ""
+msgstr "sljedećih pogodaka"
 
 #: debugger/breakpoint/breakpointdetails.cpp:112
 #, kde-format
 msgid "Breakpoint is <a href=\"pending\">pending</a>"
-msgstr ""
+msgstr "Prijelomna točka je <a href=\"pending\">na čekanju</a>"
 
 #: debugger/breakpoint/breakpointdetails.cpp:115
 #, kde-format
 msgid "Breakpoint is <a href=\"dirty\">dirty</a>"
-msgstr ""
+msgstr "Prijelomna točka je <a href=\"dirty\">izmijenjena</a>"
 
 #: debugger/breakpoint/breakpointdetails.cpp:118
 #, kde-format
 msgid "Breakpoint is active"
-msgstr ""
+msgstr "Prijelomna točka je aktivna"
 
 #: debugger/breakpoint/breakpointdetails.cpp:125
 #, kde-format
 msgid "Hit %1 time"
 msgid_plural "Hit %1 times"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 put"
+msgstr[1] "%1 puta"
 
 #: debugger/breakpoint/breakpointdetails.cpp:129
 #, kde-format
 msgid "Breakpoint has errors"
-msgstr ""
+msgstr "Prijelomna točka sadrži pogreške"
 
 #: debugger/breakpoint/breakpointdetails.cpp:142
 #, kde-format
@@ -110,75 +110,80 @@ msgid ""
 "common case is a breakpoint in a shared library: GDB will insert this "
 "breakpoint only when the library is loaded.</p>"
 msgstr ""
+"<b>Prijelomna točka je na čekanju</b><p>Prijelomne točke na čekanju predane "
+"su GDB-u, ali još nisu postavljene u ciljnom programu jer GDB ne može "
+"pronaći funkciju ili datoteku na koju se prijelomna točka odnosi. Najčešći "
+"je slučaj prijelomna točka u dijeljenoj biblioteci: GDB će je umetnuti tek "
+"kada se biblioteka učita.</p>"
 
 #: debugger/breakpoint/breakpointdetails.cpp:155
 #, kde-format
 msgid ""
 "<b>Breakpoint is dirty</b><p>The breakpoint has not yet been passed to the "
 "debugger.</p>"
-msgstr ""
+msgstr "<b>Prijelomna točka je izmijenjena</b><p>Prijelomna točka još nije predana programu za ispravljanje pogrešaka.</p>"
 
 #: debugger/breakpoint/breakpointmodel.cpp:119
 #, kde-format
 msgid "Breakpoint"
-msgstr ""
+msgstr "Prijelomna točka"
 
 #: debugger/breakpoint/breakpointmodel.cpp:357
 #, kde-format
 msgid "Breakpoint not found"
-msgstr ""
+msgstr "Prijelomna točka nije pronađena"
 
 #: debugger/breakpoint/breakpointmodel.cpp:357
 #, kde-format
 msgid "Couldn't find breakpoint at %1:%2"
-msgstr ""
+msgstr "Nije moguće pronaći prijelomnu točku na %1:%2"
 
 #: debugger/breakpoint/breakpointmodel.cpp:363
 #, kde-format
 msgid "&Breakpoint"
-msgstr ""
+msgstr "&Prijelomna točka"
 
 #: debugger/breakpoint/breakpointmodel.cpp:369
 #, kde-format
 msgid "&Disable Breakpoint"
-msgstr ""
+msgstr "&Onemogući prijelomnu točku"
 
 #: debugger/breakpoint/breakpointmodel.cpp:370
 #, kde-format
 msgid "&Enable Breakpoint"
-msgstr ""
+msgstr "&Omogući prijelomnu točku"
 
 #: debugger/breakpoint/breakpointmodel.cpp:373
 #, kde-format
 msgid "&Bookmark"
-msgstr ""
+msgstr "&Knjižna oznaka"
 
 #: debugger/breakpoint/breakpointmodel.cpp:415
 #: debugger/variable/variablecollection.cpp:422
 #: debugger/variable/variabletooltip.cpp:79
 #, kde-format
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #: debugger/breakpoint/breakpointmodel.cpp:416
 #, kde-format
 msgid "Location"
-msgstr ""
+msgstr "Položaj"
 
 #: debugger/breakpoint/breakpointmodel.cpp:417
 #, kde-format
 msgid "Condition"
-msgstr ""
+msgstr "Uvjet"
 
 #: debugger/breakpoint/breakpointmodel.cpp:421
 #, kde-format
 msgid "Active status"
-msgstr ""
+msgstr "Aktivan status"
 
 #: debugger/breakpoint/breakpointmodel.cpp:422
 #, kde-format
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: debugger/breakpoint/breakpointmodel.cpp:646
 #, kde-format
@@ -186,12 +191,14 @@ msgid ""
 "A breakpoint cannot be added to an untitled document. Please save the "
 "document first."
 msgstr ""
+"Prijelomnu točku nije moguće dodati dokumentu bez naslova. Najprije spremite "
+"dokument."
 
 #: debugger/breakpoint/breakpointwidget.cpp:59
 #, kde-format
 msgctxt "@title:window"
 msgid "Debugger Breakpoints"
-msgstr ""
+msgstr "Prijelomne točke programa za ispravljanje pogrešaka"
 
 #: debugger/breakpoint/breakpointwidget.cpp:60
 #, kde-format
@@ -201,99 +208,102 @@ msgid ""
 "breakpoint item allows you to change the breakpoint and will take you to the "
 "source in the editor window."
 msgstr ""
+"Prikazuje popis prijelomnih točaka i njihovo trenutačno stanje. Klikom na "
+"stavku prijelomne točke možete je promijeniti i prijeći na njezin izvorni "
+"kod u prozoru uređivača."
 
 #: debugger/breakpoint/breakpointwidget.cpp:86
 #, kde-format
 msgid "Breakpoint Details"
-msgstr ""
+msgstr "Pojedinosti prijelomne točke"
 
 #: debugger/breakpoint/breakpointwidget.cpp:95
 #, kde-format
 msgid "New code breakpoint ..."
-msgstr ""
+msgstr "Nova prijelomna točka koda..."
 
 #: debugger/breakpoint/breakpointwidget.cpp:96
 #, kde-format
 msgid "Enter condition ..."
-msgstr ""
+msgstr "Unesite uvjet..."
 
 #: debugger/breakpoint/breakpointwidget.cpp:124
 #, kde-format
 msgctxt "New breakpoint"
 msgid "&New"
-msgstr ""
+msgstr "&Novo"
 
 #: debugger/breakpoint/breakpointwidget.cpp:128
 #, kde-format
 msgctxt "Code breakpoint"
 msgid "&Code"
-msgstr ""
+msgstr "&Kod"
 
 #: debugger/breakpoint/breakpointwidget.cpp:136
 #, kde-format
 msgctxt "Data breakpoint"
 msgid "Data &Write"
-msgstr ""
+msgstr "&Zapis podataka"
 
 #: debugger/breakpoint/breakpointwidget.cpp:139
 #, kde-format
 msgctxt "Data read breakpoint"
 msgid "Data &Read"
-msgstr ""
+msgstr "&Čitanje podataka"
 
 #: debugger/breakpoint/breakpointwidget.cpp:142
 #, kde-format
 msgctxt "Data access breakpoint"
 msgid "Data &Access"
-msgstr ""
+msgstr "&Pristup podacima"
 
 #: debugger/breakpoint/breakpointwidget.cpp:147
 #, kde-format
 msgid "&Delete"
-msgstr ""
+msgstr "&Izbriši"
 
 #: debugger/breakpoint/breakpointwidget.cpp:156
 #, kde-format
 msgid "Disable &All"
-msgstr ""
+msgstr "Onemogući &sve"
 
 #: debugger/breakpoint/breakpointwidget.cpp:157
 #, kde-format
 msgid "&Enable All"
-msgstr ""
+msgstr "&Omogući sve"
 
 #: debugger/breakpoint/breakpointwidget.cpp:158
 #, kde-format
 msgid "&Remove All"
-msgstr ""
+msgstr "Uk&loni sve"
 
 #: debugger/framestack/framestackmodel.cpp:187
 #, kde-format
 msgctxt "#thread-id at function-name or address"
 msgid "#%1 at %2 (crashed)"
-msgstr ""
+msgstr "#%1 na %2 (srušeno)"
 
 #: debugger/framestack/framestackmodel.cpp:189
 #, kde-format
 msgctxt "#thread-id at function-name or address"
 msgid "#%1 at %2"
-msgstr ""
+msgstr "#%1 na %2"
 
 #: debugger/framestack/framestackmodel.cpp:290
 #, kde-format
 msgid "Depth"
-msgstr ""
+msgstr "Dubina"
 
 #: debugger/framestack/framestackmodel.cpp:292
 #: language/duchain/navigation/abstractnavigationcontext.cpp:522
 #, kde-format
 msgid "Function"
-msgstr ""
+msgstr "Funkcija"
 
 #: debugger/framestack/framestackmodel.cpp:294
 #, kde-format
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #: debugger/framestack/framestackwidget.cpp:68
 #, kde-format
@@ -307,7 +317,7 @@ msgstr ""
 #: debugger/framestack/framestackwidget.cpp:104
 #, kde-format
 msgid "Threads:"
-msgstr ""
+msgstr "Dretve:"
 
 #: debugger/framestack/framestackwidget.cpp:231
 #, kde-format
@@ -324,43 +334,43 @@ msgstr ""
 #: debugger/interfaces/ibreakpointcontroller.cpp:87
 #, kde-format
 msgid "Breakpoint hit: %1"
-msgstr ""
+msgstr "Prijelomna točka aktivirana: %1"
 
 #: debugger/interfaces/ibreakpointcontroller.cpp:93
 #, kde-format
 msgid "Watchpoint hit: %1"
-msgstr ""
+msgstr "Nadzorna točka aktivirana: %1"
 
 #: debugger/util/pathmappings.cpp:86
 #, kde-format
 msgid "Remote Path"
-msgstr ""
+msgstr "Udaljena putanja"
 
 #: debugger/util/pathmappings.cpp:88
 #, kde-format
 msgid "Local Path"
-msgstr ""
+msgstr "Lokalna putanja"
 
 #: debugger/util/pathmappings.cpp:217
 #, kde-format
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: debugger/variable/variablecollection.cpp:221
 #: language/duchain/problem.cpp:190 shell/filteredproblemstore.cpp:155
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: debugger/variable/variablecollection.cpp:243
 #, kde-format
 msgid "Auto"
-msgstr ""
+msgstr "Automatski"
 
 #: debugger/variable/variablecollection.cpp:418
 #, kde-format
 msgid "Locals"
-msgstr ""
+msgstr "Lokalne varijable"
 
 #. i18n: ectx: property (text), widget (QLabel, configName)
 #: debugger/variable/variablecollection.cpp:422
@@ -368,34 +378,34 @@ msgstr ""
 #: shell/launchconfigurationdialog.ui:110
 #, kde-format
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: debugger/variable/variablecollection.cpp:422
 #: debugger/variable/variabletooltip.cpp:79
 #, kde-format
 msgid "Value"
-msgstr ""
+msgstr "Vrijednost"
 
 #: debugger/variable/variabletooltip.cpp:115
 #, kde-format
 msgid "Watch This"
-msgstr ""
+msgstr "Prati ovo"
 
 #: debugger/variable/variabletooltip.cpp:117
 #, kde-format
 msgid "Stop on Change"
-msgstr ""
+msgstr "Zaustavi pri promjeni"
 
 #: debugger/variable/variablewidget.cpp:87
 #, kde-format
 msgid "Debugger Variables"
-msgstr ""
+msgstr "Varijable programa za uklanjanje pogrešaka"
 
 #: debugger/variable/variablewidget.cpp:105
 #, kde-format
 msgctxt "@option:check"
 msgid "Auto-resize columns on click"
-msgstr ""
+msgstr "Automatski prilagodi širinu stupaca pri kliku"
 
 #: debugger/variable/variablewidget.cpp:121
 #, kde-format
@@ -413,110 +423,110 @@ msgstr ""
 #: debugger/variable/variablewidget.cpp:135
 #, kde-format
 msgid "<b>Expression entry</b>Type in expression to watch."
-msgstr ""
+msgstr "<b>Unos izraza</b>Upišite izraz koji želite pratiti."
 
 #: debugger/variable/variablewidget.cpp:212
 #, kde-format
 msgid "&Format"
-msgstr ""
+msgstr "&Format"
 
 #: debugger/variable/variablewidget.cpp:217
 #, kde-format
 msgid "&Natural"
-msgstr ""
+msgstr "&Prirodni"
 
 #: debugger/variable/variablewidget.cpp:222
 #, kde-format
 msgid "&Binary"
-msgstr ""
+msgstr "&Binarni"
 
 #: debugger/variable/variablewidget.cpp:227
 #, kde-format
 msgid "&Octal"
-msgstr ""
+msgstr "&Oktalni"
 
 #: debugger/variable/variablewidget.cpp:232
 #, kde-format
 msgid "&Decimal"
-msgstr ""
+msgstr "&Decimalni"
 
 #: debugger/variable/variablewidget.cpp:237
 #, kde-format
 msgid "&Hexadecimal"
-msgstr ""
+msgstr "&Heksadekadski"
 
 #: debugger/variable/variablewidget.cpp:252
 #, kde-format
 msgid "Remove Watch Variable"
-msgstr ""
+msgstr "Ukloni praćenu varijablu"
 
 #: debugger/variable/variablewidget.cpp:259
 #, kde-format
 msgid "&Copy Value"
-msgstr ""
+msgstr "&Kopiraj vrijednost"
 
 #: debugger/variable/variablewidget.cpp:264
 #, kde-format
 msgid "&Stop on Change"
-msgstr ""
+msgstr "&Zaustavi pri promjeni"
 
 #: debugger/variable/variablewidget.cpp:287
 #, kde-format
 msgctxt "%1 - the name of a GDB variable, e.g. \"$1\""
 msgid "%1 (last function return value)"
-msgstr ""
+msgstr "%1 (posljednja povratna vrijednost funkcije)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: documentation/documentationfindwidget.ui:42
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Find:"
-msgstr ""
+msgstr "Traži:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextButton)
 #: documentation/documentationfindwidget.ui:56
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Jump to next match"
-msgstr ""
+msgstr "Prijeđi na sljedeće podudaranje"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, previousButton)
 #: documentation/documentationfindwidget.ui:69
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Jump to previous match"
-msgstr ""
+msgstr "Prijeđi na prethodno podudaranje"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, matchCase)
 #: documentation/documentationfindwidget.ui:82
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Match case sensitive"
-msgstr ""
+msgstr "Razlikuj velika i mala slova"
 
 #: documentation/documentationview.cpp:38
 #: shell/settings/documentationpreferences.cpp:25
 #, kde-format
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #: documentation/documentationview.cpp:69
 #, kde-format
 msgctxt "@action go back"
 msgid "Back"
-msgstr ""
+msgstr "Natrag"
 
 #: documentation/documentationview.cpp:74
 #, kde-format
 msgctxt "@action go forward"
 msgid "Forward"
-msgstr ""
+msgstr "Naprijed"
 
 #: documentation/documentationview.cpp:79
 #, kde-format
 msgctxt "@action go to start page"
 msgid "Home"
-msgstr ""
+msgstr "Početna stranica"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, branchFilterEdit)
 #: documentation/documentationview.cpp:93
@@ -524,37 +534,37 @@ msgstr ""
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search..."
-msgstr ""
+msgstr "Pretraži..."
 
 #: documentation/documentationview.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Find in Text..."
-msgstr ""
+msgstr "Pronađi u tekstu..."
 
 #: documentation/documentationview.cpp:112
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Find in text of current documentation page"
-msgstr ""
+msgstr "Pronađi u tekstu trenutačne stranice dokumentacije"
 
 #: interfaces/contextmenuextension.cpp:133
 #, kde-format
 msgctxt "@title:menu"
 msgid "Debug"
-msgstr ""
+msgstr "Otklanjanje pogrešaka"
 
 #: interfaces/contextmenuextension.cpp:134
 #, kde-format
 msgctxt "@title:menu"
 msgid "Refactor"
-msgstr ""
+msgstr "Refaktoriranje"
 
 #: interfaces/contextmenuextension.cpp:136
 #, kde-format
 msgctxt "@title:menu"
 msgid "Analyze Current File With"
-msgstr ""
+msgstr "Analiziraj trenutačnu datoteku pomoću"
 
 #: interfaces/contextmenuextension.cpp:137
 #, kde-format
@@ -591,50 +601,50 @@ msgstr ""
 #: language/assistant/renamefileaction.cpp:50
 #, kde-format
 msgid "Rename file from \"%1\" to \"%2\"."
-msgstr ""
+msgstr "Preimenuj datoteku iz \"%1\" u \"%2\"."
 
 #: language/backgroundparser/backgroundparser.cpp:309
 #, kde-format
 msgid "Parsing: %1"
-msgstr ""
+msgstr "Raščlanjivanje: %1"
 
 #: language/backgroundparser/backgroundparser.cpp:615
 #: shell/settings/bgpreferences.cpp:68
 #, kde-format
 msgid "Background Parser"
-msgstr ""
+msgstr "Pozadinski raščlanjivač"
 
 #: language/backgroundparser/parsejob.cpp:313
 #, kde-format
 msgctxt "%1: filename"
 msgid "Skipped file that is too large: '%1'"
-msgstr ""
+msgstr "Preskočena je prevelika datoteka: '%1'"
 
 #: language/backgroundparser/parsejob.cpp:315
 #, kde-format
 msgctxt "%1: file size, %2: limit file size"
 msgid "The file is %1 and exceeds the limit of %2."
-msgstr ""
+msgstr "Datoteka je veličine %1 i premašuje ograničenje od %2."
 
 #: language/backgroundparser/parsejob.cpp:327
 #, kde-format
 msgid "Could not open file '%1'"
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku '%1'"
 
 #: language/backgroundparser/parsejob.cpp:330
 #, kde-format
 msgid "File could not be read from disk."
-msgstr ""
+msgstr "Nije moguće pročitati datoteku s diska."
 
 #: language/backgroundparser/parsejob.cpp:333
 #, kde-format
 msgid "File could not be opened."
-msgstr ""
+msgstr "Nije moguće otvoriti datoteku."
 
 #: language/backgroundparser/parsejob.cpp:336
 #, kde-format
 msgid "File could not be read from disk due to permissions."
-msgstr ""
+msgstr "Nije moguće pročitati datoteku s diska zbog nedostatnih ovlasti."
 
 #: language/backgroundparser/parseprojectjob.cpp:74
 #, kde-format
@@ -1579,7 +1589,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column buildset item name"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: project/projectbuildsetmodel.cpp:288
 #, kde-format
@@ -1597,7 +1607,7 @@ msgstr ""
 #, kde-format
 msgctxt "project name (branch name)"
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: project/projectitemlineedit.cpp:158
 #, kde-format
@@ -1724,7 +1734,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Continue"
-msgstr ""
+msgstr "Nastavi"
 
 #: shell/areadisplay.cpp:44
 #, kde-format
@@ -1783,7 +1793,7 @@ msgstr ""
 #: shell/debugcontroller.cpp:83
 #, kde-format
 msgid "Debugger"
-msgstr ""
+msgstr "Program za ispravljanje pogrešaka"
 
 #: shell/debugcontroller.cpp:113
 #, kde-format
@@ -2374,7 +2384,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column Name of the Launch Configurations"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: shell/launchconfigurationdialog.cpp:713
 #, kde-format
@@ -2382,7 +2392,7 @@ msgctxt ""
 "@title:column Type of the Launch Configurations (i.e. Python Application, C+"
 "+ Application)"
 msgid "Type"
-msgstr ""
+msgstr "Vrsta"
 
 #. i18n: ectx: property (text), widget (QPushButton, addConfig)
 #: shell/launchconfigurationdialog.ui:29
@@ -2593,7 +2603,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action new file"
 msgid "&New"
-msgstr ""
+msgstr "&Novo"
 
 #: shell/mainwindow_p.cpp:304
 #, kde-format
@@ -2787,7 +2797,7 @@ msgstr ""
 #, kde-format
 msgctxt "@item problem severity"
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: shell/problemmodel.cpp:37
 #, kde-format
@@ -2799,7 +2809,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column source of problem"
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #: shell/problemmodel.cpp:325
 #, kde-format
@@ -2811,13 +2821,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column file where problem was found"
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: shell/problemmodel.cpp:329
 #, kde-format
 msgctxt "@title:column line number with problem"
 msgid "Line"
-msgstr ""
+msgstr "Redak"
 
 #: shell/problemmodel.cpp:331
 #, kde-format
@@ -3222,7 +3232,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:group"
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #. i18n: ectx: property (text), widget (QPushButton, get)
 #: shell/projectsourcepage.ui:105
@@ -3339,13 +3349,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: shell/runcontroller.cpp:502
 #, kde-format
 msgctxt "@action Short text for 'Stop' used in the toolbar"
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: shell/runcontroller.cpp:503
 #, kde-format
@@ -3593,13 +3603,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "State"
-msgstr ""
+msgstr "Stanje"
 
 #: shell/sessioncontroller.cpp:611
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #: shell/sessioncontroller.cpp:617
 #, kde-format
@@ -4897,7 +4907,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: shell/textdocument.cpp:405
 #, kde-format
@@ -5369,7 +5379,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Ignore"
-msgstr ""
+msgstr "Zanemari"
 
 #: util/shellutils.cpp:192
 #, kde-format
@@ -5782,7 +5792,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title:column"
 msgid "Location"
-msgstr ""
+msgstr "Položaj"
 
 #: vcs/models/vcsitemeventmodel.cpp:86
 #, kde-format

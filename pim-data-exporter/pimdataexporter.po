@@ -1,0 +1,1118 @@
+# Croatian translations for pim-data-exporter.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the pim-data-exporter package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pim-data-exporter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-11 00:52+0000\n"
+"PO-Revision-Date: 2026-11-07 07:56+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: console/main.cpp:27 console/main.cpp:29
+#, kde-format
+msgid "PIM Data Exporter Console"
+msgstr "Konzola izvoznika PIM podataka"
+
+#: console/main.cpp:31
+#, kde-format
+msgid "Copyright © 2015-%1 pimdataexporter authors"
+msgstr "Autorska prava © 2015.–%1 autori programa pimdataexporter"
+
+#: console/main.cpp:32 gui/pimdatacommandlineoption.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: console/main.cpp:32 gui/pimdatacommandlineoption.cpp:45
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavatelj"
+
+#: console/main.cpp:33
+#, kde-format
+msgctxt "@info:shell"
+msgid "File to log information to."
+msgstr "Datoteka u koju se zapisuje dnevnik."
+
+#: console/main.cpp:36
+#, kde-format
+msgctxt "@info:shell"
+msgid "Template file to define what data, settings to import or export."
+msgstr "Datoteka predloška koja određuje koje podatke i postavke uvesti ili izvesti."
+
+#: console/main.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import the given file."
+msgstr "Uvezi zadanu datoteku."
+
+#: console/main.cpp:41
+#, kde-format
+msgctxt "@info:shell"
+msgid "Export the given file."
+msgstr "Izvezi zadanu datoteku."
+
+#: core/abstractimportexportjob.cpp:58
+#, kde-format
+msgid "Task Canceled"
+msgstr "Zadatak je otkazan"
+
+#: core/abstractimportexportjob.cpp:117
+#, kde-format
+msgid "\"%1\" backup done."
+msgstr "Sigurnosno kopiranje stavke „%1” je dovršeno."
+
+#: core/abstractimportexportjob.cpp:119
+#, kde-format
+msgid "\"%1\" cannot be exported."
+msgstr "Nije moguće izvesti „%1”."
+
+#: core/abstractimportexportjob.cpp:122
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "„%1” ne postoji."
+
+#: core/abstractimportexportjob.cpp:269
+#, kde-format
+msgid "\"%1\" was copied."
+msgstr "„%1” je kopirano."
+
+#: core/abstractimportexportjob.cpp:274
+#, kde-format
+msgid "Restoring \"%1\"..."
+msgstr "Vraćanje „%1”..."
+
+#: core/abstractimportexportjob.cpp:299
+#, kde-format
+msgid "File \"%1\" cannot be copied to \"%2\"."
+msgstr "Datoteku „%1” nije moguće kopirati u „%2”."
+
+#: core/abstractimportexportjob.cpp:299
+#, kde-format
+msgid "Copy file"
+msgstr "Kopiraj datoteku"
+
+#: core/abstractimportexportjob.cpp:301
+#, kde-format
+msgid "\"%1\" was restored."
+msgstr "„%1” je vraćeno."
+
+#: core/abstractimportexportjob.cpp:385 core/addressbook/importaddressbookjobinterface.cpp:232
+#: core/mail/importmailjobinterface.cpp:423
+#, kde-format
+msgid "Resources restored."
+msgstr "Resursi su vraćeni."
+
+#: core/abstractimportexportjob.cpp:387
+#, kde-format
+msgid "No resources files found."
+msgstr "Nisu pronađene datoteke resursa."
+
+#: core/abstractimportexportjob.cpp:448
+#, kde-format
+msgid "Unable to copy file %1"
+msgstr "Nije moguće kopirati datoteku %1"
+
+#: core/abstractimportexportjob.cpp:489
+#, kde-format
+msgid "Resource '%1' created."
+msgstr "Resurs „%1” je stvoren."
+
+#: core/abstractimportexportjob.cpp:504
+#, kde-format
+msgid "Failed to synchronize '%1'."
+msgstr "Sinkronizacija „%1” nije uspjela."
+
+#: core/abstractimportexportjob.cpp:509
+#, kde-format
+msgid "Resource '%1' synchronized."
+msgstr "Resurs „%1” je sinkroniziran."
+
+#: core/abstractimportexportjob.cpp:515
+#, kde-format
+msgid "All resources synchronized."
+msgstr "Svi su resursi sinkronizirani."
+
+#: core/abstractimportexportjob.cpp:541
+#, kde-format
+msgid "Start synchronizing..."
+msgstr "Pokretanje sinkronizacije..."
+
+#: core/abstractimportexportjob.cpp:578
+#, kde-format
+msgid "Directory \"%1\" added to backup file."
+msgstr "Direktorij „%1” dodan je u sigurnosnu kopiju."
+
+#: core/abstractimportexportjob.cpp:580
+#, kde-format
+msgid "Directory \"%1\" cannot be added to backup file."
+msgstr "Direktorij „%1” nije moguće dodati u sigurnosnu kopiju."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:29
+#, kde-format
+msgid "Start export KAddressBook settings..."
+msgstr "Pokretanje izvoza postavki programa KAddressBook..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:30
+#, kde-format
+msgid "Export KAddressBook settings"
+msgstr "Izvezi postavke programa KAddressBook"
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:43
+#: core/alarm/exportalarmjobinterface.cpp:84
+#: core/calendar/exportcalendarjobinterface.cpp:96
+#: core/mail/exportmailjobinterface.cpp:653
+#, kde-format
+msgid "Backing up resources..."
+msgstr "Izrada sigurnosne kopije resursa..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:103
+#: core/alarm/exportalarmjobinterface.cpp:76
+#: core/calendar/exportcalendarjobinterface.cpp:75
+#: core/mail/exportmailjobinterface.cpp:675
+#, kde-format
+msgid "Resources backup done."
+msgstr "Sigurnosno kopiranje resursa je dovršeno."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:110
+#: core/akregator/exportakregatorjobinterface.cpp:74
+#: core/alarm/exportalarmjobinterface.cpp:109
+#: core/calendar/exportcalendarjobinterface.cpp:228
+#: core/mail/exportmailjobinterface.cpp:169
+#, kde-format
+msgid "Backing up config..."
+msgstr "Izrada sigurnosne kopije konfiguracije..."
+
+#: core/addressbook/exportaddressbookjobinterface.cpp:151
+#: core/akregator/exportakregatorjobinterface.cpp:81
+#: core/alarm/exportalarmjobinterface.cpp:135
+#: core/calendar/exportcalendarjobinterface.cpp:248
+#: core/mail/exportmailjobinterface.cpp:537
+#, kde-format
+msgid "Config backup done."
+msgstr "Sigurnosno kopiranje konfiguracije je dovršeno."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:42
+#, kde-format
+msgid "Starting to import KAddressBook settings..."
+msgstr "Pokretanje uvoza postavki programa KAddressBook..."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:44
+#, kde-format
+msgid "Import KAddressBook settings"
+msgstr "Uvezi postavke programa KAddressBook"
+
+#: core/addressbook/importaddressbookjobinterface.cpp:93
+#: core/akregator/importakregatorjobinterface.cpp:95
+#: core/alarm/importalarmjobinterface.cpp:83
+#: core/calendar/importcalendarjobinterface.cpp:91
+#, kde-format
+msgid "Restore configs..."
+msgstr "Vraćanje konfiguracija..."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:110
+#: core/akregator/importakregatorjobinterface.cpp:101
+#: core/alarm/importalarmjobinterface.cpp:99
+#: core/calendar/importcalendarjobinterface.cpp:228
+#: core/mail/importmailjobinterface.cpp:861
+#, kde-format
+msgid "Config restored."
+msgstr "Konfiguracija je vraćena."
+
+#: core/addressbook/importaddressbookjobinterface.cpp:163
+#: core/addressbook/importaddressbookjobinterface.cpp:164
+#: core/alarm/importalarmjobinterface.cpp:115
+#: core/alarm/importalarmjobinterface.cpp:116
+#: core/calendar/importcalendarjobinterface.cpp:281
+#: core/calendar/importcalendarjobinterface.cpp:282
+#: core/mail/importmailjobinterface.cpp:198
+#: core/mail/importmailjobinterface.cpp:199
+#, kde-format
+msgid "Restore resources..."
+msgstr "Vraćanje resursa..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:26
+#, kde-format
+msgid "Start export Akregator settings..."
+msgstr "Pokretanje izvoza postavki programa Akregator..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:27
+#, kde-format
+msgid "Export Akregator settings"
+msgstr "Izvezi postavke programa Akregator"
+
+#: core/akregator/exportakregatorjobinterface.cpp:89
+#, kde-format
+msgid "Backing up data..."
+msgstr "Izrada sigurnosne kopije podataka..."
+
+#: core/akregator/exportakregatorjobinterface.cpp:96
+#, kde-format
+msgid "\"%1\" directory cannot be added to backup file."
+msgstr "Direktorij „%1” nije moguće dodati u sigurnosnu kopiju."
+
+#: core/akregator/exportakregatorjobinterface.cpp:99
+#, kde-format
+msgid "Data backup done."
+msgstr "Sigurnosno kopiranje podataka je dovršeno."
+
+#: core/akregator/importakregatorjobinterface.cpp:31
+#, kde-format
+msgid "Starting to import Akregator settings..."
+msgstr "Pokretanje uvoza postavki programa Akregator..."
+
+#: core/akregator/importakregatorjobinterface.cpp:34
+#, kde-format
+msgid "Import Akregator settings"
+msgstr "Uvezi postavke programa Akregator"
+
+#: core/akregator/importakregatorjobinterface.cpp:108
+#, kde-format
+msgid "Restore data..."
+msgstr "Vraćanje podataka..."
+
+#: core/akregator/importakregatorjobinterface.cpp:114
+#, kde-format
+msgid "Data restored."
+msgstr "Podaci su vraćeni."
+
+#: core/alarm/exportalarmjobinterface.cpp:28
+#, kde-format
+msgid "Start export KAlarm settings..."
+msgstr "Pokretanje izvoza postavki programa KAlarm..."
+
+#: core/alarm/exportalarmjobinterface.cpp:29
+#, kde-format
+msgid "Export KAlarm settings"
+msgstr "Izvezi postavke programa KAlarm"
+
+#: core/alarm/importalarmjobinterface.cpp:33
+#, kde-format
+msgid "Starting to import KAlarm settings..."
+msgstr "Pokretanje uvoza postavki programa KAlarm..."
+
+#: core/alarm/importalarmjobinterface.cpp:34
+#, kde-format
+msgid "Import KAlarm settings"
+msgstr "Uvezi postavke programa KAlarm"
+
+#: core/archivestorage.cpp:43
+#, kde-format
+msgid "Archive cannot be opened in write mode."
+msgstr "Arhivu nije moguće otvoriti za pisanje."
+
+#: core/archivestorage.cpp:45 core/utils.cpp:134 gui/dialog/showarchivestructuredialog.cpp:185
+#, kde-format
+msgid "Archive cannot be opened in read mode."
+msgstr "Arhivu nije moguće otvoriti za čitanje."
+
+#: core/backupresourcefilejobbase.cpp:50
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "„%1” nije datoteka."
+
+#: core/backupresourcefilejobbase.cpp:56 core/backupresourcefilejobbase.cpp:63
+#: core/pimdatabackupthread.cpp:54 core/storeresourcejob.cpp:59
+#, kde-format
+msgid "\"%1\" was backed up."
+msgstr "Za „%1” je izrađena sigurnosna kopija."
+
+#: core/backupresourcefilejobbase.cpp:58 core/pimdatabackupthread.cpp:56
+#: core/storeresourcejob.cpp:61
+#, kde-format
+msgid "\"%1\" file cannot be added to backup file."
+msgstr "Datoteku „%1” nije moguće dodati u sigurnosnu kopiju."
+
+#: core/calendar/exportcalendarjobinterface.cpp:82
+#, kde-format
+msgid "Start export KOrganizer settings..."
+msgstr "Pokretanje izvoza postavki programa KOrganizer..."
+
+#: core/calendar/exportcalendarjobinterface.cpp:83
+#, kde-format
+msgid "Export KOrganizer settings"
+msgstr "Izvezi postavke programa KOrganizer"
+
+#: core/calendar/importcalendarjobinterface.cpp:36
+#, kde-format
+msgid "Starting to import KOrganizer settings..."
+msgstr "Pokretanje uvoza postavki programa KOrganizer..."
+
+#: core/calendar/importcalendarjobinterface.cpp:38
+#, kde-format
+msgid "Import KOrganizer settings"
+msgstr "Uvezi postavke programa KOrganizer"
+
+#: core/mail/exportmailjobinterface.cpp:45
+#, kde-format
+msgid "Start export KMail settings..."
+msgstr "Pokretanje izvoza postavki programa KMail..."
+
+#: core/mail/exportmailjobinterface.cpp:46
+#, kde-format
+msgid "Export KMail settings"
+msgstr "Izvezi postavke programa KMail"
+
+#: core/mail/exportmailjobinterface.cpp:114
+#, kde-format
+msgid "Backing up Folder Attributes..."
+msgstr "Izrada sigurnosne kopije atributa mapa..."
+
+#: core/mail/exportmailjobinterface.cpp:116
+#, kde-format
+msgid "Backing up Mails..."
+msgstr "Izrada sigurnosne kopije e-poruka..."
+
+#: core/mail/exportmailjobinterface.cpp:117
+#, kde-format
+msgid "Start export resource..."
+msgstr "Pokretanje izvoza resursa..."
+
+#: core/mail/exportmailjobinterface.cpp:125
+#, kde-format
+msgid "Backing up transports..."
+msgstr "Izrada sigurnosne kopije prijenosa..."
+
+#: core/mail/exportmailjobinterface.cpp:130
+#: core/mail/exportmailjobinterface.cpp:142
+#, kde-format
+msgid "Transports backup done."
+msgstr "Sigurnosno kopiranje prijenosa je dovršeno."
+
+#: core/mail/exportmailjobinterface.cpp:144
+#, kde-format
+msgid "Transport file cannot be added to backup file."
+msgstr "Datoteku prijenosa nije moguće dodati u sigurnosnu kopiju."
+
+#: core/mail/exportmailjobinterface.cpp:542
+#, kde-format
+msgid "Backing up identity..."
+msgstr "Izrada sigurnosne kopije identiteta..."
+
+#: core/mail/exportmailjobinterface.cpp:580
+#, kde-format
+msgid "vCard file \"%1\" cannot be saved."
+msgstr "Nije moguće spremiti vCard datoteku „%1”."
+
+#: core/mail/exportmailjobinterface.cpp:593
+#, kde-format
+msgid "Identity backup done."
+msgstr "Sigurnosno kopiranje identiteta je dovršeno."
+
+#: core/mail/exportmailjobinterface.cpp:595
+#, kde-format
+msgid "Identity file cannot be added to backup file."
+msgstr "Datoteku identiteta nije moguće dodati u sigurnosnu kopiju."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:139
+#, kde-format
+msgid "Filters backup done."
+msgstr "Sigurnosno kopiranje filtara je dovršeno."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:141
+#, kde-format
+msgid "Filters cannot be exported."
+msgstr "Filtre nije moguće izvesti."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:163
+#, kde-format
+msgid "Backing up Folder Attributes done."
+msgstr "Izrada sigurnosne kopije atributa mapa je dovršena."
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:167
+#, kde-format
+msgid "Folder Attributes cannot be exported."
+msgstr "Atribute mapa nije moguće izvesti."
+
+#: core/mail/importmailjobinterface.cpp:42
+#, kde-format
+msgid "Starting to import KMail settings..."
+msgstr "Pokretanje uvoza postavki programa KMail..."
+
+#: core/mail/importmailjobinterface.cpp:43
+#, kde-format
+msgid "Import KMail settings"
+msgstr "Uvezi postavke programa KMail"
+
+#: core/mail/importmailjobinterface.cpp:168
+#: core/mail/importmailjobinterface.cpp:174
+#, kde-format
+msgid "Restore transports..."
+msgstr "Vraćanje prijenosa..."
+
+#: core/mail/importmailjobinterface.cpp:172
+#, kde-format
+msgid "mailtransports file could not be found in the archive."
+msgstr "Datoteku mailtransports nije moguće pronaći u arhivi."
+
+#: core/mail/importmailjobinterface.cpp:187
+#, kde-format
+msgid "Transports restored."
+msgstr "Prijenosi su vraćeni."
+
+#: core/mail/importmailjobinterface.cpp:189
+#, kde-format
+msgid "Failed to restore transports file."
+msgstr "Vraćanje datoteke prijenosa nije uspjelo."
+
+#: core/mail/importmailjobinterface.cpp:435
+#: core/mail/importmailjobinterface.cpp:437
+#, kde-format
+msgid "Restore mails..."
+msgstr "Vraćanje e-poruka..."
+
+#: core/mail/importmailjobinterface.cpp:554
+#, kde-format
+msgid "Mails restored."
+msgstr "E-poruke su vraćene."
+
+#: core/mail/importmailjobinterface.cpp:561
+#, kde-format
+msgid "Restore config..."
+msgstr "Vraćanje konfiguracije..."
+
+#: core/mail/importmailjobinterface.cpp:564
+#, kde-format
+msgid "filters file could not be found in the archive."
+msgstr "Datoteku filtara nije moguće pronaći u arhivi."
+
+#: core/mail/importmailjobinterface.cpp:568
+#, kde-format
+msgid "Restore filters..."
+msgstr "Vraćanje filtara..."
+
+#: core/mail/importmailjobinterface.cpp:617
+#, kde-format
+msgid "Filters restored."
+msgstr "Filtri su vraćeni."
+
+#: core/mail/importmailjobinterface.cpp:893
+#: core/mail/importmailjobinterface.cpp:898
+#, kde-format
+msgid "Restoring identities..."
+msgstr "Vraćanje identiteta..."
+
+#: core/mail/importmailjobinterface.cpp:896
+#, kde-format
+msgid "emailidentities file could not be found in the archive."
+msgstr "Datoteku emailidentities nije moguće pronaći u arhivi."
+
+#: core/mail/importmailjobinterface.cpp:957
+#, kde-format
+msgid "Identities restored."
+msgstr "Identiteti su vraćeni."
+
+#: core/mail/importmailjobinterface.cpp:959
+#, kde-format
+msgid "Failed to restore identity file."
+msgstr "Vraćanje datoteke identiteta nije uspjelo."
+
+#: core/mail/importmailjobinterface.cpp:1278
+#, kde-format
+msgid "\"%1\" migration done."
+msgstr "Migracija stavke „%1” je dovršena."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:38
+#, kde-format
+msgid "Restoring folder attributes..."
+msgstr "Vraćanje atributa mapa..."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:44
+#, kde-format
+msgid "Restoring Folder Attributes done."
+msgstr "Vraćanje atributa mapa je dovršeno."
+
+#: core/mail/importmailjobinterfaceimpl.cpp:48
+#, kde-format
+msgid "Folder Attributes cannot be restored."
+msgstr "Atribute mapa nije moguće vratiti."
+
+#: core/pimdatabackuprestore.cpp:78 core/pimdatabackuprestore.cpp:241
+#, kde-format
+msgid "No data selected."
+msgstr "Nisu odabrani podaci."
+
+#: core/pimdatabackuprestore.cpp:84 core/pimdatabackuprestore.cpp:247
+#, kde-format
+msgid "Unable to open file \"%1\"."
+msgstr "Nije moguće otvoriti datoteku „%1”."
+
+#: core/pimdatabackuprestore.cpp:93
+#, kde-format
+msgid "Starting to backup data in '%1'"
+msgstr "Pokretanje sigurnosnog kopiranja podataka u „%1”"
+
+#: core/pimdatabackuprestore.cpp:176
+#, kde-format
+msgid "Backup in '%1' done."
+msgstr "Sigurnosno kopiranje u „%1” je dovršeno."
+
+#: core/pimdatabackuprestore.cpp:266
+#, kde-format
+msgid "Starting to restore data from '%1'"
+msgstr "Pokretanje vraćanja podataka iz „%1”"
+
+#: core/pimdatabackuprestore.cpp:274
+#, kde-format
+msgid "Restoring data from '%1' done."
+msgstr "Vraćanje podataka iz „%1” je dovršeno."
+
+#: core/pimdatabackupthread.cpp:37
+#, kde-format
+msgid "Impossible to open archive file."
+msgstr "Nije moguće otvoriti arhivsku datoteku."
+
+#: core/pimdatabackupthread.cpp:44
+#, kde-format
+msgid "Impossible to backup \"%1\"."
+msgstr "Nije moguće izraditi sigurnosnu kopiju za „%1”."
+
+#: core/resourceconverterbase.cpp:197 core/resourceconverterbase.cpp:206
+#, kde-format
+msgid "Resource file \"%1\" cannot be added to backup file."
+msgstr "Datoteku resursa „%1” nije moguće dodati u sigurnosnu kopiju."
+
+#: core/resourceconverterbase.cpp:209
+#, kde-format
+msgid "Resource config file \"%1\" doesn't exist."
+msgstr "Datoteka konfiguracije resursa „%1” ne postoji."
+
+#: core/utils.cpp:181
+#, kde-format
+msgid "KMail"
+msgstr "KMail"
+
+#: core/utils.cpp:183
+#, kde-format
+msgid "KAddressBook"
+msgstr "KAddressBook"
+
+#: core/utils.cpp:185
+#, kde-format
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#: core/utils.cpp:187
+#, kde-format
+msgid "KOrganizer"
+msgstr "KOrganizer"
+
+#: core/utils.cpp:189
+#, kde-format
+msgid "Akregator"
+msgstr "Akregator"
+
+#: core/utils.cpp:203
+#, kde-format
+msgid "Identity"
+msgstr "Identitet"
+
+#: core/utils.cpp:205
+#, kde-format
+msgid "Mails"
+msgstr "E-poruke"
+
+#: core/utils.cpp:207
+#, kde-format
+msgid "Mail Transport"
+msgstr "Prijenos e-pošte"
+
+#: core/utils.cpp:209
+#, kde-format
+msgid "Resources"
+msgstr "Resursi"
+
+#: core/utils.cpp:211
+#, kde-format
+msgid "Config"
+msgstr "Konfiguracija"
+
+#: core/utils.cpp:213
+#, kde-format
+msgid "Data"
+msgstr "Podaci"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Archive File Structure"
+msgstr "Struktura arhivske datoteke"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Backup Archive Structure:"
+msgstr "Struktura sigurnosne kopije:"
+
+#: gui/dialog/backupfilestructureinfodialog.cpp:63
+#, kde-format
+msgid "backup-structure.txt file was not found."
+msgstr "Datoteka backup-structure.txt nije pronađena."
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure PimDataExporter"
+msgstr "Konfiguriranje programa PimDataExporter"
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:40
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: gui/dialog/pimdataexporterconfiguredialog.cpp:55
+#, kde-format
+msgid "User Feedback"
+msgstr "Povratne informacije korisnika"
+
+#: gui/dialog/selectiontypedialog.cpp:29
+#, kde-format
+msgctxt "@option:check"
+msgid "Use this template by default"
+msgstr "Koristi ovaj predložak kao zadani"
+
+#: gui/dialog/selectiontypedialog.cpp:30
+#, kde-format
+msgctxt "@action:button"
+msgid "Save as Template..."
+msgstr "Spremi kao predložak..."
+
+#: gui/dialog/selectiontypedialog.cpp:31
+#, kde-format
+msgctxt "@action:button"
+msgid "Load Template..."
+msgstr "Učitaj predložak..."
+
+#: gui/dialog/selectiontypedialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Type"
+msgstr "Odabir vrste"
+
+#: gui/dialog/selectiontypedialog.cpp:54 gui/dialog/synchronizeresourcedialog.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All"
+msgstr "Odaberi sve"
+
+#: gui/dialog/selectiontypedialog.cpp:59 gui/dialog/synchronizeresourcedialog.cpp:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All"
+msgstr "Odznači sve"
+
+#: gui/dialog/showarchivestructuredialog.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "Extract Selected File"
+msgstr "Izdvoji odabranu datoteku"
+
+#: gui/dialog/showarchivestructuredialog.cpp:43
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Selected File"
+msgstr "Otvori odabranu datoteku"
+
+#: gui/dialog/showarchivestructuredialog.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Show Archive Content on file \"%1\""
+msgstr "Prikaz sadržaja arhive u datoteci „%1”"
+
+#: gui/dialog/showarchivestructuredialog.cpp:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "Traži..."
+
+#: gui/dialog/showarchivestructuredialog.cpp:56
+#, kde-format
+msgid "Save As Text..."
+msgstr "Spremi kao tekst..."
+
+#: gui/dialog/showarchivestructuredialog.cpp:136
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Directory"
+msgstr "Odabir direktorija"
+
+#: gui/dialog/showarchivestructuredialog.cpp:142
+#, kde-format
+msgid "Do you want to overwrite %1?"
+msgstr "Želite li prebrisati %1?"
+
+#: gui/dialog/showarchivestructuredialog.cpp:143
+#, kde-format
+msgctxt "@title:window"
+msgid "File Already Exist"
+msgstr "Datoteka već postoji"
+
+#: gui/dialog/showarchivestructuredialog.cpp:151
+#, kde-format
+msgid "Impossible to copy %1 in %2."
+msgstr "Nije moguće kopirati %1 u %2."
+
+#: gui/dialog/showarchivestructuredialog.cpp:174
+#, kde-format
+msgctxt "qfiledialog filter files text"
+msgid "Text Files"
+msgstr "Tekstualne datoteke"
+
+#: gui/dialog/showarchivestructuredialog.cpp:177
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Log File"
+msgstr "Izvoz datoteke dnevnika"
+
+#: gui/dialog/showarchivestructuredialog.cpp:185
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot open archive"
+msgstr "Nije moguće otvoriti arhivu"
+
+#: gui/dialog/showarchivestructuredialog.cpp:191
+#, kde-format
+msgid "Info"
+msgstr "Informacije"
+
+#: gui/dialog/showarchivestructuredialog.cpp:193
+#, kde-format
+msgid "This is not pim archive."
+msgstr "Ovo nije PIM arhiva."
+
+#: gui/dialog/showarchivestructuredialog.cpp:193
+#, kde-format
+msgctxt "@title:window"
+msgid "Show information"
+msgstr "Prikaz informacija"
+
+#: gui/dialog/synchronizeresourcedialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Synchronize Resources"
+msgstr "Sinkronizacija resursa"
+
+#: gui/dialog/synchronizeresourcedialog.cpp:34
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Some resources were added but data were not sync. Select resources that you "
+"want to sync:"
+msgstr ""
+"Dodani su neki resursi, ali podaci nisu sinkronizirani. Odaberite resurse "
+"koje želite sinkronizirati:"
+
+#: gui/importexportprogressindicatorgui.cpp:35
+#: gui/job/fullsynchronizeresourcesjob.cpp:39
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: gui/importexportprogressindicatorgui.cpp:66
+#, kde-format
+msgid "\"%1\" already exists. Do you want to overwrite it or merge it?"
+msgstr "„%1” već postoji. Želite li ga prebrisati ili spojiti?"
+
+#: gui/importexportprogressindicatorgui.cpp:67
+#: gui/importexportprogressindicatorgui.cpp:79
+#: gui/importexportprogressindicatorgui.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "Restore"
+msgstr "Vraćanje"
+
+#: gui/importexportprogressindicatorgui.cpp:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Merge"
+msgstr "Spoji"
+
+#: gui/importexportprogressindicatorgui.cpp:78
+#, kde-format
+msgid "\"%1\" already exists. Do you want to overwrite it?"
+msgstr "„%1” već postoji. Želite li ga prebrisati?"
+
+#: gui/importexportprogressindicatorgui.cpp:91
+#, kde-format
+msgid "Directory \"%1\" already exists. Do you want to overwrite it?"
+msgstr "Direktorij „%1” već postoji. Želite li ga prebrisati?"
+
+#: gui/job/fullsynchronizeresourcesjob.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Synchronize resources"
+msgstr "Sinkronizacija resursa"
+
+#: gui/job/fullsynchronizeresourcesjob.cpp:42
+#, kde-format
+msgid "Synchronize resources... It can take some time."
+msgstr "Sinkronizacija resursa... Ovo može potrajati."
+
+#: gui/pimdatabackuprestoreui.cpp:27
+#, kde-format
+msgid ""
+"The archive was created by a newer version of this program. It might contain "
+"additional data which will be skipped during import. Do you want to import "
+"it?"
+msgstr ""
+"Arhiva je stvorena novijom verzijom ovog programa. Može sadržavati dodatne "
+"podatke koji će se preskočiti tijekom uvoza. Želite li je uvesti?"
+
+#: gui/pimdatabackuprestoreui.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Not correct version"
+msgstr "Neispravna verzija"
+
+#: gui/pimdatabackuprestoreui.cpp:30
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "Uvezi"
+
+#: gui/pimdatacommandlineoption.cpp:40 gui/pimdatacommandlineoption.cpp:42
+#, kde-format
+msgid "PIM Data Exporter"
+msgstr "Izvoznik PIM podataka"
+
+#: gui/pimdatacommandlineoption.cpp:44
+#, kde-format
+msgid "Copyright © 2012-%1 pimdataexporter authors"
+msgstr "Autorska prava © 2012.–%1 autori programa pimdataexporter"
+
+#: gui/pimdatacommandlineoption.cpp:49
+#, kde-format
+msgid "Template file uses to define what data, settings to import or export"
+msgstr "Datoteka predloška određuje koje podatke i postavke uvesti ili izvesti"
+
+#: gui/pimdatacommandlineoption.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import the given file"
+msgstr "Uvezi zadanu datoteku"
+
+#: gui/pimdatacommandlineoption.cpp:51
+#, kde-format
+msgctxt "@info:shell"
+msgid "Export the given file"
+msgstr "Izvezi zadanu datoteku"
+
+#: gui/pimdatacommandlineoption.cpp:53
+#, kde-format
+msgctxt "@info:shell"
+msgid "File or url. The user will be asked whether to import or export."
+msgstr "Datoteka ili URL. Korisnik će biti upitan želi li uvoziti ili izvoziti."
+
+#: gui/pimdatacommandlineoption.cpp:55
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr "Navodi dostupne mogućnosti povratnih informacija korisnika"
+
+#. i18n: ectx: Menu (file)
+#: gui/pimdataexporter.rc:8
+#, kde-format
+msgid "&File"
+msgstr "&Datoteka"
+
+#. i18n: ectx: Menu (tools)
+#: gui/pimdataexporter.rc:21
+#, kde-format
+msgid "&Tools"
+msgstr "&Alati"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: gui/pimdataexporter.rc:28
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Glavna alatna traka"
+
+#: gui/pimdataexporterwindow.cpp:169
+#, kde-format
+msgid "Full sync starts..."
+msgstr "Pokreće se potpuna sinkronizacija..."
+
+#: gui/pimdataexporterwindow.cpp:199
+#, kde-format
+msgid "Full sync finished."
+msgstr "Potpuna sinkronizacija je završena."
+
+#: gui/pimdataexporterwindow.cpp:206
+#, kde-format
+msgid "Full sync for \"%1\" done."
+msgstr "Potpuna sinkronizacija za „%1” je dovršena."
+
+#: gui/pimdataexporterwindow.cpp:211
+#, kde-format
+msgid "Full sync for \"%1\" failed."
+msgstr "Potpuna sinkronizacija za „%1” nije uspjela."
+
+#: gui/pimdataexporterwindow.cpp:217
+#, kde-format
+msgid ""
+"For restoring data, you must use \"pimdataexporter\". Be careful as it can "
+"overwrite your existing settings and data."
+msgstr ""
+"Za vraćanje podataka morate upotrijebiti „pimdataexporter”. Budite oprezni "
+"jer može prebrisati postojeće postavke i podatke."
+
+#: gui/pimdataexporterwindow.cpp:219 gui/pimdataexporterwindow.cpp:325
+#: gui/pimdataexporterwindow.cpp:402
+#, kde-format
+msgctxt "@title:window"
+msgid "Backup"
+msgstr "Sigurnosno kopiranje"
+
+#: gui/pimdataexporterwindow.cpp:246
+#, kde-format
+msgid "Export Data..."
+msgstr "Izvezi podatke..."
+
+#: gui/pimdataexporterwindow.cpp:251
+#, kde-format
+msgid "Import Data..."
+msgstr "Uvezi podatke..."
+
+#: gui/pimdataexporterwindow.cpp:256
+#, kde-format
+msgid "Save log..."
+msgstr "Spremi dnevnik..."
+
+#: gui/pimdataexporterwindow.cpp:259
+#, kde-format
+msgid "Show Archive Structure Information..."
+msgstr "Prikaži informacije o strukturi arhive..."
+
+#: gui/pimdataexporterwindow.cpp:262
+#, kde-format
+msgid "Show Archive Information..."
+msgstr "Prikaži informacije o arhivi..."
+
+#: gui/pimdataexporterwindow.cpp:266
+#, kde-format
+msgid "Show Information on current Archive..."
+msgstr "Prikaži informacije o trenutačnoj arhivi..."
+
+#: gui/pimdataexporterwindow.cpp:303
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Archive"
+msgstr "Odabir arhive"
+
+#: gui/pimdataexporterwindow.cpp:303
+#, kde-format
+msgid "Zip file"
+msgstr "ZIP datoteka"
+
+#: gui/pimdataexporterwindow.cpp:315
+#, kde-format
+msgid "Log is empty."
+msgstr "Dnevnik je prazan."
+
+#: gui/pimdataexporterwindow.cpp:315
+#, kde-format
+msgctxt "@title:window"
+msgid "Save log"
+msgstr "Spremanje dnevnika"
+
+#: gui/pimdataexporterwindow.cpp:319
+#, kde-format
+msgid "HTML Files (*.html)"
+msgstr "HTML datoteke (*.html)"
+
+#: gui/pimdataexporterwindow.cpp:325
+#, kde-format
+msgid "Please quit all kdepim applications before backing up your data."
+msgstr "Zatvorite sve aplikacije kdepim prije sigurnosnog kopiranja podataka."
+
+#: gui/pimdataexporterwindow.cpp:347
+#, kde-format
+msgid "Create backup"
+msgstr "Stvori sigurnosnu kopiju"
+
+#: gui/pimdataexporterwindow.cpp:349
+#, kde-format
+msgid "Zip file (*.zip)"
+msgstr "ZIP datoteka (*.zip)"
+
+#: gui/pimdataexporterwindow.cpp:359
+#, kde-format
+msgid "Backup in progress..."
+msgstr "Sigurnosno kopiranje u tijeku..."
+
+#: gui/pimdataexporterwindow.cpp:401
+#, kde-format
+msgid ""
+"Before restoring data you must close all kdepim applications. Do you want to "
+"continue?"
+msgstr ""
+"Prije vraćanja podataka morate zatvoriti sve aplikacije kdepim. Želite li "
+"nastaviti?"
+
+#: gui/pimdataexporterwindow.cpp:414
+#, kde-format
+msgid "Restore backup"
+msgstr "Vrati sigurnosnu kopiju"
+
+#: gui/pimdataexporterwindow.cpp:416
+#, kde-format
+msgid "Zip File"
+msgstr "ZIP datoteka"
+
+#: gui/pimdataexporterwindow.cpp:448
+#, kde-format
+msgid "Restore in progress..."
+msgstr "Vraćanje je u tijeku..."
+
+#: gui/trayicon/pimdatatrayicon.cpp:15
+#, kde-format
+msgid "Pim Data Exporter"
+msgstr "Izvoznik PIM podataka"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:16
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Override File"
+msgstr "Uvijek prepiši datoteku"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:17
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Override Directory"
+msgstr "Uvijek prepiši direktorij"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:18
+#, kde-format
+msgctxt "@option:check"
+msgid "Always Merge Config File"
+msgstr "Uvijek spoji konfiguracijsku datoteku"
+
+#: gui/widgets/pimdataexporterconfigurewidget.cpp:23
+#, kde-format
+msgid "Import"
+msgstr "Uvoz"
+
+#: gui/widgets/selectiontypetreewidget.cpp:334
+#, kde-format
+msgid "Template Files (*.xml)"
+msgstr "Datoteke predložaka (*.xml)"

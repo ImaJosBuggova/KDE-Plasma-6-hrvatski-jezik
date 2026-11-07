@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-12 00:57+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
@@ -31,92 +31,92 @@ msgstr ""
 #: app/ActionMan/actionman.cpp:26
 #, kde-format
 msgid "ActionMan - Manage Your Useractions"
-msgstr ""
+msgstr "ActionMan – upravljanje korisničkim radnjama"
 
 #: app/ActionMan/actionproperty.cpp:328
 #, kde-format
 msgid "New protocol"
-msgstr ""
+msgstr "Novi protokol"
 
 #: app/ActionMan/actionproperty.cpp:328
 #, kde-format
 msgid "Set a protocol:"
-msgstr ""
+msgstr "Postavi protokol:"
 
 #: app/ActionMan/actionproperty.cpp:344
 #, kde-format
 msgid "Edit Protocol"
-msgstr ""
+msgstr "Uredi protokol"
 
 #: app/ActionMan/actionproperty.cpp:344
 #, kde-format
 msgid "Set another protocol:"
-msgstr ""
+msgstr "Postavi drugi protokol:"
 
 #: app/ActionMan/actionproperty.cpp:377
 #, kde-format
 msgid "Edit Path"
-msgstr ""
+msgstr "Uredi putanju"
 
 #: app/ActionMan/actionproperty.cpp:377
 #, kde-format
 msgid "Set another path:"
-msgstr ""
+msgstr "Postavi drugu putanju:"
 
 #: app/ActionMan/actionproperty.cpp:400
 #, kde-format
 msgid "New MIME Type"
-msgstr ""
+msgstr "Nova vrsta MIME"
 
 #: app/ActionMan/actionproperty.cpp:400
 #, kde-format
 msgid "Set a MIME type:"
-msgstr ""
+msgstr "Postavi vrstu MIME:"
 
 #: app/ActionMan/actionproperty.cpp:416
 #, kde-format
 msgid "Edit MIME Type"
-msgstr ""
+msgstr "Uredi vrstu MIME"
 
 #: app/ActionMan/actionproperty.cpp:416
 #, kde-format
 msgid "Set another MIME type:"
-msgstr ""
+msgstr "Postavi drugu vrstu MIME:"
 
 #: app/ActionMan/actionproperty.cpp:439
 #, kde-format
 msgid "New File Name"
-msgstr ""
+msgstr "Novi naziv datoteke"
 
 #: app/ActionMan/actionproperty.cpp:439
 #, kde-format
 msgid "Set a file name:"
-msgstr ""
+msgstr "Postavi naziv datoteke:"
 
 #: app/ActionMan/actionproperty.cpp:455
 #, kde-format
 msgid "Edit File Name"
-msgstr ""
+msgstr "Uredi naziv datoteke"
 
 #: app/ActionMan/actionproperty.cpp:455
 #, kde-format
 msgid "Set another file name:"
-msgstr ""
+msgstr "Postavi drugi naziv datoteke:"
 
 #: app/ActionMan/actionproperty.cpp:473
 #, kde-format
 msgid "Please set a unique name for the useraction"
-msgstr ""
+msgstr "Postavite jedinstveni naziv za korisničku radnju"
 
 #: app/ActionMan/actionproperty.cpp:478
 #, kde-format
 msgid "Please set a title for the menu entry"
-msgstr ""
+msgstr "Postavite naslov unosa izbornika"
 
 #: app/ActionMan/actionproperty.cpp:483
 #, kde-format
 msgid "Command line is empty"
-msgstr ""
+msgstr "Naredbeni redak je prazan"
 
 #: app/ActionMan/actionproperty.cpp:490
 #, kde-format
@@ -125,24 +125,27 @@ msgid ""
 "If you do not have such a useraction the name is used by Krusader for an "
 "internal action."
 msgstr ""
+"Radnja s tim nazivom već postoji.\n"
+"Ako nemate takvu korisničku radnju, Krusader upotrebljava taj naziv za "
+"internu radnju."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ActionProperty)
 #: app/ActionMan/actionproperty.ui:14
 #, kde-format
 msgid "Action Property"
-msgstr ""
+msgstr "Svojstvo radnje"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabBasic)
 #: app/ActionMan/actionproperty.ui:39
 #, kde-format
 msgid "Basic Properties"
-msgstr ""
+msgstr "Osnovna svojstva"
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonAddStartpath)
 #: app/ActionMan/actionproperty.ui:45
 #, kde-format
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelDescription)
 #. i18n: ectx: property (whatsThis), widget (KTextEdit, textDescription)
@@ -152,55 +155,57 @@ msgid ""
 "A detailed description of the <b>Useraction</b>. It is only displayed in the "
 "<i>Konfigurator</i> and via <code>Shift+F1</code>."
 msgstr ""
+"Detaljan opis <b>korisničke radnje</b>. Prikazuje se samo u "
+"<i>Konfiguratoru</i> i pomoću <code>Shift+F1</code>."
 
 #. i18n: ectx: property (text), widget (QLabel, LabelDescription)
 #: app/ActionMan/actionproperty.ui:61
 #, kde-format
 msgid "Description:"
-msgstr ""
+msgstr "Opis:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgAccept)
 #: app/ActionMan/actionproperty.ui:77
 #, kde-format
 msgid "Command Accepts"
-msgstr ""
+msgstr "Naredba prihvaća"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioLocal)
 #: app/ActionMan/actionproperty.ui:83
 #, kde-format
 msgid "Substitute the <b>Placeholders</b> with local filenames."
-msgstr ""
+msgstr "Zamijeni <b>zamjenska mjesta</b> lokalnim nazivima datoteka."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioLocal)
 #: app/ActionMan/actionproperty.ui:86
 #, kde-format
 msgid "&Local files only (no URLs)"
-msgstr ""
+msgstr "&Samo lokalne datoteke (bez URL-ova)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioUrl)
 #: app/ActionMan/actionproperty.ui:96
 #, kde-format
 msgid "Substitute the <b>Placeholders</b> with valid URLs."
-msgstr ""
+msgstr "Zamijeni <b>zamjenska mjesta</b> valjanim URL-ovima."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioUrl)
 #: app/ActionMan/actionproperty.ui:99
 #, kde-format
 msgid "URLs (re&mote and local)"
-msgstr ""
+msgstr "URL-ovi (udaljeni i &lokalni)"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leTitle)
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelTitle)
 #: app/ActionMan/actionproperty.ui:109 app/ActionMan/actionproperty.ui:122
 #, kde-format
 msgid "The title displayed in the <b>Usermenu</b>."
-msgstr ""
+msgstr "Naslov koji se prikazuje u <b>korisničkom izborniku</b>."
 
 #. i18n: ectx: property (text), widget (QLabel, LabelTitle)
 #: app/ActionMan/actionproperty.ui:125
 #, kde-format
 msgid "Title:"
-msgstr ""
+msgstr "Naslov:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leDistinctName)
 #: app/ActionMan/actionproperty.ui:139
@@ -209,7 +214,7 @@ msgid ""
 "Unique name of the <b>Useraction</b>. It is only used in the "
 "<i>Konfigurator</i> and does not appear in any other menu.<p><b>Note</b>: "
 "the <i>Title</i> shown in the <b>Usermenu</b> can be set below."
-msgstr ""
+msgstr "Jedinstveni naziv <b>korisničke radnje</b>. Upotrebljava se samo u <i>Konfiguratoru</i> i ne pojavljuje se ni u jednom drugom izborniku.<p><b>Napomena</b>: <i>Naslov</i> prikazan u <b>korisničkom izborniku</b> možete postaviti u nastavku."
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cbCategory)
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelCategory)
@@ -218,7 +223,7 @@ msgstr ""
 msgid ""
 "<b>Useractions</b> can be grouped in categories for better distinction. "
 "Choose a existing <i>Category</i> or create a new one by entering a name."
-msgstr ""
+msgstr "<b>Korisničke radnje</b> mogu se grupirati u kategorije radi lakšeg razlikovanja. Odaberite postojeću <i>kategoriju</i> ili stvorite novu unosom naziva."
 
 #. i18n: ectx: property (whatsThis), widget (KIconButton, ButtonIcon)
 #: app/ActionMan/actionproperty.ui:176
@@ -226,7 +231,7 @@ msgstr ""
 msgid ""
 "Each <b>Useraction</b> can have its own icon. It will appear in front of the "
 "title in the <b>Usermenu</b>."
-msgstr ""
+msgstr "Svaka <b>korisnička radnja</b> može imati vlastitu ikonu. Ona će se prikazati ispred naslova u <b>korisničkom izborniku</b>."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelDistinctName)
 #: app/ActionMan/actionproperty.ui:191
@@ -235,13 +240,13 @@ msgid ""
 "<p>Unique name of the <b>Useraction</b>. It is only used in the "
 "<i>Konfigurator</i> and does not appear in any other menu.</p><p><b>Note</"
 "b>: The <i>Title</i> shown in the <b>Usermenu</b> can be set below.</p>"
-msgstr ""
+msgstr "<p>Jedinstveni naziv <b>korisničke radnje</b>. Upotrebljava se samo u <i>Konfiguratoru</i> i ne pojavljuje se ni u jednom drugom izborniku.</p><p><b>Napomena</b>: <i>Naslov</i> prikazan u <b>korisničkom izborniku</b> možete postaviti u nastavku.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelDistinctName)
 #: app/ActionMan/actionproperty.ui:194
 #, kde-format
 msgid "Identifier:"
-msgstr ""
+msgstr "Identifikator:"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelCommandline)
 #: app/ActionMan/actionproperty.ui:211
@@ -253,13 +258,13 @@ msgid ""
 "p><ul><li><code>eject /mnt/cdrom</code></li><li><code>amarok --append "
 "%aList(\"Selected\")%</code></li></ul>\n"
 "<p>Please consult the handbook to learn more about the syntax.</p>"
-msgstr ""
+msgstr "<p><i>Naredba</i> određuje naredbu koja će se izvršiti pri uporabi <b>korisničke radnje</b>. To može biti jednostavna naredba ljuske ili složen niz naredbi sa <b>zamjenskim mjestima</b>.</p><p>Primjeri:</p><ul><li><code>eject /mnt/cdrom</code></li><li><code>amarok --append %aList(\"Selected\")%</code></li></ul>\n<p>Više o sintaksi potražite u priručniku.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelCommandline)
 #: app/ActionMan/actionproperty.ui:214
 #, kde-format
 msgid "Command:"
-msgstr ""
+msgstr "Naredba:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leTooltip)
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelTooltip)
@@ -268,7 +273,7 @@ msgstr ""
 msgid ""
 "The <i>Tooltip</i> is shown when the mouse cursor is hold over an entry of "
 "the <b>Useraction Toolbar</b>."
-msgstr ""
+msgstr "<i>Opis alata</i> prikazuje se kada pokazivač miša zadržite iznad stavke na <b>alatnoj traci korisničkih radnji</b>."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leStartpath)
 #. i18n: ectx: property (whatsThis), widget (QLabel, LabelStartpath)
@@ -277,13 +282,13 @@ msgstr ""
 msgid ""
 "The <i>Workdir</i> defines in which folder the <i>Command</i> will be "
 "executed."
-msgstr ""
+msgstr "<i>Radna mapa</i> određuje mapu u kojoj će se izvršiti <i>naredba</i>."
 
 #. i18n: ectx: property (text), widget (QLabel, LabelTooltip)
 #: app/ActionMan/actionproperty.ui:247
 #, kde-format
 msgid "Tooltip:"
-msgstr ""
+msgstr "Opis alata:"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leCommandline)
 #: app/ActionMan/actionproperty.ui:259
@@ -295,147 +300,147 @@ msgid ""
 "Examples:<ul><li><code>eject /mnt/cdrom</code></li><li><code>amarok --append "
 "%aList(\"Selected\")%</code></li></ul>\n"
 "Please consult the handbook to learn more about the syntax."
-msgstr ""
+msgstr "<i>Naredba</i> određuje naredbu koja će se izvršiti pri uporabi <b>korisničke radnje</b>. To može biti jednostavna naredba ljuske ili složen niz naredbi sa <b>zamjenskim mjestima</b>.<p>\nPrimjeri:<ul><li><code>eject /mnt/cdrom</code></li><li><code>amarok --append %aList(\"Selected\")%</code></li></ul>\nViše o sintaksi potražite u priručniku."
 
 #. i18n: ectx: property (text), widget (QLabel, LabelCategory)
 #: app/ActionMan/actionproperty.ui:278
 #, kde-format
 msgid "Category:"
-msgstr ""
+msgstr "Kategorija:"
 
 #. i18n: ectx: property (whatsThis), widget (QToolButton, ButtonAddPlaceholder)
 #: app/ActionMan/actionproperty.ui:300 app/GUI/kcmdline.cpp:182
 #, kde-format
 msgid "Add <b>Placeholders</b> for the selected files in the panel."
-msgstr ""
+msgstr "Dodaj <b>zamjenska mjesta</b> za odabrane datoteke u ploči."
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonAddPlaceholder)
 #: app/ActionMan/actionproperty.ui:303
 #, kde-format
 msgid "&Add"
-msgstr ""
+msgstr "&Dodaj"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelStartpath)
 #: app/ActionMan/actionproperty.ui:329
 #, kde-format
 msgid "Workdir:"
-msgstr ""
+msgstr "Radna mapa:"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelShortcut)
 #: app/ActionMan/actionproperty.ui:357
 #, kde-format
 msgid "Default shortcut:"
-msgstr ""
+msgstr "Zadani prečac:"
 
 #. i18n: ectx: property (whatsThis), widget (KKeySequenceWidget, KeyButtonShortcut)
 #: app/ActionMan/actionproperty.ui:383
 #, kde-format
 msgid "Set a default keyboard shortcut."
-msgstr ""
+msgstr "Postavi zadani tipkovnički prečac."
 
 #. i18n: ectx: property (text), widget (KKeySequenceWidget, KeyButtonShortcut)
 #: app/ActionMan/actionproperty.ui:386
 #, kde-format
 msgctxt "No shortcut"
 msgid "None"
-msgstr ""
+msgstr "Nema"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkEnabled)
 #: app/ActionMan/actionproperty.ui:398
 #, kde-format
 msgid "If checked, the action is shown in the Useractions menus."
-msgstr ""
+msgstr "Ako je označeno, radnja će se prikazati u izbornicima korisničkih radnji."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnabled)
 #: app/ActionMan/actionproperty.ui:401
 #, kde-format
 msgid "Enabled"
-msgstr ""
+msgstr "Omogućeno"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgExecType)
 #: app/ActionMan/actionproperty.ui:414
 #, kde-format
 msgid "Execution Mode"
-msgstr ""
+msgstr "Način izvršavanja"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioCollectOutput)
 #: app/ActionMan/actionproperty.ui:420
 #, kde-format
 msgid "Collect the output of the executed program."
-msgstr ""
+msgstr "Prikupi izlaz izvršenog programa."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCollectOutput)
 #: app/ActionMan/actionproperty.ui:423
 #, kde-format
 msgid "Collect output"
-msgstr ""
+msgstr "Prikupi izlaz"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkSeparateStdError)
 #: app/ActionMan/actionproperty.ui:433
 #, kde-format
 msgid "Separate standard out and standard error in the output collection."
-msgstr ""
+msgstr "Razdvoji standardni izlaz i standardni izlaz pogrešaka u prikupljenom izlazu."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSeparateStdError)
 #: app/ActionMan/actionproperty.ui:436
 #, kde-format
 msgid "Separate standard error"
-msgstr ""
+msgstr "Razdvoji standardni izlaz pogrešaka"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioNormal)
 #: app/ActionMan/actionproperty.ui:443
 #, kde-format
 msgid "&Normal"
-msgstr ""
+msgstr "&Uobičajeno"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioTerminal)
 #: app/ActionMan/actionproperty.ui:453
 #, kde-format
 msgid "Run the command in a terminal."
-msgstr ""
+msgstr "Pokreni naredbu u terminalu."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioTerminal)
 #: app/ActionMan/actionproperty.ui:456
 #, kde-format
 msgid "Run in terminal"
-msgstr ""
+msgstr "Pokreni u terminalu"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioTE)
 #: app/ActionMan/actionproperty.ui:463
 #, kde-format
 msgid "Run the command in the embedded terminal emulator."
-msgstr ""
+msgstr "Pokreni naredbu u ugrađenom emulatoru terminala."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioTE)
 #: app/ActionMan/actionproperty.ui:466
 #, kde-format
 msgid "Run in the embedded terminal emulator"
-msgstr ""
+msgstr "Pokreni u ugrađenom emulatoru terminala"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabAdv)
 #: app/ActionMan/actionproperty.ui:477
 #, kde-format
 msgid "Advanced Properties"
-msgstr ""
+msgstr "Napredna svojstva"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbShowonly)
 #: app/ActionMan/actionproperty.ui:489
 #, kde-format
 msgid "The Useraction is only available for"
-msgstr ""
+msgstr "Korisnička radnja dostupna je samo za"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabProt)
 #: app/ActionMan/actionproperty.ui:499
 #, kde-format
 msgid "Protocol"
-msgstr ""
+msgstr "Protokol"
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonNewProtocol)
 #: app/ActionMan/actionproperty.ui:523
 #, kde-format
 msgctxt "New protocol"
 msgid "&New..."
-msgstr ""
+msgstr "&Novo..."
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonEditProtocol)
 #. i18n: ectx: property (text), widget (QToolButton, ButtonEditPath)
@@ -445,7 +450,7 @@ msgstr ""
 #: app/ActionMan/actionproperty.ui:765 app/ActionMan/actionproperty.ui:870
 #, kde-format
 msgid "Chan&ge..."
-msgstr ""
+msgstr "Pro&mijeni..."
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonRemoveProtocol)
 #. i18n: ectx: property (text), widget (QToolButton, ButtonRemovePath)
@@ -455,7 +460,7 @@ msgstr ""
 #: app/ActionMan/actionproperty.ui:790 app/ActionMan/actionproperty.ui:895
 #, kde-format
 msgid "De&lete"
-msgstr ""
+msgstr "Iz&briši"
 
 #. i18n: ectx: property (whatsThis), widget (KrListWidget, lbShowonlyProtocol)
 #. i18n: ectx: property (whatsThis), widget (KrListWidget, lbShowonlyPath)
@@ -464,39 +469,39 @@ msgstr ""
 #: app/ActionMan/actionproperty.ui:715
 #, kde-format
 msgid "Show the <b>Useraction</b> only for the values defined here."
-msgstr ""
+msgstr "Prikaži <b>korisničku radnju</b> samo za ovdje definirane vrijednosti."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabPath)
 #: app/ActionMan/actionproperty.ui:604
 #, kde-format
 msgid "Path"
-msgstr ""
+msgstr "Putanja"
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonAddPath)
 #: app/ActionMan/actionproperty.ui:635
 #, kde-format
 msgctxt "New path"
 msgid "&New..."
-msgstr ""
+msgstr "&Novo..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabMime)
 #: app/ActionMan/actionproperty.ui:709
 #, kde-format
 msgid "MIME Type"
-msgstr ""
+msgstr "Vrsta MIME"
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonAddMime)
 #: app/ActionMan/actionproperty.ui:740
 #, kde-format
 msgctxt "New MIME"
 msgid "&New..."
-msgstr ""
+msgstr "&Novo..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, TabFile)
 #: app/ActionMan/actionproperty.ui:814 app/Filter/generalfilter.cpp:96
 #, kde-format
 msgid "File Name"
-msgstr ""
+msgstr "Naziv datoteke"
 
 #. i18n: ectx: property (whatsThis), widget (KrListWidget, lbShowonlyFile)
 #: app/ActionMan/actionproperty.ui:820
@@ -504,265 +509,265 @@ msgstr ""
 msgid ""
 "Show the <b>Useraction</b> only for the file names defined here. The "
 "wildcards '<code>?</code>' and '<code>*</code>' can be used."
-msgstr ""
+msgstr "Prikaži <b>korisničku radnju</b> samo za ovdje navedene nazive datoteka. Mogu se koristiti zamjenski znakovi '<code>?</code>' i '<code>*</code>'."
 
 #. i18n: ectx: property (text), widget (QToolButton, ButtonNewFile)
 #: app/ActionMan/actionproperty.ui:845
 #, kde-format
 msgctxt "New file"
 msgid "&New..."
-msgstr ""
+msgstr "&Nova..."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkConfirmExecution)
 #: app/ActionMan/actionproperty.ui:925
 #, kde-format
 msgid "Allows one to tweak the <i>Command</i> before it is executed."
-msgstr ""
+msgstr "Omogućuje prilagodbu <i>naredbe</i> prije njezina izvršavanja."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkConfirmExecution)
 #: app/ActionMan/actionproperty.ui:928
 #, kde-format
 msgid "Confirm each program call separately"
-msgstr ""
+msgstr "Zasebno potvrdi svaki poziv programa"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkDifferentUser)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leDifferentUser)
 #: app/ActionMan/actionproperty.ui:935 app/ActionMan/actionproperty.ui:948
 #, kde-format
 msgid "Execute the <i>Command</i> under a different user ID."
-msgstr ""
+msgstr "Izvrši <i>naredbu</i> pod drugim korisničkim ID-om."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDifferentUser)
 #: app/ActionMan/actionproperty.ui:938
 #, kde-format
 msgid "Run as different user:"
-msgstr ""
+msgstr "Pokreni kao drugi korisnik:"
 
 #: app/ActionMan/addplaceholderpopup.cpp:45
 #, kde-format
 msgid "Active panel"
-msgstr ""
+msgstr "Aktivno okno"
 
 #: app/ActionMan/addplaceholderpopup.cpp:46
 #, kde-format
 msgid "Other panel"
-msgstr ""
+msgstr "Drugo okno"
 
 #: app/ActionMan/addplaceholderpopup.cpp:47
 #, kde-format
 msgid "Left panel"
-msgstr ""
+msgstr "Lijevo okno"
 
 #: app/ActionMan/addplaceholderpopup.cpp:48
 #, kde-format
 msgid "Right panel"
-msgstr ""
+msgstr "Desno okno"
 
 #: app/ActionMan/addplaceholderpopup.cpp:49
 #, kde-format
 msgid "Panel independent"
-msgstr ""
+msgstr "Neovisno o oknu"
 
 #: app/ActionMan/addplaceholderpopup.cpp:57
 #, kde-format
 msgid "Choose executable..."
-msgstr ""
+msgstr "Odaberi izvršnu datoteku..."
 
 #: app/ActionMan/addplaceholderpopup.cpp:142
 #, kde-format
 msgid "User Action Parameter Dialog"
-msgstr ""
+msgstr "Dijalog parametara korisničke radnje"
 
 #: app/ActionMan/addplaceholderpopup.cpp:155
 #, kde-format
 msgid "This placeholder allows some parameter:"
-msgstr ""
+msgstr "Ovo zamjensko mjesto omogućuje zadavanje parametra:"
 
 #: app/ActionMan/useractionlistview.cpp:29
 #, kde-format
 msgid "Title"
-msgstr ""
+msgstr "Naslov"
 
 #: app/ActionMan/useractionpage.cpp:38
 msgid "XML files (*.xml);;All files (*)"
-msgstr ""
+msgstr "XML datoteke (*.xml);;Sve datoteke (*)"
 
 #: app/ActionMan/useractionpage.cpp:55
 #, kde-format
 msgid "Create new useraction"
-msgstr ""
+msgstr "Stvori novu korisničku radnju"
 
 #: app/ActionMan/useractionpage.cpp:60
 #, kde-format
 msgid "Import useractions"
-msgstr ""
+msgstr "Uvezi korisničke radnje"
 
 #: app/ActionMan/useractionpage.cpp:65
 #, kde-format
 msgid "Export useractions"
-msgstr ""
+msgstr "Izvezi korisničke radnje"
 
 #: app/ActionMan/useractionpage.cpp:70
 #, kde-format
 msgid "Copy useractions to clipboard"
-msgstr ""
+msgstr "Kopiraj korisničke radnje u međuspremnik"
 
 #: app/ActionMan/useractionpage.cpp:75
 #, kde-format
 msgid "Paste useractions from clipboard"
-msgstr ""
+msgstr "Zalijepi korisničke radnje iz međuspremnika"
 
 #: app/ActionMan/useractionpage.cpp:80
 #, kde-format
 msgid "Delete selected useractions"
-msgstr ""
+msgstr "Izbriši odabrane korisničke radnje"
 
 #: app/ActionMan/useractionpage.cpp:133
 #, kde-format
 msgid ""
 "The current action has been modified. Do you want to apply these changes?"
-msgstr ""
+msgstr "Trenutačna je radnja izmijenjena. Želite li primijeniti promjene?"
 
 #: app/ActionMan/useractionpage.cpp:208
 #, kde-format
 msgid "Are you sure that you want to remove all selected actions?"
-msgstr ""
+msgstr "Želite li zaista ukloniti sve odabrane radnje?"
 
 #: app/ActionMan/useractionpage.cpp:209
 #, kde-format
 msgid "Remove Selected Actions?"
-msgstr ""
+msgstr "Ukloniti odabrane radnje?"
 
 #: app/ActionMan/useractionpage.cpp:260
 #, kde-format
 msgid ""
 "This file already contains some useractions.\n"
 "Do you want to overwrite it or should it be merged with the selected actions?"
-msgstr ""
+msgstr "Ova datoteka već sadrži korisničke radnje.\nŽelite li je prebrisati ili spojiti s odabranim radnjama?"
 
 #: app/ActionMan/useractionpage.cpp:261
 #, kde-format
 msgid "Overwrite or Merge?"
-msgstr ""
+msgstr "Prebrisati ili spojiti?"
 
 #: app/ActionMan/useractionpage.cpp:263
 #, kde-format
 msgid "Merge"
-msgstr ""
+msgstr "Spoji"
 
 #: app/ActionMan/useractionpage.cpp:269
 #, kde-format
 msgid "This file already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Ova datoteka već postoji. Želite li je prebrisati?"
 
 #: app/ActionMan/useractionpage.cpp:270
 #, kde-format
 msgid "Overwrite Existing File?"
-msgstr ""
+msgstr "Prebrisati postojeću datoteku?"
 
 #: app/ActionMan/useractionpage.cpp:284 app/UserAction/kraction.cpp:191
 #, kde-format
 msgid ""
 "Cannot open %1 for writing.\n"
 "Nothing exported."
-msgstr ""
+msgstr "Nije moguće otvoriti %1 za pisanje.\nNišta nije izvezeno."
 
 #: app/ActionMan/useractionpage.cpp:284
 #, kde-format
 msgid "Export Failed"
-msgstr ""
+msgstr "Izvoz nije uspio"
 
 #: app/Archive/abstractthreadedjob.cpp:198
 #, kde-format
 msgid "Internal error, undefined <job> in result signal"
-msgstr ""
+msgstr "Interna pogreška: nedefiniran <job> u signalu rezultata"
 
 #: app/Archive/abstractthreadedjob.cpp:348
 #, kde-format
 msgid "Downloading remote files"
-msgstr ""
+msgstr "Preuzimanje udaljenih datoteka"
 
 #: app/Archive/abstractthreadedjob.cpp:388
 #, kde-format
 msgctxt "%1=temporary file name"
 msgid "The temporary file \"%1\" could not be opened."
-msgstr ""
+msgstr "Nije moguće otvoriti privremenu datoteku „%1”."
 
 #: app/Archive/abstractthreadedjob.cpp:499
 #, kde-format
 msgid "Counting files"
-msgstr ""
+msgstr "Brojanje datoteka"
 
 #: app/Archive/abstractthreadedjob.cpp:528
 #, kde-format
 msgid "Uploading to remote destination"
-msgstr ""
+msgstr "Slanje na udaljeno odredište"
 
 #: app/Archive/abstractthreadedjob.cpp:649
 #, kde-format
 msgctxt "%1=archive filename"
 msgid "%1, unsupported archive type."
-msgstr ""
+msgstr "%1, nepodržana vrsta arhive."
 
 #: app/Archive/krarchandler.cpp:246
 #, kde-format
 msgid "Counting files in archive"
-msgstr ""
+msgstr "Brojanje datoteka u arhivi"
 
 #: app/Archive/krarchandler.cpp:268
 #, kde-format
 msgid "Failed to list the content of the archive (%1)."
-msgstr ""
+msgstr "Nije uspjelo izlistavanje sadržaja arhive (%1)."
 
 #: app/Archive/krarchandler.cpp:286 app/Archive/krarchandler.cpp:427
 #, kde-format
 msgid "Failed to unpack %1."
-msgstr ""
+msgstr "Nije uspjelo raspakiravanje datoteke %1."
 
 #: app/Archive/krarchandler.cpp:353
 #, kde-format
 msgid "Failed to convert rpm (%1) to cpio."
-msgstr ""
+msgstr "Nije uspjela pretvorba RPM-a (%1) u CPIO."
 
 #: app/Archive/krarchandler.cpp:370
 #, kde-format
 msgid "Failed to convert deb (%1) to tar."
-msgstr ""
+msgstr "Nije uspjela pretvorba DEB-a (%1) u TAR."
 
 #: app/Archive/krarchandler.cpp:403
 #, kde-format
 msgid "Unpacking File(s)"
-msgstr ""
+msgstr "Raspakiravanje datoteka"
 
 #: app/Archive/krarchandler.cpp:427 app/Archive/krarchandler.cpp:649
 #, kde-format
 msgid "User cancelled."
-msgstr ""
+msgstr "Korisnik je odustao."
 
 #: app/Archive/krarchandler.cpp:497
 #, kde-format
 msgid "Testing Archive"
-msgstr ""
+msgstr "Provjera arhive"
 
 #: app/Archive/krarchandler.cpp:631
 #, kde-format
 msgid "Packing File(s)"
-msgstr ""
+msgstr "Pakiranje datoteka"
 
 #: app/Archive/krarchandler.cpp:649 app/Archive/krarchandler.cpp:655
 #, kde-format
 msgid "Failed to pack %1."
-msgstr ""
+msgstr "Pakiranje %1 nije uspjelo."
 
 #: app/Archive/krarchandler.cpp:700
 #, kde-format
 msgid "This archive is encrypted, please supply the password:"
-msgstr ""
+msgstr "Ova je arhiva šifrirana, unesite lozinku:"
 
 #: app/Archive/packjob.cpp:57 app/Archive/packjob.cpp:147
 #, kde-format
 msgid "Processed files"
-msgstr ""
+msgstr "Obrađene datoteke"
 
 #: app/Archive/packjob.cpp:67
 #, kde-format
@@ -778,7 +783,7 @@ msgstr ""
 #: app/Archive/packjob.cpp:112
 #, kde-format
 msgid "Archive tests passed."
-msgstr ""
+msgstr "Provjere arhive uspješno su završene."
 
 #: app/Archive/packjob.cpp:154
 #, kde-format
@@ -788,12 +793,12 @@ msgstr ""
 #: app/BookMan/kraddbookmarkdlg.cpp:28 app/kractions.cpp:286
 #, kde-format
 msgid "Add Bookmark"
-msgstr ""
+msgstr "Dodaj knjižnu oznaku"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:35 app/DiskUsage/diskusage.cpp:1037
 #, kde-format
 msgid "Name:"
-msgstr ""
+msgstr "Naziv:"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:42
 #, kde-format
@@ -803,45 +808,45 @@ msgstr ""
 #: app/BookMan/kraddbookmarkdlg.cpp:49
 #, kde-format
 msgid "Create in:"
-msgstr ""
+msgstr "Stvori u:"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:73 app/BookMan/kraddbookmarkdlg.cpp:142
 #: app/Panel/panelfunc.cpp:686
 #, kde-format
 msgid "New Folder"
-msgstr ""
+msgstr "Nova mapa"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:96 app/FileSystem/krquery.cpp:261
 #: app/Filter/generalfilter.cpp:161 app/Filter/generalfilter.cpp:538
 #, kde-format
 msgid "Folders"
-msgstr ""
+msgstr "Mape"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:102 app/BookMan/krbookmarkbutton.cpp:32
 #: app/BookMan/krbookmarkhandler.cpp:65 app/Panel/listpanelactions.cpp:105
 #, kde-format
 msgid "Bookmarks"
-msgstr ""
+msgstr "Knjižne oznake"
 
 #: app/BookMan/kraddbookmarkdlg.cpp:142
 #, kde-format
 msgid "Folder name:"
-msgstr ""
+msgstr "Naziv mape:"
 
 #: app/BookMan/krbookmark.cpp:23 app/BookMan/krbookmarkhandler.cpp:868
 #, kde-format
 msgid "Trash bin"
-msgstr ""
+msgstr "Smeće"
 
 #: app/BookMan/krbookmark.cpp:24 app/BookMan/krbookmarkhandler.cpp:876
 #, kde-format
 msgid "Virtual Filesystem"
-msgstr ""
+msgstr "Virtualni datotečni sustav"
 
 #: app/BookMan/krbookmark.cpp:25 app/BookMan/krbookmarkhandler.cpp:872
 #, kde-format
 msgid "Local Network"
-msgstr ""
+msgstr "Lokalna mreža"
 
 #: app/BookMan/krbookmarkbutton.cpp:27 app/BookMan/krbookmarkbutton.cpp:28
 #, kde-format

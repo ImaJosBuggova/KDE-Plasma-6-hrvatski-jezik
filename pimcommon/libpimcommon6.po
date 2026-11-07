@@ -1,0 +1,1144 @@
+# Croatian translations for pimcommon.
+# Copyright (C) 2026 This file is copyright:
+# This file is distributed under the same license as the pimcommon package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pimcommon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-16 00:49+0000\n"
+"PO-Revision-Date: 2026-11-07 08:00+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: pimcommon-activities/configureactivitieswidget.cpp:54
+#, kde-format
+msgctxt "@option:check"
+msgid "Limit to the selected activities:"
+msgstr "Ograniči na odabrane aktivnosti:"
+
+#: pimcommon-activities/configureactivitieswidget.cpp:60
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"If you limit this account to activity, it will be shown only when you are in "
+"those activities. Furthermore, when you switch to an activity it should not "
+"be available in, it will automatically be hidden."
+msgstr "Ako ovaj račun ograničite na aktivnosti, prikazivat će se samo dok ste u tim aktivnostima. Osim toga, automatski će se sakriti kada se prebacite na aktivnost u kojoj ne bi trebao biti dostupan."
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:36
+#, kde-format
+msgid "Share On..."
+msgstr "Podijeli na..."
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:39
+#, kde-format
+msgctxt "@action:inmenu Share On..."
+msgid "%1"
+msgstr "%1"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:82
+#, kde-format
+msgid "Facebook"
+msgstr "Facebook"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:85
+#, kde-format
+msgid "Twitter"
+msgstr "Twitter"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:88
+#, kde-format
+msgid "Mail"
+msgstr "E-pošta"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:91
+#, kde-format
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:94
+#, kde-format
+msgid "Evernote"
+msgstr "Evernote"
+
+#: pimcommon/shareserviceurl/shareserviceurlmanager.cpp:97
+#, kde-format
+msgid "LiveJournal"
+msgstr "LiveJournal"
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Default template"
+msgstr "Zadani predložak"
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Template"
+msgstr "Predložak"
+
+#: pimcommon/templatewidgets/templateeditdialog.cpp:59
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "Naziv:"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:78
+#, kde-format
+msgid "Do you want to delete selected template?"
+msgstr "Želite li izbrisati odabrani predložak?"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete template"
+msgstr "Izbriši predložak"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:146
+#, kde-format
+msgid "Import Template"
+msgstr "Uvezi predložak"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:155
+#, kde-format
+msgid "Export Template"
+msgstr "Izvezi predložak"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:169
+#, kde-format
+msgid "Insert template"
+msgstr "Umetni predložak"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:175
+#, kde-format
+msgid "Add..."
+msgstr "Dodaj..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:181
+#, kde-format
+msgid "Show..."
+msgstr "Prikaži..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:181
+#, kde-format
+msgid "Modify..."
+msgstr "Izmijeni..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:184
+#, kde-format
+msgid "Duplicate"
+msgstr "Dupliciraj"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:190
+#, kde-format
+msgid "Remove"
+msgstr "Ukloni"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:197
+#, kde-format
+msgid "Export..."
+msgstr "Izvezi..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:201
+#, kde-format
+msgid "Import..."
+msgstr "Uvezi..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:208
+#, kde-format
+msgid "Download new Templates..."
+msgstr "Preuzmi nove predloške..."
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:243
+#, kde-format
+msgid "'%1' is not a template file"
+msgstr "'%1' nije datoteka predloška"
+
+#: pimcommon/templatewidgets/templatelistwidget.cpp:243
+#, kde-format
+msgid "Load Template"
+msgstr "Učitaj predložak"
+
+#: pimcommon/util/pimutil.cpp:50
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr "Datoteku %1 nije moguće zapisati:\n\"%2\" je detaljan opis pogreške."
+
+#: pimcommon/util/pimutil.cpp:54
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File Error"
+msgstr "Pogreška pri spremanju datoteke"
+
+#: pimcommon/util/pimutil.cpp:85
+#, kde-format
+msgid ""
+"Could not read the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr "Datoteku %1 nije moguće pročitati:\n\"%2\" je detaljan opis pogreške."
+
+#: pimcommon/util/pimutil.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Load File Error"
+msgstr "Pogreška pri učitavanju datoteke"
+
+#: pimcommon/widgets/configureimmutablewidgetutils.cpp:31
+#, kde-format
+msgid ""
+"<qt><p>This setting has been fixed by your administrator.</p><p>If you think "
+"this is an error, please contact him.</p></qt>"
+msgstr "<qt><p>Administrator je zaključao ovu postavku.</p><p>Ako mislite da je riječ o pogrešci, obratite mu se.</p></qt>"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:27
+#, kde-format
+msgid "Change Case"
+msgstr "Promijeni veličinu slova"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:28
+#, kde-format
+msgctxt "@action"
+msgid "Uppercase"
+msgstr "Velika slova"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:31
+#, kde-format
+msgctxt "@action"
+msgid "Sentence case"
+msgstr "Veliko početno slovo"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:34
+#, kde-format
+msgctxt "@action"
+msgid "Lowercase"
+msgstr "Mala slova"
+
+#: pimcommon/widgets/kactionmenuchangecase.cpp:37
+#, kde-format
+msgctxt "@action"
+msgid "Reverse Case"
+msgstr "Obrni veličinu slova"
+
+#: pimcommon/widgets/lineeditwithcompleterng.cpp:45
+#, kde-format
+msgid "Clear History"
+msgstr "Očisti povijest"
+
+#: pimcommon/widgets/purposemenuwidget.cpp:59
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Došlo je do problema pri dijeljenju dokumenta: %1"
+
+#: pimcommon/widgets/purposemenuwidget.cpp:63
+#, kde-format
+msgid "File was shared."
+msgstr "Datoteka je podijeljena."
+
+#: pimcommon/widgets/purposemenuwidget.cpp:65
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>Novi zahtjev možete pronaći na adresi:<br /><a href='%1'>%1</a> </qt>"
+
+#: pimcommon/widgets/renamefiledialog.cpp:101
+#, kde-format
+msgctxt "@title:window"
+msgid "File Already Exists"
+msgstr "Datoteka već postoji"
+
+#: pimcommon/widgets/renamefiledialog.cpp:104
+#, kde-kuit-format
+msgid ""
+"A file named <filename>%1</filename> already exists. Do you want to "
+"overwrite it?"
+msgstr "Datoteka <filename>%1</filename> već postoji. Želite li je prebrisati?"
+
+#: pimcommon/widgets/renamefiledialog.cpp:114
+#, kde-format
+msgctxt "@action:button"
+msgid "Suggest New &Name"
+msgstr "Predloži novi &naziv"
+
+#: pimcommon/widgets/renamefiledialog.cpp:122
+#, kde-format
+msgctxt "@action:button"
+msgid "&Ignore"
+msgstr "&Zanemari"
+
+#: pimcommon/widgets/renamefiledialog.cpp:125
+#, kde-format
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "P&reimenuj"
+
+#: pimcommon/widgets/renamefiledialog.cpp:135
+#, kde-format
+msgctxt "@option:check"
+msgid "Appl&y to All"
+msgstr "Primijeni na s&ve"
+
+#: pimcommon/widgets/renamefiledialog.cpp:181
+#, kde-format
+msgid "This filename \"%1\" already exists."
+msgstr "Datoteka naziva „%1” već postoji."
+
+#: pimcommon/widgets/renamefiledialog.cpp:181
+#, kde-format
+msgid "File already exists"
+msgstr "Datoteka već postoji"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:55
+#: pimcommon/widgets/simplestringlisteditor.cpp:58
+#, kde-format
+msgid "New entry:"
+msgstr "Novi unos:"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:56
+#: pimcommon/widgets/simplestringlisteditor.cpp:57
+#, kde-format
+msgid "New Value"
+msgstr "Nova vrijednost"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:59
+#, kde-format
+msgid "Do you want to remove selected text?"
+msgstr "Želite li ukloniti odabrani tekst?"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:94
+#, kde-format
+msgctxt "@action:button"
+msgid "&Add..."
+msgstr "&Dodaj..."
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:105
+#, kde-format
+msgctxt "@action:button"
+msgid "&Modify..."
+msgstr "&Izmijeni..."
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:118
+#, kde-format
+msgctxt "@action:button"
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:155
+#, kde-format
+msgctxt "@action:button"
+msgid "&Customize..."
+msgstr "&Prilagodi..."
+
+#: pimcommon/widgets/simplestringlisteditor.cpp:308
+#: pimcommonakonadi/acl/aclmanager.cpp:281
+#: pimcommonakonadi/acl/aclmanager.cpp:288
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:85
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&User identifier:"
+msgstr "&Identifikator korisnika:"
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:92
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"The User Identifier is the login of the user on the IMAP server. This can be "
+"a simple user name or the full email address of the user; the login for your "
+"own account on the server will tell you which one it is."
+msgstr "Identifikator korisnika je korisničko ime za prijavu na IMAP poslužitelj. To može biti samo korisničko ime ili puna adresa e-pošte korisnika; iz podataka za prijavu na vlastiti račun na poslužitelju saznat ćete koji se oblik koristi."
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:96
+#, kde-format
+msgctxt "select an email address"
+msgid "Se&lect..."
+msgstr "Oda&beri..."
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:99
+#, kde-format
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: pimcommonakonadi/acl/aclentrydialog.cpp:115
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<b>Note: </b>Renaming requires write permissions on the parent folder."
+msgstr "<b>Napomena: </b>Za preimenovanje su potrebne dozvole za pisanje u nadređenu mapu."
+
+#: pimcommonakonadi/acl/acllistview.cpp:50
+#, kde-format
+msgid "Folder cannot be administrated."
+msgstr "Mapom nije moguće upravljati."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:158
+#, kde-format
+msgctxt "@action"
+msgid "Add Entry..."
+msgstr "Dodaj unos..."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:163
+#, kde-format
+msgctxt "@action"
+msgid "Edit Entry..."
+msgstr "Uredi unos..."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:169
+#, kde-format
+msgctxt "@action"
+msgid "Remove Entry"
+msgstr "Ukloni unos"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:212
+#, kde-format
+msgctxt "@title:window"
+msgid "Add ACL"
+msgstr "Dodaj popis za kontrolu pristupa"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:239
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit ACL"
+msgstr "Uredi popis za kontrolu pristupa"
+
+#: pimcommonakonadi/acl/aclmanager.cpp:279
+#, kde-format
+msgid ""
+"Do you really want to remove your own permissions for this folder? You will "
+"not be able to access it afterwards."
+msgstr "Želite li zaista ukloniti vlastite dozvole za ovu mapu? Nakon toga joj više nećete moći pristupiti."
+
+#: pimcommonakonadi/acl/aclmanager.cpp:287
+#, kde-format
+msgid "Do you really want to remove these permissions for this folder?"
+msgstr "Želite li zaista ukloniti ove dozvole za ovu mapu?"
+
+#: pimcommonakonadi/acl/aclmodifyjob.cpp:233
+#, kde-format
+msgid ""
+"Do you really want to apply the folder's permissions to these subfolders?"
+msgstr "Želite li zaista primijeniti dozvole mape na ove podmape?"
+
+#: pimcommonakonadi/acl/aclmodifyjob.cpp:235
+#, kde-format
+msgctxt "@title:window"
+msgid "Apply Permissions"
+msgstr "Primijeni dozvole"
+
+#: pimcommonakonadi/acl/aclutils.cpp:19
+msgctxt "Permissions"
+msgid "None"
+msgstr "Nijedna"
+
+#: pimcommonakonadi/acl/aclutils.cpp:21
+msgctxt "Permissions"
+msgid "Read"
+msgstr "Čitanje"
+
+#: pimcommonakonadi/acl/aclutils.cpp:23
+msgctxt "Permissions"
+msgid "Append"
+msgstr "Dodavanje"
+
+#: pimcommonakonadi/acl/aclutils.cpp:27
+msgctxt "Permissions"
+msgid "Write"
+msgstr "Pisanje"
+
+#: pimcommonakonadi/acl/aclutils.cpp:31
+msgctxt "Permissions"
+msgid "All"
+msgstr "Sve"
+
+#: pimcommonakonadi/acl/aclutils.cpp:66
+#, kde-format
+msgid "Custom Permissions (%1)"
+msgstr "Prilagođene dozvole (%1)"
+
+#: pimcommonakonadi/acl/collectionaclpage.cpp:34
+#, kde-format
+msgctxt "@title:tab Access Control settings page."
+msgid "Access Control"
+msgstr "Kontrola pristupa"
+
+#: pimcommonakonadi/acl/collectionaclwidget.cpp:72
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply permissions on all &subfolders."
+msgstr "Primijeni dozvole na sve &podmape."
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:327
+#, kde-format
+msgid "vCard Import Failed"
+msgstr "Uvoz vCarda nije uspio"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:328
+#, kde-format
+msgid "<qt>Unable to access <b>%1</b>.</qt>"
+msgstr "<qt>Nije moguće pristupiti <b>%1</b>.</qt>"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:448
+#, kde-format
+msgid "Select email from contact"
+msgstr "Odaberi adresu e-pošte kontakta"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:566
+#, kde-format
+msgctxt "@action"
+msgid "Show Organization Unit for LDAP results"
+msgstr "Prikaži organizacijsku jedinicu za rezultate LDAP-a"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:574
+#, kde-format
+msgid "Configure Completion..."
+msgstr "Konfiguriraj dovršavanje..."
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:578
+#, kde-format
+msgid "Automatically expand groups"
+msgstr "Automatski proširi grupe"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:584
+#, kde-format
+msgid "Expand Groups..."
+msgstr "Proširi grupe..."
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:618
+#: pimcommonakonadi/addressline/completionorder/completionorderwidget.cpp:311
+#, kde-format
+msgid "Recent Addresses"
+msgstr "Nedavne adrese"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit.cpp:701
+#, kde-format
+msgid "Add to Blacklist"
+msgstr "Dodaj na crnu listu"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:115
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:744
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineedit_p.cpp:745
+#, kde-format
+msgctxt "@title:group"
+msgid "Contacts found in your data"
+msgstr "Kontakti pronađeni u vašim podacima"
+
+#: pimcommonakonadi/addressline/addresslineedit/addresseelineeditldap.cpp:57
+#, kde-format
+msgid "LDAP server: %1"
+msgstr "LDAP poslužitelj: %1"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:40
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Blacklisted Emails"
+msgstr "Prikaži adrese e-pošte na crnoj listi"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:41
+#, kde-format
+msgctxt "@label:textbox"
+msgid "<qt><a href=\"more_result\">More result...</a></qt>"
+msgstr "<qt><a href=\"more_result\">Više rezultata...</a></qt>"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:50
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Research is done from 3 characters"
+msgstr "Pretraživanje se pokreće nakon unosa 3 znaka"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Exclude domain names:"
+msgstr "Izuzmi nazive domena:"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:103
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Separate domain with '%1'"
+msgstr "Odvoji domene znakom „%1”"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:109
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Exclude email with Regular Expression:"
+msgstr "Izuzmi adrese e-pošte pomoću regularnog izraza:"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:117
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Separate regular expression with '%1'"
+msgstr "Odvoji regularne izraze znakom „%1”"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:129
+#, kde-format
+msgid "Select"
+msgstr "Odaberi"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:131
+#, kde-format
+msgid "Unselect"
+msgstr "Odznači"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:280
+#, kde-format
+msgid "No email found."
+msgstr "Nije pronađena nijedna adresa e-pošte."
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailcompletionwidget.cpp:282
+#, kde-format
+msgid "1 email found"
+msgid_plural "%1 emails found"
+msgstr[0] "Pronađena je 1 adresa e-pošte"
+msgstr[1] "Pronađene su %1 adrese e-pošte"
+msgstr[2] "Pronađeno je %1 adresa e-pošte"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemaillist.cpp:139
+#, kde-format
+msgid "No result found"
+msgstr "Nije pronađen nijedan rezultat"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailwarning.cpp:24
+#, kde-format
+msgid ""
+"The list was changed. Do you want to save before to make another search ?"
+msgstr "Popis je izmijenjen. Želite li ga spremiti prije novog pretraživanja?"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailwarning.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Save"
+msgstr "Spremi"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailwarning.cpp:30
+#, kde-format
+msgctxt "@action"
+msgid "Search"
+msgstr "Pretraži"
+
+#: pimcommonakonadi/addressline/blacklistakonadisearchcompletion/blacklistakonadisearchemailwarning.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Cancel"
+msgstr "Odustani"
+
+#: pimcommonakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Completion"
+msgstr "Konfiguriraj dovršavanje"
+
+#: pimcommonakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:59
+#, kde-format
+msgid "Completion Order"
+msgstr "Redoslijed dovršavanja"
+
+#: pimcommonakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:63
+#, kde-format
+msgid "Recent Address"
+msgstr "Nedavna adresa"
+
+#: pimcommonakonadi/addressline/completionconfiguredialog/completionconfiguredialog.cpp:68
+#, kde-format
+msgid "Blacklist Email Address"
+msgstr "Crna lista adresa e-pošte"
+
+#: pimcommonakonadi/addressline/completionorder/completionorderwidget.cpp:54
+#, kde-format
+msgid "LDAP server %1"
+msgstr "LDAP poslužitelj %1"
+
+#: pimcommonakonadi/addressline/completionorder/completionorderwidget.cpp:259
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move Up"
+msgstr "Pomakni gore"
+
+#: pimcommonakonadi/addressline/completionorder/completionorderwidget.cpp:268
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Move Down"
+msgstr "Pomakni dolje"
+
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:47
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "New email..."
+msgstr "Nova adresa e-pošte..."
+
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add Email"
+msgstr "Dodaj adresu e-pošte"
+
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:97
+#, kde-format
+msgid "Remove Email"
+msgid_plural "Remove Emails"
+msgstr[0] "Ukloni adresu e-pošte"
+msgstr[1] "Ukloni adrese e-pošte"
+msgstr[2] "Ukloni adresa e-pošte"
+
+#: pimcommonakonadi/addressline/recentaddress/recentaddresswidget.cpp:137
+#, kde-format
+msgid "Do you want to remove this email address?"
+msgid_plural "Do you want to remove %1 email addresses?"
+msgstr[0] "Želite li ukloniti ovu adresu e-pošte?"
+msgstr[1] "Želite li ukloniti %1 adrese e-pošte?"
+msgstr[2] "Želite li ukloniti %1 adresa e-pošte?"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:37
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:142
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:200
+#, kde-format
+msgctxt "type of folder content"
+msgid "Mail"
+msgstr "E-pošta"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:39
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:145
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:179
+#, kde-format
+msgctxt "type of folder content"
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:41
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:148
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:182
+#, kde-format
+msgctxt "type of folder content"
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:43
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:151
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:185
+#, kde-format
+msgctxt "type of folder content"
+msgid "Notes"
+msgstr "Bilješke"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:45
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:154
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:176
+#, kde-format
+msgctxt "type of folder content"
+msgid "Tasks"
+msgstr "Zadaci"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:47
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:157
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:188
+#, kde-format
+msgctxt "type of folder content"
+msgid "Journal"
+msgstr "Dnevnik"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:49
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:160
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:191
+#, kde-format
+msgctxt "type of folder content"
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:51
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:163
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:194
+#, kde-format
+msgctxt "type of folder content"
+msgid "Freebusy"
+msgstr "Slobodno/zauzeto"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:53
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:166
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:197
+#, kde-format
+msgctxt "type of folder content"
+msgid "Files"
+msgstr "Datoteke"
+
+#: pimcommonakonadi/collectionpage/collectiontypeutil.cpp:55
+#, kde-format
+msgctxt "type of folder content"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: pimcommonakonadi/collectionpage/contenttypewidget.cpp:44
+#, kde-format
+msgid "&Folder contents:"
+msgstr "Sadržaj &mape:"
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:17
+#, kde-format
+msgid "Nobody"
+msgstr "Nitko"
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:18
+#, kde-format
+msgid "Admins of This Folder"
+msgstr "Administratori ove mape"
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:19
+#, kde-format
+msgid "All Readers of This Folder"
+msgstr "Svi čitatelji ove mape"
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:23
+#, kde-format
+msgid ""
+"This setting defines which users sharing this folder should get \"busy\" "
+"periods in their freebusy lists and should see the alarms for the events or "
+"tasks in this folder. The setting applies to Calendar and Task folders only "
+"(for tasks, this setting is only used for alarms).\n"
+"\n"
+"Example use cases: if the boss shares a folder with his secretary, only the "
+"boss should be marked as busy for his meetings, so he should select \"Admins"
+"\", since the secretary has no admin rights on the folder.\n"
+"On the other hand if a working group shares a Calendar for group meetings, "
+"all readers of the folders should be marked as busy for meetings.\n"
+"A company-wide folder with optional events in it would use \"Nobody\" since "
+"it is not known who will go to those events."
+msgstr "Ova postavka određuje koji korisnici koji dijele ovu mapu trebaju imati razdoblja „zauzeto” u popisima slobodno/zauzeto i vidjeti alarme za događaje ili zadatke u toj mapi. Postavka se primjenjuje samo na mape kalendara i zadataka (za zadatke se koristi samo za alarme).\n\nPrimjer: ako šef dijeli mapu sa svojom tajnicom, samo šef treba biti označen kao zauzet zbog svojih sastanaka. Zato treba odabrati „Administratori”, jer tajnica nema administratorska prava nad mapom.\nS druge strane, ako radna skupina dijeli kalendar za grupne sastanke, svi čitatelji mapa trebaju biti označeni kao zauzeti tijekom sastanaka.\nZa mapu cijele tvrtke s neobaveznim događajima odabire se „Nitko”, jer nije poznato tko će prisustvovati tim događajima."
+
+#: pimcommonakonadi/collectionpage/incidencesforwidget.cpp:43
+#, kde-format
+msgid "Generate free/&busy and activate alarms for:"
+msgstr "Generiraj podatke slobodno/&zauzeto i aktiviraj alarme za:"
+
+#: pimcommonakonadi/folderdialog/checkedcollectionwidget.cpp:74
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "Pretraži..."
+
+#: pimcommonakonadi/folderdialog/selectmulticollectiondialog.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Multiple Folders"
+msgstr "Odaberi više mapa"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:94
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "Title"
+msgstr "Titula"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:95
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:340
+#, kde-format
+msgid "Full Name"
+msgstr "Puno ime"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:96
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "Email"
+msgstr "E-pošta"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:97
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:344
+#, kde-format
+msgid "Home Number"
+msgstr "Kućni broj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:98
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:346
+#, kde-format
+msgid "Work Number"
+msgstr "Poslovni broj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:99
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:348
+#, kde-format
+msgid "Mobile Number"
+msgstr "Broj mobitela"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:100
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:350
+#, kde-format
+msgid "Fax Number"
+msgstr "Broj faksa"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:101
+#, kde-format
+msgid "Pager"
+msgstr "Dozivnik"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:102
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:356
+#, kde-format
+msgid "Street"
+msgstr "Ulica"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:103
+#, kde-format
+msgctxt "@item LDAP search key"
+msgid "State"
+msgstr "Savezna država"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:104
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:360
+#, kde-format
+msgid "Country"
+msgstr "Država"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:105
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:366
+#, kde-format
+msgid "City"
+msgstr "Grad"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:106
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:354
+#, kde-format
+msgid "Organization"
+msgstr "Organizacija"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:107
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:352
+#, kde-format
+msgid "Company"
+msgstr "Tvrtka"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:108
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:368
+#, kde-format
+msgid "Department"
+msgstr "Odjel"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:109
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:362
+#, kde-format
+msgid "Zip Code"
+msgstr "Poštanski broj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:110
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:364
+#, kde-format
+msgid "Postal Address"
+msgstr "Poštanska adresa"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:111
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:370
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:112
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:372
+#, kde-format
+msgid "User ID"
+msgstr "ID korisnika"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:342
+#, kde-format
+msgctxt "@title:column Column containing email addresses"
+msgid "Email"
+msgstr "E-pošta"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:358
+#, kde-format
+msgctxt "@title:column Column containing the residential state of the address"
+msgid "State"
+msgstr "Savezna država"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:374
+#, kde-format
+msgctxt "@title:column Column containing title of the person"
+msgid "Title"
+msgstr "Titula"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:510
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Contacts from LDAP"
+msgstr "Uvezi kontakte iz LDAP-a"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:533
+#, kde-format
+msgid "Search for Addresses in Directory"
+msgstr "Pretraži adrese u direktoriju"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:538
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Search for:"
+msgstr "Traži:"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:546
+#, kde-format
+msgctxt "In LDAP attribute"
+msgid "in"
+msgstr "u"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:550
+#, kde-format
+msgctxt "@item:inlistbox Name of the contact"
+msgid "Name"
+msgstr "Ime"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:551
+#, kde-format
+msgctxt "@item:inlistbox email address of the contact"
+msgid "Email"
+msgstr "E-pošta"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:552
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Home Number"
+msgstr "Kućni broj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:553
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Work Number"
+msgstr "Poslovni broj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:555
+#, kde-format
+msgctxt "@action:button Start searching"
+msgid "&Search"
+msgstr "&Pretraži"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:573
+#, kde-format
+msgctxt "@option:check"
+msgid "Recursive search"
+msgstr "Rekurzivno pretraživanje"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:578
+#, kde-format
+msgid "Contains"
+msgstr "Sadrži"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:579
+#, kde-format
+msgid "Starts With"
+msgstr "Počinje s"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:589
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search in result"
+msgstr "Pretraži rezultate"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:620
+#, kde-format
+msgid "Searching..."
+msgstr "Pretraživanje..."
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:624
+#, kde-format
+msgctxt "@action:button"
+msgid "Select All"
+msgstr "Odaberi sve"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:628
+#, kde-format
+msgctxt "@action:button"
+msgid "Unselect All"
+msgstr "Odznači sve"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:635
+#, kde-format
+msgid "Add Selected"
+msgstr "Dodaj odabrano"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:636
+#, kde-format
+msgid "Configure LDAP Servers..."
+msgstr "Konfiguriraj LDAP poslužitelje..."
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:671
+#, kde-format
+msgid "Copy"
+msgstr "Kopiraj"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:798
+#, kde-format
+msgid "You must select an LDAP server before searching."
+msgstr "Prije pretraživanja morate odabrati LDAP poslužitelj."
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:905
+#, kde-format
+msgctxt "arguments are host name, datetime"
+msgid "Imported from LDAP directory %1 on %2"
+msgstr "Uvezeno iz LDAP direktorija %1 dana %2"
+
+#: pimcommonakonadi/ldap/ldapsearchdialog.cpp:924
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure the Address Book LDAP Settings"
+msgstr "Konfiguriraj LDAP postavke adresara"
+
+#: pimcommonakonadi/util/createresource.cpp:64
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr "Vrsta resursa „%1” nije dostupna."
+
+#: pimcommonakonadi/util/createresource.cpp:75
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr "Resurs „%1” već je postavljen."
+
+#: pimcommonakonadi/util/createresource.cpp:81
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr "Stvaranje instance resursa za „%1”..."
+
+#: pimcommonakonadi/util/createresource.cpp:87
+#, kde-format
+msgid "Configuring resource instance..."
+msgstr "Konfiguriranje instance resursa..."
+
+#: pimcommonakonadi/util/createresource.cpp:90
+#, kde-format
+msgid "Unable to configure resource instance."
+msgstr "Nije moguće konfigurirati instancu resursa."
+
+#: pimcommonakonadi/util/createresource.cpp:106
+#, kde-format
+msgid "Could not convert value of setting '%1' to required type %2."
+msgstr "Vrijednost postavke „%1” nije moguće pretvoriti u potrebnu vrstu %2."
+
+#: pimcommonakonadi/util/createresource.cpp:111
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr "Nije moguće postaviti postavku „%1”: %2"
+
+#: pimcommonakonadi/util/createresource.cpp:117
+#, kde-format
+msgid "Could not save settings: %1"
+msgstr "Nije moguće spremiti postavke: %1"
+
+#: pimcommonakonadi/util/createresource.cpp:126
+#, kde-format
+msgid "Resource setup completed."
+msgstr "Postavljanje resursa dovršeno."
+
+#: pimcommonakonadi/util/createresource.cpp:130
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr "Stvaranje instance resursa nije uspjelo: %1"

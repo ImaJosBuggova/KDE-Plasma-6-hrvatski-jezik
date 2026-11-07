@@ -1,0 +1,811 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the print-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: print-manager\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-08 00:48+0000\n"
+"PO-Revision-Date: 2026-11-07 07:17+0100\n"
+"Last-Translator: Roko Tomović\n"
+"Language-Team: Croatian\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: printermanager.cpp:100
+#, kde-format
+msgid "Add a new printer"
+msgstr "Dodaj novi pisač"
+
+#: printermanager.cpp:102
+#, kde-format
+msgid "Add a new printer group"
+msgstr "Dodaj novu grupu pisača"
+
+#: printermanager.cpp:104 printermanager.cpp:106
+#, kde-format
+msgid "Configure a printer"
+msgstr "Konfiguriraj pisač"
+
+#: printermanager.cpp:325
+#, kde-format
+msgctxt "@list:item"
+msgid "IPP Everywhere™"
+msgstr "IPP Everywhere™"
+
+#: printermanager.cpp:352
+#, kde-format
+msgctxt "@list:item"
+msgid "Driverless"
+msgstr "Bez upravljačkog programa"
+
+#: printermanager.cpp:355
+#, kde-format
+msgctxt "@list:item"
+msgid "PPD File"
+msgstr "Datoteka PPD"
+
+#: printermanager.cpp:397
+#, kde-format
+msgctxt "@info"
+msgid "Failed to get server settings: %1"
+msgstr "Dohvaćanje postavki poslužitelja nije uspjelo: %1"
+
+#: printermanager.cpp:434
+#, kde-format
+msgctxt "@info"
+msgid "Server Settings Not Saved: (%1): %2"
+msgstr "Postavke poslužitelja nisu spremljene: (%1): %2"
+
+#: printermanager.cpp:441
+#, kde-format
+msgctxt "@info"
+msgid "Fatal Save Server Settings: (%1): %2"
+msgstr "Kobna pogreška pri spremanju postavki poslužitelja: (%1): %2"
+
+#: scpinstaller.cpp:71
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Install Error (package: %1)\n"
+"Check authentication credentials and make sure PackageKit is installed "
+"properly."
+msgstr ""
+"Pogreška pri instalaciji (paket: %1)\n"
+"Provjerite vjerodajnice za autentifikaciju i je li PackageKit ispravno "
+"instaliran."
+
+#: ui/components/AddressExamples.qml:26
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Example Addresses"
+msgstr "Primjeri adresa"
+
+#: ui/components/BaseDevice.qml:86
+#, kde-format
+msgctxt "@label:title"
+msgid "Printing Device"
+msgstr "Uređaj za ispis"
+
+#: ui/components/BaseDevice.qml:116
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Address:"
+msgstr "Adresa:"
+
+#: ui/components/BaseDevice.qml:126
+#, kde-format
+msgctxt "@info The printer/device address"
+msgid "Enter device address"
+msgstr "Unesite adresu uređaja"
+
+#: ui/components/Direct.qml:25
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Choose a device connection"
+msgstr "Odaberite vezu uređaja"
+
+#: ui/components/Drivers.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Recommended Driver"
+msgstr "Odaberi preporučeni upravljački program"
+
+#: ui/components/Drivers.qml:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Recommended drivers are based on printer make/model and connection type"
+msgstr "Preporučeni upravljački programi ovise o proizvođaču/modelu pisača i vrsti veze"
+
+#: ui/components/Drivers.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Manual Driver Search…"
+msgstr "Ručna pretraga upravljačkih programa…"
+
+#: ui/components/Drivers.qml:78
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search for and select a driver based on printer make/model"
+msgstr "Potražite i odaberite upravljački program prema proizvođaču/modelu pisača"
+
+#: ui/components/Lpd.qml:22
+#, kde-format
+msgctxt "@title:group"
+msgid "Line Printer Daemon (LPD) Protocol"
+msgstr "Protokol Line Printer Daemon (LPD)"
+
+#: ui/components/Lpd.qml:23
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the LPD device"
+msgstr "Unesite adresu LPD uređaja"
+
+#: ui/components/Lpd.qml:63
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Queue:"
+msgstr "Red čekanja:"
+
+#: ui/components/Lpd.qml:68
+#, kde-format
+msgctxt "@info:placeholder The LPD device queue name"
+msgid "LPD queue name"
+msgstr "Naziv LPD reda čekanja"
+
+#: ui/components/Lpd.qml:75 ui/components/ManualUri.qml:82
+#: ui/components/Socket.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue with Address…"
+msgstr "Nastavi s adresom…"
+
+#: ui/components/Lpd.qml:92
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid LPD URL: %1"
+msgstr "Nevaljan URL LPD-a: %1"
+
+#: ui/components/ManualUri.qml:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Find remote printing devices"
+msgstr "Pronađi udaljene uređaje za ispis"
+
+#: ui/components/ManualUri.qml:24
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the remote host/device"
+msgstr "Unesite adresu udaljenog računala/uređaja"
+
+#: ui/components/ManualUri.qml:57
+#, kde-format
+msgctxt "@info:status"
+msgid "No Printers found at host: %1"
+msgstr "Na računalu nije pronađen nijedan pisač: %1"
+
+#: ui/components/ManualUri.qml:62
+#, kde-format
+msgctxt "@info:status"
+msgid "CUPS request error (%1): %2"
+msgstr "Pogreška CUPS zahtjeva (%1): %2"
+
+#: ui/components/ManualUri.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Select Printer…"
+msgstr "Odaberi pisač…"
+
+#: ui/components/ManualUri.qml:93
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"If the printer address is known, enter it and choose <interface>Continue</"
+"interface>.  If the printer is on a remote host, enter that address and "
+"choose <interface>Search</interface>."
+msgstr ""
+"Ako je adresa pisača poznata, unesite je i odaberite <interface>Nastavi</"
+"interface>. Ako je pisač na udaljenom računalu, unesite tu adresu i "
+"odaberite <interface>Traži</interface>."
+
+#: ui/components/Smb.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Set up a printer on a Windows Network"
+msgstr "Postavi pisač na Windows mreži"
+
+#: ui/components/Smb.qml:17
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the Windows Printer"
+msgstr "Unesite adresu Windows pisača"
+
+#: ui/components/Smb.qml:45
+#, kde-format
+msgctxt "@label:textbox Authentication user name"
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: ui/components/Smb.qml:50
+#, kde-format
+msgctxt "@label:textbox Authentication password"
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: ui/components/Smb.qml:54
+#, kde-format
+msgctxt "@action:button Accept current values and continue"
+msgid "Save Printer…"
+msgstr "Spremi pisač…"
+
+#: ui/components/Smb.qml:76
+#, kde-format
+msgctxt "@info:status"
+msgid "Invalid Printer URL: %1"
+msgstr "Nevaljan URL pisača: %1"
+
+#: ui/components/Socket.qml:19
+#, kde-format
+msgctxt "@title:group"
+msgid "AppSocket Protocol (aka JetDirect)"
+msgstr "Protokol AppSocket (poznat i kao JetDirect)"
+
+#: ui/components/Socket.qml:20
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Enter the address of the AppSocket device"
+msgstr "Unesite adresu uređaja AppSocket"
+
+#: ui/components/Socket.qml:65
+#, kde-format
+msgid "Invalid Socket URL: %1"
+msgstr "Nevaljan URL utičnice: %1"
+
+#: ui/FindPrinter.qml:128
+#, kde-format
+msgctxt "@title:window"
+msgid "Set up a Printer Connection"
+msgstr "Postavi vezu s pisačem"
+
+#: ui/FindPrinter.qml:132 ui/main.qml:276
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: ui/FindPrinter.qml:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Detected Devices"
+msgstr "Prikaži otkrivene uređaje"
+
+#: ui/FindPrinter.qml:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Manual Options"
+msgstr "Prikaži ručne mogućnosti"
+
+#: ui/FindPrinter.qml:219
+#, kde-format
+msgctxt "@info:status"
+msgid "This feature is not available (%1)"
+msgstr "Ova značajka nije dostupna (%1)"
+
+#: ui/FindPrinter.qml:228
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to automatically discover any printing devices"
+msgstr "Nije moguće automatski pronaći uređaje za ispis"
+
+#: ui/FindPrinter.qml:229
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Refresh</interface> to try again, or choose a manual "
+"configuration option from the list.<nl/><nl/>Note: Automatic printer "
+"discovery requires this system’s firewall to allow through the “mdns” "
+"service, or be disabled."
+msgstr ""
+"Kliknite <interface>Osvježi</interface> za ponovni pokušaj ili odaberite "
+"mogućnost ručnog podešavanja s popisa.<nl/><nl/>Napomena: automatsko "
+"otkrivanje pisača zahtijeva da vatrozid ovog sustava propušta uslugu "
+"„mdns” ili da bude isključen."
+
+#: ui/FindPrinter.qml:238
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Choose a manual configuration option from the list"
+msgstr "Odaberite mogućnost ručnog podešavanja s popisa"
+
+#: ui/Global.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "CUPS Server Settings"
+msgstr "Postavke CUPS poslužitelja"
+
+#: ui/Global.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "CUPS Print Server Admin"
+msgstr "Administracija CUPS poslužitelja za ispis"
+
+#: ui/Global.qml:31
+#, kde-format
+msgctxt "@action:button Reset to current settings"
+msgid "Reset"
+msgstr "Vrati na početno"
+
+#: ui/Global.qml:37
+#, kde-format
+msgctxt "@action:button Apply new settings"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: ui/Global.qml:89
+#, kde-format
+msgid "Please wait while the CUPS server restarts"
+msgstr "Pričekajte dok se CUPS poslužitelj ponovno pokrene"
+
+#: ui/Global.qml:127
+#, kde-format
+msgctxt "@option:check"
+msgid "Share printers connected to this system"
+msgstr "Dijeli pisače povezane s ovim sustavom"
+
+#: ui/Global.qml:139
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow printing from the Internet"
+msgstr "Dopusti ispis s interneta"
+
+#: ui/Global.qml:145
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow remote administration"
+msgstr "Dopusti udaljeno administriranje"
+
+#: ui/Global.qml:150
+#, kde-format
+msgctxt "@option:check"
+msgid "Allow users to cancel any job (not just their own)"
+msgstr "Dopusti korisnicima otkazivanje bilo kojeg posla (ne samo vlastitih)"
+
+#: ui/InstallDialog.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Setup Helpers"
+msgstr "Pomoćnici za postavljanje pisača"
+
+#: ui/InstallDialog.qml:71
+#, kde-format
+msgctxt "@info:status"
+msgid "Install has completed successfully"
+msgstr "Instalacija je uspješno dovršena"
+
+#: ui/InstallDialog.qml:73
+#, kde-format
+msgctxt "@info:status"
+msgid "Installation failed"
+msgstr "Instalacija nije uspjela"
+
+#: ui/InstallDialog.qml:75
+#, kde-format
+msgctxt "@info:status"
+msgid "Installing…"
+msgstr "Instalacija je u tijeku…"
+
+#: ui/InstallDialog.qml:91
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Report this issue to %1"
+msgstr "Prijavite ovaj problem na %1"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "new_queue"
+msgstr "new_queue"
+
+#: ui/main.qml:35
+#, kde-format
+msgid "new_group"
+msgstr "new_group"
+
+#: ui/main.qml:84
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"A printer support package that provides convenience features does not appear "
+"to be installed.<nl/><nl/>Because this distro does not include PackageKit, "
+"we cannot provide an install option. Please use your package manager to "
+"install the <command>system-config-printer</command> package manually."
+msgstr ""
+"Čini se da nije instaliran paket za podršku pisačima koji pruža praktične "
+"značajke.<nl/><nl/>Budući da ova distribucija ne uključuje PackageKit, ne "
+"možemo ponuditi mogućnost instalacije. Ručno instalirajte paket "
+"<command>system-config-printer</command> pomoću upravitelja paketima."
+
+#: ui/main.qml:86
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"A printer support package that provides convenience features does not appear "
+"to be installed."
+msgstr "Čini se da nije instaliran paket za podršku pisačima koji pruža praktične značajke."
+
+#: ui/main.qml:92
+#, kde-format
+msgctxt "@action:button Install printer setup helper package"
+msgid "Install It"
+msgstr "Instaliraj"
+
+#: ui/main.qml:123
+#, kde-format
+msgctxt "@action:button The thing being added is a printer"
+msgid "Add…"
+msgstr "Dodaj…"
+
+#: ui/main.qml:124
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Printer…"
+msgstr "Dodaj pisač…"
+
+#: ui/main.qml:130
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Group…"
+msgstr "Dodaj grupu…"
+
+#: ui/main.qml:136
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure Print Server…"
+msgstr "Konfiguriraj poslužitelj za ispis…"
+
+#: ui/main.qml:263
+#, kde-format
+msgctxt "@info:status"
+msgid "No printers are currently set up"
+msgstr "Trenutačno nije postavljen nijedan pisač"
+
+#: ui/main.qml:264
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Add…</interface> to set up a new printer on this computer"
+msgstr "Kliknite <interface>Dodaj…</interface> da biste postavili novi pisač na ovom računalu"
+
+#: ui/main.qml:273
+#, kde-format
+msgctxt "@info:status"
+msgid "Printing services not available"
+msgstr "Usluge ispisa nisu dostupne"
+
+#: ui/main.qml:274
+#, kde-kuit-format
+msgctxt "@info:usagetip"
+msgid ""
+"Click <interface>Configure Print Server…</interface> to check settings, or "
+"verify that the CUPS system service is active."
+msgstr ""
+"Kliknite <interface>Konfiguriraj poslužitelj za ispis…</interface> da biste "
+"provjerili postavke ili provjerite je li aktivna CUPS usluga sustava."
+
+#: ui/main.qml:314
+#, kde-format
+msgid "Printers"
+msgstr "Pisači"
+
+#: ui/main.qml:314
+#, kde-format
+msgid "Printer Groups"
+msgstr "Grupe pisača"
+
+#: ui/main.qml:375
+#, kde-format
+msgctxt "@action:button"
+msgid "Open Print Queue"
+msgstr "Otvori red čekanja ispisa"
+
+#: ui/main.qml:384
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Resume printing"
+msgstr "Nastavi ispis"
+
+#: ui/main.qml:385
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause printing"
+msgstr "Pauziraj ispis"
+
+#: ui/main.qml:391
+#, kde-format
+msgctxt "@action:button Resume printing"
+msgid "Resume"
+msgstr "Nastavi"
+
+#: ui/main.qml:392
+#, kde-format
+msgctxt "@action:button Pause printing"
+msgid "Pause"
+msgstr "Pauziraj"
+
+#: ui/MakeModel.qml:91
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a printer make/model"
+msgstr "Odaberite proizvođača/model pisača"
+
+#: ui/MakeModel.qml:93
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Driver (%1)"
+msgstr "Upravljački program pisača (%1)"
+
+#: ui/MakeModel.qml:100
+#, kde-format
+msgctxt "@title:window"
+msgid "Printer Driver"
+msgstr "Upravljački program pisača"
+
+#: ui/MakeModel.qml:146
+#, kde-format
+msgctxt "@action:button Select ipp everywhere driver"
+msgid "Use IPP Everywhere™"
+msgstr "Koristi IPP Everywhere™"
+
+#: ui/MakeModel.qml:161
+#, kde-format
+msgid "Save"
+msgstr "Spremi"
+
+#: ui/MakeModel.qml:166
+#, kde-format
+msgid "Select a PostScript Printer Description (PPD) file"
+msgstr "Odaberite datoteku opisa pisača PostScript (PPD)"
+
+#: ui/MakeModel.qml:173
+#, kde-format
+msgid "Printer model is required.  Please select a printer model."
+msgstr "Model pisača je obavezan. Odaberite model pisača."
+
+#: ui/MakeModel.qml:230
+#, kde-format
+msgctxt "@option:radio"
+msgid "Select Make and Model:"
+msgstr "Odaberite proizvođača i model:"
+
+#: ui/MakeModel.qml:242
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter Models"
+msgstr "Filtriraj modele"
+
+#: ui/MakeModel.qml:336
+#, kde-format
+msgctxt "@option:radio"
+msgid "PPD file:"
+msgstr "Datoteka PPD:"
+
+#: ui/MakeModel.qml:355
+#, kde-format
+msgctxt "@action:button"
+msgid "Select PPD File…"
+msgstr "Odaberi datoteku PPD…"
+
+#: ui/MakeModel.qml:363
+#, kde-format
+msgid "Select"
+msgstr "Odaberi"
+
+#: ui/MakeModel.qml:364
+#, kde-format
+msgid "PostScript Printer Description Files (*.ppd)"
+msgstr "Datoteke opisa pisača PostScript (*.ppd)"
+
+#: ui/PrinterSettings.qml:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr "Dodaj grupu"
+
+#: ui/PrinterSettings.qml:47
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Printer"
+msgstr "Dodaj pisač"
+
+#: ui/PrinterSettings.qml:58
+#, kde-format
+msgid "Configure…"
+msgstr "Konfiguriraj…"
+
+#: ui/PrinterSettings.qml:63
+#, kde-format
+msgid "Remove"
+msgstr "Ukloni"
+
+#: ui/PrinterSettings.qml:80
+#, kde-format
+msgctxt "@action:button"
+msgid "CUPS Printers Overview Help"
+msgstr "Pomoć za pregled pisača CUPS-a"
+
+#: ui/PrinterSettings.qml:86
+#, kde-format
+msgctxt "@action:button"
+msgid "Printer/Device Admin Page"
+msgstr "Administracijska stranica pisača/uređaja"
+
+#: ui/PrinterSettings.qml:104
+#, kde-format
+msgctxt "@action:button Add printer"
+msgid "Add"
+msgstr "Dodaj"
+
+#: ui/PrinterSettings.qml:105
+#, kde-format
+msgctxt "@action:button Apply changes"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: ui/PrinterSettings.qml:113
+#, kde-format
+msgctxt "@info:status"
+msgid "Queue name is required. Enter a unique queue name."
+msgstr "Naziv reda čekanja je obavezan. Unesite jedinstveni naziv reda čekanja."
+
+#: ui/PrinterSettings.qml:118
+#, kde-format
+msgctxt "@info:status"
+msgid "Queue name must be unique. Enter a unique queue name."
+msgstr "Naziv reda čekanja mora biti jedinstven. Unesite jedinstveni naziv reda čekanja."
+
+#: ui/PrinterSettings.qml:126
+#, kde-format
+msgctxt "@info:status"
+msgid "Make/Model is required. Choose \"Select\" to pick Make/Model"
+msgstr "Proizvođač/model je obavezan. Odaberite „Odaberi” za odabir proizvođača/modela"
+
+#: ui/PrinterSettings.qml:136
+#, kde-format
+msgctxt "@info:status"
+msgid "Configuring %1, please wait…"
+msgstr "Konfiguriranje %1, pričekajte…"
+
+#: ui/PrinterSettings.qml:178
+#, kde-format
+msgid "Failed to remove the printer: %1"
+msgstr "Uklanjanje pisača nije uspjelo: %1"
+
+#: ui/PrinterSettings.qml:211
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Group?"
+msgstr "Ukloniti grupu?"
+
+#: ui/PrinterSettings.qml:212
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Printer?"
+msgstr "Ukloniti pisač?"
+
+#: ui/PrinterSettings.qml:214
+#, kde-format
+msgctxt "@info %1 is the name of a printer or printer group"
+msgid "'%1' will be removed."
+msgstr "„%1” će biti uklonjen."
+
+#: ui/PrinterSettings.qml:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Group"
+msgstr "Ukloni grupu"
+
+#: ui/PrinterSettings.qml:222
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Printer"
+msgstr "Ukloni pisač"
+
+#: ui/PrinterSettings.qml:231
+#, kde-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ui/PrinterSettings.qml:353
+#, kde-format
+msgctxt "@action:check Set default printer"
+msgid "Default printer"
+msgstr "Zadani pisač"
+
+#: ui/PrinterSettings.qml:368
+#, kde-format
+msgctxt "@info"
+msgid "To change the default printer, set another printer as the default."
+msgstr "Za promjenu zadanog pisača postavite drugi pisač kao zadani."
+
+#: ui/PrinterSettings.qml:377
+#, kde-format
+msgctxt "@action:check"
+msgid "Share this group"
+msgstr "Dijeli ovu grupu"
+
+#: ui/PrinterSettings.qml:378
+#, kde-format
+msgctxt "@action:check"
+msgid "Share this printer"
+msgstr "Dijeli ovaj pisač"
+
+#: ui/PrinterSettings.qml:385
+#, kde-format
+msgctxt "@action:check"
+msgid "Accepting print jobs"
+msgstr "Prihvaćanje poslova ispisa"
+
+#: ui/PrinterSettings.qml:433
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Test Page"
+msgstr "Ispiši probnu stranicu"
+
+#: ui/PrinterSettings.qml:439
+#, kde-format
+msgctxt "@action:button"
+msgid "Print Self-Test Page"
+msgstr "Ispiši stranicu samotestiranja"
+
+#: ui/PrinterSettings.qml:446
+#, kde-format
+msgctxt "@action:button"
+msgid "Clean Print Heads"
+msgstr "Očisti ispisne glave"
+
+#: ui/PrinterSettings.qml:464
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Queue Name:"
+msgstr "Naziv reda čekanja:"
+
+#: ui/PrinterSettings.qml:489
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Description:"
+msgstr "Opis:"
+
+#: ui/PrinterSettings.qml:501
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "Lokacija:"
+
+#: ui/PrinterSettings.qml:513
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Connection:"
+msgstr "Veza:"
+
+#: ui/PrinterSettings.qml:527
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Member Printers:"
+msgstr "Pisači članovi:"
+
+#: ui/PrinterSettings.qml:663
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Make/Model:"
+msgstr "Proizvođač/model:"
+
+#: ui/PrinterSettings.qml:678
+#, kde-format
+msgctxt "@action:button Select printer make/model"
+msgid "Select…"
+msgstr "Odaberi…"

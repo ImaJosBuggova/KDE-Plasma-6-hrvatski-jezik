@@ -9,47 +9,48 @@ msgstr ""
 "Project-Id-Version: parley\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-26 00:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: src/collection/containermodel.cpp:150
 #, kde-format
 msgid "Unit"
-msgstr ""
+msgstr "Jedinica"
 
 #: src/collection/containermodel.cpp:158
 #, kde-format
 msgid "Number of entries in this lesson."
-msgstr ""
+msgstr "Broj zapisa u ovoj lekciji."
 
 #: src/collection/entryfilter.cpp:113
 #, kde-format
 msgid ""
 "The vocabulary document contains no entries that can be used for the chosen "
 "type of practice."
-msgstr ""
+msgstr "Dokument s rječnikom ne sadrži zapise koji se mogu upotrijebiti za odabranu vrstu vježbe."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, EntryFilterDialog)
 #: src/collection/entryfilterdialog.ui:14
 #, kde-format
 msgid "Start Practice"
-msgstr ""
+msgstr "Započni vježbu"
 
 #. i18n: ectx: property (text), widget (QLabel, headerLabel)
 #: src/collection/entryfilterdialog.ui:20
@@ -58,236 +59,237 @@ msgid ""
 "<p>Your selection of vocabulary for the practice is empty.</p><p>Below you "
 "can choose to ignore some of your configuration settings to start a practice "
 "anyway.</p>"
-msgstr ""
+msgstr "<p>Odabir rječnika za vježbu je prazan.</p><p>U nastavku možete zanemariti neke postavke i svejedno započeti vježbu.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ignoreGroupBox)
 #: src/collection/entryfilterdialog.ui:30
 #, kde-format
 msgid "Ignore Configuration for:"
-msgstr ""
+msgstr "Zanemari postavke za:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
 #: src/collection/entryfilterdialog.ui:36
 #, kde-format
 msgid "Ignore Lessons"
-msgstr ""
+msgstr "Zanemari lekcije"
 
 #. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
 #: src/collection/entryfilterdialog.ui:56
 #, kde-format
 msgid "Ignore Word Types"
-msgstr ""
+msgstr "Zanemari vrste riječi"
 
 #. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
 #: src/collection/entryfilterdialog.ui:76
 #, kde-format
 msgid "Ignore Blocked"
-msgstr ""
+msgstr "Zanemari blokirane"
 
 #. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
 #: src/collection/entryfilterdialog.ui:96
 #, kde-format
 msgid "Ignore Times Answered Incorrectly"
-msgstr ""
+msgstr "Zanemari broj netočnih odgovora"
 
 #. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
 #: src/collection/entryfilterdialog.ui:116
 #, kde-format
 msgid "Ignore Times Practiced"
-msgstr ""
+msgstr "Zanemari broj vježbanja"
 
 #. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
 #: src/collection/entryfilterdialog.ui:136
 #, kde-format
 msgid "Ignore Minimum/Maximum Grade"
-msgstr ""
+msgstr "Zanemari najnižu/najvišu ocjenu"
 
 #. i18n: ectx: property (text), widget (QLabel, numberAffectedWordsLabel)
 #: src/collection/entryfilterdialog.ui:156
 #, kde-format
 msgid "Number of Affected Words"
-msgstr ""
+msgstr "Broj obuhvaćenih riječi"
 
 #. i18n: ectx: property (text), widget (QLabel, documentTotalDescriptionLabel)
 #: src/collection/entryfilterdialog.ui:171
 #, kde-format
 msgid "Total number of entries:"
-msgstr ""
+msgstr "Ukupan broj zapisa:"
 
 #. i18n: ectx: property (text), widget (QLabel, totalDescriptionLabel)
 #: src/collection/entryfilterdialog.ui:192
 #, kde-format
 msgid "Resulting number of words to practice:"
-msgstr ""
+msgstr "Broj riječi za vježbanje:"
 
 #: src/collection/lessonmodel.cpp:47
 #, kde-format
 msgctxt "display of the name of the vocabulary collection"
 msgid "Collection: %1"
-msgstr ""
+msgstr "Zbirka: %1"
 
 #: src/collection/readonlycontainermodel.cpp:131
 #, kde-format
 msgid "None"
-msgstr ""
+msgstr "Ništa"
 
 #: src/collection/vocabularymodel.cpp:185
 #, kde-format
 msgid "You can drag and drop words onto their word type."
-msgstr ""
+msgstr "Riječi možete povući i ispustiti na njihovu vrstu riječi."
 
 #: src/collection/vocabularymodel.cpp:187
 #, kde-format
 msgid "Enable the synonym view to edit synonyms."
-msgstr ""
+msgstr "Omogućite prikaz sinonima da biste ih uređivali."
 
 #: src/collection/vocabularymodel.cpp:189
 #, kde-format
 msgid "Enable the antonym view to edit antonyms."
-msgstr ""
+msgstr "Omogućite prikaz antonima da biste ih uređivali."
 
 #: src/collection/vocabularymodel.cpp:281
 #, kde-format
 msgid "Pronunciation (%1)"
-msgstr ""
+msgstr "Izgovor (%1)"
 
 #: src/collection/vocabularymodel.cpp:281
 #, kde-format
 msgid "Pronunciation"
-msgstr ""
+msgstr "Izgovor"
 
 #: src/collection/vocabularymodel.cpp:283
 #, kde-format
 msgid "Word Type (%1)"
-msgstr ""
+msgstr "Vrsta riječi (%1)"
 
 #: src/collection/vocabularymodel.cpp:283
 #, kde-format
 msgid "Word Type"
-msgstr ""
+msgstr "Vrsta riječi"
 
 #. i18n: ectx: property (text), widget (QPushButton, synonymButton)
 #: src/collection/vocabularymodel.cpp:285
 #: src/editor/synonymwidget.ui:26
 #, kde-format
 msgid "Synonym"
-msgstr ""
+msgstr "Sinonim"
 
 #: src/collection/vocabularymodel.cpp:285
 #, kde-format
 msgid "Synonym (%1)"
-msgstr ""
+msgstr "Sinonim (%1)"
 
 #: src/collection/vocabularymodel.cpp:287
 #, kde-format
 msgid "Antonym (%1)"
-msgstr ""
+msgstr "Antonim (%1)"
 
 #: src/collection/vocabularymodel.cpp:287
 #, kde-format
 msgid "Antonym"
-msgstr ""
+msgstr "Antonim"
 
 #: src/collection/vocabularymodel.cpp:289
 #, kde-format
 msgid "Example (%1)"
-msgstr ""
+msgstr "Primjer (%1)"
 
 #: src/collection/vocabularymodel.cpp:289
 #, kde-format
 msgid "Example"
-msgstr ""
+msgstr "Primjer"
 
 #: src/collection/vocabularymodel.cpp:291
 #, kde-format
 msgid "Comment (%1)"
-msgstr ""
+msgstr "Komentar (%1)"
 
 #: src/collection/vocabularymodel.cpp:291
 #, kde-format
 msgid "Comment"
-msgstr ""
+msgstr "Komentar"
 
 #: src/collection/vocabularymodel.cpp:293
 #, kde-format
 msgid "Paraphrase (%1)"
-msgstr ""
+msgstr "Parafraza (%1)"
 
 #: src/collection/vocabularymodel.cpp:293
 #, kde-format
 msgid "Paraphrase"
-msgstr ""
+msgstr "Parafraza"
 
 #: src/collection/vocabularymodel.cpp:312
 #, kde-format
 msgid "Please use Edit -> Languages to set up your document."
-msgstr ""
+msgstr "Odaberite Uredi -> Jezici da biste postavili dokument."
 
 #: src/collection/vocabularymodel.cpp:312
 #, kde-format
 msgid "No Languages Defined"
-msgstr ""
+msgstr "Nisu definirani jezici"
 
 #: src/collection/vocabularymodel.cpp:317
 #, kde-format
 msgid "Select a unit before adding vocabulary."
-msgstr ""
+msgstr "Odaberite jedinicu prije dodavanja rječnika."
 
 #: src/collection/vocabularymodel.cpp:317
 #, kde-format
 msgid "No Unit Selected"
-msgstr ""
+msgstr "Nije odabrana nijedna jedinica"
 
 #: src/dashboard/barwidget.cpp:120
 #, kde-format
 msgid "%1 word due"
 msgid_plural "%1 words due"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Preostala je %1 riječ"
+msgstr[1] "Preostale su %1 riječi"
+msgstr[2] "Preostalo je %1 riječi"
 
 #: src/dashboard/barwidget.cpp:122
 #, kde-format
 msgid "Fully learned"
-msgstr ""
+msgstr "Potpuno naučeno"
 
 #: src/dashboard/buttondelegate.cpp:32
 #, kde-format
 msgid "Open this vocabulary collection in the editor"
-msgstr ""
+msgstr "Otvori ovu zbirku rječnika u uređivaču"
 
 #: src/dashboard/collectionwidget.cpp:96
 #, kde-format
 msgid "Practice Anyway"
-msgstr ""
+msgstr "Svejedno vježbaj"
 
 #: src/dashboard/collectionwidget.cpp:98 src/editor/editor.cpp:375
 #: src/editor/editor.cpp:376
 #, kde-format
 msgid "Practice"
-msgstr ""
+msgstr "Vježbaj"
 
 #. i18n: ectx: property (text), widget (QLabel, recentLabel)
 #: src/dashboard/dashboard.cpp:225 src/dashboard/dashboard.ui:38
 #, kde-format
 msgid "Active Collections"
-msgstr ""
+msgstr "Aktivne zbirke"
 
 #. i18n: ectx: property (text), widget (QLabel, completedLabel)
 #: src/dashboard/dashboard.cpp:230 src/dashboard/dashboard.ui:77
 #, kde-format
 msgid "Completed Collections"
-msgstr ""
+msgstr "Dovršene zbirke"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
 #: src/dashboard/dashboard.cpp:278 src/editor/multiplechoicewidget.ui:28
 #, kde-format
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: src/dashboard/dashboard.cpp:278
 #, kde-format
 msgid "Are you sure you want to remove this collection?"
-msgstr ""
+msgstr "Jeste li sigurni da želite ukloniti ovu zbirku?"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, Dashboard)
 #: src/dashboard/dashboard.ui:14 src/main.cpp:25
@@ -299,25 +301,25 @@ msgstr ""
 #: src/dashboard/dashboard.ui:120
 #, kde-format
 msgid "Create a New Collection..."
-msgstr ""
+msgstr "Stvori novu zbirku..."
 
 #. i18n: ectx: property (text), widget (QPushButton, openButton)
 #: src/dashboard/dashboard.ui:127
 #, kde-format
 msgid "Open an Existing Collection..."
-msgstr ""
+msgstr "Otvori postojeću zbirku..."
 
 #. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
 #: src/dashboard/dashboard.ui:134
 #, kde-format
 msgid "Download New Collections..."
-msgstr ""
+msgstr "Preuzmi nove zbirke..."
 
 #. i18n: ectx: property (text), widget (QLabel, headingLabel)
 #: src/dashboard/dashboard.ui:141
 #, kde-format
 msgid "<h1>Parley</h1>"
-msgstr ""
+msgstr "<h1>Parley</h1>"
 
 #. i18n: ectx: property (text), widget (QPushButton, playButton)
 #. i18n: ectx: property (text), widget (Practice::AudioButton, solutionSoundButton)
@@ -328,92 +330,92 @@ msgstr ""
 #: src/practice/practice_widget_flashcard.ui:103
 #, kde-format
 msgid "Play"
-msgstr ""
+msgstr "Reproduciraj"
 
 #. i18n: ectx: property (text), widget (QPushButton, recordButton)
 #: src/editor/audiowidget.ui:26
 #, kde-format
 msgid "Record"
-msgstr ""
+msgstr "Snimi"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
 #: src/editor/audiowidget.ui:33
 #, kde-format
 msgid "Download audio file with webservice"
-msgstr ""
+msgstr "Preuzmi zvučnu datoteku putem web-usluge"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
 #: src/editor/audiowidget.ui:36
 #, kde-format
 msgid "Download"
-msgstr ""
+msgstr "Preuzmi"
 
 #. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
 #: src/editor/browserwidget.ui:18
 #, kde-format
 msgid "Lookup Current"
-msgstr ""
+msgstr "Potraži trenutačno"
 
 #. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
 #: src/editor/browserwidget.ui:33
 #, kde-format
 msgid "Follow Table"
-msgstr ""
+msgstr "Prati tablicu"
 
 #: src/editor/comparisonwidget.cpp:76
 #, kde-format
 msgid "Could not determine word type of adjectives"
-msgstr ""
+msgstr "Nije moguće odrediti vrstu riječi za pridjeve"
 
 #: src/editor/comparisonwidget.cpp:95
 #, kde-format
 msgid "Could not determine word type of adverbs"
-msgstr ""
+msgstr "Nije moguće odrediti vrstu riječi za priloge"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, absoluteLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, comparativeLabel)
 #: src/editor/comparisonwidget.ui:24 src/editor/comparisonwidget.ui:56
 #, kde-format
 msgid "The comparative is used to compare nouns or verbs (faster)"
-msgstr ""
+msgstr "Komparativ se koristi za usporedbu imenica ili glagola (brži)"
 
 #. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #: src/editor/comparisonwidget.ui:27
 #, kde-format
 msgid "Absolute:"
-msgstr ""
+msgstr "Pozitiv:"
 
 #. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #: src/editor/comparisonwidget.ui:59
 #, kde-format
 msgid "Comparative:"
-msgstr ""
+msgstr "Komparativ:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
 #: src/editor/comparisonwidget.ui:88
 #, kde-format
 msgid "The superlative (fastest)"
-msgstr ""
+msgstr "Superlativ (najbrži)"
 
 #. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #: src/editor/comparisonwidget.ui:91
 #, kde-format
 msgid "Superlative:"
-msgstr ""
+msgstr "Superlativ:"
 
 #. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
 #: src/editor/comparisonwidget.ui:116 src/editor/inflectionwidget.cpp:42
 #: src/editor/wordtypeview.cpp:96 src/parleydocument.cpp:488
 #, kde-format
 msgid "Adjective"
-msgstr ""
+msgstr "Pridjev"
 
 #. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
 #: src/editor/comparisonwidget.ui:123 src/editor/wordtypeview.cpp:104
 #: src/parleydocument.cpp:492
 #, kde-format
 msgid "Adverb"
-msgstr ""
+msgstr "Prilog"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
 #. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
@@ -425,13 +427,13 @@ msgstr ""
 #: src/settings/optionlistform.ui:19
 #, kde-format
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #. i18n: ectx: property (title), widget (QGroupBox, layout)
 #: src/editor/conjugationwidget.ui:32
 #, kde-format
 msgid "Conjugation Forms"
-msgstr ""
+msgstr "Oblici konjugacije"
 
 #. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
@@ -440,7 +442,7 @@ msgstr ""
 #: src/editor/conjugationwidget.ui:209
 #, kde-format
 msgid "First"
-msgstr ""
+msgstr "Prvo lice"
 
 #. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
@@ -449,7 +451,7 @@ msgstr ""
 #: src/editor/conjugationwidget.ui:225
 #, kde-format
 msgid "Second"
-msgstr ""
+msgstr "Drugo lice"
 
 #. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
@@ -458,7 +460,7 @@ msgstr ""
 #: src/editor/conjugationwidget.ui:241
 #, kde-format
 msgid "Third Male"
-msgstr ""
+msgstr "Treće lice, muški rod"
 
 #. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
@@ -467,7 +469,7 @@ msgstr ""
 #: src/editor/conjugationwidget.ui:260
 #, kde-format
 msgid "Third Female"
-msgstr ""
+msgstr "Treće lice, ženski rod"
 
 #. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
@@ -476,19 +478,19 @@ msgstr ""
 #: src/editor/conjugationwidget.ui:279
 #, kde-format
 msgid "Third Neutral"
-msgstr ""
+msgstr "Treće lice, srednji rod"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
 #: src/editor/conjugationwidget.ui:317
 #, kde-format
 msgid "Ne&xt"
-msgstr ""
+msgstr "Sl&jedeće"
 
 #. i18n: ectx: property (text), widget (QLabel, tenselabel)
 #: src/editor/conjugationwidget.ui:330
 #, kde-format
 msgid "&Tense:"
-msgstr ""
+msgstr "&Vrijeme:"
 
 #. i18n: ectx: property (text), widget (QLabel, male_label_3)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
@@ -499,7 +501,7 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:486
 #, kde-format
 msgid "Singular"
-msgstr ""
+msgstr "Jednina"
 
 #. i18n: ectx: property (text), widget (QLabel, dualLabel)
 #. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
@@ -507,7 +509,7 @@ msgstr ""
 #: src/editor/declensionwidget.ui:464 src/settings/languagepropertiespage.ui:493
 #, kde-format
 msgid "Dual"
-msgstr ""
+msgstr "Dvojina"
 
 #. i18n: ectx: property (text), widget (QLabel, male_label_4)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
@@ -518,100 +520,100 @@ msgstr ""
 #: src/settings/languagepropertiespage.ui:500
 #, kde-format
 msgid "Plural"
-msgstr ""
+msgstr "Množina"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/editor/declensionwidget.cpp:153 src/editor/declensionwidget.ui:185
 #: src/editor/inflectionwidget.cpp:114 src/parleydocument.cpp:474
 #, kde-format
 msgid "Masculine"
-msgstr ""
+msgstr "Muški rod"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/editor/declensionwidget.cpp:154 src/editor/declensionwidget.ui:271
 #: src/editor/inflectionwidget.cpp:116 src/parleydocument.cpp:477
 #, kde-format
 msgid "Feminine"
-msgstr ""
+msgstr "Ženski rod"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/editor/declensionwidget.cpp:155 src/editor/declensionwidget.ui:357
 #: src/editor/inflectionwidget.cpp:115 src/parleydocument.cpp:480
 #, kde-format
 msgid "Neuter"
-msgstr ""
+msgstr "Srednji rod"
 
 #. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
 #: src/editor/declensionwidget.ui:38
 #, kde-format
 msgid "Declension Forms"
-msgstr ""
+msgstr "Oblici deklinacije"
 
 #. i18n: ectx: property (text), widget (QLabel, nominativeLabel)
 #: src/editor/declensionwidget.ui:52
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Nominative:"
-msgstr ""
+msgstr "Nominativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, genitivLabel)
 #: src/editor/declensionwidget.ui:71
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Genitive:"
-msgstr ""
+msgstr "Genitiv:"
 
 #. i18n: ectx: property (text), widget (QLabel, dativLabel)
 #: src/editor/declensionwidget.ui:90
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Dative:"
-msgstr ""
+msgstr "Dativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
 #: src/editor/declensionwidget.ui:109
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Accusative:"
-msgstr ""
+msgstr "Akuzativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, ablativLabel)
 #: src/editor/declensionwidget.ui:128
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Ablative:"
-msgstr ""
+msgstr "Ablativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, locativeLabel)
 #: src/editor/declensionwidget.ui:147
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Locative:"
-msgstr ""
+msgstr "Lokativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
 #: src/editor/declensionwidget.ui:166
 #, kde-format
 msgctxt "one of the seven cases (grammatical)"
 msgid "Vocative:"
-msgstr ""
+msgstr "Vokativ:"
 
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
 #: src/editor/declensionwidget.ui:445
 #, kde-format
 msgid "Number:"
-msgstr ""
+msgstr "Broj:"
 
 #. i18n: ectx: property (text), widget (QPushButton, nextButton)
 #: src/editor/declensionwidget.ui:477
 #, kde-format
 msgid "Next"
-msgstr ""
+msgstr "Dalje"
 
 #: src/editor/editor.cpp:140
 #, kde-format
 msgid "Units"
-msgstr ""
+msgstr "Jedinice"
 
 #: src/editor/editor.cpp:151
 #, kde-format
@@ -619,29 +621,29 @@ msgid ""
 "Right click to add, delete, or rename units. \n"
 "With the checkboxes you can select which units you want to practice. \n"
 "Only checked units [x] will be asked in the practice!"
-msgstr ""
+msgstr "Potvrdnim okvirima odaberite jedinice koje želite vježbati. \nU vježbi će se pojaviti samo označene jedinice [x]!"
 
 #: src/editor/editor.cpp:162
 #, kde-format
 msgid "Word Types"
-msgstr ""
+msgstr "Vrste riječi"
 
 #: src/editor/editor.cpp:182
 #, kde-format
 msgid "Inflection (verbs, adjectives, nouns)"
-msgstr ""
+msgstr "Promjena oblika (glagoli, pridjevi, imenice)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, comparisonForms)
 #: src/editor/editor.cpp:196 src/statistics/statisticsmainwindow.ui:135
 #, kde-format
 msgid "Comparison Forms"
-msgstr ""
+msgstr "Komparacija"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/editor/editor.cpp:211 src/practice/configure/specificpracticeoptions.ui:17
 #, kde-format
 msgid "Multiple Choice"
-msgstr ""
+msgstr "Višestruki izbor"
 
 #. i18n: ectx: property (text), widget (QLabel, synonymLabel)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -649,167 +651,167 @@ msgstr ""
 #: src/practice/configure/generalpracticeoptions.ui:152
 #, kde-format
 msgid "Synonyms"
-msgstr ""
+msgstr "Sinonimi"
 
 #: src/editor/editor.cpp:238
 #, kde-format
 msgid "Antonyms"
-msgstr ""
+msgstr "Antonimi"
 
 #: src/editor/editor.cpp:252
 #, kde-format
 msgid "False Friends"
-msgstr ""
+msgstr "Lažni prijatelji"
 
 #: src/editor/editor.cpp:267
 #, kde-format
 msgid "Phonetic Symbols"
-msgstr ""
+msgstr "Fonetski simboli"
 
 #: src/editor/editor.cpp:282
 #, kde-format
 msgid "Image"
-msgstr ""
+msgstr "Slika"
 
 #: src/editor/editor.cpp:297
 #, kde-format
 msgid "Summary"
-msgstr ""
+msgstr "Sažetak"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #: src/editor/editor.cpp:311 src/practice/configure/generalpracticeoptions.ui:139
 #, kde-format
 msgid "Sound"
-msgstr ""
+msgstr "Zvuk"
 
 #: src/editor/editor.cpp:327
 #, kde-format
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: src/editor/editor.cpp:343
 #, kde-format
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: src/editor/editor.cpp:418
 #, kde-format
 msgid "Enter search terms here"
-msgstr ""
+msgstr "Ovdje unesite pojmove za pretraživanje"
 
 #: src/editor/editor.cpp:419
 #, kde-format
 msgid "Search your vocabulary"
-msgstr ""
+msgstr "Pretražite svoj rječnik"
 
 #: src/editor/editor.cpp:421
 #, kde-format
 msgid "S&earch:"
-msgstr ""
+msgstr "&Traži:"
 
 #. i18n: ectx: Menu (file)
 #: src/editor/editorui.rc:7 src/practice/practicesummaryui.rc:7
 #: src/practice/practiceui.rc:7 src/statistics/statisticsui.rc:7
 #, kde-format
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #. i18n: ectx: Menu (edit)
 #: src/editor/editorui.rc:12
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #. i18n: ectx: Menu (view)
 #: src/editor/editorui.rc:25 src/practice/practiceui.rc:12
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "&Prikaz"
 
 #. i18n: ectx: Menu (lesson)
 #: src/editor/editorui.rc:51
 #, kde-format
 msgid "&Unit"
-msgstr ""
+msgstr "&Jedinica"
 
 #. i18n: ectx: Menu (learning)
 #: src/editor/editorui.rc:65 src/practice/practicesummaryui.rc:12
 #: src/statistics/statisticsui.rc:12
 #, kde-format
 msgid "&Practice"
-msgstr ""
+msgstr "&Vježba"
 
 #. i18n: ectx: ToolBar (editorToolBar)
 #: src/editor/editorui.rc:72 src/parleyui.rc:24
 #, kde-format
 msgid "Editor Toolbar"
-msgstr ""
+msgstr "Alatna traka uređivača"
 
 #. i18n: ectx: property (title), widget (QGroupBox, direc_label)
 #: src/editor/FromToEntryPageForm.ui:26
 #, kde-format
 msgid "Properties From Original"
-msgstr ""
+msgstr "Svojstva izvornika"
 
 #. i18n: ectx: property (text), widget (QLabel, grade_label)
 #: src/editor/FromToEntryPageForm.ui:72
 #, kde-format
 msgid "&Confidence Level:"
-msgstr ""
+msgstr "Razina &pouzdanosti:"
 
 #. i18n: ectx: property (text), widget (QLabel, fauxami_label)
 #: src/editor/FromToEntryPageForm.ui:95
 #, kde-format
 msgid "&False friend:"
-msgstr ""
+msgstr "&Lažni prijatelj:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: src/editor/FromToEntryPageForm.ui:110
 #, kde-format
 msgid "Practice &Counts"
-msgstr ""
+msgstr "&Broj vježbanja"
 
 #. i18n: ectx: property (text), widget (QLabel, bcount_label)
 #: src/editor/FromToEntryPageForm.ui:142
 #, kde-format
 msgid "&Wrong:"
-msgstr ""
+msgstr "&Netočno:"
 
 #. i18n: ectx: property (text), widget (QLabel, qcount_label)
 #: src/editor/FromToEntryPageForm.ui:155
 #, kde-format
 msgid "Tot&al:"
-msgstr ""
+msgstr "Uk&upno:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
 #: src/editor/FromToEntryPageForm.ui:171
 #, kde-format
 msgid "&Last Practiced"
-msgstr ""
+msgstr "&Zadnja vježba"
 
 #. i18n: ectx: property (text), widget (QPushButton, never)
 #: src/editor/FromToEntryPageForm.ui:183
 #, kde-format
 msgid "&Never"
-msgstr ""
+msgstr "&Nikad"
 
 #. i18n: ectx: property (text), widget (QPushButton, today)
 #: src/editor/FromToEntryPageForm.ui:190
 #, kde-format
 msgid "T&oday"
-msgstr ""
+msgstr "Da&nas"
 
 #. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:206
 #, kde-format
 msgid "The date this expression was last practiced"
-msgstr ""
+msgstr "Datum posljednje vježbe ovog izraza"
 
 #. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:209
 #, kde-format
 msgid "Not Practiced Yet"
-msgstr ""
+msgstr "Još nije vježbano"
 
 #. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:229
@@ -821,264 +823,264 @@ msgstr ""
 #: src/editor/FromToEntryPageForm.ui:260
 #, kde-format
 msgid "&Reset Confidence Levels"
-msgstr ""
+msgstr "Ponovno postavi &razine pouzdanosti"
 
 #: src/editor/inflectionwidget.cpp:32 src/editor/wordtypeview.cpp:112
 #: src/parleydocument.cpp:484
 #, kde-format
 msgid "Verb"
-msgstr ""
+msgstr "Glagol"
 
 #: src/editor/inflectionwidget.cpp:37 src/editor/wordtypeview.cpp:64
 #: src/parleydocument.cpp:470
 #, kde-format
 msgid "Noun"
-msgstr ""
+msgstr "Imenica"
 
 #: src/editor/inflectionwidget.cpp:81
 #, kde-format
 msgid "\"%1\" is a:"
-msgstr ""
+msgstr "„%1” je:"
 
 #: src/editor/inflectionwidget.cpp:124
 #, kde-format
 msgctxt "@title:window"
 msgid "Please select the noun's gender"
-msgstr ""
+msgstr "Odaberite rod imenice"
 
 #: src/editor/latexwidget.cpp:22
 #, kde-format
 msgid "Enter LaTeX code here."
-msgstr ""
+msgstr "Ovdje unesite kôd LaTeX-a."
 
 #. i18n: ectx: property (text), widget (QLabel, texLabel)
 #: src/editor/latexwidget.ui:17
 #, kde-format
 msgid "LaTeX code:"
-msgstr ""
+msgstr "Kôd LaTeX-a:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/editor/latexwidget.ui:37 src/settings/kgametheme/kgamethemeselector.ui:52
 #, kde-format
 msgid "Preview"
-msgstr ""
+msgstr "Pregled"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mathModeCheckBox)
 #: src/editor/latexwidget.ui:57
 #, kde-format
 msgid "Math mode"
-msgstr ""
+msgstr "Matematički način rada"
 
 #: src/editor/lessonview.cpp:32
 #, kde-format
 msgid "New Unit"
-msgstr ""
+msgstr "Nova jedinica"
 
 #: src/editor/lessonview.cpp:34
 #, kde-format
 msgid "Add a new unit to your document"
-msgstr ""
+msgstr "Dodaj novu jedinicu u dokument"
 
 #: src/editor/lessonview.cpp:40
 #, kde-format
 msgid "Rename Unit"
-msgstr ""
+msgstr "Preimenuj jedinicu"
 
 #: src/editor/lessonview.cpp:48
 #, kde-format
 msgid "Delete Unit"
-msgstr ""
+msgstr "Izbriši jedinicu"
 
 #: src/editor/lessonview.cpp:50
 #, kde-format
 msgid "Delete the selected unit."
-msgstr ""
+msgstr "Izbriši odabranu jedinicu."
 
 #: src/editor/lessonview.cpp:56
 #, kde-format
 msgid "Split Unit into Smaller Units"
-msgstr ""
+msgstr "Podijeli jedinicu na manje jedinice"
 
 #: src/editor/lessonview.cpp:58
 #, kde-format
 msgid "Make multiple smaller units out of one big unit."
-msgstr ""
+msgstr "Razdijeli jednu veliku jedinicu na više manjih."
 
 #: src/editor/lessonview.cpp:64
 #, kde-format
 msgid "Move to new lesson"
-msgstr ""
+msgstr "Premjesti u novu lekciju"
 
 #: src/editor/lessonview.cpp:66
 #, kde-format
 msgid "Moves the selected vocabulary to a new lesson"
-msgstr ""
+msgstr "Premješta odabrani rječnik u novu lekciju"
 
 #: src/editor/lessonview.cpp:72 src/parleyactions.cpp:150
 #, kde-format
 msgid "Remove Confidence Levels"
-msgstr ""
+msgstr "Ukloni razine pouzdanosti"
 
 #: src/editor/lessonview.cpp:74
 #, kde-format
 msgid "Remove confidence levels from this unit."
-msgstr ""
+msgstr "Ukloni razine pouzdanosti iz ove jedinice."
 
 #: src/editor/lessonview.cpp:80
 #, kde-format
 msgid "Remove Confidence Levels From This Unit And All Subunits"
-msgstr ""
+msgstr "Ukloni razine pouzdanosti iz ove jedinice i svih podjedinica"
 
 #: src/editor/lessonview.cpp:82
 #, kde-format
 msgid "Remove confidence levels from this unit and all subunits."
-msgstr ""
+msgstr "Ukloni razine pouzdanosti iz ove jedinice i svih podjedinica."
 
 #: src/editor/lessonview.cpp:88
 #, kde-format
 msgid "Expand Units and Subunits"
-msgstr ""
+msgstr "Proširi jedinice i podjedinice"
 
 #: src/editor/lessonview.cpp:90
 #, kde-format
 msgid "Expand all units and subunits."
-msgstr ""
+msgstr "Proširi sve jedinice i podjedinice."
 
 #: src/editor/lessonview.cpp:96
 #, kde-format
 msgid "Collapse All Units And Subunits"
-msgstr ""
+msgstr "Skupi sve jedinice i podjedinice"
 
 #: src/editor/lessonview.cpp:98
 #, kde-format
 msgid "Collapse all units and subunits."
-msgstr ""
+msgstr "Skupi sve jedinice i podjedinice."
 
 #: src/editor/lessonview.cpp:190
 #, kde-format
 msgid "The root lesson cannot be deleted."
-msgstr ""
+msgstr "Nije moguće izbrisati korijensku lekciju."
 
 #: src/editor/lessonview.cpp:200
 #, kde-format
 msgid "There is %1 word left in this unit. Do you want to delete it?"
 msgid_plural ""
 "There are %1 words left in this unit. Do you want to delete them?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "U ovoj je jedinici preostala %1 riječ. Želite li je izbrisati?"
+msgstr[1] "U ovoj su jedinici preostale %1 riječi. Želite li ih izbrisati?"
 
 #: src/editor/lessonview.cpp:221
 #, kde-format
 msgid "Entries per Unit"
-msgstr ""
+msgstr "Zapisa po jedinici"
 
 #: src/editor/lessonview.cpp:222
 #, kde-format
 msgid ""
 "The unit will be split into smaller unit. How many entries in each unit do "
 "you want?"
-msgstr ""
+msgstr "Jedinica će se podijeliti na manje jedinice. Koliko zapisa želite u svakoj jedinici?"
 
 #: src/editor/lessonview.cpp:245
 #, kde-format
 msgid "New Lesson"
-msgstr ""
+msgstr "Nova lekcija"
 
 #. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
 #: src/editor/multiplechoicewidget.ui:21
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #. i18n: ectx: property (text), widget (QLabel, languageLabel)
 #: src/editor/summarywordwidget.ui:16
 #, kde-format
 msgid "Language"
-msgstr ""
+msgstr "Jezik"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/editor/summarywordwidget.ui:32
 #, kde-format
 msgid "Lesson"
-msgstr ""
+msgstr "Lekcija"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/editor/summarywordwidget.ui:42
 #, kde-format
 msgid "Word type:"
-msgstr ""
+msgstr "Vrsta riječi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/editor/summarywordwidget.ui:55
 #, kde-format
 msgid "Pronunciation:"
-msgstr ""
+msgstr "Izgovor:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/editor/summarywordwidget.ui:71
 #, kde-format
 msgid "Example:"
-msgstr ""
+msgstr "Primjer:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/editor/summarywordwidget.ui:87
 #, kde-format
 msgid "Paraphrase:"
-msgstr ""
+msgstr "Parafraza:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/editor/summarywordwidget.ui:103
 #, kde-format
 msgid "Comment:"
-msgstr ""
+msgstr "Komentar:"
 
 #: src/editor/synonymwidget.cpp:59
 #, kde-format
 msgid "Select Synonyms"
-msgstr ""
+msgstr "Odaberi sinonime"
 
 #: src/editor/synonymwidget.cpp:65
 #, kde-format
 msgid "%1 and %2 are not Synonyms"
-msgstr ""
+msgstr "%1 i %2 nisu sinonimi"
 
 #: src/editor/synonymwidget.cpp:67
 #, kde-format
 msgid "%1 and %2 are Synonyms"
-msgstr ""
+msgstr "%1 i %2 su sinonimi"
 
 #: src/editor/synonymwidget.cpp:72
 #, kde-format
 msgid "%1 and %2 are not Antonyms"
-msgstr ""
+msgstr "%1 i %2 nisu antonimi"
 
 #: src/editor/synonymwidget.cpp:74
 #, kde-format
 msgid "%1 and %2 are Antonyms"
-msgstr ""
+msgstr "%1 i %2 su antonimi"
 
 #: src/editor/synonymwidget.cpp:79
 #, kde-format
 msgid "%1 and %2 are not False Friends"
-msgstr ""
+msgstr "%1 i %2 nisu lažni prijatelji"
 
 #: src/editor/synonymwidget.cpp:81
 #, kde-format
 msgid "%1 and %2 are False Friends"
-msgstr ""
+msgstr "%1 i %2 su lažni prijatelji"
 
 #: src/editor/synonymwidget.cpp:90
 #, kde-format
 msgctxt "Title for a list of synonyms for a word"
 msgid "Synonyms of %1:"
-msgstr ""
+msgstr "Sinonimi za %1:"
 
 #: src/editor/synonymwidget.cpp:93
 #, kde-format
 msgctxt "Title for a list of antonyms (opposites) for a word"
 msgid "Antonyms of %1:"
-msgstr ""
+msgstr "Antonimi za %1:"
 
 #: src/editor/synonymwidget.cpp:97
 #, kde-format
@@ -1086,83 +1088,83 @@ msgctxt ""
 "Title for a list of false friend (things that sound similar but have "
 "different meanings) for a word"
 msgid "False Friends of %1:"
-msgstr ""
+msgstr "Lažni prijatelji za %1:"
 
 #: src/editor/vocabularycolumnsdialog.cpp:43
 #, kde-format
 msgctxt "@title:window"
 msgid "Vocabulary Columns"
-msgstr ""
+msgstr "Stupci rječnika"
 
 #: src/editor/vocabularycolumnsdialog.cpp:58
 #, kde-format
 msgid "Enable/Disable the columns for each language"
-msgstr ""
+msgstr "Uključi ili isključi stupce za svaki jezik"
 
 #: src/editor/vocabularydelegate.cpp:145
 #, kde-format
 msgid "Sound file selected: %1"
-msgstr ""
+msgstr "Odabrana zvučna datoteka: %1"
 
 #: src/editor/vocabularydelegate.cpp:147
 #, kde-format
 msgid "Image file selected: %1"
-msgstr ""
+msgstr "Odabrana slikovna datoteka: %1"
 
 #: src/editor/vocabularyview.cpp:79
 #, kde-format
 msgid "&Add New Entry"
-msgstr ""
+msgstr "&Dodaj novi unos"
 
 #: src/editor/vocabularyview.cpp:82
 #, kde-format
 msgid "Append a new row to the vocabulary"
-msgstr ""
+msgstr "Dodaj novi redak u rječnik"
 
 #: src/editor/vocabularyview.cpp:91
 #, kde-format
 msgid "&Delete Entry"
-msgstr ""
+msgstr "&Izbriši unos"
 
 #: src/editor/vocabularyview.cpp:94
 #, kde-format
 msgid "Delete the selected rows"
-msgstr ""
+msgstr "Izbriši odabrane retke"
 
 #: src/editor/vocabularyview.cpp:105
 #, kde-format
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
 #: src/editor/vocabularyview.cpp:112
 #, kde-format
 msgid "Cut"
-msgstr ""
+msgstr "Izreži"
 
 #: src/editor/vocabularyview.cpp:119
 #, kde-format
 msgid "Paste"
-msgstr ""
+msgstr "Zalijepi"
 
 #: src/editor/vocabularyview.cpp:126
 #, kde-format
 msgid "Select all rows"
-msgstr ""
+msgstr "Odaberi sve retke"
 
 #: src/editor/vocabularyview.cpp:132
 #, kde-format
 msgid "Deselect all rows"
-msgstr ""
+msgstr "Poništi odabir svih redaka"
 
 #: src/editor/vocabularyview.cpp:140
 #, kde-format
 msgid "Vocabulary Columns..."
-msgstr ""
+msgstr "Stupci rječnika..."
 
 #: src/editor/vocabularyview.cpp:141
 #, kde-format
 msgid "Toggle display of individual vocabulary columns"
-msgstr ""
+msgstr "Uključi ili isključi prikaz pojedinačnih stupaca rječnika"
 
 #: src/editor/vocabularyview.cpp:253
 #, kde-format
@@ -1174,18 +1176,18 @@ msgstr[1] ""
 #: src/editor/vocabularyview.cpp:254
 #, kde-format
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: src/editor/vocabularyview.cpp:358
 #, kde-format
 msgid "Nothing to spell check."
-msgstr ""
+msgstr "Nema teksta za provjeru pravopisa."
 
 #: src/editor/vocabularyview.cpp:383
 #, kde-format
 msgctxt "@title of a popup"
 msgid "No Spell Checker Available"
-msgstr ""
+msgstr "Nema dostupnog provjerivača pravopisa"
 
 #: src/editor/vocabularyview.cpp:384
 #, kde-format
@@ -1198,7 +1200,7 @@ msgstr ""
 #: src/editor/wordtypeview.cpp:31
 #, kde-format
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: src/editor/wordtypeview.cpp:33
 #, kde-format

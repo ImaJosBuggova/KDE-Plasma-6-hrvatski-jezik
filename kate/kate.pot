@@ -9,58 +9,59 @@ msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-29 00:56+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: kate/main.cpp:120
 #, kde-format
 msgid "Kate"
-msgstr ""
+msgstr "Kate"
 
 #: kate/main.cpp:122
 #, kde-format
 msgid "Kate - Advanced Text Editor"
-msgstr ""
+msgstr "Kate – napredni uređivač teksta"
 
 #: kate/main.cpp:124 kwrite/main.cpp:51
 #, kde-format
 msgid "(c) 2000-2024 The Kate Authors"
-msgstr ""
+msgstr "© 2000. – 2024. autori Katea"
 
 #: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:300
 #: lib/autotests/kate_view_mgmt_test2.cpp:602
 #: lib/autotests/kate_view_mgmt_test2.cpp:638
 #, kde-format
 msgid "Start Kate with a given session."
-msgstr ""
+msgstr "Pokreni Kate s navedenom sesijom."
 
 #: kate/main.cpp:171 lib/autotests/kate_view_mgmt_test2.cpp:301
 #: lib/autotests/kate_view_mgmt_test2.cpp:603
 #: lib/autotests/kate_view_mgmt_test2.cpp:639
 #, kde-format
 msgid "session"
-msgstr ""
+msgstr "sesija"
 
 #: kate/main.cpp:176
 #, kde-format
 msgid "Start Kate with a new anonymous session, implies '-n'."
-msgstr ""
+msgstr "Pokreni Kate s novom anonimnom sesijom; podrazumijeva „-n”."
 
 #: kate/main.cpp:181
 #, kde-format
@@ -68,191 +69,191 @@ msgid ""
 "Force start of a new kate instance (is ignored if start is used and another "
 "kate instance already has the given session opened), forced if no parameters "
 "and no URLs are given at all."
-msgstr ""
+msgstr "Prisilno pokreni novu instancu Katea (zanemaruje se ako se koristi start i druga instanca Katea već ima otvorenu navedenu sesiju); prisilno se pokreće ako nisu navedeni parametri ni URL-ovi."
 
 #: kate/main.cpp:187
 #, kde-format
 msgid ""
 "If using an already running kate instance, block until it exits, if URLs "
 "given to open."
-msgstr ""
+msgstr "Ako se koristi već pokrenuta instanca Katea, čekaj da se zatvori ako su zadani URL-ovi za otvaranje."
 
 #: kate/main.cpp:193
 #, kde-format
 msgid ""
 "Only try to reuse kate instance with this pid (is ignored if start is used "
 "and another kate instance already has the given session opened)."
-msgstr ""
+msgstr "Pokušaj ponovno upotrijebiti samo instancu Katea s ovim PID-om (zanemaruje se ako se koristi start i druga instanca Katea već ima otvorenu navedenu sesiju)."
 
 #: kate/main.cpp:194
 #, kde-format
 msgid "pid"
-msgstr ""
+msgstr "pid"
 
 #: kate/main.cpp:199 kwrite/main.cpp:102
 #, kde-format
 msgid "Set encoding for the file to open."
-msgstr ""
+msgstr "Postavi kodiranje datoteke za otvaranje."
 
 #: kate/main.cpp:200 kwrite/main.cpp:103
 #, kde-format
 msgid "encoding"
-msgstr ""
+msgstr "kodiranje"
 
 #: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "Navigate to this line."
-msgstr ""
+msgstr "Idi na ovaj redak."
 
 #: kate/main.cpp:204 kwrite/main.cpp:107
 #, kde-format
 msgid "line"
-msgstr ""
+msgstr "redak"
 
 #: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "Navigate to this column."
-msgstr ""
+msgstr "Idi na ovaj stupac."
 
 #: kate/main.cpp:208 kwrite/main.cpp:111
 #, kde-format
 msgid "column"
-msgstr ""
+msgstr "stupac"
 
 #: kate/main.cpp:212 kwrite/main.cpp:115
 #, kde-format
 msgid "Read the contents of stdin."
-msgstr ""
+msgstr "Pročitaj sadržaj standardnog ulaza."
 
 #: kate/main.cpp:217 kwrite/main.cpp:119
 #, kde-format
 msgid "The files/URLs opened by the application will be deleted after use"
-msgstr ""
+msgstr "Datoteke/URL-ovi koje aplikacija otvori bit će izbrisani nakon uporabe"
 
 #: kate/main.cpp:221 kwrite/main.cpp:123
 #, kde-format
 msgid ""
 "Starts the application in self-test mode for some basic functions checks and "
 "quits afterwards"
-msgstr ""
+msgstr "Pokreće aplikaciju u načinu samotestiranja radi provjere osnovnih funkcija i zatim je zatvara"
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "Documents to open."
-msgstr ""
+msgstr "Dokumenti za otvaranje."
 
 #: kate/main.cpp:225 kwrite/main.cpp:127
 #, kde-format
 msgid "[urls...]"
-msgstr ""
+msgstr "[url-ovi...]"
 
 #: kwrite/main.cpp:47
 #, kde-format
 msgid "KWrite"
-msgstr ""
+msgstr "KWrite"
 
 #: kwrite/main.cpp:49
 #, kde-format
 msgid "KWrite - Text Editor"
-msgstr ""
+msgstr "KWrite – uređivač teksta"
 
 #: lib/commitfilesview.cpp:474 lib/diagnostics/diagnosticview.cpp:541
 #: lib/filehistorywidget.cpp:505 lib/kateconfigplugindialogpage.cpp:109
 #, kde-format
 msgid "Filter…"
-msgstr ""
+msgstr "Filtriraj…"
 
 #: lib/commitfilesview.cpp:499 lib/kateviewmanager.cpp:369
 #: lib/kateviewmanager.cpp:371
 #, kde-format
 msgid "Open File"
-msgstr ""
+msgstr "Otvori datoteku"
 
 #: lib/commitfilesview.cpp:505 lib/katemainwindow.cpp:463
 #, kde-format
 msgid "Copy Location"
-msgstr ""
+msgstr "Kopiraj lokaciju"
 
 #: lib/commitfilesview.cpp:528 lib/commitfilesview.cpp:645
 #: lib/commitfilesview.cpp:651 lib/filehistorywidget.cpp:741
 #, kde-format
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: lib/commitfilesview.cpp:625
 #, kde-format
 msgid "Renamed %1 => %2"
-msgstr ""
+msgstr "Preimenovano %1 => %2"
 
 #: lib/commitfilesview.cpp:645
 #, kde-format
 msgid "Invalid hash"
-msgstr ""
+msgstr "Neispravan sažetak"
 
 #: lib/commitfilesview.cpp:651 lib/filehistorywidget.cpp:741
 #, kde-format
 msgid "%1 doesn't exist in a git repo."
-msgstr ""
+msgstr "%1 ne postoji u Gitovom spremištu."
 
 #: lib/commitfilesview.cpp:661
 #, kde-format
 msgctxt "@title:tab"
 msgid "Commit %1"
-msgstr ""
+msgstr "Predaj %1"
 
 #: lib/commitfilesview.cpp:674
 #, kde-format
 msgctxt "@title:tab"
 msgid "Stash %1"
-msgstr ""
+msgstr "Skloni %1"
 
 #. i18n: ectx: Menu (file)
 #: lib/data/kateui.rc:6
 #, kde-format
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #. i18n: ectx: Menu (file_file_actions)
 #: lib/data/kateui.rc:31
 #, kde-format
 msgid "File Act&ions"
-msgstr ""
+msgstr "&Radnje nad datotekama"
 
 #. i18n: ectx: Menu (edit)
 #: lib/data/kateui.rc:45
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #. i18n: ectx: Menu (selection)
 #: lib/data/kateui.rc:56
 #, kde-format
 msgid "Sele&ction"
-msgstr ""
+msgstr "Oda&bir"
 
 #. i18n: ectx: Menu (go)
 #: lib/data/kateui.rc:59
 #, kde-format
 msgid "&Go"
-msgstr ""
+msgstr "&Idi"
 
 #. i18n: ectx: Menu (view)
 #: lib/data/kateui.rc:75
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "&Prikaz"
 
 #. i18n: ectx: Menu (view-split)
 #: lib/data/kateui.rc:77 lib/kateviewspace.cpp:153
 #, kde-format
 msgid "Split View"
-msgstr ""
+msgstr "Podijeli prikaz"
 
 #. i18n: ectx: Menu (tools)
 #: lib/data/kateui.rc:113 lib/diagnostics/ui.rc:6
 #, kde-format
 msgid "&Tools"
-msgstr ""
+msgstr "A&lati"
 
 #. i18n: ectx: Menu (tools_diagnosticsview)
 #. i18n: ectx: Menu (tools)
@@ -260,37 +261,37 @@ msgstr ""
 #: lib/diagnostics/ui.rc:8
 #, kde-format
 msgid "Diagnostics View"
-msgstr ""
+msgstr "Prikaz dijagnostike"
 
 #. i18n: ectx: Menu (settings)
 #: lib/data/kateui.rc:133
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "Po&stavke"
 
 #. i18n: ectx: Menu (help)
 #: lib/data/kateui.rc:142
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "&Pomoć"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: lib/data/kateui.rc:147
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Glavna alatna traka"
 
 #. i18n: ectx: ToolBar (hamburgerBar)
 #: lib/data/kateui.rc:163
 #, kde-format
 msgid "Hamburger Menu Toolbar"
-msgstr ""
+msgstr "Alatna traka izbornika"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
 #: lib/data/kateui.rc:177
 #, kde-format
 msgid "&Status Bar Items"
-msgstr ""
+msgstr "Stavke &trake stanja"
 
 #: lib/diagnostics/diagnostic_suppression.h:38
 #, kde-format
@@ -299,169 +300,171 @@ msgid ""
 "Error in regular expression: %1\n"
 "offset %2: %3"
 msgstr ""
+"Pogreška u regularnom izrazu: %1\n"
+"pomak %2: %3"
 
 #: lib/diagnostics/diagnosticview.cpp:63
 #, kde-format
 msgid "All"
-msgstr ""
+msgstr "Sve"
 
 #: lib/diagnostics/diagnosticview.cpp:324
 #, kde-format
 msgid ""
 "Diagnostics limit reached, ignoring further diagnostics. The limit can be "
 "configured in settings."
-msgstr ""
+msgstr "Dosegnuto je ograničenje dijagnostike; daljnja dijagnostika zanemaruje se. Ograničenje možete konfigurirati u postavkama."
 
 #: lib/diagnostics/diagnosticview.cpp:367
 #, kde-format
 msgctxt "@action:inmenu Diagnostics View actions menu"
 msgid "Diagnostics View"
-msgstr ""
+msgstr "Prikaz dijagnostike"
 
 #: lib/diagnostics/diagnosticview.cpp:372
 #, kde-format
 msgid "Quick Fix"
-msgstr ""
+msgstr "Brzi ispravak"
 
 #: lib/diagnostics/diagnosticview.cpp:378
 #, kde-format
 msgid "Next Item"
-msgstr ""
+msgstr "Sljedeća stavka"
 
 #: lib/diagnostics/diagnosticview.cpp:386
 #, kde-format
 msgid "Previous Item"
-msgstr ""
+msgstr "Prethodna stavka"
 
 #: lib/diagnostics/diagnosticview.cpp:396
 #, kde-format
 msgid "Clear Diagnostics Filter"
-msgstr ""
+msgstr "Očisti filtar dijagnostike"
 
 #: lib/diagnostics/diagnosticview.cpp:406
 #, kde-format
 msgid "Show Hover Info"
-msgstr ""
+msgstr "Prikaži informacije pri prelasku pokazivačem"
 
 #: lib/diagnostics/diagnosticview.cpp:465
 #: lib/kateconfigdialog.cpp:394
 #, kde-format
 msgid "Diagnostics"
-msgstr ""
+msgstr "Dijagnostika"
 
 #: lib/diagnostics/diagnosticview.cpp:511
 #, kde-format
 msgid "Errors"
-msgstr ""
+msgstr "Pogreške"
 
 #: lib/diagnostics/diagnosticview.cpp:527
 #, kde-format
 msgid "Warnings"
-msgstr ""
+msgstr "Upozorenja"
 
 #: lib/diagnostics/diagnosticview.cpp:547
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clear diagnostics"
-msgstr ""
+msgstr "Očisti dijagnostiku"
 
 #: lib/diagnostics/diagnosticview.cpp:1216
 #: lib/kateconfigdialog.cpp:167
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: lib/diagnostics/diagnosticview.cpp:1220
 #: lib/kateconfigdialog.cpp:167 lib/kateconfigdialog.cpp:804
 #, kde-format
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: lib/diagnostics/diagnosticview.cpp:1224
 #, kde-format
 msgid "Information"
-msgstr ""
+msgstr "Informacije"
 
 #: lib/diagnostics/diagnosticview.cpp:1353
 #, kde-format
 msgctxt "@info"
 msgid "%1 [suppressed: %2]"
-msgstr ""
+msgstr "%1 [potisnuto: %2]"
 
 #: lib/diagnostics/diagnosticview.cpp:1479
 #, kde-format
 msgid "Expand All"
-msgstr ""
+msgstr "Proširi sve"
 
 #: lib/diagnostics/diagnosticview.cpp:1480
 #, kde-format
 msgid "Collapse All"
-msgstr ""
+msgstr "Sažmi sve"
 
 #: lib/diagnostics/diagnosticview.cpp:1486
 #, kde-format
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Kopiraj u međuspremnik"
 
 #: lib/diagnostics/diagnosticview.cpp:1528
 #, kde-format
 msgid "Remove Global Suppression"
-msgstr ""
+msgstr "Ukloni globalno potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1530
 #, kde-format
 msgid "Add Global Suppression"
-msgstr ""
+msgstr "Dodaj globalno potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1534
 #, kde-format
 msgid "Remove Local Suppression"
-msgstr ""
+msgstr "Ukloni lokalno potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1536
 #, kde-format
 msgid "Add Local Suppression"
-msgstr ""
+msgstr "Dodaj lokalno potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1551
 #, kde-format
 msgid "Disable Suppression"
-msgstr ""
+msgstr "Onemogući potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1553
 #, kde-format
 msgid "Enable Suppression"
-msgstr ""
+msgstr "Omogući potiskivanje"
 
 #: lib/diagnostics/diagnosticview.cpp:1620
 #, kde-format
 msgid "Show fixes"
-msgstr ""
+msgstr "Prikaži ispravke"
 
 #: lib/diff/diffeditor.cpp:197
 #, kde-format
 msgid "Change Style"
-msgstr ""
+msgstr "Promijeni stil"
 
 #: lib/diff/diffeditor.cpp:199 lib/kateconfigdialog.cpp:374
 #, kde-format
 msgid "Side By Side"
-msgstr ""
+msgstr "Jedan pored drugog"
 
 #: lib/diff/diffeditor.cpp:202 lib/kateconfigdialog.cpp:375
 #, kde-format
 msgid "Unified"
-msgstr ""
+msgstr "Objedinjeno"
 
 #: lib/diff/diffeditor.cpp:205 lib/kateconfigdialog.cpp:376
 #, kde-format
 msgid "Raw"
-msgstr ""
+msgstr "Neobrađeno"
 
 #: lib/diff/diffeditor.cpp:216
 #, kde-format
 msgid "Edit Line"
-msgstr ""
+msgstr "Uredi redak"
 
 #: lib/diff/diffeditor.cpp:281
 #, kde-format
@@ -473,7 +476,7 @@ msgstr[1] ""
 #: lib/diff/diffeditor.cpp:286
 #, kde-format
 msgid "Stage Hunk"
-msgstr ""
+msgstr "Pripremi blok promjena"
 
 #: lib/diff/diffeditor.cpp:293
 #, kde-format
@@ -485,7 +488,7 @@ msgstr[1] ""
 #: lib/diff/diffeditor.cpp:298
 #, kde-format
 msgid "Discard Hunk"
-msgstr ""
+msgstr "Odbaci blok promjena"
 
 #: lib/diff/diffeditor.cpp:305
 #, kde-format
@@ -497,17 +500,17 @@ msgstr[1] ""
 #: lib/diff/diffeditor.cpp:310
 #, kde-format
 msgid "Unstage Hunk"
-msgstr ""
+msgstr "Ukloni blok iz pripreme"
 
 #: lib/diff/diffwidget.cpp:52
 #, kde-format
 msgid "Diff - %1"
-msgstr ""
+msgstr "Razlika – %1"
 
 #: lib/diff/diffwidget.cpp:55
 #, kde-format
 msgid "Diff - %1..%2"
-msgstr ""
+msgstr "Razlika – %1..%2"
 
 #: lib/diff/diffwidget.cpp:61
 #, kde-format
@@ -516,75 +519,78 @@ msgid ""
 "installed, make sure it is your PATH variable. See https://git-scm.com/"
 "downloads"
 msgstr ""
+"<b>git</b> nije pronađen. Git je potreban za usporedbu dokumenata. Ako je git "
+"već instaliran, provjerite nalazi li se u varijabli PATH. Pogledajte https://"
+"git-scm.com/downloads"
 
 #: lib/diff/diffwidget.cpp:64 lib/diff/diffwidget.cpp:1283
 #: lib/kateconfigdialog.cpp:368
 #, kde-format
 msgid "Diff"
-msgstr ""
+msgstr "Razlika"
 
 #: lib/diff/diffwidget.cpp:123
 #, kde-format
 msgid "Diff %1 .. %2"
-msgstr ""
+msgstr "Razlika %1 .. %2"
 
 #: lib/diff/diffwidget.cpp:153
 #, kde-format
 msgid "Show/Hide Commit Info"
-msgstr ""
+msgstr "Prikaži/sakrij podatke o predaji"
 
 #: lib/diff/diffwidget.cpp:158
 #, kde-format
 msgid "Jump to Next File"
-msgstr ""
+msgstr "Prijeđi na sljedeću datoteku"
 
 #: lib/diff/diffwidget.cpp:162
 #, kde-format
 msgid "Jump to Previous File"
-msgstr ""
+msgstr "Prijeđi na prethodnu datoteku"
 
 #: lib/diff/diffwidget.cpp:166
 #, kde-format
 msgid "Jump to Next Hunk"
-msgstr ""
+msgstr "Prijeđi na sljedeći blok promjena"
 
 #: lib/diff/diffwidget.cpp:170
 #, kde-format
 msgid "Jump to Previous Hunk"
-msgstr ""
+msgstr "Prijeđi na prethodni blok promjena"
 
 #: lib/diff/diffwidget.cpp:174
 #, kde-format
 msgctxt "Tooltip for a button, clicking the button reloads the diff"
 msgid "Reload Diff"
-msgstr ""
+msgstr "Ponovno učitaj razliku"
 
 #: lib/diff/diffwidget.cpp:178
 #, kde-format
 msgctxt "Tooltip for a button"
 msgid "Show diff with full context, not just the changed lines"
-msgstr ""
+msgstr "Prikaži razliku s punim kontekstom, a ne samo promijenjene retke"
 
 #: lib/diff/diffwidget.cpp:891 lib/diff/diffwidget.cpp:1095
 #, kde-format
 msgid "New file %1"
-msgstr ""
+msgstr "Nova datoteka %1"
 
 #: lib/diff/diffwidget.cpp:893 lib/diff/diffwidget.cpp:1097
 #, kde-format
 msgid "Deleted file %1"
-msgstr ""
+msgstr "Izbrisana datoteka %1"
 
 #: lib/diff/diffwidget.cpp:1266 lib/diff/diffwidget.cpp:1267
 #, kde-format
 msgid "No differences found"
-msgstr ""
+msgstr "Nema pronađenih razlika"
 
 #: lib/filehistorywidget.cpp:279
 #, kde-format
 msgctxt "error message"
 msgid "Invalid date: %1"
-msgstr ""
+msgstr "Nevaljan datum: %1"
 
 #: lib/filehistorywidget.cpp:513
 #, kde-format
@@ -602,69 +608,81 @@ msgid ""
 "terms are given then messages matching all the search terms will be shown.</"
 "li></ul>To trigger the filter, press the <b>Enter</b> key."
 msgstr ""
+"Filtrirajte zapis.<ul><li>Upotrijebite prefiks <code>\"a:\"</code> za "
+"filtriranje prema imenu autora. Npr. <b>a:john doe</b></li><li>Upotrijebite "
+"prefiks <code>\"!a:\"</code> za isključivanje autora. Npr. "
+"<b>!a:john doe</b></li><li>Upotrijebite prefiks <code>\"since:\"</code> "
+"za prikaz promjena nakon zadanog datuma. Provjerava se datum autora svake "
+"promjene. Oblik datuma je yyyy-MM-dd, npr. <b>since:2025-04-17</b></li><li> "
+"Upotrijebite prefiks <code>\"until:\"</code> za prikaz promjena prije "
+"zadanog datuma. Provjerava se datum autora svake promjene. Oblik datuma je "
+"yyyy-MM-dd, npr. <b>until:2025-04-17</b></li><li>Za filtriranje poruka samo "
+"upišite pojam za pretraživanje. Ako unesete više pojmova, prikazat će se "
+"poruke koje odgovaraju svim pojmovima.</li></ul>Za primjenu filtra pritisnite "
+"tipku <b>Enter</b>."
 
 #: lib/filehistorywidget.cpp:575
 #, kde-format
 msgid "Failed to get file history: git executable not found in PATH"
-msgstr ""
+msgstr "Dohvaćanje povijesti datoteke nije uspjelo: izvršna datoteka gita nije pronađena u PATH-u"
 
 #: lib/filehistorywidget.cpp:601
 #, kde-format
 msgid "Failed to get file history: %1"
-msgstr ""
+msgstr "Dohvaćanje povijesti datoteke nije uspjelo: %1"
 
 #: lib/filehistorywidget.cpp:616
 #, kde-format
 msgctxt "@menu:action"
 msgid "Copy Commit Hash"
-msgstr ""
+msgstr "Kopiraj raspršenu vrijednost predaje"
 
 #: lib/filehistorywidget.cpp:624
 #, kde-format
 msgctxt "@menu:action"
 msgid "Show Full Commit"
-msgstr ""
+msgstr "Prikaži cijelu predaju"
 
 #: lib/filehistorywidget.cpp:760
 #, kde-format
 msgctxt "@title:tab"
 msgid "History - %1"
-msgstr ""
+msgstr "Povijest – %1"
 
 #: lib/jsonsettings.cpp:30
 #, kde-format
 msgid "User Settings"
-msgstr ""
+msgstr "Korisničke postavke"
 
 #: lib/jsonsettings.cpp:39
 #, kde-format
 msgid "Settings file:"
-msgstr ""
+msgstr "Datoteka postavki:"
 
 #: lib/jsonsettings.cpp:75
 #, kde-format
 msgid "Default Settings"
-msgstr ""
+msgstr "Zadane postavke"
 
 #: lib/jsonsettings.cpp:125
 #, kde-format
 msgid "No JSON data to validate."
-msgstr ""
+msgstr "Nema JSON podataka za provjeru."
 
 #: lib/jsonsettings.cpp:134
 #, kde-format
 msgid "JSON data is valid."
-msgstr ""
+msgstr "JSON podaci su valjani."
 
 #: lib/jsonsettings.cpp:136
 #, kde-format
 msgid "JSON data is invalid: no JSON object"
-msgstr ""
+msgstr "JSON podaci nisu valjani: nema JSON objekta"
 
 #: lib/jsonsettings.cpp:139
 #, kde-format
 msgid "JSON data is invalid: %1"
-msgstr ""
+msgstr "JSON podaci nisu valjani: %1"
 
 #: lib/kateapp.cpp:147
 msgid ""
@@ -672,6 +690,10 @@ msgid ""
 "vulnerabilities. Instead use this editor normally and you will be prompted "
 "for elevated privileges when saving documents if needed."
 msgstr ""
+"Pokretanje ovog uređivača naredbom sudo može uzrokovati pogreške i izložiti "
+"vas sigurnosnim ranjivostima. Umjesto toga uobičajeno pokrenite uređivač; "
+"ako bude potrebno, zatražit će povišene ovlasti prilikom spremanja "
+"dokumenata."
 
 #: lib/kateapp.cpp:154
 msgid ""
@@ -679,6 +701,10 @@ msgid ""
 "vulnerabilities. Instead use this editor normally and you will be prompted "
 "for elevated privileges when saving documents if needed."
 msgstr ""
+"Pokretanje ovog uređivača naredbom kdesu može uzrokovati pogreške i izložiti "
+"vas sigurnosnim ranjivostima. Umjesto toga uobičajeno pokrenite uređivač; "
+"ako bude potrebno, zatražit će povišene ovlasti prilikom spremanja "
+"dokumenata."
 
 #: lib/kateapp.cpp:386
 #, kde-format
@@ -688,7 +714,7 @@ msgstr ""
 #: lib/kateapp.cpp:386
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Održavatelj"
 
 #: lib/kateapp.cpp:387
 #, kde-format
@@ -699,7 +725,7 @@ msgstr ""
 #: lib/kateapp.cpp:392 lib/kateapp.cpp:393 lib/kateapp.cpp:399
 #, kde-format
 msgid "Core Developer"
-msgstr ""
+msgstr "Glavni razvojni programer"
 
 #: lib/kateapp.cpp:388
 #, kde-format
@@ -709,7 +735,7 @@ msgstr ""
 #: lib/kateapp.cpp:388 lib/kateapp.cpp:389 lib/kateapp.cpp:394
 #, kde-format
 msgid "Developer"
-msgstr ""
+msgstr "Razvojni programer"
 
 #: lib/kateapp.cpp:389
 #, kde-format
@@ -2145,13 +2171,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #: lib/kateoutputview.cpp:415
 #, kde-format
 msgctxt "@info"
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: lib/kateoutputview.cpp:419
 #, kde-format
@@ -2764,7 +2790,7 @@ msgstr ""
 #: lib/session/katesessionmanagedialog.ui:183
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: lib/session/katesessionmanager.cpp:148
 #, kde-format

@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the konversation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-12 00:44+0000\n"
-"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"PO-Revision-Date: 2026-11-07 08:40+0100\n"
 "Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
 "Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
 "Language: hr\n"
@@ -141,7 +140,7 @@ msgstr "„/media { Player }” – prikaži što se reproducira u navedenom rep
 #: src/irc/server.cpp:3852
 #, kde-format
 msgid "D-Bus"
-msgstr ""
+msgstr "D-Bus"
 
 #: src/cipher.cpp:477
 #, kde-format
@@ -151,6 +150,10 @@ msgid ""
 "provider plugin. Diffie-Hellman key exchange support is usually provided by "
 "the qca-ossl plugin."
 msgstr ""
+"Vaša instalacija kriptografske arhitekture Qt (QCA) ne podržava razmjenu "
+"ključeva Diffie–Hellman. Vjerojatno trebate instalirati dodatni dodatak "
+"pružatelja. Podršku za razmjenu ključeva Diffie–Hellman obično pruža dodatak "
+"qca-ossl."
 
 #: src/cipher.cpp:490
 #, kde-format
@@ -160,6 +163,10 @@ msgid ""
 "install an additional provider plugin for QCA. Blowfish support is usually "
 "provided by the qca-ossl plugin."
 msgstr ""
+"Vaša instalacija kriptografske arhitekture Qt (QCA) ne podržava Blowfish u "
+"načinu ulančavanja blokova šifre (CBC). Vjerojatno trebate instalirati "
+"dodatni dodatak pružatelja za QCA. Podršku za Blowfish obično pruža dodatak "
+"qca-ossl."
 
 #: src/cipher.cpp:502
 #, kde-format
@@ -169,6 +176,10 @@ msgid ""
 "install an additional provider plugin for QCA. Blowfish support is usually "
 "provided by the qca-ossl plugin."
 msgstr ""
+"Vaša instalacija kriptografske arhitekture Qt (QCA) ne podržava Blowfish u "
+"načinu elektroničke kodne knjige (ECB). Vjerojatno trebate instalirati "
+"dodatni dodatak pružatelja za QCA. Podršku za Blowfish obično pruža dodatak "
+"qca-ossl."
 
 #: src/common.cpp:25
 #, kde-format
@@ -290,14 +301,14 @@ msgctxt ""
 "in the list. It's identical to the default content of the field after adding "
 "a new auto-replace rule."
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: src/config/autoreplace_config.cpp:289
 #, kde-format
 msgctxt ""
 "Default content of the \"Find:\" field of a newly-added auto-replace rule."
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, patternListView)
 #. i18n: ectx: property (text), widget (HighlightTreeWidget, highlightListView)
@@ -424,37 +435,37 @@ msgstr "Prikaži &maske poslužitelja na popisu nadimaka"
 #: src/config/chatwindowappearance_config.ui:192
 #, kde-format
 msgid "Show real names in nickname list"
-msgstr ""
+msgstr "Prikaži prava imena na popisu nadimaka"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowQuickButtons)
 #: src/config/chatwindowappearance_config.ui:222
 #, kde-format
 msgid "Show &quick buttons"
-msgstr ""
+msgstr "Prikaži &brze gumbe"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNicknameBox)
 #: src/config/chatwindowappearance_config.ui:231
 #, kde-format
 msgid "Show bo&x to change own nickname"
-msgstr ""
+msgstr "Prikaži &polje za promjenu vlastitog nadimka"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowIRCViewScrollBar)
 #: src/config/chatwindowappearance_config.ui:238
 #, kde-format
 msgid "Show sc&rollbar"
-msgstr ""
+msgstr "Prikaži t&rak za pomicanje"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_ShowBackgroundImage)
 #: src/config/chatwindowappearance_config.ui:251
 #, kde-format
 msgid "Enable Back&ground Image"
-msgstr ""
+msgstr "Omogući sli&ku pozadine"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: src/config/chatwindowappearance_config.ui:260
 #, kde-format
 msgid "P&ath:"
-msgstr ""
+msgstr "P&utanja:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalWidget)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
@@ -463,26 +474,26 @@ msgstr ""
 #: src/config/launcherentry_config.ui:39 src/identitydialog.ui:191
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Beep)
 #: src/config/chatwindowbehaviour_config.ui:35
 #, kde-format
 msgid ""
 "Sounds the system bell when you receive an ASCII BEL (0x07) control character"
-msgstr ""
+msgstr "Reproducira zvuk sustavskog zvona pri primitku ASCII kontrolnog znaka BEL (0x07)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Beep)
 #: src/config/chatwindowbehaviour_config.ui:38
 #, kde-format
 msgid "Enable s&ystem bell on incoming ASCII BEL"
-msgstr ""
+msgstr "Omogući s&ustavsko zvono pri dolaznom ASCII znaku BEL"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUnimportantEvents)
 #: src/config/chatwindowbehaviour_config.ui:45
 #, kde-format
 msgid "Hide &Join/Part/Nick events"
-msgstr ""
+msgstr "Sakrij događaje &pridruživanja/napuštanja/promjene nadimka"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DisableExpansion)
 #: src/config/chatwindowbehaviour_config.ui:52
@@ -491,19 +502,19 @@ msgid ""
 "Do not expand variables when sending text to the server. A variable starts "
 "with '%'; for example, %B will expand to the characters needed to make a "
 "text bold."
-msgstr ""
+msgstr "Ne širi varijable pri slanju teksta poslužitelju. Varijabla počinje znakom '%'; primjerice, %B će se proširiti znakovima potrebnima za podebljavanje teksta."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisableExpansion)
 #: src/config/chatwindowbehaviour_config.ui:55
 #, no-c-format, kde-format
 msgid "Disable variable (e.g. %C, %B, %G...) e&xpansion"
-msgstr ""
+msgstr "Onemogući &proširivanje varijabli (npr. %C, %B, %G...)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RedirectServerAndAppMsgToStatusPane)
 #: src/config/chatwindowbehaviour_config.ui:62
 #, kde-format
 msgid "&Redirect status messages to the server status window"
-msgstr ""
+msgstr "&Preusmjeri poruke stanja u prozor stanja poslužitelja"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseLiteralModes)
 #: src/config/chatwindowbehaviour_config.ui:69
@@ -512,13 +523,13 @@ msgid ""
 "Keep channel mode string as a combination of characters instead of "
 "translating them into human readable words. E.g. '*** Channel modes: no "
 "messages from outside' will become '*** Channel modes: n'"
-msgstr ""
+msgstr "Zadrži način rada kanala kao kombinaciju znakova umjesto da ih prevodiš u čitljive riječi. Npr. „*** Načini rada kanala: nema poruka izvana” postat će „*** Načini rada kanala: n”."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseLiteralModes)
 #: src/config/chatwindowbehaviour_config.ui:72
 #, kde-format
 msgid "Show raw mode characters (e.g. +o) instead of descriptions"
-msgstr ""
+msgstr "Prikaži izvorne znakove načina rada (npr. +o) umjesto opisa"
 
 #. i18n: ectx: property (whatsThis), widget (KPluralHandlingSpinBox, kcfg_ScrollbackMax)
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
@@ -526,7 +537,7 @@ msgstr ""
 #: src/config/chatwindowbehaviour_config.ui:98
 #, kde-format
 msgid "How many lines to keep in buffers, 0 = unlimited"
-msgstr ""
+msgstr "Broj redaka koje treba zadržati u međuspremnicima, 0 = neograničeno"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_ReconnectCount)
 #. i18n: ectx: property (specialValueText), widget (KPluralHandlingSpinBox, kcfg_ScrollbackMax)
@@ -534,13 +545,13 @@ msgstr ""
 #: src/config/connectionbehavior_config.ui:77
 #, kde-format
 msgid "Unlimited"
-msgstr ""
+msgstr "Neograničeno"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/config/chatwindowbehaviour_config.ui:101
 #, kde-format
 msgid "Scrollbac&k limit:"
-msgstr ""
+msgstr "O&graničenje povijesti:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideUnimportantEventsExcludeActive)
 #: src/config/chatwindowbehaviour_config.ui:135
@@ -548,13 +559,13 @@ msgstr ""
 msgid ""
 "If checked, only events concerning active and watched nicks will be "
 "displayed."
-msgstr ""
+msgstr "Ako je označeno, prikazivat će se samo događaji koji se odnose na aktivne nadimke i nadimke pod nadzorom."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUnimportantEventsExcludeActive)
 #: src/config/chatwindowbehaviour_config.ui:138
 #, kde-format
 msgid "Except for watched nicks and nicks active within the"
-msgstr ""
+msgstr "Osim nadimaka pod nadzorom i nadimaka aktivnih tijekom"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_HideUnimportantEventsExcludeActiveThreshold)
 #: src/config/chatwindowbehaviour_config.ui:155
@@ -562,7 +573,7 @@ msgstr ""
 msgctxt ""
 "Is prefaced with: Except for watched nicks and nicks active within the"
 msgid "last 10 min"
-msgstr ""
+msgstr "posljednjih 10 min"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_HideUnimportantEventsExcludeActiveThreshold)
 #: src/config/chatwindowbehaviour_config.ui:160
@@ -570,7 +581,7 @@ msgstr ""
 msgctxt ""
 "Is prefaced with: Except for watched nicks and nicks active within the"
 msgid "last hour"
-msgstr ""
+msgstr "posljednjeg sata"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_HideUnimportantEventsExcludeActiveThreshold)
 #: src/config/chatwindowbehaviour_config.ui:165
@@ -578,7 +589,7 @@ msgstr ""
 msgctxt ""
 "Is prefaced with: Except for watched nicks and nicks active within the"
 msgid "last day"
-msgstr ""
+msgstr "posljednjeg dana"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_HideUnimportantEventsExcludeActiveThreshold)
 #: src/config/chatwindowbehaviour_config.ui:170
@@ -586,13 +597,13 @@ msgstr ""
 msgctxt ""
 "Is prefaced with: Except for watched nicks and nicks active within the"
 msgid "last week"
-msgstr ""
+msgstr "posljednjeg tjedna"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3_2)
 #: src/config/chatwindowbehaviour_config.ui:196
 #, kde-format
 msgid "Marker Lines"
-msgstr ""
+msgstr "Linije oznaka"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomaticRememberLine)
 #: src/config/chatwindowbehaviour_config.ui:202
@@ -600,121 +611,121 @@ msgstr ""
 msgid ""
 "Inserts a remember line into the chat window when you switch to another chat "
 "window or minimize the application."
-msgstr ""
+msgstr "Umeće liniju za pamćenje položaja u prozor razgovora kada prijeđete u drugi prozor razgovora ili minimizirate aplikaciju."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomaticRememberLine)
 #: src/config/chatwindowbehaviour_config.ui:205
 #, kde-format
 msgid "Mark the last position in a chat window when it is hidden"
-msgstr ""
+msgstr "Označi posljednji položaj u prozoru razgovora kada se sakrije"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomaticRememberLineOnlyOnTextChange)
 #: src/config/chatwindowbehaviour_config.ui:236
 #, kde-format
 msgid "Move the line only when new text is about to be shown"
-msgstr ""
+msgstr "Pomakni liniju samo kada će se prikazati novi tekst"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MarkerLineInAllViews)
 #: src/config/chatwindowbehaviour_config.ui:245
 #, kde-format
 msgid "Show manually inserted lines in all chat windows"
-msgstr ""
+msgstr "Prikaži ručno umetnute linije u svim prozorima razgovora"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_AutoWhoContinuousEnabled)
 #: src/config/chatwindowbehaviour_config.ui:255
 #, kde-format
 msgid "Enable Automatic User Information Look Up (/WHO)"
-msgstr ""
+msgstr "Omogući automatsko traženje podataka o korisnicima (/WHO)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: src/config/chatwindowbehaviour_config.ui:267
 #, kde-format
 msgid "&Max. number of users in a channel:"
-msgstr ""
+msgstr "&Najveći broj korisnika u kanalu:"
 
 #. i18n: ectx: property (text), widget (QLabel, whoIntervalLbl)
 #: src/config/chatwindowbehaviour_config.ui:299
 #, kde-format
 msgid "Update inter&val:"
-msgstr ""
+msgstr "Raz&mak između ažuriranja:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: src/config/colorsappearance_config.ui:30
 #, kde-format
 msgid "Custom Colors"
-msgstr ""
+msgstr "Prilagođene boje"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_InputFieldsBackgroundColor)
 #: src/config/colorsappearance_config.ui:36
 #, kde-format
 msgid "&Use custom colors for input box, nickname list and tab list"
-msgstr ""
+msgstr "&Koristi prilagođene boje za polje unosa, popis nadimaka i popis kartica"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: src/config/colorsappearance_config.ui:273
 #, kde-format
 msgid "&Background:"
-msgstr ""
+msgstr "&Pozadina:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
 #: src/config/colorsappearance_config.ui:286
 #, kde-format
 msgid "&Server message:"
-msgstr ""
+msgstr "&Poruka poslužitelja:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: src/config/colorsappearance_config.ui:299
 #, kde-format
 msgid "H&yperlink:"
-msgstr ""
+msgstr "H&iperveza:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: src/config/colorsappearance_config.ui:312
 #, kde-format
 msgid "Channel &message:"
-msgstr ""
+msgstr "&Poruka kanala:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/config/colorsappearance_config.ui:325
 #, kde-format
 msgid "Actio&n:"
-msgstr ""
+msgstr "&Radnja:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: src/config/colorsappearance_config.ui:338
 #, kde-format
 msgid "Bac&klog:"
-msgstr ""
+msgstr "&Povijest:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #: src/config/colorsappearance_config.ui:351
 #, kde-format
 msgid "Comman&d message:"
-msgstr ""
+msgstr "&Naredba:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
 #: src/config/colorsappearance_config.ui:364
 #, kde-format
 msgid "&Query message:"
-msgstr ""
+msgstr "Poruka &upita:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_9)
 #: src/config/colorsappearance_config.ui:377
 #, kde-format
 msgid "&Timestamp:"
-msgstr ""
+msgstr "&Vremenska oznaka:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_10)
 #: src/config/colorsappearance_config.ui:390
 #, kde-format
 msgid "A&lternate background:"
-msgstr ""
+msgstr "A&lternativna pozadina:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_UseColoredNicks)
 #: src/config/colorsappearance_config.ui:409
 #, kde-format
 msgid "Colored Nicks"
-msgstr ""
+msgstr "Obojeni nadimci"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
 #. i18n: ectx: property (text), widget (QLabel, textLabel12_6)
@@ -784,7 +795,7 @@ msgstr ""
 #: src/config/colorsappearance_config.ui:700
 #, kde-format
 msgid "&Own nick color:"
-msgstr ""
+msgstr "Boja vlastitog &nadimka:"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, kcfg_AllowColorCodes)
 #: src/config/colorsappearance_config.ui:744
@@ -793,13 +804,13 @@ msgid ""
 "By enabling this option, color codes added to IRC messages will be displayed "
 "in your chat window as colored text. You can add color codes to your "
 "messages, by selecting Insert -> IRC Color"
-msgstr ""
+msgstr "Ako omogućite ovu opciju, kodovi boja dodani IRC porukama prikazivat će se u prozoru razgovora kao obojeni tekst. Kodove boja možete dodati porukama odabirom Umetni -> IRC boja."
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_AllowColorCodes)
 #: src/config/colorsappearance_config.ui:747
 #, kde-format
 msgid "&Allow Colored Text in IRC Messages"
-msgstr ""
+msgstr "&Dopusti obojeni tekst u IRC porukama"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel12_12)
 #: src/config/colorsappearance_config.ui:1051
@@ -854,50 +865,50 @@ msgstr ""
 #, kde-format
 msgid " second"
 msgid_plural " seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " sekunda"
+msgstr[1] " sekundi"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_AutoReconnect)
 #: src/config/connectionbehavior_config.ui:26
 #, kde-format
 msgid "Enable Automatic Reconnect"
-msgstr ""
+msgstr "Omogući automatsko ponovno povezivanje"
 
 #. i18n: ectx: property (text), widget (QLabel, reconnectDelayLabel)
 #: src/config/connectionbehavior_config.ui:35
 #, kde-format
 msgid "Reconnect delay:"
-msgstr ""
+msgstr "Odgoda ponovnog povezivanja:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/config/connectionbehavior_config.ui:48
 #, kde-format
 msgid "Reconnection attempts:"
-msgstr ""
+msgstr "Pokušaji ponovnog povezivanja:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, debugGBox)
 #: src/config/connectionbehavior_config.ui:87
 #, kde-format
 msgid "Debug"
-msgstr ""
+msgstr "Otklanjanje pogrešaka"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RawLog)
 #: src/config/connectionbehavior_config.ui:93
 #, kde-format
 msgid "Show raw &log window when connecting"
-msgstr ""
+msgstr "Prikaži prozor sirovog &dnevnika pri povezivanju"
 
 #. i18n: ectx: property (title), widget (QGroupBox, encryptionGBox)
 #: src/config/connectionbehavior_config.ui:103
 #, kde-format
 msgid "Encryption"
-msgstr ""
+msgstr "Šifriranje"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/config/connectionbehavior_config.ui:109
 #, kde-format
 msgid "Default encryption type:"
-msgstr ""
+msgstr "Zadana vrsta šifriranja:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_EncryptionType)
 #: src/config/connectionbehavior_config.ui:118
@@ -917,19 +928,19 @@ msgstr ""
 #: src/config/connectionbehavior_config.ui:122
 #, kde-format
 msgid "Electronic Codebook (ECB)"
-msgstr ""
+msgstr "Elektronička kodna knjiga (ECB)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_EncryptionType)
 #: src/config/connectionbehavior_config.ui:127
 #, kde-format
 msgid "Cipher-Block Chaining (CBC)"
-msgstr ""
+msgstr "Lančano povezivanje blokova šifre (CBC)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_ProxyEnabled)
 #: src/config/connectionbehavior_config.ui:138
 #, kde-format
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel12)
 #. i18n: ectx: property (text), widget (QLabel, authTypeLabel)
@@ -939,13 +950,13 @@ msgstr ""
 #: src/identitydialog.ui:243
 #, kde-format
 msgid "Type:"
-msgstr ""
+msgstr "Vrsta:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyType)
 #: src/config/connectionbehavior_config.ui:161
 #, kde-format
 msgid "Socks v5"
-msgstr ""
+msgstr "SOCKS v5"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyType)
 #: src/config/connectionbehavior_config.ui:166
@@ -957,19 +968,19 @@ msgstr ""
 #: src/config/connectionbehavior_config.ui:174
 #, kde-format
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
 #: src/config/connectionbehavior_config.ui:188
 #, kde-format
 msgid "Port:"
-msgstr ""
+msgstr "Port:"
 
 #. i18n: ectx: property (text), widget (QLabel, usernameLabel)
 #: src/config/connectionbehavior_config.ui:208
 #, kde-format
 msgid "Username:"
-msgstr ""
+msgstr "Korisničko ime:"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: src/config/connectionbehavior_config.ui:222

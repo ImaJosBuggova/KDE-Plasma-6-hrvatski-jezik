@@ -9,148 +9,149 @@ msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-16 00:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: ktorrent/core.cpp:149
 #, kde-format
 msgid ""
 "KTorrent is unable to accept connections because the TCP port %1 is already "
 "in use by another program."
-msgstr ""
+msgstr "KTorrent ne može prihvaćati veze jer TCP priključak %1 već koristi drugi program."
 
 #: ktorrent/core.cpp:159
 #, kde-format
 msgid ""
 "KTorrent is unable to accept connections because the UDP port %1 is already "
 "in use by another program."
-msgstr ""
+msgstr "KTorrent ne može prihvaćati veze jer UDP priključak %1 već koristi drugi program."
 
 #: ktorrent/core.cpp:267
 #, kde-format
 msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
 "following torrents. Torrents are not allowed to write to the same files. "
-msgstr ""
+msgstr "Otvaranjem torrenta <b>%1</b> jedna ili više datoteka dijelile bi se sa sljedećim torrentima. Torrentima nije dopušteno pisati u iste datoteke. "
 
 #: ktorrent/core.cpp:873
 #, kde-format
 msgid "KTorrent is running one or more torrents"
-msgstr ""
+msgstr "KTorrent izvodi jedan ili više torrenta"
 
 #: ktorrent/core.cpp:965
 #, kde-format
 msgid "Cannot create torrent: %1"
-msgstr ""
+msgstr "Nije moguće stvoriti torrent: %1"
 
 #: ktorrent/core.cpp:1064
 #, kde-format
 msgid ""
 "One or more storage volumes are not mounted. In order to start this torrent, "
 "they need to be mounted."
-msgstr ""
+msgstr "Jedan ili više spremišnih pogona nisu montirani. Za pokretanje ovog torrenta potrebno ih je montirati."
 
 #: ktorrent/core.cpp:1065
 #, kde-format
 msgid "Retry"
-msgstr ""
+msgstr "Pokušaj ponovno"
 
 #: ktorrent/core.cpp:1071
 #, kde-format
 msgid "Storage volume %1 is not mounted"
-msgstr ""
+msgstr "Spremišni pogon %1 nije montiran"
 
 #: ktorrent/core.cpp:1073
 #, kde-format
 msgid "Storage volumes %1 are not mounted"
-msgstr ""
+msgstr "Spremišni pogoni %1 nisu montirani"
 
 #: ktorrent/core.cpp:1086
 #, kde-format
 msgid ""
 "Several data files of the torrent \"%1\" are missing. \n"
 "Do you want to recreate them, or do you want to not download them?"
-msgstr ""
+msgstr "Nedostaje nekoliko podatkovnih datoteka torrenta „%1”. \nŽelite li ih ponovno stvoriti ili ih ne želite preuzimati?"
 
 #: ktorrent/core.cpp:1094 ktorrent/core.cpp:1102 ktorrent/core.cpp:1112
 #, kde-format
 msgid "Data files are missing"
-msgstr ""
+msgstr "Nedostaju podatkovne datoteke"
 
 #: ktorrent/core.cpp:1101
 #, kde-format
 msgid "Cannot deselect missing files: %1"
-msgstr ""
+msgstr "Nije moguće poništiti odabir datoteka koje nedostaju: %1"
 
 #: ktorrent/core.cpp:1111
 #, kde-format
 msgid "Cannot recreate missing files: %1"
-msgstr ""
+msgstr "Nije moguće ponovno stvoriti datoteke koje nedostaju: %1"
 
 #: ktorrent/core.cpp:1121
 #, kde-format
 msgid ""
 "The file where the data is saved of the torrent \"%1\" is missing.\n"
 "Do you want to recreate it?"
-msgstr ""
+msgstr "Nedostaje datoteka u koju se spremaju podaci torrenta „%1”.\nŽelite li je ponovno stvoriti?"
 
 #: ktorrent/core.cpp:1128 ktorrent/core.cpp:1135
 #, kde-format
 msgid "Data file is missing"
-msgstr ""
+msgstr "Nedostaje podatkovna datoteka"
 
 #: ktorrent/core.cpp:1134
 #, kde-format
 msgid "Cannot recreate data file: %1"
-msgstr ""
+msgstr "Nije moguće ponovno stvoriti podatkovnu datoteku: %1"
 
 #: ktorrent/core.cpp:1236
 #, kde-format
 msgid "Invalid magnet bittorrent link: %1"
-msgstr ""
+msgstr "Nevaljana magnetna BitTorrent poveznica: %1"
 
 #: ktorrent/core.cpp:1239
 #, kde-format
 msgid ""
 "You are attempting to download a magnet link, and DHT is not enabled. For "
 "optimum results enable DHT."
-msgstr ""
+msgstr "Pokušavate preuzeti magnetnu poveznicu, a DHT nije omogućen. Za najbolje rezultate omogućite DHT."
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddPeersDlg)
 #. i18n: ectx: property (windowTitle), widget (QWidget, GroupPolicyDlg)
 #: ktorrent/dialogs/addpeersdlg.ui:14 ktorrent/groups/grouppolicydlg.ui:14
 #, kde-format
 msgid "Dialog"
-msgstr ""
+msgstr "Dijaloški okvir"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ktorrent/dialogs/addpeersdlg.ui:20
 #, kde-format
 msgid ""
 "Enter the IP address or hostname and port number of the peer you wish to add:"
-msgstr ""
+msgstr "Unesite IP adresu ili naziv poslužitelja te broj priključka čvorišta koje želite dodati:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ktorrent/dialogs/addpeersdlg.ui:34
 #, kde-format
 msgid "Peer:"
-msgstr ""
+msgstr "Čvorište:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, m_ip)
 #: ktorrent/dialogs/addpeersdlg.ui:43
@@ -160,7 +161,7 @@ msgid ""
 "put here.</p>\n"
 "<p><span style=\" font-weight:600;\">Note:</span> We accept both IPv4 and "
 "IPv6 addresses</p>\n"
-msgstr ""
+msgstr "<p>Ovdje unesite IP adresu ili naziv poslužitelja čvorišta s kojim se želite povezati.</p>\n<p><span style=\" font-weight:600;\">Napomena:</span> Prihvaćamo adrese IPv4 i IPv6</p>\n"
 
 #. i18n: ectx: property (text), widget (QLineEdit, m_ip)
 #. i18n: ectx: property (text), widget (QLineEdit, m_ip_to_add)
@@ -178,7 +179,7 @@ msgstr ""
 #: ktorrent/pref/proxypref.ui:130 ktupnptest/upnptestwidget.ui:65
 #, kde-format
 msgid "Port:"
-msgstr ""
+msgstr "Priključak:"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_add_tracker)
 #. i18n: ectx: property (text), widget (QPushButton, m_add_node)
@@ -191,7 +192,7 @@ msgstr ""
 #: plugins/syndication/managefiltersdlg.ui:60
 #, kde-format
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #. i18n: ectx: property (text), widget (QPushButton, close_button)
 #. i18n: ectx: property (text), widget (QPushButton, m_close)
@@ -199,27 +200,27 @@ msgstr ""
 #: ktorrent/view/scanextender.ui:224
 #, kde-format
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:76
 #, kde-format
 msgid "Show a file tree"
-msgstr ""
+msgstr "Prikaži stablo datoteka"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:79
 #, kde-format
 msgid "Show a file list"
-msgstr ""
+msgstr "Prikaži popis datoteka"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:88 plugins/infowidget/fileview.cpp:66
 #, kde-format
 msgid "Filter"
-msgstr ""
+msgstr "Filtar"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:107
 #, kde-format
 msgid "Opening %1"
-msgstr ""
+msgstr "Otvaranje %1"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:206
 #, kde-format
@@ -227,7 +228,7 @@ msgid ""
 "Some files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
-msgstr ""
+msgstr "direktorij. Želite li uvesti te datoteke i upotrijebiti direktorij dovršenih preuzimanja kao lokaciju?"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:210
 #, kde-format
@@ -235,26 +236,26 @@ msgid ""
 "All files of this torrent have been found in the completed downloads "
 "directory. Do you want to import these files and use the completed downloads "
 "directory as the location?"
-msgstr ""
+msgstr "Sve su datoteke ovog torrenta pronađene u direktoriju dovršenih preuzimanja. Želite li uvesti te datoteke i upotrijebiti direktorij dovršenih preuzimanja kao lokaciju?"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:214
 #, kde-format
 msgid ""
 "The file <b>%1</b> was found in the completed downloads directory. Do you "
 "want to import this file?"
-msgstr ""
+msgstr "Datoteka <b>%1</b> pronađena je u direktoriju dovršenih preuzimanja. Želite li uvesti tu datoteku?"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:222
 #, kde-format
 msgctxt "@action:button"
 msgid "Import"
-msgstr ""
+msgstr "Uvezi"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:233
 #: ktorrent/dialogs/fileselectdlg.cpp:252
 #, kde-format
 msgid "The directory %1 does not exist, do you want to create it?"
-msgstr ""
+msgstr "Direktorij %1 ne postoji. Želite li ga stvoriti?"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:235
 #: ktorrent/dialogs/fileselectdlg.cpp:254
@@ -265,26 +266,26 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Create"
-msgstr ""
+msgstr "Stvori"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:285
 #, kde-format
 msgid ""
 "You have deselected the following existing files. You will lose all data in "
 "these files, are you sure you want to do this?"
-msgstr ""
+msgstr "Odznačili ste sljedeće postojeće datoteke. Izgubit ćete sve podatke u tim datotekama. Želite li to zaista učiniti?"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:291
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete the Files"
-msgstr ""
+msgstr "Izbriši datoteke"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:292
 #, kde-format
 msgctxt "@action:button"
 msgid "Keep the Files"
-msgstr ""
+msgstr "Zadrži datoteke"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:318
 #, kde-format
@@ -292,79 +293,79 @@ msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
 "following torrents. Torrents are not allowed to write to the same files. "
 "Please select a different location."
-msgstr ""
+msgstr "sljedećih torrenta. Torrentima nije dopušteno pisati u iste datoteke. Odaberite drugu lokaciju."
 
 #: ktorrent/dialogs/fileselectdlg.cpp:424
 #: ktorrent/dialogs/pastedialog.cpp:62 ktorrent/dialogs/torrentcreatordlg.cpp:121
 #: libktcore/groups/allgroup.cpp:12
 #, kde-format
 msgid "All Torrents"
-msgstr ""
+msgstr "Svi torrenti"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:500
 #, kde-format
 msgid "<b>Unable to determine free space</b>"
-msgstr ""
+msgstr "<b>Nije moguće utvrditi slobodan prostor</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:507
 #, kde-format
 msgid "%1 (%2 in use by existing files)"
-msgstr ""
+msgstr "%1 (%2 zauzimaju postojeće datoteke)"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:516
 #, kde-format
 msgctxt "We are %1 bytes short of what we need"
 msgid "%1 short"
-msgstr ""
+msgstr "Nedostaje %1"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:545
 #, kde-format
 msgid "Existing files: <b>None</b>"
-msgstr ""
+msgstr "Postojeće datoteke: <b>nijedna</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:547
 #, kde-format
 msgid "Existing files: <b>All</b>"
-msgstr ""
+msgstr "Postojeće datoteke: <b>sve</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:549
 #, kde-format
 msgid "Existing files: <b>%1</b> of <b>%2</b>"
-msgstr ""
+msgstr "Postojeće datoteke: <b>%1</b> od <b>%2</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:554
 #, kde-format
 msgid "Existing file: <b>No</b>"
-msgstr ""
+msgstr "Postojeća datoteka: <b>ne</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:557
 #, kde-format
 msgid "Existing file: <b>Yes</b>"
-msgstr ""
+msgstr "Postojeća datoteka: <b>da</b>"
 
 #: ktorrent/dialogs/fileselectdlg.cpp:624
 #, kde-format
 msgid "Clear History"
-msgstr ""
+msgstr "Očisti povijest"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FileSelectDlg)
 #: ktorrent/dialogs/fileselectdlg.ui:14
 #, kde-format
 msgid "Select Which Files You Want to Download"
-msgstr ""
+msgstr "Odaberite datoteke koje želite preuzeti"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QCheckBox, m_use_custom_download_location)
 #: ktorrent/dialogs/fileselectdlg.ui:34 plugins/syndication/filtereditor.ui:298
 #, kde-format
 msgid "Download to:"
-msgstr ""
+msgstr "Preuzmi u:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_download_location_history)
 #: ktorrent/dialogs/fileselectdlg.ui:47
 #, kde-format
 msgid "History of all recently used download locations"
-msgstr ""
+msgstr "Povijest nedavno korištenih lokacija za preuzimanje"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_download_location_history)
 #. i18n: ectx: property (text), widget (QToolButton, m_move_when_completed_history)
@@ -384,7 +385,7 @@ msgstr ""
 #: plugins/mediaplayer/mediacontroller.ui:84
 #, kde-format
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_moveCompleted)
 #: ktorrent/dialogs/fileselectdlg.ui:61
@@ -392,7 +393,7 @@ msgstr ""
 msgid ""
 "Moves the files to the specified location when the torrent finishes "
 "downloading."
-msgstr ""
+msgstr "Premješta datoteke na navedenu lokaciju kada se torrent preuzme."
 
 #. i18n: ectx: property (text), widget (QCheckBox, move_on_completion_enabled)
 #. i18n: ectx: property (text), widget (QCheckBox, m_moveCompleted)
@@ -401,58 +402,58 @@ msgstr ""
 #: plugins/syndication/filtereditor.ui:308
 #, kde-format
 msgid "Move when completed to:"
-msgstr ""
+msgstr "Premjesti nakon dovršetka u:"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, m_move_when_completed_history)
 #: ktorrent/dialogs/fileselectdlg.ui:74
 #, kde-format
 msgid "History of all recently used move when completed locations"
-msgstr ""
+msgstr "Povijest nedavno korištenih lokacija za premještanje nakon dovršetka"
 
 #. i18n: ectx: property (toolTip), widget (QTreeView, m_file_view)
 #: ktorrent/dialogs/fileselectdlg.ui:122
 #, kde-format
 msgid ""
 "All files in the torrent, you can change them by double clicking on them."
-msgstr ""
+msgstr "Sve datoteke u torrentu; možete ih promijeniti dvostrukim klikom."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_select_all)
 #: ktorrent/dialogs/fileselectdlg.ui:134
 #, kde-format
 msgid "Select &All"
-msgstr ""
+msgstr "Odaberi &sve"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_select_none)
 #: ktorrent/dialogs/fileselectdlg.ui:141
 #, kde-format
 msgid "Select &None"
-msgstr ""
+msgstr "Odaberi &ništa"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_invert_selection)
 #: ktorrent/dialogs/fileselectdlg.ui:148
 #, kde-format
 msgid "Invert Selection"
-msgstr ""
+msgstr "Obrni odabir"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_collapse_all)
 #. i18n: ectx: property (text), widget (QPushButton, btnCollapseAll)
 #: ktorrent/dialogs/fileselectdlg.ui:155 plugins/scanforlostfiles/scanforlostfileswidget.ui:36
 #, kde-format
 msgid "Collapse All"
-msgstr ""
+msgstr "Sažmi sve"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_expand_all)
 #. i18n: ectx: property (text), widget (QPushButton, btnExpandAll)
 #: ktorrent/dialogs/fileselectdlg.ui:162 plugins/scanforlostfiles/scanforlostfileswidget.ui:29
 #, kde-format
 msgid "Expand All"
-msgstr ""
+msgstr "Proširi sve"
 
 #. i18n: ectx: property (text), widget (QLabel, m_existing_found)
 #: ktorrent/dialogs/fileselectdlg.ui:186
 #, kde-format
 msgid "No existing files are found"
-msgstr ""
+msgstr "Nisu pronađene postojeće datoteke"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_options)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -463,20 +464,20 @@ msgstr ""
 #: plugins/syndication/filtereditor.ui:242
 #, kde-format
 msgid "Options"
-msgstr ""
+msgstr "Mogućnosti"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: ktorrent/dialogs/fileselectdlg.ui:209 ktorrent/dialogs/pastedlgbase.ui:74
 #, kde-format
 msgid "Group:"
-msgstr ""
+msgstr "Grupa:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkStartTorrent)
 #: ktorrent/dialogs/fileselectdlg.ui:246
 #, kde-format
 msgid "Start torrent"
-msgstr ""
+msgstr "Pokreni torrent"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_skip_data_check)
 #: ktorrent/dialogs/fileselectdlg.ui:257
@@ -486,78 +487,78 @@ msgid ""
 "the files are fully downloaded.</p>\n"
 "<p><span style=\" font-weight:600;\">Note: </span>only do this when you are "
 "absolutely sure.</p>"
-msgstr ""
+msgstr "<p><span style=\" font-weight:600;\">Napomena: </span>učinite to samo ako ste potpuno sigurni.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_skip_data_check)
 #: ktorrent/dialogs/fileselectdlg.ui:260
 #, kde-format
 msgid "Skip data check if existing files are found"
-msgstr ""
+msgstr "Preskoči provjeru podataka ako su pronađene postojeće datoteke"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: ktorrent/dialogs/fileselectdlg.ui:270
 #, kde-format
 msgid "Disk Space"
-msgstr ""
+msgstr "Prostor na disku"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: ktorrent/dialogs/fileselectdlg.ui:278
 #, kde-format
 msgid "Required:"
-msgstr ""
+msgstr "Potrebno:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: ktorrent/dialogs/fileselectdlg.ui:288
 #, kde-format
 msgid "Available:"
-msgstr ""
+msgstr "Dostupno:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #: ktorrent/dialogs/fileselectdlg.ui:298
 #, kde-format
 msgid "After download:"
-msgstr ""
+msgstr "Nakon preuzimanja:"
 
 #: ktorrent/dialogs/importdialog.cpp:206 ktorrent/dialogs/importdialog.cpp:232
 #, kde-format
 msgid "Cannot load the torrent file: %1"
-msgstr ""
+msgstr "Nije moguće učitati torrent datoteku: %1"
 
 #: ktorrent/dialogs/importdialog.cpp:258 plugins/ipfilter/convertthread.cpp:55
 #: plugins/ipfilter/convertthread.cpp:143
 #: plugins/search/searchenginelist.cpp:164
 #, kde-format
 msgid "Cannot open %1: %2"
-msgstr ""
+msgstr "Nije moguće otvoriti %1: %2"
 
 #: ktorrent/dialogs/importdialog.cpp:369 ktorrent/dialogs/importdialog.cpp:386
 #, kde-format
 msgid "Failed to create %1: %2"
-msgstr ""
+msgstr "Nije uspjelo stvaranje %1: %2"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ImportDialog)
 #: ktorrent/dialogs/importdialog.ui:14
 #, kde-format
 msgid "Import an existing torrent"
-msgstr ""
+msgstr "Uvezi postojeći torrent"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: ktorrent/dialogs/importdialog.ui:30
 #, kde-format
 msgid "Torrent:"
-msgstr ""
+msgstr "Torrent:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: ktorrent/dialogs/importdialog.ui:46
 #, kde-format
 msgid "Data:"
-msgstr ""
+msgstr "Podaci:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ktorrent/dialogs/importdialog.ui:70
 #, kde-format
 msgid "Select the torrent file and the data which belongs with it."
-msgstr ""
+msgstr "Odaberite torrent datoteku i podatke koji joj pripadaju."
 
 #. i18n: ectx: property (format), widget (QProgressBar, progress_bar)
 #. i18n: ectx: property (format), widget (QProgressBar, m_progress)
@@ -574,19 +575,19 @@ msgstr ""
 #: ktorrent/dialogs/importdialog.ui:112
 #, kde-format
 msgid "&Import"
-msgstr ""
+msgstr "&Uvezi"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_cancel_btn)
 #: ktorrent/dialogs/importdialog.ui:119
 #, kde-format
 msgid "Ca&ncel"
-msgstr ""
+msgstr "&Odustani"
 
 #: ktorrent/dialogs/missingfilesdlg.cpp:73
 #: ktorrent/dialogs/missingfilesdlg.cpp:121
 #, kde-format
 msgid "Select the directory where the data now is."
-msgstr ""
+msgstr "Odaberite direktorij u kojem se podaci sada nalaze."
 
 #: ktorrent/dialogs/missingfilesdlg.cpp:92
 #, kde-format
@@ -594,6 +595,8 @@ msgid ""
 "The data files are not present in the location you selected. Do you want to "
 "create all the files in the selected directory?"
 msgstr ""
+"Podatkovnih datoteka nema na odabranom mjestu. Želite li stvoriti sve "
+"datoteke u odabranom direktoriju?"
 
 #: ktorrent/dialogs/missingfilesdlg.cpp:99
 #, kde-format
@@ -601,6 +604,8 @@ msgid ""
 "Not all files were found in the new location; some are still missing. Do you "
 "want to create the missing files in the selected directory?"
 msgstr ""
+"Nisu sve datoteke pronađene na novom mjestu; neke još nedostaju. Želite li "
+"stvoriti datoteke koje nedostaju u odabranom direktoriju?"
 
 #: ktorrent/dialogs/missingfilesdlg.cpp:138
 #, kde-format
@@ -608,60 +613,62 @@ msgid ""
 "The data file is not present in the location you selected. Do you want to "
 "create the file in the selected directory?"
 msgstr ""
+"Podatkovne datoteke nema na odabranom mjestu. Želite li stvoriti datoteku u "
+"odabranom direktoriju?"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, MissingFilesDlg)
 #: ktorrent/dialogs/missingfilesdlg.ui:14
 #, kde-format
 msgid "Files are missing"
-msgstr ""
+msgstr "Nedostaju datoteke"
 
 #. i18n: ectx: property (text), widget (QLabel, m_text)
 #: ktorrent/dialogs/missingfilesdlg.ui:20
 #, kde-format
 msgid "The following files are missing:"
-msgstr ""
+msgstr "Nedostaju sljedeće datoteke:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_recreate)
 #: ktorrent/dialogs/missingfilesdlg.ui:34
 #, kde-format
 msgid "They are no longer there, recreate them."
-msgstr ""
+msgstr "Više nisu ondje; ponovno ih stvori."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_recreate)
 #: ktorrent/dialogs/missingfilesdlg.ui:37
 #, kde-format
 msgid "Recreate"
-msgstr ""
+msgstr "Ponovno stvori"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_dnd)
 #: ktorrent/dialogs/missingfilesdlg.ui:44
 #, kde-format
 msgid "Do not download the missing files."
-msgstr ""
+msgstr "Nemoj preuzimati datoteke koje nedostaju."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_dnd)
 #: ktorrent/dialogs/missingfilesdlg.ui:47
 #, kde-format
 msgid "Do Not Download"
-msgstr ""
+msgstr "Nemoj preuzeti"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_select_new)
 #: ktorrent/dialogs/missingfilesdlg.ui:54
 #, kde-format
 msgid "The files have been moved to another location, select the new location."
-msgstr ""
+msgstr "Datoteke su premještene na drugo mjesto. Odaberi novu lokaciju."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_select_new)
 #: ktorrent/dialogs/missingfilesdlg.ui:57
 #, kde-format
 msgid "Select New Location"
-msgstr ""
+msgstr "Odaberi novu lokaciju"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, m_cancel)
 #: ktorrent/dialogs/missingfilesdlg.ui:77
 #, kde-format
 msgid "Cancel, do not start the torrent."
-msgstr ""
+msgstr "Odustani i nemoj pokrenuti torrent."
 
 #. i18n: ectx: property (text), widget (QPushButton, cancel_button)
 #. i18n: ectx: property (text), widget (QPushButton, m_cancel)
@@ -669,70 +676,70 @@ msgstr ""
 #: ktorrent/view/scanextender.ui:217 plugins/scanforlostfiles/scanforlostfileswidget.cpp:146
 #, kde-format
 msgid "Cancel"
-msgstr ""
+msgstr "Odustani"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, PasteDlgBase)
 #: ktorrent/dialogs/pastedialog.cpp:34 ktorrent/dialogs/pastedlgbase.ui:14
 #, kde-format
 msgid "Open an URL"
-msgstr ""
+msgstr "Otvori URL"
 
 #: ktorrent/dialogs/pastedialog.cpp:117
 #, kde-format
 msgid "Error fetching tracker list"
-msgstr ""
+msgstr "Pogreška pri dohvaćanju popisa pratitelja"
 
 #: ktorrent/dialogs/pastedialog.cpp:118
 #, kde-format
 msgid ""
 "Please check if the URL in Settings → Advanced → Tracker list URL is "
 "reachable."
-msgstr ""
+msgstr "Provjerite je li dostupan URL popisa pratitelja u Postavke → Napredno → URL popisa pratitelja."
 
 #: ktorrent/dialogs/pastedialog.cpp:137 ktorrent/dialogs/torrentcreatordlg.cpp:241
 #: ktorrent/gui.cpp:322
 #, kde-format
 msgid "Invalid URL: %1"
-msgstr ""
+msgstr "Nevaljan URL: %1"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ktorrent/dialogs/pastedlgbase.ui:22 plugins/syndication/feedwidget.ui:32
 #, kde-format
 msgid "URL:"
-msgstr ""
+msgstr "URL:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_silently)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_openSilently)
 #: ktorrent/dialogs/pastedlgbase.ui:52 plugins/scanfolder/scanfolderprefpage.ui:81
 #, kde-format
 msgid "Open silently"
-msgstr ""
+msgstr "Otvori tiho"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, SpeedLimitsDlg)
 #: ktorrent/dialogs/speedlimitsdlg.cpp:34
 #: ktorrent/dialogs/speedlimitsdlg.ui:14 ktorrent/view/view.cpp:257
 #, kde-format
 msgid "Speed Limits"
-msgstr ""
+msgstr "Ograničenja brzine"
 
 #. i18n: ectx: property (text), widget (QLabel, m_main_caption)
 #: ktorrent/dialogs/speedlimitsdlg.ui:20
 #, kde-format
 msgid "Speed limits for individual torrents (double click to edit):"
-msgstr ""
+msgstr "Ograničenja brzine za pojedinačne torrente (dvaput kliknite za uređivanje):"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ktorrent/dialogs/speedlimitsdlg.ui:32
 #, kde-format
 msgid "Filter:"
-msgstr ""
+msgstr "Filtar:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ktorrent/dialogs/speedlimitsdlg.ui:61
 #, kde-format
 msgid "Global Limits"
-msgstr ""
+msgstr "Globalna ograničenja"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -742,7 +749,7 @@ msgstr ""
 #: plugins/bwscheduler/bwprefpage.ui:65
 #, kde-format
 msgid "Maximum download speed:"
-msgstr ""
+msgstr "Najveća brzina preuzimanja:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, m_download_rate)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, m_upload_rate)

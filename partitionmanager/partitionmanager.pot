@@ -3,63 +3,63 @@
 # This file is distributed under the same license as the partitionmanager package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-29 00:56+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:39+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: config/configureoptionsdialog.cpp:42
 #, kde-kuit-format
 msgctxt "@title:tab general application settings"
 msgid "General"
-msgstr ""
+msgstr "Općenito"
 
 #: config/configureoptionsdialog.cpp:42 config/configureoptionsdialog.cpp:87
 #, kde-format
 msgid "General Settings"
-msgstr ""
+msgstr "Opće postavke"
 
 #: config/configureoptionsdialog.cpp:47
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "File System Colors"
-msgstr ""
+msgstr "Boje datotečnih sustava"
 
 #: config/configureoptionsdialog.cpp:47
 #, kde-format
 msgid "File System Color Settings"
-msgstr ""
+msgstr "Postavke boja datotečnih sustava"
 
 #: config/configureoptionsdialog.cpp:49
 #, kde-kuit-format
 msgctxt "@title:tab advanced application settings"
 msgid "Advanced"
-msgstr ""
+msgstr "Napredno"
 
 #: config/configureoptionsdialog.cpp:49
 #, kde-format
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Napredne postavke"
 
 #: config/configureoptionsdialog.cpp:137
 #, kde-kuit-format
@@ -68,79 +68,79 @@ msgid ""
 "<para>Do you really want to change the backend?</para><para><warning>This "
 "will also rescan devices and thus clear the list of pending operations.</"
 "warning></para>"
-msgstr ""
+msgstr "<para>Želite li zaista promijeniti pozadinski sustav?</para><para><warning>Time će se ponovno pretražiti uređaji i izbrisati popis operacija na čekanju.</warning></para>"
 
 #: config/configureoptionsdialog.cpp:139
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Really Change Backend?"
-msgstr ""
+msgstr "Zaista promijeniti pozadinski sustav?"
 
 #: config/configureoptionsdialog.cpp:140
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Change the Backend"
-msgstr ""
+msgstr "Promijeni pozadinski sustav"
 
 #: config/configureoptionsdialog.cpp:141
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Do Not Change the Backend"
-msgstr ""
+msgstr "Ne mijenjaj pozadinski sustav"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: config/configurepageadvanced.ui:23
 #, kde-format
 msgid "Active backend:"
-msgstr ""
+msgstr "Aktivni pozadinski sustav:"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: config/configurepageadvanced.ui:36
 #, kde-format
 msgid "Preferred unit:"
-msgstr ""
+msgstr "Željena jedinica:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:47
 #, kde-format
 msgid "Byte"
-msgstr ""
+msgstr "Bajt"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:52
 #, kde-format
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:57
 #, kde-format
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:62
 #, kde-format
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:67
 #, kde-format
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:72
 #, kde-format
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_preferredUnit)
 #: config/configurepageadvanced.ui:77
 #, kde-format
 msgid "EiB"
-msgstr ""
+msgstr "EiB"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_3)
 #: config/configurepagefilesystemcolors.ui:37
@@ -152,13 +152,13 @@ msgstr ""
 #: config/configurepagefilesystemcolors.ui:137
 #, kde-format
 msgid "Linux RAID:"
-msgstr ""
+msgstr "Linuxov RAID:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_17)
 #: config/configurepagefilesystemcolors.ui:192
 #, kde-format
 msgid "unformatted:"
-msgstr ""
+msgstr "neformatirano:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_2)
 #: config/configurepagefilesystemcolors.ui:205
@@ -170,19 +170,19 @@ msgstr ""
 #: config/configurepagefilesystemcolors.ui:273
 #, kde-format
 msgid "extended:"
-msgstr ""
+msgstr "prošireno:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_4)
 #: config/configurepagefilesystemcolors.ui:322
 #, kde-format
 msgid "Linux Swap:"
-msgstr ""
+msgstr "Linuxova zamjenska particija:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_38)
 #: config/configurepagefilesystemcolors.ui:348
 #, kde-format
 msgid "FreeBSD Swap:"
-msgstr ""
+msgstr "FreeBSD-ova zamjenska particija:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel_9)
 #: config/configurepagefilesystemcolors.ui:364
@@ -200,7 +200,7 @@ msgstr ""
 #: config/configurepagefilesystemcolors.ui:458
 #, kde-format
 msgid "unknown:"
-msgstr ""
+msgstr "nepoznato:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel)
 #: config/configurepagefilesystemcolors.ui:506
@@ -362,181 +362,181 @@ msgstr ""
 #: config/configurepagegeneral.ui:28
 #, kde-format
 msgid "Partition Alignment"
-msgstr ""
+msgstr "Poravnanje particija"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_alignDefault)
 #: config/configurepagegeneral.ui:34
 #, kde-format
 msgid "Align partitions per default"
-msgstr ""
+msgstr "Poravnaj particije prema zadanim postavkama"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: config/configurepagegeneral.ui:47
 #, kde-format
 msgid "Sec&tor alignment:"
-msgstr ""
+msgstr "Poravnanje sek&tora:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_sectorAlignment)
 #: config/configurepagegeneral.ui:60
 #, kde-format
 msgid " sectors"
-msgstr ""
+msgstr " sektora"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: config/configurepagegeneral.ui:88
 #, kde-format
 msgid "Logging"
-msgstr ""
+msgstr "Bilježenje"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: config/configurepagegeneral.ui:94
 #, kde-format
 msgid "Hide messa&ges below:"
-msgstr ""
+msgstr "Sakrij po&ruke ispod razine:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
 #: config/configurepagegeneral.ui:105
 #, kde-format
 msgid "Debug"
-msgstr ""
+msgstr "Otklanjanje pogrešaka"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
 #: config/configurepagegeneral.ui:110
 #, kde-format
 msgid "Information"
-msgstr ""
+msgstr "Informacije"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
 #: config/configurepagegeneral.ui:115
 #, kde-format
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_minLogLevel)
 #: config/configurepagegeneral.ui:120
 #, kde-format
 msgid "Error"
-msgstr ""
+msgstr "Pogreška"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: config/configurepagegeneral.ui:137
 #, kde-format
 msgid "File Systems"
-msgstr ""
+msgstr "Datotečni sustavi"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config/configurepagegeneral.ui:143
 #, kde-format
 msgid "&Default file system:"
-msgstr ""
+msgstr "&Zadani datotečni sustav:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: config/configurepagegeneral.ui:165
 #, kde-format
 msgid "Shredding"
-msgstr ""
+msgstr "Uništavanje podataka"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: config/configurepagegeneral.ui:171
 #, kde-format
 msgid "Overwrite with:"
-msgstr ""
+msgstr "Prepiši pomoću:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton)
 #: config/configurepagegeneral.ui:178
 #, kde-format
 msgid "Random data"
-msgstr ""
+msgstr "Nasumični podaci"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
 #: config/configurepagegeneral.ui:188
 #, kde-format
 msgid "&Zeros"
-msgstr ""
+msgstr "&Nule"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_ButtonSave)
 #: gui/applyprogressdetailswidgetbase.ui:42
 #, kde-format
 msgid "Save"
-msgstr ""
+msgstr "Spremi"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_ButtonBrowser)
 #: gui/applyprogressdetailswidgetbase.ui:49
 #, kde-format
 msgid "Open in External Browser"
-msgstr ""
+msgstr "Otvori u vanjskom pregledniku"
 
 #: gui/applyprogressdialog.cpp:83 gui/applyprogressdialog.cpp:172
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "&Details"
-msgstr ""
+msgstr "&Pojedinosti"
 
 #: gui/applyprogressdialog.cpp:125
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Setting up..."
-msgstr ""
+msgstr "Postavljanje..."
 
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Stopping now may cause data loss or drive errors."
-msgstr ""
+msgstr "Zaustavljanje sada može uzrokovati gubitak podataka ili pogreške pogona."
 
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Stop Running Operations"
-msgstr ""
+msgstr "Zaustavi operacije u tijeku"
 
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Stop Anyway"
-msgstr ""
+msgstr "Ipak zaustavi"
 
 #: gui/applyprogressdialog.cpp:191
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Keep Running"
-msgstr ""
+msgstr "Nastavi"
 
 #: gui/applyprogressdialog.cpp:196
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Waiting for operation to finish..."
-msgstr ""
+msgstr "Čekanje da operacija završi..."
 
 #: gui/applyprogressdialog.cpp:217
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "All operations successfully finished."
-msgstr ""
+msgstr "Sve su operacije uspješno dovršene."
 
 #: gui/applyprogressdialog.cpp:222
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Operations cancelled."
-msgstr ""
+msgstr "Operacije su otkazane."
 
 #: gui/applyprogressdialog.cpp:227
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "There were errors while applying operations. Aborted."
-msgstr ""
+msgstr "Pri primjeni operacija došlo je do pogrešaka. Prekinuto."
 
 #: gui/applyprogressdialog.cpp:341
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "[%1/%2] - %3: %4"
-msgstr ""
+msgstr "[%1/%2] – %3: %4"
 
 #: gui/applyprogressdialog.cpp:375
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Total Time: %1"
-msgstr ""
+msgstr "Ukupno vrijeme: %1"
 
 #: gui/applyprogressdialog.cpp:423 gui/mainwindow.cpp:1093
 #: gui/mainwindow.cpp:1255 gui/smartdialog.cpp:293
@@ -545,145 +545,145 @@ msgctxt "@info"
 msgid ""
 "Could not create temporary file when trying to save to <filename>%1</"
 "filename>."
-msgstr ""
+msgstr "Nije moguće stvoriti privremenu datoteku pri pokušaju spremanja u <filename>%1</filename>."
 
 #: gui/applyprogressdialog.cpp:423
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Could Not Save Report."
-msgstr ""
+msgstr "Nije moguće spremiti izvješće."
 
 #: gui/applyprogressdialog.cpp:447
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not create temporary file <filename>%1</filename> for writing."
-msgstr ""
+msgstr "Nije moguće stvoriti privremenu datoteku <filename>%1</filename> za pisanje."
 
 #: gui/applyprogressdialog.cpp:447
 #, kde-format
 msgctxt "@title:window"
 msgid "Could Not Launch Browser."
-msgstr ""
+msgstr "Nije moguće pokrenuti preglednik."
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_TreeTasks)
 #: gui/applyprogressdialogwidgetbase.ui:41
 #, kde-format
 msgid "Operations and Jobs"
-msgstr ""
+msgstr "Operacije i zadaci"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_TreeTasks)
 #: gui/applyprogressdialogwidgetbase.ui:46
 #, kde-format
 msgid "Time Elapsed"
-msgstr ""
+msgstr "Proteklo vrijeme"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTime)
 #: gui/applyprogressdialogwidgetbase.ui:72
 #, kde-format
 msgid "Total Time: 00:00:00"
-msgstr ""
+msgstr "Ukupno vrijeme: 00:00:00"
 
 #. i18n: ectx: property (format), widget (QProgressBar, m_ProgressSub)
 #: gui/applyprogressdialogwidgetbase.ui:89
 #, no-c-format, kde-format
 msgid "Operation: %p%"
-msgstr ""
+msgstr "Operacija: %p%"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelStatus)
 #: gui/applyprogressdialogwidgetbase.ui:99
 #, kde-format
 msgid "Status"
-msgstr ""
+msgstr "Stanje"
 
 #. i18n: ectx: property (format), widget (QProgressBar, m_ProgressTotal)
 #: gui/applyprogressdialogwidgetbase.ui:115
 #, no-c-format, kde-format
 msgid "Total: %p%"
-msgstr ""
+msgstr "Ukupno: %p%"
 
 #: gui/benchmarkdialog.cpp:112
 #, kde-kuit-format
 msgctxt "@label graph axis, read rate"
 msgid "%1 MiB/s"
-msgstr ""
+msgstr "%1 MiB/s"
 
 #: gui/benchmarkdialog.cpp:113
 #, kde-kuit-format
 msgctxt "@label graph axis, access time"
 msgid "%1 ms"
-msgstr ""
+msgstr "%1 ms"
 
 #: gui/benchmarkdialog.cpp:163
 #, kde-kuit-format
 msgctxt "@label graph axis"
 msgid "Position on device"
-msgstr ""
+msgstr "Položaj na uređaju"
 
 #: gui/benchmarkdialog.cpp:185
 #, kde-kuit-format
 msgctxt "@label graph legend"
 msgid "Read rate"
-msgstr ""
+msgstr "Brzina čitanja"
 
 #: gui/benchmarkdialog.cpp:186
 #, kde-kuit-format
 msgctxt "@label graph legend"
 msgid "Access time"
-msgstr ""
+msgstr "Vrijeme pristupa"
 
 #: gui/benchmarkdialog.cpp:209
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Benchmark: <filename>%1</filename>"
-msgstr ""
+msgstr "Test brzine: <filename>%1</filename>"
 
 #: gui/benchmarkdialog.cpp:237
 #, kde-kuit-format
 msgctxt "@item:valuesuffix"
 msgid " MiB"
-msgstr ""
+msgstr " MiB"
 
 #: gui/benchmarkdialog.cpp:243
 #, kde-kuit-format
 msgctxt "@label:spinbox"
 msgid "Transfer rate samples:"
-msgstr ""
+msgstr "Uzorci brzine prijenosa:"
 
 #: gui/benchmarkdialog.cpp:244
 #, kde-kuit-format
 msgctxt "@label:spinbox"
 msgid "Sample size:"
-msgstr ""
+msgstr "Veličina uzorka:"
 
 #: gui/benchmarkdialog.cpp:245
 #, kde-kuit-format
 msgctxt "@label:spinbox"
 msgid "Access time samples:"
-msgstr ""
+msgstr "Uzorci vremena pristupa:"
 
 #: gui/benchmarkdialog.cpp:253
 #, kde-kuit-format
 msgctxt "@label"
 msgid "Average read rate:"
-msgstr ""
+msgstr "Prosječna brzina čitanja:"
 
 #: gui/benchmarkdialog.cpp:254
 #, kde-kuit-format
 msgctxt "@label"
 msgid "Minimum read rate:"
-msgstr ""
+msgstr "Najmanja brzina čitanja:"
 
 #: gui/benchmarkdialog.cpp:255
 #, kde-kuit-format
 msgctxt "@label"
 msgid "Maximum read rate:"
-msgstr ""
+msgstr "Najveća brzina čitanja:"
 
 #: gui/benchmarkdialog.cpp:256
 #, kde-kuit-format
 msgctxt "@label"
 msgid "Average access time:"
-msgstr ""
+msgstr "Prosječno vrijeme pristupa:"
 
 #: gui/benchmarkdialog.cpp:268
 #, kde-kuit-format
@@ -692,37 +692,39 @@ msgid ""
 "The device is only read, no data is written. Other activity on the device "
 "affects the results."
 msgstr ""
+"S uređaja se samo čitaju podaci; ništa se ne zapisuje. Druge aktivnosti na "
+"uređaju utječu na rezultate."
 
 #: gui/benchmarkdialog.cpp:273
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Start Benchmark"
-msgstr ""
+msgstr "Pokreni test brzine"
 
 #: gui/benchmarkdialog.cpp:275
 #, kde-kuit-format
 msgctxt "@action:button"
 msgid "Stop"
-msgstr ""
+msgstr "Zaustavi"
 
 #: gui/benchmarkdialog.cpp:318
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Preparing the benchmark…"
-msgstr ""
+msgstr "Priprema testa brzine…"
 
 #: gui/benchmarkdialog.cpp:323 gui/benchmarkdialog.cpp:439
 #: gui/benchmarkdialog.cpp:462
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Could not connect to the KPMcore helper."
-msgstr ""
+msgstr "Nije moguće povezati se s pomoćnim programom KPMcore."
 
 #: gui/benchmarkdialog.cpp:330
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Stopping after the current read request finishes…"
-msgstr ""
+msgstr "Zaustavljanje nakon dovršetka trenutačnog zahtjeva za čitanje…"
 
 #: gui/benchmarkdialog.cpp:346
 #, kde-kuit-format
@@ -731,48 +733,50 @@ msgid ""
 "Direct I/O is not supported for this device. The benchmark was not run, "
 "because cached reads would not show the speed of the device."
 msgstr ""
+"Izravni ulaz/izlaz nije podržan za ovaj uređaj. Test brzine nije pokrenut "
+"jer čitanje iz predmemorije ne bi prikazalo brzinu uređaja."
 
 #: gui/benchmarkdialog.cpp:350
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "The benchmark request was rejected as invalid."
-msgstr ""
+msgstr "Zahtjev za test brzine odbijen je kao nevaljan."
 
 #: gui/benchmarkdialog.cpp:353
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Reading from the device failed or access was denied."
-msgstr ""
+msgstr "Čitanje s uređaja nije uspjelo ili je pristup odbijen."
 
 #: gui/benchmarkdialog.cpp:393
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Could not determine the size of the device."
-msgstr ""
+msgstr "Nije moguće odrediti veličinu uređaja."
 
 #: gui/benchmarkdialog.cpp:418 gui/benchmarkdialog.cpp:445
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Benchmark stopped."
-msgstr ""
+msgstr "Test brzine zaustavljen je."
 
 #: gui/benchmarkdialog.cpp:437
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Measuring transfer rate: sample %1 of %2…"
-msgstr ""
+msgstr "Mjerenje brzine prijenosa: uzorak %1 od %2…"
 
 #: gui/benchmarkdialog.cpp:450
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Benchmark finished."
-msgstr ""
+msgstr "Testiranje performansi je završeno."
 
 #: gui/benchmarkdialog.cpp:460
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Measuring access time: %1 of %2 reads…"
-msgstr ""
+msgstr "Mjerenje vremena pristupa: %1 od %2 čitanja…"
 
 #: gui/benchmarkdialog.cpp:469
 #, kde-kuit-format

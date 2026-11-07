@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-14 00:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 08:56+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. i18n: ectx: Menu (edit)
 #: plugins/generic/skg_advice/skg_advice.rc:4
@@ -42,7 +42,7 @@ msgstr ""
 #: skgbasegui/skgmainpanel.rc:9
 #, kde-format
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: plugins/generic/skg_advice/skg_advice.rc:6
@@ -74,31 +74,31 @@ msgstr ""
 #: skgbasegui/skgmainpanel.rc:64
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Glavna alatna traka"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:29
 #, kde-format
 msgctxt "Dashboard widget title"
 msgid "Advice"
-msgstr ""
+msgstr "Savjeti"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:50
 #, kde-format
 msgctxt "Noun, a user action"
 msgid "Activate all advice"
-msgstr ""
+msgstr "Aktiviraj sve savjete"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:58
 #, kde-format
 msgctxt "Noun, a type of refresh for advice"
 msgid "Automatic refresh"
-msgstr ""
+msgstr "Automatsko osvježavanje"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:176
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Advice are very long to compute"
-msgstr ""
+msgstr "Izračunavanje savjeta traje vrlo dugo"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:178
 #, kde-format
@@ -107,125 +107,127 @@ msgid ""
 "To improve performances, you should switch the widget in 'Manual "
 "refresh' (see contextual menu)."
 msgstr ""
+"Za bolje performanse promijenite način osvježavanja widgeta na 'Ručno "
+"osvježavanje' (pogledajte kontekstni izbornik)."
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:195
 #, kde-format
 msgid "<p><b>Priority %1:</b>%2</p>"
-msgstr ""
+msgstr "<p><b>Prioritet %1:</b>%2</p>"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:201
 #, kde-format
 msgctxt "Dismiss an advice provided"
 msgid "Dismiss"
-msgstr ""
+msgstr "Odbaci"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:208
 #, kde-format
 msgctxt "Dismiss an advice provided"
 msgid "Dismiss during current month"
-msgstr ""
+msgstr "Odbaci tijekom ovog mjeseca"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:215
 #, kde-format
 msgctxt "Dismiss an advice provided"
 msgid "Dismiss this kind"
-msgstr ""
+msgstr "Odbaci ovu vrstu"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:222
 #, kde-format
 msgctxt "Dismiss an advice provided"
 msgid "Dismiss this kind during current month"
-msgstr ""
+msgstr "Odbaci ovu vrstu tijekom ovog mjeseca"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:269
 #, kde-format
 msgctxt "To recommend this action"
 msgid " (recommended)"
-msgstr ""
+msgstr " (preporučeno)"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:317
 #, kde-format
 msgctxt "Information message"
 msgid "Display all advices"
-msgstr ""
+msgstr "Prikaži sve savjete"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:333
 #, kde-format
 msgctxt "Information message"
 msgid "Display less advices"
-msgstr ""
+msgstr "Prikaži manje savjeta"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:353
 #, kde-format
 msgctxt "Information message"
 msgid "Refresh advices"
-msgstr ""
+msgstr "Osvježi savjete"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:377
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Apply all recommended corrections"
-msgstr ""
+msgstr "Primijeni sve preporučene ispravke"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:390
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Activate all advice"
-msgstr ""
+msgstr "Aktiviraj sve savjete"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:395
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Advice activated."
-msgstr ""
+msgstr "Savjeti su aktivirani."
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:398
 #, kde-format
 msgctxt "Error message"
 msgid "Advice activation failed"
-msgstr ""
+msgstr "Aktivacija savjeta nije uspjela"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:418
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Dismiss advice"
-msgstr ""
+msgstr "Odbaci savjet"
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:438
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Advice dismissed."
-msgstr ""
+msgstr "Savjet je odbačen."
 
 #: plugins/generic/skg_advice/skgadviceboardwidget.cpp:441
 #, kde-format
 msgctxt "Error message"
 msgid "Advice dismiss failed"
-msgstr ""
+msgstr "Odbacivanje savjeta nije uspjelo"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:65
 #, kde-format
 msgctxt "Noun, a list of items"
 msgid "Advice"
-msgstr ""
+msgstr "Savjeti"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:67
 #, kde-format
 msgctxt "Noun, a list of items"
 msgid "Tip of the day"
-msgstr ""
+msgstr "Savjet dana"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:80
 #, kde-format
 msgctxt "The title"
 msgid "Advice"
-msgstr ""
+msgstr "Savjeti"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:90
 #, kde-format
 msgctxt "The tool tip"
 msgid "Advice"
-msgstr ""
+msgstr "Savjeti"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:102
 #, kde-format
@@ -234,6 +236,8 @@ msgid ""
 "<p>… Skrooge can give you advice on how to manage your accounts. See the <a "
 "href=\"skg://dashboard_plugin\">dashboard</a>.</p>"
 msgstr ""
+"<p>… Skrooge vam može savjetovati kako upravljati računima. Pogledajte <a "
+"href=\"skg://dashboard_plugin\">nadzornu ploču</a>.</p>"
 
 #: plugins/generic/skg_advice/skgadviceplugin.cpp:104
 #, kde-format
@@ -242,18 +246,20 @@ msgid ""
 "<p>… Skrooge can automatically apply recommended corrections. See the <a "
 "href=\"skg://dashboard_plugin\">dashboard</a>.</p>"
 msgstr ""
+"<p>… Skrooge može automatski primijeniti preporučene ispravke. Pogledajte "
+"<a href=\"skg://dashboard_plugin\">nadzornu ploču</a>.</p>"
 
 #: plugins/generic/skg_advice/skgtipofdayboardwidget.cpp:23
 #, kde-format
 msgctxt "Dashboard widget title"
 msgid "Tip of the day"
-msgstr ""
+msgstr "Savjet dana"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/generic/skg_advice/skgtipofdayboardwidget.ui:50
 #, kde-format
 msgid "Did you know …?"
-msgstr ""
+msgstr "Jeste li znali …?"
 
 #. i18n: ectx: Menu (file)
 #. i18n: ectx: ToolBar (mainToolBar)
@@ -267,13 +273,13 @@ msgstr ""
 #: skgbasegui/skgobjectmodelbase.cpp:1016
 #, kde-format
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #. i18n: ectx: Menu (import)
 #: plugins/generic/skg_bookmark/skg_bookmark.rc:5
 #, kde-format
 msgid "&Import"
-msgstr ""
+msgstr "&Uvezi"
 
 #. i18n: ectx: Menu (panels)
 #: plugins/generic/skg_bookmark/skg_bookmark.rc:11
@@ -283,7 +289,7 @@ msgstr ""
 #: skgbasegui/skgmainpanel.rc:31
 #, kde-format
 msgid "Panels"
-msgstr ""
+msgstr "Ploče"
 
 #. i18n: ectx: Menu (go)
 #: plugins/generic/skg_bookmark/skg_bookmark.rc:15
@@ -295,7 +301,7 @@ msgstr ""
 #: skgbasegui/skgmainpanel.rc:42
 #, kde-format
 msgid "Go"
-msgstr ""
+msgstr "Idi"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_pinhomebookmarks)
 #. i18n: ectx: label, entry (pinhomebookmarks), group (Bookmark)
@@ -303,31 +309,31 @@ msgstr ""
 #: plugins/generic/skg_bookmark/skgbookmarkpluginwidget_pref.ui:35
 #, kde-format
 msgid "Pin home bookmarks"
-msgstr ""
+msgstr "Prikvači kućne zabilješke"
 
 #. i18n: ectx: whatsthis, entry (pinhomebookmarks), group (Bookmark)
 #: plugins/generic/skg_bookmark/skgbookmark_settings.kcfg:11
 #, kde-format
 msgid "If checked, the home bookmarks will be pinned."
-msgstr ""
+msgstr "Ako je odabrano, kućne će zabilješke biti prikvačene."
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:85
 #, kde-format
 msgctxt "Verb"
 msgid "Import standard bookmarks"
-msgstr ""
+msgstr "Uvezi standardne zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:96
 #, kde-format
 msgctxt "Verb, action to display bookmarks"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:161
 #, kde-format
 msgctxt "Noun, a bookmark as in a webbrowser bookmark"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:172
 #, kde-format
@@ -335,13 +341,13 @@ msgctxt "Description of a tips"
 msgid ""
 "<p>… some bookmarks can be opened automatically when the application is "
 "launched.</p>"
-msgstr ""
+msgstr "<p>… neke se zabilješke mogu automatski otvoriti pri pokretanju aplikacije.</p>"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:173
 #, kde-format
 msgctxt "Description of a tips"
 msgid "<p>… bookmarks can be reorganized by drag & drop.</p>"
-msgstr ""
+msgstr "<p>… zabilješke možete drukčije organizirati povlačenjem i ispuštanjem.</p>"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:174
 #, kde-format
@@ -349,7 +355,7 @@ msgctxt "Description of a tips"
 msgid ""
 "<p>… a double click on a folder of bookmarks will open all the bookmarks it "
 "contains.</p>"
-msgstr ""
+msgstr "<p>… dvostrukim klikom na mapu zabilješki otvorit ćete sve zabilješke koje sadrži.</p>"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:175
 #, kde-format
@@ -357,100 +363,100 @@ msgctxt "Description of a tips"
 msgid ""
 "<p>… you can <a href=\"skg://import_standard_bookmarks\">import standard "
 "bookmarks</a>.</p>"
-msgstr ""
+msgstr "<p>… možete <a href=\"skg://import_standard_bookmarks\">uvesti standardne zabilješke</a>.</p>"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:193
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Import standard bookmarks"
-msgstr ""
+msgstr "Uvezi standardne zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:196
 #, kde-format
 msgctxt "Noun, bookmark name"
 msgid "Dashboard"
-msgstr ""
+msgstr "Nadzorna ploča"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:199
 #, kde-format
 msgctxt "Noun, bookmark name"
 msgid "Report > Income vs Expenditure on 12 last months"
-msgstr ""
+msgstr "Izvješće > Prihodi i rashodi u posljednjih 12 mjeseci"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:202
 #, kde-format
 msgctxt "Noun, bookmark name"
 msgid "Report > Pie categories in 12 last months"
-msgstr ""
+msgstr "Izvješće > Kategorije na tortnom grafikonu u posljednjih 12 mjeseci"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:205
 #, kde-format
 msgctxt "Noun, bookmark name"
 msgid "Report > History"
-msgstr ""
+msgstr "Izvješće > Povijest"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:222
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Standard bookmarks imported."
-msgstr ""
+msgstr "Standardne zabilješke su uvezene."
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:225
 #, kde-format
 msgctxt "Error message"
 msgid "Import standard bookmarks failed"
-msgstr ""
+msgstr "Uvoz standardnih zabilješki nije uspio"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:283
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:433
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Bookmark created"
-msgstr ""
+msgstr "Zabilješka je stvorena"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:342
 #, kde-format
 msgctxt "Action"
 msgid "Open all"
-msgstr ""
+msgstr "Otvori sve"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugin.cpp:352
 #, kde-format
 msgctxt "Action"
 msgid "Bookmark current page here"
-msgstr ""
+msgstr "Ovdje zabilježi trenutačnu stranicu"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:117
 #: skgbasegui/skgtreeview.cpp:97
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Expand all"
-msgstr ""
+msgstr "Proširi sve"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:121
 #: skgbasegui/skgtreeview.cpp:103
 #, kde-format
 msgctxt "Noun, user action"
 msgid "Collapse all"
-msgstr ""
+msgstr "Skupi sve"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:127
 #, kde-format
 msgctxt "Verb"
 msgid "Bookmark current page"
-msgstr ""
+msgstr "Zabilježi trenutačnu stranicu"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:130
 #, kde-format
 msgctxt "Verb"
 msgid "Bookmark all pages"
-msgstr ""
+msgstr "Stvori zabilješke za sve stranice"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:133
 #, kde-format
 msgctxt "Verb"
 msgid "Add bookmark group"
-msgstr ""
+msgstr "Dodaj grupu zabilješki"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:138
 #: plugins/generic/skg_delete/skgdeleteplugin.cpp:59
@@ -460,142 +466,142 @@ msgstr ""
 #, kde-format
 msgctxt "Verb, delete an item"
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:144
 #, kde-format
 msgctxt "Verb, automatically load when the application is started"
 msgid "Autostart"
-msgstr ""
+msgstr "Automatski pokreni"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:147
 #, kde-format
 msgctxt "Verb"
 msgid "Remove Autostart"
-msgstr ""
+msgstr "Ukloni iz automatskog pokretanja"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:150
 #: skgbasegui/skgboardwidget.cpp:143
 #, kde-format
 msgctxt "Verb, change the name of an item"
 msgid "Rename"
-msgstr ""
+msgstr "Preimenuj"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:155
 #, kde-format
 msgctxt "Verb, change the icon of an item"
 msgid "Change icon…"
-msgstr ""
+msgstr "Promijeni ikonu…"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:194
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Autostart bookmarks"
-msgstr ""
+msgstr "Automatsko pokretanje zabilješki"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:195
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Do not Autostart bookmarks"
-msgstr ""
+msgstr "Bez automatskog pokretanja zabilješki"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:206
 #, kde-format
 msgctxt "An information message"
 msgid "The Autostart status of bookmark '%1' has been changed"
-msgstr ""
+msgstr "Promijenjen je status automatskog pokretanja zabilješke „%1”"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:216
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Autostart bookmarks"
-msgstr ""
+msgstr "Zabilješke će se automatski pokretati"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:217
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Do not Autostart bookmarks"
-msgstr ""
+msgstr "Zabilješke se neće automatski pokretati"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:340
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:385
 #, kde-format
 msgctxt "Default name for bookmark"
 msgid "New bookmark"
-msgstr ""
+msgstr "Nova zabilješka"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:343
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Bookmark folder creation '%1'"
-msgstr ""
+msgstr "Stvaranje mape zabilješki „%1”"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:348
 #, kde-format
 msgctxt "An information message"
 msgid "The bookmark folder '%1' has been added"
-msgstr ""
+msgstr "Dodana je mapa zabilješki „%1”"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:356
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Bookmark group created"
-msgstr ""
+msgstr "Stvorena je grupa zabilješki"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:388
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Bookmarks creation"
-msgstr ""
+msgstr "Stvaranje zabilješki"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:397
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:490
 #, kde-format
 msgctxt "An information message"
 msgid "The bookmark '%1' has been added"
-msgstr ""
+msgstr "Dodana je zabilješka „%1”"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:406
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Bookmarks created"
-msgstr ""
+msgstr "Stvorene su zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:477
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Bookmark creation '%1'"
-msgstr ""
+msgstr "Stvaranje zabilješke „%1”"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:526
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Bookmark icon change"
-msgstr ""
+msgstr "Promjena ikone zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:532
 #, kde-format
 msgctxt "An information message"
 msgid "The icon of the bookmark '%1' has been changed"
-msgstr ""
+msgstr "Ikona zabilješke „%1” promijenjena je"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:536
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Bookmark icon changed"
-msgstr ""
+msgstr "Ikona zabilješke promijenjena je"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:547
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Bookmark delete"
-msgstr ""
+msgstr "Brisanje zabilješke"
 
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget.cpp:558
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Bookmark deleted"
-msgstr ""
+msgstr "Zabilješka je izbrisana"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kFilterEdit)
 #. i18n: ectx: property (title), widget (QGroupBox, kQueryGrp)
@@ -610,7 +616,7 @@ msgstr ""
 #: skgbasegui/skgtablewithgraph.cpp:138
 #, kde-format
 msgid "Search"
-msgstr ""
+msgstr "Traži"
 
 #. i18n: ectx: property (toolTip), widget (SKGTreeView, kBookmarksList)
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget_base.ui:58
@@ -630,31 +636,44 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">Ctrl</span> to open in a new page</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"https://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ovaj popis omogućuje "
+"otvaranje zabilježenih stranica</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Ctrl</span> za otvaranje na novoj stranici</p></body></html>"
 
 #. i18n: ectx: property (statusTip), widget (SKGTreeView, kBookmarksList)
 #: plugins/generic/skg_bookmark/skgbookmarkplugindockwidget_base.ui:61
 #, kde-format
 msgid "this list allows you to open bookmarked pages"
-msgstr ""
+msgstr "ovaj popis omogućuje otvaranje zabilježenih stranica"
 
 #: plugins/generic/skg_dashboard/skgdashboardboardwidget.cpp:23
 #, kde-format
 msgctxt "Dashboard widget title"
 msgid "Sub dashboard"
-msgstr ""
+msgstr "Podnadzorna ploča"
 
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:64
 #, kde-format
 msgctxt "Noun, the title of a section"
 msgid "Sub dashboard"
-msgstr ""
+msgstr "Podnadzorna ploča"
 
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:81
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:91
 #, kde-format
 msgctxt "Noun, a summary of your financial situation"
 msgid "Dashboard"
-msgstr ""
+msgstr "Nadzorna ploča"
 
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:103
 #, kde-format
@@ -663,6 +682,8 @@ msgid ""
 "<p>… the <a href=\"skg://dashboard_plugin\">dashboard</a> is there to give "
 "you a summary of your situation.</p>"
 msgstr ""
+"<p>… <a href=\"skg://dashboard_plugin\">nadzorna ploča</a> daje vam sažet "
+"pregled vaše situacije.</p>"
 
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:104
 #, kde-format
@@ -671,6 +692,8 @@ msgid ""
 "<p>… the <a href=\"skg://dashboard_plugin\">dashboard</a> can be reorganized "
 "by drag and drop.</p>"
 msgstr ""
+"<p>… raspored <a href=\"skg://dashboard_plugin\">nadzorne ploče</a> možete "
+"promijeniti povlačenjem i ispuštanjem.</p>"
 
 #: plugins/generic/skg_dashboard/skgdashboardplugin.cpp:105
 #, kde-format
@@ -679,60 +702,62 @@ msgid ""
 "<p>… some widgets of the <a href=\"skg://dashboard_plugin\">dashboard</a> "
 "have parameters.</p>"
 msgstr ""
+"<p>… neki widgeti <a href=\"skg://dashboard_plugin\">nadzorne ploče</a> "
+"imaju parametre.</p>"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:64
 #, kde-format
 msgctxt "Verb"
 msgid "Configure the dashboard"
-msgstr ""
+msgstr "Konfiguriraj nadzornu ploču"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:78
 #, kde-format
 msgctxt "Message"
 msgid "Welcome to %1"
-msgstr ""
+msgstr "Dobro došli u %1"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:127
 #, kde-format
 msgctxt "Verb"
 msgid "Choose layout …"
-msgstr ""
+msgstr "Odaberi raspored…"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:130
 #, kde-format
 msgctxt "Verb"
 msgid "Flow"
-msgstr ""
+msgstr "Tijek"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:141
 #, kde-format
 msgctxt "Verb"
 msgid "1 column"
-msgstr ""
+msgstr "1 stupac"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:152
 #, kde-format
 msgctxt "Verb"
 msgid "2 columns"
-msgstr ""
+msgstr "2 stupca"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:163
 #, kde-format
 msgctxt "Verb"
 msgid "3 columns"
-msgstr ""
+msgstr "3 stupca"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:174
 #, kde-format
 msgctxt "Verb"
 msgid "4 columns"
-msgstr ""
+msgstr "4 stupca"
 
 #: plugins/generic/skg_dashboard/skgdashboardwidget.cpp:201
 #, kde-format
 msgctxt "Verb"
 msgid "More …"
-msgstr ""
+msgstr "Više …"
 
 #. i18n: ectx: Menu (tool)
 #: plugins/generic/skg_debug/skg_debug.rc:4
@@ -745,13 +770,13 @@ msgstr ""
 #: skgbasegui/skgmainpanel.rc:58
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "Alati"
 
 #: plugins/generic/skg_debug/skgdebugplugin.cpp:54
 #, kde-format
 msgctxt "Restart the profiling, a method used for analysing performances"
 msgid "Restart profiling"
-msgstr ""
+msgstr "Ponovno pokreni profiliranje"
 
 #: plugins/generic/skg_debug/skgdebugplugin.cpp:63
 #, kde-format
