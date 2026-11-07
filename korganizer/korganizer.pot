@@ -9,24 +9,25 @@ msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-27 01:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: aboutdata.cpp:18 kontactplugin/korganizer/journalplugin.cpp:25
 #: kontactplugin/korganizer/korganizerplugin.cpp:40
@@ -35,13 +36,13 @@ msgstr ""
 #, kde-format
 msgctxt "@info/plain"
 msgid "KOrganizer"
-msgstr ""
+msgstr "KOrganizer"
 
 #: aboutdata.cpp:20
 #, kde-format
 msgctxt "@info/plain"
 msgid "A Personal Organizer"
-msgstr ""
+msgstr "Osobni organizator"
 
 #: aboutdata.cpp:23
 #, kde-format
@@ -64,7 +65,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "Održavatelj"
 
 #: aboutdata.cpp:32
 #, kde-format
@@ -76,7 +77,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Maintainer"
-msgstr ""
+msgstr "Bivši održavatelj"
 
 #: aboutdata.cpp:33
 #, kde-format
@@ -94,7 +95,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Original Author"
-msgstr ""
+msgstr "Izvorni autor"
 
 #: aboutdata.cpp:35
 #, kde-format
@@ -106,7 +107,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
-msgstr ""
+msgstr "Razvojni programer"
 
 #: aboutdata.cpp:36
 #, kde-format
@@ -323,31 +324,31 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
-msgstr ""
+msgstr "Time ćete potpuno sakriti traku izbornika. Ponovno je možete prikazati upisivanjem %1."
 
 #: actionmanager.cpp:138
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr ""
+msgstr "Sakrij traku izbornika"
 
 #: actionmanager.cpp:252
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Import &Calendar…"
-msgstr ""
+msgstr "Uvezi &kalendar…"
 
 #: actionmanager.cpp:253
 #, kde-format
 msgctxt "@info:status"
 msgid "Import a calendar"
-msgstr ""
+msgstr "Uvezi kalendar"
 
 #: actionmanager.cpp:254
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Import an iCalendar or vCalendar file"
-msgstr ""
+msgstr "Uvezi datoteku iCalendar ili vCalendar"
 
 #: actionmanager.cpp:256
 #, kde-format
@@ -355,50 +356,50 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Select this menu entry if you would like to import the contents of an "
 "iCalendar or vCalendar file into your current calendar collection."
-msgstr ""
+msgstr "Odaberite ovu stavku izbornika ako želite uvesti sadržaj datoteke iCalendar ili vCalendar u svoju trenutačnu zbirku kalendara."
 
 #: actionmanager.cpp:264
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export as &iCalendar…"
-msgstr ""
+msgstr "Izvezi kao &iCalendar…"
 
 #: actionmanager.cpp:265
 #, kde-format
 msgctxt "@info:status"
 msgid "Export calendar to file"
-msgstr ""
+msgstr "Izvezi kalendar u datoteku"
 
 #: actionmanager.cpp:266
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export your calendar to an iCalendar file"
-msgstr ""
+msgstr "Izvezi kalendar u datoteku iCalendar"
 
 #: actionmanager.cpp:267
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Allows you to export your entire calendar collection to one iCalendar file."
-msgstr ""
+msgstr "Omogućuje izvoz cijele zbirke kalendara u jednu datoteku iCalendar."
 
 #: actionmanager.cpp:273
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Archive O&ld Incidences…"
-msgstr ""
+msgstr "Arhiviraj &stare unose…"
 
 #: actionmanager.cpp:274
 #, kde-format
 msgctxt "@info:status"
 msgid "Archive events and to-dos to a file"
-msgstr ""
+msgstr "Arhiviraj događaje i zadatke u datoteku"
 
 #: actionmanager.cpp:275
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Archive old events and to-dos to an iCalendar file"
-msgstr ""
+msgstr "Arhiviraj stare događaje i zadatke u datoteku iCalendar"
 
 #: actionmanager.cpp:277
 #, kde-format
@@ -407,25 +408,25 @@ msgid ""
 "This menu entry opens a dialog that allows you to select old events and to-"
 "dos that you can archive into an iCalendar file.  They will be removed from "
 "your existing calendar collection."
-msgstr ""
+msgstr "Ova stavka izbornika otvara dijalog u kojem možete odabrati stare događaje i zadatke za arhiviranje u datoteku iCalendar. Oni će biti uklonjeni iz postojeće zbirke kalendara."
 
 #: actionmanager.cpp:285
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pur&ge Completed To-dos"
-msgstr ""
+msgstr "Ukloni dovršene &zadatke"
 
 #: actionmanager.cpp:286
 #, kde-format
 msgctxt "@info:status"
 msgid "Purge completed to-dos"
-msgstr ""
+msgstr "Ukloni dovršene zadatke"
 
 #: actionmanager.cpp:287
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove completed to-dos from your calendar"
-msgstr ""
+msgstr "Ukloni dovršene zadatke iz kalendara"
 
 #: actionmanager.cpp:289
 #, kde-format
@@ -433,20 +434,20 @@ msgctxt "@info:whatsthis"
 msgid ""
 "Allows you to remove all completed to-dos from your calendar collection. "
 "This action cannot be undone!"
-msgstr ""
+msgstr "Omogućuje uklanjanje svih dovršenih zadataka iz zbirke kalendara. Ovu radnju nije moguće poništiti!"
 
 #: actionmanager.cpp:326 actionmanager.cpp:625 actionmanager.cpp:1333
 #: actionmanager.cpp:1371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Delete"
-msgstr ""
+msgstr "&Izbriši"
 
 #: actionmanager.cpp:343
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "What's &Next"
-msgstr ""
+msgstr "Što je &sljedeće"
 
 #: actionmanager.cpp:344
 #, kde-format

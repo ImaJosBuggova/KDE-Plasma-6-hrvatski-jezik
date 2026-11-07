@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kontrast package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kontrast\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:48+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: kontrast.cpp:351
+#, kde-format
+msgid "Font size %1px is bad with the current contrast"
+msgstr "Veličina fonta od %1 px nije dobra uz trenutačni kontrast"
+
+#: kontrast.cpp:354
+#, kde-format
+msgid "Font size %1px is good with the current contrast"
+msgstr "Veličina fonta od %1 px dobra je uz trenutačni kontrast"
+
+#: kontrast.cpp:357
+#, kde-format
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "Veličina fonta od %1 px savršena je uz trenutačni kontrast"
+
+#: main.cpp:43
+#, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:45
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Aplikacija za provjeru kontrasta"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:49
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Održavatelj i autor"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Wikipedija"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Tekst na glavnoj stranici, CC-BY-SA-4.0"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "Pozadinski sustav SQLite za omiljene boje"
+
+#: main.cpp:55
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: main.cpp:55
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
+#, kde-format
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "Omiljene boje"
+
+#: qml/FavoritePage.qml:63
+#, kde-format
+msgctxt "@action:tooltip"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: qml/FavoritePage.qml:79
+#, kde-format
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr "Tekst: %1"
+
+#: qml/FavoritePage.qml:84
+#, kde-format
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr "Pozadina: %1"
+
+#: qml/FavoritePage.qml:91
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Primijeni"
+
+#: qml/FavoritePage.qml:121
+#, kde-format
+msgctxt "@info:inline"
+msgid "Background color copied to clipboard"
+msgstr "Boja pozadine kopirana je u međuspremnik"
+
+#: qml/FavoritePage.qml:125
+#, kde-format
+msgctxt "@info:inline"
+msgid "Text color copied to clipboard"
+msgstr "Boja teksta kopirana je u međuspremnik"
+
+#: qml/FavoritePage.qml:132
+#, kde-format
+msgctxt "@info:inline"
+msgid "Color copied to clipboard"
+msgstr "Boja je kopirana u međuspremnik"
+
+#: qml/HelpPage.qml:13 qml/Main.qml:47
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pomoć"
+
+#: qml/HelpPage.qml:19
+#, kde-format
+msgctxt "@title:heading"
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: qml/HelpPage.qml:24
+#, kde-format
+msgid ""
+"Contrast is the difference in color between two objects that allows them to "
+"be distinguished. In visual perception of the real world, contrast is "
+"determined by the difference in the color and brightness of the object and "
+"other objects within the same field of view."
+msgstr "Kontrast je razlika u boji između dvaju objekata koja omogućuje njihovo razlikovanje. U vizualnoj percepciji stvarnog svijeta kontrast određuje razlika u boji i svjetlini objekta u odnosu na druge objekte u istom vidnom polju."
+
+#: qml/HelpPage.qml:29
+#, kde-format
+msgid ""
+"A contrast value of 21 indicates a perfect contrast (usually black on "
+"white), and a value of 0 indicate that the two colors are the same."
+msgstr "Vrijednost kontrasta 21 označava savršen kontrast (obično crno na bijelom), dok vrijednost 0 označava da su dvije boje jednake."
+
+#: qml/HelpPage.qml:34
+#, kde-format
+msgid ""
+"For normal text, the contrast ratio should be at least of 4.5 to conform to "
+"the WCAG AA standard and a contrast ratio of 7 or more is required to "
+"conform with the WCAG AAA standard."
+msgstr "Za običan tekst omjer kontrasta mora biti najmanje 4,5 da bi zadovoljio standard WCAG AA, a za standard WCAG AAA potreban je omjer kontrasta od najmanje 7."
+
+#: qml/HelpPage.qml:39
+#, kde-format
+msgid ""
+"For large text, the contrast ratio should be at least of 3 to conform to the "
+"WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
+"with the WCAG AAA standard."
+msgstr "Za veliki tekst omjer kontrasta mora biti najmanje 3 da bi zadovoljio standard WCAG AA, a za standard WCAG AAA potreban je omjer kontrasta od najmanje 4,5."
+
+#: qml/Main.qml:26
+#, kde-format
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: qml/Main.qml:32 qml/MainPage.qml:24
+#, kde-format
+msgctxt "@title:menu"
+msgid "Contrast Checker"
+msgstr "Provjera kontrasta"
+
+#: qml/Main.qml:53
+#, kde-format
+msgctxt "@title:menu"
+msgid "About"
+msgstr "O programu"
+
+#: qml/MainPage.qml:46
+#, kde-format
+msgctxt "@label"
+msgid "Contrast ratio: %1"
+msgstr "Omjer kontrasta: %1"
+
+#: qml/MainPage.qml:54
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: qml/MainPage.qml:66
+#, kde-format
+msgid "Perfect for normal and large text"
+msgstr "Savršeno za običan i veliki tekst"
+
+#: qml/MainPage.qml:66
+#, kde-format
+msgid "Perfect for large text and good for normal text"
+msgstr "Savršeno za veliki, a dobro za običan tekst"
+
+#: qml/MainPage.qml:66
+#, kde-format
+msgid "Good for large text and bad for normal text"
+msgstr "Dobro za veliki, a loše za običan tekst"
+
+#: qml/MainPage.qml:66
+#, kde-format
+msgid "Bad for large and normal text"
+msgstr "Loše za veliki i običan tekst"
+
+#: qml/MainPage.qml:73
+#, kde-format
+msgid ""
+"Contrast is the difference in luminance or color that makes an object (or "
+"its representation in an image or display) distinguishable. In visual "
+"perception of the real world, contrast is determined by the difference in "
+"the color and brightness of the object and other objects within the same "
+"field of view."
+msgstr "Kontrast je razlika u osvjetljenju ili boji zbog koje se objekt (ili njegov prikaz na slici ili zaslonu) može razlikovati. U vizualnoj percepciji stvarnog svijeta kontrast određuje razlika u boji i svjetlini objekta u odnosu na druge objekte u istom vidnom polju."
+
+#: qml/MainPage.qml:90
+#, kde-format
+msgctxt "@label"
+msgid "Text"
+msgstr "Tekst"
+
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
+#, kde-format
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "Nijansa: %1°"
+
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
+#, kde-format
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "Zasićenost: %1"
+
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
+#, kde-format
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "Svjetlina: %1"
+
+#: qml/MainPage.qml:173
+#, kde-format
+msgctxt "@label"
+msgid "Background"
+msgstr "Pozadina"
+
+#: qml/MainPage.qml:246
+#, kde-format
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr "Veličina fonta: %1 px"
+
+#: qml/MainPage.qml:263
+#, kde-format
+msgctxt "@action:button"
+msgid "Invert"
+msgstr "Obrni"
+
+#: qml/MainPage.qml:269
+#, kde-format
+msgctxt "@action:button"
+msgid "Randomize"
+msgstr "Nasumično"
+
+#: qml/MainPage.qml:275
+#, kde-format
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "Označi kao omiljeno"

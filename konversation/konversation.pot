@@ -9,132 +9,133 @@ msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-12 00:44+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #. i18n: ectx: Menu (insert)
 #: data/konversationui.rc:26
 #, kde-format
 msgctxt "Menu title"
 msgid "&Insert"
-msgstr ""
+msgstr "&Umetni"
 
 #. i18n: ectx: Menu (windows)
 #: data/konversationui.rc:38
 #, kde-format
 msgid "&Window"
-msgstr ""
+msgstr "&Prozor"
 
 #: data/scripts/cmd:28
 msgid "You need to specify a command."
-msgstr ""
+msgstr "Morate navesti naredbu."
 
 #: data/scripts/cmd:41
 msgid ""
 "The command executed successfully, but did not return any output or only "
 "whitespace."
-msgstr ""
+msgstr "Naredba je uspješno izvršena, ali nije vratila nikakav izlaz ili je vratila samo praznine."
 
 #: data/scripts/media:103
 msgid "The media script requires Python %1 or higher."
-msgstr ""
+msgstr "Skripta za medije zahtijeva Python %1 ili noviji."
 
 #: data/scripts/media:133
 msgid "An error occurred while trying to list the running media players."
-msgstr ""
+msgstr "Došlo je do pogreške pri dohvaćanju popisa pokrenutih reproduktora medija."
 
 #: data/scripts/media:177
 msgid "No running audio players found."
-msgstr ""
+msgstr "Nije pronađen nijedan pokrenuti audioreproduktor."
 
 #: data/scripts/media:179
 msgid "No running video players found."
-msgstr ""
+msgstr "Nije pronađen nijedan pokrenuti videoreproduktor."
 
 #: data/scripts/media:181
 msgid "\"%1\" is not running."
-msgstr ""
+msgstr "„%1” nije pokrenut."
 
 #: data/scripts/media:183
 msgid "No running media players found."
-msgstr ""
+msgstr "Nije pronađen nijedan pokrenuti reproduktor medija."
 
 #: data/scripts/media:197
 msgid "Nothing is playing in %1."
-msgstr ""
+msgstr "U aplikaciji %1 ništa se ne reproducira."
 
 #: data/scripts/media:201
 msgctxt "1 = Comma-separated list of audio players."
 msgid "None of the running audio players (%1) are playing anything."
-msgstr ""
+msgstr "Nijedan od pokrenutih audioreproduktora (%1) ništa ne reproducira."
 
 #: data/scripts/media:206
 msgctxt "1 = Comma-separated list of video players."
 msgid "None of the running video players (%1) are playing anything."
-msgstr ""
+msgstr "Nijedan od pokrenutih videoreproduktora (%1) ništa ne reproducira."
 
 #: data/scripts/media:211
 msgctxt "1 = Comma-separated list of media players."
 msgid "None of the running media players (%1) are playing anything."
-msgstr ""
+msgstr "Nijedan od pokrenutih reproduktora medija (%1) ništa ne reproducira."
 
 #: data/scripts/media:219
 msgid "An error occurred while trying to retrieve media metadata from %1."
-msgstr ""
+msgstr "Došlo je do pogreške pri dohvaćanju metapodataka medija iz aplikacije %1."
 
 #: data/scripts/media:257
 msgctxt "REGEX_FIXUP is the name of a config key in a config file."
 msgid ""
 "There is a problem with the regular expression specified in REGEX_FIXUP."
-msgstr ""
+msgstr "Postoji problem s regularnim izrazom navedenim u REGEX_FIXUP."
 
 #: data/scripts/media:266
 msgid "%1 did not report the metadata needed to output a message."
-msgstr ""
+msgstr "%1 nije dostavio metapodatke potrebne za ispis poruke."
 
 #: data/scripts/media:282
 msgid "There is a problem in the output format configuration."
-msgstr ""
+msgstr "Postoji problem u postavkama izlaznog formata."
 
 #: data/scripts/media:302
 msgid "media v%1 for Konversation."
-msgstr ""
+msgstr "media v%1 za Konversation."
 
 #: data/scripts/media:303
 msgid "Usage:"
-msgstr ""
+msgstr "Upotreba:"
 
 #: data/scripts/media:304
 msgid "\"/media\" - report what the first player found is playing."
-msgstr ""
+msgstr "„/media” – prikaži što reproducira prvi pronađeni reproduktor."
 
 #: data/scripts/media:305
 msgid ""
 "\"/media [ 'audio' | 'video' ]\" - report what is playing in a known audio "
 "or video player."
-msgstr ""
+msgstr "„/media [ 'audio' | 'video' ]” – prikaži što se reproducira u poznatom audioreproduktoru ili videoreproduktoru."
 
 #: data/scripts/media:306
 msgid ""
 "\"/media { Player }\" - report what is playing in the specified player if it "
 "is found."
-msgstr ""
+msgstr "„/media { Player }” – prikaži što se reproducira u navedenom reproduktoru ako je pronađen."
 
 #: src/application.cpp:380 src/irc/server.cpp:1814 src/irc/server.cpp:3847
 #: src/irc/server.cpp:3852
@@ -172,52 +173,52 @@ msgstr ""
 #: src/common.cpp:25
 #, kde-format
 msgid "topic protection"
-msgstr ""
+msgstr "zaštita teme"
 
 #: src/common.cpp:26
 #, kde-format
 msgid "no messages from outside"
-msgstr ""
+msgstr "nema poruka izvana"
 
 #: src/common.cpp:27
 #, kde-format
 msgid "secret"
-msgstr ""
+msgstr "tajni"
 
 #: src/common.cpp:28
 #, kde-format
 msgid "invite only"
-msgstr ""
+msgstr "samo uz pozivnicu"
 
 #: src/common.cpp:29
 #, kde-format
 msgid "private"
-msgstr ""
+msgstr "privatni"
 
 #: src/common.cpp:30
 #, kde-format
 msgid "moderated"
-msgstr ""
+msgstr "moderirani"
 
 #: src/common.cpp:31 src/irc/inputfilter.cpp:1330
 #, kde-format
 msgid "password protected"
-msgstr ""
+msgstr "zaštićen lozinkom"
 
 #: src/common.cpp:32
 #, kde-format
 msgid "anonymous"
-msgstr ""
+msgstr "anonimni"
 
 #: src/common.cpp:33
 #, kde-format
 msgid "no colors allowed"
-msgstr ""
+msgstr "boje nisu dopuštene"
 
 #: src/common.cpp:34
 #, kde-format
 msgid "user limit"
-msgstr ""
+msgstr "ograničenje broja korisnika"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/config/alias_config.cpp:162 src/config/highlight_config.cpp:216
@@ -226,60 +227,60 @@ msgstr ""
 #: src/urlcatcher.cpp:292
 #, kde-format
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, aliasListView)
 #: src/config/alias_configui.ui:36
 #, kde-format
 msgid "Alias"
-msgstr ""
+msgstr "Pseudonim"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, aliasListView)
 #: src/config/alias_configui.ui:41
 #, kde-format
 msgid "Replacement"
-msgstr ""
+msgstr "Zamjena"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/config/alias_configui.ui:51 src/config/highlight_configui.ui:176
 #: src/config/ignore_configui.ui:130
 #, kde-format
 msgid "&New"
-msgstr ""
+msgstr "&Novo"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: src/config/alias_configui.ui:58 src/config/highlight_configui.ui:189
 #: src/config/ignore_configui.ui:137
 #, kde-format
 msgid "&Remove"
-msgstr ""
+msgstr "&Ukloni"
 
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: src/config/alias_configui.ui:88
 #, kde-format
 msgid "Alias:"
-msgstr ""
+msgstr "Pseudonim:"
 
 #. i18n: ectx: property (text), widget (QLabel, replacementLabel)
 #: src/config/alias_configui.ui:108
 #, kde-format
 msgid "Replacement:"
-msgstr ""
+msgstr "Zamjena:"
 
 #: src/config/autoreplace_config.cpp:28
 #, kde-format
 msgid "Outgoing"
-msgstr ""
+msgstr "Odlazno"
 
 #: src/config/autoreplace_config.cpp:29
 #, kde-format
 msgid "Incoming"
-msgstr ""
+msgstr "Dolazno"
 
 #: src/config/autoreplace_config.cpp:30
 #, kde-format
 msgid "Both"
-msgstr ""
+msgstr "Oboje"
 
 #: src/config/autoreplace_config.cpp:252
 #, kde-format
@@ -303,121 +304,121 @@ msgstr ""
 #: src/config/autoreplace_configui.ui:55 src/config/highlight_configui.ui:140
 #, kde-format
 msgid "RegEx"
-msgstr ""
+msgstr "RegEx"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, patternListView)
 #: src/config/autoreplace_configui.ui:60
 #, kde-format
 msgid "Replace In"
-msgstr ""
+msgstr "Zamijeni u"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, patternListView)
 #: src/config/autoreplace_configui.ui:65
 #, kde-format
 msgid "Find"
-msgstr ""
+msgstr "Traži"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, patternListView)
 #: src/config/autoreplace_configui.ui:70
 #, kde-format
 msgid "Replace With"
-msgstr ""
+msgstr "Zamijeni s"
 
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/config/autoreplace_configui.ui:80
 #, kde-format
 msgid "Ne&w"
-msgstr ""
+msgstr "No&vo"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: src/config/autoreplace_configui.ui:87
 #, kde-format
 msgid "R&emove"
-msgstr ""
+msgstr "&Ukloni"
 
 #. i18n: ectx: property (text), widget (QLabel, directionLabel)
 #: src/config/autoreplace_configui.ui:126
 #, kde-format
 msgid "Replace in:"
-msgstr ""
+msgstr "Zamijeni u:"
 
 #. i18n: ectx: property (text), widget (QLabel, patternLabel)
 #: src/config/autoreplace_configui.ui:158
 #, kde-format
 msgid "Find:"
-msgstr ""
+msgstr "Traži:"
 
 #. i18n: ectx: property (text), widget (QLabel, replacementLabel)
 #: src/config/autoreplace_configui.ui:190
 #, kde-format
 msgid "Replace with:"
-msgstr ""
+msgstr "Zamijeni s:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_Timestamping)
 #: src/config/chatwindowappearance_config.ui:33
 #, kde-format
 msgid "Enable &Timestamps"
-msgstr ""
+msgstr "Uključi &vremenske oznake"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: src/config/chatwindowappearance_config.ui:42
 #, kde-format
 msgid "&Format:"
-msgstr ""
+msgstr "&Format:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDate)
 #: src/config/chatwindowappearance_config.ui:62
 #, kde-format
 msgid "Sho&w dates"
-msgstr ""
+msgstr "Prikaži &datume"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDateLine)
 #: src/config/chatwindowappearance_config.ui:69
 #, kde-format
 msgid "Show date marker when date changes"
-msgstr ""
+msgstr "Prikaži oznaku datuma kada se promijeni datum"
 
 #. i18n: ectx: property (title), widget (QGroupBox, kcfg_ShowBacklog)
 #: src/config/chatwindowappearance_config.ui:79
 #, kde-format
 msgid "Show &Backlog"
-msgstr ""
+msgstr "Prikaži &povijest"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: src/config/chatwindowappearance_config.ui:88
 #, kde-format
 msgid "&Lines: "
-msgstr ""
+msgstr "&Redaka: "
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: src/config/chatwindowappearance_config.ui:114
 #, kde-format
 msgid "&Layout"
-msgstr ""
+msgstr "&Raspored"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTopic)
 #: src/config/chatwindowappearance_config.ui:120
 #, kde-format
 msgid "&Show channel topic"
-msgstr ""
+msgstr "&Prikaži temu kanala"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowModeButtons)
 #: src/config/chatwindowappearance_config.ui:127
 #, kde-format
 msgid "Show channel &mode buttons"
-msgstr ""
+msgstr "Prikaži gumbe &načina rada kanala"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNickList)
 #: src/config/chatwindowappearance_config.ui:134
 #, kde-format
 msgid "Show channel &nick list and quick buttons"
-msgstr ""
+msgstr "Prikaži popis &nadimaka kanala i brze gumbe"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoUserhost)
 #: src/config/chatwindowappearance_config.ui:162
 #, kde-format
 msgid "Show hostmas&ks in nickname list"
-msgstr ""
+msgstr "Prikaži &maske poslužitelja na popisu nadimaka"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowRealNames)
 #: src/config/chatwindowappearance_config.ui:192

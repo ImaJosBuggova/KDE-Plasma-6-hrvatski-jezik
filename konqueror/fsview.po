@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the konqueror package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: fsview.cpp:35 fsview.cpp:413
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: fsview.cpp:36
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: fsview.cpp:37
+#, kde-format
+msgid "File Count"
+msgstr "Broj datoteka"
+
+#: fsview.cpp:38
+#, kde-format
+msgid "Directory Count"
+msgstr "Broj direktorija"
+
+#: fsview.cpp:39
+#, kde-format
+msgid "Last Modified"
+msgstr "Zadnja izmjena"
+
+#: fsview.cpp:40 fsview.cpp:414
+#, kde-format
+msgid "Owner"
+msgstr "Vlasnik"
+
+#: fsview.cpp:41 fsview.cpp:415
+#, kde-format
+msgid "Group"
+msgstr "Grupa"
+
+#: fsview.cpp:42 fsview.cpp:416
+#, kde-format
+msgid "Mime Type"
+msgstr "MIME vrsta"
+
+#: fsview.cpp:283
+#, kde-format
+msgid "Go To"
+msgstr "Idi na"
+
+#: fsview.cpp:284 fsview_part.cpp:108
+#, kde-format
+msgid "Stop at Depth"
+msgstr "Zaustavi na dubini"
+
+#: fsview.cpp:285 fsview_part.cpp:105
+#, kde-format
+msgid "Stop at Area"
+msgstr "Zaustavi prema površini"
+
+#: fsview.cpp:286
+#, kde-format
+msgid "Stop at Name"
+msgstr "Zaustavi prema nazivu"
+
+#: fsview.cpp:292
+#, kde-format
+msgid "Go Up"
+msgstr "Idi gore"
+
+#: fsview.cpp:294
+#, kde-format
+msgid "Stop Refresh"
+msgstr "Zaustavi osvježavanje"
+
+#: fsview.cpp:296
+#, kde-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: fsview.cpp:301
+#, kde-format
+msgid "Refresh '%1'"
+msgstr "Osvježi „%1”"
+
+#: fsview.cpp:313 fsview_part.cpp:115
+#, kde-format
+msgid "Color Mode"
+msgstr "Način boje"
+
+#: fsview.cpp:316 fsview_part.cpp:111
+#, kde-format
+msgid "Visualization"
+msgstr "Vizualizacija"
+
+#: fsview.cpp:411
+#, kde-format
+msgid "None"
+msgstr "Nema"
+
+#: fsview.cpp:412
+#, kde-format
+msgid "Depth"
+msgstr "Dubina"
+
+#: fsview_part.cpp:72
+#, kde-format
+msgid "Read 1 folder, in %2"
+msgid_plural "Read %1 folders, in %2"
+msgstr[0] "Pročitana je %1 mapa, u %2"
+msgstr[1] "Pročitane su %1 mape, u %2"
+msgstr[2] "Pročitano je %1 mapa, u %2"
+
+#: fsview_part.cpp:76
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 mapa"
+msgstr[1] "%1 mape"
+msgstr[2] "%1 mapa"
+
+#: fsview_part.cpp:89
+#, kde-format
+msgid ""
+"<p>This is the FSView plugin, a graphical browsing mode showing filesystem "
+"utilization by using a tree map visualization.</p><p>Note that in this mode, "
+"automatic updating when filesystem changes are made is intentionally <b>not</"
+"b> done.</p><p>For details on usage and options available, see the online "
+"help under menu 'Help/FSView Manual'.</p>"
+msgstr ""
+"<p>Ovo je dodatak FSView, grafički način pregledavanja koji prikazuje "
+"iskorištenost datotečnog sustava pomoću vizualizacije stabla.</p><p>Imajte "
+"na umu da se u ovom načinu prikaz namjerno <b>ne</b> ažurira automatski pri "
+"promjenama datotečnog sustava.</p><p>Pojedinosti o uporabi i dostupnim "
+"mogućnostima potražite u mrežnoj pomoći, u izborniku „Pomoć/Priručnik za "
+"FSView”.</p>"
+
+#: fsview_part.cpp:121
+#, kde-format
+msgid "&FSView Manual"
+msgstr "&Priručnik za FSView"
+
+#: fsview_part.cpp:123
+#, kde-format
+msgid "Show FSView manual"
+msgstr "Prikaži priručnik za FSView"
+
+#: fsview_part.cpp:124
+#, kde-format
+msgid "Opens the help browser with the FSView documentation"
+msgstr "Otvara preglednik pomoći s dokumentacijom za FSView"
+
+#: fsview_part.cpp:156
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr "Premjesti u smeće"
+
+#: fsview_part.cpp:163
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr "Izbriši"
+
+#: fsview_part.cpp:168
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "&Uredi vrstu datoteke..."
+
+#: fsview_part.cpp:172
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "Svojstva"
+
+#: fsview_part.cpp:205
+#, kde-format
+msgid ""
+"FSView intentionally does not support automatic updates when changes are "
+"made to files or directories, currently visible in FSView, from the "
+"outside.\n"
+"For details, see the 'Help/FSView Manual'."
+msgstr ""
+"FSView namjerno ne podržava automatsko ažuriranje kada se izvana promijene "
+"datoteke ili direktoriji koji su trenutačno vidljivi u FSViewu.\n"
+"Pojedinosti potražite u „Pomoć/Priručnik za FSView”."
+
+#. i18n: ectx: Menu (edit)
+#: fsview_part.rc:4
+#, kde-format
+msgid "&Edit"
+msgstr "&Uredi"
+
+#. i18n: ectx: Menu (view)
+#: fsview_part.rc:13
+#, kde-format
+msgid "&View"
+msgstr "&Prikaz"
+
+#. i18n: ectx: Menu (help)
+#: fsview_part.rc:20
+#, kde-format
+msgid "&Help"
+msgstr "&Pomoć"
+
+#: main.cpp:23
+#, kde-format
+msgid "FSView"
+msgstr "FSView"
+
+#: main.cpp:24
+#, kde-format
+msgid "Filesystem Viewer"
+msgstr "Preglednik datotečnog sustava"
+
+#: main.cpp:26
+#, kde-format
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr "(c) 2002., Josef Weidendorfer"
+
+#: main.cpp:33
+#, kde-format
+msgid "View filesystem starting from this folder"
+msgstr "Prikaži datotečni sustav počevši od ove mape"
+
+#: treemap.cpp:1435
+#, kde-format
+msgid "Text %1"
+msgstr "Tekst %1"
+
+#: treemap.cpp:3168
+#, kde-format
+msgid "Recursive Bisection"
+msgstr "Rekurzivno dijeljenje na polovice"
+
+#: treemap.cpp:3170
+#, kde-format
+msgid "Columns"
+msgstr "Stupci"
+
+#: treemap.cpp:3172
+#, kde-format
+msgid "Rows"
+msgstr "Redci"
+
+#: treemap.cpp:3174
+#, kde-format
+msgid "Always Best"
+msgstr "Uvijek najbolje"
+
+#: treemap.cpp:3176
+#, kde-format
+msgid "Best"
+msgstr "Najbolje"
+
+#: treemap.cpp:3178
+#, kde-format
+msgid "Alternate (V)"
+msgstr "Naizmjenično (okomito)"
+
+#: treemap.cpp:3180
+#, kde-format
+msgid "Alternate (H)"
+msgstr "Naizmjenično (vodoravno)"
+
+#: treemap.cpp:3182
+#, kde-format
+msgid "Horizontal"
+msgstr "Vodoravno"
+
+#: treemap.cpp:3184
+#, kde-format
+msgid "Vertical"
+msgstr "Okomito"
+
+#: treemap.cpp:3236
+#, kde-format
+msgid "Nesting"
+msgstr "Ugniježđivanje"
+
+#: treemap.cpp:3240
+#, kde-format
+msgid "Border"
+msgstr "Obrub"
+
+#: treemap.cpp:3243
+#, kde-format
+msgid "Correct Borders Only"
+msgstr "Samo ispravni obrubi"
+
+#: treemap.cpp:3246
+#, kde-format
+msgid "Width %1"
+msgstr "Širina %1"
+
+#: treemap.cpp:3249
+#, kde-format
+msgid "Allow Rotation"
+msgstr "Dopusti rotaciju"
+
+#: treemap.cpp:3250
+#, kde-format
+msgid "Shading"
+msgstr "Sjenčanje"
+
+#: treemap.cpp:3261
+#, kde-format
+msgid "Visible"
+msgstr "Vidljivo"
+
+#: treemap.cpp:3262
+#, kde-format
+msgid "Take Space From Children"
+msgstr "Uzmi prostor od podređenih elemenata"
+
+#: treemap.cpp:3266
+#, kde-format
+msgid "Top Left"
+msgstr "Gore lijevo"
+
+#: treemap.cpp:3269
+#, kde-format
+msgid "Top Center"
+msgstr "Gore u sredini"
+
+#: treemap.cpp:3272
+#, kde-format
+msgid "Top Right"
+msgstr "Gore desno"
+
+#: treemap.cpp:3275
+#, kde-format
+msgid "Bottom Left"
+msgstr "Dolje lijevo"
+
+#: treemap.cpp:3278
+#, kde-format
+msgid "Bottom Center"
+msgstr "Dolje u sredini"
+
+#: treemap.cpp:3281
+#, kde-format
+msgid "Bottom Right"
+msgstr "Dolje desno"
+
+#: treemap.cpp:3348
+#, kde-format
+msgid "No %1 Limit"
+msgstr "Bez ograničenja %1"
+
+#: treemap.cpp:3407
+#, kde-format
+msgid "No Area Limit"
+msgstr "Bez ograničenja površine"
+
+#: treemap.cpp:3413
+#, kde-format
+msgid "Area of '%1' (%2)"
+msgstr "Površina „%1” (%2)"
+
+#: treemap.cpp:3425 treemap.cpp:3438
+#, kde-format
+msgid "1 Pixel"
+msgid_plural "%1 Pixels"
+msgstr[0] "1 piksel"
+msgstr[1] "%1 piksela"
+msgstr[2] "%1 piksela"
+
+#: treemap.cpp:3442
+#, kde-format
+msgid "Double Area Limit (to %1)"
+msgstr "Udvostruči ograničenje površine (na %1)"
+
+#: treemap.cpp:3444
+#, kde-format
+msgid "Halve Area Limit (to %1)"
+msgstr "Prepolovi ograničenje površine (na %1)"
+
+#: treemap.cpp:3480
+#, kde-format
+msgid "No Depth Limit"
+msgstr "Bez ograničenja dubine"
+
+#: treemap.cpp:3486
+#, kde-format
+msgid "Depth of '%1' (%2)"
+msgstr "Dubina „%1” (%2)"
+
+#: treemap.cpp:3498 treemap.cpp:3511
+#, kde-format
+msgid "Depth %1"
+msgstr "Dubina %1"
+
+#: treemap.cpp:3515
+#, kde-format
+msgid "Decrement (to %1)"
+msgstr "Smanji (na %1)"
+
+#: treemap.cpp:3517
+#, kde-format
+msgid "Increment (to %1)"
+msgstr "Povećaj (na %1)"

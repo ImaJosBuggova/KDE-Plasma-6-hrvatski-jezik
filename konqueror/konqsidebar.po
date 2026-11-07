@@ -1,0 +1,412 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the konqueror package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#: bookmarks_module/bookmarks_module.cpp:273
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Bookmarks Sidebar Module"
+msgstr "Modul bočne trake knjižnih oznaka"
+
+#: bookmarks_module/bookmarks_module.cpp:296
+#, kde-format
+msgctxt "@title:tab"
+msgid "Bookmarks"
+msgstr "Knjižne oznake"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbDefaultAction)
+#: history_module/history_dlg.ui:17
+#, kde-format
+msgid "Default action"
+msgstr "Zadana radnja"
+
+#. i18n: ectx: property (text), widget (QLabel, lDefault)
+#: history_module/history_dlg.ui:23
+#, kde-format
+msgid "Default action when double clicking an URL"
+msgstr "Zadana radnja pri dvostrukom kliku na URL"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbLimits)
+#: history_module/history_dlg.ui:36
+#, kde-format
+msgid "Limits"
+msgstr "Ograničenja"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbExpire)
+#: history_module/history_dlg.ui:61
+#, kde-format
+msgid "URLs e&xpire after"
+msgstr "URL-ovi &ističu nakon"
+
+#. i18n: ectx: property (text), widget (QLabel, lEntries)
+#: history_module/history_dlg.ui:71
+#, kde-format
+msgid "Maximum &number of URLs:"
+msgstr "Najveći &broj URL-ova:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbFonts)
+#: history_module/history_dlg.ui:87
+#, kde-format
+msgid "Custom Fonts For"
+msgstr "Prilagođeni fontovi za"
+
+#. i18n: ectx: property (text), widget (QLabel, lbNewer)
+#: history_module/history_dlg.ui:102
+#, kde-format
+msgid "URLs newer than"
+msgstr "URL-ovi noviji od"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnFontOlder)
+#. i18n: ectx: property (text), widget (QPushButton, btnFontNewer)
+#: history_module/history_dlg.ui:118 history_module/history_dlg.ui:138
+#, kde-format
+msgid "Choose Font..."
+msgstr "Odaberi font..."
+
+#. i18n: ectx: property (text), widget (QLabel, lbOlder)
+#: history_module/history_dlg.ui:125
+#, kde-format
+msgid "URLs older than"
+msgstr "URL-ovi stariji od"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#: history_module/history_dlg.ui:148
+#, kde-format
+msgid "Details"
+msgstr "Pojedinosti"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbDetailedTips)
+#: history_module/history_dlg.ui:154
+#, kde-format
+msgid ""
+"Shows the number of times visited and the dates of the first and last "
+"visits, in addition to the URL"
+msgstr "Uz URL prikazuje broj posjeta te datume prvog i posljednjeg posjeta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedTips)
+#: history_module/history_dlg.ui:157
+#, kde-format
+msgid "Detailed tooltips"
+msgstr "Detaljni opisi"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClearHistory)
+#: history_module/history_dlg.ui:169
+#, kde-format
+msgid "Clear History"
+msgstr "Očisti povijest"
+
+#: history_module/history_module.cpp:139
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "History Sidebar Module"
+msgstr "Modul bočne trake povijesti"
+
+#: history_module/history_module.cpp:162
+#, kde-format
+msgctxt "@title:tab"
+msgid "History"
+msgstr "Povijest"
+
+#: history_module/kcmhistory.cpp:49
+#, kde-format
+msgctxt "Automatically decide which action to perform"
+msgid "Auto"
+msgstr "Automatski"
+
+#: history_module/kcmhistory.cpp:50
+#, kde-format
+msgctxt "Open URL in new tab"
+msgid "Open in new tab"
+msgstr "Otvori u novoj kartici"
+
+#: history_module/kcmhistory.cpp:51
+#, kde-format
+msgctxt "Open URL in current tab"
+msgid "Open in current tab"
+msgstr "Otvori u trenutačnoj kartici"
+
+#: history_module/kcmhistory.cpp:52
+#, kde-format
+msgctxt "Open URL in new window"
+msgid "Open in new window"
+msgstr "Otvori u novom prozoru"
+
+#: history_module/kcmhistory.cpp:54
+#, kde-format
+msgid ""
+"Action to carry out when opening an URL from history:<dl><dl><dt>Auto:</"
+"dt><dd>opens the URL in a new tab unless the current tab is empty or an "
+"intro page</dd><dt>Open URL in a new tab:</dt><dd>always opens the URL in a "
+"new tab</dd><dt>Open URL in current tab:</dt><dd>always opens the URL in the "
+"current tab</dd><dt>Open URL in new window:</dt><dd>always opens the URL in "
+"a new window</dd></dl>"
+msgstr "Radnja koju treba izvršiti pri otvaranju URL-a iz povijesti:<dl><dl><dt>Automatski:</dt><dd>otvara URL u novoj kartici, osim ako je trenutačna kartica prazna ili prikazuje uvodnu stranicu</dd><dt>Otvori URL u novoj kartici:</dt><dd>uvijek otvara URL u novoj kartici</dd><dt>Otvori URL u trenutačnoj kartici:</dt><dd>uvijek otvara URL u trenutačnoj kartici</dd><dt>Otvori URL u novom prozoru:</dt><dd>uvijek otvara URL u novom prozoru</dd></dl>"
+
+#: history_module/kcmhistory.cpp:65
+#, kde-format
+msgid "days"
+msgstr "dana"
+
+#: history_module/kcmhistory.cpp:71 history_module/kcmhistory.cpp:76
+#: history_module/kcmhistory.cpp:200 history_module/kcmhistory.cpp:213
+#, kde-format
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "minuta"
+msgstr[1] "minute"
+msgstr[2] "minuta"
+
+#: history_module/kcmhistory.cpp:73 history_module/kcmhistory.cpp:78
+#: history_module/kcmhistory.cpp:198 history_module/kcmhistory.cpp:211
+#, kde-format
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "dan"
+msgstr[1] "dana"
+msgstr[2] "dana"
+
+#: history_module/kcmhistory.cpp:245
+#, kde-format
+msgid "Do you really want to clear the entire history?"
+msgstr "Želite li zaista očistiti cijelu povijest?"
+
+#: history_module/kcmhistory.cpp:247
+#, kde-format
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Očistiti povijest?"
+
+#: places_module/places_module.cpp:76
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Places Sidebar Module"
+msgstr "Modul bočne trake mjesta"
+
+#: places_module/places_module.cpp:99
+#, kde-format
+msgctxt "@title:tab"
+msgid "Places"
+msgstr "Mjesta"
+
+#: sidebar_widget.cpp:84
+#, kde-format
+msgid "Restore All Removed Default Buttons"
+msgstr "Vrati sve uklonjene zadane gumbe"
+
+#: sidebar_widget.cpp:85
+#, kde-format
+msgid "Rollback to System Default"
+msgstr "Vrati na sistemske zadane postavke"
+
+#: sidebar_widget.cpp:144 sidebar_widget.cpp:430
+#, kde-format
+msgid "Configure Sidebar"
+msgstr "Konfiguriraj bočnu traku"
+
+#: sidebar_widget.cpp:146
+#, kde-format
+msgid "Add New"
+msgstr "Dodaj novo"
+
+#: sidebar_widget.cpp:150
+#, kde-format
+msgid "Multiple Views"
+msgstr "Više prikaza"
+
+#: sidebar_widget.cpp:152 sidebar_widget.cpp:269
+#, kde-format
+msgid "Show Tabs on Left"
+msgstr "Prikaži kartice lijevo"
+
+#: sidebar_widget.cpp:153
+#, kde-format
+msgid "Show Configuration Button"
+msgstr "Prikaži gumb za konfiguraciju"
+
+#: sidebar_widget.cpp:156
+#, kde-format
+msgid "Close Sidebar"
+msgstr "Zatvori bočnu traku"
+
+#: sidebar_widget.cpp:211
+#, kde-format
+msgid "This entry already exists."
+msgstr "Ovaj unos već postoji."
+
+#: sidebar_widget.cpp:227
+#, kde-format
+msgid ""
+"<qt>This removes all your entries from the sidebar and adds the system "
+"default ones.<br /><b>This procedure is irreversible.</b><br />Do you want "
+"to proceed?</qt>"
+msgstr "<qt>Time će se ukloniti svi vaši unosi iz bočne trake i dodati sistemski zadani unosi.<br /><b>Ovaj je postupak nepovratan.</b><br />Želite li nastaviti?</qt>"
+
+#: sidebar_widget.cpp:269
+#, kde-format
+msgid "Show Tabs on Right"
+msgstr "Prikaži kartice desno"
+
+#: sidebar_widget.cpp:280
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Name"
+msgstr "Postavi naziv"
+
+#: sidebar_widget.cpp:281
+#, kde-format
+msgid "Enter the name:"
+msgstr "Unesite naziv:"
+
+#: sidebar_widget.cpp:299
+#, kde-format
+msgid "Enter a URL:"
+msgstr "Unesite URL:"
+
+#: sidebar_widget.cpp:323
+#, kde-format
+msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
+msgstr "<qt>Želite li zaista ukloniti karticu <b>%1</b>?</qt>"
+
+#: sidebar_widget.cpp:373
+#, kde-format
+msgid ""
+"You have hidden the sidebar configuration button. To make it visible again, "
+"click the right mouse button on any of the sidebar buttons and select \"Show "
+"Configuration Button\"."
+msgstr "Sakrili ste gumb za konfiguraciju bočne trake. Da biste ga ponovno prikazali, desnom tipkom miša kliknite bilo koji gumb bočne trake i odaberite „Prikaži gumb za konfiguraciju”."
+
+#: sidebar_widget.cpp:574
+#, kde-format
+msgid "Set Name..."
+msgstr "Postavi naziv..."
+
+#: sidebar_widget.cpp:575
+#, kde-format
+msgid "Set URL..."
+msgstr "Postavi URL..."
+
+#: sidebar_widget.cpp:576
+#, kde-format
+msgid "Set Icon..."
+msgstr "Postavi ikonu..."
+
+#: sidebar_widget.cpp:578
+#, kde-format
+msgid "Show Hidden Folders..."
+msgstr "Prikaži skrivene mape..."
+
+#: sidebar_widget.cpp:583
+#, kde-format
+msgid "Remove"
+msgstr "Ukloni"
+
+#: sidebar_widget.cpp:907
+#, kde-format
+msgid "Web module"
+msgstr "Web-modul"
+
+#: tree_module/tree_module.cpp:259
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Tree Sidebar Module"
+msgstr "Modul bočne trake stabla"
+
+#: tree_module/tree_module.cpp:282
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tree"
+msgstr "Stablo"
+
+#: vertical_tabbar/vertical_tabbar.cpp:91
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Vertical Tab Bar"
+msgstr "Okomita traka kartica"
+
+#: vertical_tabbar/vertical_tabbar.cpp:114
+#, kde-format
+msgctxt "@title:tab"
+msgid "Tabs"
+msgstr "Kartice"
+
+#: web_module/web_module.cpp:42
+#, kde-format
+msgid "&Open Link"
+msgstr "&Otvori poveznicu"
+
+#: web_module/web_module.cpp:46
+#, kde-format
+msgid "Open in New &Window"
+msgstr "Otvori u novom &prozoru"
+
+#: web_module/web_module.cpp:52
+#, kde-format
+msgid "&Reload"
+msgstr "&Ponovno učitaj"
+
+#: web_module/web_module.cpp:57
+#, kde-format
+msgid "Set &Automatic Reload"
+msgstr "Postavi &automatsko ponovno učitavanje"
+
+#: web_module/web_module.cpp:121
+#, kde-format
+msgctxt "@title:window"
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "Postavi vremensko ograničenje osvježavanja (0 onemogućuje)"
+
+#: web_module/web_module.cpp:132
+#, kde-format
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " minuta"
+msgstr[1] " minute"
+msgstr[2] " minuta"
+
+#: web_module/web_module.cpp:136
+#, kde-format
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " sekunda"
+msgstr[1] " sekunde"
+msgstr[2] " sekundi"
+
+#: web_module/web_module.cpp:269
+#, kde-format
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Modul web-bočne trake"
+
+#: web_module/web_module.cpp:289
+#, kde-format
+msgctxt "@label"
+msgid "Name:"
+msgstr "Naziv:"
+
+#: web_module/web_module.cpp:289
+#, kde-format
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Putanja ili URL:"
+
+#: web_module/web_module.cpp:290
+#, kde-format
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr "Dodaj modul web-bočne trake"

@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the komodo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: komodo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-08-29 00:49+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: src/main.cpp:35
+#, kde-format
+msgctxt "@title"
+msgid "KomoDo"
+msgstr "KomoDo"
+
+#: src/main.cpp:39
+#, kde-format
+msgid "Work on To-Do lists"
+msgstr "Rad s popisima obveza"
+
+#: src/main.cpp:43
+#, kde-format
+msgid "© 2025 Akseli Lahtinen"
+msgstr "© 2025 Akseli Lahtinen"
+
+#: src/main.cpp:44
+#, kde-format
+msgctxt "@info:credit"
+msgid "Akseli Lahtinen"
+msgstr "Akseli Lahtinen"
+
+#: src/main.cpp:45
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: src/main.cpp:51
+#, kde-format
+msgctxt "Longer description in about page"
+msgid ""
+"<p>KomoDo is a todo manager that uses todo.txt specification. It parses any "
+"compliant todo.txt files and turns them into easy to use list of tasks.</p>"
+msgstr "<p>KomoDo je upravitelj zadataka koji koristi specifikaciju todo.txt. Obrađuje sve kompatibilne datoteke todo.txt i pretvara ih u jednostavne popise zadataka.</p>"
+
+#: src/main.cpp:59
+#, kde-format
+msgctxt "@info:shell"
+msgid "Insert the given text in the search bar."
+msgstr "Umetni zadani tekst u traku za pretraživanje."
+
+#: src/main.cpp:61
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Open the file with the given name. The filename in the config will be "
+"ignored."
+msgstr "Otvori datoteku zadanog naziva. Naziv datoteke u konfiguraciji zanemarit će se."
+
+#: src/Main.qml:16
+#, kde-format
+msgid "KomoDo"
+msgstr "KomoDo"
+
+#: src/plasmoid/config.qml:9
+#, kde-format
+msgctxt "@title:tab Configuration category"
+msgid "General"
+msgstr "Općenito"
+
+#: src/plasmoid/configGeneral.qml:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Show number of incomplete tasks when on a panel"
+msgstr "Prikaži broj nedovršenih zadataka na ploči"
+
+#: src/plasmoid/configGeneral.qml:28
+#, kde-format
+msgctxt "@info:tooltip Near the 'show badge' checkbox"
+msgid "Tasks which are hidden by the search filter are not counted."
+msgstr "Zadaci skriveni filtrom pretraživanja ne ubrajaju se."
+
+#: src/plasmoid/configGeneral.qml:33
+#, kde-format
+msgctxt "@label"
+msgid "File path:"
+msgstr "Putanja datoteke:"
+
+#: src/plasmoid/configGeneral.qml:39
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Path to To-Do list…"
+msgstr "Putanja do popisa obveza…"
+
+#: src/plasmoid/configGeneral.qml:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose To-Do list…"
+msgstr "Odaberi popis obveza…"
+
+#: src/plasmoid/configGeneral.qml:57
+#, kde-format
+msgctxt "@label:filedialog"
+msgid "Choose a To-Do list"
+msgstr "Odaberi popis obveza"
+
+#: src/plasmoid/configGeneral.qml:58 src/plasmoid/FullRepresentation.qml:96
+#, kde-format
+msgctxt "Filename filter"
+msgid "Text files (*.txt)"
+msgstr "Tekstualne datoteke (*.txt)"
+
+#: src/plasmoid/configGeneral.qml:73
+#, kde-format
+msgctxt "@label:group, followed by 'show' or 'hide, use ... instead'"
+msgid "Search bar:"
+msgstr "Traka za pretraživanje:"
+
+#: src/plasmoid/configGeneral.qml:74
+#, kde-format
+msgctxt "@option:check, show search bar, following 'search bar'"
+msgid "Show"
+msgstr "Prikaži"
+
+#: src/plasmoid/configGeneral.qml:81
+#, kde-format
+msgctxt "@option:check, hide search bar, following 'search bar'"
+msgid "Hide, use these values instead:"
+msgstr "Sakrij, umjesto toga upotrijebi ove vrijednosti:"
+
+#: src/plasmoid/configGeneral.qml:97
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search term…"
+msgstr "Pojam za pretraživanje…"
+
+#: src/plasmoid/configGeneral.qml:117 src/plasmoid/FullRepresentation.qml:61
+#, kde-format
+msgctxt "@item:inmenu Secondary filter, show all tasks"
+msgid "Show All"
+msgstr "Prikaži sve"
+
+#: src/plasmoid/configGeneral.qml:121 src/plasmoid/FullRepresentation.qml:65
+#, kde-format
+msgctxt "@item:inmenu Secondary filter, show tasks with due date"
+msgid "Due Date"
+msgstr "Rok"
+
+#: src/plasmoid/configGeneral.qml:125 src/plasmoid/FullRepresentation.qml:69
+#, kde-format
+msgctxt "@item:inmenu Secondary filter, show incomplete tasks"
+msgid "Incomplete"
+msgstr "Nedovršeno"
+
+#: src/plasmoid/configGeneral.qml:129 src/plasmoid/FullRepresentation.qml:73
+#, kde-format
+msgctxt "@item:inmenu Secondary filter, show completed tasks"
+msgid "Completed"
+msgstr "Dovršeno"
+
+#: src/plasmoid/FullRepresentation.qml:120
+#: src/TodoPage.qml:357
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No To-Dos found."
+msgstr "Nema obveza."
+
+#: src/plasmoid/FullRepresentation.qml:124
+#, kde-format
+msgctxt "@action:button Shown when the to-do list is empty"
+msgid "Edit in KomoDo…"
+msgstr "Uredi u KomoDou…"
+
+#: src/plasmoid/FullRepresentation.qml:133
+#: src/TodoPage.qml:364
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Welcome to KomoDo!"
+msgstr "Dobro došli u KomoDo!"
+
+#: src/plasmoid/FullRepresentation.qml:137
+#: src/TodoPage.qml:239
+#, kde-format
+msgctxt "@action:button"
+msgid "Open To-Do List…"
+msgstr "Otvori popis obveza…"
+
+#: src/plasmoid/main.qml:25
+#, kde-format
+msgctxt "@info:tooltip title, shown on hover"
+msgid "KomoDo Tasks"
+msgstr "Zadaci KomoDo"
+
+#: src/plasmoid/main.qml:26
+#, kde-format
+msgctxt "@info:tooltip description, shown on hover"
+msgid "Manage your tasks at a glance"
+msgstr "Upravljajte zadacima na prvi pogled"
+
+#: src/plasmoid/main.qml:66
+#, kde-format
+msgctxt "@action:inmenu Open the KomoDo app"
+msgid "Manage Tasks…"
+msgstr "Upravljaj zadacima…"
+
+#: src/TodoPage.qml:89
+#, kde-format
+msgid "Delete To-Do"
+msgstr "Izbriši obvezu"
+
+#: src/TodoPage.qml:101
+#, kde-format
+msgid "Are you sure you wish to delete this To-Do?"
+msgstr "Jeste li sigurni da želite izbrisati ovu obvezu?"
+
+#: src/TodoPage.qml:157
+#, kde-format
+msgid "Filter:"
+msgstr "Filtar:"
+
+#: src/TodoPage.qml:168
+#, kde-format
+msgid "Show All"
+msgstr "Prikaži sve"
+
+#: src/TodoPage.qml:172
+#, kde-format
+msgid "Due Date"
+msgstr "Rok"
+
+#: src/TodoPage.qml:176
+#, kde-format
+msgid "Incomplete"
+msgstr "Nedovršeno"
+
+#: src/TodoPage.qml:180
+#, kde-format
+msgid "Completed"
+msgstr "Dovršeno"
+
+#: src/TodoPage.qml:208
+#, kde-format
+msgid ""
+"This To-Do list has been changed externally. Reloading it is strongly "
+"advised!"
+msgstr "Ovaj je popis obveza promijenjen izvan programa. Preporučuje se da ga ponovo učitate."
+
+#: src/TodoPage.qml:214
+#, kde-format
+msgctxt "@action:button"
+msgid "Reload"
+msgstr "Ponovo učitaj"
+
+#: src/TodoPage.qml:226
+#, kde-format
+msgid ""
+"This To-Do list has been deleted! Open another To-Do list or create new one."
+msgstr "Ovaj je popis obveza izbrisan! Otvorite drugi popis obveza ili stvorite novi."
+
+#: src/TodoPage.qml:232 src/TodoPage.qml:271
+#, kde-format
+msgctxt "@button"
+msgid "Create New To-Do List…"
+msgstr "Stvori novi popis obveza…"
+
+#: src/TodoPage.qml:251
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New To-Do…"
+msgstr "Nova obveza…"
+
+#: src/TodoPage.qml:263
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open To-Do List…"
+msgstr "Otvori popis obveza…"
+
+#: src/TodoPage.qml:277
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Help…"
+msgstr "Pomoć…"
+
+#: src/TodoPage.qml:284
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Auto-insert creation date"
+msgstr "Automatski umetni datum stvaranja"
+
+#: src/TodoPage.qml:288
+#, kde-format
+msgctxt "A checkbox for toggling this setting"
+msgid "Insert a creation date for any new task automatically"
+msgstr "Automatski umetni datum stvaranja za svaki novi zadatak"
+
+#: src/TodoPage.qml:296
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Auto-reload on external changes"
+msgstr "Automatski ponovo učitaj pri vanjskim promjenama"
+
+#: src/TodoPage.qml:300
+#, kde-format
+msgctxt "A checkbox for toggling this setting"
+msgid ""
+"Reload the to-do list automatically when it changes on disk, such as through "
+"cloud sync"
+msgstr "Automatski ponovo učitaj popis obveza kada se promijeni na disku, primjerice sinkronizacijom s oblakom"
+
+#: src/TodoPage.qml:308
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KomoDo"
+msgstr "O programu KomoDo"
+
+#: src/TodoPage.qml:314
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "O KDE-u"
+
+#: src/TodoPage.qml:365
+#, kde-format
+msgctxt "Welcome introduction text"
+msgid ""
+"<p>KomoDo is a To-Do list application that uses <a href='https://github.com/"
+"todotxt/todo.txt'>todo.txt</a> rules.</p><p>The rules are fairly quick to "
+"learn and KomoDo has help sections for it: <br>On the toolbar, click the "
+"<i><interface>Help…</interface></i> button.<br>While editing a task, click "
+"the <i><interface>Syntax Information…</interface></i> button.</p><p>You can "
+"follow the rules as much or as little as you wish.<br> Feel free to "
+"experiment to find out your ideal way of managing tasks.</p><p>Click "
+"<i><interface>Open To-Do list…</interface></i> to use an existing list or "
+"<i><interface>Create New To-Do list…</interface></i> to start a new list.</p>"
+msgstr "<p>KomoDo je aplikacija za popise obveza koja koristi pravila <a href='https://github.com/todotxt/todo.txt'>todo.txt</a>.</p><p>Pravila je prilično lako naučiti, a KomoDo sadrži odjeljke pomoći: <br>Na alatnoj traci kliknite gumb <i><interface>Pomoć…</interface></i>.<br>Pri uređivanju zadatka kliknite gumb <i><interface>Informacije o sintaksi…</interface></i>.</p><p>Pravila možete slijediti koliko god želite.<br>Slobodno eksperimentirajte i pronađite idealan način upravljanja zadacima.</p><p>Kliknite <i><interface>Otvori popis obveza…</interface></i> za uporabu postojećeg popisa ili <i><interface>Stvori novi popis obveza…</interface></i> za stvaranje novog.</p>"
+
+#: src/ui/TodoDelegate.qml:70
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle completion status"
+msgstr "Promijeni stanje dovršenosti"
+
+#: src/ui/TodoDelegate.qml:106
+#, kde-format
+msgid "Priority"
+msgstr "Prioritet"
+
+#: src/ui/TodoDelegate.qml:203
+#, kde-format
+msgid "Task completion date"
+msgstr "Datum dovršetka zadatka"
+
+#: src/ui/TodoDelegate.qml:216
+#, kde-format
+msgid "Task due date"
+msgstr "Rok zadatka"
+
+#: src/ui/TodoDelegate.qml:229
+#, kde-format
+msgid "Task creation date"
+msgstr "Datum stvaranja zadatka"
+
+#: src/ui/TodoDelegate.qml:246
+#, kde-format
+msgctxt "@button"
+msgid "Edit in KomoDo…"
+msgstr "Uredi u KomoDou…"
+
+#: src/ui/TodoDelegate.qml:268
+#, kde-format
+msgctxt "@button"
+msgid "Edit"
+msgstr "Uredi"
+
+#: src/ui/TodoDelegate.qml:292
+#, kde-format
+msgctxt "@button"
+msgid "Delete"
+msgstr "Izbriši"
+
+#: src/ui/TodoDelegate.qml:329
+#, kde-format
+msgctxt "Placeholder text for creating new tasks"
+msgid "(A) YYYY-MM-DD Description +Project @Context key:value"
+msgstr "(A) GGGG-MM-DD Opis +Projekt @Kontekst ključ:vrijednost"
+
+#: src/ui/TodoDelegate.qml:365
+#, kde-format
+msgctxt "@button"
+msgid "Insert Date…"
+msgstr "Umetni datum…"
+
+#: src/ui/TodoDelegate.qml:367
+#, kde-format
+msgid "Open a date picker and insert it at cursor position"
+msgstr "Otvori birač datuma i umetni datum na mjesto pokazivača"
+
+#: src/ui/TodoDelegate.qml:379
+#, kde-format
+msgid "Syntax Information"
+msgstr "Informacije o sintaksi"
+
+#: src/ui/TodoDelegate.qml:384
+#, kde-format
+msgctxt "Syntax quick guide"
+msgid ""
+"<p>Order of items matters:</p><pre>Completion Priority Creation-Date "
+"Description</pre><ul><li>x : Completion status. Remove to set task "
+"incompleted.</li><li>(A) : Priority. Can be from A to Z. Optional.</"
+"li><li>Completion Date: Date in Year-Month-Day format. Add only if there is "
+"creation date and task is completed.</li><li>Creation date: Date in Year-"
+"Month-Day format. Optional, but recommended.</li><li>Description: General "
+"task description. Mandatory.<ul><li>+Project: Projects this task is relevant "
+"to. Optional.</li><li>@Context: In which contexts this task is relevant in. "
+"Optional.</li><li>key:value: Various key-value pairs of information. "
+"Optional.</li></ul></li></ul><p>Description, contexts, key:value-pairs and "
+"projects can be mixed with each other.</p><p>For more detailed information "
+"and examples, click on the Help button.</p><br>"
+msgstr "<p>Redoslijed stavki je važan:</p><pre>Dovršenost Prioritet Datum-stvaranja Opis</pre><ul><li>x : Stanje dovršenosti. Uklonite oznaku da biste zadatak postavili kao nedovršen.</li><li>(A) : Prioritet. Može biti od A do Z. Nije obvezno.</li><li>Datum dovršetka: Datum u obliku godina-mjesec-dan. Dodaje se samo ako postoji datum stvaranja i zadatak je dovršen.</li><li>Datum stvaranja: Datum u obliku godina-mjesec-dan. Nije obvezan, ali se preporučuje.</li><li>Opis: Opći opis zadatka. Obvezan.<ul><li>+Projekt: Projekti na koje se zadatak odnosi. Nije obvezno.</li><li>@Kontekst: Konteksti u kojima je zadatak relevantan. Nije obvezno.</li><li>ključ:vrijednost: Razni parovi ključeva i vrijednosti. Nije obvezno.</li></ul></li></ul><p>Opisi, konteksti, parovi ključ:vrijednost i projekti mogu se međusobno kombinirati.</p><p>Za detaljnije informacije i primjere kliknite gumb Pomoć.</p><br>"
+
+#: src/ui/TodoDelegate.qml:389
+#, kde-format
+msgid "Syntax Information…"
+msgstr "Informacije o sintaksi…"
+
+#: src/ui/TodoDelegate.qml:397
+#, kde-format
+msgid "Show todo.txt syntax reference"
+msgstr "Prikaži referencu sintakse todo.txt"
+
+#: src/ui/TodoDelegate.qml:411
+#, kde-format
+msgctxt "@button"
+msgid "Save"
+msgstr "Spremi"
+
+#: src/ui/TodoDelegate.qml:432
+#, kde-format
+msgctxt "@button"
+msgid "Cancel"
+msgstr "Odustani"

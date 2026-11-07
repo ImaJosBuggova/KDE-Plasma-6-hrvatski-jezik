@@ -9,45 +9,46 @@ msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-03 00:43+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Lokalize\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roko Tomović"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "roko@maesdbk.hr"
 
 #: commands/imagelib/effects/kpEffectBalanceCommand.cpp:17
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:80
 #, kde-format
 msgid "Balance"
-msgstr ""
+msgstr "Ravnoteža"
 
 #: commands/imagelib/effects/kpEffectBlurSharpenCommand.cpp:28
 #, kde-format
 msgid "Soften"
-msgstr ""
+msgstr "Omekšaj"
 
 #: commands/imagelib/effects/kpEffectBlurSharpenCommand.cpp:30
 #, kde-format
 msgid "Sharpen"
-msgstr ""
+msgstr "Izoštri"
 
 #: commands/imagelib/effects/kpEffectClearCommand.cpp:34
 #, kde-format
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
 #: commands/imagelib/effects/kpEffectClearCommand.cpp:36
 #: commands/imagelib/effects/kpEffectCommandBase.cpp:43
@@ -56,255 +57,256 @@ msgstr ""
 #: commands/imagelib/transforms/kpTransformSkewCommand.cpp:53
 #, kde-format
 msgid "Selection: %1"
-msgstr ""
+msgstr "Odabir: %1"
 
 #: commands/imagelib/effects/kpEffectEmbossCommand.cpp:17
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:81
 #, kde-format
 msgid "Emboss"
-msgstr ""
+msgstr "Reljef"
 
 #: commands/imagelib/effects/kpEffectFlattenCommand.cpp:18
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:82
 #, kde-format
 msgid "Flatten"
-msgstr ""
+msgstr "Poravnaj"
 
 #: commands/imagelib/effects/kpEffectGrayscaleCommand.cpp:17
 #, kde-format
 msgid "Reduce to Grayscale"
-msgstr ""
+msgstr "Svedi na nijanse sive"
 
 #: commands/imagelib/effects/kpEffectHSVCommand.cpp:15
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:84
 #, kde-format
 msgid "Hue, Saturation, Value"
-msgstr ""
+msgstr "Nijansa, zasićenost, vrijednost"
 
 #: commands/imagelib/effects/kpEffectInvertCommand.cpp:17
 #, kde-format
 msgid "Invert Colors"
-msgstr ""
+msgstr "Preokreni boje"
 
 #: commands/imagelib/effects/kpEffectInvertCommand.cpp:17
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:85
 #, kde-format
 msgid "Invert"
-msgstr ""
+msgstr "Preokreni"
 
 #: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:32
 #, kde-format
 msgid "Reduce to Monochrome (Dithered)"
-msgstr ""
+msgstr "Svedi na jednobojni prikaz (iscrtano)"
 
 #: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:34
 #, kde-format
 msgid "Reduce to Monochrome"
-msgstr ""
+msgstr "Svedi na jednobojni prikaz"
 
 #: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:38
 #, kde-format
 msgid "Reduce to 256 Color (Dithered)"
-msgstr ""
+msgstr "Svedi na 256 boja (iscrtano)"
 
 #: commands/imagelib/effects/kpEffectReduceColorsCommand.cpp:40
 #, kde-format
 msgid "Reduce to 256 Color"
-msgstr ""
+msgstr "Svedi na 256 boja"
 
 #: commands/imagelib/effects/kpEffectToneEnhanceCommand.cpp:18
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:83
 #, kde-format
 msgid "Histogram Equalizer"
-msgstr ""
+msgstr "Ekvalizator histograma"
 
 #: commands/imagelib/transforms/kpTransformFlipCommand.cpp:43
 #, kde-format
 msgid "Flip"
-msgstr ""
+msgstr "Preokreni"
 
 #: commands/imagelib/transforms/kpTransformFlipCommand.cpp:46
 #, kde-format
 msgid "Flip horizontally and vertically"
-msgstr ""
+msgstr "Preokreni vodoravno i okomito"
 
 #: commands/imagelib/transforms/kpTransformFlipCommand.cpp:48
 #, kde-format
 msgid "Flip horizontally"
-msgstr ""
+msgstr "Preokreni vodoravno"
 
 #: commands/imagelib/transforms/kpTransformFlipCommand.cpp:50
 #, kde-format
 msgid "Flip vertically"
-msgstr ""
+msgstr "Preokreni okomito"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:69
 #: commands/tools/selection/kpToolSelectionResizeScaleCommand.cpp:29
 #, kde-format
 msgid "Text: Resize Box"
-msgstr ""
+msgstr "Tekst: promijeni veličinu okvira"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:73
 #, kde-format
 msgid "Selection: Scale"
-msgstr ""
+msgstr "Odabir: skaliraj"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:77
 #: commands/tools/selection/kpToolSelectionResizeScaleCommand.cpp:29
 #, kde-format
 msgid "Selection: Smooth Scale"
-msgstr ""
+msgstr "Odabir: glatko skaliranje"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:83
 #, kde-format
 msgid "Resize"
-msgstr ""
+msgstr "Promijeni veličinu"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:85
 #, kde-format
 msgid "Scale"
-msgstr ""
+msgstr "Skaliraj"
 
 #: commands/imagelib/transforms/kpTransformResizeScaleCommand.cpp:87
 #, kde-format
 msgid "Smooth Scale"
-msgstr ""
+msgstr "Glatko skaliranje"
 
 #: commands/imagelib/transforms/kpTransformRotateCommand.cpp:48
 #, kde-format
 msgid "Rotate"
-msgstr ""
+msgstr "Zakreni"
 
 #: commands/imagelib/transforms/kpTransformSkewCommand.cpp:51
 #, kde-format
 msgid "Skew"
-msgstr ""
+msgstr "Iskrivi"
 
 #: commands/kpCommandHistoryBase.cpp:376
 #, kde-format
 msgid "&Undo: %1"
-msgstr ""
+msgstr "&Poništi: %1"
 
 #: commands/kpCommandHistoryBase.cpp:376
 #, kde-format
 msgid "&Undo"
-msgstr ""
+msgstr "&Poništi"
 
 #: commands/kpCommandHistoryBase.cpp:384
 #, kde-format
 msgid "&Redo: %1"
-msgstr ""
+msgstr "&Ponovi: %1"
 
 #: commands/kpCommandHistoryBase.cpp:384
 #, kde-format
 msgid "&Redo"
-msgstr ""
+msgstr "&Ponovi"
 
 #: commands/kpCommandHistoryBase.cpp:392
 #, kde-format
 msgid "Undo: %1"
-msgstr ""
+msgstr "Poništi: %1"
 
 #: commands/kpCommandHistoryBase.cpp:392 commands/kpCommandHistoryBase.cpp:554
 #, kde-format
 msgid "Undo"
-msgstr ""
+msgstr "Poništi"
 
 #: commands/kpCommandHistoryBase.cpp:400
 #, kde-format
 msgid "Redo: %1"
-msgstr ""
+msgstr "Ponovi: %1"
 
 #: commands/kpCommandHistoryBase.cpp:400 commands/kpCommandHistoryBase.cpp:572
 #, kde-format
 msgid "Redo"
-msgstr ""
+msgstr "Ponovi"
 
 #: commands/kpCommandHistoryBase.cpp:519
 #, kde-format
 msgid "%1: %2"
-msgstr ""
+msgstr "%1: %2"
 
 #: commands/kpCommandHistoryBase.cpp:529
 #, kde-format
 msgid "%1 more item"
 msgid_plural "%1 more items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dodatna stavka"
+msgstr[1] "%1 dodatne stavke"
+msgstr[2] "%1 dodatnih stavki"
 
 #: commands/tools/kpToolColorPickerCommand.cpp:31
 #: tools/kpToolColorPicker.cpp:23
 #, kde-format
 msgid "Color Picker"
-msgstr ""
+msgstr "Odabir boje"
 
 #: commands/tools/kpToolFloodFillCommand.cpp:52
 #: tools/kpToolFloodFill.cpp:32
 #, kde-format
 msgid "Flood Fill"
-msgstr ""
+msgstr "Popunjavanje"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:61
 #, kde-format
 msgctxt "@title:window"
 msgid "More Image Effects (Selection)"
-msgstr ""
+msgstr "Više efekata slike (odabir)"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:63
 #, kde-format
 msgctxt "@title:window"
 msgid "More Image Effects"
-msgstr ""
+msgstr "Više efekata slike"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:74
 #, kde-format
 msgid "&Effect:"
-msgstr ""
+msgstr "&Efekt:"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:86
 #, kde-format
 msgid "Reduce Colors"
-msgstr ""
+msgstr "Smanji broj boja"
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:87
 #, kde-format
 msgid "Soften & Sharpen"
-msgstr ""
+msgstr "Omekšaj i izoštri"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:89
 #, kde-format
 msgctxt "@title:window"
 msgid "Document Properties"
-msgstr ""
+msgstr "Svojstva dokumenta"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:107
 #, kde-format
 msgid "Dots &Per Inch (DPI)"
-msgstr ""
+msgstr "Točaka &po inču (DPI)"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:114
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:124
 #, kde-format
 msgid "Unspecified"
-msgstr ""
+msgstr "Nije navedeno"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:116
 #, kde-format
 msgctxt "Horizontal DPI 'x' Vertical DPI"
 msgid " × "
-msgstr ""
+msgstr " × "
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:128
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:175
 #, kde-format
 msgid "Horizontal:"
-msgstr ""
+msgstr "Vodoravno:"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:131
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:177
 #, kde-format
 msgid "Vertical:"
-msgstr ""
+msgstr "Okomito:"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:137
 #, kde-format
@@ -320,12 +322,12 @@ msgid ""
 "size as on the screen.</p><p>Not all image formats support DPI values. If "
 "the format you save in does not support them, they will not be saved.</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p><b>Točaka po inču</b> (DPI) određuje broj piksela slike koji će se ispisati unutar jednog inča (2,54 cm).</p><p>Što je DPI slike veći, ispisana je slika manja. Imajte na umu da pisač vjerojatno neće ispisati sliku visoke kvalitete ako vrijednost povećate iznad 300 ili 600 DPI-ja, ovisno o pisaču.</p><p>Želite li ispisati sliku u istoj veličini kao na zaslonu, postavite DPI slike na vrijednost DPI-ja zaslona.</p><p>Ako neka vrijednost DPI-ja nije <b>navedena</b>, slika će se ispisati u istoj veličini kao na zaslonu.</p><p>Ne podržavaju svi formati slika vrijednosti DPI-ja. Ako ih format spremanja ne podržava, neće biti spremljene.</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:165
 #, kde-format
 msgid "O&ffset"
-msgstr ""
+msgstr "Pomak"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:183
 #, kde-format
@@ -334,28 +336,28 @@ msgid ""
 "placed, compared to other images.</p><p>Not all image formats support the "
 "<b>Offset</b> feature. If the format you save in does not support it, the "
 "values specified here will not be saved.</p></qt>"
-msgstr ""
+msgstr "<qt><p><b>Pomak</b> je relativni položaj na koji treba smjestiti ovu sliku u odnosu na ostale slike.</p><p>Ne podržavaju svi formati slika mogućnost <b>pomaka</b>. Ako je format spremanja ne podržava, ovdje navedene vrijednosti neće biti spremljene.</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:196
 #, kde-format
 msgid "&Text Fields"
-msgstr ""
+msgstr "&Tekstna polja"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:205
 #, kde-format
 msgid "&Add Row"
-msgstr ""
+msgstr "&Dodaj redak"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:208
 #, kde-format
 msgid "&Delete Row"
-msgstr ""
+msgstr "&Izbriši redak"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:211
 #: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:44
 #, kde-format
 msgid "&Reset"
-msgstr ""
+msgstr "&Vrati na početno"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:226
 #, kde-format
@@ -366,97 +368,97 @@ msgid ""
 "computer-interpreted data - that you should not modify - but this is "
 "unlikely.</p><p>Not all image formats support <b>Text Fields</b>. If the "
 "format you save in does not support them, they will not be saved.</p></qt>"
-msgstr ""
+msgstr "<qt><p><b>Tekstna polja</b> sadrže dodatne informacije o slici. Vjerojatno su to polja za komentare u koja možete upisati proizvoljan tekst.</p><p>Međutim, to ovisi o formatu pa bi polja teoretski mogla sadržavati podatke koje računalo obrađuje i koje ne biste trebali mijenjati, no to je malo vjerojatno.</p><p>Ne podržavaju svi formati slika <b>tekstna polja</b>. Ako ih format spremanja ne podržava, neće biti spremljena.</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:307
 #, kde-format
 msgid "Key"
-msgstr ""
+msgstr "Ključ"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:307
 #, kde-format
 msgid "Value"
-msgstr ""
+msgstr "Vrijednost"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:381
 #, kde-format
 msgid "The text value \"%1\" on line %2 requires a key."
-msgstr ""
+msgstr "Tekstna vrijednost „%1” u retku %2 zahtijeva ključ."
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:403
 #, kde-format
 msgid ""
 "All text keys must be unique. The text key \"%1\" on lines %2 and %3 are "
 "identical."
-msgstr ""
+msgstr "Svi tekstni ključevi moraju biti jedinstveni. Tekstni ključ „%1” u recima %2 i %3 jednak je."
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:639
 #, kde-format
 msgctxt "@title:window"
 msgid "Invalid Text Fields"
-msgstr ""
+msgstr "Nevaljana tekstna polja"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:98
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:238
 #, kde-format
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimenzije"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:100
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:245
 #, kde-format
 msgid "Original:"
-msgstr ""
+msgstr "Izvorno:"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:103
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:200
 #, kde-format
 msgid "%1 x %2"
-msgstr ""
+msgstr "%1 × %2"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:127
 #: dialogs/kpColorSimilarityDialog.cpp:36
 #, kde-format
 msgid "Preview"
-msgstr ""
+msgstr "Pretpregled"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:133
 #: dialogs/kpColorSimilarityDialog.cpp:41
 #, kde-format
 msgid "&Update"
-msgstr ""
+msgstr "&Ažuriraj"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:67
 #, kde-format
 msgctxt "@title:window"
 msgid "Resize / Scale"
-msgstr ""
+msgstr "Promjena veličine / skaliranje"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:133
 #, kde-format
 msgid "Ac&t on:"
-msgstr ""
+msgstr "Radnja nad:"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:138
 #, kde-format
 msgid "Entire Image"
-msgstr ""
+msgstr "Cijela slika"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:140
 #: layers/selections/image/kpAbstractImageSelection.cpp:168
 #, kde-format
 msgid "Selection"
-msgstr ""
+msgstr "Odabir"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:143
 #, kde-format
 msgid "Text Box"
-msgstr ""
+msgstr "Tekstni okvir"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:187
 #, kde-format
 msgid "Operation"
-msgstr ""
+msgstr "Radnja"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:189
 #, kde-format
@@ -468,49 +470,49 @@ msgid ""
 "squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is the same "
 "as <i>Scale</i> except that it blends neighboring pixels to produce a "
 "smoother looking picture.</li></ul></qt>"
-msgstr ""
+msgstr "<qt><ul><li><b>Promijeni veličinu</b>: Slika će se povećati stvaranjem novih područja desno i/ili dolje (ispunjenih bojom pozadine) ili smanjiti obrezivanjem s desne strane i/ili odozdo.</li><li><b>Skaliraj</b>: Slika će se povećati dupliciranjem piksela ili smanjiti njihovim uklanjanjem.</li><li><b>Glatko skaliranje</b>: Isto je kao <i>skaliranje</i>, osim što se susjedni pikseli stapaju kako bi slika izgledala glađe.</li></ul></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:208
 #, kde-format
 msgid "&Resize"
-msgstr ""
+msgstr "&Promijeni veličinu"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:211
 #, kde-format
 msgid "&Scale"
-msgstr ""
+msgstr "&Skaliraj"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:214
 #, kde-format
 msgid "S&mooth Scale"
-msgstr ""
+msgstr "&Glatko skaliraj"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:240
 #, kde-format
 msgid "Width:"
-msgstr ""
+msgstr "Širina:"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:242
 #, kde-format
 msgid "Height:"
-msgstr ""
+msgstr "Visina:"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:249
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:257
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:269
 #, kde-format
 msgid "×"
-msgstr ""
+msgstr "×"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:254
 #, kde-format
 msgid "&New:"
-msgstr ""
+msgstr "&Novo:"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:261
 #, kde-format
 msgid "&Percent:"
-msgstr ""
+msgstr "&Postotak:"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:267
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:276
@@ -519,12 +521,12 @@ msgstr ""
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "%v%"
-msgstr ""
+msgstr "%v%"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:278
 #, kde-format
 msgid "Keep &aspect ratio"
-msgstr ""
+msgstr "Zadrži &omjer"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:639
 #, kde-format
@@ -533,7 +535,7 @@ msgid ""
 "memory. This can reduce system responsiveness and cause other application "
 "resource problems.</p><p>Are you sure you want to resize the text box?</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p>Promjena veličine tekstnog okvira na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista promijeniti veličinu tekstnog okvira?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:647
 #, kde-format
@@ -620,12 +622,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Smooth Scale Image?"
-msgstr ""
+msgstr "Glatko skalirati sliku?"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:706
 #, kde-format
 msgid "Smooth Scal&e Image"
-msgstr ""
+msgstr "Glatko skaliraj s&liku"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:709
 #, kde-format
@@ -634,83 +636,83 @@ msgid ""
 "of memory. This can reduce system responsiveness and cause other application "
 "resource problems.</p><p>Are you sure you want to smooth scale the selection?"
 "</p></qt>"
-msgstr ""
+msgstr "<qt><p>Glatko skaliranje odabira na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista glatko skalirati odabir?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:717
 #, kde-format
 msgctxt "@title:window"
 msgid "Smooth Scale Selection?"
-msgstr ""
+msgstr "Glatko skalirati odabir?"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:718
 #, kde-format
 msgid "Smooth Scal&e Selection"
-msgstr ""
+msgstr "Glatko skaliraj o&dabir"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Selection"
-msgstr ""
+msgstr "Zakreni odabir"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:40
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Image"
-msgstr ""
+msgstr "Zakreni sliku"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:41
 #, kde-format
 msgid "After rotate:"
-msgstr ""
+msgstr "Nakon zakretanja:"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:68
 #, kde-format
 msgid "Direction"
-msgstr ""
+msgstr "Smjer"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:94
 #, kde-format
 msgid "Cou&nterclockwise"
-msgstr ""
+msgstr "Suprotno od smjera &kazaljke na satu"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:95
 #, kde-format
 msgid "C&lockwise"
-msgstr ""
+msgstr "U smjeru kaza&ljke na satu"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:114
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:66
 #, kde-format
 msgid "Angle"
-msgstr ""
+msgstr "Kut"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:117
 #, kde-format
 msgid "90 &degrees"
-msgstr ""
+msgstr "90 &stupnjeva"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:118
 #, kde-format
 msgid "180 d&egrees"
-msgstr ""
+msgstr "180 st&upnjeva"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:119
 #, kde-format
 msgid "270 de&grees"
-msgstr ""
+msgstr "270 stup&njeva"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:121
 #, kde-format
 msgid "C&ustom:"
-msgstr ""
+msgstr "P&rilagođeno:"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:126
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:78
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:89
 #, kde-format
 msgid "degrees"
-msgstr ""
+msgstr "stupnjeva"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:230
 #, kde-format
@@ -719,18 +721,18 @@ msgid ""
 "memory. This can reduce system responsiveness and cause other application "
 "resource problems.</p><p>Are you sure you want to rotate the selection?</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p>Zakretanje odabira na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista zakrenuti odabir?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:238
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Selection?"
-msgstr ""
+msgstr "Zakrenuti odabir?"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:239
 #, kde-format
 msgid "Rotat&e Selection"
-msgstr ""
+msgstr "Zakreni o&dabir"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:243
 #, kde-format
@@ -738,45 +740,45 @@ msgid ""
 "<qt><p>Rotating the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to rotate the image?</p></qt>"
-msgstr ""
+msgstr "<qt><p>Zakretanje slike na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista zakrenuti sliku?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:251
 #, kde-format
 msgctxt "@title:window"
 msgid "Rotate Image?"
-msgstr ""
+msgstr "Zakrenuti sliku?"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:252
 #, kde-format
 msgid "Rotat&e Image"
-msgstr ""
+msgstr "Zakreni s&liku"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Selection"
-msgstr ""
+msgstr "Iskrivi odabir"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:37
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Image"
-msgstr ""
+msgstr "Iskrivi sliku"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:38
 #, kde-format
 msgid "After skew:"
-msgstr ""
+msgstr "Nakon iskrivljenja:"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:72
 #, kde-format
 msgid "&Horizontal:"
-msgstr ""
+msgstr "&Vodoravno:"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:83
 #, kde-format
 msgid "&Vertical:"
-msgstr ""
+msgstr "&Okomito:"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:199
 #, kde-format
@@ -785,18 +787,18 @@ msgid ""
 "memory. This can reduce system responsiveness and cause other application "
 "resource problems.</p><p>Are you sure you want to skew the selection?</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p>Iskrivljavanje odabira na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista iskriviti odabir?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:207
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Selection?"
-msgstr ""
+msgstr "Iskriviti odabir?"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:208
 #, kde-format
 msgid "Sk&ew Selection"
-msgstr ""
+msgstr "I&skrij odabir"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:212
 #, kde-format
@@ -804,88 +806,89 @@ msgid ""
 "<qt><p>Skewing the image to %1x%2 may take a substantial amount of memory. "
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to skew the image?</p></qt>"
-msgstr ""
+msgstr "<qt><p>Iskrivljavanje slike na %1 × %2 može zahtijevati mnogo memorije. To može usporiti sustav i uzrokovati probleme s resursima drugih aplikacija.</p><p>Želite li zaista iskriviti sliku?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:220
 #, kde-format
 msgctxt "@title:window"
 msgid "Skew Image?"
-msgstr ""
+msgstr "Iskriviti sliku?"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:221
 #, kde-format
 msgid "Sk&ew Image"
-msgstr ""
+msgstr "I&skrij sliku"
 
 #: dialogs/kpColorSimilarityDialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Color Similarity"
-msgstr ""
+msgstr "Sličnost boja"
 
 #: dialogs/kpColorSimilarityDialog.cpp:49
 #, kde-format
 msgid "&RGB Color Cube Distance"
-msgstr ""
+msgstr "Udaljenost u &RGB kocki boja"
 
 #: dialogs/kpColorSimilarityDialog.cpp:53
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Exact match"
-msgstr ""
+msgstr "Točno podudaranje"
 
 #: dialogs/kpColorSimilarityDialog.cpp:57
 #, kde-format
 msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
-msgstr ""
+msgstr "<a href=\"dummy_to_make_link_clickable\">Što je sličnost boja?</a>"
 
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Preview"
-msgstr ""
+msgstr "Spremi pretpregled"
 
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:88
 #, kde-format
 msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 bajt (približno %2 %)"
+msgstr[1] "%1 bajta (približno %2 %)"
+msgstr[2] "%1 bajtova (približno %2 %)"
 
 #: document/kpDocument_Open.cpp:87
 #, kde-format
 msgid "Could not open \"%1\"."
-msgstr ""
+msgstr "Nije moguće otvoriti „%1”."
 
 #: document/kpDocument_Open.cpp:121
 #, kde-format
 msgid ""
 "Could not open \"%1\" - unsupported image format.\n"
 "The file may be corrupt."
-msgstr ""
+msgstr "Nije moguće otvoriti „%1” – format slike nije podržan.\nDatoteka je možda oštećena."
 
 #: document/kpDocument_Save.cpp:47
 #, kde-format
 msgid "Could not save image - insufficient information."
-msgstr ""
+msgstr "Nije moguće spremiti sliku – nema dovoljno informacija."
 
 #: document/kpDocument_Save.cpp:48
 #, kde-format
 msgid ""
 "URL: %1\n"
 "Mimetype: %2"
-msgstr ""
+msgstr "URL: %1\nMIME vrsta: %2"
 
 #: document/kpDocument_Save.cpp:51
 #, kde-format
 msgid "<empty>"
-msgstr ""
+msgstr "<prazno>"
 
 #: document/kpDocument_Save.cpp:52
 #, kde-format
 msgctxt "@title:window"
 msgid "Internal Error"
-msgstr ""
+msgstr "Interna pogreška"
 
 #: document/kpDocument_Save.cpp:80
 #, kde-format
@@ -893,13 +896,13 @@ msgid ""
 "<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
 "color information.</p><p>Are you sure you want to save in this format?</p></"
 "qt>"
-msgstr ""
+msgstr "<qt><p>Format <b>%1</b> možda neće moći sačuvati sve informacije o bojama slike.</p><p>Želite li zaista spremiti u ovom formatu?</p></qt>"
 
 #: document/kpDocument_Save.cpp:87
 #, kde-format
 msgctxt "@title:window"
 msgid "Lossy File Format"
-msgstr ""
+msgstr "Format datoteke s gubitkom"
 
 #: document/kpDocument_Save.cpp:93
 #, kde-format
@@ -907,400 +910,400 @@ msgid ""
 "<qt><p>Saving the image at the low color depth of %1-bit may result in the "
 "loss of color information. Any transparency might also be removed.</p><p>Are "
 "you sure you want to save at this color depth?</p></qt>"
-msgstr ""
+msgstr "<qt><p>Spremanje slike s malom dubinom boja od %1 bita može uzrokovati gubitak informacija o bojama. Može se ukloniti i prozirnost.</p><p>Želite li zaista spremiti s ovom dubinom boja?</p></qt>"
 
 #: document/kpDocument_Save.cpp:103
 #, kde-format
 msgctxt "@title:window"
 msgid "Low Color Depth"
-msgstr ""
+msgstr "Mala dubina boja"
 
 #: document/kpDocument_Save.cpp:212
 #, kde-format
 msgid "Could not save image - unable to create temporary file."
-msgstr ""
+msgstr "Nije moguće spremiti sliku – nije moguće stvoriti privremenu datoteku."
 
 #: document/kpDocument_Save.cpp:219
 #, kde-format
 msgid "Could not save as \"%1\": %2"
-msgstr ""
+msgstr "Nije moguće spremiti kao „%1”: %2"
 
 #: document/kpDocument_Save.cpp:277 document/kpDocument_Save.cpp:312
 #, kde-format
 msgid "Error saving image"
-msgstr ""
+msgstr "Pogreška pri spremanju slike"
 
 #: document/kpDocument_Save.cpp:341
 #, kde-format
 msgid "Could not save image - failed to upload."
-msgstr ""
+msgstr "Nije moguće spremiti sliku – prijenos nije uspio."
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:334
 #, kde-format
 msgid "Remove Internal B&order"
-msgstr ""
+msgstr "Ukloni unutarnji r&ub"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:337
 #, kde-format
 msgid "Remove Internal Border"
-msgstr ""
+msgstr "Ukloni unutarnji rub"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:341
 #, kde-format
 msgid "Autocr&op"
-msgstr ""
+msgstr "Automatski o&breži"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:343
 #, kde-format
 msgid "Autocrop"
-msgstr ""
+msgstr "Automatsko obrezivanje"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:518
 #, kde-format
 msgid ""
 "KolourPaint cannot remove the selection's internal border as it could not be "
 "located."
-msgstr ""
+msgstr "KolourPaint ne može ukloniti unutarnji rub odabira jer ga nije moguće pronaći."
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:520
 #, kde-format
 msgctxt "@title:window"
 msgid "Cannot Remove Internal Border"
-msgstr ""
+msgstr "Nije moguće ukloniti unutarnji rub"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:524
 #, kde-format
 msgid ""
 "KolourPaint cannot automatically crop the image as its border could not be "
 "located."
-msgstr ""
+msgstr "KolourPaint ne može automatski obrezati sliku jer nije moguće pronaći njezin rub."
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:526
 #, kde-format
 msgctxt "@title:window"
 msgid "Cannot Autocrop"
-msgstr ""
+msgstr "Nije moguće automatski obrezati"
 
 #: imagelib/transforms/kpTransformCrop.cpp:43
 #: imagelib/transforms/kpTransformCrop.cpp:45
 #, kde-format
 msgid "Set as Image"
-msgstr ""
+msgstr "Postavi kao sliku"
 
 #: imagelib/transforms/kpTransformCrop_ImageSelection.cpp:201
 #: mainWindow/kpMainWindow_Edit.cpp:312 mainWindow/kpMainWindow_Image.cpp:282
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:52
 #, kde-format
 msgid "Selection: Create"
-msgstr ""
+msgstr "Odabir: stvori"
 
 #: kolourpaint.cpp:30
 #, kde-format
 msgid "KolourPaint"
-msgstr ""
+msgstr "KolourPaint"
 
 #: kolourpaint.cpp:32
 #, kde-format
 msgid "Paint Program by KDE"
-msgstr ""
+msgstr "KDE-ov program za crtanje"
 
 #: kolourpaint.cpp:46
 #, kde-format
 msgid "Clarence Dang"
-msgstr ""
+msgstr "Clarence Dang"
 
 #: kolourpaint.cpp:46
 #, kde-format
 msgid "Project Founder"
-msgstr ""
+msgstr "Osnivač projekta"
 
 #: kolourpaint.cpp:48
 #, kde-format
 msgid "Thurston Dang"
-msgstr ""
+msgstr "Thurston Dang"
 
 #: kolourpaint.cpp:48
 #, kde-format
 msgid "Chief Investigator"
-msgstr ""
+msgstr "Glavni istraživač"
 
 #: kolourpaint.cpp:50
 #, kde-format
 msgid "Martin Koller"
-msgstr ""
+msgstr "Martin Koller"
 
 #: kolourpaint.cpp:50
 #, kde-format
 msgid "Scanning Support, Alpha Support, Current Maintainer"
-msgstr ""
+msgstr "Podrška za skeniranje i prozirnost, trenutačni održavatelj"
 
 #: kolourpaint.cpp:52
 #, kde-format
 msgid "Kristof Borrey"
-msgstr ""
+msgstr "Kristof Borrey"
 
 #: kolourpaint.cpp:52 kolourpaint.cpp:55 kolourpaint.cpp:56
 #, kde-format
 msgid "Icons"
-msgstr ""
+msgstr "Ikone"
 
 #: kolourpaint.cpp:53
 #, kde-format
 msgid "Tasuku Suzuki"
-msgstr ""
+msgstr "Tasuku Suzuki"
 
 #: kolourpaint.cpp:53 kolourpaint.cpp:54
 #, kde-format
 msgid "InputMethod Support"
-msgstr ""
+msgstr "Podrška za metode unosa"
 
 #: kolourpaint.cpp:54
 #, kde-format
 msgid "Kazuki Ohta"
-msgstr ""
+msgstr "Kazuki Ohta"
 
 #: kolourpaint.cpp:55
 #, kde-format
 msgid "Nuno Pinheiro"
-msgstr ""
+msgstr "Nuno Pinheiro"
 
 #: kolourpaint.cpp:56
 #, kde-format
 msgid "Danny Allen"
-msgstr ""
+msgstr "Danny Allen"
 
 #: kolourpaint.cpp:57
 #, kde-format
 msgid "Mike Gashler"
-msgstr ""
+msgstr "Mike Gashler"
 
 #: kolourpaint.cpp:57
 #, kde-format
 msgid "Image Effects"
-msgstr ""
+msgstr "Efekti slike"
 
 #: kolourpaint.cpp:59
 #, kde-format
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: kolourpaint.cpp:59
 #, kde-format
 msgid "KDE 4 Porting"
-msgstr ""
+msgstr "Prilagodba za KDE 4"
 
 #: kolourpaint.cpp:60
 #, kde-format
 msgid "Christoph Feck"
-msgstr ""
+msgstr "Christoph Feck"
 
 #: kolourpaint.cpp:60
 #, kde-format
 msgid "KF 5 Porting"
-msgstr ""
+msgstr "Prilagodba za KF 5"
 
 #: kolourpaint.cpp:62
 #, kde-format
 msgid ""
 "Thanks to the many others who have helped to make this program possible."
-msgstr ""
+msgstr "Zahvaljujemo i mnogima drugima koji su pomogli omogućiti ovaj program."
 
 #: kolourpaint.cpp:68
 #, kde-format
 msgid "Image files to open, optionally"
-msgstr ""
+msgstr "Neobvezne slikovne datoteke za otvaranje"
 
 #: kolourpaint.cpp:71
 #, kde-format
 msgid "List all readable image MIME types"
-msgstr ""
+msgstr "Ispiši sve čitljive MIME vrste slika"
 
 #: kolourpaint.cpp:72
 #, kde-format
 msgid "Start with new image using given size"
-msgstr ""
+msgstr "Pokreni s novom slikom zadane veličine"
 
 #: kolourpaint.cpp:72
 #, kde-format
 msgid "[width]x[height]"
-msgstr ""
+msgstr "[širina]x[visina]"
 
 #. i18n: ectx: Menu (view)
 #: kolourpaintui.rc:36
 #, kde-format
 msgid "&View"
-msgstr ""
+msgstr "&Prikaz"
 
 #. i18n: ectx: Menu (image)
 #: kolourpaintui.rc:71 kolourpaintui.rc:207
 #, kde-format
 msgid "&Image"
-msgstr ""
+msgstr "&Slika"
 
 #. i18n: ectx: Menu (colors)
 #: kolourpaintui.rc:99
 #, kde-format
 msgid "&Colors"
-msgstr ""
+msgstr "&Boje"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: kolourpaintui.rc:147
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Glavna alatna traka"
 
 #. i18n: ectx: ToolBar (textToolBar)
 #: kolourpaintui.rc:162
 #, kde-format
 msgid "Text Toolbar"
-msgstr ""
+msgstr "Alatna traka za tekst"
 
 #. i18n: ectx: Menu (selectionToolRMBMenu)
 #: kolourpaintui.rc:172
 #, kde-format
 msgid "Selection Tool RMB Menu"
-msgstr ""
+msgstr "Kontekstni izbornik alata za odabir"
 
 #. i18n: ectx: Menu (edit)
 #: kolourpaintui.rc:174
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #: kpThumbnail.cpp:94
 #, kde-format
 msgctxt "@title:window"
 msgid "Thumbnail"
-msgstr ""
+msgstr "Sličica"
 
 #: kpViewScrollableContainer.cpp:132 kpViewScrollableContainer.cpp:763
 #: kpViewScrollableContainer.cpp:765 kpViewScrollableContainer.cpp:767
 #, kde-format
 msgid "Left drag the handle to resize the image."
-msgstr ""
+msgstr "Povucite ručicu lijevom tipkom miša da biste promijenili veličinu slike."
 
 #: kpViewScrollableContainer.cpp:171
 #, kde-format
 msgid "Resize Image: Let go of all the mouse buttons."
-msgstr ""
+msgstr "Promjena veličine slike: otpustite sve tipke miša."
 
 #: kpViewScrollableContainer.cpp:199
 #, kde-format
 msgid "Resize Image: Right click to cancel."
-msgstr ""
+msgstr "Promjena veličine slike: kliknite desnom tipkom miša za odustajanje."
 
 #: layers/selections/text/kpTextSelection.cpp:106
 #: tools/selection/text/kpToolText.cpp:34
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: lgpl/generic/kpColorCollection.cpp:109
 #, kde-format
 msgid "Could not open color palette \"%1\"."
-msgstr ""
+msgstr "Nije moguće otvoriti paletu boja „%1”."
 
 #: lgpl/generic/kpColorCollection.cpp:138
 #, kde-format
 msgid ""
 "Could not open color palette \"%1\" - unsupported format.\n"
 "The file may be corrupt."
-msgstr ""
+msgstr "Nije moguće otvoriti paletu boja „%1” – format nije podržan.\nDatoteka je možda oštećena."
 
 #: lgpl/generic/kpColorCollection.cpp:192
 #, kde-format
 msgid "Could not open KDE color palette \"%1\"."
-msgstr ""
+msgstr "Nije moguće otvoriti KDE-ovu paletu boja „%1”."
 
 #: lgpl/generic/kpColorCollection.cpp:236
 #, kde-format
 msgid "Could not save color palette as \"%1\"."
-msgstr ""
+msgstr "Nije moguće spremiti paletu boja kao „%1”."
 
 #: lgpl/generic/kpUrlFormatter.cpp:19 lgpl/generic/kpUrlFormatter.cpp:31
 #: widgets/toolbars/kpColorToolBar.cpp:268
 #, kde-format
 msgid "Untitled"
-msgstr ""
+msgstr "Bez naslova"
 
 #: mainWindow/kpMainWindow_Colors.cpp:39
 #, kde-format
 msgid "Use KolourPaint Defaults"
-msgstr ""
+msgstr "Upotrijebi zadane postavke KolourPainta"
 
 #: mainWindow/kpMainWindow_Colors.cpp:43
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "Use KDE's"
-msgstr ""
+msgstr "Upotrijebi KDE-ovu"
 
 #: mainWindow/kpMainWindow_Colors.cpp:53
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "&Open..."
-msgstr ""
+msgstr "&Otvori..."
 
 #: mainWindow/kpMainWindow_Colors.cpp:57
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "Reloa&d"
-msgstr ""
+msgstr "Ponovo u&čitaj"
 
 #: mainWindow/kpMainWindow_Colors.cpp:61
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "&Save"
-msgstr ""
+msgstr "&Spremi"
 
 #: mainWindow/kpMainWindow_Colors.cpp:65
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "Save &As..."
-msgstr ""
+msgstr "Spremi &kao..."
 
 #: mainWindow/kpMainWindow_Colors.cpp:69
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "Add Row"
-msgstr ""
+msgstr "Dodaj redak"
 
 #: mainWindow/kpMainWindow_Colors.cpp:73
 #, kde-format
 msgctxt "@item:inmenu colors"
 msgid "Delete Last Row"
-msgstr ""
+msgstr "Izbriši posljednji redak"
 
 #: mainWindow/kpMainWindow_Colors.cpp:84
 #, kde-format
 msgid "Color Box"
-msgstr ""
+msgstr "Okvir boja"
 
 #: mainWindow/kpMainWindow_Colors.cpp:162
 #, kde-format
 msgid ""
 "The color palette \"%1\" has been modified.\n"
 "Do you want to save it?"
-msgstr ""
+msgstr "Paleta boja „%1” izmijenjena je.\nŽelite li je spremiti?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:172
 #, kde-format
 msgid ""
 "The KDE color palette \"%1\" has been modified.\n"
 "Do you want to save it to a file?"
-msgstr ""
+msgstr "KDE-ova paleta boja „%1” izmijenjena je.\nŽelite li je spremiti u datoteku?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:180
 #, kde-format
 msgid ""
 "The default color palette has been modified.\n"
 "Do you want to save it to a file?"
-msgstr ""
+msgstr "Zadana paleta boja izmijenjena je.\nŽelite li je spremiti u datoteku?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:293
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Color Palette"
-msgstr ""
+msgstr "Otvori paletu boja"
 
 #: mainWindow/kpMainWindow_Colors.cpp:319
 #, kde-format
@@ -1308,7 +1311,7 @@ msgid ""
 "The color palette \"%1\" has been modified.\n"
 "Reloading will lose all changes since you last saved it.\n"
 "Are you sure?"
-msgstr ""
+msgstr "Paleta boja „%1” izmijenjena je.\nPonovnim učitavanjem izgubit ćete sve promjene od posljednjeg spremanja.\nŽelite li nastaviti?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:324
 #: mainWindow/kpMainWindow_Colors.cpp:334
@@ -1316,7 +1319,7 @@ msgstr ""
 #: mainWindow/kpMainWindow_File.cpp:967 mainWindow/kpMainWindow_File.cpp:975
 #, kde-format
 msgid "&Reload"
-msgstr ""
+msgstr "&Ponovo učitaj"
 
 #: mainWindow/kpMainWindow_Colors.cpp:329
 #, kde-format
@@ -1324,7 +1327,7 @@ msgid ""
 "The KDE color palette \"%1\" has been modified.\n"
 "Reloading will lose all changes.\n"
 "Are you sure?"
-msgstr ""
+msgstr "KDE-ova paleta boja „%1” izmijenjena je.\nPonovnim učitavanjem izgubit ćete sve promjene.\nŽelite li nastaviti?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:337
 #, kde-format
@@ -1332,99 +1335,99 @@ msgid ""
 "The default color palette has been modified.\n"
 "Reloading will lose all changes.\n"
 "Are you sure?"
-msgstr ""
+msgstr "Zadana paleta boja izmijenjena je.\nPonovnim učitavanjem izgubit ćete sve promjene.\nŽelite li nastaviti?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:390
 #, kde-format
 msgid "Save Color Palette As"
-msgstr ""
+msgstr "Spremi paletu boja kao"
 
 #: mainWindow/kpMainWindow_Edit.cpp:72
 #, kde-format
 msgid "Paste in &New Window"
-msgstr ""
+msgstr "Zalijepi u &novi prozor"
 
 #: mainWindow/kpMainWindow_Edit.cpp:78
 #, kde-format
 msgid "&Delete Selection"
-msgstr ""
+msgstr "&Izbriši odabir"
 
 #: mainWindow/kpMainWindow_Edit.cpp:85
 #, kde-format
 msgid "C&opy to File..."
-msgstr ""
+msgstr "K&opiraj u datoteku..."
 
 #: mainWindow/kpMainWindow_Edit.cpp:89
 #, kde-format
 msgid "Paste &From File..."
-msgstr ""
+msgstr "Zalijepi i&z datoteke..."
 
 #: mainWindow/kpMainWindow_Edit.cpp:312 mainWindow/kpMainWindow_Edit.cpp:368
 #: mainWindow/kpMainWindow_Image.cpp:284 tools/selection/text/kpToolText.cpp:60
 #, kde-format
 msgid "Text: Create Box"
-msgstr ""
+msgstr "Tekst: stvori okvir"
 
 #: mainWindow/kpMainWindow_Edit.cpp:372
 #, kde-format
 msgid "Text: Paste"
-msgstr ""
+msgstr "Tekst: zalijepi"
 
 #: mainWindow/kpMainWindow_Edit.cpp:500
 #, kde-format
 msgid ""
 "<qt>KolourPaint cannot paste the contents of the clipboard as it has an "
 "unknown format.</qt>"
-msgstr ""
+msgstr "<qt>KolourPaint ne može zalijepiti sadržaj međuspremnika jer je nepoznatog formata.</qt>"
 
 #: mainWindow/kpMainWindow_Edit.cpp:502
 #, kde-format
 msgid "Cannot Paste"
-msgstr ""
+msgstr "Nije moguće zalijepiti"
 
 #: mainWindow/kpMainWindow_Edit.cpp:576
 #, kde-format
 msgid "Text: Delete Box"
-msgstr ""
+msgstr "Tekst: izbriši okvir"
 
 #. i18n ("Text: Delete")
 #: mainWindow/kpMainWindow_Edit.cpp:578
 #, kde-format
 msgid "Selection: Delete"
-msgstr ""
+msgstr "Odabir: izbriši"
 
 #: mainWindow/kpMainWindow_Edit.cpp:642
 #, kde-format
 msgid "Text: Finish"
-msgstr ""
+msgstr "Tekst: dovrši"
 
 #: mainWindow/kpMainWindow_Edit.cpp:642
 #, kde-format
 msgid "Selection: Deselect"
-msgstr ""
+msgstr "Odabir: poništi odabir"
 
 #: mainWindow/kpMainWindow_Edit.cpp:713
 #, kde-format
 msgctxt "@title:window"
 msgid "Copy to File"
-msgstr ""
+msgstr "Kopiraj u datoteku"
 
 #: mainWindow/kpMainWindow_Edit.cpp:751
 #, kde-format
 msgctxt "@title:window"
 msgid "Paste From File"
-msgstr ""
+msgstr "Zalijepi iz datoteke"
 
 #: mainWindow/kpMainWindow_File.cpp:83
 #, kde-format
 msgid "E&xport..."
-msgstr ""
+msgstr "I&zvezi..."
 
 #: mainWindow/kpMainWindow_File.cpp:85
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export to another file"
-msgstr ""
+msgstr "Izvezi u drugu datoteku"
 
 #: mainWindow/kpMainWindow_File.cpp:87
 #, kde-kuit-format
@@ -1434,88 +1437,89 @@ msgid ""
 "As</interface>, but the current document is not changed.<nl/>This way you "
 "can keep the last-used save folder independent from the folder of the "
 "current document."
-msgstr ""
+msgstr "Time se dokument sprema pod drugim nazivom, slično naredbi <interface>Spremi kao</interface>, ali se trenutačni dokument ne mijenja.<nl/>Tako posljednja mapa za spremanje može biti odvojena od mape trenutačnog dokumenta."
 
 #: mainWindow/kpMainWindow_File.cpp:93
 #, kde-format
 msgid "Scan..."
-msgstr ""
+msgstr "Skeniraj..."
 
 #: mainWindow/kpMainWindow_File.cpp:102
 #, kde-format
 msgid "Acquire Screenshot"
-msgstr ""
+msgstr "Napravi snimku zaslona"
 
 #: mainWindow/kpMainWindow_File.cpp:106
 #, kde-format
 msgid "Properties"
-msgstr ""
+msgstr "Svojstva"
 
 #: mainWindow/kpMainWindow_File.cpp:112
 #, kde-format
 msgid "Reloa&d"
-msgstr ""
+msgstr "Ponovo u&čitaj"
 
 #: mainWindow/kpMainWindow_File.cpp:411
 #, kde-format
 msgid "All Supported Files (%1)"
-msgstr ""
+msgstr "Sve podržane datoteke (%1)"
 
 #: mainWindow/kpMainWindow_File.cpp:436
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
-msgstr ""
+msgstr "Otvori sliku"
 
 #: mainWindow/kpMainWindow_File.cpp:495
 #, kde-format
 msgid "Failed to open scanning dialog."
-msgstr ""
+msgstr "Nije uspjelo otvaranje dijaloga za skeniranje."
 
 #: mainWindow/kpMainWindow_File.cpp:495
 #, kde-format
 msgctxt "@title:window"
 msgid "Scanning Failed"
-msgstr ""
+msgstr "Skeniranje nije uspjelo"
 
 #: mainWindow/kpMainWindow_File.cpp:605
 #, kde-format
 msgid "Snapshot Delay"
-msgstr ""
+msgstr "Odgoda snimke"
 
 #: mainWindow/kpMainWindow_File.cpp:608
 #, kde-format
 msgid "%v second"
 msgid_plural "%v seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v sekunda"
+msgstr[1] "%v sekunde"
+msgstr[2] "%v sekundi"
 
 #: mainWindow/kpMainWindow_File.cpp:609
 #, kde-format
 msgid "No delay"
-msgstr ""
+msgstr "Bez odgode"
 
 #: mainWindow/kpMainWindow_File.cpp:611
 #, kde-format
 msgid "Hide Main Window"
-msgstr ""
+msgstr "Sakrij glavni prozor"
 
 #: mainWindow/kpMainWindow_File.cpp:662
 #, kde-format
 msgid "Document Properties"
-msgstr ""
+msgstr "Svojstva dokumenta"
 
 #: mainWindow/kpMainWindow_File.cpp:866
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image As"
-msgstr ""
+msgstr "Spremi sliku kao"
 
 #: mainWindow/kpMainWindow_File.cpp:909
 #, kde-format
 msgctxt "@title:window"
 msgid "Export"
-msgstr ""
+msgstr "Izvezi"
 
 #: mainWindow/kpMainWindow_File.cpp:962
 #, kde-format
@@ -1523,7 +1527,7 @@ msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes since you last saved it.\n"
 "Are you sure?"
-msgstr ""
+msgstr "Dokument „%1” izmijenjen je.\nPonovnim učitavanjem izgubit ćete sve promjene od posljednjeg spremanja.\nŽelite li nastaviti?"
 
 #: mainWindow/kpMainWindow_File.cpp:970
 #, kde-format
@@ -1531,97 +1535,97 @@ msgid ""
 "The document \"%1\" has been modified.\n"
 "Reloading will lose all changes.\n"
 "Are you sure?"
-msgstr ""
+msgstr "Dokument „%1” izmijenjen je.\nPonovnim učitavanjem izgubit ćete sve promjene.\nŽelite li nastaviti?"
 
 #: mainWindow/kpMainWindow_File.cpp:1177
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Image"
-msgstr ""
+msgstr "Ispiši sliku"
 
 #: mainWindow/kpMainWindow_File.cpp:1250
 #, kde-format
 msgid ""
 "You must save this image before sending it.\n"
 "Do you want to save it?"
-msgstr ""
+msgstr "Morate spremiti ovu sliku prije slanja.\nŽelite li je spremiti?"
 
 #: mainWindow/kpMainWindow_File.cpp:1285
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save it?"
-msgstr ""
+msgstr "Dokument „%1” izmijenjen je.\nŽelite li ga spremiti?"
 
 #: mainWindow/kpMainWindow_Image.cpp:94
 #, kde-format
 msgid "R&esize / Scale..."
-msgstr ""
+msgstr "Promijeni v&eličinu / skaliraj..."
 
 #: mainWindow/kpMainWindow_Image.cpp:100
 #, kde-format
 msgid "Se&t as Image (Crop)"
-msgstr ""
+msgstr "Pos&tavi kao sliku (obrezivanje)"
 
 #: mainWindow/kpMainWindow_Image.cpp:110
 #, kde-format
 msgid "&Flip (upside down)"
-msgstr ""
+msgstr "&Preokreni (naopako)"
 
 #: mainWindow/kpMainWindow_Image.cpp:115
 #, kde-format
 msgid "Mirror (horizontally)"
-msgstr ""
+msgstr "Zrcali (vodoravno)"
 
 #: mainWindow/kpMainWindow_Image.cpp:120
 #, kde-format
 msgid "&Rotate..."
-msgstr ""
+msgstr "&Zakreni..."
 
 #: mainWindow/kpMainWindow_Image.cpp:126
 #, kde-format
 msgid "Rotate &Left"
-msgstr ""
+msgstr "Zakreni &ulijevo"
 
 #: mainWindow/kpMainWindow_Image.cpp:132
 #, kde-format
 msgid "Rotate Righ&t"
-msgstr ""
+msgstr "Zakreni udes&no"
 
 #: mainWindow/kpMainWindow_Image.cpp:138
 #, kde-format
 msgid "S&kew..."
-msgstr ""
+msgstr "I&skosi..."
 
 #: mainWindow/kpMainWindow_Image.cpp:143
 #, kde-format
 msgid "Reduce to Mo&nochrome (Dithered)"
-msgstr ""
+msgstr "Svedi na jed&nobojni prikaz (iscrtano)"
 
 #: mainWindow/kpMainWindow_Image.cpp:147
 #, kde-format
 msgid "Reduce to &Grayscale"
-msgstr ""
+msgstr "Svedi na nijanse &sive"
 
 #: mainWindow/kpMainWindow_Image.cpp:151
 #, kde-format
 msgid "&Invert Colors"
-msgstr ""
+msgstr "&Preokreni boje"
 
 #: mainWindow/kpMainWindow_Image.cpp:156
 #, kde-format
 msgid "C&lear"
-msgstr ""
+msgstr "&Očisti"
 
 #: mainWindow/kpMainWindow_Image.cpp:161
 #, kde-format
 msgid "Make Confidential"
-msgstr ""
+msgstr "Učini povjerljivim"
 
 #: mainWindow/kpMainWindow_Image.cpp:165
 #, kde-format
 msgid "&More Effects..."
-msgstr ""
+msgstr "&Više efekata..."
 
 #: mainWindow/kpMainWindow_Image.cpp:205
 #, kde-format
@@ -1629,7 +1633,7 @@ msgctxt ""
 "Image/Selection Menu caption - make sure the translation has the same accel "
 "as the Select&ion translation"
 msgid "&Image"
-msgstr ""
+msgstr "&Slika"
 
 #: mainWindow/kpMainWindow_Image.cpp:209
 #, kde-format
@@ -1637,191 +1641,191 @@ msgctxt ""
 "Image/Selection Menu caption - make sure that translation has the same accel "
 "as the &Image translation"
 msgid "Select&ion"
-msgstr ""
+msgstr "Oda&bir"
 
 #: mainWindow/kpMainWindow_Settings.cpp:41
 #, kde-format
 msgid "Show &Path"
-msgstr ""
+msgstr "Prikaži &putanju"
 
 #: mainWindow/kpMainWindow_Settings.cpp:46
 #, kde-format
 msgid "Draw Anti-Aliased"
-msgstr ""
+msgstr "Crtaj s izglađivanjem rubova"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:69
 #: mainWindow/kpMainWindow_StatusBar.cpp:155
 #: mainWindow/kpMainWindow_StatusBar.cpp:179
 #, kde-format
 msgid "%1 × %2"
-msgstr ""
+msgstr "%1 × %2"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:121
 #, kde-format
 msgid "%1, %2"
-msgstr ""
+msgstr "%1, %2"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:123
 #, kde-format
 msgid "%1, %2 — %3, %4"
-msgstr ""
+msgstr "%1, %2 — %3, %4"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:200
 #, kde-format
 msgid "%1bpp"
-msgstr ""
+msgstr "%1 bita po pikselu"
 
 #: mainWindow/kpMainWindow_StatusBar.cpp:221
 #: mainWindow/kpMainWindow_View_Zoom.cpp:67
 #, kde-format
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: mainWindow/kpMainWindow_Text.cpp:34
 #, kde-format
 msgid "Font Family"
-msgstr ""
+msgstr "Obitelj fontova"
 
 #: mainWindow/kpMainWindow_Text.cpp:38
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Veličina fonta"
 
 #: mainWindow/kpMainWindow_Text.cpp:43
 #, kde-format
 msgid "Bold"
-msgstr ""
+msgstr "Podebljano"
 
 #: mainWindow/kpMainWindow_Text.cpp:48
 #, kde-format
 msgid "Italic"
-msgstr ""
+msgstr "Kurziv"
 
 #: mainWindow/kpMainWindow_Text.cpp:53
 #, kde-format
 msgid "Underline"
-msgstr ""
+msgstr "Podcrtano"
 
 #: mainWindow/kpMainWindow_Text.cpp:58
 #, kde-format
 msgid "Strike Through"
-msgstr ""
+msgstr "Precrtano"
 
 #: mainWindow/kpMainWindow_Tools.cpp:111
 #, kde-format
 msgid "Previous Tool Option (Group #1)"
-msgstr ""
+msgstr "Prethodna mogućnost alata (1. skupina)"
 
 #: mainWindow/kpMainWindow_Tools.cpp:116
 #, kde-format
 msgid "Next Tool Option (Group #1)"
-msgstr ""
+msgstr "Sljedeća mogućnost alata (1. skupina)"
 
 #: mainWindow/kpMainWindow_Tools.cpp:121
 #, kde-format
 msgid "Previous Tool Option (Group #2)"
-msgstr ""
+msgstr "Prethodna mogućnost alata (2. skupina)"
 
 #: mainWindow/kpMainWindow_Tools.cpp:126
 #, kde-format
 msgid "Next Tool Option (Group #2)"
-msgstr ""
+msgstr "Sljedeća mogućnost alata (2. skupina)"
 
 #: mainWindow/kpMainWindow_Tools.cpp:136
 #, kde-format
 msgid "&Draw Opaque"
-msgstr ""
+msgstr "&Crtaj neprozirno"
 
 #: mainWindow/kpMainWindow_Tools.cpp:140
 #, kde-format
 msgid "Draw With Color Similarity..."
-msgstr ""
+msgstr "Crtaj uz sličnost boja..."
 
 #: mainWindow/kpMainWindow_Tools.cpp:150
 #, kde-format
 msgid "Tool Box"
-msgstr ""
+msgstr "Alatni okvir"
 
 #: mainWindow/kpMainWindow_View.cpp:41
 #, kde-format
 msgid "Show &Grid"
-msgstr ""
+msgstr "Prikaži &mrežu"
 
 #: mainWindow/kpMainWindow_View_Thumbnail.cpp:40
 #, kde-format
 msgid "Show T&humbnail"
-msgstr ""
+msgstr "Prikaži s&ličicu"
 
 #: mainWindow/kpMainWindow_View_Thumbnail.cpp:50
 #, kde-format
 msgid "Zoo&med Thumbnail Mode"
-msgstr ""
+msgstr "Uvećani način &sličice"
 
 #: mainWindow/kpMainWindow_View_Thumbnail.cpp:59
 #, kde-format
 msgid "Enable Thumbnail &Rectangle"
-msgstr ""
+msgstr "Omogući &pravokutnik sličice"
 
 #: mainWindow/kpMainWindow_View_Zoom.cpp:86
 #, kde-format
 msgid "&Zoom"
-msgstr ""
+msgstr "&Zumiranje"
 
 #: scan/sanedialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Acquire Image"
-msgstr ""
+msgstr "Dohvati sliku"
 
 #: scan/sanedialog.cpp:57
 #, kde-format
 msgid "Opening the selected scanner failed."
-msgstr ""
+msgstr "Nije uspjelo otvaranje odabranog skenera."
 
 #: tools/flow/kpToolBrush.cpp:15
 #, kde-format
 msgid "Brush"
-msgstr ""
+msgstr "Kist"
 
 #: tools/flow/kpToolBrush.cpp:15
 #, kde-format
 msgid "Draw using brushes of different shapes and sizes"
-msgstr ""
+msgstr "Crtaj kistovima raznih oblika i veličina"
 
 #: tools/flow/kpToolBrush.cpp:24 tools/flow/kpToolPen.cpp:33
 #, kde-format
 msgid "Click to draw dots or drag to draw strokes."
-msgstr ""
+msgstr "Kliknite za crtanje točaka ili povucite za crtanje poteza."
 
 #: tools/flow/kpToolColorEraser.cpp:28 tools/flow/kpToolColorEraser.cpp:57
 #, kde-format
 msgid "Color Eraser"
-msgstr ""
+msgstr "Brisač boje"
 
 #: tools/flow/kpToolColorEraser.cpp:29
 #, kde-format
 msgid "Replaces pixels of the foreground color with the background color"
-msgstr ""
+msgstr "Zamjenjuje piksele boje prednjeg plana bojom pozadine"
 
 #: tools/flow/kpToolColorEraser.cpp:93
 #, kde-format
 msgid "Click or drag to erase pixels of the foreground color."
-msgstr ""
+msgstr "Kliknite ili povucite da biste izbrisali piksele boje prednjeg plana."
 
 #: tools/flow/kpToolEraser.cpp:21
 #, kde-format
 msgid "Eraser"
-msgstr ""
+msgstr "Gumica"
 
 #: tools/flow/kpToolEraser.cpp:21
 #, kde-format
 msgid "Lets you rub out mistakes"
-msgstr ""
+msgstr "Omogućuje brisanje pogrešaka"
 
 #: tools/flow/kpToolEraser.cpp:42
 #, kde-format
 msgid "Click or drag to erase."
-msgstr ""
+msgstr "Kliknite ili povucite za brisanje."
 
 #: tools/flow/kpToolFlowBase.cpp:252 tools/kpToolColorPicker.cpp:78
 #: tools/kpToolFloodFill.cpp:119 tools/kpToolZoom.cpp:176
@@ -1831,389 +1835,389 @@ msgstr ""
 #: tools/selection/kpAbstractSelectionTool.cpp:462
 #, kde-format
 msgid "Let go of all the mouse buttons."
-msgstr ""
+msgstr "Otpustite sve tipke miša."
 
 #: tools/flow/kpToolPen.cpp:24
 #, kde-format
 msgid "Pen"
-msgstr ""
+msgstr "Olovka"
 
 #: tools/flow/kpToolPen.cpp:24
 #, kde-format
 msgid "Draws dots and freehand strokes"
-msgstr ""
+msgstr "Crtanje točaka i slobodoručnih poteza"
 
 #: tools/flow/kpToolSpraycan.cpp:35
 #, kde-format
 msgid "Spraycan"
-msgstr ""
+msgstr "Sprej"
 
 #: tools/flow/kpToolSpraycan.cpp:35
 #, kde-format
 msgid "Sprays graffiti"
-msgstr ""
+msgstr "Crtanje grafita sprejem"
 
 #: tools/flow/kpToolSpraycan.cpp:48
 #, kde-format
 msgid "Click or drag to spray graffiti."
-msgstr ""
+msgstr "Kliknite ili povucite za crtanje grafita sprejem."
 
 #: tools/kpTool_UserNotifications.cpp:22
 #, kde-format
 msgid "Right click to cancel."
-msgstr ""
+msgstr "Kliknite desnom tipkom miša za odustajanje."
 
 #: tools/kpTool_UserNotifications.cpp:25
 #, kde-format
 msgid "Left click to cancel."
-msgstr ""
+msgstr "Kliknite lijevom tipkom miša za odustajanje."
 
 #: tools/kpTool_UserNotifications.cpp:54
 #, kde-format
 msgid "%1: "
-msgstr ""
+msgstr "%1: "
 
 #: tools/kpToolColorPicker.cpp:23
 #, kde-format
 msgid "Lets you select a color from the image"
-msgstr ""
+msgstr "Omogućuje odabir boje sa slike"
 
 #: tools/kpToolColorPicker.cpp:42
 #, kde-format
 msgid "Click to select a color."
-msgstr ""
+msgstr "Kliknite za odabir boje."
 
 #: tools/kpToolFloodFill.cpp:32
 #, kde-format
 msgid "Fills regions in the image"
-msgstr ""
+msgstr "Popunjava područja na slici"
 
 #: tools/kpToolFloodFill.cpp:50
 #, kde-format
 msgid "Click to fill a region."
-msgstr ""
+msgstr "Kliknite za popunjavanje područja."
 
 #: tools/kpToolZoom.cpp:51
 #, kde-format
 msgid "Zoom"
-msgstr ""
+msgstr "Zumiranje"
 
 #: tools/kpToolZoom.cpp:51
 #, kde-format
 msgid "Zooms in and out of the image"
-msgstr ""
+msgstr "Povećava i smanjuje prikaz slike"
 
 #: tools/kpToolZoom.cpp:92
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Click to zoom in. Right-click to zoom out. Drag to zoom into a specific area."
-msgstr ""
+msgstr "Kliknite za povećanje. Kliknite desnom tipkom miša za smanjenje. Povucite za uvećanje određenog područja."
 
 #: tools/polygonal/kpToolCurve.cpp:74
 #, kde-format
 msgid "Curve"
-msgstr ""
+msgstr "Krivulja"
 
 #: tools/polygonal/kpToolCurve.cpp:74
 #, kde-format
 msgid "Draws curves"
-msgstr ""
+msgstr "Crtanje krivulja"
 
 #: tools/polygonal/kpToolCurve.cpp:83
 #, kde-format
 msgid "Drag out the start and end points."
-msgstr ""
+msgstr "Povucite da biste postavili početnu i završnu točku."
 
 #: tools/polygonal/kpToolCurve.cpp:116
 #, kde-format
 msgid "Left drag to set the first control point or right click to finish."
-msgstr ""
+msgstr "Povucite lijevom tipkom za postavljanje prve kontrolne točke ili kliknite desnom tipkom za završetak."
 
 #: tools/polygonal/kpToolCurve.cpp:118
 #, kde-format
 msgid "Right drag to set the first control point or left click to finish."
-msgstr ""
+msgstr "Povucite desnom tipkom za postavljanje prve kontrolne točke ili kliknite lijevom tipkom za završetak."
 
 #: tools/polygonal/kpToolCurve.cpp:126
 #, kde-format
 msgid "Left drag to set the last control point or right click to finish."
-msgstr ""
+msgstr "Povucite lijevom tipkom za postavljanje posljednje kontrolne točke ili kliknite desnom tipkom za završetak."
 
 #: tools/polygonal/kpToolCurve.cpp:128
 #, kde-format
 msgid "Right drag to set the last control point or left click to finish."
-msgstr ""
+msgstr "Povucite desnom tipkom za postavljanje posljednje kontrolne točke ili kliknite lijevom tipkom za završetak."
 
 #: tools/polygonal/kpToolLine.cpp:18
 #, kde-format
 msgid "Line"
-msgstr ""
+msgstr "Crta"
 
 #: tools/polygonal/kpToolLine.cpp:18
 #, kde-format
 msgid "Draws lines"
-msgstr ""
+msgstr "Crtanje crta"
 
 #: tools/polygonal/kpToolLine.cpp:27 tools/rectangular/kpToolRectangularBase.cpp:94
 #, kde-format
 msgid "Drag to draw."
-msgstr ""
+msgstr "Povucite za crtanje."
 
 #: tools/polygonal/kpToolPolygon.cpp:63
 #, kde-format
 msgid "Polygon"
-msgstr ""
+msgstr "Mnogokut"
 
 #: tools/polygonal/kpToolPolygon.cpp:63
 #, kde-format
 msgid "Draws polygons"
-msgstr ""
+msgstr "Crtanje mnogokuta"
 
 #: tools/polygonal/kpToolPolygon.cpp:76 tools/polygonal/kpToolPolyline.cpp:32
 #, kde-format
 msgid "Drag to draw the first line."
-msgstr ""
+msgstr "Povucite za crtanje prve crte."
 
 #: tools/polygonal/kpToolPolygon.cpp:137 tools/polygonal/kpToolPolyline.cpp:81
 #, kde-format
 msgid "Left drag another line or right click to finish."
-msgstr ""
+msgstr "Povucite lijevom tipkom za sljedeću crtu ili kliknite desnom tipkom za završetak."
 
 #: tools/polygonal/kpToolPolygon.cpp:139 tools/polygonal/kpToolPolyline.cpp:83
 #, kde-format
 msgid "Right drag another line or left click to finish."
-msgstr ""
+msgstr "Povucite desnom tipkom za sljedeću crtu ili kliknite lijevom tipkom za završetak."
 
 #: tools/polygonal/kpToolPolyline.cpp:23
 #, kde-format
 msgid "Connected Lines"
-msgstr ""
+msgstr "Povezane crte"
 
 #: tools/polygonal/kpToolPolyline.cpp:23
 #, kde-format
 msgid "Draws connected lines"
-msgstr ""
+msgstr "Crtanje povezanih crta"
 
 #: tools/rectangular/kpToolEllipse.cpp:21
 #, kde-format
 msgid "Ellipse"
-msgstr ""
+msgstr "Elipsa"
 
 #: tools/rectangular/kpToolEllipse.cpp:22
 #, kde-format
 msgid "Draws ellipses and circles"
-msgstr ""
+msgstr "Crtanje elipsa i krugova"
 
 #: tools/rectangular/kpToolRectangle.cpp:22
 #, kde-format
 msgid "Rectangle"
-msgstr ""
+msgstr "Pravokutnik"
 
 #: tools/rectangular/kpToolRectangle.cpp:23
 #, kde-format
 msgid "Draws rectangles and squares"
-msgstr ""
+msgstr "Crtanje pravokutnika i kvadrata"
 
 #: tools/rectangular/kpToolRoundedRectangle.cpp:22
 #, kde-format
 msgid "Rounded Rectangle"
-msgstr ""
+msgstr "Zaobljeni pravokutnik"
 
 #: tools/rectangular/kpToolRoundedRectangle.cpp:23
 #, kde-format
 msgid "Draws rectangles and squares with rounded corners"
-msgstr ""
+msgstr "Crtanje pravokutnika i kvadrata sa zaobljenim kutovima"
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:61
 #, kde-format
 msgid "Left drag to create selection."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za stvaranje odabira."
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:69
 #, kde-format
 msgid "Left drag to move selection."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za pomicanje odabira."
 
 #: tools/selection/image/kpAbstractImageSelectionTool.cpp:77
 #, kde-format
 msgid "Left drag to scale selection."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za skaliranje odabira."
 
 #: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:129
 #, kde-format
 msgid "Selection: Opaque"
-msgstr ""
+msgstr "Odabir: neproziran"
 
 #: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:129
 #, kde-format
 msgid "Selection: Transparent"
-msgstr ""
+msgstr "Odabir: proziran"
 
 #: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:148
 #, kde-format
 msgid "Selection: Transparency Color"
-msgstr ""
+msgstr "Odabir: boja prozirnosti"
 
 #: tools/selection/image/kpAbstractImageSelectionTool_Transparency.cpp:167
 #, kde-format
 msgid "Selection: Transparency Color Similarity"
-msgstr ""
+msgstr "Odabir: sličnost boja prozirnosti"
 
 #: tools/selection/image/kpToolEllipticalSelection.cpp:20
 #, kde-format
 msgid "Selection (Elliptical)"
-msgstr ""
+msgstr "Odabir (eliptični)"
 
 #: tools/selection/image/kpToolEllipticalSelection.cpp:21
 #, kde-format
 msgid "Makes an elliptical or circular selection"
-msgstr ""
+msgstr "Stvara eliptični ili kružni odabir"
 
 #: tools/selection/image/kpToolFreeFormSelection.cpp:22
 #, kde-format
 msgid "Selection (Free-Form)"
-msgstr ""
+msgstr "Odabir (slobodnog oblika)"
 
 #: tools/selection/image/kpToolFreeFormSelection.cpp:23
 #, kde-format
 msgid "Makes a free-form selection"
-msgstr ""
+msgstr "Stvara odabir slobodnog oblika"
 
 #: tools/selection/image/kpToolRectSelection.cpp:19
 #, kde-format
 msgid "Selection (Rectangular)"
-msgstr ""
+msgstr "Odabir (pravokutni)"
 
 #: tools/selection/image/kpToolRectSelection.cpp:20
 #, kde-format
 msgid "Makes a rectangular selection"
-msgstr ""
+msgstr "Stvara pravokutni odabir"
 
 #: tools/selection/kpAbstractSelectionTool_Move.cpp:279
 #, kde-format
 msgid "Selection: Move"
-msgstr ""
+msgstr "Odabir: pomakni"
 
 #: tools/selection/kpAbstractSelectionTool_Move.cpp:301
 #, kde-format
 msgid "%1: Smear"
-msgstr ""
+msgstr "%1: razmaži"
 
 #: tools/selection/text/kpToolText.cpp:34
 #, kde-format
 msgid "Writes text"
-msgstr ""
+msgstr "Pisanje teksta"
 
 #: tools/selection/text/kpToolText_Commands.cpp:46
 #, kde-format
 msgid "Text: Backspace"
-msgstr ""
+msgstr "Tekst: povratna tipka"
 
 #: tools/selection/text/kpToolText_Commands.cpp:63
 #, kde-format
 msgid "Text: Delete"
-msgstr ""
+msgstr "Tekst: izbriši"
 
 #: tools/selection/text/kpToolText_Commands.cpp:80
 #, kde-format
 msgid "Text: New Line"
-msgstr ""
+msgstr "Tekst: novi redak"
 
 #: tools/selection/text/kpToolText_Commands.cpp:97
 #, kde-format
 msgid "Text: Write"
-msgstr ""
+msgstr "Tekst: upiši"
 
 #: tools/selection/text/kpToolText_Create.cpp:26
 #, kde-format
 msgid "Left drag to create text box."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za stvaranje tekstnog okvira."
 
 #: tools/selection/text/kpToolText_Move.cpp:20
 #, kde-format
 msgid "Left drag to move text box."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za pomicanje tekstnog okvira."
 
 #: tools/selection/text/kpToolText_Move.cpp:37
 #, kde-format
 msgid "Text: Move Box"
-msgstr ""
+msgstr "Tekst: pomakni okvir"
 
 #: tools/selection/text/kpToolText_ResizeScale.cpp:20
 #, kde-format
 msgid "Left drag to resize text box."
-msgstr ""
+msgstr "Povucite lijevom tipkom miša za promjenu veličine tekstnog okvira."
 
 #: tools/selection/text/kpToolText_SelectText.cpp:34
 #, kde-format
 msgid "Left click to change cursor position."
-msgstr ""
+msgstr "Kliknite lijevom tipkom miša za promjenu položaja pokazivača."
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:80
 #, kde-format
 msgid "Text: Opaque Background"
-msgstr ""
+msgstr "Tekst: neprozirna pozadina"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:80
 #, kde-format
 msgid "Text: Transparent Background"
-msgstr ""
+msgstr "Tekst: prozirna pozadina"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:100
 #, kde-format
 msgid "Text: Swap Colors"
-msgstr ""
+msgstr "Tekst: zamijeni boje"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:119
 #, kde-format
 msgid "Text: Foreground Color"
-msgstr ""
+msgstr "Tekst: boja prednjeg plana"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:138
 #, kde-format
 msgid "Text: Background Color"
-msgstr ""
+msgstr "Tekst: boja pozadine"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:167
 #, kde-format
 msgid "Text: Font"
-msgstr ""
+msgstr "Tekst: font"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:189
 #, kde-format
 msgid "Text: Font Size"
-msgstr ""
+msgstr "Tekst: veličina fonta"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:209
 #, kde-format
 msgid "Text: Bold"
-msgstr ""
+msgstr "Tekst: podebljano"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:229
 #, kde-format
 msgid "Text: Italic"
-msgstr ""
+msgstr "Tekst: kurziv"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:249
 #, kde-format
 msgid "Text: Underline"
-msgstr ""
+msgstr "Tekst: podcrtano"
 
 #: tools/selection/text/kpToolText_TextStyle.cpp:269
 #, kde-format
 msgid "Text: Strike Through"
-msgstr ""
+msgstr "Tekst: precrtano"
 
 #: views/kpUnzoomedThumbnailView.cpp:56
 #, kde-format
 msgid "Unzoomed Mode - Thumbnail"
-msgstr ""
+msgstr "Način bez zumiranja – sličica"
 
 #: views/kpZoomedThumbnailView.cpp:38
 #, kde-format
 msgid "%1% — Thumbnail"
-msgstr ""
+msgstr "%1% — sličica"
 
 #: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:42
 #, kde-format

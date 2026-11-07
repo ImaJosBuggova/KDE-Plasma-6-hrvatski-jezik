@@ -1,0 +1,2732 @@
+# Croatian translation for krename.
+# This file is distributed under the same license as the krename package.
+# Roko Tomović <roko@maesdbk.hr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: krename\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"PO-Revision-Date: 2026-11-07 05:25+0100\n"
+"Last-Translator: Roko Tomović <roko@maesdbk.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize\n"
+
+#: batchrenamer.cpp:192 batchrenamer.cpp:662
+#, kde-format
+msgid "Input files will be renamed."
+msgstr "Ulazne datoteke bit će preimenovane."
+
+#: batchrenamer.cpp:195 batchrenamer.cpp:656
+#, kde-format
+msgid "Files will be copied to: %1"
+msgstr "Datoteke će biti kopirane u: %1"
+
+#: batchrenamer.cpp:198 batchrenamer.cpp:658
+#, kde-format
+msgid "Files will be moved to: %1"
+msgstr "Datoteke će biti premještene u: %1"
+
+#: batchrenamer.cpp:201 batchrenamer.cpp:660
+#, kde-format
+msgid "Symbolic links will be created in: %1"
+msgstr "Simboličke poveznice bit će stvorene u: %1"
+
+#: batchrenamer.cpp:222
+#, kde-format
+msgid "Cannot rename: source and target filename are equal: %1"
+msgstr "Nije moguće preimenovati: izvorni i ciljni naziv datoteke jednaki su: %1"
+
+#: batchrenamer.cpp:240
+#, kde-format
+msgid "Cannot create symlink to non-local URL: %1"
+msgstr "Nije moguće stvoriti simboličku poveznicu na nelokalni URL: %1"
+
+#: batchrenamer.cpp:254 dirsortplugin.cpp:122
+#, kde-format
+msgid "Error renaming %2 (to %1)"
+msgstr "Pogreška pri preimenovanju %2 (u %1)"
+
+#: batchrenamer.cpp:277 batchrenamer.cpp:401 batchrenamer.cpp:735
+#, kde-format
+msgid "%1 error occurred."
+msgid_plural "%1 errors occurred."
+msgstr[0] "Dogodila se %1 pogreška."
+msgstr[1] "Dogodile su se %1 pogreške."
+msgstr[2] "Dogodilo se %1 pogrešaka."
+
+#: batchrenamer.cpp:280 batchrenamer.cpp:739
+#, kde-format
+msgid "KRename finished the renaming process."
+msgstr "KRename je završio postupak preimenovanja."
+
+#: batchrenamer.cpp:281 batchrenamer.cpp:405 batchrenamer.cpp:740
+#, kde-format
+msgid "Press close to quit."
+msgstr "Pritisnite Zatvori za izlaz."
+
+#: batchrenamer.cpp:345
+#, kde-format
+msgid "Filenames Processed after %1 seconds."
+msgstr "Nazivi datoteka obrađeni nakon %1 sekundi."
+
+#: batchrenamer.cpp:360
+#, kde-format
+msgid "Undoing all renamed files."
+msgstr "Poništavanje preimenovanja svih datoteka."
+
+#: batchrenamer.cpp:392
+#, kde-format
+msgid "Error during undoing %1"
+msgstr "Pogreška pri poništavanju %1"
+
+#: batchrenamer.cpp:404
+#, kde-format
+msgid "KRename finished the undo process."
+msgstr "KRename je završio postupak poništavanja."
+
+#: batchrenamer.cpp:643
+#, kde-format
+msgid "Cannot create undo script: %1"
+msgstr "Nije moguće stvoriti skriptu za poništavanje: %1"
+
+#: batchrenamer.cpp:717
+#, kde-format
+msgid "Undo is not possible for remote file: %1"
+msgstr "Poništavanje nije moguće za udaljenu datoteku: %1"
+
+#: batchrenamer.cpp:731
+#, kde-format
+msgid "Renamed %1 files successfully."
+msgstr "Uspješno preimenovano datoteka: %1."
+
+#: batchrenamer.cpp:738
+#, kde-format
+msgid "Elapsed time: %1 seconds"
+msgstr "Proteklo vrijeme: %1 sekundi"
+
+#: batchrenamer.cpp:750
+#, kde-format
+msgid "Cannot set executable bit on undo script."
+msgstr "Nije moguće postaviti izvršni bit na skriptu za poništavanje."
+
+#: batchrenamer.cpp:1170
+#, kde-format
+msgid "Cannot create directory %1: %2"
+msgstr "Nije moguće stvoriti direktorij %1: %2"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: customfilenamedlg.ui:63
+#, kde-format
+msgid "File preview"
+msgstr "Pretpregled datoteke"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: customfilenamedlg.ui:91
+#, kde-format
+msgid "Please input a new filename"
+msgstr "Unesite novi naziv datoteke"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioKRename)
+#: customfilenamedlg.ui:97
+#, kde-format
+msgid "Rename the file using the filename created by KRename."
+msgstr "Preimenuj datoteku pomoću naziva koji je stvorio KRename."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioKRename)
+#: customfilenamedlg.ui:100
+#, kde-format
+msgid "Use filename created by &KRename"
+msgstr "Koristi naziv datoteke koji je stvorio &KRename"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioInput)
+#: customfilenamedlg.ui:112
+#, kde-format
+msgid ""
+"Use the input filename when renaming this file. You may also change the "
+"input filename and use this for renaming."
+msgstr ""
+"Koristi ulazni naziv datoteke pri preimenovanju ove datoteke. Možete i "
+"promijeniti ulazni naziv datoteke i koristiti ga za preimenovanje."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioInput)
+#: customfilenamedlg.ui:115
+#, kde-format
+msgid "Use &input filename"
+msgstr "Koristi &ulazni naziv datoteke"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioCustom)
+#: customfilenamedlg.ui:122
+#, kde-format
+msgid ""
+"Use a custom filename, based on the filename currently created by KRename."
+msgstr ""
+"Koristi prilagođeni naziv datoteke, temeljen na nazivu koji trenutno stvara "
+"KRename."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioCustom)
+#: customfilenamedlg.ui:125
+#, kde-format
+msgid "Use &custom filename"
+msgstr "Koristi &prilagođeni naziv datoteke"
+
+#: datetimeplugin.cpp:35
+#, kde-format
+msgid "Date & Time Plugin"
+msgstr "Dodatak za datum i vrijeme"
+
+#: datetimeplugin.cpp:55
+#, kde-format
+msgid "DateTimePlugin works only with local files. %1 is a remote file."
+msgstr "DateTimePlugin radi samo s lokalnim datotekama. %1 je udaljena datoteka."
+
+#: datetimeplugin.cpp:100
+#, kde-format
+msgid "Cannot change date of file %1. (Cannot mktime)"
+msgstr "Nije moguće promijeniti datum datoteke %1. (mktime nije uspio)"
+
+#: datetimeplugin.cpp:106
+#, kde-format
+msgid "Cannot change date of file %1. (Cannot stat the file)"
+msgstr "Nije moguće promijeniti datum datoteke %1. (stat datoteke nije uspio)"
+
+#: datetimeplugin.cpp:116
+#, kde-format
+msgid "Cannot change date of file %1. (utime failed)"
+msgstr "Nije moguće promijeniti datum datoteke %1. (utime nije uspio)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkAccess)
+#: datetimepluginwidget.ui:19
+#, kde-format
+msgid "Change &access date && time"
+msgstr "Promijeni datum i vrijeme &pristupa"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkModification)
+#: datetimepluginwidget.ui:26
+#, kde-format
+msgid "Change &modifcation date && time"
+msgstr "Promijeni datum i vrijeme &izmjene"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: datetimepluginwidget.ui:35
+#, kde-format
+msgid "Time:"
+msgstr "Vrijeme:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCurrent)
+#: datetimepluginwidget.ui:63
+#, kde-format
+msgid "Get &Current Time"
+msgstr "Dohvati &trenutno vrijeme"
+
+#: dirsortplugin.cpp:29
+#, kde-format
+msgid "Subfolder-Sort Plugin"
+msgstr "Dodatak za razvrstavanje u podmape"
+
+#: dirsortplugin.cpp:91
+#, kde-format
+msgid "%1: The output folder %2 does not exist."
+msgstr "%1: Izlazna mapa %2 ne postoji."
+
+#: dirsortplugin.cpp:153
+#, kde-format
+msgid "Cannot create folder %1"
+msgstr "Nije moguće stvoriti mapu %1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dirsortpluginwidget.ui:25
+#, kde-format
+msgid ""
+"This plugin sorts files into numbered subfolders after renaming.\n"
+"\n"
+"Example:\n"
+"\tfolder/001/file1\n"
+"\tfolder/001/file2\n"
+"\tfolder/002/file3\n"
+"\tfolder/002/file4\n"
+"\tfolder/003/file5\n"
+"\t..."
+msgstr ""
+"Ovaj dodatak razvrstava datoteke u numerirane podmape nakon preimenovanja.\n"
+"\n"
+"Primjer:\n"
+"\tfolder/001/file1\n"
+"\tfolder/001/file2\n"
+"\tfolder/002/file3\n"
+"\tfolder/002/file4\n"
+"\tfolder/003/file5\n"
+"\t..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dirsortpluginwidget.ui:32
+#, kde-format
+msgid "&Options:"
+msgstr "&Mogućnosti:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dirsortpluginwidget.ui:38
+#, kde-format
+msgid "Number of &files per folder:"
+msgstr "Broj &datoteka po mapi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dirsortpluginwidget.ui:58
+#, kde-format
+msgid "&Start index:"
+msgstr "&Početni indeks:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dirsortpluginwidget.ui:75
+#, kde-format
+msgid "Number &of digits:"
+msgstr "Broj &znamenki:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dirsortpluginwidget.ui:98
+#, kde-format
+msgid "Out&put:"
+msgstr "&Izlaz:"
+
+#: exiv2plugin.cpp:284
+#, kde-format
+msgid "Insert the comment of an image"
+msgstr "Umetni komentar slike"
+
+#: exiv2plugin.cpp:351
+#, kde-format
+msgid "Exiv2 (JPEG/TIFF Exif) Plugin"
+msgstr "Exiv2 (JPEG/TIFF Exif) dodatak"
+
+#: exiv2plugin.cpp:352
+#, kde-format
+msgid "<qt>This plugin supports reading tags from JPEG and TIFF files.</qt>"
+msgstr "<qt>Ovaj dodatak podržava čitanje oznaka iz JPEG i TIFF datoteka.</qt>"
+
+#: filedialogextwidget.cpp:37
+#, kde-format
+msgid "Add folder names &with filenames"
+msgstr "Dodaj nazive mapa &s nazivima datoteka"
+
+#: filedialogextwidget.cpp:38
+#, kde-format
+msgid "Add subfolders &recursively"
+msgstr "Dodaj podmape &rekurzivno"
+
+#: filedialogextwidget.cpp:39
+#, kde-format
+msgid "Add &hidden folders"
+msgstr "Dodaj &skrivene mape"
+
+#: filedialogextwidget.cpp:40
+#, kde-format
+msgid "Add folder names only"
+msgstr "Dodaj samo nazive mapa"
+
+#: filedialogextwidget.cpp:56
+#, kde-format
+msgid ""
+"Walk recursively through the folder tree and also add the content of all "
+"subfolders to the list of files to rename."
+msgstr ""
+"Rekurzivno prođi kroz stablo mapa i dodaj sadržaj svih podmapa na popis "
+"datoteka za preimenovanje."
+
+#: filedialogextwidget.cpp:58
+#, kde-format
+msgid ""
+"If not checked, KRename will ignore folders starting with a dot during "
+"recursive adding."
+msgstr ""
+"Ako nije označeno, KRename će pri rekurzivnom dodavanju zanemariti mape koje "
+"počinju točkom."
+
+#: filedialogextwidget.cpp:60
+#, kde-format
+msgid ""
+"Add only the folder names and not the names of the files in the folder to "
+"KRename."
+msgstr ""
+"U KRename dodaj samo nazive mapa, a ne i nazive datoteka u mapi."
+
+#: filedialogextwidget.cpp:62
+#, kde-format
+msgid ""
+"This option causes KRename to also add the name of the base folder of the "
+"selected files to its list."
+msgstr ""
+"Ova mogućnost uzrokuje da KRename na svoj popis doda i naziv osnovne mape "
+"odabranih datoteka."
+
+#: fileplugin.cpp:71
+#, kde-format
+msgid "Supported tokens:"
+msgstr "Podržani tokeni:"
+
+#: fontplugin.cpp:19
+#, kde-format
+msgid "Insert the PostScript name for Type1 and TrueType fonts."
+msgstr "Umetni PostScript naziv za Type1 i TrueType fontove."
+
+#: fontplugin.cpp:20
+#, kde-format
+msgid "Insert the (usually English) name of the font family."
+msgstr "Umetni (obično engleski) naziv obitelji fonta."
+
+#: fontplugin.cpp:21
+#, kde-format
+msgid "Insert the (usually English) name of the font style."
+msgstr "Umetni (obično engleski) naziv stila fonta."
+
+#: fontplugin.cpp:23
+#, kde-format
+msgid "Font (FreeType2) Plugin"
+msgstr "Dodatak za fontove (FreeType2)"
+
+#: fontplugin.cpp:24
+#, kde-format
+msgid "<qt>This plugin supports reading tags from font files.</qt>"
+msgstr "<qt>Ovaj dodatak podržava čitanje oznaka iz datoteka fontova.</qt>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: guimodeselector.ui:22
+#, kde-format
+msgid "Look and Feel"
+msgstr "Izgled i dojam"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guimodeselector.ui:34
+#, kde-format
+msgid "Configure the look and feel of the KRename GUI:"
+msgstr "Podesite izgled i dojam KRename sučelja:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionWizard)
+#: guimodeselector.ui:57
+#, kde-format
+msgid "Use &assistant style GUI (beginners)"
+msgstr "Koristi sučelje u stilu &čarobnjaka (početnici)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionTabs)
+#: guimodeselector.ui:67
+#, kde-format
+msgid "Use &tabbed style GUI (advanced users)"
+msgstr "Koristi sučelje u stilu &kartica (napredni korisnici)"
+
+#: increasecounterplugin.cpp:25
+#, kde-format
+msgid "Increase Counter"
+msgstr "Povećaj brojač"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: increasecounterpluginwidget.ui:17
+#, kde-format
+msgid "&Increase Counter"
+msgstr "&Povećaj brojač"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: increasecounterpluginwidget.ui:24
+#, kde-format
+msgid ""
+"<p><b>This plugin adds a given offset to numbers in filenames.</b><br/>\n"
+"E.g. you have the filenames: <i>img014</i>, <i>img015</i>, <i>img023</i> "
+"which should be named <i>img010</i>, <i>img011</i> and <i>img019</i>. Using "
+"this plugin, you can easily add an offset of -4 to get the desired result.</"
+"p>"
+msgstr ""
+"<p><b>Ovaj dodatak dodaje zadani pomak brojevima u nazivima datoteka.</b><br/"
+">\n"
+"Npr. imate datoteke: <i>img014</i>, <i>img015</i>, <i>img023</i> koje bi "
+"trebale biti nazvane <i>img010</i>, <i>img011</i> i <i>img019</i>. Pomoću "
+"ovog dodatka lako možete dodati pomak -4 i dobiti željeni rezultat.</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: increasecounterpluginwidget.ui:49
+#, kde-format
+msgid "Offse&t:"
+msgstr "Pomak (&t):"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupOptions)
+#: krenamedestination.ui:31
+#, kde-format
+msgid "&Options"
+msgstr "&Mogućnosti"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionRename)
+#: krenamedestination.ui:52
+#, kde-format
+msgid "&Rename input files"
+msgstr "&Preimenuj ulazne datoteke"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionCopy)
+#: krenamedestination.ui:62
+#, kde-format
+msgid "&Copy files to destination folder"
+msgstr "&Kopiraj datoteke u odredišnu mapu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionMove)
+#: krenamedestination.ui:69
+#, kde-format
+msgid "&Move files to destination folder"
+msgstr "&Premjesti datoteke u odredišnu mapu"
+
+#. i18n: ectx: property (text), widget (QRadioButton, optionLink)
+#: krenamedestination.ui:76
+#, kde-format
+msgid "Create symbolic &links in destination folder"
+msgstr "Stvori simboličke &poveznice u odredišnoj mapi"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkOverwrite)
+#: krenamedestination.ui:99
+#, kde-format
+msgid "&Overwrite existing files"
+msgstr "&Prepiši postojeće datoteke"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAdvanced)
+#: krenamefilename.ui:27
+#, kde-format
+msgid "&Advanced Filename"
+msgstr "&Napredni naziv datoteke"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTemplate)
+#: krenamefilename.ui:50
+#, kde-format
+msgid "&Template:"
+msgstr "&Predložak:"
+
+#. i18n: ectx: property (toolTip), widget (ExtHistoryCombo, filenameTemplate)
+#: krenamefilename.ui:66
+#, kde-format
+msgid "<qt>Enter a template for changing the filename.</qt>"
+msgstr "<qt>Unesite predložak za promjenu naziva datoteke.</qt>"
+
+#. i18n: ectx: property (text), item, widget (ExtHistoryCombo, filenameTemplate)
+#. i18n: ectx: property (text), item, widget (ExtHistoryCombo, extensionTemplate)
+#: krenamefilename.ui:73 krenamefilename.ui:104
+#, kde-format
+msgid "$"
+msgstr "$"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDot)
+#: krenamefilename.ui:81
+#, kde-format
+msgid "<p><b>.</b></p>"
+msgstr "<p><b>.</b></p>"
+
+#. i18n: ectx: property (toolTip), widget (ExtHistoryCombo, extensionTemplate)
+#: krenamefilename.ui:97
+#, kde-format
+msgid "<qt>Enter a template for changing the file extension.</qt>"
+msgstr "<qt>Unesite predložak za promjenu nastavka datoteke.</qt>"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonFunctions)
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonHelp4)
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonHelp3)
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonHelp2)
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonHelp1)
+#: krenamefilename.ui:112 krenamefilename.ui:346 krenamefilename.ui:359
+#: krenamefilename.ui:436 krenamefilename.ui:490
+#, kde-format
+msgid ""
+"<qt>Insert special functions like the artist of an mp3 or the creation date "
+"of an image.</qt>"
+msgstr ""
+"<qt>Umetnite posebne funkcije poput izvođača mp3 datoteke ili datuma "
+"stvaranja slike.</qt>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonFunctions)
+#: krenamefilename.ui:115
+#, kde-format
+msgid "&Functions..."
+msgstr "&Funkcije..."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkExtension)
+#: krenamefilename.ui:141
+#, kde-format
+msgid "<qt>Keep the file extension as it is and do not change it.</qt>"
+msgstr "<qt>Zadrži nastavak datoteke kakav jest i ne mijenjaj ga.</qt>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkExtension)
+#: krenamefilename.ui:144
+#, kde-format
+msgid "&Use extension of the input file"
+msgstr "&Koristi nastavak ulazne datoteke"
+
+#. i18n: ectx: property (text), widget (QLabel, lblExtension)
+#: krenamefilename.ui:167
+#, kde-format
+msgid "F&ile extension starts at:"
+msgstr "Nastavak &datoteke počinje na:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, comboExtension)
+#: krenamefilename.ui:177
+#, kde-format
+msgid ""
+"<qt>Configure which part of the filename is considered to be the "
+"fileextension. E.g. \"First Dot\", will consider \".tar.gz\" as extension, "
+"\"Last Dot\" only \".gz\".</qt>"
+msgstr ""
+"<qt>Podesite koji se dio naziva datoteke smatra nastavkom datoteke. Npr. "
+"„Prva točka” smatrat će „.tar.gz” nastavkom, a „Zadnja točka” samo „.gz”.</"
+"qt>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:181
+#, kde-format
+msgid "First Dot"
+msgstr "Prva točka"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:186
+#, kde-format
+msgid "Last Dot"
+msgstr "Zadnja točka"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:191
+#, kde-format
+msgid "No File Extension"
+msgstr "Bez nastavka datoteke"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonFind)
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonFindSimple)
+#: krenamefilename.ui:221 krenamefilename.ui:745
+#, kde-format
+msgid ""
+"<qt>Find and replace strings and regular expressions in the renamed filename."
+"</qt>"
+msgstr ""
+"<qt>Pronađite i zamijenite nizove i regularne izraze u preimenovanom nazivu "
+"datoteke.</qt>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonFind)
+#. i18n: ectx: property (text), widget (QPushButton, buttonFindSimple)
+#: krenamefilename.ui:224 krenamefilename.ui:748 krenamesimple.ui:439
+#, kde-format
+msgid "Find &and Replace..."
+msgstr "Pronađi &i zamijeni..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonNumbering)
+#: krenamefilename.ui:234
+#, kde-format
+msgid ""
+"<qt>Configure start index, stepping and skipping for numbering of filenames."
+"</qt>"
+msgstr ""
+"<qt>Podesite početni indeks, korak i preskakanje za numeriranje naziva "
+"datoteka.</qt>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNumbering)
+#: krenamefilename.ui:237
+#, kde-format
+msgid "&Numbering..."
+msgstr "&Numeriranje..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonInsert)
+#: krenamefilename.ui:247
+#, kde-format
+msgid "<qt>Graphically select a part of a filename to insert.</qt>"
+msgstr "<qt>Grafički odaberite dio naziva datoteke za umetanje.</qt>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
+#: krenamefilename.ui:250
+#, kde-format
+msgid "&Insert Part of Filename..."
+msgstr "&Umetni dio naziva datoteke..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSimple)
+#: krenamefilename.ui:289
+#, kde-format
+msgid "&Simple Filename"
+msgstr "&Jednostavni naziv datoteke"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupFilename)
+#: krenamefilename.ui:312 krenamesimple.ui:48
+#, kde-format
+msgid "&Filename"
+msgstr "&Naziv datoteke"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSuffix)
+#: krenamefilename.ui:333 krenamesimple.ui:72
+#, kde-format
+msgid "&Suffix:"
+msgstr "&Sufiks:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilenameSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilename)
+#: krenamefilename.ui:398 krenamesimple.ui:125
+#, kde-format
+msgid "Use original name"
+msgstr "Koristi izvorni naziv"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboConvert)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilenameSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtensionSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilename)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:403 krenamefilename.ui:557 krenamesimple.ui:130
+#: krenamesimple.ui:272 partfilenamewidget.ui:70
+#, kde-format
+msgid "Convert to lower case"
+msgstr "Pretvori u mala slova"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboConvert)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilenameSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtensionSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilename)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:408 krenamefilename.ui:562 krenamesimple.ui:135
+#: krenamesimple.ui:277 partfilenamewidget.ui:75
+#, kde-format
+msgid "Convert to upper case"
+msgstr "Pretvori u velika slova"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboConvert)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilenameSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtensionSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilename)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:413 krenamefilename.ui:567 krenamesimple.ui:140
+#: krenamesimple.ui:282 partfilenamewidget.ui:80
+#, kde-format
+msgid "Capitalize"
+msgstr "Veliko početno slovo"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilenameSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboFilename)
+#: krenamefilename.ui:418 krenamesimple.ui:145
+#, kde-format
+msgid "Custom name"
+msgstr "Prilagođeni naziv"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFilename)
+#: krenamefilename.ui:426 krenamesimple.ui:153
+#, kde-format
+msgid "File&name:"
+msgstr "&Naziv datoteke:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSuffix)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPrefix)
+#: krenamefilename.ui:477 krenamefilename.ui:532 krenamesimple.ui:195
+#: krenamesimple.ui:247
+#, kde-format
+msgid "Number"
+msgstr "Broj"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSuffix)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPrefix)
+#: krenamefilename.ui:482 krenamefilename.ui:537 krenamesimple.ui:200
+#: krenamesimple.ui:252
+#, kde-format
+msgid "Date"
+msgstr "Datum"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPrefix)
+#: krenamefilename.ui:500 krenamesimple.ui:215
+#, kde-format
+msgid "&Prefix:"
+msgstr "&Prefiks:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblExtension_2)
+#. i18n: ectx: property (text), widget (QLabel, lblExtension)
+#: krenamefilename.ui:510 krenamesimple.ui:225
+#, kde-format
+msgid "&Extension:"
+msgstr "&Nastavak:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtensionSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:552 krenamesimple.ui:267
+#, kde-format
+msgid "Use original extension"
+msgstr "Koristi izvorni nastavak"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtensionSimple)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboExtension)
+#: krenamefilename.ui:572 krenamesimple.ui:287
+#, kde-format
+msgid "Custom extension"
+msgstr "Prilagođeni nastavak"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupNumber)
+#: krenamefilename.ui:647 krenamesimple.ui:344
+#, kde-format
+msgid "N&umber"
+msgstr "&Broj"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDigits)
+#: krenamefilename.ui:697 krenamesimple.ui:397
+#, kde-format
+msgid "Number of &digits:"
+msgstr "Broj &znamenki:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblIndex)
+#: krenamefilename.ui:707 krenamesimple.ui:407
+#, kde-format
+msgid "Start  &index:"
+msgstr "Početni &indeks:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonUp)
+#: krenamefilename.ui:835 krenamefiles.ui:210
+#, kde-format
+msgid "Move selected files upwards."
+msgstr "Premjesti odabrane datoteke prema gore."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonUp)
+#: krenamefilename.ui:838 krenamesimple.ui:526
+#, kde-format
+msgid "&Up"
+msgstr "&Gore"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonDown)
+#: krenamefilename.ui:845 krenamefiles.ui:220
+#, kde-format
+msgid "Move selected files downwards."
+msgstr "Premjesti odabrane datoteke prema dolje."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDown)
+#: krenamefilename.ui:848 krenamesimple.ui:533
+#, kde-format
+msgid "&Down"
+msgstr "&Dolje"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonAdd)
+#: krenamefiles.ui:53
+#, kde-format
+msgid "Add files for renaming."
+msgstr "Dodaj datoteke za preimenovanje."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonAdd)
+#: krenamefiles.ui:56 previewlist.cpp:21 replacewidget.ui:97
+#: scriptpluginwidget.ui:68
+#, kde-format
+msgid "&Add..."
+msgstr "&Dodaj..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonRemove)
+#: krenamefiles.ui:66
+#, kde-format
+msgid "Remove selected files."
+msgstr "Ukloni odabrane datoteke."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRemove)
+#: krenamefiles.ui:69
+#, kde-format
+msgid "Re&move"
+msgstr "&Ukloni"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonRemoveAll)
+#: krenamefiles.ui:76
+#, kde-format
+msgid "Remove all files."
+msgstr "Ukloni sve datoteke."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRemoveAll)
+#: krenamefiles.ui:79
+#, kde-format
+msgid "Re&move All"
+msgstr "Ukloni &sve"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: krenamefiles.ui:88
+#, kde-format
+msgid "Sort:"
+msgstr "Razvrstaj:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:99
+#, kde-format
+msgid "Unsorted"
+msgstr "Nerazvrstano"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:104
+#, kde-format
+msgid "Ascending"
+msgstr "Uzlazno"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:109
+#, kde-format
+msgid "Descending"
+msgstr "Silazno"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:114
+#, kde-format
+msgid "Numeric"
+msgstr "Numerički"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:119
+#, kde-format
+msgid "Random"
+msgstr "Nasumično"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:124
+#, kde-format
+msgid "Date (Asc.)"
+msgstr "Datum (uzl.)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:129
+#, kde-format
+msgid "Date (Desc.)"
+msgstr "Datum (sil.)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboSort)
+#: krenamefiles.ui:134
+#, kde-format
+msgid "Custom ..."
+msgstr "Prilagođeno ..."
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkPreview)
+#: krenamefiles.ui:151
+#, kde-format
+msgid "Display a preview image for each file."
+msgstr "Prikaži sliku pretpregleda za svaku datoteku."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkPreview)
+#: krenamefiles.ui:154
+#, kde-format
+msgid "&Preview"
+msgstr "&Pretpregled"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkName)
+#: krenamefiles.ui:161
+#, kde-format
+msgid "Display the filename together with the preview."
+msgstr "Prikaži naziv datoteke zajedno s pretpregledom."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkName)
+#: krenamefiles.ui:164
+#, kde-format
+msgid "&Display name"
+msgstr "&Prikaži naziv"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCount)
+#: krenamefiles.ui:174
+#, kde-format
+msgid "Files: <b>0</b>"
+msgstr "Datoteke: <b>0</b>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonUp)
+#: krenamefiles.ui:213
+#, kde-format
+msgid "Up"
+msgstr "Gore"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDown)
+#: krenamefiles.ui:223
+#, kde-format
+msgid "Down"
+msgstr "Dolje"
+
+#: krenameimpl.cpp:355
+#, kde-format
+msgid "Do you really want to remove all files from the list?"
+msgstr "Želite li doista ukloniti sve datoteke s popisa?"
+
+#: krenameimpl.cpp:356 main.cpp:45
+#, kde-format
+msgid "KRename"
+msgstr "KRename"
+
+#: krenameimpl.cpp:474
+#, kde-format
+msgid "old filename"
+msgstr "stari naziv datoteke"
+
+#: krenameimpl.cpp:475
+#, kde-format
+msgid "old filename converted to lower case"
+msgstr "stari naziv datoteke pretvoren u mala slova"
+
+#: krenameimpl.cpp:476
+#, kde-format
+msgid "old filename converted to upper case"
+msgstr "stari naziv datoteke pretvoren u velika slova"
+
+#: krenameimpl.cpp:477
+#, kde-format
+msgid "first letter of every word upper case"
+msgstr "prvo slovo svake riječi veliko"
+
+#: krenameimpl.cpp:478
+#, kde-format
+msgid "first letter of filename upper case"
+msgstr "prvo slovo naziva datoteke veliko"
+
+#: krenameimpl.cpp:479
+#, kde-format
+msgid "number (try also ##, ###, ... for leading zeros)"
+msgstr "broj (isprobajte i ##, ###, ... za vodeće nule)"
+
+#: krenameimpl.cpp:480
+#, kde-format
+msgid "counter with custom start value 0 and custom stepping 1"
+msgstr "brojač s prilagođenom početnom vrijednošću 0 i prilagođenim korakom 1"
+
+#: krenameimpl.cpp:481
+#, kde-format
+msgid "create a subfolder"
+msgstr "stvori podmapu"
+
+#: krenameimpl.cpp:482
+#, kde-format
+msgid "character x to y of old filename"
+msgstr "znakovi od x do y starog naziva datoteke"
+
+#: krenameimpl.cpp:483
+#, kde-format
+msgid "y characters of old filename starting at x"
+msgstr "y znakova starog naziva datoteke počevši od x"
+
+#: krenameimpl.cpp:484
+#, kde-format
+msgid "insert name of folder"
+msgstr "umetni naziv mape"
+
+#: krenameimpl.cpp:485
+#, kde-format
+msgid "insert name of parent folder"
+msgstr "umetni naziv nadređene mape"
+
+#: krenameimpl.cpp:486
+#, kde-format
+msgid ""
+"insert a '/' to create a new subfolder (useful from within regular "
+"expressions)"
+msgstr ""
+"umetni „/” za stvaranje nove podmape (korisno unutar regularnih izraza)"
+
+#: krenameimpl.cpp:487
+#, kde-format
+msgid "insert the length of the input filename"
+msgstr "umetni duljinu ulaznog naziva datoteke"
+
+#: krenameimpl.cpp:488
+#, kde-format
+msgid "strip whitespaces leading and trailing"
+msgstr "ukloni vodeće i prateće bjeline"
+
+#: krenameimpl.cpp:489
+#, kde-format
+msgid "strip whitespaces leading and trailing of an arbitrary string"
+msgstr "ukloni vodeće i prateće bjeline proizvoljnog niza"
+
+#: krenameimpl.cpp:490
+#, kde-format
+msgid "Built-in Functions"
+msgstr "Ugrađene funkcije"
+
+#: krenameimpl.cpp:493
+#, kde-format
+msgid "Insert '$'"
+msgstr "Umetni „$”"
+
+#: krenameimpl.cpp:494
+#, kde-format
+msgid "Insert '%'"
+msgstr "Umetni „%”"
+
+#: krenameimpl.cpp:495
+#, kde-format
+msgid "Insert '&'"
+msgstr "Umetni „&”"
+
+#: krenameimpl.cpp:496
+#, kde-format
+msgid "Insert '*'"
+msgstr "Umetni „*”"
+
+#: krenameimpl.cpp:497
+#, kde-format
+msgid "Insert '/'"
+msgstr "Umetni „/”"
+
+#: krenameimpl.cpp:498
+#, kde-format
+msgid "Insert '\\\\'"
+msgstr "Umetni „\\\\”"
+
+#: krenameimpl.cpp:499
+#, kde-format
+msgid "Insert '['"
+msgstr "Umetni „[”"
+
+#: krenameimpl.cpp:500
+#, kde-format
+msgid "Insert ']'"
+msgstr "Umetni „]”"
+
+#: krenameimpl.cpp:501
+#, kde-format
+msgid "Insert '#'"
+msgstr "Umetni „#”"
+
+#: krenameimpl.cpp:502
+#, kde-format
+msgid "Special Characters"
+msgstr "Posebni znakovi"
+
+#: krenameimpl.cpp:543
+#, kde-format
+msgid "Starting conversion of %1 file."
+msgid_plural "Starting conversion of %1 files."
+msgstr[0] "Pokretanje pretvorbe %1 datoteke."
+msgstr[1] "Pokretanje pretvorbe %1 datoteke."
+msgstr[2] "Pokretanje pretvorbe %1 datoteka."
+
+#: krenameimpl.cpp:555
+#, kde-format
+msgid "The folder %1 does not exist. Do you want KRename to create it for you?"
+msgstr "Mapa %1 ne postoji. Želite li da je KRename stvori za vas?"
+
+#: krenameimpl.cpp:565
+#, kde-format
+msgid "The folder %1 could not be created."
+msgstr "Mapu %1 nije moguće stvoriti."
+
+#: krenamemodel.cpp:425
+#, kde-format
+msgid "Origin"
+msgstr "Izvor"
+
+#: krenamemodel.cpp:425
+#, kde-format
+msgid "Renamed"
+msgstr "Preimenovano"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listPlugins)
+#: krenameplugins.ui:42
+#, kde-format
+msgid "Plugins"
+msgstr "Dodaci"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnablePlugin)
+#: krenameplugins.ui:60
+#, kde-format
+msgid "&Enable Plugin"
+msgstr "&Omogući dodatak"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp4)
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp3)
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp2)
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp1)
+#: krenamesimple.ui:85 krenamesimple.ui:95 krenamesimple.ui:163
+#: krenamesimple.ui:208
+#, kde-format
+msgid "?"
+msgstr "?"
+
+#: krenamewindow.cpp:36
+msgid "&1. Files"
+msgstr "&1. Datoteke"
+
+#: krenamewindow.cpp:37
+msgid "&2. Destination"
+msgstr "&2. Odredište"
+
+#: krenamewindow.cpp:38
+msgid "&3. Plugins"
+msgstr "&3. Dodaci"
+
+#: krenamewindow.cpp:39
+msgid "&4. Filename"
+msgstr "&4. Naziv datoteke"
+
+#: krenamewindow.cpp:194
+#, kde-format
+msgid "&Finish"
+msgstr "&Završi"
+
+#: krenamewindow.cpp:438
+#, kde-format
+msgid "<b>Files:</b> %1"
+msgstr "<b>Datoteke:</b> %1"
+
+#: main.cpp:47
+#, kde-format
+msgid ""
+"KRename is a batch file renamer which can rename a list of files based on a "
+"set of expressions."
+msgstr ""
+"KRename je alat za skupno preimenovanje datoteka koji može preimenovati "
+"popis datoteka na temelju skupa izraza."
+
+#: main.cpp:50
+#, kde-format
+msgid ""
+"If you like KRename you may want to support it. Testing, bug fixes and "
+"feature requests are as welcome as financial support (everybody needs "
+"money ;). See help files for details."
+msgstr ""
+"Ako vam se sviđa KRename, možda ga želite poduprijeti. Testiranje, "
+"ispravci grešaka i zahtjevi za značajkama jednako su dobrodošli kao i "
+"financijska podrška (svima treba novac ;). Pojedinosti potražite u "
+"datotekama pomoći."
+
+#: main.cpp:54
+#, kde-format
+msgid "(c) 2001-2012, Dominik Seichter\n"
+msgstr "(c) 2001.–2012., Dominik Seichter\n"
+
+#: main.cpp:57
+#, kde-format
+msgid "Heiko Becker"
+msgstr "Heiko Becker"
+
+#: main.cpp:57
+#, kde-format
+msgid "Current maintainer"
+msgstr "Trenutni održavatelj"
+
+#: main.cpp:59
+#, kde-format
+msgid "Dominik Seichter"
+msgstr "Dominik Seichter"
+
+#: main.cpp:59
+#, kde-format
+msgid "Developer and former maintainer"
+msgstr "Programer i bivši održavatelj"
+
+#: main.cpp:61
+#, kde-format
+msgid "Stefan \"Stonki\" Onken"
+msgstr "Stefan „Stonki” Onken"
+
+#: main.cpp:62
+#, kde-format
+msgid "Website, testing, very good ideas and keeping me coding!"
+msgstr "Web-stranica, testiranje, vrlo dobre ideje i poticaj da nastavim programirati!"
+
+#: main.cpp:65
+#, kde-format
+msgid "Arpad Biro"
+msgstr "Arpad Biro"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"Helped to fix style guide issues and made improvements to user messages."
+msgstr ""
+"Pomogao je ispraviti probleme sa stilskim vodičem i poboljšao poruke "
+"korisniku."
+
+#: main.cpp:66
+#, kde-format
+msgid "Trevor Semeniuk"
+msgstr "Trevor Semeniuk"
+
+#: main.cpp:66
+#, kde-format
+msgid "Thanks to him for creating RedHat 7.x packages and some other help."
+msgstr "Hvala mu na izradi RedHat 7.x paketa i drugoj pomoći."
+
+#: main.cpp:68
+#, kde-format
+msgid "Groult Richard"
+msgstr "Groult Richard"
+
+#: main.cpp:68
+#, kde-format
+msgid ""
+"Fixed a bug with startIndex and added the BatchRenamer class\n"
+"to his excellent image viewer showimg."
+msgstr ""
+"Ispravio je grešku sa startIndex i dodao klasu BatchRenamer\n"
+"u svoj izvrsni preglednik slika showimg."
+
+#: main.cpp:71
+#, kde-format
+msgid "Michael Elvers"
+msgstr "Michael Elvers"
+
+#: main.cpp:71
+#, kde-format
+msgid "Fixed a bug that caused krename not closing open files."
+msgstr "Ispravio je grešku zbog koje krename nije zatvarao otvorene datoteke."
+
+#: main.cpp:73
+#, kde-format
+msgid "Andreas Pour"
+msgstr "Andreas Pour"
+
+#: main.cpp:73
+#, kde-format
+msgid ""
+"Thanks for his great job at apps.kde.com and help with contributing krename "
+"to apps.kde.com."
+msgstr ""
+"Hvala mu na izvrsnom radu na apps.kde.com i pomoći pri objavi krenamea na "
+"apps.kde.com."
+
+#: main.cpp:75
+#, kde-format
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: main.cpp:75
+#, kde-format
+msgid ""
+"Thanks for noatun and the ID3/Ogg Tag code is based on his noatun modules."
+msgstr ""
+"Hvala za noatun; kôd za ID3/Ogg oznake temelji se na njegovim noatun "
+"modulima."
+
+#: main.cpp:77
+#, kde-format
+msgid "Franz Schmid"
+msgstr "Franz Schmid"
+
+#: main.cpp:77
+#, kde-format
+msgid "Gave me a good start into writing plugins with his application scribus."
+msgstr "Pružio mi je dobar početak u pisanju dodataka svojom aplikacijom scribus."
+
+#: main.cpp:79
+#, kde-format
+msgid "Rolf Magnus"
+msgstr "Rolf Magnus"
+
+#: main.cpp:79
+#, kde-format
+msgid ""
+"Parts of the PNG support are copied from his KFile plugin for png support."
+msgstr ""
+"Dijelovi PNG podrške preuzeti su iz njegovog KFile dodatka za podršku png-a."
+
+#: main.cpp:81
+#, kde-format
+msgid "Michael v.Ostheim"
+msgstr "Michael v.Ostheim"
+
+#: main.cpp:81
+#, kde-format
+msgid "Created the Gentoo Ebuild scripts for KRename."
+msgstr "Izradio je Gentoo Ebuild skripte za KRename."
+
+#: main.cpp:83
+#, kde-format
+msgid "Brandon Low"
+msgstr "Brandon Low"
+
+#: main.cpp:83
+#, kde-format
+msgid "Some GCC 3.1 fixes for Gentoo."
+msgstr "Neki GCC 3.1 ispravci za Gentoo."
+
+#: main.cpp:85
+#, kde-format
+msgid "Per Oyvind Karlsen"
+msgstr "Per Oyvind Karlsen"
+
+#: main.cpp:85
+#, kde-format
+msgid "Thanks for creating the Mandrake RPM"
+msgstr "Hvala na izradi Mandrake RPM-a"
+
+#: main.cpp:87
+#, kde-format
+msgid "Vincenzo Reale"
+msgstr "Vincenzo Reale"
+
+#: main.cpp:87
+#, kde-format
+msgid "Italian translation"
+msgstr "Talijanski prijevod"
+
+#: main.cpp:88
+#, kde-format
+msgid "Daniele Medri"
+msgstr "Daniele Medri"
+
+#: main.cpp:88
+#, kde-format
+msgid "Italian translation work"
+msgstr "Rad na talijanskom prijevodu"
+
+#: main.cpp:89
+#, kde-format
+msgid "Stephan Johach"
+msgstr "Stephan Johach"
+
+#: main.cpp:89
+#, kde-format
+msgid "Provided a gcc3.x namespace patch"
+msgstr "Pružio je gcc3.x zakrpu za imenske prostore"
+
+#: main.cpp:90
+#, kde-format
+msgid "Michael Zugaro"
+msgstr "Michael Zugaro"
+
+#: main.cpp:90
+#, kde-format
+msgid "Provided the new preview and move features"
+msgstr "Pružio je nove značajke pretpregleda i premještanja"
+
+#: main.cpp:91
+#, kde-format
+msgid "Rene Gass"
+msgstr "Rene Gass"
+
+#: main.cpp:91
+#, kde-format
+msgid ""
+"Fixed problems with the spec file and contributed rpms for every SuSE "
+"version you can imagine and is also the new Gentoo maintainer for KRename"
+msgstr ""
+"Ispravio je probleme sa spec datotekom i doprinio rpm-ove za svaku "
+"zamislivu SuSE inačicu, a također je i novi Gentoo održavatelj KRenamea"
+
+#: main.cpp:92
+#, kde-format
+msgid "Mark Ziegler"
+msgstr "Mark Ziegler"
+
+#: main.cpp:92
+#, kde-format
+msgid "Provided SuSE RPMs and very good suggestions"
+msgstr "Pružio je SuSE RPM-ove i vrlo dobre prijedloge"
+
+#: main.cpp:93
+#, kde-format
+msgid "Jose Rodriguez"
+msgstr "Jose Rodriguez"
+
+#: main.cpp:93
+#, kde-format
+msgid "Contributed a Spanish translation"
+msgstr "Doprinio je španjolskim prijevodom"
+
+#: main.cpp:94
+#, kde-format
+msgid "Steven P. Ulrick"
+msgstr "Steven P. Ulrick"
+
+#: main.cpp:94
+#, kde-format
+msgid "Provided a RedHat RPM and was big help in improving KRename"
+msgstr "Pružio je RedHat RPM i bio velika pomoć u poboljšanju KRenamea"
+
+#: main.cpp:95
+#, kde-format
+msgid "UTUMI Hirosi"
+msgstr "UTUMI Hirosi"
+
+#: main.cpp:95
+#, kde-format
+msgid "Translated KRename to Japanese"
+msgstr "Preveo je KRename na japanski"
+
+#: main.cpp:96
+#, kde-format
+msgid "Nicolas Benoit"
+msgstr "Nicolas Benoit"
+
+#: main.cpp:96
+#, kde-format
+msgid "Translated KRename into French"
+msgstr "Preveo je KRename na francuski"
+
+#: main.cpp:97
+#, kde-format
+msgid "Krzysztof Pawlak"
+msgstr "Krzysztof Pawlak"
+
+#: main.cpp:97
+#, kde-format
+msgid "Translated KRename into Polish"
+msgstr "Preveo je KRename na poljski"
+
+#: main.cpp:98
+#, kde-format
+msgid "Ilya Ivkov"
+msgstr "Ilya Ivkov"
+
+#: main.cpp:98
+#, kde-format
+msgid "Translated KRename into Russian"
+msgstr "Preveo je KRename na ruski"
+
+#: main.cpp:99
+#, kde-format
+msgid "Asim Husanovic"
+msgstr "Asim Husanovic"
+
+#: main.cpp:99
+#, kde-format
+msgid "Translated KRename into Bosnian"
+msgstr "Preveo je KRename na bosanski"
+
+#: main.cpp:100
+#, kde-format
+msgid "Michal Smoczyk"
+msgstr "Michal Smoczyk"
+
+#: main.cpp:100
+#, kde-format
+msgid "Polish Translation"
+msgstr "Poljski prijevod"
+
+#: main.cpp:101
+#, kde-format
+msgid "Pavel Fric"
+msgstr "Pavel Fric"
+
+#: main.cpp:101
+#, kde-format
+msgid "Czech Translation"
+msgstr "Češki prijevod"
+
+#: main.cpp:102
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Roko Tomović"
+
+#: main.cpp:103
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "roko@maesdbk.hr"
+
+#: main.cpp:111
+#, kde-format
+msgid "Files to be added to the list to be renamed"
+msgstr "Datoteke koje će se dodati na popis za preimenovanje"
+
+#: main.cpp:111
+#, kde-format
+msgid "[files...]"
+msgstr "[datoteke...]"
+
+#: main.cpp:112
+#, kde-format
+msgid "add folder recursively"
+msgstr "dodaj mapu rekurzivno"
+
+#: main.cpp:112
+#, kde-format
+msgid "folder"
+msgstr "mapa"
+
+#: main.cpp:113
+#, kde-format
+msgid "set a template"
+msgstr "postavi predložak"
+
+#: main.cpp:114
+#, kde-format
+msgid "set a template for the file extension"
+msgstr "postavi predložak za nastavak datoteke"
+
+#: main.cpp:115
+#, kde-format
+msgid "enable a plugin for use"
+msgstr "omogući dodatak za korištenje"
+
+#: main.cpp:116
+#, kde-format
+msgid "copy files to folder or url"
+msgstr "kopiraj datoteke u mapu ili URL"
+
+#: main.cpp:116 main.cpp:117 main.cpp:118
+#, kde-format
+msgid "path or url"
+msgstr "putanja ili URL"
+
+#: main.cpp:117
+#, kde-format
+msgid "move files to folder or url"
+msgstr "premjesti datoteke u mapu ili URL"
+
+#: main.cpp:118
+#, kde-format
+msgid "link files to folder or url"
+msgstr "poveži datoteke s mapom ili URL-om"
+
+#: main.cpp:119
+#, kde-format
+msgid "start renaming immediately"
+msgstr "odmah pokreni preimenovanje"
+
+#: main.cpp:120
+#, kde-format
+msgid "start KRename's selftest (developers only)"
+msgstr "pokreni KRenameov samotest (samo za programere)"
+
+#: main.cpp:139
+#, kde-format
+msgid ""
+"<b>KRename was started from root!</b><br>When started from root, KRename may "
+"damage your system if you do not know exactly what you are doing!"
+msgstr ""
+"<b>KRename je pokrenut kao root!</b><br>Kada je pokrenut kao root, KRename "
+"može oštetiti vaš sustav ako ne znate točno što radite!"
+
+#: main.cpp:143
+#, kde-format
+msgid "Error"
+msgstr "Pogreška"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grouNumbering)
+#: numberwidget.ui:17
+#, kde-format
+msgid "&Numbering"
+msgstr "&Numeriranje"
+
+#. i18n: ectx: property (text), widget (QLabel, labelStart)
+#: numberwidget.ui:25
+#, kde-format
+msgid "Start &index:"
+msgstr "Početni &indeks:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: numberwidget.ui:42
+#, kde-format
+msgid "&Step by:"
+msgstr "&Korak:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkReset)
+#: numberwidget.ui:61
+#, kde-format
+msgid "&Reset counter for every directory"
+msgstr "&Resetiraj brojač za svaki direktorij"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupSkip)
+#: numberwidget.ui:71
+#, kde-format
+msgid "&Skip Numbers"
+msgstr "&Preskoči brojeve"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonAdd)
+#: numberwidget.ui:84
+#, kde-format
+msgid "&Add Number"
+msgstr "&Dodaj broj"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRemove)
+#: numberwidget.ui:94
+#, kde-format
+msgid "&Remove Number"
+msgstr "&Ukloni broj"
+
+#: odfplugin.cpp:62
+#, kde-format
+msgid "OpenDocument Format (ODT, ODS, ODP) Plugin"
+msgstr "Dodatak za OpenDocument Format (ODT, ODS, ODP)"
+
+#: odfplugin.cpp:63
+#, kde-format
+msgid ""
+"<qt>This plugin supports reading metadata from files in an OpenDocument "
+"format.</qt>"
+msgstr ""
+"<qt>Ovaj dodatak podržava čitanje metapodataka iz datoteka u OpenDocument "
+"formatu.</qt>"
+
+#: odfplugin.cpp:79
+#, kde-format
+msgid "Creator of the ODF file"
+msgstr "Autor ODF datoteke"
+
+#: odfplugin.cpp:80
+#, kde-format
+msgid "Keywords of the ODF file"
+msgstr "Ključne riječi ODF datoteke"
+
+#: odfplugin.cpp:81
+#, kde-format
+msgid "Subject of the ODF file"
+msgstr "Predmet ODF datoteke"
+
+#: odfplugin.cpp:82
+#, kde-format
+msgid "Title of the ODF file"
+msgstr "Naslov ODF datoteke"
+
+#: odfplugin.cpp:83
+#, kde-format
+msgid "Generator of the ODF file"
+msgstr "Generator ODF datoteke"
+
+#: odfplugin.cpp:84
+#, kde-format
+msgid "Language of the ODF file"
+msgstr "Jezik ODF datoteke"
+
+#: odfplugin.cpp:85
+#, kde-format
+msgid "Number of pages in the ODF file"
+msgstr "Broj stranica u ODF datoteci"
+
+#: odfplugin.cpp:86
+#, kde-format
+msgid "Number of words in the ODF file"
+msgstr "Broj riječi u ODF datoteci"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: partfilenamewidget.ui:25
+#, kde-format
+msgid ""
+"<qt>Please select the part of the old filename  which should be inserted "
+"into the new filename in the textbox below:</qt>"
+msgstr ""
+"<qt>Odaberite dio starog naziva datoteke koji treba umetnuti u novi naziv "
+"datoteke u tekstnom okviru ispod:</qt>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkInvert)
+#: partfilenamewidget.ui:45
+#, kde-format
+msgid "&Invert selection"
+msgstr "&Obrni odabir"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: partfilenamewidget.ui:54
+#, kde-format
+msgid "&Convert selection:"
+msgstr "&Pretvori odabir:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboConvert)
+#: partfilenamewidget.ui:65
+#, kde-format
+msgid "No Conversion"
+msgstr "Bez pretvorbe"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPreviewDesc)
+#: partfilenamewidget.ui:90
+#, kde-format
+msgid "Preview of the generated KRename command:"
+msgstr "Pretpregled generirane KRename naredbe:"
+
+#: permissionsplugin.cpp:92
+#, kde-format
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: permissionsplugin.cpp:105
+#, kde-format
+msgid "PermissionsPlugin works only with local files. %1 is a remote file."
+msgstr "PermissionsPlugin radi samo s lokalnim datotekama. %1 je udaljena datoteka."
+
+#: permissionsplugin.cpp:110
+#, kde-format
+msgid "Cannot chmod %1."
+msgstr "Nije moguće izvršiti chmod na %1."
+
+#: permissionsplugin.cpp:119
+#, kde-format
+msgid "Cannot chown %1."
+msgstr "Nije moguće izvršiti chown na %1."
+
+#: permissionsplugin.cpp:170
+#, kde-format
+msgid "Access permissions"
+msgstr "Dozvole pristupa"
+
+#: permissionsplugin.cpp:175
+#, kde-format
+msgid "Class"
+msgstr "Klasa"
+
+#: permissionsplugin.cpp:178
+#, kde-format
+msgid "Read"
+msgstr "Čitanje"
+
+#: permissionsplugin.cpp:181
+#, kde-format
+msgid "Write"
+msgstr "Pisanje"
+
+#: permissionsplugin.cpp:184
+#, kde-format
+msgid "Exec"
+msgstr "Izvršavanje"
+
+#: permissionsplugin.cpp:190
+#, kde-format
+msgid "Special"
+msgstr "Posebno"
+
+#: permissionsplugin.cpp:193 tokensortmodedialog.cpp:28
+#, kde-format
+msgid "User"
+msgstr "Korisnik"
+
+#: permissionsplugin.cpp:196 tokensortmodedialog.cpp:26
+#, kde-format
+msgid "Group"
+msgstr "Grupa"
+
+#: permissionsplugin.cpp:199
+#, kde-format
+msgid "Others"
+msgstr "Ostali"
+
+#: permissionsplugin.cpp:202
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: permissionsplugin.cpp:205
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: permissionsplugin.cpp:208
+#, kde-format
+msgid "Sticky"
+msgstr "Sticky"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, PermissionsPluginAdvanceDialog)
+#: permissionspluginadvanceddialog.ui:13
+#, kde-format
+msgid "Dialog"
+msgstr "Dijalog"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupPermissions)
+#: permissionspluginadvanceddialog.ui:41 permissionspluginwidget.ui:26
+#, kde-format
+msgid "Access Permissions"
+msgstr "Dozvole pristupa"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkPermissions)
+#: permissionspluginwidget.ui:16
+#, kde-format
+msgid "Change &Permissions"
+msgstr "Promijeni &dozvole"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: permissionspluginwidget.ui:34
+#, kde-format
+msgid "O&wner:"
+msgstr "&Vlasnik:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOwner)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermGroup)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOthers)
+#: permissionspluginwidget.ui:51 permissionspluginwidget.ui:86
+#: permissionspluginwidget.ui:121
+#, kde-format
+msgid "Forbidden"
+msgstr "Zabranjeno"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOwner)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermGroup)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOthers)
+#: permissionspluginwidget.ui:56 permissionspluginwidget.ui:91
+#: permissionspluginwidget.ui:126
+#, kde-format
+msgid "Can Read"
+msgstr "Može čitati"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOwner)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermGroup)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboPermOthers)
+#: permissionspluginwidget.ui:61 permissionspluginwidget.ui:96
+#: permissionspluginwidget.ui:131
+#, kde-format
+msgid "Can Read & Write"
+msgstr "Može čitati i pisati"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: permissionspluginwidget.ui:69
+#, kde-format
+msgid "Gro&up:"
+msgstr "&Grupa:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: permissionspluginwidget.ui:104
+#, kde-format
+msgid "Ot&hers:"
+msgstr "&Ostali:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAdvanced)
+#: permissionspluginwidget.ui:139
+#, kde-format
+msgid "This file uses advanced permissions"
+msgstr "Ova datoteka koristi napredne dozvole"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkFolder)
+#: permissionspluginwidget.ui:148
+#, kde-format
+msgid "Is Executable/Only owner &can rename and delete folder content"
+msgstr "Izvršno je/Samo vlasnik &može preimenovati i brisati sadržaj mape"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: permissionspluginwidget.ui:170
+#, kde-format
+msgid "A&dvanced Permissions"
+msgstr "&Napredne dozvole"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkOwner)
+#: permissionspluginwidget.ui:182
+#, kde-format
+msgid "&Change Owner"
+msgstr "Promijeni &vlasnika"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupOwner)
+#: permissionspluginwidget.ui:192
+#, kde-format
+msgid "Ownership"
+msgstr "Vlasništvo"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: permissionspluginwidget.ui:198
+#, kde-format
+msgid "&User:"
+msgstr "&Korisnik:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: permissionspluginwidget.ui:224
+#, kde-format
+msgid "&Group:"
+msgstr "&Grupa:"
+
+#: podofoplugin.cpp:23
+#, kde-format
+msgid "Author of the PDF file"
+msgstr "Autor PDF datoteke"
+
+#: podofoplugin.cpp:24
+#, kde-format
+msgid "Creator of the PDF file"
+msgstr "Stvaratelj PDF datoteke"
+
+#: podofoplugin.cpp:25
+#, kde-format
+msgid "Keywords of the PDF file"
+msgstr "Ključne riječi PDF datoteke"
+
+#: podofoplugin.cpp:26
+#, kde-format
+msgid "Subject of the PDF file"
+msgstr "Predmet PDF datoteke"
+
+#: podofoplugin.cpp:27
+#, kde-format
+msgid "Title of the PDF file"
+msgstr "Naslov PDF datoteke"
+
+#: podofoplugin.cpp:28
+#, kde-format
+msgid "Producer of the PDF file"
+msgstr "Proizvođač PDF datoteke"
+
+#: podofoplugin.cpp:29
+#, kde-format
+msgid "Number of pages in the PDF file"
+msgstr "Broj stranica u PDF datoteci"
+
+#: podofoplugin.cpp:31
+#, kde-format
+msgid "PoDoFo (PDF) Plugin"
+msgstr "PoDoFo (PDF) dodatak"
+
+#: podofoplugin.cpp:32
+#, kde-format
+msgid "<qt>This plugin supports reading tags from PDF files.</qt>"
+msgstr "<qt>Ovaj dodatak podržava čitanje oznaka iz PDF datoteka.</qt>"
+
+#: previewlist.cpp:17
+#, kde-format
+msgid "&Change filename manually..."
+msgstr "&Ručno promijeni naziv datoteke..."
+
+#: previewlist.cpp:19
+#, kde-format
+msgid "&Open"
+msgstr "&Otvori"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRemove)
+#: previewlist.cpp:22 replacewidget.ui:111
+#, kde-format
+msgid "&Remove"
+msgstr "&Ukloni"
+
+#: progressdialog.cpp:19
+#, kde-format
+msgid "&Rename more..."
+msgstr "&Preimenuj još..."
+
+#: progressdialog.cpp:20
+#, kde-format
+msgid "&Undo"
+msgstr "&Poništi"
+
+#: progressdialog.cpp:21
+#, kde-format
+msgid "&Open Destination"
+msgstr "&Otvori odredište"
+
+#: progressdialog.cpp:38
+#, kde-format
+msgid "Restart &KRename..."
+msgstr "Ponovno pokreni &KRename..."
+
+#: progressdialog.cpp:40
+#, kde-format
+msgid "Rename Processed Files &Again..."
+msgstr "&Ponovno preimenuj obrađene datoteke..."
+
+#: progressdialog.cpp:41
+#, kde-format
+msgid "Rename &Unprocessed Files Again..."
+msgstr "Ponovno preimenuj &neobrađene datoteke..."
+
+#: progressdialog.cpp:42
+#, kde-format
+msgid "&Rename All Files Again..."
+msgstr "Ponovno &preimenuj sve datoteke..."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ProgressDialog)
+#: progressdialog.ui:13
+#, kde-format
+msgid "Progress"
+msgstr "Napredak"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#: progressdialog.ui:28
+#, kde-format
+msgid "&Cancel"
+msgstr "&Odustani"
+
+#: replacedialog.cpp:67
+#, kde-format
+msgid "Save Find & Replace Settings as:"
+msgstr "Spremi postavke traženja i zamjene kao:"
+
+#: replacedialog.cpp:68
+#, kde-format
+msgid "KRename Find & Replace Settings XML (*.xml)"
+msgstr "KRename XML postavki traženja i zamjene (*.xml)"
+
+#: replacedialog.cpp:77
+#, kde-format
+msgid "Failed to save the Find & Replace Settings File."
+msgstr "Spremanje datoteke postavki traženja i zamjene nije uspjelo."
+
+#: replacedialog.cpp:129
+#, kde-format
+msgid "Save Find and Replace Settings File"
+msgstr "Spremi datoteku postavki traženja i zamjene"
+
+#: replacedialog.cpp:131
+#, kde-format
+msgid "KRename Find and Replace Settings XML (*.xml)"
+msgstr "KRename XML postavki traženja i zamjene (*.xml)"
+
+#: replacedialog.cpp:139
+#, kde-format
+msgid ""
+"Failed to open the Find and Replace Settings File. Cannot read file %1:\n"
+"%2."
+msgstr ""
+"Otvaranje datoteke postavki traženja i zamjene nije uspjelo. Nije moguće "
+"pročitati datoteku %1:\n"
+"%2."
+
+#: replacedialog.cpp:150 replacedialog.cpp:161 replacedialog.cpp:166
+#: replacedialog.cpp:232
+#, kde-format
+msgid "KRename Find and Replace Settings XML File"
+msgstr "KRename XML datoteka postavki traženja i zamjene"
+
+#: replacedialog.cpp:151
+#, kde-format
+msgid ""
+"Parse error at line %1, column %2:\n"
+"%3"
+msgstr ""
+"Pogreška parsiranja u retku %1, stupcu %2:\n"
+"%3"
+
+#: replacedialog.cpp:160
+#, kde-format
+msgid "The file is not a KRename XML file."
+msgstr "Datoteka nije KRename XML datoteka."
+
+#: replacedialog.cpp:165
+#, kde-format
+msgid "The file is not an KRename XML version 1.0 file."
+msgstr "Datoteka nije KRename XML datoteka inačice 1.0."
+
+#: replacedialog.cpp:231
+#, kde-format
+msgid "Problem with loading KRename XML file."
+msgstr "Problem s učitavanjem KRename XML datoteke."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ReplaceWidget)
+#. i18n: ectx: property (windowTitle), widget (QDialog, ReplaceItemDlg)
+#: replaceitemdlg.ui:14 replacewidget.ui:14
+#, kde-format
+msgid "Find and Replace"
+msgstr "Pronađi i zamijeni"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: replaceitemdlg.ui:22
+#, kde-format
+msgid "&Find:"
+msgstr "&Pronađi:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: replaceitemdlg.ui:35
+#, kde-format
+msgid "&Replace With:"
+msgstr "&Zamijeni s:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkRegular)
+#: replaceitemdlg.ui:50
+#, kde-format
+msgid "Find is a Regular &Expression"
+msgstr "Traženi izraz je &regularni izraz"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkProcess)
+#: replaceitemdlg.ui:57
+#, kde-format
+msgid "&Process tokens in replace string"
+msgstr "&Obradi tokene u nizu za zamjenu"
+
+#. i18n: ectx: property (text), widget (QTableWidget, list)
+#: replacewidget.ui:32
+#, kde-format
+msgid "Reg. Expression"
+msgstr "Reg. izraz"
+
+#. i18n: ectx: property (text), widget (QTableWidget, list)
+#: replacewidget.ui:37
+#, kde-format
+msgid "Find"
+msgstr "Pronađi"
+
+#. i18n: ectx: property (text), widget (QTableWidget, list)
+#: replacewidget.ui:42
+#, kde-format
+msgid "Replace With"
+msgstr "Zamijeni s"
+
+#. i18n: ectx: property (text), widget (QTableWidget, list)
+#: replacewidget.ui:47
+#, kde-format
+msgid "Process Tokens"
+msgstr "Obradi tokene"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonSaveList)
+#: replacewidget.ui:70
+#, kde-format
+msgid "&Save Settings..."
+msgstr "&Spremi postavke..."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonLoadList)
+#: replacewidget.ui:77
+#, kde-format
+msgid "&Load Settings..."
+msgstr "&Učitaj postavke..."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonEdit)
+#: replacewidget.ui:104
+#, kde-format
+msgid "&Edit..."
+msgstr "&Uredi..."
+
+#: scriptplugin.cpp:89
+#, kde-format
+msgid "JavaScript Plugin"
+msgstr "JavaScript dodatak"
+
+#: scriptplugin.cpp:96
+#, kde-format
+msgid "Insert a snippet of JavaScript code (4+5 in this case)"
+msgstr "Umetni isječak JavaScript koda (u ovom slučaju 4+5)"
+
+#: scriptplugin.cpp:98
+#, kde-format
+msgid "Index of the current file"
+msgstr "Indeks trenutne datoteke"
+
+#: scriptplugin.cpp:99
+#, kde-format
+msgid "URL of the current file"
+msgstr "URL trenutne datoteke"
+
+#: scriptplugin.cpp:100
+#, kde-format
+msgid "Filename of the current file"
+msgstr "Naziv trenutne datoteke"
+
+#: scriptplugin.cpp:101
+#, kde-format
+msgid "Extension of the current file"
+msgstr "Nastavak trenutne datoteke"
+
+#: scriptplugin.cpp:102
+#, kde-format
+msgid "Directory of the current file"
+msgstr "Direktorij trenutne datoteke"
+
+#: scriptplugin.cpp:154
+#, kde-format
+msgid "Variable Name"
+msgstr "Naziv varijable"
+
+#: scriptplugin.cpp:155
+#, kde-format
+msgid "Initial Value"
+msgstr "Početna vrijednost"
+
+#: scriptplugin.cpp:247
+#, kde-format
+msgid "String"
+msgstr "Niz"
+
+#: scriptplugin.cpp:248
+#, kde-format
+msgid "Int"
+msgstr "Int"
+
+#: scriptplugin.cpp:249
+#, kde-format
+msgid "Double"
+msgstr "Double"
+
+#: scriptplugin.cpp:250
+#, kde-format
+msgid "Boolean"
+msgstr "Boolean"
+
+#: scriptplugin.cpp:265
+#, kde-format
+msgid "A JavaScript error has occurred: "
+msgstr "Dogodila se JavaScript pogreška: "
+
+#: scriptplugin.cpp:289
+#, kde-format
+msgid ""
+"All currently entered definitions will be lost. Do you want to continue?"
+msgstr ""
+"Sve trenutno unesene definicije bit će izgubljene. Želite li nastaviti?"
+
+#: scriptplugin.cpp:296 scriptplugin.cpp:315
+#, kde-format
+msgid "Select file"
+msgstr "Odaberi datoteku"
+
+#: scriptplugin.cpp:326
+#, kde-format
+msgid "The file %1 already exists. Do you want to overwrite it?"
+msgstr "Datoteka %1 već postoji. Želite li je prepisati?"
+
+#: scriptplugin.cpp:344
+#, kde-format
+msgid "Unable to open %1 for writing."
+msgstr "Nije moguće otvoriti %1 za pisanje."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ScriptPluginDialog)
+#: scriptplugindialog.ui:20
+#, kde-format
+msgid "Create Variable"
+msgstr "Stvori varijablu"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: scriptplugindialog.ui:28
+#, kde-format
+msgid "&Name:"
+msgstr "&Naziv:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: scriptplugindialog.ui:41
+#, kde-format
+msgid "&Initial Value:"
+msgstr "&Početna vrijednost:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: scriptplugindialog.ui:54
+#, kde-format
+msgid "&Type:"
+msgstr "&Vrsta:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: scriptpluginwidget.ui:24
+#, kde-format
+msgid "&Variables"
+msgstr "&Varijable"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescVariables)
+#: scriptpluginwidget.ui:30
+#, kde-format
+msgid "Declare global variables that can be used from within your functions:"
+msgstr "Deklarirajte globalne varijable koje se mogu koristiti unutar vaših funkcija:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listVariables)
+#: scriptpluginwidget.ui:58
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRemove)
+#: scriptpluginwidget.ui:75
+#, kde-format
+msgid "&Delete"
+msgstr "&Izbriši"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: scriptpluginwidget.ui:100
+#, kde-format
+msgid "&Definitions"
+msgstr "&Definicije"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescDef)
+#: scriptpluginwidget.ui:106
+#, kde-format
+msgid "Define functions that can be used from KRename templates:"
+msgstr "Definirajte funkcije koje se mogu koristiti iz KRename predložaka:"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonSave)
+#: scriptpluginwidget.ui:127
+#, kde-format
+msgid "&Save to File..."
+msgstr "&Spremi u datoteku..."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonLoad)
+#: scriptpluginwidget.ui:134
+#, kde-format
+msgid "&Load from File..."
+msgstr "&Učitaj iz datoteke..."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
+#: scriptpluginwidget.ui:141
+#, kde-format
+msgid "&Insert Variable"
+msgstr "&Umetni varijablu"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonTest)
+#: scriptpluginwidget.ui:164
+#, kde-format
+msgid "&Test..."
+msgstr "&Testiraj..."
+
+#: snumplugin.cpp:21
+#, kde-format
+msgid "Inserts the series number of original filename"
+msgstr "Umeće broj serije iz izvornog naziva datoteke"
+
+#: snumplugin.cpp:22
+#, kde-format
+msgid "Inserts the season number in two digits"
+msgstr "Umeće broj sezone u dvije znamenke"
+
+#: snumplugin.cpp:23
+#, kde-format
+msgid "Inserts the episode number in two or three digits"
+msgstr "Umeće broj epizode u dvije ili tri znamenke"
+
+#. i18n("Inserts the season number in at least pad digits") );
+#. m_help.append( "[episode;pad];;" + i18n("Inserts the episode number in at least pad digits") );
+#: snumplugin.cpp:27
+#, kde-format
+msgid "SeriesNumber"
+msgstr "SeriesNumber"
+
+#: snumplugin.cpp:29
+#, kde-format
+msgid ""
+"<qt>This plugin can extract information from the filename of a TV series.</"
+"qt>"
+msgstr ""
+"<qt>Ovaj dodatak može izdvojiti informacije iz naziva datoteke TV serije.</"
+"qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: startupinfowidget.ui:29
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:"
+"large; font-weight:600;\">Welcome to KRename</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">A batch file renamer by "
+"KDE.<br />To rename your files, you have to:</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:"
+"large; font-weight:600;\">Dobrodošli u KRename</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Alat za skupno "
+"preimenovanje datoteka iz KDE-a.<br />Za preimenovanje datoteka morate:</p></"
+"body></html>"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, labelAdd)
+#: startupinfowidget.ui:57
+#, kde-format
+msgid "Add some files ..."
+msgstr "Dodati neke datoteke ..."
+
+#. i18n: ectx: property (text), widget (KUrlLabel, labelTemplate)
+#: startupinfowidget.ui:71
+#, kde-format
+msgid "Specify the new filenames by giving a template ..."
+msgstr "Odrediti nove nazive datoteka zadavanjem predloška ..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: startupinfowidget.ui:93
+#, kde-format
+msgid "Hint: Undo is still possible after renaming your files."
+msgstr "Savjet: poništavanje je i dalje moguće nakon preimenovanja vaših datoteka."
+
+#: systemplugin.cpp:37
+#, kde-format
+msgid "Insert the current date"
+msgstr "Umetni trenutni datum"
+
+#: systemplugin.cpp:38
+#, kde-format
+msgid "Insert the current date using the formatting string yyyy-MM-dd"
+msgstr "Umetni trenutni datum pomoću formata yyyy-MM-dd"
+
+#: systemplugin.cpp:39
+#, kde-format
+msgid "Insert the current year"
+msgstr "Umetni trenutnu godinu"
+
+#: systemplugin.cpp:40
+#, kde-format
+msgid "Insert the current month as number"
+msgstr "Umetni trenutni mjesec kao broj"
+
+#: systemplugin.cpp:41
+#, kde-format
+msgid "Insert the current day as number"
+msgstr "Umetni trenutni dan kao broj"
+
+#: systemplugin.cpp:42
+#, kde-format
+msgid "Insert the current time"
+msgstr "Umetni trenutno vrijeme"
+
+#: systemplugin.cpp:43
+#, kde-format
+msgid "Insert the current hour as number"
+msgstr "Umetni trenutni sat kao broj"
+
+#: systemplugin.cpp:44
+#, kde-format
+msgid "Insert the current minute as number"
+msgstr "Umetni trenutnu minutu kao broj"
+
+#: systemplugin.cpp:45
+#, kde-format
+msgid "Insert the current second as number"
+msgstr "Umetni trenutnu sekundu kao broj"
+
+#: systemplugin.cpp:46
+#, kde-format
+msgid "Owner of the file"
+msgstr "Vlasnik datoteke"
+
+#: systemplugin.cpp:47
+#, kde-format
+msgid "Owning group of the file"
+msgstr "Vlasnička grupa datoteke"
+
+#: systemplugin.cpp:48
+#, kde-format
+msgid "Insert the files creation date"
+msgstr "Umetni datum stvaranja datoteke"
+
+#: systemplugin.cpp:49
+#, kde-format
+msgid "Insert the formatted file creation date"
+msgstr "Umetni formatirani datum stvaranja datoteke"
+
+#: systemplugin.cpp:50
+#, kde-format
+msgid "Insert the files modification date"
+msgstr "Umetni datum izmjene datoteke"
+
+#: systemplugin.cpp:51
+#, kde-format
+msgid "Insert the formatted modification date"
+msgstr "Umetni formatirani datum izmjene"
+
+#: systemplugin.cpp:52
+#, kde-format
+msgid "Insert the date of the last file access"
+msgstr "Umetni datum zadnjeg pristupa datoteci"
+
+#: systemplugin.cpp:53
+#, kde-format
+msgid "Insert the formatted date of the last file access"
+msgstr "Umetni formatirani datum zadnjeg pristupa datoteci"
+
+#: systemplugin.cpp:54
+#, kde-format
+msgid "Insert the file size in bytes"
+msgstr "Umetni veličinu datoteke u bajtovima"
+
+#: systemplugin.cpp:56
+#, kde-format
+msgid "Date and system functions"
+msgstr "Funkcije datuma i sustava"
+
+#: systemplugin.cpp:58
+#, kde-format
+msgid ""
+"<qt>This plugin contains tokens to get the creation, modification and last "
+"access time of files and the current system time and date.</qt>"
+msgstr ""
+"<qt>Ovaj dodatak sadrži tokene za dohvaćanje vremena stvaranja, izmjene i "
+"zadnjeg pristupa datotekama te trenutnog sistemskog vremena i datuma.</qt>"
+
+#: taglibplugin.cpp:28
+#, kde-format
+msgid "Insert the title of a track"
+msgstr "Umetni naslov skladbe"
+
+#: taglibplugin.cpp:29
+#, kde-format
+msgid "Insert the artist of a track"
+msgstr "Umetni izvođača skladbe"
+
+#: taglibplugin.cpp:30
+#, kde-format
+msgid "Insert the album of a track"
+msgstr "Umetni album skladbe"
+
+#: taglibplugin.cpp:31
+#, kde-format
+msgid "Insert the comment of a track"
+msgstr "Umetni komentar skladbe"
+
+#: taglibplugin.cpp:32
+#, kde-format
+msgid "Insert the genre of a track"
+msgstr "Umetni žanr skladbe"
+
+#: taglibplugin.cpp:33
+#, kde-format
+msgid "Insert the year of a track"
+msgstr "Umetni godinu skladbe"
+
+#: taglibplugin.cpp:34
+#, kde-format
+msgid "Insert the number of a track"
+msgstr "Umetni broj skladbe"
+
+#: taglibplugin.cpp:35
+#, kde-format
+msgid "Insert the number of a track formatted with a leading 0"
+msgstr "Umetni broj skladbe formatiran s vodećom nulom"
+
+#: taglibplugin.cpp:37
+#, kde-format
+msgid "TagLib (MP3/Ogg) Plugin"
+msgstr "TagLib (MP3/Ogg) dodatak"
+
+#: taglibplugin.cpp:38
+#, kde-format
+msgid ""
+"<qt>This plugin supports reading tags for MP3, Ogg Vorbis, FLAC, MPC, Speex "
+"WavPack and TrueAudio files.</qt>"
+msgstr ""
+"<qt>Ovaj dodatak podržava čitanje oznaka za MP3, Ogg Vorbis, FLAC, MPC, "
+"Speex, WavPack i TrueAudio datoteke.</qt>"
+
+#: tokenhelpdialog.cpp:96
+#, kde-format
+msgid "&Insert"
+msgstr "&Umetni"
+
+#: tokenhelpdialog.cpp:305
+#, kde-format
+msgid "Recent"
+msgstr "Nedavno"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TokenHelpWidget)
+#: tokenhelpwidget.ui:13
+#, kde-format
+msgid "KRename Help"
+msgstr "KRename pomoć"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: tokenhelpwidget.ui:19
+#, kde-format
+msgid ""
+"All supported tokens (commands) are listed in this dialog. You can search "
+"for tokens and insert a found token into the pattern for the filename."
+msgstr ""
+"U ovom dijalogu navedeni su svi podržani tokeni (naredbe). Možete tražiti "
+"tokene i umetnuti pronađeni token u obrazac za naziv datoteke."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listCategories)
+#: tokenhelpwidget.ui:61
+#, kde-format
+msgid "Category"
+msgstr "Kategorija"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listTokens)
+#: tokenhelpwidget.ui:95
+#, kde-format
+msgid "Token"
+msgstr "Token"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listTokens)
+#: tokenhelpwidget.ui:100
+#, kde-format
+msgid "Description"
+msgstr "Opis"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listTokens)
+#: tokenhelpwidget.ui:105
+#, kde-format
+msgid "Preview"
+msgstr "Pretpregled"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkPreview)
+#: tokenhelpwidget.ui:119
+#, kde-format
+msgid "Token &Preview"
+msgstr "&Pretpregled tokena"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPreview)
+#: tokenhelpwidget.ui:142
+#, kde-format
+msgid "Preview File:"
+msgstr "Datoteka pretpregleda:"
+
+#: tokensortmodedialog.cpp:23
+#, kde-format
+msgid "Access Date"
+msgstr "Datum pristupa"
+
+#: tokensortmodedialog.cpp:24
+#, kde-format
+msgid "Creation Date"
+msgstr "Datum stvaranja"
+
+#: tokensortmodedialog.cpp:25
+#, kde-format
+msgid "Filesize"
+msgstr "Veličina datoteke"
+
+#: tokensortmodedialog.cpp:27
+#, kde-format
+msgid "Modification Date"
+msgstr "Datum izmjene"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TokenSortModeDialog)
+#: tokensortmodedialog.ui:14
+#, kde-format
+msgid "Custom Sorting"
+msgstr "Prilagođeno razvrstavanje"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: tokensortmodedialog.ui:22
+#, kde-format
+msgid "&Sort filenames ..."
+msgstr "&Razvrstaj nazive datoteka ..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioAscending)
+#: tokensortmodedialog.ui:28
+#, kde-format
+msgid "&Ascending"
+msgstr "&Uzlazno"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioDescending)
+#: tokensortmodedialog.ui:38
+#, kde-format
+msgid "&Descending"
+msgstr "&Silazno"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioNumeric)
+#: tokensortmodedialog.ui:45
+#, kde-format
+msgid "&Numeric"
+msgstr "&Numerički"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: tokensortmodedialog.ui:61
+#, kde-format
+msgid "by"
+msgstr "prema"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: tokensortmodedialog.ui:68
+#, kde-format
+msgid "&Token ..."
+msgstr "&Token ..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioPredefined)
+#: tokensortmodedialog.ui:74
+#, kde-format
+msgid "&Predefined"
+msgstr "&Unaprijed definirano"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioCustom)
+#: tokensortmodedialog.ui:87
+#, kde-format
+msgid "&Custom"
+msgstr "&Prilagođeno"
+
+#: translitplugin.cpp:81
+#, kde-format
+msgid "Inserts the transliterated original filename"
+msgstr "Umeće transliterirani izvorni naziv datoteke"
+
+#: translitplugin.cpp:82
+#, kde-format
+msgid "Inserts the transliterated original filename converted to lower case"
+msgstr "Umeće transliterirani izvorni naziv datoteke pretvoren u mala slova"
+
+#: translitplugin.cpp:83
+#, kde-format
+msgid "Inserts the transliterated original filename converted to upper case"
+msgstr "Umeće transliterirani izvorni naziv datoteke pretvoren u velika slova"
+
+#: translitplugin.cpp:84
+#, kde-format
+msgid "Inserts the transliterated original filename capitalized"
+msgstr "Umeće transliterirani izvorni naziv datoteke s velikim početnim slovom"
+
+#: translitplugin.cpp:85
+#, kde-format
+msgid "Transliterates the string following the semicolon"
+msgstr "Transliterira niz koji slijedi iza točke sa zarezom"
+
+#: translitplugin.cpp:87
+#, kde-format
+msgid "Transliteration"
+msgstr "Transliteracija"
+
+#: translitplugin.cpp:89
+#, kde-format
+msgid ""
+"<qt>This plugin can transcribe a filename into English (i.e. perform "
+"transliteration).</qt>"
+msgstr ""
+"<qt>Ovaj dodatak može prepisati naziv datoteke na engleski (tj. izvršiti "
+"transliteraciju).</qt>"
