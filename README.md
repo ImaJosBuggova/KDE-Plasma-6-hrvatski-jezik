@@ -155,6 +155,19 @@ Ako želite isprobati ove prijevode na svom sustavu s KDE Plasma 6 okruženjem, 
 
 > Nekad je potrebno osvježiti KDE predmemoriju nakon instalacije
 
+Skripta zahtijeva GNU gettext (`msgfmt` i `msggrep`) te Python 3. Kompilira
+`.po` kataloge u `.mo` datoteke i za dostupne predloške u `/usr/share`
+izrađuje lokalizirane `.desktop` datoteke. One se instaliraju pod
+`/usr/local/share`, bez mijenjanja izvornih datoteka paketa. Ako postoji
+nekoliko mogućih različitih prijevoda, skripta ispisuje upozorenje i preskače
+dvosmisleni tekst.
+
+AppStream katalozi (`.appdata.po` i `.metainfo.po`) zasad se samo kompiliraju
+u `.mo` datoteke; to samo po sebi ne ažurira AppStream podatke u Discoveru.
+Starija verzija skripte mogla je generirati neispravne AppStream XML datoteke
+u `/usr/local/share/metainfo` ili `/usr/local/share/appdata`; ova ih verzija
+ne uklanja automatski.
+
 ### 3. Osvježavanje KDE predmemorije (Cache)
 Da bi KDE Plasma prepoznala nove prijevode, potrebno je osvježiti sistemsku predmemoriju:
 

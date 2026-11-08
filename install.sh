@@ -5,6 +5,7 @@ set -euo pipefail
 ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 OUTPUT_DIR="$ROOT_DIR/output_mo"
 LOCALE_DIR="${LOCALE_DIR:-/usr/share/locale/hr/LC_MESSAGES}"
+DATA_DIR="${DATA_DIR:-/usr/local/share}"
 COMPILE_ONLY=false
 
 case "${1:-}" in
@@ -35,6 +36,8 @@ fi
 
 declare -A CATALOGS=()
 MO_FILES=()
+DATA_FILES=()
+DATA_TARGETS=()
 
 for po_file in "${PO_FILES[@]}"; do
     filename="${po_file##*/}"
@@ -52,7 +55,17 @@ for po_file in "${PO_FILES[@]}"; do
     MO_FILES+=("$mo_file")
 done
 
+desktop_manifest="$(mktemp)"
+trap 'rm -f "$desktop_manifest"' EXIT
+python3 "$ROOT_DIR/translate_desktop.py" "$ROOT_DIR" "$OUTPUT_DIR/translated" /usr/share > "$desktop_manifest"
+while IFS= read -r -d '' relative_path; do
+    DATA_FILES+=("$OUTPUT_DIR/translated/$relative_path")
+    DATA_TARGETS+=("$DATA_DIR/$relative_path")
+done < "$desktop_manifest"
+
 printf 'Compiled %d translation catalogs into %s\n' "${#MO_FILES[@]}" "$OUTPUT_DIR"
+printf 'Prepared %d localized desktop files\n' "${#DATA_FILES[@]}"
+printf 'AppStream PO catalogs are compiled as MO files only; AppStream XML is not updated.\n' >&2
 
 if [[ "$COMPILE_ONLY" == true ]]; then
     exit 0
@@ -60,4 +73,10 @@ fi
 
 sudo install -d "$LOCALE_DIR"
 sudo install -m 0644 "${MO_FILES[@]}" "$LOCALE_DIR/"
+for index in "${!DATA_FILES[@]}"; do
+    sudo install -D -m 0644 "${DATA_FILES[$index]}" "${DATA_TARGETS[$index]}"
+done
 printf 'Installed translations into %s\n' "$LOCALE_DIR"
+if [[ ${#DATA_FILES[@]} -gt 0 ]]; then
+    printf 'Installed localized desktop files under %s\n' "$DATA_DIR"
+fi
