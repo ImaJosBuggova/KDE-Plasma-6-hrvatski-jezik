@@ -157,7 +157,9 @@ Ako želite isprobati ove prijevode na svom sustavu s KDE Plasma 6 okruženjem, 
 
 Skripta zahtijeva GNU gettext (`msgfmt` i `msggrep`) te Python 3. Kompilira
 `.po` kataloge u `.mo` datoteke te za dostupne predloške u `/usr/share`
-izrađuje lokalizirane `.desktop` i AppStream XML datoteke. Prijevodi AppStreama
+izrađuje lokalizirane `.desktop`, `.directory` i AppStream XML datoteke.
+Podržani su i `.desktop` predlošci čiji je izvor u katalogu `.desktop.cmake`.
+Prijevodi AppStreama
 dodaju se kao hrvatski `xml:lang` elementi kako bi se prikazali u Discoveru.
 Lokalizirane datoteke instaliraju se pod `/usr/local/share`, bez mijenjanja
 izvornih datoteka paketa. Ako postoji nekoliko mogućih različitih prijevoda,

@@ -12,7 +12,7 @@ import sys
 ROOT = Path(sys.argv[1])
 OUTPUT = Path(sys.argv[2])
 DATA = Path(sys.argv[3])
-REFERENCE = re.compile(r"(\S+\.desktop)(?::\d+)?(?=\s|$)")
+REFERENCE = re.compile(r"(\S+\.(?:desktop(?:\.cmake)?|directory))(?::\d+)?(?=\s|$)")
 KEY = re.compile(r"^([^=\[\]]+)(?:\[([^]]+)\])?=(.*)$")
 ESCAPES = {"s": " ", "n": "\n", "t": "\t", "r": "\r", "\\": "\\"}
 
@@ -34,10 +34,18 @@ for po in sorted(ROOT.rglob("*._desktop_.po")):
         for line in source:
             if line.startswith("#:"):
                 for source_path in REFERENCE.findall(line):
-                    references.setdefault(Path(source_path).name, set()).add((po, source_path))
+                    name = Path(source_path).name
+                    if name.endswith(".desktop.cmake"):
+                        name = name.removesuffix(".cmake")
+                    references.setdefault(name, set()).add((po, source_path))
 
 catalogs = {}
-for template in sorted(DATA.rglob("*.desktop")):
+templates = {
+    template
+    for pattern in ("*.desktop", "*.directory")
+    for template in DATA.rglob(pattern)
+}
+for template in sorted(templates):
     matches = references.get(template.name, ())
     if not matches or not template.is_file() or template.is_symlink():
         continue
