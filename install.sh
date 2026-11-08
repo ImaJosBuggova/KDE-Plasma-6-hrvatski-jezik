@@ -56,16 +56,24 @@ for po_file in "${PO_FILES[@]}"; do
 done
 
 desktop_manifest="$(mktemp)"
-trap 'rm -f "$desktop_manifest"' EXIT
+appstream_manifest="$(mktemp)"
+trap 'rm -f "$desktop_manifest" "$appstream_manifest"' EXIT
 python3 "$ROOT_DIR/translate_desktop.py" "$ROOT_DIR" "$OUTPUT_DIR/translated" /usr/share > "$desktop_manifest"
 while IFS= read -r -d '' relative_path; do
     DATA_FILES+=("$OUTPUT_DIR/translated/$relative_path")
     DATA_TARGETS+=("$DATA_DIR/$relative_path")
 done < "$desktop_manifest"
+DESKTOP_COUNT=${#DATA_FILES[@]}
+python3 "$ROOT_DIR/translate_appstream.py" "$ROOT_DIR" "$OUTPUT_DIR/translated" /usr/share > "$appstream_manifest"
+while IFS= read -r -d '' relative_path; do
+    DATA_FILES+=("$OUTPUT_DIR/translated/$relative_path")
+    DATA_TARGETS+=("$DATA_DIR/$relative_path")
+done < "$appstream_manifest"
+APPSTREAM_COUNT=$((${#DATA_FILES[@]} - DESKTOP_COUNT))
 
 printf 'Compiled %d translation catalogs into %s\n' "${#MO_FILES[@]}" "$OUTPUT_DIR"
-printf 'Prepared %d localized desktop files\n' "${#DATA_FILES[@]}"
-printf 'AppStream PO catalogs are compiled as MO files only; AppStream XML is not updated.\n' >&2
+printf 'Prepared %d localized desktop files\n' "$DESKTOP_COUNT"
+printf 'Prepared %d localized AppStream files\n' "$APPSTREAM_COUNT"
 
 if [[ "$COMPILE_ONLY" == true ]]; then
     exit 0
@@ -78,5 +86,5 @@ for index in "${!DATA_FILES[@]}"; do
 done
 printf 'Installed translations into %s\n' "$LOCALE_DIR"
 if [[ ${#DATA_FILES[@]} -gt 0 ]]; then
-    printf 'Installed localized desktop files under %s\n' "$DATA_DIR"
+    printf 'Installed localized desktop and AppStream files under %s\n' "$DATA_DIR"
 fi
